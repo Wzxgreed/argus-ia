@@ -1,5 +1,9 @@
 # Argus-IA — Installation & Configuration Rapide
 
+![CI](https://github.com/sachajoly/argus-ia/actions/workflows/ci.yml/badge.svg)
+
+> **Note :** Le badge CI ci-dessus s'activera une fois le repository poussé sur GitHub. Pour le moment, le workflow est prêt dans `.github/workflows/ci.yml`.
+
 ## 1. Prérequis
 
 - Python 3.10+
