@@ -5,7 +5,7 @@ import json
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from unittest.mock import patch
+from unittest.mock import MagicMock, patch
 
 import pytest
 
@@ -56,9 +56,10 @@ class TestValidateSchema:
 
 class TestValidateSnapshot:
     def test_valid_snapshot(self, sample_snapshot):
+        mock_now = MagicMock()
+        mock_now.strftime = MagicMock(return_value="2026-05-16")
         with patch("validate.datetime") as mock_dt:
-            mock_dt.now.return_value = datetime(2026, 5, 16, tzinfo=timezone.utc)
-            mock_dt.now(timezone.utc).strftime.return_value = "2026-05-16"
+            mock_dt.now = MagicMock(return_value=mock_now)
             issues = validate_snapshot(sample_snapshot)
             assert any("[SUMMARY]" in i for i in issues)
             assert sum(1 for i in issues if i.startswith("[ERROR]")) == 0
@@ -73,8 +74,8 @@ class TestValidateSnapshot:
         issues = validate_snapshot(bad)
         assert any("Snapshot date=" in i for i in issues)
 
-    def test_error_ticker(self, sample_snapshot_with_errors):
-        issues = validate_snapshot(sample_snapshot_with_errors)
+    def test_error_ticker(self, snapshot_with_errors):
+        issues = validate_snapshot(snapshot_with_errors)
         assert any("BADTKR: fetch failed" in i for i in issues)
 
     def test_invalid_rsi(self, sample_snapshot):
@@ -98,12 +99,13 @@ class TestValidateSnapshot:
 
 class TestMain:
     def test_exit_zero_on_valid(self, sample_snapshot, tmp_path):
+        mock_now = MagicMock()
+        mock_now.strftime = MagicMock(return_value="2026-05-16")
         with patch("validate.DATA_DIR", tmp_path):
             with patch("validate.REPORT_PATH", tmp_path / "validation_report.txt"):
                 with patch("validate.load_latest", return_value=sample_snapshot):
                     with patch("validate.datetime") as mock_dt:
-                        mock_dt.now.return_value = datetime(2026, 5, 16, tzinfo=timezone.utc)
-                        mock_dt.now(timezone.utc).strftime.return_value = "2026-05-16"
+                        mock_dt.now = MagicMock(return_value=mock_now)
                         exit_code = main()
         assert exit_code == 0
         assert (tmp_path / "validation_report.txt").exists()

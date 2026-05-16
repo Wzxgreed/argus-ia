@@ -82,9 +82,9 @@ def parse_date(date_val) -> str | None:
         for fmt in ("%Y-%m-%d", "%Y-%m-%d %H:%M:%S", "%m/%d/%Y", "%d/%m/%Y"):
             try:
                 return datetime.strptime(date_val[:10] if len(date_val) > 10 else date_val, fmt).strftime("%Y-%m-%d")
-            except Value:
+            except ValueError:
                 continue
-        return date_val[:10] if len(date_val) >= 10 else None
+        return None
     if hasattr(date_val, "strftime"):
         return date_val.strftime("%Y-%m-%d")
     return None
