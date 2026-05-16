@@ -1,0 +1,80 @@
+{
+  "tickers": [
+    {
+      "ticker": "IREN",
+      "name": "IREN Limited",
+      "sector": "IA Infrastructure / Bitcoin Mining",
+      "priority": "medium",
+      "exchange": "NASDAQ",
+      "notes": "Infrastructure IA de référence — pivot BTC→Cloud IA",
+      "crypto_exposed": true
+    },
+    {
+      "ticker": "XOM",
+      "name": "ExxonMobil Corporation",
+      "sector": "Énergie",
+      "priority": "high",
+      "exchange": "NYSE",
+      "notes": "Crise Iran/Hormuz — pétrole $100, FCF explosif"
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX Corporation",
+      "sector": "Défense / Aérospatial",
+      "priority": "medium",
+      "exchange": "NYSE",
+      "notes": "Réarmement OTAN, guerre Iran, backlog record"
+    },
+    {
+      "ticker": "VRT",
+      "name": "Vertiv Holdings",
+      "sector": "Infrastructure IA / Hardware",
+      "priority": "medium",
+      "exchange": "NYSE",
+      "notes": "Refroidissement data centers, deal NVIDIA, ordres +252%"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Semi-conducteurs / IA",
+      "priority": "medium",
+      "exchange": "NASDAQ",
+      "notes": "Earnings 20 mai, contrat $3.4B avec IREN, leader GPU"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "sector": "Tech",
+      "priority": "high",
+      "exchange": "NASDAQ",
+      "notes": "Ajouté le 2026-05-16"
+    }
+  ],
+  "macro_symbols": {
+    "spx": "^GSPC",
+    "nasdaq": "^IXIC",
+    "russell2000": "^RUT",
+    "vix": "^VIX",
+    "vix3m": "^VIX3M",
+    "dxy": "DX-Y.NYB",
+    "eurusd": "EURUSD=X",
+    "usdjpy": "JPY=X",
+    "us10y": "^TNX",
+    "us2y": "^IRX",
+    "wti": "CL=F",
+    "brent": "BZ=F",
+    "natgas": "NG=F",
+    "gold": "GC=F",
+    "copper": "HG=F",
+    "bitcoin": "BTC-USD"
+  },
+  "settings": {
+    "fetch_time": "08:30",
+    "timezone": "America/New_York",
+    "data_source_primary": "yfinance",
+    "data_source_secondary": "fmp",
+    "fmp_api_key_env": "FMP_API_KEY",
+    "validation_enabled": true,
+    "history_retention_days": 180
+  }
+}

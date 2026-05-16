@@ -1,0 +1,132 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "argus-ia"
+version = "2.0.0"
+description = "Système d'analyse d'actions IA — Pipeline multi-agent de veille et scoring"
+readme = "INSTALL.md"
+requires-python = ">=3.10"
+license = {text = "Proprietary"}
+authors = [
+    {name = "Sacha Joly"}
+]
+dependencies = [
+    "yfinance>=0.2.54",
+    "requests>=2.31.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "python-dotenv>=1.0.0",
+    "jsonschema>=4.20.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=4.1.0",
+    "black>=24.0.0",
+    "ruff>=0.3.0",
+    "mypy>=1.8.0",
+    "responses>=0.25.0",
+]
+
+[tool.setuptools]
+packages = ["scripts"]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Black — Formatage automatique
+# ─────────────────────────────────────────────────────────────────────────────
+[tool.black]
+line-length = 100
+target-version = ["py310", "py311", "py312"]
+include = "\\.pyi?$"
+extend-exclude = """
+/(
+  | \\.venv
+  | \\bdist\\b
+)/
+"""
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Ruff — Linting & import sorting (remplace flake8 + isort)
+# ─────────────────────────────────────────────────────────────────────────────
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # Pyflakes
+    "I",   # isort (imports)
+    "N",   # pep8-naming
+    "UP",  # pyupgrade
+    "B",   # flake8-bugbear
+    "C4",  # flake8-comprehensions
+    "SIM", # flake8-simplify
+    "TCH", # flake8-type-checking
+]
+ignore = [
+    "E501",  # Line too long (géré par Black)
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Mypy — Vérification statique des types
+# ─────────────────────────────────────────────────────────────────────────────
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+show_error_codes = true
+
+[[tool.mypy.overrides]]
+module = [
+    "yfinance.*",
+    "pandas.*",
+    "numpy.*",
+    "requests.*",
+    "dotenv.*",
+    "responses.*",
+]
+ignore_missing_imports = true
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Pytest — Tests
+# ─────────────────────────────────────────────────────────────────────────────
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short --strict-markers"
+markers = [
+    "integration: tests that hit real APIs (skipped by default)",
+    "slow: tests that take >1s",
+]
+
+[tool.coverage.run]
+source = ["scripts"]
+omit = [
+    "*/tests/*",
+    "*/.venv/*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+]
