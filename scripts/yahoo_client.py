@@ -29,6 +29,8 @@ from typing import Any
 
 import requests
 
+from http_utils import http_get
+
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
@@ -47,7 +49,7 @@ HEADERS = {
 
 
 class YahooClient:
-    """Client Yahoo Finance REST avec timeout garanti."""
+    """Client Yahoo Finance REST avec timeout, retry et caching."""
 
     def __init__(self, timeout: int = DEFAULT_TIMEOUT):
         self.session = requests.Session()
@@ -77,21 +79,12 @@ class YahooClient:
         period1 = int((now.timestamp() - days * 86400))
         period2 = int(now.timestamp())
 
-        url = (
-            f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}"
-            f"?period1={period1}&period2={period2}&interval={interval}"
-        )
+        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}"
+        params = {"period1": period1, "period2": period2, "interval": interval}
 
-        try:
-            resp = self.session.get(url, timeout=self.timeout)
-            resp.raise_for_status()
-            data = resp.json()
-        except requests.exceptions.Timeout:
-            return {"error": True, "reason": f"Timeout ({self.timeout}s)"}
-        except requests.exceptions.HTTPError as e:
-            return {"error": True, "reason": f"HTTP {e.response.status_code}"}
-        except Exception as e:
-            return {"error": True, "reason": str(e)}
+        data = http_get(url, params=params, session=self.session, timeout=self.timeout)
+        if isinstance(data, dict) and data.get("error"):
+            return data
 
         chart = data.get("chart", {})
         error = chart.get("error")
@@ -150,21 +143,12 @@ class YahooClient:
         Récupère les métadonnées entreprise (marketCap, P/E, beta, sector...).
         """
         modules = "summaryDetail,defaultKeyStatistics,price,assetProfile"
-        url = (
-            f"https://query2.finance.yahoo.com/v10/finance/quoteSummary/{ticker}"
-            f"?modules={modules}"
-        )
+        url = f"https://query2.finance.yahoo.com/v10/finance/quoteSummary/{ticker}"
+        params = {"modules": modules}
 
-        try:
-            resp = self.session.get(url, timeout=self.timeout)
-            resp.raise_for_status()
-            data = resp.json()
-        except requests.exceptions.Timeout:
-            return {"error": True, "reason": f"Timeout ({self.timeout}s)"}
-        except requests.exceptions.HTTPError as e:
-            return {"error": True, "reason": f"HTTP {e.response.status_code}"}
-        except Exception as e:
-            return {"error": True, "reason": str(e)}
+        data = http_get(url, params=params, session=self.session, timeout=self.timeout)
+        if isinstance(data, dict) and data.get("error"):
+            return data
 
         qs = data.get("quoteSummary", {})
         if qs.get("error"):
@@ -216,16 +200,9 @@ class YahooClient:
         """
         url = f"https://query1.finance.yahoo.com/v7/finance/options/{ticker}"
 
-        try:
-            resp = self.session.get(url, timeout=self.timeout)
-            resp.raise_for_status()
-            data = resp.json()
-        except requests.exceptions.Timeout:
-            return {"error": True, "reason": f"Timeout ({self.timeout}s)"}
-        except requests.exceptions.HTTPError as e:
-            return {"error": True, "reason": f"HTTP {e.response.status_code}"}
-        except Exception as e:
-            return {"error": True, "reason": str(e)}
+        data = http_get(url, session=self.session, timeout=self.timeout)
+        if isinstance(data, dict) and data.get("error"):
+            return data
 
         oc = data.get("optionChain", {})
         if oc.get("error"):
@@ -282,20 +259,11 @@ class YahooClient:
         """
         Récupère les news récentes pour un ticker.
         """
-        url = (
-            f"https://query1.finance.yahoo.com/v1/finance/search"
-            f"?q={ticker}&newsCount={limit}"
-        )
+        url = "https://query1.finance.yahoo.com/v1/finance/search"
+        params = {"q": ticker, "newsCount": limit}
 
-        try:
-            resp = self.session.get(url, timeout=self.timeout)
-            resp.raise_for_status()
-            data = resp.json()
-        except requests.exceptions.Timeout:
-            return []
-        except requests.exceptions.HTTPError:
-            return []
-        except Exception:
+        data = http_get(url, params=params, session=self.session, timeout=self.timeout)
+        if isinstance(data, dict) and data.get("error"):
             return []
 
         news = data.get("news", [])

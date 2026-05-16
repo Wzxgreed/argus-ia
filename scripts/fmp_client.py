@@ -51,7 +51,7 @@ class FMPClient:
         })
 
     def _get(self, endpoint: str, params: dict = None) -> dict | list:
-        """GET request vers la Stable API FMP avec session keep-alive."""
+        """GET request vers la Stable API FMP avec retry, backoff et caching."""
         if not self.api_key:
             return {"error": True, "reason": "FMP_API_KEY missing"}
 
@@ -59,19 +59,18 @@ class FMPClient:
         p = params or {}
         p["apikey"] = self.api_key
 
-        try:
-            resp = self.session.get(url, params=p, timeout=15)
-            resp.raise_for_status()
-            data = resp.json()
-            if isinstance(data, dict) and "Error Message" in data:
-                return {"error": True, "reason": data["Error Message"]}
+        # Statements, ratios et key-metrics changent rarement → cache activé
+        cache_endpoints = {"income-statement", "balance-sheet-statement", "cash-flow-statement", "ratios", "key-metrics", "profile"}
+        use_cache = endpoint in cache_endpoints
+
+        from http_utils import http_get
+        data = http_get(url, params=p, session=self.session, timeout=15, use_cache=use_cache)
+
+        if isinstance(data, dict) and data.get("error"):
             return data
-        except requests.exceptions.Timeout:
-            return {"error": True, "reason": "Timeout (15s)"}
-        except requests.exceptions.HTTPError as e:
-            return {"error": True, "reason": f"HTTP {e.response.status_code}: {e.response.text[:200]}"}
-        except Exception as e:
-            return {"error": True, "reason": str(e)}
+        if isinstance(data, dict) and "Error Message" in data:
+            return {"error": True, "reason": data["Error Message"]}
+        return data
 
     # ------------------------------------------------------------------
     # Core data (Stable API — disponibles sur tous les plans)
