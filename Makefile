@@ -1,4 +1,4 @@
-.PHONY: help install test lint format pipeline clean push agent-watchman agent-geo agent-crypto agent-accounting agent-sector agent-social
+.PHONY: help install test lint format pipeline clean push agent-watchman agent-geo agent-crypto agent-accounting agent-sector agent-social agent-fx agent-event
 
 help:
 	@echo "Argus-IA — Commandes disponibles"
@@ -10,6 +10,16 @@ help:
 	@echo "  make pipeline  → Lancer le pipeline du matin"
 	@echo "  make clean     → Nettoyer les fichiers temporaires"
 	@echo "  make push      → Linter, tester, puis push sur GitHub"
+	@echo ""
+	@echo "  Agents individuels :"
+	@echo "  make agent-watchman  → Watchman scan"
+	@echo "  make agent-geo       → Géopolitique"
+	@echo "  make agent-crypto    → Crypto-correlation"
+	@echo "  make agent-accounting → Scan comptable"
+	@echo "  make agent-sector    → Rotation sectorielle"
+	@echo "  make agent-social    → Sentiment retail"
+	@echo "  make agent-fx        → Exposition FX"
+	@echo "  make agent-event     → Event-Driven (M&A, buybacks, activism)"
 
 install:
 	python3 -m venv .venv
@@ -73,3 +83,13 @@ agent-social:
 	@echo "Running Social sentiment agent..."
 	@source .venv/bin/activate && python3 scripts/agent_social.py
 	@./scripts/auto_push.sh "Social sentiment agent snapshot"
+
+agent-fx:
+	@echo "Running FX exposure agent..."
+	@source .venv/bin/activate && python3 scripts/agent_fx.py
+	@./scripts/auto_push.sh "FX exposure agent snapshot"
+
+agent-event:
+	@echo "Running Event-Driven agent..."
+	@source .venv/bin/activate && python3 scripts/agent_event_driven.py
+	@./scripts/auto_push.sh "Event-Driven agent snapshot"

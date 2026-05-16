@@ -1,6 +1,6 @@
 # Orchestration des agents
 
-Ce fichier décrit comment les agents (Macro, Flux, Supply Chain, Technique, Fondamental, Sentiment) s'articulent selon chaque type d'analyse.
+Ce fichier décrit comment les agents (Macro, Flux, Supply Chain, Technique, Fondamental, Sentiment, FX, Event-Driven) s'articulent selon chaque type d'analyse.
 
 ---
 
@@ -47,6 +47,29 @@ Ce fichier décrit comment les agents (Macro, Flux, Supply Chain, Technique, Fon
                     └────────────┬──────────────┘
                                  │ Signaux avancés (1-3 trimestres)
                                  │ Bonus/malus Catalyseur
+                                 │
+                    ┌────────────▼─────────────┐
+                    │      AGENT FX             │
+                    │  (après Macro, avant Fond.) │
+                    │                           │
+                    │ • Exposition DXY par ticker│
+                    │ • Impact revenus/EPS estimé│
+                    │ • Divergence cours / modèle│
+                    │ • Score FX Impact /10      │
+                    └────────────┬──────────────┘
+                                 │ Ajustements Valorisation/Fondamental
+                                 │
+                    ┌────────────▼─────────────┐
+                    │   AGENT EVENT-DRIVEN       │
+                    │  (scan quotidien matin)    │
+                    │                           │
+                    │ • M&A rumeurs / annonces   │
+                    │ • Buybacks qualité         │
+                    │ • Activism 13D filings     │
+                    │ • Guidance changes         │
+                    │ • Score Event-Driven /10   │
+                    └────────────┬──────────────┘
+                                 │ Bonus/malus Catalyseur binaire
                                  │
               ┌──────────────────┼──────────────────────┐
               │                  │                       │
@@ -118,7 +141,9 @@ Ce fichier décrit comment les agents (Macro, Flux, Supply Chain, Technique, Fon
 | 2 | **Flux** | Watchlist | Flux ETF, dark pool, short interest evolution, gamma/max pain |
 | 3 | **Supply Chain** | Watchlist (entités 🔴🟡 de chaque SUPPLY_CHAIN.md) | News du jour sur fournisseurs/clients critiques + alertes si earnings publiés |
 | 4 | **Sentiment** | Monde entier | News mondiales classées, VIX, sentiment macro, unusual options |
-| 5 | **Fondamental** | Tickers watchlist touchés | Révisions d'estimations si earnings ou actu majeure + NLP si transcript dispo |
+| 4b | **FX Exposure** | Watchlist multinationaux | Exposition DXY/EUR/CNY par ticker, impact revenus/EPS estimé, divergence cours |
+| 4c | **Event-Driven** | Watchlist | Scan M&A, buybacks, activism, guidance changes — score binaire |
+| 5 | **Fondamental** | Tickers watchlist touchés | Révisions d'estimations si earnings ou actu majeure + NLP si transcript dispo + ajustements FX |
 | 6 | **Technique** | Tickers watchlist | Cours ouverture, variations, signaux techniques, force relative |
 | 7 | Synthèse | Tous tickers scorés | Rapport Opportunités + Bulletin + `_update.md` + enregistrement BACKTESTING |
 
@@ -289,6 +314,15 @@ Extraire UNE règle corrective universelle
 | Score RSI extrême | **Technique** | Sentiment | Chercher confirmation dans les flux (short squeeze ?) |
 | Force relative | **Technique** | Opportunités | Signal de leader/retardataire pour le classement |
 | Unusual options activity | **Sentiment** | Flux | Croiser avec dark pool pour confirmer |
+| Régime DXY + tendance devises | **Macro** | FX | Calibrer l'exposition et le headwind/tailwind |
+| Exposition nette FX par ticker | **FX** | Fondamental | Ajuster les estimations EPS NTM |
+| Impact FX non pricé par le marché | **FX** | Sentiment | Alerter si divergence cours / modèle FX |
+| Score FX Impact /10 | **FX** | Synthèse | Bonus/malus sur le Score Fondamental et Valorisation |
+| Événement M&A détecté | **Event-Driven** | Sentiment | Score Catalyseur +2 pt (catalyseur majeur binaire) |
+| Buyback net yield > 4% | **Event-Driven** | Fondamental | Score Valorisation +0.5 à +1 pt |
+| Guidance cut > 5% | **Event-Driven** | Sentiment + Fondamental | Score Catalyseur −3 pt + révision thèse |
+| Activisme 13D | **Event-Driven** | Sentiment + Fondamental | Score Catalyseur +1.5 pt + analyse gouvernance |
+| Spread M&A qui s'élargit | **Event-Driven** | Sentiment | Probabilité de succès en baisse — malus Catalyseur |
 
 ---
 
@@ -303,6 +337,8 @@ Extraire UNE règle corrective universelle
 | `Quel est le régime macro actuel ?` | Macro seul |
 | `Analyse la supply chain de [TICKER]` | Supply Chain → crée/met à jour SUPPLY_CHAIN.md |
 | `Quels fournisseurs de [TICKER] ont publié des news aujourd'hui ?` | Supply Chain → `news` sur entités critiques |
+| `Exposition FX de [TICKER]` | FX → Bloc FX dans `_update.md` |
+| `Scanne les événements corporates sur [TICKER]` | Event-Driven → `data/events_latest.json` + `_update.md` flash |
 | `Analyse le ton management de [TICKER] sur les derniers calls` | Fondamental (NLP transcript) |
 | `Analyse les offres d'emploi de [TICKER] — signal avancé` | Sentiment (job postings) |
 | `Analyse complète de [TICKER]` | Macro → Flux → Supply Chain → Fondamental → Technique → Sentiment → Synthèse |

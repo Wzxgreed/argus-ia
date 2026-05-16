@@ -66,6 +66,10 @@ Argus-IA/
 │   ├── sector_rotation_latest.json        ← Symlink vers le dernier sector rotation
 │   ├── social_sentiment_YYYY-MM-DD.json   ← Mentions Reddit, sentiment retail, pump detection
 │   ├── social_sentiment_latest.json       ← Symlink vers le dernier social sentiment
+│   ├── fx_exposure_YYYY-MM-DD.json        ← Exposition FX par ticker, impact revenus/EPS
+│   ├── fx_exposure_latest.json            ← Symlink vers le dernier FX
+│   ├── events_YYYY-MM-DD.json             ← Événements corporates (M&A, buybacks, activism)
+│   ├── events_latest.json                 ← Symlink vers le dernier event-driven
 │   └── history/
 │       └── prices/                        ← (futur) timeseries pour backtesting
 │
@@ -280,6 +284,33 @@ Signaux clés : **mention count** par ticker, **sentiment score /10** (lexique p
 
 ---
 
+### Agent FX Exposure — `scripts/agent_fx.py` + `data/fx_exposure_YYYY-MM-DD.json` ← NOUVEAU
+**Périmètre :** exposition de chaque ticker aux fluctuations de change (USD, EUR, JPY, CNY) et impact estimé sur revenus, marges et valorisation
+**Sources :** `data/latest.json` (macro/forex), `config/watchlist.json` (secteurs), `fmp_key_metrics` (revenus géo)
+**Produit :** `data/fx_exposure_YYYY-MM-DD.json` + Bloc FX dans `_init.md` / `_update.md` + ajustements Score Fondamental/Valorisation
+
+Signaux clés : **% revenus hors-USD** par ticker, **impact revenus/EPS estimé** selon le trend DXY, **divergence cours / modèle FX** (anomalie = autre facteur), **Score FX Impact /10** (0 = pas d'exposition, 10 = exposition + headwind actif), **classification** (Élevée/Modérée/Faible/Inverse).
+
+**Règle absolue :** Exposition élevée + DXY headwind + non pricé → −1 pt Score Fondamental (EPS NTM sur-estimé). Exposition élevée + DXY tailwind + non pricé → +0.5 pt Score Valorisation.
+
+---
+
+### Agent Event-Driven — `scripts/agent_event_driven.py` + `data/events_YYYY-MM-DD.json` ← NOUVEAU
+**Périmètre :** détection et analyse des événements corporates structurants — M&A, buybacks, spin-offs, activism (13D filings), changements de guidance, settlements, FDA decisions
+**Sources :** `news` (Yahoo), `secFilings` (8-K, 13D), `company`, `quote`
+**Produit :** `data/events_YYYY-MM-DD.json` + `Alertes/EVENT_DRIVEN.md` + `_update.md` flash + bonus/malus Score Catalyseur
+
+Signaux clés : **spread M&A** (arbitrage), **buyback net yield** (buyback − SBC dilution), **activisme** (track record par activiste, probabilité de succès par type de demande), **guidance changes** (raise/cut/withdraw), **Score Event-Driven /10** pondéré par probabilité × asymétrie × timeline × "déjà pricé ?"
+
+**Règles absolues :**
+- M&A avec spread attractif + probabilité élevée → +2 pt Catalyseur
+- Buyback net yield > 4% + cours sous-évalué → +1 pt Valorisation
+- Guidance cut > 5% → −3 pt Catalyseur
+- Guidance withdrawn → −2.5 pt Catalyseur
+- 13D filing → `_update.md` flash automatique
+
+---
+
 ### Paper Trading Engine — `scripts/paper_trading.py` + `Portefeuille/PAPER_*.md`
 **Périmètre :** exécution virtuelle de trades sur la watchlist avec sizing institutionnel et règles de sortie strictes
 **Sources :** `data/latest.json`, `data/accounting_risk_latest.json`, `Actions/*/WATCHLIST_SCORES.md`, `yfinance`
@@ -430,13 +461,25 @@ Base de données de la précision historique des analystes sell-side sur la watc
    → Si un earnings a été publié récemment → le NLP pré-calculé prime sur l'analyse manuelle
    → Si absent (plan Starter = transcripts indisponibles) → l'analyse NLP sera faite manuellement
 
+10. Lire data/fx_exposure_latest.json (si présent)
+    → Score FX Impact par ticker, direction (headwind/tailwind), divergence cours/modèle
+    → Si exposition élevée + DXY headwind → noter [FX HEADWIND] dans l'analyse
+    → Si divergence > 5% → alerter [ANOMALIE FX] et chercher autre facteur
+
+11. Lire data/events_latest.json (si présent)
+    → Événements corporates détectés : M&A, buybacks, activism, guidance changes
+    → Si M&A annoncé sur ticker watchlist → ajuster Score Catalyseur +2 pt
+    → Si buyback net yield > 4% → ajuster Score Valorisation +0.5 pt
+    → Si guidance cut > 5% → ajuster Score Catalyseur −3 pt
+    → Si 13D filing → créer `_update.md` flash si pas déjà fait
+
 10. Lire `data/upcoming_events_latest.json` (si présent) et `Alertes/UPCOMING_EVENTS.md`
    → Earnings à ≤ 3j : vérifier que `_preview.md` existe, sinon alerter immédiatement
    → Insider trades significatifs : noter dans l'analyse du jour
    → Upgrades/downgrades massifs : ajuster le Score Catalyseur
    → News CEO / M&A / guidance : générer `_update.md` flash si pas encore fait
 
-11. Scanner Actions/ pour les fichiers `*_DRAFT_init.md` — COMPLÉTION AUTO OBLIGATOIRE
+13. Scanner Actions/ pour les fichiers `*_DRAFT_init.md` — COMPLÉTION AUTO OBLIGATOIRE
    → Pour chaque DRAFT détecté : l'agent LLM complète automatiquement l'analyse sans prompt utilisateur
    → Lire `data/latest.json` pour remplir les champs techniques (RSI, ATR, MM, FMP, options)
    → Lire `data/quant_report_latest.json` pour le bloc Quant
@@ -451,7 +494,7 @@ Base de données de la précision historique des analystes sell-side sur la watc
    → Renommer le DRAFT en `_DRAFT_init.md` (archive) ou le supprimer
    → **Règle absolue : ne JAMAIS laisser un DRAFT non complété** — c'est une tâche automatique
 
-12. Scanner Actions/ pour les fichiers `*_DRAFT_refresh.md` — FULL REFRESH AUTO OBLIGATOIRE
+14. Scanner Actions/ pour les fichiers `*_DRAFT_refresh.md` — FULL REFRESH AUTO OBLIGATOIRE
    → Pour chaque FULL REFRESH détecté : l'agent LLM réécrit l'analyse complète
    → Lire la thèse précédente dans `Actions/{TICKER}/INDEX.md` (section 📜 du DRAFT)
    → Lire `data/latest.json` pour les données actualisées
@@ -464,7 +507,7 @@ Base de données de la précision historique des analystes sell-side sur la watc
    → Renommer le DRAFT_refresh en `_DRAFT_refresh.md` (archive) ou le supprimer
    → **Règle absolue : ne JAMAIS laisser un DRAFT_refresh non complété**
 
-13. RÈGLE ABSOLUE : utiliser EXCLUSIVEMENT les chiffres de data/latest.json
+15. RÈGLE ABSOLUE : utiliser EXCLUSIVEMENT les chiffres de data/latest.json
    → Ne JAMAIS "deviner" un cours, un multiple, ou une métrique technique
    → Si une donnée est manquante dans latest.json → marquer [UNSOURCED] ou [DONNÉES MANQUANTES]
    → Le LLM ne remplace PAS une API de données.
@@ -810,6 +853,13 @@ Quand un ticker suivi est détecté dans l'actualité, l'agent doit obligatoirem
 | **Paper P&L** | `Quel est le P&L du portefeuille paper trading ?` |
 | **Social sentiment** | `Quel est le sentiment retail sur [TICKER] aujourd'hui ?` |
 | **Pump detection** | `Y a-t-il des signaux de pump/dump sur ma watchlist ?` |
+| **Exposition FX** | `Quelle est l'exposition FX de [TICKER] ? DXY, EUR, CNY — impact revenus/EPS` |
+| **FX scan watchlist** | `Scanne l'exposition FX de toute ma watchlist : headwind, tailwind, divergence` |
+| **Event-Driven scan** | `Y a-t-il des événements corporates sur [TICKER] ? (M&A, buyback, guidance, activism)` |
+| **M&A radar** | `Scanne les rumeurs et annonces M&A sur ma watchlist` |
+| **Buyback quality** | `Quel est le net buyback yield de [TICKER] ? Qualité du programme ?` |
+| **Activism tracker** | `Y a-t-il des 13D filings ou activism sur ma watchlist ?` |
+| **Guidance tracker** | `Quels tickers ont changé de guidance récemment ?` |
 
 ---
 
@@ -839,6 +889,8 @@ make agent-crypto      # Crypto-correlation → commit + push
 make agent-accounting  # Accounting risk → commit + push
 make agent-sector      # Sector rotation → commit + push
 make agent-social      # Social sentiment → commit + push
+make agent-fx          # FX exposure → commit + push
+make agent-event       # Event-Driven (M&A, buybacks, activism) → commit + push
 ```
 
 ### CI GitHub Actions
