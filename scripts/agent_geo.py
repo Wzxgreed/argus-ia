@@ -19,7 +19,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import yfinance as yf
+from yahoo_client import YahooClient
 
 # ---------------------------------------------------------------------------
 # Config
@@ -46,6 +46,7 @@ SECTOR_EXPOSURE = {
     "NVDA": {"sectors": ["Tech"], "keywords": ["tariff", "China", "CHIPS Act", "antitrust"]},
     "VRT": {"sectors": ["Tech", "Infrastructure"], "keywords": ["tariff", "China", "energy", "permits"]},
     "IREN": {"sectors": ["Crypto", "Financial"], "keywords": ["regulation", "SEC", "mining", "energy"]},
+    "AAPL": {"sectors": ["Tech"], "keywords": ["tariff", "China", "CHIPS Act", "antitrust", "DMA"]},
 }
 
 
@@ -55,14 +56,9 @@ def load_config() -> dict:
 
 
 def get_ticker_news(ticker: str, limit: int = 10) -> list[dict]:
-    """Récupère les news via yfinance."""
-    try:
-        stock = yf.Ticker(ticker)
-        news = stock.news or []
-        return news[:limit]
-    except Exception as e:
-        print(f"[geo] Error fetching news for {ticker}: {e}", file=sys.stderr)
-        return []
+    """Récupère les news via YahooClient (requests + timeout)."""
+    client = YahooClient()
+    return client.get_news(ticker, limit=limit)
 
 
 def detect_political_events(news_items: list[dict]) -> list[dict]:

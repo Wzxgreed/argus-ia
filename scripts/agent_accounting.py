@@ -169,8 +169,7 @@ def calc_altman_z(stmts: dict) -> dict | None:
         rev = t.get("revenue", 0) or 0
         tl = bs_t.get("totalLiabilities", 0) or 0
 
-        # Market cap from yfinance fallback (we don't have it here, use placeholder)
-        # We'll enrich with yfinance in main()
+        # x4 (market cap) filled later from latest.json (Yahoo data already fetched)
         x1 = wc / ta if ta > 0 else 0
         x2 = re / ta if ta > 0 else 0
         x3 = ebit / ta if ta > 0 else 0
@@ -372,12 +371,20 @@ def main():
         f = calc_piotroski_f(stmts)
         s = calc_sloan_ratio(stmts)
 
-        # Enrich Z-Score with market cap from yfinance
+        # Enrich Z-Score with market cap from latest.json (Yahoo data already fetched)
         if z:
             try:
-                import yfinance as yf
-                info = yf.Ticker(ticker).info or {}
-                mc = info.get("marketCap")
+                latest_path = DATA_DIR / "latest.json"
+                mc = None
+                if latest_path.exists():
+                    target = latest_path.resolve()
+                    with open(target, "r", encoding="utf-8") as f:
+                        latest = json.load(f)
+                    prices = latest.get("prices", {})
+                    ticker_data = prices.get(ticker, {})
+                    fund = ticker_data.get("fundamentals", {})
+                    mc = fund.get("market_cap")
+
                 if mc and z["x4"] is None:
                     bs_t = stmts["balance"][0]
                     tl = bs_t.get("totalLiabilities", 0) or 0
