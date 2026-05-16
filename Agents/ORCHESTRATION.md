@@ -97,6 +97,19 @@ Ce fichier décrit comment les agents (Macro, Flux, Supply Chain, Technique, Fon
                    │  + Momentum×XX%               │
                    │  + bonus/malus Macro & Flux    │
                    │  + bonus/malus Supply Chain    │
+                   │  + bonus/malus FX & Event     │
+                   └──────────────┬──────────────┘
+                                  │
+                   ┌──────────────▼──────────────┐
+                   │   AGENT RECOMMANDATION      │
+                   │  (dernier maillon — après   │
+                   │   tous les autres agents)   │
+                   │                           │
+                   │ • Score Global Composite   │
+                   │ • Action : ACHETER/VENDRE  │
+                   │ • Niveaux SL / TP / R/R     │
+                   │ • Déclenchement paper trading│
+                   │ • Dashboard Recommandations  │
                    └──────────────┬──────────────┘
                                   │
               ┌───────────────────┼────────────────────┐

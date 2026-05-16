@@ -1,4 +1,4 @@
-.PHONY: help install test lint format pipeline clean push agent-watchman agent-geo agent-crypto agent-accounting agent-sector agent-social agent-fx agent-event
+.PHONY: help install test lint format pipeline clean push agent-watchman agent-geo agent-crypto agent-accounting agent-sector agent-social agent-fx agent-event agent-reco
 
 help:
 	@echo "Argus-IA — Commandes disponibles"
@@ -20,6 +20,7 @@ help:
 	@echo "  make agent-social    → Sentiment retail"
 	@echo "  make agent-fx        → Exposition FX"
 	@echo "  make agent-event     → Event-Driven (M&A, buybacks, activism)"
+	@echo "  make agent-reco      → Recommandations (acheter/conserver/vendre)"
 
 install:
 	python3 -m venv .venv
@@ -93,3 +94,8 @@ agent-event:
 	@echo "Running Event-Driven agent..."
 	@source .venv/bin/activate && python3 scripts/agent_event_driven.py
 	@./scripts/auto_push.sh "Event-Driven agent snapshot"
+
+agent-reco:
+	@echo "Running Recommendation engine..."
+	@source .venv/bin/activate && python3 scripts/agent_recommandation.py
+	@./scripts/auto_push.sh "Recommendation engine snapshot"

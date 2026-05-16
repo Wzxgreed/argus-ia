@@ -70,6 +70,8 @@ Argus-IA/
 │   ├── fx_exposure_latest.json            ← Symlink vers le dernier FX
 │   ├── events_YYYY-MM-DD.json             ← Événements corporates (M&A, buybacks, activism)
 │   ├── events_latest.json                 ← Symlink vers le dernier event-driven
+│   ├── recommandations_YYYY-MM-DD.json    ← Recommandations : action, niveaux, ratio R/R
+│   ├── recommandations_latest.json        ← Symlink vers les dernières recommandations
 │   └── history/
 │       └── prices/                        ← (futur) timeseries pour backtesting
 │
@@ -308,6 +310,36 @@ Signaux clés : **spread M&A** (arbitrage), **buyback net yield** (buyback − S
 - Guidance cut > 5% → −3 pt Catalyseur
 - Guidance withdrawn → −2.5 pt Catalyseur
 - 13D filing → `_update.md` flash automatique
+
+---
+
+### Agent Recommandation — `scripts/agent_recommandation.py` + `data/recommandations_YYYY-MM-DD.json` + `Recommandations/YYYY-MM-DD.md` ← NOUVEAU
+**Périmètre :** traduire la synthèse de tous les agents en actions explicites : **ACHETER / CONSERVER / ATTENDRE / RÉDUIRE / VENDRE** avec niveaux d'entrée, stop-loss, take-profit et ratio risque/rendement
+**Sources :** Tous les JSON `*_latest.json` (`latest`, `quant`, `geo`, `crypto`, `accounting`, `sector_rotation`, `social_sentiment`, `fx_exposure`, `events`, `upcoming_events`)
+**Produit :** `data/recommandations_YYYY-MM-DD.json` + `Recommandations/YYYY-MM-DD.md` + déclenchement paper trading
+
+**Score Global Composite /100 :**
+```
+Score Global = Score Opportunité × 10
+               − Malus Accounting (0–30) + Geo (0–20) + FX (0–15) + Event (0–15) + Social (0–10) + Quant (0–20)
+               + Bonus Event (0–20) + Buyback (0–10) + Sector (0–10)
+               ± Timing technique (−15 à +10)
+```
+
+| Score Global ajusté | Action | Sizing | Condition |
+|--------------------|--------|--------|-----------|
+| ≥ 75 | **ACHETER** | Standard | Score Opportunité solide + timing favorable |
+| 60–74 | **ACHETER** | Réduit | Opportunité mais confirmation technique manquante |
+| 50–59 | **ATTENDRE** | — | Qualité présente mais pas de catalyseur clair |
+| 35–49 | **SURVEILLER** | — | Risques détectés — pas d'action |
+| < 35 | **ÉVITER** | — | Multiple malus cumulés — éviter |
+
+**Niveaux automatiques :**
+- Stop-loss suggéré = cours − 2×ATR
+- Take-profit suggéré = cours + 3×ATR
+- Ratio R/R = gain / perte
+
+**Règle absolue :** Malus Accounting ≥ 25 (M-Score > −1.78 ou Z-Score < 1.81) → **ÉVITER** quel que soit le score.
 
 ---
 
@@ -854,6 +886,10 @@ Quand un ticker suivi est détecté dans l'actualité, l'agent doit obligatoirem
 | **Social sentiment** | `Quel est le sentiment retail sur [TICKER] aujourd'hui ?` |
 | **Pump detection** | `Y a-t-il des signaux de pump/dump sur ma watchlist ?` |
 | **Exposition FX** | `Quelle est l'exposition FX de [TICKER] ? DXY, EUR, CNY — impact revenus/EPS` |
+| **Recommandations** | `Quelles sont les recommandations aujourd'hui ?` |
+| **Recommandation ticker** | `Que faire sur [TICKER] ? Acheter, conserver, ou vendre ?` |
+| **Niveaux d'entrée** | `Quel est le ratio risque/rendement de [TICKER] ? SL et TP suggérés ?` |
+| **Positions à fermer** | `Quelles positions devrais-je fermer ?` |
 | **FX scan watchlist** | `Scanne l'exposition FX de toute ma watchlist : headwind, tailwind, divergence` |
 | **Event-Driven scan** | `Y a-t-il des événements corporates sur [TICKER] ? (M&A, buyback, guidance, activism)` |
 | **M&A radar** | `Scanne les rumeurs et annonces M&A sur ma watchlist` |
@@ -891,6 +927,7 @@ make agent-sector      # Sector rotation → commit + push
 make agent-social      # Social sentiment → commit + push
 make agent-fx          # FX exposure → commit + push
 make agent-event       # Event-Driven (M&A, buybacks, activism) → commit + push
+make agent-reco        # Recommandations (acheter/conserver/vendre) → commit + push
 ```
 
 ### CI GitHub Actions
