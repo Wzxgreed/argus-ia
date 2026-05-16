@@ -1,0 +1,270 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Argus-IA Daily Snapshot",
+  "description": "Schéma de validation pour le snapshot quotidien data/YYYY-MM-DD.json (alias latest.json)",
+  "type": "object",
+  "required": ["meta", "prices"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["date", "source", "fetched_at", "tickers_requested", "tickers_ok", "tickers_ko"],
+      "properties": {
+        "date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "Date UTC du snapshot (YYYY-MM-DD)"
+        },
+        "source": {
+          "type": "string",
+          "description": "Source(s) de données, ex: 'yfinance + fmp'"
+        },
+        "fetched_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp ISO 8601 de la collecte"
+        },
+        "tickers_requested": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1,
+          "description": "Liste des tickers demandés"
+        },
+        "tickers_ok": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Nombre de tickers fetchés avec succès"
+        },
+        "tickers_ko": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Nombre de tickers en échec"
+        }
+      }
+    },
+    "prices": {
+      "type": "object",
+      "patternProperties": {
+        "^[A-Z0-9\\-\\.]+$": {
+          "type": "object",
+          "required": ["ticker", "error"],
+          "properties": {
+            "ticker": {
+              "type": "string",
+              "description": "Symbole boursier"
+            },
+            "error": {
+              "type": "boolean",
+              "description": "True si le fetch a échoué"
+            },
+            "reason": {
+              "type": ["string", "null"],
+              "description": "Raison de l'échec (si error=true)"
+            },
+            "timestamp": {
+              "type": ["string", "null"],
+              "format": "date-time",
+              "description": "Timestamp du fetch du ticker"
+            },
+            "price": {
+              "type": "object",
+              "description": "Blocs de données de marché",
+              "properties": {
+                "open": { "type": ["number", "null"] },
+                "high": { "type": ["number", "null"] },
+                "low": { "type": ["number", "null"] },
+                "close": { "type": ["number", "null"] },
+                "previous_close": { "type": ["number", "null"] },
+                "volume": { "type": ["integer", "null"] },
+                "volume_avg_20d": { "type": ["integer", "null"] },
+                "change_pct": { "type": ["number", "null"] }
+              }
+            },
+            "technical": {
+              "type": "object",
+              "description": "Indicateurs techniques",
+              "properties": {
+                "rsi14": {
+                  "type": ["number", "null"],
+                  "minimum": 0,
+                  "maximum": 100,
+                  "description": "RSI 14 jours"
+                },
+                "atr14": {
+                  "type": ["number", "null"],
+                  "minimum": 0,
+                  "description": "Average True Range 14 jours"
+                },
+                "mm50": { "type": ["number", "null"] },
+                "mm200": { "type": ["number", "null"] },
+                "golden_cross": { "type": ["boolean", "null"] }
+              }
+            },
+            "fundamentals": {
+              "type": "object",
+              "description": "Données fondamentales de Yahoo Finance",
+              "properties": {
+                "market_cap": { "type": ["integer", "null"] },
+                "pe_ratio": { "type": ["number", "null"] },
+                "forward_pe": { "type": ["number", "null"] },
+                "ev_ebitda": { "type": ["number", "null"] },
+                "ev_revenue": { "type": ["number", "null"] },
+                "price_to_book": { "type": ["number", "null"] },
+                "dividend_yield": { "type": ["number", "null"] },
+                "beta": { "type": ["number", "null"] },
+                "short_interest_pct": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+                "shares_float": { "type": ["integer", "null"] },
+                "shares_outstanding": { "type": ["integer", "null"] },
+                "fifty_two_week_high": { "type": ["number", "null"] },
+                "fifty_two_week_low": { "type": ["number", "null"] },
+                "sector": { "type": ["string", "null"] },
+                "industry": { "type": ["string", "null"] }
+              }
+            },
+            "options": {
+              "type": "object",
+              "description": "Données options (max pain, put/call ratio)",
+              "properties": {
+                "max_pain": { "type": ["number", "null"] },
+                "put_call_ratio": { "type": ["number", "null"], "minimum": 0 },
+                "call_oi_pct": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+                "expiration_nearest": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+              }
+            },
+            "fmp_consensus": {
+              "type": "object",
+              "description": "Données enrichies FMP — consensus analystes",
+              "properties": {
+                "price_target_avg": { "type": ["number", "null"] },
+                "price_target_low": { "type": ["number", "null"] },
+                "price_target_high": { "type": ["number", "null"] },
+                "num_analysts": { "type": ["integer", "null"] },
+                "num_analysts_last_month": { "type": ["integer", "null"] },
+                "num_analysts_last_quarter": { "type": ["integer", "null"] },
+                "publishers": { "type": ["array", "null"], "items": { "type": "string" } }
+              }
+            },
+            "fmp_ratios": {
+              "type": "object",
+              "description": "Données enrichies FMP — ratios financiers",
+              "properties": {
+                "roe": { "type": ["number", "null"] },
+                "roic": { "type": ["number", "null"] },
+                "roa": { "type": ["number", "null"] },
+                "gross_margin": { "type": ["number", "null"] },
+                "operating_margin": { "type": ["number", "null"] },
+                "ebitda_margin": { "type": ["number", "null"] },
+                "net_margin": { "type": ["number", "null"] },
+                "debt_equity": { "type": ["number", "null"] },
+                "debt_assets": { "type": ["number", "null"] },
+                "interest_coverage": { "type": ["number", "null"] },
+                "current_ratio": { "type": ["number", "null"] },
+                "quick_ratio": { "type": ["number", "null"] },
+                "asset_turnover": { "type": ["number", "null"] },
+                "receivables_turnover": { "type": ["number", "null"] },
+                "payables_turnover": { "type": ["number", "null"] },
+                "inventory_turnover": { "type": ["number", "null"] },
+                "price_to_earnings": { "type": ["number", "null"] },
+                "price_to_book": { "type": ["number", "null"] },
+                "price_to_sales": { "type": ["number", "null"] },
+                "price_to_fcf": { "type": ["number", "null"] },
+                "enterprise_value_multiple": { "type": ["number", "null"] },
+                "effective_tax_rate": { "type": ["number", "null"] },
+                "dividend_yield": { "type": ["number", "null"] },
+                "revenue_per_share": { "type": ["number", "null"] },
+                "book_value_per_share": { "type": ["number", "null"] },
+                "date": { "type": ["string", "null"] },
+                "period": { "type": ["string", "null"] }
+              }
+            },
+            "fmp_key_metrics": {
+              "type": "object",
+              "description": "Données enrichies FMP — métriques clés",
+              "properties": {
+                "market_cap": { "type": ["integer", "null"] },
+                "enterprise_value": { "type": ["integer", "null"] },
+                "ev_to_sales": { "type": ["number", "null"] },
+                "ev_to_ebitda": { "type": ["number", "null"] },
+                "ev_to_operating_cash_flow": { "type": ["number", "null"] },
+                "ev_to_fcf": { "type": ["number", "null"] },
+                "net_debt_to_ebitda": { "type": ["number", "null"] },
+                "return_on_equity": { "type": ["number", "null"] },
+                "return_on_assets": { "type": ["number", "null"] },
+                "return_on_invested_capital": { "type": ["number", "null"] },
+                "return_on_capital_employed": { "type": ["number", "null"] },
+                "earnings_yield": { "type": ["number", "null"] },
+                "free_cash_flow_yield": { "type": ["number", "null"] },
+                "working_capital": { "type": ["integer", "null"] },
+                "invested_capital": { "type": ["integer", "null"] },
+                "tangible_asset_value": { "type": ["integer", "null"] },
+                "capex_to_revenue": { "type": ["number", "null"] },
+                "capex_to_operating_cash_flow": { "type": ["number", "null"] },
+                "capex_to_depreciation": { "type": ["number", "null"] },
+                "stock_based_compensation_to_revenue": { "type": ["number", "null"] },
+                "days_sales_outstanding": { "type": ["number", "null"] },
+                "days_payables_outstanding": { "type": ["number", "null"] },
+                "days_inventory_outstanding": { "type": ["number", "null"] },
+                "cash_conversion_cycle": { "type": ["number", "null"] },
+                "date": { "type": ["string", "null"] },
+                "period": { "type": ["string", "null"] }
+              }
+            }
+          }
+        }
+      }
+    },
+    "macro": {
+      "type": "object",
+      "description": "Données macroéconomiques (généré par fetch_macro.py)",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "date": { "type": "string" },
+            "source": { "type": "string" }
+          }
+        },
+        "data": {
+          "type": "object",
+          "patternProperties": {
+            "^[a-z0-9_]+$": {
+              "type": "object",
+              "properties": {
+                "value": { "type": ["number", "null"] },
+                "change_pct": { "type": ["number", "null"] },
+                "error": { "type": "boolean" },
+                "reason": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "calendar": {
+      "type": "object",
+      "description": "Calendrier économique et earnings (généré par fetch_calendar.py)",
+      "properties": {
+        "meta": {
+          "type": "object",
+          "properties": {
+            "date": { "type": "string" },
+            "source": { "type": "string" }
+          }
+        },
+        "events": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "date": { "type": "string" },
+              "type": { "type": "string" },
+              "ticker": { "type": ["string", "null"] },
+              "event": { "type": "string" },
+              "estimate": { "type": ["string", "number", "null"] },
+              "previous": { "type": ["string", "number", "null"] }
+            }
+          }
+        }
+      }
+    }
+  }
+}
