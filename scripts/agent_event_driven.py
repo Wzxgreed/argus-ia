@@ -16,6 +16,7 @@ Output:
 
 import json
 import re
+import signal
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -29,6 +30,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 CONFIG_PATH = BASE_DIR / "config" / "watchlist.json"
 DATA_DIR = BASE_DIR / "data"
 ALERTES_DIR = BASE_DIR / "Alertes"
+
+YF_TIMEOUT = 15  # seconds per ticker call
 
 # Keywords pour détection d'événements corporates
 EVENT_KEYWORDS = {
@@ -81,15 +84,31 @@ def load_config():
         return json.load(f)
 
 
+class YFTimeoutError(Exception):
+    pass
+
+
+def _timeout_handler(signum, frame):
+    raise YFTimeoutError()
+
+
 def get_ticker_news(ticker: str, limit: int = 15) -> list[dict]:
-    """Récupère les news via yfinance."""
+    """Récupère les news via yfinance avec timeout réseau (SIGALRM)."""
+    old_handler = signal.signal(signal.SIGALRM, _timeout_handler)
+    signal.alarm(YF_TIMEOUT)
     try:
         stock = yf.Ticker(ticker)
         news = stock.news or []
         return news[:limit]
+    except YFTimeoutError:
+        print(f"[event] Timeout ({YF_TIMEOUT}s) fetching news for {ticker}", file=sys.stderr)
+        return []
     except Exception as e:
         print(f"[event] Error fetching news for {ticker}: {e}", file=sys.stderr)
         return []
+    finally:
+        signal.alarm(0)
+        signal.signal(signal.SIGALRM, old_handler)
 
 
 def detect_events(news_items: list[dict]) -> list[dict]:

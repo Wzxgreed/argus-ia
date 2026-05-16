@@ -21,6 +21,7 @@ Cibles :
 import json
 import os
 import re
+import signal
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -43,6 +44,16 @@ today = datetime.now(timezone.utc).date()
 # Seuils de verdict (tolerance ±2%)
 HIT_THRESHOLD = 0.02
 MISS_THRESHOLD = -0.02
+
+YF_TIMEOUT = 15  # seconds per yfinance call
+
+
+class YFTimeoutError(Exception):
+    pass
+
+
+def _timeout_handler(signum, frame):
+    raise YFTimeoutError()
 
 # Fenêtres actives
 HORIZONS_BT = {"J+5": 5, "J+20": 20, "J+60": 60}
@@ -124,9 +135,10 @@ def get_close_on_date(ticker: str, target_date: datetime.date) -> float | None:
     Récupère le cours de clôture le plus proche de target_date via yfinance.
     Retourne None si aucune donnée.
     """
+    old_handler = signal.signal(signal.SIGALRM, _timeout_handler)
+    signal.alarm(YF_TIMEOUT)
     try:
         stock = yf.Ticker(ticker)
-        # Prendre une fenêtre suffisante pour couvrir target_date
         start = target_date - timedelta(days=10)
         end = target_date + timedelta(days=3)
         hist = stock.history(start=start.isoformat(), end=end.isoformat())
@@ -142,9 +154,15 @@ def get_close_on_date(ticker: str, target_date: datetime.date) -> float | None:
         if not before.empty:
             return round(float(before.iloc[-1]["Close"]), 2)
         return None
+    except YFTimeoutError:
+        print(f"[learn] Timeout ({YF_TIMEOUT}s) fetching price for {ticker} @ {target_date}", file=sys.stderr)
+        return None
     except Exception as e:
         print(f"[learn] Error fetching price for {ticker} @ {target_date}: {e}", file=sys.stderr)
         return None
+    finally:
+        signal.alarm(0)
+        signal.signal(signal.SIGALRM, old_handler)
 
 
 def parse_price(text: str) -> float | None:
