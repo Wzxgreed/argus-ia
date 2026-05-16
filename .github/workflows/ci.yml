@@ -18,6 +18,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: requirements.txt
 
       - name: Install dev dependencies
         run: |
@@ -44,6 +46,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
+          cache: "pip"
+          cache-dependency-path: requirements.txt
 
       - name: Install dependencies
         run: |
@@ -75,6 +79,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: requirements.txt
 
       - name: Install dependencies
         run: |
@@ -125,3 +131,36 @@ jobs:
           jsonschema.validate(instance=example, schema=schema)
           print('Example snapshot validates against schema')
           "
+
+      - name: Validate real snapshot via validate.py
+        run: |
+          python -c "
+          import json
+          from datetime import datetime, timezone
+          today = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+          example = {
+              'meta': {
+                  'date': today,
+                  'source': 'yfinance',
+                  'fetched_at': f'{today}T08:30:00+00:00',
+                  'tickers_requested': ['AAPL'],
+                  'tickers_ok': 1,
+                  'tickers_ko': 0,
+              },
+              'prices': {
+                  'AAPL': {
+                      'ticker': 'AAPL',
+                      'error': False,
+                      'price': {'open': 190, 'high': 192, 'low': 189, 'close': 191, 'previous_close': 190, 'volume': 1000, 'volume_avg_20d': 1000, 'change_pct': 0.5},
+                      'technical': {'rsi14': 50, 'atr14': 2, 'mm50': 190, 'mm200': 185, 'golden_cross': True},
+                      'fundamentals': {'market_cap': 1000, 'sector': 'Tech'},
+                      'options': {},
+                      'timestamp': f'{today}T08:30:00+00:00',
+                  }
+              }
+          }
+          with open('data/latest.json', 'w') as f:
+              json.dump(example, f)
+          print('Wrote data/latest.json')
+          "
+          python scripts/validate.py

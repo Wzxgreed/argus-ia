@@ -118,6 +118,42 @@ L'agent lit automatiquement `data/latest.json` et `data/validation_report.txt` a
 
 ---
 
+## 7. CI et gestion des secrets (GitHub Actions)
+
+Le workflow CI (`.github/workflows/ci.yml`) **ne dispose pas de clés API** et ne fetch jamais de données réelles en production. Il exécute uniquement :
+
+- **Lint** et **format** (Ruff, Black)
+- **Tests unitaires** avec mocks (`pytest -m "not integration and not slow"`)
+- **Validation JSON Schema** sur un exemple statique
+
+### Pourquoi pas de clés en CI ?
+
+Les appels API (Yahoo Finance, FMP, Reddit) sont soumis à des rate-limits et nécessitent des credentials. Les tests d'intégration contre ces services doivent être lancés **localement** avec votre `.env.local`.
+
+### Si vous voulez ajouter des tests d'intégration en CI
+
+1. Allez dans **Settings > Secrets and variables > Actions** de votre repo GitHub
+2. Ajoutez `FMP_API_KEY` (et autres secrets nécessaires)
+3. Modifiez le workflow pour conditionner les tests d'intégration :
+   ```yaml
+   - name: Run integration tests
+     if: github.event_name == 'push' && secrets.FMP_API_KEY != ''
+     run: pytest tests/ -m integration -v
+   ```
+4. Gardez un oeil sur les rate-limits : les CI runners partagent des IP publiques.
+
+### Fichiers sensibles
+
+| Fichier | Rôle | Git-tracked ? |
+|---------|------|---------------|
+| `.env` | Template (clés vides) | Oui |
+| `.env.local` | Vos vraies clés API | Non (`.gitignore`) |
+| `data/latest.json` | Snapshot généré localement | Peut être commité par `auto_push.sh` |
+
+> **Règle absolue :** ne jamais commiter `.env.local`. Le `.gitignore` le protège, mais vérifiez avant chaque `git add -A`.
+
+---
+
 ## Dépendances
 
 | Package | Version min | Usage |

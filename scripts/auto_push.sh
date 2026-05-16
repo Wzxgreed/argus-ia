@@ -25,8 +25,13 @@ fi
 MSG="${1:-Agent snapshot — $(date -u +%Y-%m-%dT%H:%M:%SZ)}"
 git commit -m "$MSG" || true
 
+# Tag quotidien pour revenir instantanément à l'état d'un jour donné
+TAG="snapshot-$(date -u +%Y-%m-%d)"
+git tag "$TAG" || true
+
 if git push origin main; then
     echo "[auto_push] Pushed to GitHub successfully."
+    git push origin "$TAG" || echo "[auto_push] Tag push skipped."
 else
     echo "[auto_push] Push failed — check network or credentials."
     exit 1
