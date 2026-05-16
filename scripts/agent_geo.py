@@ -56,9 +56,17 @@ def load_config() -> dict:
 
 
 def get_ticker_news(ticker: str, limit: int = 10) -> list[dict]:
-    """Récupère les news via YahooClient (requests + timeout)."""
-    client = YahooClient()
-    return client.get_news(ticker, limit=limit)
+    """Lit les news depuis data/news_latest.json (produit par agent_news_fetcher.py)."""
+    news_path = DATA_DIR / "news_latest.json"
+    if not news_path.exists():
+        return []
+    try:
+        with open(news_path.resolve(), "r", encoding="utf-8") as f:
+            data = json.load(f)
+        items = data.get("news", {}).get(ticker, [])
+        return items[:limit]
+    except Exception:
+        return []
 
 
 def detect_political_events(news_items: list[dict]) -> list[dict]:

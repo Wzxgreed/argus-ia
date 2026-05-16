@@ -207,59 +207,58 @@ def fetch_earnings_yahoo(ticker: str) -> list[dict]:
 
 def scan_news_proactive(ticker: str) -> list[dict]:
     """
-    Scanne les news yfinance pour les événements futurs.
-    Retourne une liste d'événements avec type, titre, date, severity.
+    Lit les news depuis data/news_latest.json (produit par agent_news_fetcher.py)
+    pour détecter les événements futurs.
     """
-    try:
-        stock = yf.Ticker(ticker)
-        news = stock.news or []
-        events = []
-        seen_titles = set()
-        for item in news:
-            # Nouveau format yfinance : content nested
-            content = item.get("content") or item
-            title = (content.get("title") or "").lower()
-            summary = (content.get("summary") or content.get("description") or "").lower()
-            if not title:
-                continue
-            # Déduplication par titre
-            if title in seen_titles:
-                continue
-            seen_titles.add(title)
-            text = title + " " + summary
-            # Cherche les keywords futurs
-            matched = [kw for kw in FUTURE_KEYWORDS if kw in text]
-            if matched:
-                # Determine severity
-                severity = "medium"
-                if any(k in text for k in ["ceo", "acquisition", "merger", "fda", "guidance", "bankruptcy"]):
-                    severity = "high"
-                # Try to extract a date from the text
-                date_mention = None
-                date_patterns = [
-                    r"(\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]* \d{1,2}\b)",
-                    r"(\bq[1-4]\s+20\d{2}\b)",
-                    r"(\bnext\s+(?:week|month|quarter)\b)",
-                ]
-                for pat in date_patterns:
-                    m = re.search(pat, text)
-                    if m:
-                        date_mention = m.group(1)
-                        break
+    news_path = DATA_DIR / "news_latest.json"
+    if not news_path.exists():
+        return []
 
-                raw_title = content.get("title", "")
-                pub_date = content.get("pubDate") or content.get("displayTime")
-                events.append({
-                    "type": f"news_{'_'.join(matched[0].split())}",
-                    "date": None,
-                    "details": f"News: {raw_title}" + (f" [event: {date_mention}]" if date_mention else ""),
-                    "source": "yfinance_news",
-                    "severity": severity,
-                    "news_date": parse_date(pub_date),
-                })
-        return events
+    try:
+        with open(news_path.resolve(), "r", encoding="utf-8") as f:
+            data = json.load(f)
+        news = data.get("news", {}).get(ticker, [])
     except Exception:
         return []
+
+    events = []
+    seen_titles = set()
+    for item in news:
+        title = (item.get("title") or "").lower()
+        summary = (item.get("summary") or "").lower()
+        if not title:
+            continue
+        if title in seen_titles:
+            continue
+        seen_titles.add(title)
+        text = title + " " + summary
+        matched = [kw for kw in FUTURE_KEYWORDS if kw in text]
+        if matched:
+            severity = "medium"
+            if any(k in text for k in ["ceo", "acquisition", "merger", "fda", "guidance", "bankruptcy"]):
+                severity = "high"
+            date_mention = None
+            date_patterns = [
+                r"(\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]* \d{1,2}\b)",
+                r"(\bq[1-4]\s+20\d{2}\b)",
+                r"(\bnext\s+(?:week|month|quarter)\b)",
+            ]
+            for pat in date_patterns:
+                m = re.search(pat, text)
+                if m:
+                    date_mention = m.group(1)
+                    break
+            raw_title = item.get("title", "")
+            pub_date = item.get("published")
+            events.append({
+                "type": f"news_{'_'.join(matched[0].split())}",
+                "date": None,
+                "details": f"News: {raw_title}" + (f" [event: {date_mention}]" if date_mention else ""),
+                "source": "yahoo_news",
+                "severity": severity,
+                "news_date": parse_date(pub_date),
+            })
+    return events
 
 
 # ---------------------------------------------------------------------------

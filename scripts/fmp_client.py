@@ -33,13 +33,25 @@ FMP_BASE_URL = "https://financialmodelingprep.com/stable"
 
 
 class FMPClient:
+    """Client FMP avec session réutilisable (pool de connexions)."""
+
     def __init__(self, api_key: str = None):
         self.api_key = api_key or FMP_API_KEY
         if not self.api_key:
             print("[FMP] Warning: FMP_API_KEY not found. Set it in .env.local", file=sys.stderr)
+        # Session réutilisable → pool de connexions HTTP keep-alive
+        self.session = requests.Session()
+        self.session.headers.update({
+            "User-Agent": (
+                "Argus-IA/1.0 (github.com/Wzxgreed/argus-ia) "
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                "AppleWebKit/537.36"
+            ),
+            "Accept": "application/json",
+        })
 
     def _get(self, endpoint: str, params: dict = None) -> dict | list:
-        """GET request vers la Stable API FMP."""
+        """GET request vers la Stable API FMP avec session keep-alive."""
         if not self.api_key:
             return {"error": True, "reason": "FMP_API_KEY missing"}
 
@@ -48,12 +60,14 @@ class FMPClient:
         p["apikey"] = self.api_key
 
         try:
-            resp = requests.get(url, params=p, timeout=15)
+            resp = self.session.get(url, params=p, timeout=15)
             resp.raise_for_status()
             data = resp.json()
             if isinstance(data, dict) and "Error Message" in data:
                 return {"error": True, "reason": data["Error Message"]}
             return data
+        except requests.exceptions.Timeout:
+            return {"error": True, "reason": "Timeout (15s)"}
         except requests.exceptions.HTTPError as e:
             return {"error": True, "reason": f"HTTP {e.response.status_code}: {e.response.text[:200]}"}
         except Exception as e:

@@ -20,8 +20,6 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import requests
-
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
@@ -29,8 +27,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 CONFIG_PATH = BASE_DIR / "config" / "watchlist.json"
 DATA_DIR = BASE_DIR / "data"
 ALERTES_DIR = BASE_DIR / "Alertes"
-
-YF_TIMEOUT = 10  # seconds per HTTP call
 
 # Keywords pour détection d'événements corporates
 EVENT_KEYWORDS = {
@@ -84,24 +80,16 @@ def load_config():
 
 
 def get_ticker_news(ticker: str, limit: int = 15) -> list[dict]:
-    """Récupère les news via Yahoo Finance API REST avec timeout HTTP."""
-    url = (
-        "https://query1.finance.yahoo.com/v1/finance/search"
-        f"?q={ticker}&quotesCount=0&newsCount={limit}"
-    )
-    headers = {
-        "User-Agent": (
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-        )
-    }
+    """Lit les news depuis data/news_latest.json (produit par agent_news_fetcher.py)."""
+    news_path = DATA_DIR / "news_latest.json"
+    if not news_path.exists():
+        return []
     try:
-        resp = requests.get(url, headers=headers, timeout=YF_TIMEOUT)
-        resp.raise_for_status()
-        data = resp.json()
-        items = data.get("news", []) or []
+        with open(news_path.resolve(), "r", encoding="utf-8") as f:
+            data = json.load(f)
+        items = data.get("news", {}).get(ticker, [])
         news = []
-        for item in items:
+        for item in items[:limit]:
             news.append({
                 "title": item.get("title", ""),
                 "summary": item.get("summary", ""),
@@ -109,11 +97,8 @@ def get_ticker_news(ticker: str, limit: int = 15) -> list[dict]:
                 "link": item.get("link", ""),
             })
         return news
-    except requests.Timeout:
-        print(f"[event] Timeout ({YF_TIMEOUT}s) fetching news for {ticker}", file=sys.stderr)
-        return []
     except Exception as e:
-        print(f"[event] Error fetching news for {ticker}: {e}", file=sys.stderr)
+        print(f"[event] Error reading news for {ticker}: {e}", file=sys.stderr)
         return []
 
 
