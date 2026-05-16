@@ -16,12 +16,11 @@ Output:
 
 import json
 import re
-import signal
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-import yfinance as yf
+import requests
 
 # ---------------------------------------------------------------------------
 # Config
@@ -31,7 +30,7 @@ CONFIG_PATH = BASE_DIR / "config" / "watchlist.json"
 DATA_DIR = BASE_DIR / "data"
 ALERTES_DIR = BASE_DIR / "Alertes"
 
-YF_TIMEOUT = 15  # seconds per ticker call
+YF_TIMEOUT = 10  # seconds per HTTP call
 
 # Keywords pour détection d'événements corporates
 EVENT_KEYWORDS = {
@@ -84,31 +83,38 @@ def load_config():
         return json.load(f)
 
 
-class YFTimeoutError(Exception):
-    pass
-
-
-def _timeout_handler(signum, frame):
-    raise YFTimeoutError()
-
-
 def get_ticker_news(ticker: str, limit: int = 15) -> list[dict]:
-    """Récupère les news via yfinance avec timeout réseau (SIGALRM)."""
-    old_handler = signal.signal(signal.SIGALRM, _timeout_handler)
-    signal.alarm(YF_TIMEOUT)
+    """Récupère les news via Yahoo Finance API REST avec timeout HTTP."""
+    url = (
+        "https://query1.finance.yahoo.com/v1/finance/search"
+        f"?q={ticker}&quotesCount=0&newsCount={limit}"
+    )
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        )
+    }
     try:
-        stock = yf.Ticker(ticker)
-        news = stock.news or []
-        return news[:limit]
-    except YFTimeoutError:
+        resp = requests.get(url, headers=headers, timeout=YF_TIMEOUT)
+        resp.raise_for_status()
+        data = resp.json()
+        items = data.get("news", []) or []
+        news = []
+        for item in items:
+            news.append({
+                "title": item.get("title", ""),
+                "summary": item.get("summary", ""),
+                "publisher": item.get("publisher", ""),
+                "link": item.get("link", ""),
+            })
+        return news
+    except requests.Timeout:
         print(f"[event] Timeout ({YF_TIMEOUT}s) fetching news for {ticker}", file=sys.stderr)
         return []
     except Exception as e:
         print(f"[event] Error fetching news for {ticker}: {e}", file=sys.stderr)
         return []
-    finally:
-        signal.alarm(0)
-        signal.signal(signal.SIGALRM, old_handler)
 
 
 def detect_events(news_items: list[dict]) -> list[dict]:

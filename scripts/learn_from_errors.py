@@ -21,13 +21,12 @@ Cibles :
 import json
 import os
 import re
-import signal
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
-import yfinance as yf
+import requests
 
 # ---------------------------------------------------------------------------
 # Config
@@ -45,15 +44,7 @@ today = datetime.now(timezone.utc).date()
 HIT_THRESHOLD = 0.02
 MISS_THRESHOLD = -0.02
 
-YF_TIMEOUT = 15  # seconds per yfinance call
-
-
-class YFTimeoutError(Exception):
-    pass
-
-
-def _timeout_handler(signum, frame):
-    raise YFTimeoutError()
+YF_TIMEOUT = 15  # seconds per HTTP call
 
 # Fenêtres actives
 HORIZONS_BT = {"J+5": 5, "J+20": 20, "J+60": 60}
@@ -132,37 +123,59 @@ def replace_table_rows(text: str, header_keywords: list[str], new_rows: list[dic
 
 def get_close_on_date(ticker: str, target_date: datetime.date) -> float | None:
     """
-    Récupère le cours de clôture le plus proche de target_date via yfinance.
+    Récupère le cours de clôture le plus proche de target_date via Yahoo Finance API.
     Retourne None si aucune donnée.
     """
-    old_handler = signal.signal(signal.SIGALRM, _timeout_handler)
-    signal.alarm(YF_TIMEOUT)
+    start = target_date - timedelta(days=10)
+    end = target_date + timedelta(days=3)
+    period1 = int(datetime.combine(start, datetime.min.time()).timestamp())
+    period2 = int(datetime.combine(end, datetime.min.time()).timestamp())
+
+    url = (
+        f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}"
+        f"?period1={period1}&period2={period2}&interval=1d"
+    )
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        )
+    }
     try:
-        stock = yf.Ticker(ticker)
-        start = target_date - timedelta(days=10)
-        end = target_date + timedelta(days=3)
-        hist = stock.history(start=start.isoformat(), end=end.isoformat())
-        if hist.empty:
+        resp = requests.get(url, headers=headers, timeout=YF_TIMEOUT)
+        resp.raise_for_status()
+        data = resp.json()
+        result = data.get("chart", {}).get("result", [])
+        if not result:
             return None
-        # Index est timezone-aware UTC ; normaliser target_date
-        for date_idx in hist.index:
-            d = date_idx.tz_convert("UTC").date()
+        timestamps = result[0].get("timestamp", [])
+        closes = result[0].get("indicators", {}).get("quote", [{}])[0].get("close", [])
+        if not timestamps or not closes:
+            return None
+
+        # Match exact
+        for ts, close in zip(timestamps, closes):
+            if close is None:
+                continue
+            d = datetime.fromtimestamp(ts, tz=timezone.utc).date()
             if d == target_date:
-                return round(float(hist.loc[date_idx, "Close"]), 2)
-        # Si pas de match exact, prendre le dernier avant
-        before = hist[hist.index.date <= target_date]
-        if not before.empty:
-            return round(float(before.iloc[-1]["Close"]), 2)
+                return round(float(close), 2)
+
+        # Dernier avant target_date
+        for ts, close in reversed(list(zip(timestamps, closes))):
+            if close is None:
+                continue
+            d = datetime.fromtimestamp(ts, tz=timezone.utc).date()
+            if d <= target_date:
+                return round(float(close), 2)
+
         return None
-    except YFTimeoutError:
+    except requests.Timeout:
         print(f"[learn] Timeout ({YF_TIMEOUT}s) fetching price for {ticker} @ {target_date}", file=sys.stderr)
         return None
     except Exception as e:
         print(f"[learn] Error fetching price for {ticker} @ {target_date}: {e}", file=sys.stderr)
         return None
-    finally:
-        signal.alarm(0)
-        signal.signal(signal.SIGALRM, old_handler)
 
 
 def parse_price(text: str) -> float | None:
