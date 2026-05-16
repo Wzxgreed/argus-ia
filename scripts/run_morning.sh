@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# run_morning.sh — Pipeline complet du matin (Argus-IA v2.1).
-# 16 étapes : Apprentissage → Quant → Geo → Crypto → Prix → Macro → Calendar → Watchman → Major Events → Accounting → Sector Rotation → Social Sentiment → Transcripts → Validation → Paper Trading → Draft Check
+# run_morning.sh — Pipeline complet du matin (Argus-IA v2.2).
+# 19 étapes : Apprentissage → Quant → Geo → Crypto → Prix → Macro → Calendar → Watchman → Major Events → Accounting → Sector Rotation → Social Sentiment → FX Exposure → Event-Driven → Transcripts → Validation → Recommandations → Paper Trading → Draft Check
 
 set -euo pipefail
 
@@ -56,7 +56,7 @@ run_step() {
     local cmd="$3"
     local allow_fail="${4:-false}"
 
-    log "INFO" "[$num/16] $name"
+    log "INFO" "[$num/19] $name"
     write_checkpoint "$num" "running"
 
     set +e
@@ -66,11 +66,11 @@ run_step() {
 
     if [ $exit_code -ne 0 ]; then
         if [ "$allow_fail" = "true" ]; then
-            log "WARN" "[$num/16] $name exited with code $exit_code (allowed)"
+            log "WARN" "[$num/19] $name exited with code $exit_code (allowed)"
             write_checkpoint "$num" "skipped"
             return 0
         else
-            log "ERROR" "[$num/16] $name FAILED with code $exit_code"
+            log "ERROR" "[$num/19] $name FAILED with code $exit_code"
             write_checkpoint "$num" "failed"
             log "ERROR" "Pipeline aborted at step $num. See $PIPELINE_LOG"
             exit $exit_code
@@ -78,7 +78,7 @@ run_step() {
     fi
 
     write_checkpoint "$num" "ok"
-    log "INFO" "[$num/16] $name OK"
+    log "INFO" "[$num/19] $name OK"
     return 0
 }
 
@@ -115,10 +115,13 @@ run_step  8 "Detecting major events" "python3 scripts/detect_major_events.py"   
 run_step  9 "Accounting risk scan"  "python3 scripts/agent_accounting.py"             true
 run_step 10 "Sector rotation scan"   "python3 scripts/agent_sector_rotation.py"        true
 run_step 11 "Social sentiment scan"  "python3 scripts/agent_social.py"               true
-run_step 12 "NLP Transcripts (opt)"  "python3 scripts/fetch_transcripts.py"            true
-run_step 13 "Validating data"        "python3 scripts/validate.py"                    false
-run_step 14 "Paper trading engine"   "python3 scripts/paper_trading.py"               true
-run_step 15 "Checking DRAFTs"        "bash -c 'echo DRAFT check done'"               true
+run_step 12 "FX exposure scan"       "python3 scripts/agent_fx.py"                   true
+run_step 13 "Event-Driven scan"      "python3 scripts/agent_event_driven.py"           true
+run_step 14 "NLP Transcripts (opt)"  "python3 scripts/fetch_transcripts.py"            true
+run_step 15 "Validating data"        "python3 scripts/validate.py"                    false
+run_step 16 "Recommendation engine"  "python3 scripts/agent_recommandation.py"        false
+run_step 17 "Paper trading engine"   "python3 scripts/paper_trading.py"               true
+run_step 18 "Checking DRAFTs"        "bash -c 'echo DRAFT check done'"               true
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Validation output
@@ -131,6 +134,9 @@ if [ -f "$BASE_DIR/data/validation_report.txt" ]; then
     echo "   Quant Report:       data/quant_report_$DATE_STR.json"
     echo "   Geo Risk:           data/geo_risk_$DATE_STR.json"
     echo "   Crypto Correlation: data/crypto_correlation_$DATE_STR.json"
+    echo "   FX Exposure:        data/fx_exposure_$DATE_STR.json"
+    echo "   Event-Driven:       data/events_$DATE_STR.json"
+    echo "   Recommandations:    data/recommandations_$DATE_STR.json"
     echo "   Upcoming Events:    data/upcoming_events_$DATE_STR.json"
     if [ -f "$BASE_DIR/data/transcripts_NLP_$DATE_STR.json" ]; then
         echo "   Transcripts:        data/transcripts_NLP_$DATE_STR.json"
@@ -173,10 +179,10 @@ fi
 # Footer
 # ─────────────────────────────────────────────────────────────────────────────
 clear_checkpoint
-log "INFO" "Pipeline complete — 16/16 steps done."
+log "INFO" "Pipeline complete — 19/19 steps done."
 echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo " Pipeline complete — 16/16 steps done."
+echo " Pipeline complete — 19/19 steps done."
 echo " Next: read data/latest.json + data/validation_report.txt + Alertes/UPCOMING_EVENTS.md"
 echo " Log: $PIPELINE_LOG"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
