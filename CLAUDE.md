@@ -12,15 +12,23 @@ Chaque matin, le système produit trois livrables en un seul workflow :
 ```
 Argus-IA/
 ├── CLAUDE.md                              ← Ce fichier
+├── Makefile                               ← Commandes rapides (install, test, lint, pipeline, agents)
 ├── INSTALL.md                             ← Guide d'installation rapide
+├── README.md                              ← Présentation du projet
 ├── requirements.txt                       ← Dépendances Python
+├── pyproject.toml                         ← Configuration Python (packaging, outils)
 ├── .env                                   ← Template de configuration API
+│
+├── .github/
+│   └── workflows/
+│       └── ci.yml                         ← CI GitHub Actions (lint + test + validation)
 │
 ├── config/
 │   └── watchlist.json                     ← Tickers, secteurs, symboles macro, settings
 │
 ├── scripts/                               ← Pipeline de données Python
-│   ├── run_morning.sh                     ← Pipeline complet du matin (16 étapes)
+│   ├── run_morning.sh                     ← Pipeline complet du matin (16 étapes + auto-push GitHub)
+│   ├── auto_push.sh                       ← Helper commit + push automatique post-agent/pipeline
 │   ├── fetch_prices.py                   ← Cours, volumes, technique, fondamentaux, options (Yahoo + FMP)
 │   ├── fetch_macro.py                    ← Indices, VIX, taux, FX, commodités, régime macro (Yahoo)
 │   ├── fetch_calendar.py                 ← Earnings dates, calendrier économique (Yahoo + FMP)
@@ -662,16 +670,25 @@ PHASE 3 — DÉTECTION D'OPPORTUNITÉS
 17. Mettre à jour Opportunités/HISTORIQUE_SCORES.md
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-PHASE 4 — BULLETIN FINAL
+PHASE 4 — BULLETIN FINAL & AUTO-PUSH
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 18. Sauvegarder Actualités/YYYY-MM-DD.md avec :
     → Toutes les news mondiales classées par zone
     → Section "Analyses approfondies" (liens vers _update.md créés)
     → Section "Opportunités du jour" (extrait du podium + lien vers rapport)
+19. `run_morning.sh` exécute `scripts/auto_push.sh` automatiquement :
+    → Commit des nouveaux fichiers générés (data, analyses, bulletins)
+    → Push vers `origin main` sur https://github.com/Wzxgreed/argus-ia
+    → Si push échoue (réseau, etc.) → log warning, pipeline continue
 ```
 
 **Commande unique du matin :**
 `Lance le bulletin du matin : actualités mondiales, analyse d'impact sur ma watchlist et rapport d'opportunités du jour`
+
+**Ou via Makefile :**
+```bash
+make pipeline
+```
 
 ---
 
@@ -793,6 +810,45 @@ Quand un ticker suivi est détecté dans l'actualité, l'agent doit obligatoirem
 | **Paper P&L** | `Quel est le P&L du portefeuille paper trading ?` |
 | **Social sentiment** | `Quel est le sentiment retail sur [TICKER] aujourd'hui ?` |
 | **Pump detection** | `Y a-t-il des signaux de pump/dump sur ma watchlist ?` |
+
+---
+
+## Infrastructure & Auto-Push GitHub
+
+### Helper `scripts/auto_push.sh`
+Commit + push automatique des artefacts générés (data, analyses, alertes, logs). Usage :
+```bash
+./scripts/auto_push.sh "Message de commit optionnel"
+```
+Stage automatiquement : `data/`, `Actions/`, `Actualités/`, `Opportunités/`, `Alertes/`, `Portefeuille/`, `Agents/`, `logs/`, `scripts/`, `Makefile`, `README.md`, `requirements.txt`, `pyproject.toml`, `.github/`.
+
+### `Makefile` — Commandes disponibles
+```bash
+make install           # Créer venv + installer dépendances
+make test              # Suite de tests (pytest)
+make lint              # Ruff + Black check
+make format            # Black + Ruff fix
+make pipeline          # Lancer le pipeline du matin (avec auto-push final)
+make push              # Lint + test + push manuel
+make clean             # Nettoyer fichiers temporaires
+
+# Agents individuels avec auto-push intégré :
+make agent-watchman    # Watchman → commit + push
+make agent-geo         # Géopolitique → commit + push
+make agent-crypto      # Crypto-correlation → commit + push
+make agent-accounting  # Accounting risk → commit + push
+make agent-sector      # Sector rotation → commit + push
+make agent-social      # Social sentiment → commit + push
+```
+
+### CI GitHub Actions
+Fichier `.github/workflows/ci.yml` — exécuté à chaque push :
+1. Lint (Ruff)
+2. Tests (pytest)
+3. Validation JSON Schema (`scripts/validate.py`)
+
+### Dépôt GitHub
+URL distante : `https://github.com/Wzxgreed/argus-ia.git`
 
 ---
 

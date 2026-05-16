@@ -14,7 +14,7 @@ if [ -z "$(git config --get user.email 2>/dev/null || true)" ]; then
 fi
 
 # Stage generated artefacts + project files that agents may modify
-git add data/ Actions/ Actualités/ Opportunités/ Alertes/ Portefeuille/ Agents/ logs/ scripts/ Makefile README.md requirements.txt pyproject.toml .github/ 2>/dev/null || true
+git add data/ Actions/ Actualités/ Opportunités/ Alertes/ Portefeuille/ Agents/ logs/ scripts/ Makefile README.md requirements.txt pyproject.toml .github/ CLAUDE.md INSTALL.md 2>/dev/null || true
 
 # Commit only if there are changes
 if git diff --cached --quiet; then
