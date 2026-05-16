@@ -160,6 +160,16 @@ else
 fi
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Auto-push to GitHub
+# ─────────────────────────────────────────────────────────────────────────────
+log "INFO" "Checking for changes to push to GitHub..."
+if bash "$BASE_DIR/scripts/auto_push.sh" "Pipeline matinal — snapshot du jour." >> "$PIPELINE_LOG" 2>&1; then
+    log "INFO" "Changes pushed to GitHub successfully."
+else
+    log "INFO" "No changes to push or push failed."
+fi
+
+# ─────────────────────────────────────────────────────────────────────────────
 # Footer
 # ─────────────────────────────────────────────────────────────────────────────
 clear_checkpoint

@@ -1,4 +1,4 @@
-.PHONY: help install test lint format pipeline clean
+.PHONY: help install test lint format pipeline clean push agent-watchman agent-geo agent-crypto agent-accounting agent-sector agent-social
 
 help:
 	@echo "Argus-IA — Commandes disponibles"
@@ -41,3 +41,35 @@ clean:
 push: lint test
 	@echo "Lint + tests OK. Pushing to GitHub..."
 	git push origin main
+
+# ── Agents individuels avec auto-push ────────────────────────────────────────
+
+agent-watchman:
+	@echo "Running Watchman agent..."
+	@source .venv/bin/activate && python3 scripts/agent_watchman.py
+	@./scripts/auto_push.sh "Watchman agent snapshot"
+
+agent-geo:
+	@echo "Running Geopolitical agent..."
+	@source .venv/bin/activate && python3 scripts/agent_geo.py
+	@./scripts/auto_push.sh "Geopolitical agent snapshot"
+
+agent-crypto:
+	@echo "Running Crypto-correlation agent..."
+	@source .venv/bin/activate && python3 scripts/agent_crypto.py
+	@./scripts/auto_push.sh "Crypto agent snapshot"
+
+agent-accounting:
+	@echo "Running Accounting risk agent..."
+	@source .venv/bin/activate && python3 scripts/agent_accounting.py
+	@./scripts/auto_push.sh "Accounting agent snapshot"
+
+agent-sector:
+	@echo "Running Sector rotation agent..."
+	@source .venv/bin/activate && python3 scripts/agent_sector_rotation.py
+	@./scripts/auto_push.sh "Sector rotation agent snapshot"
+
+agent-social:
+	@echo "Running Social sentiment agent..."
+	@source .venv/bin/activate && python3 scripts/agent_social.py
+	@./scripts/auto_push.sh "Social sentiment agent snapshot"
