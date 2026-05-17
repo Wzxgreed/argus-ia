@@ -1,4 +1,4 @@
-.PHONY: help install test lint format pipeline clean push status wait-pipeline dashboard analyse agent-news agent-watchman agent-geo agent-crypto agent-accounting agent-sector agent-social agent-fx agent-event agent-reco group-a group-b group-c group-d pipeline-make
+.PHONY: help install test lint format pipeline clean push status wait-pipeline dashboard analyse agent-news agent-watchman agent-geo agent-crypto agent-accounting agent-sector agent-social agent-fx agent-event agent-reco group-a group-b group-c group-d pipeline-make proxy-start proxy-stop proxy-status proxy-ask
 
 help:
 	@echo "Argus-IA — Commandes disponibles"
@@ -187,3 +187,23 @@ agent-reco:
 	@echo "Running Recommendation engine..."
 	@source .venv/bin/activate && python3 agents/orchestrator.py --agent=recommandation
 	@./scripts/auto_push.sh "Recommendation engine snapshot"
+
+# ── LLM Proxy ─────────────────────────────────────────────────────────────────
+
+proxy-start:
+	@echo "Starting LLM proxy on localhost:11435..."
+	@source .venv/bin/activate && python3 scripts/llm_proxy.py --daemon
+
+proxy-stop:
+	@echo "Stopping LLM proxy..."
+	@source .venv/bin/activate && python3 scripts/llm_proxy.py --stop
+
+proxy-status:
+	@source .venv/bin/activate && python3 scripts/llm_proxy.py --status
+
+proxy-ask:
+	@if [ -z "$(PROMPT)" ]; then \
+		echo "Usage: make proxy-ask PROMPT='Hello' [MODEL=kimi-k2.6]"; \
+		exit 1; \
+	fi
+	@source .venv/bin/activate && python3 scripts/ask_llm.py --prompt "$(PROMPT)" --model "$(MODEL)" 2>/dev/null || echo "Proxy non démarré — lancez 'make proxy-start'"
