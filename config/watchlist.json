@@ -10,44 +10,12 @@
       "crypto_exposed": true
     },
     {
-      "ticker": "XOM",
-      "name": "ExxonMobil Corporation",
-      "sector": "Énergie",
-      "priority": "high",
-      "exchange": "NYSE",
-      "notes": "Crise Iran/Hormuz — pétrole $100, FCF explosif"
-    },
-    {
-      "ticker": "RTX",
-      "name": "RTX Corporation",
-      "sector": "Défense / Aérospatial",
-      "priority": "medium",
-      "exchange": "NYSE",
-      "notes": "Réarmement OTAN, guerre Iran, backlog record"
-    },
-    {
       "ticker": "VRT",
       "name": "Vertiv Holdings",
       "sector": "Infrastructure IA / Hardware",
       "priority": "medium",
       "exchange": "NYSE",
       "notes": "Refroidissement data centers, deal NVIDIA, ordres +252%"
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation",
-      "sector": "Semi-conducteurs / IA",
-      "priority": "medium",
-      "exchange": "NASDAQ",
-      "notes": "Earnings 20 mai, contrat $3.4B avec IREN, leader GPU"
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Apple Inc.",
-      "sector": "Tech",
-      "priority": "high",
-      "exchange": "NASDAQ",
-      "notes": "Ajouté le 2026-05-16"
     },
     {
       "ticker": "NOK",
