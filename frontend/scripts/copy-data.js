@@ -18,4 +18,20 @@ for (const file of files) {
   console.log(`✓ Copied ${file}`);
 }
 
+// Créer dashboard.html (redirection) après chaque build
+const dashboardRedirect = path.resolve(__dirname, "../dist/dashboard.html");
+fs.writeFileSync(dashboardRedirect, `<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="refresh" content="0; url=/dashboard/" />
+  <title>Redirection...</title>
+</head>
+<body>
+  <p>Redirection vers <a href="/dashboard/">Dashboard</a>...</p>
+</body>
+</html>
+`);
+fs.chmodSync(dashboardRedirect, 0o644);
+console.log("✓ Created dashboard.html redirect");
+
 console.log(`Done — ${files.length} files copied to dist/data/`);

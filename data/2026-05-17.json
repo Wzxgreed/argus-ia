@@ -2,7 +2,7 @@
   "meta": {
     "date": "2026-05-17",
     "source": "yahoo_worker_daemon (warm) + fmp",
-    "fetched_at": "2026-05-17T17:35:24.855223+00:00",
+    "fetched_at": "2026-05-17T20:02:34.051242+00:00",
     "tickers_requested": [
       "IREN",
       "VRT",
@@ -12,10 +12,15 @@
       "FLY",
       "PLTR",
       "SQ",
-      "AAPL"
+      "AAPL",
+      "TEST",
+      "RKLB",
+      "ANALYSE RKLB",
+      "FUBO",
+      "MITK"
     ],
-    "tickers_ok": 9,
-    "tickers_ko": 0
+    "tickers_ok": 13,
+    "tickers_ko": 1
   },
   "prices": {
     "IREN": {
@@ -61,7 +66,7 @@
         "call_oi_pct": 40.5,
         "expiration_nearest": "2026-05-22"
       },
-      "timestamp": "2026-05-17T17:35:29.046818+00:00",
+      "timestamp": "2026-05-17T20:02:39.151165+00:00",
       "fmp_consensus": {
         "price_target_avg": 65.86,
         "price_target_low": null,
@@ -127,10 +132,6 @@
         "cash_conversion_cycle": -169.46729786500623,
         "date": "2025-06-30",
         "period": "FY"
-      },
-      "_quality_gate": {
-        "status": "ok",
-        "reasons": []
       }
     },
     "VRT": {
@@ -176,7 +177,7 @@
         "call_oi_pct": 22.7,
         "expiration_nearest": "2026-05-22"
       },
-      "timestamp": "2026-05-17T17:35:29.813284+00:00",
+      "timestamp": "2026-05-17T20:02:39.182479+00:00",
       "fmp_consensus": {
         "price_target_avg": 257.49,
         "price_target_low": null,
@@ -242,125 +243,6 @@
         "cash_conversion_cycle": 94.6271617918027,
         "date": "2025-12-31",
         "period": "FY"
-      },
-      "_quality_gate": {
-        "status": "ok",
-        "reasons": []
-      }
-    },
-    "NOK": {
-      "ticker": "NOK",
-      "error": false,
-      "price": {
-        "open": 13.74,
-        "high": 14.06,
-        "low": 13.62,
-        "close": 13.95,
-        "previous_close": 14.46,
-        "volume": 108849700,
-        "volume_avg_20d": 124826160,
-        "change_pct": -3.53
-      },
-      "technical": {
-        "rsi14": 68.4,
-        "atr14": 0.96,
-        "mm50": 10.17,
-        "mm200": null,
-        "golden_cross": null
-      },
-      "fundamentals": {
-        "market_cap": 77876346880,
-        "pe_ratio": 87.1875,
-        "forward_pe": 28.756363,
-        "ev_ebitda": 29.801,
-        "ev_revenue": 3.781,
-        "price_to_book": 3.140344,
-        "dividend_yield": 1.17,
-        "beta": 0.765,
-        "short_interest_pct": 0.012,
-        "shares_float": 4443577528,
-        "shares_outstanding": 5582534171,
-        "fifty_two_week_high": 15.19,
-        "fifty_two_week_low": 4.0,
-        "sector": "Technology",
-        "industry": "Communication Equipment"
-      },
-      "options": {
-        "max_pain": 15.0,
-        "put_call_ratio": 0.39,
-        "call_oi_pct": 71.7,
-        "expiration_nearest": "2026-05-22"
-      },
-      "timestamp": "2026-05-17T17:35:30.538087+00:00",
-      "fmp_consensus": {
-        "price_target_avg": 9.26,
-        "price_target_low": null,
-        "price_target_high": null,
-        "num_analysts": 6,
-        "num_analysts_last_month": 2,
-        "num_analysts_last_quarter": 2,
-        "publishers": "[\"TheFly\",\"Benzinga\",\"Pulse 2.0\",\"StreetInsider\",\"Barrons\"]"
-      },
-      "fmp_ratios": {
-        "roe": null,
-        "roic": null,
-        "roa": null,
-        "gross_margin": 0.4353662828699281,
-        "operating_margin": 0.0393182160993514,
-        "ebitda_margin": 0.11327869676705717,
-        "net_margin": 0.032731660716979236,
-        "debt_equity": 0.24848573886267042,
-        "debt_assets": 0.13857489525491326,
-        "interest_coverage": 0,
-        "current_ratio": 1.5785686270705783,
-        "quick_ratio": 1.3577569301287973,
-        "asset_turnover": 0.5292302101921239,
-        "receivables_turnover": 2.917517529822445,
-        "payables_turnover": 3.772592301694509,
-        "inventory_turnover": 5.085912520493102,
-        "price_to_earnings": 45.8112977749493,
-        "price_to_book": 1.422991063277564,
-        "price_to_sales": 1.4994798557741464,
-        "price_to_fcf": 20.357102287707846,
-        "enterprise_value_multiple": 13.125283112069239,
-        "effective_tax_rate": 0.30273224043715846,
-        "dividend_yield": 2.545002377446424,
-        "revenue_per_share": 3.6723514349294555,
-        "book_value_per_share": 3.886543561927932,
-        "date": "2025-12-31",
-        "period": "FY"
-      },
-      "fmp_key_metrics": {
-        "market_cap": 29823154851.491997,
-        "enterprise_value": 29571262851.491997,
-        "ev_to_sales": 1.4868149656338678,
-        "ev_to_ebitda": 13.125283112069239,
-        "ev_to_operating_cash_flow": 14.278736287538386,
-        "ev_to_fcf": 20.185162355967233,
-        "net_debt_to_ebitda": -0.11180292942743009,
-        "return_on_equity": 0.03106201160831748,
-        "return_on_assets": 0.017322583681184205,
-        "return_on_invested_capital": 0.01888834988526946,
-        "return_on_capital_employed": 0.028352587411081372,
-        "earnings_yield": 0.02182867651801874,
-        "free_cash_flow_yield": 0.04912290491382097,
-        "working_capital": 5785537000,
-        "invested_capital": 15666330000,
-        "tangible_asset_value": 13657185000,
-        "capex_to_revenue": 0.030469103524561315,
-        "capex_to_operating_cash_flow": 0.29261226460647033,
-        "capex_to_depreciation": 0.5415549597855228,
-        "stock_based_compensation_to_revenue": 0.016944039418774197,
-        "days_sales_outstanding": 125.10636055105837,
-        "days_payables_outstanding": 96.75044924309884,
-        "days_inventory_outstanding": 71.76686553873553,
-        "cash_conversion_cycle": 100.12277684669505,
-        "date": "2025-12-31",
-        "period": "FY"
-      },
-      "_quality_gate": {
-        "status": "ok",
-        "reasons": []
       }
     },
     "SOFI": {
@@ -406,7 +288,7 @@
         "call_oi_pct": 63.4,
         "expiration_nearest": "2026-05-22"
       },
-      "timestamp": "2026-05-17T17:35:31.434791+00:00",
+      "timestamp": "2026-05-17T20:02:39.850870+00:00",
       "fmp_consensus": {
         "price_target_avg": 25.41,
         "price_target_low": null,
@@ -472,10 +354,117 @@
         "cash_conversion_cycle": 0,
         "date": "2025-12-31",
         "period": "FY"
+      }
+    },
+    "NOK": {
+      "ticker": "NOK",
+      "error": false,
+      "price": {
+        "open": 13.74,
+        "high": 14.06,
+        "low": 13.62,
+        "close": 13.95,
+        "previous_close": 14.46,
+        "volume": 108849700,
+        "volume_avg_20d": 124826160,
+        "change_pct": -3.53
       },
-      "_quality_gate": {
-        "status": "ok",
-        "reasons": []
+      "technical": {
+        "rsi14": 68.4,
+        "atr14": 0.96,
+        "mm50": 10.17,
+        "mm200": null,
+        "golden_cross": null
+      },
+      "fundamentals": {
+        "market_cap": 77876346880,
+        "pe_ratio": 87.1875,
+        "forward_pe": 28.756363,
+        "ev_ebitda": 29.801,
+        "ev_revenue": 3.781,
+        "price_to_book": 3.140344,
+        "dividend_yield": 1.17,
+        "beta": 0.765,
+        "short_interest_pct": 0.012,
+        "shares_float": 4443577528,
+        "shares_outstanding": 5582534171,
+        "fifty_two_week_high": 15.19,
+        "fifty_two_week_low": 4.0,
+        "sector": "Technology",
+        "industry": "Communication Equipment"
+      },
+      "options": {
+        "max_pain": 15.0,
+        "put_call_ratio": 0.39,
+        "call_oi_pct": 71.7,
+        "expiration_nearest": "2026-05-22"
+      },
+      "timestamp": "2026-05-17T20:02:39.892452+00:00",
+      "fmp_consensus": {
+        "price_target_avg": 9.26,
+        "price_target_low": null,
+        "price_target_high": null,
+        "num_analysts": 6,
+        "num_analysts_last_month": 2,
+        "num_analysts_last_quarter": 2,
+        "publishers": "[\"TheFly\",\"Benzinga\",\"Pulse 2.0\",\"StreetInsider\",\"Barrons\"]"
+      },
+      "fmp_ratios": {
+        "roe": null,
+        "roic": null,
+        "roa": null,
+        "gross_margin": 0.4353662828699281,
+        "operating_margin": 0.0393182160993514,
+        "ebitda_margin": 0.11327869676705717,
+        "net_margin": 0.032731660716979236,
+        "debt_equity": 0.24848573886267042,
+        "debt_assets": 0.13857489525491326,
+        "interest_coverage": 0,
+        "current_ratio": 1.5785686270705783,
+        "quick_ratio": 1.3577569301287973,
+        "asset_turnover": 0.5292302101921239,
+        "receivables_turnover": 2.917517529822445,
+        "payables_turnover": 3.772592301694509,
+        "inventory_turnover": 5.085912520493102,
+        "price_to_earnings": 45.8112977749493,
+        "price_to_book": 1.422991063277564,
+        "price_to_sales": 1.4994798557741464,
+        "price_to_fcf": 20.357102287707846,
+        "enterprise_value_multiple": 13.125283112069239,
+        "effective_tax_rate": 0.30273224043715846,
+        "dividend_yield": 2.545002377446424,
+        "revenue_per_share": 3.6723514349294555,
+        "book_value_per_share": 3.886543561927932,
+        "date": "2025-12-31",
+        "period": "FY"
+      },
+      "fmp_key_metrics": {
+        "market_cap": 29823154851.491997,
+        "enterprise_value": 29571262851.491997,
+        "ev_to_sales": 1.4868149656338678,
+        "ev_to_ebitda": 13.125283112069239,
+        "ev_to_operating_cash_flow": 14.278736287538386,
+        "ev_to_fcf": 20.185162355967233,
+        "net_debt_to_ebitda": -0.11180292942743009,
+        "return_on_equity": 0.03106201160831748,
+        "return_on_assets": 0.017322583681184205,
+        "return_on_invested_capital": 0.01888834988526946,
+        "return_on_capital_employed": 0.028352587411081372,
+        "earnings_yield": 0.02182867651801874,
+        "free_cash_flow_yield": 0.04912290491382097,
+        "working_capital": 5785537000,
+        "invested_capital": 15666330000,
+        "tangible_asset_value": 13657185000,
+        "capex_to_revenue": 0.030469103524561315,
+        "capex_to_operating_cash_flow": 0.29261226460647033,
+        "capex_to_depreciation": 0.5415549597855228,
+        "stock_based_compensation_to_revenue": 0.016944039418774197,
+        "days_sales_outstanding": 125.10636055105837,
+        "days_payables_outstanding": 96.75044924309884,
+        "days_inventory_outstanding": 71.76686553873553,
+        "cash_conversion_cycle": 100.12277684669505,
+        "date": "2025-12-31",
+        "period": "FY"
       }
     },
     "AAL": {
@@ -521,7 +510,7 @@
         "call_oi_pct": 20.9,
         "expiration_nearest": "2026-05-22"
       },
-      "timestamp": "2026-05-17T17:35:32.178747+00:00",
+      "timestamp": "2026-05-17T20:02:40.560097+00:00",
       "fmp_consensus": {
         "price_target_avg": 16.02,
         "price_target_low": null,
@@ -587,10 +576,6 @@
         "cash_conversion_cycle": 13.466237122294643,
         "date": "2025-12-31",
         "period": "FY"
-      },
-      "_quality_gate": {
-        "status": "ok",
-        "reasons": []
       }
     },
     "FLY": {
@@ -636,7 +621,7 @@
         "call_oi_pct": 54.1,
         "expiration_nearest": "2026-05-22"
       },
-      "timestamp": "2026-05-17T17:35:32.983151+00:00",
+      "timestamp": "2026-05-17T20:02:40.575861+00:00",
       "fmp_consensus": {
         "price_target_avg": 42.45,
         "price_target_low": null,
@@ -702,10 +687,6 @@
         "cash_conversion_cycle": 8.104941869092343,
         "date": "2025-12-31",
         "period": "FY"
-      },
-      "_quality_gate": {
-        "status": "ok",
-        "reasons": []
       }
     },
     "PLTR": {
@@ -751,7 +732,7 @@
         "call_oi_pct": 55.4,
         "expiration_nearest": "2026-05-22"
       },
-      "timestamp": "2026-05-17T17:35:33.689645+00:00",
+      "timestamp": "2026-05-17T20:02:41.353961+00:00",
       "fmp_consensus": {
         "price_target_avg": 187.61,
         "price_target_low": null,
@@ -817,10 +798,6 @@
         "cash_conversion_cycle": 81.25711801435317,
         "date": "2025-12-31",
         "period": "FY"
-      },
-      "_quality_gate": {
-        "status": "ok",
-        "reasons": []
       }
     },
     "SQ": {
@@ -916,10 +893,6 @@
         "cash_conversion_cycle": 0,
         "date": "2025-12-31",
         "period": "FY"
-      },
-      "_quality_gate": {
-        "status": "ok",
-        "reasons": []
       }
     },
     "AAPL": {
@@ -965,7 +938,7 @@
         "call_oi_pct": 65.2,
         "expiration_nearest": "2026-05-18"
       },
-      "timestamp": "2026-05-17T17:35:35.378036+00:00",
+      "timestamp": "2026-05-17T20:02:42.073335+00:00",
       "fmp_consensus": {
         "price_target_avg": 293.43,
         "price_target_low": null,
@@ -1031,10 +1004,379 @@
         "cash_conversion_cycle": -41.967071917298554,
         "date": "2025-09-27",
         "period": "FY"
+      }
+    },
+    "TEST": {
+      "ticker": "TEST",
+      "error": false,
+      "price": {
+        "open": 47.27,
+        "high": 47.27,
+        "low": 46.144,
+        "close": 46.144,
+        "previous_close": 48.043,
+        "volume": 2400,
+        "volume_avg_20d": 1080,
+        "change_pct": -3.95
       },
-      "_quality_gate": {
-        "status": "ok",
-        "reasons": []
+      "technical": {
+        "rsi14": 64.16,
+        "atr14": 1.09,
+        "mm50": 43.54,
+        "mm200": null,
+        "golden_cross": null
+      },
+      "fundamentals": {
+        "market_cap": null,
+        "pe_ratio": null,
+        "forward_pe": null,
+        "ev_ebitda": null,
+        "ev_revenue": null,
+        "price_to_book": null,
+        "dividend_yield": null,
+        "beta": null,
+        "short_interest_pct": null,
+        "shares_float": null,
+        "shares_outstanding": null,
+        "fifty_two_week_high": 57.74,
+        "fifty_two_week_low": 40.27,
+        "sector": null,
+        "industry": null
+      },
+      "options": {},
+      "timestamp": "2026-05-17T20:02:42.126002+00:00"
+    },
+    "RKLB": {
+      "ticker": "RKLB",
+      "error": false,
+      "price": {
+        "open": 128.1,
+        "high": 130.37,
+        "low": 121.8,
+        "close": 124.77,
+        "previous_close": 132.55,
+        "volume": 22357400,
+        "volume_avg_20d": 26365380,
+        "change_pct": -5.87
+      },
+      "technical": {
+        "rsi14": 73.28,
+        "atr14": 9.65,
+        "mm50": 79.25,
+        "mm200": null,
+        "golden_cross": null
+      },
+      "fundamentals": {
+        "market_cap": 72210759680,
+        "pe_ratio": null,
+        "forward_pe": -14644.366,
+        "ev_ebitda": -430.538,
+        "ev_revenue": 104.427,
+        "price_to_book": 39.384468,
+        "dividend_yield": null,
+        "beta": 2.313,
+        "short_interest_pct": 0.0579,
+        "shares_float": 539187572,
+        "shares_outstanding": 578750990,
+        "fifty_two_week_high": 133.18,
+        "fifty_two_week_low": 23.92,
+        "sector": "Industrials",
+        "industry": "Aerospace & Defense"
+      },
+      "options": {
+        "max_pain": 150.0,
+        "put_call_ratio": 0.84,
+        "call_oi_pct": 54.3,
+        "expiration_nearest": "2026-05-22"
+      },
+      "timestamp": "2026-05-17T20:02:42.819124+00:00",
+      "fmp_consensus": {
+        "price_target_avg": 84.2,
+        "price_target_low": null,
+        "price_target_high": null,
+        "num_analysts": 15,
+        "num_analysts_last_month": 3,
+        "num_analysts_last_quarter": 5,
+        "publishers": "[\"TheFly\",\"StreetInsider\",\"Benzinga\",\"Investing\"]"
+      },
+      "fmp_ratios": {
+        "roe": null,
+        "roic": null,
+        "roa": null,
+        "gross_margin": 0.3442694321525958,
+        "operating_margin": -0.38025653083504624,
+        "ebitda_margin": -0.25834705607686287,
+        "net_margin": -0.3293607998683946,
+        "debt_equity": 0.14748927609425655,
+        "debt_assets": 0.10925248593447646,
+        "interest_coverage": -8.638982219034316,
+        "current_ratio": 4.082636721319317,
+        "quick_ratio": 3.609039213575862,
+        "asset_turnover": 0.25889640598878544,
+        "receivables_turnover": 4.893231749955279,
+        "payables_turnover": 5.428107676859379,
+        "inventory_turnover": 2.4911651631556686,
+        "price_to_earnings": -186.76838651403318,
+        "price_to_book": 21.499601663416296,
+        "price_to_sales": 61.51418517239146,
+        "price_to_fcf": -115.03568958490521,
+        "enterprise_value_multiple": -234.41028424588197,
+        "effective_tax_rate": 0.12256913549095384,
+        "dividend_yield": 0,
+        "revenue_per_share": 1.1340473714233543,
+        "book_value_per_share": 3.2447112784746874,
+        "date": "2025-12-31",
+        "period": "FY"
+      },
+      "fmp_key_metrics": {
+        "market_cap": 37019175122.560005,
+        "enterprise_value": 36444470122.560005,
+        "ev_to_sales": 60.55920684906423,
+        "ev_to_ebitda": -234.41028424588197,
+        "ev_to_operating_cash_flow": -220.1803403952369,
+        "ev_to_fcf": -113.24981548684613,
+        "net_debt_to_ebitda": 3.6964939249901914,
+        "return_on_equity": -0.11511370882781002,
+        "return_on_assets": -0.08527032735951899,
+        "return_on_invested_capital": -0.1008991569719634,
+        "return_on_capital_employed": -0.11499385427753339,
+        "earnings_yield": -0.0053542251912363295,
+        "free_cash_flow_yield": -0.008692954365800736,
+        "working_capital": 1031068000,
+        "invested_capital": 1885303000,
+        "tangible_asset_value": 1291358000,
+        "capex_to_revenue": 0.2596963437958521,
+        "capex_to_operating_cash_flow": -0.9442004337818162,
+        "capex_to_depreciation": 3.5571867531580743,
+        "stock_based_compensation_to_revenue": 0.11814409794632427,
+        "days_sales_outstanding": 74.59282916721364,
+        "days_payables_outstanding": 67.24258650137601,
+        "days_inventory_outstanding": 146.5177842875895,
+        "cash_conversion_cycle": 153.86802695342715,
+        "date": "2025-12-31",
+        "period": "FY"
+      }
+    },
+    "FUBO": {
+      "ticker": "FUBO",
+      "error": false,
+      "price": {
+        "open": 9.77,
+        "high": 10.005,
+        "low": 9.581,
+        "close": 9.62,
+        "previous_close": 9.78,
+        "volume": 944400,
+        "volume_avg_20d": 1579640,
+        "change_pct": -1.64
+      },
+      "technical": {
+        "rsi14": 36.84,
+        "atr14": 0.79,
+        "mm50": 11.98,
+        "mm200": null,
+        "golden_cross": null
+      },
+      "fundamentals": {
+        "market_cap": 283170432,
+        "pe_ratio": 2.5052083,
+        "forward_pe": 20.381355,
+        "ev_ebitda": null,
+        "ev_revenue": 0.433,
+        "price_to_book": 0.34874028,
+        "dividend_yield": null,
+        "beta": 2.508,
+        "short_interest_pct": 0.2284,
+        "shares_float": 29180685,
+        "shares_outstanding": 29435597,
+        "fifty_two_week_high": 56.64,
+        "fifty_two_week_low": 8.31,
+        "sector": "Communication Services",
+        "industry": "Broadcasting"
+      },
+      "options": {
+        "max_pain": 10.0,
+        "put_call_ratio": 0.9,
+        "call_oi_pct": 52.7,
+        "expiration_nearest": "2026-05-22"
+      },
+      "timestamp": "2026-05-17T20:02:43.572412+00:00",
+      "fmp_consensus": {
+        "price_target_avg": 50.25,
+        "price_target_low": null,
+        "price_target_high": null,
+        "num_analysts": 4,
+        "num_analysts_last_month": 0,
+        "num_analysts_last_quarter": 0,
+        "publishers": "[\"TheFly\",\"StreetInsider\",\"Benzinga\",\"Pulse 2.0\"]"
+      },
+      "fmp_ratios": {
+        "roe": null,
+        "roic": null,
+        "roa": null,
+        "gross_margin": 0.11123870694237652,
+        "operating_margin": -0.02641784744853033,
+        "ebitda_margin": 0.07955624569961027,
+        "net_margin": 0.057168687689120715,
+        "debt_equity": 2.4332198369427123,
+        "debt_assets": 0.16369129963689982,
+        "interest_coverage": -4.702040015692428,
+        "current_ratio": 0.8445500440396142,
+        "quick_ratio": 0.8445500440396142,
+        "asset_turnover": 0.6647444098468064,
+        "receivables_turnover": 24.462270509260506,
+        "payables_turnover": 43.133769544830535,
+        "inventory_turnover": 0,
+        "price_to_earnings": 5.652989672087957,
+        "price_to_book": 3.193352496170404,
+        "price_to_sales": 0.32317400107342137,
+        "price_to_fcf": -5.2881688522875505,
+        "enterprise_value_multiple": 16.098616019338735,
+        "effective_tax_rate": 0.013646681060731882,
+        "dividend_yield": 0,
+        "revenue_per_share": 93.57188356599832,
+        "book_value_per_share": 91.12786222484522,
+        "date": "2025-12-31",
+        "period": "FY"
+      },
+      "fmp_key_metrics": {
+        "market_cap": 3268457580.9960546,
+        "enterprise_value": 3486364580.9960546,
+        "ev_to_sales": 1.2807454514581944,
+        "ev_to_ebitda": 16.098616019338735,
+        "ev_to_operating_cash_flow": -20.957125825760592,
+        "ev_to_fcf": -20.957125825760592,
+        "net_debt_to_ebitda": 1.0062060462775266,
+        "return_on_equity": 0.5648962197716036,
+        "return_on_assets": 0.038002565559620935,
+        "return_on_invested_capital": -0.021460388209879052,
+        "return_on_capital_employed": -0.024532901577736476,
+        "earnings_yield": 0.17689754590169726,
+        "free_cash_flow_yield": -0.18910137477312608,
+        "working_capital": -180901000,
+        "invested_capital": 2908708000,
+        "tangible_asset_value": -398860000,
+        "capex_to_revenue": 0,
+        "capex_to_operating_cash_flow": 0,
+        "capex_to_depreciation": 0,
+        "stock_based_compensation_to_revenue": 0,
+        "days_sales_outstanding": 14.920937116684428,
+        "days_payables_outstanding": 8.462047343686061,
+        "days_inventory_outstanding": 0,
+        "cash_conversion_cycle": 6.458889772998367,
+        "date": "2025-12-31",
+        "period": "FY"
+      }
+    },
+    "MITK": {
+      "ticker": "MITK",
+      "error": false,
+      "price": {
+        "open": 13.55,
+        "high": 14.68,
+        "low": 13.52,
+        "close": 14.26,
+        "previous_close": 13.57,
+        "volume": 1317800,
+        "volume_avg_20d": 1223895,
+        "change_pct": 5.08
+      },
+      "technical": {
+        "rsi14": 51.62,
+        "atr14": 0.86,
+        "mm50": 14.31,
+        "mm200": null,
+        "golden_cross": null
+      },
+      "fundamentals": {
+        "market_cap": 643965248,
+        "pe_ratio": 41.941177,
+        "forward_pe": 11.746294,
+        "ev_ebitda": 14.845,
+        "ev_revenue": 3.289,
+        "price_to_book": 2.6714127,
+        "dividend_yield": null,
+        "beta": 0.955,
+        "short_interest_pct": 0.0732,
+        "shares_float": 43766604,
+        "shares_outstanding": 45158851,
+        "fifty_two_week_high": 16.48,
+        "fifty_two_week_low": 8.53,
+        "sector": "Technology",
+        "industry": "Software - Application"
+      },
+      "options": {
+        "max_pain": 20.0,
+        "put_call_ratio": 0.14,
+        "call_oi_pct": 87.5,
+        "expiration_nearest": "2026-06-18"
+      },
+      "timestamp": "2026-05-17T20:02:44.224791+00:00",
+      "fmp_consensus": {
+        "price_target_avg": 16,
+        "price_target_low": null,
+        "price_target_high": null,
+        "num_analysts": 2,
+        "num_analysts_last_month": 0,
+        "num_analysts_last_quarter": 1,
+        "publishers": "[\"TheFly\",\"StreetInsider\",\"Benzinga\"]"
+      },
+      "fmp_ratios": {
+        "roe": null,
+        "roic": null,
+        "roa": null,
+        "gross_margin": 0.8509274254136268,
+        "operating_margin": 0.09343817998675504,
+        "ebitda_margin": 0.2050520059435364,
+        "net_margin": 0.048950698699434025,
+        "debt_equity": 0.6459139758093383,
+        "debt_assets": 0.3380155910687876,
+        "interest_coverage": 1.7169444728499847,
+        "current_ratio": 1.188773118248706,
+        "quick_ratio": 1.188773118248706,
+        "asset_turnover": 0.39139071549457755,
+        "receivables_turnover": 3.6302678896117015,
+        "payables_turnover": 6.91455859576665,
+        "inventory_turnover": 0,
+        "price_to_earnings": 50.778231014097315,
+        "price_to_book": 1.859023716171782,
+        "price_to_sales": 2.485629886861334,
+        "price_to_fcf": 8.24296982559749,
+        "enterprise_value_multiple": 12.149984258806926,
+        "effective_tax_rate": 0.2423119993108795,
+        "dividend_yield": 0,
+        "revenue_per_share": 3.9305932277539593,
+        "book_value_per_share": 5.255446670749847,
+        "date": "2025-09-30",
+        "period": "FY"
+      },
+      "fmp_key_metrics": {
+        "market_cap": 446645320,
+        "enterprise_value": 447678320,
+        "ev_to_sales": 2.4913786444507515,
+        "ev_to_ebitda": 12.149984258806926,
+        "ev_to_operating_cash_flow": 8.089597397903868,
+        "ev_to_fcf": 8.262034142290302,
+        "net_debt_to_ebitda": 0.028035607664332628,
+        "return_on_equity": 0.03661064355817496,
+        "return_on_assets": 0.019158848987930972,
+        "return_on_invested_capital": 0.031553028370806986,
+        "return_on_capital_employed": 0.06713985804258722,
+        "earnings_yield": 0.019693478485344928,
+        "free_cash_flow_yield": 0.12131549928699578,
+        "working_capital": 39460000,
+        "invested_capital": 217654000,
+        "tangible_asset_value": 67002000,
+        "capex_to_revenue": 0.006427700886521863,
+        "capex_to_operating_cash_flow": 0.020870979400072282,
+        "capex_to_depreciation": 0.07471859231465908,
+        "stock_based_compensation_to_revenue": 0.09354948216660823,
+        "days_sales_outstanding": 100.54354419531306,
+        "days_payables_outstanding": 52.78717288236831,
+        "days_inventory_outstanding": 0,
+        "cash_conversion_cycle": 47.75637131294475,
+        "date": "2025-09-30",
+        "period": "FY"
       }
     }
   }

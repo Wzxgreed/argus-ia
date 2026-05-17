@@ -1,8 +1,8 @@
 # 🔭 Événements à venir — Watchlist Argus-IA
 
 > **Date :** 2026-05-17
-> **Tickers scannés :** 9
-> **Événements détectés :** 9
+> **Tickers scannés :** 14
+> **Événements détectés :** 14
 
 ---
 
@@ -12,6 +12,9 @@
 |--------|------|------|-------|--------|--------|
 | IREN | earnings | 2026-05-17 | 0j | Earnings ... | fmp |
 | SQ | earnings | 2026-05-17 | 0j | Earnings ... | fmp |
+| TEST | earnings | 2026-05-17 | 0j | Earnings ... | fmp |
+| ANALYSE RKLB | earnings | 2026-05-17 | 0j | Earnings ... | fmp |
+| FUBO | earnings | 2026-05-17 | 0j | Earnings ... | fmp |
 
 ---
 

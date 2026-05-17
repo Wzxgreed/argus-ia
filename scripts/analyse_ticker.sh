@@ -81,7 +81,7 @@ fi
 # ── Étape 2 : Fetch des données ────────────────────────────────────────────────
 echo ""
 echo "📡 Fetch des données pour $TICKER (et tous les tickers watchlist)..."
-source .venv/bin/activate
+source venv/bin/activate
 python3 scripts/fetch_prices.py --tickers "$TICKER"
 
 echo ""

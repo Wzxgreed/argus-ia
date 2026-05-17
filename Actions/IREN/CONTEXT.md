@@ -60,7 +60,8 @@
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **PRICE_GAP** (medium) — Gap -9.35% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 10.39% (seuil 5.0%)
 
 ---
 

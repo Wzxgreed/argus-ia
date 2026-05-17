@@ -179,12 +179,22 @@ def run_pipeline(dry_run: bool = False, single_agent: str | None = None) -> int:
             print(f"  {name}: {cfg}")
         return 0
 
-    # Lockfile
-    lockfile = DATA_DIR / ".pipeline.lock"
-    if lockfile.exists():
-        print("ERROR: Pipeline lockfile exists.")
-        return 1
-    lockfile.write_text(json.dumps({"pid": os.getpid(), "started_at": datetime.now(timezone.utc).isoformat()}))
+    # Lockfile — vérifie stale PID (seulement en mode pipeline complet)
+    if not single_agent:
+        lockfile = DATA_DIR / ".pipeline.lock"
+        if lockfile.exists():
+            try:
+                data = json.loads(lockfile.read_text())
+                old_pid = data.get("pid")
+                if old_pid:
+                    os.kill(old_pid, 0)
+                    print(f"ERROR: Pipeline lockfile exists (PID {old_pid} alive).")
+                    return 1
+            except (ProcessLookupError, ValueError, OSError):
+                pass  # PID mort → lockfile stale
+            print("WARNING: Stale lockfile removed.")
+            lockfile.unlink(missing_ok=True)
+        lockfile.write_text(json.dumps({"pid": os.getpid(), "started_at": datetime.now(timezone.utc).isoformat()}))
 
     log_dir = LOGS_DIR / datetime.now(timezone.utc).strftime("%Y-%m-%d")
     log_dir.mkdir(parents=True, exist_ok=True)
@@ -281,7 +291,8 @@ def run_pipeline(dry_run: bool = False, single_agent: str | None = None) -> int:
         return 0 if failed == 0 else 1
 
     finally:
-        lockfile.unlink(missing_ok=True)
+        if not single_agent:
+            lockfile.unlink(missing_ok=True)
 
 
 def main() -> int:

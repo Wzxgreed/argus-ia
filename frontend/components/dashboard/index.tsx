@@ -483,13 +483,13 @@ function TickerDetailModal({
         exit={{ opacity: 0, scale: 0.95, y: 20 }}
         transition={{ duration: 0.2 }}
         onClick={(e) => e.stopPropagation()}
-        className="glass rounded-2xl border border-white/[0.08] p-6 max-w-lg w-full max-h-[80vh] overflow-y-auto shadow-2xl"
+        className="glass rounded-2xl border border-white/[0.08] p-4 sm:p-6 max-w-lg w-full max-h-[85vh] overflow-y-auto shadow-2xl"
       >
         {/* Header */}
         <div className="flex items-center justify-between mb-5">
           <div>
             <div className="text-xl font-bold text-foreground">{ticker}</div>
-            <div className="text-xs text-muted-foreground">{price.fundamentals.sector}</div>
+            <div className="text-xs text-muted-foreground">{price.fundamentals?.sector ?? "—"}</div>
           </div>
           <div className="flex items-center gap-2">
             {reco && (
@@ -515,7 +515,7 @@ function TickerDetailModal({
             Données techniques manquantes — exécuter fetch_prices.py pour obtenir RSI, ATR, consensus, options.
           </div>
         ) : (
-          <div className="grid grid-cols-2 gap-3 mb-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
             <div className="rounded-xl bg-white/[0.03] border border-white/[0.04] p-3">
               <div className="text-xs text-muted-foreground mb-0.5">Prix actuel</div>
               <div className="text-lg font-bold text-foreground">${fmtPrice(price.price.close)}</div>
@@ -539,7 +539,7 @@ function TickerDetailModal({
 
         {/* Scores */}
         {reco && (
-          <div className="grid grid-cols-4 gap-2 mb-5">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-5">
             {[
               { label: "Global", value: reco.score_global_ajuste },
               { label: "Catalyseur", value: reco.score_catalyseur },
@@ -704,16 +704,16 @@ export function TickerGrid({
     <>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {Object.values(tickers).map((t, i) => {
-          const hasData = !t._no_data;
-          const change = t.price.change_pct;
+          const hasData = !t._no_data && t.price != null;
+          const change = t.price?.change_pct ?? 0;
           const changeColor = change > 0 ? "text-emerald-400" : change < 0 ? "text-red-400" : "text-muted-foreground";
           const ChangeIcon = change > 0 ? TrendingUp : change < 0 ? TrendingDown : Minus;
-          const rsi = t.technical.rsi14;
+          const rsi = t.technical?.rsi14 ?? 0;
           const rsiColor = rsi > 70 ? "text-red-400" : rsi < 30 ? "text-emerald-400" : "text-muted-foreground";
-          const volRatio = t.price.volume_avg_20d ? t.price.volume / t.price.volume_avg_20d : 0;
+          const volRatio = t.price?.volume_avg_20d ? (t.price?.volume ?? 0) / t.price.volume_avg_20d : 0;
           const reco = recos[t.ticker];
           const targetPrice = reco?.take_profit ?? t.options?.max_pain ?? 0;
-          const upside = targetPrice > 0 && t.price.close > 0 ? ((targetPrice - t.price.close) / t.price.close) * 100 : 0;
+          const upside = targetPrice > 0 && (t.price?.close ?? 0) > 0 ? ((targetPrice - t.price.close) / t.price.close) * 100 : 0;
           const tickerEvents = events[t.ticker] ?? [];
           const nearestEvent = tickerEvents[0];
           const hasUrgentEvent = nearestEvent && nearestEvent.days_until <= 7;
@@ -733,7 +733,7 @@ export function TickerGrid({
               <div className="flex items-center justify-between mb-3">
                 <div>
                   <div className="text-lg font-bold text-foreground">{t.ticker}</div>
-                  <div className="text-xs text-muted-foreground">{t.fundamentals.sector}</div>
+                  <div className="text-xs text-muted-foreground">{t.fundamentals?.sector ?? "—"}</div>
                 </div>
                 {hasData ? (
                   <div className={`flex items-center gap-1 rounded-lg px-2 py-1 text-xs font-semibold ${changeColor} bg-white/[0.03]`}>
@@ -751,7 +751,7 @@ export function TickerGrid({
               <div className="mb-4">
                 {hasData ? (
                   <>
-                    <span className="text-2xl font-bold text-foreground">${fmtPrice(t.price.close)}</span>
+                    <span className="text-2xl font-bold text-foreground">${fmtPrice(t.price?.close ?? 0)}</span>
                     <span className="ml-2 text-xs text-muted-foreground">Vol {Number.isFinite(volRatio) ? volRatio.toFixed(1) : "—"}× avg</span>
                   </>
                 ) : (
@@ -1167,7 +1167,7 @@ export function OllamaUsagePanel({
         </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-4 mb-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
         <div className="rounded-xl border border-white/[0.06] bg-white/[0.02] p-3">
           <div className="text-xs text-muted-foreground mb-1">Fenêtre 5h</div>
           <div className="text-2xl font-bold text-foreground">{usage?.window_5h_calls ?? 0}</div>
@@ -1215,7 +1215,7 @@ export function OllamaUsagePanel({
       </div>
 
       {/* Tokens */}
-      <div className="grid grid-cols-2 gap-3 text-xs border-t border-white/[0.04] pt-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs border-t border-white/[0.04] pt-3">
         <div className="text-center">
           <div className="text-[10px] text-muted-foreground uppercase tracking-wide mb-0.5">Tokens IN</div>
           <div className="font-semibold text-foreground tabular-nums">{(usage?.window_5h_tokens_input ?? 0).toLocaleString()}</div>
@@ -1241,6 +1241,7 @@ export function LaunchAnalysis() {
   const [sector, setSector] = useState("");
   const [priority, setPriority] = useState("medium");
   const [exchange, setExchange] = useState("NASDAQ");
+  const [customPrompt, setCustomPrompt] = useState("");
   const [showOptions, setShowOptions] = useState(false);
   const [jobId, setJobId] = useState<string | null>(null);
   const [status, setStatus] = useState<string | null>(null);
@@ -1249,7 +1250,7 @@ export function LaunchAnalysis() {
 
   async function startAnalysis() {
     const t = ticker.trim().toUpperCase();
-    if (!t || t.length < 1 || t.length > 10) return;
+    if (!t || t.length < 1 || t.length > 20) return;
     setLoading(true);
     setStatus("queued");
     setLogs([]);
@@ -1279,7 +1280,7 @@ export function LaunchAnalysis() {
 
   async function startFullAnalysis() {
     const t = ticker.trim().toUpperCase();
-    if (!t || t.length < 1 || t.length > 10) return;
+    if (!t || t.length < 1 || t.length > 20) return;
     setLoading(true);
     setStatus("queued");
     setLogs([]);
@@ -1291,6 +1292,33 @@ export function LaunchAnalysis() {
       if (exchange) params.set("exchange", exchange);
 
       const res = await fetch(`/api/analyse-complete?${params.toString()}`, { method: "POST" });
+      const data = await res.json();
+      if (data.job_id) {
+        setJobId(data.job_id);
+        setStatus("queued");
+      } else {
+        setStatus("error");
+        setLogs([data.error || "Erreur inconnue"]);
+      }
+    } catch (e) {
+      setStatus("error");
+      setLogs(["Impossible de contacter le serveur API"]);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  async function startClaudeAnalysis() {
+    const t = ticker.trim().toUpperCase();
+    if (!t || t.length < 1 || t.length > 20) return;
+    setLoading(true);
+    setStatus("queued");
+    setLogs([]);
+    try {
+      const params = new URLSearchParams({ ticker: t });
+      if (customPrompt.trim()) params.set("prompt", customPrompt.trim());
+
+      const res = await fetch(`/api/analyse-claude?${params.toString()}`, { method: "POST" });
       const data = await res.json();
       if (data.job_id) {
         setJobId(data.job_id);
@@ -1328,7 +1356,43 @@ export function LaunchAnalysis() {
   // ── Détection de progression à partir des logs ──
   const allText = logs.join(" ");
   const isFullAnalysis = allText.includes("analyse COMPLÈTE");
-  const steps = isFullAnalysis
+  const isClaudeAnalysis = allText.includes("Analyse approfondie via LLM Proxy Ollama");
+  const steps = isClaudeAnalysis
+    ? [
+        {
+          label: "Watchlist",
+          icon: ListChecks,
+          done:
+            allText.includes("déjà dans la watchlist") ||
+            allText.includes("ajouté à la watchlist"),
+          active: allText.includes("Ajout"),
+        },
+        {
+          label: "Fetch données",
+          icon: Database,
+          done: allText.includes("Fetch des données") || allText.includes("Données récupérées"),
+          active: allText.includes("Fetch des données") || allText.includes("Étape 1/3"),
+        },
+        {
+          label: "Agents réels",
+          icon: Cpu,
+          done: allText.includes("Données agents déjà disponibles") || allText.includes("Agent"),
+          active: allText.includes("Exécution des agents") || allText.includes("Lancement agent"),
+        },
+        {
+          label: "LLM Ollama",
+          icon: Cloud,
+          done: allText.includes("Rapport sauvegardé") || allText.includes("INDEX.md mis à jour"),
+          active: allText.includes("Analyse approfondie via LLM Proxy Ollama") || allText.includes("Envoi du prompt"),
+        },
+        {
+          label: "Terminé",
+          icon: CheckCircle2,
+          done: status === "success",
+          active: false,
+        },
+      ]
+    : isFullAnalysis
     ? [
         {
           label: "Watchlist",
@@ -1419,8 +1483,8 @@ export function LaunchAnalysis() {
           value={ticker}
           onChange={(e) => setTicker(e.target.value.toUpperCase())}
           onKeyDown={(e) => e.key === "Enter" && startAnalysis()}
-          placeholder="Ticker (ex: AAPL)"
-          maxLength={10}
+          placeholder="Ticker seul (ex: AAPL, RKLB)"
+          maxLength={20}
           disabled={isRunning}
           className="flex-1 rounded-xl border border-white/[0.06] bg-white/[0.02] px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-accent disabled:opacity-50"
         />
@@ -1442,6 +1506,34 @@ export function LaunchAnalysis() {
           {isRunning ? <Loader2 className="h-4 w-4 animate-spin" /> : <Sparkles className="h-4 w-4" />}
           {isRunning ? "En cours..." : "Analyser LLM"}
         </button>
+        <button
+          onClick={startClaudeAnalysis}
+          disabled={isRunning || !ticker.trim()}
+          className="inline-flex items-center gap-1.5 rounded-xl bg-amber-500 px-4 py-2 text-sm font-medium text-white hover:bg-amber-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+          title="Analyse approfondie via LLM Ollama (kimi-k2.6:cloud) avec instructions personnalisables"
+        >
+          {isRunning ? <Loader2 className="h-4 w-4 animate-spin" /> : <Cloud className="h-4 w-4" />}
+          {isRunning ? "En cours..." : "Analyse IA"}
+        </button>
+      </div>
+
+      {/* Prompt personnalisé — textarea large pour instructions utilisateur */}
+      <div className="mb-3">
+        <div className="flex items-center justify-between mb-1.5">
+          <div className="flex items-center gap-1.5">
+            <MessageSquare className="h-3.5 w-3.5 text-amber-400" />
+            <span className="text-[10px] font-medium text-muted-foreground uppercase tracking-wide">Instructions personnalisées (optionnel)</span>
+          </div>
+          <span className="text-[10px] text-muted-foreground tabular-nums">{customPrompt.length} caractères</span>
+        </div>
+        <textarea
+          value={customPrompt}
+          onChange={(e) => setCustomPrompt(e.target.value)}
+          placeholder="Écris ici les instructions pour l'analyse IA. Exemples :&#10;• 'Analyse RKLB avec focus sur le marché spatial et comparaison avec SpaceX'&#10;• 'Inclure un DCF, une matrice de scénarios et une analyse ESG'&#10;• 'Focus sur les contrats gouvernementaux et le risque géopolitique'"
+          rows={8}
+          disabled={isRunning}
+          className="w-full rounded-xl border border-white/[0.06] bg-white/[0.02] px-3 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-accent disabled:opacity-50 resize-y min-h-[200px]"
+        />
       </div>
 
       <button
@@ -1452,7 +1544,7 @@ export function LaunchAnalysis() {
       </button>
 
       {showOptions && (
-        <div className="grid grid-cols-2 gap-2 mb-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-4">
           <input
             type="text"
             value={name}
@@ -1539,7 +1631,7 @@ export function LaunchAnalysis() {
           </div>
 
           {/* Étapes visuelles */}
-          <div className="grid grid-cols-4 gap-2">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
             {steps.map((step, i) => {
               const Icon = step.icon;
               return (
@@ -1607,7 +1699,8 @@ export function LaunchAnalysis() {
 
       <div className="text-[10px] text-muted-foreground space-y-1">
         <p><strong className="text-accent">Préparer</strong> — Fetch des données + ajout à la watchlist uniquement.</p>
-        <p><strong className="text-violet-400">Analyser LLM</strong> — Fetch + génération automatique du rapport complet via IA (crée Actions/{ticker}/ et le fichier _init.md).</p>
+        <p><strong className="text-violet-400">Analyser LLM</strong> — Fetch + génération automatique du rapport via IA (crée Actions/{ticker}/_init.md).</p>
+        <p><strong className="text-amber-400">Analyse IA</strong> — Fetch + agents réels + rapport approfondi via LLM Ollama (kimi-k2.6:cloud). Ajoute des instructions personnalisées dans le champ ci-dessus pour orienter l'analyse.</p>
       </div>
     </motion.div>
   );
