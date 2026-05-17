@@ -1,11 +1,11 @@
 {
-  "window_5h_start": "2026-05-17T15:14:20Z",
-  "window_5h_calls": 62,
-  "window_5h_tokens_input": 64457,
-  "window_5h_tokens_output": 212929,
+  "window_5h_start": "2026-05-17T20:15:15Z",
+  "window_5h_calls": 1,
+  "window_5h_tokens_input": 22,
+  "window_5h_tokens_output": 315,
   "week_start": "2026-05-11",
-  "weekly_calls": 71,
-  "weekly_tokens_input": 67070,
-  "weekly_tokens_output": 222737,
+  "weekly_calls": 72,
+  "weekly_tokens_input": 67092,
+  "weekly_tokens_output": 223052,
   "history": []
 }

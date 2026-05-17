@@ -46,6 +46,7 @@ import {
   X,
   ListChecks,
   Sparkles,
+  UserCheck,
 } from "lucide-react";
 
 const fadeIn = {
@@ -1356,8 +1357,8 @@ export function LaunchAnalysis() {
   // ── Détection de progression à partir des logs ──
   const allText = logs.join(" ");
   const isFullAnalysis = allText.includes("analyse COMPLÈTE");
-  const isClaudeAnalysis = allText.includes("Analyse approfondie via LLM Proxy Ollama");
-  const steps = isClaudeAnalysis
+  const isClaudePrep = allText.includes("Préparation des données") || allText.includes("Contexte préparé pour Claude CLI");
+  const steps = isClaudePrep
     ? [
         {
           label: "Watchlist",
@@ -1370,20 +1371,20 @@ export function LaunchAnalysis() {
         {
           label: "Fetch données",
           icon: Database,
-          done: allText.includes("Fetch des données") || allText.includes("Données récupérées"),
-          active: allText.includes("Fetch des données") || allText.includes("Étape 1/3"),
+          done: allText.includes("Fetch terminé") || allText.includes("Données récupérées"),
+          active: allText.includes("Fetch des données") || allText.includes("Étape 1/2"),
         },
         {
           label: "Agents réels",
           icon: Cpu,
-          done: allText.includes("Données agents déjà disponibles") || allText.includes("Agent"),
-          active: allText.includes("Exécution des agents") || allText.includes("Lancement agent"),
+          done: allText.includes("Agents terminés") || allText.includes("Agent"),
+          active: allText.includes("Exécution des agents") || allText.includes("Étape 2/2"),
         },
         {
-          label: "LLM Ollama",
-          icon: Cloud,
-          done: allText.includes("Rapport sauvegardé") || allText.includes("INDEX.md mis à jour"),
-          active: allText.includes("Analyse approfondie via LLM Proxy Ollama") || allText.includes("Envoi du prompt"),
+          label: "Prêt pour Claude",
+          icon: UserCheck,
+          done: allText.includes("Contexte préparé pour Claude CLI") || allText.includes("Note créée"),
+          active: allText.includes("Contexte préparé"),
         },
         {
           label: "Terminé",
@@ -1510,10 +1511,10 @@ export function LaunchAnalysis() {
           onClick={startClaudeAnalysis}
           disabled={isRunning || !ticker.trim()}
           className="inline-flex items-center gap-1.5 rounded-xl bg-amber-500 px-4 py-2 text-sm font-medium text-white hover:bg-amber-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-          title="Analyse approfondie via LLM Ollama (kimi-k2.6:cloud) avec instructions personnalisables"
+          title="Prépare les données (fetch + agents) pour que Claude CLI puisse faire l'analyse interactive"
         >
-          {isRunning ? <Loader2 className="h-4 w-4 animate-spin" /> : <Cloud className="h-4 w-4" />}
-          {isRunning ? "En cours..." : "Analyse IA"}
+          {isRunning ? <Loader2 className="h-4 w-4 animate-spin" /> : <Terminal className="h-4 w-4" />}
+          {isRunning ? "Préparation..." : "Préparer pour Claude"}
         </button>
       </div>
 
@@ -1678,6 +1679,28 @@ export function LaunchAnalysis() {
             })}
           </div>
 
+          {/* Message spécial : Prêt pour Claude CLI */}
+          {status === "success" && isClaudePrep && (
+            <div className="rounded-xl border border-amber-500/20 bg-amber-500/5 p-4">
+              <div className="flex items-start gap-3">
+                <Terminal className="h-5 w-5 text-amber-400 shrink-0 mt-0.5" />
+                <div className="space-y-1">
+                  <div className="text-sm font-semibold text-amber-400">Données prêtes pour Claude CLI</div>
+                  <p className="text-xs text-muted-foreground">
+                    Les agents ont tourné et les données fraîches sont dans <code className="text-foreground">data/latest.json</code>.
+                    Ouvrez Claude Code et demandez :
+                  </p>
+                  <div className="inline-flex items-center gap-1.5 rounded-lg bg-black/40 px-3 py-1.5 text-xs font-mono text-amber-300">
+                    Analyse {ticker}
+                  </div>
+                  <p className="text-xs text-muted-foreground">
+                    Claude lira automatiquement les données agents + historique <code>Actions/{ticker}/</code>.
+                  </p>
+                </div>
+              </div>
+            </div>
+          )}
+
           {/* Logs */}
           {logs.length > 0 && (
             <div className="rounded-xl border border-white/[0.06] bg-black/30 p-3 max-h-40 overflow-y-auto">
@@ -1700,7 +1723,7 @@ export function LaunchAnalysis() {
       <div className="text-[10px] text-muted-foreground space-y-1">
         <p><strong className="text-accent">Préparer</strong> — Fetch des données + ajout à la watchlist uniquement.</p>
         <p><strong className="text-violet-400">Analyser LLM</strong> — Fetch + génération automatique du rapport via IA (crée Actions/{ticker}/_init.md).</p>
-        <p><strong className="text-amber-400">Analyse IA</strong> — Fetch + agents réels + rapport approfondi via LLM Ollama (kimi-k2.6:cloud). Ajoute des instructions personnalisées dans le champ ci-dessus pour orienter l'analyse.</p>
+        <p><strong className="text-amber-400">Préparer pour Claude</strong> — Fetch + agents réels. Les données fraîches sont préparées pour que **Claude CLI** (toi-même) produise l'analyse interactive avec accès à tous les fichiers, outils et historique. Ajoute des instructions personnalisées ci-dessus.</p>
       </div>
     </motion.div>
   );

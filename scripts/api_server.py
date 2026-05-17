@@ -334,18 +334,18 @@ def _save_report(ticker: str, report: str, agent_data: dict):
     return str(filepath)
 
 
-def run_claude_analysis(job_id: str, ticker: str, custom_prompt: str = ""):
-    """Exécute une analyse approfondie via le LLM proxy Ollama (kimi-k2.6:cloud)."""
+def run_prepare_for_claude(job_id: str, ticker: str, custom_prompt: str = ""):
+    """Prépare les données (fetch + agents) pour une analyse par Claude CLI.
+    L'analyse LLM interactive est faite par l'utilisateur dans Claude CLI, pas ici."""
     env = os.environ.copy()
     env["PYTHONPATH"] = str(BASE_DIR / "agents") + ":" + str(BASE_DIR / "scripts") + ":" + str(BASE_DIR)
-    env["LLM_PROXY_URL"] = "http://127.0.0.1:11435/v1/chat/completions"
 
     logs = JOBS[job_id].get("logs", [])
 
     # ── Étape 1 : Fetch données ──
     with JOBS_LOCK:
         JOBS[job_id]["status"] = "running"
-        logs.append(f"[{now_str()}] 📡 Étape 1/3 — Fetch des données pour {ticker}...")
+        logs.append(f"[{now_str()}] 📡 Étape 1/2 — Fetch des données pour {ticker}...")
         JOBS[job_id]["logs"] = logs.copy()
 
     cmd1 = ["bash", str(BASE_DIR / "scripts" / "analyse_ticker.sh"), ticker]
@@ -361,14 +361,16 @@ def run_claude_analysis(job_id: str, ticker: str, custom_prompt: str = ""):
             JOBS[job_id]["finished_at"] = now_str()
         return
 
+    logs.append(f"[{now_str()}] ✅ Fetch terminé — {ticker} dans data/latest.json")
+
     # ── Étape 2 : Lancer les agents réels ──
     with JOBS_LOCK:
-        logs.append(f"[{now_str()}] 🔧 Étape 2/3 — Exécution des agents Python réels...")
+        logs.append(f"[{now_str()}] 🔧 Étape 2/2 — Exécution des agents Python réels...")
         JOBS[job_id]["logs"] = logs.copy()
 
     agents = ["accounting", "geo", "crypto", "sector_rotation", "social", "fx", "event_driven", "watchman", "detect_major_events", "recommandation"]
+    ok_count = 0
     for agent in agents:
-        # Nettoyer le lockfile stale avant chaque agent (l'agent précédent peut ne pas l'avoir supprimé)
         lockfile = BASE_DIR / "data" / ".pipeline.lock"
         for _ in range(5):
             if not lockfile.exists():
@@ -378,7 +380,6 @@ def run_claude_analysis(job_id: str, ticker: str, custom_prompt: str = ""):
                 old_pid = data.get("pid")
                 if old_pid:
                     os.kill(old_pid, 0)
-                    # PID vivant — attendre que l'autre process libère le lockfile
                     time.sleep(2)
                     continue
             except (ProcessLookupError, ValueError, OSError):
@@ -386,115 +387,94 @@ def run_claude_analysis(job_id: str, ticker: str, custom_prompt: str = ""):
             lockfile.unlink(missing_ok=True)
             break
         else:
-            # Forcer la suppression après 5 tentatives
             lockfile.unlink(missing_ok=True)
 
         cmd_agent = [PYTHON, str(BASE_DIR / "agents" / "orchestrator.py"), f"--agent={agent}"]
         proc = subprocess.Popen(cmd_agent, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, cwd=BASE_DIR, env=env)
         _stream_process(job_id, proc, logs)
         rc = proc.wait()
-        if rc != 0:
+        if rc == 0:
+            ok_count += 1
+        else:
             logs.append(f"[{now_str()}] ⚠️  Agent {agent} exit={rc}")
 
-    # ── Étape 3 : Analyse approfondie via LLM Proxy Ollama ──
-    with JOBS_LOCK:
-        logs.append(f"[{now_str()}] 🧠 Étape 3/3 — Analyse approfondie via LLM Proxy Ollama (kimi-k2.6:cloud) pour {ticker}...")
-        JOBS[job_id]["logs"] = logs.copy()
+    logs.append(f"[{now_str()}] ✅ Agents terminés — {ok_count}/{len(agents)} OK")
 
-    # Charger les données pour le prompt
+    # ── Étape 3 : Préparer le fichier de contexte pour Claude CLI ──
     latest = _load_json(BASE_DIR / "data" / "latest.json")
     ticker_data = latest.get("prices", {}).get(ticker, {})
     data_ctx = _build_data_context(ticker, ticker_data)
     agent_data = _load_agent_data(ticker)
     agent_ctx = _format_agent_context(ticker, agent_data)
 
-    base_prompt = f"""Tu es le rédacteur en chef d'un desk d'analyse institutionnel (style JPM/GS/MS).
-Rédige un rapport markdown complet pour **{ticker}**.
+    # Écrire un fichier de requête que Claude CLI peut lire
+    request_file = BASE_DIR / ".claude" / "analysis_requests" / f"{ticker}_{datetime.now(timezone.utc).strftime('%Y-%m-%d')}.json"
+    request_file.parent.mkdir(parents=True, exist_ok=True)
+    request_payload = {
+        "ticker": ticker,
+        "date": datetime.now(timezone.utc).isoformat(),
+        "status": "ready",
+        "custom_prompt": custom_prompt.strip(),
+        "data_summary": data_ctx,
+        "agent_summary": agent_ctx,
+        "files_to_read": [
+            "data/latest.json",
+            "data/recommandations_latest.json",
+            "data/quant_report_latest.json",
+            "data/accounting_risk_latest.json",
+            "data/geo_risk_latest.json",
+            "data/sector_rotation_latest.json",
+            "data/social_sentiment_latest.json",
+            "data/fx_exposure_latest.json",
+            "data/upcoming_events_latest.json",
+        ],
+        "instructions": f"L'utilisateur a demandé une analyse de {ticker}. Les données fraîches sont prêtes. Demande-lui 'Analyse {ticker}' pour que je produise l'analyse complète.",
+    }
+    request_file.write_text(json.dumps(request_payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    logs.append(f"[{now_str()}] ✅ Contexte préparé pour Claude CLI : {request_file}")
 
-Le rapport doit suivre cette structure :
+    # Sauvegarder aussi un fichier de note dans Actions/
+    ACTIONS_DIR = BASE_DIR / "Actions"
+    ticker_dir = ACTIONS_DIR / ticker
+    ticker_dir.mkdir(parents=True, exist_ok=True)
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    note_file = ticker_dir / f"{ticker}_{today}_ready_for_claude.md"
+    note_file.write_text(
+        f"""# {ticker} — Données prêtes pour analyse Claude CLI ({today})
 
-# {ticker} — Analyse Approfondie ({datetime.now(timezone.utc).strftime('%Y-%m-%d')})
+Les agents ont tourné et les données sont à jour.
 
-> ⚠️ Note : Analyse générée par le système multi-agents Argus-IA (agents réels + LLM Ollama kimi-k2.6:cloud)
+## Pour lancer l'analyse
+Dans Claude Code, demande : **Analyse {ticker}**
 
-## Résumé Exécutif (3-4 phrases)
+Claude lira automatiquement :
+- `data/latest.json` (cours, technique, fondamentaux)
+- `data/recommandations_latest.json` (scores agents)
+- Tous les rapports agents récents
+- L'historique dans `Actions/{ticker}/`
 
-## Market Researcher
-TAM, peers, landscape
-
-## Macro
-Régime macro, exposition, sensibilités
-
-## Technique
-RSI, MACD, MM, niveaux, timing
-
-## Fondamental
-Filtre Qualité 6 critères, valorisation
-
-## Sentiment
-Consensus, options, insiders
-
-## Flux Institutionnels
-13F, ETF, dark pool
-
-## Scoring Global
-Catalyseur / Valorisation / Momentum
-
-## Niveaux et Ratio R/R
-
-## Conclusion (ACHETER/ATTENDRE/SURVEILLER/ÉVITER)
-
-Instructions :
-- Utilise EXCLUSIVEMENT les chiffres ci-dessous
-- Ne devine jamais un cours ou une métrique
-- Si une donnée est manquante, indique [DONNÉES MANQUANTES]
-- Le rapport doit être concis et institutionnel
-
----
+## Résumé données brutes
 
 {data_ctx}
 
----
+## Résumé agents
 
 {agent_ctx}
 
 ---
+*Ce fichier est un marqueur — l'analyse réelle sera produite par Claude CLI.*
+""",
+        encoding="utf-8",
+    )
+    logs.append(f"[{now_str()}] ✅ Note créée : {note_file}")
+    logs.append(f"[{now_str()}] ⏳ ATTENTE — Ouvrez Claude Code et demandez 'Analyse {ticker}' pour obtenir l'analyse complète.")
 
-Rédige le rapport maintenant."""
-
-    # Ajouter le prompt personnalisé de l'utilisateur s'il existe
-    if custom_prompt.strip():
-        full_prompt = base_prompt + f"\n\n---\n\nINSTRUCTIONS SUPPLÉMENTAIRES DE L'UTILISATEUR :\n{custom_prompt.strip()}\n\n---\n\nRédige le rapport maintenant."
-    else:
-        full_prompt = base_prompt
-
-    logs.append(f"[{now_str()}] 📤 Envoi du prompt au LLM Proxy ({len(full_prompt)} caractères)...")
     with JOBS_LOCK:
+        JOBS[job_id]["status"] = "success"
+        JOBS[job_id]["returncode"] = 0
         JOBS[job_id]["logs"] = logs.copy()
-
-    try:
-        report = ask_llm(full_prompt, model="kimi-k2.6:cloud", system="Tu es un analyste institutionnel senior.")
-        if report.startswith("[ERREUR]"):
-            raise RuntimeError(report)
-
-        # Sauvegarde automatique
-        filepath = _save_report(ticker, report, agent_data)
-        logs.append(f"[{now_str()}] ✅ Rapport sauvegardé : {filepath}")
-        logs.append(f"[{now_str()}] ✅ INDEX.md et CONTEXT.md mis à jour")
-
-        with JOBS_LOCK:
-            JOBS[job_id]["status"] = "success"
-            JOBS[job_id]["returncode"] = 0
-            JOBS[job_id]["logs"] = logs.copy()
-            JOBS[job_id]["finished_at"] = now_str()
-
-    except Exception as e:
-        logs.append(f"[{now_str()}] ❌ Erreur LLM : {e}")
-        with JOBS_LOCK:
-            JOBS[job_id]["status"] = "failed"
-            JOBS[job_id]["returncode"] = 1
-            JOBS[job_id]["logs"] = logs.copy()
-            JOBS[job_id]["finished_at"] = now_str()
+        JOBS[job_id]["finished_at"] = now_str()
+        JOBS[job_id]["request_file"] = str(request_file)
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -634,11 +614,11 @@ class Handler(BaseHTTPRequestHandler):
                     "ticker": ticker,
                     "status": "queued",
                     "started_at": now_str(),
-                    "logs": [f"[{now_str()}] 🚀 Démarrage de l'analyse approfondie pour {ticker} (fetch + agents réels + LLM Ollama kimi-k2.6:cloud)..."],
+                    "logs": [f"[{now_str()}] 🚀 Préparation des données pour {ticker} (fetch + agents réels) — l'analyse interactive se fera dans Claude CLI..."],
                 }
 
             thread = threading.Thread(
-                target=run_claude_analysis,
+                target=run_prepare_for_claude,
                 args=(job_id, ticker, custom_prompt),
                 daemon=True,
             )
@@ -648,7 +628,7 @@ class Handler(BaseHTTPRequestHandler):
                 "job_id": job_id,
                 "ticker": ticker,
                 "status": "queued",
-                "message": f"Analyse approfondie de {ticker} lancée (fetch + agents + LLM Ollama). Suivez le statut avec /api/status/{job_id}",
+                "message": f"Préparation des données pour {ticker} lancée (fetch + agents réels). L'analyse interactive se fera dans Claude CLI. Suivez le statut avec /api/status/{job_id}",
             })
             return
 
