@@ -36,7 +36,9 @@ const DATA_FILES = [
 
 async function safeFetch(url: string) {
   try {
-    const res = await fetch(url, { cache: "no-store" });
+    // Cache-busting pour forcer le rechargement des données fraîches
+    const busted = `${url}?_t=${Date.now()}`;
+    const res = await fetch(busted, { cache: "no-store" });
     if (!res.ok) return null;
     return await res.json();
   } catch {
