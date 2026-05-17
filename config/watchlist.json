@@ -40,6 +40,38 @@
       "priority": "medium",
       "exchange": "NASDAQ",
       "notes": "Ajouté le 2026-05-17. Compagnie aérienne legacy, recovery post-COVID, exposition pétrole et taux"
+    },
+    {
+      "ticker": "FLY",
+      "name": "FLY Leasing",
+      "sector": "Aviation",
+      "priority": "low",
+      "exchange": "NYSE",
+      "notes": "Ajouté via dashboard API"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "sector": "Technology",
+      "priority": "medium",
+      "exchange": "NASDAQ",
+      "notes": "Ajouté via dashboard API"
+    },
+    {
+      "ticker": "SQ",
+      "name": "SQ",
+      "sector": "Non spécifié",
+      "priority": "medium",
+      "exchange": "NASDAQ",
+      "notes": "Ajouté via dashboard API"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "AAPL",
+      "sector": "Non spécifié",
+      "priority": "medium",
+      "exchange": "NASDAQ",
+      "notes": "Ajouté via dashboard API"
     }
   ],
   "macro_symbols": {

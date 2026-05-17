@@ -13,3 +13,21 @@
 - Recommandation inchangée : ATTENDRE. Pas de position. Attendre retour au-dessus de MM50 ($17.05) ou test support $14.50.
 
 ---
+
+## 2026-05-17 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.25% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-17 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.25% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

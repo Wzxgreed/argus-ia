@@ -1,0 +1,62 @@
+# CONTEXT — PLTR — Dernière mise à jour : 2026-05-17
+
+> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
+> Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
+
+---
+
+## 🎯 Thèse active
+
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
+
+---
+
+## 📉 Erreurs de prédiction récentes
+
+- Aucune erreur enregistrée.
+
+---
+
+## 🚨 Alertes actives
+
+- Aucune alerte active.
+
+---
+
+## 📅 Prochains événements
+
+- Aucun événement à venir.
+
+---
+
+## 📊 Contexte technique (dernier snapshot)
+
+- **RSI 14j :** 38.93
+- **MM 50j :** 144.4
+- **MM 200j :** —
+- **ATR 14j :** 5.72
+- **Volume moy. 20j :** 44349015
+
+---
+
+## 📝 Résumé dernière analyse
+
+- **Date :** 2026-05-17
+- **Type :** init
+- **Fichier :** `PLTR_2026-05-17_init.md`
+- **Conclusion :** > ⚠️ **Note :** Cette analyse a été générée par le système multi-agents Argus-IA en utilisant les agents Python réels (accounting, quant, geo, sentiment, FX, event-driven, sector rotation) + une compi
+
+---
+
+## 🔄 Triggers détectés (full refresh)
+
+- Aucun trigger récent.
+
+---
+
+*Généré automatiquement — ne pas éditer manuellement.*

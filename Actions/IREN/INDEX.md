@@ -19,6 +19,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 ## Historique des Fichiers
 
 | Date | Fichier | Type | Thèse / Événement |
+| 2026-05-17 | [IREN_2026-05-17_init.md](IREN_2026-05-17_init.md) | Analyse initiale (agents réels) |
 |------|---------|------|-------------------|
 | 2026-05-17 | `IREN_2026-05-17_init.md` | Analyse initiale | Création du dossier · Filtre Qualité 4/6 · Pivot IA $3.4B NVIDIA · Earnings J0 |
 | 2026-05-17 | `IREN_2026-05-17_earnings.md` | Post-earnings | Preview pré-earnings — à compléter après résultats |

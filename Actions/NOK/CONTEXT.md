@@ -8,14 +8,23 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** SURVEILLER — Pas de position
-- **Prix cible :** $9.26 (consensus 6 analystes)
-- **Stop-loss :** $12.03 (cours − 2×ATR)
-- **Upside/Downside :** −33.6% / −13.8%
-- **Score global :** 2.35/10
-- **Statut thèse :** Confirmée (Full Refresh 2026-05-17)
-- **Horizon :** 6–12 mois
+**Prix cible :** $9.26 (consensus 6 analystes)
+**Stop-loss :** $12.03 (cours − 2×ATR)
+**Upside/Downside :** −33.6% / −13.8%
+**Dernière mise à jour :** 2026-05-17
 
 Leader 5G mature, massivement surévalué (P/E 87, cours $13.95 vs consensus $9.26 = +50%). Quality hors périmètre (2–2.5/6) : bilan solide mais pas de croissance revenue/profit. Dividende 1.17% seulement. RSI 68.4 proche suracheté. Put/call 0.39 bullish contradictoire avec la valorisation. ATR spike 6.88% confirme le risque de correction rapide. Value trap confirmé. Pas d'entrée tant que cours > $11 (SL).
+
+**✅ Données complètes** — Cours, RSI, ATR, P/E, consensus, options disponibles dans `data/latest.json`.
+
+---
+
+## Actualités ayant impacté ce dossier
+- **Score global :** —/10
+- **Prix cible :** $9.26
+- **Stop-loss :** $12.03
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -30,13 +39,12 @@ Leader 5G mature, massivement surévalué (P/E 87, cours $13.95 vs consensus $9.
 - Baisse — $12.03 (SL 2×ATR) — 🟢 Active
 - Hausse — $9.26 (consensus) — 🔴 Déjà au-dessus
 - Volume — >2× moy. 20j (>249M) — 🟢 Active
-- ATR Spike — 6.88% (seuil 5.0%) — 🟡 Volatilité accrue
 
 ---
 
 ## 📅 Prochains événements
 
-- 2026-07-23 — Earnings Q2 FY2026 (dans 67 jours)
+- Aucun événement à venir.
 
 ---
 
@@ -46,8 +54,7 @@ Leader 5G mature, massivement surévalué (P/E 87, cours $13.95 vs consensus $9.
 - **MM 50j :** 10.17
 - **MM 200j :** —
 - **ATR 14j :** 0.96
-- **Volume moy. 20j :** 124,826,160
-- **Volume jour :** 108,849,700 (0.9×)
+- **Volume moy. 20j :** 124826160
 
 ---
 
@@ -55,14 +62,14 @@ Leader 5G mature, massivement surévalué (P/E 87, cours $13.95 vs consensus $9.
 
 - **Date :** 2026-05-17
 - **Type :** full refresh
-- **Fichier :** `NOK_2026-05-17_init.md`
-- **Conclusion :** Thèse CONFIRMÉE. ATR spike 6.88% augmente le risque de timing mais ne modifie pas la surévaluation massive. Score 2.35/10. SURVEILLER.
+- **Fichier :** `NOK_2026-05-17_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-17
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- 2026-05-17 : atr_spike (medium) — ATR relatif 6.88% (seuil 5.0%) — Conclusion : CONFIRMÉ
+- Aucun trigger récent.
 
 ---
 

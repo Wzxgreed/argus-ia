@@ -35,6 +35,17 @@ import {
   Calendar,
   Cloud,
   Server,
+  RefreshCw,
+  Play,
+  Terminal,
+  Loader2,
+  Search,
+  Database,
+  FileText,
+  Check,
+  X,
+  ListChecks,
+  Sparkles,
 } from "lucide-react";
 
 const fadeIn = {
@@ -699,7 +710,7 @@ export function TickerGrid({
           const ChangeIcon = change > 0 ? TrendingUp : change < 0 ? TrendingDown : Minus;
           const rsi = t.technical.rsi14;
           const rsiColor = rsi > 70 ? "text-red-400" : rsi < 30 ? "text-emerald-400" : "text-muted-foreground";
-          const volRatio = t.price.volume / t.price.volume_avg_20d;
+          const volRatio = t.price.volume_avg_20d ? t.price.volume / t.price.volume_avg_20d : 0;
           const reco = recos[t.ticker];
           const targetPrice = reco?.take_profit ?? t.options?.max_pain ?? 0;
           const upside = targetPrice > 0 && t.price.close > 0 ? ((targetPrice - t.price.close) / t.price.close) * 100 : 0;
@@ -741,7 +752,7 @@ export function TickerGrid({
                 {hasData ? (
                   <>
                     <span className="text-2xl font-bold text-foreground">${fmtPrice(t.price.close)}</span>
-                    <span className="ml-2 text-xs text-muted-foreground">Vol {volRatio.toFixed(1)}× avg</span>
+                    <span className="ml-2 text-xs text-muted-foreground">Vol {Number.isFinite(volRatio) ? volRatio.toFixed(1) : "—"}× avg</span>
                   </>
                 ) : (
                   <span className="text-2xl font-bold text-muted-foreground/50">$—</span>
@@ -759,7 +770,7 @@ export function TickerGrid({
                     <div className="text-sm font-semibold text-emerald-400">
                       ${fmtPrice(targetPrice)}
                       <span className="ml-1.5 text-xs font-normal text-emerald-400/80">
-                        {upside > 0 ? `+${upside.toFixed(1)}%` : `${upside.toFixed(1)}%`}
+                        {typeof upside === 'number' ? (upside > 0 ? `+${upside.toFixed(1)}%` : `${upside.toFixed(1)}%`) : "—"}
                       </span>
                     </div>
                   </div>
@@ -792,7 +803,7 @@ export function TickerGrid({
                 <div className="text-center px-1">
                   <div className="text-[10px] text-muted-foreground uppercase tracking-wide mb-0.5">RSI</div>
                   <div className={`font-semibold tabular-nums ${hasData ? rsiColor : "text-muted-foreground/50"}`}>
-                    {hasData ? rsi.toFixed(1) : "—"}
+                    {hasData && rsi != null ? rsi.toFixed(1) : "—"}
                   </div>
                 </div>
                 <div className="text-center px-1 border-x border-white/[0.04]">
@@ -866,12 +877,12 @@ export function QuantPanel({ quant }: { quant: QuantReport }) {
   const risk = quant.risk_metrics;
 
   const metrics = [
-    { label: "Win rate", value: `${(sig.win_rate_observed * 100).toFixed(1)}%`, color: sig.win_rate_observed >= 0.5 ? "text-emerald-400" : "text-red-400", icon: Target },
-    { label: "P-value", value: sig.p_value.toFixed(3), color: sig.p_value < 0.05 ? "text-emerald-400" : "text-yellow-400", icon: Crosshair },
-    { label: "Sharpe", value: risk.sharpe.toFixed(2), color: risk.sharpe > 0 ? "text-emerald-400" : "text-red-400", icon: TrendingUp },
-    { label: "Max DD", value: `${(risk.max_drawdown * 100).toFixed(1)}%`, color: "text-red-400", icon: TrendingDown },
-    { label: "W/L ratio", value: risk.win_loss_ratio.toFixed(2), color: "text-foreground", icon: Scale },
-    { label: "Expectancy", value: risk.expectancy.toFixed(3), color: risk.expectancy > 0 ? "text-emerald-400" : "text-red-400", icon: DollarSign },
+    { label: "Win rate", value: `${((sig?.win_rate_observed ?? 0) * 100).toFixed(1)}%`, color: (sig?.win_rate_observed ?? 0) >= 0.5 ? "text-emerald-400" : "text-red-400", icon: Target },
+    { label: "P-value", value: (sig?.p_value ?? 1)?.toFixed(3), color: (sig?.p_value ?? 1) < 0.05 ? "text-emerald-400" : "text-yellow-400", icon: Crosshair },
+    { label: "Sharpe", value: (risk?.sharpe ?? 0)?.toFixed(2), color: (risk?.sharpe ?? 0) > 0 ? "text-emerald-400" : "text-red-400", icon: TrendingUp },
+    { label: "Max DD", value: `${((risk?.max_drawdown ?? 0) * 100).toFixed(1)}%`, color: "text-red-400", icon: TrendingDown },
+    { label: "W/L ratio", value: (risk?.win_loss_ratio ?? 0)?.toFixed(2), color: "text-foreground", icon: Scale },
+    { label: "Expectancy", value: (risk?.expectancy ?? 0)?.toFixed(3), color: (risk?.expectancy ?? 0) > 0 ? "text-emerald-400" : "text-red-400", icon: DollarSign },
   ];
 
   return (
@@ -885,12 +896,12 @@ export function QuantPanel({ quant }: { quant: QuantReport }) {
       <div className="flex items-center gap-2 mb-4">
         <Cpu className="h-5 w-5 text-accent" />
         <h3 className="font-semibold text-foreground">Validation Quant</h3>
-        <span className={`ml-auto inline-flex items-center gap-1.5 rounded-full px-2 py-0.5 text-xs font-medium ${sig.conclusion === "Significatif" ? "bg-emerald-500/10 text-emerald-400" : "bg-yellow-500/10 text-yellow-400"}`}>
-          {sig.conclusion}
+        <span className={`ml-auto inline-flex items-center gap-1.5 rounded-full px-2 py-0.5 text-xs font-medium ${(sig?.conclusion ?? "") === "Significatif" ? "bg-emerald-500/10 text-emerald-400" : "bg-yellow-500/10 text-yellow-400"}`}>
+          {sig?.conclusion ?? "N/A"}
         </span>
       </div>
 
-      {sig.alert && (
+      {sig?.alert && (
         <div className="mb-4 flex items-center gap-2 rounded-xl bg-yellow-500/10 border border-yellow-500/20 px-3 py-2 text-xs text-yellow-400">
           <AlertTriangle className="h-4 w-4" />
           {sig.alert}
@@ -1057,12 +1068,46 @@ interface OllamaUsage {
 }
 
 export function OllamaUsagePanel({
-  config,
-  usage,
+  config: initialConfig,
+  usage: initialUsage,
 }: {
   config: OllamaConfig | null;
   usage: OllamaUsage | null;
 }) {
+  const [config, setConfig] = useState<OllamaConfig | null>(initialConfig);
+  const [usage, setUsage] = useState<OllamaUsage | null>(initialUsage);
+  const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
+  const [refreshing, setRefreshing] = useState(false);
+
+  const fetchData = async () => {
+    try {
+      setRefreshing(true);
+      const [uRes, cRes] = await Promise.all([
+        fetch(`/data/ollama_usage.json?_=${Date.now()}`, { cache: "no-store" }),
+        fetch(`/data/ollama_config.json?_=${Date.now()}`, { cache: "no-store" }),
+      ]);
+      if (uRes.ok) {
+        const u = await uRes.json();
+        setUsage(u);
+      }
+      if (cRes.ok) {
+        const c = await cRes.json();
+        setConfig(c);
+      }
+      setLastUpdated(new Date());
+    } catch {
+      // ignore network errors silently
+    } finally {
+      setRefreshing(false);
+    }
+  };
+
+  useEffect(() => {
+    fetchData();
+    const interval = setInterval(fetchData, 10000); // refresh every 10s
+    return () => clearInterval(interval);
+  }, []);
+
   if (!config || !config.enabled) {
     return (
       <motion.div
@@ -1088,7 +1133,6 @@ export function OllamaUsagePanel({
   const winRemaining = Math.max(config.window_5h_limit - (usage?.window_5h_calls ?? 0), 0);
   const weeklyRemaining = Math.max(config.weekly_limit - (usage?.weekly_calls ?? 0), 0);
 
-  // Heure de reset de la fenêtre 5h
   const windowStart = usage?.window_5h_start ? new Date(usage.window_5h_start) : new Date();
   const windowReset = new Date(windowStart.getTime() + 5 * 60 * 60 * 1000);
   const hoursUntilReset = Math.max(0, Math.floor((windowReset.getTime() - Date.now()) / 3600000));
@@ -1107,10 +1151,20 @@ export function OllamaUsagePanel({
           <Cloud className="h-5 w-5 text-accent" />
           <h3 className="font-semibold text-foreground">Ollama Cloud</h3>
         </div>
-        <span className="inline-flex items-center gap-1.5 rounded-full bg-accent/10 px-2.5 py-1 text-xs font-medium text-accent">
-          <Server className="h-3 w-3" />
-          {config.tier_label}
-        </span>
+        <div className="flex items-center gap-2">
+          <button
+            onClick={fetchData}
+            className="inline-flex items-center gap-1 rounded-lg border border-white/[0.06] bg-white/[0.02] px-2 py-1 text-[10px] text-muted-foreground hover:bg-white/[0.04] transition-colors"
+            title="Rafraîchir"
+          >
+            <RefreshCw className={`h-3 w-3 ${refreshing ? "animate-spin" : ""}`} />
+            {lastUpdated ? `${lastUpdated.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit", second: "2-digit" })}` : "—"}
+          </button>
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-accent/10 px-2.5 py-1 text-xs font-medium text-accent">
+            <Server className="h-3 w-3" />
+            {config.tier_label}
+          </span>
+        </div>
       </div>
 
       <div className="grid grid-cols-2 gap-4 mb-5">
@@ -1174,6 +1228,386 @@ export function OllamaUsagePanel({
 
       <div className="mt-3 text-[10px] text-muted-foreground">
         Modèle : <span className="text-foreground font-medium">{config.model}</span>
+      </div>
+    </motion.div>
+  );
+}
+
+/* ─── LaunchAnalysis ─── */
+
+export function LaunchAnalysis() {
+  const [ticker, setTicker] = useState("");
+  const [name, setName] = useState("");
+  const [sector, setSector] = useState("");
+  const [priority, setPriority] = useState("medium");
+  const [exchange, setExchange] = useState("NASDAQ");
+  const [showOptions, setShowOptions] = useState(false);
+  const [jobId, setJobId] = useState<string | null>(null);
+  const [status, setStatus] = useState<string | null>(null);
+  const [logs, setLogs] = useState<string[]>([]);
+  const [loading, setLoading] = useState(false);
+
+  async function startAnalysis() {
+    const t = ticker.trim().toUpperCase();
+    if (!t || t.length < 1 || t.length > 10) return;
+    setLoading(true);
+    setStatus("queued");
+    setLogs([]);
+    try {
+      const params = new URLSearchParams({ ticker: t });
+      if (name.trim()) params.set("name", name.trim());
+      if (sector.trim()) params.set("sector", sector.trim());
+      if (priority) params.set("priority", priority);
+      if (exchange) params.set("exchange", exchange);
+
+      const res = await fetch(`/api/analyse?${params.toString()}`, { method: "POST" });
+      const data = await res.json();
+      if (data.job_id) {
+        setJobId(data.job_id);
+        setStatus("queued");
+      } else {
+        setStatus("error");
+        setLogs([data.error || "Erreur inconnue"]);
+      }
+    } catch (e) {
+      setStatus("error");
+      setLogs(["Impossible de contacter le serveur API"]);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  async function startFullAnalysis() {
+    const t = ticker.trim().toUpperCase();
+    if (!t || t.length < 1 || t.length > 10) return;
+    setLoading(true);
+    setStatus("queued");
+    setLogs([]);
+    try {
+      const params = new URLSearchParams({ ticker: t });
+      if (name.trim()) params.set("name", name.trim());
+      if (sector.trim()) params.set("sector", sector.trim());
+      if (priority) params.set("priority", priority);
+      if (exchange) params.set("exchange", exchange);
+
+      const res = await fetch(`/api/analyse-complete?${params.toString()}`, { method: "POST" });
+      const data = await res.json();
+      if (data.job_id) {
+        setJobId(data.job_id);
+        setStatus("queued");
+      } else {
+        setStatus("error");
+        setLogs([data.error || "Erreur inconnue"]);
+      }
+    } catch (e) {
+      setStatus("error");
+      setLogs(["Impossible de contacter le serveur API"]);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  useEffect(() => {
+    if (!jobId || status === "success" || status === "failed") return;
+    const interval = setInterval(async () => {
+      try {
+        const res = await fetch(`/api/status/${jobId}?_=${Date.now()}`, { cache: "no-store" });
+        if (!res.ok) return;
+        const data = await res.json();
+        setStatus(data.status);
+        setLogs(data.logs || []);
+      } catch {
+        // ignore
+      }
+    }, 2000);
+    return () => clearInterval(interval);
+  }, [jobId, status]);
+
+  const isRunning = status === "queued" || status === "running";
+
+  // ── Détection de progression à partir des logs ──
+  const allText = logs.join(" ");
+  const isFullAnalysis = allText.includes("analyse COMPLÈTE");
+  const steps = isFullAnalysis
+    ? [
+        {
+          label: "Watchlist",
+          icon: ListChecks,
+          done:
+            allText.includes("déjà dans la watchlist") ||
+            allText.includes("ajouté à la watchlist"),
+          active: allText.includes("Ajout"),
+        },
+        {
+          label: "Fetch données",
+          icon: Database,
+          done: allText.includes("Fetch des données") || allText.includes("Données récupérées"),
+          active: allText.includes("Fetch des données") || allText.includes("Étape 1/2"),
+        },
+        {
+          label: "Agents réels",
+          icon: Cpu,
+          done: allText.includes("Données agents déjà disponibles") || allText.includes("Lancement agent"),
+          active: allText.includes("Compilation agents réels") || allText.includes("Lancement agent"),
+        },
+        {
+          label: "LLM unique",
+          icon: Sparkles,
+          done: allText.includes("Rapport compilé") || allText.includes("Rapport sauvegardé"),
+          active: allText.includes("Compilation LLM"),
+        },
+        {
+          label: "Terminé",
+          icon: CheckCircle2,
+          done: status === "success",
+          active: false,
+        },
+      ]
+    : [
+        {
+          label: "Watchlist",
+          icon: ListChecks,
+          done:
+            allText.includes("déjà dans la watchlist") ||
+            allText.includes("ajouté à la watchlist"),
+          active: allText.includes("Ajout"),
+        },
+        {
+          label: "Fetch données",
+          icon: Database,
+          done:
+            allText.includes("Données récupérées") ||
+            allText.includes("Cours:") ||
+            allText.includes("prêt pour analyse"),
+          active: allText.includes("Fetch des données"),
+        },
+        {
+          label: "Sync dashboard",
+          icon: FileText,
+          done:
+            allText.includes("Copie des données dans frontend/dist/data") ||
+            allText.includes("Data files synced"),
+          active: allText.includes("Copie"),
+        },
+        {
+          label: "Terminé",
+          icon: CheckCircle2,
+          done: status === "success",
+          active: false,
+        },
+      ];
+
+  const completedSteps = steps.filter((s) => s.done).length;
+  const progressPct = status === "success" ? 100 : Math.min((completedSteps / steps.length) * 100, 95);
+
+  return (
+    <motion.div
+      variants={fadeIn}
+      initial="initial"
+      whileInView="animate"
+      viewport={{ once: true }}
+      className="glass rounded-2xl border border-white/[0.06] p-6"
+    >
+      <div className="flex items-center gap-2 mb-5">
+        <Play className="h-5 w-5 text-accent" />
+        <h3 className="font-semibold text-foreground">Nouvelle analyse</h3>
+      </div>
+
+      <div className="flex gap-2 mb-3">
+        <input
+          type="text"
+          value={ticker}
+          onChange={(e) => setTicker(e.target.value.toUpperCase())}
+          onKeyDown={(e) => e.key === "Enter" && startAnalysis()}
+          placeholder="Ticker (ex: AAPL)"
+          maxLength={10}
+          disabled={isRunning}
+          className="flex-1 rounded-xl border border-white/[0.06] bg-white/[0.02] px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-accent disabled:opacity-50"
+        />
+        <button
+          onClick={startAnalysis}
+          disabled={isRunning || !ticker.trim()}
+          className="inline-flex items-center gap-1.5 rounded-xl bg-accent px-4 py-2 text-sm font-medium text-white hover:bg-emerald-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+          title="Fetch des données uniquement"
+        >
+          {isRunning ? <Loader2 className="h-4 w-4 animate-spin" /> : <Play className="h-4 w-4" />}
+          {isRunning ? "En cours..." : "Préparer"}
+        </button>
+        <button
+          onClick={startFullAnalysis}
+          disabled={isRunning || !ticker.trim()}
+          className="inline-flex items-center gap-1.5 rounded-xl bg-violet-500 px-4 py-2 text-sm font-medium text-white hover:bg-violet-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+          title="Fetch + génération automatique du rapport LLM"
+        >
+          {isRunning ? <Loader2 className="h-4 w-4 animate-spin" /> : <Sparkles className="h-4 w-4" />}
+          {isRunning ? "En cours..." : "Analyser LLM"}
+        </button>
+      </div>
+
+      <button
+        onClick={() => setShowOptions((v) => !v)}
+        className="mb-3 text-[10px] text-muted-foreground hover:text-foreground transition-colors"
+      >
+        {showOptions ? "▲ Masquer les options" : "▼ Options avancées (nom, secteur, exchange)"}
+      </button>
+
+      {showOptions && (
+        <div className="grid grid-cols-2 gap-2 mb-4">
+          <input
+            type="text"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            placeholder="Nom entreprise"
+            disabled={isRunning}
+            className="rounded-xl border border-white/[0.06] bg-white/[0.02] px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-accent disabled:opacity-50"
+          />
+          <input
+            type="text"
+            value={sector}
+            onChange={(e) => setSector(e.target.value)}
+            placeholder="Secteur"
+            disabled={isRunning}
+            className="rounded-xl border border-white/[0.06] bg-white/[0.02] px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-accent disabled:opacity-50"
+          />
+          <select
+            value={priority}
+            onChange={(e) => setPriority(e.target.value)}
+            disabled={isRunning}
+            className="rounded-xl border border-white/[0.06] bg-white/[0.02] px-3 py-2 text-sm text-foreground focus:outline-none focus:ring-1 focus:ring-accent disabled:opacity-50"
+          >
+            <option value="high">Haute</option>
+            <option value="medium">Moyenne</option>
+            <option value="low">Basse</option>
+          </select>
+          <select
+            value={exchange}
+            onChange={(e) => setExchange(e.target.value)}
+            disabled={isRunning}
+            className="rounded-xl border border-white/[0.06] bg-white/[0.02] px-3 py-2 text-sm text-foreground focus:outline-none focus:ring-1 focus:ring-accent disabled:opacity-50"
+          >
+            <option value="NASDAQ">NASDAQ</option>
+            <option value="NYSE">NYSE</option>
+            <option value="Euronext">Euronext</option>
+          </select>
+        </div>
+      )}
+
+      {status && (
+        <div className="mb-4 space-y-4">
+          {/* Statut + Job */}
+          <div className="flex items-center gap-2 text-xs">
+            <span
+              className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 font-medium ${
+                status === "success"
+                  ? "bg-emerald-500/10 text-emerald-400"
+                  : status === "failed"
+                  ? "bg-red-500/10 text-red-400"
+                  : status === "running"
+                  ? "bg-accent/10 text-accent"
+                  : "bg-white/[0.04] text-muted-foreground"
+              }`}
+            >
+              {status === "success" && <CheckCircle2 className="h-3 w-3" />}
+              {status === "failed" && <AlertTriangle className="h-3 w-3" />}
+              {status === "running" && <Loader2 className="h-3 w-3 animate-spin" />}
+              {status === "queued" && <Clock className="h-3 w-3" />}
+              {status === "success" ? "Terminé" : status === "failed" ? "Échec" : status === "running" ? "En cours" : "En attente"}
+            </span>
+            {jobId && <span className="text-muted-foreground font-mono">job {jobId}</span>}
+          </div>
+
+          {/* Barre de progression */}
+          <div>
+            <div className="flex items-center justify-between text-[10px] text-muted-foreground mb-1.5">
+              <span>Progression</span>
+              <span>{Math.round(progressPct)}%</span>
+            </div>
+            <div className="h-1.5 w-full rounded-full bg-white/[0.04] overflow-hidden">
+              <motion.div
+                className={`h-full rounded-full ${
+                  status === "success"
+                    ? "bg-emerald-500"
+                    : status === "failed"
+                    ? "bg-red-500"
+                    : "bg-accent"
+                }`}
+                initial={{ width: 0 }}
+                animate={{ width: `${progressPct}%` }}
+                transition={{ duration: 0.5 }}
+              />
+            </div>
+          </div>
+
+          {/* Étapes visuelles */}
+          <div className="grid grid-cols-4 gap-2">
+            {steps.map((step, i) => {
+              const Icon = step.icon;
+              return (
+                <div
+                  key={i}
+                  className={`flex flex-col items-center gap-1.5 rounded-xl border p-2 transition-colors ${
+                    step.done
+                      ? "border-emerald-500/20 bg-emerald-500/5"
+                      : step.active
+                      ? "border-accent/20 bg-accent/5"
+                      : "border-white/[0.04] bg-white/[0.01]"
+                  }`}
+                >
+                  <div
+                    className={`flex h-6 w-6 items-center justify-center rounded-full ${
+                      step.done
+                        ? "bg-emerald-500/20 text-emerald-400"
+                        : step.active
+                        ? "bg-accent/20 text-accent"
+                        : "bg-white/[0.04] text-muted-foreground"
+                    }`}
+                  >
+                    {step.done ? (
+                      <Check className="h-3 w-3" />
+                    ) : step.active ? (
+                      <Loader2 className="h-3 w-3 animate-spin" />
+                    ) : (
+                      <Icon className="h-3 w-3" />
+                    )}
+                  </div>
+                  <span
+                    className={`text-[9px] font-medium text-center leading-tight ${
+                      step.done
+                        ? "text-emerald-400"
+                        : step.active
+                        ? "text-accent"
+                        : "text-muted-foreground"
+                    }`}
+                  >
+                    {step.label}
+                  </span>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Logs */}
+          {logs.length > 0 && (
+            <div className="rounded-xl border border-white/[0.06] bg-black/30 p-3 max-h-40 overflow-y-auto">
+              <div className="flex items-center gap-1.5 text-[10px] text-muted-foreground uppercase tracking-wide mb-2">
+                <Terminal className="h-3 w-3" />
+                Logs
+              </div>
+              <div className="space-y-1">
+                {logs.map((line, i) => (
+                  <div key={i} className="text-[10px] font-mono text-muted-foreground leading-tight">
+                    {line}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+
+      <div className="text-[10px] text-muted-foreground space-y-1">
+        <p><strong className="text-accent">Préparer</strong> — Fetch des données + ajout à la watchlist uniquement.</p>
+        <p><strong className="text-violet-400">Analyser LLM</strong> — Fetch + génération automatique du rapport complet via IA (crée Actions/{ticker}/ et le fichier _init.md).</p>
       </div>
     </motion.div>
   );

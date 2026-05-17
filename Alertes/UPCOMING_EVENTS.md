@@ -11,7 +11,7 @@
 | Ticker | Type | Date | Jours | Détail | Source |
 |--------|------|------|-------|--------|--------|
 | IREN | earnings | 2026-05-17 | 0j | Earnings ... | fmp |
-| NVDA | earnings | 2026-05-20 | 3j | Earnings date — Est EPS $1.69-$1.99, Rev $79.2B... | yfinance |
+| SQ | earnings | 2026-05-17 | 0j | Earnings ... | fmp |
 
 ---
 

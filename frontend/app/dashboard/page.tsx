@@ -16,6 +16,7 @@ import {
   PipelineStatus,
   TickerData,
   OllamaUsagePanel,
+  LaunchAnalysis,
 } from "@/components/dashboard";
 
 const fadeIn = {
@@ -227,6 +228,9 @@ export default function DashboardPage() {
           tickersCount={Object.keys(prices).length}
           recoCounts={meta.recommandations_count ?? {}}
         />
+
+        {/* Launch Analysis */}
+        <LaunchAnalysis />
 
         {/* Pipeline */}
         <PipelineStatus okAgents={18} />

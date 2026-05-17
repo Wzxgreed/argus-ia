@@ -1,16 +1,22 @@
 #!/usr/bin/env bash
 # scripts/analyse_ticker.sh
 # Workflow : ajoute un ticker à la watchlist, fetch les données, puis l'analyse LLM
-# Usage : ./scripts/analyse_ticker.sh [TICKER]
+# Usage : ./scripts/analyse_ticker.sh [TICKER] [NAME] [SECTOR] [PRIORITY] [EXCHANGE]
 
 set -euo pipefail
 
 TICKER="${1:-}"
 if [ -z "$TICKER" ]; then
-  echo "Usage: $0 <TICKER>"
-  echo "Example: $0 NOK"
+  echo "Usage: $0 <TICKER> [NAME] [SECTOR] [PRIORITY] [EXCHANGE]"
+  echo "Example: $0 NOK Nokia Technology medium NYSE"
   exit 1
 fi
+
+# Paramètres optionnels (mode non-interactif)
+NAME="${2:-}"
+SECTOR="${3:-}"
+PRIORITY="${4:-medium}"
+EXCHANGE="${5:-NASDAQ}"
 
 CONFIG="config/watchlist.json"
 WATCHLIST_DIR="$(dirname "$0")/.."
@@ -21,7 +27,11 @@ if grep -q "\"ticker\": \"$TICKER\"" "$CONFIG"; then
   echo "✓ $TICKER déjà dans la watchlist"
 else
   echo "➕ Ajout de $TICKER à la watchlist..."
-  python3 -c "
+
+  # Détecte si stdin est un terminal (interactif)
+  if [ -t 0 ] && [ -z "$NAME" ]; then
+    # Mode interactif
+    python3 -c "
 import json, sys
 with open('$CONFIG', 'r') as f:
     data = json.load(f)
@@ -43,6 +53,29 @@ with open('$CONFIG', 'w') as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
 print(f'✓ $TICKER ajouté à la watchlist')
 "
+  else
+    # Mode non-interactif — valeurs par défaut
+    echo "   Nom    : ${NAME:-$TICKER}"
+    echo "   Secteur: ${SECTOR:-Non spécifié}"
+    echo "   Priorité: $PRIORITY"
+    echo "   Exchange: $EXCHANGE"
+    python3 -c "
+import json
+with open('$CONFIG', 'r') as f:
+    data = json.load(f)
+data['tickers'].append({
+    'ticker': '$TICKER',
+    'name': '${NAME:-$TICKER}',
+    'sector': '${SECTOR:-Non spécifié}',
+    'priority': '$PRIORITY',
+    'exchange': '$EXCHANGE',
+    'notes': 'Ajouté via dashboard API'
+})
+with open('$CONFIG', 'w') as f:
+    json.dump(data, f, indent=2, ensure_ascii=False)
+print(f'✓ $TICKER ajouté à la watchlist (mode auto)')
+"
+  fi
 fi
 
 # ── Étape 2 : Fetch des données ────────────────────────────────────────────────
@@ -75,8 +108,17 @@ except Exception as e:
 if [ -d "frontend/dist/data" ]; then
   echo ""
   echo "📦 Copie des données dans frontend/dist/data/..."
-  cd frontend && node scripts/copy-data.js
-  cd ..
+  for f in recommandations_latest.json latest.json quant_report_latest.json quality_report_latest.json geo_risk_latest.json fx_exposure_latest.json crypto_correlation_latest.json social_sentiment_latest.json upcoming_events_latest.json ollama_config.json ollama_usage.json; do
+    src="data/$f"
+    if [ -L "$src" ]; then
+      real=$(readlink -f "$src")
+      cp "$real" "frontend/dist/data/$f"
+    elif [ -f "$src" ]; then
+      cp "$src" "frontend/dist/data/$f"
+    fi
+  done
+  chmod -R 644 frontend/dist/data/*
+  echo "✅ Data files synced"
 fi
 
 echo ""

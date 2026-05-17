@@ -285,18 +285,19 @@ def compute_score_momentum(ticker: str, price_data: dict, all_snapshots: dict) -
         score -= 0.5
 
     # --- Change % du jour ---
-    if change_pct > 3:
-        score += 0.5
-    elif change_pct > 1:
-        score += 0.3
-    elif change_pct < -5:
-        score -= 1.0
-    elif change_pct < -3:
-        score -= 0.5
+    if change_pct is not None:
+        if change_pct > 3:
+            score += 0.5
+        elif change_pct > 1:
+            score += 0.3
+        elif change_pct < -5:
+            score -= 1.0
+        elif change_pct < -3:
+            score -= 0.5
 
     # --- Volume relatif ---
     if vol_avg > 0 and volume > vol_avg * 2:
-        if change_pct > 0:
+        if change_pct is not None and change_pct > 0:
             score += 0.5
         else:
             score -= 0.5
@@ -438,6 +439,7 @@ def compute_score_global(ticker: str, prices_data: dict, all_snapshots: dict, ma
     # --- 5. Timing technique ---
     timing_malus = 0
     timing_bonus = 0
+    change_pct = price.get("change_pct")
 
     if rsi is not None:
         if rsi > 70:
@@ -460,9 +462,9 @@ def compute_score_global(ticker: str, prices_data: dict, all_snapshots: dict, ma
     vol = price.get("volume", 0)
     vol_avg = price.get("volume_avg_20d", 1)
     if vol_avg > 0 and vol > vol_avg * 2:
-        if change_pct > 0:
+        if change_pct is not None and change_pct > 0:
             timing_bonus += 5
-        else:
+        elif change_pct is not None and change_pct <= 0:
             timing_malus += 5
 
     score_global_ajuste = score_global - timing_malus + timing_bonus

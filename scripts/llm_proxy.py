@@ -143,7 +143,7 @@ def update_usage(req_tokens: int, resp_tokens: int, calls: int = 1):
 def openai_to_ollama(payload: dict) -> dict:
     """Convertit une requête OpenAI en format Ollama natif."""
     return {
-        "model": payload.get("model", "ministral-3:3b"),
+        "model": payload.get("model", "kimi-k2.6:cloud"),
         "messages": payload.get("messages", []),
         "stream": payload.get("stream", False),
         "options": {
@@ -192,7 +192,7 @@ def forward_request(target_url: str, api_key: str, body: bytes, headers: dict) -
     )
     start = time.time()
     try:
-        with urllib.request.urlopen(req, timeout=120) as resp:
+        with urllib.request.urlopen(req, timeout=300) as resp:
             resp_body = resp.read()
             status = resp.status
     except urllib.error.HTTPError as e:

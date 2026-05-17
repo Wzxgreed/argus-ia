@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 4.2/10
-- **Prix cible :** $65.86
-- **Stop-loss :** $41.94
-- **Statut thèse :** Confirmée (FULL REFRESH 2026-05-17)
-- **Horizon :** 1–3 mois (post-earnings + confirmation pivot IA)
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -52,15 +52,15 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-17
-- **Type :** FULL REFRESH
-- **Fichier :** `IREN_2026-05-17_init.md`
-- **Conclusion :** Gap -9.35% confirme la thèse ATTENDRE. Quality Partielle 4/6. Score Opportunité 4.2/10. Attendre stabilisation post-earnings.
+- **Type :** preview
+- **Fichier :** `IREN_2026-05-17_preview.md`
+- **Conclusion :** > **Date :** 2026-05-17
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **2026-05-17** : price_gap (-9.35%), atr_spike (10.39%) — Conclusion : confirm
+- Aucun trigger récent.
 
 ---
 

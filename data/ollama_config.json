@@ -3,7 +3,7 @@
   "tier_label": "Ollama Cloud Pro",
   "window_5h_limit": 1000,
   "weekly_limit": 10000,
-  "model": "ministral-3:3b",
+  "model": "kimi-k2.6:cloud",
   "endpoint": "https://ollama.com/api/chat",
   "enabled": true
 }
