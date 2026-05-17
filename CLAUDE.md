@@ -263,7 +263,7 @@ Signaux clés : **corrélation 30j/90j** avec BTC, **beta BTC** (>1.5 = sur-expo
 
 ---
 
-### Agent Watchman — `scripts/agent_watchman.py` + `Alertes/UPCOMING_EVENTS.md` ← NOUVEAU
+### Agent Watchman — `agents/watchman/agent.py` + `Alertes/UPCOMING_EVENTS.md` ← NOUVEAU
 **Périmètre :** surveillance proactive des événements futurs par ticker : earnings dates, news CEO/M&A/guidance, insider trades significatifs, upgrades/downgrades, contrats gouvernementaux
 **Sources :** `yfinance` (calendar, news), `FMP Stable API` (earnings-calendar, insider-trading, upgrades-downgrades)
 **Produit :** `data/upcoming_events_YYYY-MM-DD.json` + `Alertes/UPCOMING_EVENTS.md` + `_preview.md` auto-généré si earnings ≤ 3j + `_update.md` flash si CEO/insider/analyste majeur
@@ -272,7 +272,7 @@ Signaux clés : **calendrier earnings 30j** avec estimates EPS/Revenue, **news k
 
 ---
 
-### Agent Accounting — `scripts/agent_accounting.py` + `data/accounting_risk_YYYY-MM-DD.json` ← NOUVEAU
+### Agent Accounting — `agents/accounting/agent.py` + `data/accounting_risk_YYYY-MM-DD.json` ← NOUVEAU
 **Périmètre :** détection de manipulation comptable et évaluation de la santé financière via 4 métriques institutionnelles
 **Sources :** `FMP Stable API` (income-statement, balance-sheet-statement, cash-flow-statement)
 **Produit :** `data/accounting_risk_YYYY-MM-DD.json` + alertes intégrées dans le Filtre Qualité et le paper trading
@@ -281,7 +281,7 @@ Signaux clés : **Beneish M-Score** (> -1.78 = 🔴 manipulation suspectée), **
 
 ---
 
-### Agent Sector Rotation — `scripts/agent_sector_rotation.py` + `data/sector_rotation_YYYY-MM-DD.json` ← NOUVEAU
+### Agent Sector Rotation — `agents/sector_rotation/agent.py` + `data/sector_rotation_YYYY-MM-DD.json` ← NOUVEAU
 **Périmètre :** surveillance de la rotation sectorielle via ETFs SPDR et alignement avec le régime macro
 **Sources :** `yfinance` (XLK, XLE, XLF, XLI, XLU, XLV, XLP, XLY, XLB, XLRE, XLC, SPY)
 **Produit :** `data/sector_rotation_YYYY-MM-DD.json` + ranking sectoriel + signaux crossover
@@ -290,7 +290,7 @@ Signaux clés : **force relative 20j/60j vs SPY**, **crossover RS20/RS60** (bull
 
 ---
 
-### Agent Social Sentiment — `scripts/agent_social.py` + `data/social_sentiment_YYYY-MM-DD.json` ← NOUVEAU
+### Agent Social Sentiment — `agents/social/agent.py` + `data/social_sentiment_YYYY-MM-DD.json` ← NOUVEAU
 **Périmètre :** scan du sentiment retail sur les réseaux sociaux (Reddit, Yahoo Finance Community) pour compléter le sentiment institutionnel
 **Sources :** Reddit API publique (r/wallstreetbets, r/stocks, r/investing, r/StockMarket), Yahoo Finance news comments
 **Produit :** `data/social_sentiment_YYYY-MM-DD.json` + score retail /10 + alertes pump/dump
@@ -299,7 +299,7 @@ Signaux clés : **mention count** par ticker, **sentiment score /10** (lexique p
 
 ---
 
-### Agent FX Exposure — `scripts/agent_fx.py` + `data/fx_exposure_YYYY-MM-DD.json` ← NOUVEAU
+### Agent FX Exposure — `agents/fx/agent.py` + `data/fx_exposure_YYYY-MM-DD.json` ← NOUVEAU
 **Périmètre :** exposition de chaque ticker aux fluctuations de change (USD, EUR, JPY, CNY) et impact estimé sur revenus, marges et valorisation
 **Sources :** `data/latest.json` (macro/forex), `config/watchlist.json` (secteurs), `fmp_key_metrics` (revenus géo)
 **Produit :** `data/fx_exposure_YYYY-MM-DD.json` + Bloc FX dans `_init.md` / `_update.md` + ajustements Score Fondamental/Valorisation
@@ -310,7 +310,7 @@ Signaux clés : **% revenus hors-USD** par ticker, **impact revenus/EPS estimé*
 
 ---
 
-### Agent Event-Driven — `scripts/agent_event_driven.py` + `data/events_YYYY-MM-DD.json` ← NOUVEAU
+### Agent Event-Driven — `agents/event_driven/agent.py` + `data/events_YYYY-MM-DD.json` ← NOUVEAU
 **Périmètre :** détection et analyse des événements corporates structurants — M&A, buybacks, spin-offs, activism (13D filings), changements de guidance, settlements, FDA decisions
 **Sources :** `news` (Yahoo), `secFilings` (8-K, 13D), `company`, `quote`
 **Produit :** `data/events_YYYY-MM-DD.json` + `Alertes/EVENT_DRIVEN.md` + `_update.md` flash + bonus/malus Score Catalyseur
@@ -326,7 +326,7 @@ Signaux clés : **spread M&A** (arbitrage), **buyback net yield** (buyback − S
 
 ---
 
-### Agent Recommandation — `scripts/agent_recommandation.py` + `data/recommandations_YYYY-MM-DD.json` + `Recommandations/YYYY-MM-DD.md` ← NOUVEAU
+### Agent Recommandation — `agents/recommandation/agent.py` + `data/recommandations_YYYY-MM-DD.json` + `Recommandations/YYYY-MM-DD.md` ← NOUVEAU
 **Périmètre :** traduire la synthèse de tous les agents en actions explicites : **ACHETER / CONSERVER / ATTENDRE / RÉDUIRE / VENDRE** avec niveaux d'entrée, stop-loss, take-profit et ratio risque/rendement
 **Sources :** Tous les JSON `*_latest.json` (`latest`, `quant`, `geo`, `crypto`, `accounting`, `sector_rotation`, `social_sentiment`, `fx_exposure`, `events`, `upcoming_events`)
 **Produit :** `data/recommandations_YYYY-MM-DD.json` + `Recommandations/YYYY-MM-DD.md` + déclenchement paper trading
@@ -371,7 +371,7 @@ Score Global = Score Opportunité × 10
 
 ---
 
-### Paper Trading Engine — `scripts/paper_trading.py` + `Portefeuille/PAPER_*.md`
+### Paper Trading Engine — `agents/paper_trading/agent.py` + `Portefeuille/PAPER_*.md`
 **Périmètre :** exécution virtuelle de trades sur la watchlist avec sizing institutionnel et règles de sortie strictes
 **Sources :** `data/latest.json`, `data/accounting_risk_latest.json`, `Actions/*/WATCHLIST_SCORES.md`, `yfinance`
 **Produit :** `Portefeuille/PAPER_POSITIONS.json` + `PAPER_TRADES.md` + `PAPER_PERFORMANCE.md`
@@ -398,7 +398,7 @@ même si les deux autres sont élevés. Un signal très négatif prime.
 ### Earnings Reviewer (skill) — [Agents/SKILL_EARNINGS_REVIEWER.md](Agents/SKILL_EARNINGS_REVIEWER.md)
 Analyse profonde post-earnings via transcript + SEC filings. Protocole institutionnel (JPM/GS/MS format) : variance table, estimate revisions, NLP Score Confiance Management, valuation update, catalysts forward. Déclenché automatiquement sur le dernier trimestre lors de chaque nouvelle analyse d'action. Voir `Agents/SKILL_EARNINGS_REVIEWER.md` pour le workflow complet.
 
-### NLP Transcript Analysis — `scripts/fetch_transcripts.py` + FMP ← NOUVEAU
+### NLP Transcript Analysis — `agents/fetch_transcripts/agent.py` + FMP ← NOUVEAU
 Analyse automatisée du ton du management sur les earnings calls via FMP. Récupère les transcripts des 3 derniers trimestres, calcule : ratio Confiance/Prudence, pivots ambigus, évasions Q&A, fermeté de la guidance, Score Confiance Management /10 avec évolution inter-trimestrielle.
 - **Source :** FMP Stable API (nécessite plan **Enterprise+** — le plan Starter retourne 402)
 - **Output :** `data/transcripts_NLP_YYYY-MM-DD.json` → lu par l'Earnings Reviewer avant analyse manuelle
@@ -415,8 +415,8 @@ pour un ticker watchlist → générer automatiquement `[TICKER]_YYYY-MM-DD_prev
 ### Alertes sur seuils
 Lire `Alertes/ALERTES.md` à chaque session. Si un cours a franchi un seuil défini, générer automatiquement un `_update.md` pour le ticker concerné et logger le déclenchement dans `Alertes/ALERTES.md`.
 
-### Module Backtesting + Apprentissage — `scripts/learn_from_errors.py` + [Opportunités/BACKTESTING.md](Opportunités/BACKTESTING.md) + [Agents/APPRENTISSAGES.md](Agents/APPRENTISSAGES.md) ← CALIBRATION AUTO v2
-**Automatisé par `scripts/learn_from_errors.py` (étape 0 du pipeline).**
+### Module Backtesting + Apprentissage — `agents/learn_from_errors/agent.py` + [Opportunités/BACKTESTING.md](Opportunités/BACKTESTING.md) + [Agents/APPRENTISSAGES.md](Agents/APPRENTISSAGES.md) ← CALIBRATION AUTO v2
+**Automatisé par `agents/learn_from_errors/agent.py` (étape 0 du pipeline).**
 
 Suivi de la performance réelle de chaque opportunité signalée. Le script vérifie chaque matin les fenêtres ouvertes (J+5, J+20, J+60 pour les opportunités ; J+30, J+90, J+180 pour les prix cibles), récupère les cours via yfinance, calcule les verdicts (✅ Hit / ❌ Miss / ⚪ Scratch), et met à jour les fichiers de suivi.
 
@@ -442,21 +442,21 @@ Suivi de la performance réelle de chaque opportunité signalée. Le script vér
 
 ---
 
-### Module Quant — `scripts/agent_quant.py` + `data/quant_report_YYYY-MM-DD.json` ← NOUVEAU
+### Module Quant — `agents/quant/agent.py` + `data/quant_report_YYYY-MM-DD.json` ← NOUVEAU
 **Étape 1 du pipeline.**
 
 Validation statistique du système : test binomial de signification (p-value), Sharpe/Sortino/Max Drawdown sur les rendements J+20, walk-forward analysis (overfitting detection), calibration des scores par fourchette. Émet une alerte si les signaux ne sont pas significativement supérieurs au hasard (p-value > 0.20).
 
 ---
 
-### Module Géopolitique — `scripts/agent_geo.py` + `data/geo_risk_YYYY-MM-DD.json` ← NOUVEAU
+### Module Géopolitique — `agents/geo/agent.py` + `data/geo_risk_YYYY-MM-DD.json` ← NOUVEAU
 **Étape 2 du pipeline.**
 
 Scan automatique des news politiques via regex (tarifs, sanctions, guerres, budgets, élections). Cartographie l'exposition de chaque ticker par secteur. Génère un Score Politique /10 et 3 scénarios (optimiste/central/pessimiste). Crée automatiquement un `_update.md` si score ≥ 7.
 
 ---
 
-### Module Crypto-Correlation — `scripts/agent_crypto.py` + `data/crypto_correlation_YYYY-MM-DD.json` ← NOUVEAU
+### Module Crypto-Correlation — `agents/crypto/agent.py` + `data/crypto_correlation_YYYY-MM-DD.json` ← NOUVEAU
 **Étape 3 du pipeline.**
 
 Analyse la corrélation entre les tickers `crypto_exposed` (IREN) et BTC/ETH. Calcule beta BTC, NAV estimé, premium/discount, Mining Profitability Index (MPI), et Score Divergence /10. Alertes si divergence majeure ou MPI < 0.8.
@@ -485,6 +485,11 @@ Base de données de la précision historique des analystes sell-side sur la watc
    → Si [CRITICAL] ou >2 [ERROR] : STOP. Ne pas lancer l'analyse du jour.
    → Si [WARNING] sur un ticker : noter [DONNÉES PARTIELLES] dans l'analyse.
    → Si 100% OK : continuer normalement.
+
+1b. Lire data/quality_report_latest.json (si présent)
+   → Si un ticker est `excluded` : ne PAS l'utiliser pour les scores/recommandations
+   → Si un ticker est `warning` : noter [DONNÉES PARTIELLES] dans l'analyse
+   → Les anomalies détectées (stale price, volume 0, RSI placeholder, etc.) sont documentées ici
 
 2. Lire data/latest.json (snapshot du jour)
    → Extraire cours, volumes, RSI, ATR, MM pour chaque ticker watchlist
@@ -590,6 +595,11 @@ Base de données de la précision historique des analystes sell-side sur la watc
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ÉTAPE 0b — CHARGEMENT DE LA MÉMOIRE (OBLIGATOIRE)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. Lire `Actions/[TICKER]/CONTEXT.md` pour chaque ticker de la watchlist (si présent)
+   → Extraire la thèse active, les erreurs de prédiction passées, les alertes actives et les SL/TP en cours
+   → Si `CONTEXT.md` n'existe pas, l'agent doit le créer après la première analyse complète
+   → Ce fichier est la mémoire court terme : il évite de relire tout l'historique à chaque session
+
 4. Lire Agents/APPRENTISSAGES.md en entier
 5. Charger toutes les règles de la section "Règles actives issues des erreurs"
 6. Ces règles surpassent les règles par défaut de tous les agents
@@ -599,7 +609,7 @@ Base de données de la précision historique des analystes sell-side sur la watc
    → Actions/SUIVI_PRIX_CIBLES.md (J+30, J+90, J+180)
    → Actions/SUIVI_EARNINGS_PREDICTIONS.md (fenêtres en attente de résultats)
 
-8. **Automatique — `scripts/learn_from_errors.py`** :
+8. **Automatique — `agents/learn_from_errors/agent.py`** :
    → Ce script est exécuté en étape 0 du pipeline `run_morning.sh`
    → Il lit les fenêtres ouvertes, récupère les cours via yfinance, calcule les verdicts
    → Met à jour les fichiers de suivi (BACKTESTING.md, SUIVI_PRIX_CIBLES.md)
@@ -690,9 +700,13 @@ Verdict :
    → Thèse courante (synthèse init + earnings)
    → Historique des fichiers créés
    → Agenda des prochains événements (prochain earnings, conférences)
-8. Ajouter [TICKER] dans Actualités/WATCHLIST.md avec seuils d'alerte par défaut
-9. Ajouter [TICKER] dans Actualités/CALENDRIER_EARNINGS.md avec la date du prochain earnings
-10. Ajouter les seuils d'alerte dans Alertes/ALERTES.md :
+8. Créer ou mettre à jour `Actions/[TICKER]/CONTEXT.md` :
+   → Thèse active, score, prix cible, stop-loss, statut de la thèse
+   → Résumé de la dernière analyse (1 phrase)
+   → Contexte technique (RSI, MM, ATR depuis `data/latest.json`)
+9. Ajouter [TICKER] dans Actualités/WATCHLIST.md avec seuils d'alerte par défaut
+10. Ajouter [TICKER] dans Actualités/CALENDRIER_EARNINGS.md avec la date du prochain earnings
+11. Ajouter les seuils d'alerte dans Alertes/ALERTES.md :
     → Alerte baisse : cours < prix cible - 15%
     → Alerte hausse : cours > prix cible
     → Alerte volume : volume > 2x moyenne 20j

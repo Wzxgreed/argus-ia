@@ -165,7 +165,7 @@ Pour chaque événement majeur détecté, construire 3 scénarios avec probabili
 
 ```bash
 # run_morning.sh — étape 0d
-python3 scripts/agent_geo.py
+python3 agents/geo/agent.py
 ```
 
 **Ordre d'exécution du matin :**

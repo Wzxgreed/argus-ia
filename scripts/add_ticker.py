@@ -396,6 +396,82 @@ L'agent LLM détecte et complète automatiquement les DRAFT au démarrage de cha
     print(f"[add_ticker] Generated {path}", file=sys.stderr)
 
 
+def generate_context_initial(ticker, snapshot, sector, priority):
+    """Génère un CONTEXT.md initial avec les données brutes du snapshot."""
+    action_dir = BASE_DIR / "Actions" / ticker.upper()
+    date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    p = snapshot.get("price", {}) if snapshot else {}
+    f = snapshot.get("fundamentals", {}) if snapshot else {}
+
+    content = f"""# CONTEXT — {ticker.upper()} — Dernière mise à jour : {date_str}
+
+> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
+> Mise à jour automatique par `scripts/update_context.py` à chaque passage du pipeline.
+
+---
+
+## 🎯 Thèse active
+
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
+
+---
+
+## 📉 Erreurs de prédiction récentes
+
+- Aucune erreur enregistrée.
+
+---
+
+## 🚨 Alertes actives
+
+- Aucune alerte active.
+
+---
+
+## 📅 Prochains événements
+
+- Aucun événement à venir.
+
+---
+
+## 📊 Contexte technique (snapshot onboarding)
+
+- **Cours close :** ${p.get('close', '—')}
+- **Change % :** {p.get('change_pct', '—')}%
+- **Volume :** {p.get('volume', '—')}
+- **Market Cap :** {f.get('market_cap', '—')}
+- **Secteur :** {sector}
+- **Beta :** {f.get('beta', '—')}
+
+---
+
+## 📝 Résumé dernière analyse
+
+- **Date :** {date_str}
+- **Type :** DRAFT_init
+- **Fichier :** `{ticker.upper()}_{date_str}_DRAFT_init.md`
+- **Conclusion :** Analyse initiale en attente de complétion par l'agent LLM.
+
+---
+
+## 🔄 Triggers détectés (full refresh)
+
+- Aucun trigger récent.
+
+---
+
+*Généré automatiquement — ne pas éditer manuellement.*
+"""
+    path = action_dir / "CONTEXT.md"
+    path.write_text(content, encoding="utf-8")
+    print(f"[add_ticker] Generated {path}", file=sys.stderr)
+
+
 def update_actualites_watchlist(ticker, name, sector, priority):
     """Ajoute le ticker dans Actualités/WATCHLIST.md."""
     watchlist_md = BASE_DIR / "Actualités" / "WATCHLIST.md"
@@ -476,6 +552,9 @@ def main():
 
     # Generate pending analysis (references the DRAFT)
     generate_pending_analysis(ticker, yahoo_data, snapshot, sector, priority, draft_path)
+
+    # Generate initial CONTEXT.md
+    generate_context_initial(ticker, snapshot, sector, priority)
 
     # Update Actualités/WATCHLIST.md
     update_actualites_watchlist(ticker, name, sector, priority)

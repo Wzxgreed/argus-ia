@@ -148,7 +148,7 @@ metadata:
 
 ```bash
 # run_morning.sh — étape 0c
-python3 scripts/agent_quant.py
+python3 agents/quant/agent.py
 ```
 
 **Ordre d'exécution du matin :**

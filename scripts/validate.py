@@ -62,8 +62,21 @@ def load_latest() -> dict:
         return json.load(f)
 
 
+def load_quality_report() -> dict | None:
+    """Charge le rapport data quality gate si présent."""
+    path = DATA_DIR / "quality_report_latest.json"
+    if not path.exists():
+        return None
+    try:
+        target = path.resolve()
+        with open(target, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+
 def validate_snapshot(snapshot: dict) -> list:
-    """Valide le snapshot : schema JSON structurel puis sanity checks métier."""
+    """Valide le snapshot : schema JSON structurel puis sanity checks métier + data quality gate."""
     issues = validate_schema(snapshot)
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
@@ -139,10 +152,28 @@ def validate_snapshot(snapshot: dict) -> list:
     if vix is not None and vix < 5:
         issues.append(f"[WARNING] VIX={vix} — valeur anormalement basse, vérifier données.")
 
+    # Data Quality Gate checks
+    quality_report = load_quality_report()
+    if quality_report:
+        for ticker, result in quality_report.get("tickers", {}).items():
+            if result.get("status") == "excluded":
+                reasons = "; ".join(r["message"] for r in result.get("reasons", []))
+                issues.append(f"[ERROR] {ticker}: EXCLU par data quality gate — {reasons}")
+            elif result.get("status") == "warning":
+                reasons = "; ".join(r["message"] for r in result.get("reasons", []))
+                issues.append(f"[WARNING] {ticker}: Data quality warning — {reasons}")
+        # Macro quality
+        for reason in quality_report.get("global", {}).get("macro", []):
+            sev = "ERROR" if reason.get("severity") == "CRITICAL" else "WARNING"
+            issues.append(f"[{sev}] Macro: {reason['message']}")
+    else:
+        issues.append("[INFO] Data quality gate report non trouvé — skipped.")
+
     # Résumé global
     total_tickers = len(prices)
     ok_tickers = total_tickers - len(missing_tickers)
-    issues.insert(0, f"[SUMMARY] {ok_tickers}/{total_tickers} tickers OK. {len([i for i in issues if i.startswith('[ERROR]')])} errors, {len([i for i in issues if i.startswith('[WARNING]')])} warnings.")
+    excluded_count = len([i for i in issues if "EXCLU par data quality gate" in i])
+    issues.insert(0, f"[SUMMARY] {ok_tickers}/{total_tickers} tickers OK. {len([i for i in issues if i.startswith('[ERROR]')])} errors, {len([i for i in issues if i.startswith('[WARNING]')])} warnings. {excluded_count} excluded by quality gate.")
 
     return issues
 

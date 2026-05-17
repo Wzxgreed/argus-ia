@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Tests unitaires pour agent_watchman.py."""
+"""Tests unitaires pour agents/watchman/agent.py."""
 
 import json
 import sys
@@ -9,9 +9,10 @@ from unittest.mock import MagicMock, patch
 
 import pytest
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "agents" / "watchman"))
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
-from agent_watchman import (
+from agent import (
     consolidate_events,
     days_until,
     fetch_earnings_fmp,
@@ -190,7 +191,7 @@ class TestScanNewsProactive:
                 ]
             }
         })
-        with patch("agent_watchman.DATA_DIR", tmp_path / "data"):
+        with patch("agent.DATA_DIR", tmp_path / "data"):
             result = scan_news_proactive("AAPL")
         assert len(result) >= 1
         assert any("will_announce" in ev["type"] for ev in result)
@@ -203,7 +204,7 @@ class TestScanNewsProactive:
                 ]
             }
         })
-        with patch("agent_watchman.DATA_DIR", tmp_path / "data"):
+        with patch("agent.DATA_DIR", tmp_path / "data"):
             result = scan_news_proactive("AAPL")
         assert result == []
 
@@ -216,7 +217,7 @@ class TestScanNewsProactive:
                 ]
             }
         })
-        with patch("agent_watchman.DATA_DIR", tmp_path / "data"):
+        with patch("agent.DATA_DIR", tmp_path / "data"):
             result = scan_news_proactive("AAPL")
         # Même titre = dédup
         assert len(result) == 1
@@ -345,7 +346,7 @@ class TestFetchUpgradesDowngrades:
 
 class TestGeneratePreview:
     def test_generates_preview_for_earnings_le_3j(self, tmp_path):
-        with patch("agent_watchman.BASE_DIR", tmp_path):
+        with patch("agent.BASE_DIR", tmp_path):
             event = {
                 "type": "earnings",
                 "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
@@ -361,7 +362,7 @@ class TestGeneratePreview:
             assert "AAPL" in content
 
     def test_no_preview_if_too_far(self, tmp_path):
-        with patch("agent_watchman.BASE_DIR", tmp_path):
+        with patch("agent.BASE_DIR", tmp_path):
             event = {
                 "type": "earnings",
                 "date": (datetime.now(timezone.utc) + __import__("datetime").timedelta(days=10)).strftime("%Y-%m-%d"),
@@ -383,6 +384,6 @@ class TestLoadConfig:
         config_path = tmp_path / "watchlist.json"
         data = {"tickers": [{"ticker": "TEST"}]}
         config_path.write_text(json.dumps(data))
-        with patch("agent_watchman.CONFIG_PATH", config_path):
+        with patch("agent.CONFIG_PATH", config_path):
             result = load_config()
             assert result["tickers"][0]["ticker"] == "TEST"

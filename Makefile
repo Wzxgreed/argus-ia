@@ -1,4 +1,4 @@
-.PHONY: help install test lint format pipeline clean push status agent-watchman agent-geo agent-crypto agent-accounting agent-sector agent-social agent-fx agent-event agent-reco agent-news group-a group-b group-c
+.PHONY: help install test lint format pipeline clean push status agent-watchman agent-geo agent-crypto agent-accounting agent-sector agent-social agent-fx agent-event agent-reco agent-news group-a group-b group-c group-d pipeline-make
 
 help:
 	@echo "Argus-IA — Commandes disponibles"
@@ -40,13 +40,13 @@ test:
 	source .venv/bin/activate && pytest tests/ -v -m "not integration and not slow" --tb=short
 
 lint:
-	source .venv/bin/activate && ruff check scripts/ tests/
+	source .venv/bin/activate && ruff check scripts/ agents/ tests/
 	@echo ""
-	source .venv/bin/activate && black --check scripts/ tests/
+	source .venv/bin/activate && black --check scripts/ agents/ tests/
 
 format:
-	source .venv/bin/activate && black scripts/ tests/
-	source .venv/bin/activate && ruff check --fix scripts/ tests/
+	source .venv/bin/activate && black scripts/ agents/ tests/
+	source .venv/bin/activate && ruff check --fix scripts/ agents/ tests/
 
 pipeline:
 	./scripts/run_morning.sh
@@ -71,33 +71,34 @@ push: lint test
 # Phase A : agents indépendants (pas besoin de latest.json)
 group-a:
 	@echo "=== Phase A : Independent agents (parallel) ==="
-	@source .venv/bin/activate && python3 scripts/learn_from_errors.py &
-	@source .venv/bin/activate && python3 scripts/agent_quant.py &
-	@source .venv/bin/activate && python3 scripts/agent_geo.py &
+	@source .venv/bin/activate && python3 agents/learn_from_errors/agent.py &
+	@source .venv/bin/activate && python3 agents/quant/agent.py &
+	@source .venv/bin/activate && python3 agents/geo/agent.py &
 	@wait
 	@echo "Phase A complete."
 
 # Phase B : fetch données brutes (séquentiel, produit latest.json)
 group-b:
 	@echo "=== Phase B : Raw data fetch (sequential) ==="
-	@source .venv/bin/activate && python3 scripts/agent_crypto.py
+	@source .venv/bin/activate && python3 agents/crypto/agent.py
 	@source .venv/bin/activate && python3 scripts/fetch_prices.py
+	@source .venv/bin/activate && python3 agents/data_quality_gate/agent.py
 	@source .venv/bin/activate && python3 scripts/fetch_macro.py
 	@source .venv/bin/activate && python3 scripts/fetch_calendar.py
-	@source .venv/bin/activate && python3 scripts/agent_news_fetcher.py
+	@source .venv/bin/activate && python3 agents/news_fetcher/agent.py
 	@echo "Phase B complete."
 
 # Phase C : agents dépendants (parallèle, lisent latest.json)
 group-c:
 	@echo "=== Phase C : Dependent agents (parallel) ==="
-	@source .venv/bin/activate && python3 scripts/agent_watchman.py &
-	@source .venv/bin/activate && python3 scripts/detect_major_events.py &
-	@source .venv/bin/activate && python3 scripts/agent_accounting.py ; true &
-	@source .venv/bin/activate && python3 scripts/agent_sector_rotation.py ; true &
-	@source .venv/bin/activate && python3 scripts/agent_social.py ; true &
-	@source .venv/bin/activate && python3 scripts/agent_fx.py ; true &
-	@source .venv/bin/activate && python3 scripts/agent_event_driven.py ; true &
-	@source .venv/bin/activate && python3 scripts/fetch_transcripts.py ; true &
+	@source .venv/bin/activate && python3 agents/watchman/agent.py &
+	@source .venv/bin/activate && python3 agents/detect_major_events/agent.py &
+	@source .venv/bin/activate && python3 agents/accounting/agent.py ; true &
+	@source .venv/bin/activate && python3 agents/sector_rotation/agent.py ; true &
+	@source .venv/bin/activate && python3 agents/social/agent.py ; true &
+	@source .venv/bin/activate && python3 agents/fx/agent.py ; true &
+	@source .venv/bin/activate && python3 agents/event_driven/agent.py ; true &
+	@source .venv/bin/activate && python3 agents/fetch_transcripts/agent.py ; true &
 	@wait
 	@echo "Phase C complete."
 
@@ -105,8 +106,8 @@ group-c:
 group-d:
 	@echo "=== Phase D : Final aggregation (sequential) ==="
 	@source .venv/bin/activate && python3 scripts/validate.py
-	@source .venv/bin/activate && python3 scripts/agent_recommandation.py
-	@source .venv/bin/activate && python3 scripts/paper_trading.py ; true
+	@source .venv/bin/activate && python3 agents/recommandation/agent.py
+	@source .venv/bin/activate && python3 agents/paper_trading/agent.py ; true
 	@echo "Phase D complete."
 
 # Pipeline complet via Makefile (4 phases)
@@ -117,50 +118,50 @@ pipeline-make: group-a group-b group-c group-d
 
 agent-news:
 	@echo "Running unified news fetcher..."
-	@source .venv/bin/activate && python3 scripts/agent_news_fetcher.py
+	@source .venv/bin/activate && python3 agents/news_fetcher/agent.py
 	@./scripts/auto_push.sh "News fetcher snapshot"
 
 agent-watchman:
 	@echo "Running Watchman agent..."
-	@source .venv/bin/activate && python3 scripts/agent_watchman.py
+	@source .venv/bin/activate && python3 agents/watchman/agent.py
 	@./scripts/auto_push.sh "Watchman agent snapshot"
 
 agent-geo:
 	@echo "Running Geopolitical agent..."
-	@source .venv/bin/activate && python3 scripts/agent_geo.py
+	@source .venv/bin/activate && python3 agents/geo/agent.py
 	@./scripts/auto_push.sh "Geopolitical agent snapshot"
 
 agent-crypto:
 	@echo "Running Crypto-correlation agent..."
-	@source .venv/bin/activate && python3 scripts/agent_crypto.py
+	@source .venv/bin/activate && python3 agents/crypto/agent.py
 	@./scripts/auto_push.sh "Crypto agent snapshot"
 
 agent-accounting:
 	@echo "Running Accounting risk agent..."
-	@source .venv/bin/activate && python3 scripts/agent_accounting.py
+	@source .venv/bin/activate && python3 agents/accounting/agent.py
 	@./scripts/auto_push.sh "Accounting agent snapshot"
 
 agent-sector:
 	@echo "Running Sector rotation agent..."
-	@source .venv/bin/activate && python3 scripts/agent_sector_rotation.py
+	@source .venv/bin/activate && python3 agents/sector_rotation/agent.py
 	@./scripts/auto_push.sh "Sector rotation agent snapshot"
 
 agent-social:
 	@echo "Running Social sentiment agent..."
-	@source .venv/bin/activate && python3 scripts/agent_social.py
+	@source .venv/bin/activate && python3 agents/social/agent.py
 	@./scripts/auto_push.sh "Social sentiment agent snapshot"
 
 agent-fx:
 	@echo "Running FX exposure agent..."
-	@source .venv/bin/activate && python3 scripts/agent_fx.py
+	@source .venv/bin/activate && python3 agents/fx/agent.py
 	@./scripts/auto_push.sh "FX exposure agent snapshot"
 
 agent-event:
 	@echo "Running Event-Driven agent..."
-	@source .venv/bin/activate && python3 scripts/agent_event_driven.py
+	@source .venv/bin/activate && python3 agents/event_driven/agent.py
 	@./scripts/auto_push.sh "Event-Driven agent snapshot"
 
 agent-reco:
 	@echo "Running Recommendation engine..."
-	@source .venv/bin/activate && python3 scripts/agent_recommandation.py
+	@source .venv/bin/activate && python3 agents/recommandation/agent.py
 	@./scripts/auto_push.sh "Recommendation engine snapshot"

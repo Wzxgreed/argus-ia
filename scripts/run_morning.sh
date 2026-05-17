@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
-# run_morning.sh — Pipeline complet du matin (Argus-IA v2.4).
-# 20 étapes : Apprentissage → Quant → Geo → Crypto → Prix → Macro → Calendar → News
+# run_morning.sh — Pipeline complet du matin (Argus-IA v2.5).
+# 21 étapes : Apprentissage → Quant → Geo → Crypto → Prix → Quality Gate → Macro → Calendar → News
 #             → Watchman → Major Events → Accounting → Sector → Social → FX → Event
-#             → Transcripts → Validation → Recommandations → Paper Trading → Draft Check
+#             → Transcripts → Validation → Recommandations → Paper Trading → Update Context
 #
 # Architecture : 4 phases
 #   Phase A (parallèle) : agents indépendants (learn_from_errors, agent_quant, agent_geo)
-#   Phase B (séquentielle) : fetch données brutes (crypto, prices, macro, calendar, news)
+#   Phase B (séquentielle) : fetch données brutes + quality gate (crypto, prices, quality, macro, calendar, news)
 #   Phase C (parallèle) : agents dépendants de latest.json (8 agents)
-#   Phase D (séquentielle) : agrégation finale (validation, reco, paper trading, drafts)
+#   Phase D (séquentielle) : agrégation finale (validation, reco, paper trading, update context)
 
 set -euo pipefail
 
@@ -144,9 +144,9 @@ if step_file.exists():
             num = step["step"]
             if num <= 2:
                 phases["A"] = "failed"
-            elif num <= 7:
+            elif num <= 8:
                 phases["B"] = "failed"
-            elif num <= 15:
+            elif num <= 16:
                 phases["C"] = "failed"
             else:
                 phases["D"] = "failed"
@@ -287,9 +287,9 @@ BG_RESULTS="$(mktemp)"
 # ─────────────────────────────────────────────────────────────────────────────
 log "INFO" "=== Phase A : Independent agents (parallel) ==="
 
-run_step_bg  0 "Learning loop"          "python3 scripts/learn_from_errors.py"           false "$BG_RESULTS"
-run_step_bg  1 "Quantitative analysis" "python3 scripts/agent_quant.py"                  false "$BG_RESULTS"
-run_step_bg  2 "Geopolitical scan"     "python3 scripts/agent_geo.py"                    false "$BG_RESULTS"
+run_step_bg  0 "Learning loop"          "python3 agents/learn_from_errors/agent.py"           false "$BG_RESULTS"
+run_step_bg  1 "Quantitative analysis" "python3 agents/quant/agent.py"                  false "$BG_RESULTS"
+run_step_bg  2 "Geopolitical scan"     "python3 agents/geo/agent.py"                    false "$BG_RESULTS"
 
 wait_all_bg "$BG_RESULTS" "Phase A"
 
@@ -298,25 +298,26 @@ wait_all_bg "$BG_RESULTS" "Phase A"
 # ─────────────────────────────────────────────────────────────────────────────
 log "INFO" "=== Phase B : Raw data fetch (sequential) ==="
 
-run_step  3 "Crypto-correlation"    "python3 scripts/agent_crypto.py"                 false
+run_step  3 "Crypto-correlation"    "python3 agents/crypto/agent.py"                 false
 run_step  4 "Fetching prices"       "python3 scripts/fetch_prices.py"                 false
-run_step  5 "Fetching macro data"   "python3 scripts/fetch_macro.py"                  false
-run_step  6 "Fetching calendar"     "python3 scripts/fetch_calendar.py"               false
-run_step  7 "Fetching news"          "python3 scripts/agent_news_fetcher.py"            false
+run_step  5 "Data quality gate"     "python3 agents/data_quality_gate/agent.py"            false
+run_step  6 "Fetching macro data"   "python3 scripts/fetch_macro.py"                  false
+run_step  7 "Fetching calendar"     "python3 scripts/fetch_calendar.py"               false
+run_step  8 "Fetching news"          "python3 agents/news_fetcher/agent.py"            false
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Phase C — Dependent agents (parallel, all read latest.json)
 # ─────────────────────────────────────────────────────────────────────────────
 log "INFO" "=== Phase C : Dependent agents (parallel) ==="
 
-run_step_bg  8 "Proactive watchman"    "python3 scripts/agent_watchman.py"               false "$BG_RESULTS"
-run_step_bg  9 "Detecting major events" "python3 scripts/detect_major_events.py"          false "$BG_RESULTS"
-run_step_bg 10 "Accounting risk scan"  "python3 scripts/agent_accounting.py"             true "$BG_RESULTS"
-run_step_bg 11 "Sector rotation scan"   "python3 scripts/agent_sector_rotation.py"        true "$BG_RESULTS"
-run_step_bg 12 "Social sentiment scan"  "python3 scripts/agent_social.py"               true "$BG_RESULTS"
-run_step_bg 13 "FX exposure scan"       "python3 scripts/agent_fx.py"                   true "$BG_RESULTS"
-run_step_bg 14 "Event-Driven scan"      "python3 scripts/agent_event_driven.py"           true "$BG_RESULTS"
-run_step_bg 15 "NLP Transcripts (opt)"  "python3 scripts/fetch_transcripts.py"            true "$BG_RESULTS"
+run_step_bg  9 "Proactive watchman"    "python3 agents/watchman/agent.py"               false "$BG_RESULTS"
+run_step_bg 10 "Detecting major events" "python3 agents/detect_major_events/agent.py"          false "$BG_RESULTS"
+run_step_bg 11 "Accounting risk scan"  "python3 agents/accounting/agent.py"             true "$BG_RESULTS"
+run_step_bg 12 "Sector rotation scan"   "python3 agents/sector_rotation/agent.py"        true "$BG_RESULTS"
+run_step_bg 13 "Social sentiment scan"  "python3 agents/social/agent.py"               true "$BG_RESULTS"
+run_step_bg 14 "FX exposure scan"       "python3 agents/fx/agent.py"                   true "$BG_RESULTS"
+run_step_bg 15 "Event-Driven scan"      "python3 agents/event_driven/agent.py"           true "$BG_RESULTS"
+run_step_bg 16 "NLP Transcripts (opt)"  "python3 agents/fetch_transcripts/agent.py"            true "$BG_RESULTS"
 
 wait_all_bg "$BG_RESULTS" "Phase C"
 
@@ -325,10 +326,10 @@ wait_all_bg "$BG_RESULTS" "Phase C"
 # ─────────────────────────────────────────────────────────────────────────────
 log "INFO" "=== Phase D : Final aggregation (sequential) ==="
 
-run_step 16 "Validating data"        "python3 scripts/validate.py"                    false
-run_step 17 "Recommendation engine"  "python3 scripts/agent_recommandation.py"        false
-run_step 18 "Paper trading engine"   "python3 scripts/paper_trading.py"               true
-run_step 19 "Checking DRAFTs"        "bash -c 'echo DRAFT check done'"               true
+run_step 17 "Validating data"        "python3 scripts/validate.py"                    false
+run_step 18 "Recommendation engine"  "python3 agents/recommandation/agent.py"        false
+run_step 19 "Paper trading engine"   "python3 agents/paper_trading/agent.py"               true
+run_step 20 "Update context memory"  "python3 agents/update_context/agent.py"              true
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Validation output

@@ -51,3 +51,13 @@
 ---
 
 *Prochain refresh attendu : après earnings Q4 FY26 (2026-05-17) ou événement majeur (gap > 5%, volume > 2×, etc.)*
+
+## 2026-05-17 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -9.35% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 10.39% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

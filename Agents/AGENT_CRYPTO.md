@@ -182,7 +182,7 @@ Le discount de 18% vs NAV est attrayant si on croit au BTC > $100k.
 
 ```bash
 # run_morning.sh — étape 0e
-python3 scripts/agent_crypto.py
+python3 agents/crypto/agent.py
 ```
 
 **Ordre d'exécution du matin :**
