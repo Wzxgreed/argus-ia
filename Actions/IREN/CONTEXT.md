@@ -1,57 +1,67 @@
-# IREN — Contexte Actif
+# CONTEXT — IREN — Dernière mise à jour : 2026-05-17
 
-**Date :** 2026-05-17
-**Thèse active :** Pivot BTC → HPC/IA. Contrat NVIDIA $3.4B comme catalyseur structurant. ATTENDRE post-earnings.
-
----
-
-## Synthèse en 1 phrase
-
-IREN chute de 9.35% le jour de ses earnings en plein pivot stratégique vers l'infrastructure IA via un contrat $3.4B avec NVIDIA — la valorisation reste exigeante (PE 68, forward PE négatif) et le timing technique est neutre en attendant le verdict du call.
+> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
+> Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
 
 ---
 
-## Score & Niveaux
+## 🎯 Thèse active
 
-| | Valeur |
-|--|--------|
-| Score Opportunité | **4.51/10** |
-| Score Global Composite | ~45/100 |
-| Action suggérée | **ATTENDRE** |
-| Prix cible | $65.86 (+24.4%) |
-| Stop-loss | $41.94 (−20.8%) |
-| Ratio R/R | 1.2 |
-| Sizing | Réduit |
-| Statut thèse | ⏳ En cours de validation (earnings J0) |
+- **Recommandation :** ATTENDRE
+- **Score global :** 4.2/10
+- **Prix cible :** $65.86
+- **Stop-loss :** $41.94
+- **Statut thèse :** Confirmée (FULL REFRESH 2026-05-17)
+- **Horizon :** 1–3 mois (post-earnings + confirmation pivot IA)
 
 ---
 
-## Contexte Technique
+## 📉 Erreurs de prédiction récentes
 
-| Indicateur | Valeur | Notes |
-|-----------|--------|-------|
-| Cours | $52.94 | Gap baissier -9.35% (earnings day) |
-| RSI | 54.61 | Neutre favorable |
-| MM50 | $44.72 | Cours au-dessus — tendance haussière intacte |
-| ATR | $5.50 | Volatilité extrême (beta 4.18) |
-| Support | $44.72 | MM50 = ligne de défense clé |
-| Résistance | $58.40 | Previous close = premier obstacle |
+- Aucune erreur enregistrée.
 
 ---
 
-## Alertes Actives
+## 🚨 Alertes actives
 
-- 🔴 **Earnings 2026-05-17** — verdict à attendre
-- 🟡 **Short squeeze setup** — SI 16.87%, catalyseur requis pour déclenchement
-- 🟡 **Divergence BTC** — Si BTC repart à la hausse et IREN ne suit pas = pivot IA pricé
-- 🟡 **Taux 10Y +3%** — Coût du capital en hausse, CAPEX clients plus difficiles
-
----
-
-## Résumé dernière analyse
-
-IREN est une société en transition majeure. Le contrat NVIDIA $3.4B valide la stratégie pivot mais la valorisation reste très exigeante. Les fondamentaux actuels (PE 68, forward PE négatif, FCF négatif) ne justifient pas une entrée longue significative sans confirmation de la guidance post-earnings. Le beta 4.18 impose un sizing très réduit. **Attendre.**
+- Baisse — $45.00 — 🟢 Active
+- Hausse — $65.86 — 🟢 Active
+- Volume — >2× moy. 20j (>104.9M) — 🟢 Active
+- IREN — Vérification — $61.20
+- IREN — **⚠️ Volume DÉCLENCHÉ** — $55.15 (close)
+- IREN — **⚠️ Baisse INTRADAY** — $52.36 (low)
 
 ---
 
-*Fichier de mémoire court terme — lu à chaque session avant analyse.*
+## 📅 Prochains événements
+
+- **2026-05-17** · earnings · Earnings ...
+
+---
+
+## 📊 Contexte technique (dernier snapshot)
+
+- **RSI 14j :** 54.61
+- **MM 50j :** 44.72
+- **MM 200j :** —
+- **ATR 14j :** 5.5
+- **Volume moy. 20j :** 52440665
+
+---
+
+## 📝 Résumé dernière analyse
+
+- **Date :** 2026-05-17
+- **Type :** FULL REFRESH
+- **Fichier :** `IREN_2026-05-17_init.md`
+- **Conclusion :** Gap -9.35% confirme la thèse ATTENDRE. Quality Partielle 4/6. Score Opportunité 4.2/10. Attendre stabilisation post-earnings.
+
+---
+
+## 🔄 Triggers détectés (full refresh)
+
+- **2026-05-17** : price_gap (-9.35%), atr_spike (10.39%) — Conclusion : confirm
+
+---
+
+*Généré automatiquement — ne pas éditer manuellement.*

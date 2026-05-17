@@ -1,44 +1,73 @@
-# VRT — Contexte & Mémoire Court Terme
+# CONTEXT — VRT — Dernière mise à jour : 2026-05-17
 
-**Thèse active :** Leader mondial refroidissement data centers. IA = demande explosive. Quality Compounder. Mais valorisation extrême et sentiment options bearish → SURVEILLER en attendant pullback.
-
-**Score actuel :** 5.43/10
-**Prix cible :** $400–$450 (technique)
-**Stop-loss :** $335.22
-**Statut :** SURVEILLER — pas de position
+> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
+> Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
 
 ---
 
-## Résumé de la dernière analyse
+## 🎯 Thèse active
 
-Quality Compounder 5–6/6 avec ROIC 18.5% et moat structurel (liquid cooling, partnerships hyperscalers). Catalyseur IA très fort (orders +252%). Mais P/E 93, EV/EBITDA 60, cours +44% au-dessus du consensus, put/call 3.41 extrêmement bearish. Timing défavorable — attendre pullback $330–$340 ou révisions EPS massives.
+- **Recommandation :** SURVEILLER
+**Prix cible :** $400–$450 (technique, consensus $257 obsolète)
+**Upside/Downside :** +7.8% à +21.3% / −9.6% (SL)
+**Dernière mise à jour :** 2026-05-17
 
----
-
-## Contexte technique (depuis data/latest.json)
-
-| Indicateur | Valeur | Signal |
-|-----------|--------|--------|
-| RSI 14j | 68.14 | Proche suracheté |
-| ATR 14j | $17.86 | Volatilité élevée |
-| MM 50j | $296.64 | Support clé |
-| Cours vs MM50 | +25.1% | Tendance haussière forte |
-| Beta | 2.099 | Volatilité 2× marché |
+Vertiv est le leader mondial du refroidissement data centers, bénéficiant directement de l'explosion de l'IA (GPU consomment 5–10× plus d'énergie). Quality Compounder 5–6/6 avec ROIC 18.5%. Cependant, la valorisation est extrême (P/E 93, EV/EBITDA 60) et le cours $370 est +44% au-dessus du consensus analystes. Le put/call ratio 3.41 indique un sentiment options extrêmement bearish. Attendre un pullback technique ou des révisions EPS massives avant entrée.
 
 ---
 
-## Alertes actives
-
-- 🟡 RSI 68 — proche suracheté
-- 🔴 Put/Call 3.41 — sentiment options extrêmement bearish
-- 🟡 Valorisation extrême — P/E 93, EV/EBITDA 60
-- 🟡 Consensus obsolète — PT $257 vs cours $370
+## Actualités ayant impacté ce dossier
+- **Score global :** —/10
+- **Prix cible :** $400
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
-## Prochaines étapes
+## 📉 Erreurs de prédiction récentes
 
-1. Attendre earnings Q1 2026 pour valider la croissance
-2. Surveiller les révisions d'estimations analystes (consensus $257 obsolète)
-3. Entrée potentielle si pullback vers $330–$340 avec RSI < 55
-4. Si put/call revient sous 1.5 = signal de fin de nervosité
+- Aucune erreur enregistrée.
+
+---
+
+## 🚨 Alertes actives
+
+- Baisse — $335.22 — 🟢 Active
+- Hausse — $400.00 — 🟢 Active
+- Volume — >2× moy. 20j (>11.5M) — 🟢 Active
+
+---
+
+## 📅 Prochains événements
+
+- Aucun événement à venir.
+
+---
+
+## 📊 Contexte technique (dernier snapshot)
+
+- **RSI 14j :** 68.14
+- **MM 50j :** 296.64
+- **MM 200j :** —
+- **ATR 14j :** 17.86
+- **Volume moy. 20j :** 5764515
+
+---
+
+## 📝 Résumé dernière analyse
+
+- **Date :** 2026-05-17
+- **Type :** init
+- **Fichier :** `VRT_2026-05-17_init.md`
+- **Conclusion :** **Date :** 2026-05-17
+
+---
+
+## 🔄 Triggers détectés (full refresh)
+
+- Aucun trigger récent.
+
+---
+
+*Généré automatiquement — ne pas éditer manuellement.*

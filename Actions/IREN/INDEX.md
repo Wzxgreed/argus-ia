@@ -9,9 +9,9 @@
 
 ## Thèse Courante
 
-IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** est le catalyseur structurant. Cependant, la valorisation reste très exigeante (PE 68.75, forward PE négatif, FCF négatif) et la corrélation avec BTC reste forte malgré le pivot.
+IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le gap **-9.35%** du jour (2026-05-17), jour des earnings, confirme la volatilité extrême inhérente au titre (beta 4.18) et **confirme la thèse ATTENDRE** : la valorisation reste très exigeante (PE 68.75, forward PE négatif, FCF négatif), le Filtre Qualité plafonne à **4/6** (Quality Partielle) et aucun élément nouveau ne justifie une révision à la hausse du score.
 
-**Score Opportunité : 4.51/10** (Quality Partielle, Valorisation faible)
+**Score Opportunité : 4.2/10** (Quality Partielle, Valorisation faible)
 **Action : ATTENDRE** — stabilisation post-earnings requise avant toute entrée.
 
 ---
@@ -21,7 +21,8 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 | Date | Fichier | Type | Thèse / Événement |
 |------|---------|------|-------------------|
 | 2026-05-17 | `IREN_2026-05-17_init.md` | Analyse initiale | Création du dossier · Filtre Qualité 4/6 · Pivot IA $3.4B NVIDIA · Earnings J0 |
-| 2026-05-17 | `IREN_2026-05-17_earnings.md` | Post-earnings | À compléter après publication des résultats |
+| 2026-05-17 | `IREN_2026-05-17_earnings.md` | Post-earnings | Preview pré-earnings — à compléter après résultats |
+| 2026-05-17 | `IREN_2026-05-17_init.md` | **Full Refresh** | Triggers price_gap (-9.35%) + atr_spike (10.39%) · Thèse confirmée · Score 4.2/10 |
 
 ---
 

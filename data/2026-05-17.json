@@ -2,7 +2,7 @@
   "meta": {
     "date": "2026-05-17",
     "source": "yahoo_worker_daemon (warm) + fmp",
-    "fetched_at": "2026-05-17T10:22:13.799320+00:00",
+    "fetched_at": "2026-05-17T12:29:13.915409+00:00",
     "tickers_requested": [
       "IREN",
       "XOM",
@@ -61,7 +61,7 @@
         "call_oi_pct": 40.5,
         "expiration_nearest": "2026-05-22"
       },
-      "timestamp": "2026-05-17T10:22:15.450305+00:00",
+      "timestamp": "2026-05-17T12:29:17.831849+00:00",
       "fmp_consensus": {
         "price_target_avg": 65.86,
         "price_target_low": null,
@@ -127,6 +127,10 @@
         "cash_conversion_cycle": -169.46729786500623,
         "date": "2025-06-30",
         "period": "FY"
+      },
+      "_quality_gate": {
+        "status": "ok",
+        "reasons": []
       }
     },
     "XOM": {
@@ -172,7 +176,7 @@
         "call_oi_pct": 60.8,
         "expiration_nearest": "2026-05-22"
       },
-      "timestamp": "2026-05-17T10:22:16.200639+00:00",
+      "timestamp": "2026-05-17T12:29:18.576569+00:00",
       "fmp_consensus": {
         "price_target_avg": 151.91,
         "price_target_low": null,
@@ -238,6 +242,10 @@
         "cash_conversion_cycle": 0.41803105247470285,
         "date": "2025-12-31",
         "period": "FY"
+      },
+      "_quality_gate": {
+        "status": "ok",
+        "reasons": []
       }
     },
     "RTX": {
@@ -283,7 +291,7 @@
         "call_oi_pct": 51.9,
         "expiration_nearest": "2026-05-22"
       },
-      "timestamp": "2026-05-17T10:22:16.933193+00:00",
+      "timestamp": "2026-05-17T12:29:19.504168+00:00",
       "fmp_consensus": {
         "price_target_avg": 204.86,
         "price_target_low": null,
@@ -349,6 +357,10 @@
         "cash_conversion_cycle": 117.92558769469883,
         "date": "2025-12-31",
         "period": "FY"
+      },
+      "_quality_gate": {
+        "status": "ok",
+        "reasons": []
       }
     },
     "VRT": {
@@ -394,7 +406,7 @@
         "call_oi_pct": 22.7,
         "expiration_nearest": "2026-05-22"
       },
-      "timestamp": "2026-05-17T10:22:17.551501+00:00",
+      "timestamp": "2026-05-17T12:29:20.244630+00:00",
       "fmp_consensus": {
         "price_target_avg": 257.49,
         "price_target_low": null,
@@ -460,6 +472,10 @@
         "cash_conversion_cycle": 94.6271617918027,
         "date": "2025-12-31",
         "period": "FY"
+      },
+      "_quality_gate": {
+        "status": "ok",
+        "reasons": []
       }
     },
     "NVDA": {
@@ -505,7 +521,7 @@
         "call_oi_pct": 60.8,
         "expiration_nearest": "2026-05-18"
       },
-      "timestamp": "2026-05-17T10:22:18.309789+00:00",
+      "timestamp": "2026-05-17T12:29:21.018469+00:00",
       "fmp_consensus": {
         "price_target_avg": 255.75,
         "price_target_low": null,
@@ -571,6 +587,10 @@
         "cash_conversion_cycle": 132.73760696157612,
         "date": "2026-01-25",
         "period": "FY"
+      },
+      "_quality_gate": {
+        "status": "ok",
+        "reasons": []
       }
     },
     "AAPL": {
@@ -616,7 +636,7 @@
         "call_oi_pct": 65.2,
         "expiration_nearest": "2026-05-18"
       },
-      "timestamp": "2026-05-17T10:22:19.045032+00:00",
+      "timestamp": "2026-05-17T12:29:21.752230+00:00",
       "fmp_consensus": {
         "price_target_avg": 293.43,
         "price_target_low": null,
@@ -682,6 +702,10 @@
         "cash_conversion_cycle": -41.967071917298554,
         "date": "2025-09-27",
         "period": "FY"
+      },
+      "_quality_gate": {
+        "status": "ok",
+        "reasons": []
       }
     },
     "NOK": {
@@ -727,7 +751,7 @@
         "call_oi_pct": 71.7,
         "expiration_nearest": "2026-05-22"
       },
-      "timestamp": "2026-05-17T10:22:19.875381+00:00",
+      "timestamp": "2026-05-17T12:29:22.474074+00:00",
       "fmp_consensus": {
         "price_target_avg": 9.26,
         "price_target_low": null,
@@ -793,6 +817,10 @@
         "cash_conversion_cycle": 100.12277684669505,
         "date": "2025-12-31",
         "period": "FY"
+      },
+      "_quality_gate": {
+        "status": "ok",
+        "reasons": []
       }
     },
     "SOFI": {
@@ -838,7 +866,7 @@
         "call_oi_pct": 63.4,
         "expiration_nearest": "2026-05-22"
       },
-      "timestamp": "2026-05-17T10:22:20.511455+00:00",
+      "timestamp": "2026-05-17T12:29:23.160761+00:00",
       "fmp_consensus": {
         "price_target_avg": 25.41,
         "price_target_low": null,
@@ -904,6 +932,10 @@
         "cash_conversion_cycle": 0,
         "date": "2025-12-31",
         "period": "FY"
+      },
+      "_quality_gate": {
+        "status": "ok",
+        "reasons": []
       }
     },
     "AAL": {
@@ -949,7 +981,7 @@
         "call_oi_pct": 20.9,
         "expiration_nearest": "2026-05-22"
       },
-      "timestamp": "2026-05-17T10:22:21.177104+00:00",
+      "timestamp": "2026-05-17T12:29:23.833586+00:00",
       "fmp_consensus": {
         "price_target_avg": 16.02,
         "price_target_low": null,
@@ -1015,6 +1047,10 @@
         "cash_conversion_cycle": 13.466237122294643,
         "date": "2025-12-31",
         "period": "FY"
+      },
+      "_quality_gate": {
+        "status": "ok",
+        "reasons": []
       }
     }
   }

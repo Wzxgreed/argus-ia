@@ -1,49 +1,76 @@
-# AAL — Contexte & Mémoire Court Terme
+# CONTEXT — AAL — Dernière mise à jour : 2026-05-17
 
-**Thèse active :** Compagnie aérienne legacy hors périmètre qualité (0-1/6). Forward P/E 5.6 = value trap potentiel. Put/Call 3.78 extrêmement baissier = contrarian setup possible. Trend court terme favorable (au-dessus MM50 $11.52). Stagflation = pire régime (fuel + taux + salaires). AAdvantage = hidden asset ~$20-25B. SURVEILLER uniquement.
-
-**Score actuel :** 3.95/10
-**Prix cible :** $14.00 (résistance technique)
-**Stop-loss :** $11.41
-**Statut :** SURVEILLER — pas de position
+> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
+> Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
 
 ---
 
-## Résumé de la dernière analyse
+## 🎯 Thèse active
 
-Filtre Qualité 0-1/6 (Hors périmètre). Pas de moat, pas de croissance revenue stable, bilan stressé par $40B dette. Cours $12.31 au-dessus MM50 $11.52, RSI 58.87 neutre. Put/Call 3.78 extrême = 4 puts pour 1 call. Forward P/E 5.61 très déprimé mais risque earnings miss élevé. Pas d'entrée.
+- **Recommandation :** SURVEILLER — Pas de position
+**Prix cible :** $14.00 (résistance technique gap janvier 2026)
+**Stop-loss :** $11.41 (cours - 2×ATR)
+**Upside/Downside :** +13.7% / -7.3%
+**Dernière mise à jour :** 2026-05-17
 
----
+American Airlines est une compagnie aérienne legacy fortement endettée (~$40B) avec aucun moat. Le Forward P/E 5.6 attire mais le risque de value trap est élevé : exposition pétrole $105, taux élevés, grèves syndicales. Le put/call 3.78 extrême suggère un sentiment excessivement négatif — possible contrarian setup si earnings surprisent à la hausse. Cependant, le régime Stagflation actif est le pire environnement pour les airlines. Hors périmètre qualité (0-1/6). AAdvantage (programme loyalty) = hidden asset valeur ~$20-25B > market cap totale.
 
-## Contexte technique (depuis data/latest.json)
-
-| Indicateur | Valeur | Signal |
-|-----------|--------|--------|
-| Cours | $12.31 | +2.8% |
-| RSI 14j | 58.87 | 🟡 Neutre |
-| ATR 14j | $0.45 | Volatilité faible |
-| MM 50j | $11.52 | 🟢 Cours +6.9% au-dessus |
-| Beta | 1.28 | 🟡 Modérément volatil |
-| Put/Call | 3.78 | 🔴🔴 Extrêmement baissier |
-| P/E LTM | 39.71 | Élevé (earnings récents faibles) |
-| Forward P/E | 5.61 | 🟢 Très déprimé (si recovery se confirme) |
+**✅ Données complètes** — Cours, RSI, ATR, P/E, beta, options disponibles dans `data/latest.json`.
 
 ---
 
-## Alertes actives
-
-- 🔴 **Value trap potentiel** — Forward P/E 5.6 attire mais earnings recovery incertain
-- 🔴 **Put/Call 3.78** — Sentiment options excessivement négatif
-- 🔴 **Endettement massif** — ~$40B dette nette
-- 🔴 **Exposition pétrole** — WTI $105 = jet fuel cher
-- 🔴 **Régime Stagflation** — Pire environnement pour airlines
-- 🟡 **Trend court terme favorable** — Au-dessus MM50
+## Actualités ayant impacté ce dossier
+- **Score global :** —/10
+- **Prix cible :** $14.00
+- **Stop-loss :** $11.41
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
-## Prochaines étapes
+## 📉 Erreurs de prédiction récentes
 
-1. Surveiller earnings Q1 FY2026 pour confirmer forward EPS ~$2.20
-2. Vérifier décision Fed (juin 2026) — impact coût dette
-3. Surveiller prix WTI — si baisse sous $90 → marges aélines en expansion
-4. Pas d'entrée tant que hors périmètre qualité + régime Stagflation actif
+- Aucune erreur enregistrée.
+
+---
+
+## 🚨 Alertes actives
+
+- Baisse — $11.41 (SL 2×ATR) — 🟢 Active
+- Hausse — $14.00 (prix cible) — 🟢 Active
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
+
+---
+
+## 📅 Prochains événements
+
+- Aucun événement à venir.
+
+---
+
+## 📊 Contexte technique (dernier snapshot)
+
+- **RSI 14j :** 58.87
+- **MM 50j :** 11.52
+- **MM 200j :** —
+- **ATR 14j :** 0.45
+- **Volume moy. 20j :** 51987455
+
+---
+
+## 📝 Résumé dernière analyse
+
+- **Date :** 2026-05-17
+- **Type :** init
+- **Fichier :** `AAL_2026-05-17_init.md`
+- **Conclusion :** **Date :** 2026-05-17
+
+---
+
+## 🔄 Triggers détectés (full refresh)
+
+- Aucun trigger récent.
+
+---
+
+*Généré automatiquement — ne pas éditer manuellement.*

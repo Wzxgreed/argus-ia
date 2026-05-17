@@ -1,49 +1,77 @@
-# SOFI — Contexte & Mémoire Court Terme
+# CONTEXT — SOFI — Dernière mise à jour : 2026-05-17
 
-**Thèse active :** Fintech-banque hybride avec écosystème complet et charter bancaire = moat modéré. Quality Partielle 4/6. Trend baissier court terme (sous MM50). Survente technique (RSI 30) = possible rebond de courte durée. Dépendance taux + exposition prêts étudiants = risques macro majeurs. ATTENDRE retour au-dessus MM50.
-
-**Score actuel :** 4.85/10
-**Prix cible :** $19.51 (MM50 + 3×ATR)
-**Stop-loss :** $13.97
-**Statut :** ATTENDRE — pas de position
+> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
+> Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
 
 ---
 
-## Résumé de la dernière analyse
+## 🎯 Thèse active
 
-Filtre Qualité 4/6 (Quality Partielle). Croissance revenue excellente (CAGR ~43%) mais rentabilité GAAP trop récente (Q4 2023). Charter bancaire = différenciation structurelle vs fintechs concurrents. Cours $15.61 sous MM50 $17.05, RSI 30.21 proche survente. Forward P/E 19.95 raisonnable. Dépendance taux et politique prêts étudiants = headwinds actifs. Pas d'entrée tant que cours < $17.05 (MM50).
+- **Recommandation :** ATTENDRE — Pas de position
+- **Prix cible :** $19.51 (MM50 + 3×ATR)
+- **Stop-loss :** $13.97 (cours − 2×ATR)
+- **Upside/Downside :** +24.9% / −10.5%
+- **Dernière mise à jour :** 2026-05-17 (Full Refresh)
 
----
+SoFi est une fintech-banque hybride avec un écosystème complet (lending + banking + investing) et une marque forte chez les millennials. Le charter bancaire 2022 crée une barrière réglementaire modérée vs les fintechs non-banques. Le Full Refresh du 2026-05-17 confirme la thèse avec un léger ajustement à la hausse (Score 5.1/10, Global 43/100) grâce au consensus FMP renforcé (27 analystes, PT $25.41). Cependant, le cours à $15.61 reste sous la MM50 ($17.05) avec un RSI 14j à 30.21 proche de la survente — le trend court terme est baissier. L'ATR relatif à 5.25% reflète une volatilité élevée sans direction claire. La dépendance aux taux d'intérêt et l'exposition aux prêts étudiants créent des risques macro majeurs. Le Forward P/E 19.95 est raisonnable pour une fintech en croissance mais le P/E LTM 34.69 reste élevé. Attendre un retour au-dessus de MM50 ou un test du support $14.50.
 
-## Contexte technique (depuis data/latest.json)
-
-| Indicateur | Valeur | Signal |
-|-----------|--------|--------|
-| Cours | $15.61 | −2.3% |
-| RSI 14j | 30.21 | 🟢 Proche survente |
-| ATR 14j | $0.82 | Volatilité modérée |
-| MM 50j | $17.05 | 🔴 Cours −8.4% en dessous (trend baissier) |
-| Beta | 2.126 | 🔴 Très volatil |
-| Put/Call | 0.58 | Options légèrement bullish |
-| P/E LTM | 34.69 | Élevé vs banques traditionnelles |
-| Forward P/E | 19.95 | 🟡 Raisonnable pour fintech en croissance |
+**✅ Données complètes** — Cours, RSI, ATR, P/E, beta, options disponibles dans `data/latest.json`.
 
 ---
 
-## Alertes actives
-
-- 🟡 **Survente technique** — RSI 30.21, possible rebond de courte durée
-- 🔴 **Cours sous MM50** — Trend baissier court terme intact
-- 🔴 **Beta 2.126** — Volatilité très élevée, sizing réduit obligatoire
-- 🔴 **Dépendance taux d'intérêt** — 60%+ revenus du lending, headwind si taux restent élevés
-- 🟡 **Politique prêts étudiants incertaine** — Risque réglementaire majeur
+## Actualités ayant impacté ce dossier
+- **Score global :** 43/100
+- **Prix cible :** $19.51
+- **Stop-loss :** $13.97
+- **Statut thèse :** Active — ATTENDRE
+- **Horizon :** 3–6 mois
 
 ---
 
-## Prochaines étapes
+## 📉 Erreurs de prédiction récentes
 
-1. Surveiller retour au-dessus MM50 $17.05 = signal technique d'achat potentiel
-2. Vérifier earnings Q1 2026 pour confirmer trajectory rentabilité
-3. Surveiller décision Fed (juin 2026) — impact direct sur business model
-4. Si cours teste support $14.50 avec volume → évaluer entrée réduite
-5. Pas d'entrée tant que trend baissier intact sous MM50
+- Aucune erreur enregistrée.
+
+---
+
+## 🚨 Alertes actives
+
+- Baisse — $13.97 (SL 2×ATR) — 🟢 Active
+- Hausse — $19.51 (prix cible) — 🟢 Active
+- Volume — >2× moy. 20j (>135M) — 🟢 Active
+
+---
+
+## 📅 Prochains événements
+
+- **2026-07-28** — Earnings Q2 FY2026 (72j)
+
+---
+
+## 📊 Contexte technique (dernier snapshot)
+
+- **RSI 14j :** 30.21
+- **MM 50j :** 17.05
+- **MM 200j :** —
+- **ATR 14j :** 0.82
+- **Volume moy. 20j :** ~71,316,000
+- **Volume actuel :** 49,914,200 (0.7×)
+
+---
+
+## 📝 Résumé dernière analyse
+
+- **Date :** 2026-05-17
+- **Type :** Full Refresh (init)
+- **Fichier :** `SOFI_2026-05-17_init.md`
+- **Conclusion :** CONFIRME — Thèse ATTENDRE inchangée. Score 5.1/10. Global 43/100. ATR spike 5.25% = volatilité sans direction. Pas de position.
+
+---
+
+## 🔄 Triggers détectés (full refresh)
+
+- **2026-05-17** — atr_spike (medium) : ATR relatif 5.25% (seuil 5.0%) — Traité
+
+---
+
+*Généré automatiquement — ne pas éditer manuellement.*
