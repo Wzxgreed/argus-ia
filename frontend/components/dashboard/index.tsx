@@ -1357,8 +1357,8 @@ export function LaunchAnalysis() {
   // ── Détection de progression à partir des logs ──
   const allText = logs.join(" ");
   const isFullAnalysis = allText.includes("analyse COMPLÈTE");
-  const isClaudePrep = allText.includes("Préparation des données") || allText.includes("Contexte préparé pour Claude CLI");
-  const steps = isClaudePrep
+  const isClaudeAnalysis = allText.includes("Lancement de Claude CLI") || allText.includes("Claude CLI");
+  const steps = isClaudeAnalysis
     ? [
         {
           label: "Watchlist",
@@ -1372,19 +1372,19 @@ export function LaunchAnalysis() {
           label: "Fetch données",
           icon: Database,
           done: allText.includes("Fetch terminé") || allText.includes("Données récupérées"),
-          active: allText.includes("Fetch des données") || allText.includes("Étape 1/2"),
+          active: allText.includes("Fetch des données") || allText.includes("Étape 1/3"),
         },
         {
           label: "Agents réels",
           icon: Cpu,
           done: allText.includes("Agents terminés") || allText.includes("Agent"),
-          active: allText.includes("Exécution des agents") || allText.includes("Étape 2/2"),
+          active: allText.includes("Exécution des agents") || allText.includes("Étape 2/3"),
         },
         {
-          label: "Prêt pour Claude",
-          icon: UserCheck,
-          done: allText.includes("Contexte préparé pour Claude CLI") || allText.includes("Note créée"),
-          active: allText.includes("Contexte préparé"),
+          label: "Claude CLI",
+          icon: Terminal,
+          done: allText.includes("Rapport Claude CLI sauvegardé") || allText.includes("Analyse Claude CLI terminée"),
+          active: allText.includes("Lancement de Claude CLI") || allText.includes("Envoi du prompt à Claude CLI"),
         },
         {
           label: "Terminé",
@@ -1679,23 +1679,26 @@ export function LaunchAnalysis() {
             })}
           </div>
 
-          {/* Message spécial : Prêt pour Claude CLI */}
-          {status === "success" && isClaudePrep && (
-            <div className="rounded-xl border border-amber-500/20 bg-amber-500/5 p-4">
+          {/* Message spécial : Rapport Claude CLI généré */}
+          {status === "success" && isClaudeAnalysis && (
+            <div className="rounded-xl border border-emerald-500/20 bg-emerald-500/5 p-4">
               <div className="flex items-start gap-3">
-                <Terminal className="h-5 w-5 text-amber-400 shrink-0 mt-0.5" />
+                <CheckCircle2 className="h-5 w-5 text-emerald-400 shrink-0 mt-0.5" />
                 <div className="space-y-1">
-                  <div className="text-sm font-semibold text-amber-400">Données prêtes pour Claude CLI</div>
+                  <div className="text-sm font-semibold text-emerald-400">Rapport Claude CLI généré</div>
                   <p className="text-xs text-muted-foreground">
-                    Les agents ont tourné et les données fraîches sont dans <code className="text-foreground">data/latest.json</code>.
-                    Ouvrez Claude Code et demandez :
+                    L'analyse a été produite par Claude CLI avec lecture des fichiers, outils et historique.
+                    Rapport sauvegardé dans <code className="text-foreground">Actions/{ticker}/{ticker}_YYYY-MM-DD_claude.md</code>.
                   </p>
-                  <div className="inline-flex items-center gap-1.5 rounded-lg bg-black/40 px-3 py-1.5 text-xs font-mono text-amber-300">
-                    Analyse {ticker}
-                  </div>
-                  <p className="text-xs text-muted-foreground">
-                    Claude lira automatiquement les données agents + historique <code>Actions/{ticker}/</code>.
-                  </p>
+                  <a
+                    href={`/Actions/${ticker}/`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 rounded-lg bg-emerald-500/10 px-3 py-1.5 text-xs font-medium text-emerald-400 hover:bg-emerald-500/20 transition-colors"
+                  >
+                    <FileText className="h-3 w-3" />
+                    Ouvrir le dossier Actions/{ticker}
+                  </a>
                 </div>
               </div>
             </div>

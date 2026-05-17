@@ -400,81 +400,104 @@ def run_prepare_for_claude(job_id: str, ticker: str, custom_prompt: str = ""):
 
     logs.append(f"[{now_str()}] ✅ Agents terminés — {ok_count}/{len(agents)} OK")
 
-    # ── Étape 3 : Préparer le fichier de contexte pour Claude CLI ──
-    latest = _load_json(BASE_DIR / "data" / "latest.json")
-    ticker_data = latest.get("prices", {}).get(ticker, {})
-    data_ctx = _build_data_context(ticker, ticker_data)
-    agent_data = _load_agent_data(ticker)
-    agent_ctx = _format_agent_context(ticker, agent_data)
+    # ── Étape 3 : Lancer Claude CLI (claude -p) pour l'analyse réelle ──
+    with JOBS_LOCK:
+        logs.append(f"[{now_str()}] 🤖 Étape 3/3 — Lancement de Claude CLI (claude -p) pour {ticker}...")
+        JOBS[job_id]["logs"] = logs.copy()
 
-    # Écrire un fichier de requête que Claude CLI peut lire
-    request_file = BASE_DIR / ".claude" / "analysis_requests" / f"{ticker}_{datetime.now(timezone.utc).strftime('%Y-%m-%d')}.json"
-    request_file.parent.mkdir(parents=True, exist_ok=True)
-    request_payload = {
-        "ticker": ticker,
-        "date": datetime.now(timezone.utc).isoformat(),
-        "status": "ready",
-        "custom_prompt": custom_prompt.strip(),
-        "data_summary": data_ctx,
-        "agent_summary": agent_ctx,
-        "files_to_read": [
-            "data/latest.json",
-            "data/recommandations_latest.json",
-            "data/quant_report_latest.json",
-            "data/accounting_risk_latest.json",
-            "data/geo_risk_latest.json",
-            "data/sector_rotation_latest.json",
-            "data/social_sentiment_latest.json",
-            "data/fx_exposure_latest.json",
-            "data/upcoming_events_latest.json",
-        ],
-        "instructions": f"L'utilisateur a demandé une analyse de {ticker}. Les données fraîches sont prêtes. Demande-lui 'Analyse {ticker}' pour que je produise l'analyse complète.",
-    }
-    request_file.write_text(json.dumps(request_payload, indent=2, ensure_ascii=False), encoding="utf-8")
-    logs.append(f"[{now_str()}] ✅ Contexte préparé pour Claude CLI : {request_file}")
-
-    # Sauvegarder aussi un fichier de note dans Actions/
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     ACTIONS_DIR = BASE_DIR / "Actions"
     ticker_dir = ACTIONS_DIR / ticker
     ticker_dir.mkdir(parents=True, exist_ok=True)
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    note_file = ticker_dir / f"{ticker}_{today}_ready_for_claude.md"
-    note_file.write_text(
-        f"""# {ticker} — Données prêtes pour analyse Claude CLI ({today})
+    report_file = ticker_dir / f"{ticker}_{today}_claude.md"
 
-Les agents ont tourné et les données sont à jour.
+    claude_prompt = f"""Tu es l'analyste institutionnel senior du desk Argus-IA. Rédige une analyse approfondie pour **{ticker}**.
 
-## Pour lancer l'analyse
-Dans Claude Code, demande : **Analyse {ticker}**
+Protocole obligatoire :
+1. Lis data/latest.json et extrait les données pour {ticker} (cours, RSI, ATR, MM50/200, fondamentaux, options)
+2. Lis data/recommandations_latest.json pour les scores agents
+3. Lis data/quant_report_latest.json, data/geo_risk_latest.json, data/accounting_risk_latest.json, data/sector_rotation_latest.json, data/social_sentiment_latest.json, data/fx_exposure_latest.json, data/upcoming_events_latest.json, data/events_latest.json pour enrichir l'analyse
+4. Lis l'historique dans Actions/{ticker}/ (si le dossier existe)
+5. Rédige le rapport dans Actions/{ticker}/{ticker}_{today}_claude.md avec cette structure institutionnelle :
+   - Résumé Exécutif (3-4 phrases)
+   - Market Researcher (TAM, peers, landscape)
+   - Macro (régime, exposition, sensibilités)
+   - Technique (RSI, MACD, MM, niveaux, timing)
+   - Fondamental (Filtre Qualité 6 critères, valorisation)
+   - Sentiment (consensus, options, insiders)
+   - Flux Institutionnels (13F, ETF, dark pool)
+   - Scoring Global (Catalyseur / Valorisation / Momentum)
+   - Niveaux et Ratio R/R
+   - Conclusion (ACHETER / ATTENDRE / SURVEILLER / ÉVITER)
+6. Crée ou met à jour Actions/{ticker}/INDEX.md et Actions/{ticker}/CONTEXT.md avec la thèse courante, score, niveaux
 
-Claude lira automatiquement :
-- `data/latest.json` (cours, technique, fondamentaux)
-- `data/recommandations_latest.json` (scores agents)
-- Tous les rapports agents récents
-- L'historique dans `Actions/{ticker}/`
+Règles absolues :
+- Utilise EXCLUSIVEMENT les chiffres des fichiers JSON
+- Ne devine jamais un cours, un multiple ou une métrique
+- Marque [DONNÉES MANQUANTES] si absent
+- Format institutionnel JPM/GS/MS, concis et chiffré
+- Ne mentionne pas que tu es un LLM
 
-## Résumé données brutes
+Instructions supplémentaires de l'utilisateur : {custom_prompt.strip() or "Aucune"}
 
-{data_ctx}
+Commence l'analyse maintenant."""
 
-## Résumé agents
+    claude_cmd = [
+        "claude",
+        "-p", claude_prompt,
+        "--permission-mode", "auto",
+        "--cwd", str(BASE_DIR),
+    ]
 
-{agent_ctx}
-
----
-*Ce fichier est un marqueur — l'analyse réelle sera produite par Claude CLI.*
-""",
-        encoding="utf-8",
-    )
-    logs.append(f"[{now_str()}] ✅ Note créée : {note_file}")
-    logs.append(f"[{now_str()}] ⏳ ATTENTE — Ouvrez Claude Code et demandez 'Analyse {ticker}' pour obtenir l'analyse complète.")
-
+    logs.append(f"[{now_str()}] 📤 Envoi du prompt à Claude CLI ({len(claude_prompt)} caractères)...")
     with JOBS_LOCK:
-        JOBS[job_id]["status"] = "success"
-        JOBS[job_id]["returncode"] = 0
         JOBS[job_id]["logs"] = logs.copy()
-        JOBS[job_id]["finished_at"] = now_str()
-        JOBS[job_id]["request_file"] = str(request_file)
+
+    try:
+        claude_proc = subprocess.Popen(
+            claude_cmd,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            text=True,
+            cwd=str(BASE_DIR),
+            env=env,
+        )
+        _stream_process(job_id, claude_proc, logs)
+        claude_rc = claude_proc.wait(timeout=600)  # 10 min max
+
+        if claude_rc != 0:
+            logs.append(f"[{now_str()}] ⚠️ Claude CLI exit={claude_rc}")
+
+        # Vérifier si le rapport a été créé
+        if report_file.exists():
+            logs.append(f"[{now_str()}] ✅ Rapport Claude CLI sauvegardé : {report_file}")
+        else:
+            logs.append(f"[{now_str()}] ⚠️ Rapport non trouvé à l'emplacement attendu ({report_file})")
+
+        logs.append(f"[{now_str()}] ✅ Analyse Claude CLI terminée pour {ticker}")
+
+        with JOBS_LOCK:
+            JOBS[job_id]["status"] = "success"
+            JOBS[job_id]["returncode"] = 0
+            JOBS[job_id]["logs"] = logs.copy()
+            JOBS[job_id]["finished_at"] = now_str()
+            JOBS[job_id]["report_file"] = str(report_file)
+
+    except subprocess.TimeoutExpired:
+        claude_proc.kill()
+        logs.append(f"[{now_str()}] ⏱ Claude CLI timeout (10 min)")
+        with JOBS_LOCK:
+            JOBS[job_id]["status"] = "failed"
+            JOBS[job_id]["returncode"] = -9
+            JOBS[job_id]["logs"] = logs.copy()
+            JOBS[job_id]["finished_at"] = now_str()
+    except Exception as e:
+        logs.append(f"[{now_str()}] ❌ Erreur Claude CLI : {e}")
+        with JOBS_LOCK:
+            JOBS[job_id]["status"] = "failed"
+            JOBS[job_id]["returncode"] = 1
+            JOBS[job_id]["logs"] = logs.copy()
+            JOBS[job_id]["finished_at"] = now_str()
 
 
 class Handler(BaseHTTPRequestHandler):
