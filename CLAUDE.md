@@ -1115,3 +1115,24 @@ URL distante : `https://github.com/Wzxgreed/argus-ia.git`
 - Les fichiers `_update.md` permettent de retracer l'évolution de la thèse dans le temps.
 - Ne jamais modifier une analyse passée — toujours créer un nouveau fichier daté.
 - Ces fichiers sont des outils d'analyse, pas des conseils en investissement.
+
+---
+
+## Auto-push GitHub
+
+Chaque session manuelle (analyse de ticker, FULL REFRESH, corrections de code, etc.) se termine systématiquement par :
+
+```bash
+bash scripts/auto_push.sh "Description des changements"
+```
+
+Le script :
+1. Stage tous les fichiers modifiés (`git add -A`, le `.gitignore` protège les secrets)
+2. Commit avec le message fourni
+3. Tag quotidien `snapshot-YYYY-MM-DD`
+4. Push vers `origin main`
+
+**Règle absolue :** jamais laisser des fichiers modifiés non commités sur le VPS. Le token GitHub est stocké dans `~/.git-credentials` (chmod 600) pour un push silencieux.
+
+### Pipeline automatique
+Le cron à 9h00 UTC exécute `./scripts/run_morning.sh` qui inclut déjà l'auto-push final.
