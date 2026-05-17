@@ -27,7 +27,8 @@ Argus-IA/
 │   └── watchlist.json                     ← Tickers, secteurs, symboles macro, settings
 │
 ├── scripts/                               ← Pipeline de données Python
-│   ├── run_morning.sh                     ← Pipeline complet du matin (20 étapes + auto-push GitHub)
+│   ├── run_morning.sh                     ← Pipeline complet du matin (20 étapes + lockfile + rapport JSON + auto-push GitHub)
+│   ├── pipeline_status.sh                  ← Surveillance du pipeline depuis un autre terminal
 │   ├── auto_push.sh                       ← Helper commit + push automatique post-agent/pipeline
 │   ├── yahoo_worker.py                   ← Worker isolé yfinance (one-shot subprocess + timeout OS)
 │   ├── yahoo_worker_daemon.py            ← Worker yfinance pré-chauffé (daemon stdin/stdout)
@@ -37,7 +38,7 @@ Argus-IA/
 │   ├── fetch_macro.py                    ← Indices, VIX, taux, FX, commodités, régime macro (Yahoo)
 │   ├── fetch_calendar.py                 ← Earnings dates, calendrier économique (Yahoo + FMP)
 │   ├── agent_news_fetcher.py             ← Fetch unifié des news pour tous les agents
-│   ├── learn_from_errors.py              ← Boucle d'apprentissage auto (fenêtres J+5/20/60/30/90/180)
+│   ├── learn_from_errors.py              ← Boucle d'apprentissage auto + calibration des scores (J+5/20/60/30/90/180)
 │   ├── agent_quant.py                    ← Agent Quant : signification statistique, Sharpe, calibration
 │   ├── agent_geo.py                      ← Agent Géopolitique : scan politique, exposition, scénarios
 │   ├── agent_crypto.py                   ← Agent Crypto-Correlation : BTC beta, NAV, divergence
@@ -58,6 +59,8 @@ Argus-IA/
 │   ├── YYYY-MM-DD.json                    ← Snapshot complet du jour (prix + macro + calendar)
 │   ├── latest.json                        ← Symlink vers le snapshot actuel
 │   ├── validation_report.txt             ← Rapport de validation des données
+│   ├── pipeline_report_YYYY-MM-DD.json    ← Rapport JSON de fin de pipeline (duration, status, steps)
+│   ├── calibration_report_latest.json     ← Calibration auto des scores (win rates par fourchette)
 │   ├── transcripts_NLP_YYYY-MM-DD.json   ← Analyse NLP management (si FMP activé)
 │   ├── transcripts_NLP_latest.json       ← Symlink vers le dernier NLP
 │   ├── upcoming_events_YYYY-MM-DD.json   ← Événements à venir (watchman)
@@ -412,7 +415,7 @@ pour un ticker watchlist → générer automatiquement `[TICKER]_YYYY-MM-DD_prev
 ### Alertes sur seuils
 Lire `Alertes/ALERTES.md` à chaque session. Si un cours a franchi un seuil défini, générer automatiquement un `_update.md` pour le ticker concerné et logger le déclenchement dans `Alertes/ALERTES.md`.
 
-### Module Backtesting + Apprentissage — `scripts/learn_from_errors.py` + [Opportunités/BACKTESTING.md](Opportunités/BACKTESTING.md) + [Agents/APPRENTISSAGES.md](Agents/APPRENTISSAGES.md) ← NOUVEAU
+### Module Backtesting + Apprentissage — `scripts/learn_from_errors.py` + [Opportunités/BACKTESTING.md](Opportunités/BACKTESTING.md) + [Agents/APPRENTISSAGES.md](Agents/APPRENTISSAGES.md) ← CALIBRATION AUTO v2
 **Automatisé par `scripts/learn_from_errors.py` (étape 0 du pipeline).**
 
 Suivi de la performance réelle de chaque opportunité signalée. Le script vérifie chaque matin les fenêtres ouvertes (J+5, J+20, J+60 pour les opportunités ; J+30, J+90, J+180 pour les prix cibles), récupère les cours via yfinance, calcule les verdicts (✅ Hit / ❌ Miss / ⚪ Scratch), et met à jour les fichiers de suivi.
@@ -422,6 +425,15 @@ Suivi de la performance réelle de chaque opportunité signalée. Le script vér
 - Extrait une règle corrective heuristique basée sur le type de signal
 - Écrit la règle dans `Agents/APPRENTISSAGES.md` (section "Règles actives")
 - Ces règles surpassent les règles par défaut des agents à chaque nouvelle session
+
+**Calibration automatique des scores (NOUVEAU) :**
+- Collecte tous les signaux avec J+20 terminé, calcule le **win rate par fourchette de score**
+- Fourchettes : 9.0–10.0 (cible ≥70%), 8.0–8.99 (≥65%), 7.0–7.99 (≥55%), 6.0–6.99 (≥50%)
+- Si win rate sous-cible de >15pts sur ≥10 signaux → **malus −0.5 pt** dans `APPRENTISSAGES.md`
+- Si win rate sur-cible de >15pts sur ≥10 signaux → **bonus +0.3 pt**
+- Détecte les streaks : 3 misses consécutifs sur même catalyseur → pénalité −0.5 pt ; 3 hits → bonus +0.3 pt
+- Rapport JSON : `data/calibration_report_latest.json`
+- Met à jour automatiquement les tableaux agrégés de `BACKTESTING.md`
 
 **Alertes de calibration intégrées :**
 - Win rate J+20 < 50% sur 20 derniers signaux → révision globale du scoring
@@ -569,6 +581,12 @@ Base de données de la précision historique des analystes sell-side sur la watc
    → Si une donnée est manquante dans latest.json → marquer [UNSOURCED] ou [DONNÉES MANQUANTES]
    → Le LLM ne remplace PAS une API de données.
 
+16. Lire `data/calibration_report_latest.json` (si présent)
+    → Win rates par fourchette de score (6-7 / 7-8 / 8-9 / 9-10)
+    → Ajustements actifs (malus/bonus appliqués)
+    → Streak alerts (catalyseurs sous/sur-performants)
+    → Si calibration indique un biais systématique → ajuster le scoring en conséquence
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ÉTAPE 0b — CHARGEMENT DE LA MÉMOIRE (OBLIGATOIRE)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -587,6 +605,11 @@ Base de données de la précision historique des analystes sell-side sur la watc
    → Met à jour les fichiers de suivi (BACKTESTING.md, SUIVI_PRIX_CIBLES.md)
    → Sur Miss J+20/J+60 : génère un post-mortem JSON dans `Agents/POST_MORTEMS/`
    → Écrit la règle corrective extraite dans `Agents/APPRENTISSAGES.md`
+   → **CALIBRATION AUTO** : calcule les win rates J+20 par fourchette de score
+      • Malus −0.5 pt si win rate sous-cible de >15pts sur ≥10 signaux
+      • Bonus +0.3 pt si win rate sur-cible de >15pts sur ≥10 signaux
+      • Streak alerts : 3 misses/hits consécutifs sur même catalyseur
+   → Rapport : `data/calibration_report_latest.json`
    → L'agent relit ensuite ces fichiers pour charger les règles actives
 
 9. Seulement ensuite → lancer l'Agent Macro
@@ -929,14 +952,27 @@ Quand un ticker suivi est détecté dans l'actualité, l'agent doit obligatoirem
 ### Architecture fetch Yahoo — worker daemon pré-chauffé
 Pour éviter les hangs au niveau C (libcurl) et le coût d'import répété de yfinance (60–90s), `fetch_prices.py` utilise un **pool de daemons** (`scripts/yahoo_worker_daemon.py`) :
 - Chaque daemon charge yfinance **une seule fois** au démarrage, puis sert plusieurs tickers via stdin/stdout (JSON line protocol)
-- `fetch_prices.py` instancie `YahooWorkerPool(num_workers=2)` qui répartit les tickers en round-robin entre les daemons
+- `fetch_prices.py` instancie `YahooWorkerPool(num_workers=1)` par défaut (≤10 tickers), 2 workers pour >10 tickers avec `sleep(2)` entre démarrages pour éviter la contention d'import simultané
 - Si un daemon échoue, le worker est automatiquement remplacé
-- **Timeout daemon** : 240s pour le chargement initial, 60s par ticker post-import
+- **Timeout daemon** : 180s pour le chargement initial, 60s par ticker post-import
 - **Inactivité** : le daemon s'arrête automatiquement après 300s sans requête
 - **Fallback FMP** : si Yahoo est indisponible, `fetch_prices.py` tente `fmp.get_quote()` pour récupérer au moins le cours de clôture
 - **Écriture atomique** : `tempfile.NamedTemporaryFile` + `os.replace()` pour éviter les fichiers corrompus
 
-Résultat : 6 tickers en ~40s au lieu de 5–8 min avec l'ancienne architecture one-shot.
+Résultat : ≤10 tickers en ~6-8s (1 worker), >10 tickers en ~40s (2 workers). Avant : ~9 min avec one-shot.
+
+### Lockfile + Rapport JSON de fin de pipeline (v2.4)
+`run_morning.sh` implémente un mécanisme de lock pour éviter les double-lancements :
+- **Lockfile** : `data/.pipeline.lock` — PID + timestamp au démarrage
+- Refuse le lancement si un pipeline est déjà actif (vérifie le PID)
+- Nettoie automatiquement les lockfiles "stale" (PID mort)
+- **Rapport JSON** : `data/pipeline_report_YYYY-MM-DD.json` généré à la fin
+  - `duration_sec`, `status` (success/failed), `phases` (A/B/C/D)
+  - `steps[]` : chaque step avec num, nom, statut, timestamp
+  - `summary` : agents OK/skipped/failed, tickers fetched/KO, DRAFTs init/refresh
+- **Monitoring** : `scripts/pipeline_status.sh` lit le lockfile + rapport JSON + checkpoint + log
+  - `make status` : état instantané
+  - `make wait-pipeline` : attend la fin + notification macOS
 
 ### Wrapper HTTP — `scripts/http_utils.py`
 Tous les appels réseau passent par `http_get()` avec :
@@ -965,6 +1001,8 @@ make test              # Suite de tests (pytest)
 make lint              # Ruff + Black check
 make format            # Black + Ruff fix
 make pipeline          # Lancer le pipeline du matin (avec auto-push final)
+make status            # Voir l'état du pipeline en cours (lockfile + rapport JSON)
+make wait-pipeline     # Attendre la fin du pipeline + notification macOS
 make push              # Lint + test + push manuel
 make clean             # Nettoyer fichiers temporaires
 
