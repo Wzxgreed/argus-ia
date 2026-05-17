@@ -86,24 +86,49 @@ def estimate_tokens(text: str) -> int:
     return max(len(text) // 4, 1)
 
 
+def now_utc() -> datetime:
+    return datetime.now(timezone.utc)
+
+
 def update_usage(req_tokens: int, resp_tokens: int, calls: int = 1):
-    """Incrémente le compteur d'usage Ollama localement."""
+    """Incrémente le compteur d'usage Ollama localement (fenêtre 5h + hebdo)."""
     usage = load_json(USAGE_FILE)
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    now = now_utc()
 
-    # Reset journalier si changement de date
-    if usage.get("date") != today:
-        usage["daily_calls"] = 0
-        usage["daily_tokens_input"] = 0
-        usage["daily_tokens_output"] = 0
-        usage["date"] = today
+    # ── Fenêtre glissante 5h ───────────────────────────
+    window_start_str = usage.get("window_5h_start")
+    if window_start_str:
+        window_start = datetime.fromisoformat(window_start_str.replace("Z", "+00:00"))
+    else:
+        window_start = now
 
-    usage["daily_calls"] = usage.get("daily_calls", 0) + calls
-    usage["daily_tokens_input"] = usage.get("daily_tokens_input", 0) + req_tokens
-    usage["daily_tokens_output"] = usage.get("daily_tokens_output", 0) + resp_tokens
-    usage["monthly_calls"] = usage.get("monthly_calls", 0) + calls
-    usage["monthly_tokens_input"] = usage.get("monthly_tokens_input", 0) + req_tokens
-    usage["monthly_tokens_output"] = usage.get("monthly_tokens_output", 0) + resp_tokens
+    # Reset si la fenêtre de 5h est dépassée
+    if (now - window_start).total_seconds() >= 5 * 3600:
+        usage["window_5h_start"] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+        usage["window_5h_calls"] = 0
+        usage["window_5h_tokens_input"] = 0
+        usage["window_5h_tokens_output"] = 0
+
+    usage["window_5h_calls"] = usage.get("window_5h_calls", 0) + calls
+    usage["window_5h_tokens_input"] = usage.get("window_5h_tokens_input", 0) + req_tokens
+    usage["window_5h_tokens_output"] = usage.get("window_5h_tokens_output", 0) + resp_tokens
+
+    # ── Semaine (lundi 00:00 UTC) ──────────────────────
+    week_start_str = usage.get("week_start")
+    current_week_start = now.strftime("%Y-%m-%d")
+    # Trouver le lundi de cette semaine
+    monday = now - __import__("datetime").timedelta(days=now.weekday())
+    monday_str = monday.strftime("%Y-%m-%d")
+
+    if week_start_str != monday_str:
+        usage["week_start"] = monday_str
+        usage["weekly_calls"] = 0
+        usage["weekly_tokens_input"] = 0
+        usage["weekly_tokens_output"] = 0
+
+    usage["weekly_calls"] = usage.get("weekly_calls", 0) + calls
+    usage["weekly_tokens_input"] = usage.get("weekly_tokens_input", 0) + req_tokens
+    usage["weekly_tokens_output"] = usage.get("weekly_tokens_output", 0) + resp_tokens
 
     save_json(USAGE_FILE, usage)
 
@@ -275,14 +300,18 @@ class ProxyHandler(BaseHTTPRequestHandler):
 
         # Mise à jour usage
         usage = update_usage(prompt_eval, resp_tokens)
-        daily = usage.get("daily_calls", 0)
-        limit = load_json(CONFIG_FILE).get("daily_limit", 0)
-        pct = daily / limit * 100 if limit else 0
+        window_calls = usage.get("window_5h_calls", 0)
+        window_limit = load_json(CONFIG_FILE).get("window_5h_limit", 0)
+        window_pct = window_calls / window_limit * 100 if window_limit else 0
+        weekly = usage.get("weekly_calls", 0)
+        weekly_limit = load_json(CONFIG_FILE).get("weekly_limit", 0)
+        weekly_pct = weekly / weekly_limit * 100 if weekly_limit else 0
 
         print(
             f"[{datetime.now(timezone.utc).strftime('%H:%M:%S')}] "
             f"LLM call tracked — in:{prompt_eval} out:{resp_tokens} "
-            f"daily:{daily}/{limit} ({pct:.0f}%) "
+            f"5h:{window_calls}/{window_limit} ({window_pct:.0f}%) "
+            f"week:{weekly}/{weekly_limit} ({weekly_pct:.0f}%) "
             f"latency:{latency:.2f}s",
             flush=True,
         )
@@ -295,8 +324,10 @@ class ProxyHandler(BaseHTTPRequestHandler):
                 self.send_header(h, v)
         self.send_header("Access-Control-Allow-Origin", "*")
         self.send_header("X-Proxy-Latency", f"{latency:.3f}")
-        self.send_header("X-Usage-Daily", str(daily))
-        self.send_header("X-Usage-Limit", str(limit))
+        self.send_header("X-Usage-Window5h", str(window_calls))
+        self.send_header("X-Usage-Limit5h", str(window_limit))
+        self.send_header("X-Usage-Weekly", str(weekly))
+        self.send_header("X-Usage-LimitWeekly", str(weekly_limit))
         self.end_headers()
         self.wfile.write(resp_body)
 

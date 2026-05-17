@@ -1,10 +1,11 @@
 {
-  "date": "2026-05-17",
-  "daily_calls": 6,
-  "daily_tokens_input": 24,
-  "daily_tokens_output": 152,
-  "monthly_calls": 6,
-  "monthly_tokens_input": 24,
-  "monthly_tokens_output": 152,
+  "window_5h_start": "2026-05-17T10:00:00Z",
+  "window_5h_calls": 6,
+  "window_5h_tokens_input": 24,
+  "window_5h_tokens_output": 152,
+  "week_start": "2026-05-11",
+  "weekly_calls": 6,
+  "weekly_tokens_input": 24,
+  "weekly_tokens_output": 152,
   "history": []
 }

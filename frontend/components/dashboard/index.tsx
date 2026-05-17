@@ -1038,21 +1038,22 @@ export function RiskPanels({
 interface OllamaConfig {
   tier: string;
   tier_label: string;
-  daily_limit: number;
-  monthly_limit: number;
+  window_5h_limit: number;
+  weekly_limit: number;
   model: string;
   endpoint: string;
   enabled: boolean;
 }
 
 interface OllamaUsage {
-  date: string;
-  daily_calls: number;
-  daily_tokens_input: number;
-  daily_tokens_output: number;
-  monthly_calls: number;
-  monthly_tokens_input: number;
-  monthly_tokens_output: number;
+  window_5h_start: string;
+  window_5h_calls: number;
+  window_5h_tokens_input: number;
+  window_5h_tokens_output: number;
+  week_start: string;
+  weekly_calls: number;
+  weekly_tokens_input: number;
+  weekly_tokens_output: number;
 }
 
 export function OllamaUsagePanel({
@@ -1082,10 +1083,16 @@ export function OllamaUsagePanel({
     );
   }
 
-  const dailyPct = config.daily_limit > 0 ? Math.min((usage?.daily_calls ?? 0) / config.daily_limit, 1) : 0;
-  const monthlyPct = config.monthly_limit > 0 ? Math.min((usage?.monthly_calls ?? 0) / config.monthly_limit, 1) : 0;
-  const dailyRemaining = Math.max(config.daily_limit - (usage?.daily_calls ?? 0), 0);
-  const monthlyRemaining = Math.max(config.monthly_limit - (usage?.monthly_calls ?? 0), 0);
+  const winPct = config.window_5h_limit > 0 ? Math.min((usage?.window_5h_calls ?? 0) / config.window_5h_limit, 1) : 0;
+  const weeklyPct = config.weekly_limit > 0 ? Math.min((usage?.weekly_calls ?? 0) / config.weekly_limit, 1) : 0;
+  const winRemaining = Math.max(config.window_5h_limit - (usage?.window_5h_calls ?? 0), 0);
+  const weeklyRemaining = Math.max(config.weekly_limit - (usage?.weekly_calls ?? 0), 0);
+
+  // Heure de reset de la fenêtre 5h
+  const windowStart = usage?.window_5h_start ? new Date(usage.window_5h_start) : new Date();
+  const windowReset = new Date(windowStart.getTime() + 5 * 60 * 60 * 1000);
+  const hoursUntilReset = Math.max(0, Math.floor((windowReset.getTime() - Date.now()) / 3600000));
+  const minsUntilReset = Math.max(0, Math.floor(((windowReset.getTime() - Date.now()) % 3600000) / 60000));
 
   return (
     <motion.div
@@ -1108,60 +1115,60 @@ export function OllamaUsagePanel({
 
       <div className="grid grid-cols-2 gap-4 mb-5">
         <div className="rounded-xl border border-white/[0.06] bg-white/[0.02] p-3">
-          <div className="text-xs text-muted-foreground mb-1">Appels aujourd'hui</div>
-          <div className="text-2xl font-bold text-foreground">{usage?.daily_calls ?? 0}</div>
-          <div className="text-[10px] text-muted-foreground">limite {config.daily_limit.toLocaleString()}</div>
+          <div className="text-xs text-muted-foreground mb-1">Fenêtre 5h</div>
+          <div className="text-2xl font-bold text-foreground">{usage?.window_5h_calls ?? 0}</div>
+          <div className="text-[10px] text-muted-foreground">limite {config.window_5h_limit.toLocaleString()}</div>
         </div>
         <div className="rounded-xl border border-white/[0.06] bg-white/[0.02] p-3">
-          <div className="text-xs text-muted-foreground mb-1">Appels ce mois</div>
-          <div className="text-2xl font-bold text-foreground">{usage?.monthly_calls ?? 0}</div>
-          <div className="text-[10px] text-muted-foreground">limite {config.monthly_limit.toLocaleString()}</div>
+          <div className="text-xs text-muted-foreground mb-1">Cette semaine</div>
+          <div className="text-2xl font-bold text-foreground">{usage?.weekly_calls ?? 0}</div>
+          <div className="text-[10px] text-muted-foreground">limite {config.weekly_limit.toLocaleString()}</div>
         </div>
       </div>
 
-      {/* Barre journalière */}
+      {/* Barre fenêtre 5h */}
       <div className="mb-4">
         <div className="flex items-center justify-between text-xs mb-1.5">
-          <span className="text-muted-foreground">Quota journalier</span>
-          <span className="text-foreground font-medium">{dailyRemaining.toLocaleString()} restants</span>
+          <span className="text-muted-foreground">Quota 5h</span>
+          <span className="text-foreground font-medium">{winRemaining.toLocaleString()} restants · reset dans {hoursUntilReset}h{minsUntilReset}m</span>
         </div>
         <div className="h-2 w-full rounded-full bg-white/[0.04] overflow-hidden">
           <div
             className={`h-full rounded-full transition-all duration-500 ${
-              dailyPct >= 0.9 ? "bg-red-500" : dailyPct >= 0.7 ? "bg-yellow-500" : "bg-emerald-500"
+              winPct >= 0.9 ? "bg-red-500" : winPct >= 0.7 ? "bg-yellow-500" : "bg-emerald-500"
             }`}
-            style={{ width: `${dailyPct * 100}%` }}
+            style={{ width: `${winPct * 100}%` }}
           />
         </div>
-        <div className="text-[10px] text-muted-foreground mt-1">{Math.round(dailyPct * 100)}% utilisé</div>
+        <div className="text-[10px] text-muted-foreground mt-1">{Math.round(winPct * 100)}% utilisé</div>
       </div>
 
-      {/* Barre mensuelle */}
+      {/* Barre hebdo */}
       <div className="mb-4">
         <div className="flex items-center justify-between text-xs mb-1.5">
-          <span className="text-muted-foreground">Quota mensuel</span>
-          <span className="text-foreground font-medium">{monthlyRemaining.toLocaleString()} restants</span>
+          <span className="text-muted-foreground">Quota hebdo</span>
+          <span className="text-foreground font-medium">{weeklyRemaining.toLocaleString()} restants</span>
         </div>
         <div className="h-2 w-full rounded-full bg-white/[0.04] overflow-hidden">
           <div
             className={`h-full rounded-full transition-all duration-500 ${
-              monthlyPct >= 0.9 ? "bg-red-500" : monthlyPct >= 0.7 ? "bg-yellow-500" : "bg-emerald-500"
+              weeklyPct >= 0.9 ? "bg-red-500" : weeklyPct >= 0.7 ? "bg-yellow-500" : "bg-emerald-500"
             }`}
-            style={{ width: `${monthlyPct * 100}%` }}
+            style={{ width: `${weeklyPct * 100}%` }}
           />
         </div>
-        <div className="text-[10px] text-muted-foreground mt-1">{Math.round(monthlyPct * 100)}% utilisé</div>
+        <div className="text-[10px] text-muted-foreground mt-1">{Math.round(weeklyPct * 100)}% utilisé</div>
       </div>
 
       {/* Tokens */}
       <div className="grid grid-cols-2 gap-3 text-xs border-t border-white/[0.04] pt-3">
         <div className="text-center">
           <div className="text-[10px] text-muted-foreground uppercase tracking-wide mb-0.5">Tokens IN</div>
-          <div className="font-semibold text-foreground tabular-nums">{(usage?.daily_tokens_input ?? 0).toLocaleString()}</div>
+          <div className="font-semibold text-foreground tabular-nums">{(usage?.window_5h_tokens_input ?? 0).toLocaleString()}</div>
         </div>
         <div className="text-center border-l border-white/[0.04]">
           <div className="text-[10px] text-muted-foreground uppercase tracking-wide mb-0.5">Tokens OUT</div>
-          <div className="font-semibold text-foreground tabular-nums">{(usage?.daily_tokens_output ?? 0).toLocaleString()}</div>
+          <div className="font-semibold text-foreground tabular-nums">{(usage?.window_5h_tokens_output ?? 0).toLocaleString()}</div>
         </div>
       </div>
 

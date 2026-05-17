@@ -1,8 +1,8 @@
 {
   "tier": "pro",
   "tier_label": "Ollama Cloud Pro",
-  "daily_limit": 5000,
-  "monthly_limit": 150000,
+  "window_5h_limit": 1000,
+  "weekly_limit": 10000,
   "model": "ministral-3:3b",
   "endpoint": "https://ollama.com/api/chat",
   "enabled": true
