@@ -143,6 +143,19 @@ if [ -f "$BASE_DIR/data/validation_report.txt" ]; then
 fi
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Sync data files to frontend/dist/data/ so the Next.js dashboard stays fresh
+# ─────────────────────────────────────────────────────────────────────────────
+log "INFO" "Syncing fresh data to frontend/dist/data/ ..."
+mkdir -p "$BASE_DIR/frontend/dist/data"
+# Copy JSON files (follow symlinks so dist gets real files)
+find "$BASE_DIR/data" -maxdepth 1 -name '*.json' -exec cp -L {} "$BASE_DIR/frontend/dist/data/" \;
+# Also copy the dated snapshot so the dashboard can reference it
+if [ -f "$BASE_DIR/data/$DATE_STR.json" ]; then
+    cp -L "$BASE_DIR/data/$DATE_STR.json" "$BASE_DIR/frontend/dist/data/"
+fi
+log "INFO" "Data synced to frontend/dist/data/."
+
+# ─────────────────────────────────────────────────────────────────────────────
 # Auto-push to GitHub
 # ─────────────────────────────────────────────────────────────────────────────
 log "INFO" "Checking for changes to push to GitHub..."
