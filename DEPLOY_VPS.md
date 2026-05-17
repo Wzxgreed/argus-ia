@@ -39,6 +39,12 @@ Ubuntu 24.04 shippe Python 3.12 — vérifiez :
 python3 --version   # doit afficher 3.12.x
 ```
 
+Installez les paquets essentiels (venv, pip, headers de compilation) :
+
+```bash
+sudo apt install -y python3-venv python3-dev python3-pip
+```
+
 Si besoin d'une version plus récente :
 
 ```bash
