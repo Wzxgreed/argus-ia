@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "date": "2026-05-17",
+    "events_detected": 1,
+    "tickers_flagged": 0
+  },
+  "ticker_exposure": {
+    "IREN": {
+      "geo_risk_score": 3,
+      "flag": "low"
+    }
+  }
+}

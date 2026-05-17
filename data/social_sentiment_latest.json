@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "date": "2026-05-17",
+    "tickers_scanned": 6,
+    "alerts_count": 0
+  },
+  "analysis": {
+    "IREN": {
+      "mention_count": 45,
+      "sentiment_score": 5.2,
+      "sentiment_label": "Neutre",
+      "pump_detected": false,
+      "mention_spike": false
+    }
+  }
+}

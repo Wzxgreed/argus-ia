@@ -11,7 +11,18 @@ Fichier lu automatiquement à chaque session. Si un seuil est franchi, un `_upda
 | **IREN** | Baisse | $45.00 | $52.94 | 🟢 Active | 2026-05-17 |
 | **IREN** | Hausse | $65.86 | $52.94 | 🟢 Active | 2026-05-17 |
 | **IREN** | Volume | >2× moy. 20j (>104.9M) | 52.4M moy. | 🟢 Active | 2026-05-17 |
-
+| **VRT** | Baisse | $335.22 | $370.94 | 🟢 Active | 2026-05-17 |
+| **VRT** | Hausse | $400.00 | $370.94 | 🟢 Active | 2026-05-17 |
+| **VRT** | Volume | >2× moy. 20j (>11.5M) | 5.8M moy. | 🟢 Active | 2026-05-17 |
+| **NOK** | Baisse | $12.03 (SL 2×ATR) | $13.95 | 🟢 Active | 2026-05-17 |
+| **NOK** | Hausse | $9.26 (consensus) | $13.95 | 🔴 Déjà au-dessus | 2026-05-17 |
+| **NOK** | Volume | >2× moy. 20j (>249M) | 124.8M moy. | 🟢 Active | 2026-05-17 |
+| **SOFI** | Baisse | $13.97 (SL 2×ATR) | $15.61 | 🟢 Active | 2026-05-17 |
+| **SOFI** | Hausse | $19.51 (prix cible) | $15.61 | 🟢 Active | 2026-05-17 |
+| **SOFI** | Volume | >2× moy. 20j (>XXM) | — | 🟢 Active | 2026-05-17 |
+| **AAL** | Baisse | $11.41 (SL 2×ATR) | $12.31 | 🟢 Active | 2026-05-17 |
+| **AAL** | Hausse | $14.00 (prix cible) | $12.31 | 🟢 Active | 2026-05-17 |
+| **AAL** | Volume | >2× moy. 20j (>XXM) | — | 🟢 Active | 2026-05-17 |
 > **Types d'alerte simples disponibles :**
 > - `Baisse` — cours franchit un seuil à la baisse
 > - `Hausse` — cours franchit un seuil à la hausse

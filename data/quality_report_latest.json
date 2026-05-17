@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "date": "2026-05-17",
+    "tickers_scanned": 7
+  },
+  "tickers": {
+    "IREN": {
+      "status": "warning",
+      "reasons": ["Quality Partielle 4/6", "Forward PE négatif", "FCF négatif"]
+    },
+    "XOM": {
+      "status": "ok",
+      "reasons": []
+    },
+    "RTX": {
+      "status": "ok",
+      "reasons": []
+    },
+    "VRT": {
+      "status": "ok",
+      "reasons": []
+    },
+    "NVDA": {
+      "status": "ok",
+      "reasons": []
+    },
+    "AAPL": {
+      "status": "ok",
+      "reasons": []
+    },
+    "NOK": {
+      "status": "warning",
+      "reasons": ["Quality hors périmètre 2–2.5/6", "P/E 87.19 très élevé", "Cours +50% vs consensus"]
+    }
+  },
+  "global": {
+    "summary": {
+      "ok": 5,
+      "warning": 2,
+      "excluded": 0
+    }
+  }
+}

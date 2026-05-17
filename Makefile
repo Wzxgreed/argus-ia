@@ -1,4 +1,4 @@
-.PHONY: help install test lint format pipeline clean push status wait-pipeline dashboard agent-news agent-watchman agent-geo agent-crypto agent-accounting agent-sector agent-social agent-fx agent-event agent-reco group-a group-b group-c group-d pipeline-make
+.PHONY: help install test lint format pipeline clean push status wait-pipeline dashboard analyse agent-news agent-watchman agent-geo agent-crypto agent-accounting agent-sector agent-social agent-fx agent-event agent-reco group-a group-b group-c group-d pipeline-make
 
 help:
 	@echo "Argus-IA — Commandes disponibles"
@@ -13,6 +13,7 @@ help:
 	@echo "  make dashboard    → Générer le dashboard HTML depuis le dernier rapport"
 	@echo "  make clean        → Nettoyer les fichiers temporaires"
 	@echo "  make push         → Linter, tester, puis push sur GitHub"
+	@echo "  make analyse      → Analyser un nouveau ticker (ajout watchlist + fetch + données)"
 	@echo ""
 	@echo "  Groupes (Makefile natif — utilisent l'orchestrator):"
 	@echo "  make group-a      → Phase A : agents indépendants (parallel)"
@@ -72,6 +73,14 @@ clean:
 push: lint test
 	@echo "Lint + tests OK. Pushing to GitHub..."
 	git push origin main
+
+analyse:
+	@if [ -z "$(TICKER)" ]; then \
+		echo "Usage: make analyse TICKER=XXX"; \
+		echo "Example: make analyse TICKER=NOK"; \
+		exit 1; \
+	fi
+	./scripts/analyse_ticker.sh $(TICKER)
 
 # ── Groupes parallèles (délégués à l'orchestrator) ────────────────────────────
 # L'orchestrator lit agents/pipeline.yaml et résout le DAG automatiquement.

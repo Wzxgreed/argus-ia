@@ -48,6 +48,30 @@
       "priority": "high",
       "exchange": "NASDAQ",
       "notes": "Ajouté le 2026-05-16"
+    },
+    {
+      "ticker": "NOK",
+      "name": "Nokia Corporation",
+      "sector": "Télécommunications / 5G Infrastructure",
+      "priority": "low",
+      "exchange": "NYSE",
+      "notes": "Ajouté le 2026-05-17. Dividende défensif ~4%. Quality hors périmètre. Données techniques manquantes — fetch requis"
+    },
+    {
+      "ticker": "SOFI",
+      "name": "SoFi Technologies, Inc.",
+      "sector": "Fintech / Services Financiers",
+      "priority": "medium",
+      "exchange": "NASDAQ",
+      "notes": "Ajouté le 2026-05-17. Fintech lending, banque numérique, student loan refinance"
+    },
+    {
+      "ticker": "AAL",
+      "name": "American Airlines Group Inc.",
+      "sector": "Transport / Aviation",
+      "priority": "medium",
+      "exchange": "NASDAQ",
+      "notes": "Ajouté le 2026-05-17. Compagnie aérienne legacy, recovery post-COVID, exposition pétrole et taux"
     }
   ],
   "macro_symbols": {

@@ -66,7 +66,7 @@ interface Reco {
   risques: string[];
 }
 
-interface TickerData {
+export interface TickerData {
   ticker: string;
   price: {
     close: number;
@@ -91,6 +91,7 @@ interface TickerData {
     put_call_ratio: number;
   };
   _quality_gate: { status: string; reasons: string[] };
+  _no_data?: boolean;
 }
 
 interface QuantReport {
@@ -448,12 +449,14 @@ function TickerDetailModal({
   price,
   reco,
   events,
+  geo,
   onClose,
 }: {
   ticker: string;
   price: TickerData;
   reco: Reco | undefined;
   events: UpcomingEvent[];
+  geo: { geo_risk_score: number; flag: string } | undefined;
   onClose: () => void;
 }) {
   return (
@@ -493,26 +496,33 @@ function TickerDetailModal({
         </div>
 
         {/* Prix & Niveaux */}
-        <div className="grid grid-cols-2 gap-3 mb-5">
-          <div className="rounded-xl bg-white/[0.03] border border-white/[0.04] p-3">
-            <div className="text-xs text-muted-foreground mb-0.5">Prix actuel</div>
-            <div className="text-lg font-bold text-foreground">${fmtPrice(price.price.close)}</div>
+        {price._no_data ? (
+          <div className="mb-5 rounded-xl bg-yellow-500/5 border border-yellow-500/20 p-3 flex items-center gap-2 text-xs text-yellow-400">
+            <AlertTriangle className="h-4 w-4" />
+            Données techniques manquantes — exécuter fetch_prices.py pour obtenir RSI, ATR, consensus, options.
           </div>
-          <div className="rounded-xl bg-white/[0.03] border border-white/[0.04] p-3">
-            <div className="text-xs text-muted-foreground mb-0.5">Prix cible</div>
-            <div className="text-lg font-bold text-emerald-400">
-              ${fmtPrice(reco?.take_profit ?? price.options?.max_pain ?? 0)}
+        ) : (
+          <div className="grid grid-cols-2 gap-3 mb-5">
+            <div className="rounded-xl bg-white/[0.03] border border-white/[0.04] p-3">
+              <div className="text-xs text-muted-foreground mb-0.5">Prix actuel</div>
+              <div className="text-lg font-bold text-foreground">${fmtPrice(price.price.close)}</div>
+            </div>
+            <div className="rounded-xl bg-white/[0.03] border border-white/[0.04] p-3">
+              <div className="text-xs text-muted-foreground mb-0.5">Prix cible</div>
+              <div className="text-lg font-bold text-emerald-400">
+                ${fmtPrice(reco?.take_profit ?? price.options?.max_pain ?? 0)}
+              </div>
+            </div>
+            <div className="rounded-xl bg-white/[0.03] border border-white/[0.04] p-3">
+              <div className="text-xs text-muted-foreground mb-0.5">Stop-loss</div>
+              <div className="text-lg font-bold text-red-400">${fmtPrice(reco?.stop_loss ?? 0)}</div>
+            </div>
+            <div className="rounded-xl bg-white/[0.03] border border-white/[0.04] p-3">
+              <div className="text-xs text-muted-foreground mb-0.5">Ratio R/R</div>
+              <div className="text-lg font-bold text-foreground">{reco?.risque_rendement_ratio ?? "—"}</div>
             </div>
           </div>
-          <div className="rounded-xl bg-white/[0.03] border border-white/[0.04] p-3">
-            <div className="text-xs text-muted-foreground mb-0.5">Stop-loss</div>
-            <div className="text-lg font-bold text-red-400">${fmtPrice(reco?.stop_loss ?? 0)}</div>
-          </div>
-          <div className="rounded-xl bg-white/[0.03] border border-white/[0.04] p-3">
-            <div className="text-xs text-muted-foreground mb-0.5">Ratio R/R</div>
-            <div className="text-lg font-bold text-foreground">{reco?.risque_rendement_ratio ?? "—"}</div>
-          </div>
-        </div>
+        )}
 
         {/* Scores */}
         {reco && (
@@ -573,6 +583,33 @@ function TickerDetailModal({
             <Clock className="h-4 w-4 text-accent" />
             <span className="text-xs text-muted-foreground">Objectif de prix cible : </span>
             <span className="text-xs font-semibold text-foreground">{reco.horizon}</span>
+          </div>
+        )}
+
+        {/* Géopolitique */}
+        {geo && (
+          <div className="mb-5">
+            <div className="text-sm font-semibold text-foreground mb-2 flex items-center gap-1.5">
+              <Globe className="h-4 w-4 text-accent" />
+              Risque géopolitique
+            </div>
+            <div className={`flex items-center gap-3 rounded-lg border p-2.5 ${
+              geo.flag === "high"
+                ? "bg-red-500/5 border-red-500/20 text-red-400"
+                : geo.flag === "moderate"
+                ? "bg-yellow-500/5 border-yellow-500/20 text-yellow-400"
+                : "bg-emerald-500/5 border-emerald-500/20 text-emerald-400"
+            }`}>
+              <div className="text-lg font-bold">{geo.geo_risk_score}/10</div>
+              <div className="text-xs leading-relaxed">
+                <span className="font-medium">
+                  {geo.flag === "high" ? "Risque élevé" : geo.flag === "moderate" ? "Risque modéré" : "Risque faible"}
+                </span>
+                {ticker === "IREN" && (
+                  <span className="block mt-0.5 opacity-80">Régulation crypto aux US = impact majeur potentiel sur le business legacy</span>
+                )}
+              </div>
+            </div>
           </div>
         )}
 
@@ -637,20 +674,24 @@ export function TickerGrid({
   tickers,
   recos,
   events,
+  geo,
 }: {
   tickers: Record<string, TickerData>;
   recos: Record<string, Reco>;
   events: Record<string, UpcomingEvent[]>;
+  geo: GeoReport;
 }) {
   const [selectedTicker, setSelectedTicker] = useState<string | null>(null);
   const selectedPrice = selectedTicker ? tickers[selectedTicker] : undefined;
   const selectedReco = selectedTicker ? recos[selectedTicker] : undefined;
   const selectedEvents = selectedTicker ? events[selectedTicker] ?? [] : [];
+  const selectedGeo = selectedTicker ? geo.ticker_exposure?.[selectedTicker] : undefined;
 
   return (
     <>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {Object.values(tickers).map((t, i) => {
+          const hasData = !t._no_data;
           const change = t.price.change_pct;
           const changeColor = change > 0 ? "text-emerald-400" : change < 0 ? "text-red-400" : "text-muted-foreground";
           const ChangeIcon = change > 0 ? TrendingUp : change < 0 ? TrendingDown : Minus;
@@ -681,15 +722,28 @@ export function TickerGrid({
                   <div className="text-lg font-bold text-foreground">{t.ticker}</div>
                   <div className="text-xs text-muted-foreground">{t.fundamentals.sector}</div>
                 </div>
-                <div className={`flex items-center gap-1 rounded-lg px-2 py-1 text-xs font-semibold ${changeColor} bg-white/[0.03]`}>
-                  <ChangeIcon className="h-3 w-3" />
-                  {fmtPct(change)}
-                </div>
+                {hasData ? (
+                  <div className={`flex items-center gap-1 rounded-lg px-2 py-1 text-xs font-semibold ${changeColor} bg-white/[0.03]`}>
+                    <ChangeIcon className="h-3 w-3" />
+                    {fmtPct(change)}
+                  </div>
+                ) : (
+                  <div className="flex items-center gap-1 rounded-lg px-2 py-1 text-xs font-semibold text-yellow-400 bg-yellow-500/10">
+                    <AlertTriangle className="h-3 w-3" />
+                    Données à venir
+                  </div>
+                )}
               </div>
 
               <div className="mb-4">
-                <span className="text-2xl font-bold text-foreground">${fmtPrice(t.price.close)}</span>
-                <span className="ml-2 text-xs text-muted-foreground">Vol {volRatio.toFixed(1)}× avg</span>
+                {hasData ? (
+                  <>
+                    <span className="text-2xl font-bold text-foreground">${fmtPrice(t.price.close)}</span>
+                    <span className="ml-2 text-xs text-muted-foreground">Vol {volRatio.toFixed(1)}× avg</span>
+                  </>
+                ) : (
+                  <span className="text-2xl font-bold text-muted-foreground/50">$—</span>
+                )}
               </div>
 
               {/* Prix cible + horizon */}
@@ -716,46 +770,64 @@ export function TickerGrid({
                 </div>
               )}
 
-              {/* Badge événement urgent */}
-              {hasUrgentEvent && nearestEvent && (
-                <div className={`mb-3 flex items-center gap-1.5 rounded-lg px-2 py-1.5 text-xs ${
-                  nearestEvent.days_until <= 3
-                    ? "bg-red-500/10 border border-red-500/20 text-red-400"
-                    : "bg-yellow-500/10 border border-yellow-500/20 text-yellow-400"
-                }`}>
-                  <Calendar className="h-3 w-3" />
-                  <span className="font-medium">{nearestEvent.type.toUpperCase()}</span>
-                  <span>— dans {nearestEvent.days_until}j</span>
-                </div>
-              )}
+              {/* Badge événement urgent — hauteur fixe pour alignement entre cartes */}
+              <div className="mb-3 min-h-[28px] flex items-center">
+                {hasUrgentEvent && nearestEvent ? (
+                  <div className={`flex items-center gap-1.5 rounded-lg px-2 py-1.5 text-xs w-full ${
+                    nearestEvent.days_until <= 3
+                      ? "bg-red-500/10 border border-red-500/20 text-red-400"
+                      : "bg-yellow-500/10 border border-yellow-500/20 text-yellow-400"
+                  }`}>
+                    <Calendar className="h-3 w-3" />
+                    <span className="font-medium">{nearestEvent.type.toUpperCase()}</span>
+                    <span>— dans {nearestEvent.days_until}j</span>
+                  </div>
+                ) : null}
+              </div>
 
-              <div className="grid grid-cols-3 gap-2 text-xs">
-                <div className="rounded-lg bg-white/[0.03] p-2 text-center">
-                  <div className="text-muted-foreground mb-0.5">RSI</div>
-                  <div className={`font-semibold ${rsiColor}`}>{rsi.toFixed(1)}</div>
+              {/* RSI / ATR / MM50 — aligné entre tickets via grille unifiée */}
+              <div className="mt-3 grid grid-cols-3 gap-0 text-xs border-t border-white/[0.04] pt-3">
+                <div className="text-center px-1">
+                  <div className="text-[10px] text-muted-foreground uppercase tracking-wide mb-0.5">RSI</div>
+                  <div className={`font-semibold tabular-nums ${hasData ? rsiColor : "text-muted-foreground/50"}`}>
+                    {hasData ? rsi.toFixed(1) : "—"}
+                  </div>
                 </div>
-                <div className="rounded-lg bg-white/[0.03] p-2 text-center">
-                  <div className="text-muted-foreground mb-0.5">ATR</div>
-                  <div className="font-semibold text-foreground">{t.technical.atr14?.toFixed(2)}</div>
+                <div className="text-center px-1 border-x border-white/[0.04]">
+                  <div className="text-[10px] text-muted-foreground uppercase tracking-wide mb-0.5">ATR</div>
+                  <div className="font-semibold text-foreground tabular-nums">
+                    {hasData ? t.technical.atr14?.toFixed(2) : "—"}
+                  </div>
                 </div>
-                <div className="rounded-lg bg-white/[0.03] p-2 text-center">
-                  <div className="text-muted-foreground mb-0.5">MM50</div>
-                  <div className="font-semibold text-foreground">{t.technical.mm50 ? fmtPrice(t.technical.mm50) : "—"}</div>
+                <div className="text-center px-1">
+                  <div className="text-[10px] text-muted-foreground uppercase tracking-wide mb-0.5">MM50</div>
+                  <div className="font-semibold text-foreground tabular-nums">
+                    {hasData ? (t.technical.mm50 ? fmtPrice(t.technical.mm50) : "—") : "—"}
+                  </div>
                 </div>
               </div>
 
-              <div className="mt-3 flex items-center justify-between text-xs text-muted-foreground">
-                <span>Cap: {fmtB(t.fundamentals.market_cap)}</span>
-                <span>P/E: {t.fundamentals.pe_ratio?.toFixed(1) ?? "—"}</span>
-                <span>Beta: {t.fundamentals.beta?.toFixed(2) ?? "—"}</span>
+              {/* Cap / P/E / Beta — même alignement */}
+              <div className="mt-2 grid grid-cols-3 gap-0 text-[10px] text-muted-foreground border-t border-white/[0.04] pt-2">
+                <div className="text-center px-1 tabular-nums">
+                  Cap: {hasData ? fmtB(t.fundamentals.market_cap) : "—"}
+                </div>
+                <div className="text-center px-1 border-x border-white/[0.04] tabular-nums">
+                  P/E: {hasData ? (t.fundamentals.pe_ratio?.toFixed(1) ?? "—") : "—"}
+                </div>
+                <div className="text-center px-1 tabular-nums">
+                  Beta: {hasData ? (t.fundamentals.beta?.toFixed(2) ?? "—") : "—"}
+                </div>
               </div>
 
-              {t._quality_gate.status !== "ok" && (
-                <div className="mt-2 flex items-center gap-1.5 rounded-lg bg-red-500/10 px-2 py-1 text-xs text-red-400">
-                  <AlertTriangle className="h-3 w-3" />
-                  Quality gate: {t._quality_gate.status}
-                </div>
-              )}
+              <div className="mt-2 min-h-[22px] flex items-center">
+                {t._quality_gate && t._quality_gate.status !== "ok" && (
+                  <div className="flex items-center gap-1.5 rounded-lg bg-red-500/10 px-2 py-1 text-xs text-red-400">
+                    <AlertTriangle className="h-3 w-3" />
+                    Quality gate: {t._quality_gate.status}
+                  </div>
+                )}
+              </div>
 
               {reco && (
                 <div className="mt-2 flex items-center gap-1.5 text-xs text-muted-foreground">
@@ -776,6 +848,7 @@ export function TickerGrid({
             price={selectedPrice}
             reco={selectedReco}
             events={selectedEvents}
+            geo={selectedGeo}
             onClose={() => setSelectedTicker(null)}
           />
         )}

@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "date": "2026-05-17",
+    "signals_total": 0,
+    "signals_with_verdict": 0
+  },
+  "significance": {
+    "win_rate_observed": 0,
+    "p_value": 1.0,
+    "conclusion": "Insuffisant",
+    "alert": "Pas assez de signaux historiques — calibration en cours"
+  },
+  "risk_metrics": {
+    "sharpe": 0,
+    "sortino": 0,
+    "max_drawdown": 0,
+    "win_loss_ratio": 0,
+    "expectancy": 0
+  },
+  "overfitting": {
+    "rules_active": 0,
+    "alert": false
+  }
+}

@@ -8,7 +8,7 @@ if (!fs.existsSync(destDir)) {
   fs.mkdirSync(destDir, { recursive: true });
 }
 
-const files = fs.readdirSync(srcDir).filter((f) => f.endsWith("_latest.json"));
+const files = fs.readdirSync(srcDir).filter((f) => f.endsWith("_latest.json") || f === "latest.json");
 for (const file of files) {
   fs.copyFileSync(path.join(srcDir, file), path.join(destDir, file));
   console.log(`✓ Copied ${file}`);

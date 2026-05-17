@@ -633,6 +633,35 @@ Ce workflow produit **toujours** 3 livrables en séquence automatique, sans atte
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ÉTAPE 0 — FETCH DES DONNÉES (OBLIGATOIRE AVANT ANALYSE)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+> **Sans cette étape, le ticker n'aura pas de données techniques ni fondamentales**
+> **dans `data/latest.json` et le dashboard affichera "Données à venir".**
+
+1. Lancer le fetch automatique :
+   ```bash
+   make analyse TICKER=XXX
+   # ou directement :
+   ./scripts/analyse_ticker.sh XXX
+   ```
+   → Vérifie / ajoute le ticker dans `config/watchlist.json`
+   → Lance `scripts/fetch_prices.py --tickers XXX`
+   → Copie les données dans `frontend/dist/data/`
+   → Affiche un résumé des données récupérées (cours, RSI, ATR, P/E, consensus)
+
+2. Vérifier que `data/latest.json` contient bien le ticker avec :
+   - `price` (close, volume, change)
+   - `technical` (RSI 14j, ATR 14j, MM 50j/200j)
+   - `fundamentals` (P/E, forward P/E, beta, dividend yield)
+   - `fmp_consensus` (price target, nombre d'analystes) — si FMP activé
+
+3. Seulement après confirmation → passer à l'Étape 1 (analyse LLM)
+
+**Règle absolue :** ne JAMAIS lancer l'analyse LLM avant le fetch. Les agents ont
+besoin de `data/latest.json` pour produire des scores, des niveaux de stop-loss
+et des ratios R/R fondés sur des données réelles, pas des estimations.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ÉTAPE 1 — STRUCTURE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 1. Créer le dossier Actions/[TICKER]/

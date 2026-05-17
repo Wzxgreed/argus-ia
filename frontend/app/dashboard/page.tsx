@@ -14,6 +14,7 @@ import {
   QuantPanel,
   RiskPanels,
   PipelineStatus,
+  TickerData,
 } from "@/components/dashboard";
 
 const fadeIn = {
@@ -68,12 +69,12 @@ export default function DashboardPage() {
       setError(null);
 
       const results = await Promise.all(
-        DATA_FILES.map((f) => safeFetch(`../data/${f}`))
+        DATA_FILES.map((f) => safeFetch(`/data/${f}`))
       );
 
       const map: Record<string, any> = {};
       DATA_FILES.forEach((f, i) => {
-        const key = f.replace("_latest.json", "");
+        const key = f.replace(/_latest\.json$|\.json$/, "");
         map[key] = results[i] ?? {};
       });
 
@@ -91,7 +92,35 @@ export default function DashboardPage() {
   const recos = data.recommandations?.recommandations ?? [];
   const recosMap = Object.fromEntries(recos.map((r: any) => [r.ticker, r]));
   const meta = data.recommandations?.meta ?? {};
-  const prices = data.latest?.prices ?? {};
+  const allPrices: Record<string, TickerData> = data.latest?.prices ?? {};
+  const qualityTickers: Record<string, { status: string; reasons: string[] }> = data.quality_report?.tickers ?? {};
+
+  // Construire la liste des tickers : ceux avec données + placeholders pour les nouveaux
+  const prices: Record<string, TickerData> = {};
+  for (const r of recos) {
+    const t = r.ticker as string;
+    if (allPrices[t]) {
+      prices[t] = allPrices[t];
+    } else {
+      // Placeholder pour les tickers sans données dans latest.json
+      prices[t] = {
+        ticker: t,
+        price: { close: 0, change_pct: 0, volume: 0, volume_avg_20d: 1 },
+        technical: { rsi14: 0, atr14: 0, mm50: null },
+        fundamentals: {
+          sector: r.sector ?? "—",
+          market_cap: 0,
+          pe_ratio: 0,
+          forward_pe: null,
+          beta: 0,
+        },
+        options: { max_pain: 0, put_call_ratio: 0 },
+        _quality_gate: qualityTickers[t] ?? { status: "ok", reasons: [] },
+        _no_data: true,
+      };
+    }
+  }
+
   const quant = data.quant_report ?? {};
   const quality = data.quality_report ?? {};
   const geo = data.geo_risk ?? {};
@@ -188,7 +217,7 @@ export default function DashboardPage() {
         />
 
         <SummaryCards
-          tickersCount={meta.total_tickers ?? Object.keys(prices).length}
+          tickersCount={Object.keys(prices).length}
           recoCounts={meta.recommandations_count ?? {}}
         />
 
@@ -210,7 +239,7 @@ export default function DashboardPage() {
           <motion.div variants={fadeIn} initial="initial" whileInView="animate" viewport={{ once: true }} className="mb-4">
             <h2 className="text-lg font-semibold text-foreground">Cours & Technique</h2>
           </motion.div>
-          <TickerGrid tickers={prices} recos={recosMap} events={eventsByTicker} />
+          <TickerGrid tickers={prices} recos={recosMap} events={eventsByTicker} geo={geo} />
         </div>
 
         {/* Quant */}

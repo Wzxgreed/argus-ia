@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "date": "2026-05-17",
+    "btc_price": 78143.98
+  },
+  "analysis": {
+    "IREN": {
+      "correlation_30d": 0.82,
+      "beta_btc": 2.1,
+      "divergence_score": 4,
+      "premium_pct": 12,
+      "verdict": "Fortement corrélé — pivot IA non encore pricé"
+    }
+  }
+}
