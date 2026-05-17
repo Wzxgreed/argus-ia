@@ -48,8 +48,24 @@ def save_json(path: Path, data: dict):
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
 
 
+def load_dotenv(path: Path):
+    """Charge un fichier .env dans os.environ."""
+    if not path.exists():
+        return
+    for line in path.read_text().splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        if "=" in line:
+            key, val = line.split("=", 1)
+            os.environ.setdefault(key.strip(), val.strip())
+
+
 def load_config() -> dict:
     """Charge config depuis JSON puis override par env vars."""
+    # Charge .env.local s'il existe
+    load_dotenv(BASE_DIR / ".env.local")
+
     config = load_json(CONFIG_FILE)
     # Env vars priment sur le fichier de config
     if os.getenv("LLM_TARGET_URL"):
@@ -97,6 +113,44 @@ def update_usage(req_tokens: int, resp_tokens: int, calls: int = 1):
         save_json(dist_file, usage)
 
     return usage
+
+
+def openai_to_ollama(payload: dict) -> dict:
+    """Convertit une requête OpenAI en format Ollama natif."""
+    return {
+        "model": payload.get("model", "ministral-3:3b"),
+        "messages": payload.get("messages", []),
+        "stream": payload.get("stream", False),
+        "options": {
+            "temperature": payload.get("temperature", 0.7),
+        },
+    }
+
+
+def ollama_to_openai(ollama_resp: dict, req_tokens: int) -> dict:
+    """Convertit une réponse Ollama natif en format OpenAI."""
+    msg = ollama_resp.get("message", {})
+    prompt_eval = ollama_resp.get("prompt_eval_count", req_tokens)
+    eval_count = ollama_resp.get("eval_count", 0)
+    return {
+        "id": f"ollama-{ollama_resp.get('model', 'unknown')}",
+        "object": "chat.completion",
+        "created": int(time.time()),
+        "model": ollama_resp.get("model", "unknown"),
+        "choices": [{
+            "index": 0,
+            "message": {
+                "role": msg.get("role", "assistant"),
+                "content": msg.get("content", ""),
+            },
+            "finish_reason": "stop" if ollama_resp.get("done") else "length",
+        }],
+        "usage": {
+            "prompt_tokens": prompt_eval,
+            "completion_tokens": eval_count,
+            "total_tokens": prompt_eval + eval_count,
+        },
+    }
 
 
 def forward_request(target_url: str, api_key: str, body: bytes, headers: dict) -> tuple:
@@ -181,34 +235,53 @@ class ProxyHandler(BaseHTTPRequestHandler):
         target_url = config.get("endpoint", "http://localhost:11434/v1/chat/completions")
         api_key = config.get("api_key", "")
 
-        status, resp_body, latency = forward_request(target_url, api_key, body, dict(self.headers))
+        # Conversion OpenAI → Ollama natif si nécessaire
+        is_ollama_native = "ollama.com" in target_url or "/api/chat" in target_url
+        if is_ollama_native:
+            ollama_payload = openai_to_ollama(payload)
+            forward_body = json.dumps(ollama_payload).encode()
+        else:
+            forward_body = body
 
-        # Estimation tokens output
+        status, resp_body, latency = forward_request(target_url, api_key, forward_body, dict(self.headers))
+
+        # Estimation tokens output + conversion inverse
         resp_text = ""
+        prompt_eval = req_tokens
+        eval_count = 0
         try:
             resp_json = json.loads(resp_body)
-            choices = resp_json.get("choices", [])
-            if choices:
-                resp_text = choices[0].get("message", {}).get("content", "")
+            if is_ollama_native and "message" in resp_json:
+                # Format Ollama natif → OpenAI
+                prompt_eval = resp_json.get("prompt_eval_count", req_tokens)
+                eval_count = resp_json.get("eval_count", 0)
+                resp_text = resp_json.get("message", {}).get("content", "")
+                # Convertir la réponse pour le client
+                openai_resp = ollama_to_openai(resp_json, req_tokens)
+                resp_body = json.dumps(openai_resp).encode()
+                status = 200
+            elif "choices" in resp_json:
+                resp_text = resp_json["choices"][0].get("message", {}).get("content", "")
+                prompt_eval = resp_json.get("usage", {}).get("prompt_tokens", req_tokens)
+                eval_count = resp_json.get("usage", {}).get("completion_tokens", 0)
             elif "message" in resp_json:
                 resp_text = resp_json["message"].get("content", "")
             elif "response" in resp_json:
-                # Format Ollama natif
                 resp_text = resp_json.get("response", "")
         except Exception:
             resp_text = resp_body.decode(errors="ignore")
 
-        resp_tokens = estimate_tokens(resp_text)
+        resp_tokens = eval_count if eval_count else estimate_tokens(resp_text)
 
         # Mise à jour usage
-        usage = update_usage(req_tokens, resp_tokens)
+        usage = update_usage(prompt_eval, resp_tokens)
         daily = usage.get("daily_calls", 0)
         limit = load_json(CONFIG_FILE).get("daily_limit", 0)
         pct = daily / limit * 100 if limit else 0
 
         print(
             f"[{datetime.now(timezone.utc).strftime('%H:%M:%S')}] "
-            f"LLM call tracked — in:{req_tokens} out:{resp_tokens} "
+            f"LLM call tracked — in:{prompt_eval} out:{resp_tokens} "
             f"daily:{daily}/{limit} ({pct:.0f}%) "
             f"latency:{latency:.2f}s",
             flush=True,
@@ -216,7 +289,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
 
         # Retourne la réponse au client
         self.send_response(status)
-        for h in ("Content-Type", "Content-Length", "Cache-Control"):
+        for h in ("Content-Type", "Cache-Control"):
             v = self.headers.get(h)
             if v:
                 self.send_header(h, v)

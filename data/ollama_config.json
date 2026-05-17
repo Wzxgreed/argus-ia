@@ -3,7 +3,7 @@
   "tier_label": "Ollama Cloud Pro",
   "daily_limit": 5000,
   "monthly_limit": 150000,
-  "model": "kimi-k2.6:cloud",
-  "endpoint": "http://localhost:11434/v1/chat/completions",
+  "model": "ministral-3:3b",
+  "endpoint": "https://ollama.com/api/chat",
   "enabled": true
 }
