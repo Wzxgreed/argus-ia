@@ -156,11 +156,11 @@ def validate_snapshot(snapshot: dict) -> list:
     quality_report = load_quality_report()
     if quality_report:
         for ticker, result in quality_report.get("tickers", {}).items():
+            reasons_list = result.get("reasons", [])
+            reasons = "; ".join(r["message"] if isinstance(r, dict) else str(r) for r in reasons_list)
             if result.get("status") == "excluded":
-                reasons = "; ".join(r["message"] for r in result.get("reasons", []))
                 issues.append(f"[ERROR] {ticker}: EXCLU par data quality gate — {reasons}")
             elif result.get("status") == "warning":
-                reasons = "; ".join(r["message"] for r in result.get("reasons", []))
                 issues.append(f"[WARNING] {ticker}: Data quality warning — {reasons}")
         # Macro quality
         for reason in quality_report.get("global", {}).get("macro", []):
