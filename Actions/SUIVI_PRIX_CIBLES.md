@@ -42,7 +42,7 @@ Ce fichier recense **tous les prix cibles émis** dans les fichiers `_init.md` e
 
 | Date analyse | Ticker | Type fichier | Reco | Prix cible | Cours à l'analyse | Upside/Down | J+30 | J+90 | J+180 | Verdict final | Post-mortem |
 |-------------|--------|-------------|------|-----------|------------------|-------------|------|------|-------|--------------|-------------|
-| 2026-05-10 | IREN | `_init.md` | Achat | $85.00 | $61.20 | +38.9% | 2026-06-09 | 2026-08-08 | 2026-11-06 | ⏳ En cours | — |
+| 2026-05-17 | IREN | `_init.md` | ATTENDRE | $65.86 | $52.94 | +24.4% | 2026-06-16 | 2026-08-15 | 2026-11-13 | ⏳ En cours | — |
 
 ---
 
@@ -50,7 +50,7 @@ Ce fichier recense **tous les prix cibles émis** dans les fichiers `_init.md` e
 
 | Ticker | Date analyse | Prix cible | Cours analyse | J+30 prévu | J+90 prévu | J+180 prévu | Statut |
 |--------|-------------|-----------|--------------|-----------|-----------|------------|--------|
-| **IREN** | 2026-05-10 | $85.00 | $61.20 | 2026-06-09 | 2026-08-08 | 2026-11-06 | ⏳ En cours |
+| **IREN** | 2026-05-17 | $65.86 | $52.94 | 2026-06-16 | 2026-08-15 | 2026-11-13 | ⏳ En cours |
 
 ---
 
@@ -124,6 +124,6 @@ Ce fichier recense **tous les prix cibles émis** dans les fichiers `_init.md` e
 |----------|--------|
 | Prix cibles enregistrés | 1 |
 | Post-mortems prix cibles réalisés | 0 |
-| Taux de réussite global J+90 | — (en cours) |
+| Taux de réussite global J+90 | — |
 | Biais principal identifié | — |
 | Dernière révision des paramètres DCF | — |

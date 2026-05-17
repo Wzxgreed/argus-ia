@@ -8,9 +8,9 @@ Fichier lu automatiquement à chaque session. Si un seuil est franchi, un `_upda
 
 | Ticker | Type | Seuil | Cours réf. | Statut | Créée le |
 |--------|------|-------|------------|--------|----------|
-| **IREN** | Baisse | $54.20 | $61.20 | 🟢 Active | 2026-05-10 |
-| **IREN** | Hausse | $85.00 | $61.20 | 🟢 Active | 2026-05-10 |
-| **IREN** | Volume | >2× moy. 20j (>72.8M) | 36.4M moy. | 🟢 Active | 2026-05-10 |
+| **IREN** | Baisse | $45.00 | $52.94 | 🟢 Active | 2026-05-17 |
+| **IREN** | Hausse | $65.86 | $52.94 | 🟢 Active | 2026-05-17 |
+| **IREN** | Volume | >2× moy. 20j (>104.9M) | 52.4M moy. | 🟢 Active | 2026-05-17 |
 
 > **Types d'alerte simples disponibles :**
 > - `Baisse` — cours franchit un seuil à la baisse

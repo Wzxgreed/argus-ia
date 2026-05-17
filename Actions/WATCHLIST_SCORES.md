@@ -1,6 +1,6 @@
 # Watchlist — Scores & Radar du Jour
 
-**Mis à jour le :** 2026-05-16
+**Mis à jour le :** 2026-05-17
 **Régime macro actif :** Stagflation
 **Pondération du jour :** Catalyseur ×35% · Valorisation ×40% · Momentum ×25%
 
@@ -15,7 +15,7 @@
 |--------|-----|--------|--------|--------|---------------|----------|---------|---------------------|-------------|
 | NVDA | NVIDIA Corp | 7.5 | 6.0 | 6.5 | **6.7** | → | ✅ | Earnings 20 mai | 2026-05-16 |
 | XOM | ExxonMobil | 5.5 | 6.5 | 7.0 | **6.3** | ↑ | ✅ | Pétrole $105 | 2026-05-16 |
-| IREN | IREN Limited | 6.0 | 5.5 | 6.0 | **5.8** | ↓ | ⚠️ | Earnings demain | 2026-05-16 |
+| IREN | IREN Limited | 7.5 | 2.5 | 5.5 | **4.51** | ↓↓ | ⚠️ | Earnings aujourd'hui (J0) | 2026-05-17 |
 | VRT | Vertiv Holdings | 5.5 | 4.5 | 5.5 | **5.1** | → | ⚠️ | — | 2026-05-16 |
 | RTX | RTX Corp | 5.0 | 5.5 | 4.0 | **5.0** | ↓ | ✅ | — | 2026-05-16 |
 | AAPL | Apple Inc. | 5.0 | 5.0 | 5.0 | **5.0** | → | ⚠️ | Données manquantes | 2026-05-16 |

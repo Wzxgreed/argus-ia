@@ -22,15 +22,7 @@ Ce fichier trace la performance réelle de chaque opportunité signalée **et d�
 
 | Date signal | Ticker | Score | Type signal | Cours signal | J+5 | J+20 | J+60 | Verdict |
 |------------|--------|-------|-------------|-------------|-----|------|------|---------|
-| 2026-05-10 | INOD | 7.2/10 | Earnings beat + Big Tech deal | $84.89 | ✅ Hit (+13.0%) | ⏳ 2026-05-30 | ⏳ 2026-07-09 | ⏳ En cours |
-| 2026-05-10 | BA | 7.0/10 | Catalyseur événementiel (summit) | $237.36 | ❌ Miss (-7.0%) | ⏳ 2026-05-30 | ⏳ 2026-07-09 | ⏳ En cours |
-| 2026-05-10 | INTC | 6.7/10 | Rotation sectorielle IA | $124.92 | ❌ Miss (-13.0%) | ⏳ 2026-05-30 | ⏳ 2026-07-09 | ⏳ En cours |
-| 2026-05-11 | BA | 7.5/10 | Sommet Trump-Xi · CEO + commandes | ~$237 | ❌ Miss (-7.0%) | ⏳ 2026-05-31 | ⏳ 2026-07-10 | ⏳ En cours |
-| 2026-05-11 | INTC | 6.7/10 | IA CPU demand · Apple chip talks | ~$126 | ❌ Miss (-14.0%) | ⏳ 2026-05-31 | ⏳ 2026-07-10 | ⏳ En cours |
-| 2026-05-11 | RKLB | 6.5/10 | Space infra · Q1 record earnings | ~$105 | ✅ Hit (+19.0%) | ⏳ 2026-05-31 | ⏳ 2026-07-10 | ⏳ En cours |
-| 2026-05-12 | XOM | 7.35/10 | Énergie · Crise Iran/Hormuz · oil $100 · Stagflation | ~cours mkt | ⏳ 2026-05-17 | ⏳ 2026-06-01 | ⏳ 2026-07-11 | ⏳ En cours |
-| 2026-05-12 | RTX | 6.95/10 | Défense · Guerre Iran · Réarmement OTAN · Stagflation | ~cours mkt | ⏳ 2026-05-17 | ⏳ 2026-06-01 | ⏳ 2026-07-11 | ⏳ En cours |
-| 2026-05-12 | VRT | 6.45/10 | Infrastructure IA · Refroidissement DC · Stagflation | ~cours mkt | ⏳ 2026-05-17 | ⏳ 2026-06-01 | ⏳ 2026-07-11 | ⏳ En cours |
+| — | — | — | — | — | — | — | — | — |
 
 > *Ce tableau se remplit au fil des opportunités détectées.*
 
@@ -70,12 +62,7 @@ Ce fichier trace la performance réelle de chaque opportunité signalée **et d�
 
 | Ticker | Date signal | Score | Cours signal | Fenêtres ouvertes | Action requise |
 |--------|------------|-------|-------------|------------------|----------------|
-| INOD | 2026-05-10 | 7.2/10 | $84.89 | J+5: 2026-05-15 · J+20: 2026-05-30 · J+60: 2026-07-09 | Vérifier cours le 2026-05-15 |
-| BA | 2026-05-10 | 7.0/10 | $237.36 | J+5: 2026-05-15 · J+20: 2026-05-30 · J+60: 2026-07-09 | Vérifier cours le 2026-05-15 (post-summit) |
-| INTC | 2026-05-10 | 6.7/10 | $124.92 | J+5: 2026-05-15 · J+20: 2026-05-30 · J+60: 2026-07-09 | Vérifier cours le 2026-05-15 |
-| BA | 2026-05-11 | 7.5/10 | ~$237 | J+5: 2026-05-16 · J+20: 2026-05-31 · J+60: 2026-07-10 | Vérifier cours le 2026-05-16 (post-summit résultats) |
-| INTC | 2026-05-11 | 6.7/10 | ~$126 | J+5: 2026-05-16 · J+20: 2026-05-31 · J+60: 2026-07-10 | Vérifier le 2026-05-16 ⚠️ RSI overbought |
-| RKLB | 2026-05-11 | 6.5/10 | ~$105 | J+5: 2026-05-16 · J+20: 2026-05-31 · J+60: 2026-07-10 | Vérifier cours le 2026-05-16 |
+| — | — | — | — | — | — |
 
 ---
 

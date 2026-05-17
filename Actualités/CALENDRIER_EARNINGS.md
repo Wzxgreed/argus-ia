@@ -1,6 +1,6 @@
 # Calendrier Earnings — 30 prochains jours
 
-**Mis à jour le :** 2026-05-11
+**Mis à jour le :** 2026-05-17
 **Prochaine mise à jour :** 2026-05-18 (revue hebdomadaire Phase H4)
 
 > Ce fichier est lu automatiquement chaque matin (Phase 0 du bulletin).
@@ -41,7 +41,7 @@
 
 | Date | Ticker | Trimestre | EPS réel vs consensus | Rev. réelle vs consensus | Réaction cours | Analyse |
 |------|--------|-----------|----------------------|--------------------------|---------------|---------|
-| YYYY-MM-DD | | QX 20XX | $X.XX vs $X.XX (+/−X%) | $Xb vs $Xb (+/−X%) | +/−X% | [_earnings.md](../Actions/TICKER/TICKER_YYYY-MM-DD_earnings.md) |
+| 2026-05-17 | IREN | Q4 FY26 / Q1 FY27 | ⏳ En attente | ⏳ En attente | −9.35% (pre-market) | [IREN_2026-05-17_earnings.md](../Actions/IREN/IREN_2026-05-17_earnings.md) |
 
 ---
 
