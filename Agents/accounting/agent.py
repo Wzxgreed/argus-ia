@@ -20,12 +20,6 @@ Règles absolues :
   • F-Score ≤ 3/9 → 🔴 Santé faible → plafonner Score Valorisation à 3/10
 """
 
-import sys
-from pathlib import Path
-_scripts = Path(__file__).resolve().parent.parent / 'scripts'
-if str(_scripts) not in sys.path:
-    sys.path.insert(0, str(_scripts))
-
 import json
 import math
 import sys

@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pytest
 
-from scripts.update_context import (
+from agents.update_context.agent import (
     parse_index_md,
     get_latest_analysis,
     parse_tracking_errors,
@@ -82,7 +82,7 @@ class TestParseAlertes:
         )
         # parse_alertes reads from global ALERTES_PATH; we monkeypatch via a fixture if needed
         # For simplicity, override the global constant in the test by patching the module attribute
-        import scripts.update_context as uc
+        import agents.update_context.agent as uc
         orig = uc.ALERTES_PATH
         uc.ALERTES_PATH = alertes
         try:
@@ -102,7 +102,7 @@ class TestParseUpcomingEvents:
             "| IREN | earnings | 2026-05-17 | 0j | Earnings Q4 | fmp |\n",
             encoding="utf-8",
         )
-        import scripts.update_context as uc
+        import agents.update_context.agent as uc
         orig = uc.UPCOMING_PATH
         uc.UPCOMING_PATH = upcoming
         try:

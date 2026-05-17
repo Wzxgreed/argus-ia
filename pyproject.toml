@@ -32,7 +32,7 @@ dev = [
 ]
 
 [tool.setuptools]
-packages = ["scripts"]
+packages = ["scripts", "agents"]
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Black — Formatage automatique

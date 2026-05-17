@@ -27,33 +27,31 @@ Argus-IA/
 │   └── watchlist.json                     ← Tickers, secteurs, symboles macro, settings
 │
 ├── scripts/                               ← Pipeline de données Python
-│   ├── run_morning.sh                     ← Pipeline complet du matin (20 étapes + lockfile + rapport JSON + auto-push GitHub)
+│   ├── run_morning.sh                     ← Wrapper pipeline matin (orchestrator + lockfile + auto-push)
 │   ├── pipeline_status.sh                  ← Surveillance du pipeline depuis un autre terminal
 │   ├── auto_push.sh                       ← Helper commit + push automatique post-agent/pipeline
 │   ├── yahoo_worker.py                   ← Worker isolé yfinance (one-shot subprocess + timeout OS)
 │   ├── yahoo_worker_daemon.py            ← Worker yfinance pré-chauffé (daemon stdin/stdout)
 │   ├── yahoo_client.py                   ← Client HTTP REST Yahoo (requests, sans yfinance)
 │   ├── http_utils.py                     ← Wrapper HTTP : retry 3×, backoff exponentiel, cache disque, circuit breaker
+│   ├── agent_utils.py                    ← Helpers partagés agents (config, dates, symlinks, atomic writes)
 │   ├── fetch_prices.py                   ← Cours, volumes, technique, fondamentaux, options (Yahoo + FMP)
 │   ├── fetch_macro.py                    ← Indices, VIX, taux, FX, commodités, régime macro (Yahoo)
 │   ├── fetch_calendar.py                 ← Earnings dates, calendrier économique (Yahoo + FMP)
-│   ├── agent_news_fetcher.py             ← Fetch unifié des news pour tous les agents
-│   ├── learn_from_errors.py              ← Boucle d'apprentissage auto + calibration des scores (J+5/20/60/30/90/180)
-│   ├── agent_quant.py                    ← Agent Quant : signification statistique, Sharpe, calibration
-│   ├── agent_geo.py                      ← Agent Géopolitique : scan politique, exposition, scénarios
-│   ├── agent_crypto.py                   ← Agent Crypto-Correlation : BTC beta, NAV, divergence
-│   ├── agent_watchman.py                 ← Surveillance proactive : earnings, CEO, insiders, news, upgrades
-│   ├── detect_major_events.py            ← Détection événements majeurs : gap, volume, ATR, news keywords
-│   ├── agent_accounting.py               ← Fraude & qualité comptable : Beneish M-Score, Altman Z-Score, Piotroski F-Score, Sloan Ratio
-│   ├── agent_sector_rotation.py          ← Rotation sectorielle : RS vs SPY, crossovers, alignement macro
-│   ├── agent_event_driven.py             ← Event-Driven : M&A, buybacks, activism, guidance
-│   ├── agent_fx.py                       ← Exposition FX par ticker, impact revenus/EPS
-│   ├── agent_social.py                   ← Sentiment retail Reddit : mentions, pump detection, score social
-│   ├── agent_recommandation.py           ← Scoring 3 axes régime-aware + reco ACHETER/ATTENDRE/ÉVITER
-│   ├── paper_trading.py                  ← Moteur paper trading : sizing ATR, SL/TP, time stop, journal de performance
-│   ├── fetch_transcripts.py              ← NLP Transcript Analysis via FMP (optionnel — plan Enterprise+ requis)
 │   ├── fmp_client.py                     ← Client HTTP FMP Stable API (base /stable/, session keep-alive)
 │   └── validate.py                       ← Sanity checks + rapport d'erreurs
+│
+├── agents/                                ← Agents Python (BaseAgent + Pydantic schemas)
+│   ├── base.py                           ← BaseAgent abstrait (load_config, write_output, log, timer)
+│   ├── schemas.py                        ← Schémas Pydantic de sortie pour tous les agents
+│   ├── observability.py                  ← Logging JSONL structuré + collecteur de métriques
+│   ├── event_bus.py                      ← Bus d'événements pub/sub en mémoire (singleton)
+│   ├── pipeline.yaml                     ← Déclaration DAG des dépendances inter-agents
+│   ├── orchestrator.py                   ← Runner Python : résolution topologique + exécution parallèle
+│   ├── dashboard.py                      ← Générateur HTML de dashboard post-pipeline
+│   ├── protocol_validator.py             ← Validation des protocoles .md et cohérence pipeline
+│   ├── [name]/agent.py                   ← Un dossier par agent (quant, geo, crypto, watchman, ...)
+│   └── [name]/protocol.md                ← Protocole exécutable avec frontmatter YAML
 │
 ├── data/                                  ← Snapshots quotidiens (lu par l'agent)
 │   ├── YYYY-MM-DD.json                    ← Snapshot complet du jour (prix + macro + calendar)
@@ -975,6 +973,36 @@ Pour éviter les hangs au niveau C (libcurl) et le coût d'import répété de y
 
 Résultat : ≤10 tickers en ~6-8s (1 worker), >10 tickers en ~40s (2 workers). Avant : ~9 min avec one-shot.
 
+### Orchestrateur Python DAG (v3.0)
+Le pipeline est désormais piloté par `agents/orchestrator.py` qui remplace les phases bash inline :
+- Lit `agents/pipeline.yaml` pour construire le DAG de dépendances
+- Résolution topologique automatique : chaque niveau s'exécute en parallèle via `ThreadPoolExecutor`
+- Injection `PYTHONPATH` automatique pour tous les agents
+- Rapport JSON + dashboard HTML générés à la fin
+- `run_morning.sh` est un wrapper qui lance l'orchestrateur, puis fait le post-processing (DRAFT check, auto-push, notification)
+
+Usage :
+```bash
+python agents/orchestrator.py           # pipeline complet
+python agents/orchestrator.py --dry-run # vérifie le DAG
+python agents/orchestrator.py --agent=quant # agent unique
+```
+
+### BaseAgent + Pydantic schemas (Standardisation)
+Tous les agents héritent de `BaseAgent` (`agents/base.py`) :
+- `load_config()`, `load_latest()`, `write_output()`, `log()`, `tickers()`
+- `write_output()` écrit atomiquement un JSON daté + symlink `*_latest.json`
+- `run()` abstraite → retourne un modèle Pydantic validé (`agents/schemas.py`)
+- `main()` avec timer, logging structuré JSONL, et gestion d'erreurs
+
+Schémas Pydantic (`agents/schemas.py`) : `QuantReport`, `GeoRiskReport`, `CryptoReport`, `AccountingReport`, `SectorRotationReport`, `SocialSentimentReport`, `FXExposureReport`, `EventDrivenReport`, `UpcomingEventsReport`, `RecommendationsReport`, `QualityReport`, `MajorEventsReport`, `PaperTradingReport`, `TranscriptsNLPReport`, `ContextUpdateReport`, `LearningReport`.
+
+### Event Bus + Observability
+- **EventBus** (`agents/event_bus.py`) : pub/sub en mémoire singleton pour communication inter-agents
+- **Logging structuré** (`agents/observability.py`) : JSONL par agent dans `logs/agents/YYYY-MM-DD/{agent}.jsonl`
+- **Métriques** : durée, erreurs, tickers traités, outputs JSON écrits — rapport `logs/metrics_YYYY-MM-DD.json`
+- **Dashboard HTML** (`agents/dashboard.py` + `templates/dashboard.html`) : généré automatiquement à la fin du pipeline dans `logs/dashboard_YYYY-MM-DD.html` (timeline, erreurs, table des steps)
+
 ### Lockfile + Rapport JSON de fin de pipeline (v2.4)
 `run_morning.sh` implémente un mécanisme de lock pour éviter les double-lancements :
 - **Lockfile** : `data/.pipeline.lock` — PID + timestamp au démarrage
@@ -1014,20 +1042,22 @@ make install           # Créer venv + installer dépendances
 make test              # Suite de tests (pytest)
 make lint              # Ruff + Black check
 make format            # Black + Ruff fix
-make pipeline          # Lancer le pipeline du matin (avec auto-push final)
+make pipeline          # Lancer le pipeline du matin (orchestrator DAG + auto-push final)
 make status            # Voir l'état du pipeline en cours (lockfile + rapport JSON)
 make wait-pipeline     # Attendre la fin du pipeline + notification macOS
+make dashboard         # Générer le dashboard HTML depuis le dernier rapport
 make push              # Lint + test + push manuel
 make clean             # Nettoyer fichiers temporaires
 
-# Pipeline parallèle en 4 phases :
+# Pipeline parallèle en 4 phases (via orchestrator ou invocations directes) :
 make group-a           # Phase A : agents indépendants (parallel)
 make group-b           # Phase B : fetch données brutes (séquentiel)
 make group-c           # Phase C : agents dépendants (parallel)
 make group-d           # Phase D : agrégation finale (séquentiel)
 make pipeline-make      # Pipeline complet via Makefile (group-a → b → c → d)
 
-# Agents individuels avec auto-push intégré :
+# Agents individuels avec auto-push intégré (via orchestrator --agent) :
+make agent-news        # Fetch unifié des news → commit + push
 make agent-watchman    # Watchman → commit + push
 make agent-geo         # Géopolitique → commit + push
 make agent-crypto      # Crypto-correlation → commit + push

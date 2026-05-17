@@ -14,12 +14,6 @@ Output:
     data/fx_exposure_YYYY-MM-DD.json  (symlink latest)
 """
 
-import sys
-from pathlib import Path
-_scripts = Path(__file__).resolve().parent.parent / 'scripts'
-if str(_scripts) not in sys.path:
-    sys.path.insert(0, str(_scripts))
-
 import json
 import sys
 from datetime import datetime, timezone

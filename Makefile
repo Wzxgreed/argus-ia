@@ -1,24 +1,26 @@
-.PHONY: help install test lint format pipeline clean push status agent-watchman agent-geo agent-crypto agent-accounting agent-sector agent-social agent-fx agent-event agent-reco agent-news group-a group-b group-c group-d pipeline-make
+.PHONY: help install test lint format pipeline clean push status wait-pipeline dashboard agent-news agent-watchman agent-geo agent-crypto agent-accounting agent-sector agent-social agent-fx agent-event agent-reco group-a group-b group-c group-d pipeline-make
 
 help:
 	@echo "Argus-IA — Commandes disponibles"
 	@echo ""
-	@echo "  make install   → Créer venv + installer dépendances"
-	@echo "  make test      → Exécuter la suite de tests"
-	@echo "  make lint      → Vérifier le linting (Ruff)"
-	@echo "  make format    → Formater le code (Black)"
-	@echo "  make pipeline  → Lancer le pipeline du matin (20 étapes)"
-	@echo "  make status    → Voir l'avancement du pipeline en cours"
+	@echo "  make install      → Créer venv + installer dépendances"
+	@echo "  make test         → Exécuter la suite de tests"
+	@echo "  make lint         → Vérifier le linting (Ruff)"
+	@echo "  make format       → Formater le code (Black)"
+	@echo "  make pipeline     → Lancer le pipeline du matin (orchestrator DAG)"
+	@echo "  make status       → Voir l'avancement du pipeline en cours"
 	@echo "  make wait-pipeline → Attendre la fin du pipeline + notification"
-	@echo "  make clean     → Nettoyer les fichiers temporaires"
-	@echo "  make push      → Linter, tester, puis push sur GitHub"
+	@echo "  make dashboard    → Générer le dashboard HTML depuis le dernier rapport"
+	@echo "  make clean        → Nettoyer les fichiers temporaires"
+	@echo "  make push         → Linter, tester, puis push sur GitHub"
 	@echo ""
-	@echo "  Groupes parallèles (Makefile natif):"
-	@echo "  make group-a   → Agents indépendants (learn_from_errors, quant, geo)"
-	@echo "  make group-b   → Fetch données brutes (crypto, prices, macro, calendar, news)"
-	@echo "  make group-c   → Agents dépendants (8 agents en parallèle)"
+	@echo "  Groupes (Makefile natif — utilisent l'orchestrator):"
+	@echo "  make group-a      → Phase A : agents indépendants (parallel)"
+	@echo "  make group-b      → Phase B : fetch données brutes (sequential)"
+	@echo "  make group-c      → Phase C : agents dépendants (parallel)"
+	@echo "  make group-d      → Phase D : agrégation finale (sequential)"
 	@echo ""
-	@echo "  Agents individuels :"
+	@echo "  Agents individuels (via orchestrator --agent):"
 	@echo "  make agent-news      → Fetch unifié des news"
 	@echo "  make agent-watchman  → Watchman scan"
 	@echo "  make agent-geo       → Géopolitique"
@@ -57,6 +59,10 @@ status:
 wait-pipeline:
 	@./scripts/pipeline_status.sh --wait
 
+dashboard:
+	@echo "Generating dashboard from latest pipeline report..."
+	@source .venv/bin/activate && python3 agents/dashboard.py
+
 clean:
 	find . -type d -name "__pycache__" -exec rm -rf {} +
 	find . -type f -name "*.pyc" -delete
@@ -67,8 +73,18 @@ push: lint test
 	@echo "Lint + tests OK. Pushing to GitHub..."
 	git push origin main
 
-# ── Groupes parallèles (Makefile natif) ──────────────────────────────────────
-# Phase A : agents indépendants (pas besoin de latest.json)
+# ── Groupes parallèles (délégués à l'orchestrator) ────────────────────────────
+# L'orchestrator lit agents/pipeline.yaml et résout le DAG automatiquement.
+# Les groupes Make sont gardés pour compatibilité mais utilisent l'orchestrator.
+
+PYTHONPATH := $(shell pwd)/agents:$(shell pwd)/scripts:$(shell pwd)
+export PYTHONPATH
+
+PHASE_A_AGENTS = agents/learn_from_errors/agent.py agents/quant/agent.py agents/geo/agent.py
+PHASE_B_AGENTS = agents/crypto/agent.py scripts/fetch_prices.py agents/data_quality_gate/agent.py scripts/fetch_macro.py scripts/fetch_calendar.py agents/news_fetcher/agent.py
+PHASE_C_AGENTS = agents/watchman/agent.py agents/detect_major_events/agent.py agents/accounting/agent.py agents/sector_rotation/agent.py agents/social/agent.py agents/fx/agent.py agents/event_driven/agent.py agents/fetch_transcripts/agent.py
+PHASE_D_AGENTS = scripts/validate.py agents/recommandation/agent.py agents/paper_trading/agent.py agents/update_context/agent.py
+
 group-a:
 	@echo "=== Phase A : Independent agents (parallel) ==="
 	@source .venv/bin/activate && python3 agents/learn_from_errors/agent.py &
@@ -77,7 +93,6 @@ group-a:
 	@wait
 	@echo "Phase A complete."
 
-# Phase B : fetch données brutes (séquentiel, produit latest.json)
 group-b:
 	@echo "=== Phase B : Raw data fetch (sequential) ==="
 	@source .venv/bin/activate && python3 agents/crypto/agent.py
@@ -88,7 +103,6 @@ group-b:
 	@source .venv/bin/activate && python3 agents/news_fetcher/agent.py
 	@echo "Phase B complete."
 
-# Phase C : agents dépendants (parallèle, lisent latest.json)
 group-c:
 	@echo "=== Phase C : Dependent agents (parallel) ==="
 	@source .venv/bin/activate && python3 agents/watchman/agent.py &
@@ -102,7 +116,6 @@ group-c:
 	@wait
 	@echo "Phase C complete."
 
-# Phase D : agrégation finale (séquentielle)
 group-d:
 	@echo "=== Phase D : Final aggregation (sequential) ==="
 	@source .venv/bin/activate && python3 scripts/validate.py
@@ -114,54 +127,54 @@ group-d:
 pipeline-make: group-a group-b group-c group-d
 	@echo "Pipeline complete via Makefile."
 
-# ── Agents individuels avec auto-push ────────────────────────────────────────
+# ── Agents individuels avec auto-push ─────────────────────────────────────────
 
 agent-news:
 	@echo "Running unified news fetcher..."
-	@source .venv/bin/activate && python3 agents/news_fetcher/agent.py
+	@source .venv/bin/activate && python3 agents/orchestrator.py --agent=news_fetcher
 	@./scripts/auto_push.sh "News fetcher snapshot"
 
 agent-watchman:
 	@echo "Running Watchman agent..."
-	@source .venv/bin/activate && python3 agents/watchman/agent.py
+	@source .venv/bin/activate && python3 agents/orchestrator.py --agent=watchman
 	@./scripts/auto_push.sh "Watchman agent snapshot"
 
 agent-geo:
 	@echo "Running Geopolitical agent..."
-	@source .venv/bin/activate && python3 agents/geo/agent.py
+	@source .venv/bin/activate && python3 agents/orchestrator.py --agent=geo
 	@./scripts/auto_push.sh "Geopolitical agent snapshot"
 
 agent-crypto:
 	@echo "Running Crypto-correlation agent..."
-	@source .venv/bin/activate && python3 agents/crypto/agent.py
+	@source .venv/bin/activate && python3 agents/orchestrator.py --agent=crypto
 	@./scripts/auto_push.sh "Crypto agent snapshot"
 
 agent-accounting:
 	@echo "Running Accounting risk agent..."
-	@source .venv/bin/activate && python3 agents/accounting/agent.py
+	@source .venv/bin/activate && python3 agents/orchestrator.py --agent=accounting
 	@./scripts/auto_push.sh "Accounting agent snapshot"
 
 agent-sector:
 	@echo "Running Sector rotation agent..."
-	@source .venv/bin/activate && python3 agents/sector_rotation/agent.py
+	@source .venv/bin/activate && python3 agents/orchestrator.py --agent=sector_rotation
 	@./scripts/auto_push.sh "Sector rotation agent snapshot"
 
 agent-social:
 	@echo "Running Social sentiment agent..."
-	@source .venv/bin/activate && python3 agents/social/agent.py
+	@source .venv/bin/activate && python3 agents/orchestrator.py --agent=social
 	@./scripts/auto_push.sh "Social sentiment agent snapshot"
 
 agent-fx:
 	@echo "Running FX exposure agent..."
-	@source .venv/bin/activate && python3 agents/fx/agent.py
+	@source .venv/bin/activate && python3 agents/orchestrator.py --agent=fx
 	@./scripts/auto_push.sh "FX exposure agent snapshot"
 
 agent-event:
 	@echo "Running Event-Driven agent..."
-	@source .venv/bin/activate && python3 agents/event_driven/agent.py
+	@source .venv/bin/activate && python3 agents/orchestrator.py --agent=event_driven
 	@./scripts/auto_push.sh "Event-Driven agent snapshot"
 
 agent-reco:
 	@echo "Running Recommendation engine..."
-	@source .venv/bin/activate && python3 agents/recommandation/agent.py
+	@source .venv/bin/activate && python3 agents/orchestrator.py --agent=recommandation
 	@./scripts/auto_push.sh "Recommendation engine snapshot"

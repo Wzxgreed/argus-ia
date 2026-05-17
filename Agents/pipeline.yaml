@@ -1,0 +1,128 @@
+# agents/pipeline.yaml — DAG de dépendances du pipeline Argus-IA.
+# L'orchestrator résout le graphe et exécute les niveaux en parallèle.
+
+agents:
+  learn_from_errors:
+    module: agents.learn_from_errors.agent
+    class: LearnFromErrorsAgent
+    deps: []
+    allow_fail: false
+
+  quant:
+    module: agents.quant.agent
+    class: QuantAgent
+    deps: []
+    allow_fail: false
+
+  geo:
+    module: agents.geo.agent
+    class: GeoAgent
+    deps: []
+    allow_fail: false
+
+  # ── Phase 1 : Fetch données brutes ──────────────────────────────────────
+  crypto:
+    module: agents.crypto.agent
+    class: CryptoAgent
+    deps: []
+    allow_fail: false
+
+  prices:
+    script: scripts/fetch_prices.py
+    deps: []
+    allow_fail: false
+
+  data_quality_gate:
+    module: agents.data_quality_gate.agent
+    class: DataQualityGateAgent
+    deps: [prices]
+    allow_fail: false
+
+  macro:
+    script: scripts/fetch_macro.py
+    deps: []
+    allow_fail: false
+
+  calendar:
+    script: scripts/fetch_calendar.py
+    deps: []
+    allow_fail: false
+
+  news_fetcher:
+    module: agents.news_fetcher.agent
+    class: NewsFetcherAgent
+    deps: []
+    allow_fail: false
+
+  # ── Phase 2 : Agents dépendants ─────────────────────────────────────────
+  watchman:
+    module: agents.watchman.agent
+    class: WatchmanAgent
+    deps: [prices, macro, news_fetcher]
+    allow_fail: false
+
+  detect_major_events:
+    module: agents.detect_major_events.agent
+    class: DetectMajorEventsAgent
+    deps: [prices, news_fetcher]
+    allow_fail: false
+
+  accounting:
+    module: agents.accounting.agent
+    class: AccountingAgent
+    deps: [prices]
+    allow_fail: true
+
+  sector_rotation:
+    module: agents.sector_rotation.agent
+    class: SectorRotationAgent
+    deps: [prices, macro]
+    allow_fail: true
+
+  social:
+    module: agents.social.agent
+    class: SocialAgent
+    deps: [news_fetcher]
+    allow_fail: true
+
+  fx:
+    module: agents.fx.agent
+    class: FXAgent
+    deps: [prices, macro]
+    allow_fail: true
+
+  event_driven:
+    module: agents.event_driven.agent
+    class: EventDrivenAgent
+    deps: [news_fetcher]
+    allow_fail: true
+
+  fetch_transcripts:
+    module: agents.fetch_transcripts.agent
+    class: FetchTranscriptsAgent
+    deps: []
+    allow_fail: true
+
+  # ── Phase 3 : Agrégation finale ─────────────────────────────────────────
+  validate:
+    script: scripts/validate.py
+    deps: [data_quality_gate]
+    allow_fail: false
+
+  recommandation:
+    module: agents.recommandation.agent
+    class: RecommandationAgent
+    deps: [validate, quant, geo, crypto, accounting, sector_rotation, social, fx, event_driven, watchman]
+    allow_fail: false
+
+  paper_trading:
+    module: agents.paper_trading.agent
+    class: PaperTradingAgent
+    deps: [recommandation]
+    allow_fail: true
+
+  update_context:
+    module: agents.update_context.agent
+    class: UpdateContextAgent
+    deps: [recommandation, paper_trading, watchman]
+    allow_fail: true

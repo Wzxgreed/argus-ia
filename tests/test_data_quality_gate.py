@@ -5,11 +5,16 @@ from pathlib import Path
 
 import pytest
 
-from scripts.data_quality_gate import (
-    check_ticker,
-    classify_market_cap,
-    is_market_open,
-)
+from agents.data_quality_gate.agent import DataQualityGateAgent
+
+_agent = DataQualityGateAgent()
+classify_market_cap = _agent.classify_market_cap
+is_market_open = _agent.is_market_open
+
+
+def check_ticker(ticker, data, hist_snapshots):
+    result = _agent.check_ticker(ticker, data, hist_snapshots)
+    return result.model_dump()
 
 
 class TestCheckTicker:

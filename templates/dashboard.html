@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Argus-IA Dashboard — {{ date }}</title>
+<style>
+  :root {
+    --bg: #0b0f19;
+    --card: #111827;
+    --text: #e5e7eb;
+    --muted: #9ca3af;
+    --accent: #60a5fa;
+    --ok: #34d399;
+    --warn: #fbbf24;
+    --err: #f87171;
+    --border: #1f2937;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.4;
+  }
+  header {
+    padding: 24px 32px 12px;
+    border-bottom: 1px solid var(--border);
+    display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+  }
+  header h1 { margin: 0; font-size: 1.4rem; letter-spacing: 0.2px; }
+  header .meta { color: var(--muted); font-size: 0.9rem; }
+  main { padding: 24px 32px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-bottom: 24px; }
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px;
+    box-shadow: 0 2px 0 rgba(0,0,0,.2);
+  }
+  .card h3 { margin: 0 0 8px; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.6px; color: var(--muted); }
+  .card .value { font-size: 1.6rem; font-weight: 700; }
+  .ok { color: var(--ok); }
+  .warn { color: var(--warn); }
+  .err { color: var(--err); }
+  .section-title { margin: 24px 0 12px; font-size: 1.05rem; font-weight: 600; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+  th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; text-transform: uppercase; font-size: 0.78rem; letter-spacing: 0.4px; }
+  tr:hover td { background: rgba(255,255,255,.02); }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 0.78rem; font-weight: 700; }
+  .badge-ok { background: rgba(52,211,153,.12); color: var(--ok); }
+  .badge-warn { background: rgba(251,191,36,.12); color: var(--warn); }
+  .badge-err { background: rgba(248,113,113,.12); color: var(--err); }
+  .svg-chart { width: 100%; height: 220px; }
+  .row { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 24px; }
+  .col { flex: 1 1 420px; min-width: 320px; }
+  .legend { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px; font-size: 0.82rem; color: var(--muted); }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .dot { width: 10px; height: 10px; border-radius: 999px; }
+  footer { padding: 18px 32px; color: var(--muted); font-size: 0.82rem; border-top: 1px solid var(--border); }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Argus-IA Dashboard</h1>
+    <div class="meta">Pipeline run · {{ date }} · {{ duration }}s</div>
+  </div>
+  <div class="meta">Status: <span class="{{ status_class }}">{{ status }}</span></div>
+</header>
+
+<main>
+  <!-- KPI Cards -->
+  <div class="grid">
+    <div class="card">
+      <h3>Agents OK</h3>
+      <div class="value ok">{{ agents_ok }}</div>
+    </div>
+    <div class="card">
+      <h3>Agents Skipped</h3>
+      <div class="value warn">{{ agents_skipped }}</div>
+    </div>
+    <div class="card">
+      <h3>Agents Failed</h3>
+      <div class="value err">{{ agents_failed }}</div>
+    </div>
+    <div class="card">
+      <h3>Total Steps</h3>
+      <div class="value">{{ total_steps }}</div>
+    </div>
+    <div class="card">
+      <h3>Duration</h3>
+      <div class="value">{{ duration }}s</div>
+    </div>
+    <div class="card">
+      <h3>Phases</h3>
+      <div class="value">{{ phases_ok }} / 4 OK</div>
+    </div>
+  </div>
+
+  <!-- Charts row -->
+  <div class="row">
+    <div class="col card">
+      <h3 class="section-title">Timeline</h3>
+      <svg id="timeline-chart" class="svg-chart" viewBox="0 0 800 220" preserveAspectRatio="xMidYMid meet"></svg>
+      <div class="legend">
+        <span><span class="dot" style="background:var(--ok)"></span> OK</span>
+        <span><span class="dot" style="background:var(--warn)"></span> Skipped</span>
+        <span><span class="dot" style="background:var(--err)"></span> Failed</span>
+      </div>
+    </div>
+    <div class="col card">
+      <h3 class="section-title">Errors by Agent</h3>
+      <svg id="error-chart" class="svg-chart" viewBox="0 0 800 220" preserveAspectRatio="xMidYMid meet"></svg>
+    </div>
+  </div>
+
+  <!-- Metrics table -->
+  {% if metrics %}
+  <div class="card" style="margin-bottom:24px">
+    <h3 class="section-title">Metrics</h3>
+    <table>
+      <thead>
+        <tr><th>Agent</th><th>Metric</th><th>Value</th></tr>
+      </thead>
+      <tbody>
+        {% for agent, kv in metrics.items() %}
+          {% for k, v in kv.items() %}
+          <tr><td>{{ agent }}</td><td>{{ k }}</td><td>{{ v }}</td></tr>
+          {% endfor %}
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+
+  <!-- Steps table -->
+  <div class="card">
+    <h3 class="section-title">Steps Detail</h3>
+    <table>
+      <thead>
+        <tr><th>Name</th><th>Status</th><th>Duration</th><th>Exit Code</th><th>Command</th></tr>
+      </thead>
+      <tbody>
+        {% for step in steps %}
+        <tr>
+          <td>{{ step.name }}</td>
+          <td>
+            {% if step.status == 'ok' %}<span class="badge badge-ok">OK</span>
+            {% elif step.status == 'skipped' %}<span class="badge badge-warn">Skipped</span>
+            {% else %}<span class="badge badge-err">Failed</span>{% endif %}
+          </td>
+          <td>{{ step.duration_sec }}s</td>
+          <td>{{ step.exit_code }}</td>
+          <td style="font-size:0.78rem;color:var(--muted)">{{ step.cmd }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</main>
+
+<footer>
+  Generated by agents/dashboard.py · Argus-IA
+</footer>
+
+<script>
+const steps = {{ steps_json | safe }};
+const metrics = {{ metrics_json | safe }};
+
+// Timeline/Gantt chart
+(function(){
+  const svg = document.getElementById('timeline-chart');
+  const W = 800, H = 220, M = {top:18, right:18, bottom:60, left:140};
+  const w = W - M.left - M.right, h = H - M.top - M.bottom;
+  const total = Math.max(...steps.map(s => s.duration_sec || 0), 1);
+  const rowH = Math.min(28, h / Math.max(steps.length, 1));
+  const colors = { ok: '#34d399', skipped: '#fbbf24', failed: '#f87171' };
+
+  let html = '';
+  // grid lines
+  for (let i = 0; i <= 5; i++) {
+    const x = M.left + (w * i / 5);
+    html += `<line x1="${x}" y1="${M.top}" x2="${x}" y2="${M.top+h}" stroke="#1f2937" stroke-width="1"/>`;
+    html += `<text x="${x}" y="${M.top+h+16}" fill="#9ca3af" font-size="11" text-anchor="middle">${Math.round(total*i/5)}s</text>`;
+  }
+  steps.forEach((s, i) => {
+    const y = M.top + i * rowH + 4;
+    const barW = Math.max(2, (s.duration_sec / total) * w);
+    const color = colors[s.status] || '#9ca3af';
+    html += `<rect x="${M.left}" y="${y}" width="${barW}" height="${rowH-8}" rx="4" fill="${color}" opacity="0.9"/>`;
+    html += `<text x="${M.left-8}" y="${y + (rowH-8)/2 + 4}" fill="#e5e7eb" font-size="12" text-anchor="end">${s.name}</text>`;
+    html += `<text x="${M.left + barW + 6}" y="${y + (rowH-8)/2 + 4}" fill="#9ca3af" font-size="11">${s.duration_sec}s</text>`;
+  });
+  svg.innerHTML = html;
+})();
+
+// Error chart (simple bar chart for agents with errors)
+(function(){
+  const svg = document.getElementById('error-chart');
+  const W = 800, H = 220, M = {top:18, right:18, bottom:60, left:60};
+  const w = W - M.left - M.right, h = H - M.top - M.bottom;
+  const errorSteps = steps.filter(s => s.status !== 'ok');
+  if (errorSteps.length === 0) {
+    svg.innerHTML = `<text x="${W/2}" y="${H/2}" fill="#9ca3af" font-size="14" text-anchor="middle">No errors 🎉</text>`;
+    return;
+  }
+  const maxDur = Math.max(...errorSteps.map(s => s.duration_sec || 0), 1);
+  const barW = Math.min(60, w / errorSteps.length - 12);
+  let html = '';
+  errorSteps.forEach((s, i) => {
+    const bh = Math.max(4, (s.duration_sec / maxDur) * h);
+    const x = M.left + i * (w / errorSteps.length) + (w / errorSteps.length - barW) / 2;
+    const y = M.top + h - bh;
+    const color = s.status === 'failed' ? '#f87171' : '#fbbf24';
+    html += `<rect x="${x}" y="${y}" width="${barW}" height="${bh}" rx="4" fill="${color}"/>`;
+    html += `<text x="${x + barW/2}" y="${M.top + h + 16}" fill="#e5e7eb" font-size="11" text-anchor="middle">${s.name}</text>`;
+    html += `<text x="${x + barW/2}" y="${y - 6}" fill="#9ca3af" font-size="11" text-anchor="middle">${s.duration_sec}s</text>`;
+  });
+  svg.innerHTML = html;
+})();
+</script>
+</body>
+</html>
