@@ -33,7 +33,7 @@ CONFIG_PATH = BASE_DIR / "config" / "watchlist.json"
 DATA_DIR = BASE_DIR / "data"
 WORKER_PATH = BASE_DIR / "scripts" / "yahoo_worker.py"
 
-WORKER_TIMEOUT = 30  # seconds — tuera le subprocess si libcurl bloque
+WORKER_TIMEOUT = 120  # seconds — yfinance import peut prendre 60–90s
 
 
 # ---------------------------------------------------------------------------
