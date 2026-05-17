@@ -8,9 +8,13 @@ if (!fs.existsSync(destDir)) {
   fs.mkdirSync(destDir, { recursive: true });
 }
 
-const files = fs.readdirSync(srcDir).filter((f) => f.endsWith("_latest.json") || f === "latest.json");
+const files = fs.readdirSync(srcDir).filter((f) =>
+  f.endsWith("_latest.json") || f === "latest.json" || f.startsWith("ollama_")
+);
 for (const file of files) {
-  fs.copyFileSync(path.join(srcDir, file), path.join(destDir, file));
+  const destPath = path.join(destDir, file);
+  fs.copyFileSync(path.join(srcDir, file), destPath);
+  fs.chmodSync(destPath, 0o644);
   console.log(`✓ Copied ${file}`);
 }
 

@@ -153,6 +153,9 @@ find "$BASE_DIR/data" -maxdepth 1 -name '*.json' -exec cp -L {} "$BASE_DIR/front
 if [ -f "$BASE_DIR/data/$DATE_STR.json" ]; then
     cp -L "$BASE_DIR/data/$DATE_STR.json" "$BASE_DIR/frontend/dist/data/"
 fi
+# Ensure nginx (www-data) can read the files
+chmod -R 644 "$BASE_DIR/frontend/dist/data/"/*.json 2>/dev/null || true
+chmod 755 "$BASE_DIR/frontend/dist/data"
 log "INFO" "Data synced to frontend/dist/data/."
 
 # ─────────────────────────────────────────────────────────────────────────────

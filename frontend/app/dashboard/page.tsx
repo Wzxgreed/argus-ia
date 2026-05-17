@@ -15,6 +15,7 @@ import {
   RiskPanels,
   PipelineStatus,
   TickerData,
+  OllamaUsagePanel,
 } from "@/components/dashboard";
 
 const fadeIn = {
@@ -32,6 +33,8 @@ const DATA_FILES = [
   "crypto_correlation_latest.json",
   "social_sentiment_latest.json",
   "upcoming_events_latest.json",
+  "ollama_config.json",
+  "ollama_usage.json",
 ];
 
 async function safeFetch(url: string) {
@@ -130,6 +133,8 @@ export default function DashboardPage() {
   const crypto = data.crypto_correlation ?? {};
   const social = data.social_sentiment ?? {};
   const upcoming = data.upcoming_events ?? {};
+  const ollamaConfig = data.ollama_config ?? null;
+  const ollamaUsage = data.ollama_usage ?? null;
 
   const eventsByTicker: Record<string, any[]> = {};
   for (const ev of upcoming.events ?? []) {
@@ -226,12 +231,19 @@ export default function DashboardPage() {
         {/* Pipeline */}
         <PipelineStatus okAgents={18} />
 
-        {/* Charts + Table */}
+        {/* Ollama Cloud Usage + Score Chart */}
         <div className="grid gap-6 lg:grid-cols-3">
+          <div className="lg:col-span-1">
+            <OllamaUsagePanel config={ollamaConfig} usage={ollamaUsage} />
+          </div>
           <div className="lg:col-span-2">
             <RecommendationsTable recos={recos} />
           </div>
-          <div className="lg:col-span-1">
+        </div>
+
+        {/* Charts */}
+        <div className="grid gap-6 lg:grid-cols-3">
+          <div className="lg:col-span-3">
             <ScoreChart recos={recos} />
           </div>
         </div>
