@@ -13,8 +13,9 @@ if [ -z "$(git config --get user.email 2>/dev/null || true)" ]; then
     git config user.name "Argus-IA Bot"
 fi
 
-# Stage generated artefacts + project files that agents may modify
-git add data/ Actions/ Actualités/ Opportunités/ Alertes/ Portefeuille/ Agents/ logs/ scripts/ Makefile README.md requirements.txt pyproject.toml .github/ CLAUDE.md INSTALL.md 2>/dev/null || true
+# Stage ALL changes (new, modified, deleted) while respecting .gitignore
+# This ensures manual analyses (FULL REFRESH, new tickers, etc.) are also pushed
+git add -A 2>/dev/null || true
 
 # Commit only if there are changes
 if git diff --cached --quiet; then
