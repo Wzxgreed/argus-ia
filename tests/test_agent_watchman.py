@@ -135,7 +135,8 @@ class TestFetchEarningsFMP:
 
 
 class TestFetchEarningsYahoo:
-    @patch("agent_watchman.yf.Ticker")
+    @pytest.mark.slow
+    @patch("yfinance.Ticker")
     def test_dict_format(self, MockTicker):
         mock_stock = MagicMock()
         mock_stock.calendar = {
@@ -150,7 +151,8 @@ class TestFetchEarningsYahoo:
         assert len(result) == 1
         assert result[0]["type"] == "earnings"
 
-    @patch("agent_watchman.yf.Ticker")
+    @pytest.mark.slow
+    @patch("yfinance.Ticker")
     def test_none_calendar(self, MockTicker):
         mock_stock = MagicMock()
         mock_stock.calendar = None
@@ -159,7 +161,8 @@ class TestFetchEarningsYahoo:
         result = fetch_earnings_yahoo("AAPL")
         assert result == []
 
-    @patch("agent_watchman.yf.Ticker")
+    @pytest.mark.slow
+    @patch("yfinance.Ticker")
     def test_exception_handling(self, MockTicker):
         MockTicker.side_effect = Exception("Network error")
         result = fetch_earnings_yahoo("AAPL")
@@ -172,50 +175,49 @@ class TestFetchEarningsYahoo:
 
 
 class TestScanNewsProactive:
-    @patch("agent_watchman.yf.Ticker")
-    def test_detects_future_keywords(self, MockTicker):
-        mock_stock = MagicMock()
-        mock_stock.news = [
-            {
-                "content": {
-                    "title": "Apple will announce new products next week",
-                    "summary": "The company expects to reveal several innovations",
-                    "pubDate": "2026-05-16T10:00:00Z",
-                }
-            }
-        ]
-        MockTicker.return_value = mock_stock
+    def _write_news_file(self, tmp_path, news_data):
+        news_dir = tmp_path / "data"
+        news_dir.mkdir(parents=True, exist_ok=True)
+        news_path = news_dir / "news_latest.json"
+        news_path.write_text(json.dumps(news_data))
+        return news_path
 
-        result = scan_news_proactive("AAPL")
+    def test_detects_future_keywords(self, tmp_path):
+        self._write_news_file(tmp_path, {
+            "news": {
+                "AAPL": [
+                    {"title": "Apple will announce new products next week", "summary": "The company expects to reveal several innovations"},
+                ]
+            }
+        })
+        with patch("agent_watchman.DATA_DIR", tmp_path / "data"):
+            result = scan_news_proactive("AAPL")
         assert len(result) >= 1
         assert any("will_announce" in ev["type"] for ev in result)
 
-    @patch("agent_watchman.yf.Ticker")
-    def test_no_match_returns_empty(self, MockTicker):
-        mock_stock = MagicMock()
-        mock_stock.news = [
-            {
-                "content": {
-                    "title": "Random article about nothing special",
-                    "summary": "No keywords here",
-                }
+    def test_no_match_returns_empty(self, tmp_path):
+        self._write_news_file(tmp_path, {
+            "news": {
+                "AAPL": [
+                    {"title": "Random article about nothing special", "summary": "No keywords here"},
+                ]
             }
-        ]
-        MockTicker.return_value = mock_stock
-
-        result = scan_news_proactive("AAPL")
+        })
+        with patch("agent_watchman.DATA_DIR", tmp_path / "data"):
+            result = scan_news_proactive("AAPL")
         assert result == []
 
-    @patch("agent_watchman.yf.Ticker")
-    def test_deduplication(self, MockTicker):
-        mock_stock = MagicMock()
-        mock_stock.news = [
-            {"content": {"title": "Apple will announce something", "summary": ""}},
-            {"content": {"title": "Apple will announce something", "summary": ""}},
-        ]
-        MockTicker.return_value = mock_stock
-
-        result = scan_news_proactive("AAPL")
+    def test_deduplication(self, tmp_path):
+        self._write_news_file(tmp_path, {
+            "news": {
+                "AAPL": [
+                    {"title": "Apple will announce something", "summary": ""},
+                    {"title": "Apple will announce something", "summary": ""},
+                ]
+            }
+        })
+        with patch("agent_watchman.DATA_DIR", tmp_path / "data"):
+            result = scan_news_proactive("AAPL")
         # Même titre = dédup
         assert len(result) == 1
 

@@ -26,8 +26,6 @@ import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
-import yfinance as yf
-
 from fmp_client import FMPClient
 
 # ---------------------------------------------------------------------------
@@ -148,6 +146,7 @@ def fetch_earnings_fmp(fmp: FMPClient, ticker: str) -> list[dict]:
 
 def fetch_earnings_yahoo(ticker: str) -> list[dict]:
     """Récupère le calendrier earnings via Yahoo Finance."""
+    import yfinance as yf
     try:
         stock = yf.Ticker(ticker)
         cal = stock.calendar
