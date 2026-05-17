@@ -219,8 +219,44 @@ def main():
                 except Exception as e:
                     data = {"ticker": ticker, "error": True, "reason": str(e)}
 
+                # Fallback FMP si Yahoo daemon a échoué
+                if data.get("error") and fmp_active:
+                    print(
+                        f"[fetch_prices]   {ticker}: Yahoo KO — trying FMP fallback...",
+                        file=sys.stderr,
+                    )
+                    quote = fmp.get_quote(ticker)
+                    if isinstance(quote, list) and quote:
+                        q = quote[0]
+                        data = {
+                            "ticker": ticker,
+                            "error": False,
+                            "source": "fmp_fallback",
+                            "price": {
+                                "close": q.get("price"),
+                                "open": q.get("open"),
+                                "high": q.get("dayHigh"),
+                                "low": q.get("dayLow"),
+                                "previous_close": q.get("previousClose"),
+                                "volume": q.get("volume"),
+                                "change_pct": q.get("changesPercentage"),
+                            },
+                            "technical": {},
+                            "fundamentals": {
+                                "market_cap": q.get("marketCap"),
+                                "pe_ratio": q.get("pe"),
+                                "beta": q.get("beta"),
+                            },
+                            "options": {},
+                        }
+                        data = fmp.enrich_ticker(ticker, data)
+                        print(
+                            f"[fetch_prices]   {ticker}: FMP fallback OK (close=${data['price']['close']})",
+                            file=sys.stderr,
+                        )
+
                 # Enrich with FMP if available and Yahoo succeeded
-                if not data.get("error") and fmp_active:
+                elif not data.get("error") and fmp_active:
                     data = fmp.enrich_ticker(ticker, data)
 
                 snapshot["prices"][ticker] = data
@@ -234,8 +270,9 @@ def main():
                     snapshot["meta"]["tickers_ok"] += 1
                     close = data.get("price", {}).get("close")
                     rsi = data.get("technical", {}).get("rsi14")
+                    source_note = " [FMP fallback]" if data.get("source") == "fmp_fallback" else ""
                     print(
-                        f"[fetch_prices]   {ticker}: OK (close=${close}, RSI={rsi})",
+                        f"[fetch_prices]   {ticker}: OK{source_note} (close=${close}, RSI={rsi})",
                         file=sys.stderr,
                     )
 

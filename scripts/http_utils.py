@@ -16,10 +16,12 @@ Usage :
 import hashlib
 import json
 import os
+import threading
 import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlparse
 
 import requests
 
@@ -33,6 +35,66 @@ CACHE_DIR.mkdir(parents=True, exist_ok=True)
 DEFAULT_TIMEOUT = 15
 MAX_RETRIES = 3
 BACKOFF_BASE = 1.0  # secondes
+
+# ---------------------------------------------------------------------------
+# Circuit Breaker
+# ---------------------------------------------------------------------------
+CIRCUIT_FAILURE_THRESHOLD = 3
+CIRCUIT_RECOVERY_TIMEOUT = 60  # secondes
+
+
+class CircuitBreaker:
+    """Circuit breaker par domaine — empêche les appels répétés vers un service en panne."""
+
+    def __init__(self, domain: str):
+        self.domain = domain
+        self.failures = 0
+        self.last_failure = None
+        self.state = "CLOSED"  # CLOSED, OPEN, HALF_OPEN
+        self._lock = threading.Lock()
+
+    def _is_open(self) -> bool:
+        with self._lock:
+            if self.state == "OPEN":
+                if time.time() - self.last_failure > CIRCUIT_RECOVERY_TIMEOUT:
+                    self.state = "HALF_OPEN"
+                    return False
+                return True
+            return False
+
+    def record_success(self):
+        with self._lock:
+            self.failures = 0
+            self.state = "CLOSED"
+
+    def record_failure(self) -> bool:
+        """Retourne True si le circuit vient de basculer en OPEN."""
+        with self._lock:
+            self.failures += 1
+            self.last_failure = time.time()
+            if self.failures >= CIRCUIT_FAILURE_THRESHOLD:
+                if self.state != "OPEN":
+                    self.state = "OPEN"
+                    return True
+            return False
+
+
+_circuit_breakers: dict[str, CircuitBreaker] = {}
+_circuit_lock = threading.Lock()
+
+
+def _get_circuit(url: str) -> CircuitBreaker:
+    domain = urlparse(url).netloc
+    with _circuit_lock:
+        if domain not in _circuit_breakers:
+            _circuit_breakers[domain] = CircuitBreaker(domain)
+        return _circuit_breakers[domain]
+
+
+def get_circuit_status() -> dict[str, str]:
+    """Retourne l'état de tous les circuits pour debugging."""
+    with _circuit_lock:
+        return {cb.domain: cb.state for cb in _circuit_breakers.values()}
 
 
 def _cache_key(url: str, params: dict | None) -> str:
@@ -87,7 +149,7 @@ def http_get(
     use_cache: bool = True,
 ) -> dict:
     """
-    GET avec retry exponentiel + caching + timeout.
+    GET avec retry exponentiel + caching + timeout + circuit breaker.
 
     Retourne {"error": True, "reason": "..."} en cas d'échec,
     ou le JSON de la réponse en cas de succès.
@@ -100,7 +162,12 @@ def http_get(
         if cached is not None:
             return cached
 
-    # 2. Retry avec backoff
+    # 2. Circuit breaker
+    circuit = _get_circuit(url)
+    if circuit._is_open():
+        return {"error": True, "reason": f"Circuit OPEN for {circuit.domain} (cooling down {CIRCUIT_RECOVERY_TIMEOUT}s)"}
+
+    # 3. Retry avec backoff
     sess = session or requests
     last_error = "Unknown error"
 
@@ -109,6 +176,9 @@ def http_get(
             resp = sess.get(url, params=params, headers=headers, timeout=timeout)
             resp.raise_for_status()
             data = resp.json()
+
+            # Succès → réinitialiser le circuit
+            circuit.record_success()
 
             # Écrire dans le cache
             if use_cache:
@@ -132,7 +202,8 @@ def http_get(
             sleep_time = BACKOFF_BASE * (2 ** attempt)
             time.sleep(sleep_time)
 
-    # Tous les retries épuisés
+    # Tous les retries épuisés → enregistrer l'échec pour le circuit breaker
+    circuit.record_failure()
     return {"error": True, "reason": f"Max retries ({MAX_RETRIES}) exceeded. Last: {last_error}"}
 
 

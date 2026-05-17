@@ -29,9 +29,10 @@ Argus-IA/
 ├── scripts/                               ← Pipeline de données Python
 │   ├── run_morning.sh                     ← Pipeline complet du matin (20 étapes + auto-push GitHub)
 │   ├── auto_push.sh                       ← Helper commit + push automatique post-agent/pipeline
-│   ├── yahoo_worker.py                   ← Worker isolé yfinance (subprocess + timeout OS)
+│   ├── yahoo_worker.py                   ← Worker isolé yfinance (one-shot subprocess + timeout OS)
+│   ├── yahoo_worker_daemon.py            ← Worker yfinance pré-chauffé (daemon stdin/stdout)
 │   ├── yahoo_client.py                   ← Client HTTP REST Yahoo (requests, sans yfinance)
-│   ├── http_utils.py                     ← Wrapper HTTP : retry 3×, backoff exponentiel, cache disque
+│   ├── http_utils.py                     ← Wrapper HTTP : retry 3×, backoff exponentiel, cache disque, circuit breaker
 │   ├── fetch_prices.py                   ← Cours, volumes, technique, fondamentaux, options (Yahoo + FMP)
 │   ├── fetch_macro.py                    ← Indices, VIX, taux, FX, commodités, régime macro (Yahoo)
 │   ├── fetch_calendar.py                 ← Earnings dates, calendrier économique (Yahoo + FMP)
@@ -925,12 +926,17 @@ Quand un ticker suivi est détecté dans l'actualité, l'agent doit obligatoirem
 
 ## Infrastructure & Auto-Push GitHub
 
-### Architecture fetch Yahoo — subprocess isolé
-Pour éviter les hangs au niveau C (libcurl), `fetch_prices.py` ne charge plus `yfinance` dans le processus principal. Il lance `scripts/yahoo_worker.py` dans un **subprocess OS** via `subprocess.run(timeout=120s)`. Si le worker bloque, le timeout OS le tue proprement sans bloquer le pipeline.
-
-- **Timeout configuré** : 120s (yfinance 1.3.0 prend 60–90s rien que pour son import)
-- **Parallélisme** : `ThreadPoolExecutor(max_workers=4)` pour fetcher plusieurs tickers simultanément
+### Architecture fetch Yahoo — worker daemon pré-chauffé
+Pour éviter les hangs au niveau C (libcurl) et le coût d'import répété de yfinance (60–90s), `fetch_prices.py` utilise un **pool de daemons** (`scripts/yahoo_worker_daemon.py`) :
+- Chaque daemon charge yfinance **une seule fois** au démarrage, puis sert plusieurs tickers via stdin/stdout (JSON line protocol)
+- `fetch_prices.py` instancie `YahooWorkerPool(num_workers=2)` qui répartit les tickers en round-robin entre les daemons
+- Si un daemon échoue, le worker est automatiquement remplacé
+- **Timeout daemon** : 240s pour le chargement initial, 60s par ticker post-import
+- **Inactivité** : le daemon s'arrête automatiquement après 300s sans requête
+- **Fallback FMP** : si Yahoo est indisponible, `fetch_prices.py` tente `fmp.get_quote()` pour récupérer au moins le cours de clôture
 - **Écriture atomique** : `tempfile.NamedTemporaryFile` + `os.replace()` pour éviter les fichiers corrompus
+
+Résultat : 6 tickers en ~40s au lieu de 5–8 min avec l'ancienne architecture one-shot.
 
 ### Wrapper HTTP — `scripts/http_utils.py`
 Tous les appels réseau passent par `http_get()` avec :
@@ -938,6 +944,12 @@ Tous les appels réseau passent par `http_get()` avec :
 - **Caching disque** : `data/cache/YYYY-MM-DD/<md5>.json`, TTL = fin de journée UTC
 - **Timeout** : 15s par défaut
 - **Gestion d'erreurs** : retourne `{"error": True, "reason": "..."}` au lieu de raise
+
+**Circuit breaker** (P4) — par domaine :
+- 3 échecs consécutifs → circuit **OPEN** (bloque les appels pendant 60s)
+- Après 60s → circuit **HALF_OPEN** (teste un appel)
+- Succès → circuit **CLOSED** (normal)
+- Empêche les cascades de requêtes vers un service en panne (ex: rate-limit Yahoo)
 
 ### Helper `scripts/auto_push.sh`
 Commit + push automatique des artefacts générés (data, analyses, alertes, logs). Usage :
