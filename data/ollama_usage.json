@@ -1,10 +1,10 @@
 {
   "date": "2026-05-17",
-  "daily_calls": 0,
-  "daily_tokens_input": 0,
-  "daily_tokens_output": 0,
-  "monthly_calls": 0,
-  "monthly_tokens_input": 0,
-  "monthly_tokens_output": 0,
+  "daily_calls": 1,
+  "daily_tokens_input": 1,
+  "daily_tokens_output": 1,
+  "monthly_calls": 1,
+  "monthly_tokens_input": 1,
+  "monthly_tokens_output": 1,
   "history": []
 }

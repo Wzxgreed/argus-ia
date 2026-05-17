@@ -49,11 +49,19 @@ def save_json(path: Path, data: dict):
 
 
 def load_config() -> dict:
-    """Charge config depuis env puis JSON."""
+    """Charge config depuis JSON puis override par env vars."""
     config = load_json(CONFIG_FILE)
-    config.setdefault("endpoint", os.getenv("LLM_TARGET_URL", "http://localhost:11434/v1/chat/completions"))
-    config.setdefault("api_key", os.getenv("LLM_API_KEY", ""))
-    config.setdefault("proxy_port", int(os.getenv("LLM_PROXY_PORT", "11435")))
+    # Env vars priment sur le fichier de config
+    if os.getenv("LLM_TARGET_URL"):
+        config["endpoint"] = os.getenv("LLM_TARGET_URL")
+    if os.getenv("LLM_API_KEY"):
+        config["api_key"] = os.getenv("LLM_API_KEY")
+    if os.getenv("LLM_PROXY_PORT"):
+        config["proxy_port"] = int(os.getenv("LLM_PROXY_PORT"))
+    # Valeurs par défaut
+    config.setdefault("endpoint", "http://localhost:11434/v1/chat/completions")
+    config.setdefault("api_key", "")
+    config.setdefault("proxy_port", 11435)
     return config
 
 

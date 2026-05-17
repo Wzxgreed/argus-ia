@@ -4,6 +4,6 @@
   "daily_limit": 5000,
   "monthly_limit": 150000,
   "model": "kimi-k2.6:cloud",
-  "endpoint": "http://localhost:11435/v1/chat/completions",
+  "endpoint": "http://localhost:11434/v1/chat/completions",
   "enabled": true
 }
