@@ -158,9 +158,10 @@ CHAQUE MATIN — avant le workflow principal :
 ### Par fourchette de score
 | Score signal | Signaux | Win rate J+20 | Gain moyen J+20 | Post-mortems |
 |-------------|---------|--------------|----------------|--------------|
-| 9–10 | 0 | — | — | 0 |
-| 7–8 | 0 | — | — | 0 |
-| 6–7 | 0 | — | — | 0 |
+| 9.0-10.0 | 0 | — | — | 0 |
+| 8.0-8.99 | 0 | — | — | 0 |
+| 7.0-7.99 | 0 | — | — | 0 |
+| 6.0-6.99 | 0 | — | — | 0 |
 
 ### Par type de catalyseur
 | Type catalyseur | Signaux | Win rate J+20 | Tendance |

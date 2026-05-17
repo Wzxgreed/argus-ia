@@ -6,15 +6,13 @@ import sys
 from pathlib import Path
 from unittest.mock import MagicMock, patch
 
-from concurrent.futures import Future
-
 import pytest
 
 # Inject scripts/ dans le path pour les imports
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
 from fetch_prices import (
-    fetch_ticker_subprocess,
+    YahooWorkerPool,
     main,
     today_str,
 )
@@ -86,48 +84,78 @@ class TestTodayStr:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Integration : fetch_ticker_subprocess avec mock subprocess
+# YahooWorkerPool init / round-robin
 # ─────────────────────────────────────────────────────────────────────────────
 
 
-class TestFetchTickerSubprocess:
-    @patch("fetch_prices.subprocess.run")
-    def test_successful_fetch(self, mock_run):
-        payload = {
-            "ticker": "AAPL",
-            "error": False,
-            "price": {"close": 190.5},
-            "technical": {"rsi14": 55.0},
-        }
+class TestYahooWorkerPoolInit:
+    @patch("fetch_prices.subprocess.Popen")
+    @patch("fetch_prices.YahooWorkerPool._readline")
+    def test_single_worker_startup(self, mock_readline, mock_popen):
         mock_proc = MagicMock()
-        mock_proc.returncode = 0
-        mock_proc.stdout = json.dumps(payload)
-        mock_run.return_value = mock_proc
+        mock_popen.return_value = mock_proc
+        mock_readline.return_value = '{"status":"ready"}'
 
-        result = fetch_ticker_subprocess("AAPL")
+        pool = YahooWorkerPool(num_workers=1)
+        assert len(pool.workers) == 1
+        assert len(pool.locks) == 1
+        pool.close()
+
+    @patch("fetch_prices.subprocess.Popen")
+    @patch("fetch_prices.YahooWorkerPool._readline")
+    def test_default_one_worker(self, mock_readline, mock_popen):
+        mock_proc = MagicMock()
+        mock_popen.return_value = mock_proc
+        mock_readline.return_value = '{"status":"ready"}'
+
+        pool = YahooWorkerPool()  # default = 1
+        assert pool.num_workers == 1
+        pool.close()
+
+    @patch("fetch_prices.subprocess.Popen")
+    @patch("fetch_prices.YahooWorkerPool._readline")
+    def test_worker_startup_timeout(self, mock_readline, mock_popen):
+        mock_proc = MagicMock()
+        mock_popen.return_value = mock_proc
+        mock_readline.return_value = None  # timeout
+
+        with pytest.raises(RuntimeError, match="timed out"):
+            YahooWorkerPool(num_workers=1)
+
+
+class TestYahooWorkerPoolFetch:
+    @patch("fetch_prices.subprocess.Popen")
+    @patch("fetch_prices.YahooWorkerPool._readline")
+    def test_fetch_success(self, mock_readline, mock_popen):
+        mock_proc = MagicMock()
+        mock_popen.return_value = mock_proc
+        mock_readline.side_effect = [
+            '{"status":"ready"}',           # startup
+            '{"ticker":"AAPL","error":false}',  # fetch response
+        ]
+
+        pool = YahooWorkerPool(num_workers=1)
+        result = pool.fetch("AAPL")
         assert result["ticker"] == "AAPL"
         assert result["error"] is False
         assert "timestamp" in result
+        pool.close()
 
-    @patch("fetch_prices.subprocess.run")
-    def test_subprocess_timeout(self, mock_run):
-        import subprocess as sp
-        mock_run.side_effect = sp.TimeoutExpired(cmd="worker", timeout=30)
-
-        result = fetch_ticker_subprocess("AAPL")
-        assert result["error"] is True
-        assert "Timeout" in result["reason"]
-
-    @patch("fetch_prices.subprocess.run")
-    def test_worker_error(self, mock_run):
+    @patch("fetch_prices.subprocess.Popen")
+    @patch("fetch_prices.YahooWorkerPool._readline")
+    def test_fetch_timeout(self, mock_readline, mock_popen):
         mock_proc = MagicMock()
-        mock_proc.returncode = 1
-        mock_proc.stderr = "Worker crashed"
-        mock_run.return_value = mock_proc
+        mock_popen.return_value = mock_proc
+        mock_readline.side_effect = [
+            '{"status":"ready"}',
+            None,  # fetch timeout
+        ]
 
-        result = fetch_ticker_subprocess("BAD")
+        pool = YahooWorkerPool(num_workers=1)
+        result = pool.fetch("AAPL")
         assert result["error"] is True
-        assert "Worker exit code 1" in result["reason"]
+        assert "Worker timeout" in result["reason"]
+        pool.close()
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -138,31 +166,23 @@ class TestFetchTickerSubprocess:
 class TestMain:
     @patch("fetch_prices.load_config")
     @patch("fetch_prices.FMPClient")
-    @patch("fetch_prices.ThreadPoolExecutor")
-    def test_main_writes_snapshot(self, MockExecutor, MockFMP, mock_load_config, tmp_path):
+    @patch("fetch_prices.YahooWorkerPool")
+    def test_main_writes_snapshot(self, MockPool, MockFMP, mock_load_config, tmp_path):
         mock_load_config.return_value = {
             "tickers": [{"ticker": "AAPL"}],
         }
 
-        def make_future(result):
-            f = Future()
-            f.set_result(result)
-            return f
-
-        def submit_side_effect(fn, ticker):
-            return make_future({
-                "ticker": ticker,
-                "error": False,
-                "price": {"close": 190.5},
-                "technical": {"rsi14": 55.0, "atr14": 5.0},
-                "fundamentals": {"marketCap": 100},
-            })
-
-        mock_executor = MagicMock()
-        mock_executor.__enter__ = MagicMock(return_value=mock_executor)
-        mock_executor.__exit__ = MagicMock(return_value=False)
-        mock_executor.submit.side_effect = submit_side_effect
-        MockExecutor.return_value = mock_executor
+        mock_pool = MagicMock()
+        mock_pool.fetch.return_value = {
+            "ticker": "AAPL",
+            "error": False,
+            "price": {"close": 190.5},
+            "technical": {"rsi14": 55.0, "atr14": 5.0},
+            "fundamentals": {"marketCap": 100},
+        }
+        mock_pool.__enter__ = MagicMock(return_value=mock_pool)
+        mock_pool.__exit__ = MagicMock(return_value=False)
+        MockPool.return_value = mock_pool
 
         fmp_mock = MagicMock()
         fmp_mock.api_key = None
@@ -180,32 +200,32 @@ class TestMain:
         assert data["meta"]["tickers_ko"] == 0
 
     @patch("fetch_prices.load_config")
-    def test_main_with_ko_ticker(self, mock_load_config, tmp_path):
+    @patch("fetch_prices.FMPClient")
+    @patch("fetch_prices.YahooWorkerPool")
+    def test_main_with_ko_ticker(self, MockPool, MockFMP, mock_load_config, tmp_path):
         mock_load_config.return_value = {
             "tickers": [{"ticker": "AAPL"}, {"ticker": "BADTKR"}],
         }
 
-        def make_future(result):
-            f = Future()
-            f.set_result(result)
-            return f
-
-        def submit_side_effect(fn, ticker):
-            return make_future({
+        mock_pool = MagicMock()
+        def fetch_side_effect(ticker):
+            return {
                 "ticker": ticker,
                 "error": True,
                 "reason": "Timeout",
-            })
+            }
+        mock_pool.fetch.side_effect = fetch_side_effect
+        mock_pool.__enter__ = MagicMock(return_value=mock_pool)
+        mock_pool.__exit__ = MagicMock(return_value=False)
+        MockPool.return_value = mock_pool
 
-        mock_executor = MagicMock()
-        mock_executor.__enter__ = MagicMock(return_value=mock_executor)
-        mock_executor.__exit__ = MagicMock(return_value=False)
-        mock_executor.submit.side_effect = submit_side_effect
+        fmp_mock = MagicMock()
+        fmp_mock.api_key = None
+        MockFMP.return_value = fmp_mock
 
-        with patch("fetch_prices.ThreadPoolExecutor", return_value=mock_executor):
-            with patch("fetch_prices.DATA_DIR", tmp_path):
-                with patch("fetch_prices.CONFIG_PATH", tmp_path / "watchlist.json"):
-                    exit_code = main()
+        with patch("fetch_prices.DATA_DIR", tmp_path):
+            with patch("fetch_prices.CONFIG_PATH", tmp_path / "watchlist.json"):
+                exit_code = main()
 
         assert exit_code == 0
         snapshot_files = [f for f in tmp_path.glob("*.json") if not f.is_symlink()]

@@ -1,4 +1,4 @@
-.PHONY: help install test lint format pipeline clean push agent-watchman agent-geo agent-crypto agent-accounting agent-sector agent-social agent-fx agent-event agent-reco agent-news group-a group-b group-c
+.PHONY: help install test lint format pipeline clean push status agent-watchman agent-geo agent-crypto agent-accounting agent-sector agent-social agent-fx agent-event agent-reco agent-news group-a group-b group-c
 
 help:
 	@echo "Argus-IA — Commandes disponibles"
@@ -8,6 +8,8 @@ help:
 	@echo "  make lint      → Vérifier le linting (Ruff)"
 	@echo "  make format    → Formater le code (Black)"
 	@echo "  make pipeline  → Lancer le pipeline du matin (20 étapes)"
+	@echo "  make status    → Voir l'avancement du pipeline en cours"
+	@echo "  make wait-pipeline → Attendre la fin du pipeline + notification"
 	@echo "  make clean     → Nettoyer les fichiers temporaires"
 	@echo "  make push      → Linter, tester, puis push sur GitHub"
 	@echo ""
@@ -48,6 +50,12 @@ format:
 
 pipeline:
 	./scripts/run_morning.sh
+
+status:
+	@./scripts/pipeline_status.sh
+
+wait-pipeline:
+	@./scripts/pipeline_status.sh --wait
 
 clean:
 	find . -type d -name "__pycache__" -exec rm -rf {} +

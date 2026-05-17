@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# run_morning.sh — Pipeline complet du matin (Argus-IA v2.3).
+# run_morning.sh — Pipeline complet du matin (Argus-IA v2.4).
 # 20 étapes : Apprentissage → Quant → Geo → Crypto → Prix → Macro → Calendar → News
 #             → Watchman → Major Events → Accounting → Sector → Social → FX → Event
 #             → Transcripts → Validation → Recommandations → Paper Trading → Draft Check
@@ -21,6 +21,36 @@ if [ -f "$BASE_DIR/.venv/bin/activate" ]; then
 fi
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Lockfile — empêche le lancement simultané
+# ─────────────────────────────────────────────────────────────────────────────
+LOCK_FILE="$BASE_DIR/data/.pipeline.lock"
+REPORT_FILE="$BASE_DIR/data/pipeline_report_$(date -u +%Y-%m-%d).json"
+
+check_lock() {
+    if [ -f "$LOCK_FILE" ]; then
+        local locked_pid
+        locked_pid="$(python3 -c "import sys,json; d=json.load(open('$LOCK_FILE')); print(d.get('pid',''))")"
+        if [ -n "$locked_pid" ] && kill -0 "$locked_pid" 2>/dev/null; then
+            echo "ERROR: Pipeline déjà en cours (PID $locked_pid)."
+            echo "       Utilisez 'make status' pour surveiller, ou"
+            echo "       'rm $LOCK_FILE' si le pipeline est bloqué."
+            exit 1
+        else
+            echo "WARN: Lockfile stale détecté (PID $locked_pid mort). Suppression."
+            rm -f "$LOCK_FILE"
+        fi
+    fi
+}
+
+write_lock() {
+    python3 -c "import json,sys; json.dump({'pid':$$,'started_at':'$(date -u +%Y-%m-%dT%H:%M:%SZ)','version':'2.4'},open('$LOCK_FILE','w'))"
+}
+
+remove_lock() {
+    rm -f "$LOCK_FILE"
+}
+
+# ─────────────────────────────────────────────────────────────────────────────
 # Logging & Checkpoints
 # ─────────────────────────────────────────────────────────────────────────────
 LOG_DIR="$BASE_DIR/logs"
@@ -28,6 +58,15 @@ mkdir -p "$LOG_DIR"
 DATE_STR="$(date -u +%Y-%m-%d)"
 PIPELINE_LOG="$LOG_DIR/${DATE_STR}_pipeline.log"
 CHECKPOINT_FILE="$BASE_DIR/data/.pipeline_checkpoint"
+
+# Fichier temporaire pour accumuler les résultats de chaque step
+STEPS_LOG="$(mktemp)"
+
+cleanup() {
+    rm -f "$STEPS_LOG"
+    remove_lock
+}
+trap cleanup EXIT INT TERM
 
 # Logging helper
 log() {
@@ -57,6 +96,87 @@ clear_checkpoint() {
     rm -f "$CHECKPOINT_FILE"
 }
 
+# Helper pour logger le résultat d'un step
+log_step_result() {
+    local num="$1"
+    local name="$2"
+    local status="$3"
+    echo "{\"step\":$num,\"name\":\"$name\",\"status\":\"$status\",\"ts\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" >> "$STEPS_LOG"
+}
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Rapport JSON final
+# ─────────────────────────────────────────────────────────────────────────────
+generate_report() {
+    local status="$1"
+    local duration_sec="$2"
+    local started_at="$3"
+    local tickers_ok="${4:-0}"
+    local tickers_ko="${5:-0}"
+    local drafts_init="${6:-0}"
+    local drafts_refresh="${7:-0}"
+
+    python3 <<EOF
+import json, sys
+from pathlib import Path
+
+steps = []
+phases = {"A": "ok", "B": "ok", "C": "ok", "D": "ok"}
+agents_ok = 0
+agents_skipped = 0
+agents_failed = 0
+
+step_file = Path("$STEPS_LOG")
+if step_file.exists():
+    for line in step_file.read_text().strip().splitlines():
+        if not line.strip():
+            continue
+        step = json.loads(line)
+        steps.append(step)
+        st = step["status"]
+        if st == "ok":
+            agents_ok += 1
+        elif st == "skipped":
+            agents_skipped += 1
+        elif st == "failed":
+            agents_failed += 1
+            # Déterminer la phase
+            num = step["step"]
+            if num <= 2:
+                phases["A"] = "failed"
+            elif num <= 7:
+                phases["B"] = "failed"
+            elif num <= 15:
+                phases["C"] = "failed"
+            else:
+                phases["D"] = "failed"
+
+report = {
+    "date": "$DATE_STR",
+    "started_at": "$started_at",
+    "finished_at": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
+    "duration_sec": $duration_sec,
+    "status": "$status",
+    "phases": phases,
+    "steps": steps,
+    "summary": {
+        "agents_ok": agents_ok,
+        "agents_skipped": agents_skipped,
+        "agents_failed": agents_failed,
+        "total_steps": len(steps),
+        "tickers_fetched": $tickers_ok,
+        "tickers_failed": $tickers_ko,
+        "drafts_init": $drafts_init,
+        "drafts_refresh": $drafts_refresh,
+    }
+}
+
+out = Path("$REPORT_FILE")
+out.write_text(json.dumps(report, indent=2, ensure_ascii=False))
+print(f"Report written: {out}")
+EOF
+}
+
 # Run a pipeline step SEQUENTIALLY with logging and checkpointing
 run_step() {
     local num="$1"
@@ -76,10 +196,12 @@ run_step() {
         if [ "$allow_fail" = "true" ]; then
             log "WARN" "[$num] $name exited with code $exit_code (allowed)"
             write_checkpoint "$num" "skipped"
+            log_step_result "$num" "$name" "skipped"
             return 0
         else
             log "ERROR" "[$num] $name FAILED with code $exit_code"
             write_checkpoint "$num" "failed"
+            log_step_result "$num" "$name" "failed"
             log "ERROR" "Pipeline aborted at step $num. See $PIPELINE_LOG"
             exit $exit_code
         fi
@@ -87,6 +209,7 @@ run_step() {
 
     write_checkpoint "$num" "ok"
     log "INFO" "[$num] $name OK"
+    log_step_result "$num" "$name" "ok"
     return 0
 }
 
@@ -109,7 +232,9 @@ run_step_bg() {
         if [ $ec -ne 0 ] && [ "$allow_fail" != "true" ]; then
             echo "$num:$name:$ec" >> "$result_file"
         fi
-        write_checkpoint "$num" "$([ $ec -eq 0 ] && echo "ok" || ([ "$allow_fail" = "true" ] && echo "skipped" || echo "failed"))"
+        local status="$([ $ec -eq 0 ] && echo "ok" || ([ "$allow_fail" = "true" ] && echo "skipped" || echo "failed"))"
+        write_checkpoint "$num" "$status"
+        log_step_result "$num" "$name" "$status"
         log "INFO" "[$num] $name finished (exit $ec)"
     ) &
 }
@@ -121,8 +246,8 @@ wait_all_bg() {
     wait
     if [ -s "$result_file" ]; then
         log "ERROR" "[$phase_name] Some background steps failed:"
-        while IFS=: read -r step_name step_exit; do
-            log "ERROR" "  $step_name exited with code $step_exit"
+        while IFS=: read -r step_num step_name step_exit; do
+            log "ERROR" "  Step $step_num ($step_name) exited with code $step_exit"
         done < "$result_file"
         rm -f "$result_file"
         exit 1
@@ -134,11 +259,17 @@ wait_all_bg() {
 # ─────────────────────────────────────────────────────────────────────────────
 # Header
 # ─────────────────────────────────────────────────────────────────────────────
+check_lock
+write_lock
+STARTED_AT="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+START_TIME=$(date +%s)
+
 echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo " Argus-IA — Morning Data Pipeline"
-echo " Date: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+echo " Date: $STARTED_AT"
 echo " Log: $PIPELINE_LOG"
+echo " Report: $REPORT_FILE"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 log "INFO" "Pipeline started"
 
@@ -243,23 +374,49 @@ else
 fi
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Extract tickers stats from latest snapshot
+# ─────────────────────────────────────────────────────────────────────────────
+TICKERS_OK=0
+TICKERS_KO=0
+if [ -f "$BASE_DIR/data/$DATE_STR.json" ]; then
+    TICKERS_OK="$(python3 -c "import sys,json; d=json.load(open('$BASE_DIR/data/$DATE_STR.json')); print(d.get('meta',{}).get('tickers_ok',0))")"
+    TICKERS_KO="$(python3 -c "import sys,json; d=json.load(open('$BASE_DIR/data/$DATE_STR.json')); print(d.get('meta',{}).get('tickers_ko',0))")"
+fi
+
+# ─────────────────────────────────────────────────────────────────────────────
 # Auto-push to GitHub
 # ─────────────────────────────────────────────────────────────────────────────
 log "INFO" "Checking for changes to push to GitHub..."
+GIT_PUSHED="false"
 if bash "$BASE_DIR/scripts/auto_push.sh" "Pipeline matinal — snapshot du jour." >> "$PIPELINE_LOG" 2>&1; then
     log "INFO" "Changes pushed to GitHub successfully."
+    GIT_PUSHED="true"
 else
     log "INFO" "No changes to push or push failed."
 fi
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Footer
+# Footer + Rapport JSON
 # ─────────────────────────────────────────────────────────────────────────────
+END_TIME=$(date +%s)
+DURATION=$((END_TIME - START_TIME))
 clear_checkpoint
-log "INFO" "Pipeline complete — 20/20 steps done."
+
+# Générer le rapport JSON final
+generate_report "success" "$DURATION" "$STARTED_AT" "$TICKERS_OK" "$TICKERS_KO" "$DRAFT_INIT_COUNT" "$DRAFT_REFRESH_COUNT"
+
+log "INFO" "Pipeline complete — 20/20 steps done in ${DURATION}s."
+
+# Notification desktop (macOS)
+if command -v osascript >/dev/null 2>&1; then
+    osascript -e "display notification \"Pipeline Argus-IA terminé (${DURATION}s).\" with title \"Argus-IA\""
+fi
+
 echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo " Pipeline complete — 20/20 steps done."
+echo " Duration: ${DURATION}s"
+echo " Report: $REPORT_FILE"
 echo " Next: read data/latest.json + data/validation_report.txt + Alertes/UPCOMING_EVENTS.md"
 echo " Log: $PIPELINE_LOG"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"

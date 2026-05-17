@@ -21,6 +21,7 @@ import subprocess
 import sys
 import tempfile
 import threading
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
@@ -57,7 +58,7 @@ class YahooWorkerPool:
     Chaque daemon charge yfinance une seule fois, puis sert plusieurs tickers.
     """
 
-    def __init__(self, num_workers: int = 2):
+    def __init__(self, num_workers: int = 1):
         self.num_workers = num_workers
         self.workers = []
         self.locks = []
@@ -93,6 +94,9 @@ class YahooWorkerPool:
             self.workers.append(proc)
             self.locks.append(threading.Lock())
             print(f"[fetch_prices]   Worker {i} ready", file=sys.stderr)
+            # Petit délai entre workers pour éviter la contention d'import simultané
+            if i < num_workers - 1:
+                time.sleep(2)
 
     @staticmethod
     def _readline(stdout, timeout: float) -> str | None:
@@ -202,7 +206,9 @@ def main():
     }
 
     # --- Parallel fetching via daemon pool ---
-    num_workers = min(2, len(tickers))
+    # Pour ≤10 tickers, 1 worker suffit et évite la contention d'import + rate-limiting
+    # Pour >10 tickers, 2 workers pour paralléliser sans surcharger Yahoo
+    num_workers = 1 if len(tickers) <= 10 else min(2, len(tickers))
     with YahooWorkerPool(num_workers=num_workers) as pool:
         print(
             f"[fetch_prices] Fetching {len(tickers)} tickers with {num_workers} daemon(s)...",
