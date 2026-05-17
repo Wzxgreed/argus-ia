@@ -27,11 +27,15 @@ Argus-IA/
 │   └── watchlist.json                     ← Tickers, secteurs, symboles macro, settings
 │
 ├── scripts/                               ← Pipeline de données Python
-│   ├── run_morning.sh                     ← Pipeline complet du matin (16 étapes + auto-push GitHub)
+│   ├── run_morning.sh                     ← Pipeline complet du matin (20 étapes + auto-push GitHub)
 │   ├── auto_push.sh                       ← Helper commit + push automatique post-agent/pipeline
+│   ├── yahoo_worker.py                   ← Worker isolé yfinance (subprocess + timeout OS)
+│   ├── yahoo_client.py                   ← Client HTTP REST Yahoo (requests, sans yfinance)
+│   ├── http_utils.py                     ← Wrapper HTTP : retry 3×, backoff exponentiel, cache disque
 │   ├── fetch_prices.py                   ← Cours, volumes, technique, fondamentaux, options (Yahoo + FMP)
 │   ├── fetch_macro.py                    ← Indices, VIX, taux, FX, commodités, régime macro (Yahoo)
 │   ├── fetch_calendar.py                 ← Earnings dates, calendrier économique (Yahoo + FMP)
+│   ├── agent_news_fetcher.py             ← Fetch unifié des news pour tous les agents
 │   ├── learn_from_errors.py              ← Boucle d'apprentissage auto (fenêtres J+5/20/60/30/90/180)
 │   ├── agent_quant.py                    ← Agent Quant : signification statistique, Sharpe, calibration
 │   ├── agent_geo.py                      ← Agent Géopolitique : scan politique, exposition, scénarios
@@ -40,10 +44,13 @@ Argus-IA/
 │   ├── detect_major_events.py            ← Détection événements majeurs : gap, volume, ATR, news keywords
 │   ├── agent_accounting.py               ← Fraude & qualité comptable : Beneish M-Score, Altman Z-Score, Piotroski F-Score, Sloan Ratio
 │   ├── agent_sector_rotation.py          ← Rotation sectorielle : RS vs SPY, crossovers, alignement macro
-│   ├── paper_trading.py                  ← Moteur paper trading : sizing ATR, SL/TP, time stop, journal de performance
+│   ├── agent_event_driven.py             ← Event-Driven : M&A, buybacks, activism, guidance
+│   ├── agent_fx.py                       ← Exposition FX par ticker, impact revenus/EPS
 │   ├── agent_social.py                   ← Sentiment retail Reddit : mentions, pump detection, score social
+│   ├── agent_recommandation.py           ← Scoring 3 axes régime-aware + reco ACHETER/ATTENDRE/ÉVITER
+│   ├── paper_trading.py                  ← Moteur paper trading : sizing ATR, SL/TP, time stop, journal de performance
 │   ├── fetch_transcripts.py              ← NLP Transcript Analysis via FMP (optionnel — plan Enterprise+ requis)
-│   ├── fmp_client.py                     ← Client HTTP FMP Stable API (base /stable/)
+│   ├── fmp_client.py                     ← Client HTTP FMP Stable API (base /stable/, session keep-alive)
 │   └── validate.py                       ← Sanity checks + rapport d'erreurs
 │
 ├── data/                                  ← Snapshots quotidiens (lu par l'agent)
@@ -72,6 +79,8 @@ Argus-IA/
 │   ├── events_latest.json                 ← Symlink vers le dernier event-driven
 │   ├── recommandations_YYYY-MM-DD.json    ← Recommandations : action, niveaux, ratio R/R
 │   ├── recommandations_latest.json        ← Symlink vers les dernières recommandations
+│   ├── news_YYYY-MM-DD.json               ← News unifiées par ticker (Yahoo v1/search)
+│   ├── news_latest.json                   ← Symlink vers les dernières news
 │   └── history/
 │       └── prices/                        ← (futur) timeseries pour backtesting
 │
@@ -318,6 +327,21 @@ Signaux clés : **spread M&A** (arbitrage), **buyback net yield** (buyback − S
 **Sources :** Tous les JSON `*_latest.json` (`latest`, `quant`, `geo`, `crypto`, `accounting`, `sector_rotation`, `social_sentiment`, `fx_exposure`, `events`, `upcoming_events`)
 **Produit :** `data/recommandations_YYYY-MM-DD.json` + `Recommandations/YYYY-MM-DD.md` + déclenchement paper trading
 
+**Architecture du scoring (3 axes, pondération régime-aware) :**
+```
+Score Opportunité = (Catalyseur × A%) + (Valorisation × B%) + (Momentum × C%)
+```
+Pondérations par régime macro (A/B/C = Catalyseur/Valorisation/Momentum) :
+- Normal : 35 / 40 / 25
+- Risk-off : 30 / 45 / 25
+- Risk-on/Bull : 40 / 30 / 30
+- Pré-FOMC : 35 / 40 / 25
+- Pré-earnings : 45 / 30 / 25
+- Stagflation : 35 / 40 / 25
+- Récession : 25 / 50 / 25
+
+**Règle de disqualification :** si un score individuel ≤ 2/10 → action exclue du rapport, même si les deux autres sont élevés.
+
 **Score Global Composite /100 :**
 ```
 Score Global = Score Opportunité × 10
@@ -505,7 +529,7 @@ Base de données de la précision historique des analystes sell-side sur la watc
     → Si guidance cut > 5% → ajuster Score Catalyseur −3 pt
     → Si 13D filing → créer `_update.md` flash si pas déjà fait
 
-10. Lire `data/upcoming_events_latest.json` (si présent) et `Alertes/UPCOMING_EVENTS.md`
+12. Lire `data/upcoming_events_latest.json` (si présent) et `Alertes/UPCOMING_EVENTS.md`
    → Earnings à ≤ 3j : vérifier que `_preview.md` existe, sinon alerter immédiatement
    → Insider trades significatifs : noter dans l'analyse du jour
    → Upgrades/downgrades massifs : ajuster le Score Catalyseur
@@ -901,6 +925,20 @@ Quand un ticker suivi est détecté dans l'actualité, l'agent doit obligatoirem
 
 ## Infrastructure & Auto-Push GitHub
 
+### Architecture fetch Yahoo — subprocess isolé
+Pour éviter les hangs au niveau C (libcurl), `fetch_prices.py` ne charge plus `yfinance` dans le processus principal. Il lance `scripts/yahoo_worker.py` dans un **subprocess OS** via `subprocess.run(timeout=120s)`. Si le worker bloque, le timeout OS le tue proprement sans bloquer le pipeline.
+
+- **Timeout configuré** : 120s (yfinance 1.3.0 prend 60–90s rien que pour son import)
+- **Parallélisme** : `ThreadPoolExecutor(max_workers=4)` pour fetcher plusieurs tickers simultanément
+- **Écriture atomique** : `tempfile.NamedTemporaryFile` + `os.replace()` pour éviter les fichiers corrompus
+
+### Wrapper HTTP — `scripts/http_utils.py`
+Tous les appels réseau passent par `http_get()` avec :
+- **Retry exponentiel** : 3 tentatives, backoff 1s → 2s → 4s
+- **Caching disque** : `data/cache/YYYY-MM-DD/<md5>.json`, TTL = fin de journée UTC
+- **Timeout** : 15s par défaut
+- **Gestion d'erreurs** : retourne `{"error": True, "reason": "..."}` au lieu de raise
+
 ### Helper `scripts/auto_push.sh`
 Commit + push automatique des artefacts générés (data, analyses, alertes, logs). Usage :
 ```bash
@@ -918,6 +956,13 @@ make pipeline          # Lancer le pipeline du matin (avec auto-push final)
 make push              # Lint + test + push manuel
 make clean             # Nettoyer fichiers temporaires
 
+# Pipeline parallèle en 4 phases :
+make group-a           # Phase A : agents indépendants (parallel)
+make group-b           # Phase B : fetch données brutes (séquentiel)
+make group-c           # Phase C : agents dépendants (parallel)
+make group-d           # Phase D : agrégation finale (séquentiel)
+make pipeline-make      # Pipeline complet via Makefile (group-a → b → c → d)
+
 # Agents individuels avec auto-push intégré :
 make agent-watchman    # Watchman → commit + push
 make agent-geo         # Géopolitique → commit + push
@@ -933,7 +978,7 @@ make agent-reco        # Recommandations (acheter/conserver/vendre) → commit +
 ### CI GitHub Actions
 Fichier `.github/workflows/ci.yml` — exécuté à chaque push :
 1. Lint (Ruff)
-2. Tests (pytest)
+2. Tests (pytest, filtre `-m "not integration and not slow"`)
 3. Validation JSON Schema (`scripts/validate.py`)
 
 ### Dépôt GitHub
