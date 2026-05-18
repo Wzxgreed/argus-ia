@@ -1,4 +1,4 @@
-# CONTEXT — IREN — Dernière mise à jour : 2026-05-18 (rev. 21:00 UTC)
+# CONTEXT — IREN — Dernière mise à jour : 2026-05-18 (rev. 22:35 UTC)
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -55,14 +55,14 @@
 
 - **Date :** 2026-05-18
 - **Type :** update
-- **Fichier :** `IREN_2026-05-18_update.md` (rev. 21:00)
-- **Conclusion :** **Thèse : CONFIRMÉE — snapshot 21:00 UTC confirme stabilité totale des données vs 20:39 UTC. DRAFT_refresh traité et archivé. Aucun nouveau flux post-earnings. Scores inchangés (6.3/68.3).**
+- **Fichier :** `IREN_2026-05-18_update.md` (rev. 22:35)
+- **Conclusion :** **Thèse : CONFIRMÉE — snapshot 22:35 UTC confirme stabilité totale des données vs 21:00 UTC. DRAFT_refresh archivé. Aucun nouveau flux post-earnings. Scores inchangés (6.3/68.3).**
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 10.86% (seuil 5.0%) — ✅ DRAFT_refresh traité et archivé le 2026-05-18
+- **ATR_SPIKE** (medium) — ATR relatif 10.86% (seuil 5.0%)
 
 ---
 

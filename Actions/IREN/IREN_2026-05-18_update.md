@@ -1,14 +1,14 @@
-# IREN — Mise à Jour Quotidienne (2026-05-18, rev. 21:00 UTC)
+# IREN — Mise à Jour Quotidienne (2026-05-18, rev. 22:35 UTC)
 
-> **Type :** `_update.md` — Mise à jour post-pipeline soir (snapshot 21:00 UTC)
-> **Référence précédente :** [IREN_2026-05-18_update.md](IREN_2026-05-18_update.md) (rev. 20:39 UTC)
-> **Données source :** `data/latest.json` (timestamp 2026-05-18T21:00:02.393453+00:00), `data/recommandations_latest.json`
+> **Type :** `_update.md` — Mise à jour post-pipeline soir (snapshot 22:35 UTC)
+> **Référence précédente :** [IREN_2026-05-18_update.md](IREN_2026-05-18_update.md) (rev. 21:00 UTC)
+> **Données source :** `data/latest.json` (timestamp 2026-05-18T22:35:48.848245+00:00), `data/recommandations_latest.json`
 
 ---
 
 ## Résumé des Changements
 
-| Métrique | 2026-05-18 20:39 | 2026-05-18 21:00 | Δ |
+| Métrique | 2026-05-18 21:00 | 2026-05-18 22:35 | Δ |
 |----------|------------------|------------------|---|
 | **Cours close** | $50.46 | **$50.46** | **—** |
 | **Volume** | 42.39 M | **42.39 M** | **—** |
@@ -27,7 +27,7 @@
 | **Score Opportunité** | 6.3/10 | **6.3/10** | **—** |
 | **Score Global ajusté** | 68.3/100 | **68.3/100** | **—** |
 
-**Verdict :** Aucun changement de données brutes entre le snapshot 20:39 UTC et le snapshot 21:00 UTC. Le close, le volume, les indicateurs techniques et les scores agents sont strictement identiques. **DRAFT_refresh déclenché par ATR_SPIKE (10.86%) traité et archivé.** La structure technique reste intacte au-dessus de la MM50. **Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds Yahoo/FMP.** La thèse est **confirmée** sans révision de niveaux.
+**Verdict :** Aucun changement de données brutes entre le snapshot 21:00 UTC et le snapshot 22:35 UTC. Le close, le volume, les indicateurs techniques et les scores agents sont strictement identiques. **DRAFT_refresh déclenché par ATR_SPIKE (10.86%) traité et archivé.** La structure technique reste intacte au-dessus de la MM50. **Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds Yahoo/FMP.** La thèse est **confirmée** sans révision de niveaux.
 
 ---
 
@@ -57,7 +57,7 @@
 
 ## Mise à Jour Fondamentale
 
-**Aucun nouveau flux fondamental** depuis le snapshot 20:39. Les données FMP restent au FY 2025 (clos 2025-06-30). L'earnings Q1 2026 n'est toujours pas intégré dans Yahoo/FMP au snapshot 21:00 UTC.
+**Aucun nouveau flux fondamental** depuis le snapshot 21:00. Les données FMP restent au FY 2025 (clos 2025-06-30). L'earnings Q1 2026 n'est toujours pas intégré dans Yahoo/FMP au snapshot 22:35 UTC.
 
 | Métrique | Yahoo Finance | FMP Stable API | Écart | Source préférée |
 |----------|---------------|----------------|-------|-----------------|
@@ -115,6 +115,7 @@
 | **Short Interest** | 0.17% | Très faible — pas de short squeeze setup |
 | **Social Sentiment** | 0 mention, Score 0/10 | Aucun buzz Reddit/Yahoo |
 | **Event-Driven** | Aucun événement | `data/events_latest.json` vide pour IREN |
+| **News Yahoo** | Aucune | `data/news_latest.json` vide pour IREN |
 
 **Agent Crypto-Correlation (2026-05-17) :**
 - Corrélation 30j BTC : **0.82**
@@ -123,11 +124,11 @@
 - Premium vs NAV estimé : **+12%**
 - Verdict : *Fortement corrélé — pivot IA non encore pricé*
 
-**Commentaire :** L'absence de mentions sociales et l'absence de nouvelles flux institutionnels confirment que le mouvement reste technique/institutionnel. Le max pain à $33 reste un ancrage de risque de queue. Aucun upgrade/downgrade ni insider trade significatif détecté dans l'intervalle.
+**Commentaire :** L'absence de mentions sociales, de news et de flux institutionnels confirme que le mouvement reste technique/institutionnel. Le max pain à $33 reste un ancrage de risque de queue. Aucun upgrade/downgrade ni insider trade significatif détecté dans l'intervalle.
 
 ---
 
-## Scoring Global (Agent Recommandation — 2026-05-18, rev. 21:00)
+## Scoring Global (Agent Recommandation — 2026-05-18, rev. 22:35)
 
 | Axe | Score | Pondération | Poids ajusté |
 |-----|-------|-------------|--------------|
@@ -172,16 +173,28 @@
 
 ---
 
+## Gestion des DRAFT_refresh
+
+| DRAFT | Trigger | Conclusion | Statut |
+|-------|---------|------------|--------|
+| `_DRAFT_refresh_2026-05-17` | PRICE_GAP −9.35% + ATR_SPIKE 10.39% | **Confirm** — données inchangées, thèse stable | Archivé |
+| `_DRAFT_refresh_legacy` | PRICE_GAP −9.35% + ATR_SPIKE 10.39% | **Confirm** — données inchangées, thèse stable | Archivé |
+| `IREN_2026-05-18_DRAFT_refresh` | ATR_SPIKE 10.86% | **Confirm** — faux positit de volatilité résiduelle, données strictement identiques vs snapshot 21:00 UTC | Archivé |
+
+**Log REFRESH_LOG.md :** mise à jour avec conclusion confirm pour toutes les entrées incomplètes du 2026-05-18.
+
+---
+
 ## Conclusion
 
 **Thèse : CONFIRMÉE — données stables, DRAFT_refresh traité, aucun nouveau flux post-earnings**
 
-La structure technique d'IREN est **intacte** au-dessus de la MM50 à $45.00. Le snapshot 21:00 UTC confirme la stabilité totale des niveaux établis à 20:39 UTC (close $50.46, RSI 56.24, ATR $5.48). Le DRAFT_refresh déclenché par ATR_SPIKE (10.86%) a été analysé, conclu comme un faux positit de volatilité résiduelle (données inchangées), et archivé. Aucun nouveau flux fondamental, institutionnel ou optionnel n'est survenu dans l'intervalle.
+La structure technique d'IREN est **intacte** au-dessus de la MM50 à $45.00. Le snapshot 22:35 UTC confirme la stabilité totale des niveaux établis à 21:00 UTC (close $50.46, RSI 56.24, ATR $5.48). Le DRAFT_refresh déclenché par ATR_SPIKE (10.86%) a été analysé, conclu comme un faux positit de volatilité résiduelle (données inchangées), et archivé. Aucun nouveau flux fondamental, institutionnel, optionnel ou social n'est survenu dans l'intervalle.
 
 **Points clés :**
-1. **Cours stable** à $50.46 — aucun changement depuis 20:39 UTC
+1. **Cours stable** à $50.46 — aucun changement depuis 21:00 UTC
 2. **Volume stable** (80% du moyen) — participation inchangée
-3. **Earnings J-0** — résultats Q1 2026 toujours non intégrés dans FMP/Yahoo (fetch 21:00 UTC)
+3. **Earnings J-0** — résultats Q1 2026 toujours non intégrés dans FMP/Yahoo (fetch 22:35 UTC)
 4. **Score Opportunité 6.3/10** — inchangé (Catalyseur 8.3 compense Valorisation 4.5)
 5. **Score Global ajusté 68.3/100** — inchangé (bonus sectoriel XLK top momentum)
 6. **Filtre Qualité 4/6** inchangé — Quality Partielle, FCF négatif persistant
@@ -189,7 +202,7 @@ La structure technique d'IREN est **intacte** au-dessus de la MM50 à $45.00. Le
 8. **Proxy BTC intact** — corrélation 0.82, beta 2.1, divergence score 4/10
 9. **Max pain $33** — tail risk −34.6% en cas de guidance cut sévère
 10. **Sector rotation** : XLK top momentum (10/10) — contexte macro favorable au secteur
-11. **DRAFT_refresh traité** — ATR_SPIKE archivé comme faux positif de volatilité résiduelle
+11. **DRAFT_refresh traité** — ATR_SPIKE archivé comme faux positit de volatilité résiduelle
 
 **Récommandation :** Maintenir **ACHETER à sizing réduit** avec SL $39.50 / TP $66.90, **MAIS** :
 - **Ne pas renforcer** avant les résultats Q1 2026
