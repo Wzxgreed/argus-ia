@@ -1,8 +1,8 @@
-# PLTR — Mise à Jour Quotidienne (2026-05-18, close 20:12 UTC)
+# PLTR — Mise à Jour Quotidienne (2026-05-18, close 21:00 UTC)
 
-> **Source :** `data/latest.json` (snapshot 2026-05-18 21:00 UTC) + `data/recommandations_latest.json` + agents sector, FX, watchman, events  
+> **Source :** `data/latest.json` (snapshot 2026-05-18 21:00 UTC) + `data/recommandations_latest.json` + agents sector, FX, watchman, events, social  
 > **Référence précédente :** [PLTR_2026-05-17_init.md](PLTR_2026-05-17_init.md) (initiale)  
-> **Dernier update :** [PLTR_2026-05-18_update.md](PLTR_2026-05-18_update.md) (20:12 UTC — mêmes données)
+> **Dernier update :** aucun — ce fichier remplace la première version auto-générée à 20:12 UTC (mêmes données, format institutionnel consolidé)
 
 ---
 
@@ -26,7 +26,7 @@
 | Score Global ajusté | — | **42.5/100** | — |
 | Action | SURVEILLER | **SURVEILLER** | → **Confirmé** |
 
-**Verdict :** Le ticker a réalisé une séance de consolidation haussière (+0.86%) avec un RSI qui remonte nettement au-dessus de 40 (42.52), améliorant la configuration technique par rapport à l'initiale. Le sentiment options s'est renforcé (Put/Call en baisse à 0.69, Call OI à 59.3%). Les scores agents ont été révisés à la hausse (+2.1 pts sur l'Opportunité), principalement tirés par le Catalyseur (+2.8) et la Valorisation (+2.5), tandis que le Momentum reste faible (3.5/10, sous MM50). La thèse **SURVEILLER** est confirmée sans modification de direction.
+**Verdict :** Consolidation haussière (+0.86%) avec RSI remonté à 42.52 (sortie nette de la zone < 40). Structure options renforcée (Put/Call 0.69, Call OI 59.3%). Les scores agents ont été révisés à la hausse vs l'initiale du 17/05 (+2.1 pts sur l'Opportunité), tirés par le Catalyseur (+2.8) et la Valorisation (+2.5) suite à l'alimentation complète des données agents (consensus, FMP, options). Le Momentum reste faible (3.5/10) en raison de la position sous MM50 et du volume insuffisant. **Thèse SURVEILLER confirmée sans modification de direction.**
 
 ---
 
@@ -46,16 +46,16 @@
 | Timing verdict | **Défavorable** | Sous MM50 + volume sous moyenne |
 
 **Évolution vs initiale :**
-- **RSI** : remontée de 38.93 à 42.52 (+3.59) — éloignement significatif du seuil 40, mais toujours sous 50.
-- **MM50** : légère baisse de 144.40 à 143.96 — la résistance dynamique descend légèrement, rapprochant un potentiel test.
-- **Volume** : stable autour de 32M, bien en deçà de la moyenne 20j (44.26M). La liquidité institutionnelle reste absente.
+- **RSI** : remontée de 38.93 à 42.52 (+3.59) — éloignement du seuil 40, mais toujours sous 50.
+- **MM50** : légère baisse de 144.40 à 143.96 — résistance dynamique descendante, rapprochant un test potentiel.
+- **Volume** : stable autour de 32M, bien en deçà de la moyenne 20j (44.26M). Liquidité institutionnelle absente.
 - **Options** : Put/Call replié de 0.80 à 0.69, Call OI remonté de 55.4% à 59.3% — biais haussier modéré renforcé en début de semaine.
 
 ---
 
 ## Mise à Jour Fondamentale
 
-### Données FMP Annual FY2025 (inchangées)
+### Données FMP Annual FY2025 (inchangées vs initiale)
 
 | Métrique | Valeur | Contexte |
 |---------|--------|----------|
@@ -67,7 +67,7 @@
 | SBC / Revenue | 15.3% | Dilution significative par stock-based comp |
 | DSO | 85 jours | Cycle de conversion client modéré |
 | Cash Conversion Cycle | 81.3 jours | — |
-| ROIC (FMP) | 17.9% | Création de valeur confirmée |
+| ROIC (FMP key metrics) | 17.9% | Création de valeur confirmée |
 | Consensus Price Target | $187.61 | 33 analysts — upside théorique **+38.8%** |
 
 ### Divergences Yahoo vs FMP [DONNÉES PARTIELLES]
@@ -83,7 +83,7 @@
 **Interprétation :** Écart persistant entre sources. Aucune nouvelle donnée fondamentale ce jour. Les multiples restent extrêmes dans les deux cas, justifiant le Score Valorisation contenu (4.5/10).
 
 **Filtre Qualité (6 critères)**
-- Données Agent Accounting (M-Score, Z-Score, F-Score, Sloan) : `[DONNÉES MANQUANTES]` — fichier `data/accounting_risk_latest.json` absent
+- Données Agent Accounting (M-Score, Z-Score, F-Score, Sloan) : `[DONNÉES MANQUANTES]` — fichier `data/accounting_risk_latest.json` absent (agent skipped lors du pipeline)
 - Score Qualité : `[NON ÉVALUABLE]`
 - Verdict : Le Filtre Qualité ne peut pas être appliqué sans les signaux comptables agents. Cette absence est un risque méthodologique à noter.
 
@@ -93,7 +93,7 @@
 
 | Indicateur | Valeur | Commentaire |
 |-----------|--------|-------------|
-| News du jour | — | Aucune news PLTR détectée dans `data/news_latest.json` |
+| News du jour | — | Aucune news PLTR détectée dans le snapshot `data/latest.json` |
 | Social Sentiment (Reddit) | No data | Aucun post collecté — absence de signal retail |
 | Put/Call Ratio | **0.69** | Biais modéré vers les calls (vs 0.80 hier) |
 | Call OI % | **59.3%** | Appétence haussière modérée renforcée (vs 55.4%) |
@@ -144,8 +144,8 @@
 | DXY | Stable | Neutre — pas de divergence FX détectée |
 | XLK (Technology) | **Top sector** — Momentum 10.0/10, RS 20j +8.6% | **Vent favorable** structurel |
 | Beta 1.52 | Élevé | Amplifie les rotations sectorielles |
-| Geo Risk | Non flaggé | Pas d'événement géopolitique spécifique (`data/geo_risk_latest.json` : score 0 pour PLTR) |
-| Accounting Risk | [DONNÉES MANQUANTES] | `data/accounting_risk_latest.json` absent — Filtre Qualité non alimenté |
+| Geo Risk | Score 0 | Pas d'événement géopolitique spécifique (`data/geo_risk_latest.json`) |
+| Accounting Risk | [DONNÉES MANQUANTES] | `data/accounting_risk_latest.json` absent — agent skipped |
 | Quant Calibration | Insuffisant | Pas assez de signaux historiques (`p_value` 1.0) |
 | Social Sentiment | No data | Pas de signal retail exploitable |
 | FX Exposure | 55% export EUR/CNY | FX Impact Score 0.0 — neutral, divergence aligned |

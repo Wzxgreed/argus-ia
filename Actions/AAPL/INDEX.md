@@ -7,7 +7,7 @@ Apple est une entreprise de qualité institutionnelle exceptionnelle (Filtre Qua
 | Date | Fichier | Type |
 |------|---------|------|
 | 2026-05-17 | [AAPL_2026-05-17_init.md](AAPL_2026-05-17_init.md) | Analyse initiale (auto) |
-| 2026-05-18 | [AAPL_2026-05-18_update.md](AAPL_2026-05-18_update.md) | Mise à jour quotidienne (révisée post-pipeline 17:00 UTC) |
+| 2026-05-18 | [AAPL_2026-05-18_update.md](AAPL_2026-05-18_update.md) | Mise à jour quotidienne (révisée post-pipeline 20:24 UTC) |
 
 ## Agenda
 - **Prochain earnings :** 2026-07-30 (73 jours) — Est EPS $1.83–$1.99, Rev $109.0B

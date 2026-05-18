@@ -1,65 +1,65 @@
-# CONTEXT — FLY — Dernière mise à jour : 2026-05-18
+# CONTEXT — FLY — Derniere mise a jour : 2026-05-18
 
-> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
-> Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
+> Ce fichier est la **memoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
+> Mise a jour automatique par `agents/update_context/agent.py` a chaque passage du pipeline.
 
 ---
 
-## 🎯 Thèse active
+## Cible These active
 
 - **Recommandation :** ATTENDRE
-- **Score global :** 53.0/100 (58.0 ajusté)
+- **Score global :** 53.0/100 (58.0 ajuste)
 - **Prix cible :** $42.45 (consensus, sous le spot)
 - **Stop-loss :** $35.17
-- **Statut thèse :** Confirmée — données inchangées vs session 20:12 UTC, DRAFT_refresh intégré
+- **Statut these :** Confirmee — gap +8.71% confirme le momentum technique, fondamentaux inchanges
 - **Horizon :** —
 
 ---
 
-## 📉 Erreurs de prédiction récentes
+## Erreurs de prediction recentes
 
-- Aucune erreur enregistrée.
+- Aucune erreur enregistree.
 
 ---
 
-## 🚨 Alertes actives
+## Alertes actives
 
 - Aucune alerte active.
 
 ---
 
-## 📅 Prochains événements
+## Prochains evenements
 
 - Earnings Q2 2026 : **2026-08-04** (78 jours)
 - Expiration options : **2026-05-22**
 
 ---
 
-## 📊 Contexte technique (dernier snapshot)
+## Contexte technique (dernier snapshot)
 
 - **RSI 14j :** 67.08
 - **MM 50j :** $32.72
 - **MM 200j :** —
 - **ATR 14j :** $4.39
 - **Volume moy. 20j :** 6,239,757
-- **Volume jour :** 9,789,240 (1.57× moy.)
+- **Volume jour :** 9,789,240 (1.57x moy.)
 
 ---
 
-## 📝 Résumé dernière analyse
+## Resume derniere analyse
 
 - **Date :** 2026-05-18
 - **Type :** update (session 21:00 UTC)
 - **Fichier :** `FLY_2026-05-18_update.md`
-- **Conclusion :** Thèse ATTENDRE confirmée. Snapshot 21:00 UTC strictement identique à la session 20:12 UTC (cours $43.95, RSI 67.08, volume 9.79M, 1.57× moy.). DRAFT_refresh (triggers PRICE_GAP +8.71%, ATR_SPIKE 9.99%) intégré et archivé. Aucun changement matériel. Fondamentaux inchangés (Filtre Qualité 2/6, Forward P/E -38.50). Pas de position recommandée.
+- **Conclusion :** These ATTENDRE confirmee avec nuance haussiere technique. Gap +8.71% vs prior close ($40.43 -> $43.95), RSI 67.08, volume 9.79M (1.57x moy.). Fondamentaux inchanges (Filtre Qualite 2/6, Forward P/E -38.50, marges negatives). Consensus PT sous le spot. Aucune position recommandee.
 
 ---
 
-## 🔄 Triggers détectés (full refresh)
+## Triggers detectes (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +8.71% overnight (seuil ±5.0%)
+- **PRICE_GAP** (medium) — Gap +8.71% overnight (seuil +-5.0%)
 - **ATR_SPIKE** (medium) — ATR relatif 9.99% (seuil 5.0%)
 
 ---
 
-*Généré automatiquement — ne pas éditer manuellement.*
+*Genere automatiquement — ne pas editer manuellement.*
