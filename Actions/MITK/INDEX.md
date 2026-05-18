@@ -6,6 +6,7 @@
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
+| 2026-05-18 | [MITK_2026-05-18_update.md](MITK_2026-05-18_update.md) | Mise à jour quotidienne révisée post-pipeline 13:00 UTC (données de base inchangées, options rafraîchies Max Pain $20.00, Put/Call 0.14, thèse ATTENDRE confirmée) |
 | 2026-05-18 | [MITK_2026-05-18_update.md](MITK_2026-05-18_update.md) | Mise à jour quotidienne révisée post-pipeline 10:00 UTC (données inchangées, thèse ATTENDRE confirmée) |
 | 2026-05-18 | [MITK_2026-05-18_init.md](MITK_2026-05-18_init.md) | Full Refresh (triggers : PRICE_GAP +5.08%, ATR_SPIKE 6.03%) |
 | 2026-05-18 | MITK_2026-05-18_update.md (original) | Mise à jour quotidienne initiale |

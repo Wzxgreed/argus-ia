@@ -49,7 +49,7 @@
 - **Date :** 2026-05-18
 - **Type :** update
 - **Fichier :** `MITK_2026-05-18_update.md`
-- **Conclusion :** > Desk : Argus-IA | Pipeline : 10:00 UTC | Données : `data/latest.json` (2026-05-18T10:00:12Z) | Score Global : **51.0/100** | Action : **ATTENDRE**
+- **Conclusion :** > Desk : Argus-IA | Pipeline : 13:00 UTC | Données : `data/latest.json` (2026-05-18T13:00:12Z) | Score Global : **51.0/100** | Action : **ATTENDRE** | Options rafraîchies (Max Pain $20.00, Put/Call 0.14, Call OI 87.4%), données de base inchangées
 
 ---
 

@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
-- **Horizon :** —
+- **Recommandation :** ÉVITER
+- **Score global :** 27,0/100
+- **Prix cible :** $84,20 (consensus FMP)
+- **Stop-loss :** $105,47
+- **Statut thèse :** Confirmée
+- **Horizon :** Attendre retour $80–$95 ou inflexion fondamentale
 
 ---
 
@@ -30,7 +30,7 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings Q2 2026 : 2026-08-06 (80 jours)
 
 ---
 
@@ -41,15 +41,18 @@
 - **MM 200j :** —
 - **ATR 14j :** 9.65
 - **Volume moy. 20j :** 26365380
+- **Max Pain (éch. 2026-05-22) :** 150.00
+- **Put/Call ratio :** 0.81
+- **Call OI % :** 55.2
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** full refresh
-- **Fichier :** `RKLB_2026-05-18_init.md`
-- **Conclusion :** > Source : data/latest.json (2026-05-18) | Recommandations Agent | Validation OK
+- **Type :** update (snapshot 13:00 UTC)
+- **Fichier :** `RKLB_2026-05-18_update.md`
+- **Conclusion :** THÈSE CONFIRMÉE. Données inchangées vs snapshot matinal (close $124.77, RSI 73.28, ATR $9.65, MM50 $79.25). Seule évolution = correction data options (Max Pain $150, Put/Call 0.81, Call OI 55.2%). ÉVITER maintenu.
 
 ---
 

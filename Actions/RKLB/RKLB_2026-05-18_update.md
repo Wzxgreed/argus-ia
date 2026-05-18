@@ -1,12 +1,12 @@
 # RKLB — Mise à Jour Quotidienne (2026-05-18)
 
-> Source : data/latest.json (2026-05-18T10:00:11 UTC) | Agents quant, geo, accounting, social, fx, events, upcoming | Validation OK
+> Source : data/latest.json (2026-05-18T13:00:12 UTC) | Agents quant, geo, accounting, social, fx, events, upcoming | Validation OK
 
 ---
 
 ## 1. Résumé des Changements depuis l'Analyse Précédente
 
-| Métrique | 2026-05-18 08:54 | 2026-05-18 10:00 | Variation |
+| Métrique | 2026-05-18 10:00 | 2026-05-18 13:00 | Variation |
 |---|---|---|---|
 | **Cours close** | $124,77 | $124,77 | **0,00 %** |
 | **Change % séance** | –5,87 % | –5,87 % | — |
@@ -16,10 +16,13 @@
 | **Volume 20j** | 26,37 M | 26,37 M | — |
 | **Volume séance** | 22,36 M | 22,36 M | — |
 | **Consensus PT (FMP)** | $84,20 | $84,20 | — |
+| **Max Pain** | $45,00 (anomalie) | **$150,00** | **Corrigé** |
+| **Put/Call ratio** | N/A | **0,81** | **Nouveau** |
+| **Call OI %** | N/A | **55,2 %** | **Nouveau** |
 | **Score Global Agent** | 27,0/100 | 27,0/100 | — |
 | **Action Agent** | ÉVITER | ÉVITER | — |
 
-**Verdict** : Snapshot 10:00 UTC confirme l'absence de mouvement de données depuis la mise à jour matinale. Le titre reste à **$124,77** dans une configuration de surchauffe technique extrême (RSI 73,28, +57,3 % vs MM50j). Aucune news structurante, aucun catalyseur nouveau détecté. **Le DRAFT_refresh déclenché à 10:00 a été archivé (données identiques au full refresh complété à 09:02).**
+**Verdict** : Snapshot 13:00 UTC confirme l'absence de mouvement de cours depuis la mise à jour matinale. La seule évolution matérielle réside dans la **correction des données options** : le Max Pain passe de $45 (artefact data, échéance 2026-05-22) à **$150,00** (cohérent avec le spot $124,77). Le Put/Call ratio s'établit à **0,81** (légèrement baissier) avec un Call Open Interest de **55,2 %**. Le titre reste à $124,77 dans une configuration de surchauffe technique extrême (RSI 73,28, +57,3 % vs MM50j). Aucune news structurante, aucun catalyseur nouveau détecté. **ÉVITER maintenu.**
 
 ---
 
@@ -40,6 +43,7 @@
 - Support technique majeur : **$105,47** (spot – 2×ATR)
 - Résistance / Objectif : **$153,72** (spot + 3×ATR)
 - Confluence technique : $80–$95 (zone MM50j + compression historique)
+- **Max Pain** (éch. 2026-05-22) : **$150,00** — spot $124,77 en dessous du max pain ; pression d'expiration possible si le cours converge vers $150 d'ici le 22 mai, mais l'écart reste large (20 %).
 
 **Verdict timing : Défavorable** — Configuration overbought/extended non corrigée. Aucun signal de retournement ni de compression de volatilité.
 
@@ -83,13 +87,14 @@
 | Signal | Valeur | Évolution |
 |---|---|---|
 | **Consensus analystes (FMP)** | $84,20 (15 analysts, 3 couvertures ce mois) | Inchangé |
-| **Put/Call ratio** | N/A | [DONNÉES MANQUANTES] |
-| **Max Pain** | $45,00 | **Anomalie** (échéance 2026-05-22). Incohérent avec spot $124,77 — probable artefact data (options OTM, faible OI). **À ignorer.** |
+| **Put/Call ratio** | 0,81 | **Nouveau** — légèrement baissier (puts > calls en volume). |
+| **Call OI %** | 55,2 % | **Nouveau** — léger biais haussier en open interest. |
+| **Max Pain** | $150,00 | **Corrigé** (vs $45,00 artefact matinal). Échéance 2026-05-22. Spot $124,77 en dessous du max pain. |
 | **Short Interest** | 5,79 % | Élevé ; potentiel squeeze si catalyseur majeur, mais absent. |
-| **News du jour** | Aucune | `data/news_latest.json` vide pour RKLB. |
-| **Social Sentiment** | 0 mentions, score 0/10 | `data/social_sentiment_latest.json` — aucune activité retail détectée. |
+| **News du jour** | Aucune | `data/news_2026-05-18.json` vide pour RKLB. |
+| **Social Sentiment** | 0 mentions, score 0/10 | `data/social_sentiment_2026-05-18.json` — aucune activité retail détectée. |
 
-**Verdict Sentiment :** Neutre / Légèrement baissier — absence de momentum retail, consensus sell-side à –32,5 % du spot, short interest élevé sans catalyseur de squeeze.
+**Verdict Sentiment :** Neutre / Légèrement baissier — Put/Call 0,81 et absence de momentum retail compensés partiellement par un Call OI à 55,2 %. Consensus sell-side à –32,5 % du spot. Short interest élevé sans catalyseur de squeeze.
 
 ---
 
@@ -100,7 +105,7 @@
 | **Quant** | Pas assez de signaux historiques (p-value 1,0, calibration en cours). Sharpe/Sortino/MDD indisponibles. | [SIGNAUX NON SIGNIFICATIFS] — ne pas sur-interpréter le score jusqu'à calibration. |
 | **Géopolitique** | Non flaggué. `data/geo_risk_latest.json` — aucun événement politique détecté. | Aucun malus. |
 | **Comptable (Accounting)** | `data/accounting_risk_latest.json` non disponible. | [DONNÉES MANQUANTES] — pas d'ajustement. |
-| **Sector Rotation** | XLI (Industrials) momentum nul, sous-performe SPY 20j/60j. Top3 = XLK, XLE, XLF. | Malus sectoriel implicite – RKLB dans un secteur sans momentum. |
+| **Sector Rotation** | XLI (Industrials) momentum nul, sous-performe SPY 20j/60j. Top3 = XLK, XLE, XLF. | Malus sectoriel implicite — RKLB dans un secteur sans momentum. |
 | **FX Exposure** | Score FX Impact 0,0. Exposition 25 % export, direction USD, divergence aligned. | Aucun malus/bonus FX. |
 | **Event-Driven** | Aucun événement corporate détecté (M&A, buyback, guidance, activism). | Aucun bonus/malus. |
 | **Upcoming Events** | Earnings Q2 2026 le 2026-08-06 (80 jours). Est EPS –$0,06 à –$0,02 ; Rev $0,2 B. | Trop loin pour pricer. Pas de preview à générer. |
@@ -149,10 +154,12 @@
 
 **Verdict : THÈSE CONFIRMÉE 🔴 ÉVITER**
 
-Le snapshot 10:00 UTC confirme l'absence totale de nouveauté depuis l'analyse matinale. Le titre reste à $124,77 dans une configuration de surchauffe technique extrême (RSI 73,28, +57,3 % vs MM50) et de valorisation déconnectée des fondamentaux (Forward P/E –14 644, EV/Rev 104×, spot +48 % vs consensus analystes).
+Le snapshot 13:00 UTC confirme l'absence totale de nouveauté fondamentale ou technique depuis l'analyse matinale. Le titre reste à $124,77 dans une configuration de surchauffe technique extrême (RSI 73,28, +57,3 % vs MM50) et de valorisation déconnectée des fondamentaux (Forward P/E –14 644, EV/Rev 104×, spot +48 % vs consensus analystes).
+
+**Évolution notable** : La correction des données options invalide l'anomalie Max Pain $45 signalée ce matin. Le niveau révisé ($150, échéance 2026-05-22) est cohérent avec le spot, mais ne modifie pas la thèse : le Put/Call ratio 0,81 reste légèrement baissier et le Call OI 55,2 % ne constitue pas un catalyseur de squeeze sans volume adossé.
 
 **Points de vigilance** :
-1. **Anomalie Max Pain $45** — probable artefact data (échéance 2026-05-22), à ignorer jusqu'à confirmation manuelle.
+1. **Max Pain corrigé $150** — échéance 2026-05-22 (dans 4 jours). Spot $124,77 en dessous du max pain. Potentielle convergence vers $150 si pression d'expiration, mais l'écart de 20 % en 4 séances nécessiterait un catalyseur absent.
 2. **Écart consensus** — $124,77 vs PT $84,20 = 48 % de premium. Ce niveau ne résiste à aucun benchmark fondamental.
 3. **Absence de catalyseur** — 80 jours sans earnings, aucune news structurante, volume en dessous de la moyenne, 0 mention retail.
 4. **Calibration quant inactive** — p-value 1,0 (pas assez de signaux historiques). Le scoring actuel n'est pas validé empiriquement pour RKLB.
@@ -161,4 +168,4 @@ Le snapshot 10:00 UTC confirme l'absence totale de nouveauté depuis l'analyse m
 
 ---
 
-*Rapport généré le 2026-05-18 — Données : data/latest.json, data/recommandations_latest.json, data/quant_report_latest.json, data/geo_risk_latest.json, data/social_sentiment_latest.json, data/fx_exposure_latest.json, data/upcoming_events_latest.json, data/events_latest.json, data/news_latest.json*
+*Rapport généré le 2026-05-18 — Données : data/latest.json (2026-05-18T13:00:12), data/recommandations_latest.json, data/quant_report_latest.json, data/geo_risk_latest.json, data/social_sentiment_2026-05-18.json, data/fx_exposure_2026-05-18.json, data/upcoming_events_2026-05-18.json, data/events_2026-05-18.json, data/news_2026-05-18.json*
