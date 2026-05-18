@@ -123,3 +123,12 @@
 **Conclusion :** ARCHIVÉ — DRAFT résiduel traité par l'update du 2026-05-18 (snapshot 20:56 UTC). CONFIRME. Aucune modification de thèse. Données identiques au snapshot 20:12 UTC.
 
 ---
+
+## 2026-05-18 — Nettoyage DRAFT_refresh résiduels (snapshot 21:00 UTC)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.35% (seuil 5.0%)
+
+**Conclusion :** ARCHIVÉ — Les fichiers `_DRAFT_refresh_2026-05-18.md` et `SOFI_2026-05-18_DRAFT_refresh.md` ont été supprimés. Le `data/latest.json` (timestamp 2026-05-18T21:00:08+00:00) confirme l'absence de changement de données vs le snapshot 20:56 UTC : cours $15.71, RSI 32.70, ATR $0.84, MM50 $16.98, volume 0.97×. L'analyse `SOFI_2026-05-18_update.md` est à jour et ne nécessite pas de réécriture. Thèse SURVEILLER confirmée (Score Opportunité 5.7/10, Score Global 48.6/100). Pas de nouveau `_init.md` requis.
+
+---
