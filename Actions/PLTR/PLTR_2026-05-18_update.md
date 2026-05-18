@@ -130,8 +130,8 @@
 
 | Facteur | État | Impact PLTR |
 |---------|------|-------------|
-| Régime macro | Stagflation (CPI 3.8%, 10Y 4.595%, pétrole $105+) | Pénalisant pour les multiples de croissance élevés |
-| DXY | Stable (0% change) | Neutre |
+| Régime macro | **Unknown** (source : `data/sector_rotation_latest.json`) | Pas d'ajustement régime-aware applicable |
+| DXY | Stable (0% change) | Neutre — source : `data/fx_exposure_latest.json` |
 | XLK (Technology) | **Top sector** — Momentum 10.0/10, RS 20j +10.1% | **Vent favorable** structurel |
 | FX Exposure PLTR | 55% revenus hors-USD (EUR/CNY) | fx_impact_score 0.0 — aligned, pas de divergence |
 | Beta 1.52 | Élevé | Amplifie les rotations sectorielles |
