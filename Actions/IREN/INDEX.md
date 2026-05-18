@@ -11,6 +11,8 @@
 
 IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le gap **-9.35%** du 2026-05-17, jour des earnings, a stabilisé le cours à **$52.94** (inchangé le 2026-05-18), confirmant la volatilité extrême inhérente au titre (beta 4.18).
 
+**DRAFT full refresh traité (2026-05-18)** : triggers PRICE_GAP -9.35% + ATR_SPIKE 10.39% — confirment la volatilité mais n'invalident pas la thèse. Divergence Yahoo/FMP identifiée sur market cap et EV multiples → privilégier Yahoo pour IREN.
+
 **Score Opportunité : 5.8/10** (Catalyseur 7.8, Valorisation 4.0, Momentum 6.0)
 **Score Global ajusté : 63.3/100**
 **Action : ACHETER — Sizing Réduit** — réservé aux portefeuilles tolérants au risque

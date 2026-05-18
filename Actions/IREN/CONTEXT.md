@@ -59,9 +59,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** update
+- **Type :** update + DRAFT_refresh traité
 - **Fichier :** `IREN_2026-05-18_update.md`
-- **Conclusion :** Thèse confirmée avec réserve. Cours stable $52.94 post-gap (-9.35%). Earnings Q1 2026 attendu aujourd'hui (résultats non encore dans les feeds). Score Opportunité 5.8/10 inchangé. Filtre Qualité 4/6. Proxy BTC intact (corr 0.82, beta 2.1). Maintenir ACHETER sizing réduit avec SL $41.94 / TP $69.44, attendre résultats earnings avant nouvelle entrée.
+- **Conclusion :** Thèse confirmée avec réserve. Cours stable $52.94 post-gap (-9.35%). Earnings Q1 2026 attendu aujourd'hui (résultats non encore dans les feeds). Score Opportunité 5.8/10 inchangé. Filtre Qualité 4/6. Proxy BTC intact (corr 0.82, beta 2.1). Divergence Yahoo/FMP identifiée (market cap, EV/EBITDA, P/B) — privilégier Yahoo. DRAFT refresh traité (triggers gap + ATR spike confirmés). Maintenir ACHETER sizing réduit avec SL $41.94 / TP $69.44, attendre résultats earnings avant nouvelle entrée. Max pain $20 = tail risk -62% si guidance cut sévère.
 
 ---
 
