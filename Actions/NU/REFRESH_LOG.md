@@ -13,6 +13,18 @@
 
 ---
 
+## 2026-05-18 — Full Refresh Triggered (pipeline 13:00 UTC)
+
+**Triggers :**
+- price_gap (medium) : Gap -5.72% overnight (seuil ±5.0%)
+- volume_surge (medium) : Volume 3.2× moyenne 20j (138,779,800 vs 43,662,145)
+
+**Conclusion :** CONFIRMÉE — DRAFT_refresh traité comme doublon des triggers matinaux. Données du snapshot 13:00 UTC strictement identiques au snapshot 10:00 UTC. Aucun nouvel événement majeur détecté. Correction des données options (max pain $5.00 → $14.50, put/call 0.66, call OI 60.1%). La thèse ATTENDRE reste inchangée. Pas de révision de prix cible ni de scores.
+
+**Fichier généré :** [NU_2026-05-18_update.md](NU_2026-05-18_update.md) (update quotidienne révisée post-pipeline 13:00 UTC)
+
+---
+
 ## 2026-05-18 — Full Refresh Triggered (pipeline 10:00 UTC)
 
 **Triggers :**
