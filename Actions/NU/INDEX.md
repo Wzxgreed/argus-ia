@@ -14,7 +14,7 @@
 
 | Fichier | Date | Type | Verdict |
 |---------|------|------|---------|
-| [NU_2026-05-18_update.md](NU_2026-05-18_update.md) | 2026-05-18 | Update quotidienne | ATTENDRE (confirmé) |
+| [NU_2026-05-18_update.md](NU_2026-05-18_update.md) | 2026-05-18 | Update quotidienne (post-pipeline 10:00 UTC) | ATTENDRE (confirmé, données inchangées) |
 | [NU_2026-05-18_init.md](NU_2026-05-18_init.md) | 2026-05-18 | Init / Full Refresh | ATTENDRE |
 | [NU_2026-05-18_claude.md](NU_2026-05-18_claude.md) | 2026-05-18 | Full Refresh | ATTENDRE |
 | [_DRAFT_refresh_2026-05-18_archive.md](_DRAFT_refresh_2026-05-18_archive.md) | 2026-05-18 | DRAFT (archive) | — |
