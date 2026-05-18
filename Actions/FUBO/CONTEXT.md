@@ -25,8 +25,8 @@
 ## 🚨 Alertes actives
 
 - **ATR_SPIKE** (medium) — ATR relatif 8,5% (seuil 5,0%) — persistant depuis 2026-05-17
-- **Earnings jour J en attente** — résultats Q1 2026 non visibles au snapshot 20h UTC → vérifier demain matin
-- **Divergence Yahoo/FMP Market Cap** — ×11,8 d'écart entre sources ($276M vs ~$3,27B)
+- **Earnings jour J en attente** — résultats Q1 2026 non visibles au snapshot 22:35 UTC → vérifier demain matin
+- **Divergence Yahoo/FMP Market Cap** — ×11,8 d'écart entre sources ($276,1M vs ~$3,27B)
 - **Sector Rotation XLC Bottom 3** — malus sectoriel actif (momentum 0,0)
 - **Options Repositionnement Put-Biased** — put/call 0,90, max pain $10
 - **Liquidité réduite** — volume 0,62× moyenne 20j (964k vs 1,56M)
@@ -60,15 +60,15 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** update (pipeline 21h UTC)
+- **Type :** update (pipeline 22:35 UTC)
 - **Fichier :** `FUBO_2026-05-18_update.md`
-- **Conclusion :** Thèse ATTENDRE confirmée. Close final $9.38 (-2,49% vs veille), volume 0,62×, RSI 36.21. Aucune donnée earnings Q1 2026 visible post-close. Pas de position longue recommandée.
+- **Conclusion :** Thèse ATTENDRE confirmée. Snapshot 22:35 UTC stable vs 21h UTC. Close final confirmé $9.38 (-2,49% vs veille), volume 0,62×, RSI 36.21. Aucune donnée earnings Q1 2026 visible. Pas de position longue recommandée.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 8.53% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 8,53% (seuil 5,0%)
 
 ---
 

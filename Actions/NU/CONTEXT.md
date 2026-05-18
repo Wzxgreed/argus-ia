@@ -57,9 +57,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** update
+- **Type :** update (snapshot 22:35 UTC)
 - **Fichier :** `NU_2026-05-18_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ACHETER (Réduit)** — snapshot 21:23 UTC stable vs 20:56 UTC, aucun changement de données
+- **Conclusion :** **Thèse : CONFIRMÉE — ACHETER (Réduit)** — snapshot 22:35 UTC stable vs 21:23 UTC, aucun changement de données
 
 ---
 

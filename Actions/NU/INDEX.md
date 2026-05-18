@@ -14,7 +14,7 @@
 
 | Fichier | Date | Type | Verdict |
 |---------|------|------|---------|
-| [NU_2026-05-18_update.md](NU_2026-05-18_update.md) | 2026-05-18 | Update quotidienne (post-pipeline 21:23 UTC) | ACHETER (Réduit) — thèse confirmée, données stables vs 20:56 UTC, score ajusté 63.0 |
+| [NU_2026-05-18_update.md](NU_2026-05-18_update.md) | 2026-05-18 | Update quotidienne (post-pipeline 22:35 UTC) | ACHETER (Réduit) — thèse confirmée, données stables vs 21:23 UTC, score ajusté 63.0 |
 | [NU_2026-05-18_init.md](NU_2026-05-18_init.md) | 2026-05-18 | Init / Full Refresh | ATTENDRE |
 | [NU_2026-05-18_claude.md](NU_2026-05-18_claude.md) | 2026-05-18 | Full Refresh | ATTENDRE |
 | [_DRAFT_refresh_2026-05-18_13h00_archive.md](_DRAFT_refresh_2026-05-18_13h00_archive.md) | 2026-05-18 | DRAFT (archive) | — |
@@ -32,4 +32,4 @@ Voir [REFRESH_LOG.md](REFRESH_LOG.md) pour l'historique des déclencheurs.
 
 ## 📝 Résumé de la Thèse
 
-NU est le leader néo-banque latino-américain (Brésil/Mexique/Colombie) avec 100M+ clients, des marges opérationnelles solides (24.4%), un bilan net cash (net debt/EBITDA -2.47×), et une valorisation forward attractive (P/E 10.6×). Le score global ajusté reste à 63.0 (snapshot 21:23 UTC, confirmé stable vs 20:56 UTC), dans la zone d'achat réduit. La survente technique persiste (RSI 23.37, cours sous MM50) et le secteur financier XLF reste en sous-performance (momentum score 0.0). La recommandation reste ACHETER (Réduit) pour les profils tolérants au risque, avec un sizing réduit et un stop-loss strict à $11.37. Le cours a grimpé de +0.82% sur la séance sur un volume accru à 1.32× moyenne 20j, mais sans confirmation de retournement. Les données options (max pain $14.50, put/call 0.66, call OI 60.1%) restent cohérentes avec une vision neutre à légèrement haussière.
+NU est le leader néo-banque latino-américain (Brésil/Mexique/Colombie) avec 100M+ clients, des marges opérationnelles solides (24.4%), un bilan net cash (net debt/EBITDA -2.47×), et une valorisation forward attractive (P/E 10.6×). Le score global ajusté reste à 63.0 (snapshot 22:35 UTC, confirmé stable vs 21:23 UTC), dans la zone d'achat réduit. La survente technique persiste (RSI 23.37, cours sous MM50) et le secteur financier XLF reste en sous-performance (momentum score 0.0). La recommandation reste ACHETER (Réduit) pour les profils tolérants au risque, avec un sizing réduit et un stop-loss strict à $11.37. Le cours a grimpé de +0.82% sur la séance sur un volume accru à 1.32× moyenne 20j, mais sans confirmation de retournement. Les données options (max pain $14.50, put/call 0.66, call OI 60.1%) restent cohérentes avec une vision neutre à légèrement haussière.
