@@ -6,6 +6,7 @@
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
+| 2026-05-18 | [MITK_2026-05-18_update.md](MITK_2026-05-18_update.md) | Mise à jour post-pipeline 22:35 UTC — snapshot stable vs 21:23 UTC (cours $14.13, volume 0.74×, RSI 50.62, score global 49.8/100, thèse SURVEILLER confirmée, DRAFT_refresh 22:36 UTC traité comme artefact) |
 | 2026-05-18 | [MITK_2026-05-18_update.md](MITK_2026-05-18_update.md) | Mise à jour post-pipeline 21:23 UTC (cours $14.13, volume 0.74×, RSI 50.62, score global 49.8/100, thèse SURVEILLER confirmée, DRAFT_refresh traité) |
 | 2026-05-18 | [MITK_2026-05-18_init.md](MITK_2026-05-18_init.md) | Full Refresh (triggers : PRICE_GAP +5.08%, ATR_SPIKE 6.03%) |
 | 2026-05-17 | [MITK_2026-05-17_claude.md](MITK_2026-05-17_claude.md) | Analyse approfondie (LLM) |

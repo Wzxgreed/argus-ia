@@ -1,30 +1,37 @@
-# MITK — Mise à Jour Post-Pipeline (2026-05-18 21:23 UTC)
+# MITK — Mise à Jour Post-Pipeline (2026-05-18 22:35 UTC)
 
-> Desk : Argus-IA | Pipeline : 21:23 UTC | Données : `data/latest.json` (2026-05-18T21:23:29Z) | Score Global Ajusté : **49.8/100** | Action : **SURVEILLER**
+> Desk : Argus-IA | Pipeline : 22:35 UTC | Données : `data/latest.json` (2026-05-18T22:35:58Z) | Score Global Ajusté : **49.8/100** | Action : **SURVEILLER**
 
 ---
 
 ## Résumé des Changements
 
-**Verdict : DONNÉES STABILISÉES POST-CLOSE. Cours inchangé à $14.13, volume légèrement révisé à 914,696 (0.74× moyenne 20j), RSI 50.62 stable. Thèse SURVEILLER confirmée — pas de basculement.**
+**Verdict : DONNÉES STABLES POST-CLOSE (SNAPSHOT 22:35 UTC). Cours inchangé à $14.13, RSI 50.62 stable, volume 914,696 (0.74× moyenne 20j), ATR $0.85 inchangé. Thèse SURVEILLER confirmée — pas de basculement.**
 
-Le snapshot 21:23 UTC confirme la stabilité du close à **$14.13** (previous close $14.26, -0.91%). Le volume final de séance s'établit à **914,696** (+2.5% vs le snapshot 20:40 à 892,102), soit **0.74× la moyenne 20j** de 1,235,909 (vs 0.72× précédemment). Le RSI reste à **50.62**, l'ATR à **$0.85**, la MM50 à **$14.30**. Le Score Global Ajusté est inchangé à **49.8/100** et le Score Opportunité à **5.8/10**.
+Le snapshot 22:35 UTC confirme l'intégralité des données du snapshot 21:23 UTC :
+- **Close** : $14.13 (previous close $14.26, -0.91%) — stable
+- **Volume** : 914,696 — stable (0.74× moyenne 20j de 1,235,909)
+- **RSI 14j** : 50.62 — stable
+- **ATR 14j** : $0.85 — stable (~6.0% du spot)
+- **MM50** : $14.30 — stable
+- **Score Global Ajusté** : 49.8/100 — stable
+- **Score Opportunité** : 5.8/10 (C:5.5 V:6.5 M:5.0) — stable
 
-**Traitement du DRAFT_refresh :** Le fichier `_MITK_2026-05-18_DRAFT_refresh.md` (trigger ATR_SPIKE 6.02%) est traité par cette mise à jour. Les données du DRAFT (close $14.13, volume 914,696, RSI 50.62) sont intégrées. La thèse précédente n'est pas invalidée — le spike d'ATR reflète la volatilité intrajour du gap matinal (+5.08%) et son effacement complet, sans catalyseur idiosyncratique.
+**Traitement du DRAFT_refresh :** Le fichier `MITK_2026-05-18_DRAFT_refresh.md` (trigger ATR_SPIKE 6.02%, généré à 22:36 UTC) est traité comme **arteffact de détection non confirmé par les données**. Le snapshot 22:35 UTC ne montre aucune modification de l'ATR ($0.85), du cours ($14.13), ni d'aucune métrique fondamentale ou technique par rapport au snapshot 21:23 UTC. L'ATR_SPIKE déclenché est donc un artefact algorithmique sans fondamental ni technique modifié.
 
 ---
 
-## Table Comparative — Snapshot 20:40Z vs 21:23Z
+## Table Comparative — Snapshot 21:23Z vs 22:35Z
 
-| Variable | Snapshot 20:40Z | Snapshot 21:23Z | Δ (21:23 vs 20:40) |
+| Variable | Snapshot 21:23Z | Snapshot 22:35Z | Δ (22:35 vs 21:23) |
 |---|---|---|---|
 | **Cours close** | $14.13 | **$14.13** | **—** |
 | **Change %** | -0.91% | **-0.91%** | **—** |
 | **RSI 14j** | 50.62 | **50.62** | **—** |
 | **ATR 14j** | $0.85 | **$0.85** | **—** |
 | **MM 50j** | $14.30 | **$14.30** | **—** |
-| **Volume jour** | 892,102 | **914,696** | **+22,594 (+2.5%)** |
-| **Volume vs 20j** | 0.72× | **0.74×** | **+0.02×** |
+| **Volume jour** | 914,696 | **914,696** | **—** |
+| **Volume vs 20j** | 0.74× | **0.74×** | **—** |
 | **Market Cap (Yahoo)** | $638.1M | **$638.1M** | — |
 | **Score Global Ajusté** | 49.8/100 | **49.8/100** | — |
 | **Score Opportunité** | 5.8/10 | **5.8/10** | — |
@@ -44,7 +51,7 @@ Le snapshot 21:23 UTC confirme la stabilité du close à **$14.13** (previous cl
 | **Social sentiment** | 0 / No data | **0 / No data** | — |
 | **Events corporate** | Aucun | **Aucun** | — |
 
-**Lecture institutionnelle :** La stabilité du close à $14.13 et la légère révision du volume à 0.74× (vs 0.72×) ne modifient pas la lecture technique. Le titre reste **sous la MM50 ($14.30)** avec un écart de -1.2%. Le volume reste inférieur à la moyenne, confirmant l'absence de conviction directionnelle post-gap. Le DRAFT_refresh déclenché par l'ATR_SPIKE 6.02% est traité comme un artefact de la volatilité intrajour non confirmée par volume ni catalyseur.
+**Lecture institutionnelle :** La stabilité totale des données entre les deux snapshots confirme que la séance du 2026-05-18 s'est clôturée sans surprise post-close. Le DRAFT_refresh est un artefact de l'algorithme de détection d'événements majeurs (seuil ATR_SPIKE déclenché sur la volatilité intrajour du gap matinal +5.08% déjà analysée dans l'`_init.md`), mais aucune nouvelle information n'est apparue entre 21:23 et 22:35 UTC.
 
 ---
 
@@ -58,7 +65,7 @@ Le snapshot 21:23 UTC confirme la stabilité du close à **$14.13** (previous cl
 | **ATR (14j)** | $0.85 | ~6.0% du spot |
 | **MM 50j** | $14.30 | Close sous MM50 (-1.2%) |
 | **MM 200j** | N/A | [DONNÉES MANQUANTES] |
-| **Volume** | 914,696 | **0.74× moyenne 20j** — normalisation partielle |
+| **Volume** | 914,696 | **0.74× moyenne 20j** — liquidité inférieure à la normale |
 | **52-week range** | $8.53 – $16.48 | Spot à 85.6% du range |
 | **Beta** | 0.955 | Aligné sur le marché |
 
@@ -71,7 +78,9 @@ Le snapshot 21:23 UTC confirme la stabilité du close à **$14.13** (previous cl
 - Take-profit ATR (3×) : **$16.68** (+18.0%)
 - Ratio R/R : **1.5**
 
-**Verdict timing :** Neutre à légèrement défavorable. Le prix reste sous MM50 avec un volume encore inférieur à la moyenne. La configuration reste de consolidation neutre/baissière. Seule une cassure confirmée au-dessus de $14.30 (MM50) avec volume >1.0× moyenne et RSI >55 invaliderait le timing défavorable.
+**Verdict timing :** Neutre à légèrement défavorable. Le prix reste sous MM50 avec un volume inférieur à la moyenne. La configuration reste de consolidation neutre/baissière. Seule une cassure confirmée au-dessus de $14.30 (MM50) avec volume >1.0× moyenne et RSI >55 invaliderait le timing défavorable.
+
+**Momentum sectoriel :** XLK affiche un momentum score de **10.0/10** (top sector, return 20j +12.81%, return 60j +23.92%). MITK, classé Software-Application (Technology), bénéficie indirectement de ce momentum sectoriel, mais son propre momentum individuel (5.0/10) reste faible, suggérant une sous-performance relative au secteur.
 
 ---
 
@@ -96,7 +105,9 @@ Les données fondamentales n'ont pas évolué entre les snapshots.
 | Net Debt / EBITDA | 0.03x | FMP |
 | SBC / Revenue | 9.35% | FMP |
 
-**Filtre Qualité :** 3–4 / 6 — Quality Partielle. Forward P/E attractif et FCF yield solide, mais ROIC faible et séries historiques incomplètes.
+**Filtre Qualité :** 3–4 / 6 — Quality Partielle. Forward P/E attractif et FCF yield solide, mais ROIC faible et séries historiques incomplètes. Aucun changement depuis l'analyse initiale.
+
+**Données comptables :** `data/accounting_risk_latest.json` inexistant — pas de scan comptable disponible. Pas d'alerte M-Score/Z-Score/F-Score/Sloan.
 
 ---
 
@@ -133,6 +144,12 @@ Les données fondamentales n'ont pas évolué entre les snapshots.
 
 **Explication :** Le Score Opportunité reste stable à 5.8/10 (catégorie ATTENDRE 50–59), mais les malus techniques (momentum 5.0/10, timing neutre/défavorable) et le franchissement du seuil psychologique 50 sur le score global ajusté placent MITK dans la catégorie **SURVEILLER** (35–49). La valorisation reste attractive (6.5/10), mais sans catalyseur ni volume de confirmation, l'asymétrie n'est pas activable.
 
+**Risques additionnels (inchangés) :**
+- Geo risk : 0/10 — pas d'exposition politique détectée
+- FX impact : 0.0 — exposition USD, pas de divergence
+- Social sentiment : 0/10 — pas de signal retail
+- Events corporate : aucun
+
 ---
 
 ## 5. Révision des Niveaux SL / TP
@@ -162,14 +179,17 @@ Les niveaux sont inchangés : close stable à $14.13 et ATR stable à $0.85.
 - 🟡 **[ROIC FAIBLE]** 3.16% — monitorer dans les prochains filings
 - 🟡 **[ILLIQUIDITÉ OPTIONS]** Faible OI, Put/Call 0.14 — pas de signal dérivé fiable
 - 🟡 **[SCORE SOUS SEUIL 50]** Global ajusté 49.8/100 — surveillance renforcée
+- 🟡 **[DRAFT_REFRESH ARTEFACT]** Trigger ATR_SPIKE 6.02% non confirmé par snapshot 22:35 UTC — données stables
 
 ---
 
 ## 7. Conclusion — Thèse Confirmée (SURVEILLER)
 
-**Verdict : THÈSE SURVEILLER CONFIRMÉE. Snapshot 21:23 UTC stable vs 20:40 UTC. DRAFT_refresh (ATR_SPIKE 6.02%) traité comme artefact de volatilité intrajour non confirmé. Pas d'engagement recommandé.**
+**Verdict : THÈSE SURVEILLER CONFIRMÉE. Snapshot 22:35 UTC strictement identique au snapshot 21:23 UTC. DRAFT_refresh (ATR_SPIKE 6.02%) traité comme artefact algorithmique — aucune métrique modifiée entre les deux snapshots.**
 
-MITK reste un small-cap logiciel ($638M Yahoo) avec un profil qualité partielle (3–4/6) : Forward P/E attractif (11.64x), FCF yield solide (12.1%), mais rentabilité du capital faible (ROIC 3.16%) et couverture institutionnelle quasi nulle (2 analysts). La séance du 2026-05-18 a démontré la volatilité intrinsèque du titre : gap +5.08% du matin, effondrement à -2.17% en RTH, puis stabilisation à -0.91% post-close. Le volume final s'établit à 0.74× la moyenne 20j (vs 0.72× au snapshot 20:40), une légère amélioration marginale sans signification directionnelle.
+MITK reste un small-cap logiciel ($638M Yahoo) avec un profil qualité partielle (3–4/6) : Forward P/E attractif (11.64x), FCF yield solide (12.1%), mais rentabilité du capital faible (ROIC 3.16%) et couverture institutionnelle quasi nulle (2 analysts). La séance du 2026-05-18 a démontré la volatilité intrinsèque du titre : gap +5.08% du matin, effondrement à -2.17% en RTH, puis stabilisation à -0.91% post-close. Le volume final s'établit à 0.74× la moyenne 20j, une liquidité inférieure à la normale sans signification directionnelle.
+
+Le secteur Technology (XLK) affiche un momentum exceptionnel (10.0/10, +12.81% sur 20j), mais MITK sous-performe son secteur avec un momentum individuel de 5.0/10, ce qui suggère une sélectivité du marché au sein du secteur tech.
 
 Le Score Global Ajusté **49.8/100** et la recommandation **SURVEILLER** sont maintenus. Les fondamentaux n'ont pas changé. Le consensus à $16.00 offre un upside théorique de +13.2%, mais sans catalyseur ni volume confirmé, cette cible n'est pas activable.
 
@@ -179,4 +199,4 @@ Ne pas engager de nouvelle position. Déteneurs : maintenir le SL à $12.43. Seu
 
 ---
 
-*Révision post-pipeline 21:23 UTC — Données : `data/latest.json` (2026-05-18T21:23:29Z), `data/recommandations_latest.json`, `data/sector_rotation_2026-05-18.json`, `data/geo_risk_latest.json`, `data/fx_exposure_2026-05-18.json`, `data/social_sentiment_2026-05-18.json`, `data/upcoming_events_2026-05-18.json`, `data/events_2026-05-18.json` — Date : 2026-05-18*
+*Révision post-pipeline 22:35 UTC — Données : `data/latest.json` (2026-05-18T22:35:58Z), `data/recommandations_latest.json`, `data/sector_rotation_2026-05-18.json`, `data/geo_risk_latest.json`, `data/fx_exposure_2026-05-18.json`, `data/social_sentiment_2026-05-18.json`, `data/upcoming_events_2026-05-18.json`, `data/events_2026-05-18.json`, `data/validation_report.txt` (2026-05-18T20:03Z) — Date : 2026-05-18*

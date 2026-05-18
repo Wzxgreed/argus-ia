@@ -1,5 +1,14 @@
 # FUBO — Historique des Full Refreshes
 
+## 2026-05-18 — Full Refresh Résolu (Snapshot Pipeline 22:35 UTC) — Consolide tous les triggers 8,53% ouverts
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 8,53% (seuil 5,0%)
+
+**Conclusion :** Thèse CONFIRMÉE (ATTENDRE). Snapshot pipeline 22:35 UTC confirme stabilité totale vs 21h UTC — close $9,38, volume 964 675 (0,62× moyenne 20j), RSI 36,21, sous MM50 $11,89, ATR $0,80. Divergence Yahoo/FMP persistante ($276,1M vs ~$3,27B). Score Qualité 1/6 (patrimoine net négatif, ROIC −2,1%). Options put-biased (put/call 0,90, max pain $10). XLC bottom 3 sectoriel. Aucune donnée earnings Q1 2026 visible dans le snapshot 22:35 UTC — à vérifier demain matin. DRAFT_refresh.md complété et archivé (`_DRAFT_refresh.md`). Pas de position longue recommandée.
+
+---
+
 ## 2026-05-18 — Full Refresh Résolu (Snapshot Pipeline 21h UTC)
 
 **Triggers :**
