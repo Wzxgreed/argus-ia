@@ -12,7 +12,7 @@
 | Date | Type | Fichier | Résumé |
 |------|------|---------|--------|
 | 2026-05-17 | Analyse initiale | [AAL_2026-05-17_init.md](./AAL_2026-05-17_init.md) | Quality 0-1/6 (Hors périmètre). Score 3.95/10. SURVEILLER. Forward P/E 5.6 = value trap potentiel. Put/Call 3.78 extrêmement baissier = contrarian setup. Trend court terme favorable (au-dessus MM50). Stagflation = pire régime pour airlines. |
-| 2026-05-18 | Mise à jour | [AAL_2026-05-18_update.md](./AAL_2026-05-18_update.md) | Upgrade SURVEILLER → ACHETER (Sizing Réduit). Score 6.6/10 (+2.65 pts). Consensus FMP PT $16.02 (15 analystes, +30% upside). Short interest 12.21% = squeeze potential. Earnings Q2 le 23/07 (est. EPS -$0.34 à $0.17). Filtre Qualité et bilan stressé inchangés — trade tactique 1-3 mois uniquement. Divergence Yahoo/FMP EV/EBITDA (8.58 vs 11.44) notée. Accounting risk et quant report indisponibles. |
+| 2026-05-18 | Mise à jour | [AAL_2026-05-18_update.md](./AAL_2026-05-18_update.md) | Upgrade SURVEILLER → ACHETER (Sizing Réduit). Score 6.6/10 (+2.65 pts). Consensus FMP PT $16.02 (15 analystes, +30% upside). Short interest 12.21% = squeeze potential. Earnings Q2 le 23/07 (est. EPS -$0.34 à $0.17). Filtre Qualité et bilan stressé inchangés — trade tactique 1-3 mois uniquement. Divergence Yahoo/FMP EV/EBITDA (8.58 vs 11.44) notée. Accounting risk et quant report indisponibles. **Révision 18h UTC : données options enrichies — Put/Call 4.07 (vs 3.78 init), Max Pain $9.50, expiration 22/05. Setup contrarian renforcé.** |
 
 ---
 
