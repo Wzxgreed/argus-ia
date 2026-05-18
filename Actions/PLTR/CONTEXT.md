@@ -64,4 +64,4 @@
 
 ---
 
-*Généré automatiquement — ne pas éditer manuellement.*
+*Dernière mise à jour manuelle : 2026-05-18 — contexte complété par agent LLM institutionnel.*
