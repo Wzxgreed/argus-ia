@@ -9,8 +9,8 @@
 
 - **Recommandation :** ATTENDRE
 - **Score global :** 59.0/100
-- **Prix cible :** $48.61
-- **Stop-loss :** $42.81
+- **Prix cible :** $48.24
+- **Stop-loss :** $42.74
 - **Statut thèse :** INACTIVE
 - **Horizon :** —
 
@@ -49,7 +49,7 @@
 - **Date :** 2026-05-18
 - **Type :** update
 - **Fichier :** `TEST_2026-05-18_update.md`
-- **Conclusion :** ATTENDRE — Stabilisation post-spike de volume. Cours $44.94 stable, RSI 58.88 neutre, score agent 59.0/100. Aucune donnée fondamentale nouvelle. Maintenir l'attente.
+- **Conclusion :** ATTENDRE — Stabilisation confirmée snapshot 21:00 UTC. Cours $44.94 inchangé, RSI 58.88 neutre, ATR $1.10 contracté, score agent 59.0/100. SL/TP corrigés à $42.74/$48.24 (ratio 1.5). Aucune donnée fondamentale nouvelle, aucun résultat post-earnings observable. Maintenir l'attente.
 
 ---
 
