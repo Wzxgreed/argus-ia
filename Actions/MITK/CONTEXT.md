@@ -53,10 +53,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-18
-- **Type :** full_refresh + update
+- **Date :** 2026-05-18 (révision post-pipeline 10:00 UTC)
+- **Type :** full_refresh + update + archive DRAFT_refresh
 - **Fichier :** `MITK_2026-05-18_init.md` + `MITK_2026-05-18_update.md`
-- **Conclusion :** Thèse confirmée. Gap +5.08% sans catalyseur. Forward P/E 11.75x attractif mais ROIC 3.16% faible. Pas d'engagement avant cassure $16.00–$16.48 avec volume.
+- **Conclusion :** Thèse ATTENDRE confirmée — données inchangées vs snapshot matinal. Gap +5.08% sans catalyseur ni confirmation intrajour. Forward P/E 11.75x attractif mais ROIC 3.16% faible. Pas d'engagement avant cassure $16.00–$16.48 avec volume.
 
 ---
 
