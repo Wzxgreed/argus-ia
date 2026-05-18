@@ -61,6 +61,6 @@
 - price_gap (medium) : Gap +8.11% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.04% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Modifiée avec nuance haussière technique. Momentum renforcé (+8.11%, RSI 66.8, cours > MM50 $32.72 de +33.6%) mais fondamentaux inchangés (Filtre Qualité 2/6, Forward P/E -38.29, consensus PT $42.45 sous le spot). Score Opportunité révisé à 5.3/10, Global ajusté 58.0. Aucune position recommandée. Surveiller expiration options 22/05 et earnings août. — *Fichier : FLY_2026-05-18_update.md*
 
 ---

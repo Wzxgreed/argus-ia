@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
+- **Recommandation :** ATTENDRE
+- **Score global :** 53.0/100 (58.0 ajusté)
+- **Prix cible :** $42.45 (consensus 11 analystes — sous le spot)
+- **Stop-loss :** $34.93
+- **Statut thèse :** Modifiée avec nuance haussière technique
 - **Horizon :** —
 
 ---
@@ -24,32 +24,37 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- PRICE_GAP +8.11% (2026-05-18) — traité dans FLY_2026-05-18_update.md
+- ATR_SPIKE 10.04% (2026-05-18) — traité
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Expiration options : 2026-05-22 (4 jours)
+- Earnings Q2 2026 : 2026-08-04 (78 jours)
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 66.33
-- **MM 50j :** 32.71
+- **RSI 14j :** 66.80
+- **MM 50j :** 32.72
 - **MM 200j :** —
 - **ATR 14j :** 4.39
-- **Volume moy. 20j :** 6074133
+- **Volume moy. 20j :** 6107093
+- **Cours close :** 43.71
+- **52W High :** 73.80
+- **52W Low :** 16.00
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** full refresh
-- **Fichier :** `_FLY_2026-05-18_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-05-18
+- **Type :** full refresh + update quotidienne consolidée
+- **Fichier :** `FLY_2026-05-18_update.md`
+- **Conclusion :** Thèse MODIFIÉE avec nuance haussière technique. Momentum renforcé (+8.11%, RSI 66.8) mais fondamentaux inchangés (Filtre Qualité 2/6, consensus PT sous spot). Pas de position recommandée. Surveiller expiration options 22/05 et earnings août.
 
 ---
 
