@@ -14,35 +14,8 @@ La thèse de value trap et de surévaluation massive est confirmée. Le spike de
 ## 2026-05-18 — Full Refresh Triggered
 
 **Triggers :**
-- atr_spike (medium) : ATR relatif 6.88% (seuil 5.0%)
+- atr_spike (medium) : ATR relatif 6.88–7.02% (seuil 5.0%)
 
 **Conclusion :** CONFIRMÉ
 
-Aucun changement structurel vs le 2026-05-17. Le cours stable à $13.95 masque un gap intraday de −3.53 % comblé. Les fondamentaux restent inchangés : quality hors périmètre (2.5/6), rentabilité anémique (ROIC 1.9 %, operating margin 3.9 %), bilan solide (net cash) mais insuffisant. Divergence Yahoo/FMP sur les multiples persiste sans impacter le verdict consensus calibré sur l'ADR. RSI 68.4 sur volume réduit maintient le risque de correction technique. Aucun catalyseur corporate. Thèse SURVEILLER confirmée. Prochain point de contrôle : earnings 2026-07-23 (≤ 30j → preview).
-
-## 2026-05-18 — Full Refresh Triggered
-
-**Triggers :**
-- atr_spike (medium) : ATR relatif 6.88% (seuil 5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
-
----
-
-## 2026-05-18 — Full Refresh Triggered
-
-**Triggers :**
-- atr_spike (medium) : ATR relatif 6.88% (seuil 5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
-
----
-
-## 2026-05-18 — Full Refresh Triggered
-
-**Triggers :**
-- atr_spike (medium) : ATR relatif 7.02% (seuil 5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
-
----
+Aucun changement structurel vs le 2026-05-17. Le cours stable à $13.95 (puis $13.74 en close 17:00 UTC) masque un range intraday élevé mais sans catalyseur. Les fondamentaux restent inchangés : quality hors périmètre (2.5/6), rentabilité anémique (ROIC 1.9%, operating margin 3.9%), bilan solide (net cash) mais insuffisant. Divergence Yahoo/FMP sur les multiples persiste sans impacter le verdict consensus calibré sur l'ADR. RSI 64.6 sur volume très réduit (0.54×) maintient le risque de correction technique. Aucun catalyseur corporate. Thèse SURVEILLER confirmée. Prochain point de contrôle : earnings 2026-07-23.
