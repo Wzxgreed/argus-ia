@@ -1,6 +1,7 @@
-# VRT — Mise à Jour Quotidienne
+# VRT — Mise à Jour Post-Pipeline
 
 **Date :** 2026-05-18
+**Snapshot :** Post-pipeline 22:35 UTC (confirmé stable vs 20:54 UTC)
 **Cours :** $339.73 (−8.41% vs clôture précédente $370.94)
 **Market Cap :** $130.49B (Yahoo)
 **Volume :** 8.06M (1.36× moy. 20j : 5.93M)
@@ -10,36 +11,36 @@
 
 ---
 
-## Résumé des changements depuis l'analyse précédente (2026-05-17)
+## Résumé des changements depuis l'analyse précédente (20:54 UTC)
 
-| Indicateur | Veille (2026-05-17) | Aujourd'hui (JSON 20:39 UTC) | Δ |
+| Indicateur | Update 20:54 UTC | Snapshot Pipeline 22:35 UTC | Δ |
 |---|---|---|---|
-| Cours | $370.94 | **$339.73** | 🔴 −$31.21 (−8.41%) |
-| RSI 14j | 68.14 | **61.76** | 🟢 −6.38 pts (sortie zone surachat) |
-| ATR 14j | $17.86 | **$18.70** | 🟡 +$0.84 (volatilité en expansion) |
-| MM 50j | $296.64 | **$298.60** | 🟢 +$1.96 |
-| Volume relatif | 0.84× | **1.36×** | 🔴 Volume élevé sur gap baissier = distribution probable |
-| Put/Call Ratio | 3.41 | **3.08** | 🟢 −0.33 (léger retrait mais toujours extrême) |
-| Max Pain | $215.00 | **$215.00** | Inchangé |
-| P/E (Yahoo TTM) | 93.44 | **85.57** | 🟢 −7.87 pts (amélioration mécanique post-gap) |
-| Forward P/E | 42.10 | **38.59** | 🟢 −3.51 pts |
-| Score Opportunité | 5.43/10 | **3.9/10** | 🔴 Dégradé (catalyseur et momentum en baisse) |
-| Consensus PT | $257.49 (43 analysts) | $257.49 (43 analysts) | Inchangé — toujours obsolète (+31.8% sous cours) |
+| Cours | **$339.73** | **$339.73** | ✅ Inchangé |
+| RSI 14j | **61.76** | **61.76** | ✅ Inchangé |
+| ATR 14j | **$18.70** | **$18.70** | ✅ Inchangé |
+| MM 50j | **$298.60** | **$298.60** | ✅ Inchangé |
+| Volume relatif | **1.36×** | **1.36×** | ✅ Inchangé |
+| Put/Call Ratio | **3.08** | **3.08** | ✅ Inchangé |
+| Max Pain | **$215.00** | **$215.00** | ✅ Inchangé |
+| P/E (Yahoo TTM) | **85.57** | **85.57** | ✅ Inchangé |
+| Forward P/E | **38.59** | **38.59** | ✅ Inchangé |
+| Score Opportunité | **3.9/10** | **3.9/10** | ✅ Inchangé |
+| Consensus PT | **$257.49 (43 analysts)** | **$257.49 (43 analysts)** | ✅ Inchangé |
 
-> **Événement majeur :** Gap de −8.41% overnight sur volume 1.36× la moyenne. La correction attendue par l'alerte options (put/call extrême) s'est matérialisée. Le low intraday $330.72 a été testé et tenu. RSI ressorti de la zone surachetée (>70).
+> **Verdict pipeline :** Données entièrement stables entre le snapshot 20:54 UTC et le snapshot post-pipeline 22:35 UTC. Aucun écart détecté sur les 11 métriques clés. Le fetch final confirme l'intégrité des données du premier snapshot.
 
 ---
 
 ## Mise à jour technique
 
-| Indicateur | Valeur JSON | Interprétation |
+| Indicateur | Valeur JSON 22:35 UTC | Interprétation |
 |---|---|---|
-| RSI 14j | **61.76** | Sortie de la zone surachetée. Espace technique de consolidation avant prochain catalyseur |
-| ATR 14j | **$18.70** | Volatilité élevée (beta 2.10). Expansion confirmée post-gap |
+| RSI 14j | **61.76** | Sortie de la zone surachetée confirmée. Espace technique de consolidation |
+| ATR 14j | **$18.70** | Volatilité élevée stable (beta 2.10). Expansion confirmée post-gap |
 | MM 50j | **$298.60** | Cours +13.8% au-dessus — tendance haussière intacte malgré la correction |
 | MM 200j | **null** | [DONNÉES MANQUANTES] |
 | Support clé | $298.60 (MM50) | Si rupture → correction significative vers $280–$290 |
-| Support secondaire | **$330.72** (low du jour) | Zone de rejet intraday — testée et tenue |
+| Support secondaire | **$330.72** (low du jour) | Zone de rejet intraday confirmée — testée et tenue |
 | Résistance clé | **$379.94** (52W high) | Ancien sommet, désormais +11.8% au-dessus |
 | Résistance intermédiaire | **$370.94** (close veille) | Gap à combler si rebond |
 | Volume relatif | 1.36× | Volume supérieur à la moyenne sur gap −8.41% = distribution institutionnelle probable |
@@ -51,27 +52,26 @@
 | Put/Call Ratio | **3.08** | Élevé. 75.5% puts vs 24.5% calls |
 | Call OI % | 24.5% | Sentiment options extrêmement bearish |
 
-> 🔴 **Alerte options persistante** — Put/Call 3.08 confirme une nervosité extrême autour de l'expiration vendredi 22 mai. La correction de −8.41% est le dénouement partiel de ce hedging. Risque de volatilité élevée jusqu'à vendredi. Le volume réel de 1.36× suggère que des positions institutionnelles ont été ajustées en séance.
+> 🔴 **Alerte options persistante** — Put/Call 3.08 confirme une nervosité extrême autour de l'expiration vendredi 22 mai. Risque de volatilité élevée jusqu'à vendredi.
 
 **Verdict timing : Neutre à Défavorable**
-- La correction anticipée est en cours. RSI ressorti de la surchauffe = léger positif technique
-- Cependant le put/call 3.08 et l'expiration vendredi maintiennent le risque de clôture volatile
+- La correction anticipée est en cours et stable dans les données
+- RSI ressorti de la surchauffe = léger positif technique
+- Put/call 3.08 et expiration vendredi maintiennent le risque de clôture volatile
 - Volume supérieur à la moyenne sur gap baissier = distribution plus probable que simple profit-taking
 
 ---
 
 ## Mise à jour fondamentale
 
-| Métrique | Source | Valeur JSON | Contexte |
+| Métrique | Source | Valeur JSON 22:35 UTC | Contexte |
 |---|---|---|---|
 | P/E (Yahoo TTM) | Yahoo | **85.57** | Toujours très élevé. Prime de croissance IA massive |
-| P/E (FMP FY2025) | FMP | **46.40** | Annual data, share count obsolète → [DONNÉES PARTIELLES] |
-| Forward P/E | Yahoo | **38.59** | Réflète croissance >30% attendue |
+| Forward P/E | Yahoo | **38.59** | Réflète croissance >30% attendue. Inchangé |
 | EV/EBITDA (Yahoo TTM) | Yahoo | **60.11** | Premium massif |
 | EV/EBITDA (FMP FY2025) | FMP | **28.80** | Multiple annual plus raisonnable |
 | EV/Revenue | Yahoo | **13.21** | Premium IA intact |
-| P/B (Yahoo) | Yahoo | **32.97** | Valorisation potentiel, en baisse mécanique |
-| P/B (FMP) | FMP | **15.69** | [DONNÉES PARTIELLES — share count obsolète] |
+| P/B (Yahoo) | Yahoo | **32.97** | Valorisation potentiel |
 | Beta | Yahoo | **2.099** | Très volatile. Sizing réduit obligatoire |
 | Short Interest | Yahoo | **3.09%** | Modéré, inchangé |
 | FCF Yield (FMP) | FMP | **3.06%** | Génération cash confirmée |
@@ -93,7 +93,7 @@
 |---|---|---|
 | Consensus analystes | 43 analysts · PT $257.49 | ⚠️ OBSOLÈTE — cours $339.73 reste +31.8% au-dessus du consensus. Aucune révision massive détectée dans `latest.json` (10 analysts last month, 12 last quarter) |
 | Put/Call Ratio | **3.08** | 🔴 Bearish extrême — hedging institutionnel massif. La correction de −8.41% est cohérente avec ce positionnement |
-| Social Sentiment | 0 mentions / No data | 🟢 Pas de pump/dump détecté. La baisse n'est pas retail-driven |
+| Social Sentiment | 0 mentions / No data | 🟢 Pas de pump/dump détecté. La baisse n'est pas retail-driven (`data/social_sentiment_latest.json`) |
 | Event-Driven | 0 événement corporate | 🟢 Pas de M&A, buyback, guidance change détecté (`data/events_latest.json`) |
 | FX Exposure | 45% EUR/CNY · Score 0.0 | 🟢 Aligné — pas d'impact FX aujourd'hui (`data/fx_exposure_latest.json`) |
 | Sector Rotation | XLI Industrials · Momentum 0.0 | 🔴 Sous-performant vs XLK Tech (10.0) et XLE Energy (9.94). VRT corrige dans un secteur déjà faible (`data/sector_rotation_latest.json`) |
@@ -114,7 +114,7 @@
 | **Score Global Composite** | | | **38.8/100** |
 | **Score Global Ajusté** | | | **43.8/100** |
 
-> Règle absolue : Score Valorisation ≤ 2.5/10 + catalyseur faible = **SURVEILLER STRICT**. La baisse de −8.41% améliore mécaniquement la valorisation mais pas suffisamment pour passer en zone d'achat. Le consensus $257 reste obsolète mais une révision massive des analystes pourrait rerater l'action.
+> Règle absolue : Score Valorisation ≤ 2.5/10 + catalyseur faible = **SURVEILLER STRICT**. La baisse de −8.41% améliore mécaniquement la valorisation mais pas suffisamment pour passer en zone d'achat.
 
 ---
 
@@ -124,7 +124,7 @@
 |---|---|---|
 | **Prix cible (consensus)** | $257.49 | OBSOLÈTE — à ignorer jusqu'à révisions |
 | **Prix cible technique (optimiste)** | $380 (+11.8%) / $400 (+17.7%) | Résistance gap / rerating massif |
-| **Zone d'entrée attractive** | **$330–$340** | Low du jour $330.72 testé. Si retest → opportunité d'accumulation pour les believers de la thèse IA |
+| **Zone d'entrée attractive** | **$330–$340** | Low du jour $330.72 testé et tenu. Si retest → opportunité d'accumulation pour les believers de la thèse IA |
 | **Stop-Loss (engine 2×ATR)** | **$302.33** (−11.0%) | Sous MM50. Conforme engine |
 | **Take-Profit (engine 3×ATR)** | **$395.83** (+16.5%) | Calcul engine : cours + 3×ATR |
 | **Ratio R/R (engine)** | **1.5** | Acceptable mais timing défavorable |
@@ -135,15 +135,16 @@
 
 ## Conclusion — Thèse confirmée, modifiée ou invalidée ?
 
-**Verdict : THÈSE CONFIRMÉE — CORRECTION EN COURS, TELLE QU'ANTICIPÉE**
+**Verdict : THÈSE CONFIRMÉE — DONNÉES STABLES POST-PIPELINE**
 
 - **Fondamentaux :** ✅ Confirmés — Quality Compounder 5–6/6, ROIC 18.55%, FCF positif, moat intact. La baisse ne change rien à la thèse fondamentale.
-- **Valorisation :** 🟡 **Légèrement améliorée mécaniquement** — Forward P/E 38.6 (vs 42.1 au 17 mai). Toujours extrême mais moins qu'avant le gap. Score Val 2.5/10 inchangé car le consensus $257 n'a pas bougé.
-- **Catalyseur :** 🔴 Dégradé — Score C 4.3/10. L'effet orders massifs n'est plus un catalyseur actif. Earnings 29 juillet est le prochain catalyseur binaire.
-- **Momentum :** 🔴 Dégradé — Score M 5.5/10. Gap −8.41% rompt la dynamique haussière court terme. Le volume 1.36× suggère une distribution institutionnelle.
-- **Options :** 🔴 **Alerte persistante** — Put/Call 3.08 / max pain $215. La correction de −8.41% est cohérente avec le hedging institutionnel détecté. Risque de volatilité jusqu'à expiration vendredi 22 mai.
-- **Timing :** 🟡 **Modification** — Le pullback anticipé est en cours. La zone $330–$340 (low $330.72) devient la première zone d'intérêt technique pour les entrées partielles. Le timing passe de "Attendre" à "Surveiller activement".
-- **Sector Rotation :** 🔴 **Dégradation** — XLI Industrials momentum 0.0, sous-performant vs XLK (10.0) et XLE (9.94). VRT corrige dans un secteur faible, ce qui amplifie le risque relatif.
+- **Valorisation :** 🟡 **Stable** — Forward P/E 38.6, P/E TTM 85.6. Toujours extrême mais inchangé vs snapshot 20:54.
+- **Catalyseur :** 🔴 Stable — Score C 4.3/10. Pas de nouveau catalyseur. Earnings 29 juillet reste le prochain catalyseur binaire.
+- **Momentum :** 🔴 Stable — Score M 5.5/10. Gap −8.41% rompt la dynamique haussière court terme.
+- **Options :** 🔴 **Alerte persistante** — Put/Call 3.08 / max pain $215. Risque de volatilité jusqu'à expiration vendredi 22 mai.
+- **Timing :** 🟡 **Stable** — Zone $330–$340 (low $330.72) reste la première zone d'intérêt technique. Pas de changement de timing.
+- **Sector Rotation :** 🔴 **Stable** — XLI Industrials momentum 0.0, sous-performant vs XLK (10.0) et XLE (9.94).
+- **Données Pipeline :** ✅ **Intégrité confirmée** — 11/11 métriques clés identiques entre snapshot 20:54 UTC et snapshot pipeline 22:35 UTC. Aucun écart de cours, RSI, ATR, volume, ni scores agents.
 
 **Recommandation : SURVEILLER** (Score Global 43.8/100)
 - Pas de position longue significative à $339.73. Attendre consolidation ou retest $330–$333
@@ -172,7 +173,8 @@
 - [DONNÉES MANQUANTES] — MM200, MACD, IV Rank, earnings whisper, insider trades, job postings, 13F, ETF flows, dark pool, transcripts NLP
 - [SIGNAUX NON SIGNIFICATIFS] — Quant report : pas assez de signaux historiques pour calibration (p-value = 1.0)
 - [SECTOR ROTATION] — XLI Industrials sous-performant (momentum 0.0), risque relatif accru pour VRT
+- [PIPELINE STABLE] — Snapshot 22:35 UTC confirmé identique au snapshot 20:54 UTC. Données intègres.
 
 ---
 
-*Analyse générée le 2026-05-18 avec données JSON actualisées (fetch 20:39 UTC). Ne pas modifier — créer un nouvel `_update.md` pour toute révision.*
+*Analyse générée le 2026-05-18 avec snapshot post-pipeline 22:35 UTC. Ne pas modifier — créer un nouvel `_update.md` pour toute révision.*

@@ -15,3 +15,13 @@ La thèse sur ASTS reste neutre face à une valorisation spéculative extrême (
 
 ## Statut
 [ACTIVE / EN SURVEILLANCE / CLOS]
+
+---
+
+## 🔄 Triggers détectés (full refresh)
+
+- **ATR_SPIKE** (medium) — ATR relatif 8.51% (seuil 5.0%)
+
+---
+
+*Généré automatiquement — ne pas éditer manuellement.*

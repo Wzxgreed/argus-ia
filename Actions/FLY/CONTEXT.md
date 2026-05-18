@@ -63,3 +63,14 @@
 ---
 
 *Genere automatiquement — ne pas editer manuellement.*
+
+---
+
+## 🔄 Triggers détectés (full refresh)
+
+- **PRICE_GAP** (medium) — Gap +8.71% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 9.99% (seuil 5.0%)
+
+---
+
+*Généré automatiquement — ne pas éditer manuellement.*

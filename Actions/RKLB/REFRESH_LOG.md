@@ -127,3 +127,23 @@
 **Conclusion :** DRAFT_refresh détecté et archivé. Données identiques au snapshot 20:34 UTC (close $131,16, RSI 77,99, ATR $10,28, MM50 $80,47). Update déjà complétée — pas de réécriture. DRAFTs résiduels supprimés. ÉVITER maintenu.
 
 ---
+
+## 2026-05-18 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +5.12% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 7.84% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-18 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +5.12% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 7.84% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

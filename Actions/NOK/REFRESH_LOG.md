@@ -61,3 +61,25 @@ Snapshot 20:39 UTC. Cours micro-rebond à $13.74 (+0.11% vs 20:07), RSI 64.63, A
 Snapshot 21:00 UTC confirme intégralement les lectures 20:39 UTC. Aucun changement structurel. Cours $13.74, RSI 64.63, ATR $0.97, volume 0.70×. Aucun événement corporate (`events_latest.json` vide), aucune news structurante. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $9.26 stable à +48.4%. Score Opportunité 4.4/10. Action SURVEILLER confirmée. DRAFT_refresh archivé.
 
 ---
+
+## 2026-05-18 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 7.06% (seuil 5.0%)
+
+**Conclusion :** CONFIRMÉ — Faux positit technique archivé
+
+Snapshot 22:34 UTC. Données strictement inchangées vs snapshot 21:00 UTC (close $13.74, RSI 64.63, ATR $0.97, volume 0.70×). Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : volatilité relative reflète uniquement le range intraday sur liquidité réduite, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $9.26 stable à +48.4%. Score Opportunité 4.4/10. Action SURVEILLER confirmée. DRAFT_refresh archivé.
+
+---
+
+## 2026-05-18 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 7.06% (seuil 5.0%)
+
+**Conclusion :** CONFIRMÉ — Faux positit technique archivé
+
+Snapshot 22:34 UTC. Mêmes conclusions que le DRAFT précédent — données strictement identiques, aucun changement structurel. DRAFT_refresh archivé comme non matérialisé.
+
+---

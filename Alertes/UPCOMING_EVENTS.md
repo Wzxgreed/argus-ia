@@ -1,8 +1,8 @@
 # 🔭 Événements à venir — Watchlist Argus-IA
 
 > **Date :** 2026-05-18
-> **Tickers scannés :** 20
-> **Événements détectés :** 20
+> **Tickers scannés :** 22
+> **Événements détectés :** 22
 
 ---
 

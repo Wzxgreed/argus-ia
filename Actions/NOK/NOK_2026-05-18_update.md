@@ -1,13 +1,13 @@
-# NOK — Mise à Jour Quotidienne (2026-05-18 21:00 UTC)
+# NOK — Mise à Jour Quotidienne (2026-05-18 22:34 UTC)
 
 > Desk : Argus-IA | Ticker : NOK (NYSE ADR) | Secteur : Communication Equipment / 5G Infrastructure
-> Date analyse : 2026-05-18 | Données source : `data/latest.json` (snapshot 2026-05-18T21:00 UTC)
+> Date analyse : 2026-05-18 | Données source : `data/latest.json` (snapshot 2026-05-18T22:35 UTC)
 
 ---
 
-## 1. Résumé des Changements depuis l'Analyse Précédente (2026-05-18 20:39 UTC)
+## 1. Résumé des Changements depuis l'Analyse Précédente (2026-05-18 21:00 UTC)
 
-| Indicateur | Update 20:39 UTC | Snapshot 21:00 UTC | Variation | Signal |
+| Indicateur | Update 21:00 UTC | Snapshot 22:35 UTC | Variation | Signal |
 |-----------|-----------------|-------------------|-----------|--------|
 | Cours close | $13.74 | **$13.74** | $0.00 | Stable |
 | RSI 14j | 64.63 | **64.63** | 0.00 pt | Inchangé — zone saine |
@@ -21,9 +21,9 @@
 | Short interest | 0.012 % | 0.012 % | 0.0 pp | Pression short nulle |
 | Dividend yield | 1.17 % | 1.17 % | 0.0 pp | Rendement inchangé |
 
-**Événement majeur du snapshot 21:00 UTC :** aucun événement corporate détecté (`events_latest.json` vide pour NOK). Aucune news structurante post-20:39 UTC, aucun mouvement d'options ou d'insiders. Le cours de clôture officiel est confirmé à **$13.74** (repli de **−1.51 %** vs la clôture précédente à $13.95).
+**Événement majeur du snapshot 22:35 UTC :** aucun événement corporate détecté (`events_latest.json` vide pour NOK). Aucune news structurante post-21:00 UTC, aucun mouvement d'options ou d'insiders. Le cours de clôture est confirmé à **$13.74** (repli de **−1.51 %** vs la clôture précédente à $13.95).
 
-**Trigger technique :** `ATR_SPIKE` (medium) — ATR relatif 7.06 % (seuil 5.0 %). Évalué comme un **faux positit technique** (déjà archivé à 20:39 UTC) : aucune rupture de support, pas de gap, fondamentaux inchangés. La volatilité reflète le range intraday ($13.50–$14.48) sur une liquidité réduite, pas un changement de régime. Le DRAFT_refresh généré par ce trigger est archivé comme non matérialisé (voir `REFRESH_LOG.md`).
+**Trigger technique :** `ATR_SPIKE` (medium) — ATR relatif 7.06 % (seuil 5.0 %). Évalué comme un **faux positit technique** : aucune rupture de support, pas de gap, fondamentaux inchangés. La volatilité reflète le range intraday ($13.50–$14.48) sur une liquidité réduite, pas un changement de régime. Les DRAFT_refresh générés par ce trigger sont archivés comme non matérialisés (voir `REFRESH_LOG.md`).
 
 ---
 
@@ -31,7 +31,7 @@
 
 | Métrique | Valeur | Commentaire |
 |----------|--------|-------------|
-| Cours close | $13.74 | −1.51 % vs clôture précédente ($13.95) ; stable vs snapshot 20:39 UTC |
+| Cours close | $13.74 | −1.51 % vs clôture précédente ($13.95) ; stable vs snapshot 21:00 UTC |
 | RSI 14j | 64.63 | Zone saine, légèrement sous le seuil 70 |
 | ATR 14j | $0.97 | 7.06 % du cours — volatilité marginale, au-dessus de la moyenne historique |
 | MM 50j | $10.29 | Cours +33 % au-dessus du support structurel |
@@ -57,14 +57,14 @@
 
 | Multiple | Valeur | Contexte |
 |----------|--------|----------|
-| Market Cap | $76.7 B | Stable vs snapshot 20:39 |
+| Market Cap | $76.7 B | Stable vs snapshot 21:00 |
 | P/E (TTM) | 85.875 | 🔴 Extrêmement élevé |
 | Forward P/E | 28.32 | Élevé mais reflète attente de normalisation EPS |
 | EV/EBITDA | 29.80 | Premium sectoriel |
 | P/B | 3.093 | Premium vs book |
 | Dividend yield | 1.17 % | Support de rendement |
 
-**Données opérationnelles FMP (FY 2025) :** inchangées vs snapshot 20:39. Ratios opérationnels : gross margin 43.5 %, operating margin 3.9 %, net margin 3.3 %, ROE indisponible, ROIC indisponible (fmp_ratios), ROIC 1.9 % (fmp_key_metrics), net cash (D/E 0.25, current ratio 1.58). Aucune donnée nouvelle ne modifie ce profil.
+**Données opérationnelles FMP (FY 2025) :** inchangées vs snapshot 21:00. Ratios opérationnels : gross margin 43.5 %, operating margin 3.9 %, net margin 3.3 %, ROE indisponible, ROIC indisponible (fmp_ratios), ROIC 1.9 % (fmp_key_metrics), net cash (D/E 0.25, current ratio 1.58). Aucune donnée nouvelle ne modifie ce profil.
 
 **Divergence Yahoo (ADR) vs FMP (sous-jacent) :** inchangée. Le consensus analystes ($9.26 sur 6 brokers) est calibré sur l'ADR, et le premium de +48.4 % reste l'ancrage de référence. Les multiples FMP (P/E 45.8, EV/EBITDA 13.1) reflètent le titre Helsinki et ne changent pas le verdict consensus ADR.
 
@@ -103,7 +103,7 @@ Aucune donnée nouvelle dans `data/latest.json` pour réviser le filtre qualité
 | Catalyseur | 4.0/10 | 35 % | Aucun catalyseur ; earnings dans 66 jours |
 | Valorisation | 3.5/10 | 40 % | Premium +48.4 % vs consensus ; P/E 86 |
 | Momentum | 6.5/10 | 25 % | Cours > MM50 ; RSI 64.6 zone saine, volume faible |
-| **Score Opportunité** | **4.4/10** | | Inchangé vs snapshot 20:39 |
+| **Score Opportunité** | **4.4/10** | | Inchangé vs snapshot 21:00 |
 | **Score Global** | **44.2** | | Inchangé |
 | **Score Global Ajusté** | **49.2** | | Malus sectoriel marginal (XLC bottom 3) non matérialisé |
 
@@ -120,7 +120,7 @@ Aucune donnée nouvelle dans `data/latest.json` pour réviser le filtre qualité
 | Take-profit | $16.65 | $13.74 + 3×$0.97 |
 | Ratio R/R | **1.5 : 1** | Gain $2.91 / Perte $1.94 |
 
-Niveaux inchangés vs snapshot 20:39 UTC. Le SL à $11.80 reste valide.
+Niveaux inchangés vs snapshot 21:00 UTC. Le SL à $11.80 reste valide.
 
 ---
 
@@ -143,11 +143,11 @@ Niveaux inchangés vs snapshot 20:39 UTC. Le SL à $11.80 reste valide.
 
 **Thèse confirmée — SURVEILLER.**
 
-Le snapshot 21:00 UTC confirme intégralement les lectures du snapshot 20:39 UTC. Le cours de clôture officiel est stable à $13.74 (repli −1.51 % vs clôture précédente $13.95) sur un volume inchangé et réduit (0.70× moyenne 20j). Le RSI (64.63) et l'ATR ($0.97) sont strictement inchangés. Aucun événement corporate, aucune news structurante, aucun mouvement d'options ou d'insiders n'est survenu post-20:39 UTC.
+Le snapshot 22:35 UTC confirme intégralement les lectures du snapshot 21:00 UTC. Le cours de clôture officiel est stable à $13.74 (repli −1.51 % vs clôture précédente $13.95) sur un volume inchangé et réduit (0.70× moyenne 20j). Le RSI (64.63) et l'ATR ($0.97) sont strictement inchangés. Aucun événement corporate, aucune news structurante, aucun mouvement d'options ou d'insiders n'est survenu post-21:00 UTC.
 
 Les fondamentaux restent identiques : quality hors périmètre (2.5/6), rentabilité anémique (operating margin 3.9 %, net margin 3.3 %), bilan solide (net cash, D/E 0.25) mais insuffisant pour justifier un profil compounding. La divergence structurelle Yahoo/FMP sur les multiples persiste. Le consensus à $9.26 laisse un premium de +48.4 % qui continue de plafonner le score valorisation à 3.5/10.
 
-Le trigger `ATR_SPIKE` (7.06 %) reste un **faux positit technique** : aucun gap, aucune rupture de support, aucun catalyseur. La volatilité relative reflète uniquement le range intraday ($13.50–$14.48) sur une liquidité réduite. Le DRAFT_refresh généré par ce trigger est archivé comme non matérialisé.
+Le trigger `ATR_SPIKE` (7.06 %) reste un **faux positit technique** : aucun gap, aucune rupture de support, aucun catalyseur. La volatilité relative reflète uniquement le range intraday ($13.50–$14.48) sur une liquidité réduite. Les DRAFT_refresh successifs générés par ce trigger sont archivés comme non matérialisés.
 
 NOK reste un **value trap technique** : momentum de court terme soutenu par la MM50 ($10.29) mais valorisation dissuasive et qualité fondamentale hors périmètre. Le secteur Communication Services (XLC) reste dans le bottom 3 de la rotation sectorielle, ajoutant un headwind macro marginal.
 
