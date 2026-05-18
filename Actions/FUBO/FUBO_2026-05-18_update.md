@@ -1,28 +1,29 @@
-# FUBO — Mise à Jour Post-Close Finale (2026-05-18 20h UTC)
+# FUBO — Mise à Jour Post-Pipeline 21h UTC (2026-05-18)
 
-> **Niveau d'impact :** 🟡 Modéré — Close final $9.38 (-2.49% vs veille), volume corrigé à 0.56×, liquidité toujours réduite
-> **Référence précédente :** [FUBO_2026-05-18_update.md](FUBO_2026-05-18_update.md) (17h UTC)
+> **Niveau d'impact :** 🟢 Faible — Snapshot pipeline 21h UTC confirme le close final $9.38, volume corrigé à 964k (0.62×), aucun nouveau catalyseur
+> **Référence précédente :** [FUBO_2026-05-18_update.md](FUBO_2026-05-18_update.md) (post-close 20h UTC)
 
 ---
 
-## 1. Résumé des Changements depuis l'Analyse Précédente (17h UTC)
+## 1. Résumé des Changements depuis l'Analyse Précédente (20h UTC)
 
-| Métrique | 17h UTC (précédent) | 20h UTC (actuel) | Variation |
+| Métrique | 20h UTC (précédent) | 21h UTC (actuel) | Variation |
 |---|---|---|---|
-| Cours close | $9,53 | **$9,38** | **−1,57%** 🔴 |
-| Volume | 484 253 | **873 702** | **+80,4%** (volume total séance) |
-| Volume vs 20j | 0,31× | **0,56×** | **+0,25×** mais reste faible |
-| RSI 14j | 36,93 | **36,21** | −0,72 |
-| ATR 14j | $0,80 | **$0,80** | inchangé |
-| MM 50j | $11,89 | **$11,89** | inchangé |
-| Market Cap (Yahoo) | $280,5M | **$276,1M** | −1,6% |
-| P/E (Yahoo) | 2,48x | **2,44x** | −1,6% |
-| P/B | 0,345x | **0,340x** | −1,4% |
-| Short Interest | 22,84% | 22,84% | — |
-| Put/Call Ratio | 0,90 | 0,90 | — |
-| Max Pain | $10,00 | $10,00 | — |
+| Cours close | $9,38 | **$9,38** | — |
+| Volume séance | 873 702 | **964 675** | **+10,4%** 🟡 |
+| Volume vs 20j | 0,56× | **0,62×** | **+0,06×** (normalisation partielle) |
+| RSI 14j | 36,21 | **36,21** | — |
+| ATR 14j | $0,80 | **$0,80** | — |
+| MM 50j | $11,89 | **$11,89** | — |
+| Market Cap (Yahoo) | $276,1M | **$276,1M** | — |
+| P/E TTM (Yahoo) | 2,44x | **2,44x** | — |
+| Forward P/E | 19,87x | **19,87x** | — |
+| P/B | 0,340x | **0,340x** | — |
+| Short Interest | 22,84% | **22,84%** | — |
+| Put/Call Ratio | 0,90 | **0,90** | — |
+| Max Pain | $10,00 | **$10,00** | — |
 
-**Constat :** Le snapshot 20h UTC révèle un **close final de $9.38**, inférieur au cours partiel de 17h UTC ($9,53). Le titre a donc cédé **−2,49% vs clôture veille** ($9,62) et non −0,94% comme estimé à 17h. Le volume total de séance s'établit à **873 702 actions** (0,56× moyenne 20j), corrigeant le volume très faible du snapshot 17h (484k, 0,31×) mais restant **significativement sous la norme**. Le RSI recule légèrement à **36,21**, s'approchant de la zone de survente (30). Aucune donnée earnings n'est apparue dans le snapshot 20h UTC — les résultats Q1 2026 restent **non visibles** dans `data/latest.json` et `data/events_latest.json`.
+**Constat :** Le snapshot pipeline 21h UTC (`data/2026-05-18.json` fetched 2026-05-18T21:23:28Z) confirme le close final **$9.38** et corrige le volume de séance à **964 675 actions** (0.62× moyenne 20j), en hausse de +10,4% vs le volume partiel de 20h UTC (873k). Cette correction normalise partiellement le signal de liquidité sans toutefois atteindre la moyenne 20j (1,56M). **Aucune donnée fondamentale, technique ou options n'a changé** entre les deux snapshots. Les résultats Q1 2026 restent **non visibles** dans `data/latest.json` — publication post-close avec délai API ou report probable.
 
 ---
 
@@ -34,11 +35,11 @@
 | MM 50j | $11,89 | Cours sous la moyenne — écart −20,2% |
 | MM 200j | N/A | [DONNÉES MANQUANTES] |
 | ATR 14j | $0,80 | Volatilité absolue élevée (8,5% du spot) |
-| Volume vs 20j | 0,56× | Faiblesse persistante, sous la moyenne |
+| Volume vs 20j | 0,62× | Faiblesse persistante mais moins critique qu'à 20h UTC |
 | Beta | 2,508 | Volatilité systématique extrême |
 | 52W High / Low | $56,64 / $8,31 | Distance au 52W low : +12,9% |
 
-**Niveaux clés (révisés post-close 20h UTC) :**
+**Niveaux clés (confirmés 21h UTC) :**
 - Support immédiat : $9,31 (low du jour)
 - Support secondaire : $8,31 (52W low)
 - Résistance : $10,00 (niveau psychologique / max pain)
@@ -46,18 +47,18 @@
 - Stop-loss ATR (2×) : **$7,78** (−17,1%)
 - Take-profit ATR (3×) : **$11,78** (+25,5%)
 
-**Verdict timing :** Défavorable — sous MM50, RSI proche survente mais non confirmé, volume faible. Le low du jour à $9,31 n'a pas été testé en clôture, ce qui est un signe technique marginal de soutien intraday. Le pinning autour de $9,40–$10,00 reste le scénario de haute probabilité à J-4 de l'échéance options.
+**Verdict timing :** Défavorable — sous MM50, RSI proche survente mais non confirmé, volume inférieur à la normale. Le pinning autour de $9,40–$10,00 reste le scénario de haute probabilité à J-4 de l'échéance options (2026-05-22).
 
 ---
 
 ## 3. Mise à Jour Fondamentale
 
-Aucune nouvelle donnée fondamentale dans le snapshot 20h UTC. La divergence Yahoo/FMP persiste intégralement :
+Aucune nouvelle donnée fondamentale dans le snapshot 21h UTC. La divergence Yahoo/FMP persiste intégralement :
 
 | Source | Market Cap | P/E | P/B | EV/EBITDA |
 |---|---|---|---|---|
 | Yahoo Finance | $276,1M | 2,44x | 0,340x | — |
-| FMP Stable API (implicite) | ~$3,27B | 5,65x | 3,19x | 16,10x |
+| FMP Stable API | ~$3,27B | 5,65x | 3,19x | 16,10x |
 
 **Écart :** ×11,8 sur la capitalisation. Ce hiatus empêche toute valorisation fiable.
 
@@ -77,6 +78,8 @@ Aucune nouvelle donnée fondamentale dans le snapshot 20h UTC. La divergence Yah
 | Current Ratio (FMP) | 0,84 | Illiquidité structurelle |
 | Debt/Equity (FMP) | 2,43 | Levier élevé |
 | Tangible Asset Value (FMP) | −$398,9M | Patrimoine net négatif |
+| Net Debt/EBITDA (FMP) | 1,01x | Couverture faible |
+| ROIC (FMP) | −2,1% | Destruction de valeur |
 
 **Filtre Qualité :** Score **1/6** confirmé. Hors périmètre Quality Compounder. Score Valorisation plafonné à 5/10.
 
@@ -86,13 +89,13 @@ Aucune nouvelle donnée fondamentale dans le snapshot 20h UTC. La divergence Yah
 
 ## 4. Mise à Jour Sentiment / Options / News
 
-### Options (inchangées depuis 13h UTC)
+### Options (inchangées)
 
 | Signal | Valeur | Lecture |
 |---|---|---|
 | Max Pain | $10,00 | Pinning probable autour du spot |
 | Put/Call Ratio | 0,90 | Put-biased — sentiment dérivés baissier |
-| Call OI % | 52,5% | Baisse du positionnement haussier near-term |
+| Call OI % | 52,5% | Positionnement haussier near-term réduit |
 | Échéance | 2026-05-22 | J-4 |
 
 ### Consensus Analystes (FMP)
@@ -116,13 +119,20 @@ Aucune nouvelle donnée fondamentale dans le snapshot 20h UTC. La divergence Yah
 - `data/news_2026-05-18.json` : **0 article** pour FUBO
 - `data/events_2026-05-18.json` : **0 événement corporate** détecté
 
+### FX Exposure
+
+- Exposition FX : 25% (export USD)
+- Impact revenus/EPS : 0,0%
+- Divergence : aligned
+- Score FX Impact : 0,0/10 — neutre
+
 **Verdict Sentiment :** Neutre à légèrement baissier. Silence médiatique total, options put-biased, consensus figé. Aucun catalyseur de sentiment détecté.
 
 ---
 
 ## 5. Scoring Global
 
-| Composante | Valeur Moteur | Valeur Ajustée Manuelle |
+| Composante | Valeur Moteur | Valeur Ajustée |
 |---|---|---|
 | Score Global | 64,8 / 100 | — |
 | Score Global Ajusté | 56,8 / 100 | **~51 / 100** |
@@ -132,16 +142,20 @@ Aucune nouvelle donnée fondamentale dans le snapshot 20h UTC. La divergence Yah
 | Score Momentum | 3,5 / 10 | = |
 | **Recommandation** | **ATTENDRE** | **ATTENDRE** |
 
-**Ajustements qualitatifs (inchangés vs 17h UTC) :**
+**Ajustements qualitatifs (inchangés vs 20h UTC) :**
 - Malus Qualité (1/6) : Valorisation plafonnée à 5/10
 - Malus Sectoriel : XLC bottom 3 (momentum 0,0) → −0,5 pt composite
 - Malus Options : put/call ratio 0,90 + max pain $10 → −0,5 pt Catalyseur
-- Signal de prudence Liquidité : volume 0,56× (corrigé vs 0,31×) — reste faible, risque de slippage élevé
+- Signal de prudence Liquidité : volume 0,62× (vs 0,56× à 20h UTC) — amélioration marginale mais risque de slippage persistant
 
-**Quant Report (`data/quant_2026-05-18.json`) :**
-- n = 0 — pas assez de signaux historiques FUBO
-- Win rate : 0% ; p-value : null (insuffisant)
+**Quant Report (`data/quant_report_latest.json`) :**
+- Date 2026-05-17 — n = 0, pas assez de signaux historiques FUBO
+- Win rate : 0% ; p-value : 1,0 (insuffisant)
 - **Conclusion :** Aucune calibration auto applicable.
+
+**Sector Rotation (`data/sector_rotation_2026-05-18.json`) :**
+- XLC classé **bottom 3** (momentum score 0,0 / 10)
+- Malus sectoriel actif : −0,5 pt composite
 
 ---
 
@@ -150,8 +164,8 @@ Aucune nouvelle donnée fondamentale dans le snapshot 20h UTC. La divergence Yah
 | Niveau | Prix | Commentaire |
 |---|---|---|
 | Close | $9,38 | — |
-| Stop-Loss | **$7,78** | Révisé à la baisse — 2× ATR (−17,1%) |
-| Take-Profit | **$11,78** | Révisé à la baisse — 3× ATR (+25,5%) |
+| Stop-Loss | **$7,78** | 2× ATR (−17,1%) |
+| Take-Profit | **$11,78** | 3× ATR (+25,5%) |
 | Ratio R/R | **1,5×** | Stable |
 | Max Pain | $10,00 | Niveau de pinning probable |
 
@@ -165,15 +179,15 @@ Aucune nouvelle donnée fondamentale dans le snapshot 20h UTC. La divergence Yah
 
 ### **Verdict : THÈSE CONFIRMÉE — ATTENDRE**
 
-La thèse d'**ATTENDRE** du 2026-05-18 reste intégralement valide. Le close final à **$9.38** (−2,49% vs veille) confirme la faiblesse technique sans catalyseur de reversal. Trois observations actualisées :
+La thèse d'**ATTENDRE** du 2026-05-18 reste intégralement valide. Le snapshot pipeline 21h UTC confirme le close final à **$9.38** et apporte une correction mineure sur le volume (964k vs 873k), sans impact sur la thèse. Trois observations :
 
-1. **Close final révisé à la baisse :** le snapshot 20h UTC capture un close de $9.38, inférieur au $9.53 du snapshot 17h. Le titre a donc sous-performé l'estimation intermédiaire. Le low du jour ($9,31) a été testé mais non cassé en clôture — un soutien technique marginal reste en place.
-2. **Volume corrigé à 0,56× :** le volume total de séance (873k) est supérieur au volume partiel de 17h (484k), ce qui normalise partiellement le signal "liquidity trap". Cependant, 0,56× reste bien sous la moyenne 20j (1,55M) — le désintérêt du marché persiste.
-3. **Earnings toujours en attente :** les résultats Q1 2026 étaient attendus ce jour. Aucune donnée (EPS, revenue, guidance) n'est visible dans le snapshot 20h UTC. Hypothèses : (a) publication post-close avec délai de récupération API, (b) report de publication, (c) données non remontées par Yahoo/FMP. → **À vérifier demain matin impérativement.**
+1. **Volume corrigé à 0,62× :** le snapshot 21h UTC capture un volume total de 964 675 actions, en hausse de +10,4% vs l'estimation de 20h UTC. Le ratio vs moyenne 20j passe de 0,56× à 0,62× — une normalisation marginale qui atténue l'alerte « liquidity trap » sans toutefois atteindre la moyenne. Le désintérêt du marché persiste mais est moins critique.
+2. **Earnings toujours en attente :** les résultats Q1 2026 étaient attendus ce jour. Aucune donnée (EPS, revenue, guidance) n'est visible dans le snapshot 21h UTC. Hypothèses : (a) publication post-close avec délai de récupération API > 3h, (b) report de publication, (c) données non remontées par Yahoo/FMP. → **À vérifier demain matin impérativement.**
+3. **Aucun nouveau catalyseur détecté :** 0 news, 0 événement corporate, 0 mention Reddit, 0 changement options, 0 revision analyste. Le silence médiatique total confirme l'absence de momentum.
 
 **Arguments confirmant la patience :**
-1. **Qualité dégradée 1/6** — inchangée. Patrimoine net négatif (−$398,9M FMP), FCF négatif, current ratio 0,84, debt/equity 2,43.
-2. **Données techniques baissières** — sous MM50 (−20,2%), RSI 36,21 proche survente, aucun signe de reversal. Le faible volume traduit un désintérêt, pas une accumulation.
+1. **Qualité dégradée 1/6** — inchangée. Patrimoine net négatif (−$398,9M FMP), FCF négatif, current ratio 0,84, debt/equity 2,43, ROIC −2,1%.
+2. **Données techniques baissières** — sous MM50 (−20,2%), RSI 36,21 proche survente, aucun signe de reversal.
 3. **Repositionnement options baissier** — put/call 0,90, max pain $10 (données inchangées).
 4. **Divergence Yahoo/FMP persistante** — P/E 2,44x et market cap $276M restent suspects vs les données FMP (~$3,3B).
 5. **Sector rotation défavorable** — XLC (Communication Services) dans le bottom 3 (momentum 0,0).
@@ -181,10 +195,10 @@ La thèse d'**ATTENDRE** du 2026-05-18 reste intégralement valide. Le close fin
 7. **Absence totale de news et de social sentiment** — 0 article, 0 mention Reddit.
 8. **Accounting risk non disponible** — pas de données M-Score / Z-Score / F-Score / Sloan pour cette session.
 
-**Seuls éléments modifiés :**
-- Close révisé à $9.38 (vs $9.53 à 17h UTC)
-- SL/TP ajustés à la baisse ($7,78 / $11,78) en raison du nouveau close
-- Volume corrigé à 0,56× (vs 0,31×) — liqudité légèrement moins critique
+**Seuls éléments modifiés vs 20h UTC :**
+- Volume corrigé à 964 675 (vs 873 702)
+- Ratio volume corrigé à 0,62× (vs 0,56×) — amélioration marginale du signal liquidité
+- SL/TP inchangés ($7,78 / $11,78) car close et ATR stables
 
 **Scénarios post-earnings (dès disponibilité des résultats) :**
 
@@ -194,12 +208,12 @@ La thèse d'**ATTENDRE** du 2026-05-18 reste intégralement valide. Le close fin
 | In-line / mixte | 45% | ±3–5% | Maintenir ATTENDRE |
 | Miss / guidance down | 40% | −10–20% | Confirmer l'évitement |
 
-> **Note de probabilité :** Inchangée vs 17h UTC. Le repositionnement options put-biased maintient la probabilité bearish à 40%.
+> **Note de probabilité :** Inchangée vs 20h UTC. Le repositionnement options put-biased maintient la probabilité bearish à 40%.
 
-**Recommandation finale :** **ATTENDRE — pas de position.** Le titre reste une spéculation pure sans fondement qualitatif. Le close final à $9.38, le volume faible et l'absence de données earnings justifient de rester à l'écart. Si résultats positifs demain, le titre reste une spéculation court terme et non un investissement long terme. Le Score Qualité 1/6 et le patrimoine net négatif excluent toute conviction structurelle.
+**Recommandation finale :** **ATTENDRE — pas de position.** Le titre reste une spéculation pure sans fondement qualitatif. Le close final à $9.38, le volume sous-moyenne et l'absence de données earnings justifient de rester à l'écart. Si résultats positifs demain, le titre reste une spéculation court terme et non un investissement long terme. Le Score Qualité 1/6 et le patrimoine net négatif excluent toute conviction structurelle.
 
 ---
 
 *Analyste institutionnel senior — Desk Argus-IA*  
-*Date : 2026-05-18 (post-close 20h UTC)*  
-*Sources : data/2026-05-18.json (fetched 2026-05-18T20:40:01Z), data/recommandations_2026-05-18.json, data/quant_2026-05-18.json, data/geo_2026-05-18.json, data/sector_rotation_2026-05-18.json, data/social_sentiment_2026-05-18.json, data/fx_exposure_2026-05-18.json, data/upcoming_events_2026-05-18.json, data/events_2026-05-18.json, data/news_2026-05-18.json, data/transcripts_NLP_2026-05-18.json*
+*Date : 2026-05-18 (post-pipeline 21h UTC)*  
+*Sources : data/2026-05-18.json (fetched 2026-05-18T21:23:28Z), data/recommandations_2026-05-18.json, data/quant_report_latest.json, data/geo_risk_latest.json, data/sector_rotation_2026-05-18.json, data/social_sentiment_2026-05-18.json, data/fx_exposure_2026-05-18.json, data/upcoming_events_2026-05-18.json, data/events_2026-05-18.json, data/news_2026-05-18.json*
