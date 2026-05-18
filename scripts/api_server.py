@@ -449,7 +449,6 @@ Commence l'analyse maintenant."""
         "--",
         "-p", claude_prompt,
         "--permission-mode", "auto",
-        "--cwd", str(BASE_DIR),
     ]
 
     logs.append(f"[{now_str()}] 📤 Envoi du prompt à Claude CLI via Ollama ({len(claude_prompt)} caractères)...")
