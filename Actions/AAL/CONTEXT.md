@@ -8,7 +8,7 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ACHETER — Sizing Réduit
-- **Prix cible :** $13.66 (cours + 3×ATR) / Réviser à $14.00 si momentum confirmé sur volume
+- **Prix cible :** $13.66 (cours + 3×ATR) / Réviser à $14.00 si momentum confirmé sur volume > 50M
 - **Stop-loss :** $11.41 (cours − 2×ATR, support MM50)
 - **Upside/Downside :** +10.9% / -7.3%
 - **Dernière mise à jour :** 2026-05-18
@@ -20,7 +20,8 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 
 ## 📊 Score & Niveaux
 
-- **Score global composite :** 71.1/100
+- **Score global composite :** 66.1/100
+- **Score global ajusté :** 71.1/100
 - **Score opportunité :** 6.6/10 (C:6.8, V:6.5, M:6.5)
 - **Score qualité :** 0-1/6 (hors périmètre)
 - **Prix cible :** $13.66
@@ -43,6 +44,7 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 - Volume — >2× moy. 20j (>104M) — 🟢 Active — actuellement 37.2M (compression)
 - Earnings Q2 — 2026-07-23 — 🟡 À surveiller — Est EPS -$0.34 à $0.17
 - Short Interest — 12.21% — 🟡 Élevé — squeeze possible si catalyst
+- Divergence Yahoo/FMP EV/EBITDA — 8.58 vs 11.44 — 🟡 À surveiller
 
 ---
 
@@ -59,13 +61,15 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 - **Change % :** -3.07% (vs previous close $12.70)
 - **RSI 14j :** 58.87
 - **MM 50j :** 11.52
-- **MM 200j :** —
+- **MM 200j :** null
 - **ATR 14j :** 0.45
+- **52W High / Low :** $16.50 / $10.09
 - **Volume moy. 20j :** 51987455
 - **Volume jour :** 37223400 (-28.4%)
 - **Short Interest :** 12.21%
 - **Max Pain :** 5.00 [ANOMALIE]
 - **Consensus FMP PT :** $16.02 (15 analystes)
+- **Put/Call :** null
 
 ---
 
@@ -74,7 +78,7 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 - **Date :** 2026-05-18
 - **Type :** update
 - **Fichier :** `AAL_2026-05-18_update.md`
-- **Conclusion :** Upgrade SURVEILLER → ACHETER (Sizing Réduit) sur consensus FMP PT $16.02 (+30%) + timing technique favorable (RSI 59, au-dessus MM50) + short interest 12.2%. Filtre Qualité et bilan stressé inchangés — trade tactique 1-3 mois uniquement, pas de compounding. SL $11.41, TP $13.66, R/R 1.5.
+- **Conclusion :** Upgrade SURVEILLER → ACHETER (Sizing Réduit) sur consensus FMP PT $16.02 (+30%) + timing technique favorable (RSI 59, au-dessus MM50) + short interest 12.2%. Filtre Qualité et bilan stressé inchangés — trade tactique 1-3 mois uniquement, pas de compounding. SL $11.41, TP $13.66, R/R 1.5. Divergence Yahoo/FMP EV/EBITDA notée. Accounting risk et quant report indisponibles.
 
 ---
 
