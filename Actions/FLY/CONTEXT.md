@@ -11,7 +11,7 @@
 - **Score global :** 53.0/100 (58.0 ajusté)
 - **Prix cible :** $42.45 (consensus, sous le spot)
 - **Stop-loss :** $35.17
-- **Statut thèse :** Confirmée — pas de changement matériel vs session 17:00 UTC
+- **Statut thèse :** Confirmée — données inchangées vs session 20:12 UTC, DRAFT_refresh intégré
 - **Horizon :** —
 
 ---
@@ -38,9 +38,9 @@
 ## 📊 Contexte technique (dernier snapshot)
 
 - **RSI 14j :** 67.08
-- **MM 50j :** 32.72
+- **MM 50j :** $32.72
 - **MM 200j :** —
-- **ATR 14j :** 4.39
+- **ATR 14j :** $4.39
 - **Volume moy. 20j :** 6,239,757
 - **Volume jour :** 9,789,240 (1.57× moy.)
 
@@ -49,9 +49,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** update (session 20:12 UTC)
+- **Type :** update (session 21:00 UTC)
 - **Fichier :** `FLY_2026-05-18_update.md`
-- **Conclusion :** Thèse ATTENDRE confirmée. Cours consolidé post-gap (+8.71%) à $43.95 sur volume accéléré (1.57× moy.). RSI 67.08, MM50 $32.72. Fondamentaux inchangés (Filtre Qualité 2/6, Forward P/E -38.50). Consensus PT sous le spot. Pas de position recommandée.
+- **Conclusion :** Thèse ATTENDRE confirmée. Snapshot 21:00 UTC strictement identique à la session 20:12 UTC (cours $43.95, RSI 67.08, volume 9.79M, 1.57× moy.). DRAFT_refresh (triggers PRICE_GAP +8.71%, ATR_SPIKE 9.99%) intégré et archivé. Aucun changement matériel. Fondamentaux inchangés (Filtre Qualité 2/6, Forward P/E -38.50). Pas de position recommandée.
 
 ---
 

@@ -9,6 +9,7 @@
 | 2026-05-17 | [FLY_2026-05-17_init.md](FLY_2026-05-17_init.md) | Analyse initiale |
 | 2026-05-18 | [FLY_2026-05-18_update.md](FLY_2026-05-18_update.md) | Mise à jour quotidienne consolidée post-full refresh (session 17:00 UTC) |
 | 2026-05-18 | [FLY_2026-05-18_update.md](FLY_2026-05-18_update.md) | Mise à jour session 20:12 UTC — consolidation post-gap, volume accéléré, thèse confirmée |
+| 2026-05-18 | [FLY_2026-05-18_update.md](FLY_2026-05-18_update.md) | Mise à jour session 21:00 UTC — données inchangées vs 20:12 UTC, DRAFT_refresh intégré et archivé, thèse confirmée |
 
 ## Agenda
 - Prochain earnings : **2026-08-04** (Q2 2026) — Est EPS -$0.60 à -$0.45, Rev $0.1B
