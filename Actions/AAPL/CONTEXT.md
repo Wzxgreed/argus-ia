@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
-- **Horizon :** —
+- **Recommandation :** SURVEILLER
+- **Score global :** 51.0/100 (ajusté 41.0)
+- **Prix cible :** $220–$240 (DCF)
+- **Stop-loss :** $282.47
+- **Statut thèse :** SURVEILLER — repli technique post-sommet, volume effondré, surachat atténué
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -24,32 +24,44 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🟡 RSI 78.75 — surachat persistant (sorti de zone >80)
+- 🟡 Volume 16.2M = 0.34× moyenne 20j — liquidité réduite
+- 🟡 Cours $295.81 > Consensus FMP $293.43 (+0.8%)
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **2026-07-30** — Earnings Q3 FY2026 (Est EPS $1.83–$1.99, Rev $109.0B)
 
 ---
 
-## 📊 Contexte technique (dernier snapshot)
+## 📊 Contexte technique (dernier snapshot 17:00 UTC)
 
-- **RSI 14j :** 78.72
+- **Cours clôture :** $295.81
+- **RSI 14j :** 78.75
+- **ATR 14j :** 6.67
 - **MM 50j :** 266.74
 - **MM 200j :** —
-- **ATR 14j :** 6.65
-- **Volume moy. 20j :** 47208267
+- **Volume séance :** 16,245,376
+- **Volume moy. 20j :** 47,375,863
+- **52W High :** $303.20
+- **52W Low :** $193.46
+- **P/E trailing :** 35.81x
+- **Forward P/E :** 30.86x
+- **EV/EBITDA :** 27.66x
+- **Max Pain :** $305.00
+- **Put/Call Ratio :** 0.61
+- **Call OI % :** 62.2%
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-18
-- **Type :** update
+- **Date :** 2026-05-18 17:00 UTC
+- **Type :** update (révision post-pipeline)
 - **Fichier :** `AAPL_2026-05-18_update.md`
-- **Conclusion :** > **Référence analyse précédente :** [AAPL_2026-05-17_init.md](AAPL_2026-05-17_init.md) | [AAPL_2026-05-18_update.md](AAPL_2026-05-18_update.md) (précédente session 10:00 UTC)
+- **Conclusion :** THÈSE CONFIRMÉE — SURVEILLER. Repli de −1.47% vers $295.81 sur volume effondré (0.34× moyenne). RSI sort de la zone >80 (78.75) — léger adoucissement technique. Pas de changement fondamental. Pas d'entrée long recommandée. Attendre repli $285–$290 ou break $303.20 sur volume.
 
 ---
 
