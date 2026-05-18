@@ -17,6 +17,7 @@ Le ticker est enregistré comme `MICRON` dans la watchlist, mais l'identifiant d
 - Earnings du 2026-05-18 (jour J) — non suivis faute de données
 - Secteur Technology (XLK) en tête de la rotation sectorielle (RS 20j +8.59% vs SPY) — vent de queue favorable une fois les données disponibles
 - Aucune alerte géopolitique, comptable ou event-driven détectée
+- Snapshot post-pipeline 22:35 → 23:09 UTC confirmé stable — aucun changement de données
 
 ---
 
@@ -25,7 +26,8 @@ Le ticker est enregistré comme `MICRON` dans la watchlist, mais l'identifiant d
 | Date | Fichier | Type | Statut |
 |------|---------|------|--------|
 | 2026-05-18 | `MICRON_2026-05-18_preview.md` | Preview earnings | ⚠️ Vide (placeholders) |
-| 2026-05-18 | `MICRON_2026-05-18_update.md` | Update flash | 🟡 Bloqué données |
+| 2026-05-18 | `MICRON_2026-05-18_update.md` | Update flash (22:35 UTC) | 🟡 Bloqué données |
+| 2026-05-18 | `MICRON_2026-05-18_update.md` | Update post-pipeline (23:09 UTC) | 🟡 Bloqué données confirmé |
 
 ---
 
@@ -46,4 +48,4 @@ Le ticker est enregistré comme `MICRON` dans la watchlist, mais l'identifiant d
 
 ---
 
-*Dernière mise à jour : 2026-05-18*
+*Dernière mise à jour : 2026-05-18 (post-pipeline 23:09 UTC)*

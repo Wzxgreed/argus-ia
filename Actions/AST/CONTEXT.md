@@ -1,6 +1,6 @@
 # AST — Contexte actif
 
-> **Dernière mise à jour :** 2026-05-18 (snapshot 22:36 UTC)
+> **Dernière mise à jour :** 2026-05-18 (snapshot 23:09 UTC)
 > **Fichier source :** `AST_2026-05-18_update.md`
 
 ---
@@ -9,10 +9,11 @@
 
 **Statut :** DONNÉES MANQUANTES — analyse initiale requise
 
-- Aucune donnée de cours disponible (`No price history` dans latest.json, confirmé stable 21:23 → 22:36 UTC)
+- Aucune donnée de cours disponible (`No price history` dans latest.json, confirmé stable 21:23 → 22:36 → 23:09 UTC)
 - Pas de Filtre Qualité calculable
 - Pas de niveaux techniques (RSI, ATR, MM)
 - Aucune news détectée dans le snapshot du jour
+- **Doublon probable avec ASTS** (AST SpaceMobile) — ticker correct avec données complètes
 
 ---
 
@@ -42,6 +43,7 @@
 ## Alertes actives
 
 - [ ] Aucune alerte définie (pas de données pour calculer les seuils)
+- [ ] **Doublon ticker :** AST vs ASTS — à résoudre dans `config/watchlist.json`
 
 ---
 
@@ -53,7 +55,7 @@ Aucune — pas d'historique de prédictions.
 
 ## Prochaines étapes
 
-1. Vérifier la validité du symbole AST sur Yahoo Finance / FMP
-2. Corriger `config/watchlist.json` si nécessaire (AST vs ASTS ?)
-3. Si AST est confirmé comme illiquide / sans historique → marquer `excluded` dans la watchlist
-4. Lancer `make analyse TICKER=AST` uniquement après confirmation du ticker et de sa liquidité
+1. **Résoudre le doublon AST / ASTS** dans `config/watchlist.json`
+2. Si AST est confirmé comme illiquide / sans historique → supprimer ou marquer `excluded`
+3. Privilégier l'analyse sous le ticker `ASTS` (données complètes disponibles : $86.83, RSI 60.85, ATR 7.39)
+4. Lancer `make analyse TICKER=ASTS` pour débloquer l'analyse complète de l'entité
