@@ -59,7 +59,7 @@
 - **Date :** 2026-05-18
 - **Type :** update
 - **Fichier :** `MITK_2026-05-18_update.md`
-- **Conclusion :** Snapshot 21:23 UTC stable vs 20:40 UTC (close $14.13, volume 915k, RSI 50.62). DRAFT_refresh _MITK_2026-05-18_DRAFT_refresh.md traité (trigger ATR_SPIKE 6.02% = artefact volatilité intrajour non confirmé). Thèse SURVEILLER confirmée. Score Global Ajusté 49.8/100 inchangé. Pas d'engagement avant cassure MM50 ($14.30) avec volume confirmé.
+- **Conclusion :** Snapshot 21:23 UTC stable vs 20:40 UTC (close $14.13, volume 915k, RSI 50.62). DRAFT_refresh traité (trigger ATR_SPIKE 6.02% = artefact volatilité intrajour non confirmé). Thèse SURVEILLER confirmée. Score Global Ajusté 49.8/100 inchangé. Pas d'engagement avant cassure MM50 ($14.30) avec volume confirmé.
 
 ---
 

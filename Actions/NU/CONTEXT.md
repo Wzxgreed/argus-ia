@@ -38,7 +38,8 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q2 2026 :** 13 août 2026 (Est EPS $0.20–$0.27, Rev $5.4B) — 87 jours
+- **Expiration Options :** 2026-05-22 (4 jours)
 
 ---
 
@@ -58,7 +59,7 @@
 - **Date :** 2026-05-18
 - **Type :** update
 - **Fichier :** `NU_2026-05-18_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ACHETER (Réduit)**
+- **Conclusion :** **Thèse : CONFIRMÉE — ACHETER (Réduit)** — snapshot 21:23 UTC stable vs 20:56 UTC, aucun changement de données
 
 ---
 
