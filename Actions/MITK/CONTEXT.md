@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
-- **Horizon :** —
+- **Recommandation :** ATTENDRE
+- **Score global :** 51.0/100
+- **Prix cible :** $16.00 (consensus FMP)
+- **Stop-loss :** $12.54
+- **Statut thèse :** CONFIRMÉE — gap +5.08% non confirmé par catalyseur
+- **Horizon :** 1–3 mois (earnings Q3 FY2026 le 2026-08-06)
 
 ---
 
@@ -24,38 +24,46 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- [ANOMALIE MAX PAIN] Options data aberrante ($7.50 vs spot $14.26) — 2026-05-18
+- [DIVERGENCE YAHOO/FMP] Market cap / P/E — utiliser Yahoo comme primaire
+- [ROIC FAIBLE] 3.16% — monitorer dans les prochains filings
+- [ILLIQUIDITÉ OPTIONS] Put/Call indisponible, Max Pain aberrant
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- 2026-08-06 : Earnings Q3 FY2026 (80j restants) — Est EPS $0.24–$0.34, Rev ~$0.1B
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
+- **Cours close :** $14.26
 - **RSI 14j :** 51.62
 - **MM 50j :** 14.31
 - **MM 200j :** —
 - **ATR 14j :** 0.86
-- **Volume moy. 20j :** 1223895
+- **Volume moy. 20j :** 1,223,895
+- **Volume jour :** 1,317,800 (1.07×)
+- **52w high :** $16.48
+- **52w low :** $8.53
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** update
-- **Fichier :** `MITK_2026-05-18_update.md`
-- **Conclusion :** > Desk : Argus-IA | Régime : Inconnu | Données : data/latest.json (2026-05-18T08:44Z)
+- **Type :** full_refresh + update
+- **Fichier :** `MITK_2026-05-18_init.md` + `MITK_2026-05-18_update.md`
+- **Conclusion :** Thèse confirmée. Gap +5.08% sans catalyseur. Forward P/E 11.75x attractif mais ROIC 3.16% faible. Pas d'engagement avant cassure $16.00–$16.48 avec volume.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- 2026-05-18 : PRICE_GAP +5.08% (medium) + ATR_SPIKE 6.03% (medium)
+- Conclusion : CONFIRME — pas de modification de thèse
 
 ---
 
