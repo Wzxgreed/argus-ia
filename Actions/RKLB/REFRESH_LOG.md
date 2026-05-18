@@ -79,6 +79,16 @@
 
 ---
 
+## 2026-05-18 — DRAFT_refresh Archivé (13:00 UTC)
+
+**Triggers :**
+- price_gap (medium) : Gap -5.87% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 7.73% (seuil 5.0%)
+
+**Conclusion :** DRAFT_refresh détecté et archivé. Données identiques au full refresh complété à 09:02 (close $124.77, RSI 73.28, ATR $9.65, MM50 $79.25). Seule correction data options (Max Pain $150, Put/Call 0.81). Fichier archivé sans réécriture. ÉVITER maintenu.
+
+---
+
 ## 2026-05-18 — Full Refresh Triggered
 
 **Triggers :**
