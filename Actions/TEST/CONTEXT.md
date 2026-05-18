@@ -49,7 +49,7 @@
 - **Date :** 2026-05-18
 - **Type :** update
 - **Fichier :** `TEST_2026-05-18_update.md`
-- **Conclusion :** ATTENDRE — Stabilisation confirmée snapshot 21:23 UTC. Cours $44.94 inchangé, RSI 58.88 neutre, ATR $1.10 contracté, score agent 59.0/100. SL/TP corrigés à $42.74/$48.24 (ratio 1.5). Aucune donnée fondamentale nouvelle, aucun résultat post-earnings observable. Maintenir l'attente.
+- **Conclusion :** ATTENDRE — Stabilisation confirmée snapshot 22:35 UTC. Cours $44.94 inchangé, RSI 58.88 neutre, ATR $1.10 contracté, score agent 59.0/100. SL/TP corrigés à $42.74/$48.24 (ratio 1.5). Aucune donnée fondamentale nouvelle, aucun résultat post-earnings observable. Maintenir l'attente.
 
 ---
 

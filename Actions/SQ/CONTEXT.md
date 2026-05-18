@@ -50,7 +50,7 @@
 - **Date :** 2026-05-18
 - **Type :** update
 - **Fichier :** `SQ_2026-05-18_update.md`
-- **Conclusion :** ATTENDRE — Snapshot 21:00 UTC inchangé vs 20:24 UTC. Cours $83.46, volume 1.14M, technical vide, earnings Q1 2026 non intégrés. Qualité 3/6 hors périmètre. Score Opportunité 5.4/10 (plafonné). Maintenir l'attente post-earnings.
+- **Conclusion :** ATTENDRE — Snapshot 22:35 UTC inchangé vs 21:00 UTC. Cours $83.46, volume 1.14M, technical vide, earnings Q1 2026 non intégrés. Qualité 3/6 hors périmètre. Score Opportunité 5.4/10 (plafonné). Maintenir l'attente post-earnings.
 
 ---
 
