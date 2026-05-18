@@ -35,6 +35,19 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.25% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** CONFIRME — Le DRAFT_refresh `SOFI_2026-05-18_DRAFT_refresh.md` a été traité et archivé.
+- L'ATR relatif 5.25% est identique à celui du full refresh du 2026-05-17 et de la mise à jour matinale du 2026-05-18 (08:46). Aucune nouvelle volatilité anormale n'est apparue.
+- Le snapshot `data/latest.json` (timestamp 2026-05-18T10:00:08+00:00) confirme l'absence de changement de données : cours $15.61, RSI 30.21, ATR $0.82, MM50 $17.05, volume 0.74×.
+- Score Opportunité stable à 5.7/10. Score Global 48.6/100 (SURVEILLER). TP $18.07, SL $13.97.
+- **Action :** DRAFT_refresh supprimé (`SOFI_2026-05-18_DRAFT_refresh.md`). Pas de réécriture de `_init.md` requise — la thèse du 2026-05-17 reste valide.
+
+---
+
+## 2026-05-18 — Full Refresh Triggered (ancien DRAFT résiduel)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.25% (seuil 5.0%)
+
+**Conclusion :** ARCHIVÉ — Ce DRAFT était un résidu du pipeline matinal. Même conclusion que ci-dessus : CONFIRME. Aucune modification de thèse.
 
 ---

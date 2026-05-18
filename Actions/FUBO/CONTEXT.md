@@ -61,7 +61,7 @@
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 8,21% (seuil 5,0%) — persistant depuis 2026-05-17
+- **ATR_SPIKE** (medium) — ATR relatif 8.21% (seuil 5.0%)
 
 ---
 

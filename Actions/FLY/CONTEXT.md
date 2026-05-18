@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
+- **Recommandation :** ATTENDRE
+- **Score global :** 50.5 (55.5 ajusté) /100
+- **Prix cible :** $42.45 (consensus 11 analystes)
+- **Stop-loss :** $32.39
+- **Statut thèse :** Confirmée avec nuance
 - **Horizon :** —
 
 ---
@@ -30,7 +30,8 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q2 2026** : 2026-08-04 (78 jours) — Est EPS -$0.60 à -$0.45, Rev $0.1B
+- **Expiration options** : 2026-05-22 (4 jours)
 
 ---
 
@@ -47,15 +48,15 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** full refresh
-- **Fichier :** `_FLY_2026-05-18_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-05-18
+- **Type :** full refresh complété + update consolidée
+- **Fichier :** `FLY_2026-05-18_update.md`
+- **Conclusion :** Données inchangées vs snapshot matinal. Thèse ATTENDRE confirmée. Momentum technique intact (cours > MM50, RSI 61.71) mais fondamentaux faibles (Filtre Qualité 2/6, marges négatives). Aucune position recommandée.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **ATR_SPIKE** (medium) — ATR relatif 9.94% (seuil 5.0%) — **traité, thèse confirmée**
 
 ---
 

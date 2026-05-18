@@ -1,39 +1,40 @@
-# FLY — Mise à Jour Quotidienne (2026-05-18)
+# FLY — Mise à Jour Quotidienne (2026-05-18) — Consolidée post-Full Refresh
 
-> Source : `data/latest.json` (2026-05-18) + `data/recommandations_latest.json` + agents quant / geo / sector / social / FX / events / upcoming.
+> Source : `data/latest.json` (2026-05-18 10:00 UTC) + `data/recommandations_latest.json` + agents quant / geo / sector / social / FX / events / upcoming.  
+> **Full refresh déclenché à 10:00 UTC** (trigger ATR_SPIKE 9.94%) — traité et intégré ci-dessous.
 
 ---
 
 ## Résumé des changements depuis l'analyse précédente (2026-05-17)
 
-| Métrique | 2026-05-17 (init) | 2026-05-18 (update) | Variation | Seuil d'alerte |
-|----------|-------------------|---------------------|-----------|----------------|
-| Cours close | $40.43 | $40.43 | 0.0% | — |
-| Change vs prior close | — | -4.6% | — | ≥ ±5% |
+| Métrique | 2026-05-17 (init) | 2026-05-18 (consolidé) | Variation | Seuil d'alerte |
+|----------|-------------------|------------------------|-----------|----------------|
+| Cours close | $40.43 | $40.43 | **0.0%** | — |
+| Change vs prior close | — | **-4.6%** | — | ≥ ±5% |
 | RSI 14j | 61.71 | 61.71 | stable | >70 / <30 |
 | MM 50j | $32.24 | $32.24 | stable | — |
 | MM 200j | N/A | N/A | — | — |
 | ATR 14j | $4.02 | $4.02 | stable | >5% relatif |
 | Volume 20j moy. | 5,994,630 | 5,994,630 | stable | — |
-| Volume jour | 8,219,100 | 8,219,100 | 1.37× moy. | >2.0× |
+| Volume jour | 8,219,100 | 8,219,100 | **1.37× moy.** | >2.0× |
 | Filtre Qualité | 2/6 | 2/6 | stable | — |
 | Forward P/E | -35.41 | -35.41 | stable | — |
 | EV/EBITDA (Yahoo) | -26.61 | -26.61 | stable | — |
 | P/B (Yahoo) | 5.86 | 5.86 | stable | — |
 | Consensus PT | [MANQUANT] | **$42.45 (11 analysts)** | 🆕 | — |
-| Max Pain | **$25.00** | **$15.00** | **-40.0%** | 🚨 |
+| Max Pain | $25.00 → $15.00 | **$15.00** | stable post-chute | 🚨 |
 | Put/Call Ratio | 0.85 | N/A | [MANQUANT] | — |
 | Short Interest | 0.09% | 0.09% | stable | >5% |
-| Score Opportunité | 5.2/10 | 5.0/10 | -0.2 pt | — |
-| Score Valorisation | 5.0/10 | 4.5/10 | -0.5 pt | — |
-| Score Catalyseur | 5.0/10 | 5.0/10 | stable | — |
-| Score Momentum | 6.0/10 | 6.0/10 | stable | — |
-| Score Global | — | 50.5 (55.5 ajusté) | 🆕 | — |
+| Score Opportunité | 5.2/10 | **5.0/10** | -0.2 pt | — |
+| Score Valorisation | 5.0/10 | **4.5/10** | -0.5 pt | — |
+| Score Catalyseur | 5.0/10 | **5.0/10** | stable | — |
+| Score Momentum | 6.0/10 | **6.0/10** | stable | — |
+| Score Global | — | **50.5** (55.5 ajusté) | 🆕 | — |
 
 **Observations clés :**
-- Cours inchangé en clôture ($40.43) mais ouverture à $42.38 → -4.6% sur la séance. Amplitude intrajournalière élevée : $37.65–$42.15 (11.5%).
+- **Données inchangées vs snapshot matinal** — le pipeline 10:00 UTC n'a pas apporté de nouvelles données prix/volume. La mise à jour matinale reste valide.
 - 🆕 **Consensus analystes FMP** désormais disponible : PT moyen $42.45 (+5.0% upside), 11 analystes actifs (2 le mois dernier, 4 le trimestre dernier). Couverture stable mais modérée.
-- 🚨 **Max Pain options replongé à $15.00** (vs $25.00 hier) — écart de 63% sous le spot. Distorsion liée à l'expiration du 22/05 proche ; surveillance post-expiration recommandée.
+- 🚨 **Max Pain options à $15.00** — écart de 63% sous le spot. Distorsion liée à l'expiration du 22/05 proche ; surveillance post-expiration recommandée.
 - **Score Valorisation ajusté à la baisse** par l'agent recommandation (4.5/10 vs 5.0/10), plafonné par le Filtre Qualité 2/6.
 - **Agent Quant** : pas assez de signaux historiques → [SIGNAUX NON SIGNIFICATIFS] (p-value 1.0).
 - **Agent Accounting** : `data/accounting_risk_latest.json` absent → [DONNÉES MANQUANTES] pour M-Score / Z-Score / F-Score / Sloan.
@@ -155,7 +156,7 @@ Aucun changement de niveau — cours et ATR identiques à l'initiale. Le ratio 1
 
 **Verdict : Thèse CONFIRMÉE avec nuance.**
 
-L'analyse initiale du 2026-05-17 concluait à un profil **ATTENDRE** en raison d'un momentum technique favorable (cours > MM50 $32.24, RSI 61.71 neutre) mais de fondamentaux insuffisants (Filtre Qualité 2/6, absence de rentabilité, multiples élevés). Cette conclusion reste valide.
+L'analyse initiale du 2026-05-17 concluait à un profil **ATTENDRE** en raison d'un momentum technique favorable (cours > MM50 $32.24, RSI 61.71 neutre) mais de fondamentaux insuffisants (Filtre Qualité 2/6, absence de rentabilité, multiples élevés). Le **full refresh automatique** du 2026-05-18 (trigger ATR_SPIKE 9.94%) a été traité et ne modifie pas cette conclusion.
 
 **Ce qui confirme la thèse :**
 - Cours stable au-dessus de la MM50 (+25% de marge), tendance haussière intacte.

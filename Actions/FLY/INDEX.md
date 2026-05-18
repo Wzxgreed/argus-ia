@@ -7,7 +7,7 @@
 | Date | Fichier | Type |
 |------|---------|------|
 | 2026-05-17 | [FLY_2026-05-17_init.md](FLY_2026-05-17_init.md) | Analyse initiale |
-| 2026-05-18 | [FLY_2026-05-18_update.md](FLY_2026-05-18_update.md) | Mise à jour quotidienne |
+| 2026-05-18 | [FLY_2026-05-18_update.md](FLY_2026-05-18_update.md) | Mise à jour quotidienne consolidée post-full refresh |
 
 ## Agenda
 - Prochain earnings : **2026-08-04** (Q2 2026) — Est EPS -$0.60 à -$0.45, Rev $0.1B

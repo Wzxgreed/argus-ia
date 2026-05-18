@@ -18,10 +18,9 @@
 ---
 
 ## 🔄 Triggers détectés (full refresh)
+
 - **PRICE_GAP** (medium) — Gap -5.87% overnight (seuil ±5.0%)
 - **ATR_SPIKE** (medium) — ATR relatif 7.73% (seuil 5.0%)
-
-**Statut :** ✅ Full refresh complété — RKLB_2026-05-18_init.md généré, thèse confirmée.
 
 ---
 

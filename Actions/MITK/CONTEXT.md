@@ -62,8 +62,8 @@
 
 ## 🔄 Triggers détectés (full refresh)
 
-- 2026-05-18 : PRICE_GAP +5.08% (medium) + ATR_SPIKE 6.03% (medium)
-- Conclusion : CONFIRME — pas de modification de thèse
+- **PRICE_GAP** (medium) — Gap +5.08% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 6.03% (seuil 5.0%)
 
 ---
 

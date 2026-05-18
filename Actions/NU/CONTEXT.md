@@ -63,7 +63,8 @@
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **PRICE_GAP** (medium) — Gap -5.72% overnight (seuil ±5.0%)
+- **VOLUME_SURGE** (medium) — Volume 3.2× moyenne 20j (138,779,800 vs 43,662,145)
 
 ---
 

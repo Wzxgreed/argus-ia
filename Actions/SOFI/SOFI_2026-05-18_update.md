@@ -1,6 +1,6 @@
 # SOFI (SoFi Technologies, Inc.) — Mise à jour quotidienne
 
-**Date :** 2026-05-18
+**Date :** 2026-05-18 (post-pipeline 10:00 UTC)
 **Type :** `_update.md` — Analyse d'impact post-session
 **Analyste :** Desk Argus-IA
 
@@ -8,14 +8,13 @@
 
 ## 1. Résumé des changements depuis l'analyse précédente
 
-| Métrique | 2026-05-17 (init) | 2026-05-18 (update) | Δ |
-|----------|-------------------|---------------------|---|
+| Métrique | 2026-05-18 08:46 (update matinal) | 2026-05-18 10:00 UTC (pipeline) | Δ |
+|----------|-----------------------------------|---------------------------------|---|
 | Cours close | $15.61 | $15.61 | $0.00 (0.0%) |
-| Change session | — | −2.56% | vs prior close $16.02 |
 | RSI 14j | 30.21 | 30.21 | 0.0 |
 | ATR 14j | $0.82 | $0.82 | $0.00 |
 | MM 50j | $17.05 | $17.05 | $0.00 |
-| Volume relatif | 0.7× | 0.74× | +0.04× (inchangé — faible) |
+| Volume relatif | 0.74× | 0.74× | 0.0× |
 | P/E LTM | 34.69 | 34.69 | 0.0 |
 | Forward P/E | 19.95 | 19.95 | 0.0 |
 | Beta | 2.126 | 2.126 | 0.0 |
@@ -23,7 +22,7 @@
 | Consensus PT | $25.41 (27a) | $25.41 (27a) | 0.0 |
 | XLF momentum | 0.0 | 0.0 | 0.0 |
 
-**Verdict :** Pas de changement de fond sur les données brutes. Le cours a néanmoins corrigé −2.56% en séance (open $15.70 → low $15.38 → close $15.61), testant la zone de support $15.38–$15.50 sans la casser. Le RSI reste proche de la survente (30.21), le volume reste faible (0.74× moy. 20j), et le trend sous MM50 persiste. Aucune news majeure, aucun événement corporate, aucun mouvement de consensus détecté.
+**Verdict :** Aucun changement de données entre la mise à jour matinale (08:46) et le pipeline de 10:00 UTC. Le snapshot `data/latest.json` (timestamp 2026-05-18T10:00:08+00:00) confirme l'intégralité des niveaux. Le `SOFI_2026-05-18_DRAFT_refresh.md` (trigger ATR_SPIKE medium, identique au 2026-05-17) a été traité et archivé — la thèse est confirmée sans modification structurelle.
 
 ---
 
@@ -35,7 +34,7 @@
 | MM 50j | $17.05 | 🔴 Cours −8.4% sous MM50 — trend baissier court terme intact |
 | MM 200j | [UNSOURCED] | — |
 | ATR 14j | $0.82 | Volatilité modérée-élevée (ATR rel. 5.25%) |
-| Support clé | $14.50–$15.38 | 🟡 Low du jour = $15.38, proche du support mars–avril 2026 |
+| Support clé | $14.50–$15.38 | 🟡 Low du jour confirmé à $15.38, zone mars–avril 2026 |
 | Résistance clé | $16.50–$17.05 | 🔴 Max Pain historique $16.50 + MM50 $17.05 = double mur |
 | Volume relatif | 0.74× | 🔴 Faible — ni capitulation ni accumulation institutionnelle |
 | Beta | 2.126 | ⚠️ Volatilité extrême — sizing réduit obligatoire |
@@ -59,7 +58,7 @@
 | ROE | 4.6% | Faible — capital bancaire élevé dilue le rendement |
 | FCF yield | −13.2% | FCF négatif — investissements en cours |
 
-> **Rappel Filtre Qualité :** 4/6 (Quality Partielle). Les faiblesses structurelles (profit CAGR 5 ans non atteint, moat encore en construction, ROE faible) ne sont pas résolues en 24h.
+> **Rappel Filtre Qualité :** 4/6 (Quality Partielle). Les faiblesses structurelles (profit CAGR 5 ans non atteint, moat encore en construction, ROE faible) ne sont pas résolues en 24h. Malus −0.5 pt sur Score Valorisation appliqué.
 
 ---
 
@@ -70,7 +69,7 @@
 - 9 analystes actifs le mois dernier, 10 le trimestre dernier — couverture dense et stable.
 
 ### Options
-- **[DONNÉES PARTIELLES]** `data/latest.json` retourne `max_pain: 1.0` avec `put_call_ratio: null` et `call_oi_pct: null` pour SOFI le 2026-05-18. Le Max Pain $1.00 est irréaliste (52W low = $12.74) ; il s'agit vraisemblablement d'un placeholder ou d'une erreur de parsing Yahoo Finance. Les valeurs du 2026-05-17 (Max Pain $16.50, Put/Call 0.58, Call OI 63.4%) sont conservées comme dernières fiables.
+- **[DONNÉES PARTIELLES]** `data/latest.json` retourne `max_pain: 1.0` avec `put_call_ratio: null` et `call_oi_pct: null` pour SOFI le 2026-05-18. Le Max Pain $1.00 est irréaliste (52W low = $12.74) ; il s'agit d'un placeholder ou d'une erreur de parsing Yahoo Finance. Les valeurs du 2026-05-17 (Max Pain $16.50, Put/Call 0.58, Call OI 63.4%) restent les dernières fiables.
 - **Expiration prochaine :** 2026-05-22 (4 jours) — risque de pinning autour de l'ancien Max Pain $16.50 si les données historiques restent valides.
 
 ### News & Social
@@ -93,7 +92,7 @@
 | Quality Partielle (4/6) | Malus −0.5 pt sur Val | | — |
 | **Score Opportunité ajusté** | | | **5.7/10** |
 
-**Évolution vs 2026-05-17 :** Score Opportunité +0.6 pt (5.1 → 5.7), principalement porté par l'axe Catalyseur (+1.3 pt) qui reflète la stabilité du consensus analystes et l'absence de dégradation de nouvelles. Le Momentum reste faible (3.5/10) du fait du trend sous MM50.
+**Évolution vs 2026-05-17 :** Score Opportunité stable à 5.7/10 (vs 5.1/10 au 2026-05-17), principalement porté par l'axe Catalyseur (+1.3 pt) qui reflète la stabilité du consensus analystes et l'absence de dégradation de nouvelles. Le Momentum reste faible (3.5/10) du fait du trend sous MM50.
 
 ### Score Global Composite /100
 
@@ -114,29 +113,29 @@
 
 **Classification :** 48.6/100 = **SURVEILLER** (plage 35–49).
 
-> **Note de méthodologie :** L'analyse initiale du 2026-05-17 classifiait 43/100 comme ATTENDRE. Selon la grille institutionnelle Argus-IA (35–49 = SURVEILLER, 50–59 = ATTENDRE), 43/100 et 48.6/100 relèvent tous deux de la zone SURVEILLER. Cette mise à jour corrige la classification précédente.
+> **Note de méthodologie :** L'analyse initiale du 2026-05-17 classifiait 43/100 comme ATTENDRE. Selon la grille institutionnelle Argus-IA (35–49 = SURVEILLER, 50–59 = ATTENDRE), 43/100 et 48.6/100 relèvent tous deux de la zone SURVEILLER. Cette mise à jour confirme la classification précédente.
 
 ---
 
 ## 6. Révision des niveaux SL / TP
 
-| Niveau | Ancien | Révisé | Justification |
-|--------|--------|--------|---------------|
-| **Prix cible** | $19.51 | **$18.07** | Alignement sur le modèle de recommandation institutionnel (3×ATR au-dessus du cours) |
+| Niveau | Ancien (08:46) | Révisé | Justification |
+|--------|----------------|--------|---------------|
+| **Prix cible** | $18.07 | **$18.07** | Inchangé — alignement sur le modèle de recommandation institutionnel (3×ATR au-dessus du cours) |
 | **Stop-loss** | $13.97 | **$13.97** | Inchangé — cours − 2×ATR = $15.61 − $1.64 |
-| **Upside / Downside** | +25.0% / −10.5% | **+15.8% / −10.5%** | Révision à la baisse du TP réduit le ratio R/R |
-| **Ratio R/R** | 2.38 | **1.50** | Acceptable mais plus faible — sizing réduit si entrée |
-| **Support critique** | $14.50 | **$15.38** | Low du jour — un break sous $15.30 ouvre $14.50 |
+| **Upside / Downside** | +15.8% / −10.5% | **+15.8% / −10.5%** | Inchangé |
+| **Ratio R/R** | 1.50 | **1.50** | Acceptable mais plus faible — sizing réduit si entrée |
+| **Support critique** | $15.38 | **$15.38** | Low du jour confirmé — un break sous $15.30 ouvre $14.50 |
 
-**Verdict technique :** Les niveaux de risque ne changent pas en termes absolus, mais le ratio R/R se dégrade (2.38 → 1.50) du fait d'un upside technique plus limité. Le trend baissier intact et le volume faible ne justifient pas d'élargir le TP au-dessus de $18.07 à ce stade.
+**Verdict technique :** Les niveaux de risque ne changent pas. Le ratio R/R à 1.50 reste acceptable mais limité. Le trend baissier intact et le volume faible ne justifient pas d'élargir le TP au-dessus de $18.07 à ce stade.
 
 ---
 
 ## 7. Conclusion — Thèse confirmée, modifiée ou invalidée ?
 
-**Verdict : THÈSE CONFIRMÉE avec ajustement à la baisse de la classification.**
+**Verdict : THÈSE CONFIRMÉE — Pas de modification.**
 
-La configuration fondamentale et technique de SoFi n'a pas changé en 24h. Le Full Refresh du 2026-05-17 reste la référence. Cette mise à jour confirme les éléments clés :
+La configuration fondamentale et technique de SoFi n'a pas changé entre la mise à jour matinale (08:46) et le pipeline de 10:00 UTC. Le Full Refresh du 2026-05-17 reste la référence. Cette mise à jour confirme les éléments clés :
 
 1. **Survente technique non exploitée** — RSI 30.21 sans rebond, volume faible, cours sous MM50.
 2. **Aucun catalyseur immédiat** — Earnings Q2 dans 71j (2026-07-28), consensus stable, pas de news structurante.
@@ -163,14 +162,15 @@ La configuration fondamentale et technique de SoFi n'a pas changé en 24h. Le Fu
 - Horizon : 3–6 mois
 - Score Opportunité : 5.7/10
 - Score Global : 48.6/100
-- Thèse résumée : Aucun changement de fond en 24h. Survente technique (RSI 30) sans rebond, trend baissier sous MM50, volume faible. Earnings dans 71j. Support $15.38 tient. SURVEILLER.
+- Thèse résumée : Aucun changement de fond entre la mise à jour matinale et le pipeline 10:00 UTC. Survente technique (RSI 30) sans rebond, trend baissier sous MM50, volume faible. Earnings dans 71j. Support $15.38 tient. DRAFT_refresh archivé. SURVEILLER.
 
 ---
 
 ## Références
 
 - `Actions/SOFI/SOFI_2026-05-17_init.md` — Analyse initiale / Full Refresh
-- `data/latest.json` (2026-05-18) — Cours, RSI, ATR, consensus, ratios FMP
+- `Actions/SOFI/SOFI_2026-05-18_update.md` (08:46) — Première mise à jour du jour
+- `data/latest.json` (2026-05-18T10:00:08+00:00) — Cours, RSI, ATR, consensus, ratios FMP
 - `data/recommandations_latest.json` (2026-05-18) — Scores agents actualisés
 - `data/quant_report_latest.json` — Insuffisant
 - `data/geo_risk_latest.json` — Non flaggé
