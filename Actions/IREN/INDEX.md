@@ -27,7 +27,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 | 2026-05-17 | [IREN_2026-05-17_earnings.md](IREN_2026-05-17_earnings.md) | Post-earnings (preview) | Preview pre-earnings — résultats Q1 2026 non encore disponibles |
 | 2026-05-18 | [IREN_2026-05-18_update.md](IREN_2026-05-18_update.md) | Mise à jour matin | Cours stable $52.94 post-gap · Earnings J-0 · Scores inchangés · Thèse confirmée |
 | 2026-05-18 | [IREN_2026-05-18_update.md](IREN_2026-05-18_update.md) (rev. 17:00) | Mise à jour soir | Cours $49.30 (-6.9% session) · Volume faible · MM50 $45 à surveiller · Thèse modifiée sous pression |
-| 2026-05-18 | [IREN_2026-05-18_update.md](IREN_2026-05-18_update.md) (rev. 20:07) | Mise à jour soir | Cours $50.46 (+2.4% rebond) · Volume 80% moyen · Scores recalculés 6.3/68.3 · Thèse confirmée |
+| 2026-05-18 | [IREN_2026-05-18_update.md](IREN_2026-05-18_update.md) (rev. 20:39) | Mise à jour soir | Cours $50.46 stable · Volume 80% moyen · Scores inchangés 6.3/68.3 · Thèse confirmée — aucun nouveau flux post-earnings |
 
 ---
 
@@ -54,4 +54,4 @@ Voir [SUPPLY_CHAIN.md](SUPPLY_CHAIN.md) pour la cartographie fournisseurs/client
 
 ---
 
-*Dernière mise à jour : 2026-05-18 (rev. 20:07 UTC)*
+*Dernière mise à jour : 2026-05-18 (rev. 20:39 UTC)*

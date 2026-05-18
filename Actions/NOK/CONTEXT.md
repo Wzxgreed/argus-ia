@@ -69,7 +69,7 @@ Leader 5G mature, massivement surévalué vs consensus ADR (P/E 85.9, cours $13.
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 7.06% (seuil 5.0%) — **Faux positit archivé**
+- **ATR_SPIKE** (medium) — ATR relatif 7.06% (seuil 5.0%)
 
 ---
 

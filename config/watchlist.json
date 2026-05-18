@@ -144,6 +144,22 @@
       "priority": "medium",
       "exchange": "NASDAQ",
       "notes": "Ajouté via dashboard API"
+    },
+    {
+      "ticker": "AXA",
+      "name": "AXA",
+      "sector": "Non spécifié",
+      "priority": "medium",
+      "exchange": "NASDAQ",
+      "notes": "Ajouté via dashboard API"
+    },
+    {
+      "ticker": "SPCX",
+      "name": "SPCX",
+      "sector": "Non spécifié",
+      "priority": "medium",
+      "exchange": "NASDAQ",
+      "notes": "Ajouté via dashboard API"
     }
   ],
   "macro_symbols": {

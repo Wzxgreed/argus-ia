@@ -1,8 +1,8 @@
 # 🔭 Événements à venir — Watchlist Argus-IA
 
 > **Date :** 2026-05-18
-> **Tickers scannés :** 15
-> **Événements détectés :** 15
+> **Tickers scannés :** 20
+> **Événements détectés :** 20
 
 ---
 
@@ -14,6 +14,10 @@
 | SQ | earnings | 2026-05-18 | 0j | Earnings ... | fmp |
 | TEST | earnings | 2026-05-18 | 0j | Earnings ... | fmp |
 | FUBO | earnings | 2026-05-18 | 0j | Earnings ... | fmp |
+| MICRON | earnings | 2026-05-18 | 0j | Earnings ... | fmp |
+| AST | earnings | 2026-05-18 | 0j | Earnings ... | fmp |
+| AXA | earnings | 2026-05-18 | 0j | Earnings ... | fmp |
+| SPCX | earnings | 2026-05-18 | 0j | Earnings ... | fmp |
 
 ---
 

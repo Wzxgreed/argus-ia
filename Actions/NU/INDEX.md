@@ -6,7 +6,7 @@
 - **Score Global :** 66.0/100 (ajusté 63.0)
 - **Score Opportunité :** 6.6/10 (C:6.5 V:8.0 M:4.5)
 - **Prix Cible :** $18.56 (consensus FMP, 9 analysts)
-- **Stop-Loss :** $11.22 (2×ATR)
+- **Stop-Loss :** $11.37 (2×ATR)
 - **Statut Thèse :** Score ajusté franchit seuil achat réduit — timing défavorable, sizing réduit
 - **Horizon :** 1–3 mois
 
@@ -32,4 +32,4 @@ Voir [REFRESH_LOG.md](REFRESH_LOG.md) pour l'historique des déclencheurs.
 
 ## 📝 Résumé de la Thèse
 
-NU est le leader néo-banque latino-américain (Brésil/Mexique/Colombie) avec 100M+ clients, des marges opérationnelles solides (24.4%), un bilan net cash (net debt/EBITDA -2.47×), et une valorisation forward attractive (P/E 10.4×). Le score global ajusté a été révisé à la hausse à 63.0 (pipeline 17:00 UTC), franchissant le seuil d'achat réduit. La survente technique persiste (RSI 21.14, cours sous MM50) et le secteur financier XLF reste en sous-performance. La recommandation passe à ACHETER (Réduit) pour les profils tolérants au risque, avec un sizing réduit et un stop-loss strict à $11.22. Les données options (max pain $14.50, put/call 0.66, call OI 60.1%) restent cohérentes avec une vision neutre à légèrement haussière.
+NU est le leader néo-banque latino-américain (Brésil/Mexique/Colombie) avec 100M+ clients, des marges opérationnelles solides (24.4%), un bilan net cash (net debt/EBITDA -2.47×), et une valorisation forward attractive (P/E 10.6×). Le score global ajusté reste à 63.0 (pipeline 20:56 UTC), dans la zone d'achat réduit. La survente technique persiste (RSI 23.37, cours sous MM50) et le secteur financier XLF reste en sous-performance (momentum score 0.0). La recommandation reste ACHETER (Réduit) pour les profils tolérants au risque, avec un sizing réduit et un stop-loss strict à $11.37. Le cours a grimpé de +0.82% sur la séance sur un volume accru à 1.32× moyenne 20j, mais sans confirmation de retournement. Les données options (max pain $14.50, put/call 0.66, call OI 60.1%) restent cohérentes avec une vision neutre à légèrement haussière.

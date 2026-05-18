@@ -44,7 +44,7 @@ Revue manuelle post-pipeline : les donnees brutes (cours $52.94, RSI 54.61, ATR 
 - price_gap (medium) : Gap -6.44% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.98% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** confirm — duplicata de session, données inchangées vs snapshot précédent (20:07 UTC), aucun nouveau flux post-earnings intégré.
 
 ---
 
@@ -54,7 +54,7 @@ Revue manuelle post-pipeline : les donnees brutes (cours $52.94, RSI 54.61, ATR 
 - price_gap (medium) : Gap -6.89% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 11.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** confirm — duplicata de session, données inchangées vs snapshot précédent (20:07 UTC), aucun nouveau flux post-earnings intégré.
 
 ---
 
@@ -63,7 +63,25 @@ Revue manuelle post-pipeline : les donnees brutes (cours $52.94, RSI 54.61, ATR 
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.85% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** confirm — duplicata de session, données inchangées vs snapshot précédent (20:07 UTC), aucun nouveau flux post-earnings intégré.
+
+---
+
+## 2026-05-18 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10.86% (seuil 5.0%)
+
+**Conclusion :** confirm — duplicata de session, données inchangées vs snapshot précédent (20:07 UTC), aucun nouveau flux post-earnings intégré.
+
+---
+
+## 2026-05-18 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10.86% (seuil 5.0%)
+
+**Conclusion :** confirm — duplicata de session, données inchangées vs snapshot précédent (20:07 UTC), aucun nouveau flux post-earnings intégré.
 
 ---
 

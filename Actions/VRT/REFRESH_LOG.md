@@ -30,12 +30,32 @@
 
 ---
 
-## 2026-05-18 — Full Refresh Triggered
+## 2026-05-18 — Full Refresh Triggered (archive)
+
+**Triggers :**
+- price_gap (medium) : Gap -8.24% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 5.49% (seuil 5.0%)
+
+**Conclusion :** Résolu — fusionné avec le refresh suivant (même gap, données affinées). DRAFT archivé.
+
+---
+
+## 2026-05-18 — Full Refresh Triggered (archive)
 
 **Triggers :**
 - price_gap (medium) : Gap -8.41% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 5.50% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Résolu — fusionné avec le refresh suivant (même gap, données affinées). DRAFT archivé.
+
+---
+
+## 2026-05-18 — Full Refresh Triggered (final)
+
+**Triggers :**
+- price_gap (medium) : Gap -8.41% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 5.50% (seuil 5.0%)
+
+**Conclusion :** Thèse CONFIRMÉE — correction en cours tel qu'anticipée. Cours confirmé $339.73 (−8.41% vs veille). Low intraday $330.72 testé et tenu. RSI 61.76 (sortie surachat). Volume 1.36× sur gap = distribution probable. Put/Call 3.08 persistant. Sector rotation XLI faible (momentum 0.0). Score Opportunité 3.9/10. SURVEILLER. Zone d'intérêt $330–$340. Pas de position sans consolidation. Voir [VRT_2026-05-18_update.md](./VRT_2026-05-18_update.md).
 
 ---

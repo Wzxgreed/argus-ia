@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
-- **Horizon :** —
+- **Recommandation :** ÉVITER
+- **Score global :** 30,8/100 (brut 40,8)
+- **Prix cible :** $84,20 (consensus FMP 15 analysts)
+- **Stop-loss :** $110,60
+- **Statut thèse :** Confirmée — aucun changement fondamental
+- **Horizon :** Attendre retour $80–$95 ou inflexion fondamentale
 
 ---
 
@@ -30,32 +30,37 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings Q2 2026 : 2026-08-06 (80 jours)
+- Expiration options : 2026-05-22 (Max Pain $150,00)
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 77.99
-- **MM 50j :** 80.47
+- **RSI 14j :** 77,99
+- **MM 50j :** 80,47
 - **MM 200j :** —
-- **ATR 14j :** 10.28
-- **Volume moy. 20j :** 26506105
+- **ATR 14j :** 10,28
+- **Volume moy. 20j :** 26 529 273
+- **Volume jour :** 32 105 262 (1,21×)
+- **52W High :** 138,38
+- **Beta :** 2,313
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** full refresh
-- **Fichier :** `_DRAFT_refresh_2026-05-18.md`
-- **Conclusion :** > **Date :** 2026-05-18
+- **Type :** update
+- **Fichier :** RKLB_2026-05-18_update.md
+- **Conclusion :** THÈSE CONFIRMÉE 🔴 ÉVITER. Volume accéléré en fin de séance (+46% vs 17h) sans news adossée. Surchauffe technique aggravée (RSI 77,99, spot +62,9% vs MM50). Score global inchangé 30,8/100. Attendre retour $80–$95.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **PRICE_GAP** (medium) — Gap +5.12% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 7.84% (seuil 5.0%)
 
 ---
 

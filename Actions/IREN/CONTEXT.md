@@ -1,4 +1,4 @@
-# CONTEXT — IREN — Dernière mise à jour : 2026-05-18 (rev. 20:07 UTC)
+# CONTEXT — IREN — Dernière mise à jour : 2026-05-18 (rev. 20:39 UTC)
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -55,8 +55,8 @@
 
 - **Date :** 2026-05-18
 - **Type :** update
-- **Fichier :** `IREN_2026-05-18_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — rebond technique sur MM50, scores recalculés à la hausse (6.3/68.3)**
+- **Fichier :** `IREN_2026-05-18_update.md` (rev. 20:39)
+- **Conclusion :** **Thèse : CONFIRMÉE — données stables vs snapshot 20:07, aucun nouveau flux post-earnings, scores inchangés (6.3/68.3)**
 
 ---
 
