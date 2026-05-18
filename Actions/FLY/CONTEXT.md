@@ -9,7 +9,7 @@
 
 - **Recommandation :** ATTENDRE
 - **Score global :** 50.5 (55.5 ajusté)
-- **Prix cible :** $42.45 (consensus FMP)
+- **Prix cible :** $42.45 (consensus FMP, 11 analysts)
 - **Stop-loss :** $32.39
 - **Statut thèse :** Confirmée avec nuance
 - **Horizon :** —
@@ -41,8 +41,10 @@
 - **MM 50j :** 32.24
 - **MM 200j :** —
 - **ATR 14j :** 4.02
-- **Volume moy. 20j :** 5994630
+- **Volume moy. 20j :** 5,994,630
 - **Cours close :** 40.43
+- **Max Pain :** 15.00 (écart 63% sous spot)
+- **Short Interest :** 0.09%
 
 ---
 
@@ -51,13 +53,13 @@
 - **Date :** 2026-05-18
 - **Type :** update
 - **Fichier :** `FLY_2026-05-18_update.md`
-- **Conclusion :** Thèse confirmée avec nuance. Momentum technique intact (cours > MM50) mais fondamentaux faibles (Filtre Qualité 2/6). Score Valorisation ajusté à la baisse (4.5/10). Volatilité élevée (ATR relatif 9.94%, range 11.5%). Consensus analystes $42.45 (+5% upside). Aucune position recommandée.
+- **Conclusion :** Thèse confirmée avec nuance. Momentum technique intact (cours > MM50) mais fondamentaux faibles (Filtre Qualité 2/6). Score Valorisation ajusté à la baisse (4.5/10). Volatilité élevée (ATR relatif 9.94%, range 11.5%). Max Pain distordu à $15.00 (expiration 22/05 proche). Consensus analystes $42.45 (+5% upside). Headwind sectoriel XLI (momentum_score 0.0). Aucune position recommandée.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 9.94% (seuil 5.0%) — 2026-05-18
+- **ATR_SPIKE** (medium) — ATR relatif 9.94% (seuil 5.0%)
 
 ---
 

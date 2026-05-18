@@ -29,3 +29,12 @@
 - **Action :** DRAFT_refresh archivé (`_DRAFT_refresh_2026-05-18.md`). Pas de réécriture de `_init.md` requise.
 
 ---
+
+## 2026-05-18 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.25% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

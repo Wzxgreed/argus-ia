@@ -22,8 +22,7 @@ EN SURVEILLANCE — Earnings J, attendre résultats
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 8,21% (seuil 5,0%) — persistant depuis 2026-05-17
-- **Earnings jour J** — 2026-05-18
+- **ATR_SPIKE** (medium) — ATR relatif 8.21% (seuil 5.0%)
 
 ---
 

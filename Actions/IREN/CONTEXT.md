@@ -67,7 +67,7 @@
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap -9.35% overnight (seuil ±5.0%) — **Stabilisé au même niveau le 2026-05-18**
+- **PRICE_GAP** (medium) — Gap -9.35% overnight (seuil ±5.0%)
 - **ATR_SPIKE** (medium) — ATR relatif 10.39% (seuil 5.0%)
 
 ---

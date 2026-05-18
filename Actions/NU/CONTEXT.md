@@ -29,10 +29,6 @@
 - **PRICE_GAP** (medium) — Gap -5.72% overnight (seuil ±5.0%)
 - **VOLUME_SURGE** (medium) — Volume 3.2× moyenne 20j (138,779,800 vs 43,662,145)
 
-## 📋 Mise à jour du jour
-
-- **Update 2026-05-18 soir :** Données inchangées depuis le full refresh matinal. Aucun nouveau catalyseur, aucune news structurante. Thèse confirmée : ATTENDRE. DRAFT_refresh archivés. Fichiers complétés : `_init.md` + `_update.md`.
-
 ---
 
 *Généré automatiquement — ne pas éditer manuellement.*
