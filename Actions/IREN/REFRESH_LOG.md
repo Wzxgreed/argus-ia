@@ -90,6 +90,6 @@ Revue manuelle post-pipeline : les donnees brutes (cours $52.94, RSI 54.61, ATR 
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** confirm — données strictement inchangées vs snapshot 20:39 UTC et 21:00 UTC, aucun nouveau flux post-earnings intégré. DRAFT_refresh complété et archivé.
 
 ---

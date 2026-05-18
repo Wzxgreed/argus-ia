@@ -1,14 +1,14 @@
-# IREN — Mise à Jour Quotidienne (2026-05-18, rev. 20:39 UTC)
+# IREN — Mise à Jour Quotidienne (2026-05-18, rev. 21:00 UTC)
 
-> **Type :** `_update.md` — Mise à jour post-pipeline soir (snapshot 20:39 UTC)
-> **Référence précédente :** [IREN_2026-05-18_update.md](IREN_2026-05-18_update.md) (snapshot 20:07 UTC)
-> **Données source :** `data/latest.json` (timestamp 2026-05-18T20:39:57.690967+00:00), `data/recommandations_latest.json`
+> **Type :** `_update.md` — Mise à jour post-pipeline soir (snapshot 21:00 UTC)
+> **Référence précédente :** [IREN_2026-05-18_update.md](IREN_2026-05-18_update.md) (rev. 20:39 UTC)
+> **Données source :** `data/latest.json` (timestamp 2026-05-18T21:00:02.393453+00:00), `data/recommandations_latest.json`
 
 ---
 
 ## Résumé des Changements
 
-| Métrique | 2026-05-18 20:07 | 2026-05-18 20:39 | Δ |
+| Métrique | 2026-05-18 20:39 | 2026-05-18 21:00 | Δ |
 |----------|------------------|------------------|---|
 | **Cours close** | $50.46 | **$50.46** | **—** |
 | **Volume** | 42.39 M | **42.39 M** | **—** |
@@ -27,7 +27,7 @@
 | **Score Opportunité** | 6.3/10 | **6.3/10** | **—** |
 | **Score Global ajusté** | 68.3/100 | **68.3/100** | **—** |
 
-**Verdict :** Aucun changement de données brutes entre le snapshot 20:07 UTC et le snapshot 20:39 UTC. Le close, le volume, les indicateurs techniques et les scores agents sont strictement identiques. La structure technique reste intacte au-dessus de la MM50. **Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds Yahoo/FMP.** La thèse est **confirmée** sans révision de niveaux.
+**Verdict :** Aucun changement de données brutes entre le snapshot 20:39 UTC et le snapshot 21:00 UTC. Le close, le volume, les indicateurs techniques et les scores agents sont strictement identiques. **DRAFT_refresh déclenché par ATR_SPIKE (10.86%) traité et archivé.** La structure technique reste intacte au-dessus de la MM50. **Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds Yahoo/FMP.** La thèse est **confirmée** sans révision de niveaux.
 
 ---
 
@@ -39,7 +39,7 @@
 | **ATR 14j** | $5.48 | Volatilité élevée stable (beta 4.18) |
 | **MM 50j** | $45.00 | Cours **+12.1% au-dessus** — tendance haussière intacte |
 | **MM 200j** | N/A | Non disponible |
-| **Volume 20j moy.** | 52.76 M | Volume du jour 42.39 M = **80.3%** du moyen — participation en amélioration |
+| **Volume 20j moy.** | 52.76 M | Volume du jour 42.39 M = **80.3%** du moyen — participation stable |
 | **Range intraday** | $48.48 – $53.08 | Low $48.48 défendu, résistance à l'open $53.08 |
 | **52-week high/low** | $76.87 / $8.11 | Cours à **65.6%** du 52W high |
 
@@ -57,7 +57,7 @@
 
 ## Mise à Jour Fondamentale
 
-**Aucun nouveau flux fondamental** depuis le snapshot 20:07. Les données FMP restent au FY 2025 (clos 2025-06-30). L'earnings Q1 2026 n'est toujours pas intégré dans Yahoo/FMP au snapshot 20:39 UTC.
+**Aucun nouveau flux fondamental** depuis le snapshot 20:39. Les données FMP restent au FY 2025 (clos 2025-06-30). L'earnings Q1 2026 n'est toujours pas intégré dans Yahoo/FMP au snapshot 21:00 UTC.
 
 | Métrique | Yahoo Finance | FMP Stable API | Écart | Source préférée |
 |----------|---------------|----------------|-------|-----------------|
@@ -123,11 +123,11 @@
 - Premium vs NAV estimé : **+12%**
 - Verdict : *Fortement corrélé — pivot IA non encore pricé*
 
-**Commentaire :** L'absence de mentions sociales et l'absence de nouvelles flux institutionnels confirment que le mouvement reste technique/institutionnel. Le max pain à $33 reste un ancrage de risque de queue.
+**Commentaire :** L'absence de mentions sociales et l'absence de nouvelles flux institutionnels confirment que le mouvement reste technique/institutionnel. Le max pain à $33 reste un ancrage de risque de queue. Aucun upgrade/downgrade ni insider trade significatif détecté dans l'intervalle.
 
 ---
 
-## Scoring Global (Agent Recommandation — 2026-05-18, rev. 20:39)
+## Scoring Global (Agent Recommandation — 2026-05-18, rev. 21:00)
 
 | Axe | Score | Pondération | Poids ajusté |
 |-----|-------|-------------|--------------|
@@ -174,14 +174,14 @@
 
 ## Conclusion
 
-**Thèse : CONFIRMÉE — données stables, aucun nouveau flux post-earnings**
+**Thèse : CONFIRMÉE — données stables, DRAFT_refresh traité, aucun nouveau flux post-earnings**
 
-La structure technique d'IREN est **intacte** au-dessus de la MM50 à $45.00. Le snapshot 20:39 UTC confirme la stabilité des niveaux établis à 20:07 UTC (close $50.46, RSI 56.24, ATR $5.48). Aucun nouveau flux fondamental, institutionnel ou optionnel n'est survenu dans l'intervalle.
+La structure technique d'IREN est **intacte** au-dessus de la MM50 à $45.00. Le snapshot 21:00 UTC confirme la stabilité totale des niveaux établis à 20:39 UTC (close $50.46, RSI 56.24, ATR $5.48). Le DRAFT_refresh déclenché par ATR_SPIKE (10.86%) a été analysé, conclu comme un faux positit de volatilité résiduelle (données inchangées), et archivé. Aucun nouveau flux fondamental, institutionnel ou optionnel n'est survenu dans l'intervalle.
 
 **Points clés :**
-1. **Cours stable** à $50.46 — aucun changement depuis 20:07
+1. **Cours stable** à $50.46 — aucun changement depuis 20:39 UTC
 2. **Volume stable** (80% du moyen) — participation inchangée
-3. **Earnings J-0** — résultats Q1 2026 toujours non intégrés dans FMP/Yahoo (fetch 20:39 UTC)
+3. **Earnings J-0** — résultats Q1 2026 toujours non intégrés dans FMP/Yahoo (fetch 21:00 UTC)
 4. **Score Opportunité 6.3/10** — inchangé (Catalyseur 8.3 compense Valorisation 4.5)
 5. **Score Global ajusté 68.3/100** — inchangé (bonus sectoriel XLK top momentum)
 6. **Filtre Qualité 4/6** inchangé — Quality Partielle, FCF négatif persistant
@@ -189,6 +189,7 @@ La structure technique d'IREN est **intacte** au-dessus de la MM50 à $45.00. Le
 8. **Proxy BTC intact** — corrélation 0.82, beta 2.1, divergence score 4/10
 9. **Max pain $33** — tail risk −34.6% en cas de guidance cut sévère
 10. **Sector rotation** : XLK top momentum (10/10) — contexte macro favorable au secteur
+11. **DRAFT_refresh traité** — ATR_SPIKE archivé comme faux positif de volatilité résiduelle
 
 **Récommandation :** Maintenir **ACHETER à sizing réduit** avec SL $39.50 / TP $66.90, **MAIS** :
 - **Ne pas renforcer** avant les résultats Q1 2026
