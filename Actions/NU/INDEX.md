@@ -2,19 +2,19 @@
 
 ## 🎯 Thèse Courante
 
-- **Recommandation :** ATTENDRE
-- **Score Global :** 62.2/100 (ajusté 54.2)
-- **Score Opportunité :** 6.2/10 (C:6.5 V:8.0 M:3.0)
+- **Recommandation :** ACHETER (Réduit)
+- **Score Global :** 66.0/100 (ajusté 63.0)
+- **Score Opportunité :** 6.6/10 (C:6.5 V:8.0 M:4.5)
 - **Prix Cible :** $18.56 (consensus FMP, 9 analysts)
-- **Stop-Loss :** $11.29 (2×ATR)
-- **Statut Thèse :** Survente technique extrême — attendre retournement
+- **Stop-Loss :** $11.22 (2×ATR)
+- **Statut Thèse :** Score ajusté franchit seuil achat réduit — timing défavorable, sizing réduit
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
 
 | Fichier | Date | Type | Verdict |
 |---------|------|------|---------|
-| [NU_2026-05-18_update.md](NU_2026-05-18_update.md) | 2026-05-18 | Update quotidienne (post-pipeline 13:00 UTC) | ATTENDRE (confirmé, correction données options) |
+| [NU_2026-05-18_update.md](NU_2026-05-18_update.md) | 2026-05-18 | Update quotidienne (post-pipeline 17:00 UTC) | ACHETER (Réduit) — thèse modifiée, score ajusté 63.0 |
 | [NU_2026-05-18_init.md](NU_2026-05-18_init.md) | 2026-05-18 | Init / Full Refresh | ATTENDRE |
 | [NU_2026-05-18_claude.md](NU_2026-05-18_claude.md) | 2026-05-18 | Full Refresh | ATTENDRE |
 | [_DRAFT_refresh_2026-05-18_13h00_archive.md](_DRAFT_refresh_2026-05-18_13h00_archive.md) | 2026-05-18 | DRAFT (archive) | — |
@@ -32,4 +32,4 @@ Voir [REFRESH_LOG.md](REFRESH_LOG.md) pour l'historique des déclencheurs.
 
 ## 📝 Résumé de la Thèse
 
-NU est le leader néo-banque latino-américain (Brésil/Mexique/Colombie) avec 100M+ clients, des marges opérationnelles solides (24.4%), un bilan net cash (net debt/EBITDA -2.47×), et une valorisation forward attractive (P/E 10.5×). La survente technique actuelle (RSI 20.76, gap -5.72% sur volume 3.2×) offre un point d'entrée potentiel, mais le timing est défavorable (cours sous MM50, secteur financier XLF en sous-performance). Les données options corrigées (max pain $14.50, put/call 0.66, call OI 60.1%) retirent le signal baissier extrême et suggèrent une légère inclination haussière du marché options. Attendre un signal de retournement technique avant entrée.
+NU est le leader néo-banque latino-américain (Brésil/Mexique/Colombie) avec 100M+ clients, des marges opérationnelles solides (24.4%), un bilan net cash (net debt/EBITDA -2.47×), et une valorisation forward attractive (P/E 10.4×). Le score global ajusté a été révisé à la hausse à 63.0 (pipeline 17:00 UTC), franchissant le seuil d'achat réduit. La survente technique persiste (RSI 21.14, cours sous MM50) et le secteur financier XLF reste en sous-performance. La recommandation passe à ACHETER (Réduit) pour les profils tolérants au risque, avec un sizing réduit et un stop-loss strict à $11.22. Les données options (max pain $14.50, put/call 0.66, call OI 60.1%) restent cohérentes avec une vision neutre à légèrement haussière.

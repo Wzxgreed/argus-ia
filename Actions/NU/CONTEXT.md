@@ -7,19 +7,19 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score Global :** 62.2/100 (ajusté 54.2)
-- **Score Opportunité :** 6.2/10 (C:6.5 V:8.0 M:3.0)
+- **Recommandation :** ACHETER (Réduit)
+- **Score Global :** 66.0/100 (ajusté 63.0)
+- **Score Opportunité :** 6.6/10 (C:6.5 V:8.0 M:4.5)
 - **Prix Cible :** $18.56 (consensus FMP, 9 analysts)
-- **Stop-Loss :** $11.29 (2×ATR)
-- **Statut Thèse :** Survente technique extrême — attendre retournement
+- **Stop-Loss :** $11.22 (2×ATR)
+- **Statut Thèse :** Score ajusté franchit seuil achat réduit — timing défavorable, sizing réduit
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
+- **Score global :** 66.0/100
+- **Prix cible :** $18.56
+- **Stop-loss :** $11.22
+- **Statut thèse :** MODIFIÉE — ACHETER (Réduit)
 - **Horizon :** 1–3 mois
 
 ---
@@ -38,26 +38,27 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings Q2 2026 : 13 août 2026 (87 jours)
+- Expiration options : 2026-05-22 (4 jours)
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 21.48
+- **RSI 14j :** 21.14
 - **MM 50j :** 14.26
 - **MM 200j :** —
 - **ATR 14j :** 0.45
-- **Volume moy. 20j :** 43614209
+- **Volume moy. 20j :** 43915476
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** update
+- **Type :** update (post-pipeline 17:00 UTC)
 - **Fichier :** `NU_2026-05-18_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE**
+- **Conclusion :** **Thèse : MODIFIÉE — ACHETER (Réduit)**
 
 ---
 
