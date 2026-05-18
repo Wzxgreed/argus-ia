@@ -1,17 +1,17 @@
-# AST — Mise à jour 2026-05-18 (snapshot 22:36 UTC)
+# AST — Mise à jour 2026-05-18 (snapshot 23:09 UTC)
 
 > **Date :** 2026-05-18
-> **Type :** Update post-snapshot confirmatoire
+> **Type :** Update post-pipeline 23:09 UTC
 > **Statut données :** [DONNÉES MANQUANTES] — aucun historique de prix disponible
-> **Source :** data/latest.json (22:36 UTC), data/recommandations_latest.json, data/upcoming_events_latest.json, data/social_sentiment_latest.json, data/fx_exposure_latest.json
+> **Source :** data/latest.json (23:09 UTC), data/recommandations_latest.json, data/upcoming_events_latest.json, data/social_sentiment_latest.json, data/fx_exposure_latest.json, data/geo_risk_latest.json, data/events_latest.json, data/quant_report_latest.json
 
 ---
 
 ## 1. Résumé des changements depuis l'analyse précédente
 
-**Analyse précédente :** `AST_2026-05-18_update.md` (snapshot 21:23 UTC)
+**Analyse précédente :** `AST_2026-05-18_update.md` (snapshot 22:36 UTC)
 
-| Élément | Snapshot 21:23 UTC | Snapshot 22:36 UTC | Changement |
+| Élément | Snapshot 22:36 UTC | Snapshot 23:09 UTC | Changement |
 |---------|-------------------|-------------------|------------|
 | Cours | [DONNÉES MANQUANTES] | [DONNÉES MANQUANTES] | Aucun changement |
 | RSI 14j | Placeholder 50 | Placeholder 50 | Aucun changement |
@@ -19,13 +19,13 @@
 | Erreur Yahoo | `No price history` | `No price history` | Confirmé stable |
 | Earnings jour J | Programmé (FMP) | Programmé (FMP) | Aucun résultat reçu |
 
-**Constat :** Le snapshot 22:36 UTC confirme la stabilité de l'absence totale de données de marché pour AST. Aucun cours, volume, RSI, ATR, ni données FMP ne sont disponibles. L'événement earnings programmé ce jour (2026-05-18, source FMP, `days_until: 0`) n'a pas alimenté de données exploitables dans le pipeline.
+**Constat :** Le snapshot 23:09 UTC confirme la stabilité de l'absence totale de données de marché pour AST. Aucun cours, volume, RSI, ATR, ni données FMP ne sont disponibles. L'événement earnings programmé ce jour (2026-05-18, source FMP, `days_until: 0`) n'a pas alimenté de données exploitables dans le pipeline. Les données restent strictement identiques au snapshot 22:36 UTC.
 
 ---
 
 ## 2. Mise à jour technique
 
-| Métrique | Valeur précédente | Valeur actuelle (22:36 UTC) | Variation |
+| Métrique | Valeur précédente | Valeur actuelle (23:09 UTC) | Variation |
 |----------|-------------------|---------------------------|-----------|
 | Cours | — | [DONNÉES MANQUANTES] | — |
 | RSI 14j | — | Placeholder 50 (agent) | — |
@@ -46,17 +46,18 @@ Aucune donnée fondamentale (P/E, EV/EBITDA, FCF, margins, consensus) n'est pré
 
 ## 4. Mise à jour sentiment / options / news
 
-- **Sentiment retail :** 0 mentions Reddit, score 0/10 — `social_sentiment_latest.json`
-- **News :** aucune news détectée pour AST dans `data/news_2026-05-18.json` ni `data/news_latest.json`
+- **Sentiment retail :** 0 mentions Reddit, score 0/10 — `social_sentiment_2026-05-18.json`
+- **News :** aucune news détectée pour AST dans `data/news_2026-05-18.json`
 - **Options / Unusual activity :** [DONNÉES MANQUANTES] — pas de données de marché
 - **Upgrades/downgrades :** [DONNÉES MANQUANTES]
 - **Événements :** Earnings programmé le 2026-05-18 (FMP) mais résultats non intégrés (`upcoming_events_latest.json`)
+- **Geo / Accounting / Sector / Events :** aucune donnée spécifique pour AST dans les rapports agents
 
 ---
 
 ## 5. Scoring global (données agents)
 
-> ⚠️ Les scores ci-dessous sont issus de `data/recommandations_latest.json` mais comportent des valeurs placeholders en l'absence de données réelles.
+> ⚠️ Les scores ci-dessous sont issus de `data/recommandations_2026-05-18.json` mais comportent des valeurs placeholders en l'absence de données réelles.
 
 | Axe | Score | Note |
 |-----|-------|------|
@@ -78,20 +79,30 @@ Aucune donnée fondamentale (P/E, EV/EBITDA, FCF, margins, consensus) n'est pré
 
 ---
 
-## 6. Conclusion — Thèse
+## 6. Anomalie structurelle — AST vs ASTS
 
-**Verdict : NON ÉVALUABLE / DONNÉES MANQUANTES — CONFIRMÉ AU SNAPSHOT 22:36 UTC**
+La watchlist (`config/watchlist.json`) contient **deux tickers** pour la même entité probable :
+- `AST` — zéro données, erreur Yahoo `No price history`
+- `ASTS` (AST SpaceMobile) — données complètes : cours $86.83, RSI 60.85, ATR 7.39, MM50 83.66, volume 23.9M, score opportunité 5.5/10 dans `recommandations_2026-05-18.json`
+
+**Conclusion :** AST est très probablement un **doublon erroné** d'ASTS. Le ticker correct sur NASDAQ pour AST SpaceMobile est **ASTS**.
+
+---
+
+## 7. Conclusion — Thèse
+
+**Verdict : NON ÉVALUABLE / DONNÉES MANQUANTES — CONFIRMÉ AU SNAPSHOT 23:09 UTC**
 
 - Aucune analyse initiale n'a été produite pour AST (pas de `_init.md`)
-- Le snapshot technique du jour reste vide (`No price history`) après deux snapshots (21:23 et 22:36 UTC)
+- Le snapshot technique du jour reste vide (`No price history`) après trois snapshots (21:23, 22:36 et 23:09 UTC)
 - Les earnings du jour n'ont pas alimenté de données exploitables dans le pipeline
 - Le scoring agent est entièrement basé sur des placeholders (RSI 50, scores neutres 5.0–6.5)
-- **Aucun changement significatif** détecté entre les deux snapshots du jour
+- **Aucun changement significatif** détecté entre les trois snapshots du jour
+- Présence confirmée d'un doublon probable avec ASTS
 
 **Recommandation immédiate :**
-1. Vérifier la validité du symbole boursier AST sur Yahoo Finance / FMP
-2. Si AST est un symbole valide mais illiquide / OTC / récemment changé de ticker → le marquer comme `excluded` ou `low priority` dans `config/watchlist.json`
-3. **Si AST fait référence à AST SpaceMobile** → corriger `config/watchlist.json` pour utiliser `ASTS` (données disponibles : $86.83, RSI réel, ATR, MM50/200)
-4. Relancer `make analyse TICKER=AST` uniquement après confirmation du ticker et vérification de sa liquidité
+1. **Supprimer `AST` de `config/watchlist.json`** ou le marquer `excluded` — ASTS est le ticker valide et liquide
+2. Si AST fait référence à un autre actif (non AST SpaceMobile), vérifier son symbole boursier sur Yahoo Finance / FMP
+3. Relancer `make analyse TICKER=ASTS` pour débloquer l'analyse complète de l'entité sous son ticker correct
 
 **Règle absolue :** Ne pas émettre de prix cible, de stop-loss ou de recommandation d'achat/vente sans données de marché sourcées.
