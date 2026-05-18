@@ -179,7 +179,7 @@
 |-------|---------|------------|--------|
 | `_DRAFT_refresh_2026-05-17` | PRICE_GAP −9.35% + ATR_SPIKE 10.39% | **Confirm** — données inchangées, thèse stable | Archivé |
 | `_DRAFT_refresh_legacy` | PRICE_GAP −9.35% + ATR_SPIKE 10.39% | **Confirm** — données inchangées, thèse stable | Archivé |
-| `IREN_2026-05-18_DRAFT_refresh` | ATR_SPIKE 10.86% | **Confirm** — faux positit de volatilité résiduelle, données strictement identiques vs snapshot 21:00 UTC | Archivé |
+| `IREN_2026-05-18_DRAFT_refresh` | ATR_SPIKE 10.86% | **Confirm** — faux positif de volatilité résiduelle, données strictement identiques vs snapshot 21:00 UTC | Archivé |
 
 **Log REFRESH_LOG.md :** mise à jour avec conclusion confirm pour toutes les entrées incomplètes du 2026-05-18.
 
@@ -189,7 +189,7 @@
 
 **Thèse : CONFIRMÉE — données stables, DRAFT_refresh traité, aucun nouveau flux post-earnings**
 
-La structure technique d'IREN est **intacte** au-dessus de la MM50 à $45.00. Le snapshot 22:35 UTC confirme la stabilité totale des niveaux établis à 21:00 UTC (close $50.46, RSI 56.24, ATR $5.48). Le DRAFT_refresh déclenché par ATR_SPIKE (10.86%) a été analysé, conclu comme un faux positit de volatilité résiduelle (données inchangées), et archivé. Aucun nouveau flux fondamental, institutionnel, optionnel ou social n'est survenu dans l'intervalle.
+La structure technique d'IREN est **intacte** au-dessus de la MM50 à $45.00. Le snapshot 22:35 UTC confirme la stabilité totale des niveaux établis à 21:00 UTC (close $50.46, RSI 56.24, ATR $5.48). Le DRAFT_refresh déclenché par ATR_SPIKE (10.86%) a été analysé, conclu comme un faux positif de volatilité résiduelle (données inchangées), et archivé. Aucun nouveau flux fondamental, institutionnel, optionnel ou social n'est survenu dans l'intervalle.
 
 **Points clés :**
 1. **Cours stable** à $50.46 — aucun changement depuis 21:00 UTC
@@ -202,7 +202,7 @@ La structure technique d'IREN est **intacte** au-dessus de la MM50 à $45.00. Le
 8. **Proxy BTC intact** — corrélation 0.82, beta 2.1, divergence score 4/10
 9. **Max pain $33** — tail risk −34.6% en cas de guidance cut sévère
 10. **Sector rotation** : XLK top momentum (10/10) — contexte macro favorable au secteur
-11. **DRAFT_refresh traité** — ATR_SPIKE archivé comme faux positit de volatilité résiduelle
+11. **DRAFT_refresh traité** — ATR_SPIKE archivé comme faux positif de volatilité résiduelle
 
 **Récommandation :** Maintenir **ACHETER à sizing réduit** avec SL $39.50 / TP $66.90, **MAIS** :
 - **Ne pas renforcer** avant les résultats Q1 2026
