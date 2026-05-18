@@ -36,20 +36,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 64.16
-- **MM 50j :** 43.54
+- **RSI 14j :** 58.9
+- **MM 50j :** 43.55
 - **MM 200j :** —
-- **ATR 14j :** 1.09
-- **Volume moy. 20j :** 1080
+- **ATR 14j :** 1.16
+- **Volume moy. 20j :** 1190
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** update
-- **Fichier :** `TEST_2026-05-18_update.md`
-- **Conclusion :** ATTENDRE — Thèse INACTIVE, confirmée inchangée. Snapshot 13:00 UTC identique à 10:00 UTC. Filtre Qualité 0/6, liquidité insuffisante, aucune donnée post-earnings observable.
+- **Type :** preview
+- **Fichier :** `TEST_2026-05-18_preview.md`
+- **Conclusion :** > **Date :** 2026-05-18
 
 ---
 

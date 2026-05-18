@@ -37,3 +37,13 @@ Le cours est stable a $52.94 (meme niveau que le 2026-05-17). Les triggers sont 
 Revue manuelle post-pipeline : les donnees brutes (cours $52.94, RSI 54.61, ATR 5.50, scores agents inchanges) sont identiques au snapshot 13:00 UTC. Aucun nouveau flux post-earnings n'a ete integre. DRAFT_refresh archives. These confirmee avec reserve earnings.
 
 ---
+
+## 2026-05-18 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -6.44% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 10.98% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

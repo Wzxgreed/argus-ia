@@ -36,11 +36,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 51.62
-- **MM 50j :** 14.31
+- **RSI 14j :** 48.31
+- **MM 50j :** 14.3
 - **MM 200j :** —
-- **ATR 14j :** 0.86
-- **Volume moy. 20j :** 1223895
+- **ATR 14j :** 0.85
+- **Volume moy. 20j :** 1204975
 
 ---
 
@@ -49,14 +49,13 @@
 - **Date :** 2026-05-18
 - **Type :** update
 - **Fichier :** `MITK_2026-05-18_update.md`
-- **Conclusion :** > Desk : Argus-IA | Pipeline : 13:00 UTC | Données : `data/latest.json` (2026-05-18T13:00:12Z) | Score Global : **51.0/100** | Action : **ATTENDRE** | Options rafraîchies (Max Pain $20.00, Put/Call 0.14, Call OI 87.4%), données de base inchangées
+- **Conclusion :** > Desk : Argus-IA | Pipeline : 13:00 UTC | Données : `data/latest.json` (2026-05-18T13:00:12Z) | Score Global : **51.0/100** | Action : **ATTENDRE**
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +5.08% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 6.03% (seuil 5.0%)
+- Aucun trigger récent.
 
 ---
 

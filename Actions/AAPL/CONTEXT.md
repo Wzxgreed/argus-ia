@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Score global :** 51.0/100 (ajusté 41.0)
-- **Prix cible :** $220–$240 (DCF fair value)
-- **Stop-loss :** $286.91
-- **Statut thèse :** Confirmée — surachat technique persistant, pas d'entrée long à ces niveaux
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -24,37 +24,32 @@
 
 ## 🚨 Alertes actives
 
-- 🟡 RSI 88.43 — surachat extrême persistant
-- 🟡 Cours $300.23 > Consensus FMP $293.43 (+2.3%)
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- Earnings 2026-07-30 (73 jours) — Est EPS $1.83–$1.99, Rev $109.0B
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 88.43
-- **MM 50j :** 265.97
+- **RSI 14j :** 78.72
+- **MM 50j :** 266.74
 - **MM 200j :** —
-- **ATR 14j :** 6.66
-- **Volume moy. 20j :** 48393105
-- **52W High :** 303.20
-- **Max Pain :** 305.00
-- **Put/Call Ratio :** 0.61
-- **Call OI % :** 62.2%
+- **ATR 14j :** 6.65
+- **Volume moy. 20j :** 47208267
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** update (révisée post-pipeline 13:00 UTC)
+- **Type :** update
 - **Fichier :** `AAPL_2026-05-18_update.md`
-- **Conclusion :** THÈSE CONFIRMÉE — SURVEILLER. Aucun changement de fond. Données options rafraîchies (Max Pain $305, P/C 0.61, Call OI 62.2%) confirment une structure haussière sans excès. Pas d'entrée long à $300+ avec RSI 88. Attendre repli vers $285–$290 ou break confirmé au-dessus de $303.20 sur volume >1.5× moyenne.
+- **Conclusion :** > **Référence analyse précédente :** [AAPL_2026-05-17_init.md](AAPL_2026-05-17_init.md) | [AAPL_2026-05-18_update.md](AAPL_2026-05-18_update.md) (précédente session 10:00 UTC)
 
 ---
 

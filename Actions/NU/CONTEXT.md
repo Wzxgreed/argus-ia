@@ -16,10 +16,10 @@
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
-- **Score global :** 62.2/100
-- **Prix cible :** $18.56
-- **Stop-loss :** $11.29
-- **Statut thèse :** CONFIRMÉE — ATTENDRE
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
 - **Horizon :** 1–3 mois
 
 ---
@@ -38,38 +38,32 @@
 
 ## 📅 Prochains événements
 
-- **Earnings Q2 2026 :** 13 août 2026 (87 jours)
-- **Expiration Options :** 2026-05-22 (4 jours)
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 20.76
-- **MM 50j :** 14.3
+- **RSI 14j :** 21.48
+- **MM 50j :** 14.26
 - **MM 200j :** —
 - **ATR 14j :** 0.45
-- **Volume moy. 20j :** 43662145
-- **Max Pain :** 14.50
-- **Put/Call ratio :** 0.66
-- **Call OI % :** 60.1%
+- **Volume moy. 20j :** 43614209
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** update (post-pipeline 13:00 UTC)
+- **Type :** update
 - **Fichier :** `NU_2026-05-18_update.md`
 - **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE**
-- **Changement clé :** Correction données options (max pain $5.00 → $14.50, put/call 0.66, call OI 60.1%). Données techniques et fondamentales inchangées.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap -5.72% overnight (seuil ±5.0%)
-- **VOLUME_SURGE** (medium) — Volume 3.2× moyenne 20j (138,779,800 vs 43,662,145)
+- Aucun trigger récent.
 
 ---
 

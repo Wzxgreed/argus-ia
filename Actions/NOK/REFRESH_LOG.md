@@ -37,3 +37,12 @@ Aucun changement structurel vs le 2026-05-17. Le cours stable à $13.95 masque u
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-05-18 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 7.02% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

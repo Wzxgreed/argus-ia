@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 5.0/10 (Opportunité), 50.5 Global (55.5 ajusté)
-- **Prix cible :** $42.45 (consensus FMP)
-- **Stop-loss :** $32.39
-- **Statut thèse :** Confirmée avec nuance
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -30,35 +30,32 @@
 
 ## 📅 Prochains événements
 
-- Earnings Q2 2026 : 2026-08-04 (78 jours) — Est EPS -$0.60 à -$0.45, Rev $0.1B
-- Expiration options : 2026-05-22
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 61.71
-- **MM 50j :** 32.24
+- **RSI 14j :** 66.33
+- **MM 50j :** 32.71
 - **MM 200j :** —
-- **ATR 14j :** 4.02
-- **Volume moy. 20j :** 5,994,630
-- **Max Pain :** $25.00
-- **Put/Call Ratio :** 0.86
+- **ATR 14j :** 4.39
+- **Volume moy. 20j :** 6074133
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** update consolidée post-session
-- **Fichier :** `FLY_2026-05-18_update.md`
-- **Conclusion :** Données inchangées vs snapshot 13:00 UTC. Thèse ATTENDRE confirmée. DRAFT_refresh traité et archivé. Aucune position recommandée.
+- **Type :** full refresh
+- **Fichier :** `_FLY_2026-05-18_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-18
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 9.94% (seuil 5.0%) — traité 2026-05-18
+- Aucun trigger récent.
 
 ---
 

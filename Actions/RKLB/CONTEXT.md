@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ÉVITER
-- **Score global :** 27,0/100
-- **Prix cible :** $84,20 (consensus FMP)
-- **Stop-loss :** $105,47
-- **Statut thèse :** Confirmée
-- **Horizon :** Attendre retour $80–$95 ou inflexion fondamentale
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -30,36 +30,32 @@
 
 ## 📅 Prochains événements
 
-- Earnings Q2 2026 : 2026-08-06 (80 jours)
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 73.28
-- **MM 50j :** 79.25
+- **RSI 14j :** 77.24
+- **MM 50j :** 80.41
 - **MM 200j :** —
-- **ATR 14j :** 9.65
-- **Volume moy. 20j :** 26365380
-- **Max Pain (éch. 2026-05-22) :** 150.00
-- **Put/Call ratio :** 0.81
-- **Call OI % :** 55.2
+- **ATR 14j :** 10.28
+- **Volume moy. 20j :** 25895867
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** update (snapshot 13:00 UTC)
-- **Fichier :** `RKLB_2026-05-18_update.md`
-- **Conclusion :** THÈSE CONFIRMÉE. Données inchangées vs snapshot matinal (close $124.77, RSI 73.28, ATR $9.65, MM50 $79.25). Seule évolution = correction data options (Max Pain $150, Put/Call 0.81, Call OI 55.2%). ÉVITER maintenu.
+- **Type :** full refresh
+- **Fichier :** `_DRAFT_refresh_2026-05-18.md`
+- **Conclusion :** > **Date :** 2026-05-18
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap -5.87% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 7.73% (seuil 5.0%)
+- Aucun trigger récent.
 
 ---
 

@@ -38,7 +38,7 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 ## 🚨 Alertes actives
 
 - Baisse — $13.97 (SL 2×ATR) — 🟢 Active
-- Hausse — $19.51 (prix cible historique init.md) — 🟢 Active
+- Hausse — $19.51 (prix cible) — 🟢 Active
 - Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
@@ -51,29 +51,26 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 30.21
-- **MM 50j :** 17.05
+- **RSI 14j :** 31.64
+- **MM 50j :** 16.98
 - **MM 200j :** —
-- **ATR 14j :** 0.82
-- **Volume moy. 20j :** 67513515
-- **Options Max Pain :** 15.00
-- **Options Put/Call :** 0.77
-- **Options Call OI % :** 56.6
+- **ATR 14j :** 0.84
+- **Volume moy. 20j :** 66466851
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** update révisée
-- **Fichier :** `SOFI_2026-05-18_update.md`
-- **Conclusion :** Données fondamentales/techniques inchangées vs update matinale. Correction options : Max Pain $15.00 (cohérent), Put/Call 0.77, Call OI 56.6% = sentiment neutre. Aucune news structurante. Support $15.38 tient. DRAFT_refresh archivé. SURVEILLER.
+- **Type :** full refresh
+- **Fichier :** `_DRAFT_refresh_2026-05-18.md`
+- **Conclusion :** > **Date :** 2026-05-18
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 5.25% (seuil 5.0%)
+- Aucun trigger récent.
 
 ---
 
