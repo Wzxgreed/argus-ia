@@ -44,7 +44,7 @@
 - **MM 200j :** —
 - **ATR 14j :** 5.80
 - **Volume moy. 20j :** 44.26M
-- **Volume jour :** 31.65M
+- **Volume jour :** 31.76M
 - **Max Pain :** 80.00
 - **Put/Call :** 0.69
 - **Call OI % :** 59.3
@@ -56,7 +56,7 @@
 - **Date :** 2026-05-18 20:12 UTC
 - **Type :** update
 - **Fichier :** `PLTR_2026-05-18_update.md`
-- **Conclusion :** SURVEILLER confirmé. Rebond technique en fin de séance (+1.11%, RSI 42.52, volume remonte à 31.65M mais reste −28.5% vs moy.). Sous MM50 (−6.1%). Multiples extrêmes. Pas d'entrée avant confirmation technique.
+- **Conclusion :** SURVEILLER confirmé. Cours stable à $135.14 (+0.86% vs 17/05), RSI 42.52, volume 31.76M (−28.2% vs moy.). Sous MM50 (−6.1%). Scores révisés à la hausse vs initiale (Catalyseur 6.8, Valorisation 4.5, Momentum 3.5 → Score Opp. 5.1). Multiples extrêmes. Pas d'entrée avant confirmation technique.
 
 ---
 

@@ -56,6 +56,8 @@ Snapshot 20:39 UTC. Cours micro-rebond à $13.74 (+0.11% vs 20:07), RSI 64.63, A
 **Triggers :**
 - atr_spike (medium) : ATR relatif 7.06% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** CONFIRMÉ — Faux positit technique archivé
+
+Snapshot 21:00 UTC confirme intégralement les lectures 20:39 UTC. Aucun changement structurel. Cours $13.74, RSI 64.63, ATR $0.97, volume 0.70×. Aucun événement corporate (`events_latest.json` vide), aucune news structurante. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $9.26 stable à +48.4%. Score Opportunité 4.4/10. Action SURVEILLER confirmée. DRAFT_refresh archivé.
 
 ---

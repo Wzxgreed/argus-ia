@@ -75,7 +75,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.40% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — DRAFT résiduel traité par l'update du 2026-05-18 (snapshot 20:56 UTC). CONFIRME. Aucune modification de thèse. Données identiques au snapshot 20:12 UTC.
 
 ---
 
@@ -84,7 +84,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.41% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — DRAFT résiduel traité par l'update du 2026-05-18 (snapshot 20:56 UTC). CONFIRME. Aucune modification de thèse. Données identiques au snapshot 20:12 UTC.
 
 ---
 
@@ -93,7 +93,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.35% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — DRAFT résiduel traité par l'update du 2026-05-18 (snapshot 20:56 UTC). CONFIRME. Aucune modification de thèse. Données identiques au snapshot 20:12 UTC.
 
 ---
 
@@ -102,7 +102,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.35% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — DRAFT résiduel traité par l'update du 2026-05-18 (snapshot 20:56 UTC). CONFIRME. Aucune modification de thèse. Données identiques au snapshot 20:12 UTC.
 
 ---
 
@@ -111,7 +111,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.35% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — DRAFT résiduel traité par l'update du 2026-05-18 (snapshot 20:56 UTC). CONFIRME. Aucune modification de thèse. Données identiques au snapshot 20:12 UTC.
 
 ---
 
@@ -120,6 +120,6 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.35% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — DRAFT résiduel traité par l'update du 2026-05-18 (snapshot 20:56 UTC). CONFIRME. Aucune modification de thèse. Données identiques au snapshot 20:12 UTC.
 
 ---
