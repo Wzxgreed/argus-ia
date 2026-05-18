@@ -1357,7 +1357,7 @@ export function LaunchAnalysis() {
   // ── Détection de progression à partir des logs ──
   const allText = logs.join(" ");
   const isFullAnalysis = allText.includes("analyse COMPLÈTE");
-  const isClaudeAnalysis = allText.includes("Lancement de Claude CLI") || allText.includes("Claude CLI");
+  const isClaudeAnalysis = allText.includes("Claude CLI via Ollama") || allText.includes("kimi-k2.6");
   const steps = isClaudeAnalysis
     ? [
         {
@@ -1381,10 +1381,10 @@ export function LaunchAnalysis() {
           active: allText.includes("Exécution des agents") || allText.includes("Étape 2/3"),
         },
         {
-          label: "Claude CLI",
+          label: "Claude CLI (Ollama/kimi)",
           icon: Terminal,
-          done: allText.includes("Rapport Claude CLI sauvegardé") || allText.includes("Analyse Claude CLI terminée"),
-          active: allText.includes("Lancement de Claude CLI") || allText.includes("Envoi du prompt à Claude CLI"),
+          done: allText.includes("Rapport Claude CLI (Ollama/kimi) sauvegardé") || allText.includes("Analyse Claude CLI via Ollama terminée"),
+          active: allText.includes("Claude CLI via Ollama") || allText.includes("Envoi du prompt à Claude CLI via Ollama"),
         },
         {
           label: "Terminé",
@@ -1511,10 +1511,10 @@ export function LaunchAnalysis() {
           onClick={startClaudeAnalysis}
           disabled={isRunning || !ticker.trim()}
           className="inline-flex items-center gap-1.5 rounded-xl bg-amber-500 px-4 py-2 text-sm font-medium text-white hover:bg-amber-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-          title="Prépare les données (fetch + agents) pour que Claude CLI puisse faire l'analyse interactive"
+          title="Fetch + agents réels + Claude CLI via Ollama (kimi-k2.6:cloud)"
         >
           {isRunning ? <Loader2 className="h-4 w-4 animate-spin" /> : <Terminal className="h-4 w-4" />}
-          {isRunning ? "Préparation..." : "Préparer pour Claude"}
+          {isRunning ? "Analyse..." : "Analyse IA (Ollama)"}
         </button>
       </div>
 
@@ -1679,15 +1679,15 @@ export function LaunchAnalysis() {
             })}
           </div>
 
-          {/* Message spécial : Rapport Claude CLI généré */}
+          {/* Message spécial : Rapport Claude CLI via Ollama généré */}
           {status === "success" && isClaudeAnalysis && (
             <div className="rounded-xl border border-emerald-500/20 bg-emerald-500/5 p-4">
               <div className="flex items-start gap-3">
                 <CheckCircle2 className="h-5 w-5 text-emerald-400 shrink-0 mt-0.5" />
                 <div className="space-y-1">
-                  <div className="text-sm font-semibold text-emerald-400">Rapport Claude CLI généré</div>
+                  <div className="text-sm font-semibold text-emerald-400">Rapport Claude CLI (Ollama/kimi) généré</div>
                   <p className="text-xs text-muted-foreground">
-                    L'analyse a été produite par Claude CLI avec lecture des fichiers, outils et historique.
+                    L'analyse a été produite par Claude CLI via Ollama avec le modèle kimi-k2.6:cloud.
                     Rapport sauvegardé dans <code className="text-foreground">Actions/{ticker}/{ticker}_YYYY-MM-DD_claude.md</code>.
                   </p>
                   <a
@@ -1726,7 +1726,7 @@ export function LaunchAnalysis() {
       <div className="text-[10px] text-muted-foreground space-y-1">
         <p><strong className="text-accent">Préparer</strong> — Fetch des données + ajout à la watchlist uniquement.</p>
         <p><strong className="text-violet-400">Analyser LLM</strong> — Fetch + génération automatique du rapport via IA (crée Actions/{ticker}/_init.md).</p>
-        <p><strong className="text-amber-400">Préparer pour Claude</strong> — Fetch + agents réels. Les données fraîches sont préparées pour que **Claude CLI** (toi-même) produise l'analyse interactive avec accès à tous les fichiers, outils et historique. Ajoute des instructions personnalisées ci-dessus.</p>
+        <p><strong className="text-amber-400">Analyse IA (Ollama)</strong> — Fetch + agents réels + Claude CLI via Ollama (kimi-k2.6:cloud). Lance `ollama launch claude --model kimi-k2.6:cloud` avec lecture des fichiers, outils natifs et historique. Rapport sauvegardé dans Actions/{ticker}/{ticker}_YYYY-MM-DD_claude.md. Ajoute des instructions personnalisées ci-dessus.</p>
       </div>
     </motion.div>
   );

@@ -335,8 +335,8 @@ def _save_report(ticker: str, report: str, agent_data: dict):
 
 
 def run_prepare_for_claude(job_id: str, ticker: str, custom_prompt: str = ""):
-    """Prépare les données (fetch + agents) pour une analyse par Claude CLI.
-    L'analyse LLM interactive est faite par l'utilisateur dans Claude CLI, pas ici."""
+    """Prépare les données (fetch + agents) et lance Claude CLI via Ollama (kimi-k2.6:cloud).
+    Utilise `ollama launch claude --model kimi-k2.6:cloud -y -- -p ... --permission-mode auto --cwd ...`."""
     env = os.environ.copy()
     env["PYTHONPATH"] = str(BASE_DIR / "agents") + ":" + str(BASE_DIR / "scripts") + ":" + str(BASE_DIR)
 
@@ -400,9 +400,9 @@ def run_prepare_for_claude(job_id: str, ticker: str, custom_prompt: str = ""):
 
     logs.append(f"[{now_str()}] ✅ Agents terminés — {ok_count}/{len(agents)} OK")
 
-    # ── Étape 3 : Lancer Claude CLI (claude -p) pour l'analyse réelle ──
+    # ── Étape 3 : Lancer Claude CLI via Ollama (kimi-k2.6:cloud) ──
     with JOBS_LOCK:
-        logs.append(f"[{now_str()}] 🤖 Étape 3/3 — Lancement de Claude CLI (claude -p) pour {ticker}...")
+        logs.append(f"[{now_str()}] 🤖 Étape 3/3 — Lancement Claude CLI via Ollama (kimi-k2.6:cloud) pour {ticker}...")
         JOBS[job_id]["logs"] = logs.copy()
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -443,13 +443,16 @@ Instructions supplémentaires de l'utilisateur : {custom_prompt.strip() or "Aucu
 Commence l'analyse maintenant."""
 
     claude_cmd = [
-        "claude",
+        "ollama", "launch", "claude",
+        "--model", "kimi-k2.6:cloud",
+        "-y",
+        "--",
         "-p", claude_prompt,
         "--permission-mode", "auto",
         "--cwd", str(BASE_DIR),
     ]
 
-    logs.append(f"[{now_str()}] 📤 Envoi du prompt à Claude CLI ({len(claude_prompt)} caractères)...")
+    logs.append(f"[{now_str()}] 📤 Envoi du prompt à Claude CLI via Ollama ({len(claude_prompt)} caractères)...")
     with JOBS_LOCK:
         JOBS[job_id]["logs"] = logs.copy()
 
@@ -466,15 +469,15 @@ Commence l'analyse maintenant."""
         claude_rc = claude_proc.wait(timeout=600)  # 10 min max
 
         if claude_rc != 0:
-            logs.append(f"[{now_str()}] ⚠️ Claude CLI exit={claude_rc}")
+            logs.append(f"[{now_str()}] ⚠️ Claude CLI via Ollama exit={claude_rc}")
 
         # Vérifier si le rapport a été créé
         if report_file.exists():
-            logs.append(f"[{now_str()}] ✅ Rapport Claude CLI sauvegardé : {report_file}")
+            logs.append(f"[{now_str()}] ✅ Rapport Claude CLI (Ollama/kimi) sauvegardé : {report_file}")
         else:
             logs.append(f"[{now_str()}] ⚠️ Rapport non trouvé à l'emplacement attendu ({report_file})")
 
-        logs.append(f"[{now_str()}] ✅ Analyse Claude CLI terminée pour {ticker}")
+        logs.append(f"[{now_str()}] ✅ Analyse Claude CLI via Ollama terminée pour {ticker}")
 
         with JOBS_LOCK:
             JOBS[job_id]["status"] = "success"
@@ -485,14 +488,14 @@ Commence l'analyse maintenant."""
 
     except subprocess.TimeoutExpired:
         claude_proc.kill()
-        logs.append(f"[{now_str()}] ⏱ Claude CLI timeout (10 min)")
+        logs.append(f"[{now_str()}] ⏱ Claude CLI via Ollama timeout (10 min)")
         with JOBS_LOCK:
             JOBS[job_id]["status"] = "failed"
             JOBS[job_id]["returncode"] = -9
             JOBS[job_id]["logs"] = logs.copy()
             JOBS[job_id]["finished_at"] = now_str()
     except Exception as e:
-        logs.append(f"[{now_str()}] ❌ Erreur Claude CLI : {e}")
+        logs.append(f"[{now_str()}] ❌ Erreur Claude CLI via Ollama : {e}")
         with JOBS_LOCK:
             JOBS[job_id]["status"] = "failed"
             JOBS[job_id]["returncode"] = 1
@@ -637,7 +640,7 @@ class Handler(BaseHTTPRequestHandler):
                     "ticker": ticker,
                     "status": "queued",
                     "started_at": now_str(),
-                    "logs": [f"[{now_str()}] 🚀 Préparation des données pour {ticker} (fetch + agents réels) — l'analyse interactive se fera dans Claude CLI..."],
+                    "logs": [f"[{now_str()}] 🚀 Préparation des données pour {ticker} (fetch + agents réels + Claude CLI via Ollama)..."],
                 }
 
             thread = threading.Thread(
@@ -651,7 +654,7 @@ class Handler(BaseHTTPRequestHandler):
                 "job_id": job_id,
                 "ticker": ticker,
                 "status": "queued",
-                "message": f"Préparation des données pour {ticker} lancée (fetch + agents réels). L'analyse interactive se fera dans Claude CLI. Suivez le statut avec /api/status/{job_id}",
+                "message": f"Préparation des données pour {ticker} lancée (fetch + agents réels + Claude CLI via Ollama). Suivez le statut avec /api/status/{job_id}",
             })
             return
 
