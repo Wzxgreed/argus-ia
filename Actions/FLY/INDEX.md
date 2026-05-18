@@ -1,18 +1,17 @@
 # FLY
 
 ## Thèse courante
-À définir après lecture du rapport initial.
+**ATTENDRE** — Momentum technique favorable (cours > MM50 $32.24, RSI 61.71) mais fondamentaux insuffisants (Filtre Qualité 2/6, rentabilité non démontrée, Forward P/E -35.41, EV/Revenue 32x). Score Opportunité 5.0/10, Score Global 50.5 (55.5 ajusté). Consensus PT $42.45 (+5.0% upside, 11 analystes). Pas de position recommandée. Prochain catalyst : earnings Q2 2026 le 2026-08-04 (78 jours).
 
 ## Historique
 | Date | Fichier | Type |
-| 2026-05-17 | [FLY_2026-05-17_init.md](FLY_2026-05-17_init.md) | Analyse initiale (agents réels) |
-| 2026-05-17 | [FLY_2026-05-17_init.md](FLY_2026-05-17_init.md) | Analyse initiale (agents réels) |
-| 2026-05-17 | [FLY_2026-05-17_init.md](FLY_2026-05-17_init.md) | Analyse initiale (auto) |
 |------|---------|------|
 | 2026-05-17 | [FLY_2026-05-17_init.md](FLY_2026-05-17_init.md) | Analyse initiale |
+| 2026-05-18 | [FLY_2026-05-18_update.md](FLY_2026-05-18_update.md) | Mise à jour quotidienne |
 
 ## Agenda
-- Prochain earnings : [à compléter]
+- Prochain earnings : **2026-08-04** (Q2 2026) — Est EPS -$0.60 à -$0.45, Rev $0.1B
+- Expiration options : **2026-05-22**
 
 ## Alertes actives
 - Aucune

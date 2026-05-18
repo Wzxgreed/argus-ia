@@ -1,4 +1,4 @@
-# CONTEXT — FLY — Dernière mise à jour : 2026-05-17
+# CONTEXT — FLY — Dernière mise à jour : 2026-05-18
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
+- **Recommandation :** ATTENDRE
+- **Score global :** 50.5 (55.5 ajusté)
+- **Prix cible :** $42.45 (consensus FMP)
+- **Stop-loss :** $32.39
+- **Statut thèse :** Confirmée avec nuance
 - **Horizon :** —
 
 ---
@@ -30,7 +30,8 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q2 2026** : 2026-08-04 (78 jours) — Est EPS -$0.60 à -$0.45, Rev $0.1B
+- **Expiration options** : 2026-05-22
 
 ---
 
@@ -41,21 +42,22 @@
 - **MM 200j :** —
 - **ATR 14j :** 4.02
 - **Volume moy. 20j :** 5994630
+- **Cours close :** 40.43
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-17
-- **Type :** full refresh
-- **Fichier :** `FLY_2026-05-17_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-05-17
+- **Date :** 2026-05-18
+- **Type :** update
+- **Fichier :** `FLY_2026-05-18_update.md`
+- **Conclusion :** Thèse confirmée avec nuance. Momentum technique intact (cours > MM50) mais fondamentaux faibles (Filtre Qualité 2/6). Score Valorisation ajusté à la baisse (4.5/10). Volatilité élevée (ATR relatif 9.94%, range 11.5%). Consensus analystes $42.45 (+5% upside). Aucune position recommandée.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 9.94% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 9.94% (seuil 5.0%) — 2026-05-18
 
 ---
 
