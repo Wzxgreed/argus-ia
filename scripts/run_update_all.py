@@ -89,6 +89,28 @@ def wait_for_pipeline_lock(max_wait=60):
         lockfile.unlink(missing_ok=True)
 
 
+def acquire_update_lock() -> bool:
+    """Crée un lockfile pour éviter les doublons de run_update_all."""
+    lockfile = BASE_DIR / "data" / ".update_all.lock"
+    if lockfile.exists():
+        try:
+            data = json.loads(lockfile.read_text())
+            old_pid = data.get("pid")
+            if old_pid and os.kill(old_pid, 0) is None:
+                log(f"⚠️ Mise à jour déjà en cours (PID {old_pid}) — arrêt.")
+                return False
+        except (ProcessLookupError, ValueError, OSError):
+            pass
+        lockfile.unlink(missing_ok=True)
+    lockfile.write_text(json.dumps({"pid": os.getpid(), "started": now_str()}))
+    return True
+
+
+def release_update_lock():
+    lockfile = BASE_DIR / "data" / ".update_all.lock"
+    lockfile.unlink(missing_ok=True)
+
+
 def fetch_data() -> bool:
     """Fetch les données pour toute la watchlist via fetch_prices.py."""
     log("📡 Fetch des données pour toute la watchlist...")
@@ -250,62 +272,72 @@ def main():
     parser.add_argument("--prompt", default="", help="Instructions personnalisées (ajoutées au prompt)")
     args = parser.parse_args()
 
-    log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-    log(" Argus-IA — Mise à jour automatique des analyses")
-    log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-
-    # ── Lister les tickers ──
-    config = load_json(CONFIG_PATH)
-    all_tickers = [t["ticker"].upper() for t in config.get("tickers", [])]
-    tickers_to_update = [t for t in all_tickers if (ACTIONS_DIR / t).exists()]
-
-    if not tickers_to_update:
-        log("⚠️  Aucun ticker à mettre à jour (pas de dossiers dans Actions/)")
+    # ── Lock ──
+    if not acquire_update_lock():
         sys.exit(0)
 
-    log(f"📋 {len(tickers_to_update)} ticker(s) à mettre à jour : {', '.join(tickers_to_update)}")
+    try:
+        log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+        log(" Argus-IA — Mise à jour automatique des analyses")
+        log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 
-    # ── Étape 1 : Fetch ──
-    if not fetch_data():
-        sys.exit(1)
+        # ── Attendre le pipeline si en cours ──
+        wait_for_pipeline_lock(max_wait=120)
 
-    # ── Étape 2 : Agents ──
-    ok, total = run_agents()
-    if ok < total - 2:  # Tolère 2 agents en échec
-        log("⚠️  Trop d'agents en échec — poursuite malgré tout")
+        # ── Lister les tickers ──
+        config = load_json(CONFIG_PATH)
+        all_tickers = [t["ticker"].upper() for t in config.get("tickers", [])]
+        tickers_to_update = [t for t in all_tickers if (ACTIONS_DIR / t).exists()]
 
-    # ── Étape 3 : Mises à jour Claude CLI (parallèle, max 3) ──
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    log(f"🤖 Mise à jour {len(tickers_to_update)} analyse(s) via Claude CLI (Ollama/kimi)...")
+        if not tickers_to_update:
+            log("⚠️  Aucun ticker à mettre à jour (pas de dossiers dans Actions/)")
+            sys.exit(0)
 
-    completed = 0
-    failed = 0
-    with ThreadPoolExecutor(max_workers=3) as executor:
-        futures = {executor.submit(run_claude_update, t, today): t for t in tickers_to_update}
-        for future in as_completed(futures):
-            ticker = futures[future]
-            try:
-                ok = future.result()
-                if ok:
-                    completed += 1
-                else:
+        log(f"📋 {len(tickers_to_update)} ticker(s) à mettre à jour : {', '.join(tickers_to_update)}")
+
+        # ── Étape 1 : Fetch ──
+        if not fetch_data():
+            sys.exit(1)
+
+        # ── Étape 2 : Agents ──
+        ok, total = run_agents()
+        if ok < total - 2:  # Tolère 2 agents en échec
+            log("⚠️  Trop d'agents en échec — poursuite malgré tout")
+
+        # ── Étape 3 : Mises à jour Claude CLI (parallèle, max 3) ──
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        log(f"🤖 Mise à jour {len(tickers_to_update)} analyse(s) via Claude CLI (Ollama/kimi)...")
+
+        completed = 0
+        failed = 0
+        with ThreadPoolExecutor(max_workers=3) as executor:
+            futures = {executor.submit(run_claude_update, t, today): t for t in tickers_to_update}
+            for future in as_completed(futures):
+                ticker = futures[future]
+                try:
+                    ok = future.result()
+                    if ok:
+                        completed += 1
+                    else:
+                        failed += 1
+                except Exception as e:
+                    log(f"❌ Exception mise à jour {ticker} : {e}")
                     failed += 1
-            except Exception as e:
-                log(f"❌ Exception mise à jour {ticker} : {e}")
-                failed += 1
 
-    log(f"✅ Terminé — {completed} OK, {failed} échec(s)")
-    log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+        log(f"✅ Terminé — {completed} OK, {failed} échec(s)")
+        log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 
-    # ── Auto-push GitHub ──
-    log("🚀 Auto-push GitHub...")
-    rc, out = run_cmd(["bash", str(BASE_DIR / "scripts" / "auto_push.sh"), f"Mise à jour analyses — {today}"])
-    if rc == 0:
-        log("✅ Push OK")
-    else:
-        log(f"⚠️  Push exit={rc}")
+        # ── Auto-push GitHub ──
+        log("🚀 Auto-push GitHub...")
+        rc, out = run_cmd(["bash", str(BASE_DIR / "scripts" / "auto_push.sh"), f"Mise à jour analyses — {today}"])
+        if rc == 0:
+            log("✅ Push OK")
+        else:
+            log(f"⚠️  Push exit={rc}")
 
-    return 0 if failed == 0 else 1
+        return 0 if failed == 0 else 1
+    finally:
+        release_update_lock()
 
 
 if __name__ == "__main__":
