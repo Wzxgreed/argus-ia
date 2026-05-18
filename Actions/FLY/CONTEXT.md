@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 50.5 (55.5 ajusté)
-- **Prix cible :** $42.45 (consensus FMP, 11 analysts)
-- **Stop-loss :** $32.39
-- **Statut thèse :** Confirmée avec nuance
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -30,8 +30,7 @@
 
 ## 📅 Prochains événements
 
-- **Earnings Q2 2026** : 2026-08-04 (78 jours) — Est EPS -$0.60 à -$0.45, Rev $0.1B
-- **Expiration options** : 2026-05-22
+- Aucun événement à venir.
 
 ---
 
@@ -41,25 +40,22 @@
 - **MM 50j :** 32.24
 - **MM 200j :** —
 - **ATR 14j :** 4.02
-- **Volume moy. 20j :** 5,994,630
-- **Cours close :** 40.43
-- **Max Pain :** 15.00 (écart 63% sous spot)
-- **Short Interest :** 0.09%
+- **Volume moy. 20j :** 5994630
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** update
-- **Fichier :** `FLY_2026-05-18_update.md`
-- **Conclusion :** Thèse confirmée avec nuance. Momentum technique intact (cours > MM50) mais fondamentaux faibles (Filtre Qualité 2/6). Score Valorisation ajusté à la baisse (4.5/10). Volatilité élevée (ATR relatif 9.94%, range 11.5%). Max Pain distordu à $15.00 (expiration 22/05 proche). Consensus analystes $42.45 (+5% upside). Headwind sectoriel XLI (momentum_score 0.0). Aucune position recommandée.
+- **Type :** full refresh
+- **Fichier :** `_FLY_2026-05-18_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-18
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 9.94% (seuil 5.0%)
+- Aucun trigger récent.
 
 ---
 

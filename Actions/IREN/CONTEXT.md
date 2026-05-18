@@ -7,15 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER — Sizing Réduit
-- **Score global :** 63.3/100
-- **Score Opportunité :** 5.8/10 (C:7.8 V:4.0 M:6.0)
-- **Prix cible :** $65.86 (consensus FMP, 21 analysts)
-- **Stop-loss :** $41.94
-- **Take-profit :** $69.44
-- **Ratio R/R :** 1.5 : 1
-- **Statut thèse :** Confirmée avec réserve earnings
-- **Horizon :** 1–3 mois
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** invalide
+- **Horizon :** —
 
 ---
 
@@ -38,8 +35,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-18** · earnings · Earnings Q1 2026 (FY Q3) — résultats attendus
-- **2026-06-16** · J+30 prix cible · Vérifier cours vs $65.86
+- **2026-05-18** · earnings · Earnings ...
 
 ---
 
@@ -48,27 +44,23 @@
 - **RSI 14j :** 54.61
 - **MM 50j :** 44.72
 - **MM 200j :** —
-- **ATR 14j :** 5.50
-- **Volume moy. 20j :** 52,440,665
-- **Cours close :** $52.94
-- **Change % :** -9.35%
-- **Beta :** 4.18
+- **ATR 14j :** 5.5
+- **Volume moy. 20j :** 52440665
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** update + DRAFT_refresh traité
+- **Type :** update
 - **Fichier :** `IREN_2026-05-18_update.md`
-- **Conclusion :** Thèse confirmée avec réserve. Cours stable $52.94 post-gap (-9.35%). Earnings Q1 2026 attendu aujourd'hui (résultats non encore dans les feeds). Score Opportunité 5.8/10 inchangé. Filtre Qualité 4/6. Proxy BTC intact (corr 0.82, beta 2.1). Divergence Yahoo/FMP identifiée (market cap, EV/EBITDA, P/B) — privilégier Yahoo. DRAFT refresh traité (triggers gap + ATR spike confirmés). Maintenir ACHETER sizing réduit avec SL $41.94 / TP $69.44, attendre résultats earnings avant nouvelle entrée. Max pain $20 = tail risk -62% si guidance cut sévère.
+- **Conclusion :** **Thèse : CONFIRMÉE — avec réserve earnings et divergence données FMP**
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap -9.35% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 10.39% (seuil 5.0%)
+- Aucun trigger récent.
 
 ---
 

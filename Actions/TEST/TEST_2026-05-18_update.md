@@ -1,7 +1,8 @@
 # TEST — Mise à Jour Quotidienne (2026-05-18)
 
 > **Date :** 2026-05-18
-> **Source :** data/latest.json, data/recommandations_2026-05-18.json, agents multi-modèles
+> **Heure snapshot :** 08:44 UTC
+> **Sources :** data/latest.json, data/recommandations_2026-05-18.json, agents multi-modèles
 
 ---
 
@@ -9,24 +10,24 @@
 
 | Métrique | 2026-05-17 | 2026-05-18 | Delta |
 |----------|-----------|-----------|-------|
-| Cours | $46.14 | $46.14 | 0.00% |
+| Cours | $48.04 | **$46.14** | **-3.95%** |
 | RSI 14j | 64.16 | 64.16 | — |
 | ATR 14j | $1.09 | $1.09 | — |
 | MM 50j | $43.54 | $43.54 | — |
 | Volume | 2,400 (2.22×) | 2,400 (2.22×) | — |
-| Score Opportunité | Non calculable | **5.7/10** | +5.7 |
+| Score Opportunité | Non calculable | **5.7/10** | — |
 | Score Catalyseur | [DONNÉES MANQUANTES] | **6.5/10** | — |
 | Score Valorisation | [DONNÉES MANQUANTES] | **5.0/10** | — |
 | Score Momentum | 3–4/10 | **5.5/10** | +1.5 |
 | Verdict agent reco | — | **ATTENDRE** | — |
 
-**Événement majeur :** Earnings aujourd'hui (0j, source FMP). Le preview `TEST_2026-05-18_preview.md` a été auto-généré mais les prédictions sont non renseignées (placeholders) faute de consensus disponible.
+**Événement majeur :** Earnings jour J (0j, source FMP). Le preview `TEST_2026-05-18_preview.md` a été auto-généré mais les prédictions sont non renseignées (placeholders) faute de consensus disponible. Aucun résultat post-earnings n'est encore observable dans le snapshot 08:44.
 
 ---
 
 ## Mise à Jour Technique
 
-Configuration technique inchangée vs clôture précédente :
+Configuration technique stable vs clôture précédente :
 - **Cours :** $46.14 (open/high $47.27, low $46.14, previous close $48.043)
 - **Variation :** -3.95% — séance de rejet sur le high d'ouverture avec close au plus bas
 - **RSI 14j :** 64.16 — neutre à modérément haussier, en retrait du surachat
@@ -36,7 +37,7 @@ Configuration technique inchangée vs clôture précédente :
 - **Volume relatif :** 2.22× moyenne 20j (2,400 vs 1,080) — profil de distribution sur actif illiquide
 - **52W range :** [$40.27, $57.74] — positionné à mi-chemin
 
-**Verdict timing :** Neutre (agent reco). Le rejet intraday à $47.27 avec volume élevé sur micro-cap reste un signal de prudence, mais le maintien au-dessus de MM50 empêche un basculement baissier clair. Aucun nouveau niveau technique significatif n'a émergé.
+**Verdict timing :** Neutre. Le rejet intraday à $47.27 avec volume élevé sur micro-cap reste un signal de prudence, mais le maintien au-dessus de MM50 empêche un basculement baissier clair. Aucun nouveau niveau technique significatif n'a émergé.
 
 ---
 
@@ -55,12 +56,14 @@ Aucune donnée fondamentale nouvelle n'est disponible :
 
 ## Mise à Jour Sentiment / Options / News
 
-- **Agent Social Sentiment :** 0 mentions, score 0/10, pas de pump detecté
-- **Options :** [DONNÉES MANQUANTES] (bloc vide dans latest.json)
-- **Agent Event-Driven :** 0 événement corporate détecté (M&A, buyback, guidance, activism)
-- **Agent Geo :** TEST non flaggé — score politique non attribué
-- **Agent FX :** Exposition 25% (USD), FX impact score 0.0, divergence aligned — pas d'impact
-- **Consensus analystes :** [DONNÉES MANQUANTES]
+| Agent | Valeur TEST | Note |
+|-------|-------------|------|
+| **Social Sentiment** | 0 mentions, score 0/10, pas de pump | Aucune discussion retail détectée |
+| **Options** | [DONNÉES MANQUANTES] | Bloc vide dans latest.json — max pain, GEX, IV Rank indisponibles |
+| **Event-Driven** | 0 événement corporate | Aucun M&A, buyback, guidance change, activism |
+| **Geo Risk** | Non flaggé | Score politique non attribué — aucune exposition cartographiée |
+| **FX Exposure** | 25% USD, score 0.0, divergence aligned | Pas d'impact change détecté |
+| **Consensus analystes** | [DONNÉES MANQUANTES] | Pas de price target, pas d'upgrades/downgrades |
 
 Aucun flux institutionnel, insider trade ou unusual options activity n'est rapporté.
 
@@ -83,7 +86,7 @@ Pour la première fois, l'Agent Recommandation a produit un scoring complet pour
 | Malus Geo | 0 | Non flaggé |
 | Malus FX | 0 | Score 0.0 |
 | Malus Social | 0 | Sentiment neutre |
-| Malus Quant | 0 | Pas de signal |
+| Malus Quant | 0 | Pas de signal (p-value insuffisant) |
 | Bonus / Timing | 0 | Timing neutre |
 | **Score Global ajusté** | **56.5/100** | **ATTENDRE** |
 

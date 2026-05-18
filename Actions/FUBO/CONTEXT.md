@@ -1,28 +1,61 @@
-# Contexte FUBO
+# CONTEXT — FUBO — Dernière mise à jour : 2026-05-18
 
-## Thèse active
-ATTENDRE — Score Opportunité 6,5/10, Score Global 56,8/100 (2026-05-18). Titre spéculatif à fondamentaux dégradés (Qualité 1/6, patrimoine net négatif). Valorisation Yahoo suspecte (P/E 2,5x, market cap $283M) vs FMP ($3,27B). Momentum baissier sous MM50. Earnings Q1 2026 jour J. Pas de position longue.
+> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
+> Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
 
-## Score actuel
-- Opportunité : 6,5/10
-- Catalyseur : 8,0/10
-- Valorisation : 7,0/10
-- Momentum : 3,5/10
-- Score Global ajusté : 56,8/100
+---
 
-## Niveaux
-- SL : $8,04 (2× ATR)
-- TP : $11,99 (3× ATR)
-- Ratio R/R : 1,5×
+## 🎯 Thèse active
 
-## Statut
-EN SURVEILLANCE — Earnings J, attendre résultats
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
+
+---
+
+## 📉 Erreurs de prédiction récentes
+
+- Aucune erreur enregistrée.
+
+---
+
+## 🚨 Alertes actives
+
+- Aucune alerte active.
+
+---
+
+## 📅 Prochains événements
+
+- **2026-05-18** · earnings · Earnings ...
+
+---
+
+## 📊 Contexte technique (dernier snapshot)
+
+- **RSI 14j :** 36.84
+- **MM 50j :** 11.98
+- **MM 200j :** —
+- **ATR 14j :** 0.79
+- **Volume moy. 20j :** 1579640
+
+---
+
+## 📝 Résumé dernière analyse
+
+- **Date :** 2026-05-18
+- **Type :** update
+- **Fichier :** `FUBO_2026-05-18_update.md`
+- **Conclusion :** > **Niveau d'impact :** 🟡 Modéré — Données techniques stables, earnings jour J en attente, malus sectoriel additionnel détecté
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 8.21% (seuil 5.0%)
+- Aucun trigger récent.
 
 ---
 

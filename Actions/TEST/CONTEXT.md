@@ -1,49 +1,62 @@
-# TEST — Contexte Court Terme
+# CONTEXT — TEST — Dernière mise à jour : 2026-05-18
 
-## Thèse active
-
-Ticker de test / micro-cap. Aucune thèse d'investissement institutionnelle.
-Suivi technique uniquement en attendant des données fondamentales.
-Earnings le 2026-05-18 — aucune donnée de consensus exploitable.
+> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
+> Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
 
 ---
 
-## Scores et niveaux
+## 🎯 Thèse active
 
-| Métrique | Valeur | Date |
-|----------|--------|------|
-| Cours actuel | $46.14 | 2026-05-18 |
-| RSI 14j | 64.16 | 2026-05-18 |
-| ATR 14j | $1.09 | 2026-05-18 |
-| MM 50j | $43.54 | 2026-05-18 |
-| Score Qualité | 0/6 | 2026-05-18 |
-| Score Momentum | 5.5/10 | 2026-05-18 |
-| Score Valorisation | 5.0/10 | 2026-05-18 |
-| Score Catalyseur | 6.5/10 | 2026-05-18 |
-| Score Opportunité | 5.7/10 | 2026-05-18 |
-| Score Global | 56.5/100 | 2026-05-18 |
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
-## Niveaux de trading
+## 📉 Erreurs de prédiction récentes
 
-| Niveau | Valeur |
-|--------|--------|
-| Stop-loss (2x ATR) | $43.96 |
-| Stop-loss serré (1.5x ATR) | $44.51 |
-| Take-profit (3x ATR) | $49.41 |
-| Ratio R/R | 1.5 |
+- Aucune erreur enregistrée.
 
 ---
 
-## Statut de la thèse
+## 🚨 Alertes actives
 
-**Statut :** INACTIVE
-**Raison :** Données fondamentales indisponibles. Filtre Qualité 0/6.
-**Action requise :** Attendre publication earnings et vérifier injection de données fondamentales (sector, P/E, EPS, balance sheet) dans les prochains snapshots FMP/Yahoo.
+- Aucune alerte active.
 
 ---
 
-## Résumé dernière analyse
+## 📅 Prochains événements
 
-TEST : ticker non analysable. Configuration technique stable (RSI 64, ATR $1.09, MM50 $43.54). Liquidité très faible (2,400 actions, volume 2.2x moyenne). Agent Recommandation attribue un score mécanique 56.5/100 (ATTENDRE) via heuristiques par défaut, mais absence totale de fondamentaux. Earnings jour J sans consensus exploitable.
+- **2026-05-18** · earnings · Earnings ...
+
+---
+
+## 📊 Contexte technique (dernier snapshot)
+
+- **RSI 14j :** 64.16
+- **MM 50j :** 43.54
+- **MM 200j :** —
+- **ATR 14j :** 1.09
+- **Volume moy. 20j :** 1080
+
+---
+
+## 📝 Résumé dernière analyse
+
+- **Date :** 2026-05-18
+- **Type :** preview
+- **Fichier :** `TEST_2026-05-18_preview.md`
+- **Conclusion :** > **Date :** 2026-05-18
+
+---
+
+## 🔄 Triggers détectés (full refresh)
+
+- Aucun trigger récent.
+
+---
+
+*Généré automatiquement — ne pas éditer manuellement.*

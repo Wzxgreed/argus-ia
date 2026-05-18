@@ -1,28 +1,61 @@
-# Contexte MITK
+# CONTEXT — MITK — Dernière mise à jour : 2026-05-18
 
-## Thèse active
-SURVEILLER / ATTENDRE — Forward P/E 11.75x attractif compensé par ROIC 3.16% faible et absence de catalyseur. Sous MM50. Pas d'engagement avant cassure $16+ avec volume.
+> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
+> Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
 
-## Score actuel
-- Opportunité : 5.6/10
-- Valorisation : 6.0/10
-- Momentum : 5.0/10
-- Global Composite : 48.0/100
+---
 
-## Niveaux
-- SL : 12.54
-- TP : 16.84
-- Consensus PT (FMP) : 16.00
+## 🎯 Thèse active
 
-## Statut
-SURVEILLANCE ACTIVE — pas de position recommandée
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
+
+---
+
+## 📉 Erreurs de prédiction récentes
+
+- Aucune erreur enregistrée.
+
+---
+
+## 🚨 Alertes actives
+
+- Aucune alerte active.
+
+---
+
+## 📅 Prochains événements
+
+- Aucun événement à venir.
+
+---
+
+## 📊 Contexte technique (dernier snapshot)
+
+- **RSI 14j :** 51.62
+- **MM 50j :** 14.31
+- **MM 200j :** —
+- **ATR 14j :** 0.86
+- **Volume moy. 20j :** 1223895
+
+---
+
+## 📝 Résumé dernière analyse
+
+- **Date :** 2026-05-18
+- **Type :** update
+- **Fichier :** `MITK_2026-05-18_update.md`
+- **Conclusion :** > Desk : Argus-IA | Régime : Inconnu | Données : data/latest.json (2026-05-18T08:44Z)
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +5.08% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 6.03% (seuil 5.0%)
+- Aucun trigger récent.
 
 ---
 

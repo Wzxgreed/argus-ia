@@ -16,16 +16,12 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 
 ---
 
-## 📊 Scores et niveaux
-
-- **Score global :** 41.3/100 (46.3 ajusté)
-- **Score opportunité :** 4.1/10 (C:4.3 V:2.5 M:6.5)
+## Actualités ayant impacté ce dossier
+- **Score global :** —/10
 - **Prix cible :** $400
-- **Stop-loss :** $335.22
-- **Take-profit :** $424.52
-- **Ratio R/R :** 1.5
-- **Statut thèse :** CONFIRMÉE avec ALERTE OPTIONS MAJEURE
-- **Horizon :** 1–3 mois (earnings 2026-07-29)
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -37,18 +33,15 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 
 ## 🚨 Alertes actives
 
-- 🔴 Put/Call 39.0 / Max pain $185 — Anomalie ou hedging extrême (expiration 22 mai)
-- 🔴 Valorisation extrême — P/E 93, EV/EBITDA 60
-- 🟡 RSI 68 — Proche suracheté
-- 🟡 Consensus obsolète — PT $257 vs cours $370 (+44%)
-- 🟡 Sector rotation défavorable — XLI Industriels sous-performants vs XLK Tech
+- Baisse — $335.22 — 🟢 Active
+- Hausse — $400.00 — 🟢 Active
+- Volume — >2× moy. 20j (>11.5M) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- 2026-05-22 : Expiration options (max pain $185)
-- 2026-07-29 : Earnings Q2 FY2026 — Est EPS $1.39-$1.59, Rev $3.4B
+- Aucun événement à venir.
 
 ---
 
@@ -59,8 +52,6 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 - **MM 200j :** —
 - **ATR 14j :** 17.86
 - **Volume moy. 20j :** 5764515
-- **52W high :** 379.94
-- **52W low :** 101.00
 
 ---
 
@@ -69,7 +60,7 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 - **Date :** 2026-05-18
 - **Type :** update
 - **Fichier :** `VRT_2026-05-18_update.md`
-- **Conclusion :** Thèse confirmée avec alerte options majeure. Cours inchangé. Put/Call 39.0 (anomalie). Score dégradé 4.1/10. SURVEILLER strict. Pas d'entrée sans pullback $330–$340.
+- **Conclusion :** **Date :** 2026-05-18
 
 ---
 
