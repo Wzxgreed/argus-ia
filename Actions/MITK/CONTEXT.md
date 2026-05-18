@@ -24,7 +24,7 @@
 
 ## 🚨 Alertes actives
 
-- VOLUME SOUS MOYENNE : 0.72× moyenne 20j
+- VOLUME SOUS MOYENNE : 0.74× moyenne 20j
 - GAP EFFACÉ : Gap +5.08% retourné, close -0.91%
 - ANOMALIE MAX PAIN : $20.00 vs spot $14.13
 - DIVERGENCE YAHOO/FMP : Market cap et P/E divergents
@@ -47,8 +47,8 @@
 - **MM 50j :** 14.30
 - **MM 200j :** —
 - **ATR 14j :** 0.85
-- **Volume moy. 20j :** 1234780
-- **Volume jour :** 892102 (0.72× moyenne)
+- **Volume moy. 20j :** 1235909
+- **Volume jour :** 914696 (0.74× moyenne)
 - **Cours close :** 14.13
 - **Change % :** -0.91%
 
@@ -59,7 +59,7 @@
 - **Date :** 2026-05-18
 - **Type :** update
 - **Fichier :** `MITK_2026-05-18_update.md`
-- **Conclusion :** Rebond technique post-pipeline de $13.95 à $14.13 (+1.29%), volume normalisé à 0.72× moyenne, RSI 50.62. Thèse SURVEILLER confirmée. Score Global Ajusté 49.8/100 inchangé. Pas d'engagement avant cassure MM50 ($14.30) avec volume confirmé.
+- **Conclusion :** Snapshot 21:23 UTC stable vs 20:40 UTC (close $14.13, volume 915k, RSI 50.62). DRAFT_refresh _MITK_2026-05-18_DRAFT_refresh.md traité (trigger ATR_SPIKE 6.02% = artefact volatilité intrajour non confirmé). Thèse SURVEILLER confirmée. Score Global Ajusté 49.8/100 inchangé. Pas d'engagement avant cassure MM50 ($14.30) avec volume confirmé.
 
 ---
 

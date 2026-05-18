@@ -1,4 +1,4 @@
-# CONTEXT — RKLB — Dernière mise à jour : 2026-05-18
+# CONTEXT — RKLB — Dernière mise à jour : 2026-05-18 21:23 UTC
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -42,7 +42,7 @@
 - **MM 200j :** —
 - **ATR 14j :** 10,28
 - **Volume moy. 20j :** 26 529 273
-- **Volume jour :** 32 105 262 (1,21×)
+- **Volume jour :** 32 150 717 (1,21×)
 - **52W High :** 138,38
 - **Beta :** 2,313
 
@@ -53,15 +53,14 @@
 - **Date :** 2026-05-18
 - **Type :** update
 - **Fichier :** RKLB_2026-05-18_update.md
-- **Conclusion :** THÈSE CONFIRMÉE 🔴 ÉVITER. Volume accéléré en fin de séance (+46% vs 17h) sans news adossée. Surchauffe technique aggravée (RSI 77,99, spot +62,9% vs MM50). Score global inchangé 30,8/100. Attendre retour $80–$95.
-- **Snapshot confirmé :** 21:23 UTC (données stables vs 20:34 UTC)
+- **Conclusion :** THÈSE CONFIRMÉE 🔴 ÉVITER. Snapshot final post-pipeline 21:23 UTC confirme la stabilisation des données vs 20:34 UTC (cours inchangé $131,16, RSI 77,99, volume 32,15M). Triggers PRICE_GAP +5,12% et ATR_SPIKE 7,84% intégrés sans modification de thèse. Score global inchangé 30,8/100. Attendre retour $80–$95.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +5.12% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 7.84% (seuil 5.0%)
+- **PRICE_GAP** (medium) — Gap +5,12% overnight (seuil ±5,0%)
+- **ATR_SPIKE** (medium) — ATR relatif 7,84% (seuil 5,0%)
 
 ---
 

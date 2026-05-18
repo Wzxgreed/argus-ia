@@ -1,13 +1,13 @@
 # RKLB
 
 ## Thèse courante
-**2026-05-18 (20:34 UTC)** — ÉVITER. Cours $131,16 (+5,12%), volume accéléré 1,21× moy. 20j en fin de séance (32,1M vs 21,9M à 17h), configuration surchauffe technique aggravée (RSI 77,99, +62,9% vs MM50) et valorisation déconnectée (Forward P/E négatif –15 394, P/B 41,40×, spot +55,8% vs consensus $84,20). Nouveau 52W high intraday à $138,38 sans news adossée. Aucun catalyseur avant earnings août 2026. Attendre retour $80–$95 ou inflexion fondamentale. Score global 40,8/100 ajusté 30,8 — ÉVITER maintenu.
+**2026-05-18 (21:23 UTC)** — ÉVITER. Cours $131,16 (+5,12%), volume confirmé 1,21× moy. 20j (32,15M), configuration surchauffe technique confirmée (RSI 77,99, +62,9% vs MM50) et valorisation déconnectée (Forward P/E négatif –15 394, P/B 41,40×, spot +55,8% vs consensus $84,20). 52W high intraday à $138,38 sans news adossée. Triggers pipeline intégrés : PRICE_GAP +5,12% · ATR_SPIKE 7,84%. Aucun catalyseur avant earnings août 2026. Attendre retour $80–$95 ou inflexion fondamentale. Score global 40,8/100 ajusté 30,8 — ÉVITER maintenu.
 
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
-| 2026-05-18 | [RKLB_2026-05-18_update.md](RKLB_2026-05-18_update.md) | Mise à jour quotidienne finale (20:34 UTC) |
-| 2026-05-18 | [RKLB_2026-05-18_init.md](RKLB_2026-05-18_init.md) | Full Refresh (init) |
+| 2026-05-18 | [RKLB_2026-05-18_update.md](RKLB_2026-05-18_update.md) | Mise à jour post-pipeline finale (21:23 UTC) |
+| 2026-05-18 | [RKLB_2026-05-18_init.md](RKLB_2026-05-18_init.md) | Full Refresh (init, 09:02 UTC) |
 | 2026-05-17 | [RKLB_2026-05-17_claude.md](RKLB_2026-05-17_claude.md) | Analyse approfondie (LLM) |
 
 ## Agenda
