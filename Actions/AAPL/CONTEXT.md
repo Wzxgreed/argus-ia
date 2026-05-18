@@ -36,7 +36,7 @@
 
 ---
 
-## 📊 Contexte technique (dernier snapshot)
+## 📊 Contexte technique (dernier snapshot 21:23 UTC)
 
 - **RSI 14j :** 82.55 (surachat extrème, zone >80)
 - **MM 50j :** 266.78 (+10.5% de marge)
@@ -51,10 +51,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-18 (snapshot 21:00 UTC)
+- **Date :** 2026-05-18 (snapshot final 21:23 UTC)
 - **Type :** update
 - **Fichier :** `AAPL_2026-05-18_update.md`
-- **Conclusion :** THÈSE CONFIRMÉE — SURVEILLER. Rebond post-repli à $297.84 (+0.69% vs 17h) mais RSI remonté à 82.55 (zone >80). Volume final 34.3M (0.71× moyenne). Pas d'entrée long avec surachat extrême persistant. Attendre $285–$290 ou break >$303.20 sur volume >1.0× moyenne.
+- **Conclusion :** THÈSE CONFIRMÉE — SURVEILLER. Données inchangées vs snapshot 20:24 UTC. Cours $297.84, RSI 82.55 (zone >80), volume 34.3M (0.71× moyenne). Pas d'entrée long avec surachat extrême persistant. Attendre $285–$290 ou break >$303.20 sur volume >1.0× moyenne.
 
 ---
 

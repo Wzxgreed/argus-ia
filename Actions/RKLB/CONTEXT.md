@@ -54,6 +54,7 @@
 - **Type :** update
 - **Fichier :** RKLB_2026-05-18_update.md
 - **Conclusion :** THÈSE CONFIRMÉE 🔴 ÉVITER. Volume accéléré en fin de séance (+46% vs 17h) sans news adossée. Surchauffe technique aggravée (RSI 77,99, spot +62,9% vs MM50). Score global inchangé 30,8/100. Attendre retour $80–$95.
+- **Snapshot confirmé :** 21:23 UTC (données stables vs 20:34 UTC)
 
 ---
 

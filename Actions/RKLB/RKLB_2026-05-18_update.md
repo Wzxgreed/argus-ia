@@ -1,32 +1,30 @@
-# RKLB — Mise à Jour Quotidienne (2026-05-18, 20:34 UTC)
+# RKLB — Mise à Jour Post-Pipeline (2026-05-18, 21:23 UTC)
 
-> Source : data/latest.json (2026-05-18T20:34:18 UTC) | Recommandations Agent | Validation OK
+> Source : data/latest.json (2026-05-18T21:23:28 UTC) | Recommandations Agent | Validation OK
+> **Triggers pipeline :** PRICE_GAP +5,12 % · ATR_SPIKE 7,84 % (confirmés)
 
 ---
 
 ## 1. Résumé des Changements depuis l'Analyse Précédente
 
-| Métrique | 2026-05-18 17:00 | 2026-05-18 20:34 | Variation |
+| Métrique | 2026-05-18 20:34 | 2026-05-18 21:23 | Variation |
 |---|---|---|---|
-| **Cours close** | $129,72 | **$131,16** | **+1,11 %** |
-| **Change % vs veille** | +3,97 % | **+5,12 %** | **+1,15 pt** |
-| **RSI 14j** | 77,65 | **77,99** | **+0,34 pt** |
+| **Cours close** | $131,16 | **$131,16** | **—** |
+| **Change % vs veille** | +5,12 % | **+5,12 %** | **—** |
+| **RSI 14j** | 77,99 | **77,99** | **—** |
 | **ATR 14j** | $10,28 | **$10,28** | **—** |
-| **MM 50j** | $80,44 | **$80,47** | **Stable** |
-| **Volume séance** | 21,94 M | **32,11 M** | **+46,4 %** |
-| **Volume vs 20j** | 0,84× | **1,21×** | **Accélération significative** |
+| **MM 50j** | $80,47 | **$80,47** | **—** |
+| **Volume séance** | 32,11 M | **32,15 M** | **+0,1 % (confirmation)** |
+| **Volume vs 20j** | 1,21× | **1,21×** | **—** |
 | **52W High** | $138,38 | **$138,38** | **—** |
-| **Market Cap** | $75,1 Mds | **$75,9 Mds** | **+1,1 %** |
-| **Price-to-Book** | 40,95× | **41,40×** | **+1,1 %** |
-| **Forward P/E** | –15 225 | **–15 394** | **Dégradation marginale** |
-| **Consensus PT (FMP)** | $84,20 | $84,20 | — |
-| **Max Pain** | $150,00 | $150,00 | — |
-| **Put/Call ratio** | 0,81 | 0,81 | — |
-| **Call OI %** | 55,2 % | 55,2 % | — |
+| **Market Cap** | $75,9 Mds | **$75,9 Mds** | **—** |
+| **Forward P/E** | –15 394 | **–15 394** | **—** |
+| **Price-to-Book** | 41,40× | **41,40×** | **—** |
+| **Consensus PT (FMP)** | $84,20 | **$84,20** | **—** |
 | **Score Global Agent** | 40,8/100 (aj. 30,8) | **40,8/100** (aj. **30,8**) | **—** |
-| **Action Agent** | ÉVITER | **ÉVITER** | — |
+| **Action Agent** | ÉVITER | **ÉVITER** | **—** |
 
-**Verdict** : Le titre a poursuivi sa hausse en fin de séance pour clôturer à **$131,16** (+5,12 % vs veille). Le changement le plus significatif est l'**accélération volumétrique** : le volume a grimpé de 21,94 M à **32,11 M** en fin de journée, soit **1,21× la moyenne 20 jours** (vs 0,84× à 17h). Cette suractivité tardive, combinée au RSI 77,99 et au nouveau 52W high intraday à $138,38, confirme une configuration de surchauffe technique **aggravée**. Aucune news structurante n'adresse le mouvement. Le scoring agent reste inchangé : **ÉVITER**.
+**Verdict** : Le snapshot final post-pipeline (21:23 UTC) confirme la **stabilisation** des données vs le snapshot 20:34 UTC. Aucune variation significative. Les triggers `PRICE_GAP` (+5,12 %) et `ATR_SPIKE` (7,84 %) détectés par l'agent de surveillance majeure sont désormais intégrés dans le contexte actif. Le scoring agent et la recommandation restent **inchangés** : **ÉVITER**.
 
 ---
 
@@ -34,24 +32,24 @@
 
 | Indicateur | Valeur | Commentaire |
 |---|---|---|
-| **RSI 14j** | 77,99 | Zone de surachat **aggravée** (>75). Risque de consolidation/correction accru. |
+| **RSI 14j** | 77,99 | Zone de surachat confirmée (>75). Risque de consolidation/correction accru. |
 | **ATR 14j** | $10,28 | Volatilité quotidienne stable mais élevée. |
 | **MM 50j** | $80,47 | Écart haussier **+62,9 %** vs spot. Tendance très étendue. |
 | **MM 200j** | N/A | [DONNÉES MANQUANTES] |
-| **Volume 20j** | 26 529 273 | Volume du jour **1,21×** moyenne — accélération haussière en fin de séance. |
+| **Volume 20j** | 26 529 273 | Volume du jour **1,21×** moyenne — accélération confirmée. |
 | **Beta** | 2,313 | Sensibilité systématique extrême inchangée. |
 | **52W High / Low** | **$138,38** / $23,92 | Spot à –5,2 % du 52W high intraday. |
-| **Intraday High** | $138,38 | Nouveau record historique atteint en séance. |
+| **Intraday High** | $138,38 | Record historique atteint en séance. |
 | **Intraday Low** | $125,68 | — |
 
-**Niveaux clés (révisés)** :
+**Niveaux clés (inchangés)** :
 - Support immédiat : **$125,68** (basse du jour)
 - Support technique majeur : **$110,60** (spot – 2×ATR)
 - Résistance / Objectif : **$162,00** (spot + 3×ATR)
 - Confluence technique : $80–$95 (zone MM50j + compression historique)
-- **Max Pain** (éch. 2026-05-22) : **$150,00** — spot $131,16 en dessous de 14,4 % ; pression d'expiration possible si convergence vers $150 d'ici le 22 mai.
+- **Max Pain** (éch. 2026-05-22) : **$150,00** — spot $131,16 en dessous de 12,6 % ; pression d'expiration possible si convergence vers $150 d'ici le 22 mai.
 
-**Verdict timing : Défavorable** — Configuration overbought/extended aggravée par l'accélération volumétrique tardive et le RSI 77,99. Le volume 1,21× en l'absence de news est interprété comme du momentum spéculatif / options flow plutôt que de l'accumulation institutionnelle structurée.
+**Verdict timing : Défavorable** — Configuration overbought/extended confirmée. Le volume 1,21× en l'absence de news est interprété comme du momentum spéculatif / options flow plutôt que de l'accumulation institutionnelle structurée.
 
 ---
 
@@ -100,7 +98,7 @@
 | **Social Sentiment** | 0 mentions, score 0/10 | `data/social_sentiment_2026-05-18.json` — aucune activité retail détectée. |
 | **NLP Transcripts** | Indisponible | Plan FMP Starter — transcripts require Enterprise+. |
 
-**Verdict Sentiment :** Neutre / Légèrement baissier — Put/Call 0,81 et absence de momentum retail compensés partiellement par un Call OI à 55,2 %. Consensus sell-side à –35,8 % du spot. Short interest élevé sans catalyseur de squeeze. La hausse de +5,12 % et le volume accéléré ne sont adossés à aucune nouvelle publique.
+**Verdict Sentiment :** Neutre / Légèrement baissier — Put/Call 0,81 et absence de momentum retail compensés partiellement par un Call OI à 55,2 %. Consensus sell-side à –35,8 % du spot. Short interest élevé sans catalyseur de squeeze. La hausse de +5,12 % et le volume confirmé ne sont adossés à aucune nouvelle publique.
 
 ---
 
@@ -124,7 +122,7 @@
 |---|---|---|
 | **Catalyseur** | 4,3/10 | Aucune news majeure. Earnings dans 80j — trop loin pour pricer. |
 | **Valorisation** | 3,0/10 | Forward P/E négatif, EV/Rev 104×, spot +55,8 % vs consensus. Plafonné par Filtre Qualité ≤3/6. |
-| **Momentum** | 5,5/10 | Tendance haussière structurelle (prix > MM50, nouveau 52W high), mais RSI surachat et écart excessif. Volume accéléré en fin de séance. |
+| **Momentum** | 5,5/10 | Tendance haussière structurelle (prix > MM50, 52W high), mais RSI surachat et écart excessif. Volume confirmé 1,21×. |
 | **Score Opportunité** | **4,1/10** | Pondération Normal : C×35 % + V×40 % + M×25 % |
 | **Malus** | –10 pts | Malus structurel (surchauffe technique + divergence consensus + absence de catalyseur). |
 | **Score Global ajusté** | **30,8/100** | **ÉVITER** — Seuil < 35 |
@@ -138,11 +136,11 @@
 | Paramètre | Valeur | Justification |
 |---|---|---|
 | **Prix d'entrée (spot)** | $131,16 | — |
-| **Stop-loss** | $110,60 (–15,7 %) | 2×ATR — ajusté à la hausse avec le spot |
-| **Take-profit** | $162,00 (+23,5 %) | 3×ATR — ajusté à la hausse |
+| **Stop-loss** | $110,60 (–15,7 %) | 2×ATR — inchangé |
+| **Take-profit** | $162,00 (+23,5 %) | 3×ATR — inchangé |
 | **Ratio R/R** | **1,5 : 1** | **Inférieur au seuil minimum 2:1** pour un trade directionnel à haut beta |
 
-> **Révision** : Les niveaux sont révisés à la hausse en raison du spot plus élevé, mais l'ATR stable à $10,28. Le ratio R/R reste défavorable compte tenu du Beta 2,31. Toute position longue expose à un drawdown de –15,7 % en 1–2 séances.
+> **Révision** : Les niveaux sont inchangés car le spot et l'ATR sont stables ($131,16 / $10,28). Le ratio R/R reste défavorable compte tenu du Beta 2,31. Toute position longue expose à un drawdown de –15,7 % en 1–2 séances.
 
 ---
 
@@ -151,7 +149,7 @@
 | Événement | Date | Jours restants | Détail |
 |---|---|---|---|
 | **Earnings Q2 2026** | 2026-08-06 | **80 jours** | Est EPS : –$0,06 à –$0,02 ; Rev : $0,2 B |
-| **Expiration options** | 2026-05-22 | **4 jours** | Max Pain $150,00 — spot en dessous de 14,4 % |
+| **Expiration options** | 2026-05-22 | **4 jours** | Max Pain $150,00 — spot en dessous de 12,6 % |
 
 **Prochain catalyseur majeur** : Aucun avant earnings (août). L'expiration options du 22 mai pourrait créer une pression de convergence vers $150 si le volume/options activity s'intensifie, mais absence de signal actuel.
 
@@ -161,17 +159,17 @@
 
 **Verdict : THÈSE CONFIRMÉE 🔴 ÉVITER**
 
-Le snapshot final 20:34 UTC confirme l'absence de nouveauté fondamentale malgré la hausse de **+5,12 %** et le nouveau 52W high intraday à $138,38. Le titre clôture à **$131,16** dans une configuration de surchauffe technique **aggravée** (RSI 77,99, +62,9 % vs MM50) et de valorisation encore plus déconnectée des fondamentaux (Forward P/E –15 394, EV/Rev 104×, spot **+55,8 %** vs consensus analystes).
+Le snapshot final post-pipeline 21:23 UTC confirme l'**absence de nouveauté fondamentale** malgré la hausse de **+5,12 %** et le 52W high intraday à $138,38. Le titre clôture à **$131,16** dans une configuration de surchauffe technique **confirmée** (RSI 77,99, +62,9 % vs MM50) et de valorisation encore plus déconnectée des fondamentaux (Forward P/E –15 394, EV/Rev 104×, spot **+55,8 %** vs consensus analystes).
 
-**Évolutions notables vs 17h** :
-1. **Volume accéléré en fin de séance** : 32,11 M vs 21,94 M à 17h (+46,4 %). Porté à 1,21× la moyenne 20j. Mouvement tardif non adossé à des news — interprété comme du momentum spéculatif / flow options.
-2. **Nouveau 52W high $138,38** — record historique atteint en séance sans news adossée. Mouvement spéculatif pur.
-3. **RSI 77,99** — aggravation du surachat technique. Zone critique (>75).
+**Éléments confirmés vs 20:34** :
+1. **Stabilisation volumétrique** : 32,15 M confirmé (vs 32,11 M), soit 1,21× la moyenne 20j. Mouvement non adossé à des news — momentum spéculatif / flow options.
+2. **Triggers pipeline intégrés** : `PRICE_GAP` +5,12 % et `ATR_SPIKE` 7,84 % reflètent la volatilité intrinsèque d'un titre à Beta 2,31 en surchauffe. Aucun événement structurant ne modifie la thèse.
+3. **RSI 77,99** — surachat technique confirmé. Zone critique (>75).
 4. **Écart consensus élargi** — $131,16 vs PT $84,20 = 55,8 % de premium. Ce niveau ne résiste à aucun benchmark fondamental.
-5. **Expiration options 2026-05-22** — Max Pain $150, spot en dessous de 14,4 %. Surveillance si convergence imminente.
+5. **Expiration options 2026-05-22** — Max Pain $150, spot en dessous de 12,6 %. Surveillance si convergence imminente.
 
-**Recommandation** : Maintenir la posture **ÉVITER**. Attendre un retour vers la zone de confluence **$80–$95** (proximité MM50j et compression technique) ou une inflexion matérielle des anticipations de résultats avant toute réévaluation. Toute position longue actuelle expose à un drawdown de –15,7 % (SL) en 1–2 séances compte tenu de l'ATR élevé. La hausse de +5,12 % et le volume tardif ne sont pas des signaux d'achat — ils confirment la déconnexion cours/fondamentaux.
+**Recommandation** : Maintenir la posture **ÉVITER**. Attendre un retour vers la zone de confluence **$80–$95** (proximité MM50j et compression technique) ou une inflexion matérielle des anticipations de résultats avant toute réévaluation. Toute position longue actuelle expose à un drawdown de –15,7 % (SL) en 1–2 séances compte tenu de l'ATR élevé. La hausse de +5,12 % et le volume confirmé ne sont pas des signaux d'achat — ils confirment la déconnexion cours/fondamentaux.
 
 ---
 
-*Rapport généré le 2026-05-18 — Données : data/latest.json (2026-05-18T20:34:18), data/recommandations_latest.json, data/upcoming_events_latest.json, data/events_latest.json, data/news_latest.json, data/social_sentiment_latest.json, data/geo_risk_latest.json, data/sector_rotation_latest.json, data/fx_exposure_latest.json*
+*Rapport généré le 2026-05-18 — Données : data/latest.json (2026-05-18T21:23:28), data/recommandations_latest.json, data/upcoming_events_latest.json, data/events_latest.json, data/news_latest.json, data/social_sentiment_latest.json, data/geo_risk_latest.json, data/sector_rotation_latest.json, data/fx_exposure_latest.json, data/quant_report_latest.json*

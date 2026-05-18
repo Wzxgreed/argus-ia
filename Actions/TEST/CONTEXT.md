@@ -1,4 +1,4 @@
-# CONTEXT — TEST — Dernière mise à jour : 2026-05-18 (snapshot 21:00 UTC)
+# CONTEXT — TEST — Dernière mise à jour : 2026-05-18 (snapshot 21:23 UTC)
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -49,7 +49,7 @@
 - **Date :** 2026-05-18
 - **Type :** update
 - **Fichier :** `TEST_2026-05-18_update.md`
-- **Conclusion :** ATTENDRE — Stabilisation confirmée snapshot 21:00 UTC. Cours $44.94 inchangé, RSI 58.88 neutre, ATR $1.10 contracté, score agent 59.0/100. SL/TP corrigés à $42.74/$48.24 (ratio 1.5). Aucune donnée fondamentale nouvelle, aucun résultat post-earnings observable. Maintenir l'attente.
+- **Conclusion :** ATTENDRE — Stabilisation confirmée snapshot 21:23 UTC. Cours $44.94 inchangé, RSI 58.88 neutre, ATR $1.10 contracté, score agent 59.0/100. SL/TP corrigés à $42.74/$48.24 (ratio 1.5). Aucune donnée fondamentale nouvelle, aucun résultat post-earnings observable. Maintenir l'attente.
 
 ---
 
