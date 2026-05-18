@@ -29,7 +29,7 @@
 - **Divergence Yahoo/FMP Market Cap** — ×11,8 d'écart entre sources ($276M vs ~$3,27B)
 - **Sector Rotation XLC Bottom 3** — malus sectoriel actif (momentum 0,0)
 - **Options Repositionnement Put-Biased** — put/call 0,90, max pain $10
-- **Liquidité réduite** — volume 0,56× moyenne 20j (873k vs 1,55M)
+- **Liquidité réduite** — volume 0,62× moyenne 20j (964k vs 1,56M)
 - **Qualité dégradée** — Score Qualité 1/6, patrimoine net négatif, FCF négatif
 
 ---
@@ -48,9 +48,9 @@
 - **MM 50j :** 11.89
 - **MM 200j :** —
 - **ATR 14j :** 0.80
-- **Volume moy. 20j :** 1554310
+- **Volume moy. 20j :** 1558858
 - **Close :** 9.38
-- **Volume séance :** 873702
+- **Volume séance :** 964675
 - **52W High/Low :** 56.64 / 8.31
 - **Beta :** 2.508
 - **Short Interest :** 22.84%
@@ -60,9 +60,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** update
+- **Type :** update (pipeline 21h UTC)
 - **Fichier :** `FUBO_2026-05-18_update.md`
-- **Conclusion :** Thèse ATTENDRE confirmée. Close final $9.38 (-2,49% vs veille), volume 0,56×, RSI 36.21. Aucune donnée earnings Q1 2026 visible post-close. Pas de position longue recommandée.
+- **Conclusion :** Thèse ATTENDRE confirmée. Close final $9.38 (-2,49% vs veille), volume 0,62×, RSI 36.21. Aucune donnée earnings Q1 2026 visible post-close. Pas de position longue recommandée.
 
 ---
 
