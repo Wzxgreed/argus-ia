@@ -24,3 +24,13 @@
 **Fichier généré :** [NU_2026-05-18_update.md](NU_2026-05-18_update.md) (update quotidienne révisée post-pipeline)
 
 ---
+
+## 2026-05-18 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -5.72% overnight (seuil ±5.0%)
+- volume_surge (medium) : Volume 3.2× moyenne 20j (138,779,800 vs 43,662,145)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

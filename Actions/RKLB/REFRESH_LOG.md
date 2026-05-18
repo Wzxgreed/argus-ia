@@ -68,3 +68,13 @@
 **Conclusion :** THÈSE CONFIRMÉE. Données inchangées vs snapshot matinal (close $124.77, RSI 73.28, ATR $9.65, MM50 $79.25). DRAFT_refresh détecté à 10:00 UTC — contenu identique au full refresh déjà complété à 09:02. Archivé sans réécriture. ÉVITER maintenu. Fichier référence : RKLB_2026-05-18_init.md.
 
 ---
+
+## 2026-05-18 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -5.87% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 7.73% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

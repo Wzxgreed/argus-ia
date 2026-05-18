@@ -26,3 +26,12 @@
 **Conclusion :** Données inchangées vs snapshot matinal. Thèse ATTENDRE confirmée. Full refresh traité et intégré dans `FLY_2026-05-18_update.md` (consolidé). Aucune modification de thèse.
 
 ---
+
+## 2026-05-18 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 9.94% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

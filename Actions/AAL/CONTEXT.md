@@ -21,16 +21,11 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 ---
 
 ## Actualités ayant impacté ce dossier
-| Date | Titre | Impact |
-|------|-------|--------|
-| 2026-05-18 | Consensus FMP structuré PT $16.02 (15 analystes) | 🟢 Upgrade Valorisation/Catalyseur |
-| 2026-05-18 | Short interest 12.21% détecté | 🟡 Squeeze potential |
-
-- **Score global :** 71.1/100 (Score Opportunité 6.6/10)
-- **Prix cible :** $13.66 (réviser à $14.00 si momentum confirmé sur volume > 50M)
-- **Stop-loss :** $11.41 (cours − 2×ATR, support MM50)
-- **Statut thèse :** Modifiée — upgrade SURVEILLER → ACHETER (Sizing Réduit)
-- **Horizon :** 1–3 mois
+- **Score global :** —/10
+- **Prix cible :** $13.66
+- **Stop-loss :** $11.41
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -44,28 +39,23 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 
 - Baisse — $11.41 (SL 2×ATR) — 🟢 Active
 - Hausse — $14.00 (prix cible) — 🟢 Active
-- Volume — >2× moy. 20j (>104M) — 🟢 Active
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-07-23** — Earnings Q2 FY2026 — Est. EPS -$0.34 à $0.17, Rev $16.6B
-- **2026-06-XX** — Décision Fed — impact taux sur coût de la dette
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **Cours close :** $12.31
-- **Change % :** -3.07% (vs previous close $12.70)
 - **RSI 14j :** 58.87
-- **MM 50j :** $11.52
+- **MM 50j :** 11.52
 - **MM 200j :** —
-- **ATR 14j :** $0.45
-- **Volume moy. 20j :** 51,987,455
-- **Volume jour :** 37,223,400 (-28.4% vs moyenne)
-- **52W Range :** $10.09 – $16.50
+- **ATR 14j :** 0.45
+- **Volume moy. 20j :** 51987455
 
 ---
 
@@ -74,7 +64,7 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 - **Date :** 2026-05-18
 - **Type :** update
 - **Fichier :** `AAL_2026-05-18_update.md`
-- **Conclusion :** Upgrade SURVEILLER → ACHETER (Sizing Réduit). Score Opportunité 6.6/10 (+2.65 pts vs init). Consensus FMP PT $16.02 (+30% upside). Short interest 12.21% = squeeze potential. Filtre Qualité et bilan stressé inchangés — trade tactique uniquement.
+- **Conclusion :** **Date :** 2026-05-18
 
 ---
 

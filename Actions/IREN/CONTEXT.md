@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER — Sizing Réduit
-- **Score global :** 5.8/10
-- **Prix cible :** $65.86
-- **Stop-loss :** $41.94
-- **Statut thèse :** confirmée
-- **Horizon :** 1–3 mois
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** invalide
+- **Horizon :** —
 
 ---
 
@@ -35,7 +35,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-18** · earnings · Earnings Q1 2026 (J-0, résultats en attente)
+- **2026-05-18** · earnings · Earnings ...
 
 ---
 
@@ -60,8 +60,7 @@
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap -9.35% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 10.39% (seuil 5.0%)
+- Aucun trigger récent.
 
 ---
 

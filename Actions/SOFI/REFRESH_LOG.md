@@ -51,3 +51,12 @@
 **Conclusion :** ARCHIVÉ — Ce DRAFT était un résidu du pipeline matinal. Même conclusion que ci-dessus : CONFIRME. Aucune modification de thèse.
 
 ---
+
+## 2026-05-18 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.25% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
