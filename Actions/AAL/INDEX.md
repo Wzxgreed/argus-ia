@@ -22,7 +22,7 @@
 **Prix cible :** $13.77 (cours + 3×ATR) / Réviser à $14.00 si momentum confirmé sur volume > 50M
 **Stop-loss :** $11.42 (cours − 2×ATR, support MM50)
 **Upside/Downside :** +11.4% / -7.6%
-**Dernière mise à jour :** 2026-05-18 (snapshot 20:12 UTC)
+**Dernière mise à jour :** 2026-05-18 (snapshot 22:35 UTC)
 
 American Airlines est une compagnie aérienne legacy fortement endettée (~$40B) avec aucun moat. Le Forward P/E 5.64 attire mais le risque de value trap est élevé : exposition pétrole $105, taux élevés, grèves syndicales. Hors périmètre qualité (0-1/6). Cependant, le consensus analyste FMP s'est structuré à $16.02 (+29.5% upside, 15 analystes), le timing technique reste favorable (RSI 60.11, au-dessus MM50), et le short interest 12.2% crée un optionality de squeeze si earnings Q2 (23/07) surprisent à la hausse. Upgrade tactique de SURVEILLER à ACHETER (sizing réduit, 1-3 mois). Respect strict du SL à $11.42. AAdvantage (programme loyalty) = hidden asset valeur ~$20-25B > market cap totale. Volume de clôture 58.8M (+13.6% vs moyenne) confirme le rebond et invalide l'hypothèse de compression extrême du snapshot 17:00 UTC.
 

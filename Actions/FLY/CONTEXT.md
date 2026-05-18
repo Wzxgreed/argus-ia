@@ -1,4 +1,4 @@
-# CONTEXT — FLY — Derniere mise a jour : 2026-05-18
+# CONTEXT — FLY — Derniere mise a jour : 2026-05-18 22:35 UTC
 
 > Ce fichier est la **memoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise a jour automatique par `agents/update_context/agent.py` a chaque passage du pipeline.
@@ -11,7 +11,7 @@
 - **Score global :** 53.0/100 (58.0 ajuste)
 - **Prix cible :** $42.45 (consensus, sous le spot)
 - **Stop-loss :** $35.17
-- **Statut these :** Confirmee — gap +8.71% confirme le momentum technique, fondamentaux inchanges
+- **Statut these :** Confirmee — FULL REFRESH traite et integre. Donnees strictement identiques vs snapshot 21:00 UTC. Gap +8.71% confirme le momentum technique, fondamentaux inchanges.
 - **Horizon :** —
 
 ---
@@ -49,9 +49,9 @@
 ## Resume derniere analyse
 
 - **Date :** 2026-05-18
-- **Type :** update (session 21:00 UTC)
+- **Type :** update + consolidation FULL REFRESH (session 22:35 UTC)
 - **Fichier :** `FLY_2026-05-18_update.md`
-- **Conclusion :** These ATTENDRE confirmee avec nuance haussiere technique. Gap +8.71% vs prior close ($40.43 -> $43.95), RSI 67.08, volume 9.79M (1.57x moy.). Fondamentaux inchanges (Filtre Qualite 2/6, Forward P/E -38.50, marges negatives). Consensus PT sous le spot. Aucune position recommandee.
+- **Conclusion :** These ATTENDRE confirmee. Donnees strictement identiques vs snapshot 21:00 UTC (cours $43.95, RSI 67.08, volume 9.79M). FULL REFRESH declenche par PRICE_GAP +8.71% et ATR_SPIKE 9.99% — aucun changement materiel detecte entre les snapshots. Fondamentaux inchanges (Filtre Qualite 2/6, Forward P/E -38.50, marges negatives). Consensus PT sous le spot. Aucune position recommandee.
 
 ---
 
@@ -59,18 +59,8 @@
 
 - **PRICE_GAP** (medium) — Gap +8.71% overnight (seuil +-5.0%)
 - **ATR_SPIKE** (medium) — ATR relatif 9.99% (seuil 5.0%)
+- **Statut :** Traite et integre dans FLY_2026-05-18_update.md. Aucun changement materiel vs snapshot 21:00 UTC.
 
 ---
 
 *Genere automatiquement — ne pas editer manuellement.*
-
----
-
-## 🔄 Triggers détectés (full refresh)
-
-- **PRICE_GAP** (medium) — Gap +8.71% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 9.99% (seuil 5.0%)
-
----
-
-*Généré automatiquement — ne pas éditer manuellement.*

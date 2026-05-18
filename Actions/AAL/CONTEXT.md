@@ -11,7 +11,7 @@
 - **Prix cible :** $13.77 (cours + 3×ATR) / Réviser à $14.00 si momentum confirmé sur volume > 50M
 - **Stop-loss :** $11.42 (cours − 2×ATR, support MM50)
 - **Upside/Downside :** +11.4% / -7.6%
-- **Dernière mise à jour :** 2026-05-18 (snapshot 20:12 UTC)
+- **Dernière mise à jour :** 2026-05-18 (snapshot 22:35 UTC)
 - **Score global :** 71.1/100
 - **Horizon :** 1-3 mois
 

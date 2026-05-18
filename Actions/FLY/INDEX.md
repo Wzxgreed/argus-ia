@@ -7,7 +7,7 @@
 | Date | Fichier | Type |
 |------|---------|------|
 | 2026-05-17 | [FLY_2026-05-17_init.md](FLY_2026-05-17_init.md) | Analyse initiale |
-| 2026-05-18 | [FLY_2026-05-18_update.md](FLY_2026-05-18_update.md) | Mise a jour quotidienne — gap +8.71%, momentum renforce, fondamentaux inchanges, these ATTENDRE confirmee |
+| 2026-05-18 | [FLY_2026-05-18_update.md](FLY_2026-05-18_update.md) | Mise a jour quotidienne + consolidation FULL REFRESH — gap +8.71%, momentum renforce, fondamentaux inchanges, these ATTENDRE confirmee |
 
 ## Agenda
 - Prochain earnings : **2026-08-04** (Q2 2026) — Est EPS -$0.60 a -$0.45, Rev $0.1B

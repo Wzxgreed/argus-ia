@@ -1,8 +1,8 @@
 # AAL — Mise à Jour Post-Pipeline
 
-**Date :** 2026-05-18 (snapshot 20:12 UTC, post-pipeline)
+**Date :** 2026-05-18 (snapshot 22:35 UTC, post-pipeline final)
 **Ticker :** AAL (NASDAQ)
-**Type :** Update post-close
+**Type :** Update post-close — Confirmation données stables vs snapshot 20:12 UTC
 **Cours (close) :** $12.36
 **Previous close :** $12.31
 **Change vs previous close :** +0.41%

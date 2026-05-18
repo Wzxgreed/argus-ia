@@ -1,6 +1,6 @@
 # PLTR — Mise à Jour Quotidienne (2026-05-18, close 21:00 UTC)
 
-> **Source :** `data/latest.json` (snapshot 2026-05-18 21:00 UTC) + `data/recommandations_latest.json` + agents sector, FX, watchman, events, social  
+> **Source :** `data/latest.json` (snapshot 2026-05-18 22:35 UTC) + `data/recommandations_latest.json` + agents sector, FX, watchman, events, social  
 > **Référence précédente :** [PLTR_2026-05-17_init.md](PLTR_2026-05-17_init.md) (initiale)  
 > **Dernier update :** aucun — ce fichier remplace la première version auto-générée à 20:12 UTC (mêmes données, format institutionnel consolidé)
 
