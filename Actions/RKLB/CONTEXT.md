@@ -1,7 +1,7 @@
 # Contexte RKLB
 
 ## Thèse active
-[Rapport généré le 2026-05-17]
+**2026-05-18** — ÉVITER. Cours $124,77, surchauffe technique extrême (RSI 73,28, +57 % vs MM50), valorisation déconnectée (Forward P/E négatif, spot +48 % vs consensus $84,20). Aucun catalyseur avant earnings août 2026.
 
 ## Score actuel
 - Opportunité : 3.7/10
@@ -13,7 +13,7 @@
 - TP : 153.72
 
 ## Statut
-[ACTIVE / EN SURVEILLANCE / CLOS]
+ÉVITER — Attendre retour $80–$95 ou inflexion fondamentale
 
 ---
 
@@ -21,6 +21,8 @@
 
 - **PRICE_GAP** (medium) — Gap -5.87% overnight (seuil ±5.0%)
 - **ATR_SPIKE** (medium) — ATR relatif 7.73% (seuil 5.0%)
+
+*Note (2026-05-18) : données inchangées vs séance précédente. Triggers toujours actifs mais non matérialisés par un nouveau mouvement.*
 
 ---
 

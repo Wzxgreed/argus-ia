@@ -5,119 +5,27 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.25% (seuil 5.0%)
 
-**Conclusion :** CONFIRME — La thèse précédente (ATTENDRE) est confirmée et légèrement renforcée.
+**Conclusion :** CONFIRME — La thèse précédente est confirmée et légèrement renforcée.
 - Le full refresh confirme la thèse d'attente : trend baissier sous MM50 intact, RSI 30.21 = survente sans capitulation (volume 0.7×).
 - Le consensus FMP renforcé (27 analystes, PT $25.41) et le Forward P/E 19.95 raisonnable justifient une légère révision à la hausse du Score Opportunité (5.1/10 vs 4.85/10) et du Score Global (43/100 vs ~39/100).
 - Aucun élément fondamental nouveau ne modifie la structure du moat, du TAM ou de la qualité bénéfice. Le Filtre Qualité reste 4/6 (Quality Partielle).
 - Les risques macro dominants (taux + prêts étudiants) restent inchangés et non pricés comme catalyseurs immédiats.
 - Recommandation inchangée : ATTENDRE. Pas de position. Attendre retour au-dessus de MM50 ($17.05) ou test support $14.50.
 
+**Fichier généré :** `SOFI_2026-05-17_init.md`
+
 ---
 
-## 2026-05-17 — Full Refresh Triggered
+## 2026-05-18 — Full Refresh Trigger Detected (DRAFT)
 
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.25% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
-
----
-
-## 2026-05-17 — Full Refresh Triggered
-
-**Triggers :**
-- atr_spike (medium) : ATR relatif 5.25% (seuil 5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
-
----
-
-## 2026-05-17 — Full Refresh Triggered
-
-**Triggers :**
-- atr_spike (medium) : ATR relatif 5.25% (seuil 5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
-
----
-
-## 2026-05-17 — Full Refresh Triggered
-
-**Triggers :**
-- atr_spike (medium) : ATR relatif 5.25% (seuil 5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
-
----
-
-## 2026-05-17 — Full Refresh Triggered
-
-**Triggers :**
-- atr_spike (medium) : ATR relatif 5.25% (seuil 5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
-
----
-
-## 2026-05-17 — Full Refresh Triggered
-
-**Triggers :**
-- atr_spike (medium) : ATR relatif 5.25% (seuil 5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
-
----
-
-## 2026-05-17 — Full Refresh Triggered
-
-**Triggers :**
-- atr_spike (medium) : ATR relatif 5.25% (seuil 5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
-
----
-
-## 2026-05-18 — Full Refresh Triggered
-
-**Triggers :**
-- atr_spike (medium) : ATR relatif 5.25% (seuil 5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
-
----
-
-## 2026-05-18 — Full Refresh Triggered
-
-**Triggers :**
-- atr_spike (medium) : ATR relatif 5.25% (seuil 5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
-
----
-
-## 2026-05-18 — Full Refresh Triggered
-
-**Triggers :**
-- atr_spike (medium) : ATR relatif 5.25% (seuil 5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
-
----
-
-## 2026-05-18 — Full Refresh Triggered
-
-**Triggers :**
-- atr_spike (medium) : ATR relatif 5.25% (seuil 5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
-
----
-
-## 2026-05-18 — Full Refresh Triggered
-
-**Triggers :**
-- atr_spike (medium) : ATR relatif 5.25% (seuil 5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** CONFIRME — Même trigger que le 2026-05-17. Pas de nouveau full refresh nécessaire.
+- L'ATR relatif 5.25% est identique à celui du full refresh du 2026-05-17. Aucune nouvelle volatilité anormale n'est apparue.
+- La mise à jour quotidienne du 2026-05-18 (`SOFI_2026-05-18_update.md`) intègre déjà ce niveau de volatilité et confirme la thèse.
+- Cours stable $15.61, RSI 30.21 inchangé, volume faible. Support $15.38 testé sans cassure.
+- Score Opportunité révisé 5.7/10 (+0.6 pt). Score Global 48.6/100 (SURVEILLER). TP $18.07, SL $13.97.
+- **Action :** DRAFT_refresh archivé (`_DRAFT_refresh_2026-05-18.md`). Pas de réécriture de `_init.md` requise.
 
 ---
