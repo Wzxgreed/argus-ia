@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
-- **Horizon :** —
+- **Recommandation :** SURVEILLER
+- **Score global :** 51.0/100 (ajusté 41.0)
+- **Prix cible :** $220–$240 (DCF fair value)
+- **Stop-loss :** $284.50
+- **Statut thèse :** 🔶 SURVEILLER — surachat extrême persistant (RSI 82.55), pas d'entrée long à $297+
+- **Horizon :** 1–3 mois (catalyseur earnings 2026-07-30)
 
 ---
 
@@ -24,23 +24,28 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🟡 RSI 82.55 — surachat extrème persistant
+- 🟡 Volume 0.71× moyenne 20j — liquidité réduite
+- 🟡 Cours $297.84 > Consensus FMP $293.43 (+1.5%)
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **2026-07-30** — Earnings Q3 FY2026 (est. EPS $1.83–$1.99, Rev $109.0B) — dans 73 jours
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 82.55
-- **MM 50j :** 266.78
+- **RSI 14j :** 82.55 (surachat extrème, zone >80)
+- **MM 50j :** 266.78 (+10.5% de marge)
 - **MM 200j :** —
 - **ATR 14j :** 6.67
-- **Volume moy. 20j :** 48185241
+- **Volume moy. 20j :** 48 279 277
+- **Volume séance :** 34 313 641 (0.71× moyenne)
+- **52W high :** $303.20
+- **52W low :** $193.46
 
 ---
 
@@ -49,7 +54,7 @@
 - **Date :** 2026-05-18
 - **Type :** update
 - **Fichier :** `AAPL_2026-05-18_update.md`
-- **Conclusion :** > **Référence analyse précédente :** [AAPL_2026-05-17_init.md](AAPL_2026-05-17_init.md) | [AAPL_2026-05-18_update.md](AAPL_2026-05-18_update.md) (précédente session 13:00 UTC)
+- **Conclusion :** THÈSE CONFIRMÉE — SURVEILLER. Rebond post-repli à $297.84 (+0.69% vs 17h) mais RSI remonté à 82.55 (zone >80). Volume final 34.3M (0.71× moyenne). Pas d'entrée long avec surachat extrême persistant. Attendre $285–$290 ou break >$303.20 sur volume >1.0× moyenne.
 
 ---
 
