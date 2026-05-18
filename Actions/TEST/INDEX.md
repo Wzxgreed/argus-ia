@@ -4,13 +4,13 @@
 
 **Verdict :** ATTENDRE
 **Date dernière analyse :** 2026-05-18
-**Cours actuel :** $44.85
+**Cours actuel :** $44.94
 **Score Qualité :** 0/6 (Hors périmètre)
-**Score Opportunité :** 5.5/10 (attribution mécanique — données fondamentales toujours absentes)
-**Score Momentum :** 5.0/10
-**Score Global :** 54.5/100
+**Score Opportunité :** 5.9/10 (agent reco — données fondamentales toujours absentes)
+**Score Momentum :** 6.5/10
+**Score Global :** 59.0/100
 
-TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie. Le titre est suivi uniquement pour la cohérence des flux de données techniques. Earnings le 2026-05-18 — aucun résultat post-earnings observable à 17:00 UTC. Détérioration technique : -2.80% sur volume 5.79×, close au plus bas, marge au-dessus de MM50 réduite à 2.98%.
+TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie. Le titre est suivi uniquement pour la cohérence des flux de données techniques. Earnings le 2026-05-18 — aucun résultat post-earnings observable à 20:34 UTC. Stabilisation technique : cours stable à $44.94, volume retombé à 2.04× moyenne, RSI 58.88 neutre, score agent à 59.0/100 (à 1 point du seuil ACHETER réduit).
 
 ---
 

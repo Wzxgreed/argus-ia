@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
+- **Recommandation :** ATTENDRE
+- **Score global :** 59.0/100
+- **Prix cible :** $48.61
+- **Stop-loss :** $42.81
+- **Statut thèse :** INACTIVE
 - **Horizon :** —
 
 ---
@@ -36,20 +36,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 59.83
+- **RSI 14j :** 58.88
 - **MM 50j :** 43.55
 - **MM 200j :** —
-- **ATR 14j :** 1.16
-- **Volume moy. 20j :** 1767
+- **ATR 14j :** 1.10
+- **Volume moy. 20j :** 1174
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** preview
-- **Fichier :** `TEST_2026-05-18_preview.md`
-- **Conclusion :** > **Date :** 2026-05-18
+- **Type :** update
+- **Fichier :** `TEST_2026-05-18_update.md`
+- **Conclusion :** ATTENDRE — Stabilisation post-spike de volume. Cours $44.94 stable, RSI 58.88 neutre, score agent 59.0/100. Aucune donnée fondamentale nouvelle. Maintenir l'attente.
 
 ---
 

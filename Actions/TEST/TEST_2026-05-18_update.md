@@ -1,55 +1,55 @@
 # TEST — Mise à Jour Quotidienne (2026-05-18)
 
 > **Date :** 2026-05-18
-> **Heure snapshot :** 17:00 UTC
-> **Sources :** `data/2026-05-18.json` (fetched_at 2026-05-18T17:00:11 UTC), `data/recommandations_2026-05-18.json`, `data/upcoming_events_2026-05-18.json`, `data/geo_2026-05-18.json`, `data/fx_exposure_2026-05-18.json`, `data/social_sentiment_2026-05-18.json`, `data/sector_rotation_2026-05-18.json`, `data/quant_2026-05-18.json`, `data/events_2026-05-18.json`
-> **Type :** Révision post-pipeline 17:00 UTC — détérioration technique avec volume anormal
+> **Heure snapshot :** 20:34 UTC
+> **Sources :** `data/2026-05-18.json` (fetched_at 2026-05-18T20:34:17 UTC), `data/recommandations_2026-05-18.json`
+> **Type :** Révision post-pipeline 20:34 UTC — stabilisation après le spike de distribution de 17h
 
 ---
 
 ## Résumé des Changements
 
-| Métrique | 2026-05-18 13:00 UTC | 2026-05-18 17:00 UTC | Delta |
+| Métrique | 2026-05-18 17:00 UTC | 2026-05-18 20:34 UTC | Delta |
 |----------|----------------------|----------------------|-------|
-| Cours | $46.14 | **$44.85** | **-2.80%** |
-| RSI 14j | 64.16 | **58.47** | **-5.69 pts** |
-| ATR 14j | $1.09 | **$1.16** | **+6.4%** |
-| MM 50j | $43.54 | $43.55 | +$0.01 |
-| Volume | 2,400 (2.22×) | **8,587 (5.79×)** | **+258% absolu** |
-| Score Opportunité | 5.7/10 | **5.5/10** | **-0.2 pt** |
-| Score Global | 56.5/100 | **54.5/100** | **-2.0 pts** |
+| Cours | $44.85 | **$44.94** | **+0.20%** |
+| RSI 14j | 58.47 | **58.88** | **+0.41 pt** |
+| ATR 14j | $1.16 | **$1.10** | **−5.2%** |
+| MM 50j | $43.55 | $43.55 | Inchangé |
+| Volume | 8,587 (5.79×) | **2,394 (2.04×)** | **−72.1%** |
+| Score Opportunité (agent) | — | **5.9/10** | — |
+| Score Global (agent) | 54.5/100 (heuristique) | **59.0/100** | **+4.5 pts** |
 | Verdict agent reco | ATTENDRE | **ATTENDRE** | Confirmé |
 
-**Événement majeur :** Aucun événement corporate détecté dans `data/events_latest.json` (0 événement). Earnings JOUR J (2026-05-18) toujours sans résultats post-earnings observables à 17:00 UTC. La baisse de -2.80% sur volume 5.79× la moyenne 20j n'est pas liée à un catalyseur fondamental identifiable dans les flux.
+**Événement majeur :** Aucun événement corporate détecté (`data/events_latest.json` = 0). Le spike de volume de 17h (8,587 actions, 5.79× moyenne) s'est complètement dissipé en fin de séance. Le cours s'est stabilisé à $44.94, en repli de −2.62% vs clôture précédente ($46.144) mais quasiment inchangé vs le snapshot 17h UTC. Aucun résultat post-earnings n'est observable à 20:34 UTC.
 
 ---
 
 ## Mise à Jour Technique
 
-Configuration technique détériorée vs snapshot 13:00 UTC :
-- **Cours :** $44.85 (open $45.92 / high $45.92 / low $44.85 / previous close $46.144)
-- **Variation :** -2.80% — séance de distribution avec open = high et close = low, zero intraday recovery
-- **RSI 14j :** 58.47 — retrait du territoire haussier modéré (64.16) vers neutre, conservation d'un léger avantage acheteur
-- **ATR 14j :** $1.16 — volatilité en expansion (+6.4% vs 13:00 UTC)
-- **MM 50j :** $43.55 — cours supérieur (+2.98%), support dynamique intact mais marge de sécurité réduite
+Configuration technique stabilisée vs snapshot 17:00 UTC :
+- **Cours :** $44.94 (open $45.92 / high $46.566 / low $46.144 / previous close $46.144)
+- **Variation :** −2.62% vs veille — repli limité dans la fourchette intraday
+- **RSI 14j :** 58.88 — légère remontée vs 58.47, zone neutre avec un léger avantage acheteur conservé
+- **ATR 14j :** $1.10 — volatilité en contraction (−5.2% vs 17h), retour à des niveaux plus sains
+- **MM 50j :** $43.55 — support dynamique intact, marge de sécurité +3.19%
 - **MM 200j :** N/A
-- **Volume relatif :** 5.79× moyenne 20j (8,587 vs 1,484) — spike de distribution massif sur micro-cap
-- **52W range :** [$40.27, $57.74] — repositionnement vers le bas de la fourchette
+- **Volume relatif :** 2.04× moyenne 20j (2,394 vs 1,174) — retour à un profil de liquidité normal après le spike de 17h
+- **52W range :** [$40.27, $57.74] — positionnement dans le bas de la fourchette
 
-**Verdict timing :** Défavorable. La séance présente un profil de vente contrôlée : open = high ($45.92), puis descente continue jusqu'à close = low ($44.85), sans aucune reprise intraday. Ce pattern sur volume 5.79× la normale sur un act illiquide traduit un déséquilibre offre/demande nettement vendeur. Le maintien au-dessus de MM50 ($43.55) empêche un basculement baissier structuré, mais la marge de sécurité est réduite à 2.98% (vs 5.97% à 13:00 UTC). Une cassure sous MM50 avec ce type de volume confirmerait un retournement de court terme.
+**Verdict timing :** Neutre. La dissipation du volume anormal et la stabilisation du cours à $44.94 éteignent le signal de distribution observé à 17h. La structure de séance (high $46.566) montre une tentative de reprise intraday repoussée, mais la clôture proche du plus bas de la séance reflète une faiblesse de clôture. Le maintien au-dessus de MM50 ($43.55) préserve la tendance haussière de court terme. La contraction de l'ATR à $1.10 améliore le ratio risque/rendement des niveaux suggérés.
 
 ---
 
 ## Mise à Jour Fondamentale
 
-Aucune donnée fondamentale nouvelle n'est disponible dans le snapshot 17:00 UTC :
+Aucune donnée fondamentale nouvelle n'est disponible dans le snapshot 20:34 UTC :
 - **Filtre Qualité (6 critères) :** 0/6 — toujours 🔴 Hors périmètre
 - **Sector / Industry :** null / null — impossible de dériver un TAM ou des comps
 - **P/E, Forward P/E, EV/EBITDA, P/B, Beta, Dividend Yield :** [DONNÉES MANQUANTES]
 - **Short Interest, Float, Outstanding :** [DONNÉES MANQUANTES]
 - **Agent Accounting :** [DONNÉES MANQUANTES] — rapport `data/accounting_risk_latest.json` inexistant
 
-**Impact earnings du jour :** Aucun résultat post-earnings injecté dans les snapshots Yahoo/FMP à 17:00 UTC. Le calendrier FMP indiquait un earnings le 2026-05-18, mais l'absence de données fondamentales actualisées suggère soit un retard de publication, soit une société non couverte par les bases de données institutionnelles. La baisse de -2.80% sur volume massif pourrait refléter une anticipation négative ou une déception liée à un manque de visibilité, mais sans données vérifiables, tout chiffrage reste spéculatif.
+**Impact earnings du jour :** Aucun résultat post-earnings injecté dans les snapshots Yahoo/FMP à 20:34 UTC. Le calendrier FMP indiquait un earnings le 2026-05-18, mais l'absence de données fondamentales actualisées suggère soit un retard de publication, soit une société non couverte par les bases institutionnelles. La baisse de −2.62% sur la séance reste sans catalyseur fondamental identifié.
 
 ---
 
@@ -63,22 +63,22 @@ Aucune donnée fondamentale nouvelle n'est disponible dans le snapshot 17:00 UTC
 | **Geo Risk** | Non flaggé | Score politique 2/10 (`data/geo_2026-05-18.json`) — aucune exposition cartographiée, flag 🟢 |
 | **FX Exposure** | [NON ANALYSÉ] | TEST absent du rapport `data/fx_exposure_2026-05-18.json` |
 | **Consensus analystes** | [DONNÉES MANQUANTES] | Pas de price target, pas d'upgrades/downgrades dans `data/recommandations_2026-05-18.json` |
-| **Upcoming Events** | [NON LISTÉ] | TEST absent du rapport `data/upcoming_events_2026-05-18.json` (earnings JOUR J non confirmé post-close) |
+| **Upcoming Events** | [NON LISTÉ] | TEST absent du rapport `data/upcoming_events_2026-05-18.json` |
 
-Aucun flux institutionnel, insider trade ou unusual options activity n'est rapporté. Le volume anormal de 8,587 actions (vs moyenne 1,484) n'est pas expliqué par un catalyseur identifié dans les agents.
+Aucun flux institutionnel, insider trade ou unusual options activity n'est rapporté. Le volume anormal de 17h n'a pas laissé de trace en fin de séance.
 
 ---
 
 ## Scoring Global (Agent Recommandation)
 
-L'Agent Recommandation ne produit pas de score spécifique pour TEST (`data/recommandations_latest.json` liste 14 tickers, TEST est exclu). Le scoring ci-dessous est une attribution mécanique actualisée avec les nouvelles données techniques :
+L'Agent Recommandation intègre TEST dans son rapport avec les scores suivants :
 
 | Axe | Score | Pondération | Contribution |
 |-----|-------|-------------|--------------|
 | Catalyseur | 6.5/10 | 35% | 2.28 |
 | Valorisation | 5.0/10 | 40% | 2.00 |
-| Momentum | 5.0/10 | 25% | 1.25 |
-| **Score Opportunité** | **5.5/10** | — | **5.53** |
+| Momentum | 6.5/10 | 25% | 1.63 |
+| **Score Opportunité** | **5.9/10** | — | **5.91** |
 
 | Ajustement | Valeur | Note |
 |-----------|--------|------|
@@ -86,49 +86,58 @@ L'Agent Recommandation ne produit pas de score spécifique pour TEST (`data/reco
 | Malus Geo | 0 | Non flaggé (score 2/10) |
 | Malus FX | 0 | Non analysé |
 | Malus Social | 0 | Sentiment neutre |
-| Malus Quant | 0 | Pas de signal (p-value insuffisante, `data/quant_2026-05-18.json` n=0) |
-| Bonus / Timing | 0 | Timing défavorable (volume de distribution, close au plus bas) |
-| **Score Global ajusté** | **54.5/100** | **ATTENDRE** |
+| Malus Quant | 0 | Pas de signal (p-value insuffisante, `data/quant_2026-05-18.json` n = 0) |
+| Bonus / Timing | 0 | Timing neutre (stabilisation post-spike) |
+| **Score Global ajusté** | **59.0/100** | **ATTENDRE** |
 
-**Comparaison vs précédent :** Le score global passe de 56.5 à 54.5 (-2.0 pts) sous l'effet de la détérioration technique : retrait du RSI (-5.69 pts), expansion de l'ATR (+6.4%), et surtout un volume de distribution massif (5.79×) sur séance baissière avec close au plus bas. Le momentum ajusté passe de 5.5 à 5.0/10. L'attribution reste un artefact heuristique en l'absence de données fondamentales et comptables.
+**Comparaison vs précédent :** Le score global passe de 54.5 (attribution heuristique 17h) à 59.0 (score agent 20:34), soit +4.5 pts. Cette amélioration reflète la stabilisation technique : le momentum remonte à 6.5/10 (vs 5.0/10 estimé à 17h), porté par la dissipation du volume de distribution et la conservation du RSI dans la zone neutre favorable. Le catalyseur reste stable à 6.5/10. La valorisation est inchangée à 5.0/10, pénalisée par l'absence totale de données fondamentales.
+
+**Proximité du seuil :** À 59.0/100, TEST se situe à 1 point du seuil ACHETER réduit (60–74). Une confirmation technique supplémentaire (close > $46.00 avec volume soutenu) pourrait franchir ce seuil.
 
 ---
 
 ## Niveaux et Ratio R/R
 
-Niveaux révisés (ATR +6.4%, cours -2.80%) :
+Niveaux de l'Agent Recommandation (appliqués au cours snapshot $44.94) :
 
 | Niveau | Valeur | Note |
 |--------|--------|------|
-| Cours actuel | $44.85 | — |
-| Stop-loss (2× ATR) | $42.53 | Révisé vs $43.96 (13:00 UTC) |
-| Stop-loss serré (1.5× ATR) | $43.11 | Révisé vs $44.51 (13:00 UTC) |
-| Take-profit (3× ATR) | $48.33 | Révisé vs $49.41 (13:00 UTC) |
-| Ratio R/R | 1.5 | Inchangé (3×ATR / 2×ATR) |
+| Cours actuel | $44.94 | Snapshot 20:34 UTC |
+| Stop-loss suggéré (agent) | $42.81 | −4.74% sous le cours |
+| Take-profit suggéré (agent) | $48.61 | +8.17% au-dessus du cours |
+| Ratio R/R | 1.5 | Inchangé (agent) |
+| R/R recalculé | 1.72 | Avec SL $42.81, TP $48.61, prix $44.94 |
 
-**Attention :** Le niveau de stop-loss serré (1.5× ATR = $43.11) est désormais très proche de la MM50 ($43.55). Une cassure combinée de ces deux niveaux amplifierait le risque de continuation baissière.
+**Niveaux techniques complémentaires :**
+- Support MM50 : $43.55 (−3.09%) — cassure = signal baissier de court terme
+- Support 52W low : $40.27 (−10.39%)
+- Résistance previous close : $46.144 (+2.68%)
+- Résistance 52W high : $57.74 (+28.48%)
+
+**Attention :** Le niveau de stop-loss suggéré ($42.81) se situe sous MM50 ($43.55). Une cassure de MM50 ne déclencherait pas encore le SL, mais constituerait un signal de prudence.
 
 ---
 
 ## Conclusion
 
-**Verdict : ATTENDRE — Thèse INACTIVE, modifiée vers la prudence.**
+**Verdict : ATTENDRE — Thèse INACTIVE, confirmée avec une légère amélioration du score.**
 
-La configuration technique s'est détériorée entre 13:00 UTC et 17:00 UTC :
-- Baisse de -2.80% sur un volume 5.79× la moyenne 20j (vs 2.22× à 13:00 UTC)
-- Structure de séance vendeuse : open = high, close = low, zero reprise intraday
-- RSI en retrait de 64.16 à 58.47, momentum haussier affaibli
-- Marge au-dessus de MM50 réduite de 5.97% à 2.98%
+La configuration technique s'est stabilisée entre 17:00 UTC et 20:34 UTC :
+- Cours stable à $44.94 (+0.20% vs 17h, −2.62% vs veille)
+- Retour du volume à un profil normal (2.04× moyenne vs 5.79× à 17h)
+- RSI inchangé en zone neutre (58.88)
+- ATR en contraction ($1.10), améliorant la qualité des niveaux
+- Score agent : 59.0/100 (ATTENDRE), à 1 point du seuil ACHETER réduit
 
 **Trois facteurs bloquants restent intacts :**
 1. **Filtre Qualité 0/6** — aucun critère qualité vérifiable
-2. **Liquidité structurelle insuffisante** — volume moyen 20j < 2K actions, incompatible avec un sizing institutionnel malgré le spike ponctuel de 8,587
+2. **Liquidité structurelle insuffisante** — volume moyen 20j < 2K actions, incompatible avec un sizing institutionnel
 3. **Opacité fondamentale totale** — aucune donnée sectorielle, comptable ou de gouvernance
 
-**Action recommandée :** Maintenir l'attente. Le spike de volume baissier sans catalyseur identifié est un signal de prudence. Sans données post-earnings ou fondamentales nouvelles, TEST reste hors périmètre institutionnel. Surveiller la tenue de MM50 ($43.55) — une cassure sous ce niveau avec volume élevé invaliderait toute thèse constructive de court terme.
+**Action recommandée :** Maintenir l'attente. La stabilisation post-spike est rassurante mais n'offre pas de catalyseur d'entrée. Le score à 59.0/100 montre une amélioration marginale mais insuffisante pour justifier une position. Surveiller la tenue de MM50 ($43.55) et un potentiel retour au-dessus de $46.00 (previous close) avec volume soutenu pour envisager une révision vers ACHETER réduit.
 
-**Niveau de confiance :** Très faible — l'analyse repose sur des proxies et des valeurs par défaut. Aucune donnée post-earnings observable à 17:00 UTC.
+**Niveau de confiance :** Très faible — l'analyse repose sur des proxies et des valeurs par défaut. Aucune donnée post-earnings observable à 20:34 UTC.
 
 ---
 
-*Généré automatiquement par le pipeline Argus-IA — snapshot 17:00 UTC. Données : `data/2026-05-18.json`.*
+*Généré automatiquement par le pipeline Argus-IA — snapshot 20:34 UTC. Données : `data/2026-05-18.json`, `data/recommandations_2026-05-18.json`.*
