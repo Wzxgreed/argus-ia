@@ -1,6 +1,6 @@
 # AST — Contexte actif
 
-> **Dernière mise à jour :** 2026-05-18
+> **Dernière mise à jour :** 2026-05-18 (snapshot 22:36 UTC)
 > **Fichier source :** `AST_2026-05-18_update.md`
 
 ---
@@ -9,9 +9,10 @@
 
 **Statut :** DONNÉES MANQUANTES — analyse initiale requise
 
-- Aucune donnée de cours disponible (`No price history` dans latest.json)
+- Aucune donnée de cours disponible (`No price history` dans latest.json, confirmé stable 21:23 → 22:36 UTC)
 - Pas de Filtre Qualité calculable
 - Pas de niveaux techniques (RSI, ATR, MM)
+- Aucune news détectée dans le snapshot du jour
 
 ---
 
@@ -54,4 +55,5 @@ Aucune — pas d'historique de prédictions.
 
 1. Vérifier la validité du symbole AST sur Yahoo Finance / FMP
 2. Corriger `config/watchlist.json` si nécessaire (AST vs ASTS ?)
-3. Lancer `make analyse TICKER=AST` après confirmation du ticker
+3. Si AST est confirmé comme illiquide / sans historique → marquer `excluded` dans la watchlist
+4. Lancer `make analyse TICKER=AST` uniquement après confirmation du ticker et de sa liquidité

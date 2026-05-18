@@ -1,32 +1,34 @@
-# AST — Mise à jour 2026-05-18
+# AST — Mise à jour 2026-05-18 (snapshot 22:36 UTC)
 
 > **Date :** 2026-05-18
-> **Type :** Update post-événement (earnings)
+> **Type :** Update post-snapshot confirmatoire
 > **Statut données :** [DONNÉES MANQUANTES] — aucun historique de prix disponible
-> **Source :** data/latest.json, data/recommandations_latest.json
+> **Source :** data/latest.json (22:36 UTC), data/recommandations_latest.json, data/upcoming_events_latest.json, data/social_sentiment_latest.json, data/fx_exposure_latest.json
 
 ---
 
 ## 1. Résumé des changements depuis l'analyse précédente
 
-**Analyse précédente :** `AST_2026-05-18_preview.md` — fichier template vide, aucune donnée technique ni fondamentale renseignée. Aucune analyse initiale (`_init.md`) n'existe pour ce ticker.
+**Analyse précédente :** `AST_2026-05-18_update.md` (snapshot 21:23 UTC)
 
-**État actuel :**
-- `data/latest.json` (snapshot 21:23 UTC) retourne **erreur** pour AST : `No price history`
-- Aucun cours, volume, RSI, ATR, MM50/200, ni données FMP ne sont disponibles
-- Événement earnings programmé ce jour (2026-05-18, source FMP) mais résultats non présents dans le snapshot
-- Aucune news détectée pour AST dans `data/news_2026-05-18.json`
+| Élément | Snapshot 21:23 UTC | Snapshot 22:36 UTC | Changement |
+|---------|-------------------|-------------------|------------|
+| Cours | [DONNÉES MANQUANTES] | [DONNÉES MANQUANTES] | Aucun changement |
+| RSI 14j | Placeholder 50 | Placeholder 50 | Aucun changement |
+| ATR 14j | [DONNÉES MANQUANTES] | [DONNÉES MANQUANTES] | Aucun changement |
+| Erreur Yahoo | `No price history` | `No price history` | Confirmé stable |
+| Earnings jour J | Programmé (FMP) | Programmé (FMP) | Aucun résultat reçu |
 
-**Changement significatif :** Impossible à évaluer — absence totale de données de marché.
+**Constat :** Le snapshot 22:36 UTC confirme la stabilité de l'absence totale de données de marché pour AST. Aucun cours, volume, RSI, ATR, ni données FMP ne sont disponibles. L'événement earnings programmé ce jour (2026-05-18, source FMP, `days_until: 0`) n'a pas alimenté de données exploitables dans le pipeline.
 
 ---
 
 ## 2. Mise à jour technique
 
-| Métrique | Valeur précédente | Valeur actuelle | Variation |
-|----------|-------------------|-----------------|-----------|
+| Métrique | Valeur précédente | Valeur actuelle (22:36 UTC) | Variation |
+|----------|-------------------|---------------------------|-----------|
 | Cours | — | [DONNÉES MANQUANTES] | — |
-| RSI 14j | — | 50 (placeholder) | — |
+| RSI 14j | — | Placeholder 50 (agent) | — |
 | ATR 14j | — | [DONNÉES MANQUANTES] | — |
 | MM 50j | — | [DONNÉES MANQUANTES] | — |
 | MM 200j | — | [DONNÉES MANQUANTES] | — |
@@ -45,9 +47,10 @@ Aucune donnée fondamentale (P/E, EV/EBITDA, FCF, margins, consensus) n'est pré
 ## 4. Mise à jour sentiment / options / news
 
 - **Sentiment retail :** 0 mentions Reddit, score 0/10 — `social_sentiment_latest.json`
-- **News :** aucune news détectée pour AST dans le snapshot du jour
+- **News :** aucune news détectée pour AST dans `data/news_2026-05-18.json` ni `data/news_latest.json`
 - **Options / Unusual activity :** [DONNÉES MANQUANTES] — pas de données de marché
 - **Upgrades/downgrades :** [DONNÉES MANQUANTES]
+- **Événements :** Earnings programmé le 2026-05-18 (FMP) mais résultats non intégrés (`upcoming_events_latest.json`)
 
 ---
 
@@ -55,14 +58,14 @@ Aucune donnée fondamentale (P/E, EV/EBITDA, FCF, margins, consensus) n'est pré
 
 > ⚠️ Les scores ci-dessous sont issus de `data/recommandations_latest.json` mais comportent des valeurs placeholders en l'absence de données réelles.
 
-| Axe | Score |
-|-----|-------|
-| Catalyseur | 6.5/10 |
-| Valorisation | 5.0/10 |
-| Momentum | 5.0/10 |
-| **Score Opportunité** | **5.5/10** |
-| **Score Global** | **55.2/100** |
-| **Score Global Ajusté** | **55.2/100** |
+| Axe | Score | Note |
+|-----|-------|------|
+| Catalyseur | 6.5/10 | Placeholder (neutre) |
+| Valorisation | 5.0/10 | Placeholder (neutre) |
+| Momentum | 5.0/10 | Placeholder (neutre) |
+| **Score Opportunité** | **5.5/10** | Placeholder |
+| **Score Global** | **55.2/100** | Placeholder |
+| **Score Global Ajusté** | **55.2/100** | Placeholder |
 
 **Action suggérée :** ATTENDRE (données insuffisantes pour évaluation fiable)
 
@@ -77,17 +80,18 @@ Aucune donnée fondamentale (P/E, EV/EBITDA, FCF, margins, consensus) n'est pré
 
 ## 6. Conclusion — Thèse
 
-**Verdict : NON ÉVALUABLE / DONNÉES MANQUANTES**
+**Verdict : NON ÉVALUABLE / DONNÉES MANQUANTES — CONFIRMÉ AU SNAPSHOT 22:36 UTC**
 
 - Aucune analyse initiale n'a été produite pour AST (pas de `_init.md`)
-- Le snapshot technique du jour est vide (`No price history`)
+- Le snapshot technique du jour reste vide (`No price history`) après deux snapshots (21:23 et 22:36 UTC)
 - Les earnings du jour n'ont pas alimenté de données exploitables dans le pipeline
 - Le scoring agent est entièrement basé sur des placeholders (RSI 50, scores neutres 5.0–6.5)
+- **Aucun changement significatif** détecté entre les deux snapshots du jour
 
 **Recommandation immédiate :**
 1. Vérifier la validité du symbole boursier AST sur Yahoo Finance / FMP
-2. Si AST est un symbole valide mais illiquide / OTC / récemment changé de ticker → le marquer comme `excluded` ou `low priority`
-3. Si AST est un symbole erroné (ex: AST SpaceMobile = ASTS) → corriger `config/watchlist.json`
-4. Relancer `make analyse TICKER=AST` après correction
+2. Si AST est un symbole valide mais illiquide / OTC / récemment changé de ticker → le marquer comme `excluded` ou `low priority` dans `config/watchlist.json`
+3. **Si AST fait référence à AST SpaceMobile** → corriger `config/watchlist.json` pour utiliser `ASTS` (données disponibles : $86.83, RSI réel, ATR, MM50/200)
+4. Relancer `make analyse TICKER=AST` uniquement après confirmation du ticker et vérification de sa liquidité
 
 **Règle absolue :** Ne pas émettre de prix cible, de stop-loss ou de recommandation d'achat/vente sans données de marché sourcées.
