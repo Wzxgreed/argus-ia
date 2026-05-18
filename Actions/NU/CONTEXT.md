@@ -1,4 +1,4 @@
-# CONTEXT — NU — Dernière mise à jour : 2026-05-18
+# CONTEXT — NU — Dernière mise à jour : 2026-05-18 (update soir)
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 
@@ -28,6 +28,10 @@
 
 - **PRICE_GAP** (medium) — Gap -5.72% overnight (seuil ±5.0%)
 - **VOLUME_SURGE** (medium) — Volume 3.2× moyenne 20j (138,779,800 vs 43,662,145)
+
+## 📋 Mise à jour du jour
+
+- **Update 2026-05-18 soir :** Données inchangées depuis le full refresh matinal. Aucun nouveau catalyseur, aucune news structurante. Thèse confirmée : ATTENDRE. DRAFT_refresh archivés. Fichiers complétés : `_init.md` + `_update.md`.
 
 ---
 
