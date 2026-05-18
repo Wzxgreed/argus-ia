@@ -73,3 +73,48 @@ La thèse de value trap et de surévaluation massive est confirmée. Le spike de
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-05-18 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.88% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-18 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.88% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-18 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.88% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-18 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.88% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-18 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.88% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

@@ -104,6 +104,14 @@
       "priority": "medium",
       "exchange": "NASDAQ",
       "notes": "Ajouté via dashboard API"
+    },
+    {
+      "ticker": "NU",
+      "name": "NU",
+      "sector": "Non spécifié",
+      "priority": "medium",
+      "exchange": "NASDAQ",
+      "notes": "Ajouté via dashboard API"
     }
   ],
   "macro_symbols": {

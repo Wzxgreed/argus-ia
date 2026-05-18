@@ -151,9 +151,20 @@ def fetch_data() -> bool:
     return True
 
 
-def run_agents() -> tuple[int, int]:
-    """Lance les agents réels. Retourne (ok_count, total)."""
-    log("🔧 Exécution des agents Python réels...")
+def _run_single_agent(agent: str, env: dict) -> tuple[str, int]:
+    """Exécute un agent individuel. Retourne (agent_name, returncode)."""
+    wait_for_pipeline_lock(max_wait=10)
+    rc, out = run_cmd(
+        [PYTHON, str(BASE_DIR / "agents" / "orchestrator.py"), f"--agent={agent}"],
+        env=env,
+        timeout=300,
+    )
+    return agent, rc, out
+
+
+def run_agents_parallel() -> tuple[int, int]:
+    """Lance les agents réels en parallèle (max 5 workers). Retourne (ok_count, total)."""
+    log("🔧 Exécution des agents Python réels (parallèle)...")
     env = os.environ.copy()
     env["PYTHONPATH"] = str(BASE_DIR / "agents") + ":" + str(BASE_DIR / "scripts") + ":" + str(BASE_DIR)
 
@@ -161,23 +172,19 @@ def run_agents() -> tuple[int, int]:
               "event_driven", "watchman", "detect_major_events", "recommandation"]
     ok_count = 0
 
-    for agent in agents:
-        wait_for_pipeline_lock(max_wait=10)
-        log(f"  → Agent {agent}...")
-        rc, out = run_cmd(
-            [PYTHON, str(BASE_DIR / "agents" / "orchestrator.py"), f"--agent={agent}"],
-            env=env,
-            timeout=300,
-        )
-        if rc == 0:
-            ok_count += 1
-            log(f"    ✅ {agent} ok")
-        else:
-            log(f"    ⚠️  {agent} exit={rc}")
-            if out:
-                last = out.strip().splitlines()[-3:]
-                for line in last:
-                    log(f"       {line}")
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        futures = {executor.submit(_run_single_agent, a, env): a for a in agents}
+        for future in as_completed(futures):
+            agent, rc, out = future.result()
+            if rc == 0:
+                ok_count += 1
+                log(f"    ✅ {agent} ok")
+            else:
+                log(f"    ⚠️  {agent} exit={rc}")
+                if out:
+                    last = out.strip().splitlines()[-3:]
+                    for line in last:
+                        log(f"       {line}")
 
     log(f"✅ Agents terminés — {ok_count}/{len(agents)} OK")
     return ok_count, len(agents)
@@ -299,8 +306,8 @@ def main():
         if not fetch_data():
             sys.exit(1)
 
-        # ── Étape 2 : Agents ──
-        ok, total = run_agents()
+        # ── Étape 2 : Agents (parallèle, max 5 workers) ──
+        ok, total = run_agents_parallel()
         if ok < total - 2:  # Tolère 2 agents en échec
             log("⚠️  Trop d'agents en échec — poursuite malgré tout")
 

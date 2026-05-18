@@ -14,6 +14,7 @@ import sys
 import threading
 import time
 import uuid
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
@@ -21,6 +22,7 @@ from urllib.parse import parse_qs, urlparse
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 PYTHON = str(BASE_DIR / "venv" / "bin" / "python3")
+CONFIG_PATH = BASE_DIR / "config" / "watchlist.json"
 
 # Import ask_llm via proxy Ollama
 sys.path.insert(0, str(BASE_DIR / "scripts"))
@@ -363,14 +365,15 @@ def run_prepare_for_claude(job_id: str, ticker: str, custom_prompt: str = ""):
 
     logs.append(f"[{now_str()}] ✅ Fetch terminé — {ticker} dans data/latest.json")
 
-    # ── Étape 2 : Lancer les agents réels ──
+    # ── Étape 2 : Lancer les agents réels (parallèle, max 5 workers) ──
     with JOBS_LOCK:
-        logs.append(f"[{now_str()}] 🔧 Étape 2/2 — Exécution des agents Python réels...")
+        logs.append(f"[{now_str()}] 🔧 Étape 2/2 — Exécution des agents Python réels (parallèle)...")
         JOBS[job_id]["logs"] = logs.copy()
 
     agents = ["accounting", "geo", "crypto", "sector_rotation", "social", "fx", "event_driven", "watchman", "detect_major_events", "recommandation"]
     ok_count = 0
-    for agent in agents:
+
+    def _run_one_agent(agent: str) -> tuple[str, int]:
         lockfile = BASE_DIR / "data" / ".pipeline.lock"
         for _ in range(5):
             if not lockfile.exists():
@@ -393,10 +396,16 @@ def run_prepare_for_claude(job_id: str, ticker: str, custom_prompt: str = ""):
         proc = subprocess.Popen(cmd_agent, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, cwd=BASE_DIR, env=env)
         _stream_process(job_id, proc, logs)
         rc = proc.wait()
-        if rc == 0:
-            ok_count += 1
-        else:
-            logs.append(f"[{now_str()}] ⚠️  Agent {agent} exit={rc}")
+        return agent, rc
+
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        futures = {executor.submit(_run_one_agent, a): a for a in agents}
+        for future in as_completed(futures):
+            agent, rc = future.result()
+            if rc == 0:
+                ok_count += 1
+            else:
+                logs.append(f"[{now_str()}] ⚠️  Agent {agent} exit={rc}")
 
     logs.append(f"[{now_str()}] ✅ Agents terminés — {ok_count}/{len(agents)} OK")
 
@@ -583,120 +592,154 @@ Commence la mise à jour maintenant."""
             JOBS[job_id]["logs"] = logs.copy()
 
 
+def _run_single_agent_api(agent: str, env: dict) -> tuple[str, int, str]:
+    """Exécute un agent individuel. Retourne (agent_name, returncode, output)."""
+    lockfile = BASE_DIR / "data" / ".pipeline.lock"
+    for _ in range(5):
+        if not lockfile.exists():
+            break
+        try:
+            data = json.loads(lockfile.read_text())
+            old_pid = data.get("pid")
+            if old_pid:
+                os.kill(old_pid, 0)
+                time.sleep(2)
+                continue
+        except (ProcessLookupError, ValueError, OSError):
+            pass
+        lockfile.unlink(missing_ok=True)
+        break
+    else:
+        lockfile.unlink(missing_ok=True)
+
+    cmd_agent = [PYTHON, str(BASE_DIR / "agents" / "orchestrator.py"), f"--agent={agent}"]
+    try:
+        result = subprocess.run(
+            cmd_agent,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            text=True,
+            cwd=BASE_DIR,
+            env=env,
+            timeout=300,
+        )
+        return agent, result.returncode, result.stdout or ""
+    except subprocess.TimeoutExpired:
+        return agent, -9, "Timeout"
+    except Exception as e:
+        return agent, 1, str(e)
+
+
 def run_update_all(job_id: str, custom_prompt: str = ""):
     """Met à jour les analyses de tous les tickers de la watchlist existants dans Actions/."""
-    env = os.environ.copy()
-    env["PYTHONPATH"] = str(BASE_DIR / "agents") + ":" + str(BASE_DIR / "scripts") + ":" + str(BASE_DIR)
+    try:
+        env = os.environ.copy()
+        env["PYTHONPATH"] = str(BASE_DIR / "agents") + ":" + str(BASE_DIR / "scripts") + ":" + str(BASE_DIR)
 
-    logs = JOBS[job_id].get("logs", [])
+        logs = JOBS[job_id].get("logs", [])
 
-    # ── Lister les tickers à mettre à jour ──
-    config = _load_json(CONFIG_PATH)
-    all_tickers = [t["ticker"].upper() for t in config.get("tickers", [])]
-    ACTIONS_DIR = BASE_DIR / "Actions"
-    tickers_to_update = [t for t in all_tickers if (ACTIONS_DIR / t).exists()]
+        # ── Lister les tickers à mettre à jour ──
+        config = _load_json(CONFIG_PATH)
+        all_tickers = [t["ticker"].upper() for t in config.get("tickers", [])]
+        ACTIONS_DIR = BASE_DIR / "Actions"
+        tickers_to_update = [t for t in all_tickers if (ACTIONS_DIR / t).exists()]
 
-    if not tickers_to_update:
-        logs.append(f"[{now_str()}] ⚠️  Aucun ticker à mettre à jour (pas de dossiers dans Actions/)")
+        if not tickers_to_update:
+            logs.append(f"[{now_str()}] ⚠️  Aucun ticker à mettre à jour (pas de dossiers dans Actions/)")
+            with JOBS_LOCK:
+                JOBS[job_id]["status"] = "success"
+                JOBS[job_id]["returncode"] = 0
+                JOBS[job_id]["logs"] = logs.copy()
+                JOBS[job_id]["finished_at"] = now_str()
+            return
+
+        logs.append(f"[{now_str()}] 📋 {len(tickers_to_update)} ticker(s) à mettre à jour : {', '.join(tickers_to_update)}")
         with JOBS_LOCK:
-            JOBS[job_id]["status"] = "success"
-            JOBS[job_id]["returncode"] = 0
             JOBS[job_id]["logs"] = logs.copy()
-            JOBS[job_id]["finished_at"] = now_str()
-        return
 
-    logs.append(f"[{now_str()}] 📋 {len(tickers_to_update)} ticker(s) à mettre à jour : {', '.join(tickers_to_update)}")
-    with JOBS_LOCK:
-        JOBS[job_id]["logs"] = logs.copy()
-
-    # ── Étape 1 : Fetch données ──
-    with JOBS_LOCK:
-        JOBS[job_id]["status"] = "running"
-        logs.append(f"[{now_str()}] 📡 Étape 1/3 — Fetch des données pour toute la watchlist...")
-        JOBS[job_id]["logs"] = logs.copy()
-
-    cmd1 = ["bash", str(BASE_DIR / "scripts" / "analyse_ticker.sh"), tickers_to_update[0]]
-    process1 = subprocess.Popen(cmd1, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, cwd=BASE_DIR, env=env)
-    _stream_process(job_id, process1, logs)
-    rc1 = process1.wait()
-
-    if rc1 != 0:
+        # ── Étape 1 : Fetch données ──
         with JOBS_LOCK:
-            logs.append(f"[{now_str()}] ❌ Échec du fetch (code {rc1})")
-            JOBS[job_id]["status"] = "failed"
-            JOBS[job_id]["returncode"] = rc1
-            JOBS[job_id]["finished_at"] = now_str()
-        return
+            JOBS[job_id]["status"] = "running"
+            logs.append(f"[{now_str()}] 📡 Étape 1/3 — Fetch des données pour toute la watchlist...")
+            JOBS[job_id]["logs"] = logs.copy()
 
-    logs.append(f"[{now_str()}] ✅ Fetch terminé")
+        cmd1 = ["bash", str(BASE_DIR / "scripts" / "analyse_ticker.sh"), tickers_to_update[0]]
+        process1 = subprocess.Popen(cmd1, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, cwd=BASE_DIR, env=env)
+        _stream_process(job_id, process1, logs)
+        rc1 = process1.wait()
 
-    # ── Étape 2 : Agents réels ──
-    with JOBS_LOCK:
-        logs.append(f"[{now_str()}] 🔧 Étape 2/3 — Exécution des agents Python réels...")
-        JOBS[job_id]["logs"] = logs.copy()
+        if rc1 != 0:
+            with JOBS_LOCK:
+                logs.append(f"[{now_str()}] ❌ Échec du fetch (code {rc1})")
+                JOBS[job_id]["status"] = "failed"
+                JOBS[job_id]["returncode"] = rc1
+                JOBS[job_id]["finished_at"] = now_str()
+            return
 
-    agents = ["accounting", "geo", "crypto", "sector_rotation", "social", "fx", "event_driven", "watchman", "detect_major_events", "recommandation"]
-    ok_count = 0
-    for agent in agents:
-        lockfile = BASE_DIR / "data" / ".pipeline.lock"
-        for _ in range(5):
-            if not lockfile.exists():
-                break
-            try:
-                data = json.loads(lockfile.read_text())
-                old_pid = data.get("pid")
-                if old_pid:
-                    os.kill(old_pid, 0)
-                    time.sleep(2)
-                    continue
-            except (ProcessLookupError, ValueError, OSError):
-                pass
-            lockfile.unlink(missing_ok=True)
-            break
-        else:
-            lockfile.unlink(missing_ok=True)
+        logs.append(f"[{now_str()}] ✅ Fetch terminé")
 
-        cmd_agent = [PYTHON, str(BASE_DIR / "agents" / "orchestrator.py"), f"--agent={agent}"]
-        proc = subprocess.Popen(cmd_agent, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, cwd=BASE_DIR, env=env)
-        _stream_process(job_id, proc, logs)
-        rc = proc.wait()
-        if rc == 0:
-            ok_count += 1
-        else:
-            logs.append(f"[{now_str()}] ⚠️  Agent {agent} exit={rc}")
+        # ── Étape 2 : Agents réels (parallèle, max 5) ──
+        with JOBS_LOCK:
+            logs.append(f"[{now_str()}] 🔧 Étape 2/3 — Exécution des agents Python réels (parallèle)...")
+            JOBS[job_id]["logs"] = logs.copy()
 
-    logs.append(f"[{now_str()}] ✅ Agents terminés — {ok_count}/{len(agents)} OK")
+        agents = ["accounting", "geo", "crypto", "sector_rotation", "social", "fx", "event_driven", "watchman", "detect_major_events", "recommandation"]
+        ok_count = 0
 
-    # ── Étape 3 : Mises à jour Claude CLI via Ollama (parallèle, max 3) ──
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    with JOBS_LOCK:
-        logs.append(f"[{now_str()}] 🤖 Étape 3/3 — Mise à jour {len(tickers_to_update)} analyse(s) via Claude CLI (Ollama/kimi)...")
-        JOBS[job_id]["logs"] = logs.copy()
-
-    from concurrent.futures import ThreadPoolExecutor, as_completed
-
-    completed = 0
-    failed = 0
-    with ThreadPoolExecutor(max_workers=3) as executor:
-        futures = {executor.submit(_run_claude_update, job_id, t, env, today): t for t in tickers_to_update}
-        for future in as_completed(futures):
-            ticker = futures[future]
-            try:
-                future.result()
-                completed += 1
-            except Exception as e:
-                logs.append(f"[{now_str()}] ❌ Exception mise à jour {ticker} : {e}")
-                failed += 1
+        with ThreadPoolExecutor(max_workers=5) as executor:
+            futures = {executor.submit(_run_single_agent_api, a, env): a for a in agents}
+            for future in as_completed(futures):
+                agent, rc, out = future.result()
+                if out:
+                    for line in out.strip().splitlines()[-3:]:
+                        logs.append(f"[{now_str()}]    {line}")
+                if rc == 0:
+                    ok_count += 1
+                    logs.append(f"[{now_str()}]    ✅ {agent} ok")
+                else:
+                    logs.append(f"[{now_str()}]    ⚠️  {agent} exit={rc}")
                 with JOBS_LOCK:
                     JOBS[job_id]["logs"] = logs.copy()
 
-    logs.append(f"[{now_str()}] ✅ Mises à jour terminées — {completed} OK, {failed} échec(s)")
+        logs.append(f"[{now_str()}] ✅ Agents terminés — {ok_count}/{len(agents)} OK")
 
-    with JOBS_LOCK:
-        JOBS[job_id]["status"] = "success" if failed == 0 else "failed"
-        JOBS[job_id]["returncode"] = 0 if failed == 0 else 1
-        JOBS[job_id]["logs"] = logs.copy()
-        JOBS[job_id]["finished_at"] = now_str()
+        # ── Étape 3 : Mises à jour Claude CLI via Ollama (parallèle, max 3) ──
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        with JOBS_LOCK:
+            logs.append(f"[{now_str()}] 🤖 Étape 3/3 — Mise à jour {len(tickers_to_update)} analyse(s) via Claude CLI (Ollama/kimi)...")
+            JOBS[job_id]["logs"] = logs.copy()
+
+        completed = 0
+        failed = 0
+        with ThreadPoolExecutor(max_workers=3) as executor:
+            futures = {executor.submit(_run_claude_update, job_id, t, env, today): t for t in tickers_to_update}
+            for future in as_completed(futures):
+                ticker = futures[future]
+                try:
+                    future.result()
+                    completed += 1
+                except Exception as e:
+                    logs.append(f"[{now_str()}] ❌ Exception mise à jour {ticker} : {e}")
+                    failed += 1
+                    with JOBS_LOCK:
+                        JOBS[job_id]["logs"] = logs.copy()
+
+        logs.append(f"[{now_str()}] ✅ Mises à jour terminées — {completed} OK, {failed} échec(s)")
+
+        with JOBS_LOCK:
+            JOBS[job_id]["status"] = "success" if failed == 0 else "failed"
+            JOBS[job_id]["returncode"] = 0 if failed == 0 else 1
+            JOBS[job_id]["logs"] = logs.copy()
+            JOBS[job_id]["finished_at"] = now_str()
+    except Exception as e:
+        import traceback
+        err = f"[{now_str()}] 💥 Erreur critique dans run_update_all : {e}\n{traceback.format_exc()}"
+        logs.append(err)
+        with JOBS_LOCK:
+            JOBS[job_id]["status"] = "failed"
+            JOBS[job_id]["returncode"] = 1
+            JOBS[job_id]["logs"] = logs.copy()
+            JOBS[job_id]["finished_at"] = now_str()
 
 
 class Handler(BaseHTTPRequestHandler):

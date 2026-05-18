@@ -14,3 +14,14 @@
 
 ## Statut
 [ACTIVE / EN SURVEILLANCE / CLOS]
+
+---
+
+## 🔄 Triggers détectés (full refresh)
+
+- **PRICE_GAP** (medium) — Gap +5.08% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 6.03% (seuil 5.0%)
+
+---
+
+*Généré automatiquement — ne pas éditer manuellement.*

@@ -1,4 +1,4 @@
-# Event-Driven Dashboard — 2026-05-17
+# Event-Driven Dashboard — 2026-05-18
 
 **Tickers scannés :** 14 | **Avec événements :** 0
 

@@ -3,9 +3,9 @@
   "window_5h_calls": 1,
   "window_5h_tokens_input": 22,
   "window_5h_tokens_output": 315,
-  "week_start": "2026-05-11",
-  "weekly_calls": 72,
-  "weekly_tokens_input": 67092,
-  "weekly_tokens_output": 223052,
+  "week_start": "2026-05-18",
+  "weekly_calls": 0,
+  "weekly_tokens_input": 0,
+  "weekly_tokens_output": 0,
   "history": []
 }
