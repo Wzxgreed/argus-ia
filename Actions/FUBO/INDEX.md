@@ -1,9 +1,9 @@
 # FUBO
 
 ## Thèse courante
-**ATTENDRE** — Score Opportunité 6,5/10, Score Global 56,8/100 (2026-05-18)
+**ATTENDRE** — Score Opportunité 5,2/10 (ajusté Qualité), Score Global ~52/100 (2026-05-18)
 
-Thèse d'investissement : FUBO est un titre spéculatif du secteur Communication Services (streaming sportif) avec un profil fondamental dégradé (Score Qualité 1/6, patrimoine net négatif, ROIC négatif). La valorisation apparente (P/E 2,5x) est mise en doute par une divergence Yahoo/FMP massive (market cap $283M vs $3,27B). Le momentum technique reste baissier (sous MM50, RSI 36,84). Le secteur Communication Services (XLC) est classé bottom 3 de la rotation sectorielle (momentum 0,0), ajoutant un malus structurel. Seuls le catalyseur earnings du jour (2026-05-18) et le repositionnement options call-skewed (max pain $21, put/call 0,65) justifient une surveillance active. Le quant report ne dispose pas de signaux historiques suffisants pour calibrer le scoring. **Pas de position longue recommandée.**
+Thèse d'investissement : FUBO est un titre spéculatif du secteur Communication Services (streaming sportif) avec un profil fondamental dégradé (Score Qualité 1/6, patrimoine net négatif, ROIC négatif, current ratio 0,84). La divergence Yahoo/FMP persiste (market cap $283M vs $3,27B — ×11,5), rendant toute valorisation fiable impossible. Le momentum technique reste baissier (sous MM50, RSI 36,84, volume 0,6× moyenne). Le secteur Communication Services (XLC) est classé bottom 3 de la rotation sectorielle, ajoutant un malus structurel −0,5 pt. Seuls le catalyseur earnings jour J (2026-05-18) et le repositionnement options call-skewed justifient une surveillance active. Le quant report ne dispose pas de signaux historiques suffisants pour calibrer le scoring. **Pas de position longue recommandée.**
 
 ## Historique
 | Date | Fichier | Type |

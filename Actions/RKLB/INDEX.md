@@ -1,7 +1,7 @@
 # RKLB
 
 ## Thèse courante
-**2026-05-18** — ÉVITER. Cours $124,77, configuration surchauffe technique extrême (RSI 73,28, +57 % vs MM50) et valorisation déconnectée (Forward P/E négatif, spot +48 % vs consensus $84,20). Aucun catalyseur avant earnings août 2026. Attendre retour $80–$95 ou inflexion fondamentale. _Full refresh confirmé le 2026-05-18._
+**2026-05-18** — ÉVITER. Cours $124,77, configuration surchauffe technique extrême (RSI 73,28, +57 % vs MM50) et valorisation déconnectée (Forward P/E négatif, spot +48 % vs consensus $84,20). Aucun catalyseur avant earnings août 2026. Attendre retour $80–$95 ou inflexion fondamentale. _Full refresh confirmé le 2026-05-18. Mise à jour quotidienne consolidée (données inchangées vs snapshot matinal)._
 
 ## Historique
 | Date | Fichier | Type |

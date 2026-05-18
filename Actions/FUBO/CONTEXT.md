@@ -53,9 +53,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** update
+- **Type :** update + full refresh résolu
 - **Fichier :** `FUBO_2026-05-18_update.md`
-- **Conclusion :** THÈSE CONFIRMÉE avec RÉSERVE MAJEURE — Données techniques stables, earnings jour J en attente, malus sectoriel additionnel (XLC bottom 3). Score Qualité 1/6, patrimoine net négatif, divergence Yahoo/FMP persistante. Pas de position longue recommandée.
+- **Conclusion :** THÈSE CONFIRMÉE (ATTENDRE) — Données techniques stables, earnings jour J en attente, malus sectoriel XLC bottom 3 actif. Score Qualité 1/6, patrimoine net négatif, divergence Yahoo/FMP persistante ($283M vs $3,27B). Score Opportunité ajusté manuel : 5,2/10 (Valorisation plafonnée à 5/10). Pas de position longue recommandée.
 
 ---
 
