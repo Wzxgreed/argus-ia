@@ -1,16 +1,16 @@
-# FLY — Mise à Jour Quotidienne (2026-05-18) — Consolidée post-Full Refresh
+# FLY — Mise à Jour Quotidienne (2026-05-18) — Consolidée post-session
 
-> Source : `data/latest.json` (2026-05-18 10:00 UTC) + `data/recommandations_latest.json` + agents quant / geo / sector / social / FX / events / upcoming.  
-> **Full refresh déclenché à 10:00 UTC** (trigger ATR_SPIKE 9.94%) — traité et intégré ci-dessous.
+> Source : `data/latest.json` (2026-05-18 13:00 UTC) + `data/recommandations_latest.json` + agents quant / geo / sector / social / FX / events / upcoming.  
+> DRAFT_refresh actif (`FLY_2026-05-18_DRAFT_refresh.md`) traité et intégré ci-dessous.
 
 ---
 
-## Résumé des changements depuis l'analyse précédente (2026-05-17)
+## Résumé des changements depuis l'analyse précédente (2026-05-18 10:00 UTC)
 
-| Métrique | 2026-05-17 (init) | 2026-05-18 (consolidé) | Variation | Seuil d'alerte |
-|----------|-------------------|------------------------|-----------|----------------|
+| Métrique | Analyse matinale | Session actuelle (13:00 UTC) | Variation | Seuil d'alerte |
+|----------|------------------|----------------------------|-----------|----------------|
 | Cours close | $40.43 | $40.43 | **0.0%** | — |
-| Change vs prior close | — | **-4.6%** | — | ≥ ±5% |
+| Change vs prior close | -4.6% | **-4.6%** | stable | ≥ ±5% |
 | RSI 14j | 61.71 | 61.71 | stable | >70 / <30 |
 | MM 50j | $32.24 | $32.24 | stable | — |
 | MM 200j | N/A | N/A | — | — |
@@ -21,24 +21,26 @@
 | Forward P/E | -35.41 | -35.41 | stable | — |
 | EV/EBITDA (Yahoo) | -26.61 | -26.61 | stable | — |
 | P/B (Yahoo) | 5.86 | 5.86 | stable | — |
-| Consensus PT | [MANQUANT] | **$42.45 (11 analysts)** | 🆕 | — |
-| Max Pain | $25.00 → $15.00 | **$15.00** | stable post-chute | 🚨 |
-| Put/Call Ratio | 0.85 | N/A | [MANQUANT] | — |
+| Consensus PT | $42.45 (11 analysts) | $42.45 (11 analysts) | stable | — |
+| Max Pain | $25.00 | $25.00 | stable | — |
+| Put/Call Ratio | 0.86 | 0.86 | stable | — |
 | Short Interest | 0.09% | 0.09% | stable | >5% |
-| Score Opportunité | 5.2/10 | **5.0/10** | -0.2 pt | — |
-| Score Valorisation | 5.0/10 | **4.5/10** | -0.5 pt | — |
+| Score Opportunité | 5.0/10 | **5.0/10** | stable | — |
+| Score Valorisation | 4.5/10 | **4.5/10** | stable | — |
 | Score Catalyseur | 5.0/10 | **5.0/10** | stable | — |
 | Score Momentum | 6.0/10 | **6.0/10** | stable | — |
-| Score Global | — | **50.5** (55.5 ajusté) | 🆕 | — |
+| Score Global | 50.5 | **50.5** (55.5 ajusté) | stable | — |
 
 **Observations clés :**
-- **Données inchangées vs snapshot matinal** — le pipeline 10:00 UTC n'a pas apporté de nouvelles données prix/volume. La mise à jour matinale reste valide.
-- 🆕 **Consensus analystes FMP** désormais disponible : PT moyen $42.45 (+5.0% upside), 11 analystes actifs (2 le mois dernier, 4 le trimestre dernier). Couverture stable mais modérée.
-- 🚨 **Max Pain options à $15.00** — écart de 63% sous le spot. Distorsion liée à l'expiration du 22/05 proche ; surveillance post-expiration recommandée.
-- **Score Valorisation ajusté à la baisse** par l'agent recommandation (4.5/10 vs 5.0/10), plafonné par le Filtre Qualité 2/6.
+- **Données inchangées vs snapshot matinal et 13:00 UTC** — aucun mouvement de cours, volume, ou indicateur technique entre les deux sessions.
+- **DRAFT_refresh déclenché par ATR_SPIKE 9.94%** traité : l'événement ne modifie pas la thèse (voir Conclusion).
+- 🚨 **Max Pain options à $25.00** — écart de 63% sous le spot. Distorsion liée à l'expiration du 22/05 proche ; surveillance post-expiration recommandée.
+- **Score Valorisation 4.5/10** plafonné par le Filtre Qualité 2/6 (🔴 Hors périmètre).
 - **Agent Quant** : pas assez de signaux historiques → [SIGNAUX NON SIGNIFICATIFS] (p-value 1.0).
 - **Agent Accounting** : `data/accounting_risk_latest.json` absent → [DONNÉES MANQUANTES] pour M-Score / Z-Score / F-Score / Sloan.
-- Aucune news structurante, événement corporate ou alerte macro/géo détectée.
+- **Agent Géo** : FLY non flaggé — pas d'exposition politique spécifique.
+- **Agent Event-Driven** : 0 événement corporate détecté.
+- Aucune news structurante détectée sur la session.
 
 ---
 
@@ -67,10 +69,10 @@ Aucune nouvelle donnée fondamentale qualitative depuis l'initiale. Rappel des m
 
 | Métrique | Yahoo | FMP | Commentaire |
 |----------|-------|-----|-------------|
-| Market Cap | $6.48B | — | — |
+| Market Cap | $6.48B | $3.40B | Divergence — préférer Yahoo (close × shares out.) |
 | Forward P/E | -35.41 | — | Pas de rentabilité nette attendue |
 | EV/EBITDA | -26.61 | -13.12 | EBITDA négatif sur les deux sources |
-| P/B | 5.86 | 2.86 | Divergence matérielle — préférer Yahoo 5.86x (plus conservateur pour un profil non rentable) |
+| P/B | 5.86 | 2.86 | Divergence matérielle — Yahoo plus conservateur |
 | EV/Revenue | 32.34x | — | Multiple élevé |
 | P/S (FMP) | — | 21.26x | — |
 | Gross Margin | — | 15.6% | Faible |
@@ -100,9 +102,9 @@ Aucune nouvelle donnée fondamentale qualitative depuis l'initiale. Rappel des m
 | Signal | Valeur | Source | Interprétation |
 |--------|--------|--------|----------------|
 | Consensus analystes (FMP) | $42.45 (11 analysts) | FMP Stable API | PT cohérent avec +5.0% upside. Couverture stable. |
-| Max Pain | $15.00 | Yahoo Finance | Écart de **63%** sous le spot. Distorsion probable liée à l'expiration du 22/05. |
-| Put/Call Ratio | N/A | Yahoo Finance | Donnée indisponible aujourd'hui. |
-| Call OI % | N/A | Yahoo Finance | Donnée indisponible. |
+| Max Pain | $25.00 | Yahoo Finance | Écart de **63%** sous le spot. Distorsion probable liée à l'expiration du 22/05. |
+| Put/Call Ratio | 0.86 | Yahoo Finance | Légèrement call-biased (53.8% call OI). |
+| Call OI % | 53.8% | Yahoo Finance | Biais call modéré. |
 | Short Interest | 0.09% | Yahoo Finance | Absence de squeeze setup. |
 | Social Sentiment | 0 mentions, 0.0 score | `data/social_sentiment_latest.json` | Aucune activité retail détectée sur Reddit. Pump non détecté. |
 | Event-Driven | Aucun | `data/events_latest.json` | Pas de M&A, buyback, guidance change, activism. |
@@ -156,7 +158,7 @@ Aucun changement de niveau — cours et ATR identiques à l'initiale. Le ratio 1
 
 **Verdict : Thèse CONFIRMÉE avec nuance.**
 
-L'analyse initiale du 2026-05-17 concluait à un profil **ATTENDRE** en raison d'un momentum technique favorable (cours > MM50 $32.24, RSI 61.71 neutre) mais de fondamentaux insuffisants (Filtre Qualité 2/6, absence de rentabilité, multiples élevés). Le **full refresh automatique** du 2026-05-18 (trigger ATR_SPIKE 9.94%) a été traité et ne modifie pas cette conclusion.
+L'analyse initiale du 2026-05-17 concluait à un profil **ATTENDRE** en raison d'un momentum technique favorable (cours > MM50 $32.24, RSI 61.71 neutre) mais de fondamentaux insuffisants (Filtre Qualité 2/6, absence de rentabilité, multiples élevés). Le **DRAFT_refresh** du 2026-05-18 (trigger ATR_SPIKE 9.94%) a été traité et ne modifie pas cette conclusion — la volatilité élevée est sans catalyst structurel et reste dans le cadre de la microstructure options (expiration 22/05).
 
 **Ce qui confirme la thèse :**
 - Cours stable au-dessus de la MM50 (+25% de marge), tendance haussière intacte.
@@ -165,7 +167,7 @@ L'analyse initiale du 2026-05-17 concluait à un profil **ATTENDRE** en raison d
 
 **Ce qui ajoute une nuance :**
 - Volatilité intrajournalière élevée (range 11.5%) sans catalyst visible — comportement spéculatif ou microstructure options (expiration 22/05 proche).
-- Max Pain à $15.00 (écart de 63% sous le spot) — distorsion options majeure à surveiller post-expiration.
+- Max Pain à $25.00 (écart de 63% sous le spot) — distorsion options majeure à surveiller post-expiration.
 - Score Valorisation ajusté à 4.5/10 par l'agent recommandation, renforçant la prudence.
 - Headwind sectoriel : XLI (Industrials) sous-performe le SPY sur 20j et 60j (momentum_score 0.0) — pas de vent favorable sectoriel.
 

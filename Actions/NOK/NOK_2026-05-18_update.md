@@ -1,25 +1,25 @@
-# NOK — Mise à Jour Quotidienne (2026-05-18)
+# NOK — Mise à Jour Quotidienne Révisée (2026-05-18)
 
 > Desk : Argus-IA | Ticker : NOK (NYSE ADR) | Secteur : Communication Equipment / 5G Infrastructure
-> Date analyse : 2026-05-18 | Données source : `data/latest.json` (close 2026-05-18T10:00:07 UTC)
+> Date analyse : 2026-05-18 | Données source : `data/latest.json` (snapshot 2026-05-18T13:00:08 UTC)
 
 ---
 
-## 1. Résumé des Changements depuis l'Analyse Précédente (2026-05-17)
+## 1. Résumé des Changements depuis l'Analyse Précédente (2026-05-18 matin)
 
-| Indicateur | 2026-05-17 (_init.md) | 2026-05-18 (update) | Variation | Signal |
-|-----------|----------------------|---------------------|-----------|--------|
-| Cours close | $13.95 | $13.95 | 0.00 % | Stable close-to-close |
-| Change intraday | — | −3.53 % | — | Retour du gap ($14.46 → $13.95) |
+| Indicateur | Update matin | Update révisée 13:00 UTC | Variation | Signal |
+|-----------|-------------|--------------------------|-----------|--------|
+| Cours close | $13.95 | $13.95 | 0.00 % | Stable |
+| Change intraday | −3.53 % | −3.53 % | 0.00 pp | Gap comblé inchangé |
 | RSI 14j | 68.40 | 68.40 | 0.0 pt | Proche surachat, inchangé |
-| ATR 14j | $0.96 | $0.96 | $0.00 | Volatilité inchangée (6.88 % du cours) |
+| ATR 14j | $0.96 | $0.96 | $0.00 | Volatilité stable (6.88 % du cours) |
 | Volume relatif | 0.87× | 0.87× | 0.0× | Liquidité réduite persistante |
 | MM 50j | $10.17 | $10.17 | $0.00 | Support structurel intact |
 | Premium vs consensus $9.26 | +50.5 % | +50.5 % | 0.0 pp | Surévaluation stable |
 | Short interest | 0.012 % | 0.012 % | 0.0 pp | Pression short nulle |
 | Dividend yield (Yahoo) | 1.17 % | 1.17 % | 0.0 pp | Rendement inchangé |
 
-**Événement majeur du jour :** aucun événement corporate détecté (`events_latest.json` vide pour NOK). Les données fondamentales restent inchangées ; l'unique nouveauté est la consolidation du bloc FMP `ratios` + `key_metrics` (FY 2025) intégré dans l'analyse du 2026-05-18.
+**Événement majeur du snapshot 13:00 UTC :** aucun événement corporate détecté (`events_latest.json` vide pour NOK). Les données fondamentales, techniques et de sentiment restent strictement identiques au snapshot matinal.
 
 ---
 
@@ -27,19 +27,19 @@
 
 | Métrique | Valeur | Commentaire |
 |----------|--------|-------------|
-| Cours close | $13.95 | Stable vs close précédent ; gap intraday de −3.53 % comblé |
-| RSI 14j | 68.40 | Au-dessus du seuil 65 ; zone de surachat (>70) non franchie mais risque de correction technique croissant sur volume faible |
+| Cours close | $13.95 | Stable vs snapshot matinal ; gap intraday de −3.53 % déjà comblé |
+| RSI 14j | 68.40 | Au-dessus du seuil 65 ; zone de surachat (> 70) non franchie mais risque de correction technique croissant sur volume faible |
 | ATR 14j | $0.96 | 6.88 % du cours — volatilité inchangée, au-dessus de la moyenne historique |
 | MM 50j | $10.17 | Cours +37 % au-dessus du support structurel |
 | MM 200j | N/A | Non disponible |
-| Volume | 108.8M | 0.87× moyenne 20j (124.8M) — pas d'accélération haussière |
+| Volume | 108.8 M | 0.87× moyenne 20j (124.8 M) — pas d'accélération haussière |
 | Beta | 0.765 | Faible sensibilité au marché |
 
 **Niveaux clés :**
 - Support immédiat : $12.03 (cours − 2×ATR)
 - Support structurel : MM50 à $10.17
 - Résistance 52 semaines : $15.19 (+8.9 %)
-- Max pain options : $2.00 (expiration 2026-05-22) — **anomalie** probablement liée au sous-jacent non-ADR ; max pain historique NYSE à $15.00
+- Max pain options : $15.00 (expiration 2026-05-22) — aligné sur l'historique NYSE
 
 **Verdict timing :** **Favorable** (cours > MM50) mais risque de correction technique croissant avec RSI proche 70 sur liquidité réduite.
 
@@ -53,9 +53,9 @@
 
 | Multiple | Valeur | Contexte |
 |----------|--------|----------|
-| Market Cap | $77.9B | — |
+| Market Cap | $77.9 B | — |
 | P/E (TTM) | 87.19 | 🔴 Extrêmement élevé |
-| Forward P/E | 28.76 | Elevé mais reflète attente de normalisation EPS |
+| Forward P/E | 28.76 | Élevé mais reflète attente de normalisation EPS |
 | EV/EBITDA | 29.80 | Premium sectoriel |
 | P/B | 3.14 | Premium vs book |
 | Dividend yield | 1.17 % | Support de rendement |
@@ -107,18 +107,18 @@
 | Signal | Valeur | Source |
 |--------|--------|--------|
 | Consensus analystes (FMP) | PT $9.26 (6 analysts) | FMP Stable API |
-| Put/Call ratio | N/A | Yahoo Finance — indisponible |
-| Max pain | $2.00 | Yahoo Finance — anomalie probable sous-jacent non-ADR |
+| Put/Call ratio | 0.34 | Yahoo Finance — léger biais call (74.6 % OI calls) |
+| Max pain | $15.00 | Yahoo Finance — cohérent historique NYSE |
 | Short interest | 0.012 % | Yahoo Finance — quasi nulle |
 | Agent Social Sentiment | 0 mention, 0.0/10 | `social_sentiment_latest.json` — aucun buzz retail |
 | Agent Event-Driven | Aucun événement | `events_latest.json` vide pour NOK |
 
 **Upcoming events :**
 - Earnings Q2 FY2026 confirmé au **2026-07-23** (dans **66 jours**)
-- Estimates EPS : $0.06–$0.08 | Revenus : $4.8B
+- Estimates EPS : $0.06–$0.08 | Revenus : $4.8 B
 - Pas de preview requis (≥ 30 jours)
 
-**Score Catalyseur :** 4.0/10 — inchangé (aucun catalyseur nouveau ; earnings éloignés).
+**Score Catalyseur :** 4.0/10 — inchangé (aucun catalyseur nouveau ; earnings éloignés ; options biaisées calls sans conviction institutionnelle).
 
 ---
 
@@ -131,7 +131,7 @@
 | Momentum | 6.0/10 | 25 % | Cours > MM50 ; RSI 68.4 proche surachat, volume faible |
 | **Score Opportunité** | **4.3/10** | | |
 | **Score Global** | **43.0** | | |
-| **Score Global Ajusté** | **48.0** | | Malus sectoriel marginal (XLC bottom3) non matérialisé |
+| **Score Global Ajusté** | **48.0** | | Malus sectoriel marginal (XLC bottom 3) non matérialisé |
 
 **Action recommandée :** **SURVEILLER** — Pas de position.
 
@@ -146,7 +146,7 @@
 | Take-profit | $16.83 | $13.95 + 3×$0.96 |
 | Ratio R/R | **1.5 : 1** | Gain $2.88 / Perte $1.92 |
 
-**Note :** Les niveaux demeurent valides. Aucun franchissement de seuil ni alerte technique n'est survenu depuis le 2026-05-17.
+**Note :** Les niveaux demeurent valides. Aucun franchissement de seuil ni alerte technique n'est survenu depuis le snapshot matinal.
 
 ---
 
@@ -157,7 +157,7 @@
 | **Agent Macro** | Régime Unknown | Pondération standard 35/40/25 appliquée |
 | **Agent Quant** | p-value 1.0 | Signaux insuffisants — calibration en cours. Pas d'alerte. |
 | **Agent Géopolitique** | Score 0 | NOK non flaggé. Aucun risque politique détecté. |
-| **Agent Sector Rotation** | XLC bottom3 | Headwind sectoriel marginal. RS 20j/60j négatif vs SPY. |
+| **Agent Sector Rotation** | XLC bottom 3 | Headwind sectoriel marginal. RS 20j/60j négatif vs SPY. |
 | **Agent FX Exposure** | Score 0.0/10 | Exposition 25 %, direction export USD. Divergence alignée. |
 | **Agent Social Sentiment** | 0 mention | Aucun buzz retail. Pas de pump. |
 | **Agent Event-Driven** | Aucun événement | Pas de M&A, buyback, guidance, activism. |
@@ -169,9 +169,9 @@
 
 **Thèse confirmée — SURVEILLER.**
 
-Aucun changement significatif n'est survenu sur NOK au cours des dernières 24h. Le cours stable à $13.95 masque un gap intraday de −3.53 % comblé dans la session, confirmant la volatilité élevée (ATR 6.88 %). Les fondamentaux restent inchangés : quality hors périmètre (2.5/6), rentabilité anémique (ROIC 1.9 %, operating margin 3.9 %), bilan solide (net cash, D/E 0.25) mais insuffisant pour justifier un profil compounding.
+Aucun changement de données n'est intervenu entre le snapshot matinal (10:00 UTC) et le snapshot révisé (13:00 UTC) du 2026-05-18. Le cours reste stable à $13.95 sur un volume réduit (0.87× moy. 20j), avec le gap intraday de −3.53 % déjà comblé. Les fondamentaux sont inchangés : quality hors périmètre (2.5/6), rentabilité anémique (ROIC 1.9 %, operating margin 3.9 %), bilan solide (net cash, D/E 0.25) mais insuffisant pour justifier un profil compounding.
 
-La divergence structurelle Yahoo/FMP sur les multiples (P/E 87 vs 45.8) persiste sans impacter le verdict consensus calibré sur l'ADR. Le RSI à 68.4 sur volume réduit (0.87×) maintient le risque de correction technique. Aucun catalyseur corporate n'est détecté ; le prochain point de contrôle reste l'earnings du 2026-07-23.
+La divergence structurelle Yahoo/FMP sur les multiples (P/E 87 vs 45.8) persiste sans impacter le verdict consensus calibré sur l'ADR. Le RSI à 68.4 sur volume réduit maintient le risque de correction technique. Aucun catalyseur corporate n'est détecté ; le prochain point de contrôle reste l'earnings du 2026-07-23.
 
 NOK reste un **value trap technique** : momentum de court terme soutenu par la MM50 mais valorisation dissuasive et qualité fondamentale hors périmètre.
 

@@ -12,7 +12,7 @@
 | Date | Type | Fichier | Résumé |
 |------|------|---------|--------|
 | 2026-05-17 | Full Refresh | [NOK_2026-05-17_init.md](./NOK_2026-05-17_init.md) | Quality 2.5/6 (Hors périmètre). Score Opportunité 4.3/10. SURVEILLER. Value trap, P/E 87, cours +50.5% vs consensus $9.26. Données complètes. |
-| 2026-05-18 | Update | [NOK_2026-05-18_update.md](./NOK_2026-05-18_update.md) | Données inchangées jour-sur-jour (close $13.95). Gap intraday −3.53% comblé. FMP FY 2025 consolidés. Thèse SURVEILLER confirmée. Aucun événement corporate. |
+| 2026-05-18 | Update | [NOK_2026-05-18_update.md](./NOK_2026-05-18_update.md) | Données inchangées post-pipeline 13:00 UTC (close $13.95). Gap intraday −3.53% comblé. FMP FY 2025 consolidés. Thèse SURVEILLER confirmée. Aucun événement corporate. Révision sans changement de données. |
 
 ---
 
