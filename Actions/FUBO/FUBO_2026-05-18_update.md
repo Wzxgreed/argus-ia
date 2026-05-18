@@ -1,29 +1,37 @@
-# FUBO — Mise à Jour Post-Pipeline 21h UTC (2026-05-18)
+# FUBO — Mise à Jour Post-Pipeline 22:35 UTC (2026-05-18)
 
-> **Niveau d'impact :** 🟢 Faible — Snapshot pipeline 21h UTC confirme le close final $9.38, volume corrigé à 964k (0.62×), aucun nouveau catalyseur
-> **Référence précédente :** [FUBO_2026-05-18_update.md](FUBO_2026-05-18_update.md) (post-close 20h UTC)
+> **Niveau d'impact :** 🟢 Faible — Snapshot 22:35 UTC confirme stabilité totale vs 21h UTC, aucune métrique n'a varié
+> **Référence précédente :** [FUBO_2026-05-18_update.md](FUBO_2026-05-18_update.md) (post-pipeline 21h UTC) et [FUBO_2026-05-18_init.md](FUBO_2026-05-18_init.md) (FULL REFRESH 13h UTC)
 
 ---
 
-## 1. Résumé des Changements depuis l'Analyse Précédente (20h UTC)
+## 1. Résumé des Changements depuis l'Analyse Précédente (21h UTC)
 
-| Métrique | 20h UTC (précédent) | 21h UTC (actuel) | Variation |
+| Métrique | 21h UTC (précédent) | 22:35 UTC (actuel) | Variation |
 |---|---|---|---|
 | Cours close | $9,38 | **$9,38** | — |
-| Volume séance | 873 702 | **964 675** | **+10,4%** 🟡 |
-| Volume vs 20j | 0,56× | **0,62×** | **+0,06×** (normalisation partielle) |
+| Volume séance | 964 675 | **964 675** | — |
+| Volume vs 20j | 0,62× | **0,62×** | — |
 | RSI 14j | 36,21 | **36,21** | — |
 | ATR 14j | $0,80 | **$0,80** | — |
 | MM 50j | $11,89 | **$11,89** | — |
 | Market Cap (Yahoo) | $276,1M | **$276,1M** | — |
 | P/E TTM (Yahoo) | 2,44x | **2,44x** | — |
 | Forward P/E | 19,87x | **19,87x** | — |
-| P/B | 0,340x | **0,340x** | — |
+| P/B (Yahoo) | 0,340x | **0,340x** | — |
 | Short Interest | 22,84% | **22,84%** | — |
 | Put/Call Ratio | 0,90 | **0,90** | — |
 | Max Pain | $10,00 | **$10,00** | — |
+| FMP Market Cap | ~$3,27B | **~$3,27B** | — |
 
-**Constat :** Le snapshot pipeline 21h UTC (`data/2026-05-18.json` fetched 2026-05-18T21:23:28Z) confirme le close final **$9.38** et corrige le volume de séance à **964 675 actions** (0.62× moyenne 20j), en hausse de +10,4% vs le volume partiel de 20h UTC (873k). Cette correction normalise partiellement le signal de liquidité sans toutefois atteindre la moyenne 20j (1,56M). **Aucune donnée fondamentale, technique ou options n'a changé** entre les deux snapshots. Les résultats Q1 2026 restent **non visibles** dans `data/latest.json` — publication post-close avec délai API ou report probable.
+**Constat :** Le snapshot pipeline 22:35 UTC (`data/2026-05-18.json` fetched 2026-05-18T22:35:48Z) est **intégralement identique** au snapshot 21h UTC sur toutes les métriques FUBO. Le close final reste **$9.38**, le volume **964 675 actions** (0.62× moyenne 20j), le RSI **36.21**, l'ATR **$0.80**. **Aucune donnée fondamentale, technique, options ou news n'a changé** entre les deux snapshots.
+
+**Changement majeur à noter vs l'_init.md_ (13h UTC) :**
+- Cours corrigé de $9,62 (intraday) à **$9,38** (close final, −2,49% vs veille)
+- Volume finalisé à **964 675** (vs 944 400 intraday)
+- RSI ajusté de 36,84 à **36,21**
+- MM50 ajustée de $11,98 à **$11,89**
+- Options repositionnement confirmé : max pain **$10**, put/call **0,90** (vs $21 / 0,65 à 10h UTC)
 
 ---
 
@@ -32,18 +40,18 @@
 | Indicateur | Valeur | Lecture |
 |---|---|---|
 | RSI 14j | 36,21 | Zone neutre baissière, proximité survente (seuil 30) |
-| MM 50j | $11,89 | Cours sous la moyenne — écart −20,2% |
+| MM 50j | $11,89 | Cours sous la moyenne — écart **−21,1%** |
 | MM 200j | N/A | [DONNÉES MANQUANTES] |
 | ATR 14j | $0,80 | Volatilité absolue élevée (8,5% du spot) |
-| Volume vs 20j | 0,62× | Faiblesse persistante mais moins critique qu'à 20h UTC |
+| Volume vs 20j | 0,62× | Faiblesse persistante vs moyenne 20j (1,56M) |
 | Beta | 2,508 | Volatilité systématique extrême |
 | 52W High / Low | $56,64 / $8,31 | Distance au 52W low : +12,9% |
 
-**Niveaux clés (confirmés 21h UTC) :**
-- Support immédiat : $9,31 (low du jour)
-- Support secondaire : $8,31 (52W low)
-- Résistance : $10,00 (niveau psychologique / max pain)
-- Résistance majeure : $11,89 (MM50)
+**Niveaux clés (confirmés 22:35 UTC) :**
+- Support immédiat : **$9,31** (low du jour)
+- Support secondaire : **$8,31** (52W low)
+- Résistance : **$10,00** (niveau psychologique / max pain)
+- Résistance majeure : **$11,89** (MM50)
 - Stop-loss ATR (2×) : **$7,78** (−17,1%)
 - Take-profit ATR (3×) : **$11,78** (+25,5%)
 
@@ -53,7 +61,7 @@
 
 ## 3. Mise à Jour Fondamentale
 
-Aucune nouvelle donnée fondamentale dans le snapshot 21h UTC. La divergence Yahoo/FMP persiste intégralement :
+Aucune nouvelle donnée fondamentale dans le snapshot 22:35 UTC. La divergence Yahoo/FMP persiste intégralement :
 
 | Source | Market Cap | P/E | P/B | EV/EBITDA |
 |---|---|---|---|---|
@@ -96,7 +104,7 @@ Aucune nouvelle donnée fondamentale dans le snapshot 21h UTC. La divergence Yah
 | Max Pain | $10,00 | Pinning probable autour du spot |
 | Put/Call Ratio | 0,90 | Put-biased — sentiment dérivés baissier |
 | Call OI % | 52,5% | Positionnement haussier near-term réduit |
-| Échéance | 2026-05-22 | J-4 |
+| Échéance | 2026-05-22 | J-3 (demain 19 mai) |
 
 ### Consensus Analystes (FMP)
 
@@ -114,7 +122,7 @@ Aucune nouvelle donnée fondamentale dans le snapshot 21h UTC. La divergence Yah
 - Pump detected : false
 - Alertes `EXTREME_BEARISH` : artefact d'absence de données
 
-### News
+### News & Événements Corporates
 
 - `data/news_2026-05-18.json` : **0 article** pour FUBO
 - `data/events_2026-05-18.json` : **0 événement corporate** détecté
@@ -142,11 +150,11 @@ Aucune nouvelle donnée fondamentale dans le snapshot 21h UTC. La divergence Yah
 | Score Momentum | 3,5 / 10 | = |
 | **Recommandation** | **ATTENDRE** | **ATTENDRE** |
 
-**Ajustements qualitatifs (inchangés vs 20h UTC) :**
+**Ajustements qualitatifs (inchangés vs 21h UTC) :**
 - Malus Qualité (1/6) : Valorisation plafonnée à 5/10
 - Malus Sectoriel : XLC bottom 3 (momentum 0,0) → −0,5 pt composite
 - Malus Options : put/call ratio 0,90 + max pain $10 → −0,5 pt Catalyseur
-- Signal de prudence Liquidité : volume 0,62× (vs 0,56× à 20h UTC) — amélioration marginale mais risque de slippage persistant
+- Signal de prudence Liquidité : volume 0,62× — risque de slippage persistant
 
 **Quant Report (`data/quant_report_latest.json`) :**
 - Date 2026-05-17 — n = 0, pas assez de signaux historiques FUBO
@@ -179,15 +187,14 @@ Aucune nouvelle donnée fondamentale dans le snapshot 21h UTC. La divergence Yah
 
 ### **Verdict : THÈSE CONFIRMÉE — ATTENDRE**
 
-La thèse d'**ATTENDRE** du 2026-05-18 reste intégralement valide. Le snapshot pipeline 21h UTC confirme le close final à **$9.38** et apporte une correction mineure sur le volume (964k vs 873k), sans impact sur la thèse. Trois observations :
+La thèse d'**ATTENDRE** du 2026-05-18 reste intégralement valide. Le snapshot pipeline 22:35 UTC **ne modifie aucune donnée** par rapport au snapshot 21h UTC — il confirme la stabilité du close final à **$9.38** et de l'ensemble des métriques. Deux observations :
 
-1. **Volume corrigé à 0,62× :** le snapshot 21h UTC capture un volume total de 964 675 actions, en hausse de +10,4% vs l'estimation de 20h UTC. Le ratio vs moyenne 20j passe de 0,56× à 0,62× — une normalisation marginale qui atténue l'alerte « liquidity trap » sans toutefois atteindre la moyenne. Le désintérêt du marché persiste mais est moins critique.
-2. **Earnings toujours en attente :** les résultats Q1 2026 étaient attendus ce jour. Aucune donnée (EPS, revenue, guidance) n'est visible dans le snapshot 21h UTC. Hypothèses : (a) publication post-close avec délai de récupération API > 3h, (b) report de publication, (c) données non remontées par Yahoo/FMP. → **À vérifier demain matin impérativement.**
-3. **Aucun nouveau catalyseur détecté :** 0 news, 0 événement corporate, 0 mention Reddit, 0 changement options, 0 revision analyste. Le silence médiatique total confirme l'absence de momentum.
+1. **Stabilité totale des données intraday→close :** entre le snapshot 21h UTC et le snapshot 22:35 UTC, aucun prix, volume, ratio technique, options ou consensus n'a varié. Le fichier `data/2026-05-18.json` (fetched 22:35:48Z) est identique sur FUBO au snapshot précédent. Ceci confirme que les données du jour sont closes et stabilisées.
+2. **Earnings toujours en attente :** les résultats Q1 2026 étaient attendus ce jour (2026-05-18) selon `data/upcoming_events_latest.json`. Aucune donnée earnings (EPS, revenue, guidance) n'est visible dans le snapshot 22:35 UTC. Hypothèses : (a) publication post-close avec délai de récupération API > 5h, (b) report de publication, (c) données non remontées par Yahoo/FMP. → **À vérifier demain matin impérativement.**
 
-**Arguments confirmant la patience :**
-1. **Qualité dégradée 1/6** — inchangée. Patrimoine net négatif (−$398,9M FMP), FCF négatif, current ratio 0,84, debt/equity 2,43, ROIC −2,1%.
-2. **Données techniques baissières** — sous MM50 (−20,2%), RSI 36,21 proche survente, aucun signe de reversal.
+**Arguments confirmant la patience (inchangés) :**
+1. **Qualité dégradée 1/6** — patrimoine net négatif (−$398,9M FMP), FCF négatif, current ratio 0,84, debt/equity 2,43, ROIC −2,1%.
+2. **Données techniques baissières** — sous MM50 (−21,1%), RSI 36,21 proche survente, aucun signe de reversal.
 3. **Repositionnement options baissier** — put/call 0,90, max pain $10 (données inchangées).
 4. **Divergence Yahoo/FMP persistante** — P/E 2,44x et market cap $276M restent suspects vs les données FMP (~$3,3B).
 5. **Sector rotation défavorable** — XLC (Communication Services) dans le bottom 3 (momentum 0,0).
@@ -195,10 +202,8 @@ La thèse d'**ATTENDRE** du 2026-05-18 reste intégralement valide. Le snapshot 
 7. **Absence totale de news et de social sentiment** — 0 article, 0 mention Reddit.
 8. **Accounting risk non disponible** — pas de données M-Score / Z-Score / F-Score / Sloan pour cette session.
 
-**Seuls éléments modifiés vs 20h UTC :**
-- Volume corrigé à 964 675 (vs 873 702)
-- Ratio volume corrigé à 0,62× (vs 0,56×) — amélioration marginale du signal liquidité
-- SL/TP inchangés ($7,78 / $11,78) car close et ATR stables
+**Seuls éléments modifiés vs 21h UTC :**
+- Aucun. Le snapshot 22:35 UTC est un doublon confirmatoire du snapshot 21h UTC sur toutes les métriques FUBO.
 
 **Scénarios post-earnings (dès disponibilité des résultats) :**
 
@@ -208,12 +213,12 @@ La thèse d'**ATTENDRE** du 2026-05-18 reste intégralement valide. Le snapshot 
 | In-line / mixte | 45% | ±3–5% | Maintenir ATTENDRE |
 | Miss / guidance down | 40% | −10–20% | Confirmer l'évitement |
 
-> **Note de probabilité :** Inchangée vs 20h UTC. Le repositionnement options put-biased maintient la probabilité bearish à 40%.
+> **Note de probabilité :** Inchangée vs 21h UTC. Le repositionnement options put-biased maintient la probabilité bearish à 40%.
 
-**Recommandation finale :** **ATTENDRE — pas de position.** Le titre reste une spéculation pure sans fondement qualitatif. Le close final à $9.38, le volume sous-moyenne et l'absence de données earnings justifient de rester à l'écart. Si résultats positifs demain, le titre reste une spéculation court terme et non un investissement long terme. Le Score Qualité 1/6 et le patrimoine net négatif excluent toute conviction structurelle.
+**Recommandation finale :** **ATTENDRE — pas de position.** Le titre reste une spéculation pure sans fondement qualitatif. Le close confirmé à $9.38, le volume sous-moyenne et l'absence de données earnings justifient de rester à l'écart. Si résultats positifs demain, le titre reste une spéculation court terme et non un investissement long terme. Le Score Qualité 1/6 et le patrimoine net négatif excluent toute conviction structurelle.
 
 ---
 
 *Analyste institutionnel senior — Desk Argus-IA*  
-*Date : 2026-05-18 (post-pipeline 21h UTC)*  
-*Sources : data/2026-05-18.json (fetched 2026-05-18T21:23:28Z), data/recommandations_2026-05-18.json, data/quant_report_latest.json, data/geo_risk_latest.json, data/sector_rotation_2026-05-18.json, data/social_sentiment_2026-05-18.json, data/fx_exposure_2026-05-18.json, data/upcoming_events_2026-05-18.json, data/events_2026-05-18.json, data/news_2026-05-18.json*
+*Date : 2026-05-18 (post-pipeline 22:35 UTC)*  
+*Sources : data/2026-05-18.json (fetched 2026-05-18T22:35:48Z), data/recommandations_2026-05-18.json, data/quant_report_latest.json, data/geo_risk_latest.json, data/sector_rotation_2026-05-18.json, data/social_sentiment_2026-05-18.json, data/fx_exposure_2026-05-18.json, data/upcoming_events_2026-05-18.json, data/events_2026-05-18.json, data/news_2026-05-18.json*
