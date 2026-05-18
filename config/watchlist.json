@@ -136,6 +136,14 @@
       "priority": "medium",
       "exchange": "NASDAQ",
       "notes": "Ajouté via dashboard API"
+    },
+    {
+      "ticker": "ASTS",
+      "name": "ASTS",
+      "sector": "Non spécifié",
+      "priority": "medium",
+      "exchange": "NASDAQ",
+      "notes": "Ajouté via dashboard API"
     }
   ],
   "macro_symbols": {

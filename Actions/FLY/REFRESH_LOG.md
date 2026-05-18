@@ -51,7 +51,7 @@
 - price_gap (medium) : Gap +7.15% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.13% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée avec nuance. Données inchangées vs snapshot 13:00 UTC. Thèse ATTENDRE maintenue. DRAFT_refresh traité et intégré dans `FLY_2026-05-18_update.md`.
 
 ---
 
@@ -71,7 +71,7 @@
 - price_gap (medium) : Gap +8.69% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 9.99% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données quasi inchangées vs snapshot 17:00 UTC (cours $43.71 → $43.95, +0.55%). Thèse ATTENDRE maintenue. DRAFT_refresh traité et intégré dans `FLY_2026-05-18_update.md` (session 20:12 UTC).
 
 ---
 
@@ -81,6 +81,6 @@
 - price_gap (medium) : Gap +8.71% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 9.99% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données quasi inchangées vs snapshot 17:00 UTC (cours $43.71 → $43.95, +0.55%). Volume en accélération 1.57× moy. 20j post-gap. Thèse ATTENDRE maintenue. DRAFT_refresh traité et intégré dans `FLY_2026-05-18_update.md` (session 20:12 UTC).
 
 ---

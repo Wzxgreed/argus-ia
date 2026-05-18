@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
+- **Recommandation :** ATTENDRE
+- **Score global :** 59.0/100
+- **Prix cible :** $87.50 (consensus 2 analystes)
+- **Stop-loss :** — (attendre post-earnings + données ATR)
+- **Statut thèse :** Confirmée — aucun changement vs 17:00 UTC
 - **Horizon :** —
 
 ---
@@ -24,32 +24,33 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- Earnings Q1 2026 — J=0, résultats non intégrés dans le snapshot
+- Qualité hors périmètre (3/6) — Score Valorisation plafonné à 5.0/10
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-05-18** · earnings · Earnings ...
+- **2026-05-18** · earnings · Earnings Q1 2026 — en attente de publication
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** —
-- **MM 50j :** —
-- **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** —
+- **RSI 14j :** N/A (bloc technique vide)
+- **MM 50j :** N/A
+- **MM 200j :** N/A
+- **ATR 14j :** N/A
+- **Volume moy. 20j :** N/A
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** preview
-- **Fichier :** `SQ_2026-05-18_preview.md`
-- **Conclusion :** > **Date :** 2026-05-18
+- **Type :** update
+- **Fichier :** `SQ_2026-05-18_update.md`
+- **Conclusion :** ATTENDRE — Snapshot 20:24 UTC inchangé vs 17:00 UTC. Cours $83.46, volume 1.14M, technical vide, earnings Q1 2026 non intégrés. Qualité 3/6 hors périmètre. Score Opportunité 5.4/10 (plafonné). Maintenir l'attente post-earnings.
 
 ---
 

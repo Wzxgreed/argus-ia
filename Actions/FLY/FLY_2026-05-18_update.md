@@ -1,50 +1,48 @@
-# FLY — Mise à Jour Quotidienne (2026-05-18) — Session 17:00 UTC
+# FLY — Mise à Jour Quotidienne (2026-05-18) — Session 20:12 UTC
 
-> Source : `data/latest.json` (2026-05-18 17:00 UTC) + `data/recommandations_latest.json` + agents quant / geo / sector / social / FX / events / upcoming.
-> FULL REFRESH déclenché par PRICE_GAP +8.11% et ATR_SPIKE 10.04% — traité ci-dessous.
+> Source : `data/latest.json` (2026-05-18 20:12 UTC) + `data/recommandations_latest.json` + agents quant / geo / sector / social / FX / events / upcoming.
+> FULL REFRESH triggers (PRICE_GAP +8.71%, ATR_SPIKE 9.99%) déjà traités dans la session 17:00 UTC — pas de nouvel événement majeur post-session.
 
 ---
 
-## Résumé des changements depuis l'analyse précédente (2026-05-18 13:00 UTC)
+## Résumé des changements depuis l'analyse précédente (2026-05-18 17:00 UTC)
 
-| Métrique | Session 13:00 UTC | Session 17:00 UTC | Variation | Seuil d'alerte |
+| Métrique | Session 17:00 UTC | Session 20:12 UTC | Variation | Seuil d'alerte |
 |----------|-------------------|-------------------|-----------|----------------|
-| Cours close | $40.43 | **$43.71** | **+8.11%** | ≥ ±5% |
-| Change vs prior close | -4.6% | **+8.11%** | inversion | — |
-| RSI 14j | 61.71 | **66.80** | **+5.1 pts** | >70 / <30 |
-| MM 50j | $32.24 | **$32.72** | +$0.48 | — |
+| Cours close | $43.71 | **$43.95** | **+0.55%** | ≥ ±5% |
+| Change vs prior close | +8.11% | **+8.71%** | +0.60 pt | — |
+| RSI 14j | 66.80 | **67.08** | +0.28 pt | >70 / <30 |
+| MM 50j | $32.72 | $32.72 | stable | — |
 | MM 200j | N/A | N/A | — | — |
-| ATR 14j | $4.02 | **$4.39** | **+9.2%** | >5% relatif |
-| Volume 20j moy. | 5,994,630 | 6,107,093 | +2.1% | — |
-| Volume jour | 8,219,100 | 7,135,963 | -13.2% | — |
-| Volume relatif | 1.37× moy. | **1.17× moy.** | -0.20× | >2.0× |
+| ATR 14j | $4.39 | $4.39 | stable | >5% relatif |
+| Volume 20j moy. | 6,107,093 | **6,239,757** | +2.2% | — |
+| Volume jour | 7,135,963 | **9,789,240** | **+37.2%** | — |
+| Volume relatif | 1.17× moy. | **1.57× moy.** | **+0.40×** | >2.0× |
 | Filtre Qualité | 2/6 | 2/6 | stable | — |
-| Forward P/E | -35.41 | **-38.29** | négatif accentué | — |
-| EV/Revenue (Yahoo) | 32.34x | 32.34x | stable | — |
-| P/B (Yahoo) | 5.86 | **6.33** | +8.0% | — |
+| Forward P/E | -38.29 | **-38.50** | négatif accentué | — |
+| P/B (Yahoo) | 6.33 | **6.37** | +0.6% | — |
 | Consensus PT | $42.45 | $42.45 | stable | — |
-| Upside consensus | +5.0% | **-2.9%** | **sous le spot** | — |
+| Upside consensus | -2.9% | -3.4% | **sous le spot** | — |
 | Max Pain | $25.00 | $25.00 | stable | — |
 | Put/Call Ratio | 0.86 | 0.86 | stable | — |
-| Short Interest | 0.09% | 0.09% | stable | >5% |
-| Score Opportunité | 5.0/10 | **5.3/10** | +0.3 pt | — |
+| Short Interest | 0.09% | **0.0866%** | stable | >5% |
+| Score Opportunité | 5.3/10 | **5.3/10** | stable | — |
 | Score Valorisation | 4.5/10 | 4.5/10 | stable | — |
 | Score Catalyseur | 5.0/10 | 5.0/10 | stable | — |
-| Score Momentum | 6.0/10 | **7.0/10** | **+1.0 pt** | — |
-| Score Global | 50.5 | **53.0** | +2.5 pts | — |
-| Score Global Ajusté | 55.5 | **58.0** | +2.5 pts | — |
+| Score Momentum | 7.0/10 | 7.0/10 | stable | — |
+| Score Global | 53.0 | **53.0** | stable | — |
+| Score Global Ajusté | 58.0 | **58.0** | stable | — |
 
 **Observations clés :**
-- **Cours +8.11%** sur la session, franchissant le seuil d'alerte ±5% — gap haussier overnight puis consolidation autour de $43.71.
-- **RSI 66.8** — zone haussière, se rapprochant du seuil de surachat (>70).
-- **Consensus PT $42.45 désormais sous le spot** (-2.9% upside) : le cours a dépassé la cible moyenne des 11 analystes couvrant le titre. Il n'y a plus de marge de sécurité de valorisation selon le consensus.
-- **ATR $4.39 (10.0% relatif)** — volatilité persistante et élevée, sans catalyst structurel identifié.
-- **Range intraday $42.34–$47.71** (amplitude 12.8%) — comportement spéculatif ou lié à la microstructure options (expiration 22/05 proche).
+- **Cours stable post-gap** (+0.55% vs 17:00 UTC) après le gap haussier de +8.71% overnight. Le titre consolide au-dessus de $43.
+- **Volume en nette accélération** : 9.79M (1.57× moy. 20j) vs 7.14M en session 17:00 — signe que le gap a attiré des flux additionnels en fin de journée.
+- **RSI 67.08** — inchangé de tendance, zone haussière proche du surachat (>70) sans l'atteindre.
+- **Consensus PT $42.45 désormais 3.4% sous le spot** : le cours a dépassé la cible moyenne des 11 analystes. Pas de marge de sécurité de valorisation.
 - **Agent Quant** : pas assez de signaux historiques → [SIGNAUX NON SIGNIFICATIFS] (p-value 1.0).
 - **Agent Accounting** : `data/accounting_risk_latest.json` absent → [DONNÉES MANQUANTES] pour M-Score / Z-Score / F-Score / Sloan.
 - **Agent Géo** : FLY non flaggé — pas d'exposition politique spécifique.
 - **Agent Event-Driven** : 0 événement corporate détecté.
-- Aucune news structurante détectée sur la session.
+- Aucune news structurante détectée sur la session soir.
 
 ---
 
@@ -52,31 +50,31 @@
 
 | Indicateur | Valeur | Verdict |
 |------------|--------|---------|
-| RSI 14j | 66.80 | Haussier, proche du surachat (>70) — momentum en accélération |
-| MM 50j | $32.72 | Cours supérieur de **+33.6%**, tendance haussière renforcée |
+| RSI 14j | 67.08 | Haussier, proche du surachat (>70) — momentum stable en zone élevée |
+| MM 50j | $32.72 | Cours supérieur de **+34.3%**, tendance haussière intacte |
 | MM 200j | N/A | Donnée indisponible — impossible de valider le Golden/Death Cross |
-| Volume | 7,135,963 | 1.17× moy. 20j — volume soutenu mais en retrait vs session matinale |
+| Volume | 9,789,240 | 1.57× moy. 20j — volume en accélération post-gap |
 | ATR 14j | $4.39 | Relatif 10.0% — volatilité élevée, inchangée de tendance |
-| Range jour | $42.34–$47.71 | Amplitude **12.8%** sans catalyst visible — comportement spéculatif |
+| Range jour | $42.34–$47.71 | Amplitude **12.3%** sans catalyst visible — comportement spéculatif |
 | Support 1 | $32.72 (MM50) | Support dynamique — rupture = révision baissière |
 | Support 2 | $16.00 (52W Low) | — |
 | Résistance 1 | $47.71 (High du jour) | Testé en séance, non confirmé en close |
 | Résistance 2 | $73.80 (52W High) | — |
 
-**Timing verdict :** **Favorable mais risqué** — tendance haussière intacte et renforcée (cours > MM50 +33.6%), RSI en zone haussière. Cependant, la volatilité intrajournalière (12.8%) sans catalyst apparent et la proximité de l'expiration options (22/05) augmentent le risque de microstructure. Le consensus PT sous le spot élimine la marge de sécurité de valorisation.
+**Timing verdict :** **Favorable mais risqué** — tendance haussière intacte (cours > MM50 +34.3%), RSI en zone haussière. La consolidation au-dessus de $43 après le gap est un signal technique positif. Cependant, la volatilité intrajournalière (12.3%) sans catalyst apparent et la proximité de l'expiration options (22/05) maintiennent le risque de microstructure élevé. Le consensus PT sous le spot élimine la marge de sécurité de valorisation.
 
 ---
 
 ## Mise à jour fondamentale
 
-Aucune nouvelle donnée fondamentale qualitative depuis l'initiale. Rappel des métriques clés avec sources croisées Yahoo / FMP :
+Aucune nouvelle donnée fondamentale qualitative depuis la session 17:00 UTC. Rappel des métriques clés avec sources croisées Yahoo / FMP :
 
 | Métrique | Yahoo | FMP | Commentaire |
 |----------|-------|-----|-------------|
-| Market Cap | $7.00B | $3.40B | Divergence majeure — préférer Yahoo (close × shares out.) |
-| Forward P/E | -38.29 | — | Pas de rentabilité nette attendue |
+| Market Cap | $7.04B | — | — |
+| Forward P/E | -38.50 | — | Pas de rentabilité nette attendue |
 | EV/EBITDA | -26.61 | -13.12 | EBITDA négatif sur les deux sources |
-| P/B | 6.33 | 2.86 | Divergence matérielle — Yahoo plus conservateur |
+| P/B | 6.37 | 2.86 | Divergence matérielle — Yahoo plus conservateur |
 | EV/Revenue | 32.34x | — | Multiple élevé |
 | P/S (FMP) | — | 21.26x | — |
 | Gross Margin | — | 15.6% | Faible |
@@ -85,13 +83,13 @@ Aucune nouvelle donnée fondamentale qualitative depuis l'initiale. Rappel des m
 | Net Margin | — | -186.6% | Fortement négatif |
 | Debt/Equity | — | 0.26 | Levier modéré |
 | Current Ratio | — | 4.51 | Liquidité solide |
-| Short Interest | 0.09% | — | Aucun pari baissier structuré |
+| Short Interest | 0.0866% | — | Aucun pari baissier structuré |
 
 **Filtre Qualité** : **2/6** (🔴 Hors périmètre)
 | Critère | Verdict |
 |---------|---------|
 | Revenue CAGR 5 ans ≥ 20% | ❌ Données insuffisantes |
-| Profit CAGR 5 ans ≥ 20% | ❌ Forward P/E -38.29, marges négatives |
+| Profit CAGR 5 ans ≥ 20% | ❌ Forward P/E -38.50, marges négatives |
 | Assets/Liabilities > 1.0 | ⚠️ Current Ratio 4.51 (solide) mais pas de visibilité complète sur le bilan |
 | FCF positif et croissant 5 ans | ❌ FCF yield négatif (-7.0% environ) |
 | Avantage compétitif (moat) | ❌ Non démontré dans les données |
@@ -105,11 +103,11 @@ Aucune nouvelle donnée fondamentale qualitative depuis l'initiale. Rappel des m
 
 | Signal | Valeur | Source | Interprétation |
 |--------|--------|--------|----------------|
-| Consensus analystes (FMP) | $42.45 (11 analysts) | FMP Stable API | PT **sous le spot** (-2.9%) — plus de upside selon le consensus. Couverture stable. |
+| Consensus analystes (FMP) | $42.45 (11 analysts) | FMP Stable API | PT **sous le spot** (-3.4%) — plus de upside selon le consensus. Couverture stable. |
 | Max Pain | $25.00 | Yahoo Finance | Écart de **43%** sous le spot. Distorsion probable liée à l'expiration du 22/05. |
 | Put/Call Ratio | 0.86 | Yahoo Finance | Légèrement call-biased (53.8% call OI). |
 | Call OI % | 53.8% | Yahoo Finance | Biais call modéré. |
-| Short Interest | 0.09% | Yahoo Finance | Absence de squeeze setup. |
+| Short Interest | 0.0866% | Yahoo Finance | Absence de squeeze setup. |
 | Social Sentiment | 0 mentions, 0.0 score | `data/social_sentiment_latest.json` | Aucune activité retail détectée sur Reddit. Pump non détecté. |
 | Event-Driven | Aucun | `data/events_latest.json` | Pas de M&A, buyback, guidance change, activism. |
 | Upcoming Events | Earnings Q2 2026 le 2026-08-04 (78 jours) | `data/upcoming_events_latest.json` | Est EPS -$0.60 à -$0.45, Rev $0.1B. |
@@ -118,7 +116,7 @@ Aucune nouvelle donnée fondamentale qualitative depuis l'initiale. Rappel des m
 
 ---
 
-## Scoring global (Agent Recommandation — 2026-05-18 17:00 UTC)
+## Scoring global (Agent Recommandation — 2026-05-18 20:12 UTC)
 
 | Axe | Score | Pondération | Contribution |
 |-----|-------|-------------|--------------|
@@ -138,7 +136,7 @@ Aucune nouvelle donnée fondamentale qualitative depuis l'initiale. Rappel des m
 **Ajustements agents complémentaires :**
 - **Agent Quant** : Signaux non significatifs (p-value 1.0, insuffisant) → pas d'ajustement.
 - **Agent Géo** : FLY non flaggé (pas d'exposition politique spécifique détectée) → pas de malus.
-- **Agent Sector Rotation** : XLI (Industrials) sous-performant le SPY sur 20j (-2.17%) et 60j (-3.74%), momentum_score 0.0 → **headwind sectoriel** (-0.5 pt implicite sur le catalyseur sectoriel).
+- **Agent Sector Rotation** : XLI (Industrials) sous-performant le SPY sur 20j (-1.82%) et 60j (-3.40%), momentum_score 0.0 → **headwind sectoriel** (-0.5 pt implicite sur le catalyseur sectoriel).
 - **Agent Social** : Pas d'activité retail → neutre.
 - **Agent FX** : Exposition 25%, currency USD, fx_impact_score 0.0 → pas d'ajustement.
 - **Agent Event-Driven** : 0 événement → neutre.
@@ -149,31 +147,33 @@ Aucune nouvelle donnée fondamentale qualitative depuis l'initiale. Rappel des m
 
 | Niveau | Valeur | Méthode | Commentaire |
 |--------|--------|---------|-------------|
-| Cours actuel | $43.71 | Close 2026-05-18 17:00 UTC | +8.11% vs session matinale |
-| Stop-loss | $34.93 | Cours − 2×ATR ($4.39) | Recalculé avec ATR actualisé |
-| Take-profit | $56.88 | Cours + 3×ATR ($4.39) | Recalculé avec ATR actualisé |
-| Ratio R/R | 1.5:1 | Gain $13.17 / Perte $8.78 | Inchangé malgré la hausse du cours |
+| Cours actuel | $43.95 | Close 2026-05-18 20:12 UTC | +0.55% vs session 17:00 UTC, +8.71% vs prior close |
+| Stop-loss | $35.17 | Cours − 2×ATR ($4.39) | Inchangé — ATR stable |
+| Take-profit | $57.12 | Cours + 3×ATR ($4.39) | Inchangé — ATR stable |
+| Ratio R/R | 1.5:1 | Gain $13.17 / Perte $8.78 | Inchangé malgré la légère hausse du cours |
 
-Les niveaux ont été révisés à la hausse en raison du nouveau close ($43.71) et de l'ATR plus élevé ($4.39). Le ratio 1.5:1 reste limité pour une action sans rentabilité démontrée et avec un Filtre Qualité faible.
+Les niveaux sont inchangés car l'ATR est stable à $4.39. Le ratio 1.5:1 reste limité pour une action sans rentabilité démontrée et avec un Filtre Qualité faible.
 
 ---
 
 ## Conclusion — Thèse confirmée, modifiée ou invalidée ?
 
-**Verdict : Thèse MODIFIÉE avec nuance haussière technique.**
+**Verdict : Thèse CONFIRMÉE — pas de changement matériel vs session 17:00 UTC.**
 
-L'analyse initiale du 2026-05-17 concluait à un profil **ATTENDRE** en raison d'un momentum technique favorable mais de fondamentaux insuffisants. Le FULL REFRESH du 2026-05-18 (triggers PRICE_GAP +8.11% et ATR_SPIKE 10.04%) révèle une accélération technique significative : le cours a gagné +8.11% sur la session, testé un intraday à $47.71 (+18% vs close précédent), et le RSI est monté à 66.8. Cependant, **aucun fondamental n'a changé** pour justifier ce mouvement.
+L'analyse de la session 17:00 UTC concluait à un profil **ATTENDRE** avec momentum technique favorable mais fondamentaux insuffisants. Le snapshot 20:12 UTC confirme cette lecture : le cours a légèrement grignoté +0.55% ($43.71 → $43.95) sur un volume en accélération (+37.2%), mais **aucun fondamental n'a changé** et aucun catalyst structurel n'est apparu.
 
-**Ce qui modifie la thèse :**
-- Cours a dépassé le consensus analystes ($42.45 → upside négatif de -2.9%), éliminant la marge de sécurité de valorisation.
-- RSI proche du surachat (66.8) et range intraday de 12.8% — le risque de correction technique augmente.
-- Volatilité persistante (ATR 10%) sans catalyst visible — comportement probablement lié à la microstructure options (expiration 22/05).
+**Ce qui confirme la thèse :**
+- Cours stable post-gap, consolidant au-dessus de $43 — momentum intact.
+- RSI 67.08, MM50 $32.72 — tendance haussière technique confirmée.
+- Aucune news structurante, guidance raise, ou événement corporate détecté.
+- Scoring global inchangé (53.0 / 58.0 ajusté) — pas de bascule de zone.
 
-**Ce qui confirme la prudence :**
+**Ce qui maintient la prudence :**
 - Filtre Qualité inchangé à 2/6 (🔴 Hors périmètre) — pas de quality compounding.
-- Marges négatives, forward P/E -38.29, EV/Revenue 32x — valorisation incompatible avec les fondamentaux.
-- Aucune news structurante, guidance raise, ou événement corporate n'a été détecté.
+- Marges négatives, forward P/E -38.50, EV/Revenue 32x — valorisation incompatible avec les fondamentaux.
+- Consensus PT $42.45 sous le spot (-3.4% upside) — plus de marge de sécurité selon les analystes.
 - Headwind sectoriel : XLI sous-performe le SPY (momentum_score 0.0).
+- Volatilité élevée sans couverture fondamentale (ATR 10%) — risque de correction rapide si le momentum casse.
 
 **Catalyseurs forward :**
 1. **Earnings Q2 2026** (2026-08-04, 78 jours) : Est EPS -$0.45 à -$0.60, Rev $0.1B. Toute surprise positive vs consensus négatif serait un catalyseur majeur.
@@ -181,9 +181,9 @@ L'analyse initiale du 2026-05-17 concluait à un profil **ATTENDRE** en raison d
 
 **Risques :**
 1. Rentabilité non démontrée — la société brûle du cash avec des marges fortement négatives (operating margin -154%, net margin -187%).
-2. Multiple de valorisation incompatible avec un profil de quality compounding (EV/Revenue 32x, P/B 6.33x).
+2. Multiple de valorisation incompatible avec un profil de quality compounding (EV/Revenue 32x, P/B 6.37x).
 3. Cours au-dessus du consensus analystes — si les résultats ne suivent pas, le gap de valorisation se resserrera brutalement.
-4. Volatilité élevée sans couverture fondamentale = risque de correction rapide si le momentum technique casse (rupture MM50 $32.72).
+4. Volume en accélération post-gap peut indiquer du profit-taking ou de la distribution institutionnelle ; à surveiller sur les prochaines sessions.
 
 **Prochaine étape :**
 - Maintenir **ATTENDRE**. Aucune position recommandée.
