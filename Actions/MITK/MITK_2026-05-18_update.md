@@ -1,82 +1,91 @@
-# MITK — Mise à Jour Quotidienne Révisée (2026-05-18 post-pipeline 13:00 UTC)
+# MITK — Mise à Jour Post-Close (2026-05-18 17:00 UTC)
 
-> Desk : Argus-IA | Pipeline : 13:00 UTC | Données : `data/latest.json` (2026-05-18T13:00:12Z) | Score Global : **51.0/100** | Action : **ATTENDRE**
-
----
-
-## Résumé — Validation Post-Pipeline
-
-**Verdict : DONNÉES DE BASE INCHANGÉES vs snapshot 10:00 UTC. OPTIONS RAFRAÎCHIES. Thèse ATTENDRE confirmée.**
-
-Le troisième passage du pipeline (13:00 UTC) n'a détecté aucune variation de cours, de volume, de macro ou de sentiment par rapport au snapshot 10:00. Le close reste à **$14.26** (+5.08%), le RSI à **51.62**, la MM50 à **$14.31** et l'ATR à **$0.86**. Les scores agents (Catalyseur 5.5, Valorisation 6.5, Momentum 5.5 → Opportunité 5.9 → Global ajusté 51.0) sont identiques.
-
-**Changement significatif :** les données options ont été rafraîchies par le provider. Le Max Pain passe de **$7.50** (anomalie) à **$20.00**, le Put/Call ratio est désormais disponible à **0.14**, et le Call OI représente **87.4%** de l'open interest total. Ces nouvelles données, bien que plus cohérentes, restent à manipuler avec prudence compte tenu de la faible liquidité dérivée de MITK.
+> Desk : Argus-IA | Pipeline : 17:00 UTC | Données : `data/latest.json` (2026-05-18T17:00:01Z) | Score Global Ajusté : **49.8/100** | Action : **SURVEILLER**
 
 ---
 
-## Table Comparative — Snapshot 10:00 UTC vs Pipeline 13:00 UTC
+## Résumé des Changements
 
-| Variable | Snapshot 10:00Z | Pipeline 13:00Z | Δ | Statut |
+**Verdict : RETOURNEMENT INTRAJOUR. Le gap +5.08% du matin s'est entièrement effacé. Volume en effondrement. Thèse ATTENDRE → SURVEILLER.**
+
+Le snapshot 17:00 UTC confirme un **gap-and-crap** classique : après l'ouverture à $14.08 sur le momentum du +5.08%, le titre a reculé toute la séance pour clôturer à **$13.95** (-2.17% vs previous close $14.26, et -2.9% vs le close du gap à $14.26). Le volume a chuté de **1,317,800 à 371,118** (-72% vs la session du matin, **0.31× la moyenne 20j** de 1,208,730), signalant une absence totale de conviction acheteuse en après-midi. Le RSI est revenu de 51.62 à **49.06** (zone neutre).
+
+**Changement de statut :** Le Score Global Ajusté passe de **51.0 à 49.8** (-1.2 pt), franchissant le seuil 50. Selon le tableau de scoring Argus-IA, le ticker bascule de **ATTENDRE** à **SURVEILLER**. Ce n'est pas une dégradation fondamentale — les ratios et le consensus sont inchangés — mais une révision technique et de momentum suite à l'effacement du gap et à l'effondrement de la liquidité.
+
+---
+
+## Table Comparative — Snapshot 13:00 UTC vs Snapshot 17:00 UTC
+
+| Variable | Snapshot 13:00Z | Snapshot 17:00Z | Δ | Statut |
 |---|---|---|---|---|
-| **Cours close** | $14.26 | $14.26 | — | ✅ Inchangé |
-| **Change %** | +5.08% | +5.08% | — | ✅ Inchangé |
-| **RSI 14j** | 51.62 | 51.62 | — | ✅ Inchangé |
-| **MM 50j** | $14.31 | $14.31 | — | ✅ Inchangé |
-| **ATR 14j** | $0.86 | $0.86 | — | ✅ Inchangé |
-| **Volume jour** | 1,317,800 | 1,317,800 | — | ✅ Inchangé |
-| **Volume vs 20j** | 1.07× | 1.07× | — | ✅ Inchangé |
+| **Cours close** | $14.26 | **$13.95** | **-$0.31 (-2.17%)** | 🔴 Baisse — effacement du gap |
+| **Change %** | +5.08% | **-2.17%** | **-7.25 pts** | 🔴 Retournement |
+| **RSI 14j** | 51.62 | **49.06** | **-2.56 pts** | 🟡 Neutre, légère baisse |
+| **ATR 14j** | $0.86 | **$0.85** | -$0.01 | ✅ Stable |
+| **MM 50j** | $14.31 | **$14.30** | -$0.01 | ✅ Stable |
+| **Volume jour** | 1,317,800 | **371,118** | **-946,682 (-72%)** | 🔴 Effondrement |
+| **Volume vs 20j** | 1.07× | **0.31×** | **-0.76×** | 🔴 Très faible |
+| **Market Cap (Yahoo)** | $643.9M | **$630.0M** | -$13.9M | 🟡 Mécanique cours |
+| **Score Global Ajusté** | 51.0/100 | **49.8/100** | **-1.2 pt** | 🔴 Passe sous seuil 50 |
+| **Score Opportunité** | 5.9/10 | **5.8/10** | -0.1 pt | 🟡 Stable |
+| **Score Catalyseur** | 5.5/10 | **5.5/10** | — | ✅ Inchangé |
+| **Score Valorisation** | 6.5/10 | **6.5/10** | — | ✅ Inchangé |
+| **Score Momentum** | 5.5/10 | **5.0/10** | **-0.5 pt** | 🟡 Légère baisse |
+| **Action recommandée** | ATTENDRE | **SURVEILLER** | **-1 niveau** | 🔴 Dégradation seuil |
 | **Consensus PT (FMP)** | $16.00 (2 analysts) | $16.00 (2 analysts) | — | ✅ Inchangé |
-| **Max Pain** | $7.50 | **$20.00** | **+$12.50** | 🟢 Rafraîchi — moins aberrant |
-| **Put/Call ratio** | N/A | **0.14** | **Disponible** | 🟢 Données restaurées |
-| **Call OI %** | N/A | **87.4%** | **Disponible** | 🟢 Call-dominated |
-| **Score Global Ajusté** | 51.0/100 | 51.0/100 | — | ✅ Inchangé |
-| **Score Opportunité** | 5.9/10 | 5.9/10 | — | ✅ Inchangé |
+| **Max Pain** | $20.00 | $20.00 | — | ✅ Inchangé |
+| **Put/Call ratio** | 0.14 | 0.14 | — | ✅ Inchangé |
+| **Call OI %** | 87.4% | 87.4% | — | ✅ Inchangé |
 | **Prochain earnings** | 2026-08-06 (80j) | 2026-08-06 (80j) | — | ✅ Inchangé |
 | **Régime macro** | Inconnu | Inconnu | — | ⚠️ Données macro partielles |
-| **XLK momentum** | 10.0 (+14.2% / 20j) | 10.0 (+14.2% / 20j) | — | ✅ Inchangé |
+| **XLK momentum** | 10.0 | 10.0 | — | ✅ Inchangé |
 | **Geo risk score** | 0/10 | 0/10 | — | ✅ Inchangé |
 | **FX impact score** | 0.0 | 0.0 | — | ✅ Inchangé |
 | **Social sentiment** | 0 / No data | 0 / No data | — | ✅ Inchangé |
 | **Events corporate** | Aucun | Aucun | — | ✅ Inchangé |
 
-**Lecture institutionnelle :** L'absence de delta sur le spot et les volumes confirme que le gap +5.08% du matin reste un événement isolé sans suite. Le rafraîchissement des données options est technique (provider) et non lié à un flux de marché. Le Max Pain à $20.00 (+40.3% vs spot) reste éloigné mais dans la zone haussière, ce qui est plus cohérent qu'un Max Pain à -47% du spot. Le ratio Put/Call 0.14 et le Call OI 87.4% traduisent un positionnement options call-dominated, typique d'un small-cap sous le radar retail avec peu d'activité dérivée.
+**Lecture institutionnelle :** L'effondrement du volume à 0.31× la moyenne 20j est le signal le plus significatif de la séance. Après le gap +5.08% du matin sur un volume déjà modéré (1.07× moyenne), l'après-midi a vu une absence quasi-totale de flux. Le retournement de +5.08% à -2.17% en une seule séance traduit un échec de la cassure. Le titre retourne sous MM50 ($14.30) avec un écart de -2.4%. Le momentum technique se dégrade légèrement (score momentum 5.0 vs 5.5), ce qui, combiné au franchissement du seuil 50 sur le score global ajusté, justifie le basculement à SURVEILLER.
 
 ---
 
-## 1. Mise à Jour Technique (Inchangée)
+## 1. Mise à Jour Technique
 
 | Indicateur | Valeur | Lecture |
 |---|---|---|
-| **RSI (14j)** | 51.62 | Zone neutre |
-| **ATR (14j)** | $0.86 | ~6.0% du spot |
-| **MM 50j** | $14.31 | Close sous MM50 (-0.3%) |
+| **Cours close** | $13.95 | Retour sous MM50 |
+| **Change %** | -2.17% | Effacement du gap matinal |
+| **RSI (14j)** | 49.06 | Zone neutre, légère baisse |
+| **ATR (14j)** | $0.85 | ~6.1% du spot |
+| **MM 50j** | $14.30 | Close sous MM50 (-2.4%) |
 | **MM 200j** | N/A | [DONNÉES MANQUANTES] |
-| **Volume** | 1,317,800 | 1.07× moyenne 20j |
-| **52-week range** | $8.53 – $16.48 | Spot à 86.5% du range |
+| **Volume** | 371,118 | **0.31× moyenne 20j** — illiquidité |
+| **52-week range** | $8.53 – $16.48 | Spot à 84.6% du range |
 | **Beta** | 0.955 | Aligné sur le marché |
 
-**Niveaux clés (validés) :**
-- Support immédiat : $13.52 (low du jour)
+**Niveaux clés (révisés) :**
+- Support immédiat : $13.74 (low du jour)
 - Support structurel : $13.00 (zone de consolidation)
-- Résistance intermédiaire : $14.68 (high du jour)
+- Résistance intermédiaire : $14.20 (high du jour)
 - Résistance majeure : $16.00 (consensus PT) / $16.48 (52w high)
-- Stop-loss ATR (2×) : **$12.54** (-12.1%)
-- Take-profit ATR (3×) : **$16.84** (+18.1%)
+- Stop-loss ATR (2×) : **$12.25** (-12.2%)
+- Take-profit ATR (3×) : **$16.50** (+18.3%)
 - Ratio R/R : **1.5**
 
-**Verdict timing :** Défavorable. Le prix reste sous MM50 malgré le gap. Aucune confirmation de cassure ni de retrait vers support avec volume. Attendre.
+**Verdict timing :** Défavorable. Le prix est revenu sous MM50 avec un volume en effondrement. Le gap matinal n'a pas été confirmé. Le range intraday ($13.74–$14.20) est étroit et sans conviction. La configuration reste de consolidation neutre/baissière.
 
 ---
 
 ## 2. Mise à Jour Fondamentale (Inchangée)
 
+Les données fondamentales n'ont pas évolué entre les snapshots 13:00Z et 17:00Z.
+
 | Métrique | Valeur | Source |
 |----------|--------|--------|
-| Market Cap | $643.9M (Yahoo) / $446.6M (FMP) | Yahoo / FMP |
-| P/E (TTM) | 41.94x (Yahoo) / 50.78x (FMP) | Yahoo / FMP |
-| Forward P/E | 11.75x | Yahoo Finance |
+| Market Cap | $630.0M (Yahoo) / $446.6M (FMP) | Yahoo / FMP |
+| P/E (TTM) | 41.03x (Yahoo) / 50.78x (FMP) | Yahoo / FMP |
+| Forward P/E | 11.49x | Yahoo Finance |
 | EV/EBITDA | 14.85x (Yahoo) / 12.15x (FMP) | Yahoo / FMP |
-| P/B | 2.67x (Yahoo) / 1.86x (FMP) | Yahoo / FMP |
+| P/B | 2.61x (Yahoo) / 1.86x (FMP) | Yahoo / FMP |
 | Gross Margin | 85.1% | FMP |
 | Operating Margin | 9.3% | FMP |
 | EBITDA Margin | 20.5% | FMP |
@@ -89,52 +98,52 @@ Le troisième passage du pipeline (13:00 UTC) n'a détecté aucune variation de 
 
 **Filtre Qualité :** 3–4 / 6 — Quality Partielle. Forward P/E attractif et FCF yield solide, mais ROIC faible et séries historiques incomplètes.
 
-> **Note :** La divergence Yahoo/FMP sur le market cap ($643.9M vs $446.6M) et le P/E (41.94x vs 50.78x) persiste. Nous continuons d'utiliser Yahoo comme source primaire pour le spot et les multiples courants, FMP pour les ratios opérationnels et le consensus.
-
 ---
 
 ## 3. Mise à Jour Sentiment / Options / News
 
 | Signal | Valeur | Lecture |
 |---|---|---|
-| Consensus PT | $16.00 (2 analysts) | Upside +12.1%, couverture faible |
-| **Max Pain** | **$20.00** | 🟡 Éloigné du spot (+40.3%) — liquidité options faible |
-| **Put/Call ratio** | **0.14** | 🟢 Call-dominated (très faible activité put) |
-| **Call OI %** | **87.4%** | 🟢 Positionnement options haussier |
+| Consensus PT | $16.00 (2 analysts) | Upside +14.7%, couverture faible |
+| **Max Pain** | $20.00 | 🟡 Éloigné du spot (+43.4%) — liquidité options faible |
+| **Put/Call ratio** | 0.14 | 🟢 Call-dominated (très faible activité put) |
+| **Call OI %** | 87.4% | 🟢 Positionnement options haussier |
 | Short Interest | 7.32% | Modéré, pas de squeeze setup |
 | Social Sentiment | 0 / No data | Sous le radar retail |
 | Upgrades/Downgrades | Aucun | Silence analystes |
 | News structurantes | Aucune | — |
 
-**Verdict Sentiment :** Neutre à légèrement positif sur les options. Le rafraîchissement des données options révèle un positionnement call-dominated (Put/Call 0.14, Call OI 87.4%), ce qui est cohérent avec un titre small-cap tech en consolidation sous ses highs. Cependant, le Max Pain à $20.00 est trop éloigné pour constituer un niveau significatif. L'illiquidité globale des options (expiration proche 2026-06-18 avec peu d'open interest) invalide toute lecture dérivée institutionnelle robuste.
-
-**Alerte options :** Le passage de Max Pain $7.50 → $20.00 entre les snapshots 10:00Z et 13:00Z est un ajustement provider, pas un mouvement de marché. Ne pas sur-interpréter.
+**Verdict Sentiment :** Neutre à légèrement positif sur les options. Le positionnement call-dominated (Put/Call 0.14, Call OI 87.4%) est inchangé. Cependant, la faible liquidité dérivée invalide toute lecture institutionnelle robuste. Aucun flux de news, aucun insider trade, aucun upgrade/downgrade. MITK reste sous le radar.
 
 ---
 
-## 4. Scoring Global — Révision (Inchangé)
+## 4. Scoring Global — Révision
 
 | Pilier | Score | Poids | Pondéré |
 |---|---|---|---|
 | **Catalyseur** | 5.5/10 | 35% | 1.925 |
 | **Valorisation** | 6.5/10 | 40% | 2.600 |
-| **Momentum** | 5.5/10 | 25% | 1.375 |
-| **Score Opportunité** | **5.9/10** | — | **5.900** |
-| **Score Global Ajusté** | **51.0/100** | — | — |
+| **Momentum** | 5.0/10 | 25% | 1.250 |
+| **Score Opportunité** | **5.8/10** | — | **5.775** |
+| **Score Global Ajusté** | **49.8/100** | — | — |
 
 | Seuil | Action | Sizing |
 |---|---|---|
-| Score Global 51.0/100 | **ATTENDRE** | — |
+| Score Global 49.8/100 | **SURVEILLER** | — |
+
+**Explication du basculement :** Le Score Opportunité reste stable à 5.8/10 (catégorie ATTENDRE 50–59), mais les malus techniques (momentum -0.5 pt, timing défavorable) et le franchissement du seuil psychologique 50 sur le score global ajusté placent MITK dans la catégorie **SURVEILLER** (35–49). Ce n'est pas une exclusion — la valorisation reste attractive (6.5/10) — mais un avertissement technique suite à l'effacement du gap et à l'effondrement du volume.
 
 ---
 
-## 5. Révision des Niveaux SL / TP (Inchangée)
+## 5. Révision des Niveaux SL / TP
 
 | Niveau | Prix | Distance |
 |---|---|---|
-| **Stop-loss** | $12.54 | -12.1% |
-| **Take-profit** | $16.84 | +18.1% |
+| **Stop-loss** | $12.25 | -12.2% |
+| **Take-profit** | $16.50 | +18.3% |
 | **Ratio R/R** | 1.5 | Seuil institutionnel non atteint (cible 1:2) |
+
+Les niveaux sont révisés à la baisse pour refléter le nouveau close à $13.95 et l'ATR stable à $0.85.
 
 ---
 
@@ -145,27 +154,29 @@ Le troisième passage du pipeline (13:00 UTC) n'a détecté aucune variation de 
 | **Earnings Q3 FY2026** | 2026-08-06 | **80** |
 | **Expiration options** | 2026-06-18 | 31 |
 
-**Alertes actives :**
-- 🟡 **[MAX PAIN ÉLOIGNÉ]** $20.00 vs spot $14.26 (+40.3%) — liquidité options insuffisante
-- 🟡 **[DONNÉES OPTIONS VOLATILES]** Max Pain a varié de $7.50 à $20.00 intrajour — provider data
-- 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap / P/E — utiliser Yahoo comme primaire
+**Alertes actives (révisées) :**
+- 🟡 **[EFFONDREMENT VOLUME]** 0.31× moyenne 20j — liquidité très faible post-gap
+- 🟡 **[GAP EFFACÉ]** Gap +5.08% du matin entièrement retourné, close sous previous close
+- 🟡 **[MAX PAIN ÉLOIGNÉ]** $20.00 vs spot $13.95 (+43.4%) — liquidité options insuffisante
+- 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($630M vs $447M) et P/E — utiliser Yahoo comme primaire
 - 🟡 **[ROIC FAIBLE]** 3.16% — monitorer dans les prochains filings
 - 🟡 **[ILLIQUIDITÉ OPTIONS]** Faible OI, Put/Call 0.14 — pas de signal dérivé fiable
+- 🟡 **[SCORE SOUS SEUIL 50]** Global ajusté 49.8/100 — surveillance renforcée
 
 ---
 
-## 7. Conclusion — Thèse Confirmée
+## 7. Conclusion — Thèse Modifiée (Basculement ATTENDRE → SURVEILLER)
 
-**Verdict : THÈSE ATTENDRE CONFIRMÉE — AUCUN CHANGEMENT DE CONTEXTE FONDAMENTAL NI TECHNIQUE ENTRE 10:00Z ET 13:00Z.**
+**Verdict : THÈSE ATTENDRE → SURVEILLER. Le gap matinal s'est effacé. Volume en effondrement. Pas d'engagement recommandé.**
 
-MITK reste un small-cap logiciel ($644M Yahoo) avec un profil qualité partielle (3–4/6) : Forward P/E attractif (11.75x), FCF yield solide (12.1%), mais rentabilité du capital faible (ROIC 3.16%) et couverture institutionnelle quasi nulle (2 analysts). Le gap +5.08% du matin n'a trouvé ni catalyseur ni confirmation technique. Le titre évolue sous MM50 dans un range $13.50–$14.70.
+MITK reste un small-cap logiciel ($630M Yahoo) avec un profil qualité partielle (3–4/6) : Forward P/E attractif (11.49x), FCF yield solide (12.1%), mais rentabilité du capital faible (ROIC 3.16%) et couverture institutionnelle quasi nulle (2 analysts). Cependant, la séance du 2026-05-18 a démontré l'absence de conviction acheteuse : après un gap +5.08% sans catalyseur, le titre a reculé pour clôturer à -2.17% sur un volume en effondrement (0.31× moyenne).
 
-Le rafraîchissement des données options (Max Pain $20.00, Put/Call 0.14, Call OI 87.4%) est un ajustement technique provider sans incidence sur la thèse. La faible liquidité dérivée de MITK invalide toute lecture institutionnelle basée sur le flux options.
+Le basculement de **ATTENDRE** à **SURVEILLER** est purement technique : le score global ajusté franchit le seuil 50 (49.8/100) suite à la légère dégradation du momentum (5.0/10) et au timing défavorable. Les fondamentaux n'ont pas changé. Le consensus à $16.00 offre encore un upside théorique de +14.7%, mais sans catalyseur ni volume, cette cible n'est pas activable.
 
-**Recommandation :** **ATTENDRE.**
+**Recommandation :** **SURVEILLER.**
 
-Ne pas engager de nouvelle position. Déteneurs : maintenir le SL à $12.54. Seule une cassure confirmée au-dessus de $16.00–$16.48 avec volume >1.5× moyenne et RSI >55 justifierait une révision à **ACHETER** (sizing réduit).
+Ne pas engager de nouvelle position. Déteneurs : maintenir le SL à $12.25. Seule une cassure confirmée au-dessus de $16.00–$16.48 avec volume >1.5× moyenne et RSI >55 justifierait une révision à **ACHETER** (sizing réduit). À l'inverse, une cassure sous $13.00 avec volume élevé invaliderait la thèse et justifierait un passage à **ÉVITER**.
 
 ---
 
-*Révision post-pipeline 13:00 UTC — Données de base inchangées vs snapshot 10:00 UTC, options rafraîchies — Sources : `data/latest.json`, `data/recommandations_latest.json`, `data/sector_rotation_latest.json`, `data/geo_risk_latest.json`, `data/fx_exposure_latest.json`, `data/social_sentiment_latest.json`, `data/upcoming_events_latest.json`, `data/events_latest.json` — Date : 2026-05-18*
+*Révision post-close 17:00 UTC — Données : `data/latest.json` (2026-05-18T17:00:01Z), `data/recommandations_latest.json`, `data/sector_rotation_latest.json`, `data/geo_risk_latest.json`, `data/fx_exposure_latest.json`, `data/social_sentiment_latest.json`, `data/upcoming_events_latest.json`, `data/events_latest.json` — Date : 2026-05-18*
