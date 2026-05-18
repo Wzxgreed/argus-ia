@@ -1,8 +1,8 @@
 # 🔭 Événements à venir — Watchlist Argus-IA
 
 > **Date :** 2026-05-18
-> **Tickers scannés :** 14
-> **Événements détectés :** 14
+> **Tickers scannés :** 15
+> **Événements détectés :** 15
 
 ---
 
@@ -29,7 +29,7 @@
 
 | Ticker | Type | Date | Jours | Détail | Source |
 |--------|------|------|-------|--------|--------|
-| — | — | — | — | — | — |
+| A | earnings | 2026-05-27 | 9j | Earnings date — Est EPS $1.39-$1.42, Rev $1.8B... | yfinance |
 
 ---
 

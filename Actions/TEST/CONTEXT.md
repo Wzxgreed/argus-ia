@@ -36,20 +36,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 58.47
+- **RSI 14j :** 59.83
 - **MM 50j :** 43.55
 - **MM 200j :** —
 - **ATR 14j :** 1.16
-- **Volume moy. 20j :** 1484
+- **Volume moy. 20j :** 1767
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** update
-- **Fichier :** `TEST_2026-05-18_update.md`
-- **Conclusion :** ATTENDRE — Thèse inactive, modifiée vers la prudence. Cours $44.85 (-2.80% vs 13:00 UTC) sur volume 5.79× avec close au plus bas. RSI retrait à 58.47, marge MM50 réduite à 2.98%. Aucune donnée fondamentale nouvelle. Hors périmètre institutionnel.
+- **Type :** preview
+- **Fichier :** `TEST_2026-05-18_preview.md`
+- **Conclusion :** > **Date :** 2026-05-18
 
 ---
 

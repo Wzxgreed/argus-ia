@@ -15,17 +15,17 @@
 
 American Airlines est une compagnie aérienne legacy fortement endettée (~$40B) avec aucun moat. Le Forward P/E 5.65 attire mais le risque de value trap est élevé : exposition pétrole $105, taux élevés, grèves syndicales. Hors périmètre qualité (0-1/6). Cependant, le consensus analyste FMP s'est structuré à $16.02 (+29.4% upside, 15 analystes), le timing technique reste favorable (RSI 60.33, au-dessus MM50), et le short interest 12.2% crée un optionality de squeeze si earnings Q2 (23/07) surprisent à la hausse. Upgrade tactique de SURVEILLER à ACHETER (sizing réduit, 1-3 mois). Respect strict du SL à $11.46. AAdvantage (programme loyalty) = hidden asset valeur ~$20-25B > market cap totale. Volume compressé -46% vs moyenne = manque de conviction bilatéral, setup de compression avant expansion volatilité.
 
-**✅ Données complètes** — Cours $12.38, RSI 60.33, ATR $0.46, P/E, beta, options (Put/Call 4.07, Max Pain $9.50), consensus FMP, short interest disponibles dans `data/latest.json`.
+**✅ Données complètes** — Cours, RSI, ATR, P/E, beta, options, consensus FMP, short interest disponibles dans `data/latest.json`.
 **⚠️ Données manquantes** — Accounting risk (M-Score, Z-Score), quant report, MACD, MM200, IV Rank, insider trades détaillés.
 
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 66.1/100 (ajusté 71.1)
+- **Score global :** —/10
 - **Prix cible :** $13.76
 - **Stop-loss :** $11.46
-- **Statut thèse :** Confirmée
-- **Horizon :** 1-3 mois
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -37,26 +37,25 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 
 ## 🚨 Alertes actives
 
-- Baisse — $11.46 (SL 2×ATR) — 🟢 Active
-- Hausse — $13.76 (TP 3×ATR) / $14.00 (révision si volume >50M) — 🟢 Active
-- Volume — >2× moy. 20j (>100M) — 🟢 Active
+- Baisse — $11.41 (SL 2×ATR) — 🟢 Active
+- Hausse — $14.00 (prix cible) — 🟢 Active
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- 2026-07-23 — Earnings Q2 FY2026 (Est EPS -$0.34 à $0.17, Rev $16.6B)
-- 2026-05-22 — Expiration options (Max Pain $9.50, Put/Call 4.07)
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 60.33
+- **RSI 14j :** 60.11
 - **MM 50j :** 11.54
 - **MM 200j :** —
-- **ATR 14j :** 0.46
-- **Volume moy. 20j :** 50199404
+- **ATR 14j :** 0.47
+- **Volume moy. 20j :** 51790223
 
 ---
 
@@ -65,7 +64,7 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 - **Date :** 2026-05-18
 - **Type :** update
 - **Fichier :** `AAL_2026-05-18_update.md`
-- **Conclusion :** **Date :** 2026-05-18
+- **Conclusion :** **Date :** 2026-05-18 (snapshot 17:00 UTC)
 
 ---
 

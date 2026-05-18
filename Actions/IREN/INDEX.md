@@ -9,13 +9,13 @@
 
 ## Thèse Courante
 
-IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le titre a subi une pression vendeuse sévère sur 2 sessions : **-15.6%** ($58.40 → $49.30), dont **-6.9%** aujourd'hui sur faible volume (54% du moyen). La MM50 à $44.97 est le niveau critique à défendre.
+IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le titre a rebondi à **$50.46** en session du 2026-05-18 (low $48.48 défendu), après une pression vendeuse de **-15.6%** sur 2 sessions ($58.40 → $49.30). Le volume est remonté à **80%** du moyen 20j (vs 54% à 17h), signalant une absorption technique. La MM50 à **$45.00** reste intacte.
 
-**Score Opportunité : 5.8/10** (Catalyseur 7.8, Valorisation 4.0, Momentum 6.0)
-**Score Global ajusté : 63.3/100**
+**Score Opportunité : 6.3/10** (Catalyseur 8.3, Valorisation 4.5, Momentum 6.5)
+**Score Global ajusté : 68.3/100**
 **Action : ACHETER — Sizing Réduit** — réservé aux portefeuilles tolérants au risque
 
-> **⚠️ Réserve earnings :** Les résultats Q1 2026 sont attendus le 2026-05-18. La recommandation est basée sur des données pre-earnings (FY 2025). Attendre la publication officielle avant toute nouvelle entrée significative. Ne pas renforcer avant les résultats.
+> **⚠️ Réserve earnings :** Les résultats Q1 2026 sont attendus le 2026-05-18. La recommandation est basée sur des données pre-earnings (FY 2025). Attendre la publication officielle avant toute nouvelle entrée significative. Ne pas renforcer avant les résultats. Le rebond depuis $48.48 est encourageant, mais la volatilité reste extrême (beta 4.18).
 
 ---
 
@@ -27,6 +27,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 | 2026-05-17 | [IREN_2026-05-17_earnings.md](IREN_2026-05-17_earnings.md) | Post-earnings (preview) | Preview pre-earnings — résultats Q1 2026 non encore disponibles |
 | 2026-05-18 | [IREN_2026-05-18_update.md](IREN_2026-05-18_update.md) | Mise à jour matin | Cours stable $52.94 post-gap · Earnings J-0 · Scores inchangés · Thèse confirmée |
 | 2026-05-18 | [IREN_2026-05-18_update.md](IREN_2026-05-18_update.md) (rev. 17:00) | Mise à jour soir | Cours $49.30 (-6.9% session) · Volume faible · MM50 $45 à surveiller · Thèse modifiée sous pression |
+| 2026-05-18 | [IREN_2026-05-18_update.md](IREN_2026-05-18_update.md) (rev. 20:07) | Mise à jour soir | Cours $50.46 (+2.4% rebond) · Volume 80% moyen · Scores recalculés 6.3/68.3 · Thèse confirmée |
 
 ---
 
@@ -53,4 +54,4 @@ Voir [SUPPLY_CHAIN.md](SUPPLY_CHAIN.md) pour la cartographie fournisseurs/client
 
 ---
 
-*Dernière mise à jour : 2026-05-18 (rev. 17:00 UTC)*
+*Dernière mise à jour : 2026-05-18 (rev. 20:07 UTC)*

@@ -16,10 +16,10 @@
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
-- **Score global :** 66.0/100
-- **Prix cible :** $18.56
-- **Stop-loss :** $11.22
-- **Statut thèse :** MODIFIÉE — ACHETER (Réduit)
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
 - **Horizon :** 1–3 mois
 
 ---
@@ -38,25 +38,24 @@
 
 ## 📅 Prochains événements
 
-- Earnings Q2 2026 : 13 août 2026 (87 jours)
-- Expiration options : 2026-05-22 (4 jours)
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 21.14
+- **RSI 14j :** 23.47
 - **MM 50j :** 14.26
 - **MM 200j :** —
-- **ATR 14j :** 0.45
-- **Volume moy. 20j :** 43915476
+- **ATR 14j :** 0.46
+- **Volume moy. 20j :** 45072557
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** update (post-pipeline 17:00 UTC)
+- **Type :** update
 - **Fichier :** `NU_2026-05-18_update.md`
 - **Conclusion :** **Thèse : MODIFIÉE — ACHETER (Réduit)**
 

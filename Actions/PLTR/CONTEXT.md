@@ -1,4 +1,4 @@
-# CONTEXT — PLTR — Dernière mise à jour : 2026-05-18 17:00 UTC
+# CONTEXT — PLTR — Dernière mise à jour : 2026-05-18
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Score global :** 42.8/100
-- **Prix cible :** $187.61 (consensus 33 analysts)
-- **Stop-loss :** $122.06
-- **Statut thèse :** Confirmée — pas modifiée
-- **Horizon :** Long terme — pas d'entrée avant confirmation technique
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -30,31 +30,26 @@
 
 ## 📅 Prochains événements
 
-- Earnings Q2 FY2026 : 2026-08-03 (77 jours)
-- Expiration options : 2026-05-22 (4 jours)
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 40.49
-- **MM 50j :** 143.93
+- **RSI 14j :** 42.52
+- **MM 50j :** 143.96
 - **MM 200j :** —
-- **ATR 14j :** 5.80
-- **Volume moy. 20j :** 43648521
-- **Volume jour :** 19472826
-- **Max Pain :** 80.00
-- **Put/Call :** 0.69
-- **Call OI % :** 59.3
+- **ATR 14j :** 5.8
+- **Volume moy. 20j :** 44222683
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-18 17:00 UTC
+- **Date :** 2026-05-18
 - **Type :** update
 - **Fichier :** `PLTR_2026-05-18_update.md`
-- **Conclusion :** Cours légèrement en repli (−0.25%) sur volume en chute libre (−55%). RSI remonte à 40.49 (sortie zone < 40). Structure technique reste défavorable. Thèse SURVEILLER confirmée.
+- **Conclusion :** > **Source :** Données `data/latest.json` (2026-05-18 17:00 UTC)
 
 ---
 
