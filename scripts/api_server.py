@@ -502,6 +502,203 @@ Commence l'analyse maintenant."""
             JOBS[job_id]["finished_at"] = now_str()
 
 
+def _run_claude_update(job_id: str, ticker: str, env: dict, today: str):
+    """Lance Claude CLI via Ollama pour générer un _update.md pour un ticker."""
+    logs = JOBS[job_id].get("logs", [])
+    ACTIONS_DIR = BASE_DIR / "Actions"
+    ticker_dir = ACTIONS_DIR / ticker
+    report_file = ticker_dir / f"{ticker}_{today}_update.md"
+
+    update_prompt = f"""Tu es l'analyste institutionnel senior du desk Argus-IA. Mets à jour l'analyse de **{ticker}**.
+
+Protocole obligatoire :
+1. Lis l'analyse précédente dans Actions/{ticker}/ (le fichier le plus récent)
+2. Lis data/latest.json et extrait les nouvelles données pour {ticker}
+3. Lis data/recommandations_latest.json pour les scores agents actualisés
+4. Lis data/quant_report_latest.json, data/geo_risk_latest.json, data/accounting_risk_latest.json, data/sector_rotation_latest.json, data/social_sentiment_latest.json, data/fx_exposure_latest.json, data/upcoming_events_latest.json, data/events_latest.json
+5. Compare avec l'analyse précédente : qu'est-ce qui a changé ? Cours, RSI, nouvelles, scores, alertes
+6. Rédige le rapport dans Actions/{ticker}/{ticker}_{today}_update.md avec :
+   - Résumé des changements depuis l'analyse précédente
+   - Mise à jour technique (nouveaux niveaux, RSI, momentum)
+   - Mise à jour fondamentale (si nouvelles données)
+   - Mise à jour sentiment/options/news
+   - Nouveau scoring global si les scores ont changé
+   - Révision des niveaux SL/TP si nécessaire
+   - Conclusion : la thèse est-elle confirmée, modifiée ou invalidée ?
+7. Mets à jour Actions/{ticker}/INDEX.md avec la nouvelle thèse courante
+8. Mets à jour Actions/{ticker}/CONTEXT.md
+
+Règles absolues :
+- Utilise EXCLUSIVEMENT les chiffres des fichiers JSON
+- Compare explicitement avec les données de l'analyse précédente
+- Mentionne tout changement significatif (cours ±5%, RSI franchi, news majeure)
+- Format institutionnel JPM/GS/MS, concis et chiffré
+- Ne mentionne pas que tu es un LLM
+
+Commence la mise à jour maintenant."""
+
+    claude_cmd = [
+        "ollama", "launch", "claude",
+        "--model", "kimi-k2.6:cloud",
+        "-y",
+        "--",
+        "-p", update_prompt,
+        "--permission-mode", "auto",
+    ]
+
+    logs.append(f"[{now_str()}] 📤 Mise à jour {ticker} — envoi prompt Claude CLI ({len(update_prompt)} caractères)...")
+    with JOBS_LOCK:
+        JOBS[job_id]["logs"] = logs.copy()
+
+    try:
+        claude_proc = subprocess.Popen(
+            claude_cmd,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            text=True,
+            cwd=str(BASE_DIR),
+            env=env,
+        )
+        _stream_process(job_id, claude_proc, logs)
+        claude_rc = claude_proc.wait(timeout=600)
+
+        if claude_rc != 0:
+            logs.append(f"[{now_str()}] ⚠️  Mise à jour {ticker} — exit={claude_rc}")
+        elif report_file.exists():
+            logs.append(f"[{now_str()}] ✅ Mise à jour {ticker} sauvegardée : {report_file}")
+        else:
+            logs.append(f"[{now_str()}] ⚠️  Mise à jour {ticker} — rapport non trouvé")
+
+        with JOBS_LOCK:
+            JOBS[job_id]["logs"] = logs.copy()
+
+    except subprocess.TimeoutExpired:
+        claude_proc.kill()
+        logs.append(f"[{now_str()}] ⏱ Mise à jour {ticker} — timeout")
+        with JOBS_LOCK:
+            JOBS[job_id]["logs"] = logs.copy()
+    except Exception as e:
+        logs.append(f"[{now_str()}] ❌ Mise à jour {ticker} — erreur : {e}")
+        with JOBS_LOCK:
+            JOBS[job_id]["logs"] = logs.copy()
+
+
+def run_update_all(job_id: str, custom_prompt: str = ""):
+    """Met à jour les analyses de tous les tickers de la watchlist existants dans Actions/."""
+    env = os.environ.copy()
+    env["PYTHONPATH"] = str(BASE_DIR / "agents") + ":" + str(BASE_DIR / "scripts") + ":" + str(BASE_DIR)
+
+    logs = JOBS[job_id].get("logs", [])
+
+    # ── Lister les tickers à mettre à jour ──
+    config = _load_json(CONFIG_PATH)
+    all_tickers = [t["ticker"].upper() for t in config.get("tickers", [])]
+    ACTIONS_DIR = BASE_DIR / "Actions"
+    tickers_to_update = [t for t in all_tickers if (ACTIONS_DIR / t).exists()]
+
+    if not tickers_to_update:
+        logs.append(f"[{now_str()}] ⚠️  Aucun ticker à mettre à jour (pas de dossiers dans Actions/)")
+        with JOBS_LOCK:
+            JOBS[job_id]["status"] = "success"
+            JOBS[job_id]["returncode"] = 0
+            JOBS[job_id]["logs"] = logs.copy()
+            JOBS[job_id]["finished_at"] = now_str()
+        return
+
+    logs.append(f"[{now_str()}] 📋 {len(tickers_to_update)} ticker(s) à mettre à jour : {', '.join(tickers_to_update)}")
+    with JOBS_LOCK:
+        JOBS[job_id]["logs"] = logs.copy()
+
+    # ── Étape 1 : Fetch données ──
+    with JOBS_LOCK:
+        JOBS[job_id]["status"] = "running"
+        logs.append(f"[{now_str()}] 📡 Étape 1/3 — Fetch des données pour toute la watchlist...")
+        JOBS[job_id]["logs"] = logs.copy()
+
+    cmd1 = ["bash", str(BASE_DIR / "scripts" / "analyse_ticker.sh"), tickers_to_update[0]]
+    process1 = subprocess.Popen(cmd1, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, cwd=BASE_DIR, env=env)
+    _stream_process(job_id, process1, logs)
+    rc1 = process1.wait()
+
+    if rc1 != 0:
+        with JOBS_LOCK:
+            logs.append(f"[{now_str()}] ❌ Échec du fetch (code {rc1})")
+            JOBS[job_id]["status"] = "failed"
+            JOBS[job_id]["returncode"] = rc1
+            JOBS[job_id]["finished_at"] = now_str()
+        return
+
+    logs.append(f"[{now_str()}] ✅ Fetch terminé")
+
+    # ── Étape 2 : Agents réels ──
+    with JOBS_LOCK:
+        logs.append(f"[{now_str()}] 🔧 Étape 2/3 — Exécution des agents Python réels...")
+        JOBS[job_id]["logs"] = logs.copy()
+
+    agents = ["accounting", "geo", "crypto", "sector_rotation", "social", "fx", "event_driven", "watchman", "detect_major_events", "recommandation"]
+    ok_count = 0
+    for agent in agents:
+        lockfile = BASE_DIR / "data" / ".pipeline.lock"
+        for _ in range(5):
+            if not lockfile.exists():
+                break
+            try:
+                data = json.loads(lockfile.read_text())
+                old_pid = data.get("pid")
+                if old_pid:
+                    os.kill(old_pid, 0)
+                    time.sleep(2)
+                    continue
+            except (ProcessLookupError, ValueError, OSError):
+                pass
+            lockfile.unlink(missing_ok=True)
+            break
+        else:
+            lockfile.unlink(missing_ok=True)
+
+        cmd_agent = [PYTHON, str(BASE_DIR / "agents" / "orchestrator.py"), f"--agent={agent}"]
+        proc = subprocess.Popen(cmd_agent, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, cwd=BASE_DIR, env=env)
+        _stream_process(job_id, proc, logs)
+        rc = proc.wait()
+        if rc == 0:
+            ok_count += 1
+        else:
+            logs.append(f"[{now_str()}] ⚠️  Agent {agent} exit={rc}")
+
+    logs.append(f"[{now_str()}] ✅ Agents terminés — {ok_count}/{len(agents)} OK")
+
+    # ── Étape 3 : Mises à jour Claude CLI via Ollama (parallèle, max 3) ──
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    with JOBS_LOCK:
+        logs.append(f"[{now_str()}] 🤖 Étape 3/3 — Mise à jour {len(tickers_to_update)} analyse(s) via Claude CLI (Ollama/kimi)...")
+        JOBS[job_id]["logs"] = logs.copy()
+
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
+    completed = 0
+    failed = 0
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        futures = {executor.submit(_run_claude_update, job_id, t, env, today): t for t in tickers_to_update}
+        for future in as_completed(futures):
+            ticker = futures[future]
+            try:
+                future.result()
+                completed += 1
+            except Exception as e:
+                logs.append(f"[{now_str()}] ❌ Exception mise à jour {ticker} : {e}")
+                failed += 1
+                with JOBS_LOCK:
+                    JOBS[job_id]["logs"] = logs.copy()
+
+    logs.append(f"[{now_str()}] ✅ Mises à jour terminées — {completed} OK, {failed} échec(s)")
+
+    with JOBS_LOCK:
+        JOBS[job_id]["status"] = "success" if failed == 0 else "failed"
+        JOBS[job_id]["returncode"] = 0 if failed == 0 else 1
+        JOBS[job_id]["logs"] = logs.copy()
+        JOBS[job_id]["finished_at"] = now_str()
+
+
 class Handler(BaseHTTPRequestHandler):
     def log_message(self, format, *args):
         pass  # réduit le bruit
@@ -654,6 +851,33 @@ class Handler(BaseHTTPRequestHandler):
                 "ticker": ticker,
                 "status": "queued",
                 "message": f"Préparation des données pour {ticker} lancée (fetch + agents réels + Claude CLI via Ollama). Suivez le statut avec /api/status/{job_id}",
+            })
+            return
+
+        if path == "/api/analyse-update-all":
+            custom_prompt = query.get("prompt", [""])[0].strip()
+
+            job_id = str(uuid.uuid4())[:8]
+            with JOBS_LOCK:
+                JOBS[job_id] = {
+                    "ticker": "UPDATE_ALL",
+                    "status": "queued",
+                    "started_at": now_str(),
+                    "logs": [f"[{now_str()}] 🚀 Mise à jour automatique de toutes les analyses (fetch + agents + Claude CLI via Ollama)..."],
+                }
+
+            thread = threading.Thread(
+                target=run_update_all,
+                args=(job_id, custom_prompt),
+                daemon=True,
+            )
+            thread.start()
+
+            self._send_json(202, {
+                "job_id": job_id,
+                "ticker": "UPDATE_ALL",
+                "status": "queued",
+                "message": f"Mise à jour de toutes les analyses lancée. Suivez le statut avec /api/status/{job_id}",
             })
             return
 

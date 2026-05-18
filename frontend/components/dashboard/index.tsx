@@ -1336,6 +1336,31 @@ export function LaunchAnalysis() {
     }
   }
 
+  async function startUpdateAllAnalysis() {
+    setLoading(true);
+    setStatus("queued");
+    setLogs([]);
+    try {
+      const params = new URLSearchParams();
+      if (customPrompt.trim()) params.set("prompt", customPrompt.trim());
+
+      const res = await fetch(`/api/analyse-update-all?${params.toString()}`, { method: "POST" });
+      const data = await res.json();
+      if (data.job_id) {
+        setJobId(data.job_id);
+        setStatus("queued");
+      } else {
+        setStatus("error");
+        setLogs([data.error || "Erreur inconnue"]);
+      }
+    } catch (e) {
+      setStatus("error");
+      setLogs(["Impossible de contacter le serveur API"]);
+    } finally {
+      setLoading(false);
+    }
+  }
+
   useEffect(() => {
     if (!jobId || status === "success" || status === "failed") return;
     const interval = setInterval(async () => {
@@ -1357,7 +1382,7 @@ export function LaunchAnalysis() {
   // ── Détection de progression à partir des logs ──
   const allText = logs.join(" ");
   const isFullAnalysis = allText.includes("analyse COMPLÈTE");
-  const isClaudeAnalysis = allText.includes("Claude CLI via Ollama") || allText.includes("kimi-k2.6");
+  const isClaudeAnalysis = allText.includes("Claude CLI via Ollama") || allText.includes("Mise à jour automatique") || allText.includes("kimi-k2.6");
   const steps = isClaudeAnalysis
     ? [
         {
@@ -1515,6 +1540,15 @@ export function LaunchAnalysis() {
         >
           {isRunning ? <Loader2 className="h-4 w-4 animate-spin" /> : <Terminal className="h-4 w-4" />}
           {isRunning ? "Analyse..." : "Analyse IA (Ollama)"}
+        </button>
+        <button
+          onClick={startUpdateAllAnalysis}
+          disabled={isRunning}
+          className="inline-flex items-center gap-1.5 rounded-xl bg-rose-500 px-4 py-2 text-sm font-medium text-white hover:bg-rose-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+          title="Mise à jour automatique de toutes les analyses existantes (fetch + agents + Claude CLI via Ollama)"
+        >
+          {isRunning ? <Loader2 className="h-4 w-4 animate-spin" /> : <RefreshCw className="h-4 w-4" />}
+          {isRunning ? "Mise à jour..." : "Mise à jour analyses"}
         </button>
       </div>
 
@@ -1727,6 +1761,7 @@ export function LaunchAnalysis() {
         <p><strong className="text-accent">Préparer</strong> — Fetch des données + ajout à la watchlist uniquement.</p>
         <p><strong className="text-violet-400">Analyser LLM</strong> — Fetch + génération automatique du rapport via IA (crée Actions/{ticker}/_init.md).</p>
         <p><strong className="text-amber-400">Analyse IA (Ollama)</strong> — Fetch + agents réels + Claude CLI via Ollama (kimi-k2.6:cloud). Lance `ollama launch claude --model kimi-k2.6:cloud` avec lecture des fichiers, outils natifs et historique. Rapport sauvegardé dans Actions/{ticker}/{ticker}_YYYY-MM-DD_claude.md. Ajoute des instructions personnalisées ci-dessus.</p>
+        <p><strong className="text-rose-400">Mise à jour analyses</strong> — Met à jour automatiquement toutes les analyses existantes de la watchlist. Fetch + agents une seule fois, puis lance Claude CLI en parallèle (max 3) pour générer un `_update.md` par ticker avec les nouvelles données.</p>
       </div>
     </motion.div>
   );
