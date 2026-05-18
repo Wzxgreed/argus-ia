@@ -23,7 +23,7 @@ TEST est un ticker de test / micro-cap sans données fondamentales exploitables 
 | TEST_2026-05-17_preview.md | 2026-05-17 | Preview earnings | — |
 | TEST_2026-05-18_preview.md | 2026-05-18 | Preview earnings (auto) | — |
 | TEST_2026-05-18_update.md | 2026-05-18 | Mise à jour quotidienne (08:44 UTC) | ATTENDRE |
-| TEST_2026-05-18_update.md | 2026-05-18 | Confirmation post-pipeline (10:00 UTC) | ATTENDRE |
+| TEST_2026-05-18_update.md | 2026-05-18 | Confirmation post-pipeline 13:00 UTC | ATTENDRE |
 
 ---
 

@@ -47,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-18
-- **Type :** preview
-- **Fichier :** `TEST_2026-05-18_preview.md`
-- **Conclusion :** > **Date :** 2026-05-18
+- **Type :** update
+- **Fichier :** `TEST_2026-05-18_update.md`
+- **Conclusion :** ATTENDRE — Thèse INACTIVE, confirmée inchangée. Snapshot 13:00 UTC identique à 10:00 UTC. Filtre Qualité 0/6, liquidité insuffisante, aucune donnée post-earnings observable.
 
 ---
 
