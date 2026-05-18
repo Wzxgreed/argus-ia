@@ -1,126 +1,129 @@
 # VRT — Mise à Jour Quotidienne
 
 **Date :** 2026-05-18
-**Cours :** $370.94 (−1.41%)
-**Market Cap :** $142.48B
-**Volume :** 4.86M (0.84× moy. 20j)
+**Cours :** $370.94 (−1.41% vs clôture précédente $376.23)
+**Market Cap :** $142.48B (Yahoo) / $61.84B [OBSOLÈTE — FMP FY2025]
+**Volume :** 4.86M (0.84× moy. 20j : 5.76M)
 **52-Week Range :** $101.00 – $379.94
-**Prochain Earnings :** 2026-07-29 (72 jours · Est EPS $1.39–$1.59 / Rev $3.4B)
+**Prochain Earnings :** 2026-07-29 (72 jours · Est EPS $1.39–$1.59 / Rev ~$3.4B)
+**Sector :** Industrials / Electrical Equipment & Parts
 
 ---
 
 ## Résumé des changements depuis 2026-05-17
 
-| Indicateur | 2026-05-17 | 2026-05-18 | Δ |
-|-----------|-----------|-----------|---|
-| Cours | $370.94 | $370.94 | **0.00%** |
-| RSI 14j | 68.14 | 68.14 | **Inchangé** |
-| ATR 14j | $17.86 | $17.86 | **Inchangé** |
-| MM 50j | $296.64 | $296.64 | **Inchangé** |
-| Volume relatif | 0.84× | 0.84× | **Inchangé** |
-| Put/Call Ratio | 3.41 | **39.0** | 🔴 **+1044%** |
-| Max Pain (options) | $215.00 | **$185.00** | 🔴 **−$30** |
-| Score Opportunité | 5.43/10 | **4.1/10** | 🔴 **−1.33 pt** |
-| Score Catalyseur | 8.5/10 | **4.3/10** | 🔴 **−4.2 pt** |
-| Score Valorisation | 3.0/10 | **2.5/10** | 🔴 **−0.5 pt** |
-| Score Momentum | 7.0/10 | **6.5/10** | 🔴 **−0.5 pt** |
-| Consensus PT | $257.49 | $257.49 | **Inchangé** |
-| Nombre analystes | 43 | 43 | **Inchangé** |
+| Indicateur | 2026-05-17 (init) | 2026-05-18 (JSON) | Δ |
+|---|---|---|---|
+| Cours | $370.94 | $370.94 | 0.00% |
+| RSI 14j | 68.14 | 68.14 | Inchangé |
+| ATR 14j | $17.86 | $17.86 | Inchangé |
+| MM 50j | $296.64 | $296.64 | Inchangé |
+| Volume relatif | 0.84× | 0.84× | Inchangé |
+| Put/Call Ratio | 3.41 | **39.0** | 🔴 Anomalie majeure |
+| Max Pain | $215.00 | **$185.00** | 🔴 −$30 |
+| Score Opportunité | 5.43/10 (init) | **4.1/10** | 🔴 −1.33 pt |
+| Score Catalyseur | 8.5/10 (init) | **4.3/10** | 🔴 −4.2 pt |
+| Score Valorisation | 3.0/10 (init) | **2.5/10** | 🔴 −0.5 pt |
+| Score Momentum | 7.0/10 (init) | **6.5/10** | 🔴 −0.5 pt |
+| Consensus PT | $257.49 | $257.49 | Inchangé (43 analysts) |
 
-> ⚠️ **Anomalie données options** — Put/Call 39.0 et max pain $185 sont extrêmes et divergent fortement des données initiales ($215 / 3.41). Cela peut refléter un parsing erroné ou un hedging massif autour de l'expiration du 22 mai. À traiter comme alerte conditionnelle.
+> ⚠️ **Anomalie données options** — Put/Call 39.0 et max pain $185 sont extrêmes. Possible parsing erroné sur l'expiration du 22 mai ou hedging institutionnel massif. À traiter comme alerte conditionnelle jusqu'à vérification.
 
 ---
 
 ## Mise à jour technique
 
 | Indicateur | Valeur | Interprétation |
-|-----------|--------|----------------|
-| RSI 14j | **68.14** | Proche suracheté (>70). Inchangé depuis hier |
+|---|---|---|
+| RSI 14j | **68.14** | Proche suracheté (>70). Risque pullback technique |
 | ATR 14j | **$17.86** | Volatilité élevée (beta 2.10) |
 | MM 50j | **$296.64** | Cours +25% au-dessus — tendance haussière intacte |
-| MM 200j | — | Non disponible [UNSOURCED] |
-| Support clé | ~$296.64 (MM50) | Si rupture → correction significative |
-| Résistance clé | ~$379.94 (52W high) | Doit dépasser pour continuation haussière |
-| Volume relatif | 0.84× | Volume normal, pas d'activité inhabituelle |
+| MM 200j | **null** | [DONNÉES MANQUANTES] |
+| Support clé | $296.64 (MM50) | Si rupture → correction vers $280–$300 |
+| Résistance clé | $379.94 (52W high) | Doit dépasser pour continuation |
+| Volume relatif | 0.84× | Normal, pas d'activité inhabituelle |
 
 **Options (expiration 2026-05-22)**
 | Métrique | Valeur | Commentaire |
-|----------|--------|-------------|
-| Max Pain | **$185.00** | Gap 50% vs cours — extrêmement bas |
-| Put/Call Ratio | **39.0** | Anomalie majeure ou hedging massif |
-| Call OI % | 2.5% | Open Interest à 97.5% puts |
+|---|---|---|
+| Max Pain | **$185.00** | Gap 50% vs cours. Extrêmement bas |
+| Put/Call Ratio | **39.0** | Anomalie ou hedging massif |
+| Call OI % | 2.5% | 97.5% puts |
 
-> 🔴 **Alerte options** — Si put/call 39.0 est exact, le marché anticipe une chute violente post-22 mai. Si c'est une erreur de parsing, la donnée reste [DONNÉES PARTIELLES].
+> 🔴 **Alerte options** — Même si partiellement erroné, la divergence put/call reflète une nervosité extrême autour de l'expiration vendredi 22 mai.
 
 **Verdict timing : Défavorable**
-- Cours proche du 52W high, RSI 68, options extrêmement bearish (même avec marge d'erreur)
-- Attendre un pullback vers $330–$340 ou une consolidation avant entrée
+- Cours proche 52W high, RSI 68, options bearish extrême
+- Attendre pullback $330–$340 ou consolidation avant entrée
 
 ---
 
 ## Mise à jour fondamentale
 
-| Métrique | Valeur | Contexte |
-|----------|--------|----------|
-| P/E (LTM) | **93.44** | Inchangé — extrêmement élevé |
-| Forward P/E | **42.10** | Inchangé — reflète croissance >30% attendue |
-| EV/EBITDA (Yahoo) | **60.11** | Premium de croissance massif |
-| EV/EBITDA (FMP FY2025) | **28.80** | Multiple annual plus raisonnable |
-| EV/Revenue | **13.21** | Premium IA intact |
-| P/B | **36.00** | Valorisation potentiel, pas de valeur comptable |
-| Beta | **2.099** | Très volatile — sizing réduit obligatoire |
-| Short Interest | **3.09%** | Modéré, pas de setup short squeeze |
-| FCF yield | **3.06%** (FMP) | FCF positif, génération de cash confirmée |
-| ROIC | **18.55%** | Création de valeur confirmée |
-| Net Debt/EBITDA | **0.76×** | Levier modéré et confortable |
+| Métrique | Source | Valeur | Contexte |
+|---|---|---|---|
+| P/E (Yahoo TTM) | Yahoo | **93.44** | Extrêmement élevé |
+| P/E (FMP FY2025) | FMP | **46.40** | Annual data, share count obsolète → [DONNÉES PARTIELLES] |
+| Forward P/E | Yahoo | **42.10** | Réflète croissance >30% attendue |
+| EV/EBITDA (Yahoo TTM) | Yahoo | **60.11** | Premium massif |
+| EV/EBITDA (FMP FY2025) | FMP | **28.80** | Multiple annual plus raisonnable |
+| EV/Revenue | Yahoo | **13.21** | Premium IA intact |
+| P/B (Yahoo) | Yahoo | **36.00** | Valorisation potentiel |
+| P/B (FMP) | FMP | **15.69** | [DONNÉES PARTIELLES — share count obsolète] |
+| Beta | Yahoo | **2.099** | Très volatile. Sizing réduit obligatoire |
+| Short Interest | Yahoo | **3.09%** | Modéré |
+| FCF Yield (FMP) | FMP | **3.06%** | Génération cash confirmée |
+| ROIC (FMP) | FMP | **18.55%** | Création de valeur confirmée |
+| Net Debt/EBITDA (FMP) | FMP | **0.76×** | Levier modéré, confortable |
+| Interest Coverage (FMP) | FMP | **22.0×** | Très solide |
+| Gross Margin (FMP) | FMP | **34.4%** | Bonne |
+| Operating Margin (FMP) | FMP | **18.5%** | Excellente conversion |
 
-**Filtre Qualité :** 5–6/6 ✅ **Quality Compounder** — inchangé. Les fondamentaux restent solides (ROIC 18.5%, marges en expansion, FCF positif, moat technologique liquid cooling).
+> [DONNÉES PARTIELLES] — FMP market cap $61.84B et ratios dérivés sont basés sur des données FY2025 annual (2025-12-31) avec un share count obsolète. Les ratios Yahoo (P/E 93, P/B 36) reflètent la capitalisation actuelle $142.48B. Les deux jeux de données coexistent dans `latest.json`.
+
+**Filtre Qualité :** 5–6/6 ✅ **Quality Compounder** — inchangé. Fondamentaux solides (ROIC 18.5%, marges en expansion, FCF positif, moat liquid cooling).
 
 ---
 
 ## Mise à jour sentiment / flux / news
 
 | Signal | État | Impact |
-|--------|------|--------|
-| Consensus analystes | 43 analysts · PT $257.49 | ⚠️ **OBSOLÈTE** — cours +44% au-dessus du consensus. Aucune révision enregistrée depuis hier |
-| Short Interest | 3.09% | 🟢 Modéré |
-| Put/Call Ratio | **39.0** (ex 3.41) | 🔴🔴 **Anomalie / hedging extrême** |
-| Social Sentiment | 0 mentions / No data | 🟢 Pas de pump/dump détecté |
-| Event-Driven | Aucun événement corporate | 🟢 Pas de M&A, buyback, guidance change |
-| FX Exposure | 45% EUR/CNY · Score 0.0 | 🟢 Aligned — pas d'impact FX aujourd'hui |
-| Sector Rotation | XLI Industrials momentum 0.0 | 🟡 Industriels sous-performants vs XLK Tech (10.0) |
+|---|---|---|
+| Consensus analystes | 43 analysts · PT $257.49 | ⚠️ OBSOLÈTE — cours +44% au-dessus. Aucune révision détectée |
+| Put/Call Ratio | **39.0** (ex 3.41) | 🔴🔴 Anomalie / hedging extrême |
+| Social Sentiment | 0 mentions / No data | 🟢 Pas de pump/dump |
+| Event-Driven | 0 événement corporate | 🟢 Pas de M&A, buyback, guidance change |
+| FX Exposure | 45% EUR/CNY · Score 0.0 | 🟢 Aligné — pas d'impact FX aujourd'hui |
+| Sector Rotation | XLI Industrials · Momentum 0.0 | 🟡 Sous-performant vs XLK Tech (10.0) et XLE Energy (7.42) |
 
 ---
 
-## Scoring global révisé
+## Scoring global (source : `data/recommandations_latest.json`)
 
-| Axe | Score Brut | Pondération (Inconnue/Stagflation) | Pondéré |
-|-----|-----------|-----------------------------------|---------|
+| Axe | Score | Pondération (Inconnue/Stagflation) | Pondéré |
+|---|---|---|---|
 | Catalyseur | **4.3/10** | 35% | 1.51 |
 | Valorisation | **2.5/10** | 40% | 1.00 |
 | Momentum | **6.5/10** | 25% | 1.63 |
-| **Score Opportunité brut** | | | **4.1/10** |
-| Malus Cours > Consensus +44% | −0.5 pt | | |
-| **Score Opportunité ajusté** | | | **3.6/10** |
+| **Score Opportunité** | | | **4.1/10** |
+| **Score Global Composite** | | | **41.3/100** |
+| **Score Global Ajusté** | | | **46.3/100** |
 
-**Score Global Composite :** 41.3/100 (46.3 ajusté)
-
-> Règle absolue : Score Valorisation ≤ 2.5/10 + catalyseur dégradé à 4.3 = **SURVEILLER** strict. La thèse fondamentale reste intacte (Quality Compounder) mais l'absence de marge de sécurité et l'anomalie options rendent toute entrée risquée.
+> Règle absolue : Score Valorisation ≤ 2.5/10 + catalyseur dégradé = **SURVEILLER**. La thèse fondamentale reste intacte (Quality Compounder) mais l'absence de marge de sécurité et l'anomalie options rendent toute entrée risquée.
 
 ---
 
-## Révision des niveaux SL/TP
+## Révision des niveaux SL/TP (source : moteur recommandation)
 
 | | Valeur | Note |
-|--|--------|------|
-| **Prix cible (consensus)** | $257.49 | **OBSOLÈTE** — à ignorer jusqu'à révisions |
-| **Prix cible technique (base)** | $400 (+7.8%) | Résistance 52W high |
-| **Prix cible technique (optimiste)** | $450 (+21.3%) | Nécessite rerating massif |
-| **Stop-Loss (2×ATR)** | **$335.22** (−9.6%) | Inchangé |
-| **Ratio R/R (TP $400)** | 0.8 | **Défavorable** |
-| **Ratio R/R (TP $450)** | 2.2 | Acceptable mais risqué |
-| **Sizing recommandé** | Réduit (beta 2.10, vol élevée) | Inchangé |
-| **Horizon** | 1–3 mois | Prochain earnings 29 juillet = catalyseur binaire |
+|---|---|---|
+| **Prix cible (consensus)** | $257.49 | OBSOLÈTE — à ignorer jusqu'à révisions |
+| **Prix cible technique (optimiste)** | $400 (+7.8%) / $450 (+21.3%) | Résistance 52W high / rerating massif |
+| **Stop-Loss (2×ATR)** | **$335.22** (−9.6%) | Conforme engine |
+| **Take-Profit (engine)** | **$424.52** (+14.4%) | Calcul engine : cours + 3×ATR |
+| **Ratio R/R (engine)** | **1.5** | Acceptable mais timing défavorable |
+| **Sizing recommandé** | Réduit (beta 2.10) | Inchangé |
+| **Horizon** | 1–3 mois | Earnings 29 juillet = catalyseur binaire |
 
 ---
 
@@ -129,34 +132,34 @@
 **Verdict : THÈSE CONFIRMÉE avec ALERTE OPTIONS MAJEURE**
 
 - **Fondamentaux :** ✅ Confirmés — Quality Compounder 5–6/6, ROIC 18.5%, FCF positif, moat intact
-- **Valorisation :** 🔴 Détériorée — Score Val 2.5/10 (vs 3.0 hier). Aucune marge de sécurité
-- **Catalyseur :** 🔴 Dégradé — Score C 4.3/10 (vs 8.5 hier). Le pipeline d'orders massifs n'est plus un catalyseur actif
-- **Options :** 🔴 **Anomalie critique** — Put/Call 39.0 / max pain $185. Même si partiellement erroné, cela reflète une nervosité extrême avant expiration 22 mai
-- **Sector rotation :** 🟡 Industriels (XLI) sous-performants — le momentum sectoriel est dans la tech (XLK), pas dans les industriels
+- **Valorisation :** 🔴 Détériorée — Score Val 2.5/10. Aucune marge de sécurité
+- **Catalyseur :** 🔴 Dégradé — Score C 4.3/10. L'effet orders massifs n'est plus un catalyseur actif
+- **Options :** 🔴 **Anomalie critique** — Put/Call 39.0 / max pain $185. Nervosité extrême avant expiration 22 mai
+- **Sector rotation :** 🟡 XLI Industriels sous-performants. Le momentum sectoriel est dans la tech (XLK) et l'énergie (XLE)
 
 **Recommandation : SURVEILLER**
 - Pas d'entrée à $370.94 sans pullback significatif ($330–$340) ou confirmation de révisions EPS massives
-- Si put/call 39.0 est exact → risque de chute violente post-22 mai. Si c'est une erreur de parsing → l'alerte reste valable au niveau 3.41
-- Le prochain earnings (29 juillet, 72 jours) sera binaire : valider la croissance ou correction vers MM50 ($296)
+- Si put/call 39.0 est exact → risque de chute violente post-22 mai. Si erroné → l'alerte reste valable au niveau 3.41
+- Earnings 29 juillet (72 jours) sera binaire : valider la croissance ou correction vers MM50 ($296)
 
 ---
 
 ## Alertes actives
 
 - 🔴 **Put/Call 39.0** — Anomalie / hedging extrême. Max pain $185 = gap 50%
-- 🔴 **Valorisation extrême** — P/E 93, EV/EBITDA 60. Aucune marge d'erreur
+- 🔴 **Valorisation extrême** — P/E 93 (Yahoo), EV/EBITDA 60. Aucune marge d'erreur
 - 🟡 **RSI 68** — Proche suracheté. Risque pullback technique
-- 🟡 **Consensus obsolète** — 43 analystes PT $257 vs cours $370. Révisions attendues
-- 🟡 **Sector rotation défavorable** — XLI Industriels sous-performants vs XLK Tech
+- 🟡 **Consensus obsolète** — PT $257 vs cours $370 (+44%). Révisions attendues
+- 🟡 **Sector rotation défavorable** — XLI Industriels sous-performants vs XLK/XLE
 
 ---
 
 ## Notes et limitations
 
-- [DONNÉES PARTIELLES] — Put/Call 39.0 et max pain $185 sont extrêmes vs données initiales (3.41 / $215). Possible erreur de parsing ou hedging massif autour expiration 22 mai 2026
-- [DONNÉES PARTIELLES] — FMP market cap 61.84B est obsolète (FY2025) vs Yahoo 142.48B. Les ratios FMP sont basés sur des données annual datées
-- [UNSOURCED] — MACD, MM200, IV Rank, earnings whisper, insider trades, job postings, 13F, ETF flows, dark pool, transcripts NLP
-- [DONNÉES PARTIELLES] — Pas de rapport accounting_risk disponible aujourd'hui
+- [DONNÉES PARTIELLES] — Put/Call 39.0 et max pain $185 extrêmes vs données initiales (3.41 / $215). Possible erreur parsing ou hedging massif expiration 22 mai
+- [DONNÉES PARTIELLES] — FMP market cap $61.84B et ratios dérivés obsolètes (FY2025, share count dépassé). Préférer Yahoo pour capitalisation et P/E TTM
+- [DONNÉES MANQUANTES] — MM200, MACD, IV Rank, earnings whisper, insider trades, job postings, 13F, ETF flows, dark pool, transcripts NLP
+- [SIGNAUX NON SIGNIFICATIFS] — Quant report : pas assez de signaux historiques pour calibration
 
 ---
 
