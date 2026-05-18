@@ -180,3 +180,27 @@
 - Surveiller le franchissement de la MM50 ($143.96) avec volume supérieur à la moyenne 20j (> 44M)
 - Préparer `_preview.md` si earnings approchent à ≤ 5 jours (actuellement 77j)
 - Réactiver l'agent accounting dès que possible pour valider le Filtre Qualité 6 critères
+
+---
+
+## Validation Analyste Senior — Re-check 22:35 UTC
+
+**Analyste :** Desk Argus-IA  
+**Timestamp validation :** 2026-05-18 22:35 UTC  
+**Status :** ✅ Confirmé — aucun changement de données vs consolidation 21:00 UTC.
+
+| Check | Résultat |
+|-------|----------|
+| `data/latest.json` (22:35 UTC) | Cours $135.14, RSI 42.52, ATR 5.80, MM50 143.96 — identique à la clôture |
+| `data/recommandations_latest.json` | Scores inchangés : C 6.8 / V 4.5 / M 3.5 → Opp 5.1 / Global 42.5 |
+| `data/geo_risk_latest.json` | Score 0, aucun ticker PLTR flaggé |
+| `data/fx_exposure_latest.json` | FX Impact Score 0.0, divergence aligned, pas de headwind |
+| `data/events_latest.json` | Aucun événement corporate détecté |
+| `data/news_latest.json` | Aucune news PLTR dans le snapshot Yahoo |
+| `data/social_sentiment_latest.json` | No data — pas de signal retail |
+| `data/upcoming_events_latest.json` | Earnings Q2 FY2026 confirmé 2026-08-03 (77j) |
+| `data/quant_report_latest.json` | Pas assez de signaux historiques (p-value 1.0) — calibration en cours |
+| `data/sector_rotation_latest.json` | XLK top sector (momentum 10.0/10) — vent favorable inchangé |
+| Accounting Risk | `data/accounting_risk_latest.json` absent — risque méthodologique persistant |
+
+**Conclusion validation :** La consolidation institutionnelle est validée. Aucun nouvel élément de marché, fondamental ou événementiel depuis la clôture. La thèse **SURVEILLER** reste inchangée. Le timing d'entrée reste conditionné au franchissement de la MM50 ($143.96) avec volume > 44M.

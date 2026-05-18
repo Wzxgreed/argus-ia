@@ -1,15 +1,15 @@
 # TEST — Mise à Jour Quotidienne (2026-05-18)
 
 > **Date :** 2026-05-18
-> **Heure snapshot :** 21:23 UTC
-> **Sources :** `data/2026-05-18.json` (fetched_at 2026-05-18T21:23:27 UTC), `data/recommandations_2026-05-18.json`
-> **Type :** Confirmation post-pipeline 21:23 UTC — données stabilisées vs snapshot 21:00 UTC
+> **Heure snapshot :** 22:35 UTC
+> **Sources :** `data/2026-05-18.json` (fetched_at 2026-05-18T22:35:56 UTC), `data/recommandations_2026-05-18.json`
+> **Type :** Confirmation post-pipeline 22:35 UTC — snapshot final vs 21:23 UTC
 
 ---
 
 ## Résumé des Changements
 
-| Métrique | 2026-05-18 21:00 UTC | 2026-05-18 21:23 UTC | Delta |
+| Métrique | 2026-05-18 21:23 UTC | 2026-05-18 22:35 UTC | Delta |
 |----------|----------------------|----------------------|-------|
 | Cours | $44.94 | **$44.94** | **Inchangé** |
 | RSI 14j | 58.88 | **58.88** | Inchangé |
@@ -20,13 +20,13 @@
 | Score Global (agent) | 59.0/100 | **59.0/100** | Inchangé |
 | Verdict agent reco | ATTENDRE | **ATTENDRE** | Confirmé |
 
-**Événement majeur :** Aucun. Le snapshot 21:23 UTC confirme la stabilisation observée à 21:00 UTC. Cours inchangé à $44.94, volume et indicateurs techniques figés. Aucun résultat post-earnings n'est observable à 21:23 UTC bien que le calendrier FMP indique un earnings le 2026-05-18.
+**Événement majeur :** Aucun. Le snapshot 22:35 UTC confirme l'absence de changement vs 21:23 UTC. Cours inchangé à $44.94, volume et indicateurs techniques figés. Aucun résultat post-earnings n'est observable à 22:35 UTC bien que le calendrier FMP indique un earnings le 2026-05-18.
 
 ---
 
 ## Mise à Jour Technique
 
-Configuration technique inchangée vs snapshot 21:00 UTC :
+Configuration technique inchangée vs snapshot 21:23 UTC :
 - **Cours :** $44.94 (open $45.92 / high $46.566 / low $46.144 / previous close $46.144)
 - **Variation :** −2.62% vs veille
 - **RSI 14j :** 58.88 — zone neutre avec léger avantage acheteur
@@ -36,20 +36,20 @@ Configuration technique inchangée vs snapshot 21:00 UTC :
 - **Volume relatif :** 2.04× moyenne 20j (2,394 vs 1,174) — profil normalisé post-spike de 17h
 - **52W range :** [$40.27, $57.74] — positionnement dans le bas de la fourchette
 
-**Verdict timing :** Neutre. Aucun mouvement technique significatif entre 21:00 et 21:23 UTC. La structure de séance reste identique : tentative de reprise intraday repoussée au high $46.566, clôture proche du low reflétant une faiblesse de clôture. Le maintien au-dessus de MM50 préserve la tendance haussière de court terme.
+**Verdict timing :** Neutre. Aucun mouvement technique significatif entre 21:23 et 22:35 UTC. La structure de séance reste identique : tentative de reprise intraday repoussée au high $46.566, clôture proche du low reflétant une faiblesse de clôture. Le maintien au-dessus de MM50 préserve la tendance haussière de court terme.
 
 ---
 
 ## Mise à Jour Fondamentale
 
-Aucune donnée fondamentale nouvelle dans le snapshot 21:23 UTC :
+Aucune donnée fondamentale nouvelle dans le snapshot 22:35 UTC :
 - **Filtre Qualité (6 critères) :** 0/6 — toujours 🔴 Hors périmètre
 - **Sector / Industry :** null / null — TAM et comps indérivables
 - **P/E, Forward P/E, EV/EBITDA, P/B, Beta, Dividend Yield :** [DONNÉES MANQUANTES]
 - **Short Interest, Float, Outstanding :** [DONNÉES MANQUANTES]
 - **Agent Accounting :** rapport `data/accounting_risk_latest.json` inexistant
 
-**Impact earnings du jour :** Aucun résultat post-earnings injecté dans les snapshots Yahoo/FMP à 21:23 UTC. La baisse de −2.62% sur la séance reste sans catalyseur fondamental identifié.
+**Impact earnings du jour :** Aucun résultat post-earnings injecté dans les snapshots Yahoo/FMP à 22:35 UTC. La baisse de −2.62% sur la séance reste sans catalyseur fondamental identifié.
 
 ---
 
@@ -63,7 +63,7 @@ Aucune donnée fondamentale nouvelle dans le snapshot 21:23 UTC :
 | **Geo Risk** | Non flaggé | Score politique 2/10 (`data/geo_2026-05-18.json`) — 🟢 |
 | **FX Exposure** | Exposition 25%, impact 0% | DXY neutre, divergence alignée (`data/fx_exposure_2026-05-18.json`) |
 | **Consensus analystes** | [DONNÉES MANQUANTES] | Pas de price target ni upgrades/downgrades |
-| **Upcoming Events** | Earnings 2026-05-18 | JOUR J — résultats non observables à 21:23 UTC |
+| **Upcoming Events** | Earnings 2026-05-18 | JOUR J — résultats non observables à 22:35 UTC |
 | **News Yahoo** | 0 article | Aucune news collectée pour TEST |
 
 Aucun flux institutionnel, insider trade ou unusual options activity rapporté.
@@ -72,7 +72,7 @@ Aucun flux institutionnel, insider trade ou unusual options activity rapporté.
 
 ## Scoring Global (Agent Recommandation)
 
-Scores inchangés vs snapshot 21:00 UTC :
+Scores inchangés vs snapshot 21:23 UTC :
 
 | Axe | Score | Pondération | Contribution |
 |-----|-------|-------------|--------------|
@@ -101,7 +101,7 @@ Niveaux ajustés de l'Agent Recommandation (snapshot $44.94, ATR $1.10) :
 
 | Niveau | Valeur | Note |
 |--------|--------|------|
-| Cours actuel | $44.94 | Snapshot 21:23 UTC |
+| Cours actuel | $44.94 | Snapshot 22:35 UTC |
 | Stop-loss suggéré (2×ATR) | **$42.74** | −4.90% sous le cours |
 | Take-profit suggéré (3×ATR) | **$48.24** | +7.34% au-dessus du cours |
 | Ratio R/R | **1.5** | Standard agent |
@@ -120,7 +120,7 @@ Niveaux ajustés de l'Agent Recommandation (snapshot $44.94, ATR $1.10) :
 
 **Verdict : ATTENDRE — Thèse INACTIVE, confirmée sans changement de configuration.**
 
-Le snapshot 21:23 UTC confirme la stabilité observée à 21:00 UTC :
+Le snapshot 22:35 UTC confirme la stabilité observée à 21:23 UTC :
 - Cours inchangé à $44.94 (−2.62% vs veille)
 - Volume normalisé à 2.04× moyenne 20j
 - RSI 58.88 neutre, ATR $1.10 contracté
@@ -131,10 +131,10 @@ Le snapshot 21:23 UTC confirme la stabilité observée à 21:00 UTC :
 2. **Liquidité structurelle insuffisante** — volume moyen 20j < 2K actions
 3. **Opacité fondamentale totale** — aucune donnée sectorielle, comptable ou de gouvernance
 
-**Action recommandée :** Maintenir l'attente. La configuration technique est stable mais n'offre pas de catalyseur d'entrée. Surveiller la tenue de MM50 ($43.55) et un retour au-dessus de $46.00 (previous close) avec volume soutenu pour envisager une révision vers ACHETER réduit. Aucun résultat post-earnings observable à 21:23 UTC malgré la date earnings FMP.
+**Action recommandée :** Maintenir l'attente. La configuration technique est stable mais n'offre pas de catalyseur d'entrée. Surveiller la tenue de MM50 ($43.55) et un retour au-dessus de $46.00 (previous close) avec volume soutenu pour envisager une révision vers ACHETER réduit. Aucun résultat post-earnings observable à 22:35 UTC malgré la date earnings FMP.
 
 **Niveau de confiance :** Très faible — l'analyse repose sur des proxies et des valeurs par défaut.
 
 ---
 
-*Généré automatiquement par le pipeline Argus-IA — snapshot 21:23 UTC. Données : `data/2026-05-18.json`, `data/recommandations_2026-05-18.json`.*
+*Généré automatiquement par le pipeline Argus-IA — snapshot 22:35 UTC. Données : `data/2026-05-18.json`, `data/recommandations_2026-05-18.json`.*

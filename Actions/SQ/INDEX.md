@@ -10,7 +10,7 @@
 
 | Date | Fichier | Type | Conclusion |
 |------|---------|------|------------|
-| 2026-05-18 | [SQ_2026-05-18_update.md](SQ_2026-05-18_update.md) | Mise à jour post-pipeline 21:00 UTC | **ATTENDRE** — Qualité 3/6, earnings J=0, snapshot 21:00 UTC inchangé vs 20:24 UTC |
+| 2026-05-18 | [SQ_2026-05-18_update.md](SQ_2026-05-18_update.md) | Mise à jour post-pipeline 22:35 UTC | **ATTENDRE** — Qualité 3/6, earnings J=0, snapshot 22:35 UTC inchangé vs 21:00 UTC |
 | 2026-05-18 | [SQ_2026-05-18_preview.md](SQ_2026-05-18_preview.md) | Preview earnings | Scénarios pré-earnings (beat/in-line/miss) |
 | 2026-05-17 | [SQ_2026-05-17_init.md](SQ_2026-05-17_init.md) | Analyse initiale (auto) | SURVEILLER — thèse structurelle bullish, qualité partielle 4/6, données absentes |
 

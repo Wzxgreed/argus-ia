@@ -11,7 +11,7 @@
 - **Score global :** 59.0/100
 - **Prix cible :** $87.50 (consensus 2 analystes)
 - **Stop-loss :** — (attendre post-earnings + données ATR)
-- **Statut thèse :** Confirmée — aucun changement vs 20:24 UTC
+- **Statut thèse :** Confirmée — snapshot 22:35 UTC inchangé vs 21:00 UTC
 - **Horizon :** —
 
 ---

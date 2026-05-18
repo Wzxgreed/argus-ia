@@ -3,7 +3,7 @@
 ## Thèse courante
 
 **Verdict :** ATTENDRE
-**Date dernière analyse :** 2026-05-18 (snapshot 21:23 UTC)
+**Date dernière analyse :** 2026-05-18 (snapshot 22:35 UTC)
 **Cours actuel :** $44.94
 **Score Qualité :** 0/6 (Hors périmètre)
 **Score Opportunité :** 5.9/10 (agent reco — données fondamentales toujours absentes)
@@ -29,6 +29,7 @@ TEST est un ticker de test / micro-cap sans données fondamentales exploitables 
 | TEST_2026-05-18_update.md | 2026-05-18 | Confirmation post-pipeline 20:34 UTC | ATTENDRE |
 | TEST_2026-05-18_update.md | 2026-05-18 | Confirmation post-pipeline 21:00 UTC | ATTENDRE |
 | TEST_2026-05-18_update.md | 2026-05-18 | Confirmation post-pipeline 21:23 UTC | ATTENDRE |
+| TEST_2026-05-18_update.md | 2026-05-18 | Confirmation post-pipeline 22:35 UTC | ATTENDRE |
 
 ---
 
