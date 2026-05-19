@@ -1,6 +1,6 @@
 # AXA — Index du Dossier
 
-> **Dernière mise à jour :** 2026-05-18
+> **Dernière mise à jour :** 2026-05-19
 > **Statut :** 🔴 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`)
 
 ---
@@ -21,6 +21,8 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 |---------|------|------|--------|
 | `AXA_2026-05-18_preview.md` | 2026-05-18 | Preview earnings (template) | Earnings J0 — template vierge, prédictions non remplies |
 | `AXA_2026-05-18_update.md` | 2026-05-18 | Mise à jour quotidienne | Identifie le blocage données + earnings J0 non suivis |
+| `AXA_2026-05-19_preview.md` | 2026-05-19 | Preview earnings (template) | Earnings J0 — template vierge, données toujours manquantes |
+| `AXA_2026-05-19_update.md` | 2026-05-19 | Mise à jour quotidienne | Situation inchangée : données manquantes persistantes, earnings J0 non suivis |
 
 ---
 
@@ -29,6 +31,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 | Date | Score Opportunité | Score Global | Recommandation | Timing |
 |------|-------------------|--------------|----------------|--------|
 | 2026-05-18 | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
+| 2026-05-19 | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
 
 ---
 
@@ -36,7 +39,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 
 | Événement | Date | Statut |
 |-----------|------|--------|
-| Earnings | 2026-05-18 | **J0 — non suivi (données manquantes)** |
+| Earnings | 2026-05-19 | **J0 — non suivi (données manquantes)** |
 
 ---
 

@@ -1,62 +1,63 @@
-# CONTEXT — CYTOMX — Dernière mise à jour : 2026-05-19
+# CONTEXT — CYTOMX — Derniere mise a jour : 2026-05-19
 
-> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
-> Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
+> Ce fichier est la **memoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
+> Mise a jour automatique par `agents/update_context/agent.py` a chaque passage du pipeline.
 
 ---
 
-## 🎯 Thèse active
+## Cible active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
+- **Recommandation :** ATTENDRE
+- **Score global :** 55.2/100
+- **Prix cible :** [NON ETABLI]
+- **Stop-loss :** [NON ETABLI]
+- **Statut these :** These non etablie — donnees de cours indisponibles, earnings J=0 en attente
 - **Horizon :** —
 
 ---
 
-## 📉 Erreurs de prédiction récentes
+## Erreurs de prediction recentes
 
-- Aucune erreur enregistrée.
-
----
-
-## 🚨 Alertes actives
-
-- Aucune alerte active.
+- Aucune erreur enregistree (pas d'analyse initiale realisee).
 
 ---
 
-## 📅 Prochains événements
+## Alertes actives
 
-- **2026-05-19** · earnings · Earnings ...
-
----
-
-## 📊 Contexte technique (dernier snapshot)
-
-- **RSI 14j :** —
-- **MM 50j :** —
-- **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** —
+- [DONNEES MANQUANTES] cours introuvable dans `data/latest.json`
+- Earnings J=0 non resolu (2026-05-19)
 
 ---
 
-## 📝 Résumé dernière analyse
+## Prochains evenements
+
+- **2026-05-19** · earnings · Earnings (source FMP, non resolu au snapshot 10:00 UTC)
+
+---
+
+## Contexte technique (dernier snapshot)
+
+- **RSI 14j :** 50 (placeholder)
+- **MM 50j :** [DONNEES MANQUANTES]
+- **MM 200j :** [DONNEES MANQUANTES]
+- **ATR 14j :** [DONNEES MANQUANTES]
+- **Volume moy. 20j :** [DONNEES MANQUANTES]
+
+---
+
+## Resume derniere analyse
 
 - **Date :** 2026-05-19
-- **Type :** preview
-- **Fichier :** `CYTOMX_2026-05-19_preview.md`
-- **Conclusion :** > **Date :** 2026-05-19
+- **Type :** update
+- **Fichier :** `CYTOMX_2026-05-19_update.md`
+- **Conclusion :** Donnees de cours indisponibles depuis deux snapshots consecutifs. Earnings J=0 non resolu. These non etablie. Attendre resolution earnings + recuperation donnees pour lancer `_init.md`.
 
 ---
 
-## 🔄 Triggers détectés (full refresh)
+## Triggers detectes (full refresh)
 
-- Aucun trigger récent.
+- Aucun trigger recent.
 
 ---
 
-*Généré automatiquement — ne pas éditer manuellement.*
+*Genere automatiquement — ne pas editer manuellement.*
