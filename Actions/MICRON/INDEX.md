@@ -14,10 +14,10 @@
 Le ticker est enregistré comme `MICRON` dans la watchlist, mais l'identifiant de marché reconnu par Yahoo Finance est **`MU`**. Aucune donnée de prix, technique ou fondamentale n'a pu être récupérée. L'analyse est en attente de correction du ticker et de refetch des données.
 
 **Points clés :**
-- Earnings du 2026-05-18 (jour J) — non suivis faute de données
-- Secteur Technology (XLK) en tête de la rotation sectorielle (RS 20j +8.59% vs SPY) — vent de queue favorable une fois les données disponibles
+- Earnings du 2026-05-19 (jour J) — non suivis faute de données
+- Secteur Technology (XLK) en tête de la rotation sectorielle (RS 20j +8.59% vs SPY, momentum 10.0/10) — vent de queue favorable une fois les données disponibles
 - Aucune alerte géopolitique, comptable ou event-driven détectée
-- Snapshot post-pipeline 22:35 → 23:09 UTC confirmé stable — aucun changement de données
+- Snapshot post-pipeline 2026-05-18 23:09 UTC → 2026-05-19 10:00 UTC confirmé stable — aucun changement de données
 
 ---
 
@@ -28,6 +28,8 @@ Le ticker est enregistré comme `MICRON` dans la watchlist, mais l'identifiant d
 | 2026-05-18 | `MICRON_2026-05-18_preview.md` | Preview earnings | ⚠️ Vide (placeholders) |
 | 2026-05-18 | `MICRON_2026-05-18_update.md` | Update flash (22:35 UTC) | 🟡 Bloqué données |
 | 2026-05-18 | `MICRON_2026-05-18_update.md` | Update post-pipeline (23:09 UTC) | 🟡 Bloqué données confirmé |
+| 2026-05-19 | `MICRON_2026-05-19_preview.md` | Preview earnings | ⚠️ Vide (placeholders) |
+| 2026-05-19 | `MICRON_2026-05-19_update.md` | Update post-pipeline (10:00 UTC) | 🟡 Bloqué données confirmé (J+2) |
 
 ---
 
@@ -35,7 +37,7 @@ Le ticker est enregistré comme `MICRON` dans la watchlist, mais l'identifiant d
 
 | Date | Événement | Source | Statut |
 |------|-----------|--------|--------|
-| 2026-05-18 | Earnings Q3 FY2026 | FMP | 🔴 Jour J — non suivi |
+| 2026-05-19 | Earnings Q3 FY2026 | FMP | 🔴 Jour J — non suivi |
 | TBD | Prochain earnings | — | À déterminer après correction ticker |
 
 ---
@@ -48,4 +50,4 @@ Le ticker est enregistré comme `MICRON` dans la watchlist, mais l'identifiant d
 
 ---
 
-*Dernière mise à jour : 2026-05-18 (post-pipeline 23:09 UTC)*
+*Dernière mise à jour : 2026-05-19 (post-pipeline 10:00 UTC)*
