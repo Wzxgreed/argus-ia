@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
+- **Recommandation :** SURVEILLER
+- **Score global :** 51.0/100 (ajusté 41.0)
+- **Prix cible :** $220–$240 (DCF fair value)
+- **Stop-loss :** $284.50
+- **Statut thèse :** Confirmée — surachat extrême persistant, pas d'entrée long à $297+
 - **Horizon :** —
 
 ---
@@ -24,13 +24,16 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🟡 RSI 82.55 — surachat extrême persistant
+- 🟡 Volume 34.46M = 0.71× moyenne 20j
+- 🟡 Cours $297.84 > Consensus FMP $293.43 (+1.5%)
+- ⚪ [DONNÉES PARTIELLES] Options : Max Pain $210 incohérent (P/C et Call OI null dans snapshot 2026-05-19)
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings :** 2026-07-30 (72 jours) — Est EPS $1.83–$1.99, Rev $109.0B
 
 ---
 
@@ -41,15 +44,18 @@
 - **MM 200j :** —
 - **ATR 14j :** 6.67
 - **Volume moy. 20j :** 48293855
+- **Volume dernière séance :** 34463500 (0.71×)
+- **52W high :** 303.20
+- **52W low :** 193.46
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-18
+- **Date :** 2026-05-19
 - **Type :** update
-- **Fichier :** `AAPL_2026-05-18_update.md`
-- **Conclusion :** > **Référence analyse précédente :** [AAPL_2026-05-17_init.md](AAPL_2026-05-17_init.md) | [AAPL_2026-05-18_update.md](AAPL_2026-05-18_update.md) (snapshot 20:24 UTC)
+- **Fichier :** `AAPL_2026-05-19_update.md`
+- **Conclusion :** THÈSE CONFIRMÉE — SURVEILLER. Snapshot 10:00 UTC stables vs 2026-05-18 (cours $297.84, RSI 82.55, ATR 6.67). Aucun changement significatif. Données options partielles (Max Pain $210 incohérent, P/C et Call OI null) — référence fiable = snapshot 2026-05-18. Pas de news, pas d'événement corporate. Prochain catalyseur : earnings 2026-07-30.
 
 ---
 

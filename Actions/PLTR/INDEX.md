@@ -8,6 +8,7 @@
 |------|---------|------|------------|
 | 2026-05-17 | [PLTR_2026-05-17_init.md](PLTR_2026-05-17_init.md) | Analyse initiale | SURVEILLER — Score Opp. 3.0/10 |
 | 2026-05-18 | [PLTR_2026-05-18_update.md](PLTR_2026-05-18_update.md) | Mise à jour post-pipeline (consolidée) | SURVEILLER — Score Opp. 5.1/10, RSI 42.52, volume 31.76M, thèse confirmée |
+| 2026-05-19 | [PLTR_2026-05-19_update.md](PLTR_2026-05-19_update.md) | Mise à jour snapshot stable | SURVEILLER — Score Opp. 5.1/10, cours stable $135.14, anomalie Max Pain $50 (artefact), thèse confirmée |
 
 ## Agenda
 - **Prochain earnings :** 2026-08-03 (Q2 FY2026, Est. EPS $0.32–$0.40, Rev $1.8B)

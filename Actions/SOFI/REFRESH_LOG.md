@@ -165,15 +165,10 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.35% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
-
----
-
-## 2026-05-19 — Full Refresh Triggered
-
-**Triggers :**
-- atr_spike (medium) : ATR relatif 5.35% (seuil 5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — DRAFT_refresh résiduel traité par l'update du 2026-05-19 (snapshot 10:00 UTC). CONFIRME. Aucune modification de thèse.
+- Le snapshot `data/latest.json` (timestamp 2026-05-19T10:00:07+00:00) confirme l'absence de changement de données vs le close 2026-05-18 20:56 UTC : cours $15.71, RSI 32.70, ATR $0.84, MM50 $16.98, volume 0.98×.
+- Données options partiellement manquantes (anomalie Max Pain $1.00, Put/Call null) — pas d'impact sur la thèse, dernières valeurs fiables conservées.
+- Score Opportunité stable à 5.7/10. Score Global 48.6/100 (SURVEILLER). TP $18.23, SL $14.03.
+- **Action :** DRAFT_refresh archivé (`SOFI_2026-05-19_DRAFT_refresh_ARCHIVED.md`). Pas de réécriture de `_init.md` requise — la thèse du 2026-05-17 reste valide.
 
 ---
