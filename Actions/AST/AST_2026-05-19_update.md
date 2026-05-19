@@ -1,34 +1,34 @@
-# AST — Mise à jour 2026-05-19 (snapshot 17:00 UTC)
+# AST — Mise à jour 2026-05-19 (snapshot final 21:00 UTC)
 
 > **Date :** 2026-05-19
-> **Type :** Update post-pipeline 17:00 UTC
+> **Type :** Update post-pipeline final 21:00 UTC
 > **Statut données :** [DONNÉES MANQUANTES] — aucun historique de prix disponible
-> **Source :** data/latest.json (17:00 UTC), data/recommandations_latest.json, data/upcoming_events_latest.json, data/social_sentiment_latest.json, data/fx_exposure_latest.json, data/geo_risk_latest.json, data/events_latest.json, data/quant_report_latest.json
+> **Source :** data/latest.json (21:00 UTC), data/recommandations_latest.json, data/upcoming_events_latest.json, data/social_sentiment_latest.json, data/fx_exposure_latest.json, data/geo_risk_latest.json, data/events_latest.json, data/quant_report_latest.json
 
 ---
 
 ## 1. Résumé des changements depuis l'analyse précédente
 
-**Analyse précédente :** `AST_2026-05-19_update.md` (snapshot 13:00 UTC)
+**Analyse précédente :** `AST_2026-05-19_update.md` (snapshot 17:00 UTC)
 
-| Élément | Snapshot 13:00 UTC | Snapshot 17:00 UTC | Changement |
-|---------|-------------------|-------------------|------------|
+| Élément | Snapshot 17:00 UTC | Snapshot final 21:00 UTC | Changement |
+|---------|-------------------|-------------------------|------------|
 | Cours | [DONNÉES MANQUANTES] | [DONNÉES MANQUANTES] | Confirmé stable |
 | RSI 14j | Placeholder 50 | Placeholder 50 | Confirmé stable |
 | ATR 14j | [DONNÉES MANQUANTES] | [DONNÉES MANQUANTES] | Confirmé stable |
-| Erreur Yahoo | `No price history` | `No price history` | Confirmé stable (timestamp 17:00:14 UTC) |
+| Erreur Yahoo | `No price history` | `No price history` | Confirmé stable (timestamp 21:00:14 UTC) |
 | Earnings J=0 | Programmé (19/05, FMP) | Programmé (19/05, FMP) | Résultats toujours non intégrés |
 | Quality Gate | Non listé | Non listé | Confirmé |
 | Scores agents | 55.2/100 (placeholder) | 55.2/100 (placeholder) | Aucun changement |
-| ASTS (doublon) | $86.83 / RSI 60.85 | $84.82 / RSI 60.87 | −2.31% intrajour, MM50 83.56 |
+| ASTS (doublon) | $84.82 / RSI 60.87 | $88.10 / RSI 63.39 | +3.87% session, ATR 7.95, volume 21.51M (1.08×) |
 
-**Constat :** Le snapshot 17:00 UTC confirme la **stabilité totale de l'absence de données** pour AST. Aucun cours, volume, RSI, ATR, ni donnée FMP n'est disponible. L'événement earnings programmé à J=0 (source FMP) n'a pas alimenté de résultats exploitables dans le pipeline. AST n'est pas référencé dans le `quality_gate` (contrairement à ASTS, statut `ok`).
+**Constat :** Le snapshot final 21:00 UTC confirme la **stabilité totale de l'absence de données** pour AST. Aucun cours, volume, RSI, ATR, ni donnée FMP n'est disponible. L'événement earnings programmé à J=0 (source FMP) n'a pas alimenté de résultats exploitables dans le pipeline. AST n'est pas référencé dans le `quality_gate` (contrairement à ASTS, statut `ok`).
 
 ---
 
 ## 2. Mise à jour technique
 
-| Métrique | Valeur précédente (13:00 UTC) | Valeur actuelle (17:00 UTC) | Variation |
+| Métrique | Valeur précédente (17:00 UTC) | Valeur actuelle (21:00 UTC) | Variation |
 |----------|------------------------------|----------------------------|-----------|
 | Cours | — | [DONNÉES MANQUANTES] | — |
 | RSI 14j | Placeholder 50 | Placeholder 50 | — |
@@ -86,7 +86,7 @@ Aucune donnée fondamentale (P/E, EV/EBITDA, FCF, margins, consensus) n'est pré
 
 La watchlist (`config/watchlist.json`) contient **deux tickers** pour la même entité probable :
 - `AST` — zéro données, erreur Yahoo `No price history`, non listé dans le quality gate
-- `ASTS` (AST SpaceMobile) — données complètes : cours $84.82, RSI 60.87, ATR 7.66, MM50 83.66, volume 10.2M, score opportunité 5.5/10 dans `recommandations_latest.json`, statut `ok` dans le quality gate
+- `ASTS` (AST SpaceMobile) — données complètes : cours $88.10, RSI 63.39, ATR 7.95, MM50 83.62, volume 21.51M (1.08× moy. 20j), score opportunité 5.0/10 dans `recommandations_latest.json`, statut `ok` dans le quality gate
 
 **Conclusion :** AST est très probablement un **doublon erroné** d'ASTS. Le ticker correct sur NASDAQ pour AST SpaceMobile est **ASTS**.
 
@@ -94,10 +94,10 @@ La watchlist (`config/watchlist.json`) contient **deux tickers** pour la même e
 
 ## 7. Conclusion — Thèse
 
-**Verdict : NON ÉVALUABLE / DONNÉES MANQUANTES — CONFIRMÉ AU SNAPSHOT 17:00 UTC (19/05)**
+**Verdict : NON ÉVALUABLE / DONNÉES MANQUANTES — CONFIRMÉ AU SNAPSHOT FINAL 21:00 UTC (19/05)**
 
 - Aucune analyse initiale n'a été produite pour AST (pas de `_init.md`)
-- Le snapshot technique du jour reste vide (`No price history`) après six snapshots consécutifs (21:23, 22:36, 23:09 UTC le 18/05 ; 10:00, 13:00, 17:00 UTC le 19/05)
+- Le snapshot technique du jour reste vide (`No price history`) après sept snapshots consécutifs (21:23, 22:36, 23:09 UTC le 18/05 ; 10:00, 13:00, 17:00, 21:00 UTC le 19/05)
 - Les earnings programmés le 18/05 puis le 19/05 n'ont pas alimenté de données exploitables dans le pipeline
 - Le scoring agent est entièrement basé sur des placeholders (RSI 50, scores neutres 5.0–6.5)
 - **Aucun changement significatif** détecté entre les snapshots du 19/05
