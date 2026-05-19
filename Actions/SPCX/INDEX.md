@@ -11,8 +11,8 @@
 | Date | Type | Fichier | Résumé |
 |------|------|---------|--------|
 | 2026-05-18 | Preview earnings (template) | [SPCX_2026-05-18_preview.md](./SPCX_2026-05-18_preview.md) | Template inapproprié pour un ETF — placeholders vides |
-| 2026-05-18 | Mise à jour post-pipeline | [SPCX_2026-05-18_update.md](./SPCX_2026-05-18_update.md) | Premier snapshot technique réel : momentum haussier micro, RSI 49, SL $21.50, TP $22.75 |
-| 2026-05-19 | Mise à jour post-pipeline | [SPCX_2026-05-19_update.md](./SPCX_2026-05-19_update.md) | Thèse confirmée : cours stable au-dessus MM50, RSI 46, volume +28%, aucun catalyseur |
+| 2026-05-18 | Mise à jour post-pipeline | [SPCX_2026-05-18_update.md](./SPCX_2026-05-18_update.md) | Premier snapshot technique réel : momentum haussier micro, RSI 48.93, SL $21.50, TP $22.75 |
+| 2026-05-19 | Mise à jour post-pipeline | [SPCX_2026-05-19_update.md](./SPCX_2026-05-19_update.md) | Thèse confirmée : cours stable au-dessus MM50, RSI 46.07, volume +28%, aucun catalyseur |
 
 ---
 
@@ -23,7 +23,7 @@
 **Upside :** +3.3%
 **Dernière mise à jour :** 2026-05-19
 
-> SPCX est un ETF thématique SPAC/post-IPO. Le cours tient au-dessus de la MM50 ($21.97) avec un RSI neutre (46.07). La volatilité reste extrêmement faible (ATR $0.24), offrant un SL serré mais limitant l'upside naturel. Le titre est proche de son 52w low ($21.32) et à -17.4% de son 52w high. Volume en légère hausse (+28% vs hier, 1.53× moy. 20j) mais liquilité globale faible. Aucun catalyseur sectoriel identifié. Thèse confirmée — conviction faible à modérée.
+> SPCX est un ETF thématique SPAC/post-IPO. Le cours tient au-dessus de la MM50 ($21.97) avec un RSI neutre (46.07). La volatilité reste extrêmement faible (ATR $0.24), offrant un SL serré mais limitant l'upside naturel. Le titre est proche de son 52w low ($21.32) et à −17.4% de son 52w high. Volume en légère hausse (+28% vs hier, 1.53× moy. 20j) mais liquidité globale faible. Aucun catalyseur sectoriel identifié. Thèse confirmée — conviction faible à modérée.
 
 ---
 
@@ -40,7 +40,7 @@
 
 | Date | Événement |
 |------|-----------|
-| Aucun | ETF thématique — pas de calendrier earnings |
+| Aucun | ETF thématique — pas de calendrier earnings au sens classique |
 
 ---
 

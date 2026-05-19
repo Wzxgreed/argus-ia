@@ -28,9 +28,9 @@
 |------------|--------|--------|
 | RSI 14j | 46.07 | Neutre — légèrement plus bas vs hier, zone favorable |
 | Position vs MM50j | $21.99 > $21.97 | Au-dessus — micro-tendance haussière maintenue |
-| Position vs MM200j | N/A | Non disponible |
-| Volume vs moy. 20j | 1.53× | Intérêt modéré, mais liquilité globale faible |
-| ATR 14j | $0.24 | Volatilité extrêmement faible (range $0.21 intraday) |
+| Position vs MM200j | N/A | Non disponible dans `data/latest.json` |
+| Volume vs moy. 20j | 1.53× | Intérêt modéré, mais liquidité globale faible |
+| ATR 14j | $0.24 | Volatilité extrêmement faible (range intraday $0.21) |
 | 52w low / high | $21.32 / $26.61 | −17.4% vs 52w high, +3.1% vs 52w low |
 
 **Niveaux clés :**
@@ -51,11 +51,11 @@ SPCX est un ETF thématique SPAC/post-IPO (Financial Services / Asset Management
 | P/E | N/A | ETF — non applicable |
 | Forward P/E | N/A | ETF — non applicable |
 | Market cap | N/A | ETF — non applicable |
-| Beta | N/A | Non calculé dans le snapshot |
+| Beta | N/A | Non calculé dans `data/latest.json` |
 | Dividend yield | N/A | Non distribué |
 | Sector | Financial Services | Asset Management |
 
-**Thèse ETF :** Aucun changement. La décote de −17% vs 52w high reflète la fatigue structurelle du marché SPAC. Aucun catalyseur sectoriel (reprise IPO/SPAC, baisse des taux, M&A) n'a été identifié dans les news du jour.
+**Thèse ETF :** Aucun changement. La décote de −17% vs 52w high reflète la fatigue structurelle du marché SPAC. Aucun catalyseur sectoriel (reprise IPO/SPAC, baisse des taux, M&A) n'a été identifié dans les news du jour (`data/events_latest.json` vide).
 
 ---
 
@@ -63,18 +63,16 @@ SPCX est un ETF thématique SPAC/post-IPO (Financial Services / Asset Management
 
 | Source | État | Commentaire |
 |--------|------|-------------|
-| News | Aucune structurante | `data/events_latest.json` vide — 0 événement corporate |
+| News | Aucune structurante | `data/events_latest.json` vide — 0 événement corporate pour SPCX |
 | Social sentiment | No data | 0 mention Reddit, sentiment 0/10 (`social_sentiment_latest.json`) |
-| Options | Non disponible | Bloc options vide dans `latest.json` |
+| Options | Non disponible | Bloc options vide dans `data/latest.json` |
 | Short interest | N/A | Données non fournies par yfinance pour cet ETF |
 | Analyst consensus | N/A | Non applicable à un ETF thématique |
-| FX Exposure | 🟢 | Exposition 25%, impact revenus/EPS 0%, divergence aligned |
+| FX Exposure | 🟢 | Exposition 25%, impact revenus/EPS 0%, divergence aligned (`fx_exposure_latest.json`) |
 | Géopolitique | 🟢 | Pas de flag SPCX dans `geo_risk_latest.json` |
 | Accounting | N/A | Fichier absent — ETF non concerné |
 
-**Note :** Le fichier `SPCX_2026-05-19_preview.md` (preview earnings) est un template inapproprié pour un ETF sans earnings classique. Il est ignoré dans l'analyse.
-
-**Conclusion sentiment :** Silence complet. Pas de bruit retail, pas d'activité options inhabituelle, pas d'insider trades, pas de news.
+**Conclusion sentiment :** Silence complet. Pas de bruit retail, pas d'activité options inhabituelle, pas d'insider trades, pas de news. Le fichier `SPCX_2026-05-19_preview.md` (preview earnings) est un template inapproprié pour un ETF sans earnings classique — il est ignoré dans l'analyse.
 
 ---
 
@@ -85,7 +83,7 @@ SPCX est un ETF thématique SPAC/post-IPO (Financial Services / Asset Management
 | Score Catalyseur | 6.5/10 | Modéré — absence de catalyseur immédiat mais exposition optionnelle sectorielle |
 | Score Valorisation | 5.0/10 | Neutre — décote vs 52w high mais pas de valeur intrinsèque mesurable |
 | Score Momentum | 7.0/10 | Haussier — cours au-dessus MM50, volume légèrement supérieur |
-| **Score Opportunité** | **6.0/10** | Pondération régime : C×35% + V×40% + M×25% |
+| **Score Opportunité** | **6.0/10** | Pondération régime : C×35% + V×40% + M×25% (`recommandations_latest.json`) |
 | **Score Global** | **60.2/100** | Avant ajustements |
 | **Score Global Ajusté** | **65.2/100** | — |
 
@@ -93,9 +91,9 @@ SPCX est un ETF thématique SPAC/post-IPO (Financial Services / Asset Management
 - Accounting : N/A (fichier absent — ETF non concerné)
 - Geo : 0 (pas de flag)
 - FX : 0 (exposition 25%, 🟢 aligned)
-- Event : 0 (aucun événement corporate)
+- Event : 0 (aucun événement corporate dans `events_latest.json`)
 - Social : 0 (no data)
-- Quant : 0 (pas assez de signaux historiques — calibration en cours)
+- Quant : 0 (pas assez de signaux historiques — calibration en cours, `quant_report_latest.json`)
 
 **Règle de disqualification :** Aucun score individuel ≤ 2/10 → ticker conservé.
 
@@ -105,7 +103,7 @@ SPCX est un ETF thématique SPAC/post-IPO (Financial Services / Asset Management
 
 | Niveau | Valeur | Méthode |
 |--------|--------|---------|
-| Prix entrée suggéré | $21.99 | Close du jour |
+| Prix entrée suggéré | $21.99 | Close du jour (source `data/latest.json`) |
 | Stop-loss | $21.51 | Close − 2×ATR = $21.99 − $0.48 |
 | Take-profit | $22.71 | Close + 3×ATR = $21.99 + $0.72 |
 | Ratio R/R | 1.5× | Gain $0.72 / Perte $0.48 |
