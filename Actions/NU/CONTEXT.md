@@ -11,8 +11,8 @@
 - **Score Global :** 66.0/100 (ajusté 63.0)
 - **Score Opportunité :** 6.6/10 (C:6.5 V:8.0 M:4.5)
 - **Prix Cible :** $18.56 (consensus FMP, 9 analysts)
-- **Stop-Loss :** $11.37 (2×ATR)
-- **Statut Thèse :** Score ajusté franchit seuil achat réduit — timing défavorable, sizing réduit
+- **Stop-Loss :** $11.42 (2×ATR)
+- **Statut Thèse :** Score ajusté franchit seuil achat réduit — timing défavorable, volume faible (0.51×), sizing réduit
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
@@ -44,11 +44,12 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 25.97
+- **RSI 14j :** 26.88
 - **MM 50j :** 14.21
 - **MM 200j :** —
 - **ATR 14j :** 0.45
-- **Volume moy. 20j :** 45363284
+- **Volume moy. 20j :** 45575495
+- **Volume jour :** 23323010 (0.51× moyenne)
 
 ---
 
@@ -57,7 +58,7 @@
 - **Date :** 2026-05-19
 - **Type :** update
 - **Fichier :** `NU_2026-05-19_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ACHETER (Réduit)**
+- **Conclusion :** **Thèse : CONFIRMÉE — ACHETER (Réduit)** — snapshot 17:00 UTC : cours $12.32 (+0.24%), RSI 26.88 (+3.51), volume 23.3M (0.51×), SL révisé $11.42
 
 ---
 

@@ -14,7 +14,7 @@
 
 | Fichier | Date | Type | Verdict |
 |---------|------|------|---------|
-| [NU_2026-05-19_update.md](NU_2026-05-19_update.md) | 2026-05-19 | Update quotidienne (post-pipeline 13:00 UTC) | ACHETER (Réduit) — thèse confirmée, données options corrigées (max pain $17.50, put/call 0.40, call OI 71.5%), score ajusté 63.0 |
+| [NU_2026-05-19_update.md](NU_2026-05-19_update.md) | 2026-05-19 | Update quotidienne (snapshot 17:00 UTC) | ACHETER (Réduit) — thèse confirmée, léger répit technique (RSI 26.88, volume corrigé 23.3M/0.51×), SL révisé $11.42, score ajusté 63.0 |
 | [NU_2026-05-19_update.md](NU_2026-05-19_update.md) | 2026-05-19 | Update quotidienne (post-pipeline 10:00 UTC, archive dans le même fichier) | ACHETER (Réduit) — thèse confirmée, données stables, [DONNÉES PARTIELLES] options dégradées |
 | [NU_2026-05-18_update.md](NU_2026-05-18_update.md) | 2026-05-18 | Update quotidienne (post-pipeline 22:35 UTC) | ACHETER (Réduit) — thèse confirmée, données stables vs 21:23 UTC, score ajusté 63.0 |
 | [NU_2026-05-18_init.md](NU_2026-05-18_init.md) | 2026-05-18 | Init / Full Refresh | ATTENDRE |

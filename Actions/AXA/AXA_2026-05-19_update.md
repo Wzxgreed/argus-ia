@@ -1,27 +1,33 @@
-# AXA — Mise à jour Quotidienne
+# AXA — Mise à jour Quotidienne (Snapshot 17h00 UTC)
 
-> **Date :** 2026-05-19  
-> **Type :** `_update.md` (flash post-pipeline + revue sectorielle)  
-> **Analyste :** Desk Argus-IA  
-> **Réf. précédent :** `AXA_2026-05-18_update.md`
+> **Date :** 2026-05-19
+> **Snapshot :** 2026-05-19T17:00:01 UTC
+> **Type :** `_update.md` (flash post-pipeline 17h00)
+> **Analyste :** Desk Argus-IA
+> **Réf. précédent :** `AXA_2026-05-19_update.md` (snapshot matinal)
 
 ---
 
-## Résumé des changements depuis le 2026-05-18
+## Résumé des changements depuis le snapshot matinal
 
-| Élément | État 2026-05-18 | État 2026-05-19 | Changement |
-|---------|-----------------|-----------------|------------|
+| Élément | État snapshot matin | État snapshot 17h00 | Changement |
+|---------|--------------------|---------------------|------------|
 | Cours | [DONNÉES MANQUANTES] | [DONNÉES MANQUANTES] | — |
 | RSI 14j | [DONNÉES MANQUANTES] | [DONNÉES MANQUANTES] | — |
 | ATR 14j | [DONNÉES MANQUANTES] | [DONNÉES MANQUANTES] | — |
 | Volume | [DONNÉES MANQUANTES] | [DONNÉES MANQUANTES] | — |
-| Score Opportunité | 5.5/10 (C:6.5 V:5.0 M:5.0) | 5.5/10 (C:6.5 V:5.0 M:5.0) | Stable |
-| Score Global | 55.2/100 | 55.2/100 | Stable |
-| Recommandation | ATTENDRE | ATTENDRE | Confirmée |
-| Timing | Neutre | Neutre | Stable |
-| Earnings | J0 (2026-05-18) | J0 (2026-05-19) | Calendrier FMP |
+| Tickers KO pipeline | 4 / 25 | **3 / 25** | Amélioration (1 ticker corrigé, pas AXA) |
+| Score Opportunité | 5.5/10 (C:6.5 V:5.0 M:5.0) | **5.5/10** (C:6.5 V:5.0 M:5.0) | Stable |
+| Score Global | 55.2/100 | **55.2/100** | Stable |
+| Recommandation | ATTENDRE | **ATTENDRE** | Confirmée |
+| Timing | Neutre | **Neutre** | Stable |
+| XLF RS 20j vs SPY | −5.91% | **−6.06%** | Légère dégradation |
+| XLF RS 60j vs SPY | −8.35% | **−6.11%** | Réduction de l'écart |
+| XLF return 20j | — | **−1.52%** | Nouveau datapoint |
+| XLF return 60j | — | **+2.05%** | Nouveau datapoint |
+| Earnings | J0 (2026-05-19) | **J0 (2026-05-19)** | Confirmé, non résolu |
 
-**Alerte pipeline :** AXA fait partie des **4 tickers KO** sur 25 requêtés (`AST`, `MICRON`, `AXA`, `CYTOMX`). `validation_report.txt` enregistre **5 erreurs + 2 warnings** — au-delà du seuil critique de 2 `[ERROR]` (règle pipeline : STOP si >2 erreurs). Aucune métrique technique ou fondamentale brute n'est exploitable.
+**Alerte pipeline :** AXA fait partie des **3 tickers KO** sur 25 requêtés (`AST`, `AXA`, `CYTOMX`). `validation_report.txt` (16:06 UTC) enregistre **4 erreurs + 2 warnings** — au-delà du seuil critique de 2 `[ERROR]`. Aucune métrique technique ou fondamentale brute n'est exploitable pour AXA.
 
 ---
 
@@ -50,14 +56,16 @@ Aucun bloc fondamental alimenté par `latest.json` : pas de `price`, `technical`
 - **Earnings J0** (2026-05-19) selon `upcoming_events_latest.json` — source FMP.
 - Aucun consensus EPS/Revenue ni résultat publié n'a été récupéré par les sources connectées.
 
-**Exposition sectorielle (contexte) :**
-- AXA est classé dans le secteur **Financials** (via XLF). `sector_rotation_latest.json` montre une sous-performance sectorielle sévère :
-  - XLF RS 20j vs SPY : **−5.91%**
-  - XLF RS 60j vs SPY : **−8.35%**
-  - Momentum score XLF : **0.0/10** (dernier du classement)
-- Pas de crossover détecté. Le secteur financier est en phase de distribution relative vs le marché.
+**Exposition sectorielle (actualisée snapshot 17h00) :**
+- AXA est classé dans le secteur **Financials** (via XLF). `sector_rotation_latest.json` (2026-05-19) montre une sous-performance sectorielle persistante :
+  - XLF return 20j : **−1.52%**
+  - XLF return 60j : **+2.05%**
+  - XLF RS 20j vs SPY : **−6.06%**
+  - XLF RS 60j vs SPY : **−6.11%**
+  - Momentum score XLF : **0.0/10** (dernier du classement, ex-aequo avec Industrials, Utilities, Healthcare, Consumer Discretionary, Materials, Real Estate, Communication Services)
+- Pas de crossover détecté. Le secteur financier reste en phase de distribution relative vs le marché.
 
-**Implication desk :** Même si les données AXA étaient disponibles, le headwind sectoriel serait un malus structurel sur le score Momentum et le timing d'entrée.
+**Implication desk :** Même si les données AXA étaient disponibles, le headwind sectoriel serait un malus structurel sur le score Momentum et le timing d'entrée. La dégradation de la RS 20j (−6.06% vs −5.91% ce matin) confirme la pression relative sur le secteur.
 
 ---
 
@@ -66,7 +74,7 @@ Aucun bloc fondamental alimenté par `latest.json` : pas de `price`, `technical`
 | Signal | État | Détail |
 |--------|------|--------|
 | News du jour (`news_2026-05-19.json`) | **Aucune** | `AXA: []` — 0 article |
-| Sentiment retail (Reddit) | **No data** | 0 mentions, score 0/10 |
+| Sentiment retail (Reddit) | **No data** | 0 mentions, score 0/10 (`social_sentiment_latest.json`) |
 | Pump / dump detection | 🟢 Aucun | `pump_detected: false` |
 | Événements corporate | 🟢 Aucun | `events_latest.json` → 0 événement AXA |
 | Options (max pain, GEX, IV Rank) | **[DONNÉES MANQUANTES]** | Non récupérées |
@@ -82,12 +90,18 @@ Aucun bloc fondamental alimenté par `latest.json` : pas de `price`, `technical`
 - Aucun événement géopolitique spécifique à AXA détecté.
 - Score politique global non calculé pour ce ticker (absent du JSON).
 
+**Social Sentiment** (`social_sentiment_latest.json`) :
+- AXA mention count : 0
+- Sentiment score : 0.0/10
+- Label : "No data"
+- Pas de mention spike, pas de pump détecté.
+
 ---
 
 ## Scoring global (agents)
 
-| Score | Valeur | Évolution vs 2026-05-18 |
-|-------|--------|-------------------------|
+| Score | Valeur | Évolution vs snapshot matin |
+|-------|--------|----------------------------|
 | Score Opportunité | **5.5/10** | Stable |
 | — Catalyseur | 6.5/10 | Stable |
 | — Valorisation | 5.0/10 | Stable |
@@ -127,15 +141,16 @@ Sans cours ni ATR, aucun niveau technique ne peut être établi de manière fiab
 | **Action recommandée** | **ATTENDRE** — résoudre le sourcing des données avant toute analyse technique ou fondamentale |
 
 **Synthèse desk :**
-1. **Problème de symbole persistant :** "AXA" n'est pas un ticker Yahoo Finance US valide. Le pipeline doit être configuré avec `CS.PA` (Euronext Paris) ou `AXAHY` (ADR US) pour obtenir des données de cours, RSI, volumes et fondamentaux.
+1. **Problème de symbole persistant :** "AXA" n'est pas un ticker Yahoo Finance US valide. Le pipeline doit être configuré avec `CS.PA` (Euronext Paris) ou `AXAHY` (ADR US) pour obtenir des données de cours, RSI, volumes et fondamentaux. `config/watchlist.json` liste toujours AXA avec exchange "NASDAQ" et secteur "Non spécifié" — cette configuration est incorrecte.
 2. **Earnings J0 non suivi :** L'événement earnings du 2026-05-19 est répertorié dans le calendrier FMP mais sans données de consensus ni résultats. L'impact sur le cours ne peut être mesuré.
-3. **Headwind sectoriel :** Le secteur financier (XLF) sous-performe le S&P 500 de −5.91% sur 20j et −8.35% sur 60j, avec un momentum score de 0.0/10. Si les données AXA étaient disponibles, ce contexte sectoriel peserait sur le score Momentum.
-4. **Qualité des données :** Le validation report du jour enregistre 5 erreurs + 2 warnings (>2 ERROR → STOP). AXA est l'un des 4 tickers KO. Tout scoring est non fiable.
+3. **Headwind sectoriel confirmé :** Le secteur Financials (XLF) sous-performe le S&P 500 de −6.06% sur 20j et −6.11% sur 60j, avec un momentum score de 0.0/10. La RS 20j s'est légèrement dégradée vs ce matin (−6.06% vs −5.91%). Si les données AXA étaient disponibles, ce contexte sectoriel peserait sur le score Momentum.
+4. **Qualité des données :** Le validation report du jour enregistre 4 erreurs + 2 warnings (>2 ERROR → STOP). AXA est l'un des 3 tickers KO. Tout scoring est non fiable.
 5. **Next steps (inchangés) :**
    - Corriger `config/watchlist.json` pour utiliser `CS.PA` ou `AXAHY`
+   - Mettre à jour le secteur (Financials / Insurance)
    - Relancer `scripts/fetch_prices.py` pour ce ticker
    - Compléter `AXA_YYYY-MM-DD_init.md` dès que les données seront disponibles
 
 ---
 
-*Rapport généré automatiquement par le desk Argus-IA. Données sources : `data/latest.json`, `data/recommandations_latest.json`, `data/fx_exposure_latest.json`, `data/upcoming_events_latest.json`, `data/social_sentiment_latest.json`, `data/events_latest.json`, `data/sector_rotation_latest.json`, `data/geo_risk_latest.json`, `data/quant_report_latest.json`, `data/validation_report.txt`.*
+*Rapport généré automatiquement par le desk Argus-IA. Données sources : `data/latest.json` (fetched_at 2026-05-19T17:00:01 UTC), `data/recommandations_latest.json`, `data/fx_exposure_latest.json`, `data/upcoming_events_latest.json`, `data/social_sentiment_latest.json`, `data/events_latest.json`, `data/sector_rotation_latest.json`, `data/geo_risk_latest.json`, `data/quant_report_latest.json`, `data/validation_report.txt`.*
