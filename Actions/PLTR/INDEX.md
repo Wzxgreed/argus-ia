@@ -8,7 +8,7 @@
 |------|---------|------|------------|
 | 2026-05-17 | [PLTR_2026-05-17_init.md](PLTR_2026-05-17_init.md) | Analyse initiale | SURVEILLER — Score Opp. 3.0/10 |
 | 2026-05-18 | [PLTR_2026-05-18_update.md](PLTR_2026-05-18_update.md) | Mise à jour post-pipeline (consolidée) | SURVEILLER — Score Opp. 5.1/10, RSI 42.52, volume 31.76M, thèse confirmée |
-| 2026-05-19 | [PLTR_2026-05-19_update.md](PLTR_2026-05-19_update.md) | Mise à jour snapshot 13:00 UTC (correction anomalies options) | SURVEILLER — Score Opp. 5.1/10, cours stable $135.14, Max Pain corrigé $140, Put/Call 0.64, Call OI 60.8%, thèse confirmée |
+| 2026-05-19 | [PLTR_2026-05-19_update.md](PLTR_2026-05-19_update.md) | Mise à jour snapshot 21:00 UTC (close finale) | SURVEILLER — Score Opp. 5.4/10, cours $135.26, RSI 46.36, volume 29.65M, rebond fin de session, thèse confirmée |
 
 ## Agenda
 - **Prochain earnings :** 2026-08-03 (Q2 FY2026, Est. EPS $0.32–$0.40, Rev $1.8B)
@@ -20,12 +20,12 @@
 - Warning : `data/accounting_risk_latest.json` absent — Filtre Qualité non alimenté
 
 ## Contexte technique (dernier snapshot 21:00 UTC)
-- Cours : $135.14
-- RSI 14j : 42.52
-- MM 50j : 143.96
-- ATR 14j : 5.80
-- Volume 20j moy. : 44.26M
-- Volume jour : 31.76M
+- Cours : $135.26
+- RSI 14j : 46.36
+- MM 50j : 143.54
+- ATR 14j : 5.62
+- Volume 20j moy. : 43.53M
+- Volume jour : 29.65M
 - Max Pain : 140.00
 - Put/Call : 0.64
 - Call OI % : 60.8

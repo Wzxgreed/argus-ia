@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
-- **Horizon :** —
+- **Recommandation :** SURVEILLER
+- **Score global :** 46.3/100
+- **Prix cible :** $187.61 (consensus)
+- **Stop-loss :** $124.02
+- **Statut thèse :** Confirmée — légère amélioration technique en fin de séance
+- **Horizon :** Jusqu'à earnings Q2 2026-08-03
 
 ---
 
@@ -36,11 +36,13 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 46.35
+- **RSI 14j :** 46.36
 - **MM 50j :** 143.54
 - **MM 200j :** —
 - **ATR 14j :** 5.62
-- **Volume moy. 20j :** 43406618
+- **Volume moy. 20j :** 43531707
+- **Volume jour :** 29646855
+- **Cours :** $135.26
 
 ---
 
@@ -49,7 +51,7 @@
 - **Date :** 2026-05-19
 - **Type :** update
 - **Fichier :** `PLTR_2026-05-19_update.md`
-- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-05-19 17:00 UTC) + `data/recommandations_latest.json` + agents sector, FX, watchman, events, social, quant, geo
+- **Conclusion :** Snapshot 21:00 UTC — rebond fin de session (+0.51% vs 17:00, cours $135.26), RSI remonté à 46.36, volume 29.65M. Thèse SURVEILLER confirmée. Pas d'entrée avant franchissement MM50 ($143.54) avec volume > moyenne.
 
 ---
 
