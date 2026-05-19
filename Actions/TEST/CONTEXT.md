@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
+- **Recommandation :** SURVEILLER
+- **Score global :** 46.0/100
 - **Prix cible :** $—
-- **Stop-loss :** $42.62
-- **Statut thèse :** —
+- **Stop-loss :** $40.86
+- **Statut thèse :** Dégradée — cassure MM50 + gap-down
 - **Horizon :** —
 
 ---
@@ -30,7 +30,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-19** · earnings · Earnings ...
+- **2026-05-19** · earnings · Earnings JOUR J — résultats non observables à 17:00 UTC
 
 ---
 
@@ -47,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-19
-- **Type :** preview
-- **Fichier :** `TEST_2026-05-19_preview.md`
-- **Conclusion :** > **Date :** 2026-05-19
+- **Type :** update
+- **Fichier :** `TEST_2026-05-19_update.md`
+- **Conclusion :** Verdict SURVEILLER — Thèse DÉGRADÉE de ATTENDRE → SURVEILLER suite à la cassure technique de la MM50 en fin de séance. Gap-down de −3.04%, RSI en retrait à 53.18, volume normalisé. Aucun catalyseur d'entrée. Earnings JOUR J non observables.
 
 ---
 
