@@ -49,11 +49,11 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 54.91
-- **MM 50j :** 299.76
+- **RSI 14j :** 56.82
+- **MM 50j :** 299.87
 - **MM 200j :** —
 - **ATR 14j :** 19.78
-- **Volume moy. 20j :** 5768967
+- **Volume moy. 20j :** 5794610
 
 ---
 
@@ -62,7 +62,7 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 - **Date :** 2026-05-19
 - **Type :** update
 - **Fichier :** `VRT_2026-05-19_update.md`
-- **Conclusion :** **Date :** 2026-05-19
+- **Conclusion :** Correction −3.51% en séance ($327.79), cumul −11.6% depuis 17 mai. Support $330 rompu, low $314.34 testé. RSI 56.82, ATR $19.78. Score Opportunité 4.1/10 (+0.2). Timing passe à Favorable. SURVEILLER. Options put/call 2.62 persistant.
 
 ---
 
