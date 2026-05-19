@@ -14,6 +14,7 @@
 
 | Fichier | Date | Type | Verdict |
 |---------|------|------|---------|
+| [NU_2026-05-19_update.md](NU_2026-05-19_update.md) | 2026-05-19 | Update quotidienne (post-pipeline 10:00 UTC) | ACHETER (Réduit) — thèse confirmée, données stables vs 18/05 22:35 UTC, score ajusté 63.0, volume consolidé 71.1M (+19.7%), [DONNÉES PARTIELLES] options dégradées |
 | [NU_2026-05-18_update.md](NU_2026-05-18_update.md) | 2026-05-18 | Update quotidienne (post-pipeline 22:35 UTC) | ACHETER (Réduit) — thèse confirmée, données stables vs 21:23 UTC, score ajusté 63.0 |
 | [NU_2026-05-18_init.md](NU_2026-05-18_init.md) | 2026-05-18 | Init / Full Refresh | ATTENDRE |
 | [NU_2026-05-18_claude.md](NU_2026-05-18_claude.md) | 2026-05-18 | Full Refresh | ATTENDRE |
