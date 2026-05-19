@@ -1,9 +1,9 @@
 # FUBO
 
 ## Thèse courante
-**ATTENDRE** — Score Opportunité ~5,1/10 (ajusté Qualité + options + sectoriel), Score Global ~51/100 (2026-05-19 post-pipeline 10:00 UTC)
+**ATTENDRE** — Score Opportunité ~5,1/10 (ajusté Qualité + options + sectoriel), Score Global ~51/100 (2026-05-19 post-pipeline 13:00 UTC)
 
-Thèse d'investissement : FUBO est un titre spéculatif du secteur Communication Services (streaming sportif live) avec un profil fondamental dégradé (Score Qualité 1/6, FCF négatif, current ratio 0,84, debt/equity 2,43). La divergence Yahoo/FMP persiste (market cap $276,1M vs ~$3,27B — ×11,8), rendant toute valorisation fiable impossible. Le momentum technique reste baissier (sous MM50 à $11,89, RSI 36,21, volume 0,62× moyenne — liquidité réduite). Le repositionnement options est volatile à J-2 de l'échéance 2026-05-22 : max pain remonté à $21,00 (+110% vs close 18/05), put/call 0,65 (−27,8%), call OI dominant à 60,6% — signalant un intérêt spéculatif haussier combiné au short interest massif (22,84%). Ce setup dessine un potentiel short squeeze technique, mais sans fondement qualitatif. Le secteur Communication Services (XLC) reste classé bottom 3 de la rotation sectorielle (momentum 0,0). Les résultats Q1 2026 étaient attendus le 2026-05-19 mais ne sont pas visibles dans le snapshot 10:00 UTC — publication post-close probable ou retard API. **Pas de position longue recommandée.**
+Thèse d'investissement : FUBO est un titre spéculatif du secteur Communication Services (streaming sportif live) avec un profil fondamental dégradé (Score Qualité 1/6, FCF négatif, current ratio 0,84, debt/equity 2,43). La divergence Yahoo/FMP persiste (market cap $276,1M vs ~$3,27B — ×11,8), rendant toute valorisation fiable impossible. Le momentum technique reste baissier (sous MM50 à $11,89, RSI 36,21, volume 0,62× moyenne — liquidité réduite). Le repositionnement options a été corrigé au snapshot 13:00 UTC : max pain revenu à $10,00 (artefact $21,00 du snapshot 10:00 UTC neutralisé), put/call 0,67, call OI dominant à 60,0% — signalant un intérêt spéculatif haussier combiné au short interest massif (22,84%). Ce setup dessine un potentiel short squeeze technique, mais sans fondement qualitatif. Le secteur Communication Services (XLC) reste classé bottom 3 de la rotation sectorielle (momentum 0,0). Les résultats Q1 2026 étaient attendus le 2026-05-19 mais ne sont pas visibles dans le snapshot 13:00 UTC — publication post-close probable ou retard API. **Pas de position longue recommandée.**
 
 ## Historique
 | Date | Fichier | Type |
@@ -13,7 +13,7 @@ Thèse d'investissement : FUBO est un titre spéculatif du secteur Communication
 | 2026-05-18 | [FUBO_2026-05-18_update.md](FUBO_2026-05-18_update.md) | Mise à jour post-pipeline 22:35 UTC — close final $9.38 (-2.49%), volume 0.62×, snapshot stable vs 21h UTC, earnings Q1 en attente, thèse ATTENDRE confirmée |
 | 2026-05-18 | [FUBO_2026-05-18_init.md](FUBO_2026-05-18_init.md) | FULL REFRESH — ATR_SPIKE 8,53%, thèse confirmée ATTENDRE (close final $9.38) |
 | 2026-05-18 | [FUBO_2026-05-18_preview.md](FUBO_2026-05-18_preview.md) | Preview pré-earnings |
-| 2026-05-19 | [FUBO_2026-05-19_update.md](FUBO_2026-05-19_update.md) | Mise à jour post-pipeline 10:00 UTC — données stables vs close 18/05, repositionnement options majeur (max pain $21 +110%, call OI 60,6%), earnings Q1 JOUR J en attente, thèse ATTENDRE confirmée |
+| 2026-05-19 | [FUBO_2026-05-19_update.md](FUBO_2026-05-19_update.md) | Mise à jour post-pipeline 13:00 UTC — données stables vs 10:00 UTC, correction artefact options (max pain $21→$10, put/call 0,67, call OI 60,0%), earnings Q1 JOUR J en attente, thèse ATTENDRE confirmée |
 
 ## Agenda
 - **Earnings Q1 2026 :** 2026-05-19 (JOUR J — résultats en attente de confirmation / publication post-close probable ou retard API)

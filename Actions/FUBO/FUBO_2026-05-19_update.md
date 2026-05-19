@@ -1,16 +1,16 @@
-# FUBO — Mise à Jour Post-Pipeline 10:00 UTC (2026-05-19)
+# FUBO — Mise à Jour Post-Pipeline 13:00 UTC (2026-05-19)
 
-> **Niveau d'impact :** 🟡 Modéré — Repositionnement options significatif (max pain ×2, call OI dominant), données fondamentales et techniques stables
-> **Référence précédente :** [FUBO_2026-05-18_update.md](FUBO_2026-05-18_update.md) (post-pipeline 22:35 UTC) et [FUBO_2026-05-18_init.md](FUBO_2026-05-18_init.md) (FULL REFRESH 13h UTC)
+> **Niveau d'impact :** 🟡 Modéré — Correction artefact options (max pain revenu à $10), données fondamentales et techniques stables
+> **Référence précédente :** [FUBO_2026-05-19_update.md](FUBO_2026-05-19_update.md) (post-pipeline 10:00 UTC — max pain erroné $21) et [FUBO_2026-05-18_update.md](FUBO_2026-05-18_update.md) (close final $9,38)
 
 ---
 
-## 1. Résumé des Changements depuis l'Analyse Précédente (2026-05-18)
+## 1. Résumé des Changements depuis l'Analyse Précédente (10:00 UTC)
 
-| Métrique | 2026-05-18 (close 22:35 UTC) | 2026-05-19 (10:00 UTC) | Variation |
+| Métrique | 2026-05-19 10:00 UTC | 2026-05-19 13:00 UTC | Variation |
 |---|---|---|---|
 | Cours close | $9,38 | **$9,38** | — |
-| Volume séance | 964 675 | **965 500** | +0,09% |
+| Volume séance | 965 500 | **965 500** | — |
 | Volume vs 20j | 0,62× | **0,62×** | — |
 | RSI 14j | 36,21 | **36,21** | — |
 | ATR 14j | $0,80 | **$0,80** | — |
@@ -20,18 +20,18 @@
 | Forward P/E | 19,87x | **19,87x** | — |
 | P/B (Yahoo) | 0,340x | **0,340x** | — |
 | Short Interest | 22,84% | **22,84%** | — |
-| **Max Pain** | $10,00 | **$21,00** | **+110,0%** |
-| **Put/Call Ratio** | 0,90 | **0,65** | **−27,8%** |
-| **Call OI %** | 52,5% | **60,6%** | **+8,1 pp** |
+| **Max Pain** | **$21,00** (artefact) | **$10,00** | **−52,4%** (correction) |
+| **Put/Call Ratio** | 0,65 | **0,67** | **+3,1%** |
+| **Call OI %** | 60,6% | **60,0%** | **−0,6 pp** |
 | FMP Market Cap | ~$3,27B | **~$3,27B** | — |
 
-**Constat :** Le snapshot pipeline 10:00 UTC du 2026-05-19 confirme la **stabilité totale** du close final à **$9.38** et de l'ensemble des métriques fondamentales et techniques. Le volume reste inchangé à **965 500 actions** (0.62× moyenne 20j), le RSI **36.21**, l'ATR **$0.80**. **Aucune donnée de prix, volume, ratio technique ou consensus n'a varié** entre les deux sessions.
+**Constat :** Le snapshot pipeline 13:00 UTC confirme la **stabilité totale** du close à **$9.38** et de l'ensemble des métriques fondamentales et techniques. **Aucune variation de prix, volume, ratio technique ou consensus** n'est observée entre les deux snapshots du jour.
 
-**Changement majeur : repositionnement options volatile autour de l'échéance 2026-05-22**
-- Le max pain est remonté de **$10,00 à $21,00** (+110%), niveau proche du matin du 2026-05-18 ($21,00 à 10h UTC) avant de basculer à $10,00 en session close. Ce cycle suggère une volatilité de repositionnement quotidienne.
-- Le put/call ratio est repassé de **0,90 à 0,65** (moins baissier), proche du niveau matinal du 2026-05-18.
-- Les calls dominent désormais l'open interest à **60,6%** (+8,1 pp vs close 18/05), signalant un intérêt haussier renouvelé sur les dérivés à très court terme.
-- **Lecture institutionnelle :** ce repositionnement call-dominant avec max pain à $21 peut refléter (a) des achats de calls spéculatifs en anticipation d'un catalyseur post-earnings, ou (b) une couverture de shorts massifs (short interest 22,84%). Le max pain à $21 reste à +123% du spot — le marché ne price pas un move de cette amplitude comme base, mais comme queue de distribution.
+**Changement majeur : correction de l'arteffact options du snapshot 10:00 UTC**
+- Le max pain a été **corrigé de $21,00 à $10,00** (−52,4%), revenant au niveau observé au close du 2026-05-18. La valeur $21,00 du snapshot 10:00 UTC était un **artefact de structure OI**, comme anticipé dans l'analyse précédente.
+- Le put/call ratio est légèrement remonté de **0,65 à 0,67**, restant proche du niveau baissier.
+- Les calls dominent encore l'open interest à **60,0%** (−0,6 pp vs 10:00 UTC), signalant un intérêt haussier persistant sur les dérivés à très court terme.
+- **Lecture institutionnelle :** la correction du max pain à $10 valide le scénario de **pinning autour de $9,50–$10,00** à J-2 de l'échéance options (2026-05-22). Le cycle $21 → $10 → $21 → $10 en 27h confirme une volatilité de repositionnement extrême mais sans direction fondamentale claire. L'OI call-dominant (60%) combiné au short interest massif (22,84%) maintient un **setup latent de short squeeze** si un catalyseur positif survient, mais la probabilité reste faible au vu de la qualité dégradée (1/6).
 
 ---
 
@@ -47,21 +47,21 @@
 | Beta | 2,508 | Volatilité systématique extrême |
 | 52W High / Low | $56,64 / $8,31 | Distance au 52W low : +12,9% |
 
-**Niveaux clés (confirmés 10:00 UTC) :**
+**Niveaux clés (confirmés 13:00 UTC) :**
 - Support immédiat : **$9,31** (low du 2026-05-18)
 - Support secondaire : **$8,31** (52W low)
-- Résistance : **$10,00** (niveau psychologique)
+- Résistance : **$10,00** (niveau psychologique / max pain corrigé)
 - Résistance majeure : **$11,89** (MM50)
 - Stop-loss ATR (2×) : **$7,78** (−17,1%)
 - Take-profit ATR (3×) : **$11,78** (+25,5%)
 
-**Verdict timing :** Défavorable — sous MM50, RSI proche survente mais non confirmé, volume inférieur à la normale. Le pinning autour de $9,40 reste le scénario de haute probabilité à J-3 de l'échéance options (2026-05-22), malgré le max pain théorique à $21. Ce dernier est trop éloigné du spot pour constituer un aimant de prix réaliste à court terme.
+**Verdict timing :** Défavorable — sous MM50, RSI proche survente mais non confirmé, volume inférieur à la normale. Le pinning autour de $9,40–$10,00 reste le scénario de haute probabilité à J-2 de l'échéance options (2026-05-22), désormais cohérent avec le max pain corrigé à $10.
 
 ---
 
 ## 3. Mise à Jour Fondamentale
 
-Aucune nouvelle donnée fondamentale dans le snapshot 10:00 UTC. La divergence Yahoo/FMP persiste intégralement :
+Aucune nouvelle donnée fondamentale dans le snapshot 13:00 UTC. La divergence Yahoo/FMP persiste intégralement :
 
 | Source | Market Cap | P/E | P/B | EV/EBITDA |
 |---|---|---|---|---|
@@ -97,16 +97,16 @@ Aucune nouvelle donnée fondamentale dans le snapshot 10:00 UTC. La divergence Y
 
 ## 4. Mise à Jour Sentiment / Options / News
 
-### Options (repositionnement majeur)
+### Options (correction de l'artefact 10:00 UTC)
 
 | Signal | Valeur | Lecture |
 |---|---|---|
-| Max Pain | $21,00 | Niveau théorique très éloigné du spot (+123%) — aimant peu crédible à J-3 |
-| Put/Call Ratio | 0,65 | Moins baissier qu'hier (0,90) — repositionnement vers calls |
-| Call OI % | 60,6% | Dominance calls — intérêt haussier sur dérivés near-term |
+| Max Pain | $10,00 | Pinning probable autour du spot — niveau crédible à J-2 |
+| Put/Call Ratio | 0,67 | Légèrement put-biased — sentiment dérivés baissier |
+| Call OI % | 60,0% | Dominance calls — intérêt haussier near-term persistant |
 | Échéance | 2026-05-22 | J-2 — volatilité de repositionnement attendue |
 
-**Lecture institutionnelle :** Le cycle max pain $21 → $10 → $21 en 24h traduit une incertitude extrême sur le payoff post-earnings. La dominance call OI (60,6%) combinée au short interest massif (22,84%) dessine un **setup potentiel de short squeeze** si un catalyseur positif survient (beat earnings, guidance raise, annonce stratégique). Toutefois, la probabilité reste faible au vu de la qualité dégradée (1/6) et de l'absence de news. Le max pain à $21 est un artefact de la structure OI — le véritable aimant de prix reste $9,50–$10,00.
+**Lecture institutionnelle :** La correction du max pain à $10 valide l'hypothèse de l'analyse 10:00 UTC : le niveau $21 était un artefact de structure OI, non un aimant de prix crédible. Le retour à $10 rétablit le scénario de pinning autour de $9,50–$10,00. La dominance call OI (60%) combinée au short interest massif (22,84%) maintient un **setup latent de short squeeze** si un catalyseur positif survient (beat earnings, guidance raise, annonce stratégique). Toutefois, la probabilité reste faible au vu de la qualité dégradée (1/6) et de l'absence de news. Le put/call 0,67 reste légèrement baissier, équilibrant le signal call-dominant.
 
 ### Consensus Analystes (FMP)
 
@@ -128,7 +128,7 @@ Aucune nouvelle donnée fondamentale dans le snapshot 10:00 UTC. La divergence Y
 
 - `data/news_2026-05-19.json` : **0 article** pour FUBO
 - `data/events_2026-05-19.json` : **0 événement corporate** détecté
-- `data/upcoming_events_2026-05-19.json` : **Earnings Q1 2026 — JOUR J** (2026-05-19) — résultats non visibles dans le snapshot 10:00 UTC
+- `data/upcoming_events_2026-05-19.json` : **Earnings Q1 2026 — JOUR J** (2026-05-19) — résultats non visibles dans le snapshot 13:00 UTC
 
 ### FX Exposure
 
@@ -137,7 +137,7 @@ Aucune nouvelle donnée fondamentale dans le snapshot 10:00 UTC. La divergence Y
 - Divergence : aligned
 - Score FX Impact : 0,0/10 — neutre
 
-**Verdict Sentiment :** Neutre à légèrement spéculatif haussier sur options. Silence médiatique total, consensus figé, mais repositionnement call-dominant et max pain volatile signalent une attente de catalyseur. Aucune news fondamentale détectée.
+**Verdict Sentiment :** Neutre à légèrement spéculatif haussier sur options. Silence médiatique total, consensus figé, mais call OI dominant et max pain corrigé à $10 signalent un attente de catalyseur cadrée autour du spot. Aucune news fondamentale détectée.
 
 ---
 
@@ -153,11 +153,11 @@ Aucune nouvelle donnée fondamentale dans le snapshot 10:00 UTC. La divergence Y
 | Score Momentum | 3,5 / 10 | = |
 | **Recommandation** | **ATTENDRE** | **ATTENDRE** |
 
-**Ajustements qualitatifs (inchangés vs 2026-05-18) :**
+**Ajustements qualitatifs (inchangés vs 10:00 UTC) :**
 - Malus Qualité (1/6) : Valorisation plafonnée à 5/10
 - Malus Sectoriel : XLC bottom 3 (momentum 0,0) → −0,5 pt composite
 - Signal de prudence Liquidité : volume 0,62× — risque de slippage persistant
-- Options : malus historique −0,5 pt Catalyseur maintenu malgré le repositionnement call-dominant, car le max pain à $21 est un artefact de structure et non un signal de conviction
+- Options : malus historique −0,5 pt Catalyseur maintenu malgré le call OI dominant, car le max pain corrigé à $10 ne modifie pas la probabilité de catalyseur positif
 
 **Quant Report (`data/quant_report_latest.json`) :**
 - Date 2026-05-17 — n = 0, pas assez de signaux historiques FUBO
@@ -178,7 +178,7 @@ Aucune nouvelle donnée fondamentale dans le snapshot 10:00 UTC. La divergence Y
 | Stop-Loss | **$7,78** | 2× ATR (−17,1%) |
 | Take-Profit | **$11,78** | 3× ATR (+25,5%) |
 | Ratio R/R | **1,5×** | Stable |
-| Max Pain (théorique) | $21,00 | Niveau non crédible à J-3 — artefact OI |
+| Max Pain (corrigé) | $10,00 | Niveau de pinning probable à J-2 |
 
 **Condition de révision post-earnings (si résultats disponibles) :**
 - Beat + guidance raise → réviser TP à $13,00+ (breakout MM50)
@@ -188,15 +188,15 @@ Aucune nouvelle donnée fondamentale dans le snapshot 10:00 UTC. La divergence Y
 
 ## 7. Conclusion — Thèse Confirmée, Modifiée ou Invalidée ?
 
-### **Verdict : THÈSE CONFIRMÉE — ATTENDRE (vigilance accrue sur options)**
+### **Verdict : THÈSE CONFIRMÉE — ATTENDRE (options normalisées, vigilance earnings)**
 
-La thèse d'**ATTENDRE** du 2026-05-18 reste intégralement valide. Le snapshot pipeline 10:00 UTC du 2026-05-19 **ne modifie aucune donnée de prix, volume ou ratio fondamental** par rapport au close final précédent. Trois observations :
+La thèse d'**ATTENDRE** du 2026-05-19 10:00 UTC reste intégralement valide. Le snapshot pipeline 13:00 UTC **ne modifie aucune donnée de prix, volume ou ratio fondamental** par rapport au snapshot précédent. Trois observations :
 
-1. **Stabilité totale des données closes :** entre le snapshot 2026-05-18 22:35 UTC et le snapshot 2026-05-19 10:00 UTC, le close reste à **$9.38**, le volume quasi identique, et toutes les métriques techniques (RSI, ATR, MM) inchangées. Le fichier `data/2026-05-19.json` (fetched 2026-05-19T10:00:01Z) confirme la stabilité.
+1. **Stabilité totale des données closes :** entre le snapshot 10:00 UTC et le snapshot 13:00 UTC, le close reste à **$9.38**, le volume identique (**965 500 actions**), et toutes les métriques techniques (RSI, ATR, MM) inchangées. Le fichier `data/2026-05-19.json` (fetched 2026-05-19T13:00:11Z) confirme la stabilité.
 
-2. **Repositionnement options volatile autour de l'échéance 2026-05-22 :** le cycle max pain $21 → $10 → $21 en 24h traduit une incertitude extrême sur le payoff post-earnings. La dominance call OI (60,6%) et le put/call 0,65 signalent un intérêt spéculatif haussier, mais le max pain à $21 est trop éloigné du spot pour constituer un aimant crédible. Ce setup combine un **potentiel short squeeze** (short interest 22,84% + calls dominants) avec une **qualité dégradée 1/6** qui exclut toute conviction structurelle.
+2. **Correction de l'artefact options :** le max pain est revenu de **$21,00 à $10,00**, confirmant l'hypothèse de l'analyse 10:00 UTC selon laquelle le niveau $21 était un artefact de structure OI. Ce retour à $10 rétablit le scénario de **pinning autour de $9,50–$10,00** à J-2 de l'échéance options (2026-05-22). Le cycle $21 → $10 → $21 → $10 en 27h traduit une incertitude extrême mais sans direction fondamentale claire. La dominance call OI (60%) et le short interest massif (22,84%) maintiennent un **potentiel short squeeze technique**, mais sans fondement qualitatif.
 
-3. **Earnings toujours en attente :** les résultats Q1 2026 étaient attendus le 2026-05-19 selon `data/upcoming_events_2026-05-19.json`. Aucune donnée earnings (EPS, revenue, guidance) n'est visible dans le snapshot 10:00 UTC. Hypothèses : (a) publication post-close avec délai de récupération API, (b) report de publication, (c) données non remontées par Yahoo/FMP. → **À vérifier à la prochaine session impérativement.**
+3. **Earnings toujours en attente :** les résultats Q1 2026 étaient attendus le 2026-05-19 selon `data/upcoming_events_2026-05-19.json`. Aucune donnée earnings (EPS, revenue, guidance) n'est visible dans le snapshot 13:00 UTC. Hypothèses : (a) publication post-close avec délai de récupération API, (b) report de publication, (c) données non remontées par Yahoo/FMP. → **À vérifier à la prochaine session impérativement.**
 
 **Arguments confirmant la patience (inchangés) :**
 1. **Qualité dégradée 1/6** — patrimoine net négatif (−$398,9M FMP), FCF négatif, current ratio 0,84, debt/equity 2,43, ROIC −2,1%.
@@ -207,8 +207,8 @@ La thèse d'**ATTENDRE** du 2026-05-18 reste intégralement valide. Le snapshot 
 6. **Absence totale de news et de social sentiment** — 0 article, 0 mention Reddit.
 7. **Accounting risk non disponible** — pas de données M-Score / Z-Score / F-Score / Sloan pour cette session.
 
-**Seul élément modifié vs 2026-05-18 :**
-- **Repositionnement options :** max pain $21,00 (+110%), put/call 0,65 (−27,8%), call OI 60,6% (+8,1 pp). Signal de volatilité imminente à J-2 de l'échéance, mais sans direction fondamentale claire.
+**Seul élément modifié vs 10:00 UTC :**
+- **Correction options :** max pain $21,00 → **$10,00** (artefact corrigé), put/call 0,65 → **0,67**, call OI 60,6% → **60,0%**. La normalisation du max pain à $10 retire l'incertitude artificielle du snapshot matinal et rétablit le cadre technique cohérent.
 
 **Scénarios post-earnings (dès disponibilité des résultats) :**
 
@@ -218,12 +218,12 @@ La thèse d'**ATTENDRE** du 2026-05-18 reste intégralement valide. Le snapshot 
 | In-line / mixte | 45% | ±3–5% | Maintenir ATTENDRE |
 | Miss / guidance down | 40% | −10–20% | Confirmer l'évitement |
 
-> **Note de probabilité :** Inchangée vs 2026-05-18. Le repositionnement options call-dominant maintient la probabilité d'un squeeze technique à 15%, mais sans fondement qualitatif.
+> **Note de probabilité :** Inchangée vs 10:00 UTC. Le repositionnement options normalisé (max pain $10) maintient la probabilité bearish à 40% (put/call légèrement au-dessus de 0,60) et la probabilité de squeeze technique à 15%.
 
-**Recommandation finale :** **ATTENDRE — pas de position.** Le titre reste une spéculation pure sans fondement qualitatif. Le close confirmé à $9.38, le volume sous-moyenne et l'absence de données earnings justifient de rester à l'écart. Le repositionnement options volatile à J-2 de l'échéance 2026-05-22 augmente le risque de gap, mais dans les deux directions. Le Score Qualité 1/6 et le patrimoine net négatif excluent toute conviction structurelle. Si résultats positifs demain, le titre reste une spéculation court terme et non un investissement long terme.
+**Recommandation finale :** **ATTENDRE — pas de position.** Le titre reste une spéculation pure sans fondement qualitatif. Le close confirmé à $9.38, le volume sous-moyenne et l'absence de données earnings justifient de rester à l'écart. La correction du max pain à $10 normalise le paysage options à J-2 de l'échéance, mais le risque de gap demeure dans les deux directions. Le Score Qualité 1/6 et le patrimoine net négatif excluent toute conviction structurelle. Si résultats positifs demain, le titre reste une spéculation court terme et non un investissement long terme.
 
 ---
 
 *Analyste institutionnel senior — Desk Argus-IA*  
-*Date : 2026-05-19 (post-pipeline 10:00 UTC)*  
-*Sources : data/2026-05-19.json (fetched 2026-05-19T10:00:01Z), data/recommandations_2026-05-19.json, data/quant_report_latest.json, data/geo_risk_latest.json, data/sector_rotation_2026-05-19.json, data/social_sentiment_2026-05-19.json, data/fx_exposure_2026-05-19.json, data/upcoming_events_2026-05-19.json, data/events_2026-05-19.json, data/news_2026-05-19.json*
+*Date : 2026-05-19 (post-pipeline 13:00 UTC)*  
+*Sources : data/2026-05-19.json (fetched 2026-05-19T13:00:11Z), data/recommandations_2026-05-19.json, data/quant_report_latest.json, data/geo_risk_latest.json, data/sector_rotation_2026-05-19.json, data/social_sentiment_2026-05-19.json, data/fx_exposure_2026-05-19.json, data/upcoming_events_2026-05-19.json, data/events_2026-05-19.json, data/news_2026-05-19.json*

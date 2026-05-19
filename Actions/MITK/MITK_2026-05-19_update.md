@@ -1,14 +1,14 @@
-# MITK — Mise à Jour Post-Pipeline (2026-05-19 10:00 UTC)
+# MITK — Mise à Jour Post-Pipeline (2026-05-19 13:00 UTC)
 
-> Desk : Argus-IA | Pipeline : 10:00 UTC | Données : `data/latest.json` (2026-05-19T10:00:12Z) | Score Global Ajusté : **49.8/100** | Action : **SURVEILLER**
+> Desk : Argus-IA | Pipeline : 13:00 UTC | Données : `data/latest.json` (2026-05-19T13:00:12Z) | Score Global Ajusté : **49.8/100** | Action : **SURVEILLER**
 
 ---
 
 ## Résumé des Changements
 
-**Verdict : DONNÉES STABLES POST-CLOSE (SNAPSHOT 10:00 UTC 2026-05-19). Cours inchangé à $14.13, RSI 50.62 stable, volume 915,700 (0.74× moyenne 20j), ATR $0.85 inchangé. Thèse SURVEILLER confirmée — pas de basculement.**
+**Verdict : DONNÉES STABLES SUR LES MÉTRIQUES PRINCIPALES, MAIS VOLATILITÉ DES DONNÉES OPTIONS CONFIRMÉE. Cours inchangé à $14.13, RSI 50.62 stable, volume 915,700 (0.74× moyenne 20j), ATR $0.85 inchangé. Thèse SURVEILLER confirmée.**
 
-Le snapshot 10:00 UTC confirme l'intégralité des données du snapshot 22:35 UTC du 2026-05-18 :
+Le snapshot 13:00 UTC confirme la stabilité des données fondamentales et techniques du snapshot 10:00 UTC :
 - **Close** : $14.13 (previous close $14.26, -0.91%) — stable
 - **Volume** : 915,700 — stable (0.74× moyenne 20j de 1,236,030)
 - **RSI 14j** : 50.62 — stable
@@ -17,22 +17,25 @@ Le snapshot 10:00 UTC confirme l'intégralité des données du snapshot 22:35 UT
 - **Score Global Ajusté** : 49.8/100 — stable
 - **Score Opportunité** : 5.8/10 (C:5.5 V:6.5 M:5.0) — stable
 
-**Correction notable :** Le **Max Pain** est révisé de **$20.00 → $7.50** (expiration 2026-06-18). L'ancienne valeur de $20.00 était une anomalie aberrante (+41.5% au-dessus du spot) qualifiée dans le précédent update. La nouvelle valeur de $7.50 résout cette anomalie mais se situe **sous le spot** (-46.9%), ce qui reflète une liquidité options extrêmement faible et un positionnement put-dominated sur les strikes proches. Les données Yahoo (`put_call_ratio`, `call_oi_pct`) sont désormais `null`, confirmant l'indisponibilité d'un signal dérivé fiable.
+**Changement notable : volatilité des données options.** Entre le snapshot 10:00 UTC et 13:00 UTC, les données dérivées de Yahoo Finance ont basculé :
+- **Max Pain** : $7.50 (10:00 UTC) → **$20.00** (13:00 UTC) — retour de l'anomalie aberrante (+41.5% au-dessus du spot)
+- **Put/Call ratio** : `null` (10:00 UTC) → **0.17** (13:00 UTC)
+- **Call OI %** : `null` (10:00 UTC) → **85.8%** (13:00 UTC)
 
-**Données options :** `put_call_ratio` et `call_oi_pct` passés de 0.14 / 87.4% à `null` — [DONNÉES MANQUANTES]. La liquidité options reste insuffisante pour une lecture institutionnelle.
+Cette instabilité intrajour confirme que la liquidité options sur MITK est **insuffisante pour une lecture institutionnelle robuste**. Le Max Pain à $20.00 est mathématalement incohérent avec un spot à $14.13 et un consensus analystes à $16.00. Ces données doivent être traitées comme un artefact algorithmique de Yahoo Finance (probablement dû à un très faible open interest concentré sur des strikes éloignés).
 
 ---
 
-## Table Comparative — Snapshot 2026-05-18 22:35Z vs 2026-05-19 10:00Z
+## Table Comparative — Snapshot 10:00Z vs 13:00Z (2026-05-19)
 
-| Variable | Snapshot 18/05 22:35Z | Snapshot 19/05 10:00Z | Δ (19/05 vs 18/05) |
+| Variable | Snapshot 10:00Z | Snapshot 13:00Z | Δ (13:00 vs 10:00) |
 |---|---|---|---|
 | **Cours close** | $14.13 | **$14.13** | **—** |
 | **Change %** | -0.91% | **-0.91%** | **—** |
 | **RSI 14j** | 50.62 | **50.62** | **—** |
 | **ATR 14j** | $0.85 | **$0.85** | **—** |
 | **MM 50j** | $14.30 | **$14.30** | **—** |
-| **Volume jour** | 914,696 | **915,700** | **+0.1%** |
+| **Volume jour** | 915,700 | **915,700** | **—** |
 | **Volume vs 20j** | 0.74× | **0.74×** | **—** |
 | **Market Cap (Yahoo)** | $638.1M | **$638.1M** | — |
 | **Score Global Ajusté** | 49.8/100 | **49.8/100** | — |
@@ -42,10 +45,10 @@ Le snapshot 10:00 UTC confirme l'intégralité des données du snapshot 22:35 UT
 | **Score Momentum** | 5.0/10 | **5.0/10** | — |
 | **Action recommandée** | SURVEILLER | **SURVEILLER** | — |
 | **Consensus PT (FMP)** | $16.00 (2 analysts) | **$16.00 (2 analysts)** | — |
-| **Max Pain** | $20.00 | **$7.50** | **-62.5%** |
-| **Put/Call ratio** | 0.14 | **null** | **[DONNÉES MANQUANTES]** |
-| **Call OI %** | 87.4% | **null** | **[DONNÉES MANQUANTES]** |
-| **Prochain earnings** | 2026-08-06 (80j) | **2026-08-06 (79j)** | **-1j** |
+| **Max Pain** | $7.50 | **$20.00** | **+$12.50 (+166.7%)** |
+| **Put/Call ratio** | null | **0.17** | **[RÉAPPARU]** |
+| **Call OI %** | null | **85.8%** | **[RÉAPPARU]** |
+| **Prochain earnings** | 2026-08-06 (79j) | **2026-08-06 (79j)** | — |
 | **Régime macro** | Unknown | **Unknown** | — |
 | **XLK momentum** | 10.0 | **10.0** | — |
 | **Geo risk score** | 0/10 | **0/10** | — |
@@ -53,7 +56,7 @@ Le snapshot 10:00 UTC confirme l'intégralité des données du snapshot 22:35 UT
 | **Social sentiment** | 0 / No data | **0 / No data** | — |
 | **Events corporate** | Aucun | **Aucun** | — |
 
-**Lecture institutionnelle :** La stabilité totale des données entre les deux snapshots confirme que la séance du 2026-05-18 s'est clôturée sans surprise, et que le snapshot du matin du 2026-05-19 n'apporte aucune donnée nouvelle (pipeline 10:00 UTC reprend les données de clôture de la veille pour les séances US non ouvertes). La correction du Max Pain est une résolution de l'anomalie algorithmique précédente, pas un événement de marché.
+**Lecture institutionnelle :** La stabilité totale des métriques principales (cours, volume, RSI, ATR, scores) confirme que la séance US du 2026-05-19 n'a pas encore ouvert au moment du snapshot 13:00 UTC (données de clôture de la veille répétées). La seule variation — les données options — est un artefact de plateforme et invalide toute analyse dérivée.
 
 ---
 
@@ -118,15 +121,15 @@ Les données fondamentales n'ont pas évolué entre les snapshots.
 | Signal | Valeur | Lecture |
 |---|---|---|
 | Consensus PT | $16.00 (2 analysts) | Upside +13.2%, couverture faible |
-| **Max Pain** | $7.50 | Sous le spot (-46.9%) — liquidité options extrêmement faible, put-dominated |
-| **Put/Call ratio** | null | [DONNÉES MANQUANTES] — signal dérivé indisponible |
-| **Call OI %** | null | [DONNÉES MANQUANTES] |
+| **Max Pain** | $20.00 | 🔴 Anomalie confirmée (+41.5% au-dessus du spot) — données instables |
+| **Put/Call ratio** | 0.17 | Réapparu entre 10h et 13h UTC — signal dérivé non fiable |
+| **Call OI %** | 85.8% | Réapparu entre 10h et 13h UTC — lecture institutionnelle impossible |
 | Short Interest | 7.32% | Modéré, pas de squeeze setup |
 | Social Sentiment | 0 / No data | Sous le radar retail |
 | Upgrades/Downgrades | Aucun | Silence analystes |
 | News structurantes | Aucune | — |
 
-**Verdict Sentiment :** Neutre. La résolution de l'anomalie Max Pain ($20.00 → $7.50) ne modifie pas la conclusion : la liquidité options est insuffisante pour une lecture institutionnelle robuste. Le passage de put/call et call OI à `null` confirme l'indisponibilité des données Yahoo pour ce ticker. Aucun flux de news, aucun insider trade, aucun upgrade/downgrade. MITK reste sous le radar.
+**Verdict Sentiment :** Neutre. L'instabilité intrajour des données options (Max Pain $7.50 → $20.00 en 3 heures) confirme que la liquidité dérivée sur MITK est insuffisante pour toute analyse institutionnelle. Le positionnement call-dominated (85.8% call OI) n'est pas interprétable en raison du faible open interest global. Aucun flux de news, aucun insider trade, aucun upgrade/downgrade. MITK reste sous le radar.
 
 ---
 
@@ -175,8 +178,8 @@ Les niveaux sont inchangés : close stable à $14.13 et ATR stable à $0.85.
 
 **Alertes actives (révisées) :**
 - 🟡 **[VOLUME SOUS MOYENNE]** 0.74× moyenne 20j — liquidité inférieure à la normale
-- 🟡 **[MAX PAIN CORRIGÉ]** $7.50 (résolution anomalie $20.00) — liquidité options extrêmement faible, put-dominated
-- 🟡 **[DONNÉES OPTIONS MANQUANTES]** Put/Call et Call OI % indisponibles — pas de signal dérivé fiable
+- 🔴 **[ANOMALIE OPTIONS CONFIRMÉE]** Max Pain $20.00 (instable : $7.50 à 10:00 UTC → $20.00 à 13:00 UTC) — données dérivées non fiables
+- 🟡 **[DONNÉES OPTIONS INSTABLES]** Put/Call et Call OI % réapparus entre 10h et 13h UTC — pas de signal dérivé fiable
 - 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($638M vs $447M) et P/E — utiliser Yahoo comme primaire
 - 🟡 **[ROIC FAIBLE]** 3.16% — monitorer l'efficacité du capital dans les prochains filings
 - 🟡 **[SCORE SOUS SEUIL 50]** Global ajusté 49.8/100 — surveillance renforcée
@@ -185,9 +188,9 @@ Les niveaux sont inchangés : close stable à $14.13 et ATR stable à $0.85.
 
 ## 7. Conclusion — Thèse Confirmée (SURVEILLER)
 
-**Verdict : THÈSE SURVEILLER CONFIRMÉE. Snapshot 2026-05-19 10:00 UTC strictement identique au snapshot 2026-05-18 22:35 UTC sur toutes les métriques principales. Seule correction = Max Pain révisé $7.50 (résolution de l'anomalie algorithmique $20.00).**
+**Verdict : THÈSE SURVEILLER CONFIRMÉE. Snapshot 13:00 UTC strictement identique au snapshot 10:00 UTC sur toutes les métriques principales. Seule instabilité = données options (Max Pain $20.00, retour de l'anomalie algorithmique), confirmant l'insuffisance de la liquidité dérivée pour une lecture institutionnelle.**
 
-MITK reste un small-cap logiciel ($638M Yahoo) avec un profil qualité partielle (3–4/6) : Forward P/E attractif (11.64x), FCF yield solide (12.1%), mais rentabilité du capital faible (ROIC 3.16%) et couverture institutionnelle quasi nulle (2 analysts). La séance du 2026-05-18 a démontré la volatilité intrinsèque du titre : gap +5.08% du matin, stabilisation à -0.91% post-close. Le volume final s'établit à 0.74× la moyenne 20j, une liquidité inférieure à la normale sans signification directionnelle.
+MITK reste un small-cap logiciel ($638M Yahoo) avec un profil qualité partielle (3–4/6) : Forward P/E attractif (11.64x), FCF yield solide (12.1%), mais rentabilité du capital faible (ROIC 3.16%) et couverture institutionnelle quasi nulle (2 analysts). Le volume final s'établit à 0.74× la moyenne 20j, une liquidité inférieure à la normale sans signification directionnelle.
 
 Le secteur Technology (XLK) affiche un momentum exceptionnel (10.0/10, +12.81% sur 20j), mais MITK sous-performe son secteur avec un momentum individuel de 5.0/10, ce qui suggère une sélectivité du marché au sein du secteur tech.
 
@@ -199,4 +202,4 @@ Ne pas engager de nouvelle position. Déteneurs : maintenir le SL à $12.43. Seu
 
 ---
 
-*Révision post-pipeline 10:00 UTC — Données : `data/latest.json` (2026-05-19T10:00:12Z), `data/recommandations_latest.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_2026-05-19.json`, `data/fx_exposure_latest.json`, `data/social_sentiment_2026-05-19.json`, `data/upcoming_events_2026-05-19.json`, `data/events_2026-05-19.json`, `data/validation_report.txt` (2026-05-19T10:00Z) — Date : 2026-05-19*
+*Révision post-pipeline 13:00 UTC — Données : `data/latest.json` (2026-05-19T13:00:12Z), `data/recommandations_latest.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_2026-05-19.json`, `data/fx_exposure_latest.json`, `data/social_sentiment_2026-05-19.json`, `data/upcoming_events_2026-05-19.json`, `data/events_2026-05-19.json`, `data/validation_report.txt` (2026-05-19T12:06Z) — Date : 2026-05-19*

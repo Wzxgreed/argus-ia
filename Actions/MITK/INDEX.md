@@ -1,12 +1,12 @@
 # MITK
 
 ## Thèse courante
-**SURVEILLER** — Small-cap logiciel (Software-Application, $638M) avec Forward P/E attractif (11.64x) mais rentabilité du capital faible (ROIC 3.16%) et absence de catalyseur idiosyncratique. Gap +5.08% du 2026-05-18 entièrement retourné : close stable à $14.13 (-0.91%) sur volume en normalisation partielle (0.74× moyenne 20j). Cours sous MM50 ($14.30), configuration technique neutre/défavorable. Score Global Ajusté 49.8/100 (sous seuil 50). Pas d'engagement recommandé avant cassure de $14.30 (MM50) avec volume >1.0× moyenne, puis $16.00–$16.48 avec volume >1.5× moyenne. Max Pain corrigé $7.50 (résolution anomalie $20.00) — liquidité options toujours insuffisante.
+**SURVEILLER** — Small-cap logiciel (Software-Application, $638M) avec Forward P/E attractif (11.64x) mais rentabilité du capital faible (ROIC 3.16%) et absence de catalyseur idiosyncratique. Close stable à $14.13 (-0.91%) sur volume en normalisation partielle (0.74× moyenne 20j). Cours sous MM50 ($14.30), configuration technique neutre/défavorable. Score Global Ajusté 49.8/100 (sous seuil 50). Pas d'engagement recommandé avant cassure de $14.30 (MM50) avec volume >1.0× moyenne, puis $16.00–$16.48 avec volume >1.5× moyenne. Anomalie options confirmée : Max Pain instable ($7.50 → $20.00 en 3h) — liquidité dérivée insuffisante pour toute lecture institutionnelle.
 
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
-| 2026-05-19 | [MITK_2026-05-19_update.md](MITK_2026-05-19_update.md) | Mise à jour post-pipeline 10:00 UTC — snapshot stable vs close 2026-05-18 (cours $14.13, volume 0.74×, RSI 50.62, score global 49.8/100, thèse SURVEILLER confirmée, Max Pain corrigé $7.50) |
+| 2026-05-19 | [MITK_2026-05-19_update.md](MITK_2026-05-19_update.md) | Mise à jour post-pipeline 13:00 UTC — snapshot stable vs 10:00 UTC (cours $14.13, volume 0.74×, RSI 50.62, score global 49.8/100, thèse SURVEILLER confirmée). Anomalie options confirmée : Max Pain instable $7.50 → $20.00 entre 10h et 13h UTC — données dérivées non fiables |
 | 2026-05-18 | [MITK_2026-05-18_update.md](MITK_2026-05-18_update.md) | Mise à jour post-pipeline 22:35 UTC — snapshot stable vs 21:23 UTC (cours $14.13, volume 0.74×, RSI 50.62, score global 49.8/100, thèse SURVEILLER confirmée, DRAFT_refresh 22:36 UTC traité comme artefact) |
 | 2026-05-18 | [MITK_2026-05-18_update.md](MITK_2026-05-18_update.md) | Mise à jour post-pipeline 21:23 UTC (cours $14.13, volume 0.74×, RSI 50.62, score global 49.8/100, thèse SURVEILLER confirmée, DRAFT_refresh traité) |
 | 2026-05-18 | [MITK_2026-05-18_init.md](MITK_2026-05-18_init.md) | Full Refresh (triggers : PRICE_GAP +5.08%, ATR_SPIKE 6.03%) |

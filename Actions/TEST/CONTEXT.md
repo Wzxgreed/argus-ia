@@ -47,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-19
-- **Type :** preview
-- **Fichier :** `TEST_2026-05-19_preview.md`
-- **Conclusion :** > **Date :** 2026-05-19
+- **Type :** update
+- **Fichier :** `TEST_2026-05-19_update.md`
+- **Conclusion :** Verdict ATTENDRE — Thèse INACTIVE confirmée. Cours stable à $44.94 entre 10:00 et 13:00 UTC, volume figé à 8.08× (anomalie liquidité), données fondamentales absentes, earnings JOUR J non observables.
 
 ---
 

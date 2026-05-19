@@ -5,7 +5,7 @@
 > **Secteur :** Non spécifié
 > **Exchange :** NASDAQ
 > **Priorité :** Medium
-> **Dernière mise à jour :** 2026-05-19 (snapshot 10:00 UTC)
+> **Dernière mise à jour :** 2026-05-19 (snapshot 13:00 UTC)
 
 ---
 
