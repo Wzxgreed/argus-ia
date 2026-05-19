@@ -1,119 +1,154 @@
-# MICRON — Mise à Jour Post-Pipeline
+# MICRON (MU) — Mise à Jour Post-Fetch
 
-> **Date :** 2026-05-19 (snapshot pipeline 10:00 UTC)
-> **Type :** Update flash — validation snapshot post-pipeline
-> **Ticker système :** MICRON (⚠️ identifiant non reconnu par Yahoo Finance — voir § Données)
+> **Date :** 2026-05-19 (snapshot post-fetch 13:59 UTC)
+> **Type :** Update — correction ticker + fetch MU + validation données
+> **Ticker système :** MU (corrigé depuis MICRON le 2026-05-19)
 
 ---
 
 ## 1. Résumé des changements depuis l'analyse précédente
 
-| Élément | Précédent (2026-05-18 23:09 UTC) | État actuel (2026-05-19 10:00 UTC) | Changement |
+| Élément | Précédent (2026-05-19 10:00 UTC) | État actuel (2026-05-19 13:59 UTC) | Changement |
 |---------|----------------------------------|------------------------------------|------------|
-| Prix de clôture | [DONNÉES MANQUANTES] | [DONNÉES MANQUANTES] | **Aucun** |
-| RSI 14j | 50 (placeholder) | 50 (placeholder) | **Aucun** |
-| ATR 14j | [MANQUANT] | [MANQUANT] | **Aucun** |
-| MM 50j / 200j | [MANQUANT] | [MANQUANT] | **Aucun** |
-| Volume | [MANQUANT] | [MANQUANT] | **Aucun** |
-| Earnings | J0 (2026-05-18) | J0 (2026-05-19) | **Décalé d'un jour** |
-| Score Opportunité | 5.5/10 (ATTENDRE) | 5.5/10 (ATTENDRE) | **Aucun** |
-| Score Global | 55.2/100 | 55.2/100 | **Aucun** |
+| Ticker watchlist | `MICRON` (non reconnu) | `MU` (corrigé) | **✅ Corrigé** |
+| Prix de clôture | [DONNÉES MANQUANTES] | $676.96 (Yahoo) | **🔴 Anomalie** |
+| RSI 14j | 50 (placeholder) | 65.48 | **🔴 Inconsistant** |
+| ATR 14j | [MANQUANT] | $58.36 | **🔴 Inconsistant** |
+| MM 50j | [MANQUANT] | $498.17 | **🔴 Inconsistant** |
+| Volume | [MANQUANT] | 11.3M | **🟡 À vérifier** |
+| Market cap (Yahoo) | [MANQUANT] | $764B | **🔴 Impossible** |
+| Market cap (FMP) | [MANQUANT] | $136B | **🟢 Plus crédible** |
+| P/E | [MANQUANT] | 31.95 | **🟡 Source Yahoo** |
+| Forward P/E | [MANQUANT] | 6.60 | **🟡 Source Yahoo** |
+| Earnings | J0 (2026-05-19) | J0 (2026-05-19) | **Aucun changement** |
+| Score Opportunité | 5.5/10 (ATTENDRE) | [NON RECALCULÉ] | **—** |
 
-**Conclusion de la comparaison :** le snapshot post-pipeline du 2026-05-19 est **strictement identique** au snapshot du 2026-05-18 pour le ticker `MICRON`. Aucune donnée de marché n'a été injectée entre les deux points de contrôle. Le blocage opérationnel persiste en date du 2026-05-19.
-
-**Alerte opérationnelle critique :** le ticker `MICRON` continue de retourner `error: "No price history"` dans `data/2026-05-19.json` (timestamp 10:00:14Z). L'identifiant de marché correct est **`MU`** (NASDAQ : Micron Technology Inc.). Le `validation_report.txt` du 2026-05-19 confirme : `[ERROR] MICRON: fetch failed — No price history`.
+**Conclusion de la comparaison :**
+- Le ticker a été corrigé de `MICRON` → `MU` dans `config/watchlist.json`.
+- Le fetch post-correction a retourné des données numériques, mais **manifestement incohérentes** avec la réalité opérationnelle de Micron Technology.
+- **Anomalies critiques détectées :**
+  1. Prix $676.96 vs 52-week low $90.93 → ratio 7.4× en un an, incompatible avec le TAM mémoire.
+  2. Market cap Yahoo $764B vs FMP $136B → écart 5.6×.
+  3. Revenue per share $33.49 × net margin 22.8% = EPS implicite $7.64 → P/E implicite 88.6, en contradiction avec le P/E rapporté 31.95 et le P/E FMP 15.94.
+  4. Ces incohérences indiquent une **corruption ou un mapping erroné au niveau de la source Yahoo** pour le ticker `MU`.
 
 ---
 
 ## 2. Mise à jour technique
 
-**Statut :** [DONNÉES MANQUANTES] — aucune donnée de prix, volume ou indicateur technique n'a pu être récupérée.
+> **⚠️ Blocage données :** les niveaux suivants sont extraits du JSON `data/2026-05-19.json` mais sont jugés non fiables.
 
-- **RSI 14j :** 50 (valeur par défaut du moteur de scoring — [UNSOURCED])
-- **ATR 14j :** inconnu — stop-loss et take-profit non calculables
-- **MM 50j / 200j :** inconnues
-- **Volume relatif :** inconnu
-- **Niveaux clés (support/résistance) :** inconnus
+| Indicateur | Valeur JSON | Fiabilité | Commentaire |
+|------------|-------------|-----------|-------------|
+| Cours clôture | $676.96 | 🔴 Corrompu | Incompatible avec la capitalisation FMP ($136B) et le secteur |
+| RSI 14j | 65.48 | 🟡 Suspect | Si le prix est erroné, le RSI l'est aussi |
+| ATR 14j | $58.36 | 🟡 Suspect | Dérive excessive vs prix réel estimé (~$90–$120) |
+| MM 50j | $498.17 | 🔴 Impossible | Niveau incompatible avec un cours sous $100 |
+| Volume | 11.3M | 🟡 Plausible | Volume cohérent avec un large-cap semiconductor |
+| Volume vs moy. 20j | -76% | 🟡 Suspect | Volume très faible vs moyenne — possible artefact |
 
-**Contexte sectoriel :** Le secteur Technology (XLK) affiche la meilleure force relative vs SPY sur 20j (+8.59%) et 60j (+16.49%), avec un momentum score de 10.0/10 (`data/sector_rotation_2026-05-19.json`). C'est un vent de queue favorable pour tout ticker semiconducteur, mais non quantifiable sans données de cours pour MICRON.
+**Contexte sectoriel (source `data/sector_rotation_2026-05-19.json`) :**
+- Technology (XLK) : RS 20j +8.59% vs SPY, RS 60j +16.49%, momentum 10.0/10.
+- Le secteur reste en tête de la rotation, vent de queue favorable pour les semi-conducteurs.
+- **Non applicable à MU** tant que les données de cours ne sont pas validées.
 
 ---
 
 ## 3. Mise à jour fondamentale
 
-**Statut :** [DONNÉES MANQUANTES]
+> **⚠️ Données FMP vs Yahoo en conflit.**
 
-- **Filtre Qualité 6 critères :** non calculable (requiert `statements`, `company`, `discountedCashFlow` — tous indisponibles via le ticker erroné)
-- **P/E, Forward P/E, EV/EBITDA :** inconnus
-- **Revenue CAGR 5 ans / Profit CAGR :** inconnus
-- **FCF yield / ROIC :** inconnus
-- **Consensus analystes :** inconnu
+| Métrique | Yahoo (`fundamentals`) | FMP (`fmp_key_metrics`) | Commentaire |
+|----------|--------------------------|-------------------------|-------------|
+| Market cap | $764.0B | $136.2B | Écart 5.6× — FMP plus crédible |
+| P/E | 31.95 | 15.94 (FMP ratios) | Écart 2× |
+| Forward P/E | 6.60 | — | Très bas si réel — attractif |
+| EV/EBITDA | 20.78 | 7.67 (FMP) | Écart 2.7× |
+| Beta | 1.919 | — | Élevé, cohérent avec un cyclique |
+| Dividend yield | 0.09% | 0.38% (FMP) | Faible — cohérent |
+| Short interest | 3.31% | — | Modéré |
 
-**Événement du jour :** Earnings prévu ce jour (2026-05-19) selon FMP (`data/upcoming_events_2026-05-19.json`, severity: high, days_until: 0). Aucun résultat n'a pu être récupéré ni analysé faute de données. Le preview earnings du 2026-05-19 reste vide (placeholders non complétés).
+**Filtre Qualité 6 critères :** non calculable.
+- Requiert des états financiers fiables (`statements`, `company`).
+- Les données actuelles sont insuffisantes pour valider CAGR revenus, FCF trend, moat et TAM.
+
+**Consensus analystes (FMP) :**
+- Price target moyen : **$337.33** (73 analystes)
+- Si le cours réel était ~$90–$120, ce target impliquerait un upside de +180% à +275%, ce qui est irréaliste.
+- Si le cours réel était ~$676, le target serait un downside de 50%, également irréaliste.
+- **Conclusion :** le consensus est probablement lié à un autre instrument ou une ancienne cotation.
 
 ---
 
 ## 4. Mise à jour sentiment / options / news
 
-| Source | Donnée | Valeur | Commentaire |
-|--------|--------|--------|-------------|
-| Sentiment retail | Mention count | 0 | `data/social_sentiment_2026-05-19.json` — aucune mention Reddit |
-| Options flow | IV Rank / GEX / Max Pain | [MANQUANT] | Requiert prix et données options |
-| Upgrades/Downgrades | Consensus | [MANQUANT] | Ticker non reconnu par FMP dans ce contexte |
-| Insider trades | Flux | [MANQUANT] | — |
-| News structurantes | M&A, guidance, CEO | 0 événements | `data/events_2026-05-19.json` — vide pour MICRON |
-| News Yahoo | Items | 0 | `data/news_2026-05-19.json` — aucune news pour MICRON |
+| Source | Donnée | Valeur | Fiabilité |
+|--------|--------|--------|-----------|
+| Options — Max Pain | $400.0 | JSON | 🔴 Incompatible avec prix réel estimé |
+| Options — Put/Call ratio | 1.40 | JSON | 🟡 Plausible |
+| Options — Call OI % | 41.6% | JSON | 🟡 Plausible |
+| News Yahoo | 0 items | `data/news_2026-05-19.json` | — |
+| Social sentiment | 0 mentions | `data/social_sentiment_2026-05-19.json` | — |
+| Insider trades | [MANQUANT] | — | — |
+| Event-driven | 0 événements | `data/events_2026-05-19.json` | — |
+
+**Événement du jour :** Earnings J0 (2026-05-19) selon FMP (`data/upcoming_events_2026-05-19.json`).
+- Aucun résultat post-earnings n'a été récupéré ni analysé faute de données fiables.
+- Le preview earnings (`MICRON_2026-05-19_preview.md`) reste vide.
 
 ---
 
 ## 5. Scoring global
 
-> **⚠️ Avertissement :** ce scoring est produit par l'agent de recommandation sur la base de valeurs par défaut (RSI 50, momentum neutre) en l'absence de données de marché. Il n'a aucune valeur prédictive tant que le ticker n'est pas corrigé.
+> **⚠️ Non calculable.**
+>
+> En l'état, aucun score technique, fondamental ou de sentiment ne peut être produit avec une fiabilité acceptable. L'agent de recommandation n'a pas retraité MU post-fetch (pipeline partiel, phases C et D failed à 12:06 UTC).
 
-| Axe | Score | Poids | Commentaire |
-|-----|-------|-------|-------------|
-| Catalyseur | 6.5/10 | 35% | Earnings J0 = catalyseur potentiel, direction inconnue |
-| Valorisation | 5.0/10 | 40% | Placeholder — aucune donnée fondamentale |
-| Momentum | 5.0/10 | 25% | Placeholder — aucune donnée de prix |
-| **Score Opportunité** | **5.5/10** | | = (6.5×0.35)+(5.0×0.40)+(5.0×0.25) |
-| **Score Global** | **55.2/100** | | = Score Opportunité × 10 |
-| **Action** | **ATTENDRE** | | Données insuffisantes |
-
-**Malus/Bonus appliqués :** aucun (pas de données accounting, geo, FX, event-driven, social).
+| Axe | Score | Statut |
+|-----|-------|--------|
+| Catalyseur | [NON ÉVALUÉ] | Earnings J0 non suivis |
+| Valorisation | [NON ÉVALUÉ] | Données corrompues |
+| Momentum | [NON ÉVALUÉ] | Données corrompues |
+| **Score Opportunité** | **—** | **Bloqué qualité** |
+| **Score Global** | **—** | **Bloqué qualité** |
+| **Action** | **ATTENDRE** | **Données insuffisantes** |
 
 ---
 
 ## 6. Niveaux de trading
 
-**Indisponibles.** Le calcul du stop-loss (cours − 2×ATR) et du take-profit (cours + 3×ATR) requiert un prix de clôture et un ATR 14j. Les deux sont manquants.
+**Indisponibles.** Le calcul du stop-loss (cours − 2×ATR) et du take-profit requiert un prix de clôture validé. Le prix JSON ($676.96) est jugé non utilisable.
 
-- **Prix d'entrée suggéré :** inconnu
-- **Stop-loss :** inconnu
-- **Take-profit :** inconnu
-- **Ratio R/R :** inconnu
+| Niveau | Valeur | Statut |
+|--------|--------|--------|
+| Prix d'entrée suggéré | — | Indisponible |
+| Stop-loss | — | Indisponible |
+| Take-profit | — | Indisponible |
+| Ratio R/R | — | Indisponible |
 
 ---
 
 ## 7. Conclusion — Thèse
 
-**Statut :** 🟡 **NON ÉVALUABLE — BLOCAGE DONNÉES CONFIRMÉ (J+2)**
+**Statut :** 🔴 **NON ÉVALUABLE — ANOMALIE DONNÉES POST-CORRECTION TICKER**
 
-La thèse sur MICRON ne peut ni être confirmée, ni modifiée, ni invalidée. La raison reste strictement opérationnelle : le ticker enregistré dans `config/watchlist.json` est `MICRON`, alors que l'identifiant reconnu par Yahoo Finance et la plupart des fournisseurs de données est **`MU`** (Micron Technology Inc.).
+La thèse sur MICRON/MU ne peut ni être confirmée, ni modifiée, ni invalidée. La raison est désormais double :
 
-**Impacts de ce blocage (inchangés) :**
-- Aucun historique de prix, volume, ou indicateur technique
-- Aucune donnée fondamentale (ratios, consensus, DCF)
-- Le scoring agent est basé sur des placeholders (RSI 50, momentum neutre) et n'a pas de valeur prédictive
-- Le preview earnings du 2026-05-19 n'a pas pu être complété
-- Les résultats du jour J (2026-05-19) n'ont pas été suivis
+1. **Blocage opérationnel initial résolu :** le ticker `MICRON` a été corrigé en `MU` dans `config/watchlist.json`.
+2. **Nouveau blocage qualité :** le fetch post-correction a retourné des données numériques mais **manifestement impossibles** (prix $676.96, market cap $764B, incohérences fondamentales). Ces valeurs ne correspondent pas à Micron Technology Inc. (NASDAQ : MU).
+
+**Hypothèses sur l'origine de l'anomalie :**
+- Mapping erroné côté Yahoo Finance (retour d'un autre instrument portant le symbole `MU`).
+- Bug de split-adjustment ou de conversion de devise dans `yfinance`.
+- Corruption au niveau du worker daemon (données d'un autre ticker injectées dans la clé `MU`).
 
 **Recommandation immédiate :**
-1. **Corriger le ticker dans `config/watchlist.json`** : remplacer `"MICRON"` par `"MU"`.
-2. **Relancer `scripts/fetch_prices.py --tickers MU`** pour obtenir les données de marché.
-3. **Regénérer l'analyse initiale** (`MU_2026-05-XX_init.md`) dès que les données seront disponibles.
-4. **Suivre les résultats earnings de ce jour** (2026-05-19) via source alternative (site IR Micron, FMP, Bloomberg) pour alimenter un `_earnings.md` post-release.
+1. **Investiguer la source de données** : vérifier manuellement `MU` sur Yahoo Finance et FMP pour confirmer le prix réel.
+2. **Relancer `scripts/fetch_prices.py --tickers MU` en mode one-shot** (sans daemon) pour isoler un éventuel bug du worker pré-chauffé.
+3. **Comparer avec un fournisseur tiers** (Bloomberg, E*Trade, site IR Micron) pour obtenir le cours réel et les résultats earnings du jour.
+4. **Ne pas trader** sur la base des données JSON actuelles pour `MU`.
 
-**Contexte sectoriel favorable à noter :** le secteur Technology (XLK) est en tête de la rotation sectorielle avec une force relative 20j de +8.59% vs SPY et un momentum score de 10.0/10. Une fois les données récupérées sous le bon ticker, MICRON/MU bénéficierait probablement d'un environnement de momentum sectoriel favorable.
+**Contexte sectoriel favorable à noter :** le secteur Technology (XLK) reste en tête de la rotation sectorielle (RS 20j +8.59% vs SPY, momentum 10.0/10). Une fois les données validées, MU bénéficierait probablement d'un environnement de momentum sectoriel favorable.
 
 ---
 
@@ -121,11 +156,11 @@ La thèse sur MICRON ne peut ni être confirmée, ni modifiée, ni invalidée. L
 
 | Alerte | Sévérité | Détail |
 |--------|----------|--------|
-| Ticker non reconnu | 🔴 Critique | `MICRON` → doit être `MU` |
-| Earnings J0 non suivis | 🔴 Haute | Résultats du 2026-05-19 non suivis faute de données |
-| Données placeholder | 🟡 Modérée | Scoring non fiable — ne pas trader sur ces valeurs |
-| Snapshot stable J+1 | 🟢 Confirmé | Aucun changement entre 2026-05-18 23:09 UTC et 2026-05-19 10:00 UTC |
+| Données corrompues post-fetch | 🔴 Critique | Prix $676.96, market cap $764B — incohérents avec Micron |
+| Earnings J0 non suivis | 🔴 Haute | Résultats du 2026-05-19 non analysés faute de données fiables |
+| Ticker corrigé | 🟢 Résolu | `MICRON` → `MU` dans watchlist.json |
+| Pipeline partiel | 🟡 Modérée | Phases C et D failed à 12:06 UTC — reco/agents non retraités |
 
 ---
 
-*Document rédigé le 2026-05-19 — Données sourcées : `data/2026-05-19.json`, `data/recommandations_2026-05-19.json`, `data/quant_report_2026-05-17.json`, `data/geo_risk_2026-05-17.json`, `data/sector_rotation_2026-05-19.json`, `data/fx_exposure_2026-05-19.json`, `data/social_sentiment_2026-05-19.json`, `data/upcoming_events_2026-05-19.json`, `data/events_2026-05-19.json`, `data/validation_report.txt`.*
+*Document rédigé le 2026-05-19 — Données sourcées : `data/2026-05-19.json` (fetch 13:59 UTC), `data/recommandations_2026-05-19.json`, `data/sector_rotation_2026-05-19.json`, `data/upcoming_events_2026-05-19.json`, `data/events_2026-05-19.json`, `data/social_sentiment_2026-05-19.json`, `config/watchlist.json`.*
