@@ -61,3 +61,6 @@ htmlcov/
 .ipynb_checkpoints/
 node_modules/
 *.pid
+
+# Lock files
+data/*.lock

@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Score global :** 49.8/100
-- **Prix cible :** $16.00
-- **Stop-loss :** $12.43
-- **Statut thèse :** Confirmée
-- **Horizon :** 1–3 mois
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -24,7 +24,7 @@
 
 ## 🚨 Alertes actives
 
-- 🔴 **ANOMALIE OPTIONS** — Max Pain instable ($7.50 → $20.00 entre 10h et 13h UTC). Données dérivées Yahoo non fiables sur MITK.
+- Aucune alerte active.
 
 ---
 
@@ -36,11 +36,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 50.62
-- **MM 50j :** 14.3
+- **RSI 14j :** 55.04
+- **MM 50j :** 14.29
 - **MM 200j :** —
-- **ATR 14j :** 0.85
-- **Volume moy. 20j :** 1236030
+- **ATR 14j :** 0.83
+- **Volume moy. 20j :** 1170831
 
 ---
 
@@ -49,13 +49,13 @@
 - **Date :** 2026-05-19
 - **Type :** update
 - **Fichier :** `MITK_2026-05-19_update.md`
-- **Conclusion :** > Desk : Argus-IA | Pipeline : 13:00 UTC | Données : `data/latest.json` (2026-05-19T13:00:12Z) | Score Global Ajusté : **49.8/100** | Action : **SURVEILLER** — Thèse confirmée. Données techniques stables (cours $14.13, RSI 50.62, ATR $0.85). Anomalie options confirmée : Max Pain instable $7.50 → $20.00 entre 10h et 13h UTC — liquidité dérivée insuffisante.
+- **Conclusion :** > Desk : Argus-IA | Pipeline : 13:00 UTC | Données : `data/latest.json` (2026-05-19T13:00:12Z) | Score Global Ajusté : **49.8/100** | Action : **SURVEILLER**
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **ATR_SPIKE** (medium) — ATR relatif 5.88% (seuil 5.0%)
 
 ---
 

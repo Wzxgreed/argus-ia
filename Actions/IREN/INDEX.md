@@ -9,13 +9,13 @@
 
 ## Thèse Courante
 
-IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le titre se maintient à **$50.46** (close 2026-05-18), au-dessus de la MM50 à **$45.00**. La structure technique est intacte malgré une volatilité extrême (beta 4.18, ATR $5.48). **Correction importante :** le Max Pain est **$33.00** (et non $20.00 précédemment rapporté) — le tail risk de queue est à **−34.6%**, au-dessus du stop-loss suggéré ($39.50) mais à surveiller. Le put/call ratio (1.28) et le call OI % (43.8%) révèlent une défiance modérée des options traders avant l'earnings.
+IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le titre a clôturé la session du 2026-05-19 à **$48.405** (−4.07%), cassant le support immédiat de **$48.48** mais rebondissant depuis un low intraday à **$46.00**. La MM50 à **$45.19** reste le niveau ultime de défense de la tendance haussière. La volatilité reste extrême (beta 4.18, ATR $5.62). Le Max Pain est **$33.00** — tail risk de queue à **−31.8%**, au-dessus du stop-loss suggéré ($37.17) mais à surveiller. Le put/call ratio (1.28) et le call OI % (43.8%) révèlent une défiance modérée des options traders.
 
 **Score Opportunité : 6.3/10** (Catalyseur 8.3, Valorisation 4.5, Momentum 6.5)
 **Score Global ajusté : 68.3/100**
 **Action : ACHETER — Sizing Réduit** — réservé aux portefeuilles tolérants au risque
 
-> **⚠️ Réserve earnings :** Les résultats Q1 2026 sont attendus le 2026-05-19 (J0). La recommandation est basée sur des données pre-earnings (FY 2025). Attendre la publication officielle avant toute nouvelle entrée significative. Ne pas renforcer avant les résultats. Le rebond depuis $48.48 est encourageant, mais la volatilité reste extrême (beta 4.18).
+> **⚠️ Réserve earnings + technique :** Les résultats Q1 2026 sont attendus le 2026-05-19 (J0). La recommandation est basée sur des données pre-earnings (FY 2025). Attendre la publication officielle avant toute nouvelle entrée significative. Ne pas renforcer avant les résultats. La cassure de $48.48 est un signal de vigilance ; si le cours casse $45.19 (MM50) sans rebond → passer en ATTENDRE.
 
 ---
 
@@ -31,6 +31,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 | 2026-05-18 | [IREN_2026-05-18_update.md](IREN_2026-05-18_update.md) (rev. 22:35) | Mise à jour soir | Snapshot 22:35 UTC confirme stabilité totale vs 21:00 UTC · DRAFT_refresh archivé · Données pre-earnings · Thèse confirmée |
 | 2026-05-19 | [IREN_2026-05-19_update.md](IREN_2026-05-19_update.md) | Mise à jour matin | Snapshot 10:00 UTC — données stables vs close 2026-05-18 · Max Pain révisé $20.00 (−39%) · Earnings J0 · DRAFT_refresh traité · Thèse confirmée |
 | 2026-05-19 | [IREN_2026-05-19_update.md](IREN_2026-05-19_update.md) (rev. 13:00) | Révision post-midi | Snapshot 13:00 UTC — **correction Max Pain $33.00** (vs $20.00 erroné) · put/call 1.28 · call OI 43.8% · données brutes inchangées · Thèse confirmée |
+| 2026-05-19 | [IREN_2026-05-19_update.md](IREN_2026-05-19_update.md) (rev. 17:00) | Révision post-session | Snapshot 17:00 UTC — **Cours $48.405 (−4.07%)** · support $48.48 cassé · low $46.00 défendu · volume très faible (43.4%) · scores inchangés · Thèse modifiée sous pression |
 
 ---
 

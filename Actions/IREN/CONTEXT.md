@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** confirmée
-- **Horizon :** —
+- **Recommandation :** ACHETER — Sizing Réduit
+- **Score global :** 68.3/100
+- **Prix cible :** $65.86
+- **Stop-loss :** $37.17
+- **Statut thèse :** modifiée sous pression
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -24,12 +24,13 @@
 
 ## 🚨 Alertes actives
 
-- Baisse — $45.00 — 🟢 Active
+- Baisse — $45.19 — 🟢 Active
 - Hausse — $65.86 — 🟢 Active
-- Volume — >2× moy. 20j (>104.9M) — 🟢 Active
+- Volume — >2× moy. 20j (>104.3M) — 🟢 Active
 - IREN — Vérification — $61.20
 - IREN — **⚠️ Volume DÉCLENCHÉ** — $55.15 (close)
 - IREN — **⚠️ Baisse INTRADAY** — $52.36 (low)
+- IREN — **⚠️ Cassure support** — $48.48 (support immédiat cassé)
 
 ---
 
@@ -41,11 +42,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 56.24
-- **MM 50j :** 45.0
+- **RSI 14j :** 55.70
+- **MM 50j :** 45.19
 - **MM 200j :** —
-- **ATR 14j :** 5.48
-- **Volume moy. 20j :** 52794405
+- **ATR 14j :** 5.62
+- **Volume moy. 20j :** 52162794
 
 ---
 
@@ -53,14 +54,14 @@
 
 - **Date :** 2026-05-19
 - **Type :** update
-- **Fichier :** `IREN_2026-05-19_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — correction Max Pain $33.00 (vs $20.00 erroné), put/call 1.28, call OI 43.8%, données brutes stables**
+- **Fichier :** `IREN_2026-05-19_update.md` (rev. 17:00 UTC)
+- **Conclusion :** **Thèse : MODIFIÉE SOUS PRESSION — Cassure support immédiat ($48.48), maintien au-dessus MM50 ($45.19), rebond +5.2% depuis low $46.00. Earnings J0 toujours en attente.**
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 10.86% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 11.61% (seuil 5.0%)
 
 ---
 

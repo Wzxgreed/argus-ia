@@ -36,20 +36,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 58.87
-- **MM 50j :** 43.55
+- **RSI 14j :** 53.18
+- **MM 50j :** 43.53
 - **MM 200j :** —
-- **ATR 14j :** 1.16
-- **Volume moy. 20j :** 1770
+- **ATR 14j :** 1.27
+- **Volume moy. 20j :** 1814
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-19
-- **Type :** update
-- **Fichier :** `TEST_2026-05-19_update.md`
-- **Conclusion :** Verdict ATTENDRE — Thèse INACTIVE confirmée. Cours stable à $44.94 entre 10:00 et 13:00 UTC, volume figé à 8.08× (anomalie liquidité), données fondamentales absentes, earnings JOUR J non observables.
+- **Type :** preview
+- **Fichier :** `TEST_2026-05-19_preview.md`
+- **Conclusion :** > **Date :** 2026-05-19
 
 ---
 

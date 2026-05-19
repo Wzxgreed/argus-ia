@@ -115,3 +115,21 @@
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-05-19 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.87% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-19 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.88% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
