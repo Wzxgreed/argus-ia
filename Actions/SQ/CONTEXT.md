@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
+- **Recommandation :** ATTENDRE
+- **Score global :** 58.0/100
+- **Prix cible :** $87.50 (consensus, 2 analystes)
+- **Stop-loss :** — (attendre post-earnings + données fiables)
+- **Statut thèse :** Confirmée — stagnation totale, vigilance accrue
 - **Horizon :** —
 
 ---
@@ -24,23 +24,27 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🔴 **Quality Gate Exclusion** — stale price 3 jours consécutifs ($83.46 figé). Cours potentiellement non représentatif.
+- 🔴 **Earnings Q1 2026** — J=0, résultats non intégrés dans le snapshot.
+- 🟡 **Données techniques absentes** — bloc `technical` vide (RSI/ATR/MM/Options).
+- 🟡 **Bloc macro absent** du snapshot (flagged CRITICAL quality gate global).
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-05-19** · earnings · Earnings ...
+- **2026-05-19** · earnings · Earnings Q1 2026 (J=0)
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** —
-- **MM 50j :** —
-- **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** —
+- **RSI 14j :** — (données manquantes)
+- **MM 50j :** — (données manquantes)
+- **MM 200j :** — (données manquantes)
+- **ATR 14j :** — (données manquantes)
+- **Volume moy. 20j :** — (données manquantes)
+- **Cours affiché :** $83.46 (⚠️ stale — identique 3 jours consécutifs)
 
 ---
 
@@ -49,7 +53,7 @@
 - **Date :** 2026-05-19
 - **Type :** update
 - **Fichier :** `SQ_2026-05-19_update.md`
-- **Conclusion :** > **Trigger :** Snapshot pipeline matin 10:00 UTC
+- **Conclusion :** Thèse ATTENDRE confirmée. Qualité 3/6 hors périmètre. Cours stale $83.46 sur 3 jours (quality gate excluded). Earnings J=0 non résolu. Aucune donnée technique ni options. Pas d'entrée avant résolution des données et publication des résultats.
 
 ---
 
