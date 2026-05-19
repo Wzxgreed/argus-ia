@@ -1,5 +1,15 @@
 # VRT — Historique des Full Refreshes
 
+## 2026-05-19 — Full Refresh Triggered (artefact algorithmique)
+
+**Triggers :**
+- price_gap (medium) : Gap -8.41% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 5.50% (seuil 5.0%)
+
+**Conclusion :** DRAFT_refresh du 19 mai traité comme **artefact algorithmique**. Données de prix identiques au snapshot 18 mai (cours $339.73, RSI 61.76, ATR 18.70). Triggers identiques au 18 mai. Pas de nouvel événement. Thèse CONFIRMÉE — stable. Options put/call 30.0 et max pain $185 détectés (artefact probable pre-market, à confirmer à l'ouverture US). DRAFT archivé. Voir [VRT_2026-05-19_update.md](./VRT_2026-05-19_update.md).
+
+---
+
 ## 2026-05-18 — Full Refresh Triggered
 
 **Triggers :**

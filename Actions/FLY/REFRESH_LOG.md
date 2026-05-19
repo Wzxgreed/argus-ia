@@ -141,16 +141,16 @@
 - price_gap (medium) : Gap +8.71% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 9.99% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 2026-05-18 22:35 UTC. Thèse ATTENDRE maintenue. DRAFT_refresh traité et intégré dans `FLY_2026-05-19_update.md` (session 10:00 UTC). Aucun changement matériel.
 
 ---
 
-## 2026-05-19 — Full Refresh Triggered
+## 2026-05-19 — Full Refresh Triggered (artefact)
 
 **Triggers :**
 - price_gap (medium) : Gap +8.71% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 9.99% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Traitée dans l'entrée précédente. Données inchangées.
 
 ---
