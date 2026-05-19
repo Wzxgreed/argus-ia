@@ -111,3 +111,30 @@ Revue manuelle post-pipeline : les donnees brutes (cours $52.94, RSI 54.61, ATR 
 **Conclusion :** confirm — données strictement inchangées vs snapshot 21:00 UTC et 22:35 UTC, aucun nouveau flux post-earnings intégré. DRAFT_refresh complété et archivé (_ARCHIVED_DRAFT_refresh_2026-05-18_5.md).
 
 ---
+
+## 2026-05-18 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10.86% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-19 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10.86% (seuil 5.0%)
+
+**Conclusion :** confirm — données strictement inchangées vs snapshot 22:35 UTC du 2026-05-18, aucun nouveau flux post-earnings intégré. DRAFT_refresh complété et archivé.
+
+---
+
+## 2026-05-19 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10.86% (seuil 5.0%)
+
+**Conclusion :** confirm — données strictement inchangées vs snapshot 22:35 UTC du 2026-05-18, aucun nouveau flux post-earnings intégré. DRAFT_refresh complété et archivé.
+
+---
