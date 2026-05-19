@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $42.74
-- **Statut thèse :** —
+- **Recommandation :** ATTENDRE
+- **Score global :** 59.0/100
+- **Prix cible :** $48.41
+- **Stop-loss :** $42.62
+- **Statut thèse :** INACTIVE
 - **Horizon :** —
 
 ---
@@ -30,7 +30,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-19** · earnings · Earnings ...
+- **2026-05-19** · earnings · Earnings JOUR J — résultats non observables à 10:00 UTC
 
 ---
 
@@ -41,15 +41,16 @@
 - **MM 200j :** —
 - **ATR 14j :** 1.16
 - **Volume moy. 20j :** 1770
+- **Volume dernier snapshot :** 14300 (8.08× moyenne)
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-19
-- **Type :** preview
-- **Fichier :** `TEST_2026-05-19_preview.md`
-- **Conclusion :** > **Date :** 2026-05-19
+- **Type :** update
+- **Fichier :** `TEST_2026-05-19_update.md`
+- **Conclusion :** ATTENDRE — Thèse INACTIVE confirmée. Cours stable à $44.94, spike de volume à 8.08× moyenne 20j (14,300) sans directionnalité nette. ATR en expansion à $1.16. Earnings JOUR J. Score agent stable à 59.0/100. SL ajusté à $42.62, TP à $48.41.
 
 ---
 

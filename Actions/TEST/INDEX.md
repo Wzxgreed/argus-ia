@@ -36,7 +36,7 @@ TEST est un ticker de test / micro-cap sans données fondamentales exploitables 
 
 ## Agenda des prochains événements
 
-- 2026-05-18 — Earnings (source FMP) — 🔴 JOUR J — résultats non observables à 21:23 UTC
+- 2026-05-19 — Earnings (source FMP) — 🔴 JOUR J — résultats non observables à 10:00 UTC
 - [DONNÉES MANQUANTES] — Conférences / investor days
 
 ---
