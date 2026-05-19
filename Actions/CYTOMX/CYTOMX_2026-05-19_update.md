@@ -1,15 +1,15 @@
-# CYTOMX — Mise a jour post-pipeline 2026-05-19 snapshot 13:59 UTC
+# CYTOMX — Mise a jour snapshot final 2026-05-19 21:00 UTC
 
 > **Date :** 2026-05-19
-> **Type :** Update post-pipeline
-> **Snapshot :** 13:59 UTC
+> **Type :** Update post-pipeline (snapshot final)
+> **Snapshot :** 21:00 UTC
 > **Analyste :** Desk Argus-IA
 
 ---
 
 ## Recapitulatif des changements depuis l'analyse precedente
 
-| Element | Avant (snapshot 10:00 UTC) | Maintenant (snapshot 13:59 UTC) | Variation |
+| Element | Avant (snapshot 13:59 UTC) | Maintenant (snapshot 21:00 UTC) | Variation |
 |---------|---------------------------|--------------------------------|-----------|
 | Cours | [DONNEES MANQUANTES] | [DONNEES MANQUANTES] | — |
 | RSI 14j | 50 (placeholder) | 50 (placeholder) | — |
@@ -20,7 +20,7 @@
 | Earnings | J=0 (2026-05-19) | J=0 (2026-05-19) | toujours non resolu |
 | Validation | [ERROR] fetch failed | [ERROR] fetch failed | inchangé |
 
-**Observation principale :** `data/latest.json` (snapshot 13:59 UTC) confirme l'erreur persistante `No price history` pour CYTOMX. L'earnings annonce pour le 2026-05-19 (source FMP) reste non resolu. Aucune donnee de cours, technique ou fondamentale n'a ete recuperee entre les deux snapshots du jour.
+**Observation principale :** Le snapshot final 21:00 UTC confirme l'erreur persistante `No price history` pour CYTOMX. L'earnings annonce pour le 2026-05-19 (source FMP) reste non resolu a la cloture de la session US. Aucune donnee de cours, technique ou fondamentale n'a ete recuperee sur les trois snapshots du jour (10:00 UTC, 13:59 UTC, 21:00 UTC).
 
 ---
 
@@ -43,13 +43,13 @@
 - **Consensus analystes :** [DONNEES MANQUANTES]
 - **Multiples :** [DONNEES MANQUANTES]
 
-**Earnings J=0 :** la date prevue est le 2026-05-19. Aucun resultat publie ni detecte dans les flux du pipeline. Le preview `CYTOMX_2026-05-19_preview.md` reste un template vide en l'absence de consensus EPS/Revenue exploitable.
+**Earnings J=0 :** la date prevue est le 2026-05-19. Aucun resultat publie ni detecte dans les flux du pipeline aux trois snapshots du jour. Le preview `CYTOMX_2026-05-19_preview.md` reste un template vide en l'absence de consensus EPS/Revenue exploitable.
 
 ---
 
 ## Mise a jour sentiment / options / news
 
-- **News :** aucune news significative detectee dans les flux unifies du pipeline
+- **News :** aucune news significative detectee dans les flux unifies du pipeline (snapshot 21:00 UTC)
 - **Options flow :** [DONNEES MANQUANTES] — pas de donnees options pour CYTOMX
 - **Social sentiment :** 0 mention, score 0/10, label "No data" — pas de signal retail
 - **Upgrades/downgrades :** aucun signal detecte
@@ -59,7 +59,7 @@
 
 ## Contexte sectoriel et macro
 
-- **Sector rotation (snapshot 13:59 UTC) :** XLV (Healthcare) en position faible — momentum score 0.0, RS 20j -0.0538 vs SPY, regime UNKNOWN. Le segment biotech therapeutique subit un headwind sectoriel qui penalisera CYTOMX des l'ouverture des donnees.
+- **Sector rotation (snapshot 21:00 UTC) :** XLV (Healthcare) en position faible — momentum score 0.0, RS 20j -0.0325 vs SPY, regime UNKNOWN. Le segment biotech therapeutique subit un headwind sectoriel qui penalisera CYTOMX des l'ouverture des donnees.
 - **FX Exposure :** score 0.0, direction "neutral" — 25% exposure generic, zero impact calcule (donnees manquantes)
 - **Geo risk :** CYTOMX non flagge dans `geo_risk_latest.json` (seul IREN a un score geo = 3)
 - **Event-driven :** aucun evenement corporate detecte (M&A, buyback, activism, guidance change)
@@ -101,7 +101,7 @@
 
 **These : NON ETABLIE — CONFIRMEE**
 
-CYTOMX n'a fait l'objet d'aucune analyse initiale (`_init.md`). Les donnees de cours sont indisponibles depuis au moins deux snapshots consecutifs (10:00 UTC et 13:59 UTC du 2026-05-19). L'earnings annonce pour le 2026-05-19 n'a pas ete resolu au moment du snapshot 13:59 UTC.
+CYTOMX n'a fait l'objet d'aucune analyse initiale (`_init.md`). Les donnees de cours sont indisponibles sur l'ensemble des trois snapshots du 2026-05-19 (10:00 UTC, 13:59 UTC, 21:00 UTC). L'earnings annonce pour le 2026-05-19 n'a pas ete resolu au snapshot final 21:00 UTC. XLV (Healthcare) affiche un momentum score nul (0.0) et une force relative negative vs SPY, signalant un headwind sectoriel en cas de reprise des donnees.
 
 **Recommandation operationnelle :**
 - Attendre la resolution de l'earnings et la recuperation des donnees de cours via yfinance/FMP
@@ -109,10 +109,11 @@ CYTOMX n'a fait l'objet d'aucune analyse initiale (`_init.md`). Les donnees de c
 - Sans donnees de cours : le ticker ne peut pas etre evalue dans le cadre du scoring institutionnel
 
 **Alertes actives :**
-- [DONNEES MANQUANTES] cours introuvable dans `data/latest.json`
-- [WARNING] XLV (Healthcare) momentum nul — headwind sectoriel en cas de reprise des donnees
+- [DONNEES MANQUANTES] cours introuvable dans `data/latest.json` (snapshots 10:00 UTC, 13:59 UTC, 21:00 UTC)
+- [WARNING] XLV (Healthcare) momentum 0.0 — headwind sectoriel
 - Earnings J=0 non resolu (source FMP)
+- Accounting risk scan indisponible (`accounting_risk_latest.json` absent)
 
 ---
 
-*Rapport genere automatiquement — snapshot 2026-05-19 13:59 UTC.*
+*Rapport genere automatiquement — snapshot final 2026-05-19 21:00 UTC.*
