@@ -6,8 +6,8 @@
 - **Score Global :** 66.0/100 (ajusté 63.0)
 - **Score Opportunité :** 6.6/10 (C:6.5 V:8.0 M:4.5)
 - **Prix Cible :** $18.56 (consensus FMP, 9 analysts)
-- **Stop-Loss :** $11.37 (2×ATR)
-- **Statut Thèse :** Score ajusté franchit seuil achat réduit — timing défavorable, sizing réduit
+- **Stop-Loss :** $11.42 (2×ATR)
+- **Statut Thèse :** Score ajusté franchit seuil achat réduit — timing défavorable, volume faible (0.51×), sizing réduit
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
@@ -34,6 +34,6 @@ Voir [REFRESH_LOG.md](REFRESH_LOG.md) pour l'historique des déclencheurs.
 
 ## 📝 Résumé de la Thèse
 
-NU est le leader néo-banque latino-américain (Brésil/Mexique/Colombie) avec 100M+ clients, des marges opérationnelles solides (24.4%), un bilan net cash (net debt/EBITDA -2.47×), et une valorisation forward attractive (P/E 10.6×). Le score global ajusté reste à 63.0 (snapshot 13:00 UTC), dans la zone d'achat réduit. La survente technique persiste (RSI 23.37, cours sous MM50) et le secteur financier XLF reste en sous-performance (momentum score 0.0). La recommandation reste ACHETER (Réduit) pour les profils tolérants au risque, avec un sizing réduit et un stop-loss strict à $11.37.
+NU est le leader néo-banque latino-américain (Brésil/Mexique/Colombie) avec 100M+ clients, des marges opérationnelles solides (24.4%), un bilan net cash (net debt/EBITDA -2.47×), et une valorisation forward attractive (P/E 10.6×). Le score global ajusté reste à 63.0 (snapshot 17:00 UTC), dans la zone d'achat réduit. Le RSI rehausse à 26.88 (+3.51) indique un léger répit technique, mais le volume faible (0.51× moyenne 20j) invalide l'hypothèse d'une accumulation institutionnelle. Le cours reste sous MM50 (−13.2%). La recommandation reste ACHETER (Réduit) pour les profils tolérants au risque, avec un sizing réduit et un stop-loss strict à $11.42.
 
-**Correction données options (13:00 UTC)** — les données options dégradées du snapshot 10:00 UTC (max pain $5.00, put/call null) ont été corrigées : max pain $17.50, put/call 0.40, call OI 71.5%. Cette configuration est haussière et cohérente avec le consensus analystes ($18.56), renforçant légèrement le signal sentiment sans impacter le score global.
+**Snapshot 17:00 UTC** — cours $12.32 (+0.24%), RSI 26.88, volume 23.3M (0.51× moyenne), options inchangées (max pain $17.50, put/call 0.40, call OI 71.5%).
