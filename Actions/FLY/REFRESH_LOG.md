@@ -131,7 +131,7 @@
 - price_gap (medium) : Gap +8.71% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 9.99% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Traité dans `FLY_2026-05-19_update.md` (21:00 UTC) — thèse ATTENDRE confirmée, DRAFT_refresh archivé.
 
 ---
 
@@ -161,7 +161,7 @@
 - price_gap (medium) : Gap +8.71% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 9.99% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Traité dans `FLY_2026-05-19_update.md` (21:00 UTC) — thèse ATTENDRE confirmée, DRAFT_refresh archivé.
 
 ---
 
@@ -171,7 +171,7 @@
 - price_gap (medium) : Gap +8.71% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 9.99% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Traité dans `FLY_2026-05-19_update.md` (21:00 UTC) — thèse ATTENDRE confirmée, DRAFT_refresh archivé.
 
 ---
 
@@ -181,7 +181,7 @@
 - price_gap (medium) : Gap -6.87% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 11.07% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Traité dans `FLY_2026-05-19_update.md` (21:00 UTC) — thèse ATTENDRE confirmée, DRAFT_refresh archivé.
 
 ---
 
@@ -190,7 +190,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.70% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Traité dans `FLY_2026-05-19_update.md` (21:00 UTC) — thèse ATTENDRE confirmée, DRAFT_refresh archivé.
 
 ---
 
@@ -199,7 +199,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.64% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Traité dans `FLY_2026-05-19_update.md` (21:00 UTC) — thèse ATTENDRE confirmée, DRAFT_refresh archivé.
 
 ---
 
@@ -208,6 +208,6 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.64% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Traité dans `FLY_2026-05-19_update.md` (21:00 UTC) — thèse ATTENDRE confirmée, DRAFT_refresh archivé.
 
 ---

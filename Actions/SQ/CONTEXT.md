@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
+- **Recommandation :** ATTENDRE
+- **Score global :** 58.0/100
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** —
+- **Statut thèse :** Confirmée — snapshot 21:00 UTC sans changement vs 17:00 UTC
 - **Horizon :** —
 
 ---
@@ -19,12 +19,14 @@
 ## 📉 Erreurs de prédiction récentes
 
 - Aucune erreur enregistrée.
+- Stale price 4 snapshots consécutifs (10:00 → 21:00 UTC) — fiabilité cours non garantie
 
 ---
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🔴 **Stale price ≥3 jours** — cours $83.46 figé sur 4 snapshots consécutifs (fiabilité non garantie)
+- 🔴 **Earnings Q1 2026 J=0** — résultats non intégrés dans le snapshot 21:00 UTC
 
 ---
 
@@ -49,7 +51,7 @@
 - **Date :** 2026-05-19
 - **Type :** update
 - **Fichier :** `SQ_2026-05-19_update.md`
-- **Conclusion :** > **Trigger :** Snapshot pipeline post-close 17:00 UTC
+- **Conclusion :** > **Trigger :** Snapshot pipeline post-close 21:00 UTC — **ATTENDRE confirmé**, zero changement vs 17:00 UTC, stale price $83.46 sur 4 snapshots consécutifs, earnings J=0 non résolu, qualité 3/6 hors périmètre.
 
 ---
 
