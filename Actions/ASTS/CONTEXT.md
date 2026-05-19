@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
+- **Recommandation :** ATTENDRE
+- **Score global :** 54.8/100 (ajusté 59.8)
+- **Prix cible :** $92.25 (consensus 10 analystes)
+- **Stop-loss :** $72.05
+- **Statut thèse :** Confirmée
 - **Horizon :** —
 
 ---
@@ -24,13 +24,15 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- Données options partielles (Max Pain $40.0, put/call et call OI indisponibles)
+- ATR_SPIKE medium (8.51% relatif)
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings : 2026-08-10 (J+83)
+- Options expiry : 2026-05-22 (J+3)
 
 ---
 
@@ -46,10 +48,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-18
-- **Type :** full refresh
-- **Fichier :** `ASTS_2026-05-18_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-05-18
+- **Date :** 2026-05-19
+- **Type :** update
+- **Fichier :** `ASTS_2026-05-19_update.md`
+- **Conclusion :** Thèse ATTENDRE confirmée. Données stables vs close 18/05. Multiples fondamentaux légèrement révisés à la hausse (EV/Revenue 311.8x). Données options partielles (Max Pain $40.0).
 
 ---
 
