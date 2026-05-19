@@ -30,7 +30,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-19** · earnings · Earnings programmés (FMP) — résultats non intégrés au pipeline
+- **2026-05-19** · earnings · Earnings ...
 
 ---
 
@@ -42,30 +42,20 @@
 - **ATR 14j :** —
 - **Volume moy. 20j :** —
 
-> ⚠️ Données techniques indisponibles — erreur Yahoo `No price history` sur 4 snapshots consécutifs.
-
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-19
-- **Type :** update
-- **Fichier :** `AST_2026-05-19_update.md`
-- **Conclusion :** Données manquantes confirmées — aucun changement vs 18/05. AST absent du quality gate. Doublon probable avec ASTS (AST SpaceMobile).
+- **Type :** preview
+- **Fichier :** `AST_2026-05-19_preview.md`
+- **Conclusion :** > **Date :** 2026-05-19
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
 - Aucun trigger récent.
-
----
-
-## ⚠️ Notes opérationnelles
-
-- AST n'est pas listé dans `quality_gate_2026-05-19.json` (ASTS l'est, statut `ok`)
-- Erreur Yahoo `No price history` persistante depuis le 2026-05-18
-- **Action suggérée :** supprimer AST de `config/watchlist.json` ou le marquer `excluded` — privilégier ASTS
 
 ---
 

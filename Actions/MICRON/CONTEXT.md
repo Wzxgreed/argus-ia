@@ -11,7 +11,7 @@
 - **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** 🟡 NON ÉVALUABLE — BLOCAGE DONNÉES
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -24,21 +24,19 @@
 
 ## 🚨 Alertes actives
 
-- 🔴 **Ticker erroné** : `MICRON` dans watchlist → doit être `MU`
-- 🔴 **Earnings J0 non suivis** (2026-05-19)
-- 🟡 **Données placeholder** : scoring non fiable
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-05-19** · earnings · Earnings Q3 FY2026 — non suivi
+- **2026-05-19** · earnings · Earnings ...
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** — (placeholder 50 — UNSOURCED)
+- **RSI 14j :** —
 - **MM 50j :** —
 - **MM 200j :** —
 - **ATR 14j :** —
@@ -49,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-19
-- **Type :** update
-- **Fichier :** `MICRON_2026-05-19_update.md`
-- **Conclusion :** Blocage données confirmé (J+2). Ticker `MICRON` non reconnu par Yahoo Finance — identifiant correct `MU`. Aucune donnée de prix, volume, technique ou fondamentale disponible. Earnings du jour non suivis. Secteur Technology (XLK) en tête rotation sectorielle — vent de queue favorable à quantifier post-correction.
+- **Type :** preview
+- **Fichier :** `MICRON_2026-05-19_preview.md`
+- **Conclusion :** > **Date :** 2026-05-19
 
 ---
 

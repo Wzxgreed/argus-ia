@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 5.4/10
+- **Recommandation :** —
+- **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** ATTENDRE
-- **Horizon :** post-earnings
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -24,24 +24,23 @@
 
 ## 🚨 Alertes actives
 
-- Earnings imminent (J=0) — pas de position avant publication
-- Aucune alerte active de seuil de cours
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-05-19** · earnings · Earnings Q1 2026 J=0 — résultats non intégrés dans snapshot 10:00 UTC
+- **2026-05-19** · earnings · Earnings ...
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** N/A
-- **MM 50j :** N/A
-- **MM 200j :** N/A
-- **ATR 14j :** N/A
-- **Volume moy. 20j :** N/A
+- **RSI 14j :** —
+- **MM 50j :** —
+- **MM 200j :** —
+- **ATR 14j :** —
+- **Volume moy. 20j :** —
 
 ---
 
@@ -50,7 +49,7 @@
 - **Date :** 2026-05-19
 - **Type :** update
 - **Fichier :** `SQ_2026-05-19_update.md`
-- **Conclusion :** ATTENDRE — Qualité 3/6 hors périmètre, earnings J=0 non résolu, snapshot inchangé vs 18/05
+- **Conclusion :** > **Trigger :** Snapshot pipeline matin 10:00 UTC
 
 ---
 

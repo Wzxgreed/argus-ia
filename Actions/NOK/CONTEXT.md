@@ -11,9 +11,9 @@
 **Prix cible :** $9.26 (consensus 6 analystes)
 **Stop-loss :** $11.80 (cours − 2×ATR)
 **Upside/Downside :** −32.6% / −14.1%
-**Dernière mise à jour :** 2026-05-19 10:00 UTC
+**Dernière mise à jour :** 2026-05-18 22:34 UTC
 
-Leader 5G mature, massivement surévalué vs consensus ADR (P/E 85.9, cours $13.74 vs consensus $9.26 = +48.4%). Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25, current ratio 1.58) mais rentabilité anémique (ROIC 1.89%, operating margin 3.9%, net margin 3.3%). Divergence structurelle Yahoo/FMP sur les multiples (P/E FMP 45.8, EV/EBITDA 13.1 vs Yahoo 85.9/29.3) liée au titre Helsinki vs ADR NYSE — ne change pas le verdict consensus. Dividende 1.19%. RSI 64.6 zone saine. Volume réduit 0.73× moyenne 20j. ATR 7.06%. XLC dans bottom 3 sectoriel. Value trap confirmé. Pas d'entrée.
+Leader 5G mature, massivement surévalué vs consensus ADR (P/E 85.9, cours $13.74 vs consensus $9.26 = +48.4%). Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25, current ratio 1.58) mais rentabilité anémique (ROIC indisponible, operating margin 3.9%, net margin 3.3%). Divergence structurelle Yahoo/FMP sur les multiples (P/E FMP 45.8, EV/EBITDA 13.1 vs Yahoo 85.9/29.8) liée au titre Helsinki vs ADR NYSE — ne change pas le verdict consensus. Dividende 1.17%. RSI 64.6 zone saine. Volume réduit 0.70× moyenne 20j. ATR 7.06%. XLC dans bottom 3 sectoriel. Value trap confirmé. Pas d'entrée.
 
 **✅ Données complètes** — Cours, RSI, ATR, P/E, consensus, options disponibles dans `data/latest.json`.
 
@@ -61,9 +61,9 @@ Leader 5G mature, massivement surévalué vs consensus ADR (P/E 85.9, cours $13.
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-19
-- **Type :** update
-- **Fichier :** `NOK_2026-05-19_update.md`
-- **Conclusion :** Thèse SURVEILLER confirmée. Snapshot 19/05 10:00 UTC strictement inchangé vs 18/05 22:34 UTC. DRAFT_refresh archivé comme faux positif technique.
+- **Type :** full refresh
+- **Fichier :** `_NOK_2026-05-19_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-19
 
 ---
 

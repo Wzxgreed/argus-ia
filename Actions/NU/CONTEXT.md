@@ -16,10 +16,10 @@
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
-- **Score global :** 66.0/100
-- **Prix cible :** $18.56
-- **Stop-loss :** $11.37
-- **Statut thèse :** CONFIRMÉE — ACHETER (Réduit)
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
 - **Horizon :** 1–3 mois
 
 ---
@@ -32,15 +32,13 @@
 
 ## 🚨 Alertes actives
 
-- **Volume consolidé** : 71.1M (1.56× moy. 20j) — intérêt soutenu, compatible accumulation discrète.
-- **[DONNÉES PARTIELLES]** Données options dégradées dans snapshot 2026-05-19 (max pain $5.00 — anomalie, put/call null, call OI null). Référence opérationnelle : max pain $14.50, put/call 0.66, call OI 60.1% (snapshot 18/05).
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **Earnings Q2 2026 :** 13 août 2026 (Est EPS $0.20–$0.27, Rev $5.4B) — 86 jours
-- **Expiration Options :** 2026-05-22 — 3 jours (risque pinning, référence max pain incertaine)
+- Aucun événement à venir.
 
 ---
 
@@ -51,9 +49,6 @@
 - **MM 200j :** —
 - **ATR 14j :** 0.46
 - **Volume moy. 20j :** 45696550
-- **Volume dernière séance :** 71120500 (1.56×)
-- **52W low :** 11.71
-- **52W high :** 18.98
 
 ---
 
@@ -63,7 +58,6 @@
 - **Type :** update
 - **Fichier :** `NU_2026-05-19_update.md`
 - **Conclusion :** **Thèse : CONFIRMÉE — ACHETER (Réduit)**
-- **Changements notables :** Volume consolidé +19.7% (71.1M vs 59.4M), données options dégradées (max pain anomalie $5.00, put/call et call OI nulls). Aucun changement de cours, RSI, fondamental, consensus, ou scoring agents. Score ajusté 63.0 inchangé. Timing technique défavorable persiste (RSI 23.37, cours sous MM50). Aucune news structurante.
 
 ---
 

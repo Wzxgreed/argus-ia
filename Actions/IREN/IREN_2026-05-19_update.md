@@ -1,34 +1,34 @@
-# IREN — Mise à Jour Quotidienne (2026-05-19, snapshot 10:00 UTC)
+# IREN — Mise à Jour Quotidienne (2026-05-19, snapshot 13:00 UTC)
 
-> **Type :** `_update.md` — Mise à jour matinale post-pipeline (snapshot 10:00 UTC)
-> **Référence précédente :** [IREN_2026-05-18_update.md](IREN_2026-05-18_update.md) (rev. 22:35 UTC)
-> **Données source :** `data/latest.json` (timestamp 2026-05-19T10:00:06.624603+00:00), `data/recommandations_latest.json`
+> **Type :** `_update.md` — Révision post-midi (correction données options)
+> **Référence précédente :** [IREN_2026-05-19_update.md](IREN_2026-05-19_update.md) (rev. 10:00 UTC)
+> **Données source :** `data/latest.json` (timestamp 2026-05-19T13:00:06.782944+00:00), `data/recommandations_latest.json`, `data/upcoming_events_latest.json`
 
 ---
 
 ## Résumé des Changements
 
-| Métrique | 2026-05-18 22:35 | 2026-05-19 10:00 | Δ |
+| Métrique | 2026-05-19 10:00 | 2026-05-19 13:00 | Δ |
 |----------|------------------|------------------|---|
 | **Cours close** | $50.46 | **$50.46** | **—** |
 | **Previous close** | $52.94 | **$52.94** | **—** |
-| **Volume** | 42.39 M | **42.87 M** | **+0.9%** |
+| **Volume** | 42.87 M | **42.87 M** | **—** |
 | **RSI 14j** | 56.24 | **56.24** | **—** |
 | **ATR 14j** | $5.48 | **$5.48** | **—** |
 | **MM 50j** | $45.00 | **$45.00** | **—** |
 | **P/E TTM** | 65.53× | **65.53×** | **—** |
 | **Forward P/E** | −37.52× | **−37.52×** | **—** |
-| **EV/EBITDA (Yahoo)** | 140.45× | **134.43×** | **−4.3%** |
-| **P/B (Yahoo)** | 6.67× | **6.67×** | **—** |
+| **EV/EBITDA (Yahoo)** | 134.43× | **134.43×** | **—** |
 | **Beta** | 4.18 | **4.18** | **—** |
 | **Short Interest** | 0.17% | **0.17%** | **—** |
-| **Max Pain** | $33.00 | **$20.00** | **−39.4%** |
-| **Put/Call ratio** | 1.55 | **N/A** | **Données manquantes** |
+| **Max Pain** | $20.00 | **$33.00** | **+65.0%** |
+| **Put/Call ratio** | N/A | **1.28** | **Nouveau** |
+| **Call OI %** | N/A | **43.8%** | **Nouveau** |
 | **BTC-USD** | $78,144 | **$78,144** | **—** |
 | **Score Opportunité** | 6.3/10 | **6.3/10** | **—** |
 | **Score Global ajusté** | 68.3/100 | **68.3/100** | **—** |
 
-**Verdict :** Données brutes quasi-stables entre le close du 2026-05-18 et le snapshot matinal du 2026-05-19. Le close de $50.46 est inchangé (marché US fermé au moment du fetch 10:00 UTC). **Le Max Pain a chuté de $33.00 à $20.00 (−39.4%)**, réduisant le tail risk de −34.6% à −60.4% — ce niveau est désormais bien en-dessous du stop-loss suggéré. **L'earnings Q1 2026 reste l'événement clé du jour** (days_until = 0 dans `upcoming_events_latest.json`). Aucun nouveau flux post-earnings n'est encore intégré. La thèse est **confirmée** avec réserve earnings inchangée.
+**Verdict :** Données brutes strictement inchangées vs snapshot matinal. **Correction majeure sur les données options :** le Max Pain relevé dans `data/latest.json` (13:00 UTC) est **$33.00** (et non $20.00). Le tail risk de queue revient de −60.4% à **−34.6%**, cohérent avec le niveau observé ces derniers jours. Le put/call ratio (1.28) et le call OI % (43.8%) sont désormais disponibles et intégrés. **Aucun flux post-earnings Q1 2026** n'est encore intégré dans les sources Yahoo/FMP au snapshot 13:00 UTC. L'earnings reste l'événement clé du jour (days_until = 0).
 
 ---
 
@@ -36,7 +36,7 @@
 
 | Indicateur | Valeur | Commentaire |
 |------------|--------|-------------|
-| **RSI 14j** | 56.24 | Zone neutre, résilience relative — pas de survente malgré le gap |
+| **RSI 14j** | 56.24 | Zone neutre, résilience relative — pas de survente |
 | **ATR 14j** | $5.48 | Volatilité élevée stable (beta 4.18) |
 | **MM 50j** | $45.00 | Cours **+12.1% au-dessus** — tendance haussière intacte |
 | **MM 200j** | N/A | Non disponible |
@@ -52,13 +52,13 @@
 - Take-profit (3×ATR) : **$66.90** (+32.6%)
 - Ratio R/R : **1.5 : 1**
 
-**Verdict timing : Favorable** — La structure technique est intacte. Tant que le cours se maintient au-dessus de $48.48 (support immédiat) et de $45.00 (MM50), la tendance haussière n'est pas remise en cause. Le Max Pain à $20.00 est désormais un niveau de risque de queue bien en-dessous du SL ($39.50), ce qui renforce la cohérence du setup technique.
+**Verdict timing : Favorable** — La structure technique est intacte. Tant que le cours se maintient au-dessus de $48.48 (support immédiat) et de $45.00 (MM50), la tendance haussière n'est pas remise en cause. Le Max Pain corrigé à $33.00 représente un niveau de risque de queue à −34.6%, toujours en-dessous du SL ($39.50) mais moins extrême que le niveau $20.00 précédemment rapporté.
 
 ---
 
 ## Mise à Jour Fondamentale
 
-**Aucun nouveau flux fondamental** depuis le snapshot 22:35 du 2026-05-18. Les données FMP restent au FY 2025 (clos 2025-06-30). L'earnings Q1 2026 n'est toujours pas intégré dans Yahoo/FMP au snapshot 10:00 UTC du 2026-05-19.
+**Aucun nouveau flux fondamental** depuis le snapshot 10:00 UTC. Les données FMP restent au FY 2025 (clos 2025-06-30). L'earnings Q1 2026 n'est toujours pas intégré dans Yahoo/FMP au snapshot 13:00 UTC du 2026-05-19.
 
 | Métrique | Yahoo Finance | FMP Stable API | Écart | Source préférée |
 |----------|---------------|----------------|-------|-----------------|
@@ -67,26 +67,6 @@
 | **P/B** | 6.67× | 1.72× | **−74%** | Yahoo |
 | **P/E TTM** | 65.53× | 35.96× | **−45%** | Yahoo |
 | **EV/Sales** | 26.13× | 7.04× | **−73%** | Yahoo |
-
-**Métriques fondamentales retenues (source Yahoo, cross-check FMP) :**
-
-| Métrique | Valeur | Signal |
-|----------|--------|--------|
-| **Market Cap** | $18.03 B | Inchangé |
-| **P/E TTM** | 65.53× | Très élevé — prime IA/mining |
-| **Forward P/E** | −37.52× | Négatif — pas de profitabilité forward |
-| **EV/EBITDA** | 134.43× | Extrême — prix du pivot IA inclus |
-| **P/B** | 6.67× | Élevé |
-| **Gross Margin** | 68.3% | Bon |
-| **EBITDA Margin** | 40.3% | Bon |
-| **Operating Margin** | 3.46% | Faible |
-| **Net Margin** | 17.4% | Rentable au net sur FY 2025 |
-| **Debt/Equity** | 53.1% | Modéré |
-| **Interest Coverage** | 1.57× | Faible |
-| **FCF Yield** | −36.0% | Cash burn confirmé |
-| **ROIC (FMP)** | 0.58% | Très faible |
-| **ROE (FMP)** | 4.78% | Faible |
-| **Net Debt/EBITDA (FMP)** | 1.98× | Modéré |
 
 **Filtre Qualité : 4/6 — ⚠️ Quality Partielle** (inchangé)
 - ❌ Forward P/E négatif
@@ -110,9 +90,9 @@
 | Signal | Valeur | Évolution |
 |--------|--------|-----------|
 | **Consensus PT (FMP)** | $65.86 (21 analysts) | Inchangé |
-| **Max Pain** | $20.00 | **−39.4%** — tail risk désormais à −60.4% vs close |
-| **Put/Call ratio** | N/A | Données manquantes dans le snapshot |
-| **Call OI %** | N/A | Données manquantes |
+| **Max Pain** | $33.00 | **Corrigé** — tail risk −34.6% (vs −60.4% rapporté à 10:00 UTC) |
+| **Put/Call ratio** | 1.28 | **Nouveau** — légèrement puts-dominated (>1.0 = bearish tilt modéré) |
+| **Call OI %** | 43.8% | **Nouveau** — puts majoritaires (56.2% put OI implicite) |
 | **Short Interest** | 0.17% | Très faible — pas de short squeeze setup |
 | **Social Sentiment** | 0 mention, Score 0/10 | Aucun buzz Reddit/Yahoo |
 | **Event-Driven** | Aucun événement | `data/events_latest.json` vide pour IREN |
@@ -125,11 +105,11 @@
 - Premium vs NAV estimé : **+12%**
 - Verdict : *Fortement corrélé — pivot IA non encore pricé*
 
-**Commentaire :** L'absence de mentions sociales, de news et de flux institutionnels confirme que le mouvement reste technique/institutionnel. Le max pain à $20.00 est un ancrage de risque de queue désormais très éloigné du cours, ce qui peut refléter une compression de la volatilité implicite des options à très court terme (expiration 2026-05-22) ou un repositionnement des options puts vers des strikes plus bas. Aucun upgrade/downgrade ni insider trade significatif détecté.
+**Commentaire :** L'absence de mentions sociales, de news et de flux institutionnels confirme que le mouvement reste technique/institutionnel. Le put/call ratio à 1.28 révèle une légère défiance des options traders (puts en excès), cohérent avec l'attentisme pré-earnings. Le Max Pain corrigé à $33.00 est un ancrage de risque de queue plus réaliste que le niveau $20.00 précédemment lu. Aucun upgrade/downgrade ni insider trade significatif détecté.
 
 ---
 
-## Scoring Global (Agent Recommandation — 2026-05-19, snapshot 10:00 UTC)
+## Scoring Global (Agent Recommandation — 2026-05-19, snapshot 13:00 UTC)
 
 | Axe | Score | Pondération | Poids ajusté |
 |-----|-------|-------------|--------------|
@@ -168,48 +148,39 @@
 |----------|------------|---------------------|--------|
 | **Optimiste (25%)** | Beat revenue + guidance HPC forte + FCF positif + ROIC > 5% | +15–25% → $58–$63 | **Renforcer** — pivot IA validé |
 | **Central (50%)** | Inline + guidance inchangée + FCF stable | ±5% → $48–$53 | **Conserver** — thèse inchangée |
-| **Pessimiste (25%)** | Miss + compression marges + guidance cut + ROIC stagnant | −15–25% → $38–$43 (−60% tail risk vers max pain $20) | **Réduire** — revalorisation nécessaire |
+| **Pessimiste (25%)** | Miss + compression marges + guidance cut + ROIC stagnant | −15–25% → $38–$43 | **Réduire** — revalorisation nécessaire |
 
 **Prix cible :** $65.86 (consensus FMP, 21 analysts) — **inchangé en l'absence de nouveaux résultats.**
 
 ---
 
-## Gestion des DRAFT_refresh
-
-| DRAFT | Trigger | Conclusion | Statut |
-|-------|---------|------------|--------|
-| `_DRAFT_refresh_2026-05-18` | ATR_SPIKE 10.86% | **Confirm** — faux positif de volatilité résiduelle | Archivé |
-| `IREN_2026-05-19_DRAFT_refresh.md` | ATR_SPIKE 10.86% | **Confirm** — données strictement inchangées vs snapshot 22:35 UTC du 2026-05-18, aucun nouveau flux post-earnings intégré | Traité dans ce _update.md |
-
-**Log REFRESH_LOG.md :** mise à jour avec conclusion confirm pour les entrées du 2026-05-19.
-
----
-
 ## Conclusion
 
-**Thèse : CONFIRMÉE — données stables, DRAFT_refresh traité, Max Pain révisé à la baisse**
+**Thèse : CONFIRMÉE — Correction Max Pain, données options complétées, structure inchangée**
 
-La structure technique d'IREN est **intacte** au-dessus de la MM50 à $45.00. Le snapshot matinal du 2026-05-19 confirme la stabilité totale des niveaux établis hier soir (close $50.46, RSI 56.24, ATR $5.48). Le DRAFT_refresh déclenché par ATR_SPIKE (10.86%) a été analysé, conclu comme un faux positif de volatilité résiduelle (données inchangées), et traité. Aucun nouveau flux fondamental, institutionnel, optionnel ou social n'est survenu dans l'intervalle.
+La structure technique et fondamentale d'IREN est **strictement inchangée** entre les snapshots 10:00 UTC et 13:00 UTC du 2026-05-19. Le cours reste à $50.46 (close de la veille, marché US ouvert mais pas de nouvelle clôture intégrée). Les deux corrections majeures de ce snapshot sont :
+1. **Max Pain corrigé à $33.00** (vs $20.00 rapporté à 10:00 UTC) — le tail risk de queue revient à −34.6%, plus cohérent avec l'historique récent
+2. **Put/Call ratio (1.28) et Call OI % (43.8%)** désormais disponibles — léger excès de puts, cohérent avec l'attentisme pré-earnings
 
 **Points clés :**
-1. **Cours stable** à $50.46 — close identique au snapshot précédent (marché fermé au fetch 10:00 UTC)
+1. **Cours stable** à $50.46 — close inchangé (marché ouvert, pas de nouveau close intégré)
 2. **Volume stable** (81% du moyen) — participation inchangée
 3. **Earnings J0** — résultats Q1 2026 attendus aujourd'hui, non encore intégrés dans FMP/Yahoo
-4. **Max Pain révisé à $20.00** (−39.4%) — tail risk de queue désormais bien en-dessous du SL ($39.50)
+4. **Max Pain corrigé $33.00** — tail risk −34.6%, au-dessus du SL $39.50 mais sans incidence sur la recommandation
 5. **Score Opportunité 6.3/10** — inchangé (Catalyseur 8.3 compense Valorisation 4.5)
 6. **Score Global ajusté 68.3/100** — inchangé (bonus sectoriel XLK top momentum)
 7. **Filtre Qualité 4/6** inchangé — Quality Partielle, FCF négatif persistant
 8. **Proxy BTC intact** — corrélation 0.82, beta 2.1, divergence score 4/10
 9. **Sector rotation** : XLK top momentum (10/10) — contexte macro favorable au secteur
-10. **DRAFT_refresh traité** — ATR_SPIKE archivé comme faux positif de volatilité résiduelle
+10. **Options** : put/call 1.28, call OI 43.8% — défiance modérée des options traders pré-earnings
 
 **Récommandation :** Maintenir **ACHETER à sizing réduit** avec SL $39.50 / TP $66.90, **MAIS** :
 - **Ne pas renforcer** avant les résultats Q1 2026
 - Si le cours casse $48.48 sans rebond → réduire l'exposition
 - Si earnings beat + guidance HPC forte → le catalyseur pourrait justifier un relèvement du score Valorisation
 - La MM50 à $45 est le niveau ultime de défense : si cassée, passer en ATTENDRE
-- Le Max Pain à $20.00 est un niveau de risque de queue extrême — à surveiller si guidance cut sévère
+- Le Max Pain à $33.00 est un niveau de risque de queue à surveiller si guidance cut sévère (bien que supérieur au SL)
 
 ---
 
-*Rapport généré le 2026-05-19 — Données sources : data/latest.json, data/recommandations_latest.json, data/crypto_correlation_latest.json, data/geo_risk_latest.json, data/fx_exposure_latest.json, data/social_sentiment_latest.json, data/upcoming_events_latest.json, data/events_latest.json, data/sector_rotation_latest.json*
+*Rapport généré le 2026-05-19 — Données sources : data/latest.json (13:00 UTC), data/recommandations_latest.json, data/crypto_correlation_latest.json, data/geo_risk_latest.json, data/fx_exposure_latest.json, data/social_sentiment_latest.json, data/upcoming_events_latest.json, data/events_latest.json, data/sector_rotation_latest.json*

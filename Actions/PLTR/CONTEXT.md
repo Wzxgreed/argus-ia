@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Score global :** 42.5/100
-- **Prix cible :** $187.61 (consensus 33 analysts)
-- **Stop-loss :** $123.54
-- **Statut thèse :** Confirmée — pas de changement
-- **Horizon :** Jusqu'au prochain earnings (2026-08-03)
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -24,31 +24,23 @@
 
 ## 🚨 Alertes actives
 
-- **Anomalie data options :** Max Pain $50 (vs $80 précédent) — artefact probable expiration 2026-05-22
-- Warning : `data/accounting_risk_latest.json` absent — Filtre Qualité non alimenté
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **Earnings Q2 FY2026 :** 2026-08-03 (76 jours) — Est. EPS $0.32–$0.40, Rev $1.8B
-- **Expiration options :** 2026-05-22 (3 jours)
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **Cours :** $135.14
 - **RSI 14j :** 42.52
 - **MM 50j :** 143.96
 - **MM 200j :** —
-- **ATR 14j :** 5.80
+- **ATR 14j :** 5.8
 - **Volume moy. 20j :** 44284545
-- **Volume jour :** 31908200
-- **Max Pain :** 50.00 (anomalie — artefact probable)
-- **Put/Call :** null (données manquantes)
-- **Call OI % :** null (données manquantes)
-- **Short Interest :** 0.03%
 
 ---
 
@@ -57,7 +49,7 @@
 - **Date :** 2026-05-19
 - **Type :** update
 - **Fichier :** `PLTR_2026-05-19_update.md`
-- **Conclusion :** Snapshot stable confirmé vs close 18/05. Cours, RSI, ATR, MM50 inchangés. Volume stable en contraction sévère (−28%). Anomalie data Max Pain $50 (artefact probable expiration 2026-05-22). Aucune news. Thèse SURVEILLER confirmée sans modification.
+- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-05-19 10:00 UTC) + `data/recommandations_latest.json` + agents sector, FX, watchman, events, social, quant, geo
 
 ---
 

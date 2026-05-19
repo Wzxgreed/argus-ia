@@ -172,3 +172,21 @@
 - **Action :** DRAFT_refresh archivé (`SOFI_2026-05-19_DRAFT_refresh_ARCHIVED.md`). Pas de réécriture de `_init.md` requise — la thèse du 2026-05-17 reste valide.
 
 ---
+
+## 2026-05-19 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.35% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-19 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.35% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
