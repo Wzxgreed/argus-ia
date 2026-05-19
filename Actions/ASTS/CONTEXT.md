@@ -1,28 +1,61 @@
-# Contexte ASTS
+# CONTEXT — ASTS — Dernière mise à jour : 2026-05-19
 
-## Thèse active
-La thèse sur ASTS reste **ATTENDRE** — profil non rentable (EPS estimé négatif), valorisation spéculative extrême (EV/Revenue 300x, P/B 12,46), qualité fondamentale non attestable faute de données comptables complètes. Le momentum technique est favorable (RSI 60,85, cours au-dessus de la MM50 à $83,66, volume supérieur à la moyenne), mais le ratio R/R limité à 1,5:1 et le risque de whipsaw lié au beta 2,60 réduisent l'attractivité. Aucun catalyseur imminent (earnings dans 84 jours).
-
-## Score actuel
-- Opportunité : 5.5/10
-- Valorisation : 4.5/10
-- Momentum : 7.0/10
-- Global : 54.8/100 (ajusté 59.8)
-
-## Niveaux
-- Cours : $86.83
-- SL : $72.05
-- TP : $109.0
-- Ratio R/R : 1.5:1
-
-## Statut
-EN SURVEILLANCE
+> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
+> Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
 
 ---
 
-## 🔄 Triggers détectés
+## 🎯 Thèse active
 
-- **ATR_SPIKE** (medium) — ATR relatif 8.51% (seuil 5.0%)
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
+
+---
+
+## 📉 Erreurs de prédiction récentes
+
+- Aucune erreur enregistrée.
+
+---
+
+## 🚨 Alertes actives
+
+- Aucune alerte active.
+
+---
+
+## 📅 Prochains événements
+
+- Aucun événement à venir.
+
+---
+
+## 📊 Contexte technique (dernier snapshot)
+
+- **RSI 14j :** 60.85
+- **MM 50j :** 83.66
+- **MM 200j :** —
+- **ATR 14j :** 7.39
+- **Volume moy. 20j :** 19776075
+
+---
+
+## 📝 Résumé dernière analyse
+
+- **Date :** 2026-05-18
+- **Type :** full refresh
+- **Fichier :** `ASTS_2026-05-18_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-18
+
+---
+
+## 🔄 Triggers détectés (full refresh)
+
+- Aucun trigger récent.
 
 ---
 

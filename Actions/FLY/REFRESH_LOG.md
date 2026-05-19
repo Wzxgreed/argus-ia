@@ -124,3 +124,33 @@
 **Conclusion :** Confirmée. Données strictement identiques vs snapshot 21:00 UTC. FULL REFRESH traité et intégré dans `FLY_2026-05-18_update.md` (session 22:35 UTC). Thèse ATTENDRE maintenue.
 
 ---
+
+## 2026-05-18 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +8.71% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 9.99% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-19 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +8.71% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 9.99% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-19 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +8.71% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 9.99% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

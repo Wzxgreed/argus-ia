@@ -1,4 +1,4 @@
-# CONTEXT — AAPL — Dernière mise à jour : 2026-05-18
+# CONTEXT — AAPL — Dernière mise à jour : 2026-05-19
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Score global :** 51.0/100 (ajusté 41.0)
-- **Prix cible :** $220–$240 (DCF fair value)
-- **Stop-loss :** $284.50
-- **Statut thèse :** 🔶 SURVEILLER — surachat extrême persistant (RSI 82.55), pas d'entrée long à $297+
-- **Horizon :** 1–3 mois (catalyseur earnings 2026-07-30)
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -24,37 +24,32 @@
 
 ## 🚨 Alertes actives
 
-- 🟡 RSI 82.55 — surachat extrème persistant
-- 🟡 Volume 0.71× moyenne 20j — liquidité réduite
-- 🟡 Cours $297.84 > Consensus FMP $293.43 (+1.5%)
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-07-30** — Earnings Q3 FY2026 (est. EPS $1.83–$1.99, Rev $109.0B) — dans 73 jours
+- Aucun événement à venir.
 
 ---
 
-## 📊 Contexte technique (dernier snapshot 21:23 UTC)
+## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 82.55 (surachat extrème, zone >80)
-- **MM 50j :** 266.78 (+10.5% de marge)
+- **RSI 14j :** 82.55
+- **MM 50j :** 266.78
 - **MM 200j :** —
 - **ATR 14j :** 6.67
-- **Volume moy. 20j :** 48 279 277
-- **Volume séance :** 34 313 641 (0.71× moyenne)
-- **52W high :** $303.20
-- **52W low :** $193.46
+- **Volume moy. 20j :** 48293855
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-18 (snapshot final 21:23 UTC)
+- **Date :** 2026-05-18
 - **Type :** update
 - **Fichier :** `AAPL_2026-05-18_update.md`
-- **Conclusion :** THÈSE CONFIRMÉE — SURVEILLER. Données inchangées vs snapshot 20:24 UTC. Cours $297.84, RSI 82.55 (zone >80), volume 34.3M (0.71× moyenne). Pas d'entrée long avec surachat extrême persistant. Attendre $285–$290 ou break >$303.20 sur volume >1.0× moyenne.
+- **Conclusion :** > **Référence analyse précédente :** [AAPL_2026-05-17_init.md](AAPL_2026-05-17_init.md) | [AAPL_2026-05-18_update.md](AAPL_2026-05-18_update.md) (snapshot 20:24 UTC)
 
 ---
 

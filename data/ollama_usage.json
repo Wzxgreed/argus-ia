@@ -1,11 +1,11 @@
 {
   "window_5h_start": "2026-05-18T21:25:45Z",
-  "window_5h_calls": 2,
-  "window_5h_tokens_input": 3888,
-  "window_5h_tokens_output": 10331,
+  "window_5h_calls": 3,
+  "window_5h_tokens_input": 5225,
+  "window_5h_tokens_output": 10332,
   "week_start": "2026-05-18",
-  "weekly_calls": 2,
-  "weekly_tokens_input": 3888,
-  "weekly_tokens_output": 10331,
+  "weekly_calls": 3,
+  "weekly_tokens_input": 5225,
+  "weekly_tokens_output": 10332,
   "history": []
 }

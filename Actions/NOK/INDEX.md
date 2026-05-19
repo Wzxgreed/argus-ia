@@ -16,6 +16,7 @@
 | 2026-05-18 | Update (20:07 UTC) | [NOK_2026-05-18_update.md](./NOK_2026-05-18_update.md) | Snapshot 20:07 UTC. Cours $13.725 (−0.11%). RSI 64.51, volume 0.70×. ATR stable $0.97. SL révisé $11.79. Thèse SURVEILLER confirmée. Score Opportunité 4.4/10 inchangé. |
 | 2026-05-18 | Update (21:00 UTC) | [NOK_2026-05-18_update.md](./NOK_2026-05-18_update.md) | Snapshot 21:00 UTC. Cours confirmé $13.74 (−1.51% vs close précédente). RSI 64.63, volume 0.70×. ATR $0.97. SL $11.80. Trigger ATR_SPIKE archivé comme faux positif. Thèse SURVEILLER confirmée. Score Opportunité 4.4/10 inchangé. DRAFT_refresh archivé. |
 | 2026-05-18 | Update (22:34 UTC) | [NOK_2026-05-18_update.md](./NOK_2026-05-18_update.md) | Snapshot 22:34 UTC. Données strictement inchangées vs 21:00 UTC (close $13.74, RSI 64.63, ATR $0.97, volume 0.70×). Trigger ATR_SPIKE archivé comme faux positit technique. DRAFT_refresh successifs archivés. Thèse SURVEILLER confirmée. |
+| 2026-05-19 | Update (10:00 UTC) | [NOK_2026-05-19_update.md](./NOK_2026-05-19_update.md) | Snapshot 19/05 10:00 UTC. Données strictement inchangées vs 18/05 22:34 UTC (close $13.74, RSI 64.63, ATR $0.97, volume 0.73×). Trigger ATR_SPIKE archivé comme faux positif technique récurrent. DRAFT_refresh du 19/05 archivé. Thèse SURVEILLER confirmée. |
 
 ---
 

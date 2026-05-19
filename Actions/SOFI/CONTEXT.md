@@ -1,4 +1,4 @@
-# CONTEXT — SOFI — Dernière mise à jour : 2026-05-18
+# CONTEXT — SOFI — Dernière mise à jour : 2026-05-19
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -20,6 +20,15 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ---
 
+## Actualités ayant impacté ce dossier
+- **Score global :** —/10
+- **Prix cible :** $18.23
+- **Stop-loss :** $14.03
+- **Statut thèse :** —
+- **Horizon :** —
+
+---
+
 ## 📉 Erreurs de prédiction récentes
 
 - Aucune erreur enregistrée.
@@ -28,38 +37,34 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ## 🚨 Alertes actives
 
-- Baisse — $14.03 (SL 2×ATR) — 🟢 Active
-- Hausse — $18.23 (prix cible) — 🟢 Active
-- Volume — >2× moy. 20j (>136M) — 🟢 Active
+- Baisse — $13.97 (SL 2×ATR) — 🟢 Active
+- Hausse — $19.51 (prix cible) — 🟢 Active
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- 2026-07-28 — Earnings Q2 FY2026 (71j)
-- 2026-06-XX — Décision Fed — impact taux direct sur business model
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 32.70
+- **RSI 14j :** 32.7
 - **MM 50j :** 16.98
 - **MM 200j :** —
 - **ATR 14j :** 0.84
-- **Volume moy. 20j :** 68194515
-- **Volume session :** 66202104 (0.97×)
-- **High du jour :** 16.32
-- **Low du jour :** 15.34
+- **Volume moy. 20j :** 68230155
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-18
-- **Type :** _update.md
-- **Fichier :** `SOFI_2026-05-18_update.md`
-- **Conclusion :** Close final $15.71 (+0.64% vs veille) à volume normal (0.97×). RSI 32.70, MM50 $16.98, ATR $0.84. Rejet intraday à $16.32. Options inchangées (Max Pain $15.00, Put/Call 0.77). Aucune news structurante. Support $15.34 tient. THÈSE CONFIRMÉE. Score Opportunité 5.7/10, Score Global 48.6/100 (SURVEILLER). TP $18.23, SL $14.03, R/R 1.50.
+- **Date :** 2026-05-19
+- **Type :** full refresh
+- **Fichier :** `SOFI_2026-05-19_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-19
 
 ---
 

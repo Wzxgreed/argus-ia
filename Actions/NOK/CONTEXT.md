@@ -1,4 +1,4 @@
-# CONTEXT — NOK — Dernière mise à jour : 2026-05-18 22:34 UTC
+# CONTEXT — NOK — Dernière mise à jour : 2026-05-19
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -8,22 +8,22 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** SURVEILLER — Pas de position
-- **Prix cible :** $9.26 (consensus 6 analystes)
-- **Stop-loss :** $11.80 (cours − 2×ATR)
-- **Upside/Downside :** −32.6% / −14.1%
-- **Dernière mise à jour :** 2026-05-18 22:34 UTC
+**Prix cible :** $9.26 (consensus 6 analystes)
+**Stop-loss :** $11.80 (cours − 2×ATR)
+**Upside/Downside :** −32.6% / −14.1%
+**Dernière mise à jour :** 2026-05-19 10:00 UTC
 
-Leader 5G mature, massivement surévalué vs consensus ADR (P/E 85.9, cours $13.74 vs consensus $9.26 = +48.4%). Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25, current ratio 1.58) mais rentabilité anémique (operating margin 3.9%, net margin 3.3%). Divergence structurelle Yahoo/FMP sur les multiples (P/E FMP 45.8, EV/EBITDA 13.1 vs Yahoo 85.9/29.8) liée au titre Helsinki vs ADR NYSE — ne change pas le verdict consensus. Dividende 1.17%. RSI 64.6 zone saine. Volume réduit 0.70× moyenne 20j. ATR 7.06%. XLC dans bottom 3 sectoriel. Value trap confirmé. Pas d'entrée.
+Leader 5G mature, massivement surévalué vs consensus ADR (P/E 85.9, cours $13.74 vs consensus $9.26 = +48.4%). Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25, current ratio 1.58) mais rentabilité anémique (ROIC 1.89%, operating margin 3.9%, net margin 3.3%). Divergence structurelle Yahoo/FMP sur les multiples (P/E FMP 45.8, EV/EBITDA 13.1 vs Yahoo 85.9/29.3) liée au titre Helsinki vs ADR NYSE — ne change pas le verdict consensus. Dividende 1.19%. RSI 64.6 zone saine. Volume réduit 0.73× moyenne 20j. ATR 7.06%. XLC dans bottom 3 sectoriel. Value trap confirmé. Pas d'entrée.
 
 **✅ Données complètes** — Cours, RSI, ATR, P/E, consensus, options disponibles dans `data/latest.json`.
 
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 49.2/100
+- **Score global :** —/10
 - **Prix cible :** $9.26
 - **Stop-loss :** $11.80
-- **Statut thèse :** SURVEILLER
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -36,7 +36,7 @@ Leader 5G mature, massivement surévalué vs consensus ADR (P/E 85.9, cours $13.
 
 ## 🚨 Alertes actives
 
-- Baisse — $11.80 (SL 2×ATR) — 🟢 Active
+- Baisse — $12.03 (SL 2×ATR) — 🟢 Active
 - Hausse — $9.26 (consensus) — 🔴 Déjà au-dessus
 - Volume — >2× moy. 20j (>249M) — 🟢 Active
 
@@ -54,16 +54,16 @@ Leader 5G mature, massivement surévalué vs consensus ADR (P/E 85.9, cours $13.
 - **MM 50j :** 10.29
 - **MM 200j :** —
 - **ATR 14j :** 0.97
-- **Volume moy. 20j :** 124783956
+- **Volume moy. 20j :** 124986445
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-18
+- **Date :** 2026-05-19
 - **Type :** update
-- **Fichier :** `NOK_2026-05-18_update.md`
-- **Conclusion :** Thèse SURVEILLER confirmée. Snapshot 22:34 UTC confirme intégralement les lectures 21:00 UTC. Données strictement inchangées (close $13.74, RSI 64.63, ATR $0.97, volume 0.70×). Trigger ATR_SPIKE archivé comme faux positit technique. DRAFT_refresh successifs archivés.
+- **Fichier :** `NOK_2026-05-19_update.md`
+- **Conclusion :** Thèse SURVEILLER confirmée. Snapshot 19/05 10:00 UTC strictement inchangé vs 18/05 22:34 UTC. DRAFT_refresh archivé comme faux positif technique.
 
 ---
 

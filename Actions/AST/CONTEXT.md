@@ -1,61 +1,62 @@
-# AST — Contexte actif
+# CONTEXT — AST — Dernière mise à jour : 2026-05-19
 
-> **Dernière mise à jour :** 2026-05-18 (snapshot 23:09 UTC)
-> **Fichier source :** `AST_2026-05-18_update.md`
-
----
-
-## Thèse active
-
-**Statut :** DONNÉES MANQUANTES — analyse initiale requise
-
-- Aucune donnée de cours disponible (`No price history` dans latest.json, confirmé stable 21:23 → 22:36 → 23:09 UTC)
-- Pas de Filtre Qualité calculable
-- Pas de niveaux techniques (RSI, ATR, MM)
-- Aucune news détectée dans le snapshot du jour
-- **Doublon probable avec ASTS** (AST SpaceMobile) — ticker correct avec données complètes
+> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
+> Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
 
 ---
 
-## Scores
+## 🎯 Thèse active
 
-| Score | Valeur | Source |
-|-------|--------|--------|
-| Opportunité | 5.5/10 | Placeholder (données manquantes) |
-| Catalyseur | 6.5/10 | Placeholder |
-| Valorisation | 5.0/10 | Placeholder |
-| Momentum | 5.0/10 | Placeholder |
-| Global | 55.2/100 | Placeholder |
-| Global ajusté | 55.2/100 | Placeholder |
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
-## Niveaux
+## 📉 Erreurs de prédiction récentes
 
-| Niveau | Valeur | Note |
-|--------|--------|------|
-| Prix actuel | — | [DONNÉES MANQUANTES] |
-| Stop-loss | — | [DONNÉES MANQUANTES] |
-| Take-profit | — | [DONNÉES MANQUANTES] |
+- Aucune erreur enregistrée.
 
 ---
 
-## Alertes actives
+## 🚨 Alertes actives
 
-- [ ] Aucune alerte définie (pas de données pour calculer les seuils)
-- [ ] **Doublon ticker :** AST vs ASTS — à résoudre dans `config/watchlist.json`
-
----
-
-## Erreurs de prédiction passées
-
-Aucune — pas d'historique de prédictions.
+- Aucune alerte active.
 
 ---
 
-## Prochaines étapes
+## 📅 Prochains événements
 
-1. **Résoudre le doublon AST / ASTS** dans `config/watchlist.json`
-2. Si AST est confirmé comme illiquide / sans historique → supprimer ou marquer `excluded`
-3. Privilégier l'analyse sous le ticker `ASTS` (données complètes disponibles : $86.83, RSI 60.85, ATR 7.39)
-4. Lancer `make analyse TICKER=ASTS` pour débloquer l'analyse complète de l'entité
+- **2026-05-19** · earnings · Earnings ...
+
+---
+
+## 📊 Contexte technique (dernier snapshot)
+
+- **RSI 14j :** —
+- **MM 50j :** —
+- **MM 200j :** —
+- **ATR 14j :** —
+- **Volume moy. 20j :** —
+
+---
+
+## 📝 Résumé dernière analyse
+
+- **Date :** 2026-05-19
+- **Type :** preview
+- **Fichier :** `AST_2026-05-19_preview.md`
+- **Conclusion :** > **Date :** 2026-05-19
+
+---
+
+## 🔄 Triggers détectés (full refresh)
+
+- Aucun trigger récent.
+
+---
+
+*Généré automatiquement — ne pas éditer manuellement.*
