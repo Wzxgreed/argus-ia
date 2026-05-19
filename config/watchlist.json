@@ -122,12 +122,12 @@
       "notes": "Ajouté via dashboard API"
     },
     {
-      "ticker": "MICRON",
-      "name": "MICRON",
-      "sector": "Non spécifié",
+      "ticker": "MU",
+      "name": "Micron Technology Inc.",
+      "sector": "Semiconductors / Technology",
       "priority": "medium",
       "exchange": "NASDAQ",
-      "notes": "Ajouté via dashboard API"
+      "notes": "Memory & storage semiconductors — DRAM, NAND, NOR. Exposition cyclique mémoire et IA infrastructure."
     },
     {
       "ticker": "AST",

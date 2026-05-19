@@ -1,7 +1,7 @@
 # AXA — Index du Dossier
 
 > **Dernière mise à jour :** 2026-05-19
-> **Statut :** 🔴 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`)
+> **Statut :** 🔴 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`) + headwind sectoriel Financials
 
 ---
 
@@ -9,7 +9,9 @@
 
 **Recommandation :** ATTENDRE (Score Global 55.2/100)
 
-AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **aucune donnée de prix n'est disponible** dans le pipeline Argus-IA car le symbole "AXA" n'est pas reconnu par yfinance (instrument non coté US). L'analyse technique et fondamentale est donc impossible. Le score 55.2/100 est un placeholder algorithmique basé sur des valeurs par défaut et ne constitue pas une recommandation investissable.
+AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **aucune donnée de prix n'est disponible** dans le pipeline Argus-IA car le symbole "AXA" n'est pas reconnu par yfinance (instrument non coté US). L'analyse technique et fondamentale est impossible.
+
+**Contexte sectoriel ajouté ce 19 mai :** Le secteur Financials (XLF) sous-performe le S&P 500 de −5.91% sur 20j et −8.35% sur 60j, avec un momentum score de 0.0/10. Si les données AXA étaient disponibles, ce headwind sectoriel pèserait sur le score Momentum et le timing d'entrée.
 
 **Action immédiate :** corriger le symbole dans `config/watchlist.json` (`CS.PA` ou `AXAHY`) et relancer le fetch.
 

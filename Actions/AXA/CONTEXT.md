@@ -9,7 +9,9 @@
 
 - **Recommandation :** ATTENDRE (Score Global 55.2/100)
 
-AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **aucune donnée de prix n'est disponible** dans le pipeline Argus-IA car le symbole "AXA" n'est pas reconnu par yfinance (instrument non coté US). L'analyse technique et fondamentale est donc impossible. Le score 55.2/100 est un placeholder algorithmique basé sur des valeurs par défaut et ne constitue pas une recommandation investissable.
+AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **aucune donnée de prix n'est disponible** dans le pipeline Argus-IA car le symbole "AXA" n'est pas reconnu par yfinance (instrument non coté US). L'analyse technique et fondamentale est impossible.
+
+**Contexte sectoriel :** XLF (Financials) sous-performe le S&P 500 de −5.91% (20j) et −8.35% (60j), momentum score 0.0/10. Si les données étaient disponibles, ce headwind sectoriel pèserait sur le timing.
 
 **Action immédiate :** corriger le symbole dans `config/watchlist.json` (`CS.PA` ou `AXAHY`) et relancer le fetch.
 
@@ -57,7 +59,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 - **Date :** 2026-05-19
 - **Type :** update
 - **Fichier :** `AXA_2026-05-19_update.md`
-- **Conclusion :** > **Date :** 2026-05-19
+- **Conclusion :** Thèse non évaluable (données manquantes persistantes). Headwind sectoriel Financials identifié (XLF RS20j −5.91%). Action : ATTENDRE — corriger symbole ticker.
 
 ---
 

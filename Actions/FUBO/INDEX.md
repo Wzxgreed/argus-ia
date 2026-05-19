@@ -25,7 +25,7 @@ Thèse d'investissement : FUBO est un titre spéculatif du secteur Communication
 - **Earnings jour J en attente** — résultats Q1 2026 non visibles au snapshot 10:00 UTC 2026-05-19 → vérifier prochaine session
 - **Divergence Yahoo/FMP Market Cap** — ×11,8 d'écart entre sources
 - **Sector Rotation XLC Bottom 3** — malus sectoriel actif
-- **Options Repositionnement Volatile** — max pain cycle $21→$10→$21 en 24h, call OI dominant 60,6% à J-2 échéance 2026-05-22
+- **Options Volatilité Récurrente** — max pain cycle $21→$10→$21→$10 en 27h (artefact corrigé à 13:00 UTC), call OI dominant 60,0% à J-2 échéance 2026-05-22
 - **Liquidité réduite** — volume 0,62× moyenne 20j (965k vs 1,56M) — risque de slippage persistant
 - **Qualité dégradée** — Score Qualité 1/6, patrimoine net négatif, FCF négatif
 - **Short Squeeze Setup (latent)** — short interest 22,84% + call OI dominant + échéance imminente = risque de squeeze technique si catalyseur positif
