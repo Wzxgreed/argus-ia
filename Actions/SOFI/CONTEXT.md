@@ -21,11 +21,11 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 51.1/100
+- **Score global :** —/10
 - **Prix cible :** $17.32
 - **Stop-loss :** $13.81
-- **Statut thèse :** ATTENDRE
-- **Horizon :** 3–6 mois
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -37,15 +37,15 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ## 🚨 Alertes actives
 
-- Baisse — $13.81 (SL 2×ATR) — 🟢 Active
-- Hausse — $17.32 (prix cible) — 🟢 Active
-- Volume — >2× moy. 20j (>134M) — 🟢 Active
+- Baisse — $13.97 (SL 2×ATR) — 🟢 Active
+- Hausse — $19.51 (prix cible) — 🟢 Active
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- 2026-07-28 — Earnings Q2 FY2026 (70j)
+- Aucun événement à venir.
 
 ---
 
@@ -54,17 +54,17 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 - **RSI 14j :** 47.09
 - **MM 50j :** 16.91
 - **MM 200j :** —
-- **ATR 14j :** 0.70
-- **Volume moy. 20j :** 66928900
+- **ATR 14j :** 0.7
+- **Volume moy. 20j :** 67940524
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-19
-- **Type :** update
-- **Fichier :** `SOFI_2026-05-19_update.md`
-- **Conclusion :** Close final $15.215 (−3.15% vs veille) à volume sous-moyen (0.59×). RSI 47.09 (sortie survente mécanique), MM50 $16.91, ATR $0.70. Test support $14.92. Options inchangées. Score Global 51.1/100 (ATTENDRE). TP $17.32, SL $13.81, R/R 1.50.
+- **Type :** full refresh
+- **Fichier :** `SOFI_2026-05-19_DRAFT_refresh_ARCHIVED.md`
+- **Conclusion :** > **Date :** 2026-05-19
 
 ---
 

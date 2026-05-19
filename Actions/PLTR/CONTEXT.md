@@ -36,11 +36,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 44.98
-- **MM 50j :** 143.52
+- **RSI 14j :** 46.35
+- **MM 50j :** 143.54
 - **MM 200j :** —
-- **ATR 14j :** 5.61
-- **Volume moy. 20j :** 42801494
+- **ATR 14j :** 5.62
+- **Volume moy. 20j :** 43406618
 
 ---
 
@@ -49,7 +49,7 @@
 - **Date :** 2026-05-19
 - **Type :** update
 - **Fichier :** `PLTR_2026-05-19_update.md`
-- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-05-19 13:00 UTC) + `data/recommandations_latest.json` + agents sector, FX, watchman, events, social, quant, geo
+- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-05-19 17:00 UTC) + `data/recommandations_latest.json` + agents sector, FX, watchman, events, social, quant, geo
 
 ---
 

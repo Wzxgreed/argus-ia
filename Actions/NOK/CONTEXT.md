@@ -22,7 +22,7 @@ Leader 5G mature, massivement surévalué vs consensus ADR (P/E 85.2, cours $13.
 ## Actualités ayant impacté ce dossier
 - **Score global :** —/10
 - **Prix cible :** $9.26
-- **Stop-loss :** $11.80
+- **Stop-loss :** $11.79
 - **Statut thèse :** —
 - **Horizon :** —
 
@@ -50,26 +50,26 @@ Leader 5G mature, massivement surévalué vs consensus ADR (P/E 85.2, cours $13.
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 58.06
+- **RSI 14j :** 58.3
 - **MM 50j :** 10.41
 - **MM 200j :** —
-- **ATR 14j :** 0.92
-- **Volume moy. 20j :** 124586881
+- **ATR 14j :** 0.94
+- **Volume moy. 20j :** 125867976
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-19
-- **Type :** update
-- **Fichier :** `NOK_2026-05-19_update.md`
-- **Conclusion :** Thèse confirmée — ATTENDRE. Cours $13.635, RSI 58.06, volume 0.43×. Options data restaurées (max pain $13.0, put/call 0.43). Score Opportunité 4.5/10. ATR_SPIKE archivé comme faux positit technique.
+- **Type :** full refresh
+- **Fichier :** `_NOK_2026-05-19_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-19
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 6.75% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 6.88% (seuil 5.0%)
 
 ---
 

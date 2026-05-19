@@ -147,3 +147,21 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 Snapshot 2026-05-19 17:00 UTC. Cours $13.635 (−0.76 % vs clôture précédente), RSI 58.06, ATR $0.92 (6.75 %). Volume très réduit 0.43×. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : volatilité relative reflète le range intraday sur liquidité réduite, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $9.26 stable à +47.2 %. Score Opportunité 4.5/10. Recommandation migrée de SURVEILLER à ATTENDRE (Score Global Ajusté 50.5, franchissement seuil 50) — évolution purement arithmétique du momentum, non fondamentale. DRAFT_refresh archivé.
 
 ---
+
+## 2026-05-19 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.88% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-19 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.88% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

@@ -8,9 +8,9 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ACHETER — Sizing Réduit
-- **Score global :** 68.3/100
-- **Prix cible :** $65.86
-- **Stop-loss :** $37.17
+- **Score global :** 67.0/100
+- **Prix cible :** $65.86 (consensus FMP, 21 analysts)
+- **Stop-loss :** $36.50
 - **Statut thèse :** modifiée sous pression
 - **Horizon :** 1–3 mois
 
@@ -24,13 +24,12 @@
 
 ## 🚨 Alertes actives
 
-- Baisse — $45.19 — 🟢 Active
+- Baisse — $45.00 — 🟢 Active
 - Hausse — $65.86 — 🟢 Active
-- Volume — >2× moy. 20j (>104.3M) — 🟢 Active
+- Volume — >2× moy. 20j (>104.9M) — 🟢 Active
 - IREN — Vérification — $61.20
 - IREN — **⚠️ Volume DÉCLENCHÉ** — $55.15 (close)
 - IREN — **⚠️ Baisse INTRADAY** — $52.36 (low)
-- IREN — **⚠️ Cassure support** — $48.48 (support immédiat cassé)
 
 ---
 
@@ -42,11 +41,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 55.70
-- **MM 50j :** 45.19
+- **RSI 14j :** 54.95
+- **MM 50j :** 45.17
 - **MM 200j :** —
 - **ATR 14j :** 5.62
-- **Volume moy. 20j :** 52162794
+- **Volume moy. 20j :** 52861921
 
 ---
 
@@ -54,14 +53,15 @@
 
 - **Date :** 2026-05-19
 - **Type :** update
-- **Fichier :** `IREN_2026-05-19_update.md` (rev. 17:00 UTC)
-- **Conclusion :** **Thèse : MODIFIÉE SOUS PRESSION — Cassure support immédiat ($48.48), maintien au-dessus MM50 ($45.19), rebond +5.2% depuis low $46.00. Earnings J0 toujours en attente.**
+- **Fichier :** `IREN_2026-05-19_update.md`
+- **Conclusion :** **Thèse : MODIFIÉE SOUS PRESSION — Cassure support immédiat, volume en fin de session actif (69% moy 20j), maintien au-dessus MM50, earnings J0 toujours en attente**
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 11.61% (seuil 5.0%)
+- **PRICE_GAP** (medium) — Gap -5.39% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 11.77% (seuil 5.0%)
 
 ---
 

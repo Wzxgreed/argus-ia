@@ -19,7 +19,7 @@
 - **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** —
+- **Statut thèse :** invalide
 - **Horizon :** 1–3 mois
 
 ---
@@ -44,12 +44,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 26.88
+- **RSI 14j :** 26.15
 - **MM 50j :** 14.21
 - **MM 200j :** —
 - **ATR 14j :** 0.45
-- **Volume moy. 20j :** 45575495
-- **Volume jour :** 23323010 (0.51× moyenne)
+- **Volume moy. 20j :** 46576454
 
 ---
 
@@ -58,7 +57,7 @@
 - **Date :** 2026-05-19
 - **Type :** update
 - **Fichier :** `NU_2026-05-19_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ACHETER (Réduit)** — snapshot 17:00 UTC : cours $12.32 (+0.24%), RSI 26.88 (+3.51), volume 23.3M (0.51×), SL révisé $11.42
+- **Conclusion :** **Thèse : CONFIRMÉE — ACHETER (Réduit)**
 
 ---
 

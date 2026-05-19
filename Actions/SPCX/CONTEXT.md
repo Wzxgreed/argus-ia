@@ -8,20 +8,20 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ACHETER (Réduit)
-- **Prix cible :** $22.71
-- **Upside :** +3.3%
-- **Dernière mise à jour :** 2026-05-19
+**Prix cible :** $22.71
+**Upside :** +3.3%
+**Dernière mise à jour :** 2026-05-19
 
-> SPCX est un ETF thématique SPAC/post-IPO. Le cours tient au-dessus de la MM50 ($21.97) avec un RSI neutre (46.07). La volatilité reste extrêmement faible (ATR $0.24), offrant un SL serré mais limitant l'upside naturel. Le titre est proche de son 52w low ($21.32) et à -17.4% de son 52w high. Volume en légère hausse (+28% vs hier, 1.53× moy. 20j) mais liquidité globale faible. Aucun catalyseur sectoriel identifié. Thèse confirmée — conviction faible à modérée.
+> SPCX est un ETF thématique SPAC/post-IPO. Le cours tient au-dessus de la MM50 ($21.97) avec un RSI neutre (46.07). La volatilité reste extrêmement faible (ATR $0.24), offrant un SL serré mais limitant l'upside naturel. Le titre est proche de son 52w low ($21.32) et à -17.4% de son 52w high. Volume en légère hausse (+28% vs hier, 1.53× moy. 20j) mais liquilité globale faible. Aucun catalyseur sectoriel identifié. Thèse confirmée — conviction faible à modérée.
 
 ---
 
-## 📊 Paramètres de suivi
-- **Score global ajusté :** 65.2/100
+## Actualités ayant impacté ce dossier
+- **Score global :** —/10
 - **Prix cible :** $22.71
-- **Stop-loss :** $21.51
-- **Statut thèse :** Confirmée
-- **Horizon :** 1–3 mois
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -39,7 +39,7 @@
 
 ## 📅 Prochains événements
 
-- Aucun — ETF thématique sans calendrier earnings classique.
+- **2026-05-19** · earnings · Earnings ...
 
 ---
 
@@ -50,7 +50,6 @@
 - **MM 200j :** —
 - **ATR 14j :** 0.24
 - **Volume moy. 20j :** 2226
-- **Close :** 21.99
 
 ---
 
@@ -59,7 +58,7 @@
 - **Date :** 2026-05-19
 - **Type :** update
 - **Fichier :** `SPCX_2026-05-19_update.md`
-- **Conclusion :** Thèse confirmée — setup micro-haussier stable au-dessus MM50, absence de catalyseur, upside limité à ~3.3%.
+- **Conclusion :** **Date :** 2026-05-19
 
 ---
 
