@@ -1,25 +1,24 @@
-# PLTR — Mise à Jour Quotidienne (2026-05-19, snapshot 10:00 UTC)
+# PLTR — Mise à Jour Quotidienne (2026-05-19, snapshot 13:00 UTC)
 
-> **Source :** `data/latest.json` (snapshot 2026-05-19 10:00 UTC) + `data/recommandations_latest.json` + agents sector, FX, watchman, events, social, quant, geo  
+> **Source :** `data/latest.json` (snapshot 2026-05-19 13:00 UTC) + `data/recommandations_latest.json` + agents sector, FX, watchman, events, social, quant, geo  
 > **Référence précédente :** [PLTR_2026-05-18_update.md](PLTR_2026-05-18_update.md)  
-> **Dernier update :** 2026-05-18 — consolidation haussière, thèse SURVEILLER confirmée
+> **Dernier update :** 2026-05-19 10:00 UTC — snapshot stable avec anomalies options  
 
 ---
 
-## Résumé des Changements depuis l'Update Précédent (2026-05-18)
+## Résumé des Changements depuis l'Update Précédent (2026-05-19 10:00 UTC)
 
-| Indicateur | 18/05 | 19/05 | Δ |
-|-----------|-------|-------|---|
+| Indicateur | 10:00 UTC | 13:00 UTC | Δ |
+|-----------|-----------|-----------|---|
 | Cours close | **$135.14** | **$135.14** | **0.00%** |
 | RSI 14j | 42.52 | 42.52 | 0 |
-| Volume jour | 31.76M | **31.91M** | **+0.5%** |
-| Volume vs moy. 20j | −28.2% | **−28.0%** | Contraction stable |
+| Volume jour | 31.91M | **31.91M** | 0 |
+| Volume vs moy. 20j | −28.0% | **−28.0%** | Stable |
 | ATR 14j | 5.80 | 5.80 | 0 |
 | MM 50j | 143.96 | 143.96 | 0 |
-| MM 200j | — | — | [DONNÉES MANQUANTES] |
-| Max Pain options | $80.00 | **$50.00** | **−$30.00** |
-| Put/Call Ratio | 0.69 | **null** | [DONNÉES MANQUANTES] |
-| Call OI % | 59.3% | **null** | [DONNÉES MANQUANTES] |
+| **Max Pain options** | **$50.00** (anomalie) | **$140.00** | **+$90.00** |
+| **Put/Call Ratio** | **null** | **0.64** | **Corrigé** |
+| **Call OI %** | **null** | **60.8%** | **+1.5 pp** |
 | Score Catalyseur | 6.8/10 | **6.8/10** | 0 |
 | Score Valorisation | 4.5/10 | **4.5/10** | 0 |
 | Score Momentum | 3.5/10 | **3.5/10** | 0 |
@@ -27,7 +26,7 @@
 | Score Global ajusté | 42.5/100 | **42.5/100** | 0 |
 | Action | SURVEILLER | **SURVEILLER** | → **Confirmé** |
 
-**Verdict :** Snapshot stable confirmé vs close 2026-05-18. Cours, RSI, ATR, MM50 inchangés. Volume légèrement révisé à la hausse (+0.5%) mais reste en contraction sévère (−28% vs moyenne 20j). **Anomalie data :** Max Pain options bascule de $80.00 à $50.00 — écart de 63% sous le spot, probablement artefact de données partielles ou expiration proche (2026-05-22). Put/Call et Call OI désormais nulls dans le snapshot. Aucune news PLTR détectée. **Thèse SURVEILLER confirmée sans modification.**
+**Verdict :** Snapshot 13:00 UTC confirme la stabilité des données de marché (cours, RSI, ATR, MM50 inchangés) et corrige les anomalies options du snapshot matinal. Le Max Pain revient à **$140.00** (cohérent avec le spot à $135.14, écart +3.6%), le Put/Call Ratio est rétabli à **0.64** (vs 0.69 au 18/05) et le Call OI % à **60.8%** (vs 59.3% au 18/05). Cette structure options révisée indique un biais haussier modéré légèrement renforcé par rapport à la clôture du 18/05. **Thèse SURVEILLER confirmée sans modification.**
 
 ---
 
@@ -46,10 +45,10 @@
 | Beta | **1.521** | Élevé — amplifie les rotations sectorielles |
 | Timing verdict | **Défavorable** | Sous MM50 + volume sous moyenne |
 
-**Évolution vs update 18/05 :**
-- **Cours / RSI / MM50 / ATR** : inchangés — le snapshot 10:00 UTC reflète la stabilisation post-close du 18/05.
-- **Volume** : légère révision à 31.91M (+0.15M) sans impact sur la conclusion (liquidité institutionnelle absente).
-- **Options** : **anomalie significative** — Max Pain passe de $80 à $50, Put/Call et Call OI passent à `null`. L'expiration la plus proche est le 2026-05-22 (3 jours). Cette volatilité des données options suggère soit un reset de l'open interest à l'approche de l'expiration hebdomadaire, soit une absence de couverture options significative en fin de cycle. Le Max Pain à $50 est incohérent avec le spot à $135 — traité comme **artefact algorithmique**.
+**Évolution vs update 10:00 UTC :**
+- **Cours / RSI / MM50 / ATR** : inchangés — le snapshot 13:00 UTC reflète la stabilisation post-close du 18/05.
+- **Volume** : stable à 31.91M, contraction sévère persistante (−28% vs moyenne 20j). Liquidité institutionnelle absente.
+- **Options :** correction majeure des données. Le Max Pain passe de l'anomalie $50 (artefact lié à l'expiration hebdomadaire du 2026-05-22) à **$140.00**, désormais cohérent avec le spot. Le Put/Call Ratio est rétabli à **0.64** (baisse de 0.05 vs 18/05 = biais haussier modéré renforcé). Le Call OI % remonte à **60.8%** (+1.5 pp vs 18/05 = appétence haussière modérée en hausse). L'expiration la plus proche reste le 2026-05-22 (3 jours).
 
 ---
 
@@ -80,7 +79,7 @@
 | EV/EBITDA | 156.7x | 291.6x | **+86%** |
 | P/B | 43.7x | 57.0x | **+30%** |
 
-**Interprétation :** Écart persistant entre sources, inchangé vs 18/05. Les multiples restent extrêmes dans les deux cas, justifiant le Score Valorisation contenu (4.5/10). Aucune nouvelle donnée fondamentale ce jour.
+**Interprétation :** Écart persistant entre sources, inchangé vs matin. Les multiples restent extrêmes dans les deux cas, justifiant le Score Valorisation contenu (4.5/10). Aucune nouvelle donnée fondamentale ce jour.
 
 **Filtre Qualité (6 critères)**
 - Données Agent Accounting (M-Score, Z-Score, F-Score, Sloan) : `[DONNÉES MANQUANTES]` — fichier `data/accounting_risk_latest.json` absent (agent skipped lors du pipeline)
@@ -95,8 +94,8 @@
 |-----------|--------|-------------|
 | News du jour | — | Aucune news PLTR détectée dans le snapshot `data/latest.json` |
 | Social Sentiment (Reddit) | No data | Aucun post collecté — absence de signal retail |
-| Put/Call Ratio | **null** | [DONNÉES MANQUANTES] — reset à l'approche expiration 2026-05-22 |
-| Call OI % | **null** | [DONNÉES MANQUANTES] |
+| Put/Call Ratio | **0.64** | Biais modéré vers les calls (vs 0.69 hier, 0.80 initiale) |
+| Call OI % | **60.8%** | Appétence haussière modérée renforcée (vs 59.3% hier, 55.4% initiale) |
 | Short Interest | 0.03% | Négligeable — pas de setup short squeeze |
 | Insider Trades | — | [DONNÉES MANQUANTES] |
 | Upgrades/Downgrades | — | [DONNÉES MANQUANTES] |
@@ -104,12 +103,14 @@
 
 **Catalyseur prochain :** Earnings Q2 FY2026 le **2026-08-03** (76 jours). Est. EPS $0.32–$0.40, Rev $1.8B. Pas de preview requis (> 5j).
 
+**Notes options :** Le snapshot 13:00 UTC corrige l'anomalie Max Pain $50 du matin. La valeur rétablie à $140.00 est cohérente avec le spot ($135.14) et suggère que les strikes concentrés se situent autour de $140 pour l'expiration du 2026-05-22. Le Put/Call en repli (0.64 vs 0.69) et le Call OI en hausse (60.8% vs 59.3%) traduisent une légère accumulation de biais haussier en début de semaine, malgré l'absence de volume au comptant.
+
 ---
 
 ## Scoring Global — Révision
 
-| Axe | Score Auj. | Score 18/05 | Δ | Pondération (Unknown) |
-|-----|-----------|------------|---|---------------------|
+| Axe | Score 13:00 UTC | Score 10:00 UTC | Δ | Pondération (Unknown) |
+|-----|----------------|----------------|---|---------------------|
 | Catalyseur | **6.8/10** | 6.8/10 | 0 | 35% |
 | Valorisation | **4.5/10** | 4.5/10 | 0 | 40% |
 | Momentum | **3.5/10** | 3.5/10 | 0 | 25% |
@@ -119,7 +120,7 @@
 **Score Global ajusté :** **42.5/100** (malus technique et structuraux)  
 **Action :** **SURVEILLER**
 
-**Explication :** Aucun changement de scoring depuis le 18/05. Les données agents (recommandations, sector rotation, FX, geo) sont stables. Le Momentum reste le maillon faible (3.5/10) en raison de la position sous MM50 et du volume insuffisant. L'anomalie Max Pain ($50) n'impacte pas le score car traitée comme artefact de données. L'agent recommandation maintient le statut SURVEILLER. Pas d'entrée avant confirmation technique (franchissement MM50 à $143.96 avec volume > moyenne 20j).
+**Explication :** Aucun changement de scoring entre les snapshots 10:00 et 13:00 UTC. Les données agents (recommandations, sector rotation, FX, geo) sont stables. Le Momentum reste le maillon faible (3.5/10) en raison de la position sous MM50 et du volume insuffisant. L'anomalie Max Pain du matin est résolue et n'impacte pas le score. L'agent recommandation maintient le statut SURVEILLER. Pas d'entrée avant confirmation technique (franchissement MM50 à $143.96 avec volume > moyenne 20j).
 
 ---
 
@@ -133,6 +134,7 @@
 | Take-profit suggéré | **$152.54** | Cours + 3×ATR = $135.14 + $17.40 |
 | Ratio R/R | **1.5** | Ratio institutionnel standard |
 | Upside vers consensus PT | +38.8% | $187.61 — horizon long terme |
+| Max Pain (exp. 2026-05-22) | **$140.00** | +3.6% au-dessus du spot — zone de gravitation options |
 
 ---
 
@@ -146,7 +148,7 @@
 | Beta 1.52 | Élevé | Amplifie les rotations sectorielles |
 | Geo Risk | Score 0 | Pas d'événement géopolitique spécifique |
 | Accounting Risk | [DONNÉES MANQUANTES] | `data/accounting_risk_latest.json` absent — agent skipped |
-| Quant Calibration | Insuffisant | Pas assez de signaux historiques (`p_value` 1.0) |
+| Quant Calibration | Insuffisant | Pas assez de signaux historiques (`p_value` 1.0) — calibration en cours |
 | Social Sentiment | No data | Pas de signal retail exploitable |
 | FX Exposure | 55% export EUR/CNY | FX Impact Score 0.0 — neutral, divergence aligned |
 
@@ -161,6 +163,7 @@
 - Bilan solide : quasi-zero dette, current ratio 7.1, ROIC 18%
 - Consensus analystes actif (33 analysts, PT $187.61 = +38.8% upside)
 - XLK leader sectoriel (momentum 10.0/10) — environnement favorable aux techs
+- Options : structure modérément haussière renforcée (Put/Call 0.64, Call OI 60.8%, Max Pain $140)
 - RSI 42.52 stable, sortie nette de la zone < 40 depuis le 17/05
 - Cours stable à $135.14 — consolidation sans pression vendeuse renforcée
 
@@ -170,7 +173,6 @@
 - Divergence data Yahoo vs FMP sur toutes les métriques de valorisation [DONNÉES PARTIELLES]
 - Aucune news ni catalyseur immédiat avant earnings août
 - Accounting risk non évalué (agent absent) — qualité comptable non confirmée
-- Anomalie data options : Max Pain $50 (artefact probable), Put/Call et Call OI nulls
 
 **Scénarios :**
 1. **Optimiste (25%)** : Rebond sur support + retour du volume institutionnel → test MM50 ($144) puis consolidation
@@ -181,19 +183,20 @@
 - Surveiller le franchissement de la MM50 ($143.96) avec volume supérieur à la moyenne 20j (> 44M)
 - Préparer `_preview.md` si earnings approchent à ≤ 5 jours (actuellement 76j)
 - Réactiver l'agent accounting dès que possible pour valider le Filtre Qualité 6 critères
-- Vérifier la cohérence des données options post-expiration 2026-05-22
+- Surveiller l'expiration options du 2026-05-22 et la cohérence des données post-expiration
 
 ---
 
-## Validation Analyste Senior — Snapshot 10:00 UTC
+## Validation Analyste Senior — Snapshot 13:00 UTC
 
 **Analyste :** Desk Argus-IA  
-**Timestamp validation :** 2026-05-19 10:00 UTC  
-**Status :** ✅ Confirmé — snapshot stable vs close 2026-05-18.
+**Timestamp validation :** 2026-05-19 13:00 UTC  
+**Status :** ✅ Confirmé — snapshot stable avec correction des anomalies options vs 10:00 UTC.
 
 | Check | Résultat |
 |-------|----------|
-| `data/latest.json` (10:00 UTC) | Cours $135.14, RSI 42.52, ATR 5.80, MM50 143.96 — identique à la clôture 18/05 |
+| `data/latest.json` (13:00 UTC) | Cours $135.14, RSI 42.52, ATR 5.80, MM50 143.96 — identique à la clôture 18/05 |
+| Options (13:00 UTC) | Max Pain $140.00, Put/Call 0.64, Call OI 60.8% — **correction des anomalies du matin** |
 | `data/recommandations_latest.json` | Scores inchangés : C 6.8 / V 4.5 / M 3.5 → Opp 5.1 / Global 42.5 |
 | `data/geo_risk_latest.json` | Score 0, aucun ticker PLTR flaggé |
 | `data/fx_exposure_latest.json` | FX Impact Score 0.0, divergence aligned, pas de headwind |
@@ -205,4 +208,4 @@
 | `data/sector_rotation_latest.json` | XLK top sector (momentum 10.0/10) — vent favorable inchangé |
 | Accounting Risk | `data/accounting_risk_latest.json` absent — risque méthodologique persistant |
 
-**Conclusion validation :** Le snapshot 2026-05-19 10:00 UTC confirme la stabilité des données vs la clôture du 18/05. Aucun nouvel élément de marché, fondamental ou événementiel. La thèse **SURVEILLER** reste inchangée. Le timing d'entrée reste conditionné au franchissement de la MM50 ($143.96) avec volume > 44M. L'anomalie Max Pain $50 est notée comme artefact probable lié à l'expiration options du 2026-05-22.
+**Conclusion validation :** Le snapshot 2026-05-19 13:00 UTC confirme la stabilité des données de marché vs la clôture du 18/05 et corrige les anomalies options du snapshot matinal (Max Pain $50 → $140, Put/Call et Call OI rétablis). La structure options révisée (Put/Call 0.64, Call OI 60.8%) est légèrement plus haussière que la clôture du 18/05. La thèse **SURVEILLER** reste inchangée. Le timing d'entrée reste conditionné au franchissement de la MM50 ($143.96) avec volume > 44M.

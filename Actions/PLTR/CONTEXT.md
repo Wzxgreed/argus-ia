@@ -41,6 +41,9 @@
 - **MM 200j :** —
 - **ATR 14j :** 5.8
 - **Volume moy. 20j :** 44284545
+- **Max Pain options :** 140.00
+- **Put/Call Ratio :** 0.64
+- **Call OI % :** 60.8
 
 ---
 
@@ -49,7 +52,7 @@
 - **Date :** 2026-05-19
 - **Type :** update
 - **Fichier :** `PLTR_2026-05-19_update.md`
-- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-05-19 10:00 UTC) + `data/recommandations_latest.json` + agents sector, FX, watchman, events, social, quant, geo
+- **Conclusion :** Snapshot 13:00 UTC — correction des anomalies options (Max Pain $140, Put/Call 0.64, Call OI 60.8%). Thèse SURVEILLER confirmée. Cours $135.14 stable, RSI 42.52, sous MM50 −6.1%, volume −28%. Pas d'entrée avant franchissement MM50 avec volume > 44M.
 
 ---
 
