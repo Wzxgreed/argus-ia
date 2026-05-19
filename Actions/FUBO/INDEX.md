@@ -17,12 +17,12 @@ Thèse d'investissement : FUBO est un titre spéculatif du secteur Communication
 
 ## Agenda
 - **Earnings Q1 2026 :** 2026-05-19 (JOUR J — résultats en attente de confirmation / publication post-close probable ou retard API)
-- Échéance options : 2026-05-22 (J-2 — max pain $21,00, put/call 0,65, call OI 60,6%)
+- Échéance options : 2026-05-22 (J-2 — max pain $10,00, put/call 0,67, call OI 60,0%)
 - Prochaine échéance earnings Q2 : ~août 2026
 
 ## Alertes actives
 - **ATR_SPIKE** (medium) — ATR relatif 8,5% (seuil 5,0%) — persistant depuis 2026-05-17
-- **Earnings jour J en attente** — résultats Q1 2026 non visibles au snapshot 10:00 UTC 2026-05-19 → vérifier prochaine session
+- **Earnings jour J en attente** — résultats Q1 2026 non visibles au snapshot 13:00 UTC 2026-05-19 → vérifier prochaine session
 - **Divergence Yahoo/FMP Market Cap** — ×11,8 d'écart entre sources
 - **Sector Rotation XLC Bottom 3** — malus sectoriel actif
 - **Options Volatilité Récurrente** — max pain cycle $21→$10→$21→$10 en 27h (artefact corrigé à 13:00 UTC), call OI dominant 60,0% à J-2 échéance 2026-05-22
