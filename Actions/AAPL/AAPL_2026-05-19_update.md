@@ -1,33 +1,31 @@
-# AAPL — Mise à Jour Quotidienne (2026-05-19, snapshot 13:00 UTC)
+# AAPL — Mise à Jour Quotidienne (2026-05-19, snapshot 17:00 UTC)
 
-> **Référence analyse précédente :** [AAPL_2026-05-18_update.md](AAPL_2026-05-18_update.md) (snapshot final 21:23 UTC) | [AAPL_2026-05-19_update.md](AAPL_2026-05-19_update.md) (snapshot 10:00 UTC — données options partielles)
-> **Données source :** `data/2026-05-19.json` (13:00 UTC), `data/recommandations_2026-05-19.json`, `data/sector_rotation_2026-05-19.json`, `data/upcoming_events_2026-05-19.json`, `data/fx_exposure_2026-05-19.json`, `data/social_sentiment_2026-05-19.json`, `data/events_2026-05-19.json`, `data/news_2026-05-19.json`
+> **Référence analyse précédente :** [AAPL_2026-05-19_update.md](AAPL_2026-05-19_update.md) (snapshot 13:00 UTC)
+> **Données source :** `data/2026-05-19.json` (17:00 UTC), `data/recommandations_2026-05-19.json`, `data/sector_rotation_2026-05-19.json`, `data/upcoming_events_2026-05-19.json`, `data/fx_exposure_2026-05-19.json`, `data/social_sentiment_2026-05-19.json`, `data/events_2026-05-19.json`
 > **Validation données :** AAPL OK — 0 warning, 0 error (`validation_report.txt`)
-> **Statut thèse :** 🔶 **SURVEILLER** — surachat extrême persistant (RSI 82.55), pas d'entrée long à $297+
+> **Statut thèse :** 🔶 **SURVEILLER** — surachat extrême persistant (RSI 83.90), pas d'entrée long à $298+
 
 ---
 
-## Résumé des Changements depuis l'Analyse Précédente (2026-05-18)
+## Résumé des Changements depuis l'Analyse Précédente (13:00 UTC)
 
-| Indicateur | 2026-05-18 (final) | 2026-05-19 (13:00 UTC) | Variation | Lecture |
+| Indicateur | 13:00 UTC | 17:00 UTC | Variation | Lecture |
 |---|---|---|---|---|
-| **Cours clôture** | $297.84 | **$297.84** | 0.00% | **Données stables** — clôture séance 18/05 inchangée |
-| **RSI 14j** | 82.55 | **82.55** | 0.00 | Surachat extrème persistant |
-| **ATR 14j** | $6.67 | **$6.67** | 0.00% | Volatilité stable |
-| **MM 50j** | $266.78 | **$266.78** | 0.00% | Support dynamique intact à +10.5% |
-| **Volume** | 34.3M | **34.46M** | +0.5% | **0.71× moyenne 20j** (48.3M) |
-| **P/E (trailing)** | 36.06x | **36.10x** | +0.1% | Multiple stable |
-| **Forward P/E** | 31.07x | **31.07x** | 0.00% | Discount vs trailing stable |
-| **EV/EBITDA** | 27.67x | **27.45x** | −0.8% | Multiple institutionnel stable |
+| **Cours clôture / last** | $297.84 | **$298.55** | +0.24% | Légère hausse intraday ; zone $300 toujours non récupérée |
+| **RSI 14j** | 82.55 | **83.90** | +1.35 | **Surachat extrème s'intensifie** (>80) |
+| **ATR 14j** | $6.67 | **$6.68** | +0.15% | Volatilité stable |
+| **MM 50j** | $266.78 | **$267.56** | +$0.78 | Support dynamique intact à +10.4% |
+| **Volume** | 34.46M | **17.77M** | −48.4% | **Volume intraday partiel** — 0.38× moyenne 20j (46.7M) ; snapshot 17:00 UTC capture seulement 2h30 de séance US |
+| **P/E (trailing)** | 36.10x | **36.19x** | +0.2% | Multiple inchangé en pratique |
+| **Forward P/E** | 31.07x | **31.15x** | +0.3% | Discount vs trailing stable |
+| **EV/EBITDA** | 27.45x | **27.45x** | 0.00% | Multiple institutionnel inchangé |
 | **Short Interest** | 0.92% | **0.92%** | 0.00% | Intérêt baissier quasi inexistant |
-| **FMP Consensus PT** | $293.43 | **$293.43** | 0.00% | 58 analystes ; cours à **+1.5%** vs consensus |
-| **Max Pain** | $305.00* | **$295.00** | −3.3% | **Corrigé** — snapshot 13:00 UTC rétablit une donnée cohérente |
-| **Put/Call Ratio** | 0.61* | **0.32** | −47.5% | **Corrigé** — sentiment haussier renforcé |
-| **Call OI %** | 62.2%* | **75.6%** | +21.5% | **Corrigé** — forte dominance call |
+| **FMP Consensus PT** | $293.43 | **$293.43** | 0.00% | 58 analystes ; cours à **+1.7%** vs consensus |
+| **Max Pain** | $295.00 | **$295.00** | 0.00% | Inchangé |
+| **Put/Call Ratio** | 0.32 | **0.32** | 0.00% | Sentiment haussier stable |
+| **Call OI %** | 75.6% | **75.6%** | 0.00% | Dominance call inchangée |
 
-> *Données du snapshot 10:00 UTC marquées `*` — les champs options étaient partiellement null dans le premier snapshot. Le snapshot 13:00 UTC fournit des données options complètes et cohérentes.
-
-> **Changement majeur :** Aucun changement de cours ou de technique. La seule évolution matérielle est la **correction des données options** : le Max Pain passe de $210 (artefact) à $295 (cohérent avec le cours $297.84), le Put/Call Ratio est rétabli à 0.32 (bullish) et le Call OI à 75.6% (dominance call marquée). Cette structure renforce la lecture d'un marché orienté à la hausse en termes de positioning options, sans pour autant changer la conclusion technique (RSI > 80 = surachat extrême).
+> **Changement majeur :** Aucun changement matériel. Le cours reste dans un range intraday serré autour de $298, le RSI continue de grimper dans la zone >80 (83.90), et le volume affiché est artificiellement faible car le snapshot 17:00 UTC ne capture qu'une fraction de la séance US (ouverture 14:30 UTC). **La structure options reste très call-biased** avec expiration demain (2026-05-20).
 
 ---
 
@@ -37,37 +35,37 @@
 
 | Niveau | Prix | Signification |
 |---|---|---|
-| Résistance 2 | $317.85 | Take-profit technique (3× ATR) |
+| Résistance 2 | $318.59 | Take-profit technique (3× ATR) |
 | Résistance 1 | $303.20 | **Sommet 52 semaines** — break nécessaire pour reprise haussière |
-| Pivot | $297.84 | Cours actuel — zone psychologique $300 non récupérée en clôture |
-| Support 1 | $294.91 | Plus bas de la séance 18/05 (low) |
-| Support 2 | $284.50 | Stop-loss suggéré (cours − 2× ATR) |
+| Pivot | $298.55 | Cours actuel — zone psychologique $300 non récupérée en clôture |
+| Support 1 | $296.35 | Plus bas intraday 19/05 (low) |
+| Support 2 | $285.19 | Stop-loss suggéré (cours − 2× ATR) |
 
-### Intraday — Séance du 2026-05-18 (dernière séance connue)
+### Intraday — Séance du 2026-05-19 (snapshot 17:00 UTC)
 
-Ouverture $300.24 → Sommet $300.66 → Plus bas $294.91 → Clôture $297.84. Rejet au sommet 52 semaines ($303.20 intraday) suivi d'un rebond depuis le low, mais la zone $300 n'a pas été récupérée en clôture. Volume 34.46M (0.71× moyenne 20j) traduit un **manque de conviction acheteuse** à ces niveaux. Le range intraday $5.75 (1.9%) reflète une volatilité modérée mais sans directionnalité claire en clôture.
+Ouverture $296.97 → Sommet $300.51 → Plus bas $296.35 → Dernier $298.55. Le titre a testé brièvement au-dessus de $300 ($300.51) mais est retombé. Volume 17.77M à 17:00 UTC représente une **collecte partielle** (séance US ouverte depuis 2h30 seulement). Le volume complet de la séance 19/05 sera connu au snapshot 20:00+ UTC. En l'état, le range intraday $4.16 (1.4%) reflète une volatilité modérée et une directionnalité limitée autour de $298–$300.
 
-### Options — Données corrigées (snapshot 13:00 UTC)
+### Options — Structure inchangée
 
 | Indicateur | Valeur | Lecture |
 |---|---|---|
-| **Max Pain** | $295.00 | Proche du cours (−$2.84) — pinning possible autour de $295 à l'expiration |
-| **Put/Call Ratio** | 0.32 | Sentiment haussier marqué ; les opérateurs s'exposent majoritairement via des calls |
-| **Call OI %** | 75.6% | **Dominance call très forte** — structure massivement call-biased |
+| **Max Pain** | $295.00 | Proche du cours (−$3.55) — pinning possible autour de $295 à l'expiration |
+| **Put/Call Ratio** | 0.32 | Sentiment haussier marqué |
+| **Call OI %** | 75.6% | **Dominance call très forte** |
 | **Expiration nearest** | 2026-05-20 | Expiration hebdomadaire demain — pinning autour de $295 plausible |
 
-> **Note options :** La correction des données options (vs snapshot 10:00 UTC) révèle une structure bien plus haussière que ne le laissait supposer le snapshot partiel. Le Max Pain $295 est proche du cours actuel ($297.84), ce qui suggère un risque de **pinning gamma call** à l'expiration du 2026-05-20. Le Put/Call 0.32 et le Call OI 75.6% indiquent un consensus options très orienté à la hausse. Cependant, cette configuration est un double tranchant : elle traduit un optimisme déjà largement pricé et limite l'asymétrie haussière immédiate, car le mur gamma call peut capter le prix.
+> **Note options :** Aucune évolution vs snapshot 13:00 UTC. La configuration très call-biased (P/C 0.32, Call OI 75.6%) persiste. Avec le cours à $298.55 et Max Pain $295, le risque de **pinning gamma call** demeure pour l'expiration du 2026-05-20.
 
 ### Sector Rotation — Vent de dos puissant inchangé
 
-`data/sector_rotation_2026-05-19.json` place **XLK (Technology) en #1** avec un momentum score de **10.0/10** (RS 20j vs SPY +8.6%, RS 60j +16.5%). AAPL bénéficie toujours d'un **leadership sectoriel exceptionnel**. Cependant, le RSI > 80 indique que le titre est statistiquement étiré même dans le meilleur secteur du marché.
+`data/sector_rotation_2026-05-19.json` place **XLK (Technology) en #1** avec un momentum score de **10.0/10** (RS 20j vs SPY +7.96%, RS 60j +17.63%). AAPL bénéficie toujours d'un **leadership sectoriel exceptionnel**. Cependant, le RSI > 80 indique que le titre est statistiquement étiré même dans le meilleur secteur du marché.
 
 ### Synthèse Technique
 
 - **Timing verdict :** Défavorable (entrée long à court terme)
-- **Score Momentum :** 5.0/10 (source `recommandations_2026-05-19.json` — rebond sur volume sous-moyen ne confirme pas un regain de momentum)
+- **Score Momentum :** 5.0/10 (source `recommandations_2026-05-19.json`)
 
-> **Note CMT :** Configuration de **surachat extrême** (RSI 82.55 > 80). Le volume 0.71× moyenne est insuffisant pour valider un bottoming. La structure options corrigée (Call OI 75.6%, P/C 0.32, Max Pain $295) renforce la lecture d'un optimisme déjà pricé. Tant que le titre ne clôture pas durablement au-dessus de $303.20 sur volume >1.0× moyenne, le risque de consolidation dans le range $285–$300 domine. Le support MM 50j ($266.78) reste lointain mais intact (+10.5%).
+> **Note CMT :** Configuration de **surachat extrême** (RSI 83.90 > 80). Le volume intraday partiel ne permet pas de valider un momentum. Tant que le titre ne clôture pas durablement au-dessus de $303.20 sur volume >1.0× moyenne, le risque de consolidation dans le range $285–$300 domine. Le support MM 50j ($267.56) reste lointain mais intact (+10.4%).
 
 ---
 
@@ -75,8 +73,8 @@ Ouverture $300.24 → Sommet $300.66 → Plus bas $294.91 → Clôture $297.84. 
 
 ### Données brutes (stables)
 
-- **P/E** 36.10x / **Forward P/E** 31.07x / **EV/EBITDA** 27.45x
-- **Market cap :** $4.37T
+- **P/E** 36.19x / **Forward P/E** 31.15x / **EV/EBITDA** 27.45x
+- **Market cap :** $4.39T
 - **Dividend yield :** 0.36%
 - **Beta :** 1.065
 - **FMP Key Metrics (FY2025) :** ROE 151.9%, ROIC 52.0%, gross margin 46.9%, operating margin 32.0%, net margin 26.9%, net debt/EBITDA 0.53x, working capital négatif −$17.7B (modèle Apple standard)
@@ -90,7 +88,7 @@ Pas de nouvelle information altérant le score qualité. AAPL reste un **Quality
 
 - **DCF fair value** : $220–$240 (inchangée)
 - **Marge de sécurité** : négative ~20–24% au cours actuel
-- **Consensus FMP** : $293.43 (58 analystes) — le cours à $297.84 se négocie **+1.5% au-dessus du consensus moyen**, augmentant le risque de compression multiple.
+- **Consensus FMP** : $293.43 (58 analystes) — le cours à $298.55 se négocie **+1.7% au-dessus du consensus moyen**, augmentant le risque de compression multiple.
 - **Score Valorisation :** 5.0/10 (source `recommandations_2026-05-19.json`)
 
 ---
@@ -138,7 +136,7 @@ Pas de données fraîches dans le snapshot.
 
 ## Scoring Global — Comparaison vs Snapshot Précédent
 
-| Axe | 2026-05-18 | 2026-05-19 | Source | Commentaire |
+| Axe | 13:00 UTC | 17:00 UTC | Source | Commentaire |
 |---|---|---|---|---|
 | **Score Catalyseur** | 5.3/10 | **5.3/10** | `recommandations_2026-05-19.json` | Inchangé — absence de catalyseur frais |
 | **Score Valorisation** | 5.0/10 | **5.0/10** | `recommandations_2026-05-19.json` | Inchangé — Forward P/E 31.1x reste défavorable |
@@ -152,11 +150,11 @@ Pas de données fraîches dans le snapshot.
 
 | Paramètre | Valeur |
 |---|---|
-| Cours actuel | $297.84 |
-| Stop-loss | $284.50 (cours − 2× ATR = 297.84 − 13.34) |
-| Take-profit | $317.85 (cours + 3× ATR = 297.84 + 20.01) |
-| Risque | $13.34 |
-| Rendement | $20.01 |
+| Cours actuel | $298.55 |
+| Stop-loss | $285.19 (cours − 2× ATR = 298.55 − 13.36) |
+| Take-profit | $318.59 (cours + 3× ATR = 298.55 + 20.04) |
+| Risque | $13.36 |
+| Rendement | $20.04 |
 | **Ratio R/R** | **1.5 : 1** |
 
 > **Note Sizing :** Avec un Score Opportunité de 5.1/10 et un timing défavorable (RSI > 80), aucune position nouvelle n'est recommandée. Le ratio R/R de 1.5:1 est inférieur au seuil institutionnel de 2:1 requis pour une exposition longue dans une configuration de surachat extrême.
@@ -167,12 +165,12 @@ Pas de données fraîches dans le snapshot.
 
 ### 🔶 **THÈSE CONFIRMÉE — SURVEILLER**
 
-L'analyse du 2026-05-19 (snapshot 13:00 UTC) **confirme intégralement la thèse** établie le 2026-05-18 :
+L'analyse du 2026-05-19 (snapshot 17:00 UTC) **confirme intégralement la thèse** établie à 13:00 UTC :
 
 1. **Qualité inchangée** — Filtre Qualité 6/6, bilan solide, moat intact. AAPL reste un compounding stock de premier plan.
-2. **Valorisation défavorable** — P/E 36.1x, Forward P/E 31.1x. Cours à +1.5% vs consensus ($293.43). Marge de sécurité négative (~20–24%).
-3. **Technique — surachat extrême persistant** — RSI 82.55 dans la zone >80. Volume 0.71× moyenne insuffisant. Clôture sous $300 maintient le risque de consolidation.
-4. **Options corrigées** — Le snapshot 13:00 UTC fournit des données options fiables : Max Pain $295, P/C 0.32, Call OI 75.6%. Cette structure très call-biased renforce la lecture d'un optimisme déjà pricé et augmente le risque de pinning gamma à l'expiration du 2026-05-20. Elle ne change pas la conclusion mais précise la cartographie du risque.
+2. **Valorisation défavorable** — P/E 36.2x, Forward P/E 31.1x. Cours à +1.7% vs consensus ($293.43). Marge de sécurité négative (~20–24%).
+3. **Technique — surachat extrême s'intensifie** — RSI 83.90 dans la zone >80. Volume intraday partiel (17.77M à 17:00 UTC = 0.38× moyenne) à traiter avec prudence ; le volume complet de la séance 19/05 sera disponible au prochain snapshot final. Clôture sous $300 maintient le risque de consolidation.
+4. **Options stables** — Max Pain $295, P/C 0.32, Call OI 75.6%. Structure très call-biased inchangée. Expiration hebdomadaire demain (2026-05-20) avec risque de pinning gamma.
 5. **Catalyseur absent** — Pas de news majeure, pas d'événement corporate. Prochain catalyseur visible : earnings **2026-07-30** (72 jours), estimations EPS $1.83–$1.99 sur $109.0B de revenus.
 6. **Sector rotation favorable** — XLK #1 momentum 10.0/10 donne un support sectoriel. Le rebond de AAPL s'inscrit dans ce contexte, mais le RSI > 80 indique une extension statistique même dans le meilleur secteur.
 
@@ -186,10 +184,10 @@ L'analyse du 2026-05-19 (snapshot 13:00 UTC) **confirme intégralement la thèse
 
 ### Révisions demandées — Inchangées
 
-- **Stop-loss :** $284.50 (cours − 2×ATR)
-- **Take-profit :** $317.85 (cours + 3×ATR)
+- **Stop-loss :** $285.19 (cours − 2×ATR)
+- **Take-profit :** $318.59 (cours + 3×ATR)
 - **Prix cible fondamental :** $220–$240 (DCF fair value)
-- **Action :** **SURVEILLER** — pas d'entrée long à $297+ avec RSI > 80. Attendre un repli vers $285–$290 ou un break confirmé au-dessus de $303.20 sur volume >1.0× moyenne.
+- **Action :** **SURVEILLER** — pas d'entrée long à $298+ avec RSI > 80. Attendre un repli vers $285–$290 ou un break confirmé au-dessus de $303.20 sur volume >1.0× moyenne.
 
 ---
 
