@@ -1,5 +1,21 @@
 # MITK — Historique des Full Refreshes
 
+## 2026-05-19 — Full Refresh Traité (Snapshot 21:00 UTC)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.87% (seuil 5.0%)
+
+**Conclusion :** CONFIRME — artefact algorithmique. Données entre snapshot 17:00Z et 21:00Z : close $14.115 → $14.15 (+0.25%), RSI 54.84 → 55.17, ATR stable $0.83, volume 364,941 → 848,676 (récupération de liquidité). Aucun changement fondamental, technique structurel, ni catalyseur identifié. L'ATR relatif 5.87% est le niveau de volatilité structurelle de ce small-cap. Thèse SURVEILLER maintenue.
+
+**Fichiers produits :**
+- `Actions/MITK/MITK_2026-05-19_update.md` — Mise à jour post-pipeline 21:00 UTC
+- `Actions/MITK/INDEX.md` — Thèse courante mise à jour
+- `Actions/MITK/CONTEXT.md` — Mémoire court terme mise à jour
+
+**DRAFT archivé :** `_MITK_2026-05-19_DRAFT_refresh.md.archive`
+
+---
+
 ## 2026-05-18 — Full Refresh Traité (Snapshot 22:35 UTC)
 
 **Triggers :**
@@ -31,6 +47,8 @@
 - `Actions/MITK/CONTEXT.md` — Mémoire court terme mise à jour
 
 **DRAFT archivé :** `_DRAFT_refresh.md`
+
+---
 
 ## 2026-05-18 — Full Refresh Triggered
 

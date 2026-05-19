@@ -182,7 +182,17 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 8.71% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** THÈSE CONFIRMÉE. Close officiel $127.31 (–2.94% vs veille), rebond +1.76% fin de séance sur volume actif 1.12×. RSI 76.14 (surachat réintensifié). ATR $11.09 stable. Filtre Qualité 3/6 (hors périmètre). Score Global 29.5/100, Action ÉVITER maintenue. [ANOMALIE DONNÉES] Market Cap Yahoo $73.68 Mds vs FMP $37.02 Mds. Prochain earnings 2026-08-06 (79j). Fichier complété : RKLB_2026-05-19_init.md.
+
+---
+
+## 2026-05-19 — Full Refresh Completed (21:00 UTC)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 8.71% (seuil 5.0%)
+- price_gap (medium) : Gap –7.77% overnight (seuil ±5.0%)
+
+**Conclusion :** THÈSE CONFIRMÉE. DRAFT_refresh complété et archivé (_RKLB_2026-05-19_DRAFT_refresh.md). Close $127.31, RSI 76.14, ATR $11.09, MM50 $81.58. Rebond technique fin de séance sur volume actif sans catalyseur. ÉVITER maintenu. Anomalie Market Cap détectée. Fichiers : RKLB_2026-05-19_init.md + RKLB_2026-05-19_update.md.
 
 ---
 
