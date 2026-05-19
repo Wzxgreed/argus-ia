@@ -1,11 +1,12 @@
 # RKLB
 
 ## Thèse courante
-**2026-05-19 (13:00 UTC)** — ÉVITER. Cours $131,16 (+5,12% vs veille, stable vs close 18/05), configuration surchauffe technique inchangée (RSI 77,99, +62,9% vs MM50) et valorisation déconnectée (Forward P/E négatif –15 394, P/B 41,40×, spot +55,8% vs consensus $84,20). Données stables vs snapshot 18/05 21:23 UTC — aucune session de trading intermédiaire. **Correction données options 13:00 UTC** : Max Pain confirmé $150,00 (éch. 2026-05-22), Put/Call 0,83, Call OI 54,6% — flux neutre, pas d'activité inhabituelle. Anomalie $45,00 du snapshot 10:00 UTC rejetée. Aucun catalyseur avant earnings août 2026. Attendre retour $80–$95 ou inflexion fondamentale. Score global 40,8/100 ajusté 30,8 — ÉVITER maintenu.
+**2026-05-19 (17:00 UTC)** — ÉVITER. Cours $125,105 (–4,62% vs close précédent, première séance réelle du 19 mai), repli technique confirmé sur volume en effondrement (0,79× moyenne 20j). RSI 74,43 — surachat persistant mais refroidissement de 3,6 pts. ATR $11,09 en expansion (+7,9%). Écart MM50j réduit à +53,4% (vs +62,9%). Valorisation déconnectée (Forward P/E –14 684, P/B 39,49×, spot +48,6% vs consensus $84,20). Filtre Qualité 3/6 — hors périmètre institutionnel. Aucune news adossant le mouvement. Options inchangées (Max Pain $150, éch. 22 mai, écart élargi à 16,6%). Score global 38,3/100 ajusté 28,3 — ÉVITER maintenu. Niveaux révisés : SL $102,93 (–17,7%), TP $158,38 (+26,6%), R/R 1,5:1. Support immédiat $115,23 testé et tenu. Attendre retour $80–$95 ou inflexion fondamentale.
 
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
+| 2026-05-19 | [RKLB_2026-05-19_update.md](RKLB_2026-05-19_update.md) | Mise à jour post-pipeline 17:00 UTC — repli –4,62%, RSI refroidissement, volume effondrement, niveaux révisés |
 | 2026-05-19 | [RKLB_2026-05-19_update.md](RKLB_2026-05-19_update.md) | Mise à jour post-pipeline 13:00 UTC — correction données options |
 | 2026-05-19 | [RKLB_2026-05-19_update.md](RKLB_2026-05-19_update.md) | Mise à jour post-pipeline matin (10:00 UTC) — données stables |
 | 2026-05-18 | [RKLB_2026-05-18_update.md](RKLB_2026-05-18_update.md) | Mise à jour post-pipeline finale (21:23 UTC) |
