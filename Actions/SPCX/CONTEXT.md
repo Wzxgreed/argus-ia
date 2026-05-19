@@ -17,11 +17,11 @@
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** —/10
+- **Score global :** 65.2/100
 - **Prix cible :** $22.71
-- **Stop-loss :** $—
-- **Statut thèse :** —
-- **Horizon :** —
+- **Stop-loss :** $21.51
+- **Statut thèse :** Confirmée
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -39,7 +39,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-19** · earnings · Earnings ...
+- Aucun — ETF thématique SPAC, pas de calendrier earnings classique
 
 ---
 
@@ -58,7 +58,7 @@
 - **Date :** 2026-05-19
 - **Type :** update
 - **Fichier :** `SPCX_2026-05-19_update.md`
-- **Conclusion :** **Date :** 2026-05-19
+- **Conclusion :** Thèse confirmée — setup technique micro-haussier stable (cours > MM50, RSI 46, volatilité faible), aucun catalyseur ni news
 
 ---
 
