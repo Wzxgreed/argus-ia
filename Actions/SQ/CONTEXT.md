@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
+- **Recommandation :** ATTENDRE
+- **Score global :** 5.8/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** —
+- **Statut thèse :** Confirmée — données stagnantes, stale price, earnings J=0 non résolu
 - **Horizon :** —
 
 ---
@@ -24,13 +24,15 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🔴 **Quality Gate Exclusion** — stale price 3 jours (2026-05-19)
+- 🔴 **Earnings J=0** — résultats Q1 2026 non intégrés dans le snapshot
+- Aucune alerte de seuil de cours déclenchée
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-05-19** · earnings · Earnings ...
+- **2026-05-19** · earnings · Earnings Q1 2026 (J=0, résultats en attente)
 
 ---
 
@@ -41,6 +43,7 @@
 - **MM 200j :** —
 - **ATR 14j :** —
 - **Volume moy. 20j :** —
+- **Niveau cours :** $83.46 (⚠️ stale 3 jours)
 
 ---
 
@@ -49,7 +52,7 @@
 - **Date :** 2026-05-19
 - **Type :** update
 - **Fichier :** `SQ_2026-05-19_update.md`
-- **Conclusion :** > **Trigger :** Snapshot pipeline post-opening 13:00 UTC
+- **Conclusion :** Snapshot 17:00 UTC confirme stagnation totale. Cours $83.46 inchangé depuis 3 jours. Technical/options vides. Earnings J=0 non résolu. Quality gate exclusion persistante (stale price). Thèse ATTENDRE maintenue. Score Opportunité 5.4/10 (plafonné qualité 3/6). Pas de SL/TP suggérés avant post-earnings + données fiables.
 
 ---
 
