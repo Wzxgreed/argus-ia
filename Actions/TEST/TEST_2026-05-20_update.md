@@ -1,30 +1,30 @@
 # TEST — Mise à Jour Post-Session (2026-05-20)
 
 > **Date :** 2026-05-20
-> **Heure snapshot :** 10:00 UTC
-> **Sources :** `data/latest.json` (fetched_at 2026-05-20T10:00:11 UTC), `data/recommandations_latest.json`
-> **Type :** Mise à jour quotidienne — snapshot 10:00 UTC vs snapshot 21:00 UTC précédent
+> **Heure snapshot :** 13:00 UTC
+> **Sources :** `data/latest.json` (fetched_at 2026-05-20T13:00:02 UTC), `data/recommandations_latest.json`
+> **Type :** Mise à jour quotidienne — snapshot 13:00 UTC vs snapshot 10:00 UTC précédent
 
 ---
 
 ## Résumé des Changements
 
-| Métrique | Snapshot 21:00 UTC (2026-05-19) | Snapshot 10:00 UTC (2026-05-20) | Delta |
+| Métrique | Snapshot 10:00 UTC (2026-05-20) | Snapshot 13:00 UTC (2026-05-20) | Delta |
 |----------|--------------------------------|--------------------------------|-------|
 | Cours close | $44.185 | **$44.185** | **Inchangé** |
-| Previous close | $44.935 | **$44.713** | — |
-| Variation vs previous close | −1.67% | **−1.18%** | **+0.49 pt** |
-| RSI 14j | 56.47 | **57.46** | **+0.99 pt** |
-| ATR 14j | $1.27 | **$1.25** | −$0.02 |
-| MM 50j | $43.54 | **$43.33** | −$0.21 |
-| Volume | 2,448 (1.32×) | **2,500 (1.34×)** | **+52 (+2.1%)** |
-| Position vs MM50 | +1.48% | **+1.85%** | **+0.37 pt** |
+| Previous close | $44.713 | **$44.713** | **Inchangé** |
+| Variation vs previous close | −1.18% | **−1.18%** | — |
+| RSI 14j | 57.46 | **57.46** | — |
+| ATR 14j | $1.25 | **$1.25** | — |
+| MM 50j | $43.33 | **$43.33** | — |
+| Volume | 2,500 (1.34×) | **2,500 (1.34×)** | — |
+| Position vs MM50 | +1.85% | **+1.85%** | — |
 | Score Opportunité (agent) | 6.0/10 | **6.0/10** | Inchangé |
 | Score Global (agent) | 65.2/100 | **65.2/100** | Inchangé |
 | Verdict agent reco | ACHETER (Réduit) | **ACHETER (Réduit)** | Confirmé |
 | Timing | Favorable | **Favorable** | Confirmé |
 
-**Observation clé :** Le cours a ouvert à $43.57, creusé un low à $43.16 (−2.3% vs close), puis rebondi pour clôturer à $44.185 — inchangé en valeur absolue par rapport au snapshot 21:00 UTC précédent. Le RSI a continué de monter (+0.99 pt) vers 57.46, renforçant la zone neutre favorable. La MM50 a reculé de $43.54 à $43.33, ce qui élargit la marge au-dessus de la moyenne mobile (+1.85% vs +1.48%). Le volume reste au-dessus de la moyenne 20j (1.34×), confirmant un intérêt acheteur soutenu malgré la liquidité structurellement faible. Aucune nouvelle donnée fondamentale ou comptable n'est injectée dans le snapshot.
+**Observation clé :** Aucune variation de prix, de volume ni d'indicateur technique entre les snapshots 10:00 UTC et 13:00 UTC. Le cours reste figé à $44.185 avec un RSI stable à 57.46. Cette immobilité est cohérente avec la liquidité structurellement faible du titre (volume moyen 20j < 2K). Aucune nouvelle donnée fondamentale, comptable ni corporate n'est injectée dans le snapshot 13:00 UTC. L'événement earnings (source FMP, `days_until: 0`) reste non observable.
 
 ---
 
@@ -33,20 +33,20 @@
 - **Cours :** $44.185 (open $43.57 / high $44.245 / low $43.16 / previous close $44.713)
 - **Variation session :** −1.18% vs previous close
 - **Range intraday :** $43.16–$44.245 (2.46%)
-- **RSI 14j :** 57.46 — zone neutre favorable, progression continue depuis 53.18 (snapshot 17:00 UTC 2026-05-19)
-- **ATR 14j :** $1.25 — légère contraction de $0.02, volatilité stable
-- **MM 50j :** $43.33 — recul de $0.21, cours désormais +1.85% au-dessus
+- **RSI 14j :** 57.46 — zone neutre favorable, inchangé depuis le snapshot 10:00 UTC
+- **ATR 14j :** $1.25 — volatilité stable, pas de contraction ni d'expansion
+- **MM 50j :** $43.33 — cours maintenu à +1.85% au-dessus
 - **MM 200j :** N/A
-- **Volume relatif :** 1.34× moyenne 20j (2,500 vs 1,860) — soutien acheteur confirmé pour le 2e snapshot consécutif
+- **Volume relatif :** 1.34× moyenne 20j (2,500 vs 1,860) — soutien acheteur confirmé, stable
 - **52W range :** [$40.27, $57.74] — positionnement dans le bas de la fourchette, +9.6% du 52W low
 
-**Verdict timing :** Favorable. Le cours a testé le support gap ($43.395) sans le casser en clôture (low $43.16, close $44.185). La configuration en marteau inversé se confirme sur un 2e snapshot : ouverture basse, creusement de plus bas intraday, puis rebond pour clôturer proche du high. Le RSI progresse doucement vers 60 sans signal de surachat. La MM50 recule mais le cours s'en éloigne positivement, ce qui renforce le signal de court terme.
+**Verdict timing :** Favorable. La configuration technique reste intacte : cours au-dessus de la MM50, RSI dans la zone neutre favorable proche de 60, volume au-dessus de la moyenne. Le non-mouvement entre 10h et 13h UTC n'invalide pas le setup ; il confirme la consolidation autour de $44.18 après le rebond du matin (low $43.16). La configuration en marteau inversé du snapshot matinal se maintient.
 
 ---
 
 ## Mise à Jour Fondamentale
 
-Aucune donnée fondamentale nouvelle dans le snapshot 10:00 UTC :
+Aucune donnée fondamentale nouvelle dans le snapshot 13:00 UTC :
 - **Filtre Qualité (6 critères) :** 0/6 — 🔴 Hors périmètre (inchangé)
 - **Sector / Industry :** null / null — TAM et comps indisponibles
 - **P/E, Forward P/E, EV/EBITDA, P/B, Beta, Dividend Yield :** [DONNÉES MANQUANTES]
@@ -54,7 +54,7 @@ Aucune donnée fondamentale nouvelle dans le snapshot 10:00 UTC :
 - **Agent Accounting :** rapport `data/accounting_risk_latest.json` inexistant
 - **Validation données :** TEST non listé dans les [ERROR] ni [WARNING] du rapport de validation (22/25 OK)
 
-**Earnings JOUR J (2026-05-20) :** `data/upcoming_events_latest.json` flague un earnings pour TEST avec `days_until: 0`. Aucun résultat post-earnings n'est injecté dans `latest.json` à 10:00 UTC. L'événement earnings (source FMP) reste non observable. Le mouvement intraday (−1.18% vs previous close) est purement technique / microstructurel sur faible liquidité.
+**Earnings JOUR J (2026-05-20) :** `data/upcoming_events_latest.json` flague un earnings pour TEST avec `days_until: 0`. Aucun résultat post-earnings n'est injecté dans `latest.json` à 13:00 UTC. L'événement earnings (source FMP) reste non observable. Le mouvement intraday (−1.18% vs previous close) est purement technique / microstructurel sur faible liquidité.
 
 ---
 
@@ -94,24 +94,24 @@ Aucun flux institutionnel, insider trade ou unusual options activity rapporté. 
 | Bonus / Timing | +5.2 | Cours au-dessus MM50 + volume > moyenne + timing Favorable |
 | **Score Global ajusté** | **65.2/100** | **ACHETER (Réduit)** |
 
-**Proximité des seuils :** À 65.2/100, TEST reste dans la zone ACHETER réduit (60–74). Aucun changement de score depuis le snapshot 21:00 UTC. Le Score Opportunité à 6.0/10 franchit le seuil d'entrée minimal. Le momentum à 7.0/10 reste le pilier haussier du scoring.
+**Proximité des seuils :** À 65.2/100, TEST reste dans la zone ACHETER réduit (60–74). Aucun changement de score depuis le snapshot 10:00 UTC. Le Score Opportunité à 6.0/10 franchit le seuil d'entrée minimal. Le momentum à 7.0/10 reste le pilier haussier du scoring.
 
 ---
 
 ## Niveaux et Ratio R/R
 
-Niveaux recalculés sur le snapshot 10:00 UTC (cours $44.19, ATR $1.25) :
+Niveaux recalculés sur le snapshot 13:00 UTC (cours $44.19, ATR $1.25) :
 
 | Niveau | Valeur | Note |
 |--------|--------|------|
-| Cours actuel | $44.19 | Snapshot 10:00 UTC |
+| Cours actuel | $44.19 | Snapshot 13:00 UTC |
 | Stop-loss suggéré (2×ATR) | **$41.69** | −5.75% sous le cours |
 | Take-profit suggéré (3×ATR) | **$47.94** | +8.50% au-dessus du cours |
 | Ratio R/R | **1.5** | Standard agent |
 
 **Niveaux techniques clés :**
-- **Support MM50 :** $43.33 (−1.95%) — support dynamique, marge élargie par rapport à hier
-- **Support gap / low 19/05 :** $43.395 (−1.80%) — low de 17:00 UTC 2026-05-19, non cassé en clôture (low $43.16, close $44.185)
+- **Support MM50 :** $43.33 (−1.95%) — support dynamique, inchangé
+- **Support gap / low 19/05 :** $43.395 (−1.80%) — non cassé en clôture
 - **Support intraday :** $43.16 (−2.30%) — low du jour, à surveiller si cassé en clôture
 - **Résistance previous close :** $44.713 (+1.19%) — combler le gap-down matinal
 - **Résistance 52W high :** $57.74 (+30.66%)
@@ -123,13 +123,13 @@ Niveaux recalculés sur le snapshot 10:00 UTC (cours $44.19, ATR $1.25) :
 
 ## Conclusion
 
-**Verdict : ACHETER (Réduit) — Thèse CONFIRMÉE. Aucun changement de fond par rapport au snapshot 21:00 UTC 2026-05-19.**
+**Verdict : ACHETER (Réduit) — Thèse CONFIRMÉE. Aucun changement entre les snapshots 10:00 UTC et 13:00 UTC 2026-05-20.**
 
-Le snapshot 10:00 UTC 2026-05-20 révèle une stabilité technique autour de $44.19 avec des améliorations sous-jacentes :
-- **Cours inchangé** en clôture ($44.185) mais avec un range intraday de 2.46% — le titre a digéré la baisse du matin et rebondi
-- **RSI progresse** de 56.47 à 57.46 — momentum haussier intact, pas de surachat
-- **MM50 recule** à $43.33 mais le cours s'en éloigne positivement (+1.85%) — élargissement du buffer technique
-- **Volume soutenu** à 2,500 (1.34× moyenne 20j) — 2e snapshot consécutif au-dessus de la moyenne, signal d'intérêt acheteur
+Le snapshot 13:00 UTC confirme la stabilité technique autour de $44.19 établie au snapshot 10:00 UTC :
+- **Cours inchangé** à $44.185 — consolidation sans repli
+- **RSI stable** à 57.46 — momentum haussier intact, pas de surachat
+- **MM50 stable** à $43.33 — cours maintenu à +1.85% au-dessus
+- **Volume stable** à 2,500 (1.34× moyenne 20j) — soutien acheteur confirmé
 
 **Trois facteurs de prudence inchangés :**
 1. **Filtre Qualité 0/6** — aucun critère qualité vérifiable
@@ -142,10 +142,10 @@ Le snapshot 10:00 UTC 2026-05-20 révèle une stabilité technique autour de $44
 - **Seuil d'invalidation :** Retour sous $43.33 (MM50) ou cassure de $43.16 (low intraday) en clôture → revenir SURVEILLER
 - **Sizing :** Réduit (max 5% du capital) en raison de la liquidité limitée et de l'absence de fondamentaux
 
-**Earnings JOUR J** : Les résultats restent non observables à 10:00 UTC. Sur publication post-marché, générer immédiatement un `_earnings.md` flash si les données FMP/Yahoo sont injectées.
+**Earnings JOUR J** : Les résultats restent non observables à 13:00 UTC. Sur publication post-marché, générer immédiatement un `_earnings.md` flash si les données FMP/Yahoo sont injectées.
 
 **Niveau de confiance :** Faible — l'analyse repose sur des proxies et des valeurs par défaut. La volatilité sur faible liquidité amplifie le risque de faux signaux. Le rebond technique est validé mais fragile. Aucun catalyseur fondamental n'est visible.
 
 ---
 
-*Généré automatiquement par le pipeline Argus-IA — snapshot 10:00 UTC. Données : `data/latest.json`, `data/recommandations_latest.json`, `data/validation_report.txt`.*
+*Généré automatiquement par le pipeline Argus-IA — snapshot 13:00 UTC. Données : `data/latest.json`, `data/recommandations_latest.json`, `data/validation_report.txt`.*
