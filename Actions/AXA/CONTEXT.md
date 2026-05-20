@@ -11,7 +11,7 @@
 
 AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **aucune donnée de prix n'est disponible** dans le pipeline Argus-IA car le symbole "AXA" n'est pas reconnu par yfinance (instrument non coté US). L'analyse technique et fondamentale est impossible.
 
-**Contexte sectoriel (snapshot 21h00 UTC) :** Le secteur Financials (XLF) sous-performe le S&P 500 de −6.51% sur 20j et −6.57% sur 60j, avec un momentum score de 0.0/10. Le secteur affiche un return 20j de −2.29% (vs −1.52% à 17h00) et un return 60j de +1.25% (vs +2.05% à 17h00). La pression relative s'est légèrement accentuée en fin de séance. Si les données AXA étaient disponibles, ce headwind sectoriel persistant et en légère dégradation pèserait sur le score Momentum et le timing d'entrée.
+**Contexte sectoriel (snapshot 10h00 UTC) :** Le secteur Financials (XLF) sous-performe le S&P 500 de −6.51% sur 20j et −6.57% sur 60j, avec un momentum score de 0.0/10. Le secteur affiche un return 20j de −2.29% et un return 60j de +1.25%. Les métriques sectorielles sont stables vs le snapshot 21h00 UTC d'hier. Le secteur financier reste en phase de distribution relative vs le marché. Si les données AXA étaient disponibles, ce headwind sectoriel persistant pèserait sur le score Momentum et le timing d'entrée.
 
 **Action immédiate :** corriger le symbole dans `config/watchlist.json` (`CS.PA` ou `AXAHY`), mettre à jour le secteur (Financials / Insurance) et relancer le fetch.
 
@@ -40,7 +40,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 
 ## 📅 Prochains événements
 
-- **2026-05-20** · earnings · Earnings ...
+- **2026-05-20** · earnings · Earnings J0 — non suivi (données manquantes)
 
 ---
 
@@ -57,9 +57,9 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-20
-- **Type :** preview
-- **Fichier :** `AXA_2026-05-20_preview.md`
-- **Conclusion :** > **Date :** 2026-05-20
+- **Type :** update
+- **Fichier :** `AXA_2026-05-20_update.md`
+- **Conclusion :** Données manquantes persistantes ; earnings J0 (2026-05-20) non résolus ; headwind sectoriel XLF stable. Recommandation ATTENDRE confirmée. Action immédiate : corriger le symbole dans config/watchlist.json.
 
 ---
 
