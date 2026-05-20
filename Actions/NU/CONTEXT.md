@@ -16,10 +16,10 @@
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** invalide
+- **Score global :** 66.0/100 (ajusté 63.0)
+- **Prix cible :** $18.56
+- **Stop-loss :** $11.39
+- **Statut thèse :** confirmée
 - **Horizon :** 1–3 mois
 
 ---
@@ -32,13 +32,15 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- **Anomalie data quality options** (20/05) : max pain $5.00 aberrant — référence $17.50 (19/05). Pas d'impact sur le scoring.
+- **Social sentiment EXTREME_BEARISH** (20/05) : artefact d'absence de données (0 mentions). Pas de malus appliqué.
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q2 2026 :** 13 août 2026 (85 jours, Est EPS $0.20–$0.27, Rev $5.4B)
+- **Expiration options :** 2026-05-22 (2 jours, max pain référence $17.50)
 
 ---
 
@@ -49,15 +51,19 @@
 - **MM 200j :** —
 - **ATR 14j :** 0.45
 - **Volume moy. 20j :** 46935745
+- **Cours close :** 12.29
+- **52W low :** 11.71
+- **52W high :** 18.98
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-19
+- **Date :** 2026-05-20
 - **Type :** update
-- **Fichier :** `NU_2026-05-19_update.md`
+- **Fichier :** `NU_2026-05-20_update.md`
 - **Conclusion :** **Thèse : CONFIRMÉE — ACHETER (Réduit)**
+- **Points clés :** Données stables vs 19/05 (cours $12.29 flat, RSI 26.29, volume 50.5M 1.08×). Anomalie options max pain $5.00 aberrant (à ignorer). Aucune news structurante. Fondamentaux inchangés.
 
 ---
 
