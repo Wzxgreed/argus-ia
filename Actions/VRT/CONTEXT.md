@@ -1,4 +1,4 @@
-# CONTEXT — VRT — Dernière mise à jour : 2026-05-19
+# CONTEXT — VRT — Dernière mise à jour : 2026-05-20
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -17,13 +17,11 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Snapshot pipeline 21:00 UTC** — Correction −5.03% en séance, volume explosion 1.43×, distribution institutionnelle confirmée
-- **Support $330.72 rompu** — Low intraday $314.34 testé et tenu
-- **Score global :** 45.0/100
-- **Prix cible :** $380–$400
-- **Stop-loss :** $283.07
-- **Statut thèse :** SURVEILLER
-- **Horizon :** 1–3 mois
+- **Score global :** —/10
+- **Prix cible :** $380
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -43,8 +41,7 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 
 ## 📅 Prochains événements
 
-- **2026-05-22** — Expiration options (max pain $215) — risque volatilité
-- **2026-07-29** — Earnings Q2 FY2026 — Est EPS $1.39–$1.59, Rev ~$3.4B
+- Aucun événement à venir.
 
 ---
 
@@ -54,16 +51,16 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 - **MM 50j :** 299.76
 - **MM 200j :** —
 - **ATR 14j :** 19.78
-- **Volume moy. 20j :** 6001582
+- **Volume moy. 20j :** 6022340
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-19
-- **Type :** update
-- **Fichier :** `VRT_2026-05-19_update.md`
-- **Conclusion :** THÈSE CONFIRMÉE — correction s'accélère (−13.0% cumul depuis 17 mai) sur volume élevé (1.43×), fondamentaux intacts. Score Opportunité 4.0/10. SURVEILLER. Pas de position sans consolidation au-dessus de $330.
+- **Date :** 2026-05-20
+- **Type :** full refresh
+- **Fichier :** `VRT_2026-05-20_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-20
 
 ---
 

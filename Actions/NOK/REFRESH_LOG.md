@@ -165,3 +165,25 @@ Snapshot 2026-05-19 17:00 UTC. Cours $13.635 (−0.76 % vs clôture précédente
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-05-20 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.88% (seuil 5.0%)
+
+**Conclusion :** CONFIRMÉ — Faux positif technique archivé
+
+Snapshot 2026-05-20 10:00 UTC. Cours $13.67 (stable vs close 19/05), RSI 58.34, ATR $0.94 (6.88 %), volume 0.65×. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positif : volatilité relative reflète uniquement le range intraday ($13.09–$13.99) sur liquidité réduite, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $9.26 stable à +47.6 %. Score Opportunité 4.5/10. Action ATTENDRE confirmée. ⚠️ Options data dégradée dans snapshot 20/05 (max pain $2.00 aberrant, put/call et call OI null) — référence 19/05 conservée. DRAFT_refresh archivé.
+
+---
+
+## 2026-05-20 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.88% (seuil 5.0%)
+
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 20/05 10:00 UTC
+
+DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusions identiques au snapshot précédent.
+
+---

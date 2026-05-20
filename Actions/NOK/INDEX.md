@@ -18,6 +18,7 @@
 | 2026-05-18 | Update (22:34 UTC) | [NOK_2026-05-18_update.md](./NOK_2026-05-18_update.md) | Snapshot 22:34 UTC. Données strictement inchangées vs 21:00 UTC (close $13.74, RSI 64.63, ATR $0.97, volume 0.70×). Trigger ATR_SPIKE archivé comme faux positit technique. DRAFT_refresh successifs archivés. Thèse SURVEILLER confirmée. |
 | 2026-05-19 | Update (10:00 UTC) | [NOK_2026-05-19_update.md](./NOK_2026-05-19_update.md) | Snapshot 19/05 10:00 UTC. Données strictement inchangées vs 18/05 22:34 UTC (close $13.74, RSI 64.63, ATR $0.97, volume 0.73×). Trigger ATR_SPIKE archivé comme faux positif technique récurrent. DRAFT_refresh du 19/05 archivé. Thèse SURVEILLER confirmée. |
 | 2026-05-19 | Update (17:00 UTC) | [NOK_2026-05-19_update.md](./NOK_2026-05-19_update.md) | Snapshot 19/05 17:00 UTC. Cours $13.635 (−0.76%). RSI 58.06 (↓6.6), ATR $0.92. Volume 0.43×. Options data clean (put/call 0.43, max pain $13.0, call OI 70.1%). Score Opportunité 4.5/10. Action ATTENDRE. DRAFT_refresh archivé. |
+| 2026-05-20 | Update (10:00 UTC) | [NOK_2026-05-20_update.md](./NOK_2026-05-20_update.md) | Snapshot 20/05 10:00 UTC. Cours stable $13.67 (−0.51% vs previous close). RSI 58.34, ATR $0.94. Volume 0.65×. ⚠️ Options data dégradée (max pain $2.00 aberrant, put/call et call OI null). Score Opportunité 4.5/10 inchangé. Action ATTENDRE confirmée. |
 
 ---
 
@@ -27,9 +28,9 @@
 **Prix cible :** $9.26 (consensus 6 analystes)
 **Stop-loss :** $11.79 (cours − 2×ATR)
 **Upside/Downside :** −32.1% / −13.5%
-**Dernière mise à jour :** 2026-05-19 17:00 UTC
+**Dernière mise à jour :** 2026-05-20 10:00 UTC
 
-Leader 5G mature, massivement surévalué vs consensus ADR (P/E 85.2, cours $13.635 vs consensus $9.26 = +47.2%). Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25, current ratio 1.58) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%, net margin 3.3%). Divergence structurelle Yahoo/FMP sur les multiples (P/E FMP 45.8, EV/EBITDA 13.1 vs Yahoo 85.2/29.3) liée au titre Helsinki vs ADR NYSE — ne change pas le verdict consensus. Dividende 1.19%. RSI 58.1 zone neutre favorable. Volume très réduit 0.43× moyenne 20j. ATR 6.75%. Value trap technique. Pas d'entrée.
+Leader 5G mature, massivement surévalué vs consensus ADR (P/E 85.4, cours $13.67 vs consensus $9.26 = +47.6%). Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25, current ratio 1.58) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%, net margin 3.3%). Divergence structurelle Yahoo/FMP sur les multiples (P/E FMP 45.8, EV/EBITDA 13.1 vs Yahoo 85.4/29.2) liée au titre Helsinki vs ADR NYSE — ne change pas le verdict consensus. Dividende 1.20%. RSI 58.34 zone neutre favorable. Volume très réduit 0.65× moyenne 20j. ATR 6.88%. ⚠️ Options data dégradée dans snapshot 20/05 (max pain $2.00 aberrant) — référence 19/05 conservée. Value trap technique. Pas d'entrée.
 
 **✅ Données complètes** — Cours, RSI, ATR, P/E, consensus, options disponibles dans `data/latest.json`.
 

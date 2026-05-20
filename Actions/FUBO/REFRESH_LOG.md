@@ -197,3 +197,21 @@
 **Conclusion :** Thèse CONFIRMÉE (ATTENDRE). Snapshot final 21:00 UTC confirme stabilité du close à $9.20 (−1.92% session) avec volume corrigé à 945 778 (0.63× moyenne 20j). RSI 32.26 proche survente, sous MM50 $11.79, ATR $0.78. Divergence Yahoo/FMP persistante ($270.8M vs ~$3.27B). Score Qualité 1/6 (patrimoine net négatif, ROIC −2.1%). Options stables : max pain $10.00, put/call 0.67, call OI 60.0%. XLC bottom 3 sectoriel. Résultats Q1 2026 attendus le 2026-05-19 mais non visibles au snapshot final — publication post-close probable ou retard API. DRAFT_refresh.md complété et archivé (`_DRAFT_refresh.md`). Analyse initiale réécrite sous `FUBO_2026-05-19_init.md`. Pas de position longue recommandée.
 
 ---
+
+## 2026-05-20 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 8.48% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-20 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 8.48% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

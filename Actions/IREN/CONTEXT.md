@@ -1,4 +1,4 @@
-# CONTEXT — IREN — Dernière mise à jour : 2026-05-19
+# CONTEXT — IREN — Dernière mise à jour : 2026-05-20
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER — Sizing Réduit
-- **Score global :** 67.0/100
-- **Prix cible :** $65.86 (consensus FMP, 21 analysts)
-- **Stop-loss :** $36.50
-- **Statut thèse :** modifiée sous pression
-- **Horizon :** 1–3 mois
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
+- **Horizon :** —
 
 ---
 
@@ -35,7 +35,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-19** · earnings · Earnings ...
+- **2026-05-20** · earnings · Earnings ...
 
 ---
 
@@ -45,16 +45,16 @@
 - **MM 50j :** 45.17
 - **MM 200j :** —
 - **ATR 14j :** 5.62
-- **Volume moy. 20j :** 52861921
+- **Volume moy. 20j :** 52911610
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-19
-- **Type :** update
-- **Fichier :** `IREN_2026-05-19_update.md`
-- **Conclusion :** **Thèse : MODIFIÉE SOUS PRESSION — Cassure support immédiat, volume en fin de session actif (69% moy 20j), maintien au-dessus MM50, earnings J0 toujours en attente**
+- **Date :** 2026-05-20
+- **Type :** preview
+- **Fichier :** `IREN_2026-05-20_preview.md`
+- **Conclusion :** > **Date :** 2026-05-20
 
 ---
 

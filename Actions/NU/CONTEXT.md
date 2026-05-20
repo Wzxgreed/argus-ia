@@ -1,4 +1,4 @@
-# CONTEXT — NU — Dernière mise à jour : 2026-05-19
+# CONTEXT — NU — Dernière mise à jour : 2026-05-20
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -48,16 +48,16 @@
 - **MM 50j :** 14.21
 - **MM 200j :** —
 - **ATR 14j :** 0.45
-- **Volume moy. 20j :** 46935739
+- **Volume moy. 20j :** 46935745
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-19
-- **Type :** update (snapshot 21:00 UTC, final)
+- **Type :** update
 - **Fichier :** `NU_2026-05-19_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ACHETER (Réduit)** — clôture flat $12.29, volume réel normalisé 50.5M (1.08×), RSI stable 26.29, SL révisé $11.39, score ajusté 63.0
+- **Conclusion :** **Thèse : CONFIRMÉE — ACHETER (Réduit)**
 
 ---
 

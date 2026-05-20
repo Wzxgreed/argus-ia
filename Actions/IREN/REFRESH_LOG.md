@@ -195,3 +195,23 @@ Revue manuelle post-pipeline : les donnees brutes (cours $52.94, RSI 54.61, ATR 
 **Conclusion :** confirm — données légèrement révisées vs snapshot 17:00 UTC (cours $47.74 vs $48.405, volume 36.45M vs 22.64M). Le volume en fin de session est plus actif (69% du moyen 20j) suggérant une distribution réelle sous $48.50. Aucun nouveau flux post-earnings intégré. Score Opportunité légèrement révisé à 6.2/10 (−0.1 pt), Score Global ajusté 67.0/100 (−1.3 pt). Thèse modifiée sous pression confirmée. DRAFT_refresh archivé.
 
 ---
+
+## 2026-05-20 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -5.39% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 11.77% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-20 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -5.39% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 11.77% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

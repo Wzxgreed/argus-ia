@@ -1,11 +1,11 @@
-# CONTEXT — CYTOMX — Derniere mise a jour : 2026-05-19 21:00 UTC
+# CONTEXT — CYTOMX — Dernière mise à jour : 2026-05-20
 
-> Ce fichier est la **memoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
-> Mise a jour automatique par `agents/update_context/agent.py` a chaque passage du pipeline.
+> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
+> Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
 
 ---
 
-## These active
+## 🎯 Thèse active
 
 - **Recommandation :** ATTENDRE
 **Score global :** 55.2/100
@@ -22,30 +22,30 @@
 - **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut these :** —
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
 
-## Erreurs de prediction recentes
+## 📉 Erreurs de prédiction récentes
 
-- Aucune erreur enregistree.
+- Aucune erreur enregistrée.
 
 ---
 
-## Alertes actives
+## 🚨 Alertes actives
 
 - Aucune alerte active.
 
 ---
 
-## Prochains evenements
+## 📅 Prochains événements
 
-- **2026-05-19** · earnings · Earnings ...
+- **2026-05-20** · earnings · Earnings ...
 
 ---
 
-## Contexte technique (dernier snapshot)
+## 📊 Contexte technique (dernier snapshot)
 
 - **RSI 14j :** —
 - **MM 50j :** —
@@ -55,19 +55,19 @@
 
 ---
 
-## Resume derniere analyse
+## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-19
-- **Type :** update
-- **Fichier :** `CYTOMX_2026-05-19_update.md`
-- **Conclusion :** Donnees manquantes confirmees sur tous les snapshots du jour (10:00 UTC, 13:59 UTC, 21:00 UTC). Earnings J=0 non resolu. These non etablie.
-
----
-
-## Triggers detectes (full refresh)
-
-- Aucun trigger recent.
+- **Date :** 2026-05-20
+- **Type :** preview
+- **Fichier :** `CYTOMX_2026-05-20_preview.md`
+- **Conclusion :** > **Date :** 2026-05-20
 
 ---
 
-*Genere automatiquement — ne pas editer manuellement.*
+## 🔄 Triggers détectés (full refresh)
+
+- Aucun trigger récent.
+
+---
+
+*Généré automatiquement — ne pas éditer manuellement.*

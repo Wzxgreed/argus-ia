@@ -1,4 +1,4 @@
-# CONTEXT — AAL — Dernière mise à jour : 2026-05-19
+# CONTEXT — AAL — Dernière mise à jour : 2026-05-20
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -21,11 +21,11 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 66.1/100 (Ajusté 71.1/100)
+- **Score global :** —/10
 - **Prix cible :** $13.47
 - **Stop-loss :** $11.12
-- **Statut thèse :** Confirmée avec vigilance
-- **Horizon :** 1-3 mois
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -37,17 +37,15 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 
 ## 🚨 Alertes actives
 
-- Baisse — $11.12 (SL 2×ATR) — 🟢 Active
-- Hausse — $14.00 (prix cible révisé) — 🟢 Active
-- Volume — >2× moy. 20j (>104M) — 🟢 Active
-- **Nouveau :** Volume élevé sur baisse — Surveiller demain pour confirmation shakeout vs distribution
+- Baisse — $11.41 (SL 2×ATR) — 🟢 Active
+- Hausse — $14.00 (prix cible) — 🟢 Active
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- 2026-05-22 : Expiration options (Max Pain $9.50) — risque gamma
-- 2026-07-23 : Earnings Q2 FY2026 — Est EPS -$0.34 à $0.17, Rev $16.6B
+- Aucun événement à venir.
 
 ---
 
@@ -57,10 +55,7 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 - **MM 50j :** 11.56
 - **MM 200j :** —
 - **ATR 14j :** 0.47
-- **Volume moy. 20j :** 51890200
-- **Volume session :** 67146318 (+29.4%)
-- **Cours close :** 12.06
-- **Change vs previous close :** -2.43%
+- **Volume moy. 20j :** 51905305
 
 ---
 
@@ -69,7 +64,7 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 - **Date :** 2026-05-19
 - **Type :** update
 - **Fichier :** `AAL_2026-05-19_update.md`
-- **Conclusion :** Repli −2.43% à $12.06 sur volume +29.4%. Thèse confirmée avec vigilance. Cours au-dessus MM50 ($11.56), options stables (put/call 2.67, call OI 27.2%). Consensus PT $16.02 inchangé (+32.8% upside). SL $11.12 / TP $13.47. Surveiller $11.80 et volume demain pour distinction shakeout vs distribution. Divergence P/E Yahoo 38.90 vs FMP 91.22 à vérifier.
+- **Conclusion :** **Date :** 2026-05-19 (snapshot 21:00 UTC, post-close)
 
 ---
 

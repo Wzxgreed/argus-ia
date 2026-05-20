@@ -211,3 +211,21 @@
 **Conclusion :** Traité dans `FLY_2026-05-19_update.md` (21:00 UTC) — thèse ATTENDRE confirmée, DRAFT_refresh archivé.
 
 ---
+
+## 2026-05-20 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10.64% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-20 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10.64% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
