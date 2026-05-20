@@ -14,7 +14,8 @@
 
 | Fichier | Date | Type | Verdict |
 |---------|------|------|---------|
-| [NU_2026-05-20_update.md](NU_2026-05-20_update.md) | 2026-05-20 | Update quotidienne (snapshot 10:00 UTC) | ACHETER (Réduit) — thèse confirmée, données stables vs 19/05, anomalie options max pain $5.00 aberrant (à ignorer), RSI 26.29, SL $11.39, score ajusté 63.0 |
+| [NU_2026-05-20_update.md](NU_2026-05-20_update.md) | 2026-05-20 | Update quotidienne (snapshot 13:00 UTC) | ACHETER (Réduit) — thèse confirmée, données stables vs snapshot 10:00 UTC, anomalie options RÉSOLUE (max pain $17.50, put/call 0.43, call OI 69.8%), RSI 26.29, SL $11.39, score ajusté 63.0 |
+| [NU_2026-05-20_update.md](NU_2026-05-20_update.md) | 2026-05-20 | Update quotidienne (snapshot 10:00 UTC, archive dans le même fichier) | ACHETER (Réduit) — thèse confirmée, données stables vs 19/05, anomalie options max pain $5.00 aberrant (à ignorer), RSI 26.29, SL $11.39, score ajusté 63.0 |
 | [NU_2026-05-19_update.md](NU_2026-05-19_update.md) | 2026-05-19 | Update quotidienne (snapshot 21:00 UTC, final) | ACHETER (Réduit) — thèse confirmée, clôture flat $12.29, volume réel normalisé 50.5M (1.08×), RSI 26.29, SL révisé $11.39, score ajusté 63.0 |
 | [NU_2026-05-19_update.md](NU_2026-05-19_update.md) | 2026-05-19 | Update quotidienne (snapshot 17:00 UTC, obsolète) | ACHETER (Réduit) — thèse confirmée, léger répit technique (RSI 26.88, volume partiel 23.3M/0.51×), SL $11.42, score ajusté 63.0 |
 | [NU_2026-05-19_update.md](NU_2026-05-19_update.md) | 2026-05-19 | Update quotidienne (post-pipeline 10:00 UTC, archive dans le même fichier) | ACHETER (Réduit) — thèse confirmée, données stables, [DONNÉES PARTIELLES] options dégradées |
@@ -32,10 +33,10 @@ Voir [REFRESH_LOG.md](REFRESH_LOG.md) pour l'historique des déclencheurs.
 ## 📅 Agenda
 
 - **Earnings Q2 2026 :** 13 août 2026 (Est EPS $0.20–$0.27, Rev $5.4B)
-- **Expiration Options :** 2026-05-22 (2 jours, max pain référence $17.50 — anomalie data quality $5.00 sur snapshot 20/05 à ignorer)
+- **Expiration Options :** 2026-05-22 (2 jours, max pain $17.50 — anomalie data quality résolue sur snapshot 20/05 13:00 UTC)
 
 ## 📝 Résumé de la Thèse
 
-NU est le leader néo-banque latino-américain (Brésil/Mexique/Colombie) avec 100M+ clients, des marges opérationnelles solides (24.4%), un bilan net cash (net debt/EBITDA −2.47×), et une valorisation forward attractive (P/E 10.6×). Le score global ajusté reste à 63.0 (snapshot 20/05 10:00 UTC), dans la zone d'achat réduit. Le RSI stable à 26.29 reste en survente marquée. Les données du 20/05 sont quasi inchangées vs 19/05 : cours $12.29 (flat), volume 50.5M (1.08× moyenne 20j), fondamentaux inchangés. L'anomalie principale du snapshot 20/05 concerne les données options (max pain $5.00 aberrant, put/call et call OI passés à null) — identifiée comme erreur data quality, les valeurs de référence restent le max pain $17.50, put/call 0.40, call OI 71.5% du 19/05. Le cours reste sous MM50 (−13.5%). La recommandation reste ACHETER (Réduit) pour les profils tolérants au risque, avec un sizing réduit et un stop-loss strict à $11.39.
+NU est le leader néo-banque latino-américain (Brésil/Mexique/Colombie) avec 100M+ clients, des marges opérationnelles solides (24.4%), un bilan net cash (net debt/EBITDA −2.47×), et une valorisation forward attractive (P/E 10.6×). Le score global ajusté reste à 63.0 (snapshot 20/05 13:00 UTC), dans la zone d'achat réduit. Le RSI stable à 26.29 reste en survente marquée. Les données du snapshot 13:00 UTC sont quasi inchangées vs snapshot 10:00 UTC : cours $12.29 (flat), volume 50.48M (1.08× moyenne 20j), fondamentaux inchangés. L'anomalie options du snapshot 10:00 UTC (max pain $5.00 aberrant, put/call et call OI passés à null) est **RÉSOLUE** sur le snapshot 13:00 UTC : max pain rétabli à $17.50, put/call 0.43, call OI 69.8%. Le cours reste sous MM50 (−13.5%). La recommandation reste ACHETER (Réduit) pour les profils tolérants au risque, avec un sizing réduit et un stop-loss strict à $11.39.
 
-**Snapshot 20/05 10:00 UTC** — cours $12.29 (flat), RSI 26.29, volume 50.5M (1.08× moyenne), options anomalie data quality (max pain $5.00 aberrant — référence $17.50), aucune news structurante.
+**Snapshot 20/05 13:00 UTC** — cours $12.29 (flat), RSI 26.29, volume 50.48M (1.08× moyenne), options anomalie RÉSOLUE (max pain $17.50, call OI 69.8%), aucune news structurante.

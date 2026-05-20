@@ -16,10 +16,10 @@
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
+- **Score global :** 66.0/100 (ajusté 63.0)
+- **Prix cible :** $18.56
+- **Stop-loss :** $11.39
+- **Statut thèse :** CONFIRMÉE — ACHETER (Réduit)
 - **Horizon :** 1–3 mois
 
 ---
@@ -38,26 +38,31 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q2 2026 :** 13 août 2026 (Est EPS $0.20–$0.27, Rev $5.4B) — 85 jours
+- **Expiration options :** 2026-05-22 (2 jours, max pain $17.50, call OI 69.8%)
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
+- **Cours :** $12.29 (flat)
 - **RSI 14j :** 26.29
 - **MM 50j :** 14.21
 - **MM 200j :** —
 - **ATR 14j :** 0.45
-- **Volume moy. 20j :** 46935745
+- **Volume moy. 20j :** 46,935,745
+- **Volume session :** 50,485,300 (1.08×)
+- **52W low/high :** $11.71 / $18.98
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-20
+- **Date :** 2026-05-20 (snapshot 13:00 UTC)
 - **Type :** update
 - **Fichier :** `NU_2026-05-20_update.md`
 - **Conclusion :** **Thèse : CONFIRMÉE — ACHETER (Réduit)**
+- **Changement majeur :** Anomalie options RÉSOLUE (max pain $17.50, put/call 0.43, call OI 69.8%). Données cours/volumes/RSI/fondamentaux/scores strictement inchangés vs snapshot 10:00 UTC.
 
 ---
 
