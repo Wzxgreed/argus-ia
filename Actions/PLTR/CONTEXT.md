@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
-- **Horizon :** —
+- **Recommandation :** SURVEILLER
+- **Score global :** 46.3/100
+- **Prix cible :** $187.61 (consensus 33 analysts)
+- **Stop-loss :** $124.02
+- **Statut thèse :** Confirmée
+- **Horizon :** Earnings Q2 FY2026 (2026-08-03)
 
 ---
 
@@ -24,23 +24,29 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- Aucune alerte seuil déclenchée.
+- Warning : `data/accounting_risk_latest.json` absent — Filtre Qualité non alimenté.
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings Q2 FY2026 : 2026-08-03 (75 jours)
+- Expiration options : 2026-05-22 (2 jours)
 
 ---
 
-## 📊 Contexte technique (dernier snapshot)
+## 📊 Contexte technique (dernier snapshot 13:00 UTC)
 
 - **RSI 14j :** 46.36
 - **MM 50j :** 143.54
 - **MM 200j :** —
 - **ATR 14j :** 5.62
 - **Volume moy. 20j :** 43534430
+- **Volume jour :** 29701300
+- **Max Pain :** 140.00
+- **Put/Call :** 0.61
+- **Call OI % :** 62.2
 
 ---
 
@@ -49,7 +55,7 @@
 - **Date :** 2026-05-20
 - **Type :** update
 - **Fichier :** `PLTR_2026-05-20_update.md`
-- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-05-20 10:00 UTC) + `data/recommandations_latest.json` + agents sector, FX, watchman, events, social, quant, geo
+- **Conclusion :** Snapshot 13:00 UTC 2026-05-20 — Anomalie options résolue (Max Pain $140.00, Put/Call 0.61, Call OI 62.2%), données techniques inchangées (cours $135.26, RSI 46.36, ATR 5.62), thèse SURVEILLER confirmée.
 
 ---
 

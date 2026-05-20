@@ -1,35 +1,31 @@
-# AAPL — Mise à Jour Quotidienne (2026-05-20, snapshot 10:00 UTC)
+# AAPL — Mise à Jour Quotidienne (2026-05-20, snapshot 13:00 UTC)
 
-> **Référence analyse précédente :** [AAPL_2026-05-19_update.md](AAPL_2026-05-19_update.md) (snapshot final 21:00 UTC) | [AAPL_2026-05-18_update.md](AAPL_2026-05-18_update.md)
-> **Données source :** `data/2026-05-20.json` (10:00 UTC), `data/recommandations_2026-05-20.json`, `data/sector_rotation_2026-05-20.json`, `data/upcoming_events_2026-05-20.json`, `data/fx_exposure_2026-05-20.json`, `data/social_sentiment_2026-05-20.json`, `data/events_2026-05-20.json`, `data/geo_2026-05-20.json`
+> **Référence analyse précédente :** [AAPL_2026-05-20_update.md](AAPL_2026-05-20_update.md) (snapshot matinal 10:00 UTC) | [AAPL_2026-05-19_update.md](AAPL_2026-05-19_update.md)
+> **Données source :** `data/2026-05-20.json` (13:00 UTC), `data/recommandations_2026-05-20.json`, `data/sector_rotation_2026-05-20.json`, `data/upcoming_events_2026-05-20.json`, `data/fx_exposure_2026-05-20.json`, `data/social_sentiment_2026-05-20.json`, `data/events_2026-05-20.json`, `data/geo_2026-05-20.json`
 > **Validation données :** AAPL OK — 0 warning, 0 error
 > **Statut thèse :** 🔶 **SURVEILLER** — surachat extrême persistant (RSI 84.06), pas d'entrée long à $299+
 
 ---
 
-## Résumé des Changements depuis l'Analyse Précédente
+## Résumé des Changements depuis le Snapshot Matinal (10:00 UTC → 13:00 UTC)
 
-### Séance 2026-05-19 → 2026-05-20 (snapshot matinal 10:00 UTC)
+Le snapshot 13:00 UTC confirme l'intégralité des données de clôture du 19/05 (close $298.97, RSI 84.06, ATR 6.68) et apporte la **correction de l'anomalie data quality** sur le bloc options observée à 10:00 UTC.
 
-> **Note méthodologique :** Le snapshot `data/latest.json` porte le timestamp 2026-05-20T10:00:11 UTC mais répète intégralement les données de clôture du 19/05 (close $298.97, RSI 84.06, ATR 6.68). Les données de la séance du 20/05 ne sont pas encore capturées. L'analyse ci-dessous repose sur les chiffres disponibles dans le snapshot matinal.
+| Indicateur | 10:00 UTC | 13:00 UTC | Lecture |
+|---|---|---|---|
+| **Cours clôture** | $298.97 | **$298.97** | Inchangé — clôture du 19/05 répétée |
+| **RSI 14j** | 84.06 | **84.06** | Surachat extrême persistant |
+| **ATR 14j** | $6.68 | **$6.68** | Stable |
+| **Volume** | 42.19M | **42.20M** | 0.88× moyenne 20j (47.89M) — légèrement sous-moyen |
+| **Max Pain** | $210.00 🔴 | **$297.50** | Anomalie résolue — valeur cohérente avec le cours |
+| **Put/Call Ratio** | null | **0.36** | Données restaurées |
+| **Call OI %** | null | **73.7%** | Données restaurées — structure légèrement moins call-biased que hier (75.6%) |
+| **P/E (trailing)** | 36.24x | **36.24x** | Inchangé |
+| **Forward P/E** | 31.19x | **31.19x** | Inchangé |
+| **EV/EBITDA** | 27.55x | **27.55x** | Inchangé |
+| **FMP Consensus PT** | $293.43 | **$293.43** | 58 analystes — cours à **+1.9%** vs consensus |
 
-| Indicateur | 19/05 final | 20/05 10:00 UTC | Variation | Lecture |
-|---|---|---|---|---|
-| **Cours clôture / last** | $298.97 | **$298.97** | 0.00% | Données inchangées — clôture du 19/05 répétée |
-| **RSI 14j** | 84.06 | **84.06** | 0.00 | **Surachat extrême persistant** (>80) |
-| **ATR 14j** | $6.68 | **$6.68** | 0.00% | Volatilité stable |
-| **MM 50j** | $267.57 | **$267.57** | $0.00 | Support dynamique intact à +10.4% |
-| **Volume** | 34.84M | **42.19M** | +21.1% | ⚠️ Chiffre du snapshot matinal probablement agrégé différemment (pré/after-market inclus) — **non comparable directement** |
-| **P/E (trailing)** | 36.24x | **36.24x** | 0.00% | Multiple inchangé |
-| **Forward P/E** | 31.19x | **31.19x** | 0.00% | Discount vs trailing stable |
-| **EV/EBITDA** | 27.45x | **27.55x** | +0.10x | Légère variation résiduelle, non significative |
-| **Short Interest** | 0.92% | **0.92%** | 0.00% | Intérêt baissier quasi inexistant |
-| **FMP Consensus PT** | $293.43 | **$293.43** | 0.00% | 58 analystes ; cours à **+1.9%** vs consensus |
-| **Max Pain** | $295.00 | **$210.00** | — | 🔴 **Anomalie data quality** — valeur aberrante, probablement liée au changement de chaîne options post-expiration hebdomadaire du 2026-05-20 |
-| **Put/Call Ratio** | 0.32 | **null** | — | Données options manquantes dans le snapshot matinal |
-| **Call OI %** | 75.6% | **null** | — | Données options manquantes dans le snapshot matinal |
-
-> **Changement majeur :** **Aucun changement matériel.** Le snapshot matinal du 2026-05-20 ne contient pas de nouvelles données de séance. Les scores agents sont strictement identiques à ceux du 19/05. La seule anomalie notable concerne le bloc options (max pain $210.00, P/C et Call OI absents), probablement due à la rotation de la chaîne d'options hebdomadaire expiree ce jour (2026-05-20).
+> **Changement majeur :** **Correction de l'anomalie options.** Le Max Pain passe de $210.00 (aberrant, rollover chaîne hebdomadaire) à $297.50, cohérent avec le cours $298.97. Le Put/Call ratio (0.36) et le Call OI (73.7%) sont restaurés, confirmant une structure options call-biased mais légèrement moins extrême qu'hier (P/C 0.32, Call OI 75.6%).
 
 ---
 
@@ -45,16 +41,16 @@
 | Support 1 | $296.35 | Plus bas intraday 19/05 (low) |
 | Support 2 | $285.61 | Stop-loss suggéré (cours − 2× ATR) |
 
-### Options — Anomalie data quality
+### Options — Anomalie Résolue
 
 | Indicateur | Valeur | Lecture |
 |---|---|---|
-| **Max Pain** | $210.00 | 🔴 Valeur aberrante — incompatible avec le cours $298.97. Lié probablement au rollover de la chaîne options hebdomadaire expiree le 2026-05-20. |
-| **Put/Call Ratio** | null | Données manquantes dans le snapshot |
-| **Call OI %** | null | Données manquantes dans le snapshot |
-| **Expiration nearest** | 2026-05-20 | Expiration hebdomadaire du jour — pinning autour de l'ancien max pain ($295) reste plausible pour la séance du 19/05 |
+| **Max Pain** | $297.50 | ✅ Valeur restaurée et cohérente avec le cours $298.97. Le cours clôture à +0.5% du max pain, suggérant un pinning gamma modéré autour de cette strike pour l'expiration hebdomadaire du 2026-05-20. |
+| **Put/Call Ratio** | 0.36 | Structure call-biased confirmée. Légèrement moins extrême que le 19/05 (0.32), traduisant un léger ressort des puts post-rollover. |
+| **Call OI %** | 73.7% | Dominance des calls intacte mais en légère décrue vs 75.6% hier. Reste un signal d'optimisme retail/institutionnel élevé. |
+| **Expiration nearest** | 2026-05-20 | Expiration hebdomadaire du jour — pinning autour de $297.50 probable pour la séance du 20/05. |
 
-> **Note options :** Le snapshot matinal ne fournit pas de données options exploitables. La structure très call-biased observée hier (P/C 0.32, Call OI 75.6%, Max Pain $295) reste la référence jusqu'à ce que les données de la nouvelle chaîne soient disponibles. L'expiration hebdomadaire du 2026-05-20 a pu générer un pinning autour de $295 en séance du 19/05.
+> **Note options :** La restauration des données options confirme le profil de risque asymétrique : un call wall élevé + max pain sous le cours = risque de consolidation gamma si le titre ne parvient pas à break $303.20 sur volume.
 
 ### Sector Rotation — Vent de dos puissant inchangé
 
@@ -109,7 +105,7 @@ Pas de données fraîches dans le snapshot.
 
 ### Social Sentiment — Pas de données exploitables
 
-`data/social_sentiment_2026-05-20.json` retourne 0 posts collectés pour l'ensemble de la watchlist (collecte Reddit inactive). L'alerte `EXTREME_BEARISH` générée par l'agent est un artefact lié à l'absence de données — **à ignorer**. Pas de signal retail exploitable.
+`data/social_sentiment_2026-05-20.json` retourne 0 posts collectés pour AAPL (collecte Reddit inactive). L'alerte `EXTREME_BEARISH` générée par l'agent est un artefact lié à l'absence de données — **à ignorer**. Pas de signal retail exploitable.
 
 ---
 
@@ -140,15 +136,15 @@ Pas de données fraîches dans le snapshot.
 
 ## Scoring Global — Comparaison vs Snapshot Précédent
 
-| Axe | 19/05 final | 20/05 10:00 UTC | Source | Commentaire |
-|---|---|---|---|---|
-| **Score Catalyseur** | 5.3/10 | **5.3/10** | `recommandations_2026-05-20.json` | Inchangé — absence de catalyseur frais |
-| **Score Valorisation** | 5.0/10 | **5.0/10** | `recommandations_2026-05-20.json` | Inchangé — Forward P/E 31.2x reste défavorable |
-| **Score Momentum** | 5.0/10 | **5.0/10** | `recommandations_2026-05-20.json` | Inchangé — rebond sur volume sous-moyen ne confirme pas |
-| **Score Opportunité** | 5.1/10 | **5.1/10** | `recommandations_2026-05-20.json` | Pondération régime : C 35% / V 40% / M 25% |
-| **Score Global** | 51.0/100 | **51.0/100** | `recommandations_2026-05-20.json` | Ajusté à **41.0** après malus technique |
-| **Timing** | Défavorable | **Défavorable** | `recommandations_2026-05-20.json` | Confirmé — RSI > 80 |
-| **Action recommandée** | SURVEILLER | **SURVEILLER** | `recommandations_2026-05-20.json` | Confirmé |
+| Axe | 19/05 final | 20/05 10:00 UTC | 20/05 13:00 UTC | Source | Commentaire |
+|---|---|---|---|---|---|
+| **Score Catalyseur** | 5.3/10 | 5.3/10 | **5.3/10** | `recommandations_2026-05-20.json` | Inchangé — absence de catalyseur frais |
+| **Score Valorisation** | 5.0/10 | 5.0/10 | **5.0/10** | `recommandations_2026-05-20.json` | Inchangé — Forward P/E 31.2x reste défavorable |
+| **Score Momentum** | 5.0/10 | 5.0/10 | **5.0/10** | `recommandations_2026-05-20.json` | Inchangé — rebond sur volume sous-moyen ne confirme pas |
+| **Score Opportunité** | 5.1/10 | 5.1/10 | **5.1/10** | `recommandations_2026-05-20.json` | Pondération régime : C 35% / V 40% / M 25% |
+| **Score Global** | 51.0/100 | 51.0/100 | **51.0/100** | `recommandations_2026-05-20.json` | Ajusté à **41.0** après malus technique |
+| **Timing** | Défavorable | Défavorable | **Défavorable** | `recommandations_2026-05-20.json` | Confirmé — RSI > 80 |
+| **Action recommandée** | SURVEILLER | SURVEILLER | **SURVEILLER** | `recommandations_2026-05-20.json` | Confirmé |
 
 ### Niveaux et Ratio R/R (inchangés — ATR stable)
 
@@ -169,12 +165,12 @@ Pas de données fraîches dans le snapshot.
 
 ### 🔶 **THÈSE CONFIRMÉE — SURVEILLER**
 
-L'analyse du 2026-05-20 (snapshot matinal 10:00 UTC) **confirme intégralement la thèse** établie aux snapshots précédents :
+Le snapshot 13:00 UTC du 2026-05-20 **confirme intégralement la thèse** établie aux snapshots précédents, avec la résolution de l'anomalie options :
 
 1. **Qualité inchangée** — Filtre Qualité 6/6, bilan solide, moat intact. AAPL reste un compounding stock de premier plan.
 2. **Valorisation défavorable** — P/E 36.2x, Forward P/E 31.2x. Cours à +1.9% vs consensus ($293.43). Marge de sécurité négative (~20–24%).
-3. **Technique — surachat extrème persistant** — RSI 84.06 dans la zone >80. Aucune donnée de séance du 20/05 n'est encore disponible pour confirmer une évolution.
-4. **Options — données manquantes** — Anomalie data quality sur le max pain ($210.00 aberrant) et absence de P/C ratio / Call OI. La structure observée hier (très call-biased) reste la référence jusqu'à nouvelles données.
+3. **Technique — surachat extrême persistant** — RSI 84.06 dans la zone >80. Aucune donnée de séance du 20/05 n'est encore disponible pour confirmer une évolution.
+4. **Options — anomalie résolue** — Max Pain restauré à $297.50 (cohérent), P/C 0.36, Call OI 73.7%. La structure reste call-biased mais légèrement moins extrême qu'hier, suggérant un léger ressort des puts post-rollover de la chaîne hebdomadaire.
 5. **Catalyseur absent** — Pas de news majeure, pas d'événement corporate. Prochain catalyseur visible : earnings **2026-07-30** (71 jours), estimations EPS $1.83–$1.99 sur $109.0B de revenus.
 6. **Sector rotation favorable** — XLK #1 momentum 10.0/10 donne un support sectoriel. Le rebond de AAPL s'inscrit dans ce contexte, mais le RSI > 80 indique une extension statistique même dans le meilleur secteur.
 
