@@ -235,7 +235,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.64% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Traitee dans `FLY_2026-05-20_update.md` (13:00 UTC) — these ATTENDRE confirmee. Anomalie options RESOLUE entre 10:00 UTC et 13:00 UTC (max pain $15.00 → $65.00, put/call et call OI restaures). Donnees inchangees par ailleurs. DRAFT_refresh archive.
 
 ---
 
@@ -244,6 +244,6 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.64% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Traitee dans l'entree precedente. Donnees inchangees.
 
 ---

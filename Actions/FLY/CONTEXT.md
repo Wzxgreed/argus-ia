@@ -1,24 +1,24 @@
-# CONTEXT — FLY — Dernière mise à jour : 2026-05-20
+# CONTEXT — FLY — Derniere mise a jour : 2026-05-20
 
-> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
-> Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
+> Ce fichier est la **memoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
+> Mise a jour automatique par `agents/update_context/agent.py` a chaque passage du pipeline.
 
 ---
 
-## 🎯 Thèse active
+## 🎯 These active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
+- **Recommandation :** ATTENDRE
+- **Score global :** 50.5/100 (55.5 ajuste)
+- **Prix cible :** —
+- **Stop-loss :** $33.51
+- **Statut these :** Confirmee — consolidation technique stable, anomalie options resolue
 - **Horizon :** —
 
 ---
 
-## 📉 Erreurs de prédiction récentes
+## 📉 Erreurs de prediction recentes
 
-- Aucune erreur enregistrée.
+- Aucune erreur enregistree.
 
 ---
 
@@ -28,9 +28,10 @@
 
 ---
 
-## 📅 Prochains événements
+## 📅 Prochains evenements
 
-- Aucun événement à venir.
+- Earnings Q2 2026 : **2026-08-04** (76 jours)
+- Expiration options : **2026-05-22** (2 jours)
 
 ---
 
@@ -41,22 +42,26 @@
 - **MM 200j :** —
 - **ATR 14j :** 4.53
 - **Volume moy. 20j :** 6290460
+- **Cours close :** 42.57
+- **Change % :** -3.14%
+- **52W High/Low :** $73.80 / $16.00
 
 ---
 
-## 📝 Résumé dernière analyse
+## 📝 Resume derniere analyse
 
 - **Date :** 2026-05-20
-- **Type :** full refresh
-- **Fichier :** `_FLY_2026-05-20_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-05-20
+- **Type :** update + full refresh (DRAFT traite)
+- **Fichier :** `FLY_2026-05-20_update.md`
+- **Conclusion :** These ATTENDRE confirmee. Cours stable $42.57. Anomalie options RESOLUE entre 10:00 UTC et 13:00 UTC (max pain $15.00 → $65.00, put/call et call OI restaures). Fondamentaux inchanges et defavorables (Filtre Qualite 2/6). Headwind sectoriel XLI persistant. Aucune position recommandee.
 
 ---
 
-## 🔄 Triggers détectés (full refresh)
+## 🔄 Triggers detectes (full refresh)
 
 - **ATR_SPIKE** (medium) — ATR relatif 10.64% (seuil 5.0%)
+- Traite et archive — pas de modification de these.
 
 ---
 
-*Généré automatiquement — ne pas éditer manuellement.*
+*Genere automatiquement — ne pas editer manuellement.*
