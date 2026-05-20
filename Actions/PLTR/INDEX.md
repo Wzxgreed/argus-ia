@@ -9,6 +9,7 @@
 | 2026-05-17 | [PLTR_2026-05-17_init.md](PLTR_2026-05-17_init.md) | Analyse initiale | SURVEILLER — Score Opp. 3.0/10 |
 | 2026-05-18 | [PLTR_2026-05-18_update.md](PLTR_2026-05-18_update.md) | Mise à jour post-pipeline (consolidée) | SURVEILLER — Score Opp. 5.1/10, RSI 42.52, volume 31.76M, thèse confirmée |
 | 2026-05-19 | [PLTR_2026-05-19_update.md](PLTR_2026-05-19_update.md) | Mise à jour snapshot 21:00 UTC (close finale) | SURVEILLER — Score Opp. 5.4/10, cours $135.26, RSI 46.36, volume 29.65M, rebond fin de session, thèse confirmée |
+| 2026-05-20 | [PLTR_2026-05-20_update.md](PLTR_2026-05-20_update.md) | Mise à jour snapshot 10:00 UTC (pré-ouverture) | SURVEILLER — Score Opp. 5.4/10, cours $135.26, RSI 46.36, volume 29.70M, données inchangées, alerte data quality options (Max Pain aberrant $50), thèse confirmée |
 
 ## Agenda
 - **Prochain earnings :** 2026-08-03 (Q2 FY2026, Est. EPS $0.32–$0.40, Rev $1.8B)
