@@ -1,5 +1,14 @@
 # FUBO — Historique des Full Refreshes
 
+## 2026-05-20 — Full Refresh Résolu (Snapshot 13:00 UTC)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 8.48% (seuil 5.0%)
+
+**Conclusion :** Thèse CONFIRMÉE (ATTENDRE). Snapshot 13:00 UTC confirme stabilité du close à $9.20 (−1.92% session) avec volume à 1 035 600 (0.69× moyenne 20j). RSI 32.26 inchangé proche survente, sous MM50 $11.79, ATR $0.78. Divergence Yahoo/FMP persistante ($270.8M vs ~$3.27B). Score Qualité 1/6 (patrimoine net négatif, ROIC −2.1%). **Anomalie options RÉSOLUE** : max pain brut API revenu de $21.00 à $10.00 (cohérent avec historique), probablement lié à un artefact temporaire de l'API Yahoo sur l'échéance proche (J−2). Put/call corrigé à 0.59, call OI 62.9% (+2.3 pp). XLC bottom 3 sectoriel. Résultats Q1 2026 attendus le 2026-05-20 (JOUR J) mais non visibles au snapshot 13:00 UTC — publication post-close probable ou retard API. DRAFT_refresh.md complété et archivé (`FUBO_2026-05-20_DRAFT_refresh.md` → `_DRAFT_refresh.md`). Analyse initiale réécrite sous `FUBO_2026-05-20_init.md`. Pas de position longue recommandée.
+
+---
+
 ## 2026-05-20 — Full Refresh Résolu (Snapshot 10:00 UTC)
 
 **Triggers :**
