@@ -217,7 +217,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.64% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Traitée dans `FLY_2026-05-20_update.md` (10:00 UTC) — thèse ATTENDRE confirmée, DRAFT_refresh archivé. Données options anormales (max pain $15, OI manquants) liées à l'expiration 22/05 (2 jours) — traitées comme artefact. Aucun changement matériel de thèse.
 
 ---
 
@@ -226,6 +226,6 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.64% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Traitée dans l'entrée précédente. Données inchangées.
 
 ---
