@@ -11,19 +11,19 @@
 **Prix cible :** $9.26 (consensus 6 analystes)
 **Stop-loss :** $11.79 (cours − 2×ATR)
 **Upside/Downside :** −32.1% / −13.5%
-**Dernière mise à jour :** 2026-05-20 10:00 UTC
+**Dernière mise à jour :** 2026-05-20 13:00 UTC
 
-Leader 5G mature, massivement surévalué vs consensus ADR (P/E 85.4, cours $13.67 vs consensus $9.26 = +47.6%). Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25, current ratio 1.58) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%, net margin 3.3%). Divergence structurelle Yahoo/FMP sur les multiples (P/E FMP 45.8, EV/EBITDA 13.1 vs Yahoo 85.4/29.2) liée au titre Helsinki vs ADR NYSE — ne change pas le verdict consensus. Dividende 1.20%. RSI 58.34 zone neutre favorable. Volume très réduit 0.65× moyenne 20j. ATR 6.88%. ⚠️ Options data dégradée dans snapshot 20/05 (max pain $2.00 aberrant) — référence 19/05 conservée. Value trap technique. Pas d'entrée.
+Leader 5G mature, massivement surévalué vs consensus ADR (P/E 85.4, cours $13.67 vs consensus $9.26 = +47.6%). Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25, current ratio 1.58) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%, net margin 3.3%). Divergence structurelle Yahoo/FMP sur les multiples (P/E FMP 45.8, EV/EBITDA 13.1 vs Yahoo 85.4/29.2) liée au titre Helsinki vs ADR NYSE — ne change pas le verdict consensus. Dividende 1.20%. RSI 58.34 zone neutre favorable. Volume très réduit 0.65× moyenne 20j. ATR 6.88%. ✅ Options data corrigée snapshot 13:00 UTC (max pain $14.50 vs cours $13.67, put/call 0.35, call OI 73.8%). Value trap technique. Pas d'entrée.
 
 **✅ Données complètes** — Cours, RSI, ATR, P/E, consensus, options disponibles dans `data/latest.json`.
 
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 45.5/100
+- **Score global :** —/10
 - **Prix cible :** $9.26
 - **Stop-loss :** $11.79
-- **Statut thèse :** ATTENDRE confirmée
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -55,17 +55,15 @@ Leader 5G mature, massivement surévalué vs consensus ADR (P/E 85.4, cours $13.
 - **MM 200j :** —
 - **ATR 14j :** 0.94
 - **Volume moy. 20j :** 126028120
-- **Score Opportunité :** 4.5/10
-- **Score Global Ajusté :** 50.5
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-20
-- **Type :** update
-- **Fichier :** `NOK_2026-05-20_update.md`
-- **Conclusion :** Thèse ATTENDRE confirmée. Données quasi inchangées (cours $13.67, RSI 58.34, ATR $0.94). ⚠️ Options data dégradée dans snapshot 20/05 (max pain $2.00 aberrant, put/call et call OI null) — référence 19/05 conservée. Headwind sectoriel XLC persistant (bottom 3 sector rotation).
+- **Type :** full refresh
+- **Fichier :** `NOK_2026-05-20_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-20
 
 ---
 

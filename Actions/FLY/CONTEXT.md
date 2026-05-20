@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 50.5/100 (55.5 ajusté)
-- **Prix cible :** $42.45 (consensus 11 analysts)
-- **Stop-loss :** $33.51
-- **Statut thèse :** confirmée — consolidation technique stable
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -47,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-20
-- **Type :** update
-- **Fichier :** `FLY_2026-05-20_update.md`
-- **Conclusion :** Thèse ATTENDRE confirmée — cours stable $42.57, données options anormales (max pain $15, OI manquants) liées à l'expiration 22/05. Aucune position recommandée.
+- **Type :** full refresh
+- **Fichier :** `_FLY_2026-05-20_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-20
 
 ---
 

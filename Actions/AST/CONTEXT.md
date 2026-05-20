@@ -30,7 +30,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-20** · earnings · Earnings (FMP, J=0, résultats non intégrés)
+- **2026-05-20** · earnings · Earnings ...
 
 ---
 
@@ -47,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-20
-- **Type :** update
-- **Fichier :** `AST_2026-05-20_update.md`
-- **Conclusion :** DONNÉES MANQUANTES confirmées — 8ᵉ snapshot consécutif sans cours (`No price history`). Scores placeholders inchangés (55.2/100, ATTENDRE). Doublon probable avec ASTS ($88.10, RSI 63.39). Recommandation : supprimer AST de la watchlist ou marquer `excluded`.
+- **Type :** preview
+- **Fichier :** `AST_2026-05-20_preview.md`
+- **Conclusion :** > **Date :** 2026-05-20
 
 ---
 

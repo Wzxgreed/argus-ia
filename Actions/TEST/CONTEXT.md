@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER (Réduit)
-- **Score global :** 65.2/100
-- **Prix cible :** $47.94
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
 - **Stop-loss :** $41.69
-- **Statut thèse :** Confirmée — rebond technique au-dessus de la MM50 maintenu
-- **Horizon :** 1–3 mois
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -30,7 +30,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-20** · earnings · Earnings JOUR J — résultats non observables à 10:00 UTC
+- **2026-05-20** · earnings · Earnings ...
 
 ---
 
@@ -41,17 +41,15 @@
 - **MM 200j :** —
 - **ATR 14j :** 1.25
 - **Volume moy. 20j :** 1860
-- **Volume actuel :** 2500 (1.34× moyenne)
-- **Position vs MM50 :** +1.85%
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-20
-- **Type :** update
-- **Fichier :** `TEST_2026-05-20_update.md`
-- **Conclusion :** Cours inchangé à $44.185 vs snapshot précédent. RSI monte à 57.46, MM50 recule à $43.33 mais cours s'en éloigne positivement (+1.85%). Volume soutenu à 2,500 (1.34× moyenne). Verdict ACHETER (Réduit) confirmé (Score Global 65.2/100). Timing Favorable. Earnings JOUR J 2026-05-20 — résultats toujours non observables.
+- **Type :** preview
+- **Fichier :** `TEST_2026-05-20_preview.md`
+- **Conclusion :** > **Date :** 2026-05-20
 
 ---
 

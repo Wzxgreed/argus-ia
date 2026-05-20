@@ -187,3 +187,21 @@ Snapshot 2026-05-20 10:00 UTC. Cours $13.67 (stable vs close 19/05), RSI 58.34, 
 DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusions identiques au snapshot précédent.
 
 ---
+
+## 2026-05-20 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.88% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-20 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.88% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

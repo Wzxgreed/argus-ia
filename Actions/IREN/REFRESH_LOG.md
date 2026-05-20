@@ -215,3 +215,23 @@ Revue manuelle post-pipeline : les donnees brutes (cours $52.94, RSI 54.61, ATR 
 **Conclusion :** confirm — duplicata de session, données inchangées vs snapshot précédent. DRAFT_refresh archivé.
 
 ---
+
+## 2026-05-20 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -5.39% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 11.77% (seuil 5.0%)
+
+**Conclusion :** confirm — données strictement inchangées vs snapshot 10:00 UTC (cours $47.74, RSI 54.95, ATR 5.62, MM50 45.17). Le Max Pain est corrigé de $20.00 à $33.00 dans le snapshot 13:00 UTC (anomalie de données résolue). Put/call ratio (1.21) et call OI % (45.2%) sont de retour. Aucun nouveau flux post-earnings intégré. Earnings Q1 2026 attendus aujourd'hui (J=0). Score Opportunité 6.2/10 inchangé, Score Global ajusté 67.0/100 inchangé. Thèse confirmée, anomalie options résolue. DRAFT_refresh complété et archivé.
+
+---
+
+## 2026-05-20 — Full Refresh Triggered (duplicata)
+
+**Triggers :**
+- price_gap (medium) : Gap -5.39% overnight (seuil ±5.0%) — duplicata
+- atr_spike (medium) : ATR relatif 11.77% (seuil 5.0%) — duplicata
+
+**Conclusion :** confirm — duplicata de session, données inchangées vs snapshot précédent (13:00 UTC). DRAFT_refresh archivé.
+
+---

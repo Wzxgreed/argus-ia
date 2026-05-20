@@ -1,32 +1,35 @@
-# NOK — Mise à Jour Quotidienne (2026-05-20)
+# NOK — Mise à Jour Quotidienne (2026-05-20, Snapshot 13:00 UTC)
 
 > Desk : Argus-IA | Ticker : NOK (NYSE ADR) | Secteur : Technology / Communication Equipment
-> Date analyse : 2026-05-20 | Données source : `data/latest.json` (snapshot 2026-05-20T10:00 UTC)
+> Date analyse : 2026-05-20 | Données source : `data/latest.json` (snapshot 2026-05-20T13:00 UTC)
 
 ---
 
-## 1. Résumé des Changements depuis l'Analyse Précédente (2026-05-19 21:00 UTC)
+## 1. Résumé des Changements depuis l'Analyse Précédente (2026-05-20 10:00 UTC)
 
-| Indicateur | Snapshot 19/05 21:00 UTC | Snapshot 20/05 10:00 UTC | Variation | Signal |
-|-----------|--------------------------|--------------------------|-----------|--------|
-| Cours close | $13.67 | **$13.67** | $0.00 | Stable vs close 19/05 ; −0.51 % vs previous close $13.74 |
+| Indicateur | Snapshot 10:00 UTC | Snapshot 13:00 UTC | Variation | Signal |
+|-----------|-------------------|-------------------|-----------|--------|
+| Cours close | $13.67 | **$13.67** | $0.00 | Stable |
 | RSI 14j | 58.34 | **58.34** | 0.00 pt | Inchangé — zone neutre favorable |
 | ATR 14j | $0.94 | **$0.94** | $0.00 | Stable — 6.88 % du cours |
-| Volume relatif | 0.63× | **0.65×** | +0.02× | Liquidité toujours sous moyenne 20j |
+| Volume relatif | 0.65× | **0.65×** | 0.00× | Liquidité sous moyenne 20j, inchangée |
 | MM 50j | $10.41 | **$10.41** | $0.00 | Support structurel inchangé |
 | P/E (TTM) | 85.438 | **85.438** | 0.000 | Stable |
 | Forward P/E | 28.179 | **28.179** | 0.000 | Stable |
-| EV/EBITDA (Yahoo) | 29.338 | **29.184** | −0.154 | Légère baisse, non significative |
-| Dividend yield | 1.19 % | **1.20 %** | +0.01 pp | Stable |
+| EV/EBITDA (Yahoo) | 29.184 | **29.184** | 0.000 | Stable |
+| Dividend yield | 1.20 % | **1.20 %** | 0.00 pp | Stable |
 | Premium vs consensus $9.26 | +47.6 % | **+47.6 %** | 0.0 pp | Surévaluation inchangée |
 | Short interest | 0.012 % | 0.012 % | 0.0 pp | Nul |
-| Put/Call ratio | 0.43 | **N/A** | — | [DONNÉES MANQUANTES] — options data dégradée dans snapshot |
-| Max pain options | $13.00 | **$2.00** | −$11.00 | ⚠️ Valeur aberrante — à ignorer ; data quality issue |
-| Call OI | 70.1 % | **N/A** | — | [DONNÉES MANQUANTES] |
+| Put/Call ratio | N/A (data manquante) | **0.35** | — | ✅ Corrigé dans snapshot 13:00 |
+| Max pain options | $2.00 (aberrant) | **$14.50** | +$12.50 | ✅ Corrigé — au-dessus du cours |
+| Call OI | N/A (data manquante) | **73.8 %** | — | ✅ Corrigé — biais call fort |
 
-**Changement significatif :** aucun. Le cours clôture à **$13.67**, strictement identique à la close du 19/05 21:00 UTC. La variation de −0.51 % s'explique par le rollover de la previous close ($13.74 → $13.67). Le RSI, l'ATR, la MM50, le P/E, le Forward P/E et le premium vs consensus sont tous inchangés. L'EV/EBITDA recule marginalement de 29.34 à 29.18 (non matériel). Le volume reste très réduit (0.65× moyenne 20j, 82.2M vs 126.0M).
+**Changement significatif : aucun mouvement de cours ni de fondamental.** Le snapshot 13:00 UTC confirme la **stabilité quasi-totale** des données de marché (cours, RSI, ATR, volumes, multiples) par rapport au snapshot 10:00 UTC.
 
-**⚠️ Alerte data quality :** les données options (`max_pain`, `put_call_ratio`, `call_oi_pct`) sont dégradées dans le snapshot 20/05 (`max_pain` à $2.00, valeurs null pour put/call et call OI). Le max pain à $2.00 est aberrant pour un titre coté $13.67. Les niveaux options du snapshot 19/05 ($13.00, put/call 0.43, call OI 70.1 %) restent la référence opérationnelle jusqu'à correction.
+**🟢 Correction data quality majeure :** les données options ont été restaurées dans le snapshot 13:00 :
+- **Max pain :** $2.00 aberrant → **$14.50** (cohérent avec le cours $13.67). Le max pain désormais au-dessus du cours anticipe une légère remontée vers $14.50 à l'expiration vendredi 2026-05-22.
+- **Put/Call ratio :** null → **0.35** (biais haussier modéré).
+- **Call OI :** null → **73.8 %** (forte dominance des calls, sentiment options haussier à court terme).
 
 **Headwind sectoriel :** XLC (Communication Services) persiste dans le **bottom 3** du sector rotation (RS 20j −5.33 %, momentum score 0.0/10, `sector_rotation_2026-05-20.json`). Ce contexte défavorable pèse sur le momentum relatif de NOK au sein de son secteur.
 
@@ -36,7 +39,7 @@
 
 | Métrique | Valeur | Commentaire |
 |----------|--------|-------------|
-| Cours close | $13.67 | Stable vs close 19/05 ; −0.51 % vs previous close |
+| Cours close | $13.67 | Stable vs snapshot 10:00 ; −0.51 % vs previous close |
 | RSI 14j | 58.34 | Zone neutre favorable, inchangé |
 | ATR 14j | $0.94 | 6.88 % du cours — inchangé |
 | MM 50j | $10.41 | Cours +31.3 % au-dessus du support structurel |
@@ -49,9 +52,9 @@
 - Support immédiat : $11.79 (cours − 2×ATR)
 - Support structurel : MM50 à $10.41
 - Résistance 52 semaines : $15.19 (+11.1 %)
-- Max pain options (référence 19/05) : $13.00 — expiration 2026-05-22 inchangée
+- Max pain options (corrigé) : **$14.50** — expiration 2026-05-22 (vendredi)
 
-**Verdict timing :** **Neutre** — Cours au-dessus de la MM50, RSI dans zone neutre, mais volume réduit et headwind sectoriel (XLC bottom 3) limitent la conviction haussière. Le max pain référencé à $13.00 continue d'ancrer le cours à l'approche de l'expiration vendredi.
+**Verdict timing :** **Neutre** — Cours au-dessus de la MM50, RSI dans zone neutre, mais volume réduit et headwind sectoriel (XLC bottom 3) limitent la conviction haussière. Le max pain corrigé à $14.50 désormais au-dessus du cours introduit un léger biais haussier à très court terme (expiration vendredi).
 
 **Score Momentum :** 7.0/10 — inchangé (cours > MM50, RSI zone neutre). L'agent Recommandation maintient ce score malgré le headwind sectoriel XLC.
 
@@ -66,7 +69,7 @@
 | Market Cap | $76.3 B | Stable |
 | P/E (TTM) | 85.438 | 🔴 Extrêmement élevé |
 | Forward P/E | 28.179 | Élevé, attente de normalisation EPS |
-| EV/EBITDA | 29.184 | Premium sectoriel (légère baisse vs 29.338, non matérielle) |
+| EV/EBITDA | 29.184 | Premium sectoriel |
 | P/B | 3.108 | Premium vs book |
 | Dividend yield | 1.20 % | Support de rendement |
 
@@ -85,15 +88,20 @@ Aucune donnée nouvelle. Verdict inchangé : **2.5/6 — 🔴 Hors périmètre c
 | Signal | Valeur | Source |
 |--------|--------|--------|
 | Consensus analystes (FMP) | PT $9.26 (6 analysts) | `recommandations_latest.json` |
-| Put/Call ratio | N/A | ⚠️ Data manquante dans snapshot 20/05 — référence 19/05 : 0.43 |
-| Max pain | N/A | ⚠️ Data aberrante ($2.00) dans snapshot 20/05 — référence 19/05 : $13.00 |
-| Call OI | N/A | ⚠️ Data manquante dans snapshot 20/05 — référence 19/05 : 70.1 % |
+| Put/Call ratio | **0.35** | ✅ Corrigé dans snapshot 13:00 — biais haussier modéré |
+| Max pain | **$14.50** | ✅ Corrigé dans snapshot 13:00 — au-dessus du cours |
+| Call OI | **73.8 %** | ✅ Corrigé dans snapshot 13:00 — forte dominance calls |
 | Short interest | 0.012 % | Quasi nulle |
 | Agent Social Sentiment | 0 mention, 0.0/10 | `social_sentiment_2026-05-20.json` — aucun buzz retail |
 | Agent Event-Driven | Aucun événement | `events_2026-05-20.json` vide pour NOK |
 | Agent FX Exposure | Score 0.0/10, 25 % export USD | `fx_exposure_latest.json` — aligné, aucun impact |
 
-**Options :** les données options du snapshot 20/05 sont dégradées (max pain $2.00 aberrant, put/call et call OI null). La référence opérationnelle reste le snapshot 19/05 : max pain $13.00, expiration 2026-05-22 (vendredi), put/call 0.43, call OI 70.1 %. Le marché options anticipe une consolidation autour de $13.00 à l'expiration.
+**Options (données corrigées) :** le snapshot 13:00 UTC restaure des données options cohérentes :
+- **Max pain $14.50** (vs cours $13.67) : le marché options anticipe désormais une convergence haussière vers $14.50 à l'expiration vendredi 2026-05-22. C'est un changement d'interprétation par rapport au snapshot 10:00 où le max pain aberrant à $2.00 rendait l'analyse options impossible.
+- **Put/Call 0.35** : biais haussier modéré (moins de puts que de calls en volume).
+- **Call OI 73.8 %** : forte présence call open interest, confirmant un positionnement haussier à court terme des opérateurs options.
+
+> ⚠️ **Note :** ce biais options haussier à court terme ne change pas la thèse fondamentale. Il reflète probablement des paris techniques sur un rebond vers le max pain $14.50 avant expiration, pas une conviction institutionnelle sur le médium terme.
 
 **Upcoming events :**
 - Earnings Q2 FY2026 confirmé au **2026-07-23** (dans **64 jours**)
@@ -111,13 +119,13 @@ Aucune donnée nouvelle. Verdict inchangé : **2.5/6 — 🔴 Hors périmètre c
 | Catalyseur | 4.0/10 | 35 % | Aucun catalyseur ; earnings dans 64 jours ; headwind XLC |
 | Valorisation | 3.5/10 | 40 % | Premium +47.6 % vs consensus ; P/E 85.4 |
 | Momentum | 7.0/10 | 25 % | Cours > MM50 ; RSI 58.34 zone neutre ; volume faible |
-| **Score Opportunité** | **4.5/10** | | Inchangé vs snapshot 19/05 21:00 UTC |
+| **Score Opportunité** | **4.5/10** | | Inchangé vs snapshot 10:00 UTC |
 | **Score Global** | **45.5** | | Inchangé |
 | **Score Global Ajusté** | **50.5** | | Inchangé ; franchit le seuil 50 (ATTENDRE) |
 
 **Action recommandée :** **ATTENDRE** — Pas de position.
 
-> Note : la stabilité totale des données (cours, RSI, ATR, MM, P/E, consensus, scores) confirme l'absence de catalyseur et de momentum institutionnel. La légère hausse du volume (+0.02×) reste largement insuffisante pour signaler un regain d'intérêt. L'alerte data quality sur les options doit être corrigée au prochain fetch.
+> Note : la stabilité totale des données fondamentales et techniques confirme l'absence de catalyseur et de momentum institutionnel. La correction des données options (max pain $14.50, put/call 0.35, call OI 73.8 %) introduit un léger biais haussier à très court terme (expiration vendredi) mais ne modifie pas le verdict global. L'alerte data quality du snapshot 10:00 est résolue.
 
 ---
 
@@ -153,18 +161,17 @@ Niveaux inchangés (ATR stable à $0.94).
 
 **Thèse confirmée — ATTENDRE.**
 
-Le snapshot 2026-05-20T10:00 UTC confirme une **stabilité quasi-totale** par rapport au snapshot 19/05 21:00 UTC. Le cours se maintient à **$13.67** (variation 0 % vs close précédente, −0.51 % vs previous close). Le RSI reste stable à **58.34** (zone neutre favorable). L'ATR à **$0.94** (6.88 % du cours) maintient la volatilité relative au-dessus du seuil de 5 %, mais ce niveau reflète le range intraday élevé sur liquidité réduite, pas un changement de régime — le trigger ATR_SPIKE reste un faux positif technique récurrent (voir REFRESH_LOG.md).
+Le snapshot 2026-05-20T13:00 UTC confirme une **stabilité quasi-totale** par rapport au snapshot 10:00 UTC. Le cours se maintient à **$13.67**, strictement inchangé. Le RSI reste stable à **58.34** (zone neutre favorable). L'ATR à **$0.94** (6.88 % du cours) maintient la volatilité relative au-dessus du seuil de 5 % — ce niveau reflète le range intraday élevé sur liquidité réduite, pas un changement de régime.
+
+**Seul changement matériel : la correction des données options.** Le max pain aberrant à $2.00 (snapshot 10:00) est remplacé par une valeur cohérente de **$14.50**, désormais au-dessus du cours. Cela anticipe une légère convergence haussière vers $14.50 à l'expiration vendredi 2026-05-22. Le put/call ratio à 0.35 et le call OI à 73.8 % confirment un positionnement options haussier à court terme. **Cependant, ce signal options ne modifie pas la thèse fondamentale.**
 
 Les fondamentaux restent inchangés : quality hors périmètre (2.5/6), rentabilité anémique (operating margin 3.9 %, net margin 3.3 %, ROIC 1.9 %), bilan solide (net cash, D/E 0.25, current ratio 1.58) mais insuffisant pour justifier un profil compounding. Le consensus à $9.26 laisse un premium de **+47.6 %** qui continue de plafonner le score valorisation à 3.5/10.
 
-**⚠️ Alerte data quality :** les données options du snapshot 20/05 sont dégradées (max pain $2.00 aberrant, put/call et call OI null). La référence opérationnelle reste le snapshot 19/05 ($13.00, put/call 0.43, call OI 70.1 %). Une vérification du fetch Yahoo options est recommandée.
-
 **Contexte sectoriel :** XLC (Communication Services) persiste dans le bottom 3 du sector rotation (momentum score 0.0/10). Ce headwind sectoriel n'est pas intégré dans le Score Catalyseur mais constitue un vent de face à surveiller pour un ticker déjà sans catalyseur identifiable.
 
-Le Score Global Ajusté reste stable à **50.5**, maintenant la recommandation **ATTENDRE**. NOK reste un **value trap technique** : momentum de court terme soutenu par la MM50 ($10.41) mais valorisation dissuasive, qualité fondamentale hors périmètre, et headwind sectoriel persistant.
+Le Score Global Ajusté reste stable à **50.5**, maintenant la recommandation **ATTENDRE**. NOK reste un **value trap technique** : momentum de court terme soutenu par la MM50 ($10.41) mais valorisation dissuasive, qualité fondamentale hors périmètre, et headwind sectoriel persistant. La correction options n'est pas un catalyseur fondamental.
 
 **Prochains points de contrôle :**
-- Expiration options 2026-05-22 (vendredi) — observer si le max pain à $13.00 agit comme aimant
-- Correction data quality sur les options dans `data/latest.json`
+- Expiration options 2026-05-22 (vendredi) — observer si le max pain à $14.50 agit comme aimant
 - Preview earnings si approche à ≤ 30 jours du 2026-07-23
 - Franchissement technique du SL à $11.79

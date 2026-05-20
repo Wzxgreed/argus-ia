@@ -1,4 +1,4 @@
-# CONTEXT — IREN — Dernière mise à jour : 2026-05-20 (snapshot 10:00 UTC)
+# CONTEXT — IREN — Dernière mise à jour : 2026-05-20
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -8,10 +8,10 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ACHETER — Sizing Réduit
-- **Score global :** 67.0/100
+- **Score global :** 6.2/10
 - **Prix cible :** $65.86
 - **Stop-loss :** $36.50
-- **Statut thèse :** confirmée avec vigilance
+- **Statut thèse :** confirmée
 - **Horizon :** 1–3 mois
 
 ---
@@ -30,7 +30,6 @@
 - IREN — Vérification — $61.20
 - IREN — **⚠️ Volume DÉCLENCHÉ** — $55.15 (close)
 - IREN — **⚠️ Baisse INTRADAY** — $52.36 (low)
-- IREN — **⚠️ Max Pain révisé** — $20.00 (expiration 2026-05-22)
 
 ---
 
@@ -55,7 +54,7 @@
 - **Date :** 2026-05-20
 - **Type :** update
 - **Fichier :** `IREN_2026-05-20_update.md`
-- **Conclusion :** Thèse confirmée avec vigilance accrue. Cours stable $47.74, volume 70.8% du moyen 20j. Max Pain révisé à $20.00 (expiration 2026-05-22) — tail risk −58.1%. Earnings J=0 attendus aujourd'hui. Scores inchangés (Opportunité 6.2/10, Global 67.0/100). Maintenir ACHETER sizing réduit, SL $36.50 / TP $64.60.
+- **Conclusion :** Thèse confirmée — correction anomalie Max Pain ($20.00 → $33.00), données options de retour, earnings J=0 en attente
 
 ---
 
