@@ -45,17 +45,17 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ## 📅 Prochains événements
 
-- **2026-07-28** — Earnings Q2 FY2026 (69j)
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 47.22
-- **MM 50j :** 16.91
+- **RSI 14j :** 45.26
+- **MM 50j :** 16.86
 - **MM 200j :** —
-- **ATR 14j :** 0.7
-- **Volume moy. 20j :** 68137645
+- **ATR 14j :** 0.68
+- **Volume moy. 20j :** 66965375
 
 ---
 
@@ -64,7 +64,7 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 - **Date :** 2026-05-20
 - **Type :** update
 - **Fichier :** `SOFI_2026-05-20_update.md`
-- **Conclusion :** Snapshot 2026-05-20 (13:00 UTC) inchangé vs matin (close $15.23, RSI 47.22, MM50 $16.91, ATR $0.70). [RÉSOLU] Anomalie options corrigée : Max Pain $15.00 (cohérent), Put/Call 0.55, Call OI 64.3%. Aucune news structurante. Score Global 51.1/100 (ATTENDRE). TP $17.33, SL $13.83, R/R 1.50. Earnings dans 69j.
+- **Conclusion :** **Date :** 2026-05-20 (snapshot 13:00 UTC — données options corrigées, close final confirmé $15.23)
 
 ---
 

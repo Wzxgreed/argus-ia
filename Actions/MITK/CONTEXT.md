@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Score global :** 49.8/100
-- **Prix cible :** $16.00 (consensus FMP)
-- **Stop-loss :** $12.49
-- **Statut thèse :** Confirmée — aucun changement matériel
-- **Horizon :** 1–3 mois
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -24,28 +24,23 @@
 
 ## 🚨 Alertes actives
 
-- 🔴 **[ANOMALIE OPTIONS PERSISTANTE]** Max Pain $20.00 (+41.3% vs spot), Put/Call 0.17, Call OI % 85.5% — anomalie non résolue, l'artefact $7.50 du snapshot 10:00 UTC était un glitch temporaire
-- 🟡 **[VOLUME SOUS MOYENNE]** 0.71× moyenne 20j (854,800 vs moy. 1,199,655)
-- 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($639M vs $447M) et P/E
-- 🟡 **[ROIC FAIBLE]** 3.16%
-- 🟡 **[SCORE SOUS SEUIL 50]** Global ajusté 49.8/100
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- Earnings Q3 FY2026 : 2026-08-06 (77j restants)
-- Expiration options : 2026-06-18 (29j)
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 55.17
-- **MM 50j :** 14.29
+- **RSI 14j :** 51.95
+- **MM 50j :** 14.28
 - **MM 200j :** —
-- **ATR 14j :** 0.83
-- **Volume moy. 20j :** 1199655
+- **ATR 14j :** 0.84
+- **Volume moy. 20j :** 1158654
 
 ---
 
@@ -60,7 +55,7 @@
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 5.87% (seuil 5.0%) — non confirmé par snapshot 13:00 UTC
+- **ATR_SPIKE** (medium) — ATR relatif 5.91% (seuil 5.0%)
 
 ---
 

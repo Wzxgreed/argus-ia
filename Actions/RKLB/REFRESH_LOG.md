@@ -247,3 +247,21 @@
 - atr_spike (medium) : ATR relatif 8.71% (seuil 5.0%)
 
 **Conclusion :** DRAFT_refresh détecté et archivé. Données identiques au snapshot 10h UTC (close $127.31, RSI 76.14, ATR $11.09, MM50 $81.58). Aucun nouvel événement structurant depuis le 19/05. ÉVITER maintenu. Anomalie options du matin (Max Pain $45, Put/Call null) résolue dans le snapshot 13h UTC (Max Pain $150.00, Put/Call 0.85, Call OI 54.0%). Fichier archivé sans réécriture. Référence opérationnelle : RKLB_2026-05-20_update.md (13:00 UTC).
+
+## 2026-05-20 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 8.49% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-20 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 8.61% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

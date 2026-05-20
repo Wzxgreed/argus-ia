@@ -205,3 +205,21 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-05-20 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.76% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-20 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.78% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

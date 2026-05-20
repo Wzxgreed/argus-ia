@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 58.0/100
-- **Prix cible :** $87.50 (consensus 2 analystes)
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** Confirmée — aucun changement vs snapshot matinal
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -24,15 +24,13 @@
 
 ## 🚨 Alertes actives
 
-- 🔴 **Stale price ≥4 jours** — cours $83.46 figé sur 6 snapshots consécutifs (dernier : 2026-05-20 13:00 UTC)
-- 🔴 **Earnings Q1 2026 J=0** — résultats non intégrés dans le pipeline
-- 🟡 **Qualité hors périmètre 3/6** — Score Valorisation plafonné à 5.0/10
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-05-20** · earnings · Earnings Q1 2026 (J=0, non résolu)
+- **2026-05-20** · earnings · Earnings ...
 
 ---
 
@@ -43,18 +41,15 @@
 - **MM 200j :** —
 - **ATR 14j :** —
 - **Volume moy. 20j :** —
-- **Cours :** $83.46 (stale, change_pct null)
-- **Volume :** 1.14M
-- **Source :** fmp_fallback
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-20
-- **Type :** update (snapshot 13:00 UTC)
-- **Fichier :** `SQ_2026-05-20_update.md`
-- **Conclusion :** ATTENDRE — Sixième snapshot consécutif sans mutation. Cours stale $83.46, bloc technique vide, earnings J=0 non résolu, qualité 3/6 hors périmètre. Aucun positionnement avant publication des résultats Q1 et réinjection de données fiables.
+- **Type :** preview
+- **Fichier :** `SQ_2026-05-20_preview.md`
+- **Conclusion :** > **Date :** 2026-05-20
 
 ---
 

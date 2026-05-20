@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER — Sizing Réduit
-- **Score global :** 6.2/10
-- **Prix cible :** $65.86
-- **Stop-loss :** $36.50
-- **Statut thèse :** confirmée
-- **Horizon :** 1–3 mois
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
+- **Horizon :** —
 
 ---
 
@@ -41,27 +41,27 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 54.95
-- **MM 50j :** 45.17
+- **RSI 14j :** 56.1
+- **MM 50j :** 45.45
 - **MM 200j :** —
-- **ATR 14j :** 5.62
-- **Volume moy. 20j :** 52911610
+- **ATR 14j :** 5.7
+- **Volume moy. 20j :** 52220177
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-20
-- **Type :** update
-- **Fichier :** `IREN_2026-05-20_update.md`
-- **Conclusion :** Thèse confirmée — correction anomalie Max Pain ($20.00 → $33.00), données options de retour, earnings J=0 en attente
+- **Type :** preview
+- **Fichier :** `IREN_2026-05-20_preview.md`
+- **Conclusion :** > **Date :** 2026-05-20
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap -5.39% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 11.77% (seuil 5.0%)
+- **PRICE_GAP** (medium) — Gap +9.38% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 10.99% (seuil 5.0%)
 
 ---
 
