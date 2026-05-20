@@ -9,13 +9,13 @@
 
 ## Thèse Courante
 
-IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le titre a clôturé la session du 2026-05-19 à **$47.74** (−5.39%), cassant le support immédiat de **$48.48** avec un volume en fin de session actif (69% de la moyenne 20j). Le low intraday à **$46.00** a été défendu. La MM50 à **$45.17** reste le niveau ultime de défense de la tendance haussière. La volatilité reste extrême (beta 4.18, ATR $5.62). Le Max Pain est **$33.00** — tail risk de queue à **−30.9%**. Le put/call ratio (1.28) et le call OI % (43.8%) révèlent une défiance modérée des options traders.
+IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot matinal du 2026-05-20 confirme la stabilité du cours à **$47.74** (volume 37.44 M, 70.8% de la moyenne 20j). Le low intraday à **$46.00** reste intact. La MM50 à **$45.17** préserve la tendance haussière moyen terme. La volatilité reste extrême (beta 4.18, ATR $5.62). **Le Max Pain est révisé à $20.00** (expiration 2026-05-22) — tail risk de queue à **−58.1%**, signal de défiance fort des options traders à très court terme. Les données put/call ratio et call OI % sont manquantes dans ce snapshot.
 
 **Score Opportunité : 6.2/10** (Catalyseur 8.3, Valorisation 4.5, Momentum 6.0)
 **Score Global ajusté : 67.0/100**
 **Action : ACHETER — Sizing Réduit** — réservé aux portefeuilles tolérants au risque
 
-> **⚠️ Réserve earnings + technique :** Les résultats Q1 2026 sont attendus le 2026-05-19 (J0). La recommandation est basée sur des données pre-earnings (FY 2025). Attendre la publication officielle avant toute nouvelle entrée significative. Ne pas renforcer avant les résultats. La cassure de $48.48 et le volume actif en fin de session sont des signaux de vigilance ; si le cours casse $45.17 (MM50) sans rebond → passer en ATTENDRE.
+> **⚠️ Réserve earnings + Max Pain :** Les résultats Q1 2026 sont attendus aujourd'hui (2026-05-20, J=0). La recommandation reste basée sur des données pre-earnings (FY 2025). Attendre la publication officielle avant toute nouvelle entrée significative. Ne pas renforcer avant les résultats. Le Max Pain révisé à $20.00 est un signal de vigilance majeur ; si le cours casse $45.17 (MM50) sans rebond → passer en ATTENDRE.
 
 ---
 
@@ -33,6 +33,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 | 2026-05-19 | [IREN_2026-05-19_update.md](IREN_2026-05-19_update.md) (rev. 13:00) | Révision post-midi | Snapshot 13:00 UTC — **correction Max Pain $33.00** (vs $20.00 erroné) · put/call 1.28 · call OI 43.8% · données brutes inchangées · Thèse confirmée |
 | 2026-05-19 | [IREN_2026-05-19_update.md](IREN_2026-05-19_update.md) (rev. 17:00) | Révision post-session | Snapshot 17:00 UTC — **Cours $48.405 (−4.07%)** · support $48.48 cassé · low $46.00 défendu · volume très faible (43.4%) · scores inchangés · Thèse modifiée sous pression |
 | 2026-05-19 | [IREN_2026-05-19_update.md](IREN_2026-05-19_update.md) (rev. 21:00) | Révision post-session / after-hours | Snapshot 21:00 UTC — **Cours $47.74 (−5.39% session, −1.37% vs 17:00)** · volume fin de session actif (69.0%) · distribution réelle sous $48.50 · Score Opportunité 6.2/10 (−0.1 pt) · Score Global 67.0/100 (−1.3 pt) · Thèse modifiée sous pression confirmée |
+| 2026-05-20 | [IREN_2026-05-20_update.md](IREN_2026-05-20_update.md) | Mise à jour matin | Snapshot 10:00 UTC — **Cours stable $47.74** · volume 37.44 M (70.8%) · Max Pain révisé **$20.00** (−39.4%, expiration 2026-05-22) · earnings J=0 · données put/call manquantes · Score Opportunité 6.2/10 inchangé · Score Global 67.0/100 inchangé · Thèse confirmée avec vigilance accrue |
 
 ---
 
@@ -59,4 +60,4 @@ Voir [SUPPLY_CHAIN.md](SUPPLY_CHAIN.md) pour la cartographie fournisseurs/client
 
 ---
 
-*Dernière mise à jour : 2026-05-19 (snapshot 21:00 UTC)*
+*Dernière mise à jour : 2026-05-20 (snapshot 10:00 UTC)*

@@ -202,16 +202,16 @@ Revue manuelle post-pipeline : les donnees brutes (cours $52.94, RSI 54.61, ATR 
 - price_gap (medium) : Gap -5.39% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 11.77% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** confirm — données strictement inchangées vs snapshot 21:00 UTC du 2026-05-19 (cours $47.74, RSI 54.95, ATR 5.62, MM50 45.17). Le Max Pain est révisé à $20.00 (expiration 2026-05-22), élèvant le tail risk à −58.1%. Aucun nouveau flux post-earnings intégré. Earnings Q1 2026 attendus aujourd'hui (J=0). Score Opportunité 6.2/10 inchangé, Score Global ajusté 67.0/100 inchangé. Thèse confirmée avec vigilance accrue. DRAFT_refresh complété et archivé.
 
 ---
 
-## 2026-05-20 — Full Refresh Triggered
+## 2026-05-20 — Full Refresh Triggered (duplicata)
 
 **Triggers :**
-- price_gap (medium) : Gap -5.39% overnight (seuil ±5.0%)
-- atr_spike (medium) : ATR relatif 11.77% (seuil 5.0%)
+- price_gap (medium) : Gap -5.39% overnight (seuil ±5.0%) — duplicata
+- atr_spike (medium) : ATR relatif 11.77% (seuil 5.0%) — duplicata
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** confirm — duplicata de session, données inchangées vs snapshot précédent. DRAFT_refresh archivé.
 
 ---
