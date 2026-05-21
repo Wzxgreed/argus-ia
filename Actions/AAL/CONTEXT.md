@@ -51,11 +51,11 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 64.72
-- **MM 50j :** 11.63
+- **RSI 14j :** 69.38
+- **MM 50j :** 11.64
 - **MM 200j :** —
-- **ATR 14j :** 0.49
-- **Volume moy. 20j :** 51046079
+- **ATR 14j :** 0.54
+- **Volume moy. 20j :** 54738682
 
 ---
 
