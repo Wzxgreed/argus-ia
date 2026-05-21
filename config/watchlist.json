@@ -200,6 +200,14 @@
       "priority": "medium",
       "exchange": "NASDAQ",
       "notes": "Ajouté via dashboard API"
+    },
+    {
+      "ticker": "QTBS",
+      "name": "QTBS",
+      "sector": "Non spécifié",
+      "priority": "medium",
+      "exchange": "NASDAQ",
+      "notes": "Ajouté via dashboard API"
     }
   ],
   "macro_symbols": {

@@ -1,4 +1,4 @@
-# CONTEXT — NOK — Dernière mise à jour : 2026-05-20
+# CONTEXT — NOK — Dernière mise à jour : 2026-05-21
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -50,20 +50,20 @@ Leader 5G mature, massivement surévalué vs consensus ADR (P/E 85.4, cours $13.
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 55.47
-- **MM 50j :** 10.53
+- **RSI 14j :** 55.18
+- **MM 50j :** 10.52
 - **MM 200j :** —
 - **ATR 14j :** 0.93
-- **Volume moy. 20j :** 124216507
+- **Volume moy. 20j :** 124461325
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-20
+- **Date :** 2026-05-21
 - **Type :** full refresh
-- **Fichier :** `NOK_2026-05-20_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-05-20
+- **Fichier :** `NOK_2026-05-21_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-21
 
 ---
 

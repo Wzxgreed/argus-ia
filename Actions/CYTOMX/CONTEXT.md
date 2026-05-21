@@ -1,4 +1,4 @@
-# CONTEXT — CYTOMX — Dernière mise à jour : 2026-05-20
+# CONTEXT — CYTOMX — Dernière mise à jour : 2026-05-21
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -41,7 +41,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-20** · earnings · Earnings ...
+- **2026-05-21** · earnings · Earnings ...
 
 ---
 
@@ -57,10 +57,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-20
-- **Type :** update
-- **Fichier :** `CYTOMX_2026-05-20_update.md`
-- **Conclusion :** **These : NON ETABLIE — CONFIRMEE**
+- **Date :** 2026-05-21
+- **Type :** preview
+- **Fichier :** `CYTOMX_2026-05-21_preview.md`
+- **Conclusion :** > **Date :** 2026-05-21
 
 ---
 
