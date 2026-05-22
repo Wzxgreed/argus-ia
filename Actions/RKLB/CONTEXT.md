@@ -36,11 +36,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 75.26
-- **MM 50j :** 85.35
+- **RSI 14j :** 74.84
+- **MM 50j :** 85.31
 - **MM 200j :** —
 - **ATR 14j :** 12.41
-- **Volume moy. 20j :** 27002022
+- **Volume moy. 20j :** 27739776
 
 ---
 
@@ -55,8 +55,8 @@
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +6.39% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 9.30% (seuil 5.0%)
+- **PRICE_GAP** (medium) — Gap +8.22% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 9.14% (seuil 5.0%)
 
 ---
 
