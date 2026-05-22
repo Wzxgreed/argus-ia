@@ -1,4 +1,4 @@
-# CONTEXT — FUBO — Dernière mise à jour : 2026-05-21
+# CONTEXT — FUBO — Dernière mise à jour : 2026-05-22
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -30,26 +30,26 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-21** · earnings · Earnings ...
+- **2026-05-22** · earnings · Earnings ...
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 7.9
+- **RSI 14j :** 7.91
 - **MM 50j :** 11.6
 - **MM 200j :** —
 - **ATR 14j :** 0.66
-- **Volume moy. 20j :** 1463034
+- **Volume moy. 20j :** 1469120
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-21
+- **Date :** 2026-05-22
 - **Type :** full refresh
-- **Fichier :** `FUBO_2026-05-21_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-05-21
+- **Fichier :** `FUBO_2026-05-22_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-22
 
 ---
 
