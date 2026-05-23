@@ -1,4 +1,4 @@
-# CONTEXT — RKLB — Dernière mise à jour : 2026-05-22
+# CONTEXT — RKLB — Dernière mise à jour : 2026-05-23
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -40,16 +40,16 @@
 - **MM 50j :** 85.31
 - **MM 200j :** —
 - **ATR 14j :** 12.41
-- **Volume moy. 20j :** 27739776
+- **Volume moy. 20j :** 27765260
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-22
+- **Date :** 2026-05-23
 - **Type :** full refresh
-- **Fichier :** `RKLB_2026-05-22_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-05-22
+- **Fichier :** `RKLB_2026-05-23_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-23
 
 ---
 
