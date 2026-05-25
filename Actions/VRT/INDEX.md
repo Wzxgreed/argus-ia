@@ -51,5 +51,5 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 
 | Date | Événement |
 |------|-----------|
-| 2026-05-22 | Expiration options (max pain $190 anomalie — à valider) — risque volatilité |
-| 2026-07-29 | Earnings Q2 FY2026 — Est EPS $1.39-$1.59, Rev $3.4B |
+| 2026-05-29 | Expiration options (put/call 2.59, 72.1% puts, max pain $225) — risque volatilité élevée |
+| 2026-07-29 | Earnings Q2 FY2026 — Est EPS $1.38-$1.59, Rev $3.4B (65 jours) |
