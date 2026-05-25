@@ -693,3 +693,13 @@
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-05-25 — Update Complétée (17:00 UTC)
+
+**Triggers :**
+- price_gap (medium) : Gap +8.22% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 9.14% (seuil 5.0%)
+
+**Conclusion :** THÈSE ÉVITER CONFIRMÉE. Snapshot 17:00 UTC identique au 13:00 UTC (marché fermé Memorial Day). Données stables : close $135.76, RSI 74.84, ATR $12.41, MM50 $85.31. DRAFT_refresh résiduels archivés (_RKLB_2026-05-20/21/22/23/24/25_DRAFT_refresh.md). RKLB_2026-05-25_update.md rédigé. INDEX.md et CONTEXT.md mis à jour. ÉVITER maintenu.
+
+---

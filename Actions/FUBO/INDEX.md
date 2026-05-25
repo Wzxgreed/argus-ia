@@ -1,9 +1,9 @@
 # FUBO
 
 ## Thèse courante
-**SURVEILLER** — Score Opportunité ajusté ~5,2/10 (plafonné Qualité 1/6 + malus sectoriel + liquidité + timing), Score Global ajusté ~52/100 (2026-05-25 snapshot 10:00 UTC)
+**SURVEILLER** — Score Opportunité ajusté ~5,2/10 (plafonné Qualité 1/6 + malus sectoriel + liquidité + timing), Score Global ajusté ~52/100 (2026-05-25 snapshot 17:00 UTC)
 
-Thèse d'investissement : FUBO est un titre spéculatif du secteur Communication Services (streaming sportif live) avec un profil fondamental dégradé inchangé (Score Qualité 1/6, FCF négatif, current ratio 0,84, debt/equity 2,43, patrimoine net négatif −$398,9M). La divergence Yahoo/FMP persiste (market cap $287,0M vs ~$3,27B — ×11,4), rendant toute valorisation fiable impossible. Le snapshot 2026-05-25 affiche un **gap haussier +6,67%** à $9,75 sans catalyseur identifiable, accompagné d'une **survente extrême (RSI 20,19)** — configuration technique ambivalente. Le scoring agent livre un Score Global 65,5/100 et une action **ACHETER (Réduit, timing Défavorable)**, portée par un Catalyseur 8,0/10 et une Valorisation 7,0/10. **Cependant**, l'ajustement analyste selon les règles Argus-IA ramène le Score Opportunité à ~5,2/10 (plafonnement Valorisation à 5/10 pour Qualité ≤ 3/6, malus sectoriel XLC bottom 3 −0,5 pt, malus liquidité 0,75× −0,3 pt, malus timing défavorable −0,3 pt, malus données earnings Q1 manquantes −0,5 pt), soit un Score Global ~52/100 — maintenant la recommandation en **SURVEILLER**. Le max pain est corrigé à $9,00 (cohérent avec le spot monté), le put/call remonte à 0,65 (plus défensif), le call OI recule à 60,6% (−2,3 pp). Le setup short squeeze latent (short interest 22,84% + call OI dominant) persiste, mais sans fondement qualitatif. Le volume reste faible (0,75×). Les résultats Q1 2026 attendus le **2026-05-20** sont toujours non visibles au snapshot 2026-05-25 — retard API ou report probable. **Pas de position longue recommandée.**
+Thèse d'investissement : FUBO est un titre spéculatif du secteur Communication Services (streaming sportif live) avec un profil fondamental dégradé inchangé (Score Qualité 1/6, FCF négatif, current ratio 0,84, debt/equity 2,43, patrimoine net négatif −$398,9M). La divergence Yahoo/FMP persiste (market cap $287,0M vs ~$3,27B — ×11,4), rendant toute valorisation fiable impossible. Le snapshot 2026-05-25 (17:00 UTC) confirme la **stabilité totale** vs 13:00 UTC : close **$9,75**, RSI **20,19**, max pain **$9,00**, put/call **0,65**, call OI **60,6%**. Le scoring agent reste stable à un Score Global **65,5/100** et une action **ACHETER (Réduit, timing Défavorable)**, portée par un Catalyseur 8,0/10 et une Valorisation 7,0/10. **Cependant**, l'ajustement analyste selon les règles Argus-IA ramène le Score Opportunité à ~5,2/10 (plafonnement Valorisation à 5/10 pour Qualité ≤ 3/6, malus sectoriel XLC bottom 3 −0,5 pt, malus liquidité 0,75× −0,3 pt, malus timing défavorable −0,3 pt, malus données earnings Q1 manquantes −0,5 pt), soit un Score Global ~52/100 — maintenant la recommandation en **SURVEILLER**. Le setup short squeeze latent (short interest 22,84% + call OI dominant) persiste, mais sans fondement qualitatif. Le volume reste faible (0,75×). **Anomalie calendrier** : `upcoming_events_latest.json` place désormais l'earnings au **2026-05-25** (jour J) alors que le marché est fermé Memorial Day — aucun résultat Q1 visible. Cette incohérence doit être résolue à la réouverture (2026-05-26). **Pas de position longue recommandée.**
 
 ## Historique
 | Date | Fichier | Type |
@@ -18,9 +18,10 @@ Thèse d'investissement : FUBO est un titre spéculatif du secteur Communication
 | 2026-05-20 | [FUBO_2026-05-20_init.md](FUBO_2026-05-20_init.md) | FULL REFRESH — ATR_SPIKE 8.48%, thèse confirmée ATTENDRE (close stable $9.20, volume 0.69×, anomalie max pain $21.00 vs $10.00 historique, earnings Q1 JOUR J non résolus) |
 | 2026-05-19 | [FUBO_2026-05-19_init.md](FUBO_2026-05-19_init.md) | FULL REFRESH — ATR_SPIKE 8.48%, thèse confirmée ATTENDRE (snapshot final $9.20, volume 0.63×) |
 | 2026-05-25 | [FUBO_2026-05-25_update.md](FUBO_2026-05-25_update.md) | Mise à jour snapshot 13:00 UTC — **données stables** vs 10:00 UTC (close $9.75, RSI 20.19, max pain $9.00 inchangés), scoring agent stable ACHETER Réduit (65.5/100), ajustement analyste maintient SURVEILLER (~52/100), fondamental dégradé 1/6, earnings Q1 toujours non résolus. DRAFT_refresh archivé (triggers déjà couverts) |
+| 2026-05-25 | [FUBO_2026-05-25_update.md](FUBO_2026-05-25_update.md) | Mise à jour snapshot **17:00 UTC** — **stabilité totale** vs 13:00 UTC (marché fermé Memorial Day), toutes les métriques inchangées, anomalie calendrier earnings détectée (FMP place l'earnings au 2026-05-25, jour J, mais aucun résultat visible), thèse SURVEILLER confirmée, DRAFT_refresh (17:00) archivé |
 
 ## Agenda
-- **Earnings Q1 2026 :** 2026-05-20 (résultats en attente de confirmation / publication post-close probable ou retard API — toujours non visibles au snapshot 2026-05-25)
+- **Earnings Q1 2026 :** anomalie calendrier — `upcoming_events_latest.json` (2026-05-25) place l'earnings au **2026-05-25** (jour J, `days_until: 0`) alors que le marché est fermé Memorial Day. Aucun résultat (EPS, revenue, guidance) n'est visible dans `data/latest.json` au snapshot 17:00 UTC. **Vérification impérative à la réouverture du marché (2026-05-26).**
 - Échéance options : 2026-05-29 (J+4 — max pain $9,00, put/call 0,65, call OI 60,6%)
 - Prochaine échéance earnings Q2 : ~août 2026
 
@@ -28,9 +29,9 @@ Thèse d'investissement : FUBO est un titre spéculatif du secteur Communication
 - **PRICE_GAP** (medium) — Gap +6.67% overnight (seuil ±5.0%) — 2026-05-25
 - **ATR_SPIKE** (medium) — ATR relatif 6,46% (seuil 5,0%) — persistant depuis 2026-05-17
 - **RSI SURVENTE EXTRÊME** — RSI 20.19 (seuil 30) — 2026-05-25
-- **Earnings Q1 2026 en attente** — résultats attendus le 2026-05-20, toujours non visibles au snapshot 2026-05-25 — vérifier impérativement
+- **Earnings Q1 2026 en attente** — anomalie calendrier : `upcoming_events_latest.json` place l'earnings au **2026-05-25** (jour J), mais aucun résultat visible dans `data/latest.json` au snapshot 17:00 UTC — vérification impérative à la réouverture (2026-05-26)
 - **Divergence Yahoo/FMP Market Cap** — ×11,4 d'écart entre sources ($287,0M vs ~$3,27B)
-- **Sector Rotation XLC Bottom 3** — malus sectoriel actif (dernière donnée connue 2026-05-20)
+- **Sector Rotation XLC Bottom 3** — malus sectoriel actif (snapshot 2026-05-25 : momentum score 0.0 / 10)
 - **Options Spot/Max Pain Divergence** — spot $9.75 vs max pain $9.00 (écart +8.3%) ; call OI dominant 60,6%
 - **Liquidité réduite** — volume 0.75× moyenne 20j (1,10M vs 1,46M) — risque de slippage majeur
 - **Qualité dégradée** — Score Qualité 1/6, patrimoine net négatif, FCF négatif

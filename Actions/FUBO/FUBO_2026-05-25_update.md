@@ -1,142 +1,142 @@
-# FUBO — Mise à Jour (2026-05-25)
+# FUBO — Mise a Jour (2026-05-25)
 
-> **Niveau d'impact :** 🟢 Faible — Snapshot 13:00 UTC **confirme la stabilité** vs snapshot 10:00 UTC. Close $9.75 inchangé, RSI 20.19 inchangé, max pain $9.00 inchangé, scoring agent stable à 65.5/100 (ACHETER Réduit). Fondamental inchangé, qualité dégradée 1/6. Aucune mutation technique ni fondamentale détectée sur le créneau 10h–13h UTC.
-> **Référence précédente :** [FUBO_2026-05-25_update.md](FUBO_2026-05-25_update.md) (snapshot 10:00 UTC — close $9.75, RSI 20.19, max pain $9.00, put/call 0.65, call OI 60.6%, scoring agent 65.5/100, thèse SURVEILLER)
+> **Niveau d'impact :** 🟢 Faible — Snapshot 17:00 UTC **confirme la stabilite totale** vs snapshot 13:00 UTC. Close $9.75 inchangé, RSI 20.19 inchangé, max pain $9.00 inchangé, scoring agent stable a 65.5/100 (ACHETER Reduit). Donnees fondamentales inchangées. Mutation calendrier : `upcoming_events_latest.json` place l'earnings FUBO au **2026-05-25** (jour J), bien que les marches soient fermes Memorial Day et aucun resultat Q1 ne soit visible dans `data/latest.json`.
+> **Reference precedente :** [FUBO_2026-05-25_update.md](FUBO_2026-05-25_update.md) (snapshot 13:00 UTC — close $9.75, RSI 20.19, max pain $9.00, put/call 0.65, call OI 60.6%, scoring agent 65.5/100, these SURVEILLER)
 
 ---
 
-## 1. Résumé des Changements depuis l'Analyse Précédente (2026-05-20)
+## 1. Resume des Changements depuis l'Analyse Precedente (13:00 UTC)
 
-| Métrique | 2026-05-20 13:00 UTC | **2026-05-25 13:00 UTC** | Variation |
+| Metrique | 2026-05-25 13:00 UTC | **2026-05-25 17:00 UTC** | Variation |
 |---|---|---|---|
-| Cours close | $9.20 | **$9.75** | **+5.98%** 🚨 |
-| Change % vs previous | −1.92% | **+6.67%** | **+8.59 pp** |
-| Volume séance | 1 035 600 | **1 101 200** | **+6.3%** |
-| Volume vs 20j | 0.69× | **0.75×** | **+0.06×** |
-| RSI 14j | 32.26 | **20.19** | **−12.07 pts** 🚨 |
-| ATR 14j | $0.78 | **$0.63** | **−19.2%** |
-| MM 50j | $11.79 | **$11.52** | **−2.3%** |
-| Market Cap (Yahoo) | $270.8M | **$287.0M** | **+6.0%** |
-| P/E TTM (Yahoo) | 2.40x | **2.54x** | **+0.14x** |
-| Forward P/E | 19.49x | **20.66x** | **+1.17x** |
+| Cours close | $9.75 | **$9.75** | — |
+| Change % vs previous | +6.67% | **+6.67%** | — |
+| Volume seance | 1 101 200 | **1 101 200** | — |
+| Volume vs 20j | 0.75× | **0.75×** | — |
+| RSI 14j | 20.19 | **20.19** | — |
+| ATR 14j | $0.63 | **$0.63** | — |
+| MM 50j | $11.52 | **$11.52** | — |
+| Market Cap (Yahoo) | $287.0M | **$287.0M** | — |
+| P/E TTM (Yahoo) | 2.54x | **2.54x** | — |
+| Forward P/E | 20.66x | **20.66x** | — |
 | Short Interest | 22.84% | **22.84%** | — |
-| **Max Pain** | **$10.00** | **$9.00** | **−$1.00** |
-| Put/Call Ratio | 0.59 | **0.65** | **+0.06** |
-| Call OI % | 62.9% | **60.6%** | **−2.3 pp** |
-| Échéance options | 2026-05-22 | **2026-05-29** | — (nouvelle échéance) |
-| **Score Opportunité (agent)** | 6.5/10 | **6.8/10** | **+0.3 pt** |
-| **Score Global Ajusté (agent)** | 56.8/100 | **65.5/100** | **+8.7 pts** |
-| **Recommandation (agent)** | ATTENDRE | **ACHETER (Réduit)** | **↗️ bascule haussière** |
+| **Max Pain** | **$9.00** | **$9.00** | — |
+| Put/Call Ratio | 0.65 | **0.65** | — |
+| Call OI % | 60.6% | **60.6%** | — |
+| Echeance options | 2026-05-29 | **2026-05-29** | — |
+| **Score Global Ajuste (agent)** | 65.5/100 | **65.5/100** | — |
+| **Recommandation (agent)** | ACHETER (Reduit) | **ACHETER (Reduit)** | — |
 
 **Constats :**
-1. **Stabilité confirmée snapshot 13:00 UTC** — aucune mutation vs snapshot 10:00 UTC. Le close reste à $9.75, le RSI à 20.19, le volume à 1.10M. Cette absence de volatilité intrajour confirme que le gap haussier +6.67% du matin n'a pas généré de suivi technique ni de repositionnement significatif sur la séance.
-2. **Gap haussier +6.67%** franchissant le seuil d'alerte ±5%. Le close à $9.75 marque un rebond technique après 5 jours de consolidation autour de $9.20. Aucun catalyseur fondamental identifiable dans les données.
-2. **RSI en survente extrême (20.19)** — franchissement du seuil 30. Le titre est techniquement survendu, mais la descente de 32.26 à 20.19 en 5 jours traduit une accélération baissière sous-jacente, non un rebond de survente.
-3. **ATR compressé à $0.63** (−19.2%) malgré le gap haussier. La volatilité absolue diminue, mais le gap overnight de 6.67% avec un ATR de 0.63 représente un mouvement de **10.6× l'ATR** — anomalie de volatilité relative.
-4. **Max pain corrigé à $9.00** (aligné avec le spot monté). L'écart spot/max pain se réduit à +8.3% vs +8.7% précédemment. Le niveau est désormais cohérent.
-5. **Put/call en hausse (0.59 → 0.65)** et **call OI en baisse (62.9% → 60.6%)** — repositionnement options légèrement plus défensif malgré le gap haussier. Le marché des dérivés ne suit pas le spot.
-6. **Earnings Q1 2026 toujours non résolus** — résultats attendus le 2026-05-20 (JOUR J) mais absents du snapshot 2026-05-25. [DONNÉES MANQUANTES] sur l'EPS, le revenue et la guidance.
-7. **Scoring agent remonté** : le module recommandation livre désormais un Score Global 65.5/100 et une action ACHETER (sizing Réduit, timing Défavorable). Cette remontée est portée par le Catalyseur (8.0/10) et la Valorisation (7.0/10), malgré un Momentum faible (5.0/10).
+1. **Stabilite totale snapshot 13:00 → 17:00 UTC** — aucune mutation technique, fondamentale ni options. Le marche est ferme Memorial Day ; les donnees sont figees.
+2. **Calendrier earnings mis a jour par FMP** : `data/upcoming_events_latest.json` (date 2026-05-25) indique desormais un evenement earnings FUBO au **2026-05-25** avec `days_until: 0`. Cette date contredit le calendrier precedent (earnings attendu le 2026-05-20) et pose une anomalie temporelle puisque le 25 mai est un jour ferie de bourse aux Etats-Unis. Aucun resultat Q1 2026 (EPS, revenue, guidance) n'est visible dans `data/latest.json` ni dans les donnees FMP enrichies. **Hypothese** : date placeholder FMP ou publication post-close apres reouverture du marche.
+3. **RSI en survente extreme (20.19)** — inchangé depuis 13:00 UTC. Le titre reste techniquement survendu.
+4. **ATR comprime a $0.63** (6.5% du spot) — volatilite absolue faible. Le gap +6.67% represente toujours **10.6× l'ATR**, anomalie de volatilite relative non resolue.
+5. **Max pain $9.00** aligne avec le spot. Ecart spot/max pain +8.3%.
+6. **Put/call 0.65 et call OI 60.6%** inchanges — repositionnement options defensif persistant.
+7. **Scoring agent stable** : Score Global 65.5/100, action ACHETER (Reduit, timing Defavorable), porte par Catalyseur 8.0/10 et Valorisation 7.0/10, malgre Momentum faible 5.0/10.
 
 ---
 
-## 2. Mise à Jour Technique
+## 2. Mise a Jour Technique
 
 | Indicateur | Valeur | Lecture |
 |---|---|---|
-| RSI 14j | 20.19 | **Survente extrême** — sous le seuil 30, en baisse de 12 pts en 5 jours |
-| MM 50j | $11.52 | Cours sous la moyenne — écart **−15.4%** (vs −22.0% le 20-05) |
-| MM 200j | N/A | [DONNÉES MANQUANTES] |
-| ATR 14j | $0.63 | Volatilité absolue compressée (6.5% du spot) |
-| Volume vs 20j | 0.75× | Faible — liquidité réduite persistante |
-| Beta | 2.508 | Volatilité systématique extrême — inchangé |
-| 52W High / Low | $56.64 / $8.31 | Distance au 52W low : **+17.3%** (vs +10.7%) |
+| RSI 14j | 20.19 | **Survente extreme** — sous le seuil 30, en baisse de 12 pts depuis le 20-05 |
+| MM 50j | $11.52 | Cours sous la moyenne — ecart **−15.4%** |
+| MM 200j | N/A | [DONNEES MANQUANTES] |
+| ATR 14j | $0.63 | Volatilite absolue comprimee (6.5% du spot) |
+| Volume vs 20j | 0.75× | Faible — liquidite reduite persistante |
+| Beta | 2.508 | Volatilite systematique extreme |
+| 52W High / Low | $56.64 / $8.31 | Distance au 52W low : **+17.3%** |
 
-**Niveaux clés :**
-- Support immédiat : **$9.26** (low du 2026-05-25)
+**Niveaux cles :**
+- Support immediat : **$9.26** (low du 2026-05-25)
 - Support secondaire : **$8.31** (52W low)
-- Résistance : **$10.00** (niveau psychologique / ancien max pain)
-- Résistance majeure : **$11.52** (MM50)
+- Resistance : **$10.00** (niveau psychologique / ancien max pain)
+- Resistance majeure : **$11.52** (MM50)
 - Stop-loss ATR (2×) : **$8.49** (−12.9%)
 - Take-profit ATR (3×) : **$11.64** (+19.4%)
 
-**Verdict timing :** Défavorable — sous MM50, RSI en survente extrême sans signe de reversal structurel, volume faible. Le gap +6.67% sur ATR compressé ($0.63) représente un mouvement de 10.6× l'ATR, suggérant un gap de nature non technique (possiblement positionnement overnight, short covering, ou flux spéculatif). L'absence de volume de suivi (0.75×) et le put/call qui remonte à 0.65 indiquent que le marché options ne valide pas le gap. Le titre reste dans une tendance baissière primaire (sous MM50, MM50 descendante $11.79 → $11.52).
+**Verdict timing :** Defavorable — sous MM50, RSI en survente extreme sans signe de reversal structurel, volume faible. Le gap +6.67% sur ATR comprime ($0.63) reste anomal (10.6× l'ATR). L'absence de volume de suivi (0.75×) et le put/call a 0.65 indiquent que le marche options ne valide pas le gap. Tendance baissiere primaire intacte.
 
 ---
 
-## 3. Mise à Jour Fondamentale
+## 3. Mise a Jour Fondamentale
 
-Aucune nouvelle donnée fondamentale ni résultat Q1 2026 dans le snapshot 2026-05-25. La divergence Yahoo/FMP persiste intégralement :
+Aucune nouvelle donnee fondamentale ni resultat Q1 2026 dans le snapshot 17:00 UTC. La divergence Yahoo/FMP persiste integralement :
 
 | Source | Market Cap | P/E | P/B | EV/EBITDA |
 |---|---|---|---|---|
 | Yahoo Finance | $287.0M | 2.54x | 0.35x | — |
 | FMP Stable API | ~$3.27B | 5.65x | 3.19x | 16.10x |
 
-**Écart :** ×11.4 sur la capitalisation. Ce hiatus empêche toute valorisation fiable.
+**Ecart :** ×11.4 sur la capitalisation. Ce hiatus empeche toute valorisation fiable.
 
 ### Ratios disponibles (Yahoo + FMP, close 2026-05-25)
 
-| Métrique | Valeur | Lecture |
+| Metrique | Valeur | Lecture |
 |---|---|---|
 | P/E TTM (Yahoo) | 2.54x | Anormalement bas — divergence Yahoo/FMP |
-| Forward P/E | 20.66x | Élevé — anticipation bénéfices faibles NTM |
+| Forward P/E | 20.66x | Eleve — anticipation benefices faibles NTM |
 | EV/Revenue | 0.43x | Bas — valorisation type turnaround/distressed |
-| P/B (Yahoo) | 0.35x | < 1x — patrimoine net suspect ou négatif |
-| P/B (FMP) | 3.19x | Écart ×9.1 avec Yahoo |
-| Beta | 2.508 | Extrême |
-| Short Interest | 22.84% | Très élevé — inchangé |
-| Gross Margin (FMP) | 11.1% | Très faible |
-| Operating Margin (FMP) | −2.6% | Perte opérationnelle |
-| Current Ratio (FMP) | 0.84 | Illiquidité structurelle |
-| Debt/Equity (FMP) | 2.43 | Levier élevé |
-| Tangible Asset Value (FMP) | −$398.9M | Patrimoine net négatif |
+| P/B (Yahoo) | 0.35x | < 1x — patrimoine net suspect ou negatif |
+| P/B (FMP) | 3.19x | Ecart ×9.1 avec Yahoo |
+| Beta | 2.508 | Extreme |
+| Short Interest | 22.84% | Tres eleve — inchangé |
+| Gross Margin (FMP) | 11.1% | Tres faible |
+| Operating Margin (FMP) | −2.6% | Perte operationnelle |
+| Current Ratio (FMP) | 0.84 | Illiquidite structurelle |
+| Debt/Equity (FMP) | 2.43 | Levier eleve |
+| Tangible Asset Value (FMP) | −$398.9M | Patrimoine net negatif |
 | Net Debt/EBITDA (FMP) | 1.01x | Couverture faible |
 | ROIC (FMP) | −2.1% | Destruction de valeur |
-| ROE (FMP) | 56.5% | Élevé — structure de capital très levée |
+| ROE (FMP) | 56.5% | Eleve — structure de capital tres levee |
 
-**Filtre Qualité :** Score **1/6** confirmé. Hors périmètre Quality Compounder. Score Valorisation plafonné à **5/10** (règle absolue Argus-IA).
+**Filtre Qualite :** Score **1/6** confirmé. Hors perimetre Quality Compounder. Score Valorisation plafonne a **5/10** (regle absolue Argus-IA).
 
-**Données Accounting Risk :** Fichier `data/accounting_risk_latest.json` absent — scan comptable non disponible pour cette session.
+**Donnees Accounting Risk :** Fichier `data/accounting_risk_latest.json` absent — scan comptable non disponible pour cette session.
 
 ---
 
-## 4. Mise à Jour Sentiment / Options / News
+## 4. Mise a Jour Sentiment / Options / News
 
 ### Options
 
 | Signal | Valeur | Lecture |
 |---|---|---|
-| Max Pain (API) | $9.00 | Aligné avec le spot monté — écart +8.3% |
-| Put/Call Ratio | 0.65 | Légèrement put-biased — sentiment dérivés prudent |
-| Call OI % | 60.6% | Dominance calls en retrait (−2.3 pp) |
-| Échéance | 2026-05-29 | J+4 — repositionnement possible |
+| Max Pain (API) | $9.00 | Aligné avec le spot — ecart +8.3% |
+| Put/Call Ratio | 0.65 | Legèrement put-biased — sentiment derives prudent |
+| Call OI % | 60.6% | Dominance calls en retrait |
+| Echeance | 2026-05-29 | J+4 — repositionnement possible |
 
-**Lecture institutionnelle :** Le max pain est descendu de $10.00 à $9.00, cohérent avec la montée du spot. L'écart spot/max pain passe de +8.7% à +8.3%. Le put/call remonte à 0.65 (plus défensif) et le call OI recule à 60.6%, signalant que le marché options n'a pas amplifié son positionnement haussier malgré le gap +6.67%. Le setup short squeeze (short interest 22.84% + call OI dominant) reste latent, mais le repli du call OI de 62.9% à 60.6% traduit une prise de profit sur les calls near-term.
+**Lecture institutionnelle :** Setup short squeeze latent (short interest 22.84% + call OI dominant) persiste, mais sans fondement qualitatif. Le marche options n'a pas amplifie son positionnement haussier.
 
 ### Consensus Analystes (FMP)
 
-| Métrique | Valeur |
+| Metrique | Valeur |
 |---|---|
 | Price Target Moyen | $50.25 |
 | Nombre d'analystes | 4 |
-| Mise à jour récente | 0 (dernier mois) |
+| Mise a jour recente | 0 (dernier mois) |
 
-**Lecture :** Écart PT / spot de +415%. Aucune révision récente. Consensus figé.
+**Lecture :** Ecart PT / spot de +415%. Consensus fige.
 
-### News & Événements Corporates
+### News & Evenements Corporates
 
-- `data/news_2026-05-25.json` : **non disponible** — [DONNÉES MANQUANTES]
-- `data/events_2026-05-25.json` : **non disponible** — [DONNÉES MANQUANTES]
-- `data/upcoming_events_2026-05-25.json` : **non disponible** — [DONNÉES MANQUANTES]
-- **Earnings Q1 2026** : attendus le 2026-05-20 (JOUR J) — résultats toujours non visibles dans le snapshot 2026-05-25. Publication post-close probable avec retard API, report de date, ou données non remontées.
+- `data/news_2026-05-25.json` : **non disponible** — [DONNEES MANQUANTES]
+- `data/events_2026-05-25.json` : **vide** (0 evenement) — aucun M&A, buyback, guidance change ou activism detecte.
+- **Earnings Q1 2026** : `data/upcoming_events_latest.json` place l'evenement au **2026-05-25** (jour J, `days_until: 0`), mais le marche est ferme Memorial Day et aucun resultat n'est visible dans `data/latest.json`. [ANOMALIE CALENDRIER]
 
 ### FX Exposure
 
-- `data/fx_exposure_2026-05-25.json` : **non disponible** — [DONNÉES MANQUANTES]
-- Dernière donnée connue (2026-05-20) : Score FX Impact 0.0/10 — neutre.
+- `data/fx_exposure_2026-05-25.json` : Score FX Impact **0.0/10** — neutre. Aucun impact revenus/EPS estimé.
 
-**Verdict Sentiment :** Neutre à prudent. Silence médiatique et institutionnel total. Le repositionnement options légèrement plus défensif (put/call +0.06, call OI −2.3 pp) malgré le gap haussier suggère que le mouvement n'est pas interprété comme un catalyseur structurant par le marché des dérivés.
+### Social Sentiment
+
+- `data/social_sentiment_2026-05-25.json` : 0 mentions Reddit, sentiment 0.0/10, pas de pump detecte. Silence retail total.
+
+**Verdict Sentiment :** Neutre a prudent. Silence mediatique et institutionnel total. Le repositionnement options legerement defensif persiste.
 
 ---
 
@@ -147,24 +147,24 @@ Aucune nouvelle donnée fondamentale ni résultat Q1 2026 dans le snapshot 2026-
 | Composante | Valeur |
 |---|---|
 | Score Global | 68.5 / 100 |
-| Score Global Ajusté | **65.5 / 100** |
-| Score Opportunité | **6.8 / 10** |
+| Score Global Ajuste | **65.5 / 100** |
+| Score Opportunite | **6.8 / 10** |
 | Score Catalyseur | 8.0 / 10 |
 | Score Valorisation | 7.0 / 10 |
 | Score Momentum | 5.0 / 10 |
-| Recommandation agent | **ACHETER (Réduit)** |
-| Timing agent | **Défavorable** |
+| Recommandation agent | **ACHETER (Reduit)** |
+| Timing agent | **Defavorable** |
 
-### Scoring ajusté analyste (règles Argus-IA)
+### Scoring ajuste analyste (regles Argus-IA)
 
-| Composante | Valeur Agent | Valeur Ajustée | Règle appliquée |
+| Composante | Valeur Agent | Valeur Ajustee | Regle appliquee |
 |---|---|---|---|
-| Score Opportunité | 6.8 / 10 | **~5.2 / 10** | Plafonnement Valorisation à 5/10 (Qualité 1/6) ; malus sectoriel XLC bottom 3 (−0.5 pt) ; malus liquidité 0.75× (−0.3 pt) ; malus timing défavorable (−0.3 pt) ; malus données manquantes earnings Q1 (−0.5 pt) |
+| Score Opportunite | 6.8 / 10 | **~5.2 / 10** | Plafonnement Valorisation a 5/10 (Qualite 1/6) ; malus sectoriel XLC bottom 3 (−0.5 pt) ; malus liquidite 0.75× (−0.3 pt) ; malus timing defavorable (−0.3 pt) ; malus donnees manquantes earnings Q1 (−0.5 pt) |
 | Score Catalyseur | 8.0 / 10 | **7.5 / 10** | Malus options put-biased historique −0.5 pt |
-| Score Valorisation | 7.0 / 10 | **5.0 / 10** | Plafonnement absolu Qualité ≤ 3/6 |
+| Score Valorisation | 7.0 / 10 | **5.0 / 10** | Plafonnement absolu Qualite ≤ 3/6 |
 | Score Momentum | 5.0 / 10 | **5.0 / 10** | = |
-| **Score Global Ajusté** | 65.5 / 100 | **~52 / 100** | Recalculé sur base 5.2/10 × 10 = 52 |
-| **Recommandation analyste** | — | **SURVEILLER** | Score < 60 → pas d'achat ; Qualité 1/6 exclut tout sizing standard |
+| **Score Global Ajuste** | 65.5 / 100 | **~52 / 100** | Recalculé sur base 5.2/10 × 10 = 52 |
+| **Recommandation analyste** | — | **SURVEILLER** | Score < 60 ; Qualite 1/6 exclut tout sizing standard |
 
 **Quant Report (`data/quant_report_latest.json`) :**
 - Date 2026-05-17 — n = 0, pas assez de signaux historiques FUBO
@@ -172,15 +172,15 @@ Aucune nouvelle donnée fondamentale ni résultat Q1 2026 dans le snapshot 2026-
 - **Conclusion :** Aucune calibration auto applicable.
 
 **Sector Rotation (`data/sector_rotation_latest.json`) :**
-- Fichier non disponible pour 2026-05-25. Dernière donnée connue (2026-05-20) : XLC classé **bottom 3** (momentum score 0.0 / 10).
+- Date 2026-05-25 : XLC classé **bottom 3** (momentum score 0.0 / 10).
 - Malus sectoriel maintenu : −0.5 pt composite.
 
 **Geo Risk (`data/geo_risk_latest.json`) :**
-- Date 2026-05-17 — 0 ticker FUBO flaggé. Score Politique non calculé.
+- Date 2026-05-17 — FUBO non flagge. Score Politique non calcule.
 
 ---
 
-## 6. Révision des Niveaux SL / TP
+## 6. Revision des Niveaux SL / TP
 
 | Niveau | Prix | Commentaire |
 |---|---|---|
@@ -188,56 +188,44 @@ Aucune nouvelle donnée fondamentale ni résultat Q1 2026 dans le snapshot 2026-
 | Stop-Loss | **$8.49** | 2× ATR (−12.9%) |
 | Take-Profit | **$11.64** | 3× ATR (+19.4%) |
 | Ratio R/R | **1.5×** | Stable |
-| Max Pain | $9.00 | Aligné — pinning théorique réduit |
+| Max Pain | $9.00 | Aligné — pinning theorique reduit |
 
-**Condition de révision post-earnings (si résultats disponibles) :**
-- Beat + guidance raise → réviser TP à $13.00+ (breakout MM50)
-- Miss + guidance down → abaisser SL à $7.50 (support psychologique) voire $6.80 (52W low extension)
+**Condition de revision post-earnings (si resultats disponibles) :**
+- Beat + guidance raise → reviser TP a $13.00+ (breakout MM50)
+- Miss + guidance down → abaisser SL a $7.50 (support psychologique) voire $6.80 (52W low extension)
 
 ---
 
-## 7. Conclusion — Thèse Confirmée, Modifiée ou Invalidée ?
+## 7. Conclusion — These Confirmee, Modifiee ou Invalidee ?
 
-### **Verdict : THÈSE MODIFIÉE — SURVEILLER (gap haussier technique non validé par fondamental ni options, scoring agent remonté mais ajustement analyste maintenant la prudence)**
+### **Verdict : THESE CONFIRMEE — SURVEILLER (snapshot 17:00 UTC stable vs 13:00, anomalie calendrier earnings a surveiller)**
 
-La thèse d'**ATTENDRE** du 2026-05-20 est **modifiée** par le snapshot 2026-05-25. Quatre observations :
+La these de **SURVEILLER** du snapshot 13:00 UTC est **confirmee** par le snapshot 17:00 UTC. Trois observations :
 
-1. **Gap haussier +6.67% non expliqué par le fondamental** : le close passe à $9.75 sans catalyseur identifiable, sans résultats Q1, sans news, sans révision analyste. Le gap représente 10.6× l'ATR compressé ($0.63), suggérant un mouvement de nature non technique (short covering, repositionnement overnight, ou flux spéculatif isolé). Le volume de suivi reste faible (0.75×), invalidant l'hypothèse d'un break-out institutionnel.
+1. **Absence totale de mutation technique et fondamentale** : toutes les metriques (cours, RSI, ATR, volume, options, max pain, put/call, call OI, scoring agent) sont identiques entre 13:00 et 17:00 UTC. Le marche ferme Memorial Day explique cette stabilite.
 
-2. **Survente extrême (RSI 20.19)** : le titre est désormais en survente extrême, avec un RSI descendu de 32.26 à 20.19 en 5 jours. Cette configuration, combinée au short interest massif (22.84%) et au call OI dominant (60.6%), laisse entrevoir un **potentiel rebond technique de courte durée** vers $10.00–$11.00. Cependant, le put/call qui remonte à 0.65 et le call OI qui reculent de 62.9% à 60.6% indiquent que le marché options ne s'engage pas dans un short squeeze actif.
+2. **Anomalie calendrier earnings** : `upcoming_events_latest.json` place desormais l'earnings FUBO au **2026-05-25** (jour J), contre le 2026-05-20 precedemment attendu. Cette date est incoherente avec le jour ferie Memorial Day. Aucun resultat Q1 n'est visible dans les donnees. Cette anomalie doit etre resolue des la reouverture du marche (2026-05-26). Si l'earnings est effectivement post-close le 26 mai, un `_preview.md` ou `_earnings.md` sera genere automatiquement.
 
-3. **Scoring agent basculé en ACHETER (Réduit)** : le module recommandation livre un Score Global 65.5/100 avec une action ACHETER (sizing Réduit, timing Défavorable). Cette remontée est portée par le Catalyseur (8.0/10) et la Valorisation (7.0/10). **Cependant**, l'ajustement analyste selon les règles Argus-IA ramène le Score Opportunité à ~5.2/10 (plafonnement Qualité 1/6, malus sectoriel, liquidité, timing, données manquantes), soit un Score Global Ajusté ~52/100. Ce score maintenant la recommandation dans la zone **SURVEILLER** (35–49) / **ATTENDRE** (50–59), loin de l'ACHETER.
-
-4. **Fondamental inchangé et earnings Q1 toujours en attente** : le Filtre Qualité reste à 1/6, le patrimoine net négatif persiste (−$398.9M), la divergence Yahoo/FMP n'est pas résolue, et les résultats Q1 2026 (attendus le 2026-05-20) restent invisibles dans le snapshot 2026-05-25. L'absence de publication earnings après 5 jours de délai est un signal de qualité de données ou de report de date à surveiller impérativement.
+3. **Scoring agent stable en ACHETER (Reduit)**, mais ajustement analyste maintenant **SURVEILLER (~52/100)** : le plafonnement Qualite 1/6, le malus sectoriel XLC bottom 3, la liquidite reduite et le timing defavorable maintiennent le titre hors de la zone d'achat institutionnelle.
 
 **Arguments confirmant la prudence :**
-1. **Qualité dégradée 1/6** — patrimoine net négatif, FCF négatif, current ratio 0.84, debt/equity 2.43, ROIC −2.1%.
-2. **Divergence Yahoo/FMP persistante** — market cap $287M vs ~$3.3B (×11.4), rendant toute valorisation fiable impossible.
-3. **Timing défavorable** — sous MM50 (−15.4%), RSI en survente extrême sans signe de reversal, volume faible.
-4. **Liquidité réduite** — volume 0.75×, risque de slippage majeur sur toute position.
-5. **Données manquantes** — pas de résultats Q1, pas de news, pas de accounting risk, pas de sector rotation, pas de social sentiment pour cette session.
+1. **Qualite degradee 1/6** — patrimoine net negatif, FCF negatif, current ratio 0.84, debt/equity 2.43, ROIC −2.1%.
+2. **Divergence Yahoo/FMP persistante** — market cap $287M vs ~$3.3B (×11.4).
+3. **Timing defavorable** — sous MM50 (−15.4%), RSI en survente extreme sans signe de reversal, volume faible.
+4. **Liquidite reduite** — volume 0.75×, risque de slippage majeur.
+5. **Donnees manquantes** — pas de resultats Q1, pas de news, pas de accounting risk, pas de social sentiment.
 6. **Quant report non significatif** — pas assez d'historique.
 
-**Seuls éléments modifiés vs snapshot 2026-05-20 :**
-- **Cours :** $9.20 → **$9.75** (+5.98%)
-- **RSI :** 32.26 → **20.19** (survente extrême)
-- **ATR :** $0.78 → **$0.63** (compression)
-- **Max Pain :** $10.00 → **$9.00**
-- **Put/Call :** 0.59 → **0.65**
-- **Call OI :** 62.9% → **60.6%**
-- **Score Global agent :** 56.8 → **65.5** (basculé ACHETER Réduit)
-- **Recommandation analyste ajustée :** ATTENDRE → **SURVEILLER** (évolution technique, pas fondamentale)
-
-**Recommandation finale :** **SURVEILLER — pas de position.** Le gap +6.67% sur fond de survente extrême (RSI 20.19) et de short interest massif (22.84%) dessine un potentiel rebond technique de courte durée vers $10.00–$10.50, mais ce scénario est purement spéculatif et non investissable au regard de la qualité dégradée (1/6). Le scoring agent ACHETER (Réduit) ne doit pas être suivi sans confirmation technique (volume > 1.5× moyenne 20j + breakout MM50) et résolution des données fondamentales (earnings Q1 + divergence Yahoo/FMP). Toute entrée éventuelle resterait un trade de très court terme avec sizing minimal et stop-loss strict à $8.49.
+**Recommandation finale :** **SURVEILLER — pas de position.** Le gap +6.67% sur fond de survente extreme (RSI 20.19) et de short interest massif (22.84%) dessine un potentiel rebond technique de courte duree vers $10.00–$10.50, mais ce scenario reste purement speculatif. Le scoring agent ACHETER (Reduit) ne doit pas etre suivi sans confirmation technique (volume > 1.5× moyenne 20j + breakout MM50) et resolution des donnees fondamentales (earnings Q1 + divergence Yahoo/FMP). Toute entree eventuelle resterait un trade de tres court terme avec sizing minimal et stop-loss strict a $8.49.
 
 ---
 
 *Analyste institutionnel senior — Desk Argus-IA*
-*Date : 2026-05-25 (snapshot 13:00 UTC)*
-*Sources : data/latest.json (fetched 2026-05-25T13:00:01Z), data/recommandations_latest.json, data/quant_report_latest.json (2026-05-17), data/geo_risk_latest.json (2026-05-17), data/quality_report_latest.json (2026-05-17)*
+*Date : 2026-05-25 (snapshot 17:00 UTC)*
+*Sources : data/latest.json (fetched 2026-05-25T17:00:11Z), data/recommandations_latest.json, data/quant_report_latest.json (2026-05-17), data/geo_risk_latest.json (2026-05-17), data/sector_rotation_latest.json (2026-05-25), data/social_sentiment_latest.json (2026-05-25), data/fx_exposure_latest.json (2026-05-25), data/upcoming_events_latest.json (2026-05-25), data/events_latest.json (2026-05-25)*
 
 ---
 
-## Annexe — Traitement du FULL REFRESH DRAFT
+## Annexe — Traitement du FULL REFRESH DRAFT (17:00 UTC)
 
-Le fichier `FUBO_2026-05-25_DRAFT_refresh.md` a été analysé. Les triggers PRICE_GAP (+6.67%) et ATR_SPIKE (6.46%) sont **déjà intégrés** dans la présente analyse. La thèse précédente (SURVEILLER, Score ~52/100 ajusté analyste) n'est pas invalidée par ces triggers — ils confirment une volatilité technique anormale sans catalyseur fondamental. Le DRAFT est donc **archivé** sans génération de `_init.md` supplémentaire (l'`_update.md` du 2026-05-25 couvre déjà l'événement).
+Le fichier `FUBO_2026-05-25_DRAFT_refresh.md` (17:00 UTC) a ete analyse. Les triggers PRICE_GAP (+6.67%) et ATR_SPIKE (6.46%) sont **deja integralement traites** dans l'update du snapshot 13:00 UTC. Le snapshot 17:00 UTC n'apportant aucune donnee nouvelle (marche ferme Memorial Day), le DRAFT est **archive sans generation de `_init.md` supplementaire**.

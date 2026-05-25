@@ -6,6 +6,7 @@
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
+| 2026-05-25 | [RKLB_2026-05-25_update.md](RKLB_2026-05-25_update.md) | Mise à jour post-pipeline 17:00 UTC — stabilité totale vs 13:00 UTC (marché fermé Memorial Day), thèse ÉVITER confirmée |
 | 2026-05-25 | [RKLB_2026-05-25_update.md](RKLB_2026-05-25_update.md) | Mise à jour post-pipeline 13:00 UTC — gap +8.22%, nouveau 52W high $139.76, ATR expansion, thèse ÉVITER confirmée, [ANOMALIE DATA] Max Pain $73.00 suspect |
 | 2026-05-20 | [RKLB_2026-05-20_update.md](RKLB_2026-05-20_update.md) | Snapshot 13:00 UTC — anomalie options RÉSOLUE (Max Pain $150.00, Put/Call 0.85, Call OI 54.0%), thèse ÉVITER confirmée |
 | 2026-05-20 | [RKLB_2026-05-20_update.md](RKLB_2026-05-20_update.md) | Snapshot matin — confirmation thèse ÉVITER, [ANOMALIE DATA] flux options interrompu |

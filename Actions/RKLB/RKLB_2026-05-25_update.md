@@ -1,6 +1,6 @@
 # RKLB — Mise à Jour Post-Pipeline (2026-05-25)
 
-> Source : `data/2026-05-25.json` (fetched 13:00 UTC) | `data/recommandations_2026-05-25.json` | `data/sector_rotation_2026-05-25.json` | Validation 22/26 tickers OK (0 warning sur RKLB)
+> Source : `data/latest.json` (fetched 17:00 UTC) | `data/recommandations_2026-05-25.json` | Validation 22/26 tickers OK (0 warning sur RKLB)
 
 ---
 
@@ -192,4 +192,4 @@ Toute position longue actuelle expose à un drawdown de –18,3 % (SL) en 1–2 
 
 ---
 
-*Rapport généré le 2026-05-25 — Données : `data/2026-05-25.json`, `data/recommandations_2026-05-25.json`, `data/upcoming_events_2026-05-25.json`, `data/events_2026-05-25.json`, `data/news_2026-05-25.json`, `data/social_sentiment_2026-05-25.json`, `data/geo_risk_latest.json` (2026-05-17), `data/sector_rotation_2026-05-25.json`, `data/fx_exposure_2026-05-25.json`, `data/quant_report_latest.json` (2026-05-17)*
+*Rapport généré le 2026-05-25 — Données : `data/latest.json` (17:00 UTC), `data/recommandations_2026-05-25.json`, `data/upcoming_events_2026-05-25.json`, `data/events_2026-05-25.json`, `data/news_2026-05-25.json`, `data/social_sentiment_2026-05-25.json`, `data/geo_risk_latest.json` (2026-05-17), `data/sector_rotation_2026-05-25.json`, `data/fx_exposure_2026-05-25.json`, `data/quant_report_latest.json` (2026-05-17)*
