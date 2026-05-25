@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER (Réduit)
-- **Score Global :** 66.0/100 (ajusté 63.0)
-- **Score Opportunité :** 6.6/10 (C:6.5 V:8.0 M:4.5)
-- **Prix Cible :** $18.56 (consensus FMP, 9 analysts)
-- **Stop-Loss :** $11.39 (2×ATR)
-- **Statut Thèse :** Score ajusté franchit seuil achat réduit — timing défavorable, volume normalisé (1.08×), consolidation autour de $12.20–$12.30, sizing réduit
+- **Recommandation :** ATTENDRE
+- **Score Global :** 62.2/100 (ajusté 54.2)
+- **Score Opportunité :** 6.2/10 (C:6.5 V:8.0 M:3.0)
+- **Prix Cible :** $18.39 (consensus FMP, 10 analysts)
+- **Stop-Loss :** $11.73 (2×ATR)
+- **Statut Thèse :** Score ajusté franchit sous le seuil achat réduit (54.2) — momentum dégradé, options moins haussières, timing défavorable, attente confirmation technique
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
@@ -38,7 +38,8 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q2 2026 :** 13 août 2026 (Est EPS $0.20–$0.27, Rev $5.4B) — 80 jours
+- **Expiration Options :** 2026-05-29 (4 jours, max pain $13.00)
 
 ---
 
@@ -54,10 +55,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-20
+- **Date :** 2026-05-25
 - **Type :** update
-- **Fichier :** `NU_2026-05-20_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ACHETER (Réduit)**
+- **Fichier :** `NU_2026-05-25_update.md`
+- **Conclusion :** **Thèse : MODIFIÉE — ATTENDRE**
 
 ---
 
