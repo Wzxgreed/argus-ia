@@ -1,15 +1,15 @@
-# TEST — Mise à Jour Quotidienne (2026-05-25) — Snapshot 17:00 UTC
+# TEST — Mise à Jour Quotidienne (2026-05-25) — Snapshot 21:00 UTC
 
 > **Date :** 2026-05-25
-> **Heure snapshot :** 17:00 UTC
-> **Sources :** `data/2026-05-25.json` (fetched_at 2026-05-25T17:00:01 UTC), `data/recommandations_latest.json`, `data/upcoming_events_latest.json`, `data/geo_risk_latest.json`, `data/quant_report_latest.json`, `data/sector_rotation_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`, `data/events_latest.json`
-> **Type :** Mise à jour de confirmation — snapshot 17:00 UTC vs analyse précédente (2026-05-25 13:00 UTC)
+> **Heure snapshot :** 21:00 UTC
+> **Sources :** `data/2026-05-25.json` (fetched_at 2026-05-25T21:00:11 UTC), `data/recommandations_latest.json`, `data/upcoming_events_latest.json`, `data/geo_risk_latest.json`, `data/quant_report_latest.json`, `data/sector_rotation_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`, `data/events_latest.json`
+> **Type :** Mise à jour de confirmation — snapshot 21:00 UTC vs analyse précédente (2026-05-25 17:00 UTC)
 
 ---
 
 ## Résumé des Changements
 
-| Métrique | 2026-05-25 (13:00 UTC) | 2026-05-25 (17:00 UTC) | Delta |
+| Métrique | 2026-05-25 (17:00 UTC) | 2026-05-25 (21:00 UTC) | Delta |
 |----------|------------------------|------------------------|-------|
 | Cours close | $46.339 | **$46.339** | **Stable** |
 | Previous close | $45.628 | $45.628 | — |
@@ -25,9 +25,10 @@
 | Timing | Favorable | **Favorable** | Confirmé |
 
 **Observations clés :**
-- **Aucun changement de données entre les snapshots 13:00 UTC et 17:00 UTC.** Le cours, le volume, les indicateurs techniques et les scores agents sont strictement inchangés.
+- **Aucun changement de données entre les snapshots 17:00 UTC et 21:00 UTC.** Le cours, le volume, les indicateurs techniques et les scores agents sont strictement inchangés.
+- **Memorial Day — marchés US fermés.** L'absence totale de mouvement est conforme au calendrier boursier. Le snapshot 21:00 UTC reflète l'état de clôture du vendredi 22 mai.
 - **Volume toujours effondré à 0.27× la moyenne 20j** — signal de fragilité structurelle persistant.
-- **Earnings JOUR J (2026-05-25)** — flaggé dans `upcoming_events_latest.json` avec `days_until: 0`. Aucun résultat post-earnings n'est injecté dans `data/2026-05-25.json` à 17:00 UTC. L'événement reste non observable après 5 jours de flag JOUR J (depuis le 2026-05-20).
+- **Earnings JOUR J (2026-05-25)** — flaggé dans `upcoming_events_latest.json` avec `days_until: 0`. Aucun résultat post-earnings n'est injecté dans `data/2026-05-25.json` à 21:00 UTC. L'événement reste non observable après 6 jours de flag JOUR J (depuis le 2026-05-20).
 - **Score Global inchangé** dans la zone ACHETER réduit (60–74).
 - **Rapport de validation :** 22/26 tickers OK. TEST non listé dans les [ERROR] ni [WARNING] — données considérées stables.
 
@@ -38,20 +39,20 @@
 - **Cours :** $46.339 (open $46.21 / high $46.46 / low $46.21 / previous close $45.628)
 - **Variation session :** +1.56% vs previous close
 - **Range intraday :** $46.21–$46.46 (0.54%) — range très étroit, illiquide
-- **RSI 14j :** 59.86 — zone neutre favorable, proche de 60. Stable vs 13:00 UTC.
+- **RSI 14j :** 59.86 — zone neutre favorable, proche de 60. Stable vs 17:00 UTC.
 - **ATR 14j :** $1.31 — volatilité inchangée
 - **MM 50j :** $43.41 — cours maintenu à +6.75% au-dessus
 - **MM 200j :** N/A
 - **Volume relatif :** 0.27× moyenne 20j (500 vs 1,880) — **attention : liquidité quasi-nulle**
 - **52W range :** [$40.27, $57.74] — positionnement à +15.1% du 52W low, −19.8% du 52W high
 
-**Verdict timing :** Favorable. La configuration technique reste intacte : cours au-dessus de la MM50, RSI dans la zone neutre favorable proche de 60. Cependant, le volume effondré (0.27× moyenne) invalide partiellement le signal haussier. Un mouvement sur faible liquidité reste fragile et expose au risque de repli rapide si un ordre de taille intervient.
+**Verdict timing :** Favorable. La configuration technique reste intacte : cours au-dessus de la MM50, RSI dans la zone neutre favorable proche de 60. Cependant, le volume effondré (0.27× moyenne) invalide partiellement le signal haussier. Un mouvement sur faible liquidité reste fragile et expose au risque de repli rapide si un ordre de taille intervient. Le marché fermé aujourd'hui empêche toute validation dynamique.
 
 ---
 
 ## Mise à Jour Fondamentale
 
-Aucune donnée fondamentale nouvelle dans le snapshot 2026-05-25 17:00 UTC :
+Aucune donnée fondamentale nouvelle dans le snapshot 2026-05-25 21:00 UTC :
 - **Filtre Qualité (6 critères) :** 0/6 — 🔴 Hors périmètre (inchangé)
 - **Sector / Industry :** null / null — TAM et comps indisponibles
 - **P/E, Forward P/E, EV/EBITDA, P/B, Beta, Dividend Yield :** [DONNÉES MANQUANTES]
@@ -60,7 +61,7 @@ Aucune donnée fondamentale nouvelle dans le snapshot 2026-05-25 17:00 UTC :
 - **Agent Quant :** 0 signal historique — calibration insuffisante (p-value 1.0)
 - **Validation données :** TEST non listé dans les [ERROR] ni [WARNING] du rapport de validation (22/25 OK)
 
-**Earnings JOUR J (2026-05-25) :** `data/upcoming_events_latest.json` flague un earnings pour TEST avec `days_until: 0`. Aucun résultat post-earnings n'est injecté dans `data/2026-05-25.json` à 17:00 UTC. L'événement earnings (source FMP) reste non observable. Le mouvement intraday (+1.56% vs previous close, range 0.54%) est purement technique / microstructurel sur faible liquidité. Après 5 jours de flag JOUR J (depuis le 2026-05-20), l'hypothèse d'un retard de reporting ou d'une erreur de calendrier FMP se renforce.
+**Earnings JOUR J (2026-05-25) :** `data/upcoming_events_latest.json` flague un earnings pour TEST avec `days_until: 0`. Aucun résultat post-earnings n'est injecté dans `data/2026-05-25.json` à 21:00 UTC. L'événement earnings (source FMP) reste non observable. Après 6 jours de flag JOUR J (depuis le 2026-05-20), l'hypothèse d'un retard de reporting, d'une erreur de calendrier FMP ou d'un ticker de test sans publication réelle se renforce.
 
 ---
 
@@ -71,13 +72,13 @@ Aucune donnée fondamentale nouvelle dans le snapshot 2026-05-25 17:00 UTC :
 | **Social Sentiment** | 0 mentions, score 0/10, pas de pump | Aucune discussion retail (inchangé) |
 | **Options** | [DONNÉES MANQUANTES] | Max pain, GEX, IV Rank indisponibles (`options: {}`) |
 | **Event-Driven** | 0 événement corporate | Aucun M&A, buyback, guidance change, activism |
-| **Geo Risk** | Non flaggé | Score politique 2/10, pas d'événement spécifique pour TEST |
+| **Geo Risk** | Non flaggé | Pas d'événement spécifique pour TEST dans `geo_risk_latest.json` |
 | **FX Exposure** | Exposition 25%, impact 0%, divergence alignée | DXY neutre, pas de headwind/tailwind |
 | **Consensus analystes** | [DONNÉES MANQUANTES] | Pas de price target ni upgrades/downgrades |
-| **Upcoming Events** | Earnings 2026-05-25 — days_until 0 | JOUR J — résultats toujours non observables à 17:00 UTC |
+| **Upcoming Events** | Earnings 2026-05-25 — days_until 0 | JOUR J — résultats toujours non observables à 21:00 UTC |
 | **News Yahoo** | 0 article | Aucune news collectée pour TEST |
 
-Aucun flux institutionnel, insider trade ou unusual options activity rapporté. L'absence totale de couverture analyste et de discussion retail rend l'interprétation purement technique.
+Aucun flux institutionnel, insider trade ou unusual options activity rapporté. L'absence totale de couverture analyste et de discussion retail rend l'interprétation purement technique. Le jour férié US n'a produit aucune information nouvelle.
 
 ---
 
@@ -106,11 +107,11 @@ Aucun flux institutionnel, insider trade ou unusual options activity rapporté. 
 
 ## Niveaux et Ratio R/R
 
-Niveaux recalculés sur le snapshot 2026-05-25 17:00 UTC (cours $46.34, ATR $1.31) :
+Niveaux recalculés sur le snapshot 2026-05-25 21:00 UTC (cours $46.34, ATR $1.31) :
 
 | Niveau | Valeur | Note |
 |--------|--------|------|
-| Cours actuel | $46.34 | Snapshot 17:00 UTC |
+| Cours actuel | $46.34 | Snapshot 21:00 UTC |
 | Stop-loss suggéré (2×ATR) | **$43.72** | −5.65% sous le cours |
 | Take-profit suggéré (3×ATR) | **$50.27** | +8.48% au-dessus du cours |
 | Ratio R/R | **1.5** | Standard agent |
@@ -121,7 +122,7 @@ Niveaux recalculés sur le snapshot 2026-05-25 17:00 UTC (cours $46.34, ATR $1.3
 - **Résistance 52W high :** $57.74 (+24.60%) — objectif théorique
 - **Support 52W low :** $40.27 (−13.09%) — dernier niveau de défense
 
-**Révision des niveaux :** Inchangés vs snapshot 13:00 UTC. Le stop-loss à $43.72 et le take-profit à $50.27 restent valides. Le ratio R/R reste à 1.5.
+**Révision des niveaux :** Inchangés vs snapshot 17:00 UTC. Le stop-loss à $43.72 et le take-profit à $50.27 restent valides. Le ratio R/R reste à 1.5.
 
 **Attention :** Avec un volume de 500 actions, le slippage sur un stop-loss serait extrême. Les niveaux suggérés par l'agent sont théoriques ; en pratique, une exécution à $43.72 pourrait ne pas être réalisable sans impact de marché significatif.
 
@@ -129,19 +130,20 @@ Niveaux recalculés sur le snapshot 2026-05-25 17:00 UTC (cours $46.34, ATR $1.3
 
 ## Conclusion
 
-**Verdict : ACHETER (Réduit) — Thèse CONFIRMÉE, stable entre 13:00 et 17:00 UTC.**
+**Verdict : ACHETER (Réduit) — Thèse CONFIRMÉE, stabilité totale entre 17:00 et 21:00 UTC (marché fermé Memorial Day).**
 
-Le snapshot 17:00 UTC confirme intégralement les niveaux du snapshot 13:00 UTC. Aucun mouvement de cours, de volume ou d'indicateur technique n'est observé sur la période intermédiaire :
+Le snapshot 21:00 UTC confirme intégralement les niveaux du snapshot 17:00 UTC. Aucun mouvement de cours, de volume ou d'indicateur technique n'est observé — conforme au jour férié US (Memorial Day) :
 - **Cours stable** à $46.34 (+1.56% vs previous close)
 - **RSI stable** à 59.86 — momentum haussier intact, pas de surachat
 - **MM50 inchangée** à $43.41 — cours à +6.75% au-dessus, écart de sécurité maintenu
 - **Volume toujours effondré** à 500 (0.27× moyenne 20j) — **⚠️ signal de fragilité critique persistant**
+- **Aucune news, aucun événement corporate, aucun flux institutionnel** détecté sur la période
 
 **Trois facteurs de prudence renforcés :**
 1. **Filtre Qualité 0/6** — aucun critère qualité vérifiable
 2. **Liquidité structurellement faible** — volume moyen 20j < 2K actions, aujourd'hui à 0.27×. Le risque de slippage et de mouvement artificiel est maximal.
 3. **Opacité fondamentale totale** — absence de données sectorielles, comptables, de gouvernance et de couverture analyste
-4. **Earnings JOUR J non observable** — après 5 jours de flag (depuis 2026-05-20), aucun résultat n'a été publié ou injecté. Cela renforce l'hypothèse d'une erreur de calendrier FMP ou d'un reporting différé.
+4. **Earnings JOUR J non observable** — après 6 jours de flag (depuis 2026-05-20), aucun résultat n'a été publié ou injecté. L'hypothèse d'un ticker de test sans reporting réel se renforce.
 
 **Action recommandée :**
 - **ACHETER (Réduit)** uniquement pour les profils tolérants au risque. Le timing Favorable et le maintien au-dessus de la MM50 offrent un setup technique court terme, mais le volume effondré invalide la conviction.
@@ -153,4 +155,4 @@ Le snapshot 17:00 UTC confirme intégralement les niveaux du snapshot 13:00 UTC.
 
 ---
 
-*Généré automatiquement par le pipeline Argus-IA — snapshot 17:00 UTC. Données : `data/2026-05-25.json`, `data/recommandations_latest.json`, `data/upcoming_events_latest.json`, `data/geo_risk_latest.json`, `data/quant_report_latest.json`, `data/sector_rotation_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`, `data/events_latest.json`.*
+*Généré automatiquement par le pipeline Argus-IA — snapshot 21:00 UTC. Données : `data/2026-05-25.json`, `data/recommandations_latest.json`, `data/upcoming_events_latest.json`, `data/geo_risk_latest.json`, `data/quant_report_latest.json`, `data/sector_rotation_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`, `data/events_latest.json`.*

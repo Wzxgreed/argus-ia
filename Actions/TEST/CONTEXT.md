@@ -49,7 +49,7 @@
 - **Date :** 2026-05-25
 - **Type :** update
 - **Fichier :** `TEST_2026-05-25_update.md`
-- **Conclusion :** **Verdict : ACHETER (Réduit) — Thèse CONFIRMÉE, stable entre 13:00 et 17:00 UTC
+- **Conclusion :** **Verdict : ACHETER (Réduit) — Thèse CONFIRMÉE, stabilité totale entre 17:00 et 21:00 UTC (marché fermé Memorial Day)
 
 ---
 

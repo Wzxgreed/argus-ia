@@ -49,7 +49,7 @@
 - **Date :** 2026-05-25
 - **Type :** update
 - **Fichier :** `AAPL_2026-05-25_update.md`
-- **Conclusion :** > **Référence analyse précédente :** [AAPL_2026-05-20_update.md](AAPL_2026-05-20_update.md) (snapshot 13:00 UTC)
+- **Conclusion :** Snapshot 21:00 UTC confirmé, stabilité totale vs 17:00 UTC (marché fermé Memorial Day). Thèse SURVEILLER confirmée — RSI 91.1, divergence options baissière, pas d'entrée long à $308+.
 
 ---
 
