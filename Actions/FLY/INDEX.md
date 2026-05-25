@@ -1,7 +1,7 @@
 # FLY
 
-## These courante
-**ATTENDRE** — Consolidation technique stable a $42.57 (RSI 65.57, MM50 $33.16, cours +28.4% au-dessus de la MM50). Fondamentaux inchanges et defavorables (Filtre Qualite 2/6, rentabilite non demontree, Forward P/E -37.29, EV/Revenue 34.2x). Score Opportunite 5.0/10, Score Global 50.5 (55.5 ajuste). Consensus PT $42.45 aligne sur le spot (11 analystes). **Anomalie options RESOLUE** : Max Pain normalise a $65.00 (vs $15.00 artefact a 10:00 UTC), put/call 0.66, call OI 60.4% — expiration 22/05 (2 jours). Headwind sectoriel XLI sous-performant SPY (RS 20j -5.79%). Volume stable 5.8M (0.92x moy. 20j). Divergence Yahoo/FMP sur Market Cap ($6.82B vs $3.40B) et P/B (6.17 vs 2.86) persistante — [DONNEES PARTIELLES]. Pas de position recommandee. Prochain catalyst : earnings Q2 2026 le 2026-08-04 (76 jours).
+## Thèse courante
+**ÉVITER** — Gap overnight +15.49% à $49.50 sans catalyst ni news (RSI 72.38 surachat, MM50 $34.62, cours +43.0% au-dessus de la MM50). Fondamentaux inchangés et défavorables (Filtre Qualité 2/6, rentabilité non démontrée, Forward P/E -43.36, EV/Revenue 40.2×). Score Opportunité 4.2/10, Score Global 41.8 (31.8 ajusté). Consensus PT $42.45 **-14.2% sous le spot** (11 analystes). Options : Max Pain $36.00 (exp. 29/05), put/call 0.74, call OI 57.4%. Headwind sectoriel XLI sous-performant SPY (RS 20j -4.85%). Volume accéléré 8.77M (1.37× moy. 20j). Divergence Yahoo/FMP sur Market Cap ($7.93B vs $3.40B) et P/B (7.17 vs 2.86) persistante — [DONNÉES PARTIELLES]. Pas de position recommandée. Prochain catalyst : earnings Q2 2026 le 2026-08-04 (71 jours).
 
 ## Historique
 | Date | Fichier | Type |
@@ -11,10 +11,11 @@
 | 2026-05-19 | [_FLY_2026-05-19_update_17h.md](_FLY_2026-05-19_update_17h.md) | Mise a jour 17:00 UTC — snapshot partiel (volume sous-estime), these ATTENDRE confirmee avec degradation du momentum (archive) |
 | 2026-05-19 | [FLY_2026-05-19_update.md](FLY_2026-05-19_update.md) | **Mise a jour 21:00 UTC (close)** — correction volume (5.8M vs 2.9M), remontee cours +0.59% en fin de seance, these ATTENDRE confirmee |
 | 2026-05-20 | [FLY_2026-05-20_update.md](FLY_2026-05-20_update.md) | **Mise a jour 13:00 UTC** — cours stable $42.57, **anomalie options RESOLUE** (max pain $15 → $65, OI restaures), these ATTENDRE confirmee, DRAFT_refresh traite et archive |
+| 2026-05-25 | [FLY_2026-05-25_update.md](FLY_2026-05-25_update.md) | **Mise a jour 10:00 UTC** — **Gap +15.49%** a $49.50 sans catalyst, RSI 72.38 surachat, consensus $42.45 sous le spot, **these MODIFIEE : ATTENDRE → EVITER**, downgrade Score Global 31.8 |
 
 ## Agenda
 - Prochain earnings : **2026-08-04** (Q2 2026) — Est EPS -$0.60 a -$0.45, Rev $0.1B
-- Expiration options : **2026-05-22** (2 jours)
+- Expiration options : **2026-05-29** (4 jours)
 
 ## Alertes actives
-- Aucune
+- **🔴 GAP NON EXPLIQUE** — Gap +15.49% sans catalyst ni news (2026-05-25). Surveillance post-gap obligatoire.
