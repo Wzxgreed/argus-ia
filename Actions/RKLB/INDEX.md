@@ -1,11 +1,12 @@
 # RKLB
 
 ## Thèse courante
-**2026-05-20 (13:00 UTC)** — ÉVITER. Snapshot pré-market, cours inchangé $127.31 (close 19/05). RSI 76.14 — surachat persistant. ATR $11.09 stable. Écart MM50j +56.1%. Valorisation déconnectée (Forward P/E –14 942, P/B 40.19×, spot +51.2% vs consensus $84.20). Filtre Qualité 3/6 — hors périmètre institutionnel. [ANOMALIE DATA RÉSOLUE] Max Pain restauré à $150.00 (13h UTC) ; Put/Call 0.85 et Call OI 54.0% de retour — flux options rétabli. [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $73.68 Mds vs FMP $37.02 Mds. Aucune news. Score global 39.5/100 ajusté 29.5 — ÉVITER confirmé. SL $105.13 (–17.4%), TP $160.58 (+26.1%), R/R 1.5:1. Support immédiat $115.23 tenu 19/05. Attendre retour $80–$95 ou inflexion fondamentale.
+**2026-05-25** — ÉVITER. Gap +8.22% overnight propulse le cours à $135.76 (+6.64% vs 20/05). RSI 74.84 — surachat persistant sans refroidissement. ATR $12.41 en expansion (+11.9%). Écart MM50j +59.2%. Nouveau 52W high intraday $139.76. Valorisation encore plus déconnectée (Forward P/E –12 319, EV/Rev 113.79×, spot +61.3% vs consensus $84.20). Filtre Qualité 3/6 — hors périmètre institutionnel. [ANOMALIE DATA] Max Pain $73.00 (éch. 2026-05-29) — incohérent vs spot, probable erreur flux Yahoo. Put/Call 1.00, Call OI 50.0% — biais call neutralisé. [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $78.59 Mds vs FMP $37.02 Mds. Aucune news. Score global 40.8/100 ajusté 30.8 — ÉVITER confirmé. SL $110.94 (–18.3%), TP $172.99 (+27.4%), R/R 1.5:1. Support immédiat $131.31. XLI sous-performe SPY (malus sectoriel). Attendre retour $110–$120 ou refroidissement technique (RSI < 70).
 
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
+| 2026-05-25 | [RKLB_2026-05-25_update.md](RKLB_2026-05-25_update.md) | Mise à jour post-pipeline — gap +8.22%, nouveau 52W high $139.76, ATR expansion, thèse ÉVITER confirmée, [ANOMALIE DATA] Max Pain $73.00 suspect |
 | 2026-05-20 | [RKLB_2026-05-20_update.md](RKLB_2026-05-20_update.md) | Snapshot 13:00 UTC — anomalie options RÉSOLUE (Max Pain $150.00, Put/Call 0.85, Call OI 54.0%), thèse ÉVITER confirmée |
 | 2026-05-20 | [RKLB_2026-05-20_update.md](RKLB_2026-05-20_update.md) | Snapshot matin — confirmation thèse ÉVITER, [ANOMALIE DATA] flux options interrompu |
 | 2026-05-19 | [RKLB_2026-05-19_init.md](RKLB_2026-05-19_init.md) | Full Refresh — ATR_SPIKE 8.71%, thèse ÉVITER confirmée, [ANOMALIE MCAP] détectée |
@@ -19,12 +20,14 @@
 
 ## Agenda
 - Prochain earnings : **2026-08-06** (Q2 2026, Est EPS –$0.06 à –$0.02)
-- Expiration options : **2026-05-22** (Max Pain référence $150.00 — 2 jours)
+- Expiration options : **2026-05-29** (Max Pain référence $73.00 [ANOMALIE DATA] — 4 jours)
 
 ## Alertes actives
-- RSI 76.14 — surachat technique persistant
-- Divergence consensus — spot +51.2% vs PT $84.20
+- RSI 74.84 — surachat technique persistant
+- Divergence consensus — spot +61.3% vs PT $84.20
 - Filtre Qualité 3/6 — hors périmètre institutionnel
 - Ratio R/R 1.5:1 — inférieur au seuil 2:1
-- [ANOMALIE DATA RÉSOLUE] Flux options rétabli (Max Pain $150.00, Put/Call 0.85, Call OI 54.0%)
-- [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $73.68 Mds vs FMP $37.02 Mds
+- [ANOMALIE DATA] Max Pain $73.00 (éch. 2026-05-29) — incohérent vs spot $135.76, probable erreur flux
+- [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $78.59 Mds vs FMP $37.02 Mds
+- ATR expansion +11.9% — volatilité monte avec le cours
+- Gap +8.22% overnight sans news — mouvement parabolique
