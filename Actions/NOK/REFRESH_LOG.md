@@ -574,7 +574,7 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** MODIFIÉ — Le gap +9.1% sans catalyseur fondamental invalide l'hypothèse de retour rapide au consensus (.26) mais ne justifie pas un achat. Thèse ATTENDRE maintenue (Score Global ajusté 50.5/100). SL révisé 3.51. Filtre Qualité inchangé (2.5/6 hors périmètre). Données snapshot 17:00 UTC confirmées identiques au snapshot 13:00.
 
 ---
 
@@ -584,7 +584,7 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** MODIFIÉ — Le gap +9.1% sans catalyseur fondamental invalide l'hypothèse de retour rapide au consensus (.26) mais ne justifie pas un achat. Thèse ATTENDRE maintenue (Score Global ajusté 50.5/100). SL révisé 3.51. Filtre Qualité inchangé (2.5/6 hors périmètre). Données snapshot 17:00 UTC confirmées identiques au snapshot 13:00.
 
 ---
 
@@ -594,7 +594,7 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** MODIFIÉ — Le gap +9.1% sans catalyseur fondamental invalide l'hypothèse de retour rapide au consensus (.26) mais ne justifie pas un achat. Thèse ATTENDRE maintenue (Score Global ajusté 50.5/100). SL révisé 3.51. Filtre Qualité inchangé (2.5/6 hors périmètre). Données snapshot 17:00 UTC confirmées identiques au snapshot 13:00.
 
 ---
 
@@ -604,7 +604,7 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** MODIFIÉ — Le gap +9.1% sans catalyseur fondamental invalide l'hypothèse de retour rapide au consensus (.26) mais ne justifie pas un achat. Thèse ATTENDRE maintenue (Score Global ajusté 50.5/100). SL révisé 3.51. Filtre Qualité inchangé (2.5/6 hors périmètre). Données snapshot 17:00 UTC confirmées identiques au snapshot 13:00.
 
 ---
 
@@ -614,7 +614,7 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** MODIFIÉ — Le gap +9.1% sans catalyseur fondamental invalide l'hypothèse de retour rapide au consensus (.26) mais ne justifie pas un achat. Thèse ATTENDRE maintenue (Score Global ajusté 50.5/100). SL révisé 3.51. Filtre Qualité inchangé (2.5/6 hors périmètre). Données snapshot 17:00 UTC confirmées identiques au snapshot 13:00.
 
 ---
 
@@ -624,7 +624,7 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** MODIFIÉ — Le gap +9.1% sans catalyseur fondamental invalide l'hypothèse de retour rapide au consensus (.26) mais ne justifie pas un achat. Thèse ATTENDRE maintenue (Score Global ajusté 50.5/100). SL révisé 3.51. Filtre Qualité inchangé (2.5/6 hors périmètre). Données snapshot 17:00 UTC confirmées identiques au snapshot 13:00.
 
 ---
 
@@ -634,6 +634,6 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** MODIFIÉ — Le gap +9.1% sans catalyseur fondamental invalide l'hypothèse de retour rapide au consensus (.26) mais ne justifie pas un achat. Thèse ATTENDRE maintenue (Score Global ajusté 50.5/100). SL révisé 3.51. Filtre Qualité inchangé (2.5/6 hors périmètre). Données snapshot 17:00 UTC confirmées identiques au snapshot 13:00.
 
 ---

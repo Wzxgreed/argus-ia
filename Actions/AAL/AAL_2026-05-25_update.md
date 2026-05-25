@@ -1,12 +1,14 @@
 # AAL — Mise à Jour 2026-05-25
 
-**Date :** 2026-05-25 (snapshot 13:00 UTC)  
+**Date :** 2026-05-25 (snapshot 17:00 UTC)  
 **Ticker :** AAL (NASDAQ)  
-**Type :** Update post-session — Données fraîches vs clôture 2026-05-20  
+**Type :** Update post-session — Snapshot 17:00 UTC confirme stabilité totale vs 13:00 UTC  
 **Cours (close) :** $13.85  
 **Previous close :** $13.59  
 **Change session :** +1.91%  
 **Volume :** 99.26M (vs moy. 20j 57.88M, +71.5%)
+
+> **Note :** Ce rapport intègre la confirmation du snapshot 17:00 UTC (`data/latest.json` fetched_at 2026-05-25T17:00:01.407625+00:00). Toutes les données techniques, fondamentales, options et de consensus sont strictement identiques au snapshot 13:00 UTC du même jour. Aucune mutation détectée entre les deux snapshots.
 
 ---
 
