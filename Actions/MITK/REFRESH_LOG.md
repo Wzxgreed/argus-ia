@@ -1,5 +1,21 @@
 # MITK — Historique des Full Refreshes
 
+## 2026-05-25 — Full Refresh Traité (Snapshot 13:00 UTC)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.86% (seuil 5.0%)
+
+**Conclusion :** CONFIRME — données stables entre snapshot 10:00 UTC et 13:00 UTC. Aucune mutation détectée sur les prix, volumes, indicateurs techniques, fondamentaux ni scores agents. Close $16.03 inchangée, RSI 57.06 stable, volume 1,648,000 confirmé (1.28× moyenne 20j). Le trigger ATR_SPIKE reflète la volatilité structurelle post-breakout de la cassure MM50, validée sur volume. Thèse ACHETER (Réduit) maintenue avec SL $14.15, TP $18.85, R/R 1.5.
+
+**Fichiers produits :**
+- `Actions/MITK/MITK_2026-05-25_update.md` — Mise à jour post-pipeline 13:00 UTC
+- `Actions/MITK/INDEX.md` — Thèse courante mise à jour
+- `Actions/MITK/CONTEXT.md` — Mémoire court terme mise à jour
+
+**DRAFT archivé :** `_DRAFT_refresh.md`
+
+---
+
 ## 2026-05-19 — Full Refresh Traité (Snapshot 21:00 UTC)
 
 **Triggers :**
