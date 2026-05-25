@@ -1,13 +1,13 @@
-# FUBO — Mise a Jour (2026-05-25)
+# FUBO — Mise a Jour (2026-05-25, snapshot 21:00 UTC)
 
-> **Niveau d'impact :** 🟢 Faible — Snapshot 17:00 UTC **confirme la stabilite totale** vs snapshot 13:00 UTC. Close $9.75 inchangé, RSI 20.19 inchangé, max pain $9.00 inchangé, scoring agent stable a 65.5/100 (ACHETER Reduit). Donnees fondamentales inchangées. Mutation calendrier : `upcoming_events_latest.json` place l'earnings FUBO au **2026-05-25** (jour J), bien que les marches soient fermes Memorial Day et aucun resultat Q1 ne soit visible dans `data/latest.json`.
-> **Reference precedente :** [FUBO_2026-05-25_update.md](FUBO_2026-05-25_update.md) (snapshot 13:00 UTC — close $9.75, RSI 20.19, max pain $9.00, put/call 0.65, call OI 60.6%, scoring agent 65.5/100, these SURVEILLER)
+> **Niveau d'impact :** 🟢 Faible — Snapshot 21:00 UTC **confirme la stabilite totale** vs snapshot 17:00 UTC. Close $9.75 inchangé, RSI 20.19 inchangé, max pain $9.00 inchangé, scoring agent stable a 65.5/100 (ACHETER Reduit). Donnees fondamentales inchangées. Earnings Q1 2026 toujours non resolus apres 5 jours d'attente.
+> **Reference precedente :** [FUBO_2026-05-25_update.md](FUBO_2026-05-25_update.md) (snapshot 17:00 UTC — close $9.75, RSI 20.19, max pain $9.00, put/call 0.65, call OI 60.6%, scoring agent 65.5/100, these SURVEILLER)
 
 ---
 
-## 1. Resume des Changements depuis l'Analyse Precedente (13:00 UTC)
+## 1. Resume des Changements depuis l'Analyse Precedente (17:00 UTC)
 
-| Metrique | 2026-05-25 13:00 UTC | **2026-05-25 17:00 UTC** | Variation |
+| Metrique | 2026-05-25 17:00 UTC | **2026-05-25 21:00 UTC** | Variation |
 |---|---|---|---|
 | Cours close | $9.75 | **$9.75** | — |
 | Change % vs previous | +6.67% | **+6.67%** | — |
@@ -28,10 +28,10 @@
 | **Recommandation (agent)** | ACHETER (Reduit) | **ACHETER (Reduit)** | — |
 
 **Constats :**
-1. **Stabilite totale snapshot 13:00 → 17:00 UTC** — aucune mutation technique, fondamentale ni options. Le marche est ferme Memorial Day ; les donnees sont figees.
-2. **Calendrier earnings mis a jour par FMP** : `data/upcoming_events_latest.json` (date 2026-05-25) indique desormais un evenement earnings FUBO au **2026-05-25** avec `days_until: 0`. Cette date contredit le calendrier precedent (earnings attendu le 2026-05-20) et pose une anomalie temporelle puisque le 25 mai est un jour ferie de bourse aux Etats-Unis. Aucun resultat Q1 2026 (EPS, revenue, guidance) n'est visible dans `data/latest.json` ni dans les donnees FMP enrichies. **Hypothese** : date placeholder FMP ou publication post-close apres reouverture du marche.
-3. **RSI en survente extreme (20.19)** — inchangé depuis 13:00 UTC. Le titre reste techniquement survendu.
-4. **ATR comprime a $0.63** (6.5% du spot) — volatilite absolue faible. Le gap +6.67% represente toujours **10.6× l'ATR**, anomalie de volatilite relative non resolue.
+1. **Stabilite totale snapshot 17:00 → 21:00 UTC** — 12e snapshot consécutif identique pour les metriques principales. Le marche est ferme Memorial Day ; les donnees sont figees.
+2. **Earnings Q1 2026 non resolu apres 5 jours** : `data/upcoming_events_latest.json` (date 2026-05-25) indique toujours un evenement earnings FUBO au **2026-05-25** avec `days_until: 0`. Aucun resultat Q1 2026 (EPS, revenue, guidance) n'est visible dans `data/latest.json` ni dans les donnees FMP enrichies au snapshot 21:00 UTC. L'earnings, initialement attendu le 2026-05-20, a ete deplace au 2026-05-25 par FMP, mais aucune donnee n'a ete publiee. **Hypothese** : la publication est probablement postposee a la reouverture du marche (2026-05-26) ou le ticker n'a pas encore publie ses resultats pour le trimestre.
+3. **RSI en survente extreme (20.19)** — inchangé depuis le snapshot 13:00 UTC. Le titre reste techniquement survendu.
+4. **ATR comprime a $0.63** (6.5% du spot) — volatilite absolue faible. Le gap +6.67% represente toujours **10.6× l'ATR**, anomalie de volatilite relative persistante depuis le 2026-05-17.
 5. **Max pain $9.00** aligne avec le spot. Ecart spot/max pain +8.3%.
 6. **Put/call 0.65 et call OI 60.6%** inchanges — repositionnement options defensif persistant.
 7. **Scoring agent stable** : Score Global 65.5/100, action ACHETER (Reduit, timing Defavorable), porte par Catalyseur 8.0/10 et Valorisation 7.0/10, malgre Momentum faible 5.0/10.
@@ -64,7 +64,7 @@
 
 ## 3. Mise a Jour Fondamentale
 
-Aucune nouvelle donnee fondamentale ni resultat Q1 2026 dans le snapshot 17:00 UTC. La divergence Yahoo/FMP persiste integralement :
+Aucune nouvelle donnee fondamentale ni resultat Q1 2026 dans le snapshot 21:00 UTC. La divergence Yahoo/FMP persiste integralement :
 
 | Source | Market Cap | P/E | P/B | EV/EBITDA |
 |---|---|---|---|---|
@@ -126,7 +126,7 @@ Aucune nouvelle donnee fondamentale ni resultat Q1 2026 dans le snapshot 17:00 U
 
 - `data/news_2026-05-25.json` : **non disponible** — [DONNEES MANQUANTES]
 - `data/events_2026-05-25.json` : **vide** (0 evenement) — aucun M&A, buyback, guidance change ou activism detecte.
-- **Earnings Q1 2026** : `data/upcoming_events_latest.json` place l'evenement au **2026-05-25** (jour J, `days_until: 0`), mais le marche est ferme Memorial Day et aucun resultat n'est visible dans `data/latest.json`. [ANOMALIE CALENDRIER]
+- **Earnings Q1 2026** : `data/upcoming_events_latest.json` place l'evenement au **2026-05-25** (jour J, `days_until: 0`), mais le marche est ferme Memorial Day et aucun resultat n'est visible dans `data/latest.json` au snapshot 21:00 UTC. [ANOMALIE CALENDRIER PERSISTANTE — J+5 non resolu]
 
 ### FX Exposure
 
@@ -198,34 +198,31 @@ Aucune nouvelle donnee fondamentale ni resultat Q1 2026 dans le snapshot 17:00 U
 
 ## 7. Conclusion — These Confirmee, Modifiee ou Invalidee ?
 
-### **Verdict : THESE CONFIRMEE — SURVEILLER (snapshot 17:00 UTC stable vs 13:00, anomalie calendrier earnings a surveiller)**
+### **Verdict : THESE CONFIRMEE — SURVEILLER (snapshot 21:00 UTC stable vs 17:00, anomalie calendrier earnings J+5 non resolu)**
 
-La these de **SURVEILLER** du snapshot 13:00 UTC est **confirmee** par le snapshot 17:00 UTC. Trois observations :
+La these de **SURVEILLER** du snapshot 17:00 UTC est **confirmee** par le snapshot 21:00 UTC. Quatre observations :
 
-1. **Absence totale de mutation technique et fondamentale** : toutes les metriques (cours, RSI, ATR, volume, options, max pain, put/call, call OI, scoring agent) sont identiques entre 13:00 et 17:00 UTC. Le marche ferme Memorial Day explique cette stabilite.
+1. **Absence totale de mutation technique et fondamentale** : toutes les metriques (cours, RSI, ATR, volume, options, max pain, put/call, call OI, scoring agent) sont identiques entre 17:00 et 21:00 UTC. Le marche ferme Memorial Day explique cette stabilite.
 
-2. **Anomalie calendrier earnings** : `upcoming_events_latest.json` place desormais l'earnings FUBO au **2026-05-25** (jour J), contre le 2026-05-20 precedemment attendu. Cette date est incoherente avec le jour ferie Memorial Day. Aucun resultat Q1 n'est visible dans les donnees. Cette anomalie doit etre resolue des la reouverture du marche (2026-05-26). Si l'earnings est effectivement post-close le 26 mai, un `_preview.md` ou `_earnings.md` sera genere automatiquement.
+2. **Anomalie calendrier earnings persistante (J+5)** : `upcoming_events_latest.json` place l'earnings FUBO au **2026-05-25** (jour J, `days_until: 0`) depuis le snapshot du 25 mai. Aucun resultat Q1 n'est visible apres 5 jours d'attente (initialement attendu le 2026-05-20). Cette incoherence suggere soit un report de publication a la reouverture du marche (2026-05-26), soit une absence de resultats pour le trimestre en cours. **Verification impérative a la reouverture du marche.**
 
 3. **Scoring agent stable en ACHETER (Reduit)**, mais ajustement analyste maintenant **SURVEILLER (~52/100)** : le plafonnement Qualite 1/6, le malus sectoriel XLC bottom 3, la liquidite reduite et le timing defavorable maintiennent le titre hors de la zone d'achat institutionnelle.
+
+4. **Stabilite des alertes** : PRICE_GAP (+6.67%), ATR_SPIKE (6.46%), RSI_SURVENTE (20.19), SHORT_SQUEEZE_SETUP latent, DIVERGENCE_YAHOO_FMP, et LIQUIDITE_REDUITES restent actives sans changement.
 
 **Arguments confirmant la prudence :**
 1. **Qualite degradee 1/6** — patrimoine net negatif, FCF negatif, current ratio 0.84, debt/equity 2.43, ROIC −2.1%.
 2. **Divergence Yahoo/FMP persistante** — market cap $287M vs ~$3.3B (×11.4).
 3. **Timing defavorable** — sous MM50 (−15.4%), RSI en survente extreme sans signe de reversal, volume faible.
 4. **Liquidite reduite** — volume 0.75×, risque de slippage majeur.
-5. **Donnees manquantes** — pas de resultats Q1, pas de news, pas de accounting risk, pas de social sentiment.
+5. **Donnees manquantes** — pas de resultats Q1 apres 5 jours, pas de news, pas de accounting risk, pas de social sentiment.
 6. **Quant report non significatif** — pas assez d'historique.
+7. **Earnings Q1 non resolu** — incertitude sur le calendrier de publication et les resultats attendus.
 
 **Recommandation finale :** **SURVEILLER — pas de position.** Le gap +6.67% sur fond de survente extreme (RSI 20.19) et de short interest massif (22.84%) dessine un potentiel rebond technique de courte duree vers $10.00–$10.50, mais ce scenario reste purement speculatif. Le scoring agent ACHETER (Reduit) ne doit pas etre suivi sans confirmation technique (volume > 1.5× moyenne 20j + breakout MM50) et resolution des donnees fondamentales (earnings Q1 + divergence Yahoo/FMP). Toute entree eventuelle resterait un trade de tres court terme avec sizing minimal et stop-loss strict a $8.49.
 
 ---
 
 *Analyste institutionnel senior — Desk Argus-IA*
-*Date : 2026-05-25 (snapshot 17:00 UTC)*
-*Sources : data/latest.json (fetched 2026-05-25T17:00:11Z), data/recommandations_latest.json, data/quant_report_latest.json (2026-05-17), data/geo_risk_latest.json (2026-05-17), data/sector_rotation_latest.json (2026-05-25), data/social_sentiment_latest.json (2026-05-25), data/fx_exposure_latest.json (2026-05-25), data/upcoming_events_latest.json (2026-05-25), data/events_latest.json (2026-05-25)*
-
----
-
-## Annexe — Traitement du FULL REFRESH DRAFT (17:00 UTC)
-
-Le fichier `FUBO_2026-05-25_DRAFT_refresh.md` (17:00 UTC) a ete analyse. Les triggers PRICE_GAP (+6.67%) et ATR_SPIKE (6.46%) sont **deja integralement traites** dans l'update du snapshot 13:00 UTC. Le snapshot 17:00 UTC n'apportant aucune donnee nouvelle (marche ferme Memorial Day), le DRAFT est **archive sans generation de `_init.md` supplementaire**.
+*Date : 2026-05-25 (snapshot 21:00 UTC)*
+*Sources : data/latest.json (fetched 2026-05-25T21:00:12Z), data/recommandations_latest.json, data/quant_report_latest.json (2026-05-17), data/geo_risk_latest.json (2026-05-17), data/sector_rotation_latest.json (2026-05-25), data/social_sentiment_latest.json (2026-05-25), data/fx_exposure_latest.json (2026-05-25), data/upcoming_events_latest.json (2026-05-25), data/events_latest.json (2026-05-25)*
