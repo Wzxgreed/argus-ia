@@ -2,7 +2,7 @@
 
 ## Thèse courante
 
-**ATTENDRE** (2026-05-25 · snapshot 13:00 UTC) — Qualité opérationnelle classée **hors périmètre (3/6)** après injection FMP FY 2025-12-31 : bilan structurellement négatif (tangible asset value −$32.5B, current ratio −0.18), rentabilité GAAP inexistante (ROIC −12.8%, net margin ~0%), et dilution SBC à 5% des revenus. La valorisation reflète cette dégradation (EV/EBITDA 18.2x, P/S 1.45x) sans marge de sécurité. Le timing est bloqué par l'**anomalie de données critique** : **cours figé $83.46 sur 10 snapshots consécutifs couvrant 5 jours calendaires** (20/05 → 25/05) et **earnings Q1 2026 J=0 non résolu après 5 jours**. **🔴 SQ est le seul ticker de la watchlist avec un cours stale sur 10 snapshots consécutifs** — source `"fmp_fallback"` vs `"yahoo_worker_daemon"` pour tous les autres tickers. Le fichier `recommandations_latest.json` affiche un RSI placeholder 50 mais le bloc `technical` est vide. Le secteur Technology bénéficie d'une rotation favorable (XLK top3), mais cela ne compense pas la fragilité fondamentale ni l'anomalie de données. Tout positionnement avant résolution du stale price et intégration des résultats Q1 est déconseillé. Priorité opérationnelle : vérifier cours live via broker et date réelle de publication des résultats.
+**ATTENDRE** (2026-05-25 · snapshot 17:00 UTC) — Qualité opérationnelle classée **hors périmètre (3/6)** après injection FMP FY 2025-12-31 : bilan structurellement négatif (tangible asset value −$32.5B, current ratio −0.18), rentabilité GAAP inexistante (ROIC −12.8%, net margin ~0%), et dilution SBC à 5% des revenus. La valorisation reflète cette dégradation (EV/EBITDA 18.2x, P/S 1.45x) sans marge de sécurité. Le timing est bloqué par l'**anomalie de données critique** : **cours figé $83.46 sur 11 snapshots consécutifs couvrant 5 jours calendaires** (20/05 → 25/05) et **earnings Q1 2026 J=0 non résolu après 5 jours**. **🔴 SQ est le seul ticker de la watchlist avec un cours stale sur 11 snapshots consécutifs** — source `"fmp_fallback"` vs `"yahoo_worker_daemon"` pour tous les autres tickers. Le fichier `recommandations_latest.json` affiche un RSI placeholder 50 mais le bloc `technical` est vide. Le secteur Technology bénéficie d'une rotation favorable (XLK top3), mais cela ne compense pas la fragilité fondamentale ni l'anomalie de données. Tout positionnement avant résolution du stale price et intégration des résultats Q1 est déconseillé. Priorité opérationnelle : vérifier cours live via broker et date réelle de publication des résultats.
 
 ---
 
@@ -10,7 +10,8 @@
 
 | Date | Fichier | Type | Conclusion |
 |------|---------|------|------------|
-| 2026-05-25 | [SQ_2026-05-25_update.md](SQ_2026-05-25_update.md) | Mise à jour snapshot 13:00 UTC | **ATTENDRE** — Qualité 3/6, earnings J=0 **non résolu après 5 jours**, **stale price 10 snapshots / 5 jours calendaires (quality gate excluded)**, zero changement vs snapshot matinal 10:00 UTC |
+| 2026-05-25 | [SQ_2026-05-25_update.md](SQ_2026-05-25_update.md) | Mise à jour snapshot 17:00 UTC | **ATTENDRE** — Qualité 3/6, earnings J=0 **non résolu après 5 jours**, **stale price 11 snapshots / 5 jours calendaires (quality gate excluded)**, zero changement vs snapshot 13:00 UTC |
+| 2026-05-25 | [SQ_2026-05-25_update.md](SQ_2026-05-25_update.md) *(archive 13:00 UTC)* | Mise à jour snapshot 13:00 UTC | **ATTENDRE** — Qualité 3/6, earnings J=0 **non résolu après 5 jours**, **stale price 10 snapshots / 5 jours calendaires (quality gate excluded)**, zero changement vs snapshot matinal 10:00 UTC |
 | 2026-05-25 | [SQ_2026-05-25_update.md](SQ_2026-05-25_update.md) *(archive 10:00 UTC)* | Mise à jour snapshot matinal | **ATTENDRE** — Qualité 3/6, earnings J=0 non résolu après 5 jours, stale price 9 snapshots / 5 jours calendaires (quality gate excluded), zero changement vs 20/05 13:00 UTC |
 | 2026-05-20 | [SQ_2026-05-20_update.md](SQ_2026-05-20_update.md) | Mise à jour snapshot 13:00 UTC | **ATTENDRE** — Qualité 3/6, earnings J=0, **stale price ≥4 jours (quality gate excluded)**, zero changement vs snapshot matinal |
 | 2026-05-20 | [SQ_2026-05-20_update.md](SQ_2026-05-20_update.md) *(archive 10:00 UTC)* | Mise à jour snapshot matinal | **ATTENDRE** — Qualité 3/6, earnings J=0, stale price ≥4 jours, zero changement vs 19/05 21:00 UTC |
@@ -37,7 +38,7 @@
 
 ## Alertes actives
 
-- 🔴 **Quality Gate Exclusion** — stale price 10 snapshots / ≥5 jours calendaires (2026-05-20 → 2026-05-25)
+- 🔴 **Quality Gate Exclusion** — stale price 11 snapshots / ≥5 jours calendaires (2026-05-20 → 2026-05-25)
 - 🔴 **Data Pipeline Alert** — Earnings Q1 2026 J=0 non résolu après 5 jours calendaires (`upcoming_events_2026-05-25.json` confirme `days_until: 0`)
 - 🔴 **Source FMP Fallback** — SQ est le seul ticker du snapshot 25/05 avec `"fmp_fallback"` et `change_pct: null`
 - Aucune alerte de seuil de cours déclenchée
@@ -54,4 +55,4 @@
 
 ---
 
-*Dernière mise à jour : 2026-05-25 · Snapshot 13:00 UTC*
+*Dernière mise à jour : 2026-05-25 · Snapshot 17:00 UTC*

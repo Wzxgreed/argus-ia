@@ -24,7 +24,8 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🔴 RSI 35.66 < 40 — retour en zone de survente technique (snapshot 17:00 UTC, inchangé vs 13:00 UTC)
+- Warning : `data/accounting_risk_latest.json` absent — Filtre Qualité non alimenté
 
 ---
 
@@ -49,7 +50,7 @@
 - **Date :** 2026-05-25
 - **Type :** update
 - **Fichier :** `PLTR_2026-05-25_update.md`
-- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-05-25 13:00 UTC) + agents sector, FX, watchman, events, social, quant, geo, accounting
+- **Conclusion :** Snapshot 17:00 UTC confirme stabilité totale vs 13:00 UTC (marché fermé Memorial Day). Thèse SURVEILLER confirmée sans modification — Score Opp. 5.1/10, Score Global 42.5/100. RSI 35.66 (survente), volume compressé −32.4%, options biais haussier renforcé (Put/Call 0.48, Call OI 67.4%). Pas d'entrée avant rebond RSI > 40 + franchissement MM50 ($142.64) avec volume > 40M.
 
 ---
 
