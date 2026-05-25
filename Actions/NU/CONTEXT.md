@@ -54,10 +54,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-25
+- **Date :** 2026-05-25 (snapshot 21:00 UTC)
 - **Type :** update
 - **Fichier :** `NU_2026-05-25_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE**
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE** — 11e snapshot consécutif sans mutation, données strictement identiques au snapshot 13:00 UTC (marché fermé Memorial Day)
 
 ---
 
