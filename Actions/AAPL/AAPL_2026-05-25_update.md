@@ -1,4 +1,4 @@
-# AAPL — Mise à Jour Quotidienne (2026-05-25, snapshot 10:00 UTC)
+# AAPL — Mise à Jour Quotidienne (2026-05-25, snapshot 13:00 UTC)
 
 > **Référence analyse précédente :** [AAPL_2026-05-20_update.md](AAPL_2026-05-20_update.md) (snapshot 13:00 UTC)
 > **Données source :** `data/2026-05-25.json`, `data/recommandations_2026-05-25.json`, `data/sector_rotation_2026-05-25.json`, `data/upcoming_events_2026-05-25.json`, `data/fx_exposure_2026-05-25.json`, `data/social_sentiment_2026-05-25.json`, `data/events_2026-05-25.json`, `data/geo_risk_2026-05-25.json`
