@@ -1,7 +1,7 @@
-# AAPL — Mise à Jour Quotidienne (2026-05-25, snapshot 13:00 UTC)
+# AAPL — Mise à Jour Quotidienne (2026-05-25, snapshot 17:00 UTC)
 
 > **Référence analyse précédente :** [AAPL_2026-05-20_update.md](AAPL_2026-05-20_update.md) (snapshot 13:00 UTC)
-> **Données source :** `data/2026-05-25.json`, `data/recommandations_2026-05-25.json`, `data/sector_rotation_2026-05-25.json`, `data/upcoming_events_2026-05-25.json`, `data/fx_exposure_2026-05-25.json`, `data/social_sentiment_2026-05-25.json`, `data/events_2026-05-25.json`, `data/geo_risk_2026-05-25.json`
+> **Données source :** `data/2026-05-25.json` (snapshot 17:00 UTC), `data/recommandations_2026-05-25.json`, `data/sector_rotation_2026-05-25.json`, `data/upcoming_events_2026-05-25.json`, `data/fx_exposure_2026-05-25.json`, `data/social_sentiment_2026-05-25.json`, `data/events_2026-05-25.json`, `data/geo_risk_2026-05-25.json`
 > **Validation données :** AAPL OK — 0 warning, 0 error
 > **Statut thèse :** 🔶 **SURVEILLER** — surachat extrême aggravé (RSI 91.1), nouveau 52W high $311.40, pas d'entrée long à $308+
 
@@ -9,7 +9,7 @@
 
 ## Résumé des Changements depuis l'Analyse Précédente (2026-05-20)
 
-| Indicateur | 20/05 | 25/05 | Changement | Lecture |
+| Indicateur | 20/05 | 25/05 17:00 UTC | Changement | Lecture |
 |---|---|---|---|---|
 | **Cours clôture** | $298.97 | **$308.82** | **+3.29%** | Rally de +$9.85 en 3 séances, break du 52W high |
 | **RSI 14j** | 84.06 | **91.1** | **+7.04 pts** | Surachat extrême **aggravé** — zone >90, statistiquement rare |
@@ -24,6 +24,8 @@
 | **FMP Consensus PT** | $293.43 | **$293.43** | Inchangé | Cours désormais à **+5.2% au-dessus du consensus** (vs +1.9% le 20/05) |
 | **52W high** | $303.20 | **$311.40** | **+$8.20** | **Nouveau sommet 52 semaines atteint aujourd'hui** (high intraday) |
 | **MM 50j** | $267.57 | **$270.36** | +$2.79 | Support lointain intact (+12.4%) |
+
+> **Snapshot 17:00 UTC :** Stabilité totale vs données matinales / après-midi. Le cours $308.82, RSI 91.1 et structure options (P/C 0.69, Call OI 59.1%) sont confirmés inchangés. Aucune correction de données ni anomalie détectée.
 
 > **Changement majeur :** **Nouveau 52W high $311.40 atteint** sur volume sous-moyen (0.90×), avec un RSI 91.1 en surachat extrême. Le break de la résistance $303.20 est **techniquement validé** mais **non confirmé par le volume**, ce qui fragilise la durabilité du mouvement. Le recul brutal du Call OI (73.7% → 59.1%) et la remontée du Put/Call (0.36 → 0.69) indiquent que le biais haussier options s'est **significativement atténué** — l'optimisme extrême du 20/05 s'est dissipé, ce qui peut être lu comme un avertissement de rotation des positions call vers des protections put.
 
@@ -138,7 +140,7 @@ Pas de données fraîches dans le snapshot.
 
 ## Scoring Global — Comparaison vs Analyse Précédente
 
-| Axe | 20/05 final | 25/05 | Source | Commentaire |
+| Axe | 20/05 final | 25/05 17:00 UTC | Source | Commentaire |
 |---|---|---|---|---|
 | **Score Catalyseur** | 5.3/10 | **5.3/10** | `recommandations_2026-05-25.json` | Inchangé — absence de catalyseur frais |
 | **Score Valorisation** | 5.0/10 | **5.0/10** | `recommandations_2026-05-25.json` | Inchangé — multiples mécaniquement plus élevés mais score non révisé par l'agent reco |
@@ -146,7 +148,7 @@ Pas de données fraîches dans le snapshot.
 | **Score Opportunité** | 5.1/10 | **5.2/10** | `recommandations_2026-05-25.json` | Pondération régime : C 35% / V 40% / M 25% |
 | **Score Global** | 51.0/100 | **51.8/100** | `recommandations_2026-05-25.json` | Ajusté à **41.8** après malus technique |
 | **Timing** | Défavorable | **Défavorable** | `recommandations_2026-05-25.json` | Confirmé — RSI 91.1 |
-| **Action recommandée** | SURVEILLER | **SURVEILLER** | `recommandations_2026-05-25.json` | Confirmé |
+| **Action recommandée** | SURVEILLER | **SURVEILLER** | `recommandations_2026-05-25.json` | Confirmée |
 
 ### Niveaux et Ratio R/R (révisés — ATR compressé)
 
@@ -167,7 +169,7 @@ Pas de données fraîches dans le snapshot.
 
 ### 🔶 **THÈSE CONFIRMÉE — SURVEILLER (avec aggravation du surachat)**
 
-Le snapshot du 2026-05-25 **confirme la thèse de surveillance** tout en signalant une aggravation des conditions techniques :
+Le snapshot 17:00 UTC du 2026-05-25 **confirme intégralement la thèse** établie aux snapshots précédents, avec stabilité totale des données vs le snapshot matinal / après-midi :
 
 1. **Qualité inchangée** — Filtre Qualité 6/6, bilan solide, moat intact. AAPL reste un compounding stock de premier plan.
 2. **Valorisation encore plus défavorable** — P/E 37.4x, Forward P/E 32.2x. Cours à +5.2% vs consensus ($293.43). Marge de sécurité négative aggravée (~26–29%).
@@ -201,4 +203,4 @@ Le snapshot du 2026-05-25 **confirme la thèse de surveillance** tout en signala
 ---
 
 *Rédigé par l'analyste institutionnel senior Argus-IA — 2026-05-25*
-*Données : Yahoo Finance + FMP Stable API. Pas de recommandation personnalisée.*
+*Données : Yahoo Finance + FMP Stable API. Snapshot 17:00 UTC confirmé, stabilité totale vs sessions précédentes. Pas de recommandation personnalisée.*
