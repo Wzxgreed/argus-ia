@@ -1,14 +1,14 @@
-# PLTR — Mise à Jour Quotidienne (2026-05-25, snapshot 10:00 UTC)
+# PLTR — Mise à Jour Quotidienne (2026-05-25, snapshot 13:00 UTC)
 
-> **Source :** `data/latest.json` (snapshot 2026-05-25 10:00 UTC) + agents sector, FX, watchman, events, social, quant, geo
+> **Source :** `data/latest.json` (snapshot 2026-05-25 13:00 UTC) + agents sector, FX, watchman, events, social, quant, geo, accounting
 > **Référence précédente :** [PLTR_2026-05-20_update.md](PLTR_2026-05-20_update.md) (snapshot 13:00 UTC)
-> **Contexte :** Snapshot officiel du pipeline matinal. Données de cours reflètent la séance du 2026-05-25.
+> **Contexte :** Snapshot officiel du pipeline. Données de cours reflètent la séance du 2026-05-25.
 
 ---
 
 ## Résumé des Changements depuis l'Update Précédent (2026-05-20)
 
-| Indicateur | 20/05 close | 25/05 10:00 | Δ |
+| Indicateur | 20/05 close | 25/05 13:00 | Δ |
 |-----------|-------------|-------------|---|
 | Cours close | **$135.26** | **$136.88** | **+1.20%** |
 | Open / High / Low | — | $137.43 / $139.02 / $134.30 | High +$1.56 vs previous close |
@@ -35,7 +35,7 @@
 
 | Indicateur | Valeur | Commentaire |
 |-----------|--------|-------------|
-| Cours | **$136.88** | +1.2% vs close 20/05, mais −0.39% vs previous close 137.415 |
+| Cours | **$136.88** | +1.2% vs close 20/05, −0.39% vs previous close 137.415 |
 | RSI 14j | **35.66** | 🔴 **Entrée en zone de survente (< 40)** — dynamique baissière renforcée |
 | MM 50j | **142.64** | Cours **−4.0% sous MM50** — écart réduit vs −5.8% précédent mais résistance intacte |
 | MM 200j | — | [DONNÉES MANQUANTES] |
@@ -192,16 +192,16 @@
 
 ---
 
-## Validation Analyste Senior — Snapshot 10:00 UTC
+## Validation Analyste Senior — Snapshot 13:00 UTC
 
 **Analyste :** Desk Argus-IA  
-**Timestamp validation :** 2026-05-25 10:00 UTC  
-**Status :** ✅ Confirmé — snapshot 10:00 UTC, données actualisées avec dégradation technique significative (RSI < 40).
+**Timestamp validation :** 2026-05-25 13:00 UTC  
+**Status :** ✅ Confirmé — snapshot 13:00 UTC, données actualisées avec dégradation technique significative (RSI < 40).
 
 | Check | Résultat |
 |-------|----------|
-| `data/latest.json` (10:00 UTC) | Cours $136.88, RSI 35.66, ATR 5.35, MM50 142.64, Volume 27.48M — **RSI franchi < 40** |
-| Options (10:00 UTC) | Max Pain $140.00 ✅, Put/Call 0.48, Call OI 67.4% — **biais haussier renforcé** |
+| `data/latest.json` (13:00 UTC) | Cours $136.88, RSI 35.66, ATR 5.35, MM50 142.64, Volume 27.48M — **RSI franchi < 40** |
+| Options (13:00 UTC) | Max Pain $140.00 ✅, Put/Call 0.48, Call OI 67.4% — **biais haussier renforcé** |
 | `data/recommandations_latest.json` | Scores révisés : C 6.8 / V 4.5 / M **3.5** → Opp **5.1** / Global **42.5** |
 | `data/geo_risk_latest.json` | Score 0, aucun ticker PLTR flaggé |
 | `data/fx_exposure_latest.json` | FX Impact Score 0.0, divergence aligned, pas de headwind |
@@ -214,4 +214,4 @@
 | Accounting Risk | `data/accounting_risk_latest.json` absent — risque méthodologique persistant |
 | Data Quality Alert | ✅ Stable — Max Pain $140.00 (cohérent vs spot $136.88) |
 
-**Conclusion validation :** Le snapshot 10:00 UTC du 2026-05-25 montre une **dégradation technique significative** malgré un cours légèrement supérieur (+1.2%). Le RSI a franchi le seuil 40 vers le bas (35.66), signalant un retour en zone de survente. Le volume reste compressé (−32.4%). Le score Momentum est révisé à la baisse (−1.5 pt → 3.5/10), entraînant une dégradation du Score Global ajusté (−3.8 pts → 42.5/100). La structure options, elle, renforce son biais haussier (Put/Call 0.48, Call OI 67.4%), ce qui constitue un facteur mitigant. La thèse **SURVEILLER** reste inchangée mais le timing d'entrée est davantage conditionné à un rebond RSI au-dessus de 40 et au franchissement de la MM50 ($142.64) avec volume > 40M.
+**Conclusion validation :** Le snapshot 13:00 UTC du 2026-05-25 montre une **dégradation technique significative** malgré un cours légèrement supérieur (+1.2%). Le RSI a franchi le seuil 40 vers le bas (35.66), signalant un retour en zone de survente. Le volume reste compressé (−32.4%). Le score Momentum est révisé à la baisse (−1.5 pt → 3.5/10), entraînant une dégradation du Score Global ajusté (−3.8 pts → 42.5/100). La structure options, elle, renforce son biais haussier (Put/Call 0.48, Call OI 67.4%), ce qui constitue un facteur mitigant. La thèse **SURVEILLER** reste inchangée mais le timing d'entrée est davantage conditionné à un rebond RSI au-dessus de 40 et au franchissement de la MM50 ($142.64) avec volume > 40M.

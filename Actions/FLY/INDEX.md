@@ -12,6 +12,7 @@
 | 2026-05-19 | [FLY_2026-05-19_update.md](FLY_2026-05-19_update.md) | **Mise a jour 21:00 UTC (close)** — correction volume (5.8M vs 2.9M), remontee cours +0.59% en fin de seance, these ATTENDRE confirmee |
 | 2026-05-20 | [FLY_2026-05-20_update.md](FLY_2026-05-20_update.md) | **Mise a jour 13:00 UTC** — cours stable $42.57, **anomalie options RESOLUE** (max pain $15 → $65, OI restaures), these ATTENDRE confirmee, DRAFT_refresh traite et archive |
 | 2026-05-25 | [FLY_2026-05-25_update.md](FLY_2026-05-25_update.md) | **Mise a jour 10:00 UTC** — **Gap +15.49%** a $49.50 sans catalyst, RSI 72.38 surachat, consensus $42.45 sous le spot, **these MODIFIEE : ATTENDRE → EVITER**, downgrade Score Global 31.8 |
+| 2026-05-25 | [FLY_2026-05-25_update.md](FLY_2026-05-25_update.md) | **Mise a jour 13:00 UTC** — Snapshot 13:00 strictement identique au 10:00 UTC. FULL REFRESH DRAFT traite et archive. These **EVITER** confirmee. Aucun changement materiel de donnees, scores, ou fondamentaux. |
 
 ## Agenda
 - Prochain earnings : **2026-08-04** (Q2 2026) — Est EPS -$0.60 a -$0.45, Rev $0.1B

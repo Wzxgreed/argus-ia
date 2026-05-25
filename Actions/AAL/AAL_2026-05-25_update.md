@@ -1,8 +1,8 @@
 # AAL — Mise à Jour 2026-05-25
 
-**Date :** 2026-05-25 (snapshot 10:00 UTC)  
+**Date :** 2026-05-25 (snapshot 13:00 UTC)  
 **Ticker :** AAL (NASDAQ)  
-**Type :** Update post-snapshot — Données fraîches vs clôture 2026-05-20  
+**Type :** Update post-session — Données fraîches vs clôture 2026-05-20  
 **Cours (close) :** $13.85  
 **Previous close :** $13.59  
 **Change session :** +1.91%  
@@ -10,10 +10,10 @@
 
 ---
 
-## Résumé des Changements depuis l'Update (2026-05-20 10:00 UTC)
+## Résumé des Changements depuis l'Update (2026-05-20)
 
-| Indicateur | 2026-05-20 10:00 UTC | 2026-05-25 10:00 UTC | Δ vs Prior |
-|-----------|----------------------|----------------------|------------|
+| Indicateur | 2026-05-20 | 2026-05-25 | Δ vs Prior |
+|-----------|------------|------------|------------|
 | Cours close | $12.06 | **$13.85** | **+$1.79 (+14.8%)** |
 | RSI 14j | 60.62 | **71.43** | **+10.81 pts** |
 | ATR 14j | $0.47 | **$0.55** | **+$0.08 (+17.0%)** |
@@ -29,7 +29,7 @@
 | Score Opportunité agent | 6.6/10 | **5.7/10** | **−0.9 pt** |
 | Recommandation agent | ACHETER (Sizing Réduit) | **SURVEILLER** | **Downgrade** |
 
-**Session active.** Le snapshot du 2026-05-25 reflète une nouvelle session de marché avec un gap haussier et une poursuite du rally entamé après le 20/05. Le cours a gagné +14.8% en 5 séances, franchissant l'ancien take-profit ($13.47) et testant la zone de résistance $14.00–$14.18 (gap janvier 2026). Le volume a explosé à 99.26M (+71.5% vs moyenne), confirmant un flux institutionnel ou un short-covering massif. Les données options sont complètes et cohérentes (pas d'anomalie data quality vs le snapshot du 20/05).
+**Session active.** Le snapshot du 2026-05-25 reflète une nouvelle session de marché avec gap haussier et poursuite du rally entamé après le 20/05. Le cours a gagné +14.8% en 5 séances, franchissant l'ancien take-profit ($13.47) et testant la zone de résistance $14.00–$14.18 (gap janvier 2026). Le volume a explosé à 99.26M (+71.5% vs moyenne), confirmant un flux institutionnel ou un short-covering massif. Les données options sont complètes et cohérentes (pas d'anomalie data quality vs le snapshot du 20/05).
 
 ---
 
@@ -80,10 +80,13 @@
 |-------|--------|-------|--------|
 | P/E (LTM, Yahoo) | 44.68 | — | 🔴 Élevé (charges récentes) |
 | Forward P/E | **6.26** | — | 🟡 Réévaluation mécanique +14.9% — moins cheap |
-| P/B | -2.25 | — | 🔴 Equity négatif |
-| P/S | 0.19 | — | 🟢 Faible |
+| P/B (Yahoo) | -2.25 | — | 🔴 Equity négatif |
+| P/B (FMP) | -2.72 | — | 🔴 Equity négatif |
+| P/S (FMP) | 0.185 | — | 🟢 Très faible |
 | EV/EBITDA (Yahoo) | 8.83 | — | 🟡 Élevé vs industrie |
-| EV/Revenue | 0.65 | — | 🟢 Faible |
+| EV/EBITDA (FMP) | 11.44 | — | 🟡 Élevé vs Yahoo |
+| EV/Revenue (Yahoo) | 0.65 | — | 🟢 Faible |
+| EV/Revenue (FMP) | 0.81 | — | 🟢 Faible |
 | Gross Margin | 19.2% | — | 🟡 Sector norm |
 | Operating Margin | 2.7% | — | 🔴 Faible |
 | Net Margin | 0.2% | — | 🔴 Quasi nul |
@@ -96,6 +99,9 @@
 | ROE | -3.0% | >10% | 🔴 Destruction de valeur |
 | ROIC | 2.0% | >8% | 🔴 Très faible |
 | FCF Yield | -6.7% | >0 | 🔴 FCF négatif |
+| Debt/Equity | -9.65 | — | 🔴 Equity négatif |
+| Revenue per Share | $82.72 | — | 🟢 Élevé (revenue massive) |
+| Book Value per Share | -$5.64 | >0 | 🔴 Equity négatif |
 
 **Forward P/E 6.26** (vs 5.45 le 20/05) — la hausse du cours (+14.8%) a mécaniquement réduit l'asymétrie valorisation. Le forward EPS implicite reste ~$2.21/share. À ce niveau, AAL n'est plus une value trap évidente mais n'a pas de marge de sécurité.
 
@@ -134,7 +140,7 @@
 - **Impact :** Vent de secteur défavorable. Le rally d'AAL est idiosyncratique (short-covering) et non soutenu par la rotation sectorielle.
 
 ### Géopolitique
-- **Score Politique :** non flaggué dans `geo_risk_latest.json`.
+- **Score Politique :** 2/10 — AAL non exposé aux événements géopolitiques actuels.
 - **Pas d'ajustement** sur le score global.
 
 ### Accounting Risk / Quant
@@ -178,7 +184,7 @@
 
 **Verdict : MODIFIÉE — La thèse tactique est partiellement matérialisée. Downgrade de ACHETER à SURVEILLER.**
 
-### Ce qui a changé (snapshot 2026-05-25 10:00 UTC) :
+### Ce qui a changé (snapshot 2026-05-25 13:00 UTC) :
 1. **Cours +14.8%** — Rally puissant en 5 séances, atteignant et dépassant l'ancien TP ($13.47). Le trade virtuel du 20/05 aurait généré +11.7% (objectif atteint).
 2. **RSI 71.43** — Franchissement de la zone surachat (70). Probabilité de consolidation/repli technique élevée dans les 3–5 jours.
 3. **Volume 99.26M (+71.5%)** — Explosion volumétrique. Probable short-covering massif ou flux institutionnel. Avertissement de distribution si le cours ne tient pas $14.00.
@@ -224,7 +230,7 @@
 ---
 
 ## Références
-- `data/2026-05-25.json` (snapshot 10:00 UTC) — Cours $13.85, RSI 71.43, ATR $0.55, MM50 $11.71, volume 99.26M, short interest 12.21%, consensus FMP $16.02, options (put/call 1.82, max pain $13.00, call OI 35.5%), Forward P/E 6.26
+- `data/2026-05-25.json` (snapshot 13:00 UTC) — Cours $13.85, RSI 71.43, ATR $0.55, MM50 $11.71, volume 99.26M, short interest 12.21%, consensus FMP $16.02, options (put/call 1.82, max pain $13.00, call OI 35.5%), Forward P/E 6.26
 - `data/recommandations_2026-05-25.json` — Score Opportunité 5.7/10, Score Global 57.3/100 (ajusté 47.3), Recommandation SURVEILLER, SL $12.75, TP $15.50
 - `data/validation_report.txt` (2026-05-25) — 5 errors globales (AST/AXA/CYTOMX/QTBS fetch failed ; VRT schema), 2 warnings (IREN, NOK). AAL non concerné.
 - `data/sector_rotation_2026-05-25.json` — XLI bottom3 (momentum 0.0)
@@ -233,6 +239,7 @@
 - `data/upcoming_events_2026-05-25.json` — Earnings 2026-07-23, 59 jours
 - `data/events_2026-05-25.json` — Aucun événement corporate détecté
 - `data/quant_report_latest.json` — Données quantitatives insuffisantes
+- `data/geo_risk_2026-05-25.json` — Score Politique 2/10, non exposé
 - `Agents/AGENT_FONDAMENTAL.md` — Méthodologie Filtre Qualité
 - `Agents/AGENT_TECHNIQUE.md` — Méthodologie technique
 - `Agents/AGENT_SENTIMENT.md` — Méthodologie sentiment

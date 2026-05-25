@@ -10,7 +10,7 @@
 | 2026-05-18 | [PLTR_2026-05-18_update.md](PLTR_2026-05-18_update.md) | Mise à jour post-pipeline (consolidée) | SURVEILLER — Score Opp. 5.1/10, RSI 42.52, volume 31.76M, thèse confirmée |
 | 2026-05-19 | [PLTR_2026-05-19_update.md](PLTR_2026-05-19_update.md) | Mise à jour snapshot 21:00 UTC (close finale) | SURVEILLER — Score Opp. 5.4/10, cours $135.26, RSI 46.36, volume 29.65M, rebond fin de session, thèse confirmée |
 | 2026-05-20 | [PLTR_2026-05-20_update.md](PLTR_2026-05-20_update.md) | Mise à jour snapshot 13:00 UTC (snapshot officiel) | SURVEILLER — Score Opp. 5.4/10, cours $135.26, RSI 46.36, volume 29.70M, anomalie options résolue (Max Pain $140.00, Put/Call 0.61, Call OI 62.2%), thèse confirmée |
-| 2026-05-25 | [PLTR_2026-05-25_update.md](PLTR_2026-05-25_update.md) | Mise à jour snapshot 10:00 UTC (pipeline matinal) | SURVEILLER — Score Opp. 5.1/10, cours $136.88, RSI **35.66** (retour en survente < 40), volume 27.48M (−32.4%), options biais haussier renforcé (Put/Call 0.48, Call OI 67.4%), Score Global 42.5/100, thèse confirmée avec dégradation technique |
+| 2026-05-25 | [PLTR_2026-05-25_update.md](PLTR_2026-05-25_update.md) | Mise à jour snapshot 13:00 UTC (pipeline officiel) | SURVEILLER — Score Opp. 5.1/10, cours $136.88, RSI **35.66** (retour en survente < 40), volume 27.48M (−32.4%), options biais haussier renforcé (Put/Call 0.48, Call OI 67.4%), Score Global 42.5/100, thèse confirmée avec dégradation technique |
 
 ## Agenda
 - **Prochain earnings :** 2026-08-03 (Q2 FY2026, Est. EPS $0.32–$0.40, Rev $1.8B)
@@ -21,7 +21,7 @@
 - Warning : `data/accounting_risk_latest.json` absent — Filtre Qualité non alimenté
 - 🔴 **Alerte technique : RSI 35.66 < 40 — retour en zone de survente depuis le 25/05**
 
-## Contexte technique (dernier snapshot 10:00 UTC)
+## Contexte technique (dernier snapshot 13:00 UTC)
 - Cours : $136.88
 - RSI 14j : 35.66
 - MM 50j : 142.64

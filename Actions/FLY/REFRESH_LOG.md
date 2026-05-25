@@ -646,7 +646,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Modifiée — passage ATTENDRE → ÉVITER. Gap +15.49% non expliqué par aucun catalyst (events = 0, news = 0). RSI 72.38 surachat, consensus PT $42.45 (-14.2% sous le spot). Fondamentaux inchangés (Filtre Qualité 2/6, Forward P/E -43.36, EV/Revenue 40.2×). Score Global ajusté 31.8. Pas de position recommandée. — *Fichier : FLY_2026-05-25_update.md*
 
 ---
 
@@ -656,6 +656,6 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée — snapshot 13:00 UTC strictement identique au snapshot 10:00 UTC. Aucun changement matériel de données, scores, fondamentaux, news, events ou agents. Thèse ÉVITER maintenue. FULL REFRESH DRAFT traité et archivé dans cette session. — *Fichier : FLY_2026-05-25_update.md*
 
 ---
