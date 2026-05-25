@@ -1,4 +1,4 @@
-# CONTEXT — AXA — Dernière mise à jour : 2026-05-25
+# CONTEXT — AXA — Dernière mise à jour : 2026-05-25 (update)
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -57,9 +57,9 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-25
-- **Type :** preview
-- **Fichier :** `AXA_2026-05-25_preview.md`
-- **Conclusion :** > **Date :** 2026-05-25
+- **Type :** update
+- **Fichier :** `AXA_2026-05-25_update.md`
+- **Conclusion :** Thèse inchangée ATTENDRE (55.2/100). Données prix toujours manquantes. Headwind sectoriel XLF atténué (RS 20j −3.43% vs −6.51%). Earnings J0 FMP sans détails exploitables. Action immédiate : corriger le ticker (`CS.PA` ou `AXAHY`).
 
 ---
 

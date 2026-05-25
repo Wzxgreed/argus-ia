@@ -1,7 +1,7 @@
 # ASTS
 
 ## Thèse courante
-La thèse sur ASTS reste **ATTENDRE** — profil non rentable (EPS estimé négatif), valorisation spéculative extrême (EV/Revenue 316x, P/B 12,65), qualité fondamentale non attestable faute de données comptables complètes. Le momentum technique s'est stabilisé (RSI 63,39, cours au-dessus de la MM50 à $83,62) et le volume reste soutenu au-dessus de la moyenne 20j (1,09x), mais le **range intraday extrême** ($78,66–$90,93, ~15,6%) et l'**ATR_SPIKE persistant** (9,02%) justifient la prudence. Le ratio R/R reste à 1,5:1 avec SL $72,20 et TP $111,95. Aucun catalyseur imminent (earnings dans 82 jours). **Anomalie data quality détectée au snapshot 2026-05-20** : flux options corrompu (Max Pain $40 aberrant, put/call et call OI null) — référence opérationnelle conservée à $85,0 (snapshot 2026-05-19). Verdict global confirmé snapshot 10:00 UTC avec Score Global ajusté 55,5.
+La thèse sur ASTS est désormais **ÉVITER** — le cours a explosé de +20,2% en 5 séances (passage de $88,10 à $105,86) sans catalyseur fondamental, portant le RSI en surachat (74,50) et les multiples spéculatifs à des niveaux encore plus extrêmes (EV/Revenue 378,7×, P/B 15,19×). Le consensus analystes ($92,25) est désormais 13% sous le cours, inversant l'asymétrie. Le score global ajusté est dégradé à 29,8/100 (ÉVITER) avec un ratio R/R mécaniquement maintenu à 1,5:1 mais une probabilité d'atteinte du TP faible. Aucun catalyseur imminent (earnings dans 77 jours). Anomalie data quality persistante sur les flux options (Max Pain $50 aberrant vs cours). Verdict global : **ne pas entrer long à ces niveaux**, attendre un retour vers MM50 ($84,20) ou gap ($98,52) pour réévaluer.
 
 ## Historique
 | Date | Fichier | Type |
@@ -10,14 +10,17 @@ La thèse sur ASTS reste **ATTENDRE** — profil non rentable (EPS estimé néga
 | 2026-05-18 | [ASTS_2026-05-18_update.md](ASTS_2026-05-18_update.md) | Mise à jour post-pipeline — snapshot confirmé |
 | 2026-05-19 | [ASTS_2026-05-19_update.md](ASTS_2026-05-19_update.md) | Snapshot final 21:00 UTC — rebond +3,87% sur volume en expansion, range intraday extrême 15,6%, thèse ATTENDRE confirmée |
 | 2026-05-20 | [ASTS_2026-05-20_update.md](ASTS_2026-05-20_update.md) | Snapshot 10:00 UTC — données quasi inchangées vs 19/05, anomalie options détectée (Max Pain $40 aberrant), thèse ATTENDRE confirmée |
+| 2026-05-25 | [ASTS_2026-05-25_update.md](ASTS_2026-05-25_update.md) | Snapshot 10:00 UTC — explosion haussière +20,2% en 5j, RSI surachat 74,50, consensus sous cours, score global dégradé 29,8 (ÉVITER), thèse ATTENDRE invalidée |
 
 ## Agenda
-- Prochain earnings : **2026-08-10** (J+82) — Est. EPS $-0,29 à $-0,17, Revenus $0,0B
-- Options expiry : **2026-05-22** (J+2) — Max Pain $85,0 [données confirmées snapshot 2026-05-19 21:00 UTC ; anomalie $40 au snapshot 2026-05-20]
+- Prochain earnings : **2026-08-10** (J+77) — Est. EPS $−0,29 à $−0,17, Revenus $0,0B
+- Options expiry : **2026-05-29** (J+4) — Max Pain $50,0 [ANOMALIE — données aberrantes, flux probablement corrompu]
 
 ## Alertes actives
-- **Range intraday extrême** — $78,66–$90,93 (~15,6%) au snapshot 2026-05-19 21:00 UTC. Volatilité inhérente au beta 2,60
-- **ATR_SPIKE** (medium) — ATR relatif 9,02% (seuil 5,0%). Volatilité intraday très élevée persistante, risque de whipsaw majeur
-- **Expiration options imminente** — 2026-05-22 (J+2) : risque de retour vers Max Pain $85,0. Le cours $88,10 est au-dessus du Max Pain
-- **Anomalie data quality options** — Snapshot 2026-05-20 : Max Pain $40,0 aberrant (écart −54,6% vs cours), put/call ratio et call OI % null. Flux options probablement interrompu. Référence opérationnelle : données du 2026-05-19 21:00 UTC
-- **Volume soutenu** — 1,09x moyenne 20j au snapshot 2026-05-20 10:00 UTC
+- **RSI surachat** — 74,50 au snapshot 2026-05-25 (seuil 70 franchi). Risque de correction technique élevé
+- **Cours au-dessus du consensus analystes** — $105,86 vs PT $92,25 = downside −12,9%. Risque de downgrades
+- **Range intraday extrême** — volatilité inhérente au beta 2,60
+- **ATR_SPIKE** (medium) — ATR relatif 8,51% (seuil 5,0%). Volatilité intraday très élevée persistante, risque de whipsaw majeur
+- **Anomalie data quality options persistante** — Snapshot 2026-05-25 : Max Pain $50,0 aberrant (écart −52,8% vs cours), flux options probablement corrompu depuis le 20/05
+- **Volume en expansion** — 1,45× moyenne 20j au snapshot 2026-05-25
+- **Secteur Communication Services bottom 3** — momentum score 0,0
