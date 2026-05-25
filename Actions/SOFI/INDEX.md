@@ -16,21 +16,22 @@
 | 2026-05-19 | Mise à jour quotidienne (snapshot 21:00 UTC — close final confirmé) | [SOFI_2026-05-19_update.md](./SOFI_2026-05-19_update.md) | Close final $15.23 (−3.06% vs veille) à volume normal corrigé (0.93× — vs estimation 0.59× à 17h). RSI 47.22 (sortie survente mécanique), MM50 $16.91, ATR $0.70. Test support $14.92. Options inchangées (Max Pain $16.00, Put/Call 0.59, Call OI 62.7%). Aucune news structurante. Score Opportunité 5.9/10, Score Global 51.1/100 (ATTENDRE). TP $17.33, SL $13.83, R/R 1.50. Earnings dans 70j. |
 | 2026-05-20 | Mise à jour quotidienne (snapshot 10:00 UTC — données quasi inchangées) | [SOFI_2026-05-20_update.md](./SOFI_2026-05-20_update.md) | Snapshot matinal reprenant close $15.23 (identique au 19/05). RSI 47.22, MM50 $16.91, ATR $0.70, volume 0.93× — tous inchangés. [ALERTE DATA QUALITY] Max Pain options $1.00 aberrant dans latest.json (valeur historique $16.00 conservée). Put/Call et Call OI null dans snapshot (données partielles). Aucune news structurante. Score Opportunité 5.9/10, Score Global 51.1/100 (ATTENDRE). TP $17.33, SL $13.83, R/R 1.50. Earnings dans 69j. Thèse confirmée. |
 | 2026-05-20 | Mise à jour quotidienne (snapshot 13:00 UTC — données options corrigées) | [SOFI_2026-05-20_update.md](./SOFI_2026-05-20_update.md) | Snapshot 13:00 UTC reprenant close $15.23 (inchangé). [RÉSOLU] Anomalie options corrigée : Max Pain $15.00 (cohérent), Put/Call 0.55, Call OI 64.3%. Call OI % en hausse légère (+1.6 pts vs 19/05). Métriques techniques, fondamentales et scoring inchangés. Score Opportunité 5.9/10, Score Global 51.1/100 (ATTENDRE). TP $17.33, SL $13.83, R/R 1.50. Earnings dans 69j. Thèse confirmée. |
+| 2026-05-25 | Mise à jour quotidienne (snapshot 10:00 UTC — close final confirmé $15.62) | [SOFI_2026-05-25_update.md](./SOFI_2026-05-25_update.md) | Close $15.62 (+2.6% vs 20/05) à volume faible 0.84×. RSI 43.83 (−3.4 pts), MM50 $16.76, ATR $0.64 (compression). Put/Call 0.75 (+36%) et Call OI 57.2% (−7.1 pts) = repositionnement défensif options. Score Opportunité 5.7/10, Score Global 48.6/100 (SURVEILLER, reclassement vs ATTENDRE). TP $17.54, SL $14.34, R/R 1.50. Earnings dans 64j. Thèse confirmée. |
 
 ---
 
 ## Thèse d'investissement courante
 
-**Recommandation :** ATTENDRE — Pas de position
-**Prix cible :** $17.33 (cours + 3×ATR)
-**Stop-loss :** $13.83 (cours − 2×ATR)
-**Upside/Downside :** +13.7% / −9.2%
-**Dernière mise à jour :** 2026-05-20 (snapshot 13:00 UTC — données options corrigées, close final confirmé $15.23)
+**Recommandation :** SURVEILLER — Pas de position
+**Prix cible :** $17.54 (cours + 3×ATR)
+**Stop-loss :** $14.34 (cours − 2×ATR)
+**Upside/Downside :** +12.3% / −8.2%
+**Dernière mise à jour :** 2026-05-25 (snapshot 10:00 UTC — close final confirmé $15.62)
 
-SoFi est une fintech-banque hybride avec un écosystème complet (lending + banking + investing) et une marque forte chez les millennials. Le charter bancaire 2022 crée une barrière réglementaire modérée vs les fintechs non-banques. Le snapshot du 2026-05-20 à 13:00 UTC reprend le close final du 19/05 à **$15.23** avec un RSI 14j à **47.22** et une MM50 à **$16.91** — le trend court terme reste baissier. Le low du 19/05 à **$14.92** a testé le support psychologique $15.00 sans cassure. Le volume final s'établit à **63.59M (0.93× moy. 20j)**, en ligne avec la moyenne. La dépendance aux taux d'intérêt et l'exposition aux prêts étudiants créent des risques macro majeurs. Le Forward P/E **19.46** est raisonnable pour une fintech en croissance mais le P/E LTM **33.84** reste élevé. Le Score Opportunité reste à **5.9/10**, et le Score Global Composite dans la zone **ATTENDRE (51.1/100)**. **Anomalie options RÉSOLUE :** le snapshot 13:00 UTC rapporte un Max Pain **$15.00** (cohérent), un Put/Call ratio **0.55** et un Call OI **64.3%** — toutes valeurs désormais fiables. Le Call OI % progresse légèrement (+1.6 pts vs le 19/05). Le secteur financier (XLF) reste sans direction (momentum 0.0/10). Attendre un retour au-dessus de MM50 avec volume confirmatoire, ou un test du support $14.50 pour éventuelle entrée spéculative.
-**Score 5.9/10. Score Global 51.1/100. ATTENDRE.**
+SoFi est une fintech-banque hybride avec un écosystème complet (lending + banking + investing) et une marque forte chez les millennials. Le charter bancaire 2022 crée une barrière réglementaire modérée vs les fintechs non-banques. Le snapshot du 2026-05-25 à 10:00 UTC rapporte un close final à **$15.62** (+2.6% vs 20/05) avec un RSI 14j à **43.83** et une MM50 à **$16.76** — le trend court terme reste baissier mais le gap avec la MM50 se réduit (cours −6.8% sous MM50 vs −9.9% le 20/05). Le low du jour à **$15.36** a testé le support psychologique **$15.00** sans cassure. Le volume s'établit à **57.91M (0.84× moy. 20j)**, en retrait sur la hausse. La dépendance aux taux d'intérêt et l'exposition aux prêts étudiants créent des risques macro majeurs. Le Forward P/E **19.96** est raisonnable pour une fintech en croissance mais le P/E LTM **34.71** reste élevé. Le Score Opportunité recule à **5.7/10**, et le Score Global Composite bascule en zone **SURVEILLER (48.6/100)** — reclassement entièrement dû à la dégradation du Momentum (4.5 → 3.5). **Signal options défensif :** le Put/Call ratio grimpe à **0.75** (+36% vs 0.55 du 20/05) et le Call OI % chute à **57.2%** (−7.1 pts) — les opérateurs options se couvrent à l'approche de l'expiration du 2026-05-29 (4 jours). Le secteur financier (XLF) reste sans direction (momentum 0.0/10). Attendre un retour au-dessus de MM50 avec volume confirmatoire, ou un test du support $15.00 pour éventuelle entrée spéculative.
+**Score 5.7/10. Score Global 48.6/100. SURVEILLER.**
 
-**Données complètes** — Cours, RSI, ATR, P/E, beta disponibles dans `data/latest.json` (snapshot 2026-05-20T13:00 UTC). Options corrigées : Max Pain $15.00, Put/Call 0.55, Call OI 64.3%. Expiration prochaine 2026-05-22 (2 jours).
+**Données complètes** — Cours, RSI, ATR, P/E, beta disponibles dans `data/latest.json` (snapshot 2026-05-25T10:00 UTC). Options : Max Pain $15.00, Put/Call 0.75, Call OI 57.2%. Expiration prochaine 2026-05-29 (4 jours).
 
 ---
 

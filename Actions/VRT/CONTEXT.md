@@ -8,20 +8,12 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** SURVEILLER
-**Prix cible :** $380–$400 (technique, consensus $257 obsolète)
-**Upside/Downside :** +17.8% à +24.0% / −12.3% (SL)
-**Dernière mise à jour :** 2026-05-20 (snapshot 13:00 UTC — révision post-anomalie, cours $322.63 clôture 19/05, anomalie options résolue put/call 2.23/max pain $215, timing Favorable)
+- **Prix cible :** $380–$400 (technique, consensus $264 obsolète)
+- **Upside/Downside :** +16.1% à +22.2% / −12.0% (SL)
+- **Statut thèse :** Confirmée
+- **Horizon :** 1–3 mois
 
-Vertiv est le leader mondial du refroidissement data centers, bénéficiant directement de l'explosion de l'IA (GPU consomment 5–10× plus d'énergie). Quality Compounder 5–6/6 avec marges en expansion, ROIC 18.5%, ROCE 24.3%, net debt/EBITDA 0.76×. La correction s'est accentuée le 19 mai (−5.03%, cumul −13.0% depuis 17 mai) sur volume élevé (1.50×), confirmant un signal de distribution institutionnelle. L'open à $329.68 (gap down −2.96%) et le high intraday à $334.625 (rebond échoué sous $339.73) révèlent un pattern baissier clair avant la chute vers le low $314.34. Le consensus analystes $257 est toujours obsolète (+20.5% en dessous du cours). L'anomalie options détectée ce matin (put/call 0.0, call OI 100%, max pain $190) a été **résolue** dans le snapshot 13:00 UTC : put/call 2.23, call OI 31%, max pain $215 (alignés avec le snapshot du 19/05). Le sentiment options reste massivement bearish à 3 jours de l'expiration vendredi. Le secteur Industrials (XLI) sous-performe (momentum 0.0). Le score Opportunité reste à 4.0/10 (momentum 6.0/10). Le timing reste Favorable grâce au RSI ressorti de surachat (55.03) et au cours au-dessus de MM50 ($299.76), mais le volume élevé sur baisse et le pattern intraday du 19/05 atténuent le signal positif. Pas de position longue significative sans confirmation de consolidation au-dessus de $330 ou retest de la zone $314–$320. Prochain earnings 2026-07-29 (70 jours).
-
----
-
-## Actualités ayant impacté ce dossier
-- **Score global :** —/10
-- **Prix cible :** $380
-- **Stop-loss :** $—
-- **Statut thèse :** —
-- **Horizon :** —
+Vertiv est le leader mondial du refroidissement data centers, bénéficiant directement de l'explosion de l'IA. Quality Compounder 5–6/6 avec marges en expansion, ROIC 18.5%, ROCE 24.3%, net debt/EBITDA 0.76×. Le cours a consolidé à $327.46 (+1.5% vs 20/05) sur volume effondré (4.79M, 0.84× moyenne). Zone de consolidation $324–$335 établie depuis le 22 mai. Consensus révisé à $264.35 (+3 analysts) mais obsolète (+19.3%). Options massivement bearish : put/call 2.59, 72.1% puts, max pain $225 (gap 31.3%). Expiration options vendredi 29 mai = risque volatilité élevée. RSI sous 50 (48.88), timing dégradé à Neutre. Score Opportunité 4.3/10. Pas de position sans consolidation au-dessus de $335 ou retest $324–$325. Prochain earnings 2026-07-29 (65 jours).
 
 ---
 
@@ -41,7 +33,8 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- 2026-05-29 : Expiration options (put/call 2.59, 72.1% puts, max pain $225) — risque volatilité
+- 2026-07-29 : Earnings Q2 FY2026 — Est EPS $1.38-$1.59, Rev $3.4B
 
 ---
 
@@ -58,15 +51,9 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-25
-- **Type :** full refresh
-- **Fichier :** `VRT_2026-05-25_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-05-25
-
----
-
-## 🔄 Triggers détectés (full refresh)
-
-- **ATR_SPIKE** (medium) — ATR relatif 6.00% (seuil 5.0%)
+- **Type :** update
+- **Fichier :** `VRT_2026-05-25_update.md`
+- **Conclusion :** Thèse confirmée. Consolidation en cours $324–$335. Volume effondré (distribution terminée). Options bearish extrêmes (put/call 2.59, 72.1% puts). Timing dégradé Neutre. Score 4.3/10. SURVEILLER.
 
 ---
 

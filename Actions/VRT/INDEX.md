@@ -44,6 +44,7 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 | 2026-05-20 | **Anomalie options : put/call 0.0 / call OI 100% / max pain $190** | 🔴 Probable artefact — à valider | VRT_2026-05-20_update.md |
 | 2026-05-20 | **Correction anomalie options : put/call 2.23 / call OI 31% / max pain $215** | 🟢 Anomalie résolue — valeurs alignées avec snapshot 19/05 | VRT_2026-05-20_update.md |
 | 2026-05-20 | **Open $329.68 / high $334.625 du 19/05 révélés — pattern de distribution confirmé** | 🔴 Signal baissier intraday | VRT_2026-05-20_update.md |
+| 2026-05-25 | **Cours $327.46 (+1.5%), volume effondré 0.84×, RSI 48.88 sous 50, put/call 2.59 (72.1% puts)** | 🔴 Consolidation sans confirmation acheteuse, options bearish extrêmes | VRT_2026-05-25_update.md |
 
 ---
 
