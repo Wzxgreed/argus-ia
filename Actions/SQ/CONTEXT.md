@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 58.0/100
-- **Prix cible :** $87.50 (consensus 2 analystes)
-- **Stop-loss :** $— (non défini — attendre résolution stale price)
-- **Statut thèse :** Bloqué par anomalie de données (stale price 10 snapshots / earnings J=0 non résolu)
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -24,37 +24,32 @@
 
 ## 🚨 Alertes actives
 
-- 🔴 **Stale Price** — Cours $83.46 figé sur 10 snapshots consécutifs (20/05 → 25/05), source `fmp_fallback`, `change_pct: null`
-- 🔴 **Earnings J=0 non résolu** — Q1 2026 non intégré dans le pipeline après 5 jours calendaires
-- 🔴 **Quality Gate Exclusion** — Filtre Qualité 3/6 (hors périmètre), bilan négatif, ROIC −12.8%
-- 🟡 **Consensus réduit** — 2 analystes couvrant, 0 révision mois/trimestre dernier
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-05-25** · 🔴 Earnings Q1 2026 — J=0, résultats **toujours non intégrés** dans le snapshot 13:00 UTC
-- Action opérationnelle urgente : Vérifier date réelle de publication Q1 2026 via site IR Block / SEC EDGAR
+- **2026-05-25** · earnings · Earnings ...
 
 ---
 
-## 📊 Contexte technique (dernier snapshot 13:00 UTC)
+## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** N/A (bloc `technical` vide)
-- **MM 50j :** N/A
-- **MM 200j :** N/A
-- **ATR 14j :** N/A
-- **Volume moy. 20j :** N/A
-- **Volume session :** 1.14M
+- **RSI 14j :** —
+- **MM 50j :** —
+- **MM 200j :** —
+- **ATR 14j :** —
+- **Volume moy. 20j :** —
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-25
-- **Type :** update
-- **Fichier :** `SQ_2026-05-25_update.md`
-- **Conclusion :** ATTENDRE — Qualité 3/6 hors périmètre, earnings J=0 **non résolu après 5 jours**, **stale price 10 snapshots / 5 jours calendaires (quality gate excluded)**, zero changement vs snapshot matinal 10:00 UTC. Seul ticker watchlist avec `fmp_fallback` et cours figé. Exclure du périmètre long actif jusqu'à résolution.
+- **Type :** preview
+- **Fichier :** `SQ_2026-05-25_preview.md`
+- **Conclusion :** > **Date :** 2026-05-25
 
 ---
 

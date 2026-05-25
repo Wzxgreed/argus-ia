@@ -47,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-25
-- **Type :** update (snapshot 13:00 UTC)
+- **Type :** update
 - **Fichier :** `AST_2026-05-25_update.md`
-- **Conclusion :** Snapshot 13:00 UTC confirme stabilité absente — aucune donnée de marché, earnings J=0 non résolu, doublon ASTS confirmé (ASTS $105.86 +10.01%). Thèse INVALIDÉE par absence de données.
+- **Conclusion :** > **Date :** 2026-05-25
 
 ---
 

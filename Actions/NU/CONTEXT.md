@@ -19,7 +19,7 @@
 - **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** modifiée
+- **Statut thèse :** —
 - **Horizon :** 1–3 mois
 
 ---
@@ -57,7 +57,7 @@
 - **Date :** 2026-05-25
 - **Type :** update
 - **Fichier :** `NU_2026-05-25_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE** (snapshot 13:00 UTC, données stables vs 10:00 UTC)
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE**
 
 ---
 

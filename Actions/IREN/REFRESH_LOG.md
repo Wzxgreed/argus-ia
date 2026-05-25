@@ -634,3 +634,21 @@ Le rally +19.0% en 5 sessions ($47.74 → $56.83) confirme le momentum technique
 **Conclusion :** confirm — duplicata du FULL REFRESH complété précédemment ce jour. Données strictement inchangées vs snapshot 13:00 UTC. Aucun nouveau flux post-earnings intégré. DRAFT_refresh archivé.
 
 ---
+
+## 2026-05-25 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10.29% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-25 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10.29% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

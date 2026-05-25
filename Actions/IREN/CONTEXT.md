@@ -1,24 +1,24 @@
-# CONTEXT — IREN — Derniere mise a jour : 2026-05-25
+# CONTEXT — IREN — Dernière mise à jour : 2026-05-25
 
-> Ce fichier est la **memoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
-> Mise a jour automatique par `agents/update_context/agent.py` a chaque passage du pipeline.
-
----
-
-## 🎯 These active
-
-- **Recommandation :** ACHETER
-- **Score global :** 65.8/100 (Score Opportunite 6.1/10)
-- **Prix cible :** $65.86
-- **Stop-loss :** $45.13
-- **Statut these :** modifiee
-- **Horizon :** 1–3 mois
+> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
+> Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
 
 ---
 
-## 📉 Erreurs de prediction recentes
+## 🎯 Thèse active
 
-- Aucune erreur enregistree.
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
+- **Horizon :** —
+
+---
+
+## 📉 Erreurs de prédiction récentes
+
+- Aucune erreur enregistrée.
 
 ---
 
@@ -26,17 +26,16 @@
 
 - Baisse — $45.00 — 🟢 Active
 - Hausse — $65.86 — 🟢 Active
-- Volume — >2x moy. 20j (>104.9M) — 🟢 Active
-- IREN — Verification — $61.20
-- IREN — **⚠️ Volume DECLENCHE** — $55.15 (close)
+- Volume — >2× moy. 20j (>104.9M) — 🟢 Active
+- IREN — Vérification — $61.20
+- IREN — **⚠️ Volume DÉCLENCHÉ** — $55.15 (close)
 - IREN — **⚠️ Baisse INTRADAY** — $52.36 (low)
 
 ---
 
-## 📅 Prochains evenements
+## 📅 Prochains événements
 
-- **2026-05-25** · earnings · Earnings Q1 2026 (J=0)
-- **2026-06-24** · verification · Fenetre J+30 prix cible ($65.86)
+- **2026-05-25** · earnings · Earnings ...
 
 ---
 
@@ -50,19 +49,19 @@
 
 ---
 
-## 📝 Resume derniere analyse
+## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-25
-- **Type :** _update.md
-- **Fichier :** `IREN_2026-05-25_update.md`
-- **Conclusion :** Rally +19.0% en 5 sessions. Momentum renforce, valuation degradee (P/E 73.8x). Defiance options massive (put/call 2.35). Earnings J=0 aujourd'hui = catalyseur determinant. These modifiee — ACHETER sizing reduit.
+- **Type :** full refresh
+- **Fichier :** `IREN_2026-05-25_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-25
 
 ---
 
-## 🔄 Triggers detectes (full refresh)
+## 🔄 Triggers détectés (full refresh)
 
 - **ATR_SPIKE** (medium) — ATR relatif 10.29% (seuil 5.0%)
 
 ---
 
-*Genere automatiquement — ne pas editer manuellement.*
+*Généré automatiquement — ne pas éditer manuellement.*

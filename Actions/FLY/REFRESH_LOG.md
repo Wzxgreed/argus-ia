@@ -659,3 +659,23 @@
 **Conclusion :** Confirmée — snapshot 13:00 UTC strictement identique au snapshot 10:00 UTC. Aucun changement matériel de données, scores, fondamentaux, news, events ou agents. Thèse ÉVITER maintenue. FULL REFRESH DRAFT traité et archivé dans cette session. — *Fichier : FLY_2026-05-25_update.md*
 
 ---
+
+## 2026-05-25 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-25 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

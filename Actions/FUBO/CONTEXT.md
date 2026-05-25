@@ -49,7 +49,7 @@
 - **Date :** 2026-05-25
 - **Type :** update
 - **Fichier :** `FUBO_2026-05-25_update.md`
-- **Conclusion :** Snapshot 13:00 UTC confirme la stabilité vs 10:00 UTC (close $9.75, RSI 20.19, max pain $9.00 inchangés). Scoring agent stable ACHETER Réduit (65.5/100), ajustement analyste maintient SURVEILLER (~52/100). Fondamental dégradé 1/6, earnings Q1 toujours non résolus. DRAFT_refresh archivé.
+- **Conclusion :** > **Niveau d'impact :** 🟢 Faible — Snapshot 13:00 UTC **confirme la stabilité** vs snapshot 10:00 UTC. Close $9.75 inchangé, RSI 20.19 inchangé, max pain $9.00 inchangé, scoring agent stable à 65.5/10
 
 ---
 
