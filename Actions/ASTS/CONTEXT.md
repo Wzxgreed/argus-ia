@@ -49,7 +49,7 @@
 - **Date :** 2026-05-25
 - **Type :** update
 - **Fichier :** `ASTS_2026-05-25_update.md`
-- **Conclusion :** **Thèse confirmée : ÉVITER — données stables, aucune mutation entre 10:00 UTC et 13:00 UTC**
+- **Conclusion :** **Thèse confirmée : ÉVITER — stabilité totale snapshot 21:00 UTC vs 13:00 UTC (marché fermé Memorial Day), aucune mutation**
 
 ---
 
