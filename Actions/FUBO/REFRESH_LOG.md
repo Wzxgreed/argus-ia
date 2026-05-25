@@ -624,13 +624,13 @@
 
 ---
 
-## 2026-05-25 — Full Refresh Triggered
+## 2026-05-25 — Full Refresh Résolu (Snapshot 10:00 UTC)
 
 **Triggers :**
 - price_gap (medium) : Gap +6.67% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.46% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Thèse MODIFIÉE (SURVEILLER). Snapshot 10:00 UTC du 2026-05-25 confirme gap haussier +6.67% à $9.75, RSI en survente extrême (20.19), ATR compressé $0.63, MM50 descendante à $11.52. Max pain corrigé à $9.00, put/call remonté à 0.65, call OI reculé à 60.6%. Scoring agent basculé ACHETER Réduit (65.5/100, timing Défavorable) mais ajustement analyste ramène le Score Global à ~52/100 sur fondamental dégradé (Qualité 1/6, patrimoine net négatif −$398.9M, divergence Yahoo/FMP ×11.4). Résultats Q1 2026 attendus le 2026-05-20 toujours non visibles — retard API ou report probable. DRAFT_refresh.md complété et archivé (`FUBO_2026-05-25_DRAFT_refresh.md` → supprimé). Analyse mise à jour sous `FUBO_2026-05-25_update.md`. INDEX.md et CONTEXT.md mis à jour. Pas de position longue recommandée.
 
 ---
 

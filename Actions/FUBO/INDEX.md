@@ -17,19 +17,21 @@ Thèse d'investissement : FUBO est un titre spéculatif du secteur Communication
 | 2026-05-19 | [FUBO_2026-05-19_update.md](FUBO_2026-05-19_update.md) | Mise à jour snapshot final 21:00 UTC — close $9.20 (−1.92% session), volume corrigé à 945 778 (0.63×), RSI 32.26 proche survente, earnings Q1 JOUR J toujours non observables, thèse ATTENDRE confirmée |
 | 2026-05-20 | [FUBO_2026-05-20_init.md](FUBO_2026-05-20_init.md) | FULL REFRESH — ATR_SPIKE 8.48%, thèse confirmée ATTENDRE (close stable $9.20, volume 0.69×, anomalie max pain $21.00 vs $10.00 historique, earnings Q1 JOUR J non résolus) |
 | 2026-05-19 | [FUBO_2026-05-19_init.md](FUBO_2026-05-19_init.md) | FULL REFRESH — ATR_SPIKE 8.48%, thèse confirmée ATTENDRE (snapshot final $9.20, volume 0.63×) |
+| 2026-05-25 | [FUBO_2026-05-25_update.md](FUBO_2026-05-25_update.md) | Mise à jour snapshot 10:00 UTC — gap haussier +6.67% à $9.75, RSI survente extrême 20.19, max pain corrigé $9.00, scoring agent basculé ACHETER Réduit (65.5/100) mais ajustement analyste maintient SURVEILLER (~52/100) sur fondamental dégradé 1/6 et earnings Q1 toujours non résolus |
 
 ## Agenda
-- **Earnings Q1 2026 :** 2026-05-20 (JOUR J — résultats en attente de confirmation / publication post-close probable ou retard API)
-- Échéance options : 2026-05-22 (J-1 — max pain crédible $10,00, put/call 0,65, call OI 60,6%)
+- **Earnings Q1 2026 :** 2026-05-20 (résultats en attente de confirmation / publication post-close probable ou retard API — toujours non visibles au snapshot 2026-05-25)
+- Échéance options : 2026-05-29 (J+4 — max pain $9,00, put/call 0,65, call OI 60,6%)
 - Prochaine échéance earnings Q2 : ~août 2026
 
 ## Alertes actives
-- **ATR_SPIKE** (medium) — ATR relatif 8,5% (seuil 5,0%) — persistant depuis 2026-05-17
-- **Earnings jour J en attente** — résultats Q1 2026 non visibles au snapshot 10:00 UTC 2026-05-20 → vérifier prochaine session impérativement
-- **Divergence Yahoo/FMP Market Cap** — ×12,1 d'écart entre sources
-- **Sector Rotation XLC Bottom 3** — malus sectoriel actif
-- **Options Spot/Max Pain Divergence** — spot $9.20 vs max pain crédible $10.00 (écart 8.0%) à J-1 échéance 2026-05-22 ; call OI dominant 60,6%
-- **Anomalie Data Quality Options** — max pain brut API $21.00 (incohérent vs historique $10.00) — signalé comme artefact data quality, non pris en compte dans le scoring
-- **Liquidité réduite** — volume 0.69× moyenne 20j (1,04M vs 1,50M) — risque de slippage majeur
+- **PRICE_GAP** (medium) — Gap +6.67% overnight (seuil ±5.0%) — 2026-05-25
+- **ATR_SPIKE** (medium) — ATR relatif 6,46% (seuil 5,0%) — persistant depuis 2026-05-17
+- **RSI SURVENTE EXTRÊME** — RSI 20.19 (seuil 30) — 2026-05-25
+- **Earnings Q1 2026 en attente** — résultats attendus le 2026-05-20, toujours non visibles au snapshot 2026-05-25 — vérifier impérativement
+- **Divergence Yahoo/FMP Market Cap** — ×11,4 d'écart entre sources ($287,0M vs ~$3,27B)
+- **Sector Rotation XLC Bottom 3** — malus sectoriel actif (dernière donnée connue 2026-05-20)
+- **Options Spot/Max Pain Divergence** — spot $9.75 vs max pain $9.00 (écart +8.3%) ; call OI dominant 60,6%
+- **Liquidité réduite** — volume 0.75× moyenne 20j (1,10M vs 1,46M) — risque de slippage majeur
 - **Qualité dégradée** — Score Qualité 1/6, patrimoine net négatif, FCF négatif
-- **Short Squeeze Setup (latent)** — short interest 22,84% + call OI dominant + échéance imminente = risque de squeeze technique si catalyseur positif
+- **Short Squeeze Setup (latent)** — short interest 22,84% + call OI dominant 60,6% = risque de squeeze technique si catalyseur positif
