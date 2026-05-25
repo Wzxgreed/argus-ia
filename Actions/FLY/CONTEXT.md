@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
+- **Recommandation :** ÉVITER
+- **Score global :** 31.8/100 (Score Opportunité 4.2/10)
 - **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
+- **Stop-loss :** $39.48
+- **Statut thèse :** Confirmée — stabilité totale snapshot 21:00 UTC
 - **Horizon :** —
 
 ---
@@ -24,32 +24,37 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- **🔴 GAP NON EXPLIQUÉ** — Gap +15.49% sans catalyst ni news (2026-05-25). Surveillance post-gap obligatoire.
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q2 2026** : 2026-08-04 (71 jours) — Est EPS -$0.60 à -$0.45, Rev $0.1B
+- **Expiration options** : 2026-05-29 (4 jours) — Max Pain $36.00
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 72.38
+- **Cours close :** $49.50
+- **RSI 14j :** 72.38 (surachat)
 - **MM 50j :** 34.62
 - **MM 200j :** —
 - **ATR 14j :** 5.01
-- **Volume moy. 20j :** 6422365
+- **Volume moy. 20j :** 6,422,365
+- **Volume jour :** 8,773,800 (1.37x moy.)
+- **52W High :** $73.80
+- **52W Low :** $16.00
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-25
-- **Type :** full refresh
-- **Fichier :** `FLY_2026-05-25_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-05-25
+- **Type :** update
+- **Fichier :** `FLY_2026-05-25_update.md`
+- **Conclusion :** Thèse ÉVITER confirmée. Stabilité totale vs snapshot 17:00 UTC (marché fermé Memorial Day). Gap +15.49% non expliqué, fondamentaux inchangés et défavorables, consensus $42.45 sous le spot.
 
 ---
 

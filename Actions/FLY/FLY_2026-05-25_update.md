@@ -1,18 +1,18 @@
-# FLY — Mise a Jour (2026-05-25, snapshot 17:00 UTC)
+# FLY — Mise à Jour (2026-05-25, snapshot 21:00 UTC)
 
-> **Type :** `_update.md` — Confirmation post-session (snapshot 17:00 UTC)
-> **Reference precedente :** [FLY_2026-05-25_update.md](FLY_2026-05-25_update.md) (snapshot 13:00 UTC)
-> **Donnees source :** `data/latest.json` (timestamp 2026-05-25T17:00:08.609297+00:00), `data/recommandations_latest.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`, `data/upcoming_events_latest.json`, `data/events_latest.json`, `data/news_latest.json`
-> **Validation data :** 4 erreurs globales (VRT schema, AST/AXA/CYTOMX fetch failed) — aucune affectant FLY. Pas de [CRITICAL]. Donnees FLY considerees fiables.
-> **Note pipeline :** Snapshot 17:00 UTC reproduit strictement les memes donnees de marche que le snapshot 13:00 UTC (marche ferme Memorial Day).
+> **Type :** `_update.md` — Confirmation post-session (snapshot 21:00 UTC)
+> **Référence précédente :** [FLY_2026-05-25_update.md](FLY_2026-05-25_update.md) (snapshot 17:00 UTC)
+> **Données source :** `data/latest.json` (timestamp 2026-05-25T21:00:09.299648+00:00), `data/recommandations_latest.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`, `data/upcoming_events_latest.json`, `data/events_latest.json`
+> **Validation data :** 4 erreurs globales (VRT schema, AST/AXA/CYTOMX fetch failed) — aucune affectant FLY. Pas de [CRITICAL]. Données FLY considérées fiables.
+> **Note pipeline :** Snapshot 21:00 UTC reproduit strictement les mêmes données de marché que les snapshots 13:00 UTC et 17:00 UTC (marché fermé Memorial Day).
 
 ---
 
-## Resume — Stabilite totale vs snapshot 13:00 UTC
+## Résumé — Stabilité totale vs snapshot 17:00 UTC
 
-Le snapshot 17:00 UTC (`fetched_at: 2026-05-25T17:00:08.609297+00:00`) reproduit **strictement les memes donnees de marche** que le snapshot 13:00 UTC et le snapshot 10:00 UTC. Aucune nouvelle seance, aucun nouveau flux de prix, volumes, options ou fondamentaux n'a ete enregistre entre les snapshots.
+Le snapshot 21:00 UTC (`fetched_at: 2026-05-25T21:00:09.299648+00:00`) reproduit **strictement les mêmes données de marché** que les précédents snapshots de la journée. Aucune nouvelle séance, aucun nouveau flux de prix, volumes, options ou fondamentaux n'a été enregistré entre les snapshots.
 
-| Metrique | 13:00 UTC | 17:00 UTC | Variation |
+| Métrique | 17:00 UTC | 21:00 UTC | Variation |
 |----------|-----------|-----------|-----------|
 | Cours close | $49.50 | **$49.50** | Aucune |
 | Change % | +15.49% | **+15.49%** | Aucune |
@@ -25,162 +25,162 @@ Le snapshot 17:00 UTC (`fetched_at: 2026-05-25T17:00:08.609297+00:00`) reproduit
 | Consensus PT (FMP) | $42.45 (11 analysts) | **$42.45 (11 analysts)** | Aucune |
 | Options — Max Pain | $36.00 (exp. 29/05) | **$36.00 (exp. 29/05)** | Aucune |
 | Options — Put/Call | 0.74 | **0.74** | Aucune |
-| Score Opportunite | 4.2/10 | **4.2/10** | Aucune |
-| Score Global Ajuste | 31.8 | **31.8** | Aucune |
-| Action | EVITER | **EVITER** | Confirmee |
+| Score Opportunité | 4.2/10 | **4.2/10** | Aucune |
+| Score Global Ajusté | 31.8 | **31.8** | Aucune |
+| Action | ÉVITER | **ÉVITER** | Confirmée |
 
-**Verdict :** These **EVITER** confirmee. Le gap de +15.49% reste non explique par aucun catalyst (events_latest = 0, news FLY = 0). Les fondamentaux, la structure technique et le consensus analystes sont inchanges.
+**Verdict :** Thèse **ÉVITER** confirmée. Le gap de +15.49% reste non expliqué par aucun catalyst (events_latest = 0, news FLY = 0). Les fondamentaux, la structure technique et le consensus analystes sont inchangés.
 
 ---
 
-## Mise a jour technique — Confirmee (inchangee vs 13:00 UTC)
+## Mise à jour technique — Confirmée (inchangée vs 17:00 UTC)
 
 | Indicateur | Valeur | Verdict |
 |------------|--------|---------|
-| Cours close | $49.50 | Gap +15.49% vs prior close $42.86 — **mouvement speculatif majeur, non resolu** |
+| Cours close | $49.50 | Gap +15.49% vs prior close $42.86 — **mouvement spéculatif majeur, non résolu** |
 | Open | $42.93 | Gap up brutal, open = low du jour |
-| High | $50.02 | Test de $50.00, rejet a $49.50 en close |
+| High | $50.02 | Test de $50.00, rejet à $49.50 en close |
 | Low | $42.93 | Aucun retracement intraday |
 | RSI 14j | 72.38 | **Surachat technique** (>70) — inchangé |
-| MM 50j | $34.62 | Cours superieur de **+43.0%**, tendance haussiere tres etiree |
+| MM 50j | $34.62 | Cours supérieur de **+43.0%**, tendance haussière très étirée |
 | Volume | 8,773,800 | **1.37x moy. 20j** — inchangé |
-| ATR 14j | $5.01 | Volatilite elevee persistante (10.1% rel.) |
-| Support 1 | $42.93 (Low du jour) | Support intraday immediat — rupture = retour vers $39–$40 |
-| Support 2 | $34.62 (MM50) | Support dynamique — rupture = revision baissiere majeure |
-| Resistance 1 | $50.02 (High du jour) | Teste et rejete — psychologique $50.00 |
-| Resistance 2 | $73.80 (52W High) | — |
+| ATR 14j | $5.01 | Volatilité élevée persistante (10.1% rel.) |
+| Support 1 | $42.93 (Low du jour) | Support intraday immédiat — rupture = retour vers $39–$40 |
+| Support 2 | $34.62 (MM50) | Support dynamique — rupture = révision baissière majeure |
+| Résistance 1 | $50.02 (High du jour) | Testé et rejeté — psychologique $50.00 |
+| Résistance 2 | $73.80 (52W High) | — |
 
-**Timing verdict :** **Defavorable** — inchangé. Tendance haussiere intacte mais extremement etiree. Risque de gap fill vers $43.00–$44.00 toujours present.
+**Timing verdict :** **Défavorable** — inchangé. Tendance haussière intacte mais extrêmement étirée. Risque de gap fill vers $43.00–$44.00 toujours présent.
 
 ---
 
-## Mise a jour fondamentale — Inchangee (inchangee vs 13:00 UTC)
+## Mise à jour fondamentale — Inchangée (vs 17:00 UTC)
 
-Donnees croisees Yahoo / FMP (annual FY 2025) — **strictement inchangées vs snapshot 13:00 UTC** :
+Données croisées Yahoo / FMP (annual FY 2025) — **strictement inchangées** :
 
-| Metrique | Valeur | Commentaire |
+| Métrique | Valeur | Commentaire |
 |----------|--------|-------------|
 | Market Cap (Yahoo) | $7.93B | Divergence Yahoo/FMP persistante (-57%) |
-| Forward P/E | -43.36 | Pas de rentabilite nette attendue |
-| EV/Revenue (Yahoo) | 40.21x | Multiple tres eleve |
-| P/B (Yahoo) | 7.17 | Multiple structurel eleve |
+| Forward P/E | -43.36 | Pas de rentabilité nette attendue |
+| EV/Revenue (Yahoo) | 40.21x | Multiple très élevé |
+| P/B (Yahoo) | 7.17 | Multiple structurel élevé |
 | Gross Margin (FMP) | 15.6% | Faible |
-| Operating Margin (FMP) | -154.3% | Fortement negatif |
-| Net Margin (FMP) | -186.6% | Fortement negatif |
-| Debt/Equity (FMP) | 0.26 | Levier modere |
-| Current Ratio (FMP) | 4.51 | Liquidite solide |
+| Operating Margin (FMP) | -154.3% | Fortement négatif |
+| Net Margin (FMP) | -186.6% | Fortement négatif |
+| Debt/Equity (FMP) | 0.26 | Levier modéré |
+| Current Ratio (FMP) | 4.51 | Liquidité solide |
 | Short Interest | 8.66% | Stable — absence de squeeze setup |
 | FMP Consensus PT | $42.45 (11 analysts) | **-14.2% sous le spot** |
 
-**Filtre Qualite** : **2/6** (Hors perimetre) — inchangé.
+**Filtre Qualité** : **2/6** (Hors périmètre) — inchangé.
 
-| Critere | Score | Justification |
+| Critère | Score | Justification |
 |---------|-------|---------------|
-| Revenue CAGR 5 ans >= 20% | ❌ | Pas de donnees >20% (FY 2025 Revenue/Share $1.05) |
-| Profit CAGR 5 ans >= 20% | ❌ | Marges negatives |
+| Revenue CAGR 5 ans >= 20% | ❌ | Pas de données >20% (FY 2025 Revenue/Share $1.05) |
+| Profit CAGR 5 ans >= 20% | ❌ | Marges négatives |
 | Assets/Liabilities > 1.0 | ✅ | Current Ratio 4.51 |
-| FCF positif et croissant 5 ans | ❌ | FCF yield negatif (-7.0%) |
-| Avantage competitif (moat) | ❌ | Aucun moat structurel identifie |
+| FCF positif et croissant 5 ans | ❌ | FCF yield négatif (-7.0%) |
+| Avantage compétitif (moat) | ❌ | Aucun moat structurel identifié |
 | Industrie forte croissance (TAM x5) | ❌ | Aerospace & Defense en croissance, mais pas x5 pour ce profil |
-| **Score Qualite total** | **2/6** | 🔴 Hors perimetre |
+| **Score Qualité total** | **2/6** | 🔴 Hors périmètre |
 
-**Regle** : Score <= 3/6 -> Score Valorisation plafonne a 5/10. L'Agent Recommandation applique **3.5/10**.
+**Règle** : Score <= 3/6 → Score Valorisation plafonné à 5/10. L'Agent Recommandation applique **3.5/10**.
 
 ---
 
-## Mise a jour sentiment / options / news — Inchangee (inchangee vs 13:00 UTC)
+## Mise à jour sentiment / options / news — Inchangée (vs 17:00 UTC)
 
-| Signal | Valeur | Source | Interpretation |
+| Signal | Valeur | Source | Interprétation |
 |--------|--------|--------|----------------|
 | Consensus analystes (FMP) | $42.45 (11 analysts) | FMP Stable API | PT **-14.2% sous le spot** — consensus bearish vs prix actuel |
 | Max Pain | $36.00 | Yahoo Finance | Expiration 29/05. Max pain **-27.3% sous le spot** |
-| Put/Call Ratio | 0.74 | Yahoo Finance | Preference call moderee |
-| Call OI % | 57.4% | Yahoo Finance | Biais haussier modere |
+| Put/Call Ratio | 0.74 | Yahoo Finance | Préférence call modérée |
+| Call OI % | 57.4% | Yahoo Finance | Biais haussier modéré |
 | Short Interest | 8.66% | Yahoo Finance | Stable |
-| Social Sentiment | EXTREME_BEARISH (0.0) | `data/social_sentiment_2026-05-25.json` | Signal artefact (0 mention) — pas d'activite retail |
+| Social Sentiment | EXTREME_BEARISH (0.0) | `data/social_sentiment_2026-05-25.json` | Signal artefact (0 mention) — pas d'activité retail |
 | Event-Driven | Aucun | `data/events_2026-05-25.json` | Pas de M&A, buyback, guidance change, activism |
-| Upcoming Events | Earnings Q2 2026 le 2026-08-04 (71 jours) | `data/upcoming_events_2026-05-25.json` | Est EPS -$0.60 a -$0.45, Rev $0.1B |
-| News FLY | Aucune | `data/news_2026-05-25.json` | **Aucune news specifique** — le gap reste non explique |
+| Upcoming Events | Earnings Q2 2026 le 2026-08-04 (71 jours) | `data/upcoming_events_2026-05-25.json` | Est EPS -$0.60 à -$0.45, Rev $0.1B |
+| News FLY | Aucune | `data/news_2026-05-25.json` | **Aucune news spécifique** — le gap reste non expliqué |
 
-**Score Catalyseur** : **4.0/10** — inchangé. Absence de catalyseur immediat.
+**Score Catalyseur** : **4.0/10** — inchangé. Absence de catalyseur immédiat.
 
 ---
 
-## Scoring global — Confirme (Agent Recommandation, inchangé vs 13:00 UTC)
+## Scoring global — Confirmé (Agent Recommandation, inchangé vs 17:00 UTC)
 
 | Axe | Score | Pondération | Contribution |
 |-----|-------|-------------|------------|
 | Catalyseur | 4.0/10 | 35% | 1.40 |
 | Valorisation | 3.5/10 | 40% | 1.40 |
 | Momentum | 5.5/10 | 25% | 1.38 |
-| **Score Opportunite** | **4.2/10** | | |
-| Malus/Bonus | -10.0 pts | | Sectoriel XLI (-0.5), surachat RSI >70 (-1.5), gap non explique (-3.0), consensus sous spot (-2.0), volatilite extreme (-3.0) |
+| **Score Opportunité** | **4.2/10** | | |
+| Malus/Bonus | -10.0 pts | | Sectoriel XLI (-0.5), surachat RSI >70 (-1.5), gap non expliqué (-3.0), consensus sous spot (-2.0), volatilité extrême (-3.0) |
 | **Score Global** | **41.8** | | |
-| **Score Global Ajuste** | **31.8** | | |
+| **Score Global Ajusté** | **31.8** | | |
 
-**Action** : **EVITER**
+**Action** : **ÉVITER**
 **Direction** : Neutre
-**Timing** : Defavorable
+**Timing** : Défavorable
 **Horizon** : —
 
-**Ajustements agents complementaires** (inchanges vs 13:00 UTC) :
+**Ajustements agents complémentaires** (inchangés vs 17:00 UTC) :
 - **Agent Quant** : Signaux non significatifs — pas d'ajustement.
-- **Agent Geo** : FLY non flagge — pas de malus.
+- **Agent Geo** : FLY non flaggé — pas de malus.
 - **Agent Sector Rotation** : XLI sous-performant SPY (RS 20j -4.85%, momentum_score 0.0) — headwind sectoriel persistant (-0.5 pt).
 - **Agent Social** : Signal artefact — neutre.
 - **Agent FX** : Exposition 25%, fx_impact_score 0.0 — pas d'ajustement.
-- **Agent Event-Driven** : 0 evenement — neutre.
+- **Agent Event-Driven** : 0 événement — neutre.
 - **Agent Accounting** : `data/accounting_risk_latest.json` indisponible — pas d'ajustement.
 
 ---
 
-## Revision des niveaux SL / TP — Inchanges
+## Révision des niveaux SL / TP — Inchangés
 
-| Niveau | Valeur | Methode | Commentaire |
+| Niveau | Valeur | Méthode | Commentaire |
 |--------|--------|---------|-------------|
-| Cours actuel | $49.50 | Close 17:00 UTC | Identique 13:00 UTC |
-| Stop-loss | $39.48 | Cours - 2xATR ($5.01) | Support technique cle |
-| Take-profit | $64.53 | Cours + 3xATR ($5.01) | Aligne sur l'upside mecanique |
-| Ratio R/R | 1.5:1 | Gain $15.03 / Perte $10.02 | Limite pour profil sans rentabilite |
+| Cours actuel | $49.50 | Close 21:00 UTC | Identique 17:00 UTC |
+| Stop-loss | $39.48 | Cours - 2xATR ($5.01) | Support technique clé |
+| Take-profit | $64.53 | Cours + 3xATR ($5.01) | Aligné sur l'upside mécanique |
+| Ratio R/R | 1.5:1 | Gain $15.03 / Perte $10.02 | Limite pour profil sans rentabilité |
 
 Les niveaux sont maintenus. En pratique, une cassure de $42.93 (low du jour) reste le premier signal de retournement.
 
 ---
 
-## Conclusion — These confirmee, modifiee ou invalidee ?
+## Conclusion — Thèse confirmée, modifiée ou invalidée ?
 
-**Verdict : These CONFIRMEE — EVITER a court terme.**
+**Verdict : Thèse CONFIRMÉE — ÉVITER à court terme.**
 
-Le snapshot 17:00 UTC est **strictement identique** au snapshot 13:00 UTC (marche ferme Memorial Day). Aucun nouvel evenement corporate, aucune news, aucun changement de consensus ou de fondamental n'est survenu.
+Le snapshot 21:00 UTC est **strictement identique** aux snapshots précédents de la journée (marché fermé Memorial Day). Aucun nouvel événement corporate, aucune news, aucun changement de consensus ou de fondamental n'est survenu.
 
-**Ce qui confirme la these EVITER :**
-- Gap +15.49% **toujours non explique** par un catalyst identifiable.
-- RSI 72.38 **surachat technique confirme**.
-- Consensus analystes $42.45 **-14.2% sous le spot** — ecart anomal.
-- Filtre Qualite 2/6, Forward P/E -43.36, EV/Revenue 40.21x — **fondamentaux inchanges et defavorables**.
-- Score Global Ajuste 31.8 — **zone EVITER** (< 35).
+**Ce qui confirme la thèse ÉVITER :**
+- Gap +15.49% **toujours non expliqué** par un catalyst identifiable.
+- RSI 72.38 **surachat technique confirmé**.
+- Consensus analystes $42.45 **-14.2% sous le spot** — écart anomal.
+- Filtre Qualité 2/6, Forward P/E -43.36, EV/Revenue 40.21x — **fondamentaux inchangés et défavorables**.
+- Score Global Ajusté 31.8 — **zone ÉVITER** (< 35).
 - Headwind sectoriel XLI sous-performant SPY.
-- Divergence Yahoo/FMP sur Market Cap et P/B persistante — [DONNEES PARTIELLES].
+- Divergence Yahoo/FMP sur Market Cap et P/B persistante — [DONNÉES PARTIELLES].
 
-**Catalyseurs forward** (inchanges) :
-1. **Earnings Q2 2026** (2026-08-04, 71 jours) : Est EPS -$0.45 a -$0.60, Rev $0.1B.
+**Catalyseurs forward** (inchangés) :
+1. **Earnings Q2 2026** (2026-08-04, 71 jours) : Est EPS -$0.45 à -$0.60, Rev $0.1B.
 2. **Expiration options 29/05** (4 jours) : surveillance post-expiration.
 
-**Risques** (inchanges) :
-1. Rentabilite non demontree.
+**Risques** (inchangés) :
+1. Rentabilité non démontrée.
 2. Multiple incompatible avec un profil quality compounding.
-3. Gap non explique — risque eleve de gap fill vers $43.00–$44.00.
+3. Gap non expliqué — risque élevé de gap fill vers $43.00–$44.00.
 4. Cours 16.3% au-dessus du consensus analystes.
 5. Divergence Yahoo/FMP persistante.
 
-**Prochaine etape :**
-- **Ne pas prendre de position** — EVITER a court terme.
-- Surveiller la consolidation post-gap : si $48.00 tient 3 seances, reevaluer.
+**Prochaine étape :**
+- **Ne pas prendre de position** — ÉVITER à court terme.
+- Surveiller la consolidation post-gap : si $48.00 tient 3 séances, réévaluer.
 - Surveiller l'expiration options du 29/05.
-- Si cassure de $42.93 -> gap fill probable, maintenir EVITER.
-- Si un catalyst fondamental emerge -> reevaluer Score Catalyseur et Filtre Qualite.
-- **Verifier la divergence Yahoo/FMP** avant la prochaine analyse.
+- Si cassure de $42.93 → gap fill probable, maintenir ÉVITER.
+- Si un catalyst fondamental émerge → réévaluer Score Catalyseur et Filtre Qualité.
+- **Vérifier la divergence Yahoo/FMP** avant la prochaine analyse.
 
 ---
 
-*Snapshot 17:00 UTC confirme stabilite totale vs 13:00 UTC. Aucun changement materiel.*
+*Snapshot 21:00 UTC confirme stabilité totale vs 17:00 UTC. Aucun changement matériel.*
