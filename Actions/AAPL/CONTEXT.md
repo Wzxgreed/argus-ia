@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
-- **Horizon :** —
+- **Recommandation :** SURVEILLER
+- **Score global :** 41.8/100
+- **Prix cible :** $220–$240 (DCF fair value)
+- **Stop-loss :** $297.34 (cours − 2×ATR)
+- **Statut thèse :** SURVEILLER — surachat extrême aggravé (RSI 91.1), nouveau 52W high non confirmé par le volume
+- **Horizon :** 1–3 mois (earnings 2026-07-30)
 
 ---
 
@@ -24,13 +24,17 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🟡 RSI 91.1 — surachat extrême aggravé (zone >90)
+- 🟡 Volume 43.63M (0.90× moyenne 20j) — sous-moyen sur break 52W high
+- 🟡 Valorisation : Cours $308.82 > Consensus FMP $293.43 (+5.2%)
+- 🟡 Options : Call OI 59.1% (chute de 14.6 pts en 3 séances) / Put/Call 0.69 — divergence baissière
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q3 FY2026 :** 2026-07-30 (J=66) — Est EPS $1.83–$1.99, Rev $109.0B
+- **Expiration options hebdomadaire :** 2026-05-26 (demain) — pinning gamma risqué autour de $300
 
 ---
 
