@@ -1,21 +1,15 @@
-# PLTR — Mise à Jour 2026-05-25
+# PLTR — Mise à Jour Quotidienne (2026-05-25, snapshot 21:00 UTC)
 
-**Date :** 2026-05-25 (snapshot 17:00 UTC)  
-**Ticker :** PLTR (NYSE)  
-**Type :** Update post-session — Snapshot 17:00 UTC confirme stabilité totale vs 13:00 UTC  
-**Cours (close) :** $136.88  
-**Previous close :** $137.415  
-**Change session :** −0.39%  
-**Volume :** 27.48M (vs moy. 20j 40.64M, −32.4%)
-
-> **Note :** Ce rapport intègre la confirmation du snapshot 17:00 UTC (`data/latest.json` fetched_at 2026-05-25T17:00:01.407625+00:00). **Toutes les données techniques, fondamentales, options et de consensus sont strictement identiques au snapshot 13:00 UTC du même jour.** Aucune mutation détectée entre les deux snapshots. Le marché US était fermé le 2026-05-25 (Memorial Day) ; le snapshot 17:00 UTC reflète l'état figé de la clôture précédente.
+> **Source :** `data/latest.json` (snapshot 2026-05-25 21:00 UTC) + agents quant, geo, accounting, sector, social, FX, watchman, events
+> **Référence précédente :** [PLTR_2026-05-20_update.md](PLTR_2026-05-20_update.md) (snapshot 13:00 UTC) + [PLTR_2026-05-25_update.md](PLTR_2026-05-25_update.md) (snapshot 17:00 UTC)
+> **Contexte :** Snapshot officiel 21:00 UTC du pipeline. Le marché US était fermé le 2026-05-25 (Memorial Day) ; ce snapshot confirme l'état figé de la clôture précédente.
 
 ---
 
 ## Résumé des Changements depuis l'Update (2026-05-20)
 
-| Indicateur | 2026-05-20 | 2026-05-25 | Δ vs Prior |
-|-----------|------------|------------|------------|
+| Indicateur | 2026-05-20 | 2026-05-25 (21:00 UTC) | Δ vs Prior |
+|-----------|------------|------------------------|------------|
 | Cours close | $135.26 | **$136.88** | **+$1.62 (+1.20%)** |
 | RSI 14j | 46.36 | **35.66** | **−10.70 pts** |
 | ATR 14j | $5.62 | **$5.35** | **−$0.27 (−4.8%)** |
@@ -31,7 +25,7 @@
 | Score Global ajusté | 46.3/100 | **42.5/100** | **−3.8 pts** |
 | Recommandation agent | SURVEILLER | **SURVEILLER** | **→ Confirmé** |
 
-**Verdict :** Le snapshot 17:00 UTC du 2026-05-25 confirme l'intégralité des données du snapshot 13:00 UTC. Le marché étant fermé (Memorial Day), aucune nouvelle donnée de séance n'a été générée. Le cours reste figé à $136.88, le RSI à 35.66 (zone de survente < 40), et les scores agents inchangés. La thèse **SURVEILLER** est confirmée sans modification.
+**Verdict :** Le snapshot 21:00 UTC du 2026-05-25 confirme l'intégralité des données du snapshot 17:00 UTC. Le marchétant fermé (Memorial Day), aucune nouvelle donnée de séance n'a été générée. Le cours reste figé à $136.88, le RSI à 35.66 (zone de survente < 40), et les scores agents inchangés. La thèse **SURVEILLER** est confirmée sans modification.
 
 ---
 
@@ -153,7 +147,7 @@
 - Timing : **Défavorable**
 - **Recommandation agent : SURVEILLER**
 
-**Verdict institutionnel Argus-IA :** La thèse **SURVEILLER** est confirmée. Le snapshot 17:00 UTC du 25/05, en raison du marché fermé (Memorial Day), ne présente aucune nouvelle donnée par rapport au snapshot 13:00 UTC. Les indicateurs clés (RSI 35.66, volume −32.4%, sous MM50) restent inchangés. Le biais haussier renforcé des options (Put/Call 0.48, Call OI 67.4%) constitue le seul facteur mitigant face à la dégradation technique. Pas d'entrée avant rebond RSI au-dessus de 40 et franchissement MM50 ($142.64) avec volume > 40M.
+**Verdict institutionnel Argus-IA :** La thèse **SURVEILLER** est confirmée. Le snapshot 21:00 UTC du 25/05, en raison du marché fermé (Memorial Day), ne présente aucune nouvelle donnée par rapport au snapshot 17:00 UTC. Les indicateurs clés (RSI 35.66, volume −32.4%, sous MM50) restent inchangés. Le biais haussier renforcé des options (Put/Call 0.48, Call OI 67.4%) constitue le seul facteur mitigant face à la dégradation technique. Pas d'entrée avant rebond RSI au-dessus de 40 et franchissement MM50 ($142.64) avec volume > 40M.
 
 ---
 
@@ -172,9 +166,9 @@
 
 ## Conclusion — Thèse Confirmée, Modifiée ou Invalidée ?
 
-**Verdict : CONFIRMÉE — Thèse SURVEILLER maintenue. Snapshot 17:00 UTC confirme la stabilité totale vs 13:00 UTC (marché fermé Memorial Day).**
+**Verdict : CONFIRMÉE — Thèse SURVEILLER maintenue. Snapshot 21:00 UTC confirme la stabilité totale vs 17:00 UTC (marché fermé Memorial Day).**
 
-### Ce qui a changé (snapshot 2026-05-25 13:00 UTC, confirmé 17:00 UTC) :
+### Ce qui a changé (snapshot 2026-05-25 21:00 UTC) :
 1. **Cours +1.20%** — Légère progression vs close 20/05, mais close sous l'open ($137.43) et rejet du high à $139.02.
 2. **RSI 35.66** — 🔴 Franchissement du seuil 40 vers le bas depuis le 20/05 (46.36 → 35.66). Signal de survente technique.
 3. **Volume 27.48M (−32.4%)** — Compression volumétrique persistante. Aucun signal de retour institutionnel.
@@ -190,7 +184,7 @@
 5. **Aucune news PLTR** détectée dans le snapshot Yahoo.
 6. **Aucun événement corporate** détecté (`data/events_latest.json` vide).
 7. **Accounting risk non quantifié** — Absence de scan comptable (M-Score, Z-Score, F-Score, Sloan).
-8. **Snapshot 17:00 UTC = identique au 13:00 UTC** — Marché fermé Memorial Day.
+8. **Snapshot 21:00 UTC = identique au 17:00 UTC** — Marché fermé Memorial Day.
 
 ### Risques identifiés (révisés)
 1. **Survente technique (RSI 35.66)** — Risque de continuation baissière si le volume ne revient pas. Probabilité de rebond technique faible sans catalyseur.
@@ -218,7 +212,7 @@
 ---
 
 ## Références
-- `data/2026-05-25.json` (snapshot 17:00 UTC) — Cours $136.88, RSI 35.66, ATR $5.35, MM50 $142.64, volume 27.48M, short interest 2.77%, consensus FMP $186.15, options (put/call 0.48, max pain $140.00, call OI 67.4%)
+- `data/latest.json` (snapshot 21:00 UTC) — Cours $136.88, RSI 35.66, ATR $5.35, MM50 $142.64, volume 27.48M, short interest 2.77%, consensus FMP $186.15, options (put/call 0.48, max pain $140.00, call OI 67.4%)
 - `data/recommandations_2026-05-25.json` — Score Opportunité 5.1/10, Score Global 50.5/100 (ajusté 42.5), Recommandation SURVEILLER, SL $126.18, TP $152.93
 - `data/validation_report.txt` (2026-05-25) — 5 errors globales (AST/AXA/CYTOMX/QTBS fetch failed ; VRT schema), 2 warnings (IREN, NOK). PLTR non concerné.
 - `data/sector_rotation_2026-05-25.json` — XLK top sector (momentum 10.0/10)
