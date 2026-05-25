@@ -11,10 +11,10 @@
 **Score global :** 55.2/100
 **Prix cible :** [NON ÉTABLI]
 **Stop-loss :** [NON ÉTABLI]
-**Statut :** Thèse non établie — données de cours indisponibles sur les snapshots 2026-05-19 (10:00/13:59/21:00 UTC), 2026-05-20 10:00 UTC et 2026-05-25 10:00 UTC, earnings J=0 (date révisée au 2026-05-25 par FMP) en attente de résolution
+**Statut :** Thèse non établie — données de cours indisponibles sur les snapshots 2026-05-19 (10:00/13:59/21:00 UTC), 2026-05-20 10:00 UTC, 2026-05-25 10:00 UTC et 2026-05-25 13:00 UTC, earnings J=0 (date révisée au 2026-05-25 par FMP) en attente de résolution
 **Horizon :** —
 
-**Résumé :** CYTOMX n'a pas encore fait l'objet d'une analyse initiale complète en raison de l'absence persistante de données de cours dans les snapshots du pipeline (erreur "No price history" aux snapshots 2026-05-19 10:00/13:59/21:00 UTC, 2026-05-20 10:00 UTC et 2026-05-25 10:00 UTC). Le calendrier FMP (`upcoming_events_latest.json`) a révisé la date earnings au 2026-05-25 (J=0) ; l'événement reste non résolu au snapshot 10:00 UTC. XLV (Healthcare) affiche un momentum score nul (0.0) et une force relative négative vs SPY, signalant un headwind sectoriel persistant. En attente de données exploitables pour lancer le Filtre Qualité et le scoring complet.
+**Résumé :** CYTOMX n'a pas encore fait l'objet d'une analyse initiale complète en raison de l'absence persistante de données de cours dans les snapshots du pipeline (erreur "No price history" sur six snapshots consécutifs). Le calendrier FMP maintient la date earnings au 2026-05-25 (J=0) ; l'événement reste non résolu au snapshot 13:00 UTC. XLV (Healthcare) affiche un momentum score nul (0.0) et une force relative négative vs SPY, signalant un headwind sectoriel persistant. En attente de données exploitables pour lancer le Filtre Qualité et le scoring complet.
 
 ---
 
@@ -41,7 +41,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-25** · earnings · Earnings ...
+- **2026-05-25** · earnings · Earnings (source FMP, J=0, non résolu au snapshot 13:00 UTC)
 
 ---
 
@@ -60,7 +60,7 @@
 - **Date :** 2026-05-25
 - **Type :** update
 - **Fichier :** `CYTOMX_2026-05-25_update.md`
-- **Conclusion :** **Thèse : NON ÉTABLIE — CONFIRMÉE**
+- **Conclusion :** **Thèse : NON ÉTABLIE — CONFIRMÉE** (6e snapshot consécutif sans données de cours)
 
 ---
 

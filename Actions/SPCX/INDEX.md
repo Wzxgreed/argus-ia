@@ -14,18 +14,20 @@
 | 2026-05-18 | Mise à jour post-pipeline | [SPCX_2026-05-18_update.md](./SPCX_2026-05-18_update.md) | Premier snapshot technique réel : momentum haussier micro, RSI 48.93, SL $21.50, TP $22.75 |
 | 2026-05-19 | Mise à jour post-pipeline | [SPCX_2026-05-19_update.md](./SPCX_2026-05-19_update.md) | Thèse confirmée : cours stable au-dessus MM50, RSI 46.07, volume +28%, aucun catalyseur |
 | 2026-05-20 | Mise à jour post-pipeline | [SPCX_2026-05-20_update.md](./SPCX_2026-05-20_update.md) | Thèse modifiée : cassure sous MM50 ($21.95 < $21.97), momentum en chute, reclassement SURVEILLER |
-| 2026-05-25 | Mise à jour post-pipeline | [SPCX_2026-05-25_update.md](./SPCX_2026-05-25_update.md) | Thèse modifiée : retour au-dessus MM50 ($22.40 > $21.99), volume anomalie ×4.5, RSI 62.4, reclassement ATTENDRE |
+| 2026-05-25 | Mise à jour post-pipeline (10:00 UTC) | [SPCX_2026-05-25_update.md](./SPCX_2026-05-25_update.md) | Thèse modifiée : retour au-dessus MM50, volume anomalie ×4.5, RSI 62.4, reclassement ATTENDRE |
+| 2026-05-25 | Mise à jour post-pipeline (13:00 UTC) | [SPCX_2026-05-25_update.md](./SPCX_2026-05-25_update.md) | Thèse confirmée et rehaussée : scores agents reclassent en ACHETER (Réduit), Score Global 70.2 |
 
 ---
 
 ## Thèse d'investissement courante
 
-**Recommandation :** ATTENDRE
-**Prix cible :** $23.21 (référence si confirmation technique)
-**Upside :** +3.6% (si retour confirmé au-dessus MM50)
-**Dernière mise à jour :** 2026-05-25
+**Recommandation :** ACHETER (Réduit)
+**Prix cible :** $23.21 (+3.6% upside)
+**Stop-loss :** $21.86
+**Upside :** +3.6%
+**Dernière mise à jour :** 2026-05-25 (snapshot 13:00 UTC)
 
-> SPCX est un ETF thématique SPAC/post-IPO. Le cours est remonté au-dessus de la MM50 ($22.40 > $21.99) après la cassure du 20/05, avec un volume record de 4.48× la moyenne 20j (16 751 vs 3 739). Le RSI a grimpé à 62.4 (zone haussière). Le score Momentum est remonté à 7.5/10, entraînant une remontée du Score Global Ajusté à 58.0/100 et un reclassement de SURVEILLER à ATTENDRE. L'absence de catalyseur fondamental limite la conviction — le mouvement est 100% technique. Surveiller une deuxième clôture au-dessus de la MM50 avec volume >2× moyenne pour réactiver un ACHETER (Réduit).
+> SPCX est un ETF thématique SPAC/post-IPO. Le setup technique (retour au-dessus MM50, RSI 62.4, volume record ×4.5) est validé par les scores agents pipeline 13:00 UTC. L'Agent Recommandation reclassifie SPCX en **ACHETER (Réduit)** avec un Score Global Ajusté de **70.2/100** (was 58.0). Score Opportunité = 6.0/10 (C:6.5 V:5.0 M:7.0), timing Favorable. L'absence de catalyseur fondamental justifie le sizing Réduit (max 5% capital). SL $21.86 (−2.4%), TP $23.21 (+3.6%), ratio R/R 1.5×. Invalidation : clôture sous MM50 ($21.99) avec volume >1.5× moyenne.
 
 ---
 

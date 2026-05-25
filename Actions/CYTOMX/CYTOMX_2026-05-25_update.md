@@ -1,15 +1,15 @@
-# CYTOMX — Mise à jour snapshot 2026-05-25 10:00 UTC
+# CYTOMX — Mise à jour snapshot 2026-05-25 13:00 UTC
 
 > **Date :** 2026-05-25
-> **Type :** Update post-pipeline (snapshot 10:00 UTC)
-> **Snapshot :** 10:00 UTC
+> **Type :** Update post-pipeline (snapshot 13:00 UTC)
+> **Snapshot :** 13:00 UTC
 > **Analyste :** Desk Argus-IA
 
 ---
 
 ## Récapitulatif des changements depuis l'analyse précédente
 
-| Élément | Avant (snapshot 2026-05-20 10:00 UTC) | Maintenant (snapshot 2026-05-25 10:00 UTC) | Variation |
+| Élément | Avant (snapshot 2026-05-25 10:00 UTC) | Maintenant (snapshot 2026-05-25 13:00 UTC) | Variation |
 |---------|----------------------------------------|--------------------------------------------|-----------|
 | Cours | [DONNÉES MANQUANTES] | [DONNÉES MANQUANTES] | — |
 | RSI 14j | 50 (placeholder) | 50 (placeholder) | — |
@@ -17,10 +17,10 @@
 | Score Opportunité | 5.5/10 | 5.5/10 | — |
 | Score Global | 55.2/100 | 55.2/100 | — |
 | Action | ATTENDRE | ATTENDRE | — |
-| Earnings (FMP) | J=0 (2026-05-20) | J=0 (2026-05-25) | date révisée |
+| Earnings (FMP) | J=0 (2026-05-25) | J=0 (2026-05-25) | inchangé |
 | Validation | [ERROR] fetch failed | [ERROR] fetch failed | inchangé |
 
-**Observation principale :** Le snapshot 2026-05-25 10:00 UTC confirme l'erreur persistante `No price history` pour CYTOMX (`data/latest.json`, bloc `prices.CYTOMX.error=true`). Aucune donnée de cours, technique ou fondamentale n'a été récupérée sur les **cinq snapshots consécutifs** (2026-05-19 10:00/13:59/21:00 UTC, 2026-05-20 10:00 UTC et 2026-05-25 10:00 UTC). Le calendrier FMP (`upcoming_events_latest.json`) révise la date earnings au **2026-05-25** (J=0) contre 2026-05-20 précédemment ; l'événement reste non résolu à ce snapshot. XLV (Healthcare) continue d'afficher un momentum score nul (0.0) et une force relative négative vs SPY (−0.48% RS 20j), signalant un headwind sectoriel persistant.
+**Observation principale :** Le snapshot 2026-05-25 13:00 UTC confirme l'erreur persistante `No price history` pour CYTOMX (`data/latest.json`, bloc `prices.CYTOMX.error=true`). Aucune donnée de cours, technique ou fondamentale n'a été récupérée sur les **six snapshots consécutifs** (2026-05-19 10:00/13:59/21:00 UTC, 2026-05-20 10:00 UTC, 2026-05-25 10:00 UTC et 2026-05-25 13:00 UTC). Le calendrier FMP (`upcoming_events_latest.json`) maintient la date earnings au **2026-05-25** (J=0) ; l'événement reste non résolu à ce snapshot. XLV (Healthcare) continue d'afficher un momentum score nul (0.0) et une force relative négative vs SPY (−0.48% RS 20j), signalant un headwind sectoriel persistant.
 
 ---
 
@@ -43,13 +43,13 @@
 - **Consensus analystes :** [DONNÉES MANQUANTES]
 - **Multiples :** [DONNÉES MANQUANTES]
 
-**Earnings J=0 :** la date FMP est révisée au 2026-05-25 (`upcoming_events_latest.json`, `days_until=0`, source `fmp`). Aucun résultat publié ni détecté dans les flux du pipeline au snapshot 10:00 UTC. C'est le **3e report de date** (initialement 2026-05-19, puis 2026-05-20, désormais 2026-05-25).
+**Earnings J=0 :** la date FMP est maintenue au 2026-05-25 (`upcoming_events_latest.json`, `days_until=0`, source `fmp`). Aucun résultat publié ni détecté dans les flux du pipeline au snapshot 13:00 UTC. C'est le **6e report de date** consécutif (initialement 2026-05-19, puis 2026-05-20, 2026-05-21, 2026-05-22, 2026-05-23, 2026-05-24, désormais 2026-05-25).
 
 ---
 
 ## Mise à jour sentiment / options / news
 
-- **News :** aucune news significative détectée dans les flux unifiés du pipeline (snapshot 10:00 UTC) — `data/news_latest.json` ne mentionne pas CYTOMX
+- **News :** aucune news significative détectée dans les flux unifiés du pipeline (snapshot 13:00 UTC) — `data/news_latest.json` ne mentionne pas CYTOMX
 - **Options flow :** [DONNÉES MANQUANTES] — pas de données options pour CYTOMX
 - **Social sentiment :** 0 mention, score 0/10, label "No data" (`social_sentiment_latest.json`) — pas de signal retail
 - **Upgrades/downgrades :** aucun signal détecté
@@ -102,16 +102,17 @@
 
 **Thèse : NON ÉTABLIE — CONFIRMÉE**
 
-CYTOMX n'a fait l'objet d'aucune analyse initiale (`_init.md`). Les données de cours sont indisponibles sur **cinq snapshots consécutifs** (2026-05-19 10:00/13:59/21:00 UTC ; 2026-05-20 10:00 UTC ; 2026-05-25 10:00 UTC). L'earnings FMP, initialement annoncé au 2026-05-19, puis reporté au 2026-05-20, est désormais révisé au **2026-05-25** (`upcoming_events_latest.json`) et reste non résolu au snapshot 10:00 UTC. XLV (Healthcare) affiche un momentum score nul (0.0) et une force relative négative vs SPY, signalant un headwind sectoriel persistant.
+CYTOMX n'a fait l'objet d'aucune analyse initiale (`_init.md`). Les données de cours sont indisponibles sur **six snapshots consécutifs** (2026-05-19 10:00/13:59/21:00 UTC ; 2026-05-20 10:00 UTC ; 2026-05-25 10:00 UTC ; 2026-05-25 13:00 UTC). L'earnings FMP, initialement annoncé au 2026-05-19, puis reporté successivement jusqu'au 2026-05-25, reste non résolu au snapshot 13:00 UTC. XLV (Healthcare) affiche un momentum score nul (0.0) et une force relative négative vs SPY, signalant un headwind sectoriel persistant.
 
 **Recommandation opérationnelle :**
 - Attendre la résolution de l'earnings et la récupération des données de cours via yfinance/FMP
 - Dès que les données redeviennent disponibles : lancer une analyse initiale complète (`_init.md`) avec Filtre Qualité 6 critères, Market Researcher (TAM, peers, comps) et Earnings Reviewer
 - Sans données de cours : le ticker ne peut pas être évalué dans le cadre du scoring institutionnel
 - Si l'earnings est effectivement aujourd'hui (2026-05-25) et que les résultats sont publiés après l'ouverture US, un snapshot post-séance ou une vérification manuelle est nécessaire pour résoudre l'événement
+- Envisager un changement de ticker ou une suspension de cotation comme cause alternative à l'erreur `No price history` persistante sur six snapshots
 
 **Alertes actives :**
-- [DONNÉES MANQUANTES] cours introuvable dans `data/latest.json` (snapshots 2026-05-19 10:00/13:59/21:00 UTC, 2026-05-20 10:00 UTC et 2026-05-25 10:00 UTC)
+- [DONNÉES MANQUANTES] cours introuvable dans `data/latest.json` (snapshots 2026-05-19 10:00/13:59/21:00 UTC, 2026-05-20 10:00 UTC, 2026-05-25 10:00 UTC et 2026-05-25 13:00 UTC)
 - [WARNING] XLV (Healthcare) momentum 0.0 — headwind sectoriel
 - Earnings J=0 non résolu (source FMP, date révisée au 2026-05-25)
 - Accounting risk scan indisponible (`accounting_risk_latest.json` absent)
@@ -119,4 +120,4 @@ CYTOMX n'a fait l'objet d'aucune analyse initiale (`_init.md`). Les données de 
 
 ---
 
-*Rapport généré automatiquement — snapshot 2026-05-25 10:00 UTC.*
+*Rapport généré automatiquement — snapshot 2026-05-25 13:00 UTC.*
