@@ -1,4 +1,4 @@
-# CONTEXT — SOFI — Dernière mise à jour : 2026-05-25
+# CONTEXT — SOFI — Dernière mise à jour : 2026-05-25 (snapshot 17:00 UTC)
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -11,12 +11,12 @@
 **Prix cible :** $17.54 (cours + 3×ATR)
 **Stop-loss :** $14.34 (cours − 2×ATR)
 **Upside/Downside :** +12.3% / −8.2%
-**Dernière mise à jour :** 2026-05-25 (snapshot 10:00 UTC — close final confirmé $15.62)
+**Dernière mise à jour :** 2026-05-25 (snapshot 17:00 UTC — confirme stabilité vs 10:00 UTC)
 
-SoFi est une fintech-banque hybride avec un écosystème complet (lending + banking + investing) et une marque forte chez les millennials. Le charter bancaire 2022 crée une barrière réglementaire modérée vs les fintechs non-banques. Le snapshot du 2026-05-25 à 10:00 UTC rapporte un close final à **$15.62** (+2.6% vs 20/05) avec un RSI 14j à **43.83** et une MM50 à **$16.76** — le trend court terme reste baissier mais le gap avec la MM50 se réduit (cours −6.8% sous MM50 vs −9.9% le 20/05). Le low du jour à **$15.36** a testé le support psychologique **$15.00** sans cassure. Le volume s'établit à **57.91M (0.84× moy. 20j)**, en retrait sur la hausse. La dépendance aux taux d'intérêt et l'exposition aux prêts étudiants créent des risques macro majeurs. Le Forward P/E **19.96** est raisonnable pour une fintech en croissance mais le P/E LTM **34.71** reste élevé. Le Score Opportunité recule à **5.7/10**, et le Score Global Composite bascule en zone **SURVEILLER (48.6/100)** — reclassement entièrement dû à la dégradation du Momentum (4.5 → 3.5). **Signal options défensif :** le Put/Call ratio grimpe à **0.75** (+36% vs 0.55 du 20/05) et le Call OI % chute à **57.2%** (−7.1 pts) — les opérateurs options se couvrent à l'approche de l'expiration du 2026-05-29 (4 jours). Le secteur financier (XLF) reste sans direction (momentum 0.0/10). Attendre un retour au-dessus de MM50 avec volume confirmatoire, ou un test du support $15.00 pour éventuelle entrée spéculative.
+SoFi est une fintech-banque hybride avec un écosystème complet (lending + banking + investing) et une marque forte chez les millennials. Le charter bancaire 2022 crée une barrière réglementaire modérée vs les fintechs non-banques. Le snapshot du 2026-05-25 à 17:00 UTC confirme la stabilité de toutes les métriques par rapport au snapshot 10:00 UTC (marché fermé Memorial Day). Le close final reste à **$15.62** avec un RSI 14j à **43.83** et une MM50 à **$16.76** — le trend court terme reste baissier (cours −6.8% sous MM50). Le support psychologique **$15.00** est inchangé. Le volume s'établit à **57.91M (0.84× moy. 20j)**. La dépendance aux taux d'intérêt et l'exposition aux prêts étudiants créent des risques macro majeurs. Le Forward P/E **19.96** est raisonnable pour une fintech en croissance mais le P/E LTM **34.71** reste élevé. Le Score Opportunité est stable à **5.7/10**, et le Score Global Composite reste en zone **SURVEILLER (48.6/100)**. **Signal options défensif :** le Put/Call ratio reste à **0.75** et le Call OI % à **57.2%** — les opérateurs options se couvrent à l'approche de l'expiration du 2026-05-29 (4 jours ouvrés). Le secteur financier (XLF) reste sans direction (momentum 0.0/10). Attendre un retour au-dessus de MM50 avec volume confirmatoire, ou un test du support $15.00 pour éventuelle entrée spéculative.
 **Score 5.7/10. Score Global 48.6/100. SURVEILLER.**
 
-**Données complètes** — Cours, RSI, ATR, P/E, beta disponibles dans `data/latest.json` (snapshot 2026-05-25T10:00 UTC). Options : Max Pain $15.00, Put/Call 0.75, Call OI 57.2%. Expiration prochaine 2026-05-29 (4 jours).
+**Données complètes** — Cours, RSI, ATR, P/E, beta disponibles dans `data/latest.json` (snapshot 2026-05-25T17:00 UTC). Options : Max Pain $15.00, Put/Call 0.75, Call OI 57.2%. Expiration prochaine 2026-05-29 (4 jours ouvrés).
 
 ---
 
@@ -64,7 +64,7 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 - **Date :** 2026-05-25
 - **Type :** update
 - **Fichier :** `SOFI_2026-05-25_update.md`
-- **Conclusion :** **Date :** 2026-05-25 (snapshot 10:00 UTC — close final confirmé $15.62)
+- **Conclusion :** Snapshot 17:00 UTC confirme stabilité vs 10:00 UTC (marché fermé Memorial Day). Cours $15.62, RSI 43.83, MM50 $16.76, ATR $0.64. Options inchangées (Put/Call 0.75, Call OI 57.2%). Score Global 48.6/100 (SURVEILLER). Aucune news, exposition FX et géo neutres. Thèse confirmée.
 
 ---
 
