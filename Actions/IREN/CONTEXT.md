@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER — Sizing Réduit
-- **Score global :** 65.8/100
-- **Prix cible :** $65.86
-- **Stop-loss :** $45.13
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
 - **Statut thèse :** modifiée
-- **Horizon :** 1–3 mois
+- **Horizon :** —
 
 ---
 
@@ -52,9 +52,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-25
-- **Type :** update
-- **Fichier :** `IREN_2026-05-25_update.md`
-- **Conclusion :** Rally +19% en 5 sessions renforce le momentum technique mais dégrade la valorisation ; défiance options massive (put/call 2.35) ; earnings J=0 aujourd'hui = catalyseur déterminant
+- **Type :** full refresh
+- **Fichier :** `IREN_2026-05-25_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-25
 
 ---
 

@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ÉVITER
-- **Score global :** 31.8/100
+- **Recommandation :** —
+- **Score global :** —/10
 - **Prix cible :** $—
-- **Stop-loss :** $39.48
-- **Statut thèse :** ÉVITER — Gap +15.49% non expliqué, surachat technique, fondamentaux défavorables
-- **Horizon :** Court terme
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -24,7 +24,7 @@
 
 ## 🚨 Alertes actives
 
-- **🔴 Gap non expliqué** — Gap +15.49% sans catalyst ni news (2026-05-25). Surveillance post-gap obligatoire.
+- Aucune alerte active.
 
 ---
 
@@ -47,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-25
-- **Type :** update
-- **Fichier :** `FLY_2026-05-25_update.md`
-- **Conclusion :** Snapshot 17:00 UTC confirme stabilité totale vs 13:00 UTC (marché fermé Memorial Day). Thèse ÉVITER confirmée. Aucun changement matériel de données, scores, fondamentaux, news ou events.
+- **Type :** full refresh
+- **Fichier :** `FLY_2026-05-25_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-25
 
 ---
 

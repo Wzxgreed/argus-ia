@@ -1,7 +1,7 @@
-# VRT — Mise à Jour 2026-05-25 (Snapshot 17:00 UTC)
+# VRT — Mise à Jour 2026-05-25 (Snapshot 21:00 UTC)
 
 **Date :** 2026-05-25
-**Snapshot :** 17:00 UTC (données de clôture 2026-05-22 confirmées — marché US fermé Memorial Day)
+**Snapshot :** 21:00 UTC (données de clôture 2026-05-22 confirmées — marché US fermé Memorial Day)
 **Cours :** $327.46 (+1.26% vs clôture précédente $323.40)
 **Market Cap :** $125.78B (Yahoo)
 **Volume :** 4.79M (0.84× moy. 20j : 5.72M)
@@ -12,9 +12,9 @@
 
 ---
 
-## Résumé des changements depuis l'analyse précédente (Snapshot 10:00 UTC)
+## Résumé des changements depuis l'analyse précédente (Snapshot 17:00 UTC)
 
-| Indicateur | Snapshot 10:00 UTC | Snapshot 17:00 UTC | Δ |
+| Indicateur | Snapshot 17:00 UTC | Snapshot 21:00 UTC | Δ |
 |---|---|---|---|
 | Cours | **$327.46** | **$327.46** | ✅ **Inchangé** — marché US fermé (Memorial Day) |
 | RSI 14j | **48.88** | **48.88** | ✅ Inchangé |
@@ -31,14 +31,16 @@
 | Score Opportunité | **4.3/10** | **4.3/10** | ✅ Inchangé |
 | Score Global | **43.3/100** | **43.3/100** | ✅ Inchangé |
 | Score Global Ajusté | **48.3/100** | **48.3/100** | ✅ Inchangé |
+| Timing moteur | Neutre | **Favorable** | 🟡 Recalculé — données identiques |
 
-> **Verdict :** Le snapshot 17:00 UTC confirme l'intégralité des données du snapshot 10:00 UTC. Le marché US étant fermé ce jour (Memorial Day, lundi 25 mai 2026), aucune session de négociation n'a eu lieu. Les données reflètent la clôture du vendredi 22 mai. La thèse reste **SURVEILLER** sans modification.
+> **Verdict :** Le snapshot 21:00 UTC confirme l'intégralité des données du snapshot 17:00 UTC. Le marché US étant fermé ce jour (Memorial Day, lundi 25 mai 2026), aucune session de négociation n'a eu lieu. Les données reflètent la clôture du vendredi 22 mai. La thèse reste **SURVEILLER** sans modification.
+> **Note système :** Le moteur de recommandations recalcule le timing à **Favorable** (vs Neutre au snapshot 17:00 UTC) bien que toutes les données de marché soient strictement identiques. Cette divergence est probablement due à un recalibrage interne du scoring technique. En l'absence de nouvelles données de marché, nous maintenons l'interprétation manuelle **Neutre**.
 
 ---
 
 ## Mise à jour technique
 
-| Indicateur | Valeur JSON 17:00 UTC | Interprétation |
+| Indicateur | Valeur JSON 21:00 UTC | Interprétation |
 |---|---|---|
 | RSI 14j | **48.88** | Sous 50. Zone neutre/baissière. Espace de baisse technique vers 40 inchangé |
 | ATR 14j | **$19.66** | Volatilité élevée stable. Beta 2.099 confirmé |
@@ -67,12 +69,13 @@
 - Volume faible = pas de confirmation d'achat institutionnel
 - Options bearish extrêmes (put/call 2.59) = risque de volatilité à expiration vendredi
 - Zone de consolidation $324–$335 établie depuis le 22/05
+- **Note moteur :** recalculé Favorable par le système en raison de la position au-dessus de MM50, mais l'absence de volume et le put/call extrême justifient le maintien manuel Neutre
 
 ---
 
 ## Mise à jour fondamentale
 
-| Métrique | Source | Valeur JSON 17:00 UTC | Contexte |
+| Métrique | Source | Valeur JSON 21:00 UTC | Contexte |
 |---|---|---|---|
 | P/E (Yahoo TTM) | Yahoo | **81.87** | Prime de croissance IA massive. Stable |
 | Forward P/E | Yahoo | **37.06** | Réflète croissance >30% attendue. Stable |
@@ -132,8 +135,10 @@
 | **Score Opportunité** | | | **4.3/10** |
 | **Score Global Composite** | | | **43.3/100** |
 | **Score Global Ajusté** | | | **48.3/100** |
+| Timing moteur | **Favorable** | | Recalculé vs Neutre (17:00 UTC) |
 
-> Règle absolue : Score Valorisation ≤ 2.5/10 + catalyseur faible = **SURVEILLER STRICT**. Les scores sont inchangés depuis le snapshot 10:00 UTC. Verdict **SURVEILLER** maintenu.
+> Règle absolue : Score Valorisation ≤ 2.5/10 + catalyseur faible = **SURVEILLER STRICT**. Les scores numériques sont inchangés depuis le snapshot 17:00 UTC. Verdict **SURVEILLER** maintenu.
+> **Note timing :** Le moteur recalcule Favorable en raison de la position au-dessus de MM50, mais l'interprétation manuelle reste **Neutre** compte tenu du put/call extrême (2.59), du volume faible (0.84×) et de l'expiration imminente vendredi.
 
 ---
 
@@ -162,7 +167,7 @@
 - **Momentum :** 🟡 **Stable** — Score M 7.3/10. Cours au-dessus de MM50 remontante. RSI sous 50 (48.88) atténue le signal.
 - **Options :** 🔴 **Stable** — Put/Call 2.59 / call OI 27.9% / max pain $225. 72.1% puts à 4 jours de l'expiration vendredi. Risque de volatilité élevée.
 - **Volume :** 🟡 **Stable** — 4.79M (0.84× moyenne). Distribution institutionnelle apaisée sans contre-partie acheteuse visible.
-- **Timing :** 🟡 **Neutre** (inchangé) — RSI sous 50, volume faible, options bearish extrêmes.
+- **Timing :** 🟡 **Neutre** (inchangé) — RSI sous 50, volume faible, options bearish extrêmes. Le moteur recalcule Favorable ; divergence notée mais non opérationnelle en l'absence de flux.
 - **Sector Rotation :** 🔴 **Stable** — XLI Industrials momentum 0.0, sous-performant vs XLK (10.0).
 - **Niveaux techniques :** 🟡 **Consolidation** — Zone $324–$335 établie depuis le 22/05. MM50 ($303.02) reste le support structurel clé.
 - **Données Pipeline :** ✅ Intègres — 22/26 tickers OK, VRT sans erreur [CRITICAL].
@@ -187,19 +192,21 @@
 - 🟡 **Consensus obsolète** — PT $264 vs cours $327.46 (+19.3%). Révisions attendues
 - 🟡 **Correction cumulée** — Cumul −13.8% depuis le 52W high ($379.94). Low $324.00
 - 🟡 **Données comptables manquantes** — `data/accounting_risk_latest.json` absent
+- 🟡 **Divergence timing moteur** — Recalculé Favorable vs Neutre manuel. À surveiller si confirmation par flux demain
 
 ---
 
 ## Notes et limitations
 
-- [MARCHÉ FERMÉ] — Memorial Day (lundi 25 mai 2026). Le snapshot 17:00 UTC reprend les données de clôture du vendredi 22 mai. Aucune session de négociation n'a eu lieu ce jour.
-- [SNAPSHOT CONFIRMÉ STABLE] — Toutes les métriques du snapshot 17:00 UTC sont identiques au snapshot 10:00 UTC. Données intègres.
+- [MARCHÉ FERMÉ] — Memorial Day (lundi 25 mai 2026). Le snapshot 21:00 UTC reprend les données de clôture du vendredi 22 mai. Aucune session de négociation n'a eu lieu ce jour.
+- [SNAPSHOT CONFIRMÉ STABLE] — Toutes les métriques du snapshot 21:00 UTC sont identiques au snapshot 17:00 UTC. Données intègres.
 - [DONNÉES PARTIELLES] — FMP ratios dérivés obsolètes (FY2025, share count dépassé). Préférer Yahoo pour capitalisation et P/E TTM.
 - [DONNÉES MANQUANTES] — `data/accounting_risk_latest.json` absent. Pas de M-Score, Z-Score, F-Score, Sloan Ratio pour VRT.
 - [DONNÉES MANQUANTES] — MM200, MACD, IV Rank, earnings whisper, insider trades, job postings, 13F, ETF flows, dark pool, transcripts NLP.
 - [SIGNAUX NON SIGNIFICATIFS] — Quant report : pas assez de signaux historiques pour calibration (p-value = 1.0).
 - [SECTOR ROTATION] — XLI Industrials sous-performant (momentum 0.0, return 20j −0.41%), risque relatif accru pour VRT.
+- [TIMING MOTEUR] — Divergence Favorable vs Neutre manuel. Pas d'impact opérationnel en l'absence de flux de marché.
 
 ---
 
-*Analyse générée le 2026-05-25 avec snapshot 17:00 UTC. Données stables vs snapshot 10:00 UTC — marché US fermé (Memorial Day). Thèse confirmée. Ne pas modifier — créer un nouvel `_update.md` pour toute révision.*
+*Analyse générée le 2026-05-25 avec snapshot 21:00 UTC. Données stables vs snapshot 17:00 UTC — marché US fermé (Memorial Day). Thèse confirmée. Ne pas modifier — créer un nouvel `_update.md` pour toute révision.*

@@ -637,3 +637,25 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Conclusion :** MODIFIÉ — Le gap +9.1% sans catalyseur fondamental invalide l'hypothèse de retour rapide au consensus (.26) mais ne justifie pas un achat. Thèse ATTENDRE maintenue (Score Global ajusté 50.5/100). SL révisé 3.51. Filtre Qualité inchangé (2.5/6 hors périmètre). Données snapshot 17:00 UTC confirmées identiques au snapshot 13:00.
 
 ---
+
+## 2026-05-25 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-25 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
+
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 21:00 UTC
+
+Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (close $15.47, RSI 64.29, ATR $0.98, volume 1.07×). Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Les DRAFT_refresh successifs du 25/05 sont archivés comme non matérialisés. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $9.26 stable à +66.8%. Score Opportunité 4.5/10. Action ATTENDRE confirmée.
+
+---

@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ÉVITER
-- **Score global :** 40.8/100 (ajusté 30.8)
-- **Prix cible :** — (aucun — hors périmètre institutionnel)
-- **Stop-loss :** $110.94 (–18.3%)
-- **Statut thèse :** Confirmée — surchauffe technique extrême
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -24,21 +24,13 @@
 
 ## 🚨 Alertes actives
 
-- RSI 74.84 — surachat technique persistant
-- Divergence consensus — spot +61.3% vs PT $84.20
-- Filtre Qualité 3/6 — hors périmètre institutionnel
-- Ratio R/R 1.5:1 — inférieur au seuil 2:1
-- [ANOMALIE DATA] Max Pain $73.00 (éch. 2026-05-29) — incohérent vs spot $135.76, probable erreur flux Yahoo
-- [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $78.59 Mds vs FMP $37.02 Mds
-- ATR expansion +11.9% — volatilité monte avec le cours
-- Gap +8.22% overnight sans news — mouvement parabolique
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- Earnings Q2 2026 : **2026-08-06** (73 jours restants)
-- Expiration options : **2026-05-29** (4 jours restants)
+- Aucun événement à venir.
 
 ---
 
@@ -55,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-25
-- **Type :** update
-- **Fichier :** `RKLB_2026-05-25_update.md`
-- **Conclusion :** THÈSE ÉVITER confirmée. Snapshot 17:00 UTC identique au 13:00 UTC (marché fermé Memorial Day). Gap +8.22% overnight propulse RKLB à $135.76 avec nouveau 52W high intraday $139.76. Aucune news, aucun catalyseur fondamental. RSI 74.84 surachat persistant, ATR $12.41 en expansion. Score global 40.8/100 ajusté 30.8. Attendre retour $110–$120 ou refroidissement technique.
+- **Type :** full refresh
+- **Fichier :** `_RKLB_2026-05-25_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-25
 
 ---
 
