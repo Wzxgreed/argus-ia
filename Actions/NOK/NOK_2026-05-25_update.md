@@ -1,14 +1,14 @@
-# NOK — Mise à Jour Quotidienne (2026-05-25, Snapshot 13:00 UTC)
+# NOK — Mise à Jour Quotidienne (2026-05-25, Snapshot 17:00 UTC)
 
 > Desk : Argus-IA | Ticker : NOK (NYSE ADR) | Secteur : Technology / Communication Equipment
-> Date analyse : 2026-05-25 | Données source : `data/latest.json` (snapshot 2026-05-25T13:00:01 UTC)
+> Date analyse : 2026-05-25 | Données source : `data/latest.json` (snapshot 2026-05-25T17:00:07 UTC)
 
 ---
 
 ## 1. Résumé des changements depuis l'analyse précédente (2026-05-20)
 
-| Indicateur | Snapshot 20/05 | Snapshot 25/05 | Variation | Signal |
-|-----------|---------------|---------------|-----------|--------|
+| Indicateur | Snapshot 20/05 | Snapshot 25/05 (17:00 UTC) | Variation | Signal |
+|-----------|---------------|----------------------------|-----------|--------|
 | Cours close | $13.67 | **$15.47** | **+$1.80 (+13.2%)** | 🔴 Gap haussier majeur |
 | Change % vs previous close | −0.51% | **+9.1%** | — | Nouveau 52w high intraday |
 | RSI 14j | 58.34 | **64.29** | +5.95 pts | Approche surachat (>70) |
@@ -28,6 +28,8 @@
 - **Aucun catalyseur fondamental** identifié dans `data/events_latest.json` (vide pour NOK) ni dans `data/upcoming_events_latest.json` (hors earnings programmé au 2026-07-23).
 - **Volume revenu à la normale** (1.07× moyenne 20j) après une période de liquidité réduite.
 - **Options bullish** : put/call 0.41, call OI 70.9%, max pain $14.00 (sous le close), expiration 2026-05-29.
+
+**Confirmation snapshot 17:00 UTC vs 13:00 UTC :** Données strictement inchangées. Le snapshot 17:00 UTC reproduit la clôture US unique du jour. Aucune mutation technique, fondamentale ou options entre les deux timestamps.
 
 ---
 
@@ -125,7 +127,7 @@
 
 ## 5. Scoring Global
 
-**Pondération régime macro :** Inconnue (regime = Unknown dans `recommandations_latest.json`) — appliquée par défaut 35/40/25 (Catalyseur/Valorisation/Momentum).
+**Pondération régime macro :** Inconnu (regime = Unknown dans `recommandations_latest.json`) — appliquée par défaut 35/40/25 (Catalyseur/Valorisation/Momentum).
 
 | Axe | Score | Évolution | Justification |
 |-----|-------|-----------|---------------|
@@ -189,6 +191,7 @@
 - **Fondamentaux :** Aucune amélioration des marges, du ROIC, ou du consensus.
 - **Qualité :** Toujours hors périmètre (2.5/6).
 - **Catalyseur :** Aucun — pas d'event corporate, pas d'upgrade, pas de guidance raise.
+- **Données 17:00 UTC :** Confirmation intégrale du snapshot 13:00 UTC. Aucune mutation post-clôture.
 
 **Recommandation révisée :**
 - **Action :** **ATTENDRE** (Score Global ajusté 50.5/100)
@@ -213,4 +216,4 @@
 
 ---
 
-*Données sources : `data/latest.json` (2026-05-25T13:00:01 UTC), `data/recommandations_latest.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`, `data/upcoming_events_latest.json`, `data/events_latest.json`. Aucune donnée hallucinée.*
+*Données sources : `data/latest.json` (2026-05-25T17:00:07 UTC), `data/recommandations_latest.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`, `data/upcoming_events_latest.json`, `data/events_latest.json`. Aucune donnée hallucinée.*
