@@ -50,10 +50,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-20
+- **Date :** 2026-05-25
 - **Type :** update
-- **Fichier :** `AAPL_2026-05-20_update.md`
-- **Conclusion :** > **Référence analyse précédente :** [AAPL_2026-05-20_update.md](AAPL_2026-05-20_update.md) (snapshot matinal 10:00 UTC) | [AAPL_2026-05-19_update.md](AAPL_2026-05-19_update.md)
+- **Fichier :** `AAPL_2026-05-25_update.md`
+- **Conclusion :** Rally +3.3% en 3 séances, nouveau 52W high $311.40 atteint sur volume sous-moyen. RSI 91.1 en surachat extrême aggravé. Divergence baissière en options (Call OI 73.7% → 59.1%, P/C 0.36 → 0.69). Cours +5.2% au-dessus du consensus. Pas de news structurante. Thèse SURVEILLER confirmée — pas d'entrée long à $308+ avec RSI >90. Attendre repli vers $297–$300 ou consolidation confirmée au-dessus de $311.40 sur volume >1.1× moyenne.
 
 ---
 
