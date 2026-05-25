@@ -11,9 +11,9 @@
 **Prix cible :** $23.21 (+3.6% upside)
 **Stop-loss :** $21.86
 **Upside :** +3.6%
-**Dernière mise à jour :** 2026-05-25 (snapshot 13:00 UTC)
+**Dernière mise à jour :** 2026-05-25 (snapshot 21:00 UTC)
 
-> SPCX est un ETF thématique SPAC/post-IPO. Le setup technique (retour au-dessus MM50, RSI 62.4, volume record ×4.5) est validé par les scores agents pipeline 13:00 UTC. L'Agent Recommandation reclassifie SPCX en **ACHETER (Réduit)** avec un Score Global Ajusté de **70.2/100** (was 58.0). Score Opportunité = 6.0/10 (C:6.5 V:5.0 M:7.0), timing Favorable. L'absence de catalyseur fondamental justifie le sizing Réduit (max 5% capital). SL $21.86 (−2.4%), TP $23.21 (+3.6%), ratio R/R 1.5×. Invalidation : clôture sous MM50 ($21.99) avec volume >1.5× moyenne.
+> SPCX est un ETF thématique SPAC/post-IPO. Le setup technique (retour au-dessus MM50, RSI 62.4, volume record ×4.5) est validé par les scores agents pipeline 21:00 UTC. L'Agent Recommandation maintient SPCX en **ACHETER (Réduit)** avec un Score Global Ajusté de **70.2/100**. Score Opportunité = 6.0/10 (C:6.5 V:5.0 M:7.0), timing Favorable. 2e snapshot consécutif sans mutation (marché fermé Memorial Day) — stabilité totale confirmée. L'absence de catalyseur fondamental justifie le sizing Réduit (max 5% capital). SL $21.86 (−2.4%), TP $23.21 (+3.6%), ratio R/R 1.5×. Invalidation : clôture sous MM50 ($21.99) avec volume >1.5× moyenne.
 
 ---
 
@@ -59,7 +59,7 @@
 - **Date :** 2026-05-25
 - **Type :** update
 - **Fichier :** `SPCX_2026-05-25_update.md`
-- **Conclusion :** **Date :** 2026-05-25
+- **Conclusion :** Thèse confirmée — 2e snapshot consécutif sans mutation (Memorial Day), stabilité totale vs 13:00 UTC, recommandation ACHETER (Réduit) maintenue, Score Global 70.2
 
 ---
 
