@@ -635,38 +635,46 @@ Le rally +19.0% en 5 sessions ($47.74 → $56.83) confirme le momentum technique
 
 ---
 
-## 2026-05-25 — Full Refresh Triggered
+## 2026-05-25 — Full Refresh Complété (snapshot 21:00 UTC)
 
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.29% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** confirm
+
+Données strictement inchangées vs snapshot 17:00 UTC (cours $56.83, RSI 56.77, ATR $5.85, MM50 $46.10, scores 6.1/10 et 65.8/100). Marché fermé Memorial Day après clôture. Aucun nouveau flux post-earnings intégré (J=0, résultats non publiés). Thèse confirmée : ACHETER sizing réduit. DRAFT_refresh complété et archivé.
 
 ---
 
-## 2026-05-25 — Full Refresh Triggered
+## 2026-05-25 — Full Refresh Complété (snapshot 21:00 UTC)
 
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.29% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** confirm
+
+Données strictement inchangées vs snapshot 17:00 UTC (cours $56.83, RSI 56.77, ATR $5.85, MM50 $46.10, scores 6.1/10 et 65.8/100). Marché fermé Memorial Day après clôture. Aucun nouveau flux post-earnings intégré (J=0, résultats non publiés). Thèse confirmée : ACHETER sizing réduit. DRAFT_refresh complété et archivé.
 
 ---
 
-## 2026-05-25 — Full Refresh Triggered
+## 2026-05-25 — Full Refresh Complété (snapshot 21:00 UTC)
 
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.29% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** confirm
+
+Données strictement inchangées vs snapshot 17:00 UTC (cours $56.83, RSI 56.77, ATR $5.85, MM50 $46.10, scores 6.1/10 et 65.8/100). Marché fermé Memorial Day après clôture. Aucun nouveau flux post-earnings intégré (J=0, résultats non publiés). Thèse confirmée : ACHETER sizing réduit. DRAFT_refresh complété et archivé.
 
 ---
 
-## 2026-05-25 — Full Refresh Triggered
+## 2026-05-25 — Full Refresh Complété (snapshot 21:00 UTC)
 
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.29% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** confirm
+
+Données strictement inchangées vs snapshot 17:00 UTC (cours $56.83, RSI 56.77, ATR $5.85, MM50 $46.10, scores 6.1/10 et 65.8/100). Marché fermé Memorial Day après clôture. Aucun nouveau flux post-earnings intégré (J=0, résultats non publiés). Thèse confirmée : ACHETER sizing réduit. DRAFT_refresh complété et archivé.
 
 ---
