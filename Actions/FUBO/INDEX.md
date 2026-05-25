@@ -17,7 +17,7 @@ Thèse d'investissement : FUBO est un titre spéculatif du secteur Communication
 | 2026-05-19 | [FUBO_2026-05-19_update.md](FUBO_2026-05-19_update.md) | Mise à jour snapshot final 21:00 UTC — close $9.20 (−1.92% session), volume corrigé à 945 778 (0.63×), RSI 32.26 proche survente, earnings Q1 JOUR J toujours non observables, thèse ATTENDRE confirmée |
 | 2026-05-20 | [FUBO_2026-05-20_init.md](FUBO_2026-05-20_init.md) | FULL REFRESH — ATR_SPIKE 8.48%, thèse confirmée ATTENDRE (close stable $9.20, volume 0.69×, anomalie max pain $21.00 vs $10.00 historique, earnings Q1 JOUR J non résolus) |
 | 2026-05-19 | [FUBO_2026-05-19_init.md](FUBO_2026-05-19_init.md) | FULL REFRESH — ATR_SPIKE 8.48%, thèse confirmée ATTENDRE (snapshot final $9.20, volume 0.63×) |
-| 2026-05-25 | [FUBO_2026-05-25_update.md](FUBO_2026-05-25_update.md) | Mise à jour snapshot 10:00 UTC — gap haussier +6.67% à $9.75, RSI survente extrême 20.19, max pain corrigé $9.00, scoring agent basculé ACHETER Réduit (65.5/100) mais ajustement analyste maintient SURVEILLER (~52/100) sur fondamental dégradé 1/6 et earnings Q1 toujours non résolus |
+| 2026-05-25 | [FUBO_2026-05-25_update.md](FUBO_2026-05-25_update.md) | Mise à jour snapshot 13:00 UTC — **données stables** vs 10:00 UTC (close $9.75, RSI 20.19, max pain $9.00 inchangés), scoring agent stable ACHETER Réduit (65.5/100), ajustement analyste maintient SURVEILLER (~52/100), fondamental dégradé 1/6, earnings Q1 toujours non résolus. DRAFT_refresh archivé (triggers déjà couverts) |
 
 ## Agenda
 - **Earnings Q1 2026 :** 2026-05-20 (résultats en attente de confirmation / publication post-close probable ou retard API — toujours non visibles au snapshot 2026-05-25)

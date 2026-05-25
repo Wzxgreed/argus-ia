@@ -49,7 +49,7 @@
 - **Date :** 2026-05-25
 - **Type :** update
 - **Fichier :** `FUBO_2026-05-25_update.md`
-- **Conclusion :** > **Niveau d'impact :** 🟡 Modéré — Close $9.75 (+6.67% vs previous close), RSI en survente extrême (20.19), max pain corrigé à $9.00, scoring agent remonté à 65.5/100 (ACHETER Réduit), mais fondamenta
+- **Conclusion :** Snapshot 13:00 UTC confirme la stabilité vs 10:00 UTC (close $9.75, RSI 20.19, max pain $9.00 inchangés). Scoring agent stable ACHETER Réduit (65.5/100), ajustement analyste maintient SURVEILLER (~52/100). Fondamental dégradé 1/6, earnings Q1 toujours non résolus. DRAFT_refresh archivé.
 
 ---
 

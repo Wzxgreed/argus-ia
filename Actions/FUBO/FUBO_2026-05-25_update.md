@@ -1,13 +1,13 @@
 # FUBO — Mise à Jour (2026-05-25)
 
-> **Niveau d'impact :** 🟡 Modéré — Close $9.75 (+6.67% vs previous close), RSI en survente extrême (20.19), max pain corrigé à $9.00, scoring agent remonté à 65.5/100 (ACHETER Réduit), mais fondamental inchangé et qualité dégradée 1/6. Thèse évolue d'ATTENDRE vers surveillance active.
-> **Référence précédente :** [FUBO_2026-05-20_update.md](FUBO_2026-05-20_update.md) (snapshot 13:00 UTC — close $9.20, RSI 32.26, max pain $10.00, put/call 0.59, call OI 62.9%, thèse ATTENDRE)
+> **Niveau d'impact :** 🟢 Faible — Snapshot 13:00 UTC **confirme la stabilité** vs snapshot 10:00 UTC. Close $9.75 inchangé, RSI 20.19 inchangé, max pain $9.00 inchangé, scoring agent stable à 65.5/100 (ACHETER Réduit). Fondamental inchangé, qualité dégradée 1/6. Aucune mutation technique ni fondamentale détectée sur le créneau 10h–13h UTC.
+> **Référence précédente :** [FUBO_2026-05-25_update.md](FUBO_2026-05-25_update.md) (snapshot 10:00 UTC — close $9.75, RSI 20.19, max pain $9.00, put/call 0.65, call OI 60.6%, scoring agent 65.5/100, thèse SURVEILLER)
 
 ---
 
 ## 1. Résumé des Changements depuis l'Analyse Précédente (2026-05-20)
 
-| Métrique | 2026-05-20 13:00 UTC | **2026-05-25 10:00 UTC** | Variation |
+| Métrique | 2026-05-20 13:00 UTC | **2026-05-25 13:00 UTC** | Variation |
 |---|---|---|---|
 | Cours close | $9.20 | **$9.75** | **+5.98%** 🚨 |
 | Change % vs previous | −1.92% | **+6.67%** | **+8.59 pp** |
@@ -29,7 +29,8 @@
 | **Recommandation (agent)** | ATTENDRE | **ACHETER (Réduit)** | **↗️ bascule haussière** |
 
 **Constats :**
-1. **Gap haussier +6.67%** franchissant le seuil d'alerte ±5%. Le close à $9.75 marque un rebond technique après 5 jours de consolidation autour de $9.20. Aucun catalyseur fondamental identifiable dans les données.
+1. **Stabilité confirmée snapshot 13:00 UTC** — aucune mutation vs snapshot 10:00 UTC. Le close reste à $9.75, le RSI à 20.19, le volume à 1.10M. Cette absence de volatilité intrajour confirme que le gap haussier +6.67% du matin n'a pas généré de suivi technique ni de repositionnement significatif sur la séance.
+2. **Gap haussier +6.67%** franchissant le seuil d'alerte ±5%. Le close à $9.75 marque un rebond technique après 5 jours de consolidation autour de $9.20. Aucun catalyseur fondamental identifiable dans les données.
 2. **RSI en survente extrême (20.19)** — franchissement du seuil 30. Le titre est techniquement survendu, mais la descente de 32.26 à 20.19 en 5 jours traduit une accélération baissière sous-jacente, non un rebond de survente.
 3. **ATR compressé à $0.63** (−19.2%) malgré le gap haussier. La volatilité absolue diminue, mais le gap overnight de 6.67% avec un ATR de 0.63 représente un mouvement de **10.6× l'ATR** — anomalie de volatilité relative.
 4. **Max pain corrigé à $9.00** (aligné avec le spot monté). L'écart spot/max pain se réduit à +8.3% vs +8.7% précédemment. Le niveau est désormais cohérent.
@@ -231,6 +232,12 @@ La thèse d'**ATTENDRE** du 2026-05-20 est **modifiée** par le snapshot 2026-05
 
 ---
 
-*Analyste institutionnel senior — Desk Argus-IA*  
-*Date : 2026-05-25 (snapshot 10:00 UTC)*  
-*Sources : data/latest.json (fetched 2026-05-25T10:00:01Z), data/recommandations_latest.json, data/quant_report_latest.json (2026-05-17), data/geo_risk_latest.json (2026-05-17), data/quality_report_latest.json (2026-05-17)*
+*Analyste institutionnel senior — Desk Argus-IA*
+*Date : 2026-05-25 (snapshot 13:00 UTC)*
+*Sources : data/latest.json (fetched 2026-05-25T13:00:01Z), data/recommandations_latest.json, data/quant_report_latest.json (2026-05-17), data/geo_risk_latest.json (2026-05-17), data/quality_report_latest.json (2026-05-17)*
+
+---
+
+## Annexe — Traitement du FULL REFRESH DRAFT
+
+Le fichier `FUBO_2026-05-25_DRAFT_refresh.md` a été analysé. Les triggers PRICE_GAP (+6.67%) et ATR_SPIKE (6.46%) sont **déjà intégrés** dans la présente analyse. La thèse précédente (SURVEILLER, Score ~52/100 ajusté analyste) n'est pas invalidée par ces triggers — ils confirment une volatilité technique anormale sans catalyseur fondamental. Le DRAFT est donc **archivé** sans génération de `_init.md` supplémentaire (l'`_update.md` du 2026-05-25 couvre déjà l'événement).

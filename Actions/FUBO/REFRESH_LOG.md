@@ -1,5 +1,15 @@
 # FUBO — Historique des Full Refreshes
 
+## 2026-05-25 — Full Refresh Résolu (Snapshot 13:00 UTC)
+
+**Triggers :**
+- price_gap (medium) : Gap +6.67% overnight (seuil ±5.0%) — déjà traité snapshot 10:00 UTC
+- atr_spike (medium) : ATR relatif 6.46% (seuil 5.0%) — persistant
+
+**Conclusion :** Thèse CONFIRMÉE (SURVEILLER). Snapshot 13:00 UTC confirme la **stabilité totale** vs snapshot 10:00 UTC : close $9.75 inchangé, RSI 20.19 inchangé, ATR $0.63 inchangé, volume 1 101 200 inchangé. Max pain $9.00, put/call 0.65, call OI 60.6% — tous stables. Scoring agent inchangé : ACHETER Réduit (65.5/100, timing Défavorable), ajustement analyste ~52/100 (SURVEILLER). Fondamental dégradé 1/6 persistant (divergence Yahoo/FMP ×11.4, patrimoine net négatif −$398.9M). Earnings Q1 2026 attendus le 2026-05-20 toujours non visibles — retard API ou report. DRAFT_refresh.md archivé (`FUBO_2026-05-25_DRAFT_refresh.md` → `_DRAFT_refresh_2026-05-25_ARCHIVED.md`). Pas de position longue recommandée.
+
+---
+
 ## 2026-05-20 — Full Refresh Résolu (Snapshot 13:00 UTC)
 
 **Triggers :**
