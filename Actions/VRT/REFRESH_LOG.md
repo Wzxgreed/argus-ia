@@ -575,15 +575,6 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.00% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
-
----
-
-## 2026-05-25 — Full Refresh Triggered
-
-**Triggers :**
-- atr_spike (medium) : ATR relatif 6.00% (seuil 5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Thèse CONFIRMÉE — ATR spike persistant depuis le 18/05 (volatilité résiduelle post-correction). Pas de nouvel événement structurant. Cours consolidé $327.46 (+1.5% vs 20/05), zone $324–$335. RSI 48.88 sous 50. Put/Call 2.59 (72.1% puts), max pain $225. Score Opportunité 4.3/10. SURVEILLER. Timing Neutre. Voir [VRT_2026-05-25_init.md](./VRT_2026-05-25_init.md) et [VRT_2026-05-25_update.md](./VRT_2026-05-25_update.md).
 
 ---

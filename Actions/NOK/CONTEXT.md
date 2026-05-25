@@ -8,23 +8,26 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ATTENDRE — Pas de position
-**Prix cible :** $9.26 (consensus 6 analystes)
-**Stop-loss :** $13.51 (cours − 2×ATR)
-**Take-profit :** $18.41 (cours + 3×ATR)
-**Upside/Downside :** −40.1% / −12.7%
-**Dernière mise à jour :** 2026-05-25 10:00 UTC
+- **Prix cible :** $9.26 (consensus 6 analystes)
+- **Stop-loss :** $13.51 (cours − 2×ATR)
+- **Take-profit :** $18.41 (cours + 3×ATR)
+- **Upside/Downside :** −40.1% / −12.7%
+- **Dernière mise à jour :** 2026-05-25 13:00 UTC
 
-Gap haussier de +9.1% (close $15.47, new 52-week high $15.78) sans catalyseur fondamental identifié. Momentum technique réel (RSI 64.29, volume 1.07×, options bullish : put/call 0.41, call OI 70.9%, max pain $14.0) mais valorisation frein absolu (P/E 96.7, cours +66.8% vs consensus $9.26). Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%). Divergence structurelle Yahoo/FMP persistante (P/E FMP 45.8 vs Yahoo 96.7). Dividende 1.06%. Secteur XLC en sous-performance relative (bottom 3 sector rotation) — gap idiosyncratique et fragile. Thèse modifiée vs 20/05 : le momentum invalide l'hypothèse de retour rapide au consensus, mais ne justifie pas un achat. Pas d'entrée.
+Gap haussier de +9.1% aujourd'hui (close $15.47, new 52-week high $15.78) sans catalyseur fondamental identifiable. Le momentum technique est réel (RSI 64.29, volume 1.07×, options bullish : put/call 0.41, call OI 70.9%, max pain $14.0) mais la valorisation reste un frein absolu (P/E 96.7, cours +66.8% vs consensus $9.26). Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%). Divergence structurelle Yahoo/FMP persistante (P/E FMP 45.8 vs Yahoo 96.7). Dividende 1.06%. Le secteur Communication Services (XLC) est en sous-performance relative (bottom 3 sector rotation), ce qui rend le gap idiosyncratique et fragile. Thèse modifiée vs 20/05 : le momentum invalide l'hypothèse de retour rapide au consensus, mais ne justifie pas un achat. Pas d'entrée.
 
 **✅ Données complètes** — Cours, RSI, ATR, P/E, consensus, options disponibles dans `data/latest.json`.
 
 ---
 
-## Actualités ayant impacté ce dossier
-- **Score global :** —/10
+## 📊 Score et niveaux
+
+- **Score Opportunité :** 4.5/10
+- **Score Global :** 45.5/100
+- **Score Global ajusté :** 50.5/100
 - **Prix cible :** $9.26
-- **Stop-loss :** $11.79
-- **Statut thèse :** —
+- **Stop-loss :** $13.51
+- **Statut thèse :** modifiée
 - **Horizon :** —
 
 ---
@@ -37,7 +40,7 @@ Gap haussier de +9.1% (close $15.47, new 52-week high $15.78) sans catalyseur fo
 
 ## 🚨 Alertes actives
 
-- Baisse — $13.51 (SL 2×ATR) — 🟢 Active
+- Baisse — $12.03 (SL 2×ATR ancien) — 🟢 Active
 - Hausse — $9.26 (consensus) — 🔴 Déjà au-dessus
 - Volume — >2× moy. 20j (>237M) — 🟢 Active
 
@@ -45,7 +48,7 @@ Gap haussier de +9.1% (close $15.47, new 52-week high $15.78) sans catalyseur fo
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings Q2 FY2026 : 2026-07-23 (dans 59 jours) — Est EPS $0.06–$0.08, Rev $4.8B
 
 ---
 
@@ -55,22 +58,23 @@ Gap haussier de +9.1% (close $15.47, new 52-week high $15.78) sans catalyseur fo
 - **MM 50j :** 10.80
 - **MM 200j :** —
 - **ATR 14j :** 0.98
-- **Volume moy. 20j :** 118,870,420
+- **Volume moy. 20j :** 118870420
+- **Volume jour :** 127394200 (1.07×)
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-25
-- **Type :** Update (FULL REFRESH)
+- **Type :** update quotidien (snapshot 13:00 UTC)
 - **Fichier :** `NOK_2026-05-25_update.md`
-- **Conclusion :** Thèse modifiée. Gap +9.1% sans catalyseur fondamental. ATTENDRE maintenu. SL révisé $13.51. Momentum technique réel mais valorisation défavorable empêche tout signal d'achat.
+- **Conclusion :** Gap +9.1% sans catalyseur. ATTENDRE maintenu. SL révisé $13.51. Thèse modifiée.
 
 ---
 
-## 🔄 Triggers détectés (full refresh)
+## 🔄 Triggers détectés (dernière session)
 
-- **PRICE_GAP** (medium) — Gap +9.10% overnight (seuil ±5.0%)
+- **PRICE_GAP** (high) — Gap +9.10% vs previous close (seuil ±5.0%)
 - **ATR_SPIKE** (medium) — ATR relatif 6.33% (seuil 5.0%)
 
 ---

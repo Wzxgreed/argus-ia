@@ -37,9 +37,9 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ## 🚨 Alertes actives
 
-- Baisse — $14.34 (SL 2×ATR) — 🟢 Active
-- Hausse — $19.51 (prix cible historique) — 🟢 Active
-- Volume — >2× moy. 20j (>137M) — 🟢 Active
+- Baisse — $13.97 (SL 2×ATR) — 🟢 Active
+- Hausse — $19.51 (prix cible) — 🟢 Active
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
@@ -64,7 +64,7 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 - **Date :** 2026-05-25
 - **Type :** update
 - **Fichier :** `SOFI_2026-05-25_update.md`
-- **Conclusion :** Close $15.62 (+2.6% vs 20/05) à volume faible 0.84×. RSI 43.83, MM50 $16.76, ATR $0.64. Put/Call 0.75 (+36%) et Call OI 57.2% (−7.1 pts) = repositionnement défensif options. Score Global 48.6/100 (SURVEILLER, reclassement vs ATTENDRE). TP $17.54, SL $14.34, R/R 1.50. Earnings dans 64j. Support critique $15.00.
+- **Conclusion :** **Date :** 2026-05-25 (snapshot 10:00 UTC — close final confirmé $15.62)
 
 ---
 

@@ -19,7 +19,7 @@
 - **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** —
+- **Statut thèse :** modifiée
 - **Horizon :** 1–3 mois
 
 ---
@@ -38,8 +38,7 @@
 
 ## 📅 Prochains événements
 
-- **Earnings Q2 2026 :** 13 août 2026 (Est EPS $0.20–$0.27, Rev $5.4B) — 80 jours
-- **Expiration Options :** 2026-05-29 (4 jours, max pain $13.00)
+- Aucun événement à venir.
 
 ---
 

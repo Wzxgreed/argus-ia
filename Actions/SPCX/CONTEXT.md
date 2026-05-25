@@ -17,11 +17,11 @@
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 58.0/100
+- **Score global :** —/10
 - **Prix cible :** $23.21
-- **Stop-loss :** $21.86
+- **Stop-loss :** $—
 - **Statut thèse :** modifiée
-- **Horizon :** 1–2 semaines
+- **Horizon :** —
 
 ---
 
@@ -39,7 +39,7 @@
 
 ## 📅 Prochains événements
 
-- Aucun — ETF thématique SPAC/post-IPO, pas de calendrier earnings classique.
+- **2026-05-25** · earnings · Earnings ...
 
 ---
 
@@ -50,10 +50,6 @@
 - **MM 200j :** —
 - **ATR 14j :** 0.27
 - **Volume moy. 20j :** 3739
-- **Volume jour :** 16751 (4.48× moyenne)
-- **Close :** 22.40
-- **52w high :** 26.61
-- **52w low :** 21.32
 
 ---
 
@@ -62,7 +58,7 @@
 - **Date :** 2026-05-25
 - **Type :** update
 - **Fichier :** `SPCX_2026-05-25_update.md`
-- **Conclusion :** Thèse modifiée — retour au-dessus MM50 avec volume anomalie ×4.5, RSI 62.4, reclassement de SURVEILLER à ATTENDRE. Pas de catalyseur fondamental, mouvement 100% technique. Attendre confirmation pour réactiver ACHETER (Réduit).
+- **Conclusion :** **Date :** 2026-05-25
 
 ---
 

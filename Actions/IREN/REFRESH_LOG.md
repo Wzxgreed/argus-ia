@@ -616,3 +616,21 @@ Revue manuelle post-pipeline : les donnees brutes (cours $52.94, RSI 54.61, ATR 
 Le rally +19.0% en 5 sessions ($47.74 → $56.83) confirme le momentum technique mais modifie la thèse sur la dimension valuation. Le Score Valorisation est révisé de 4.5/10 à 4.0/10 (P/E 73.8×, EV/EBITDA 149.9×). Le put/call ratio à 2.35 et le call OI à 29.8% signalent une défiance massive des options traders avant l'earnings J=0. La thèse reste ACHETER sizing réduit (Score Global 65.8/100) avec vigilance accrue. DRAFT_refresh complété et archivé. Fichier de référence : [IREN_2026-05-25_update.md](IREN_2026-05-25_update.md).
 
 ---
+
+## 2026-05-25 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10.29% (seuil 5.0%)
+
+**Conclusion :** confirm — duplicata du FULL REFRESH complété précédemment ce jour (voir entrée ci-dessus). Données strictement inchangées vs snapshot 13:00 UTC. DRAFT_refresh archivé (_ARCHIVED_DRAFT_refresh_2026-05-25_2.md).
+
+---
+
+## 2026-05-25 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10.29% (seuil 5.0%)
+
+**Conclusion :** confirm — duplicata du FULL REFRESH complété précédemment ce jour. Données strictement inchangées vs snapshot 13:00 UTC. Aucun nouveau flux post-earnings intégré. DRAFT_refresh archivé.
+
+---

@@ -1,6 +1,6 @@
 # CONTEXT — QTBS — Dernière mise à jour : 2026-05-25
 
-> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l’historique.
+> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
 
 ---
@@ -14,25 +14,34 @@
 - **Statut thèse :** 🔴 Bloqué data — pas de données de prix disponibles
 - **Horizon :** Jusqu’à reprise du data feed
 
+**Synthèse (1 phrase) :** QTBS est en data blackout complet (No price history) ; l’earnings signalé le 2026-05-25 ne peut être analysé sans cours, volumes ni consensus — statut ATTENDRE maintenu.
+
+---
+
+## 📜 Historique des fichiers
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** Jusqu’à reprise du data feed
+
 ---
 
 ## 📉 Erreurs de prédiction récentes
 
-- Aucune erreur enregistrée (pas de signaux actifs faute de données).
+- Aucune erreur enregistrée.
 
 ---
 
 ## 🚨 Alertes actives
 
-- **Data blackout** : `validation_report.txt` confirme `[ERROR] QTBS: fetch failed — No price history` (2026-05-25).
-- **Earnings J0 non analysable** : événement signalé par FMP le 2026-05-25 sans consensus ni cours pré-évent.
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-05-25** · earnings · Earnings (source FMP, severity high, 0j)
-- Prochain catalyseur : à confirmer dès reprise du data feed.
+- **2026-05-25** · earnings · Earnings ...
 
 ---
 
@@ -44,16 +53,14 @@
 - **ATR 14j :** —
 - **Volume moy. 20j :** —
 
-> Toutes les métriques techniques sont indisponibles (No price history).
-
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-25
-- **Type :** `_update.md`
+- **Type :** update
 - **Fichier :** `QTBS_2026-05-25_update.md`
-- **Conclusion :** Data blackout confirmé. Pas d’action possible sans cours/ATR/consensus. Attendre résolution du fetch et éventuel gap post-earnings.
+- **Conclusion :** > **Date :** 2026-05-25
 
 ---
 
