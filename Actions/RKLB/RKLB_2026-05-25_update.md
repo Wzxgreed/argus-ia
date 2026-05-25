@@ -1,6 +1,6 @@
 # RKLB — Mise à Jour Post-Pipeline (2026-05-25)
 
-> Source : `data/2026-05-25.json` (fetched 10:00 UTC) | `data/recommandations_2026-05-25.json` | `data/sector_rotation_2026-05-25.json` | Validation OK (22/25 tickers OK)
+> Source : `data/2026-05-25.json` (fetched 13:00 UTC) | `data/recommandations_2026-05-25.json` | `data/sector_rotation_2026-05-25.json` | Validation 22/26 tickers OK (0 warning sur RKLB)
 
 ---
 
@@ -116,7 +116,7 @@ Aucune nouvelle donnée fondamentale de structure (pas d'earnings, pas de guidan
 | Agent | Donnée RKLB | Impact scoring |
 |---|---|---|
 | **Quant** | Pas assez de signaux historiques (p-value `null`, n=0). | [SIGNAUX NON SIGNIFICATIFS] |
-| **Géopolitique** | `geo_risk_score` 2, non exposé, 🟢 | Aucun malus. |
+| **Géopolitique** | `geo_risk_score` non signalé pour RKLB. | Aucun malus. |
 | **Comptable (Accounting)** | `data/accounting_risk_latest.json` non disponible. | [DONNÉES MANQUANTES] |
 | **Sector Rotation** | XLI (Industrials) momentum 0,0, sous-performe SPY 20j/60j (RS –4,85 % / –10,99 %). | Malus sectoriel implicite — RKLB dans un secteur sans momentum. |
 | **FX Exposure** | Score FX Impact 0,0. Exposition 25 % export, divergence aligned. | Aucun malus/bonus FX. |
@@ -158,7 +158,7 @@ Aucune nouvelle donnée fondamentale de structure (pas d'earnings, pas de guidan
 | Événement | Date | Jours restants | Détail |
 |---|---|---|---|
 | **Earnings Q2 2026** | 2026-08-06 | **73 jours** | Est EPS : –$0,06 à –$0,02 ; Rev : $0,2 B |
-| **Expiration options** | 2026-05-29 | **4 jours** | Max Pain $73,00 [ANOMALIE] — données opérationnelles à vérifier |
+| **Expiration options** | 2026-05-29 | **4 jours** | Max Pain $73,00 [ANOMALIE DATA] — données opérationnelles à vérifier |
 
 **Prochain catalyseur majeur** : Aucun avant earnings (août). L'expiration options du 29 mai approche dans 4 jours. La convergence vers $150 (référence historique) ou $73 (donnée actuelle, suspecte) reste indéterminée. Surveillance si activité options inhabituelle en fin de semaine.
 
@@ -192,4 +192,4 @@ Toute position longue actuelle expose à un drawdown de –18,3 % (SL) en 1–2 
 
 ---
 
-*Rapport généré le 2026-05-25 — Données : `data/2026-05-25.json`, `data/recommandations_2026-05-25.json`, `data/upcoming_events_2026-05-25.json`, `data/events_2026-05-25.json`, `data/news_2026-05-25.json`, `data/social_sentiment_2026-05-25.json`, `data/geo_risk_latest.json` (2026-05-25), `data/sector_rotation_2026-05-25.json`, `data/fx_exposure_2026-05-25.json`, `data/quant_report_latest.json` (2026-05-25)*
+*Rapport généré le 2026-05-25 — Données : `data/2026-05-25.json`, `data/recommandations_2026-05-25.json`, `data/upcoming_events_2026-05-25.json`, `data/events_2026-05-25.json`, `data/news_2026-05-25.json`, `data/social_sentiment_2026-05-25.json`, `data/geo_risk_latest.json` (2026-05-17), `data/sector_rotation_2026-05-25.json`, `data/fx_exposure_2026-05-25.json`, `data/quant_report_latest.json` (2026-05-17)*
