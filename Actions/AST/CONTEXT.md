@@ -49,7 +49,7 @@
 - **Date :** 2026-05-25
 - **Type :** update
 - **Fichier :** `AST_2026-05-25_update.md`
-- **Conclusion :** > **Date :** 2026-05-25
+- **Conclusion :** 11e snapshot consécutif sans mutation — stabilité totale confirmée au snapshot 21:00 UTC. AST reste non évaluable (`No price history`). Earnings J=0 non résolu. Doublon probable avec ASTS confirmé. Recommandation : résoudre anomalie structurelle ou marquer `excluded`.
 
 ---
 
