@@ -7,30 +7,31 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
+- **Recommandation :** ATTENDRE (placeholder système)
+- **Score global :** 55.2/100 (placeholder — non fondé sur des données réelles)
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** —
+- **Statut thèse :** 🔴 INVALIDÉE PAR L'ABSENCE DE DONNÉES
 - **Horizon :** —
 
 ---
 
 ## 📉 Erreurs de prédiction récentes
 
-- Aucune erreur enregistrée.
+- Aucune erreur enregistrée (pas de prédictions possibles sans données).
 
 ---
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- **Alerte structurelle :** Doublon probable avec ASTS (AST SpaceMobile). AST n'a aucune donnée de cours sur 9 snapshots consécutifs.
+- **Alerte data :** Ticker KO dans `data/latest.json` (`error: true`, `reason: "No price history"`).
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-05-25** · earnings · Earnings ...
+- **2026-05-25** · earnings · Earnings (source FMP) — résultats non intégrés au pipeline
 
 ---
 
@@ -47,9 +48,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-25
-- **Type :** preview
-- **Fichier :** `AST_2026-05-25_preview.md`
-- **Conclusion :** > **Date :** 2026-05-25
+- **Type :** update
+- **Fichier :** `AST_2026-05-25_update.md`
+- **Conclusion :** Données manquantes confirmées — aucun changement vs 20/05. Earnings 25/05 non intégrés. Doublon ASTS confirmé. Recommandation : résoudre l'anomalie structurelle (supprimer AST ou le marquer `excluded`) et privilégier ASTS.
 
 ---
 
