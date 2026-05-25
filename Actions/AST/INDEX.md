@@ -5,7 +5,7 @@
 > **Secteur :** Non spécifié
 > **Exchange :** NASDAQ
 > **Priorité :** Medium
-> **Dernière mise à jour :** 2026-05-25 (snapshot 10:00 UTC)
+> **Dernière mise à jour :** 2026-05-25 (snapshot 13:00 UTC)
 
 ---
 
@@ -26,6 +26,7 @@
 
 | Date | Fichier | Type | Résumé |
 |------|---------|------|--------|
+| 2026-05-25 | `AST_2026-05-25_update.md` | Update après-midi (13:00 UTC) | 10e snapshot consécutif sans mutation — `No price history` stable, earnings J=0 non résolu, ASTS $105.86 (+10.01%) confirme le doublon, recommandation maintenue : résoudre anomalie structurelle |
 | 2026-05-25 | `AST_2026-05-25_update.md` | Update matin (10:00 UTC) | Données manquantes confirmées — aucun changement vs 20/05, earnings 25/05 non intégrés, doublon ASTS confirmé, recommandation : résoudre anomalie structurelle |
 | 2026-05-25 | `AST_2026-05-25_preview.md` | Preview earnings | Template vide — aucune prédiction renseignée |
 | 2026-05-24 | `AST_2026-05-24_preview.md` | Preview earnings | Template vide — aucune prédiction renseignée |
