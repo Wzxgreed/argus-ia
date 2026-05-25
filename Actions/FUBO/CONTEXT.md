@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
-- **Horizon :** —
+- **Recommandation :** SURVEILLER
+- **Score global :** ~5.2/10 (ajusté analyste) / 65.5/100 (brut agent)
+- **Prix cible :** $11.64 (TP 3× ATR)
+- **Stop-loss :** $8.49 (2× ATR)
+- **Statut thèse :** Confirmée — snapshot 17:00 UTC stable vs 13:00 UTC
+- **Horizon :** 1–3 mois (si confirmation technique post-earnings)
 
 ---
 
@@ -24,13 +24,19 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- **RSI SURVENTE EXTRÊME** — RSI 20.19 (seuil 30)
+- **Earnings Q1 2026 en attente / anomalie calendrier** — `upcoming_events` place l'earnings au 2026-05-25 (jour J), aucun résultat visible
+- **Divergence Yahoo/FMP Market Cap** — ×11.4 d'écart
+- **Sector Rotation XLC Bottom 3** — malus sectoriel actif
+- **Options Spot/Max Pain Divergence** — spot $9.75 vs max pain $9.00 (+8.3%)
+- **Short Squeeze Setup (latent)** — short interest 22.84% + call OI 60.6%
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-05-25** · earnings · Earnings ...
+- **2026-05-26** · vérification impérative · Anomalie calendrier earnings (FMP indique 2026-05-25, jour J, mais marché fermé Memorial Day) — résultats Q1 à confirmer à la réouverture
+- **2026-05-29** · échéance options · Max pain $9.00, put/call 0.65, call OI 60.6%
 
 ---
 
@@ -49,7 +55,7 @@
 - **Date :** 2026-05-25
 - **Type :** update
 - **Fichier :** `FUBO_2026-05-25_update.md`
-- **Conclusion :** > **Niveau d'impact :** 🟢 Faible — Snapshot 13:00 UTC **confirme la stabilité** vs snapshot 10:00 UTC. Close $9.75 inchangé, RSI 20.19 inchangé, max pain $9.00 inchangé, scoring agent stable à 65.5/10
+- **Conclusion :** 🟢 Faible — Snapshot 17:00 UTC **confirme la stabilité totale** vs 13:00 UTC (marché fermé Memorial Day). Toutes les métriques inchangées. Anomalie calendrier : `upcoming_events` place l'earnings au 2026-05-25 (jour J) mais aucun résultat visible. Thèse SURVEILLER confirmée (~52/100 ajusté). Gap +6.67% non validé par fondamental ni options.
 
 ---
 
