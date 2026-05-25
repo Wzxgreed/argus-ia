@@ -33,7 +33,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-25** · earnings · Earnings ...
+- **2026-05-25** · 🔴 earnings · Earnings Q1 2026 — **J=0 non résolu depuis 5 jours**. Priorité : vérifier date réelle de publication via IR Block / SEC EDGAR.
 
 ---
 
