@@ -57,7 +57,7 @@
 - **Date :** 2026-05-25
 - **Type :** update
 - **Fichier :** `NU_2026-05-25_update.md`
-- **Conclusion :** **Thèse : MODIFIÉE — ATTENDRE**
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE** (snapshot 13:00 UTC, données stables vs 10:00 UTC)
 
 ---
 
