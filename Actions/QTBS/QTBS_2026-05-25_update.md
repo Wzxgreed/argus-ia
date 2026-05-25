@@ -1,16 +1,16 @@
 # QTBS — Mise à jour Quotidienne
 
-> **Date :** 2026-05-25 (snapshot 13:00 UTC)
+> **Date :** 2026-05-25 (snapshot 21:00 UTC)
 > **Type :** `_update.md`
-> **Source données :** `data/latest.json` (fetched_at 2026-05-25T13:00:01Z) + `data/recommandations_latest.json`
-> **Statut pipeline :** 🔴 Fetch KO — No price history (confirmé snapshot 13:00)
+> **Source données :** `data/latest.json` (fetched_at 2026-05-25T21:00:02Z) + `data/recommandations_latest.json`
+> **Statut pipeline :** 🔴 Fetch KO — No price history (confirmé snapshot 21:00)
 
 ---
 
 ## 1. Résumé des changements depuis l'analyse précédente
 
-| Item | Analyse précédente (10:27 UTC) | Snapshot 13:00 UTC | Changement |
-|------|-------------------------------|--------------------|------------|
+| Item | Snapshot 13:00 UTC | Snapshot 21:00 UTC | Changement |
+|------|--------------------|--------------------|------------|
 | Cours | [DONNÉES MANQUANTES] | **[DONNÉES MANQUANTES]** | **Aucun changement** |
 | RSI 14j | — | — | — |
 | ATR 14j | — | — | — |
@@ -19,7 +19,7 @@
 | Data feed | `error: true` | `error: true` | **Bloquant confirmé** |
 | Score global | 55.2/100 (ATTENDRE) | **55.2/100 (ATTENDRE)** | **Stable** |
 
-**Verdict macro :** QTBS reste en **data blackout complet** au snapshot 13:00 UTC. L'absence de mutation vs l'update matinal confirme un blackout persistant depuis au moins le 20 mai 2026.
+**Verdict macro :** QTBS reste en **data blackout complet** au snapshot 21:00 UTC. Aucune mutation vs le snapshot 13:00 UTC — 11e snapshot consécutif sans changement depuis au moins le 20 mai 2026.
 
 ---
 
@@ -27,7 +27,7 @@
 
 > **[DONNÉES MANQUANTES — FETCH KO CONFIRMÉ]**
 
-- **Cours close :** [UNSOURCED] — `data/latest.json` retourne `"error": true`, `"reason": "No price history"` (timestamp 13:00:18 UTC)
+- **Cours close :** [UNSOURCED] — `data/latest.json` retourne `"error": true`, `"reason": "No price history"` (timestamp 21:00:18 UTC)
 - **RSI 14j :** —
 - **ATR 14j :** —
 - **MM 50j / 200j :** —
@@ -114,12 +114,12 @@ Aucune mention retail, aucune détection de pump/dump. Le silence informationnel
 
 **Argumentaire :**
 
-1. **Data blackout persistant :** Le snapshot 13:00 UTC confirme l'erreur `[ERROR] QTBS: fetch failed — No price history`. Ce bloquant empêche toute analyse technique, fondamentale et quantitative. La stabilité de l'erreur entre 10:27 et 13:00 UTC exclut un effet de latence temporaire.
+1. **Data blackout persistant :** Le snapshot 21:00 UTC confirme l'erreur `[ERROR] QTBS: fetch failed — No price history`. Ce bloquant empêche toute analyse technique, fondamentale et quantitative. La stabilité de l'erreur entre 13:00 et 21:00 UTC exclut un effet de latence temporaire.
 2. **Earnings J0 non analysable :** L'événement earnings du 2026-05-25 (source FMP) est le catalyseur naturel, mais sans cours pré-event, sans consensus EPS/Revenue et sans métriques, il est impossible de mesurer l'impact post-announcement.
 3. **Score agent inchangé :** La recommandation `ATTENDRE` (55.2/100) reflète une absence de signal plutôt qu'une conviction neutre. Les scores Catalyseur 6.5/10 sont grevés par l'impossibilité de vérification.
 4. **Action requise :** Attendre la résolution du fetch de données (probablement post-earnings, vérifier le prochain snapshot demain matin). Si les données réapparaissent avec un gap significatif (>±5%), générer un `_update.md` flash pour qualifier l'impact.
 
 ---
 
-*Rapport généré le 2026-05-25. Données : latest.json (13:00 UTC), recommandations_latest.json, events_latest.json, social_sentiment_latest.json, fx_exposure_latest.json.*
+*Rapport généré le 2026-05-25. Données : latest.json (21:00 UTC), recommandations_latest.json, events_latest.json, social_sentiment_latest.json, fx_exposure_latest.json.*
 *Avertissement : ce document est un outil d'analyse, pas un conseil en investissement.*
