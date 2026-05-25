@@ -1,11 +1,12 @@
 # MITK
 
 ## Thèse courante
-**ACHETER (Réduit)** — Small-cap logiciel (Software-Application, $724M) avec Forward P/E attractif (13.2x) mais rentabilité du capital faible (ROIC 3.16%) et absence de catalyseur idiosyncratique avéré. Close **$16.03** sur volume confirmant (1.28× moyenne 20j, 1,648,000 vs moy. 1,284,225). RSI 57.06 (neutre favorable), cours AU-DESSUS de MM50 ($14.34, +11.8%), configuration technique haussière. Score Global Ajusté **65.2/100** (catégorie ACHETER Réduit). Cassure MM50 validée sur volume — premier signal technique fiable depuis plusieurs semaines. Anomalie options ATTÉNUÉE : Max Pain $20.00 (+24.8% vs spot, vs +41.3% le 2026-05-20), Put/Call 0.18, Call OI % 84.9%. Consensus PT $16.00 atteint — upside théorique nul à court terme, monitoring des révisions analystes. Sizing réduit recommandé (Catalyseur 5.0/10). SL $14.15, TP $18.85, R/R 1.5. **Snapshot 13:00 UTC confirme la stabilité totale des données — thèse inchangée.**
+**ACHETER (Réduit)** — Small-cap logiciel (Software-Application, $724M) avec Forward P/E attractif (13.2x) mais rentabilité du capital faible (ROIC 3.16%) et absence de catalyseur idiosyncratique avéré. Close **$16.03** sur volume confirmant (1.28× moyenne 20j, 1,648,000 vs moy. 1,284,225). RSI 57.06 (neutre favorable), cours AU-DESSUS de MM50 ($14.34, +11.8%), configuration technique haussière. Score Global Ajusté **65.2/100** (catégorie ACHETER Réduit). Cassure MM50 validée sur volume — premier signal technique fiable depuis plusieurs semaines. Anomalie options ATTÉNUÉE : Max Pain $20.00 (+24.8% vs spot, vs +41.3% le 2026-05-20), Put/Call 0.18, Call OI % 84.9%. Consensus PT $16.00 atteint — upside théorique nul à court terme, monitoring des révisions analystes. Sizing réduit recommandé (Catalyseur 5.0/10). SL $14.15, TP $18.85, R/R 1.5. **Snapshot 21:00 UTC confirme la stabilité totale des données (marché fermé Memorial Day) — thèse inchangée.**
 
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
+| 2026-05-25 | [MITK_2026-05-25_update.md](MITK_2026-05-25_update.md) | Mise à jour post-pipeline 21:00 UTC — snapshot 21:00 UTC confirme stabilité totale vs 17:00 UTC (marché fermé Memorial Day), cours $16.03 confirmé, volume 1,648,000 confirmé, RSI 57.06 stable. Score global 65.2/100 inchangé. Thèse ACHETER (Réduit) confirmée. DRAFT_refresh du jour archivé (trigger ATR_SPIKE déjà absorbé) |
 | 2026-05-25 | [MITK_2026-05-25_update.md](MITK_2026-05-25_update.md) | Mise à jour post-pipeline 17:00 UTC — snapshot 17:00 UTC confirme stabilité totale vs 13:00 UTC (marché fermé Memorial Day), cours $16.03 confirmé, volume 1,648,000 confirmé, RSI 57.06 stable. Score global 65.2/100 inchangé. Thèse ACHETER (Réduit) confirmée. Comparaison 5 séances : +13.3% depuis 2026-05-20, momentum 7.5/10, cassure MM50 validée |
 | 2026-05-25 | [MITK_2026-05-25_update.md](MITK_2026-05-25_update.md) | Mise à jour post-pipeline 13:00 UTC — snapshot 2026-05-25 : données stables vs snapshot 10:00 UTC, cours $16.03 confirmé, volume 1,648,000 confirmé, RSI 57.06 stable. Score global 65.2/100 inchangé. Thèse ACHETER (Réduit) confirmée. Aucune mutation détectée entre les deux snapshots |
 | 2026-05-25 | [MITK_2026-05-25_update.md](MITK_2026-05-25_update.md) | Mise à jour post-pipeline 10:00 UTC — snapshot 2026-05-25 : cours $16.03 (+4.36% intraday, +13.3% sur 5 séances), volume 1,648,000 (1.28× moyenne 20j), RSI 57.06, cassure confirmée au-dessus de MM50 ($14.34). Score global 65.2/100. Thèse modifiée : SURVEILLER → ACHETER (Réduit). Anomalie options atténuée (max pain +24.8% vs spot). Consensus PT $16.00 atteint |
@@ -16,7 +17,7 @@
 | 2026-05-17 | [MITK_2026-05-17_claude.md](MITK_2026-05-17_claude.md) | Analyse approfondie (LLM) |
 
 ## Agenda
-- Prochain earnings : **2026-08-06** (73j) — Est EPS $0.24–$0.34, Rev ~$0.1B
+- Prochain earnings : **2026-08-06** (72j) — Est EPS $0.24–$0.34, Rev ~$0.1B
 - Expiration options : **2026-06-18** (24j)
 
 ## Alertes actives
