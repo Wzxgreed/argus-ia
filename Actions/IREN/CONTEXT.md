@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
+- **Recommandation :** ACHETER — Sizing Réduit
+- **Score global :** 5.8/10 (Score Global ajusté 63.3/100)
+- **Prix cible :** $65.86 (consensus FMP, 21 analysts)
+- **Stop-loss :** $48.42
 - **Statut thèse :** modifiée
-- **Horizon :** —
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -35,7 +35,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-26** · earnings · Earnings ...
+- **2026-05-26** · earnings · Earnings Q1 2026 (J=0, résultats attendus)
 
 ---
 
@@ -45,16 +45,16 @@
 - **MM 50j :** 46.46
 - **MM 200j :** —
 - **ATR 14j :** 5.68
-- **Volume moy. 20j :** 53062032
+- **Volume moy. 20j :** 53174700
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-26
-- **Type :** preview
-- **Fichier :** `IREN_2026-05-26_preview.md`
-- **Conclusion :** > **Date :** 2026-05-26
+- **Type :** update (rev. 21:00 UTC)
+- **Fichier :** `IREN_2026-05-26_update.md`
+- **Conclusion :** Snapshot 21:00 UTC — cours $59.78 (+5.19%), high $61.47. Rally haussier poursuivi (+25.2% depuis 20/05). Valorisation dégradée (P/E 77.6×, Score Val 3.5/10). Scores baissés malgré le momentum (Opportunité 5.8/10, Global 63.3/100). Défiance options record maintenue (put/call 3.16, puts 76.0%). Earnings Q1 2026 J=0 toujours attendu. Thèse modifiée : ACHETER sizing réduit, SL $48.42 / TP $76.82.
 
 ---
 

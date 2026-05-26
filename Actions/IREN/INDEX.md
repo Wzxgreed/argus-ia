@@ -9,19 +9,19 @@
 
 ## Thèse Courante
 
-IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot 10:00 UTC du 2026-05-25 confirme un rally haussier de **+19.0%** en 5 sessions ($47.74 → $56.83), avec consolidation modérée ce matin (−2.12% à $56.83, previous close $58.06). Le cours évolue **+23.3% au-dessus de la MM50** ($46.10), confirmant la tendance haussière moyen terme. La volatilité reste extrême (beta 4.18, ATR $5.85, ATR relatif 10.29%).
+IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot 21:00 UTC du 2026-05-26 confirme la poursuite du rally haussier avec un gain de **+5.19%** en séance ($56.83 → $59.78), portant le rally total à **+25.2%** depuis le 20/05 ($47.74 → $59.78). Le high intraday à **$61.47** teste la zone $61–$62. Le cours évolue **+28.7% au-dessus de la MM50** ($46.46), confirmant la tendance haussière moyen terme. La volatilité reste élevée (beta 4.18, ATR $5.68, ATR relatif 9.50%).
 
-**⚠️ Dégradation valuation :** P/E TTM **73.81×** (+19.0%), EV/EBITDA **149.90×** (+17.3%), Forward P/E **−42.25×** — valuation extrêmement stretched après le rally. Le **Score Valorisation est révisé à 4.0/10** (−0.5 pt).
+**⚠️ Dégradation valuation aggravée :** P/E TTM **77.64×** (+5.2% vs snapshot 13:00 UTC), EV/EBITDA **149.90×**, Forward P/E **−44.45×** — valuation stretched s'aggrave avec le rally. Le **Score Valorisation est révisé à 3.5/10** (−0.5 pt).
 
-**⚠️ Défiance options massive :** Put/Call ratio **2.35** (+94.2% vs 1.21), Call OI **29.8%** (−34.1% vs 45.2%) — puts majoritaires à 70.2%, signal de protection massive avant l'earnings. Max Pain **$39.00** (expiration 2026-05-29) — tail risk **−31.4%**.
+**⚠️ Défiance options record maintenue :** Put/Call ratio **3.16** (vs 2.35 au 25/05), Call OI **24.0%** (puts à 76.0%), signal de protection massive avant l'earnings. Max Pain **$45.00** (expiration 2026-05-29) — tail risk **−24.7%**.
 
-**Earnings Q1 2026 — J=0 aujourd'hui** (2026-05-25) : catalyseur déterminant. Aucun flux post-earnings intégré au snapshot 10:00 UTC.
+**Earnings Q1 2026 — J=0 aujourd'hui** (2026-05-26) : catalyseur déterminant. Aucun flux post-earnings intégré au snapshot 21:00 UTC.
 
-**Score Opportunité : 6.1/10** (Catalyseur 7.8, Valorisation 4.0, Momentum 7.0)
-**Score Global ajusté : 65.8/100**
+**Score Opportunité : 5.8/10** (Catalyseur 7.3, Valorisation 3.5, Momentum 7.5)
+**Score Global ajusté : 63.3/100**
 **Action : ACHETER — Sizing Réduit** — réservé aux portefeuilles tolérants au risque
 
-> **⚠️ Réserve earnings :** Les résultats Q1 2026 sont attendus aujourd'hui (2026-05-25, J=0). La recommandation reste basée sur des données pre-earnings (FY 2025). Attendre la publication officielle avant toute nouvelle entrée significative. Ne pas renforcer avant les résultats. Si le cours casse $50.46 (breakout level du rally) sans rebond → passer en ATTENDRE. Si le cours casse $46.10 (MM50) → passer en ÉVITER.
+> **⚠️ Réserve earnings :** Les résultats Q1 2026 sont attendus aujourd'hui (2026-05-26, J=0). La recommandation reste basée sur des données pre-earnings (FY 2025). Attendre la publication officielle avant toute nouvelle entrée significative. Ne pas renforcer avant les résultats. Si le cours casse $56.83 sans rebond → passer en ATTENDRE. Si le cours casse $50.46 (breakout level du rally) sans rebond → passer en ATTENDRE. Si le cours casse $46.46 (MM50) → passer en ÉVITER.
 
 ---
 
@@ -44,6 +44,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 | 2026-05-25 | [IREN_2026-05-25_update.md](IREN_2026-05-25_update.md) (snapshot 21:00 UTC) | Mise à jour post-session (snapshot 21:00 UTC) | Snapshot 21:00 UTC — **stabilité totale vs 17:00 UTC** — données strictement identiques (marché fermé Memorial Day) · earnings J=0 non publiés · DRAFT_refresh traité et archivé · Score Opportunité 6.1/10 inchangé · Score Global 65.8/100 inchangé · Thèse confirmée |
 | 2026-05-25 | [IREN_2026-05-25_init.md](IREN_2026-05-25_init.md) | Full Refresh (post-ATR spike) | Analyse complète réécrite post-rally +19% · Filtre Qualité 4/6 confirmé · Market Researcher actualisé · Scénarios post-earnings confirmés · Thèse confirmée avec vigilance accrue |
 | 2026-05-26 | [IREN_2026-05-26_update.md](IREN_2026-05-26_update.md) | Mise à jour pré-ouverture (snapshot 13:00 UTC) | Stabilité totale vs snapshot 10:00 UTC · Correction anomalie options (Max Pain $45.00, put/call 3.16, call OI 24.0%) · Défiance options record · Earnings J=0 attendu · DRAFT_refresh traité et archivé · Thèse confirmée · Anomalie options (Max Pain $20.00, put/call indisponible) · Earnings J=0 attendu aujourd'hui · DRAFT_refresh traité et archivé · Thèse confirmée |
+| 2026-05-26 | [IREN_2026-05-26_update.md](IREN_2026-05-26_update.md) (rev. 21:00 UTC) | Mise à jour post-session | Snapshot 21:00 UTC — cours $59.78 (+5.19%) · high $61.47 · scores révisés 5.8/10 · Global 63.3/100 · valorisation dégradée (P/E 77.6×) · défiance options record maintenue · earnings J=0 non publiés · Thèse modifiée |
 
 ---
 
@@ -70,4 +71,4 @@ Voir [SUPPLY_CHAIN.md](SUPPLY_CHAIN.md) pour la cartographie fournisseurs/client
 
 ---
 
-*Dernière mise à jour : 2026-05-26 (snapshot 13:00 UTC)*
+*Dernière mise à jour : 2026-05-26 (snapshot 21:00 UTC)*
