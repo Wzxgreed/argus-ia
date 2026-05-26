@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
+- **Recommandation :** ATTENDRE
+- **Score global :** 58.0/100 (ajusté ~59.0 avec bonus sectoriel)
+- **Prix cible :** $87.50 (consensus 2 analystes — upside +4.8%)
+- **Stop-loss :** —
+- **Statut thèse :** Bloqué par anomalie de données
 - **Horizon :** —
 
 ---
@@ -24,13 +24,17 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🔴 **Stale price 14 snapshots / ≥7 jours calendaires** ($83.46 figé depuis 20/05)
+- 🔴 **Earnings Q1 2026 non résolu** (7 jours après date prévue 20/05)
+- 🔴 **Source FMP Fallback** — seul ticker watchlist avec `change_pct: null`
+- 🟡 **Pipeline partial** — phases C/D failed le 26/05
+- 🟡 **Quality Gate Bug** — 22/22 tickers excluded, incohérence avec validation_report
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-05-26** · earnings · Earnings ...
+- **2026-05-26** · earnings · Earnings J=0 (non résolu — placeholder FMP générique)
 
 ---
 
@@ -41,6 +45,7 @@
 - **MM 200j :** —
 - **ATR 14j :** —
 - **Volume moy. 20j :** —
+- **Cours affiché :** $83.46 (⚠️ stale — fiabilité non garantie)
 
 ---
 
@@ -49,7 +54,7 @@
 - **Date :** 2026-05-26
 - **Type :** update
 - **Fichier :** `SQ_2026-05-26_update.md`
-- **Conclusion :** > **Trigger :** Snapshot pipeline 10:00 UTC post-Memorial Day
+- **Conclusion :** Snapshot 13:00 UTC confirme 14e snapshot consécutif sans mutation. Cours figé $83.46 sur 7 jours calendaires. Earnings Q1 2026 non résolu après 7 jours. Qualité 3/6 hors périmètre. Score Opportunité 5.4/10 (plafonné). Score Global ~59.0 → **ATTENDRE**. Aucun niveau SL/TP suggéré en raison du stale price. Priorité opérationnelle : vérifier cours live broker, date réelle publication résultats, forcer re-fetch isolé SQ.
 
 ---
 
