@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
+- **Recommandation :** ÉVITER
+- **Score global :** 31.8/100
+- **Prix cible :** —
+- **Stop-loss :** $39.48
+- **Statut thèse :** Confirmée — inchangée post-Memorial Day
 - **Horizon :** —
 
 ---
@@ -24,13 +24,15 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- **🔴 GAP NON EXPLIQUÉ** — Gap +15.49% sans catalyst ni news (2026-05-25). Surveillance post-gap obligatoire.
+- **⚠️ DATA QUALITY OPTIONS** — Snapshot 26/05 : max pain $20.00 aberrant (-59.6% sous spot), put/call null, call OI null. Valeurs confirmées 25/05 ($36.00, 0.74, 57.4%) conservées.
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings Q2 2026 : **2026-08-04** (70 jours) — Est EPS -$0.60 à -$0.45, Rev $0.1B
+- Expiration options : **2026-05-29** (3 jours)
 
 ---
 
@@ -41,15 +43,18 @@
 - **MM 200j :** —
 - **ATR 14j :** 5.01
 - **Volume moy. 20j :** 6422365
+- **Cours close :** $49.50
+- **52W High :** $73.80
+- **52W Low :** $16.00
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-26
-- **Type :** full refresh
-- **Fichier :** `FLY_2026-05-26_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-05-26
+- **Type :** _update.md
+- **Fichier :** `FLY_2026-05-26_update.md`
+- **Conclusion :** Thèse ÉVITER confirmée. Snapshot 10:00 UTC post-Memorial Day strictement identique au close 25/05. Gap +15.49% non expliqué persistant. Alerte data quality options détectée (max pain aberrant $20.00, put/call null). Filtre Qualité 2/6, consensus $42.45 sous spot, Score Global Ajusté 31.8. Pas de position recommandée.
 
 ---
 

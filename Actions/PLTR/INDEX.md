@@ -1,7 +1,7 @@
 # PLTR
 
 ## Thèse courante
-**SURVEILLER** — Valorisation de croissance extrême (P/E 154–259x, EV/Revenue 61–94x) contrebalancée par des fondamentaux solides (marges 82/32/36%, bilan quasi-sans dette, ROIC 18%). Timing technique défavorable aggravé : RSI 35.66 (retour en zone de survente < 40), sous MM50 à $142.64 (−4.0%), volumes −32.4%. Pas de position avant confirmation technique (franchissement MM50 + volume > moyenne) ou compression multiple significative. XLK leader sectoriel (momentum 10.0/10) constitue un vent favorable structurel. Structure options renforce biais haussier (Put/Call 0.48, Call OI 67.4%).
+**SURVEILLER** — Valorisation de croissance extrême (P/E 154–259x, EV/Revenue 61–94x) contrebalancée par des fondamentaux solides (marges 82/32/36%, bilan quasi-sans dette, ROIC 18%). Timing technique défavorable aggravé : RSI 35.66 (retour en zone de survente < 40), sous MM50 à $142.64 (−4.0%), volumes −32.4%. Pas de position avant confirmation technique (franchissement MM50 + volume > moyenne) ou compression multiple significative. XLK leader sectoriel (momentum 10.0/10) constitue un vent favorable structurel. Structure options renforce biais haussier (Put/Call 0.48, Call OI 67.4%). **Anomalie data quality options détectée 26/05** (put/call null, max pain $50.00 aberrant) — valeurs confirmées 25/05 maintenues.
 
 ## Historique
 | Date | Fichier | Type | Conclusion |
