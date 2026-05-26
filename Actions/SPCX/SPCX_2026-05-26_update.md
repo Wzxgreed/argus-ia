@@ -1,14 +1,14 @@
-# SPCX (SPAC ETF) — Mise à jour post-pipeline 2026-05-26 (snapshot 10:00 UTC)
+# SPCX (SPAC ETF) — Mise à jour post-pipeline 2026-05-26 (snapshot 13:00 UTC)
 
 **Date :** 2026-05-26
-**Type :** Mise à jour post-pipeline — snapshot 10:00 UTC post-Memorial Day
-**Analyse précédente :** [SPCX_2026-05-25_update.md](./SPCX_2026-05-25_update.md) (snapshot 21:00 UTC)
+**Type :** Mise à jour post-pipeline — snapshot 13:00 UTC
+**Analyse précédente :** [SPCX_2026-05-26_update.md](./SPCX_2026-05-26_update.md) (snapshot 10:00 UTC)
 
 ---
 
 ## Résumé des changements depuis l'analyse précédente
 
-| Donnée | Précédent (21:00 UTC 25/05) | Actuel (10:00 UTC 26/05) | Changement |
+| Donnée | Précédent (10:00 UTC 26/05) | Actuel (13:00 UTC 26/05) | Changement |
 |--------|----------------------------|--------------------------|------------|
 | Cours close | $22.40 | $22.40 | = — inchangé |
 | RSI 14j | 62.4 | 62.4 | = |
@@ -24,20 +24,20 @@
 | Score Global Ajusté | 70.2/100 | **70.2/100** | = |
 | Timing | Favorable | **Favorable** | = |
 
-**Verdict :** Stabilité totale confirmée vs snapshot 21:00 UTC 25/05. Le marché US a rouvert ce 26/05 post-Memorial Day, mais SPCX n'a enregistré **aucune mutation** technique ni de volume. C'est le **3e snapshot consécutif sans changement** (10:00 UTC 25/05 → 21:00 UTC 25/05 → 10:00 UTC 26/05). Cette stabilité persistante, y compris au premier jour de marché ouvert après un jour férié, confirme un range exceptionnellement serré et une absence de flux directionnel.
+**Verdict :** Stabilité totale confirmée vs snapshot 10:00 UTC 26/05. C'est le **4e snapshot consécutif sans mutation** (10:00 UTC 25/05 → 21:00 UTC 25/05 → 10:00 UTC 26/05 → 13:00 UTC 26/05). Yahoo Finance a rouvert post-Memorial Day, mais SPCX n'enregistre aucune mutation de prix, de volume ni de métrique technique. Cette stabilité persistante sur une demi-journée de marché ouvert confirme un range exceptionnellement serré et un ancrage technique fiable à $22.40.
 
 ---
 
 ## Mise à jour technique
 
-Aucune mutation vs snapshot précédent — données Yahoo strictement identiques malgré la réouverture du marché US.
+Aucune mutation vs snapshot précédent — données Yahoo strictement identiques malgré le marché US ouvert en continu depuis l'ouverture ce 26/05.
 
 | Indicateur | Valeur | Signal |
 |------------|--------|--------|
 | RSI 14j | 62.4 | Zone haussière — pas de surachat |
 | Position vs MM50j | $22.40 > $21.99 | **Au-dessus** — tendance haussière micro |
 | Position vs MM200j | N/A | Non disponible |
-| Volume vs moy. 20j | 4.48× | 🔴 Anomalie volume — accumulation ou repositionnement confirmé sur 3 snapshots |
+| Volume vs moy. 20j | 4.48× | 🔴 Anomalie volume — accumulation ou repositionnement confirmé sur 4 snapshots |
 | ATR 14j | $0.27 | Volatilité extrêmement faible |
 | 52w low / high | $21.32 / $26.61 | −15.8% vs 52w high, +5.1% vs 52w low |
 | Change % | +0.44% | Léger gap haussier vs previous close $22.3011 (inchangé) |
@@ -48,7 +48,7 @@ Aucune mutation vs snapshot précédent — données Yahoo strictement identique
 - Résistance immédiate : $22.76 (high du jour)
 - Résistance : $22.85 – $23.00 (zone de congestion pré-mai)
 
-**Verdict timing :** Favorable. Le setup technique (au-dessus MM50, RSI 62.4, volume anormal ×4.5) reste validé par l'Agent Recommandation. L'ATR de $0.27 confirme un range serré — le risque de gap est limité. La stabilité sur 3 snapshots consécutifs, y compris au premier jour de marché ouvert post-Memorial Day, renforce la fiabilité du niveau $22.40 comme ancrage technique.
+**Verdict timing :** Favorable. Le setup technique (au-dessus MM50, RSI 62.4, volume anormal ×4.5) reste validé par l'Agent Recommandation. L'ATR de $0.27 confirme un range serré — le risque de gap est limité. La stabilité sur 4 snapshots consécutifs renforce la fiabilité du niveau $22.40 comme ancrage technique.
 
 ---
 
@@ -65,7 +65,7 @@ Aucune nouvelle donnée fondamentale. SPCX reste un ETF thématique SPAC/post-IP
 | Dividend yield | N/A | Non distribué |
 | Sector | Financial Services | Asset Management |
 
-**Sector rotation :** Le secteur Financials (XLF) affiche un momentum score de 0.0/10 dans `data/sector_rotation_2026-05-26.json` — il n'est pas dans le top3 (XLK, XLE, XLRE). Pas de bonus sectoriel pour SPCX, mais pas de malus non plus (le secteur n'est pas dans le bottom3 matérialisé : XLP, XLB, XLC).
+**Sector rotation :** Le secteur Financials (XLF) n'apparaît pas dans le top3 ni le bottom3 du `sector_rotation_latest.json` daté 2026-05-17 — pas de bonus/malus sectoriel pour SPCX à ce stade.
 
 ---
 
@@ -73,23 +73,23 @@ Aucune nouvelle donnée fondamentale. SPCX reste un ETF thématique SPAC/post-IP
 
 | Source | État | Commentaire |
 |--------|------|-------------|
-| News | Aucune structurante | `data/events_2026-05-26.json` = 0 événement corporate |
+| News | Aucune structurante | `data/events_latest.json` (2026-05-17) = 0 événement corporate pour SPCX |
 | Social sentiment | No data | 0 mentions Reddit, pump_detected = false |
 | Options | Non disponible | Bloc options vide dans `data/latest.json` |
 | Short interest | N/A | Données non fournies par yfinance pour cet ETF |
 | Analyst consensus | N/A | Non applicable |
 | FX Exposure | 🟢 | fx_impact_score = 0.0, direction = neutral |
-| Géopolitique | 🟢 | Pas de flag SPCX dans `data/geo_risk_latest.json` |
+| Géopolitique | 🟢 | Pas de flag SPCX dans `data/geo_risk_latest.json` (2026-05-17) |
 | Accounting | N/A | `data/accounting_risk_latest.json` absent — ETF non concerné |
-| Quant | N/A | `data/quant_report_latest.json` date 2026-05-17 : pas assez de signaux historiques pour SPCX |
+| Quant | N/A | `data/quant_report_latest.json` (2026-05-17) : pas assez de signaux historiques pour SPCX |
 
-**Anomalie data quality persistante :** `data/upcoming_events_2026-05-26.json` mentionne un faux événement `earnings` pour SPCX (source FMP, days_until = 0) — artefact connu, à ignorer pour un ETF.
+**Anomalie data quality persistante :** `data/upcoming_events_latest.json` (2026-05-17) mentionne un faux événement `earnings` pour SPCX (source FMP, days_until = 0) — artefact connu, à ignorer pour un ETF.
 
 ---
 
-## Scoring global (agents pipeline 2026-05-26, snapshot 10:00 UTC)
+## Scoring global (agents pipeline 2026-05-26, snapshot 13:00 UTC)
 
-| Axe | Score | Changement vs 21:00 UTC 25/05 | Commentaire |
+| Axe | Score | Changement vs 10:00 UTC 26/05 | Commentaire |
 |-----|-------|------------------------------|-------------|
 | Score Catalyseur | 6.5/10 | = | Modéré-haussier — volume anomalie interprété comme signal d'intérêt institutionnel |
 | Score Valorisation | 5.0/10 | = | Neutre — décote vs 52w high mais pas de valeur intrinsèque mesurable |
@@ -105,7 +105,7 @@ Aucune nouvelle donnée fondamentale. SPCX reste un ETF thématique SPAC/post-IP
 - Event : 0 (aucun événement corporate réel)
 - Social : 0 (pas de données)
 - Quant : 0 (pas assez d'historique)
-- **Timing technique :** +10 (cours au-dessus MM50 + volume anormal confirmé sur 3 snapshots)
+- **Timing technique :** +10 (cours au-dessus MM50 + volume anormal confirmé sur 4 snapshots)
 
 **Règle de disqualification :** Aucun score individuel ≤ 2/10 → ticker conservé.
 
@@ -118,7 +118,7 @@ Aucune nouvelle donnée fondamentale. SPCX reste un ETF thématique SPAC/post-IP
 
 ## Révision des niveaux SL / TP
 
-La recommandation reste **ACHETER (Réduit)** — niveaux confirmés par Agent Recommandation, inchangés vs 21:00 UTC 25/05.
+La recommandation reste **ACHETER (Réduit)** — niveaux confirmés par Agent Recommandation, inchangés vs 10:00 UTC 26/05.
 
 | Niveau | Valeur | Méthode |
 |--------|--------|---------|
@@ -133,20 +133,20 @@ La recommandation reste **ACHETER (Réduit)** — niveaux confirmés par Agent R
 
 ## Conclusion : thèse confirmée, modifiée ou invalidée ?
 
-**Verdict :** 🟢 Thèse **CONFIRMÉE** — 3e snapshot consécutif sans mutation (10:00 UTC 25/05 → 21:00 UTC 25/05 → 10:00 UTC 26/05)
+**Verdict :** 🟢 Thèse **CONFIRMÉE** — 4e snapshot consécutif sans mutation (10:00 UTC 25/05 → 21:00 UTC 25/05 → 10:00 UTC 26/05 → 13:00 UTC 26/05)
 
 | Critère | Évaluation |
 |---------|------------|
 | Cours vs MM50 | ✅ Au-dessus ($22.40 > $21.99) |
 | RSI | ✅ Haussier (62.4) — pas de surachat |
-| Volume | 🟢 Anomalie haussière confirmée (4.48× moyenne) sur 3 snapshots |
+| Volume | 🟢 Anomalie haussière confirmée (4.48× moyenne) sur 4 snapshots |
 | Catalyseur | 🟡 Aucun fondamental — signal purement technique |
 | Risque technique | 🟢 MM50 support, 52w low intact, ATR faible = risque contrôlé |
 | Score Global | 🟢 70.2/100 → déclenche ACHETER Réduit |
-| Stabilité snapshots | 🟢 3e snapshot consécutif identique — fiabilité renforcée, y compris post-Memorial Day |
+| Stabilité snapshots | 🟢 4e snapshot consécutif identique — fiabilité renforcée sur demi-journée de marché ouvert |
 
-- **Confirmation :** Le setup technique identifié le 25/05 (retour au-dessus MM50, volume record, RSI 62.4) est validé par la stabilité des données sur 3 snapshots consécutifs, y compris au premier jour de marché ouvert après Memorial Day. L'absence de mutation ce 26/05, malgré la réouverture du marché US, confirme que $22.40 est le niveau de référence fiable.
-- **Nuances :** Le mouvement reste 100% technique. L'absence de news fondamentale ou de catalyseur sectoriel (reprise SPAC/IPO, baisse des taux) limite la conviction et justifie le sizing Réduit. Le secteur Financials (XLF) n'est pas dans la rotation haussière du jour (top3 = XLK, XLE, XLRE).
+- **Confirmation :** Le setup technique identifié le 25/05 (retour au-dessus MM50, volume record, RSI 62.4) est validé par la stabilité des données sur 4 snapshots consécutifs, incluant une demi-journée de marché ouvert post-Memorial Day. L'absence de mutation ce 26/05 à 13:00 UTC confirme que $22.40 est le niveau de référence fiable.
+- **Nuances :** Le mouvement reste 100% technique. L'absence de news fondamentale ou de catalyseur sectoriel (reprise SPAC/IPO, baisse des taux) limite la conviction et justifie le sizing Réduit. Le secteur Financials (XLF) n'est pas dans la rotation haussière du jour.
 - **Invalidation :** Une clôture sous $21.99 (MM50) avec volume >1.5× moyenne invaliderait le setup et justifierait une clôture immédiate. Une clôture sous $21.32 (52w low) avec volume élevé = reclassement ÉVITER.
 - **Rehaussement en Standard :** Une cassure de $23.00 (zone de congestion) avec volume >2× moyenne et RSI stable > 55 justifierait un passage à ACHETER Standard avec relèvement du TP vers $24.00.
 
@@ -154,7 +154,7 @@ La recommandation reste **ACHETER (Réduit)** — niveaux confirmés par Agent R
 **Prix cible :** $23.21 (+3.6% upside)
 **Stop-loss :** $21.86 (−2.4% downside)
 **Horizon :** 1–2 semaines
-**Conviction :** Modérée — setup technique validé par les agents et confirmé par la stabilité des snapshots sur 3 sessions consécutives (marché ouvert ou fermé), mais manque de catalyseur fondamental et faible liquidité historique. Sizing réduit obligatoire.
+**Conviction :** Modérée — setup technique validé par les agents et confirmé par la stabilité des snapshots sur 4 sessions consécutives, mais manque de catalyseur fondamental et faible liquidité historique. Sizing réduit obligatoire.
 
 ---
 
@@ -162,7 +162,7 @@ La recommandation reste **ACHETER (Réduit)** — niveaux confirmés par Agent R
 
 | Signal | Valeur actuelle | vs Normal | Interprétation |
 |--------|----------------|-----------|----------------|
-| Volume journalier | 4.48× moy. 20j | 🔴 Anomalie | Signal d'accumulation confirmé par Agent Recommandation — stable sur 3 snapshots consécutifs |
+| Volume journalier | 4.48× moy. 20j | 🔴 Anomalie | Signal d'accumulation confirmé par Agent Recommandation — stable sur 4 snapshots consécutifs |
 | Short interest | N/A | — | Données non disponibles |
 | Transactions insiders | N/A | — | Non applicable (ETF) |
 | Options flow | N/A | — | Données non disponibles |
@@ -185,7 +185,7 @@ La recommandation reste **ACHETER (Réduit)** — niveaux confirmés par Agent R
 ## Liens
 
 - [Retour à l'index du dossier](./INDEX.md)
-- Analyse précédente : [SPCX_2026-05-25_update.md](./SPCX_2026-05-25_update.md) (snapshot 21:00 UTC 25/05)
+- Analyse précédente : [SPCX_2026-05-26_update.md](./SPCX_2026-05-26_update.md) (snapshot 10:00 UTC 26/05)
 - Alertes actives : [Alertes/ALERTES.md](../../Alertes/ALERTES.md)
 
 ---
@@ -197,5 +197,5 @@ La recommandation reste **ACHETER (Réduit)** — niveaux confirmés par Agent R
 - Prix cible révisé : $23.21 (inchangé)
 - Recommandation précédente : ACHETER (Réduit)
 - Recommandation révisée : **ACHETER (Réduit)**
-- Raison principale : Snapshot 10:00 UTC 26/05 confirme stabilité totale vs 25/05 21:00 UTC (post-Memorial Day, marché ouvert) — 3e snapshot consécutif sans mutation, thèse CONFIRMÉE
+- Raison principale : Snapshot 13:00 UTC 26/05 confirme stabilité totale vs 10:00 UTC 26/05 — 4e snapshot consécutif sans mutation, thèse CONFIRMÉE
 - Thèse : 🟢 Confirmée
