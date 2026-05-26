@@ -7,22 +7,22 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-**Score global :** 55.2/100
-**Prix cible :** [NON ÉTABLI]
-**Stop-loss :** [NON ÉTABLI]
-**Statut :** Thèse non établie — données de cours indisponibles sur les snapshots 2026-05-19 (10:00/13:59/21:00 UTC), 2026-05-20 10:00 UTC, 2026-05-25 (10:00/13:00/21:00 UTC), earnings J=0 (date révisée au 2026-05-25 par FMP) en attente de résolution
-**Horizon :** —
+- **Recommandation :** ATTENDRE / INVALIDÉE
+- **Score global :** 55.2/100
+- **Prix cible :** [NON ÉTABLI]
+- **Stop-loss :** [NON ÉTABLI]
+- **Statut :** Thèse non établie — anomalie structurelle identifiée : le ticker CYTOMX n'existe pas sur Yahoo Finance (HTTP 404). Le symbole correct sur NASDAQ est CTMX. Données indisponibles sur les snapshots 2026-05-19 (10:00/13:59/21:00 UTC), 2026-05-20 10:00 UTC, 2026-05-25 (10:00/13:00/21:00 UTC), 2026-05-26 10:00 UTC. Earnings J=0 (date glissée au 2026-05-26 par FMP) en attente de résolution.
+- **Horizon :** —
 
-**Résumé :** CYTOMX n'a pas encore fait l'objet d'une analyse initiale complète en raison de l'absence persistante de données de cours dans les snapshots du pipeline (erreur "No price history" aux snapshots 2026-05-19 10:00/13:59/21:00 UTC, 2026-05-20 10:00 UTC, 2026-05-25 10:00/13:00/21:00 UTC). Le snapshot 21:00 UTC du 2026-05-25 coïncide avec le Memorial Day (marché fermé aux USA) ; aucune mutation n'a été enregistrée vs 13:00 UTC. Le calendrier FMP (`upcoming_events_latest.json`) maintient la date earnings au 2026-05-25 (J=0) ; l'événement reste non résolu. XLV (Healthcare) affiche un momentum score nul (0.0) et une force relative négative vs SPY, signalant un headwind sectoriel persistant. En attente de données exploitables pour lancer le Filtre Qualité et le scoring complet.
+**Résumé :** CYTOMX n'a pas encore fait l'objet d'une analyse initiale complète en raison de l'absence persistante de données de cours dans les snapshots du pipeline (erreur "No price history" sur huit snapshots consécutifs). La vérification manuelle du symbole confirme que CYTOMX n'existe pas sur Yahoo Finance ; le ticker correct est CTMX. Le calendrier FMP (`upcoming_events_latest.json`) maintient la date earnings au 2026-05-26 (J=0) ; l'événement reste non résolu. XLV (Healthcare) affiche un momentum score nul (0.0) et une force relative négative vs SPY, signalant un headwind sectoriel persistant. En attente de correction du ticker et de fetch frais pour lancer le Filtre Qualité et le scoring complet.
 
 ---
 
-## Historique des fichiers
-- **Score global :** —/10
+## Historique des scores
+- **Score global :** 55.2/100
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** —
+- **Statut thèse :** INVALIDÉE (anomalie structurelle — ticker incorrect)
 - **Horizon :** —
 
 ---
@@ -35,13 +35,17 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🔴 **[ANOMALIE STRUCTURELLE]** ticker CYTOMX inexistant sur Yahoo Finance — remplacer par CTMX
+- [WARNING] Earnings J=0 non résolu (source FMP, date glissée au 2026-05-26)
+- [WARNING] XLV (Healthcare) momentum 0.0 — headwind sectoriel
+- Accounting risk scan indisponible (`accounting_risk_latest.json` absent)
+- Quant report indisponible (date 2026-05-17, insuffisant, 0 signaux)
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-05-26** · earnings · Earnings ...
+- **2026-05-26** · earnings · Earnings (source FMP, J=0, non résolu)
 
 ---
 
@@ -58,9 +62,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-26
-- **Type :** preview
-- **Fichier :** `CYTOMX_2026-05-26_preview.md`
-- **Conclusion :** > **Date :** 2026-05-26
+- **Type :** update
+- **Fichier :** `CYTOMX_2026-05-26_update.md`
+- **Conclusion :** Anomalie structurelle identifiée — CYTOMX inexistant sur Yahoo Finance (404). Ticker correct = CTMX. 8e snapshot consécutif sans données. Thèse INVALIDÉE. Correction watchlist requise.
 
 ---
 
