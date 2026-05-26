@@ -1,7 +1,7 @@
 # AXA — Index du Dossier
 
-> **Dernière mise à jour :** 2026-05-25 (snapshot 21h00 UTC)
-> **Statut :** 🔴 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`) + headwind sectoriel Financials stable, marché fermé Memorial Day
+> **Dernière mise à jour :** 2026-05-26 (snapshot 10h00 UTC)
+> **Statut :** 🔴 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`) + headwind sectoriel Financials stable, marché rouvert post-Memorial Day sans résolution du sourcing
 
 ---
 
@@ -11,7 +11,7 @@
 
 AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **aucune donnée de prix n'est disponible** dans le pipeline Argus-IA car le symbole "AXA" n'est pas reconnu par yfinance (instrument non coté US). L'analyse technique et fondamentale est impossible.
 
-**Contexte sectoriel (snapshot 13h00 UTC) :** Le secteur Financials (XLF) sous-performe le S&P 500 de −3.43% sur 20j et −9.03% sur 60j, avec un momentum score de 0.0/10. Le secteur affiche un return 20j de +1.01% et un return 60j de −0.56%. Les métriques sectorielles sont stables vs le snapshot 10h00 UTC du même jour. Le secteur financier reste en phase de distribution relative vs le marché (SPY surperforme de +3.4pp sur 20j). Si les données AXA étaient disponibles, ce headwind sectoriel atténué pèserait encore sur le score Momentum et le timing d'entrée.
+**Contexte sectoriel (snapshot 10h00 UTC) :** Le secteur Financials (XLF) sous-performe le S&P 500 de −3.43% sur 20j et −9.03% sur 60j, avec un momentum score de 0.0/10. Le secteur affiche un return 20j de +1.01% et un return 60j de −0.56%. Les métriques sectorielles sont stables vs le snapshot 21h00 UTC du 2026-05-25. Le secteur financier reste en phase de distribution relative vs le marché (SPY surperforme de +3.4pp sur 20j). Si les données AXA étaient disponibles, ce headwind sectoriel atténué pèserait encore sur le score Momentum et le timing d'entrée.
 
 **Action immédiate :** corriger le symbole dans `config/watchlist.json` (`CS.PA` ou `AXAHY`), mettre à jour le secteur (Financials / Insurance) et relancer le fetch.
 
@@ -30,6 +30,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 | `AXA_2026-05-25_update.md` | 2026-05-25 | Mise à jour quotidienne (snapshot 10h00 UTC) | Données manquantes persistantes ; earnings J0 FMP (2026-05-25) sans détails ; headwind sectoriel XLF atténué (RS 20j −3.43%, return 20j +1.01%, momentum 0.0/10) |
 | `AXA_2026-05-25_update.md` | 2026-05-25 | Mise à jour quotidienne (snapshot 13h00 UTC) | Données manquantes persistantes — 10e snapshot sans mutation ; earnings J0 FMP (2026-05-25) sans détails ; headwind sectoriel XLF stable (RS 20j −3.43%, return 20j +1.01%, momentum 0.0/10) |
 | `AXA_2026-05-25_update.md` | 2026-05-25 | Mise à jour quotidienne (snapshot 21h00 UTC) | Données manquantes persistantes — 11e snapshot consécutif sans mutation ; earnings J0 FMP (2026-05-25) sans détails ; headwind sectoriel XLF stable (RS 20j −3.43%, return 20j +1.01%, momentum 0.0/10) ; marché fermé Memorial Day |
+| `AXA_2026-05-26_update.md` | 2026-05-26 | Mise à jour quotidienne (snapshot 10h00 UTC) | Données manquantes persistantes — 12e snapshot consécutif sans mutation ; earnings J0 FMP (2026-05-26) sans détails ; headwind sectoriel XLF stable (RS 20j −3.43%, return 20j +1.01%, momentum 0.0/10) ; marché rouvert post-Memorial Day sans résolution du sourcing |
 
 ---
 
@@ -44,6 +45,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 | 2026-05-25 (10h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
 | 2026-05-25 (13h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
 | 2026-05-25 (21h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
+| 2026-05-26 (10h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
 
 ---
 
@@ -53,13 +55,14 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 |-----------|------|--------|
 | Earnings | 2026-05-20 | **J0 — non suivi (données manquantes)** |
 | Earnings | 2026-05-25 | **J0 FMP — sans détails exploitables (données manquantes)** |
+| Earnings | 2026-05-26 | **J0 FMP — sans détails exploitables (données manquantes)** |
 
 ---
 
 ## ⚠️ Alertes actives
 
 - **[CRITICAL]** Pas de données de prix pour AXA — ticker probablement incorrect
-- **[WARNING]** Earnings J0 (2026-05-25) sans consensus ni résultats exploitables
+- **[WARNING]** Earnings J0 (2026-05-26) sans consensus ni résultats exploitables
 - **[INFO]** Headwind sectoriel XLF atténué mais persistant (RS 20j −3.43%, return 20j +1.01%, momentum 0.0/10)
 
 ---
