@@ -6,6 +6,7 @@
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
+| 2026-05-26 | [MITK_2026-05-26_update.md](MITK_2026-05-26_update.md) | Mise à jour post-pipeline 13:00 UTC — 3e snapshot consécutif sans mutation (données dernière séance 23 mai, fetch pré-ouverture), cours $16.03 confirmé, volume 1,648,000 confirmé, RSI 57.06 stable. Score global 65.2/100 inchangé. Thèse ACHETER (Réduit) confirmée. **Alerte data quality options RÉSOLUE** : glitch matinal (max pain $7.50, put/call null) restauré à max pain $20.00, put/call 0.25, call OI 80.1% |
 | 2026-05-26 | [MITK_2026-05-26_update.md](MITK_2026-05-26_update.md) | Mise à jour post-pipeline 10:00 UTC — snapshot 10:00 UTC confirme stabilité totale vs 21:00 UTC 25/05 (données dernière séance 23 mai, fetch pré-ouverture), cours $16.03 confirmé, volume 1,648,000 confirmé, RSI 57.06 stable. Score global 65.2/100 inchangé. Thèse ACHETER (Réduit) confirmée. Anomalie data quality options récurrente détectée (max pain $7.50 glitch, valeurs confirmées 25/05 conservées) |
 | 2026-05-25 | [MITK_2026-05-25_update.md](MITK_2026-05-25_update.md) | Mise à jour post-pipeline 21:00 UTC — snapshot 21:00 UTC confirme stabilité totale vs 17:00 UTC (marché fermé Memorial Day), cours $16.03 confirmé, volume 1,648,000 confirmé, RSI 57.06 stable. Score global 65.2/100 inchangé. Thèse ACHETER (Réduit) confirmée. DRAFT_refresh du jour archivé (trigger ATR_SPIKE déjà absorbé) |
 | 2026-05-25 | [MITK_2026-05-25_update.md](MITK_2026-05-25_update.md) | Mise à jour post-pipeline 17:00 UTC — snapshot 17:00 UTC confirme stabilité totale vs 13:00 UTC (marché fermé Memorial Day), cours $16.03 confirmé, volume 1,648,000 confirmé, RSI 57.06 stable. Score global 65.2/100 inchangé. Thèse ACHETER (Réduit) confirmée. Comparaison 5 séances : +13.3% depuis 2026-05-20, momentum 7.5/10, cassure MM50 validée |
@@ -24,9 +25,8 @@
 ## Alertes actives
 - 🟢 **[CASSURE MM50 CONFIRMÉE]** Cours $16.03 > MM50 $14.34 (+11.8%) avec volume 1.28× moyenne — signal technique validé — 2026-05-25
 - 🟢 **[MOMENTUM SECTORIEL FAVORABLE]** XLK : 10.0/10 (+12.59% sur 20j) — vent de queue Technology — 2026-05-25
-- 🟡 **[ANOMALIE OPTIONS ATTÉNUÉE]** Max Pain $20.00 (+24.8% vs spot, vs +41.3% précédemment), Put/Call 0.18, Call OI % 84.9% — anomalie persistante mais moins aberrante — 2026-05-25
+- 🟡 **[ANOMALIE OPTIONS RÉSOLUE]** Max Pain $20.00 (+24.8% vs spot), Put/Call 0.25, Call OI % 80.1% — glitch matinal résolu, structure légèrement moins extrême mais toujours haussière — 2026-05-26
 - 🟡 **[CONSENSUS PT ATTEINT]** $16.00 atteint — upside théorique nul, monitoring des révisions analystes — 2026-05-25
 - 🟡 **[ROIC FAIBLE]** 3.16% — monitorer l'efficacité du capital dans les prochains filings — 2026-05-18
 - 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($724M vs FMP plus faible) et P/E — utiliser Yahoo comme primaire — 2026-05-18
 - 🟡 **[LIQUIDITÉ DÉRIVÉE FAIBLE]** Options : faible OI, max pain éloigné — prudence sur le hedging — 2026-05-25
-- 🟡 **[GLITCH OPTIONS RÉCURRENT]** Max pain $7.50 / put:call null au snapshot 10:00 UTC — artefact data quality, valeurs confirmées 25/05 conservées — 2026-05-26
