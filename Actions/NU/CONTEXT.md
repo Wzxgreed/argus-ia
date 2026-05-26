@@ -12,7 +12,7 @@
 - **Score Opportunité :** 6.2/10 (C:6.5 V:8.0 M:3.0)
 - **Prix Cible :** $18.39 (consensus FMP, 10 analysts)
 - **Stop-Loss :** $11.73 (2×ATR)
-- **Statut Thèse :** Score ajusté sous le seuil achat réduit (54.2) — momentum dégradé, options anomalie data quality (max pain $5.00 aberrant), timing défavorable, attente confirmation technique
+- **Statut Thèse :** Score ajusté sous le seuil achat réduit (54.2) — momentum dégradé, options anomalie data quality RÉSOLUE (snapshot 13:00 UTC : max pain $13.50, put/call 0.82, call OI 54.9%), repositionnement options légèrement plus baissière/neutre vs 25/05, timing défavorable, attente confirmation technique
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
@@ -54,10 +54,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-26
+- **Date :** 2026-05-26 (snapshot 13:00 UTC)
 - **Type :** update
 - **Fichier :** `NU_2026-05-26_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE**
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE** — 13e snapshot consécutif sans mutation cours/technique/fondamentaux, anomalie options RÉSOLUE (max pain $13.50, put/call 0.82, call OI 54.9%), repositionnement options légèrement plus baissière/neutre, score ajusté 54.2 inchangé
 
 ---
 
