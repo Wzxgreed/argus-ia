@@ -40,16 +40,17 @@
 - **MM 50j :** 86.8
 - **MM 200j :** —
 - **ATR 14j :** 12.68
-- **Volume moy. 20j :** 28275215
+- **Volume moy. 20j :** 28 370 623
+- **Volume séance :** 31 493 577 (1.11×)
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-26
-- **Type :** full refresh
-- **Fichier :** `RKLB_2026-05-26_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-05-26
+- **Type :** update
+- **Fichier :** `RKLB_2026-05-26_update.md`
+- **Conclusion :** THÈSE ÉVITER CONFIRMÉE. Close officiel $143.20 (+5.48% vs veille). 🔴 CORRECTION VOLUME : 31.49M (1.11× moyenne) vs 21.46M (0.77×) au snapshot 17h. Le gap haussier s'est fait sur volume final supérieur à la moyenne, infirmant partiellement l'hypothèse d'un rally sans engagement institutionnel. Néanmoins, RSI 77.42, divergence consensus +70.1%, Filtre Qualité 3/6, aucune news. SL $117.84, TP $181.24, R/R 1.5:1.
 
 ---
 
