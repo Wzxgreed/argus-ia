@@ -7,13 +7,14 @@
 - **Score Opportunité :** 6.2/10 (C:6.5 V:8.0 M:3.0)
 - **Prix Cible :** $18.39 (consensus FMP, 10 analysts)
 - **Stop-Loss :** $11.73 (2×ATR)
-- **Statut Thèse :** Score ajusté franchit sous le seuil achat réduit (54.2) — momentum dégradé, options moins haussières, timing défavorable, attente confirmation technique
+- **Statut Thèse :** Score ajusté sous le seuil achat réduit (54.2) — momentum dégradé, options anomalie data quality (max pain $5.00 aberrant), timing défavorable, attente confirmation technique
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
 
 | Fichier | Date | Type | Verdict |
 |---------|------|------|---------|
+| [NU_2026-05-26_update.md](NU_2026-05-26_update.md) | 2026-05-26 | Update quotidienne (snapshot 10:00 UTC, pré-ouverture post-Memorial Day) | ATTENDRE — thèse confirmée, données strictement identiques au 25/05, anomalie options détectée (max pain $5.00 aberrant, put/call null, call OI null — valeurs confirmées 25/05 conservées), 12e snapshot consécutif sans mutation, cours $12.73, RSI 33.1, score ajusté 54.2, SL $11.73 |
 | [NU_2026-05-25_update.md](NU_2026-05-25_update.md) | 2026-05-25 | Update quotidienne (snapshot 21:00 UTC, consolidé 13:00 + 21:00) | ATTENDRE — thèse confirmée, stabilité totale vs 13:00 UTC (marché fermé Memorial Day), 11e snapshot consécutif sans mutation, cours $12.73, RSI 33.1, max pain $13.00, call OI 65.2%, score ajusté 54.2, momentum 3.0, SL $11.73 |
 | [NU_2026-05-20_update.md](NU_2026-05-20_update.md) | 2026-05-20 | Update quotidienne (snapshot 13:00 UTC) | ACHETER (Réduit) — thèse confirmée, données stables vs snapshot 10:00 UTC, anomalie options RÉSOLUE (max pain $17.50, put/call 0.43, call OI 69.8%), RSI 26.29, SL $11.39, score ajusté 63.0 |
 | [NU_2026-05-20_update.md](NU_2026-05-20_update.md) | 2026-05-20 | Update quotidienne (snapshot 10:00 UTC, archive dans le même fichier) | ACHETER (Réduit) — thèse confirmée, données stables vs 19/05, anomalie options max pain $5.00 aberrant (à ignorer), RSI 26.29, SL $11.39, score ajusté 63.0 |
@@ -40,4 +41,4 @@ Voir [REFRESH_LOG.md](REFRESH_LOG.md) pour l'historique des déclencheurs.
 
 NU est le leader néo-banque latino-américain (Brésil/Mexique/Colombie) avec 100M+ clients, des marges opérationnelles solides (24.4%), un bilan net cash (net debt/EBITDA −2.47×), et une valorisation forward attractive (P/E ~11×). Le score global ajusté est descendu à **54.2** (snapshot 25/05 10:00 UTC), franchissant sous le seuil d’achat réduit et entraînant une recommandation **ATTENDRE**. Le RSI est remonté à 33.1 (sortie de survente extrême) et le cours a grimpé en séances intermédiaires jusqu’à $13.26, mais le repli du jour (−3.27% à $12.73) confirme l’absence de momentum. Le volume est légèrement sous moyenne (0.97×). Les options ont basculé vers une configuration plus neutre : max pain $13.00 (aligné sur le spot), put/call 0.53, call OI 65.2%. La distance à la MM50 s’est réduite (−9.8% vs −13.5%). Les fondamentaux restent intacts (ROIC 16.3%, consensus $18.39, 10 analysts). Aucune news structurante.
 
-**Snapshot 25/05 21:00 UTC** — cours $12.73 (−3.27% vs previous close $13.16, +3.58% vs 20/05), RSI 33.1, volume 49.62M (0.97× moyenne), max pain $13.00 (call OI 65.2%), score ajusté 54.2, aucune news structurante. Données strictement identiques au snapshot 13:00 UTC — 11e snapshot consécutif sans mutation. Marché fermé Memorial Day.
+**Snapshot 26/05 10:00 UTC** — cours $12.73 (−3.27% vs previous close $13.16), RSI 33.1, volume 49.62M (0.97× moyenne), anomalie options détectée (max pain $5.00 aberrant, put/call null, call OI null — valeurs confirmées 25/05 conservées : max pain $13.00, put/call 0.53, call OI 65.2%), score ajusté 54.2, aucune news structurante. Données strictement identiques au snapshot 25/05 21:00 UTC — 12e snapshot consécutif sans mutation. Snapshot pré-ouverture post-Memorial Day.

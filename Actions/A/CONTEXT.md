@@ -12,9 +12,9 @@
 **Prix cible desk :** $125.70 (TP ATR-based) / $166 (consensus analystes)  
 **Stop-loss :** $107.80  
 **Horizon :** 1–3 mois  
-**Statut thèse :** 🟢 **Confirmée** — setup favorable avant earnings Q2 2026 (J=2). Snapshot 21:00 UTC confirme la stabilité totale des niveaux (marché fermé Memorial Day).
+**Statut thèse :** 🟢 **Confirmée** — setup favorable avant earnings Q2 2026 (J=1). Snapshot 10:00 UTC confirme stabilité totale ; glitch options JSON détecté (valeurs 25/05 conservées).
 
-**Synthèse :** Agilent affiche le meilleur score composite du desk ce soir (81.5). Le forward P/E 17.5× décote de 31% le LTM, le consensus anticipe un upside 44%, et le setup technique (RSI 56, au-dessus MM50) est propre. Le risque principal est le binary event earnings du 27/05. Quality Compounder (5/6 critères). ⚠️ Flag `stale_price_history` — valider les données en live à la réouverture US.
+**Synthèse :** Agilent affiche le meilleur score composite du desk (81.5). Le forward P/E 17.5× décote de 31% le LTM, le consensus anticipe un upside 44%, et le setup technique (RSI 56, au-dessus MM50) est propre. Le risque principal est le binary event earnings du 27/05 (J=1). Quality Compounder (5/6 critères). ⚠️ Flag `stale_price_history` persistant (5 jours) + glitch options JSON — valider données en live avant exécution.
 
 ---
 
@@ -75,9 +75,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-26
-- **Type :** preview
-- **Fichier :** `A_2026-05-26_preview.md`
-- **Conclusion :** > **Date :** 2026-05-26
+- **Type :** update
+- **Fichier :** `A_2026-05-26_update.md`
+- **Conclusion :** 🟢 Thèse confirmée — stabilité totale, glitch options JSON détecté, valeurs 25/05 conservées
 
 ---
 

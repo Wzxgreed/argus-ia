@@ -22,6 +22,7 @@
 | 2026-05-25 | Update (13:00 UTC) | [NOK_2026-05-25_update.md](./NOK_2026-05-25_update.md) | Gap +9.1% (close $15.47), new 52w high $15.78. RSI 64.29, ATR $0.98. Volume 1.07×. Options bullish (put/call 0.41, max pain $14.0, call OI 70.9%). Pas de catalyseur fondamental identifié. Thèse modifiée : ATTENDRE maintenu, SL révisé $13.51. |
 | 2026-05-25 | Update (17:00 UTC) | [NOK_2026-05-25_update.md](./NOK_2026-05-25_update.md) | Snapshot 17:00 UTC confirme intégralement le snapshot 13:00. Données inchangées (close $15.47, RSI 64.29, ATR $0.98). Aucune mutation post-clôture. Thèse ATTENDRE confirmée. SL $13.51, TP $18.41. |
 | 2026-05-25 | Update (21:00 UTC) | [NOK_2026-05-25_update.md](./NOK_2026-05-25_update.md) | Snapshot 21:00 UTC confirme intégralement le snapshot 17:00. Données strictement inchangées. Thèse ATTENDRE confirmée. DRAFT_refresh archivés. |
+| 2026-05-26 | Update (10:00 UTC) | [NOK_2026-05-26_update.md](./NOK_2026-05-26_update.md) | Snapshot 10:00 UTC post-Memorial Day. Données strictement inchangées vs 25/05 21:00 UTC (close $15.47, RSI 64.29, ATR $0.98). Données options partielles (max pain incohérent $2.00, put/call null). Thèse ATTENDRE confirmée. |
 
 ---
 
@@ -32,7 +33,7 @@
 **Stop-loss :** $13.51 (cours − 2×ATR)
 **Take-profit :** $18.41 (cours + 3×ATR)
 **Upside/Downside :** −40.1% / −12.7%
-**Dernière mise à jour :** 2026-05-25 21:00 UTC
+**Dernière mise à jour :** 2026-05-26 10:00 UTC
 
 Gap haussier de +9.1% aujourd'hui (close $15.47, new 52-week high $15.78) sans catalyseur fondamental identifiable. Le momentum technique est réel (RSI 64.29, volume 1.07×, options bullish : put/call 0.41, call OI 70.9%, max pain $14.0) mais la valorisation reste un frein absolu (P/E 96.7, cours +66.8% vs consensus $9.26). Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%). Divergence structurelle Yahoo/FMP persistante (P/E FMP 45.8 vs Yahoo 96.7). Dividende 1.06%. Le secteur Communication Services (XLC) est en sous-performance relative (bottom 3 sector rotation), ce qui rend le gap idiosyncratique et fragile. Thèse modifiée vs 20/05 : le momentum invalide l'hypothèse de retour rapide au consensus, mais ne justifie pas un achat. Pas d'entrée.
 
