@@ -1,7 +1,7 @@
 # Calendrier Earnings — 30 prochains jours
 
-**Mis à jour le :** 2026-05-17
-**Prochaine mise à jour :** 2026-05-18 (revue hebdomadaire Phase H4)
+**Mis à jour le :** 2026-05-26
+**Prochaine mise à jour :** 2026-05-27 (revue quotidienne Phase 0)
 
 > Ce fichier est lu automatiquement chaque matin (Phase 0 du bulletin).
 > Si un ticker watchlist a des earnings dans **≤ 5 jours** → `_preview.md` généré automatiquement.
@@ -42,6 +42,7 @@
 | Date | Ticker | Trimestre | EPS réel vs consensus | Rev. réelle vs consensus | Réaction cours | Analyse |
 |------|--------|-----------|----------------------|--------------------------|---------------|---------|
 | 2026-05-17 | IREN | Q4 FY26 / Q1 FY27 | ⏳ En attente | ⏳ En attente | −9.35% (pre-market) | [IREN_2026-05-17_earnings.md](../Actions/IREN/IREN_2026-05-17_earnings.md) |
+| 2026-05-26 | CTMX | À confirmer | — | — | −4.26% | [CTMX_2026-05-26_init.md](../Actions/CTMX/CTMX_2026-05-26_init.md) · Date FMP héritée du symbole erroné CYTOMX, earnings réel à vérifier |
 
 ---
 

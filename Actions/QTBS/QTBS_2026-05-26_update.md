@@ -1,25 +1,24 @@
 # QTBS — Mise à jour Quotidienne
 
-> **Date :** 2026-05-26 (snapshot 10:00 UTC, post-Memorial Day)
+> **Date :** 2026-05-26 (snapshot 17:00 UTC, post-Memorial Day)
 > **Type :** `_update.md`
-> **Source données :** `data/latest.json` (fetched_at 2026-05-26T10:00:02Z) + `data/recommandations_latest.json`
-> **Statut pipeline :** 🔴 Fetch KO — No price history (confirmé snapshot 10:00)
+> **Source données :** `data/latest.json` (fetched_at 2026-05-26T17:00:02Z)
+> **Statut pipeline :** 🔴 Fetch KO — No price history (confirmé snapshot 17:00)
 
 ---
 
 ## 1. Résumé des changements depuis l'analyse précédente
 
-| Item | Snapshot 21:00 UTC (25/05) | Snapshot 10:00 UTC (26/05) | Changement |
+| Item | Snapshot 10:00 UTC (26/05) | Snapshot 17:00 UTC (26/05) | Changement |
 |------|---------------------------|---------------------------|------------|
 | Cours | [DONNÉES MANQUANTES] | **[DONNÉES MANQUANTES]** | **Aucun changement** |
 | RSI 14j | — | — | — |
 | ATR 14j | — | — | — |
 | Volume 20j | — | — | — |
-| Earnings (FMP) | J0 (2026-05-25) | **J0 (2026-05-26)** | Décalage source confirmé |
 | Data feed | `error: true` | `error: true` | **Bloquant confirmé** |
 | Score global | 55.2/100 (ATTENDRE) | **55.2/100 (ATTENDRE)** | **Stable** |
 
-**Verdict macro :** QTBS reste en **data blackout complet** au snapshot 10:00 UTC post-Memorial Day. Aucune mutation vs le snapshot 21:00 UTC du 25/05 — **12e snapshot consécutif sans changement** depuis au moins le 20 mai 2026.
+**Verdict macro :** QTBS reste en **data blackout complet** au snapshot 17:00 UTC post-Memorial Day. Aucune mutation vs le snapshot 10:00 UTC du 26/05 — **13e snapshot consécutif sans changement** depuis au moins le 20 mai 2026.
 
 ---
 
@@ -27,7 +26,7 @@
 
 > **[DONNÉES MANQUANTES — FETCH KO CONFIRMÉ]**
 
-- **Cours close :** [UNSOURCED] — `data/latest.json` retourne `"error": true`, `"reason": "No price history"` (timestamp 10:00:21 UTC)
+- **Cours close :** [UNSOURCED] — `data/latest.json` retourne `"error": true`, `"reason": "No price history"` (timestamp 17:38:26 UTC)
 - **RSI 14j :** —
 - **ATR 14j :** —
 - **MM 50j / 200j :** —
@@ -50,7 +49,7 @@
 - **Nombre d'analystes :** —
 - **Market cap :** —
 
-**Événement du jour :** Earnings signalé par `upcoming_events_latest.json` (source FMP, severity high, 0j, date 2026-05-26). Aucun détail EPS/Revenue consensus n'a été récupéré. L'event-driven scan (`data/events_latest.json`) ne retourne **aucun événement corporate détecté** pour QTBS.
+**Événement du jour :** Earnings signalé par les sources FMP (date 2026-05-26, severity high). Aucun détail EPS/Revenue consensus n'a été récupéré. Les fichiers agents (`events_latest.json`, `upcoming_events_latest.json`) sont absents du système.
 
 ---
 
@@ -114,12 +113,12 @@ Aucune mention retail, aucune détection de pump/dump. Le silence informationnel
 
 **Argumentaire :**
 
-1. **Data blackout persistant :** Le snapshot 10:00 UTC confirme l'erreur `[ERROR] QTBS: fetch failed — No price history`. Ce bloquant empêche toute analyse technique, fondamentale et quantitative. La stabilité de l'erreur entre 21:00 UTC (25/05) et 10:00 UTC (26/05) exclut un effet de latence temporaire lié au week-end.
+1. **Data blackout persistant :** Le snapshot 17:00 UTC confirme l'erreur `[ERROR] QTBS: fetch failed — No price history`. Ce bloquant empêche toute analyse technique, fondamentale et quantitative. La stabilité de l'erreur entre 10:00 UTC et 17:00 UTC (26/05) confirme une panne structurelle du data feed, et non un effet de latence temporaire.
 2. **Earnings J0 non analysable :** L'événement earnings du 2026-05-26 (source FMP) est le catalyseur naturel, mais sans cours pré-event, sans consensus EPS/Revenue et sans métriques, il est impossible de mesurer l'impact post-announcement.
 3. **Score agent inchangé :** La recommandation `ATTENDRE` (55.2/100) reflète une absence de signal plutôt qu'une conviction neutre. Les scores Catalyseur 6.5/10 sont grevés par l'impossibilité de vérification.
-4. **Action requise :** Attendre la résolution du fetch de données (probablement post-earnings, vérifier le prochain snapshot demain matin). Si les données réapparaissent avec un gap significatif (>±5%), générer un `_update.md` flash pour qualifier l'impact.
+4. **Action requise :** Attendre la résolution du fetch de données (vérifier le prochain snapshot demain matin). Si les données réapparaissent avec un gap significatif (>±5%), générer un `_update.md` flash pour qualifier l'impact.
 
 ---
 
-*Rapport généré le 2026-05-26. Données : latest.json (10:00 UTC), recommandations_latest.json, events_latest.json, social_sentiment_latest.json, fx_exposure_latest.json.*
+*Rapport généré le 2026-05-26. Données : latest.json (17:00 UTC).*
 *Avertissement : ce document est un outil d'analyse, pas un conseil en investissement.*

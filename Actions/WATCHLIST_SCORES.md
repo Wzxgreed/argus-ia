@@ -1,7 +1,7 @@
 # Watchlist — Scores & Radar du Jour
 
-**Mis à jour le :** 2026-05-17
-**Régime macro actif :** Stagflation
+**Mis à jour le :** 2026-05-26
+**Régime macro actif :** Unknown (post-Memorial Day, données partielles)
 **Pondération du jour :** Catalyseur ×35% · Valorisation ×40% · Momentum ×25%
 
 > Ce fichier est la **vue de synthèse** de toute la watchlist. Il est mis à jour automatiquement à chaque bulletin du matin.
@@ -18,6 +18,7 @@
 | NOK | Nokia Corporation | 3.0 | 2.0 | 4.5 | **2.48** | → | 🔴 | Surévaluation massive | 2026-05-17 |
 | SOFI | SoFi Technologies | 6.0 | 5.0 | 3.0 | **4.85** | → | ⚠️ | Earnings Q1 FY2026 / Fed juin | 2026-05-17 |
 | AAL | American Airlines | 3.5 | 4.0 | 4.5 | **3.95** | → | 🔴 | Earnings Q1 / WTI / Fed | 2026-05-17 |
+| CTMX | CytomX Therapeutics | 6.0 | 4.0 | 3.5 | **4.82** | → | 🔴 | Pipeline Probody / data readout | 2026-05-26 |
 
 > **Tendance :** ↑ score en hausse vs J-1 · → stable · ↓ score en baisse
 > **Qualité :** ✅ Quality Compounder · ⚠️ Quality Partielle · 🔴 Hors périmètre

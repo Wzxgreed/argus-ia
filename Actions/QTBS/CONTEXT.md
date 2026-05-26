@@ -14,7 +14,7 @@
 - **Statut thèse :** 🔴 Bloqué data — pas de données de prix disponibles (confirmé snapshot 10:00 UTC post-Memorial Day)
 - **Horizon :** Jusqu’à reprise du data feed
 
-**Synthèse (1 phrase) :** QTBS est en data blackout complet (No price history) depuis au moins le 20 mai 2026 ; l’earnings signalé le 2026-05-26 reste non analysable sans cours, volumes ni consensus — statut ATTENDRE maintenu après vérification snapshot 10:00 UTC (12e snapshot consécutif sans mutation).
+**Synthèse (1 phrase) :** QTBS est en data blackout complet (No price history) depuis au moins le 20 mai 2026 ; l’earnings signalé le 2026-05-26 reste non analysable sans cours, volumes ni consensus — statut ATTENDRE maintenu après vérification snapshot 17:00 UTC (13e snapshot consécutif sans mutation).
 
 ---
 

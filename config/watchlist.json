@@ -178,12 +178,12 @@
       "notes": "Ajouté via dashboard API"
     },
     {
-      "ticker": "CYTOMX",
-      "name": "CYTOMX",
-      "sector": "Non spécifié",
+      "ticker": "CTMX",
+      "name": "CytomX Therapeutics, Inc.",
+      "sector": "Healthcare / Biotechnologie",
       "priority": "medium",
       "exchange": "NASDAQ",
-      "notes": "Ajouté via dashboard API"
+      "notes": "Biotech oncologique — Probody therapeutics. Corrigé le 2026-05-26 : remplacement de CYTOMX (symbole invalide)"
     },
     {
       "ticker": "OSS",

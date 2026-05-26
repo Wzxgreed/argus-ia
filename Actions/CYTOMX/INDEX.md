@@ -37,23 +37,36 @@
 | 2026-05-25 | `CYTOMX_2026-05-25_update.md` | Update post-pipeline (21:00 UTC) | Stabilité totale confirmée vs 13:00 UTC (marché fermé Memorial Day), 7e snapshot consécutif sans mutation, earnings J=0 toujours non résolu |
 | 2026-05-26 | `CYTOMX_2026-05-26_preview.md` | Preview earnings | Template vide — earnings J=0, date glissée au 2026-05-26 |
 | 2026-05-26 | `CYTOMX_2026-05-26_update.md` | Update post-pipeline (10:00 UTC) | **Anomalie structurelle identifiée** : CYTOMX inexistant sur Yahoo Finance (404) — ticker correct = CTMX. 8e snapshot consécutif sans données. Thèse INVALIDÉE. |
+| 2026-05-26 | `CYTOMX_2026-05-26_update.md` | Update post-pipeline (17:00 UTC) — **FINAL** | 9e snapshot confirmé sans données. Migration complétée : `config/watchlist.json` corrigé, fetch CTMX réussi, dossier `Actions/CTMX/` créé avec analyse initiale. |
+
+---
+
+## Migration vers CTMX
+
+**Statut :** ✅ COMPLÉTÉE le 2026-05-26 17:39 UTC
+
+- `config/watchlist.json` : CYTOMX remplacé par CTMX
+- Fetch CTMX : réussi (close=$3.60, RSI=28.95)
+- Analyse initiale CTMX : disponible dans `Actions/CTMX/CTMX_2026-05-26_init.md`
+- INDEX CTMX : `Actions/CTMX/INDEX.md`
+- CONTEXT CTMX : `Actions/CTMX/CONTEXT.md`
 
 ---
 
 ## Prochains événements
 
-- **2026-05-26** · earnings · Earnings (source FMP, J=0, non résolu au snapshot 10:00 UTC)
+- **MIGRÉ vers CTMX** · voir `Actions/CTMX/INDEX.md`
 
 ---
 
-## Alertes actives
+## Alertes actives (archivées)
 
-- 🔴 **[ANOMALIE STRUCTURELLE]** ticker CYTOMX inexistant sur Yahoo Finance — remplacer par CTMX
-- [WARNING] Earnings J=0 non résolu (source FMP, date glissée au 2026-05-26)
-- [WARNING] XLV (Healthcare) momentum 0.0 — headwind sectoriel
-- Accounting risk scan indisponible (`accounting_risk_latest.json` absent)
-- Quant report indisponible (date 2026-05-17, insuffisant, 0 signaux)
+- 🔴 **[RÉSOLU — MIGRATION CTMX]** ticker CYTOMX inexistant sur Yahoo Finance
+- [ARCHIVÉ] Earnings J=0 non résolu (placeholder hérité du symbole invalide)
+- [ARCHIVÉ] XLV (Healthcare) momentum 0.0 — headwind sectoriel
+- [ARCHIVÉ] Accounting risk scan indisponible
+- [ARCHIVÉ] Quant report indisponible
 
 ---
 
-*Dernière mise à jour : 2026-05-26 10:00 UTC*
+*Dernière mise à jour : 2026-05-26 17:39 UTC — dossier archivé, suivi migré vers Actions/CTMX/*
