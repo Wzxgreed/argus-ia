@@ -49,7 +49,7 @@
 - **Date :** 2026-05-26
 - **Type :** update
 - **Fichier :** `TEST_2026-05-26_update.md`
-- **Conclusion :** **Verdict : ACHETER (Réduit) — Thèse CONFIRMÉE, stabilité totale entre 21:00 UTC 25/05 et 10:00 UTC 26/05 (premier jour post-Memorial Day)
+- **Conclusion :** **Verdict : ACHETER (Réduit) — Thèse CONFIRMÉE, stabilité totale entre 10:00 UTC et 13:00 UTC 26/05 (14e snapshot consécutif sans mutation depuis le 2026-05-20)
 
 ---
 
