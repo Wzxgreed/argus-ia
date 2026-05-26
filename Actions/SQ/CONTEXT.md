@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
+- **Recommandation :** ATTENDRE
+- **Score global :** 58.0/100
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** —
+- **Statut thèse :** Confirmée (snapshot 21:00 UTC)
 - **Horizon :** —
 
 ---
@@ -24,23 +24,26 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🔴 **Stale price** — 16 snapshots consécutifs identiques / ≥7 jours calendaires (2026-05-20 → 2026-05-26)
+- 🔴 **Earnings Q1 2026 non résolu** — 7 jours après date prévue initiale (20/05)
+- 🔴 **Source FMP Fallback** — Seul ticker watchlist avec `fmp_fallback` + `change_pct: null`
+- 🟡 **Pipeline partial** — Phases C/D failed (validate + detect_major_events) ; accounting skipped
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-05-26** · earnings · Earnings ...
+- **2026-05-26** · earnings · Earnings ... (J=0, non résolu — placeholder FMP)
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** —
-- **MM 50j :** —
-- **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** —
+- **RSI 14j :** N/A (bloc `technical` vide)
+- **MM 50j :** N/A
+- **MM 200j :** N/A
+- **ATR 14j :** N/A
+- **Volume moy. 20j :** N/A
 
 ---
 
@@ -49,7 +52,7 @@
 - **Date :** 2026-05-26
 - **Type :** update
 - **Fichier :** `SQ_2026-05-26_update.md`
-- **Conclusion :** > **Trigger :** Snapshot pipeline 17:00 UTC — session US ouverte (ouverture 9:30 ET)
+- **Conclusion :** ATTENDRE — Qualité 3/6 hors périmètre, cours figé $83.46 sur 16 snapshots / 7 jours, earnings J=0 non résolu, seul ticker `fmp_fallback` du snapshot 21:00 UTC, pipeline partial.
 
 ---
 
