@@ -744,6 +744,16 @@
 
 ---
 
+## 2026-05-26 — Full Refresh Completed (10:00 UTC)
+
+**Triggers :**
+- price_gap (medium) : Gap +8.22% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 9.14% (seuil 5.0%)
+
+**Conclusion :** THÈSE ÉVITER CONFIRMÉE. Snapshot 10:00 UTC stable vs 21:00 UTC 25/05 (marché US non ouvert à 10:00 UTC). Données inchangées : close $135.76, RSI 74.84, ATR $12.41, MM50 $85.31. DRAFT_refresh complété et archivé (`_RKLB_2026-05-26_DRAFT_refresh.md`). Anomalie options révisée (Max Pain $45.00, flux interrompu Put/Call null). Fichiers générés : `RKLB_2026-05-26_update.md` + `RKLB_2026-05-26_init.md`. INDEX.md, CONTEXT.md et REFRESH_LOG.md mis à jour. ÉVITER maintenu.
+
+---
+
 ## 2026-05-26 — Full Refresh Triggered
 
 **Triggers :**

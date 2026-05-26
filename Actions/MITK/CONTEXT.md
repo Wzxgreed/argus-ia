@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
+- **Recommandation :** ACHETER (Réduit)
+- **Score global :** 65.2/100
+- **Prix cible :** $18.85
+- **Stop-loss :** $14.15
 - **Statut thèse :** validée
-- **Horizon :** —
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -24,13 +24,21 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🟢 **[CASSURE MM50 CONFIRMÉE]** Cours $16.03 > MM50 $14.34 (+11.8%) avec volume 1.28× moyenne — signal technique validé — 2026-05-25
+- 🟢 **[MOMENTUM SECTORIEL FAVORABLE]** XLK : 10.0/10 (+12.59% sur 20j) — vent de queue Technology — 2026-05-25
+- 🟡 **[ANOMALIE OPTIONS ATTÉNUÉE]** Max Pain $20.00 (+24.8% vs spot), Put/Call 0.18, Call OI % 84.9% — anomalie persistante mais moins aberrante — 2026-05-25
+- 🟡 **[CONSENSUS PT ATTEINT]** $16.00 atteint — upside théorique nul, monitoring des révisions analystes — 2026-05-25
+- 🟡 **[ROIC FAIBLE]** 3.16% — monitorer l'efficacité du capital dans les prochains filings — 2026-05-18
+- 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($724M vs $447M FMP) et P/E — utiliser Yahoo comme primaire — 2026-05-18
+- 🟡 **[LIQUIDITÉ DÉRIVÉE FAIBLE]** Options : faible OI, max pain éloigné — prudence sur le hedging — 2026-05-25
+- 🟡 **[GLITCH OPTIONS RÉCURRENT]** Max pain $7.50 / put:call null au snapshot 10:00 UTC — artefact data quality, valeurs confirmées 25/05 conservées — 2026-05-26
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q3 FY2026** : 2026-08-06 (72j) — Est EPS $0.24–$0.34, Rev ~$0.1B
+- **Expiration options** : 2026-06-18 (24j)
 
 ---
 
