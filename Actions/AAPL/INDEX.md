@@ -20,9 +20,10 @@ Apple est une entreprise de qualité institutionnelle exceptionnelle (Filtre Qua
 - **Prochain earnings :** 2026-07-30 (65 jours) — Est EPS $1.83–$1.99, Rev $109.0B
 
 ## Alertes actives
-- 🟡 **Alerte technique :** RSI 89.46 — surachat sévère (sortie de la zone >90, reste dans le 9ème décile historique)
-- 🟡 **Alerte volume :** Volume 20.50M à mi-séance (0.43× moyenne 20j) — très faible participation, manque de conviction sur le nouveau 52W high $311.82
-- 🟡 **Alerte valorisation :** Cours $310.05 > Consensus FMP $293.43 (+5.7%)
-- 🟡 **Alerte options :** Call OI 61.6% / Put/Call 0.62 — pinning gamma haussier vers $315 à expiration aujourd'hui
-- 🟡 **Alerte scoring :** Scores agents révisés à la baisse malgré la hausse du cours (Opportunité 4.8/10, Global ajusté 37.5/100)
+- 🟡 **Alerte technique :** RSI 87.71 — surachat sévère (sortie progressive de la zone >90, décroissance continue depuis 91.1 le 25/05)
+- 🟡 **Alerte volume :** Volume 46.60M en clôture (0.96× moyenne 20j) — participation institutionnelle normale, mais le break du 52W high $311.82 a été rejeté
+- 🟡 **Alerte valorisation :** Cours $308.33 > Consensus FMP $293.43 (+5.1%)
+- 🟡 **Alerte options :** Call OI 61.6% / Put/Call 0.62 — expiration 26/05 résolue sans pinning gamma majeur (close à −2.1% du max pain $315.00)
+- 🟡 **Alerte scoring :** Scores agents révisés à la hausse (Opportunité 5.1/10, Global ajusté 41.0/100) mais timing reste Défavorable
+- 🟡 **Alerte technique :** Rejet du 52W high $311.82 — configuration de mèche haute sur le chart journalier, risque de double top
 - 🟡 **Alerte data quality résolue :** Anomalie options JSON sur snapshot 10:00 UTC (put/call null, max pain $220.00 aberrant) — **résolue dans le snapshot 13:00 UTC**
