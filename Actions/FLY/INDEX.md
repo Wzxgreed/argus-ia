@@ -16,6 +16,7 @@
 | 2026-05-26 | [FLY_2026-05-26_init.md](FLY_2026-05-26_init.md) | **Full Refresh** — Reecriture complete post-triggers (gap +15.49%, ATR spike). Filtre Qualite 2/6 confirme, TAM/peers qualitatifs, macro defavorable. These EVITER confirmee. |
 | 2026-05-26 | [FLY_2026-05-26_update.md](FLY_2026-05-26_update.md) | **Mise a jour 13:00 UTC** — Snapshot strictement identique au 10:00 UTC. **Alerte data quality options RESOLUE** : max pain $49.50, put/call 0.75, call OI 57.0% restaures. These EVITER confirmee. |
 | 2026-05-26 | [FLY_2026-05-26_update_17h.md](FLY_2026-05-26_update_17h.md) | **Mise a jour 17:00 UTC** — **Deuxieme gap consecutif +17.57%** a $58.20 sans catalyst. RSI 81.11 surachat EXTREME. Consensus $42.45 a -27.1% sous le spot. Filtre Qualite 2/6, fondamentaux inchanges. These EVITER **renforcee**. |
+| 2026-05-26 | [FLY_2026-05-26_update_21h.md](FLY_2026-05-26_update_21h.md) | **Mise a jour 21:00 UTC** — **Volume explosion** (14.47M, 2.09x moy. 20j) et **nouveau high $62.17** sans catalyst. RSI 81.38 extreme. Agent Recommandation passe a **SURVEILLER** (38.0, limite basse). Filtre Qualite 2/6, fondamentaux inchanges. These defavorable confirmee avec nuance. |
 
 ## Agenda
 - Prochain earnings : **2026-08-04** (Q2 2026) — Est EPS -$0.60 a -$0.45, Rev $0.1B

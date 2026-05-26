@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $44.20
-- **Statut thèse :** —
-- **Horizon :** —
+- **Recommandation :** ACHETER (Réduit)
+- **Score global :** 64.8/100
+- **Prix cible :** $51.11
+- **Stop-loss :** $44.51
+- **Statut thèse :** Confirmée — deuxième mutation consécutive dans la session 26/05
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -30,13 +30,13 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-26** · earnings · Earnings ...
+- **2026-05-26** · earnings · Earnings JOUR J — résultats non observables après 9 jours de flag
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 62.44
+- **RSI 14j :** 62.86
 - **MM 50j :** 43.48
 - **MM 200j :** —
 - **ATR 14j :** 1.32
@@ -49,7 +49,7 @@
 - **Date :** 2026-05-26
 - **Type :** update
 - **Fichier :** `TEST_2026-05-26_update.md`
-- **Conclusion :** **Verdict : ACHETER (Réduit) — Thèse CONFIRMÉE, première mutation de données après 14 snapshots stables
+- **Conclusion :** **Verdict : ACHETER (Réduit) — Thèse CONFIRMÉE, deuxième mutation consécutive dans la session (cours $47.15, RSI 62.86, volume 1,160).**
 
 ---
 

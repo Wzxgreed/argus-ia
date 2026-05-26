@@ -786,6 +786,6 @@
 - price_gap (high) : Gap +18.81% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 9.11% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée avec nuance — extension du mouvement spéculatif en fin de séance (volume 14.47M, 2.09x moy. 20j ; nouveau high $62.17). RSI 81.38 surachat extrême. Agent Recommandation passe à SURVEILLER (38.0, limite basse). Filtre Qualité 2/6 inchangé. Fondamentaux inchangés. Pas de catalyst identifié. Pas de position recommandée. DRAFT_refresh traité et archivé. Fichier : `FLY_2026-05-26_update_21h.md`.
 
 ---
