@@ -47,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-26
-- **Type :** preview
-- **Fichier :** `AST_2026-05-26_preview.md`
-- **Conclusion :** > **Date :** 2026-05-26
+- **Type :** update
+- **Fichier :** `AST_2026-05-26_update.md`
+- **Conclusion :** AST non évaluable — 15e snapshot consécutif sans données (`No price history`). ASTS (proxy) clôture à $119.70 (+13.07%, vol 47.17M, RSI 82.58). Surchauffe extrême persistante. Anomalie structurelle confirmée : AST est un doublon erroné d'ASTS. Recommandation : supprimer AST de la watchlist, privilégier ASTS.
 
 ---
 
