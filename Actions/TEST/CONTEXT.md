@@ -1,4 +1,4 @@
-# CONTEXT — TEST — Dernière mise à jour : 2026-05-25
+# CONTEXT — TEST — Dernière mise à jour : 2026-05-26
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -30,7 +30,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-25** · earnings · Earnings ...
+- **2026-05-26** · earnings · Earnings ...
 
 ---
 
@@ -46,10 +46,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-25
-- **Type :** update
-- **Fichier :** `TEST_2026-05-25_update.md`
-- **Conclusion :** **Verdict : ACHETER (Réduit) — Thèse CONFIRMÉE, stabilité totale entre 17:00 et 21:00 UTC (marché fermé Memorial Day)
+- **Date :** 2026-05-26
+- **Type :** preview
+- **Fichier :** `TEST_2026-05-26_preview.md`
+- **Conclusion :** > **Date :** 2026-05-26
 
 ---
 

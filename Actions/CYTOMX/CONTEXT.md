@@ -1,4 +1,4 @@
-# CONTEXT — CYTOMX — Dernière mise à jour : 2026-05-25
+# CONTEXT — CYTOMX — Dernière mise à jour : 2026-05-26
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -18,11 +18,11 @@
 
 ---
 
-## Historique des scores
-- **Score global :** 55.2/100 (stable)
+## Historique des fichiers
+- **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** Non établie
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -35,17 +35,13 @@
 
 ## 🚨 Alertes actives
 
-- [DONNÉES MANQUANTES] cours introuvable dans `data/latest.json` (7 snapshots consécutifs)
-- [WARNING] XLV (Healthcare) momentum 0.0 — headwind sectoriel
-- Earnings J=0 non résolu (source FMP, date révisée au 2026-05-25)
-- Accounting risk scan indisponible (`accounting_risk_latest.json` absent)
-- Quant report indisponible (date 2026-05-17, insuffisant, 0 signaux)
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-05-25** · earnings · Earnings (source FMP, J=0, non résolu au snapshot 21:00 UTC)
+- **2026-05-26** · earnings · Earnings ...
 
 ---
 
@@ -61,10 +57,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-25
-- **Type :** update (snapshot 21:00 UTC)
-- **Fichier :** `CYTOMX_2026-05-25_update.md`
-- **Conclusion :** **Thèse : NON ÉTABLIE — CONFIRMÉE** — stabilité totale vs snapshot 13:00 UTC (marché fermé Memorial Day), 7e snapshot consécutif sans données de cours, earnings J=0 non résolu.
+- **Date :** 2026-05-26
+- **Type :** preview
+- **Fichier :** `CYTOMX_2026-05-26_preview.md`
+- **Conclusion :** > **Date :** 2026-05-26
 
 ---
 

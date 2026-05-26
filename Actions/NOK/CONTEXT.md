@@ -1,4 +1,4 @@
-# CONTEXT — NOK — Dernière mise à jour : 2026-05-25
+# CONTEXT — NOK — Dernière mise à jour : 2026-05-26
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -61,10 +61,10 @@ Gap haussier de +9.1% aujourd'hui (close $15.47, new 52-week high $15.78) sans c
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-25
-- **Type :** update
-- **Fichier :** `NOK_2026-05-25_update.md`
-- **Conclusion :** Snapshot 21:00 UTC confirme intégralement le snapshot 17:00. Données strictement inchangées. Thèse ATTENDRE confirmée.
+- **Date :** 2026-05-26
+- **Type :** full refresh
+- **Fichier :** `NOK_2026-05-26_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-26
 
 ---
 

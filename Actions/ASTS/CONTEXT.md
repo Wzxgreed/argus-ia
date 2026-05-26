@@ -1,4 +1,4 @@
-# CONTEXT — ASTS — Dernière mise à jour : 2026-05-25
+# CONTEXT — ASTS — Dernière mise à jour : 2026-05-26
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -11,7 +11,7 @@
 - **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** validée
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -49,7 +49,7 @@
 - **Date :** 2026-05-25
 - **Type :** update
 - **Fichier :** `ASTS_2026-05-25_update.md`
-- **Conclusion :** **Thèse confirmée : ÉVITER — stabilité totale snapshot 21:00 UTC vs 13:00 UTC (marché fermé Memorial Day), aucune mutation**
+- **Conclusion :** **Thèse confirmée : ÉVITER — données stables, aucune mutation entre 13:00 UTC et 21:00 UTC (marché fermé Memorial Day)**
 
 ---
 
