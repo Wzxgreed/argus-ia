@@ -739,3 +739,13 @@
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-05-26 — Full Refresh Triggered (session LLM)
+
+**Triggers :**
+- price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
+
+**Conclusion :** Confirme — ces triggers datent du 2026-05-25 et sont deja integres dans la these EVITER. Aucun nouvel evenement majeur detecte entre le 25/05 et le 26/05. Snapshot 13:00 UTC strictement identique au 10:00 UTC. Full Refresh complete sous `FLY_2026-05-26_init.md` : Filtre Qualite 2/6 confirme, TAM/peers qualitatifs (Aerospace & Defense), macro defavorable (XLI sous-performant). These EVITER maintenue. DRAFT_refresh archive. — *Fichier : FLY_2026-05-26_init.md*
+
+---

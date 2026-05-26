@@ -1,14 +1,14 @@
-# PLTR — Mise à Jour Quotidienne (2026-05-26, snapshot 10:00 UTC)
+# PLTR — Mise à Jour Quotidienne (2026-05-26, snapshot 13:00 UTC)
 
-> **Source :** `data/latest.json` (snapshot 2026-05-26 10:00 UTC) + agents quant, geo, accounting, sector, social, FX, watchman, events
+> **Source :** `data/latest.json` (snapshot 2026-05-26 13:00 UTC) + agents quant, geo, accounting, sector, social, FX, watchman, events
 > **Référence précédente :** [PLTR_2026-05-25_update.md](PLTR_2026-05-25_update.md) (snapshot 21:00 UTC)
-> **Contexte :** Snapshot 10:00 UTC du pipeline matinal. Le marché US rouvre le 2026-05-26 après Memorial Day ; ce snapshot est pré-ouverture (10:00 UTC = 06:00 EDT) et reflète l'état figé de la clôture du 25/05.
+> **Contexte :** Snapshot officiel 13:00 UTC du pipeline. Le marché US rouvre le 2026-05-26 après Memorial Day. Les données options JSON, corrompues au snapshot 10:00 UTC (put/call null, max pain $50.00 aberrant), sont réparées et cohérentes dans ce snapshot.
 
 ---
 
 ## Résumé des Changements depuis l'Update (2026-05-25)
 
-| Indicateur | 2026-05-25 (21:00 UTC) | 2026-05-26 (10:00 UTC) | Δ vs Prior |
+| Indicateur | 2026-05-25 (21:00 UTC) | 2026-05-26 (13:00 UTC) | Δ vs Prior |
 |-----------|------------------------|------------------------|------------|
 | Cours close | $136.88 | **$136.88** | **0.00%** |
 | RSI 14j | 35.66 | **35.66** | **0** |
@@ -18,14 +18,14 @@
 | Short Interest | 2.77% | **2.77%** | **0** |
 | Consensus FMP PT | $186.15 (34 analystes) | **$186.15 (34 analystes)** | **Inchangé** |
 | Upside vs PT | +35.9% | **+35.9%** | **0** |
-| Put/Call Ratio | 0.48 | **[DONNÉES MANQUANTES]** | **Anomalie JSON** |
-| Max Pain | $140.00 | **$50.00** | **⚠️ Valeur aberrante — maintenue à $140.00** |
-| Call OI % | 67.4% | **[DONNÉES MANQUANTES]** | **Anomalie JSON** |
+| Put/Call Ratio | 0.48 | **0.55** | **+0.07 (+14.6%)** |
+| Max Pain | $140.00 | **$140.00** | **0** |
+| Call OI % | 67.4% | **64.4%** | **−3.0 pts** |
 | Score Opportunité agent | 5.1/10 | **5.1/10** | **0** |
 | Score Global ajusté | 42.5/100 | **42.5/100** | **0** |
 | Recommandation agent | SURVEILLER | **SURVEILLER** | **→ Confirmé** |
 
-**Verdict :** Le snapshot 10:00 UTC du 26/05 confirme l'intégralité des données du snapshot 21:00 UTC du 25/05. Le marché n'étant pas encore ouvert au moment du fetch (06:00 EDT), aucune nouvelle donnée de séance n'a été générée. Le cours reste figé à $136.88, le RSI à 35.66 (zone de survente < 40), et les scores agents inchangés. **Anomalie data quality détectée sur les options JSON** (put/call null, max pain $50.00 aberrant) — les valeurs confirmées du 25/05 (Put/Call 0.48, Max Pain $140.00, Call OI 67.4%) sont conservées. La thèse **SURVEILLER** est confirmée sans modification.
+**Verdict :** Le snapshot 13:00 UTC du 26/05 confirme la stabilité des données de séance par rapport au snapshot 21:00 UTC du 25/05. Le cours reste à $136.88, le RSI à 35.66 (zone de survente < 40), et les scores agents inchangés. **Les données options JSON sont réparées** : Put/Call 0.55, Max Pain $140.00, Call OI 64.4% — cohérents avec le spot et valident l'anomalie du snapshot 10:00 UTC. Le biais haussier options s'est légèrement atténué (Put/Call +0.07, Call OI −3.0 pp). La thèse **SURVEILLER** est confirmée sans modification.
 
 ---
 
@@ -33,7 +33,7 @@
 
 | Indicateur | Valeur | Signal |
 |-----------|--------|--------|
-| Cours | $136.88 | −0.39% vs previous close ($137.415) ; 0% vs close 25/05 |
+| Cours | $136.88 | −0.39% session vs previous close ($137.415) ; 0% vs close 25/05 |
 | RSI 14j | 35.66 | 🔴 **Survente** — inchangé, sous seuil 40 |
 | ATR 14j | $5.35 | Volatilité stable |
 | MM 50j | $142.64 | 🔴 Cours −4.0% sous MM50 — résistance descendante intacte |
@@ -43,25 +43,26 @@
 | Support clé | $134.30 | Low confirmé — zone de défense immédiate |
 | Support secondaire | $126.18 | Cours − 2×ATR = niveau technique de sortie |
 | Résistance | $142.64 | MM 50j — obstacle dynamique majeur |
-| Résistance majeure | $140.00 | Max Pain options confirmé + zone psychologique |
+| Résistance majeure | $140.00 | Max Pain options + zone psychologique |
 | Short Interest | 2.77% | 🟢 Faible — pas de setup short squeeze |
 
-**Options — Anomalie data quality détectée :**
+**Options — Données réparées et cohérentes :**
 
-| Métrique | Valeur brute (JSON) | Valeur confirmée | Interprétation |
-|----------|---------------------|------------------|----------------|
-| Put/Call Ratio | **null** | **0.48** (confirmé 25/05) | 🟢 Haussier modéré — conservé |
-| Max Pain | **$50.00** | **$140.00** (confirmé 25/05) | ⚠️ Valeur aberrante ($50.00 incompatible avec spot $136.88) — rejetée |
-| Call OI % | **null** | **67.4%** (confirmé 25/05) | Appétence haussière modérée, conservée |
-| Expiration proche | 2026-05-29 | 2026-05-29 | Dans 3 jours — gamma risk concentré autour de $140.00 |
+| Métrique | Valeur (JSON 13:00 UTC) | Interprétation |
+|----------|-------------------------|----------------|
+| Put/Call Ratio | **0.55** | 🟡 Neutre légèrement haussier — biais call intact mais atténué vs 0.48 du 25/05 |
+| Max Pain | **$140.00** | Cohérent avec spot $136.88 — pinning mécanique probable autour de $140.00 à expiration |
+| Call OI % | **64.4%** | Appétence haussière modérée, en repli de 3.0 pp vs 67.4% du 25/05 |
+| Expiration proche | 2026-05-29 | Dans 3 jours — gamma risk concentré autour de $140.00 |
 
 **Interprétation technique :**
-- Le cours est stable à $136.88 entre le 25/05 (close) et le 26/05 (snapshot pré-ouverture). La dynamique technique reste inchangée avec le **RSI à 35.66 (survente)**.
+- Le cours est stable à $136.88 entre le 25/05 (close) et le 26/05 (snapshot 13:00 UTC). La dynamique technique reste inchangée avec le **RSI à 35.66 (survente)**.
 - **Volume 27.48M (−32.4%)** : compression volumétrique persistante. En l'absence de volume, tout rebond reste fragile et sujet à repli.
 - **Max Pain $140.00 vs cours $136.88** : le cours est légèrement sous le max pain à 3 jours de l'expiration. Le marché options anticipe une gravitation vers $140.00, ce qui constitue un objectif technique plausible si un rebond se matérialise.
+- **Put/Call 0.55** (vs 0.48 le 25/05) : le biais haussier options s'est légèrement atténué. La hausse du put/call ratio (+0.07) et le repli du call OI (−3.0 pp) indiquent une prudence croissante du marché options malgré le RSI survente.
 - **MM50 $142.64** : résistance descendante inchangée. Le franchissement de ce niveau avec volume > 40M serait le premier signal technique de retournement haussier.
 - **Niveau critique : $134.30** (low confirmé). Cassure sous ce niveau = test du support $130 puis $126.18 (2×ATR).
-- **Anomalie options** : les données JSON du 26/05 retournent put/call null et max pain $50.00 (aberrant, incompatible avec un spot à $136.88). Cette anomalie est documentée et les valeurs confirmées du 25/05 sont conservées. Aucun impact sur la thèse.
+- ⚠️ **Résolution anomalie data quality** : les champs options JSON du snapshot 10:00 UTC (put/call null, max pain $50.00 aberrant) sont corrigés dans le snapshot 13:00 UTC. Les valeurs 0.55 / $140.00 / 64.4% sont validées et fiables.
 
 ---
 
@@ -108,10 +109,9 @@
 - **Label agent :** EXTREME_BEARISH (valeur 0.0) — absence de buzz = indifférence retail. Pas de signal contrarian exploitable.
 
 ### Options
-- **Put/Call 0.48** (confirmé 25/05) : biais haussier modérément renforcé. Le marché options anticipe un rebond ou maintient des positions haussières malgré la dégradation technique.
-- **Max Pain $140.00** (confirmé 25/05) : cohérent avec le spot $136.88. Zone de gravitation options à +2.3%.
-- **Call OI 67.4%** (confirmé 25/05) : appétence haussier en hausse. La structure options constitue un facteur mitigant face au RSI survente.
-- ⚠️ **Anomalie data quality 26/05** : les champs options JSON retournent put/call null et max pain $50.00 (aberrant). Ces valeurs sont rejetées et les données confirmées du 25/05 sont conservées.
+- **Put/Call 0.55** (vs 0.48 le 25/05) : biais haussier légèrement atténué. Le marché options maintient des positions haussières mais avec une prudence croissante.
+- **Max Pain $140.00** (inchangé, réparé au snapshot 13:00 UTC) : cohérent avec le spot $136.88. Zone de gravitation options à +2.3%.
+- **Call OI 64.4%** (vs 67.4% le 25/05) : appétence haussier en repli de 3.0 pp. La structure options reste un facteur mitigant face au RSI survente, mais avec moins de conviction.
 
 ### Exposition Macro
 | Facteur | Exposition | Mise à jour |
@@ -149,7 +149,7 @@
 - Timing : **Défavorable**
 - **Recommandation agent : SURVEILLER**
 
-**Verdict institutionnel Argus-IA :** La thèse **SURVEILLER** est confirmée. Le snapshot 10:00 UTC du 26/05, en raison de sa nature pré-ouverture (marché rouvre après Memorial Day), ne présente aucune nouvelle donnée par rapport au snapshot 21:00 UTC du 25/05. Les indicateurs clés (RSI 35.66, volume −32.4%, sous MM50) restent inchangés. L'**anomalie options JSON** (put/call null, max pain $50.00 aberrant) est documentée et les valeurs confirmées du 25/05 sont maintenues. Le biais haussier renforcé des options (Put/Call 0.48, Call OI 67.4%) constitue le seul facteur mitigant face à la dégradation technique. Pas d'entrée avant rebond RSI au-dessus de 40 et franchissement MM50 ($142.64) avec volume > 40M.
+**Verdict institutionnel Argus-IA :** La thèse **SURVEILLER** est confirmée. Le snapshot 13:00 UTC du 26/05 confirme la stabilité des données vs le snapshot 21:00 UTC du 25/05. Les indicateurs clés (RSI 35.66, volume −32.4%, sous MM50) restent inchangés. **Résolution de l'anomalie data quality options** : les valeurs JSON Put/Call 0.55, Max Pain $140.00 et Call OI 64.4% sont désormais cohérentes et fiables. La légère dégradation du biais options (Put/Call +0.07, Call OI −3.0 pp) est marginale et ne modifie pas la thèse. Pas d'entrée avant rebond RSI au-dessus de 40 et franchissement MM50 ($142.64) avec volume > 40M.
 
 ---
 
@@ -162,21 +162,22 @@
 | Take-Profit | $152.93 | **$152.93** | Cours + 3×ATR = $136.88 + $16.05. Objectif technique sous consensus PT |
 | Ratio R/R | 1.5 | **1.5** | — |
 
-**Note institutionnelle :** Les niveaux sont inchangés en raison de la stabilité totale des données techniques (cours, ATR, MM50 identiques). Le SL $126.18 correspond à la zone $126–$130 (support technique post-rally). Une cassure sous $126.18 en clôture = invalidation du trend neutre et risque de retour vers $118.93 (52W low). Le TP $152.93 reste conservateur. Si le cours franchit $142.64 (MM50) sur volume > 40M, le TP peut être révisé vers $160–$165. **Expiration options 29/05 dans 3 jours** : le Max Pain $140.00 vs cours $136.88 indique un potentiel de rebond mécanique de +2.3% si le gamma call se décharge.
+**Note institutionnelle :** Les niveaux sont inchangés en raison de la stabilité totale des données techniques (cours, ATR, MM50 identiques). Le SL $126.18 correspond à la zone $126–$130 (support technique post-rally). Une cassure sous $126.18 en clôture = invalidation du trend neutre et risque de retour vers $118.93 (52W low). Le TP $152.93 reste conservateur. Si le cours franchit $142.64 (MM50) sur volume > 40M, le TP peut être révisé vers $160–$165. **Expiration options 29/05 dans 3 jours** : le Max Pain $140.00 vs cours $136.88 indique un potentiel de rebond mécanique de +2.3% si le gamma call se décharge. Le Put/Call 0.55 (vs 0.48) indique cependant une prudence croissante du marché options.
 
 ---
 
 ## Conclusion — Thèse Confirmée, Modifiée ou Invalidée ?
 
-**Verdict : CONFIRMÉE — Thèse SURVEILLER maintenue. Snapshot 10:00 UTC confirme la stabilité totale vs 21:00 UTC du 25/05 (snapshot pré-ouverture, marché rouvre après Memorial Day).**
+**Verdict : CONFIRMÉE — Thèse SURVEILLER maintenue. Snapshot 13:00 UTC confirme la stabilité vs 21:00 UTC du 25/05. Anomalie data quality options résolue.**
 
-### Ce qui a changé (snapshot 2026-05-26 10:00 UTC) :
-1. **Cours 0.00%** — Stabilité totale vs close 25/05 ($136.88). Le snapshot est pré-ouverture (06:00 EDT).
+### Ce qui a changé (snapshot 2026-05-26 13:00 UTC) :
+1. **Cours 0.00%** — Stabilité totale vs close 25/05 ($136.88).
 2. **RSI 35.66** — Inchangé. Survente technique persistante.
 3. **Volume 27.48M (−32.4%)** — Compression volumétrique persistante. Aucun signal de retour institutionnel.
-4. **Anomalie options JSON** — Put/Call null, Max Pain $50.00 aberrant (incompatible avec spot $136.88). Valeurs confirmées du 25/05 conservées (Put/Call 0.48, Max Pain $140.00, Call OI 67.4%).
-5. **Score Momentum 3.5** — Inchangé. Dynamique baissière inchangée.
-6. **Score Global ajusté 42.5** — Inchangé.
+4. **Résolution anomalie options JSON** — Les données corrompues du snapshot 10:00 UTC (put/call null, max pain $50.00 aberrant) sont corrigées. Valeurs validées : Put/Call 0.55, Max Pain $140.00, Call OI 64.4%.
+5. **Biais options légèrement atténué** — Put/Call 0.48 → 0.55 (+0.07), Call OI 67.4% → 64.4% (−3.0 pp). Le marché options reste haussier mais avec moins de conviction.
+6. **Score Momentum 3.5** — Inchangé. Dynamique baissière inchangée.
+7. **Score Global ajusté 42.5** — Inchangé.
 
 ### Ce qui n'a PAS changé :
 1. **Fondamentaux FMP FY2025** : marges excellentes (GM 82%, OM 32%, NM 36%), bilan quasi-sans dette, ROIC 18%.
@@ -186,16 +187,15 @@
 5. **Aucune news PLTR** détectée dans le snapshot Yahoo.
 6. **Aucun événement corporate** détecté (`data/events_latest.json` vide).
 7. **Accounting risk non quantifié** — Absence de scan comptable (M-Score, Z-Score, F-Score, Sloan).
-8. **Snapshot 10:00 UTC = identique au 21:00 UTC du 25/05** — Marché non ouvert au moment du fetch.
+8. **Snapshot 13:00 UTC = identique au 21:00 UTC du 25/05** sur les données de cours et technique.
 
 ### Risques identifiés (révisés)
 1. **Survente technique (RSI 35.66)** — Risque de continuation baissière si le volume ne revient pas. Probabilité de rebond technique faible sans catalyseur.
 2. **Volume compressé −32.4%** — Tout rebond sans volume > 40M reste fragile et sujet à repli.
-3. **Gamma risk à expiration 29/05** — Dans 3 jours. Max Pain $140.00 vs cours $136.88 = potentiel de rebond mécanique de +2.3% si le momentum call se maintient.
+3. **Gamma risk à expiration 29/05** — Dans 3 jours. Max Pain $140.00 vs cours $136.88 = potentiel de rebond mécanique de +2.3% si le momentum call se maintient. Put/Call 0.55 indique cependant une prudence croissante.
 4. **Valorisation extrême** — Multiples incompatible avec un environnement de taux élevés ou de compression sectorielle.
 5. **Accounting risk non quantifié** — Absence de scan comptable.
 6. **Beta 1.52** — Amplification des rotations sectorielles. En cas de rotation défavorable tech, PLTR surperformerait à la baisse.
-7. **Anomalie data quality options** — Put/call null et max pain aberrant dans le JSON du 26/05. Risque de données corrompues ou schema change côté API Yahoo. À surveiller sur les prochains snapshots.
 
 ### Positionnement Argus-IA
 - **Action : SURVEILLER** — Pas d'entrée à $136.88.
@@ -215,9 +215,9 @@
 ---
 
 ## Références
-- `data/latest.json` (snapshot 10:00 UTC) — Cours $136.88, RSI 35.66, ATR $5.35, MM50 $142.64, volume 27.48M, short interest 2.77%, consensus FMP $186.15, options anomalie (put/call null, max pain $50.00 aberrant)
+- `data/latest.json` (snapshot 13:00 UTC) — Cours $136.88, RSI 35.66, ATR $5.35, MM50 $142.64, volume 27.48M, short interest 2.77%, consensus FMP $186.15, options (put/call 0.55, max pain $140.00, call OI 64.4%)
 - `data/recommandations_2026-05-26.json` — Score Opportunité 5.1/10, Score Global 50.5/100 (ajusté 42.5), Recommandation SURVEILLER, SL $126.18, TP $152.93
-- `data/validation_report.txt` (2026-05-26) — À consulter pour erreurs globales. PLTR non concerné par les anomalies identifiées sur d'autres tickers.
+- `data/validation_report.txt` (2026-05-26) — 4 errors globales (AST/AXA/CYTOMX/QTBS fetch failed). PLTR non concerné.
 - `data/sector_rotation_2026-05-26.json` — XLK top sector (momentum 10.0/10)
 - `data/fx_exposure_2026-05-26.json` — FX Impact Score 0.0, neutral
 - `data/social_sentiment_2026-05-26.json` — Sentiment retail 0 mentions (EXTREME_BEARISH)
