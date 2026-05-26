@@ -668,3 +668,21 @@
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-05-26 — Full Refresh Triggered (résolu)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.28% (seuil 5.0%)
+
+**Conclusion :** Thèse **MODIFIÉE** — pression technique baissière accrue sur session active post-Memorial Day. Cours $323.91 (−1.08% vs close précédent). Rejet intraday massif : open $341.06 → low $323.26 (−5.2%). Volume explosion +34% à 1.12× moyenne 20j = distribution confirmée. RSI tombé à 44.32 (sous 45). Support $324 testé et marginalement rompu intraday ($323.26). Score Opportunité revu à 3.9/10 (−0.4 pt), Score Global Ajusté 43.8/100 (−4.5 pts). Fondamentaux inchangés (Quality Compounder 5–6/6, ROIC 18.5%). La consolidation $324–$335 est sous pression extrême. Recommandation : SURVEILLER avec nuance baissière accrue. Pas de position sans confirmation au-dessus de $335 ou retest $314–$324. DRAFT archivé. Voir [VRT_2026-05-26_update.md](./VRT_2026-05-26_update.md).
+
+---
+
+## 2026-05-26 — Full Refresh Triggered (résolu)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.28% (seuil 5.0%)
+
+**Conclusion :** Thèse **MODIFIÉE** — pression technique baissière accrue sur session active post-Memorial Day. Cours $323.91 (−1.08% vs close précédent). Rejet intraday massif : open $341.06 → low $323.26 (−5.2%). Volume explosion +34% à 1.12× moyenne 20j = distribution confirmée. RSI tombé à 44.32 (sous 45). Support $324 testé et marginalement rompu intraday ($323.26). Score Opportunité revu à 3.9/10 (−0.4 pt), Score Global Ajusté 43.8/100 (−4.5 pts). Fondamentaux inchangés (Quality Compounder 5–6/6, ROIC 18.5%). La consolidation $324–$335 est sous pression extrême. Recommandation : SURVEILLER avec nuance baissière accrue. Pas de position sans confirmation au-dessus de $335 ou retest $314–$324. DRAFT archivé. Voir [VRT_2026-05-26_update.md](./VRT_2026-05-26_update.md).
+
+---
