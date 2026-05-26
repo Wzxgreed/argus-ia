@@ -1,5 +1,14 @@
 # FUBO — Historique des Full Refreshes
 
+## 2026-05-26 — Full Refresh Résolu (Snapshot 17:00 UTC)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.49% (seuil 5.0%) — persistant depuis 2026-05-17
+
+**Conclusion :** Thèse CONFIRMÉE (SURVEILLER). Snapshot 17:00 UTC enregistre une dégradation de la liquidité : close $9.56 (−1.95% vs previous), volume effondré à 517 593 (0.37× moyenne 20j), RSI 21.26 survente extrême, max pain $10.00 pinning baissier intensifié (−4.4%). Momentum agent retrait à 4.5/10. Score Global ajusté agent 64.2/100, ajustement analyste ~42/100 sur base liquidité critique + earnings Q1 J=0 non résolu après 7 jours. Divergence Yahoo/FMP persistante ($281.4M vs ~$3.27B — ×11.6). Score Qualité 1/6 confirmé. DRAFT_refresh.md archivé (`FUBO_2026-05-26_DRAFT_refresh.md` → `_DRAFT_refresh_2026-05-26_ARCHIVED.md`). Pas de position longue recommandée.
+
+---
+
 ## 2026-05-25 — Full Refresh Résolu (Snapshot 13:00 UTC)
 
 **Triggers :**
