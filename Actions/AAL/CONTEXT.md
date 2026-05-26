@@ -11,12 +11,12 @@
 **Prix cible :** $15.50 (cours + 3×ATR) / Réviser à $16.00 si momentum confirmé sur volume > 80M  
 **Stop-loss :** $12.75 (cours − 2×ATR, support technique post-rally)  
 **Upside/Downside :** +11.9% / −7.9%  
-**Dernière mise à jour :** 2026-05-25 (snapshot 21:00 UTC)
+**Dernière mise à jour :** 2026-05-26 (snapshot 10:00 UTC)
 
-American Airlines est une compagnie aérienne legacy fortement endettée (~$40B) avec aucun moat. Hors périmètre qualité (0-1/6). Le rally du 20–25/05 a matérialisé +14.8% ($12.06 → $13.85), atteignant et dépassant l'ancien TP ($13.47). Le Forward P/E est remonté à 6.26, réduisant l'asymétrie valorisation (upside consensus +15.7% vs +32.8%). Le RSI 71.43 franchit la zone de surachat et le volume a explosé à 99.26M (+71.5% vs moyenne), signalant un probable short-covering massif. Le secteur Industrials (XLI) est dans le bottom3 de la rotation sectorielle (momentum 0.0), offrant aucun vent favorable. Les données options sont revenues complètes : Put/Call 1.82 (−31.8% vs 2.67), Max Pain $13.00 (réaligné), Call OI 35.5% = repositionnement call amplifié. Le consensus FMP reste figé à $16.02 (15 analystes, 0 mise à jour le mois dernier). Le score agent a été downgradé à 5.7/10 (SURVEILLER, timing défavorable). **Verdict institutionnel :** la thèse tactique ACHETER sizing réduit est partiellement matérialisée. Ne pas chaser à $13.85. Attendre une consolidation vers $12.75–$13.20 ou une cassure confirmée au-dessus de $14.18 sur volume normalisé. Respect strict du SL révisé à $12.75. AAdvantage (programme loyalty) reste le hidden asset (~$20-25B > market cap). Risque gamma à expiration 29/05 (Max Pain $13.00). Divergence P/E Yahoo 44.68 vs FMP 91.22 persiste. Snapshot 17:00 UTC confirme stabilité totale vs 13:00 UTC — aucune mutation de données.
+American Airlines est une compagnie aérienne legacy fortement endettée (~$40B) avec aucun moat. Hors périmètre qualité (0-1/6). Le rally du 20–25/05 a matérialisé +14.8% ($12.06 → $13.85), atteignant et dépassant l'ancien TP ($13.47). Le Forward P/E est remonté à 6.26, réduisant l'asymétrie valorisation (upside consensus +15.7% vs +32.8%). Le RSI 71.43 franchit la zone de surachat et le volume a explosé à 99.26M (+71.5% vs moyenne), signalant un probable short-covering massif. Le secteur Industrials (XLI) est dans le bottom3 de la rotation sectorielle (momentum 0.0), offrant aucun vent favorable. **⚠️ Alerte data quality options (26/05) :** `put_call_ratio` et `call_oi_pct` passés à `null` dans `data/latest.json`, `max_pain` affiché à $5.00 (aberrant). Les dernières valeurs valides du 25/05 sont conservées : Put/Call 1.82, Max Pain $13.00, Call OI 35.5%. Le consensus FMP reste figé à $16.02 (15 analystes, 0 mise à jour le mois dernier). Le score agent a été downgradé à 5.7/10 (SURVEILLER, timing défavorable). **Verdict institutionnel :** la thèse tactique ACHETER sizing réduit est partiellement matérialisée. Ne pas chaser à $13.85. Attendre une consolidation vers $12.75–$13.20 ou une cassure confirmée au-dessus de $14.18 sur volume normalisé. Respect strict du SL révisé à $12.75. AAdvantage (programme loyalty) reste le hidden asset (~$20-25B > market cap). Risque gamma à expiration 29/05 (Max Pain $13.00, dernière valeur valide). Divergence P/E Yahoo 44.68 vs FMP 91.22 persiste. Snapshot 26/05 10:00 UTC confirme stabilité totale vs 25/05 (Memorial Day, marché fermé) — aucune mutation de données.
 
-**✅ Données complètes** — Cours, RSI, ATR, P/E, beta, consensus FMP, short interest, volume, options complètes disponibles dans `data/2026-05-25.json`.  
-**⚠️ Données manquantes / Alerte data quality** — Accounting risk (M-Score, Z-Score, F-Score, Sloan) : fichier indisponible. Quant report insuffisant. MACD, MM200, IV Rank, insider trades détaillés, 13F complets, ETF flows, dark pool, transcripts NLP, job postings.
+**✅ Données complètes** — Cours, RSI, ATR, P/E, beta, consensus FMP, short interest, volume disponibles dans `data/2026-05-26.json`.  
+**⚠️ Données manquantes / Alerte data quality** — Options (`put_call_ratio` null, `max_pain` $5.00 aberrant, `call_oi_pct` null) : dernières valeurs valides du 25/05 conservées. Accounting risk (M-Score, Z-Score, F-Score, Sloan) : fichier indisponible. Quant report insuffisant. MACD, MM200, IV Rank, insider trades détaillés, 13F complets, ETF flows, dark pool, transcripts NLP, job postings.
 
 ---
 
@@ -40,12 +40,14 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 - Baisse — $11.41 (SL 2×ATR) — 🟢 Active
 - Hausse — $14.00 (prix cible) — 🟢 Active
 - Volume — >2× moy. 20j (>XXM) — 🟢 Active
+- **Data quality options** — `put_call_ratio` null, `max_pain` $5.00 aberrant, `call_oi_pct` null dans `data/latest.json` — 🟡 Active (26/05)
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- 2026-05-29 — Expiration options (Max Pain $13.00, dernière valeur valide) — risque gamma
+- 2026-07-23 — Earnings Q2 FY2026 — Est EPS -$0.34 à $0.17, Rev $16.6B
 
 ---
 
@@ -61,10 +63,10 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-25
+- **Date :** 2026-05-26
 - **Type :** update
-- **Fichier :** `AAL_2026-05-25_update.md`
-- **Conclusion :** **Date :** 2026-05-25 (snapshot 21:00 UTC)
+- **Fichier :** `AAL_2026-05-26_update.md`
+- **Conclusion :** Thèse SURVEILLER confirmée — snapshot 10:00 UTC post-Memorial Day stable vs 25/05. Alerte data quality options (put/call null, max_pain aberrant $5.00). Dernières valeurs valides du 25/05 conservées. Earnings Q2 dans 58 jours.
 
 ---
 

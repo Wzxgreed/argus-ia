@@ -684,7 +684,7 @@ Données strictement inchangées vs snapshot 17:00 UTC (cours $56.83, RSI 56.77,
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.29% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** confirm — duplicata de session, données strictement inchangées vs snapshot 21:00 UTC du 2026-05-25 (cours $56.83, RSI 56.77, ATR $5.85, MM50 $46.10, scores 6.1/10 et 65.8/100). Marché fermé Memorial Day, reprise attendue ce jour. Aucun nouveau flux post-earnings intégré (J=0, résultats non publiés). Anomalie options : Max Pain $20.00 (probable erreur de données), put/call et call OI indisponibles. Thèse confirmée : ACHETER sizing réduit. DRAFT_refresh complété et archivé.
 
 ---
 
@@ -693,6 +693,6 @@ Données strictement inchangées vs snapshot 17:00 UTC (cours $56.83, RSI 56.77,
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.29% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** confirm — duplicata du FULL REFRESH complété précédemment ce jour. Données strictement inchangées. DRAFT_refresh archivé.
 
 ---

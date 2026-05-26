@@ -43,6 +43,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 | 2026-05-25 | [IREN_2026-05-25_update.md](IREN_2026-05-25_update.md) (snapshot 17:00 UTC) | Mise à jour post-rally (snapshot 17:00 UTC) | Snapshot 17:00 UTC — stabilité totale vs 13:00 UTC — **Rally +19.0%** ($47.74 → $56.83) · consolidation −2.12% · P/E 73.8× · put/call **2.35** · call OI **29.8%** · Max Pain $39.00 · earnings J=0 · Score Opportunité 6.1/10 · Score Global 65.8/100 · Thèse modifiée — momentum renforcé, valuation dégradée, défiance options massive |
 | 2026-05-25 | [IREN_2026-05-25_update.md](IREN_2026-05-25_update.md) (snapshot 21:00 UTC) | Mise à jour post-session (snapshot 21:00 UTC) | Snapshot 21:00 UTC — **stabilité totale vs 17:00 UTC** — données strictement identiques (marché fermé Memorial Day) · earnings J=0 non publiés · DRAFT_refresh traité et archivé · Score Opportunité 6.1/10 inchangé · Score Global 65.8/100 inchangé · Thèse confirmée |
 | 2026-05-25 | [IREN_2026-05-25_init.md](IREN_2026-05-25_init.md) | Full Refresh (post-ATR spike) | Analyse complète réécrite post-rally +19% · Filtre Qualité 4/6 confirmé · Market Researcher actualisé · Scénarios post-earnings confirmés · Thèse confirmée avec vigilance accrue |
+| 2026-05-26 | [IREN_2026-05-26_update.md](IREN_2026-05-26_update.md) | Mise à jour matin (snapshot 10:00 UTC) | Stabilité quasi-totale vs 2026-05-25 21:00 UTC · Anomalie options (Max Pain $20.00, put/call indisponible) · Earnings J=0 attendu aujourd'hui · DRAFT_refresh traité et archivé · Thèse confirmée |
 
 ---
 
