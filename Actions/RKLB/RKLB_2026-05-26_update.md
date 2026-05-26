@@ -1,12 +1,12 @@
-# RKLB — Mise à Jour Snapshot 10:00 UTC (2026-05-26)
+# RKLB — Mise à Jour Snapshot 13:00 UTC (2026-05-26)
 
-> Source : `data/latest.json` (fetched 2026-05-26T10:00:13 UTC) | `data/recommandations_2026-05-26.json` | Marché US fermé à 10:00 UTC (ouverture 13:30 UTC)
+> Source : `data/latest.json` (fetched 2026-05-26T13:00:13 UTC) | `data/recommandations_latest.json` | Marché US non ouvert à 13:00 UTC (ouverture 13:30 UTC)
 
 ---
 
 ## 1. Résumé des Changements depuis l'Analyse Précédente
 
-| Métrique | Snapshot 21:00 UTC 25/05 | Snapshot 10:00 UTC 26/05 | Variation |
+| Métrique | Snapshot 10:00 UTC 26/05 | Snapshot 13:00 UTC 26/05 | Variation |
 |---|---|---|---|
 | **Cours close** | $135,76 | **$135,76** | **0,00 %** — stabilité totale |
 | **Change % vs veille** | +8,22 % | **+8,22 %** | Inchangé |
@@ -20,11 +20,11 @@
 | **P/B (Yahoo)** | 34,52× | **34,52×** | Inchangé |
 | **Consensus PT (FMP)** | $84,20 | **$84,20** | Inchangé — divergence +61,3 % |
 | **Score Global Agent** | 40,8/100 (aj. 30,8) | **40,8/100** (aj. **30,8**) | Inchangé — ÉVITER |
-| **Max Pain** | $73,00 [ANOMALIE] | **$45,00** | 🔴 **[ANOMALIE DATA]** — valeur révisée, toujours incohérente |
-| **Put/Call ratio** | 1,00 | **null** | 🔴 **[ANOMALIE DATA]** — flux options interrompu |
-| **Call OI %** | 50,0 % | **null** | 🔴 **[ANOMALIE DATA]** — flux options interrompu |
+| **Max Pain** | $45,00 [ANOMALIE] | **$130,00** | 🟢 **ANOMALIE RÉSOLUE** |
+| **Put/Call ratio** | null [ANOMALIE] | **1,08** | 🟢 **ANOMALIE RÉSOLUE** |
+| **Call OI %** | null [ANOMALIE] | **48,1 %** | 🟢 **ANOMALIE RÉSOLUE** |
 
-**Verdict** : Snapshot 10:00 UTC du 26 mai 2026 = stabilité totale vs snapshot 21:00 UTC du 25 mai. Le marché US n'avait pas encore ouvert à 10:00 UTC (ouverture 13:30 UTC) — les données de clôture du 25 mai restent les références opérationnelles. La thèse **ÉVITER** est confirmée sans modification.
+**Verdict** : Snapshot 13:00 UTC du 26 mai 2026 = stabilité totale des données de cours vs snapshot 10:00 UTC (marché US non ouvert à 13:00 UTC). **La résolution de l'anomalie options JSON est le seul événement significatif** : Max Pain rétabli à $130,00, Put/Call à 1,08, Call OI à 48,1 %. La thèse **ÉVITER** est confirmée sans modification.
 
 ---
 
@@ -41,13 +41,13 @@
 | **52W High / Low** | $139,76 / $25,24 | Spot à **–2,9 %** du 52W high. |
 | **Short Interest** | 5,79 % | Stable. Élevé ; squeeze possible si catalyseur. |
 
-**Niveaux clés révisés** (inchangés vs 21:00 UTC 25/05) :
+**Niveaux clés révisés** (inchangés vs 10:00 UTC) :
 - Support immédiat : **$131,31** (basse intraday 25/05)
 - Support technique majeur : **$110,94** (spot – 2×ATR)
 - Résistance immédiate : **$139,76** (haute intraday 25/05, 52W high)
 - Résistance / Objectif : **$172,99** (spot + 3×ATR)
 - Confluence technique : $80–$95 (zone MM50j — éloignée de –33 %)
-- **Max Pain** (éch. 2026-05-29) : **$45,00** [ANOMALIE DATA] — incohérent vs spot, probable artefact flux
+- **Max Pain** (éch. 2026-05-29) : **$130,00** — rétabli, écart –4,2 % vs spot
 
 **Verdict timing : Défavorable** — Configuration inchangée. RSI > 74, écart MM50 > 59 %, ATR stable en zone élevée. Aucun signal de retournement.
 
@@ -55,9 +55,9 @@
 
 ## 3. Mise à Jour Fondamentale
 
-Aucune nouvelle donnée fondamentale. Snapshot pre-market 10:00 UTC.
+Aucune nouvelle donnée fondamentale. Snapshot pre-market 13:00 UTC.
 
-| Métrique | Valeur | Source | Évolution vs 21:00 UTC 25/05 |
+| Métrique | Valeur | Source | Évolution vs 10:00 UTC |
 |---|---|---|---|
 | Market Cap (Yahoo) | **$78,59 Mds** | Yahoo Finance | Inchangé |
 | Forward P/E | **–12 319** | Yahoo Finance | Inchangé |
@@ -93,18 +93,24 @@ Aucune nouvelle donnée fondamentale. Snapshot pre-market 10:00 UTC.
 
 ## 4. Mise à Jour Sentiment / Options / News
 
-| Signal | Valeur | Évolution vs 21:00 UTC 25/05 |
+| Signal | Valeur | Évolution vs 10:00 UTC |
 |---|---|---|
 | **Consensus analystes (FMP)** | $84,20 (15 analysts) | Inchangé |
-| **Put/Call ratio** | **null** | 🔴 **[ANOMALIE DATA]** — flux interrompu (était 1,00) |
-| **Call OI %** | **null** | 🔴 **[ANOMALIE DATA]** — flux interrompu (était 50,0 %) |
-| **Max Pain (snapshot)** | **$45,00** | 🔴 **[ANOMALIE DATA]** — révisé depuis $73,00, toujours incohérent |
+| **Put/Call ratio** | **1,08** | 🟢 **RÉSOLU** — flux restauré (était null) |
+| **Call OI %** | **48,1 %** | 🟢 **RÉSOLU** — flux restauré (était null) |
+| **Max Pain (snapshot)** | **$130,00** | 🟢 **RÉSOLU** — rétabli depuis $45,00 anomalie |
 | **Short Interest** | 5,79 % | Inchangé |
 | **News du jour** | Aucune | `data/news_2026-05-26.json` vide pour RKLB. |
 | **Social Sentiment** | 0 mentions, score 0/10 | Aucune activité retail. |
 | **NLP Transcripts** | Indisponible | Plan FMP Starter. |
 
-**Verdict Sentiment :** Neutre / Légèrement baissier — Aucune évolution depuis 21:00 UTC 25/05. Le biais call est neutralisé par l'absence de données (flux interrompu). Aucun upgrade/downgrade. Aucune news. Le mouvement du 25 mai reste purement technique/momentum sans support informationnel.
+**Analyse options post-résolution** :
+- **Max Pain $130,00** (éch. 2026-05-29, **3 jours**) : écart –4,2 % vs spot $135,76. Le marché options price un pin proche de $130, légèrement sous le spot actuel. Avec 3 jours avant expiration, la pression de pin risque de tirer le cours vers $130.
+- **Put/Call 1,08** : léger biais put (ratio > 1,0). Les détenteurs d'options privilégient légèrement la protection à la hausse.
+- **Call OI 48,1 %** : < 50 %, confirmant un léger biais baissier dans l'open interest.
+- **Synthèse options** : configuration légèrement baissière à très courte échéance (3 jours). Le pin $130 est un niveau de support psychologique actif.
+
+**Verdict Sentiment :** Neutre / Légèrement baissier — La résolution des données options révèle un biais put modéré et un pin $130 proche du spot. Aucun support call massif n'est détecté. Aucun upgrade/downgrade. Aucune news. Le mouvement du 25 mai reste purement technique/momentum sans support informationnel.
 
 ---
 
@@ -146,7 +152,9 @@ Aucune nouvelle donnée fondamentale. Snapshot pre-market 10:00 UTC.
 | **Take-profit** | $172,99 (+27,4 %) | 3×ATR ($12,41) — aligné agent officiel |
 | **Ratio R/R** | **1,5 : 1** | **Inférieur au seuil minimum 2:1** pour un trade directionnel à haut beta |
 
-> **Révision** : Niveaux inchangés vs snapshot 21:00 UTC 25/05 (données identiques). Le SL expose à un drawdown de –18,3 % en 1–2 séances compte tenu du Beta 2,31 et de l'ATR $12,41.
+> **Révision** : Niveaux inchangés vs snapshot 10:00 UTC (données identiques). Le SL expose à un drawdown de –18,3 % en 1–2 séances compte tenu du Beta 2,31 et de l'ATR $12,41.
+
+**Niveau de pin options** : Max Pain $130,00 (éch. 2026-05-29) constitue un support psychologique très proche du spot (–4,2 %). Si le cours casse sous $130 avant expiration, la pression gamma put pourrait amplifier le mouvement baissier.
 
 ---
 
@@ -155,9 +163,9 @@ Aucune nouvelle donnée fondamentale. Snapshot pre-market 10:00 UTC.
 | Événement | Date | Jours restants | Détail |
 |---|---|---|---|
 | **Earnings Q2 2026** | 2026-08-06 | **72 jours** | Est EPS : –$0,06 à –$0,02 ; Rev : $0,2 B |
-| **Expiration options** | 2026-05-29 | **3 jours** | Max Pain $45,00 [ANOMALIE DATA] — à ignorer en l'état |
+| **Expiration options** | 2026-05-29 | **3 jours** | Max Pain $130,00 — pin actif, biais put léger |
 
-**Prochain catalyseur majeur** : Aucun avant earnings (août). L'expiration options du 29 mai approche dans 3 jours.
+**Prochain catalyseur majeur** : Aucun avant earnings (août). L'expiration options du 29 mai approche dans 3 jours avec un pin $130 légèrement sous le spot.
 
 ---
 
@@ -165,19 +173,27 @@ Aucune nouvelle donnée fondamentale. Snapshot pre-market 10:00 UTC.
 
 **Verdict : THÈSE CONFIRMÉE 🔴 ÉVITER**
 
-Le snapshot 10:00 UTC du 26 mai 2026 confirme la **stabilité totale** des données vs le snapshot 21:00 UTC du 25 mai. Le marché US n'avait pas encore ouvert à 10:00 UTC — aucune nouvelle cotation, aucune news, aucun mouvement.
+Le snapshot 13:00 UTC du 26 mai 2026 confirme la **stabilité totale** des données de cours vs le snapshot 10:00 UTC. Le marché US n'avait pas encore ouvert à 13:00 UTC — aucune nouvelle cotation, aucune news, aucun mouvement.
 
-**Éléments clés vs analyse précédente (21:00 UTC 25/05)** :
-1. **Cours stable à $135,76** — identique au snapshot 21:00 UTC 25/05.
+**La seule évolution significative est la résolution de l'anomalie options JSON** :
+- **Max Pain rétabli à $130,00** (vs $45,00 anomalie précédente) — cohérent avec le spot $135,76.
+- **Put/Call 1,08** — léger biais put, flux restauré.
+- **Call OI 48,1 %** — biais call neutralisé, flux restauré.
+
+**Éléments clés vs analyse précédente (10:00 UTC)** :
+1. **Cours stable à $135,76** — identique au snapshot 10:00 UTC.
 2. **Données techniques inchangées** — RSI 74,84, ATR $12,41, MM50 $85,31.
 3. **Données fondamentales inchangées** — aucun nouvel événement structurant.
 4. **Score agent inchangé** : 40,8/100 (aj. 30,8) — ÉVITER maintenu.
 5. **Filtre Qualité 3/6** inchangé — hors périmètre institutionnel.
-6. **🔴 [ANOMALIE DATA]** Max Pain révisé de $73,00 à $45,00 — probable erreur flux Yahoo persistante. Put/Call et Call OI passés à `null` (flux interrompu).
+6. **🟢 [ANOMALIE RÉSOLUE]** Données options JSON corrigées : Max Pain $130,00, Put/Call 1,08, Call OI 48,1 %.
 7. **Sector rotation défavorable** — XLI sans momentum, sous-performe SPY 20j/60j.
 8. **Aucune news** — mouvement purement technique confirmé.
+9. **Pin options** : Max Pain $130,00 dans 3 jours — légèrement sous le spot, pression de rappel possible.
 
-**Recommandation** : Maintenir la posture **ÉVITER**. La stabilité des données renforce la confiance dans la thèse opérationnelle : aucun catalyseur fondamental, valorisation déconnectée, surchauffe technique extrême. Attendre :
+**Recommandation** : Maintenir la posture **ÉVITER**. La stabilité des données renforce la confiance dans la thèse opérationnelle : aucun catalyseur fondamental, valorisation déconnectée, surchauffe technique extrême. La résolution des données options révèle en outre un léger biais put et un pin $130 proche du spot, ce qui ne constitue pas un signal haussier.
+
+Attendre :
 - Un **retour vers la zone de confluence $110–$120** (gap fill + test de support), ou
 - Une **inflexion matérielle des anticipations de résultats** (guidance positive, contrat majeur, etc.), ou
 - Un **refroidissement technique** (RSI < 70 sur plusieurs séances + volume décroissant) avant toute réévaluation.
@@ -186,4 +202,4 @@ Toute position longue actuelle expose à un drawdown de –18,3 % (SL) en 1–2 
 
 ---
 
-*Rapport généré le 2026-05-26 — Données : `data/latest.json` (10:00 UTC), `data/recommandations_2026-05-26.json`, `data/upcoming_events_2026-05-26.json`, `data/events_2026-05-26.json`, `data/news_2026-05-26.json`, `data/social_sentiment_2026-05-26.json`, `data/geo_risk_latest.json` (2026-05-17), `data/sector_rotation_2026-05-26.json`, `data/fx_exposure_2026-05-26.json`, `data/quant_report_latest.json` (2026-05-17)*
+*Rapport généré le 2026-05-26 — Données : `data/latest.json` (13:00 UTC), `data/recommandations_2026-05-26.json`, `data/upcoming_events_2026-05-26.json`, `data/events_2026-05-26.json`, `data/news_2026-05-26.json`, `data/social_sentiment_2026-05-26.json`, `data/geo_risk_latest.json` (2026-05-17), `data/sector_rotation_2026-05-26.json`, `data/fx_exposure_2026-05-26.json`, `data/quant_report_latest.json` (2026-05-17)*

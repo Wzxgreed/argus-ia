@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
+- **Recommandation :** ÉVITER
+- **Score global :** 40.8/100 (ajusté 30.8)
+- **Prix cible :** —
+- **Stop-loss :** $110.94
+- **Statut thèse :** ÉVITER confirmé — stabilité totale snapshot 13:00 UTC, marché non ouvert
 - **Horizon :** —
 
 ---
@@ -24,13 +24,23 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- RSI 74.84 — surachat technique persistant
+- Divergence consensus — spot +61.3% vs PT $84.20
+- Filtre Qualité 3/6 — hors périmètre institutionnel
+- Ratio R/R 1.5:1 — inférieur au seuil 2:1
+- Pin options Max Pain $130.00 (éch. 2026-05-29, 3 jours) — écart –4.2% vs spot
+- Put/Call 1.08 — léger biais put
+- Call OI 48.1% — biais call neutralisé
+- [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $78.59 Mds vs FMP $37.02 Mds
+- ATR expansion — volatilité élevée ($12.41)
+- Gap +8.22% sans news — mouvement parabolique
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings Q2 2026 : **2026-08-06** (72 jours)
+- Expiration options : **2026-05-29** (3 jours)
 
 ---
 
@@ -41,15 +51,18 @@
 - **MM 200j :** —
 - **ATR 14j :** 12.41
 - **Volume moy. 20j :** 27765260
+- **Max Pain :** 130.00
+- **Put/Call :** 1.08
+- **Call OI % :** 48.1
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-26
-- **Type :** full refresh
-- **Fichier :** `RKLB_2026-05-26_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-05-26
+- **Type :** update
+- **Fichier :** `RKLB_2026-05-26_update.md`
+- **Conclusion :** Snapshot 13:00 UTC stable vs 10:00 UTC. Seul événement : résolution anomalie options JSON (Max Pain $130, Put/Call 1.08, Call OI 48.1%). Thèse ÉVITER confirmée. Cours $135.76 inchangé (marché non ouvert). RSI 74.84 persistant. Aucune news.
 
 ---
 
