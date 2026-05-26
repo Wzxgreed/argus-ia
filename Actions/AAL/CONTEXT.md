@@ -21,11 +21,11 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 44.0/100
+- **Score global :** —/10
 - **Prix cible :** $16.46
 - **Stop-loss :** $13.61
-- **Statut thèse :** SURVEILLER — confirmée
-- **Horizon :** 1–3 mois
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -37,41 +37,40 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 
 ## 🚨 Alertes actives
 
-- Baisse — $13.61 (SL 2×ATR) — 🟢 Active
-- Hausse — $15.50 (prix cible intermédiaire) — 🟢 Active
-- Volume — >2× moy. 20j (>117M) — 🟢 Active
+- Baisse — $11.41 (SL 2×ATR) — 🟢 Active
+- Hausse — $14.00 (prix cible) — 🟢 Active
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- 2026-05-29 : Expiration options (Max Pain $13.00) — risque gamma décalé
-- 2026-07-23 : Earnings Q2 FY2026 — Est EPS -$0.34 à $0.17, Rev $16.6B
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 73.33
-- **MM 50j :** 11.80
+- **RSI 14j :** 73.85
+- **MM 50j :** 11.8
 - **MM 200j :** —
-- **ATR 14j :** 0.57
-- **Volume moy. 20j :** 58937659
+- **ATR 14j :** 0.58
+- **Volume moy. 20j :** 61001115
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-26
-- **Type :** update post-session
-- **Fichier :** `AAL_2026-05-26_update.md`
-- **Conclusion :** Session active gap +6.5% ($13.85 → $14.75). Score Opportunité downgradé 5.7 → 5.4/10 (SURVEILLER). Thèse confirmée, setup risque/rendement défavorable à ce niveau. Rally +22.4% depuis 20/05 entièrement matérialisé.
+- **Type :** full refresh
+- **Fichier :** `_DRAFT_refresh_2026-05-26.md`
+- **Conclusion :** > **Date :** 2026-05-26
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +6.50% overnight (seuil ±5.0%)
+- **PRICE_GAP** (medium) — Gap +7.18% overnight (seuil ±5.0%)
 
 ---
 

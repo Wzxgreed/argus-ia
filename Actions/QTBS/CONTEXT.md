@@ -60,7 +60,7 @@
 - **Date :** 2026-05-26
 - **Type :** update
 - **Fichier :** `QTBS_2026-05-26_update.md`
-- **Conclusion :** > **Date :** 2026-05-26 (snapshot 10:00 UTC, post-Memorial Day)
+- **Conclusion :** > **Date :** 2026-05-26 (snapshot 17:00 UTC, post-Memorial Day)
 
 ---
 

@@ -18,7 +18,6 @@
 | AST | earnings | 2026-05-26 | 0j | Earnings ... | fmp |
 | AXA | earnings | 2026-05-26 | 0j | Earnings ... | fmp |
 | SPCX | earnings | 2026-05-26 | 0j | Earnings ... | fmp |
-| CYTOMX | earnings | 2026-05-26 | 0j | Earnings ... | fmp |
 | QTBS | earnings | 2026-05-26 | 0j | Earnings ... | fmp |
 
 ---

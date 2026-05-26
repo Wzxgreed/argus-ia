@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ÉVITER
-- **Score global :** 31.8/100
-- **Prix cible :** $73.80
-- **Stop-loss :** $47.80
-- **Statut thèse :** Confirmée et renforcée
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -24,8 +24,7 @@
 
 ## 🚨 Alertes actives
 
-- **DEUXIEME GAP NON EXPLIQUE** — Deuxieme gap haussier consecutif : +17.57% a $58.20 apres +15.49% a $49.50. Cumul +35.8% en 2 sessions sans catalyst.
-- **RSI EXTREME** — RSI 14j 81.11. Surachat extreme, vulnerabilite a un retournement violent.
+- Aucune alerte active.
 
 ---
 
@@ -35,29 +34,29 @@
 
 ---
 
-## 📊 Contexte technique (dernier snapshot 17:00 UTC)
+## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 81.11
-- **MM 50j :** 35.32
+- **RSI 14j :** 81.37
+- **MM 50j :** 35.33
 - **MM 200j :** —
-- **ATR 14j :** 5.20
-- **Volume moy. 20j :** 6619865
+- **ATR 14j :** 5.36
+- **Volume moy. 20j :** 6922532
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-26
-- **Type :** update_17h
-- **Fichier :** `FLY_2026-05-26_update_17h.md`
-- **Conclusion :** Deuxieme gap consecutif +17.57% a $58.20 sans catalyst. RSI 81.11 extreme. Consensus $42.45 a -27.1% sous le spot. These EVITER confirmee et renforcee. Risque de pinning options vers $49.50 a l'expiration 29/05.
+- **Type :** init
+- **Fichier :** `_FLY_2026-05-26_update_10h.md`
+- **Conclusion :** > **Type :** `_update.md` — Mise à jour post-Memorial Day (snapshot 10:00 UTC)
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (high) — Gap +17.57% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 8.94% (seuil 5.0%)
+- **PRICE_GAP** (high) — Gap +18.81% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 9.11% (seuil 5.0%)
 
 ---
 

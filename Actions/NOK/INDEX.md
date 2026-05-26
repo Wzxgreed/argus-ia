@@ -24,6 +24,7 @@
 | 2026-05-25 | Update (21:00 UTC) | [NOK_2026-05-25_update.md](./NOK_2026-05-25_update.md) | Snapshot 21:00 UTC confirme intégralement le snapshot 17:00. Données strictement inchangées. Thèse ATTENDRE confirmée. DRAFT_refresh archivés. |
 | 2026-05-26 | Update (13:00 UTC) | [NOK_2026-05-26_update.md](./NOK_2026-05-26_update.md) | Snapshot 13:00 UTC. Données prix/technique/fondamentales strictement inchangées vs 10:00 UTC (close $15.47, RSI 64.29, ATR $0.98). Données options restaurées : max pain $15.00 (vs $14.00 au 25/05), put/call 0.51, call OI 66.1%. Pin options remonté, réduisant le risque de retour vers $14.00. Thèse ATTENDRE confirmée. |
 | 2026-05-26 | Update (17:00 UTC) | [NOK_2026-05-26_update.md](./NOK_2026-05-26_update.md) | Snapshot 17:00 UTC. Deuxième gap consécutif (+6.79%, close $16.52). New 52w high $16.625. RSI 67.38, ATR $1.00, volume 1.17×. P/E Yahoo 103.3, premium consensus +78.4%. Double gap +18.3% en 2j sans catalyseur. Thèse modifiée : ATTENDRE maintenu, SL/TP révisés $14.52/$19.52. Risque mean-reversion élevé. |
+| 2026-05-26 | Update (21:00 UTC) | [NOK_2026-05-26_update.md](./NOK_2026-05-26_update.md) | Snapshot 21:00 UTC. Close $16.46 (-0.36% vs 17:00 UTC, +6.40% vs previous close). RSI 67.16, ATR $1.00, volume massif 1.48× (+28.6% vs 17:00 UTC). P/E Yahoo 102.9, premium consensus +77.8%. Options inchangées (max pain $15.00). Thèse modifiée confirmée : ATTENDRE maintenu, SL/TP révisés $14.46/$19.46. Volume de clôture massif — accumulation ou distribution ? |
 
 ---
 
@@ -31,12 +32,12 @@
 
 **Recommandation :** ATTENDRE — Pas de position
 **Prix cible :** $9.26 (consensus 6 analystes)
-**Stop-loss :** $14.52 (cours − 2×ATR)
-**Take-profit :** $19.52 (cours + 3×ATR)
-**Upside/Downside :** −43.9% / −12.1%
-**Dernière mise à jour :** 2026-05-26 17:00 UTC
+**Stop-loss :** $14.46 (cours − 2×ATR)
+**Take-profit :** $19.46 (cours + 3×ATR)
+**Upside/Downside :** −43.7% / −12.2%
+**Dernière mise à jour :** 2026-05-26 21:00 UTC
 
-Double gap haussier consécutif : +9.1% (25/05, close $15.47) puis +6.79% (26/05, close $16.52), soit +18.3% en deux séances sans catalyseur fondamental identifiable. Nouveau 52-week high $16.625. Le momentum technique est réel (RSI 67.38, volume 1.17×, options bullish) mais la valorisation est devenue un frein absolu (P/E Yahoo 103.3, cours +78.4% vs consensus $9.26). Données options : put/call 0.51, call OI 66.1%, max pain $15.00. Le cours ($16.52) est +10.1% au-dessus du max pain avec expiration dans 2 jours (29 mai) — risque de mean-reversion élevé. Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%). Divergence structurelle Yahoo/FMP persistante (P/E FMP 45.8 vs Yahoo 103.3). Dividende 1.06%. Le secteur Communication Services (XLC) est en sous-performance relative vs SPY (bottom 3, RS20d −5.03%), ce qui rend le mouvement totalement idiosyncratique et fragile. Thèse modifiée vs 13:00 UTC : le second gap invalide l'hypothèse de consolidation autour de $15.00, mais ne justifie pas un achat. Pas d'entrée.
+Double gap haussier consécutif : +9.1% (25/05, close $15.47) puis +6.40% (26/05, close $16.46), soit +15.6% en deux séances sans catalyseur fondamental identifiable. Nouveau 52-week high $16.625. Le momentum technique est réel (RSI 67.16, volume 1.48× en clôture, options bullish) mais la valorisation est devenue un frein absolu (P/E Yahoo 102.9, cours +77.8% vs consensus $9.26). Données options : put/call 0.51, call OI 66.1%, max pain $15.00. Le cours ($16.46) est +9.7% au-dessus du max pain avec expiration dans 3 jours (29 mai) — risque de mean-reversion élevé. Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%). Divergence structurelle Yahoo/FMP persistante (P/E FMP 45.8 vs Yahoo 102.9). Dividende 1.06%. Le secteur Communication Services (XLC) est en sous-performance relative vs SPY (bottom 3, RS20d −5.18%), ce qui rend le mouvement totalement idiosyncratique et fragile. Thèse modifiée confirmée : le volume de clôture massif (1.48×) est le nouvel élément — accumulation institutionnelle ou distribution retail ? Sans catalyseur, l'hypothèse de mean-reversion reste dominante. Pas d'entrée.
 
 **✅ Données complètes** — Cours, RSI, ATR, P/E, consensus, options disponibles dans `data/latest.json`.
 

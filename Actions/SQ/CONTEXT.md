@@ -49,7 +49,7 @@
 - **Date :** 2026-05-26
 - **Type :** update
 - **Fichier :** `SQ_2026-05-26_update.md`
-- **Conclusion :** > **Trigger :** Snapshot pipeline 17:00 UTC post-Memorial Day — 15e snapshot consécutif sans mutation, stale price CRITICAL, earnings J=0 non résolu, thèse ATTENDRE confirmée
+- **Conclusion :** > **Trigger :** Snapshot pipeline 17:00 UTC — session US ouverte (ouverture 9:30 ET)
 
 ---
 
