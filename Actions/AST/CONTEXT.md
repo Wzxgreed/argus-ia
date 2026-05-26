@@ -11,7 +11,7 @@
 - **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** —
+- **Statut thèse :** 🔴 INVALIDÉE — anomalie structurelle confirmée (doublon ASTS)
 - **Horizon :** —
 
 ---
@@ -24,13 +24,15 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- **Alerte structurelle :** AST est un doublon probable d'ASTS (AST SpaceMobile). 12 snapshots consécutifs sans données de cours (`No price history`).
+- **Action recommandée :** supprimer AST de `config/watchlist.json` ou marquer `excluded`, privilégier ASTS.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-05-26** · earnings · Earnings ...
+- Aucun événement à venir détecté pour AST.
+- ASTS (ticker de référence) : earnings le 2026-08-10.
 
 ---
 
@@ -42,14 +44,16 @@
 - **ATR 14j :** —
 - **Volume moy. 20j :** —
 
+**Données ASTS (référence) :** RSI 74.5, MM50 84.2, ATR 9.01, volume 30.6M (vs moy. 20j 21.1M), surachat technique confirmé.
+
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-26
-- **Type :** preview
-- **Fichier :** `AST_2026-05-26_preview.md`
-- **Conclusion :** > **Date :** 2026-05-26
+- **Type :** update
+- **Fichier :** `AST_2026-05-26_update.md`
+- **Conclusion :** 12e snapshot consécutif sans mutation. Post-Memorial Day, marché ouvert, mais AST reste sans données. Anomalie structurelle confirmée — doublon avec ASTS. Recommandation : résoudre l'anomalie (supprimer ou exclure AST).
 
 ---
 
