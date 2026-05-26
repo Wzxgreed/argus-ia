@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER (Réduit)
-- **Score global :** 66.0/100
-- **Prix cible :** $50.27
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
 - **Stop-loss :** $43.72
-- **Statut thèse :** Confirmée — stabilité totale post-Memorial Day
-- **Horizon :** 1–3 mois (trade spéculatif de très courte durée)
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -30,7 +30,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-26** · earnings · Earnings JOUR J (source FMP) — résultats non observables après 7 jours de flag
+- **2026-05-26** · earnings · Earnings ...
 
 ---
 
@@ -41,9 +41,6 @@
 - **MM 200j :** —
 - **ATR 14j :** 1.31
 - **Volume moy. 20j :** 1880
-- **Volume snapshot :** 500 (0.27× moyenne)
-- **Cours :** $46.339
-- **52W range :** [$40.27, $57.74]
 
 ---
 
@@ -52,7 +49,7 @@
 - **Date :** 2026-05-26
 - **Type :** update
 - **Fichier :** `TEST_2026-05-26_update.md`
-- **Conclusion :** Aucun changement de données entre 2026-05-25 21:00 UTC et 2026-05-26 10:00 UTC. Cours stable à $46.34, RSI 59.86, MM50 $43.41, volume 500. Earnings JOUR J non observable depuis 7 jours. Verdict ACHETER (Réduit) confirmé avec confiance faible — ticker probablement sans reporting réel.
+- **Conclusion :** **Verdict : ACHETER (Réduit) — Thèse CONFIRMÉE, stabilité totale entre 21:00 UTC 25/05 et 10:00 UTC 26/05 (premier jour post-Memorial Day)
 
 ---
 

@@ -7,7 +7,7 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER — Sizing Réduit
+- **Recommandation :** ACHETER sizing réduit
 - **Score global :** 65.8/100
 - **Prix cible :** $65.86
 - **Stop-loss :** $45.13
@@ -30,14 +30,12 @@
 - IREN — Vérification — $61.20
 - IREN — **⚠️ Volume DÉCLENCHÉ** — $55.15 (close)
 - IREN — **⚠️ Baisse INTRADAY** — $52.36 (low)
-- IREN — **⚠️ Anomalie Options** — Max Pain $20.00 (possible erreur de données)
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-05-26** · earnings · Earnings Q1 2026 (J=0, résultats attendus aujourd'hui)
-- **2026-06-24** · Fenêtre J+30 prix cible · Vérifier cours vs $65.86
+- **2026-05-26** · earnings · Earnings ...
 
 ---
 
@@ -48,9 +46,6 @@
 - **MM 200j :** —
 - **ATR 14j :** 5.85
 - **Volume moy. 20j :** 52806795
-- **Max Pain :** $20.00 (⚠️ anomalie possible — était $39.00)
-- **Put/Call ratio :** indisponible
-- **Call OI % :** indisponible
 
 ---
 
@@ -59,13 +54,13 @@
 - **Date :** 2026-05-26
 - **Type :** update
 - **Fichier :** `IREN_2026-05-26_update.md`
-- **Conclusion :** Stabilité quasi-totale des données vs snapshot 2026-05-25 21:00 UTC. Aucun nouvel événement de marché. Earnings Q1 2026 (J=0) attendu aujourd'hui, résultats non encore publiés. Anomalie options : Max Pain $20.00 (probable erreur de données), put/call et call OI indisponibles. Thèse confirmée : ACHETER sizing réduit, SL $45.13, TP $74.38.
+- **Conclusion :** Snapshot 13:00 UTC — stabilité totale vs 10:00 UTC, correction anomalie options (Max Pain $45.00, put/call 3.16, call OI 24.0%), défiance options record, DRAFT_refresh traité et archivé, thèse confirmée
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 10.29% (seuil 5.0%) — DRAFT_refresh traité et archivé
+- **ATR_SPIKE** (medium) — ATR relatif 10.29% (seuil 5.0%)
 
 ---
 

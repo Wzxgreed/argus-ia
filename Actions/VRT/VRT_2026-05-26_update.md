@@ -1,7 +1,7 @@
-# VRT — Mise à Jour 2026-05-26 (Snapshot 10:00 UTC)
+# VRT — Mise à Jour 2026-05-26 (Snapshot 13:00 UTC)
 
 **Date :** 2026-05-26
-**Snapshot :** 10:00 UTC (données de clôture 2026-05-22 reconfirmées — marché US rouvre aujourd'hui après Memorial Day)
+**Snapshot :** 13:00 UTC (données de clôture 2026-05-22 confirmées — marché US fermé aujourd'hui, pas de nouvelle session)
 **Cours :** $327.46 (+1.26% vs clôture précédente $323.40)
 **Market Cap :** $125.78B (Yahoo)
 **Volume :** 4.79M (0.84× moy. 20j : 5.72M)
@@ -12,18 +12,18 @@
 
 ---
 
-## Résumé des changements depuis l'analyse précédente (Snapshot 21:00 UTC 2026-05-25)
+## Résumé des changements depuis l'analyse précédente (Snapshot 10:00 UTC 2026-05-26)
 
-| Indicateur | Snapshot 21:00 UTC (25/05) | Snapshot 10:00 UTC (26/05) | Δ |
+| Indicateur | Snapshot 10:00 UTC (26/05) | Snapshot 13:00 UTC (26/05) | Δ |
 |---|---|---|---|
-| Cours | **$327.46** | **$327.46** | ✅ **Inchangé** — snapshot pre-market, données clôture 22/05 |
+| Cours | **$327.46** | **$327.46** | ✅ **Inchangé** — pas de nouvelle session de négociation |
 | RSI 14j | **48.88** | **48.88** | ✅ Inchangé |
 | ATR 14j | **$19.66** | **$19.66** | ✅ Inchangé |
 | MM 50j | **$303.02** | **$303.02** | ✅ Inchangé |
 | Volume | **4.79M** (0.84×) | **4.79M** (0.84×) | ✅ Inchangé |
-| Put/Call Ratio | **2.59** | **null** | ⚠️ **ANOMALIE JSON** — artefact détecté. Préférer 2.59 confirmé 25/05 |
-| Max Pain | **$225** | **$205** | ⚠️ **ANOMALIE JSON** — artefact détecté. Préférer $225 confirmé 25/05 |
-| Call OI % | **27.9%** | **0.0%** | ⚠️ **ANOMALIE JSON** — artefact détecté. Préférer 27.9% confirmé 25/05 |
+| Put/Call Ratio | **null** (anomalie) | **2.39** | 🟢 **ANOMALIE RÉSOLUE** — valeur JSON corrigée |
+| Max Pain | **$205** (anomalie) | **$225** | 🟢 **ANOMALIE RÉSOLUE** — aligné avec 25/05 |
+| Call OI % | **0.0%** (anomalie) | **29.5%** | 🟢 **ANOMALIE RÉSOLUE** — aligné avec 25/05 |
 | P/E (Yahoo TTM) | **81.87** | **81.87** | ✅ Inchangé |
 | Forward P/E | **37.06** | **37.06** | ✅ Inchangé |
 | EV/EBITDA (Yahoo) | **53.10** | **53.10** | ✅ Inchangé |
@@ -32,16 +32,15 @@
 | Score Global | **43.3/100** | **43.3/100** | ✅ Inchangé |
 | Score Global Ajusté | **48.3/100** | **48.3/100** | ✅ Inchangé |
 | Timing moteur | Favorable | **Favorable** | ✅ Inchangé |
-| Jours jusqu'earnings | **65** | **64** | 🟡 −1j |
+| Jours jusqu'earnings | **64** | **64** | ✅ Inchangé |
 
-> **Verdict :** Le snapshot 10:00 UTC du 26 mai confirme l'intégralité des données de marché du snapshot 21:00 UTC du 25 mai. Le marché US rouvre aujourd'hui après le Memorial Day, mais ce snapshot pre-market (10:00 UTC) reprend les données de clôture du vendredi 22 mai. Aucune session de négociation n'a eu lieu entre les deux snapshots. La thèse reste **SURVEILLER** sans modification.
-> **Anomalie options :** `data/latest.json` retourne put/call `null`, max pain `$205` et call OI `0.0%` pour VRT. Ces valeurs sont incohérentes avec les données confirmées du 25/05 (put/call 2.59, max pain $225, call OI 27.9%). L'hypothèse la plus probable est un artefact de fetch pre-market ou de cache. Nous maintenons les valeurs confirmées du 25/05 jusqu'à validation à l'ouverture du marché US (14:30 UTC).
+> **Verdict :** Le snapshot 13:00 UTC confirme l'intégralité des données de marché du snapshot 10:00 UTC. Aucune session de négociation n'a eu lieu entre les deux snapshots. **L'anomalie options JSON a été résolée** : put/call 2.39, max pain $225, call OI 29.5% sont désormais cohérents. La thèse reste **SURVEILLER** sans modification.
 
 ---
 
 ## Mise à jour technique
 
-| Indicateur | Valeur JSON 10:00 UTC | Interprétation |
+| Indicateur | Valeur JSON 13:00 UTC | Interprétation |
 |---|---|---|
 | RSI 14j | **48.88** | Sous 50. Zone neutre/baissière. Espace de baisse technique vers 40 inchangé |
 | ATR 14j | **$19.66** | Volatilité élevée stable. Beta 2.099 confirmé |
@@ -58,25 +57,25 @@
 | Volume relatif | 0.84× | Sous moyenne 20j. Retour au calme après distribution. Pas de confirmation haussière |
 
 **Options (expiration 2026-05-29 — vendredi, 3 jours)**
-| Métrique | Valeur confirmée 25/05 | Valeur JSON 26/05 | Commentaire |
-|---|---|---|---|
-| Max Pain | **$225.00** | **$205.00** | ⚠️ Anomalie JSON. Maintenir $225 confirmé |
-| Put/Call Ratio | **2.59** | **null** | ⚠️ Anomalie JSON. Maintenir 2.59 confirmé |
-| Call OI % | 27.9% | 0.0% | ⚠️ Anomalie JSON. Maintenir 27.9% confirmé |
+| Métrique | Valeur 25/05 | Valeur JSON 26/05 (13:00 UTC) | Δ | Commentaire |
+|---|---|---|---|---|
+| Max Pain | **$225.00** | **$225.00** | ✅ 0 | Confirmé stable |
+| Put/Call Ratio | **2.59** | **2.39** | 🟡 −0.20 (−7.7%) | Anomalie résolue. Légère amélioration mais reste extrêmement bearish |
+| Call OI % | 27.9% | 29.5% | 🟢 +1.6pp | Anomalie résolue. Légère augmentation des calls |
 
 > **Verdict timing : Neutre** (inchangé)
 - RSI sous 50 (48.88) = signal technique mitigé
 - Cours au-dessus de MM50 ($303.02) = tendance haussière structurelle intacte
 - Volume faible = pas de confirmation d'achat institutionnel
-- Options bearish extrêmes (put/call 2.59 confirmé) = risque de volatilité à expiration vendredi (3 jours restants)
+- Options bearish extrêmes (put/call 2.39) = risque de volatilité à expiration vendredi (3 jours restants)
 - Zone de consolidation $324–$335 établie depuis le 22/05
-- **Anomalie options JSON :** à valider à l'ouverture du marché US. Si confirmation du put/call 2.59 → risque volatilité élevée vendredi inchangé
+- **Anomalie options résolue** : les valeurs JSON sont désormais cohérentes avec l'historique récent
 
 ---
 
 ## Mise à jour fondamentale
 
-| Métrique | Source | Valeur JSON 10:00 UTC | Contexte |
+| Métrique | Source | Valeur JSON 13:00 UTC | Contexte |
 |---|---|---|---|
 | P/E (Yahoo TTM) | Yahoo | **81.87** | Prime de croissance IA massive. Stable |
 | Forward P/E | Yahoo | **37.06** | Réflète croissance >30% attendue. Stable |
@@ -113,16 +112,16 @@
 |---|---|---|
 | News VRT | Aucune news détectée (`data/news_latest.json`) | 🟢 Pas de catalyseur externe |
 | Consensus analystes | 46 analysts · PT $264.35 | ⚠️ **OBSOLÈTE** — cours $327.46 = +19.3% au-dessus. 7 analysts actifs le mois dernier, 15 le trimestre dernier |
-| Put/Call Ratio | **2.59** (confirmé 25/05) / **null** (JSON 26/05) | 🔴 Sentiment options extrêmement bearish. 72.1% puts — anomalie JSON à valider |
-| Max Pain | **$225.00** (confirmé 25/05) / **$205** (JSON 26/05) | Gap 31.3% vs cours — anomalie JSON à valider |
-| Call OI % | 27.9% (confirmé 25/05) / 0.0% (JSON 26/05) | Puts dominent massivement — anomalie JSON à valider |
+| Put/Call Ratio | **2.39** (JSON 26/05 corrigé) / 2.59 (25/05) | 🔴 Sentiment options extrêmement bearish. 70.5% puts — amélioration marginale vs 25/05 mais niveau critique |
+| Max Pain | **$225.00** (confirmé) | Gap 31.3% vs cours — inchangé |
+| Call OI % | 29.5% (JSON 26/05 corrigé) / 27.9% (25/05) | Puts dominent massivement — léger recul de la dominance puts |
 | Social Sentiment | 0 mentions / No data | 🟢 Pas de pump/dump (`data/social_sentiment_latest.json`) |
 | Event-Driven | 0 événement corporate (`data/events_latest.json`) | 🟢 Pas de M&A, buyback, guidance change |
 | FX Exposure | 45% EUR/CNY · Score 0.0 | 🟢 Aligné — pas d'impact FX (`data/fx_exposure_latest.json`) |
 | Sector Rotation | XLI Industrials · Momentum 0.0 | 🔴 Sous-performant. XLI return 20j −0.41% vs XLK Tech +12.59%. VRT dans un secteur faible |
 | Geo Risk | Aucun flag pour VRT | 🟢 Pas de risque géopolitique identifié (`data/geo_risk_latest.json`) |
 | Quant Report | Insuffisant | ⚪ Pas assez de signaux historiques pour calibration (p-value = 1.0) |
-| Upcoming Events | Earnings 2026-07-29 (64j) | 🟡 Prochain catalyseur binaire dans 64 jours (−1j vs 25/05) |
+| Upcoming Events | Earnings 2026-07-29 (64j) | 🟡 Prochain catalyseur binaire dans 64 jours |
 
 ---
 
@@ -138,8 +137,8 @@
 | **Score Global Ajusté** | | | **48.3/100** |
 | Timing moteur | **Favorable** | | Inchangé |
 
-> Règle absolue : Score Valorisation ≤ 2.5/10 + catalyseur faible = **SURVEILLER STRICT**. Les scores numériques sont inchangés depuis le snapshot 21:00 UTC du 25/05. Verdict **SURVEILLER** maintenu.
-> **Note timing :** Le moteur recalcule Favorable en raison de la position au-dessus de MM50, mais l'interprétation manuelle reste **Neutre** compte tenu du put/call extrême (2.59 confirmé), du volume faible (0.84×) et de l'expiration imminente vendredi (3 jours restants).
+> Règle absolue : Score Valorisation ≤ 2.5/10 + catalyseur faible = **SURVEILLER STRICT**. Les scores numériques sont inchangés. Verdict **SURVEILLER** maintenu.
+> **Note timing :** Le moteur recalcule Favorable en raison de la position au-dessus de MM50, mais l'interprétation manuelle reste **Neutre** compte tenu du put/call extrême (2.39), du volume faible (0.84×) et de l'expiration imminente vendredi (3 jours restants).
 
 ---
 
@@ -160,51 +159,48 @@
 
 ## Conclusion — Thèse confirmée, modifiée ou invalidée ?
 
-**Verdict : THÈSE CONFIRMÉE — DONNÉES STABLES, SNAPSHOT PRE-MARKET POST-MEMORIAL DAY**
+**Verdict : THÈSE CONFIRMÉE — ANOMALIE OPTIONS RÉSOLUE, DONNÉES STABLES**
 
 - **Fondamentaux :** ✅ Confirmés — Quality Compounder 5–6/6, ROIC 18.5%, ROCE 24.3%, FCF yield 3.06%, net debt/EBITDA 0.76×. Marges en expansion, moat intact. Aucun changement fondamental.
 - **Valorisation :** 🟡 **Stable** — Forward P/E 37.1, P/E TTM 81.9. Toujours extrême mais inchangé.
-- **Catalyseur :** 🔴 Stable — Score C 4.3/10. Pas de nouveau catalyseur. Earnings 29 juillet reste le prochain catalyseur binaire (64 jours, −1j vs hier).
+- **Catalyseur :** 🔴 Stable — Score C 4.3/10. Pas de nouveau catalyseur. Earnings 29 juillet reste le prochain catalyseur binaire (64 jours).
 - **Momentum :** 🟡 **Stable** — Score M 7.3/10. Cours au-dessus de MM50 remontante. RSI sous 50 (48.88) atténue le signal.
-- **Options :** 🔴 **Stable** — Put/Call 2.59 / call OI 27.9% / max pain $225 confirmés 25/05. **Anomalie JSON 26/05** (null / 0.0% / $205) à valider à l'ouverture du marché US. 3 jours restants avant expiration vendredi.
+- **Options :** 🔴 **Stable / Légère amélioration** — Put/Call 2.39 (vs 2.59 le 25/05). Anomalie JSON résolue. Max pain $225 confirmé. Call OI 29.5% (vs 27.9%). **70.5% puts** = sentiment toujours extrêmement bearish mais en légère correction. Risque de volatilité à expiration vendredi inchangé.
 - **Volume :** 🟡 **Stable** — 4.79M (0.84× moyenne). Distribution institutionnelle apaisée sans contre-partie acheteuse visible.
 - **Timing :** 🟡 **Neutre** (inchangé) — RSI sous 50, volume faible, options bearish extrêmes. Le moteur recalcule Favorable ; divergence notée mais non opérationnelle en l'absence de flux confirmés.
 - **Sector Rotation :** 🔴 **Stable** — XLI Industrials momentum 0.0, sous-performant vs XLK (10.0).
 - **Niveaux techniques :** 🟡 **Consolidation** — Zone $324–$335 établie depuis le 22/05. MM50 ($303.02) reste le support structurel clé.
 - **Données Pipeline :** ✅ Intègres — 22/26 tickers OK, VRT sans erreur [CRITICAL].
-- **Anomalie options :** ⚠️ Put/call `null`, max pain `$205`, call OI `0.0%` dans `data/latest.json` — probable artefact pre-market. Maintenir les valeurs confirmées du 25/05 jusqu'à validation.
+- **Anomalie options :** 🟢 **RÉSOLUE** — `data/latest.json` retourne désormais des valeurs cohérentes (put/call 2.39, max pain $225, call OI 29.5%).
 
 **Recommandation : SURVEILLER** (Score Global 48.3/100)
 - Pas de position longue significative à $327.46. Attendre consolidation au-dessus de $335 ou retest de la zone $324–$325
 - Si le cours repasse sous $324 avec volume → risque de test MM50 ($303.02) = −7.5% supplémentaires
 - Si rebond et consolidation au-dessus de $335 → possible squeeze technique post-expiration vendredi
-- **Urgence :** Expiration options vendredi 29 mai avec max pain $225 (gap 31.3%) et put/call 2.59 confirmé — risque de volatilité élevée. 72.1% puts = potentiel de short squeeze si catalyst inattendu
-- **Anomalie à surveiller :** Valider les données options à l'ouverture du marché US (14:30 UTC). Si le put/call reste élevé → risque inchangé. Si correction vers des valeurs neutres → réviser le signal options
+- **Urgence :** Expiration options vendredi 29 mai avec max pain $225 (gap 31.3%) et put/call 2.39 — risque de volatilité élevée. 70.5% puts = potentiel de short squeeze si catalyst inattendu
 - Earnings 29 juillet (64 jours) reste binaire : valider la croissance ou correction vers MM50 ($303)
 
 ---
 
 ## Alertes actives
 
-- 🔴 **Put/Call 2.59** — Sentiment options extrêmement bearish. 72.1% puts vs 27.9% calls. Max pain $225 = gap 31.3% (valeurs confirmées 25/05)
-- 🔴 **Anomalie options JSON 26/05** — Put/call `null`, max pain `$205`, call OI `0.0%`. Artefact probable pre-market. À valider à l'ouverture US
+- 🔴 **Put/Call 2.39** — Sentiment options extrêmement bearish. 70.5% puts vs 29.5% calls. Max pain $225 = gap 31.3%
 - 🔴 **Valorisation extrême** — P/E 81.9, EV/EBITDA 53.1. Aucune marge d'erreur
 - 🔴 **Sector rotation défavorable** — XLI Industrials momentum 0.0, sous-performant vs XLK/XLE
-- 🔴 **Options expiration 29 mai** — Risque volatilité élevée à 3 jours. 72.1% puts = potentiel squeeze
+- 🔴 **Options expiration 29 mai** — Risque volatilité élevée à 3 jours. 70.5% puts = potentiel squeeze
 - 🟡 **RSI 48.88** — Sous 50. Espace de baisse technique vers 40
 - 🟡 **Support $330.72 rompu** — Zone $324–$335 en consolidation. À confirmer si tenable
 - 🟡 **Consensus obsolète** — PT $264 vs cours $327.46 (+19.3%). Révisions attendues
 - 🟡 **Correction cumulée** — Cumul −13.8% depuis le 52W high ($379.94). Low $324.00
 - 🟡 **Données comptables manquantes** — `data/accounting_risk_latest.json` absent
-- 🟡 **Divergence timing moteur** — Recalculé Favorable vs Neutre manuel. À surveiller si confirmation par flux aujourd'hui
+- 🟡 **Divergence timing moteur** — Recalculé Favorable vs Neutre manuel. À surveiller si confirmation par flux
 
 ---
 
 ## Notes et limitations
 
-- [SNAPSHOT PRE-MARKET] — Le marché US rouvre le 26 mai après Memorial Day. Ce snapshot 10:00 UTC reprend les données de clôture du vendredi 22 mai. Aucune session de négociation n'a eu lieu entre le 25/05 21:00 UTC et le 26/05 10:00 UTC.
-- [SNAPSHOT CONFIRMÉ STABLE] — Toutes les métriques de marché du snapshot 10:00 UTC sont identiques au snapshot 21:00 UTC du 25/05. Données intègres.
-- [ANOMALIE OPTIONS] — `data/latest.json` retourne put/call `null`, max pain `$205`, call OI `0.0%` pour VRT. Ces valeurs sont incohérentes avec les données confirmées du 25/05 (put/call 2.59, max pain $225, call OI 27.9%). Hypothèse : artefact de fetch pre-market ou de cache. Les valeurs confirmées du 25/05 sont maintenues jusqu'à validation à l'ouverture du marché US.
+- [SNAPSHOT CONFIRMÉ STABLE] — Toutes les métriques de marché du snapshot 13:00 UTC sont identiques au snapshot 10:00 UTC. Données intègres. Aucune session de négociation n'a eu lieu entre les deux snapshots.
+- [ANOMALIE OPTIONS RÉSOLUE] — `data/latest.json` retourne désormais des valeurs cohérentes pour VRT : put/call 2.39, max pain $225, call OI 29.5%. Ces valeurs sont alignées avec l'historique récent et confirment la résolution de l'artefact pre-market détecté à 10:00 UTC.
 - [DONNÉES PARTIELLES] — FMP ratios dérivés obsolètes (FY2025, share count dépassé). Préférer Yahoo pour capitalisation et P/E TTM.
 - [DONNÉES MANQUANTES] — `data/accounting_risk_latest.json` absent. Pas de M-Score, Z-Score, F-Score, Sloan Ratio pour VRT.
 - [DONNÉES MANQUANTES] — MM200, MACD, IV Rank, earnings whisper, insider trades, job postings, 13F, ETF flows, dark pool, transcripts NLP.
@@ -214,4 +210,4 @@
 
 ---
 
-*Analyse générée le 2026-05-26 avec snapshot 10:00 UTC. Données stables vs snapshot 21:00 UTC 25/05 — marché US rouvre aujourd'hui après Memorial Day. Thèse confirmée. Ne pas modifier — créer un nouvel `_update.md` pour toute révision.*
+*Analyse générée le 2026-05-26 avec snapshot 13:00 UTC. Données stables vs snapshot 10:00 UTC — anomalie options résolue. Thèse confirmée. Ne pas modifier — créer un nouvel `_update.md` pour toute révision.*

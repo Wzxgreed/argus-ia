@@ -64,7 +64,7 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 - **Date :** 2026-05-26
 - **Type :** update
 - **Fichier :** `SOFI_2026-05-26_update.md`
-- **Conclusion :** THÈSE CONFIRMÉE — Snapshot 10:00 UTC confirme stabilité totale vs 21:00 UTC 2026-05-25 (marché fermé Memorial Day + pré-ouverture). Cours $15.62, RSI 43.83, MM50 $16.76, ATR $0.64. [ALERTE DATA QUALITY] Options JSON anomalie (max pain $5.00, put/call null) — valeurs confirmées 25/05 maintenues. Score Global 48.6/100 (SURVEILLER). TP $17.54, SL $14.34, R/R 1.50. Earnings dans 63j. Support critique $15.00. Aucune news, aucun événement corporate, exposition FX et géo neutres. Accounting risk non évalué (fichier absent). Validation data : SOFI OK.
+- **Conclusion :** **Date :** 2026-05-26 (snapshot 10:00 UTC — stabilité confirmée vs 2026-05-25 21:00 UTC)
 
 ---
 

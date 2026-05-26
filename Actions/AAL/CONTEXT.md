@@ -40,14 +40,12 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 - Baisse — $11.41 (SL 2×ATR) — 🟢 Active
 - Hausse — $14.00 (prix cible) — 🟢 Active
 - Volume — >2× moy. 20j (>XXM) — 🟢 Active
-- **Data quality options** — `put_call_ratio` null, `max_pain` $5.00 aberrant, `call_oi_pct` null dans `data/latest.json` — 🟡 Active (26/05)
 
 ---
 
 ## 📅 Prochains événements
 
-- 2026-05-29 — Expiration options (Max Pain $13.00, dernière valeur valide) — risque gamma
-- 2026-07-23 — Earnings Q2 FY2026 — Est EPS -$0.34 à $0.17, Rev $16.6B
+- Aucun événement à venir.
 
 ---
 
@@ -66,7 +64,7 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 - **Date :** 2026-05-26
 - **Type :** update
 - **Fichier :** `AAL_2026-05-26_update.md`
-- **Conclusion :** Thèse SURVEILLER confirmée — snapshot 10:00 UTC post-Memorial Day stable vs 25/05. Alerte data quality options (put/call null, max_pain aberrant $5.00). Dernières valeurs valides du 25/05 conservées. Earnings Q2 dans 58 jours.
+- **Conclusion :** **Date :** 2026-05-26 (snapshot 10:00 UTC)
 
 ---
 

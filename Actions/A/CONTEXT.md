@@ -1,4 +1,4 @@
-# CONTEXT — A — Dernière mise à jour : 2026-05-26 (snapshot 10:00 UTC)
+# CONTEXT — A — Dernière mise à jour : 2026-05-26
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -12,9 +12,9 @@
 **Prix cible desk :** $125.70 (TP ATR-based) / $166 (consensus analystes)  
 **Stop-loss :** $107.80  
 **Horizon :** 1–3 mois  
-**Statut thèse :** 🟢 **Confirmée** — setup favorable avant earnings Q2 2026 (J=1). Snapshot 10:00 UTC confirme stabilité totale ; glitch options JSON détecté (valeurs 25/05 conservées).
+**Statut thèse :** 🟢 **Confirmée** — setup favorable avant earnings Q2 2026 (J=1). Snapshot 10:00 UTC confirme la stabilité totale des niveaux ; marché rouvert post-Memorial Day. Anomalie options JSON détectée — valeurs confirmées 25/05 conservées.
 
-**Synthèse :** Agilent affiche le meilleur score composite du desk (81.5). Le forward P/E 17.5× décote de 31% le LTM, le consensus anticipe un upside 44%, et le setup technique (RSI 56, au-dessus MM50) est propre. Le risque principal est le binary event earnings du 27/05 (J=1). Quality Compounder (5/6 critères). ⚠️ Flag `stale_price_history` persistant (5 jours) + glitch options JSON — valider données en live avant exécution.
+**Synthèse :** Agilent affiche le meilleur score composite du desk (81.5). Le forward P/E 17.5× décote de 31% le LTM, le consensus anticipe un upside 44%, et le setup technique (RSI 56, au-dessus MM50) est propre. Le risque principal est le binary event earnings du 27/05 (J=1). Quality Compounder (5/6 critères). ⚠️ Flag `stale_price_history` persistant (5 jours) + glitch options JSON systémique — valider les données en live avant exécution.
 
 ---
 
@@ -69,17 +69,15 @@
 - **MM 200j :** —
 - **ATR 14j :** 3.58
 - **Volume moy. 20j :** 2160085
-- **Flag stale price :** 5 jours consécutifs
-- **Anomalie options :** max pain $190 (glitch), valeur confirmée $100
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-26
-- **Type :** update
-- **Fichier :** `A_2026-05-26_update.md`
-- **Conclusion :** 🟢 Thèse confirmée — stabilité totale, glitch options JSON détecté, valeurs 25/05 conservées
+- **Type :** preview
+- **Fichier :** `A_2026-05-26_preview.md`
+- **Conclusion :** > **Date :** 2026-05-26
 
 ---
 

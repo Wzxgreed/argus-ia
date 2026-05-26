@@ -34,15 +34,13 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 
 ## 🚨 Alertes actives
 
-- **[CRITICAL]** Pas de données de prix pour AXA — ticker probablement incorrect
-- **[WARNING]** Earnings J0 (2026-05-26) sans consensus ni résultats exploitables
-- **[INFO]** Headwind sectoriel XLF atténué mais persistant (RS 20j −3.43%, return 20j +1.01%, momentum 0.0/10)
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-05-26** · earnings · Earnings (J0, sans détails exploitables)
+- **2026-05-26** · earnings · Earnings ...
 
 ---
 
@@ -59,9 +57,9 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-26
-- **Type :** update
-- **Fichier :** `AXA_2026-05-26_update.md`
-- **Conclusion :** 12e snapshot consécutif sans mutation des données AXA. Thèse non évaluable. Recommandation ATTENDRE confirmée. Marché rouvert post-Memorial Day sans résolution du blocage de sourcing.
+- **Type :** preview
+- **Fichier :** `AXA_2026-05-26_preview.md`
+- **Conclusion :** > **Date :** 2026-05-26
 
 ---
 

@@ -696,3 +696,23 @@ Données strictement inchangées vs snapshot 17:00 UTC (cours $56.83, RSI 56.77,
 **Conclusion :** confirm — duplicata du FULL REFRESH complété précédemment ce jour. Données strictement inchangées. DRAFT_refresh archivé.
 
 ---
+
+## 2026-05-26 — Full Refresh Complété (snapshot 13:00 UTC)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10.29% (seuil 5.0%)
+
+**Conclusion :** confirm
+
+Données strictement inchangées vs snapshot 10:00 UTC du 2026-05-26 (cours $56.83, RSI 56.77, ATR $5.85, MM50 $46.10, scores 6.1/10 et 65.8/100). Correction de l'anomalie options : Max Pain $20.00 → $45.00, put/call ratio null → 3.16, call OI % null → 24.0%. La défiance options s'aggrave (put/call 3.16 vs 2.35 précédent, puts à 76.0%). Aucun nouveau flux post-earnings intégré (J=0, résultats non publiés). Thèse confirmée : ACHETER sizing réduit. DRAFT_refresh complété et archivé.
+
+---
+
+## 2026-05-26 — Full Refresh Complété (snapshot 13:00 UTC)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10.29% (seuil 5.0%)
+
+**Conclusion :** confirm — duplicata du FULL REFRESH complété précédemment ce jour. Données strictement inchangées vs snapshot 10:00 UTC. Correction anomalie options confirmée. Thèse confirmée : ACHETER sizing réduit. DRAFT_refresh archivé.
+
+---
