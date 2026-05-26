@@ -1,6 +1,6 @@
 # CONTEXT — QTBS — Dernière mise à jour : 2026-05-26
 
-> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
+> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l’historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
 
 ---
@@ -11,15 +11,15 @@
 - **Score global :** 55.2/100
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** 🔴 Bloqué data — pas de données de prix disponibles (confirmé snapshot 10:00 UTC post-Memorial Day)
+- **Statut thèse :** 🔴 Bloqué data — pas de données de prix disponibles (confirmé snapshot 21:00 UTC post-Memorial Day)
 - **Horizon :** Jusqu’à reprise du data feed
 
-**Synthèse (1 phrase) :** QTBS est en data blackout complet (No price history) depuis au moins le 20 mai 2026 ; l’earnings signalé le 2026-05-26 reste non analysable sans cours, volumes ni consensus — statut ATTENDRE maintenu après vérification snapshot 17:00 UTC (13e snapshot consécutif sans mutation).
+**Synthèse (1 phrase) :** QTBS est en data blackout complet (No price history) depuis au moins le 20 mai 2026 ; l’earnings signalé le 2026-05-26 reste non analysable sans cours, volumes ni consensus — statut ATTENDRE maintenu après vérification snapshot 21:00 UTC (14e snapshot consécutif sans mutation).
 
 ---
 
 ## 📜 Historique des fichiers
-- **Score global :** —/10
+n- **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
 - **Statut thèse :** —
@@ -60,7 +60,7 @@
 - **Date :** 2026-05-26
 - **Type :** update
 - **Fichier :** `QTBS_2026-05-26_update.md`
-- **Conclusion :** > **Date :** 2026-05-26 (snapshot 17:00 UTC, post-Memorial Day)
+- **Conclusion :** > **Date :** 2026-05-26 (snapshot 21:00 UTC, post-Memorial Day)
 
 ---
 
