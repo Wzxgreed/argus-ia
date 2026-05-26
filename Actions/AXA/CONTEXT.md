@@ -1,4 +1,4 @@
-# CONTEXT — AXA — Dernière mise à jour : 2026-05-26
+# CONTEXT — AXA — Dernière mise à jour : 2026-05-26 (snapshot 21h00 UTC)
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -11,7 +11,7 @@
 
 AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **aucune donnée de prix n'est disponible** dans le pipeline Argus-IA car le symbole "AXA" n'est pas reconnu par yfinance (instrument non coté US). L'analyse technique et fondamentale est impossible.
 
-**Contexte sectoriel (snapshot 17h00 UTC) :** Le secteur Financials (XLF) sous-performe le S&P 500 de −4.74% sur 20j et −8.24% sur 60j, avec un momentum score de 0.0/10. Le secteur affiche un return 20j de 0.00% et un return 60j de +1.26%. Les métriques sectorielles ont muté entre 13h00 et 17h00 UTC : dégradation du RS 20j (−3.43% → −4.74%) et amélioration du RS 60j (−9.03% → −8.24%). Le secteur financier reste en phase de distribution relative vs le marché (SPY surperforme de +4.74pp sur 20j), sous le coup de la rotation sectorielle vers la Tech (XLK return 20j +14.93%, momentum 10.0/10). La session US est ouverte et liquide (volumes élevés sur AAPL 20.5M, NOK 138.9M) mais cela n'a pas permis la récupération de données pour AXA. Si les données AXA étaient disponibles, cette dégradation relative courte terme peserait légèrement sur le score Momentum et le timing d'entrée.
+**Contexte sectoriel (snapshot 21h00 UTC) :** Le secteur Financials (XLF) sous-performe le S&P 500 de −4.88% sur 20j et −8.38% sur 60j, avec un momentum score de 0.0/10. Le secteur affiche un return 20j de +0.08% et un return 60j de +1.33%. Les métriques sectorielles se sont légèrement dégradées entre 17h00 et 21h00 UTC : RS 20j (−4.74% → −4.88%) et RS 60j (−8.24% → −8.38%). Le secteur financier reste en phase de distribution relative vs le marché (SPY surperforme de +4.87pp sur 20j), sous le coup de la rotation sectorielle vers la Tech (XLK return 20j +15.3%, momentum 10.0/10). La session US est close (volumes confirmés élevés sur AAPL 46.6M, NOK 178.7M, RKLB 31.5M) sans résolution du sourcing pour AXA. Si les données AXA étaient disponibles, cette dégradation relative marginale peserait légèrement sur le score Momentum.
 
 **Action immédiate :** corriger le symbole dans `config/watchlist.json` (`CS.PA` ou `AXAHY`), mettre à jour le secteur (Financials / Insurance) et relancer le fetch.
 
@@ -57,9 +57,9 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-26
-- **Type :** preview
-- **Fichier :** `AXA_2026-05-26_preview.md`
-- **Conclusion :** > **Date :** 2026-05-26
+- **Type :** update
+- **Fichier :** `AXA_2026-05-26_update.md` (snapshot 21h00 UTC)
+- **Conclusion :** 15e snapshot consécutif sans données AXA. Dégradation sectorielle marginale XLF (RS 20j −4.74% → −4.88%). Recommandation ATTENDRE confirmée (Score Global 55.2/100). Action immédiate : corriger le symbole dans `config/watchlist.json` (`CS.PA` ou `AXAHY`).
 
 ---
 
