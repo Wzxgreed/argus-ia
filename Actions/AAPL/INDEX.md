@@ -22,3 +22,4 @@ Apple est une entreprise de qualité institutionnelle exceptionnelle (Filtre Qua
 - 🟡 **Alerte volume :** Volume 43.63M (0.90× moyenne 20j) — sous-moyen, manque de conviction acheteuse sur le break 52W high
 - 🟡 **Alerte valorisation :** Cours $308.82 > Consensus FMP $293.43 (+5.2%)
 - 🟡 **Alerte options :** Call OI 59.1% (chute de 14.6 pts en 3 séances) / Put/Call 0.69 — divergence baissière actions/options
+- 🟡 **Alerte data quality :** Anomalie options JSON sur snapshot 10:00 UTC (put/call null, max pain $220.00 aberrant) — valeurs confirmées 25/05 maintenues
