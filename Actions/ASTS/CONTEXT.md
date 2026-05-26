@@ -49,7 +49,7 @@
 - **Date :** 2026-05-26
 - **Type :** update
 - **Fichier :** `ASTS_2026-05-26_update.md`
-- **Conclusion :** **Thèse confirmée : ÉVITER — données stables post-Memorial Day, aucune mutation vs snapshot 2026-05-25**
+- **Conclusion :** **Thèse confirmée : ÉVITER — snapshot 13:00 UTC, données stables vs 10:00 UTC, anomalie options RÉSOLUE (max pain $120,00, P/C 0,78, call OI 56,2%)**
 
 ---
 

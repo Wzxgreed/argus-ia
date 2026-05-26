@@ -1,14 +1,14 @@
-# ASTS — Mise à Jour Snapshot 10:00 UTC (2026-05-26)
+# ASTS — Mise à Jour Snapshot 13:00 UTC (2026-05-26)
 
-> Snapshot 10:00 UTC **post-Memorial Day** — fetch pré-ouverture US. Données **stables** vs snapshot 2026-05-25 21:00 UTC (marché non ouvert au moment du fetch). Thèse **ÉVITER** confirmée, score global ajusté **29,8/100** inchangé. Anomalie data quality options **s'aggrave**.
+> Snapshot 13:00 UTC **post-Memorial Day** — fetch pré-ouverture US. Données **stables** vs snapshot 10:00 UTC. Thèse **ÉVITER** confirmée, score global ajusté **29,8/100** inchangé. **Anomalie data quality options RÉSOLUE** (max pain $120,00, P/C 0,78, call OI 56,2%).
 
 ---
 
 ## Résumé des Changements depuis l'Analyse Précédente
 
-| Indicateur | Précédent (2026-05-25 21:00 UTC) | Snapshot 2026-05-26 10:00 UTC | Delta |
+| Indicateur | Précédent (2026-05-26 10:00 UTC) | Snapshot 2026-05-26 13:00 UTC | Delta |
 |-----------|----------------------------------|------------------------------|-------|
-| **Cours** | **$105,86** | **$105,86** | **0,00%** [STALE] |
+| **Cours** | **$105,86** | **$105,86** | **0,00%** [STABLE] |
 | RSI 14j | 74,50 | **74,50** | — |
 | ATR 14j | $9,01 | **$9,01** | — |
 | MM50 | $84,20 | **$84,20** | — |
@@ -17,22 +17,22 @@
 | Forward P/E | −356,28 | **−356,28** | — |
 | EV/Revenue | 378,74× | **378,74×** | — |
 | P/B | 15,19× | **15,19×** | — |
-| **Max Pain** | **$50,0** [ANOMALIE] | **$40,0** [ANOMALIE] | **Détérioration** |
-| Put/Call Ratio | 0,96 | **null** | [DONNÉES MANQUANTES] |
-| Call OI % | 50,9% | **null** | [DONNÉES MANQUANTES] |
+| **Max Pain** | **$40,0** [ANOMALIE] | **$120,00** | **RÉSOLU** |
+| Put/Call Ratio | null | **0,78** | **RÉSOLU** |
+| Call OI % | null | **56,2%** | **RÉSOLU** |
 | Score Opportunité | 4,0/10 | **4,0/10** | — |
 | Score Global ajusté | 29,8 | **29,8** | — |
 | Consensus PT | $92,25 | **$92,25** | — |
 
-**Verdict :** aucune mutation de cours, technique ou fondamentale entre le snapshot 25/05 21:00 UTC et le snapshot 26/05 10:00 UTC. Le fetch du matin du 26/05 a eu lieu **avant l'ouverture du marché US** (post-Memorial Day) et reflète les données de clôture du vendredi 23/05. La configuration spéculative à haut risque persiste inchangée.
+**Verdict :** aucune mutation de cours, technique ou fondamentale entre le snapshot 10:00 UTC et le snapshot 13:00 UTC. Le fetch du 26/05 à 13:00 UTC a lieu **avant l'ouverture du marché US** (post-Memorial Day) et reflète les données de clôture du vendredi 23/05. La configuration spéculative à haut risque persiste inchangée.
 
-**Alerte data quality :** l'anomalie options s'aggrave — Max Pain passe de $50 à **$40** (écart −62,2% vs cours $105,86), et les champs Put/Call Ratio et Call OI % basculent en **null**. Le flux options Yahoo/FMP pour ASTS est probablement corrompu ou interrompu depuis le 20/05.
+**Alerte data quality résolue :** l'anomalie options est corrigée — Max Pain remonte à **$120,00** (vs cours $105,86, écart +13,4%), Put/Call Ratio réapparaît à **0,78** (skew put modéré), et Call OI % à **56,2%** (légère domination call). Les flux options Yahoo/FMP pour ASTS sont à nouveau cohérents après interruption probable depuis le 20/05.
 
 ---
 
 ## Mise à Jour Technique
 
-- **Cours :** $105,86 — stable vs snapshot 25/05 (données stale, dernière séance effective : vendredi 23/05)
+- **Cours :** $105,86 — stable vs snapshot 10:00 UTC (données stale, dernière séance effective : vendredi 23/05)
 - **RSI 14j :** 74,50 — **stable en zone de surachat** (seuil 70 franchi). Risque de correction technique persistant
 - **ATR 14j :** $9,01 (ATR relatif **8,51%** du cours) — **[TRIGGER MEDIUM]** ATR_SPIKE stable. Volatilité intraday extrême confirmée
 - **MM50 :** $84,20 — cours **+25,7%** au-dessus, support très éloigné
@@ -49,7 +49,7 @@
 
 ## Mise à Jour Fondamentale
 
-Aucun nouveau résultat comptable ni guidance depuis le snapshot 2026-05-25.
+Aucun nouveau résultat comptable ni guidance depuis le snapshot 2026-05-26 10:00 UTC.
 
 - **Market Cap :** $41,09B
 - **Forward P/E :** −356,28 (profil non rentable, pertes attendues)
@@ -68,7 +68,7 @@ Aucun nouveau résultat comptable ni guidance depuis le snapshot 2026-05-25.
 ## Mise à Jour Sentiment / Options / News
 
 - **Consensus analystes :** 3 analystes ont couvert ASTS le mois dernier (10 au total). Price target $92,25 inchangé. **Le cours reste au-dessus du consensus**
-- **Options :** **[ANOMALIE DATA QUALITY S'AGGRAVE]** Max Pain affiché **$40,0** (écart −62,2% vs cours $105,86, vs −52,8% au snapshot précédent). Put/Call Ratio et Call OI % passés en **null** (précédemment 0,96 et 50,9%). Nearest expiry : **2026-05-29 (J+3)**
+- **Options :** **[ANOMALIE DATA QUALITY RÉSOLUE]** Max Pain affiché **$120,00** (écart +13,4% vs cours $105,86, cohérent). Put/Call Ratio **0,78** (skew put modéré), Call OI **56,2%** (légère domination call). Nearest expiry : **2026-05-29 (J+3)**
 - **Social Sentiment :** 0 mention Reddit ; Score 0,0/10 (no data) ; Pump detected : False — stable
 - **Event-Driven :** aucun événement corporate détecté pour ASTS
 - **Géopolitique :** ASTS non flaggé (geo_risk_score 🟢)
@@ -78,11 +78,11 @@ Aucun nouveau résultat comptable ni guidance depuis le snapshot 2026-05-25.
 **Catalyseurs à venir :**
 - Prochain earnings : **2026-08-10** (J+76) — Est. EPS $−0,29 à $−0,17, Revenus $0,0B
 - Aucun preview auto-généré (earnings > 3j)
-- **Expiration options 2026-05-29 (J+3)** — avec données corrompues, risque non quantifiable
+- **Expiration options 2026-05-29 (J+3)** — max pain $120,00 au-dessus du spot : pinning haussier possible si données options confirmées
 
 ---
 
-## Scoring Global — Snapshot 10:00 UTC (2026-05-26)
+## Scoring Global — Snapshot 13:00 UTC (2026-05-26)
 
 | Axe | Score | Pondération | Commentaire |
 |-----|-------|-------------|-------------|
@@ -101,7 +101,7 @@ Aucun nouveau résultat comptable ni guidance depuis le snapshot 2026-05-25.
 - Aucun malus FX
 - Aucun bonus event-driven
 
-**Score Global Composite :** 39,8/100 (ajusté **29,8/100**) — **inchangé vs snapshot 2026-05-25**
+**Score Global Composite :** 39,8/100 (ajusté **29,8/100**) — **inchangé vs snapshot 2026-05-26 10:00 UTC**
 
 ---
 
@@ -112,33 +112,32 @@ Aucun nouveau résultat comptable ni guidance depuis le snapshot 2026-05-25.
 - **Take-profit :** $132,89 (cours + 3×ATR = $105,86 + $27,03)
 - **Ratio R/R :** 1,5:1
 
-**Révision :** niveaux inchangés vs snapshot 2026-05-25. Le SL à $87,84 reste sous le gap open ($98,52) mais au-dessus de la MM50 ($84,20). Le TP $132,89 approche le 52W high ($129,89). Le consensus analystes ($92,25) reste entre le cours et le SL, rendant le TP incertain.
+**Révision :** niveaux inchangés vs snapshot 2026-05-26 10:00 UTC. Le SL à $87,84 reste sous le gap open ($98,52) mais au-dessus de la MM50 ($84,20). Le TP $132,89 approche le 52W high ($129,89). Le consensus analystes ($92,25) reste entre le cours et le SL, rendant le TP incertain.
 
 ---
 
 ## Conclusion
 
-**Thèse confirmée : ÉVITER — données stables post-Memorial Day, aucune mutation vs snapshot 2026-05-25**
+**Thèse confirmée : ÉVITER — données stables post-Memorial Day, aucune mutation vs snapshot 2026-05-26 10:00 UTC**
 
-Le snapshot 10:00 UTC du 26/05 confirme intégralement l'analyse du 25/05. Le fetch a eu lieu avant l'ouverture du marché US et reflète les données de clôture du vendredi 23/05. Aucun changement de cours, de momentum technique, de fondamental ni de score n'est survenu. La configuration spéculative à haut risque persiste : consensus analystes ($92,25) **13% sous le cours**, RSI **74,5 en surachat**, EV/Revenue **378×**, et secteur Communication Services en **bottom 3**.
+Le snapshot 13:00 UTC du 26/05 confirme intégralement l'analyse du 10:00 UTC. Le fetch a eu lieu avant l'ouverture du marché US et reflète les données de clôture du vendredi 23/05. Aucun changement de cours, de momentum technique, de fondamental ni de score n'est survenu. La configuration spéculative à haut risque persiste : consensus analystes ($92,25) **13% sous le cours**, RSI **74,5 en surachat**, EV/Revenue **378×**, et secteur Communication Services en **bottom 3**.
 
-**Alertes opérationnelles majeures (inchangées, sauf anomalie options) :**
-1. **Anomalie data quality options s'aggrave** — Max Pain $40 aberrant (écart −62,2% vs cours, vs −52,8% précédemment). Put/Call et Call OI passés en null. Flux options probablement corrompu/interrompu depuis le 20/05
+**Alertes opérationnelles majeures (mises à jour) :**
+1. **Anomalie data quality options RÉSOLUE** — Max Pain $120,00 (cohérent, écart +13,4% vs cours). Put/Call Ratio 0,78 et Call OI 56,2% restaurés. Flux options à nouveau fonctionnel
 2. **RSI surachat** — 74,50, franchissement du seuil 70 confirmé. Risque de correction technique élevé
 3. **Cours au-dessus du consensus** — price target moyen $92,25 = downside −12,9%. Risque de downgrades
 4. **ATR_SPIKE en expansion** — $9,01 (8,51% du cours). Volatilité intraday très élevée persistante
 5. **Secteur Communication Services** — bottom 3 du classement sectoriel (momentum 0,0)
 6. **Profil non rentable** — EPS estimé négatif, multiples extrêmes, aucune visibilité sur la rentabilité
-7. **Expiration options 2026-05-29 (J+3)** — avec données corrompues, risque non quantifiable
+7. **Expiration options 2026-05-29 (J+3)** — max pain $120,00 au-dessus du spot : pinning haussier possible si le marché confirme
 
 **Prochaines étapes :**
 - Attendre l'ouverture du marché US ce jour (26/05) pour voir si le comportement post-Memorial Day modifie la configuration
 - Attendre un retour vers la MM50 ($84,20) ou mieux vers le gap ($98,52) pour réévaluer le ratio R/R
-- Surveiller la correction de l'anomalie options au prochain snapshot
 - Monitoring du comportement autour du consensus $92,25 — zone de résistance psychologique si repli
 - Revoir le scoring si earnings preview à générer (dans ~70j)
 - **Ne pas entrer long à ces niveaux** — risque/rendement asymétriquement défavorable
 
 ---
 
-*Généré par le système Argus-IA — Snapshot 2026-05-26 10:00 UTC (données stables vs 2026-05-25, fetch pré-ouverture post-Memorial Day)*
+*Généré par le système Argus-IA — Snapshot 2026-05-26 13:00 UTC (données stables vs 2026-05-26 10:00 UTC, fetch pré-ouverture post-Memorial Day)*

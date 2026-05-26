@@ -30,7 +30,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-26** · earnings · Earnings ...
+- **2026-05-26** · earnings · Earnings (FMP) — résultats non intégrés (pas de données de cotation)
 
 ---
 
@@ -47,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-26
-- **Type :** preview
-- **Fichier :** `AST_2026-05-26_preview.md`
-- **Conclusion :** > **Date :** 2026-05-26
+- **Type :** update
+- **Fichier :** `AST_2026-05-26_update.md`
+- **Conclusion :** 13e snapshot consécutif sans données de marché. AST reste non évaluable. Anomalie structurelle confirmée (probable doublon d'ASTS). Earnings FMP 2026-05-26 non exploitable. Recommandation : résoudre anomalie ou marquer excluded.
 
 ---
 
