@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $43.72
-- **Statut thèse :** —
-- **Horizon :** —
+- **Recommandation :** ACHETER (Réduit)
+- **Score global :** 64.8/100
+- **Prix cible :** $50.80
+- **Stop-loss :** $44.20
+- **Statut thèse :** Confirmée — première mutation après 14 snapshots stables
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -30,7 +30,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-26** · earnings · Earnings ...
+- **2026-05-26** · earnings · Earnings (source FMP) — JOUR J, résultats non observables après 8 jours de flag
 
 ---
 
@@ -41,6 +41,10 @@
 - **MM 200j :** —
 - **ATR 14j :** 1.32
 - **Volume moy. 20j :** 1881
+- **Volume session :** 930 (0.49× moyenne)
+- **Cours close :** $46.845
+- **Previous close :** $46.339
+- **Change pct :** +1.09%
 
 ---
 
@@ -49,7 +53,7 @@
 - **Date :** 2026-05-26
 - **Type :** update
 - **Fichier :** `TEST_2026-05-26_update.md`
-- **Conclusion :** **Verdict : ACHETER (Réduit) — Thèse CONFIRMÉE, stabilité totale entre 10:00 UTC et 13:00 UTC (14e snapshot consécutif sans mutation depuis le 2026-05-20)
+- **Conclusion :** Verdict : ACHETER (Réduit) — Thèse CONFIRMÉE, première mutation de données après 14 snapshots consécutifs stables. Cours $46.845 (+1.09%), RSI 62.02 (franchissement de 60), volume 930 (0.49× avg). Score Global 64.8/100. Liquidité toujours structurellement faible. Earnings JOUR J non observable après 8 jours de flag.
 
 ---
 
