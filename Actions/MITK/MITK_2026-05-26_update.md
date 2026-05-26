@@ -1,18 +1,20 @@
-# MITK — Mise à Jour Post-Pipeline (2026-05-26 10:00 UTC)
+# MITK — Mise à Jour Post-Pipeline (2026-05-26 13:00 UTC)
 
-> Desk : Argus-IA | Pipeline : 10:00 UTC | Données : `data/latest.json` (2026-05-26T10:00:14Z) | Score Global Ajusté : **65.2/100** | Action : **ACHETER (Réduit)**
+> Desk : Argus-IA | Pipeline : 13:00 UTC | Données : `data/latest.json` (2026-05-26T13:00:14Z) | Score Global Ajusté : **65.2/100** | Action : **ACHETER (Réduit)**
 
 ---
 
 ## Résumé des Changements
 
-**Verdict : THÈSE CONFIRMÉE — SNAPSHOT 10:00 UTC CONFIRME LA STABILITÉ TOTALE VS 2026-05-25 21:00 UTC.**
+**Verdict : THÈSE CONFIRMÉE — SNAPSHOT 13:00 UTC CONFIRME LA STABILITÉ TOTALE VS 10:00 UTC. ALERTE DATA QUALITY OPTIONS RÉSOLUE.**
 
-Le snapshot 10:00 UTC du 26 mai réplique intégralement les données du snapshot 21:00 UTC du 25 mai. Aucune mutation détectée sur les prix, volumes, indicateurs techniques, fondamentaux ni scores agents. Le marché américain n'a pas encore ouvert au moment du fetch (10:00 UTC = 06:00 AM EST) ; les données reflètent donc la dernière séance de clôture (vendredi 23 mai). La thèse **ACHETER (Réduit)** est confirmée sans révision.
+Le snapshot 13:00 UTC du 26 mai réplique intégralement les données de prix, volumes et indicateurs techniques du snapshot 10:00 UTC. Le marché américain n'a pas encore ouvert au moment du fetch (13:00 UTC = 09:00 AM EDT, ouverture à 09:30 AM EDT) ; les données reflètent donc la dernière séance de clôture (vendredi 23 mai). C'est le **3e snapshot consécutif sans mutation** de prix ni de métriques techniques (10:00 UTC 26/05, 21:00 UTC 25/05, 17:00 UTC 25/05).
 
-**Table comparative — Snapshot 2026-05-25 21:00 UTC vs Snapshot 2026-05-26 10:00 UTC :**
+**Résolution anomalie options :** Le glitch récurrent aux snapshots matinaux (max pain $7.50, put/call null, call OI null) est **résolu** dans le snapshot 13:00 UTC. Les valeurs restaurées sont : **Max Pain $20.00**, **Put/Call ratio 0.25**, **Call OI % 80.1%**. Le max pain est confirmé à +24.8% au-dessus du spot ($16.03), structure légèrement moins extrême que le snapshot 21:00 UTC du 25/05 (put/call 0.18, call OI 84.9%) mais reste très haussière.
 
-| Variable | 2026-05-25 21:00 UTC | 2026-05-26 10:00 UTC | Δ |
+**Table comparative — Snapshot 2026-05-26 10:00 UTC vs Snapshot 2026-05-26 13:00 UTC :**
+
+| Variable | 2026-05-26 10:00 UTC | 2026-05-26 13:00 UTC | Δ |
 |---|---|---|---|
 | **Cours close** | $16.03 | **$16.03** | **—** |
 | **Change %** | +4.36% | **+4.36%** | **—** |
@@ -30,9 +32,9 @@ Le snapshot 10:00 UTC du 26 mai réplique intégralement les données du snapsho
 | **Score Momentum** | 7.5/10 | **7.5/10** | **—** |
 | **Action recommandée** | ACHETER (Réduit) | **ACHETER (Réduit)** | **—** |
 | **Consensus PT (FMP)** | $16.00 (2 analysts) | **$16.00 (2 analysts)** | **—** |
-| **Max Pain** | $20.00 | **$7.50** [ANOMALIE] | **⚠️ Glitch** |
-| **Put/Call ratio** | 0.18 | **null** [ANOMALIE] | **⚠️ Glitch** |
-| **Call OI %** | 84.9% | **null** [ANOMALIE] | **⚠️ Glitch** |
+| **Max Pain (confirmé)** | $20.00 (valeurs 25/05) | **$20.00** | **— Confirmé** |
+| **Put/Call ratio** | 0.18 (valeurs 25/05) | **0.25** | **+0.07** |
+| **Call OI %** | 84.9% (valeurs 25/05) | **80.1%** | **−4.8 pp** |
 | **Prochain earnings** | 2026-08-06 (72j) | **2026-08-06 (72j)** | **—** |
 | **Régime macro** | Unknown | **Unknown** | **—** |
 | **XLK momentum** | 10.0/10 | **10.0/10** | **—** |
@@ -41,9 +43,9 @@ Le snapshot 10:00 UTC du 26 mai réplique intégralement les données du snapsho
 | **Social sentiment** | 0 / No data | **0 / No data** | **—** |
 | **Events corporate** | Aucun | **Aucun** | **—** |
 
-**Lecture institutionnelle :** Sur les 5 séances écoulées (dernière séance de clôture : vendredi 23 mai), MITK a grimpé de **+13.3%** ($14.15 → $16.03), franchissant deux seuils clés : la MM50 ($14.34, désormais support) et le consensus price target ($16.00). Le volume moyen sur la dernière séance s'est établi à **1.65M** (1.28× moyenne 20j), validant la cassure. Le snapshot 10:00 UTC du 26 mai, capturé avant l'ouverture du marché US, confirme la stabilité absolue des données par rapport au snapshot 21:00 UTC du 25 mai. Aucune divergence, aucune anomalie sur les données de prix et de fondamentaux.
+**Lecture institutionnelle :** Sur les 5 séances écoulées (dernière séance de clôture : vendredi 23 mai), MITK a grimpé de **+13.3%** ($14.15 → $16.03), franchissant deux seuils clés : la MM50 ($14.34, désormais support) et le consensus price target ($16.00). Le volume moyen sur la dernière séance s'est établi à **1.65M** (1.28× moyenne 20j), validant la cassure. Les snapshots 10:00 UTC et 13:00 UTC du 26 mai confirment la stabilité absolue des données de prix par rapport au snapshot 21:00 UTC du 25 mai (3e snapshot consécutif identique).
 
-**Alerte data quality options :** Le snapshot 10:00 UTC révèle une anomalie options identique à celle observée le 2026-05-20 à la même heure : max pain chute à **$7.50** (−53.2% vs spot $16.03, aberrant), put/call ratio et call OI % passent à **null**. Ce pattern est récurrent aux snapshots matinaux et a été confirmé comme glitch temporaire le 20 mai (restauré à $20.00 au snapshot 13:00 UTC). Les valeurs confirmées du 25 mai (**Max Pain $20.00, Put/Call 0.18, Call OI % 84.9%**) sont conservées pour l'analyse.
+**Résolution data quality options :** Le glitch matinal (max pain $7.50, put/call null, call OI null) est résolu au snapshot 13:00 UTC. Les valeurs restaurées confirment le max pain à **$20.00** (aberration persistante mais stable). Le Put/Call ratio remonte à **0.25** (vs 0.18 au snapshot 21:00 UTC du 25/05) et le Call OI % à **80.1%** (vs 84.9% précédemment). Ce léger reéquilibrage (hausse de 0.07 du ratio put/call, baisse de 4.8 pp du call OI) indique une légère prise de profits sur les positions call extrêmes sans changement de tendance. La structure options reste très haussière.
 
 ---
 
@@ -51,7 +53,7 @@ Le snapshot 10:00 UTC du 26 mai réplique intégralement les données du snapsho
 
 | Indicateur | Valeur | Lecture |
 |---|---|---|
-| **Cours close** | $16.03 | Stable vs 2026-05-25 21:00 UTC (dernière séance : 23 mai) |
+| **Cours close** | $16.03 | Stable vs 2026-05-26 10:00 UTC (dernière séance : 23 mai) |
 | **Open / High / Low** | 15.50 / 16.23 / 15.50 | Range intraday $0.73, gap haussier préservé |
 | **Change %** | +4.36% | Mouvement positif confirmé (dernière séance) |
 | **RSI (14j)** | 57.06 | Zone neutre favorable, pas de surachat |
@@ -71,7 +73,7 @@ Le snapshot 10:00 UTC du 26 mai réplique intégralement les données du snapsho
 - Take-profit ATR (3×) : **$18.85** (+17.6%)
 - Ratio R/R : **1.5**
 
-**Verdict timing :** Favorable. La configuration technique reste haussière : prix au-dessus de MM50, RSI en zone neutre favorable, volume confirmant. Aucun changement depuis le snapshot 21:00 UTC du 25 mai.
+**Verdict timing :** Favorable. La configuration technique reste haussière : prix au-dessus de MM50, RSI en zone neutre favorable, volume confirmant. Aucun changement depuis le snapshot 10:00 UTC du 26 mai.
 
 **Momentum sectoriel :** XLK affiche un momentum score de **10.0/10** (top sector, return 20j +12.59%, return 60j +28.09%). MITK capte le vent de queue Technology avec un momentum individuel confirmé à **7.5/10**.
 
@@ -81,7 +83,7 @@ Le snapshot 10:00 UTC du 26 mai réplique intégralement les données du snapsho
 
 Les données fondamentales sont stables ; seuls les multiples de valorisation se sont resserrés mécaniquement avec la hausse du cours.
 
-| Métrique | Valeur | Source | Δ vs 2026-05-25 21:00 UTC |
+| Métrique | Valeur | Source | Δ vs 2026-05-26 10:00 UTC |
 |----------|--------|--------|---------------------------|
 | Market Cap | $723.9M (Yahoo) / $446.6M (FMP) | Yahoo / FMP | — |
 | P/E (TTM) | 47.15x (Yahoo) / 50.78x (FMP) | Yahoo / FMP | — |
@@ -109,20 +111,17 @@ Les données fondamentales sont stables ; seuls les multiples de valorisation se
 | Signal | Valeur | Lecture |
 |---|---|---|
 | Consensus PT | $16.00 (2 analysts) | **Atteint** — upside théorique nul |
-| **Max Pain (confirmé 25/05)** | **$20.00** | Anomalie persistante : max pain à +24.8% au-dessus du spot |
-| **Put/Call ratio (confirmé 25/05)** | **0.18** | Très faible, domination calls stable |
-| **Call OI % (confirmé 25/05)** | **84.9%** | Extrême concentration acheteurs calls |
-| Max Pain (snapshot 26/05 10:00 UTC) | $7.50 | [GLITCH DATA — valeurs confirmées 25/05 conservées] |
-| Put/Call ratio (snapshot 26/05 10:00 UTC) | null | [GLITCH DATA — valeurs confirmées 25/05 conservées] |
-| Call OI % (snapshot 26/05 10:00 UTC) | null | [GLITCH DATA — valeurs confirmées 25/05 conservées] |
+| **Max Pain (snapshot 13:00 UTC)** | **$20.00** | Confirmé — anomalie glitch résolue |
+| **Put/Call ratio (snapshot 13:00 UTC)** | **0.25** | Très faible, domination calls persistante (vs 0.18 au 25/05) |
+| **Call OI % (snapshot 13:00 UTC)** | **80.1%** | Concentration acheteurs calls forte (vs 84.9% au 25/05) |
 | Short Interest | 7.32% | Modéré, pas de squeeze setup |
 | Social Sentiment | 0 / No data | Sous le radar retail |
 | Upgrades/Downgrades | Aucun | Silence analystes |
 | News structurantes | Aucune | — |
 
-**Verdict Sentiment :** Neutre à légèrement haussier. Le consensus price target ($16.00) est atteint. L'anomalie options perd en intensité relative (max pain $20.00 = +24.8% vs spot) mais reste un signal d'intérêt spéculatif. Aucun flux de news, aucun insider trade, aucun upgrade/downgrade. MITK reste sous le radar institutionnel.
+**Verdict Sentiment :** Neutre à légèrement haussier. Le consensus price target ($16.00) est atteint. L'anomalie options est résolue avec un max pain confirmé à $20.00 (+24.8% vs spot), put/call 0.25 et call OI 80.1%. Le léger reéquilibrage (ratio put/call +0.07, call OI −4.8 pp) suggère une prise de profits marginale sur les calls extrêmes sans inversion de tendance. Aucun flux de news, aucun insider trade, aucun upgrade/downgrade. MITK reste sous le radar institutionnel.
 
-**Note data quality :** Le glitch options récurrent aux snapshots matinaux (max pain $7.50, put/call null) a été documenté le 2026-05-20 et restauré dans l'après-midi. Les valeurs opérationnelles conservées sont celles du snapshot 21:00 UTC du 25 mai.
+**Note data quality :** Le glitch options récurrent aux snapshots matinaux est résolu au snapshot 13:00 UTC. Les valeurs opérationnelles utilisées sont désormais celles du snapshot 13:00 UTC (max pain $20.00, put/call 0.25, call OI 80.1%).
 
 ---
 
@@ -173,24 +172,24 @@ Les niveaux sont confirmés : close $16.03 et ATR à $0.94. Le SL à $14.15 corr
 **Alertes actives (confirmées) :**
 - 🟢 **[CASSURE MM50 CONFIRMÉE]** Cours $16.03 > MM50 $14.34 (+11.8%) avec volume 1.28× moyenne — signal technique validé — 2026-05-25
 - 🟢 **[MOMENTUM SECTORIEL FAVORABLE]** XLK : 10.0/10 (+12.59% sur 20j) — vent de queue Technology — 2026-05-25
-- 🟡 **[ANOMALIE OPTIONS ATTÉNUÉE]** Max Pain $20.00 (+24.8% vs spot), Put/Call 0.18, Call OI % 84.9% — anomalie persistante mais moins aberrante — 2026-05-25
+- 🟡 **[ANOMALIE OPTIONS RÉSOLUE]** Max Pain $20.00 (+24.8% vs spot), Put/Call 0.25, Call OI % 80.1% — glitch matinal résolu, structure légèrement moins extrême mais toujours haussière — 2026-05-26
 - 🟡 **[CONSENSUS PT ATTEINT]** $16.00 atteint — upside théorique nul, monitoring des révisions analystes — 2026-05-25
 - 🟡 **[ROIC FAIBLE]** 3.16% — monitorer l'efficacité du capital dans les prochains filings — 2026-05-18
 - 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($724M vs $447M FMP) et P/E — utiliser Yahoo comme primaire — 2026-05-18
 - 🟡 **[LIQUIDITÉ DÉRIVÉE FAIBLE]** Options : faible OI, max pain éloigné — prudence sur le hedging — 2026-05-25
-- 🟡 **[GLITCH OPTIONS RÉCURRENT]** Max pain $7.50 / put:call null au snapshot 10:00 UTC — artefact data quality, valeurs confirmées 25/05 conservées — 2026-05-26
 
 **Alertes levées (confirmées) :**
 - ✅ **[VOLUME SOUS MOYENNE]** Levée — volume 1.28× moyenne 20j — 2026-05-25
 - ✅ **[SCORE SOUS SEUIL 50]** Levée — Global ajusté 65.2/100 > 50 — 2026-05-25
+- ✅ **[GLITCH OPTIONS RÉCURRENT]** Levée — données options restaurées au snapshot 13:00 UTC (max pain $20.00, put/call 0.25, call OI 80.1%) — 2026-05-26
 
 ---
 
 ## 7. Conclusion — Thèse Confirmée (ACHETER Réduit)
 
-**Verdict : THÈSE CONFIRMÉE. Snapshot 10:00 UTC du 26 mai : cours $16.03 (stable vs 21:00 UTC 25/05, données de la dernière séance 23 mai), volume 1,648,000 (1.28× moyenne 20j, stable), RSI 57.06 (stable), cassure confirmée au-dessus de MM50 ($14.34). Score Global Ajusté 65.2/100 inchangé. Action ACHETER (Réduit) maintenue.**
+**Verdict : THÈSE CONFIRMÉE. Snapshot 13:00 UTC du 26 mai : cours $16.03 (stable vs 10:00 UTC, données de la dernière séance 23 mai), volume 1,648,000 (1.28× moyenne 20j, stable), RSI 57.06 (stable), cassure confirmée au-dessus de MM50 ($14.34). Score Global Ajusté 65.2/100 inchangé. Action ACHETER (Réduit) maintenue. Glitch options matinal résolu : max pain confirmé à $20.00, put/call 0.25, call OI 80.1%.**
 
-MITK confirme sa capacité à capter le momentum sectoriel Technology (XLK 10.0/10). Aucune mutation de données entre le snapshot 21:00 UTC du 25 mai et le snapshot 10:00 UTC du 26 mai (fetch pré-ouverture). Le break de $14.50–$16.00 est confirmé sur volume. La thèse reste valide avec les mêmes niveaux de risque.
+MITK confirme sa capacité à capter le momentum sectoriel Technology (XLK 10.0/10). Aucune mutation de données entre le snapshot 10:00 UTC et le snapshot 13:00 UTC du 26 mai (3e snapshot consécutif identique). Le break de $14.50–$16.00 est confirmé sur volume. La résolution de l'anomalie options renforce la fiabilité des données de sentiment. La thèse reste valide avec les mêmes niveaux de risque.
 
 **Catalyseurs forward :**
 1. **Cassure du 52-week high ($16.48)** — si confirmée avec volume >1.5× moyenne, ouvrirait la voie vers $18.00–$20.00
@@ -203,7 +202,6 @@ MITK confirme sa capacité à capter le momentum sectoriel Technology (XLK 10.0/
 - Anomalie options persistante (Max Pain $20.00) — liquidité dérivée faible
 - Consensus PT atteint ($16.00) — upside théorique nul à court terme
 - SBC / Revenue élevé (9.35%) — dilution potentielle
-- Glitch data quality options récurrent (snapshot 10:00 UTC) — nécessite vérification croisée
 
 **Recommandation :** **ACHETER (Réduit).**
 
@@ -213,4 +211,4 @@ Nouvelles positions : entrée à $16.03 ou sur pullback vers $15.50–$15.80 ave
 
 ---
 
-*Révision post-pipeline 10:00 UTC — Données : `data/latest.json` (2026-05-26T10:00:14Z), `data/recommandations_2026-05-26.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_2026-05-26.json`, `data/fx_exposure_2026-05-26.json`, `data/social_sentiment_2026-05-26.json`, `data/upcoming_events_2026-05-26.json`, `data/events_2026-05-26.json` — Date : 2026-05-26*
+*Révision post-pipeline 13:00 UTC — Données : `data/latest.json` (2026-05-26T13:00:14Z), `data/recommandations_2026-05-26.json`, `data/quant_report_latest.json`, `data/geo_risk_2026-05-26.json`, `data/sector_rotation_2026-05-26.json`, `data/fx_exposure_2026-05-26.json`, `data/social_sentiment_2026-05-26.json`, `data/upcoming_events_2026-05-26.json`, `data/events_2026-05-26.json` — Date : 2026-05-26*
