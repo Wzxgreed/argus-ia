@@ -49,6 +49,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 | 2026-05-25 (21h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
 | 2026-05-26 (10h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
 | 2026-05-26 (13h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
+| 2026-05-26 (17h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
 
 ---
 
@@ -66,7 +67,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 
 - **[CRITICAL]** Pas de données de prix pour AXA — ticker probablement incorrect
 - **[WARNING]** Earnings J0 (2026-05-26) sans consensus ni résultats exploitables
-- **[INFO]** Headwind sectoriel XLF atténué mais persistant (RS 20j −3.43%, return 20j +1.01%, momentum 0.0/10)
+- **[INFO]** Mutation sectorielle XLF entre 13h00 et 17h00 : RS 20j dégradé (−3.43% → −4.74%), return 60j amélioré (−0.56% → +1.26%), momentum 0.0/10
 
 ---
 
