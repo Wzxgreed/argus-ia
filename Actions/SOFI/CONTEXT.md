@@ -11,12 +11,12 @@
 **Prix cible :** $17.54 (cours + 3×ATR)
 **Stop-loss :** $14.34 (cours − 2×ATR)
 **Upside/Downside :** +12.3% / −8.2%
-**Dernière mise à jour :** 2026-05-26 (snapshot 10:00 UTC — stabilité confirmée vs 21:00 UTC 2026-05-25)
+**Dernière mise à jour :** 2026-05-26 (snapshot 13:00 UTC — correction anomalie options)
 
-SoFi est une fintech-banque hybride avec un écosystème complet (lending + banking + investing) et une marque forte chez les millennials. Le charter bancaire 2022 crée une barrière réglementaire modérée vs les fintechs non-banques. Le snapshot du 2026-05-26 à 10:00 UTC confirme la stabilité totale de toutes les métriques par rapport au snapshot 21:00 UTC du 2026-05-25 (marché fermé Memorial Day, snapshot pré-ouverture). Le close reste à **$15.62** avec un RSI 14j à **43.83** et une MM50 à **$16.76** — le trend court terme reste baissier (cours −6.8% sous MM50). Le support psychologique **$15.00** est inchangé. Le volume s'établit à **57.91M (0.84× moy. 20j)**. La dépendance aux taux d'intérêt et l'exposition aux prêts étudiants créent des risques macro majeurs. Le Forward P/E **19.96** est raisonnable pour une fintech en croissance mais le P/E LTM **34.71** reste élevé. Le Score Opportunité est stable à **5.7/10**, et le Score Global Composite reste en zone **SURVEILLER (48.6/100)**. **[ALERTE DATA QUALITY]** Le snapshot JSON du jour présente une anomalie systémique sur les options (Max Pain $5.00 aberrant, put/call et call_oi null). Les valeurs confirmées du 2026-05-25 sont maintenues : Max Pain **$15.00**, Put/Call **0.75**, Call OI **57.2%** — signal défensif stable à l'approche de l'expiration du 2026-05-29 (3 jours ouvrés). Le secteur financier (XLF) reste sans direction (momentum 0.0/10). Attendre un retour au-dessus de MM50 avec volume confirmatoire, ou un test du support $15.00 pour éventuelle entrée spéculative.
+SoFi est une fintech-banque hybride avec un écosystème complet (lending + banking + investing) et une marque forte chez les millennials. Le charter bancaire 2022 crée une barrière réglementaire modérée vs les fintechs non-banques. Le snapshot du 2026-05-26 à 13:00 UTC confirme la stabilité du cours à **$15.62** avec un RSI 14j à **43.83** et une MM50 à **$16.76** — le trend court terme reste baissier (cours −6.8% sous MM50). Le support psychologique **$15.00** est inchangé. Le volume s'établit à **57.91M (0.84× moy. 20j)**. La dépendance aux taux d'intérêt et l'exposition aux prêts étudiants créent des risques macro majeurs. Le Forward P/E **19.96** est raisonnable pour une fintech en croissance mais le P/E LTM **34.71** reste élevé. Le Score Opportunité est stable à **5.7/10**, et le Score Global Composite reste en zone **SURVEILLER (48.6/100)**. **[RÉSOLU]** L'anomalie systémique sur les options du snapshot 10:00 UTC est corrigée au snapshot 13:00 UTC : Max Pain **$16.00** (+$1.00 vs 25/05, au-dessus du cours), Put/Call **0.70** (−0.05 vs 25/05), Call OI **58.8%** (+1.6 pts vs 25/05). Le repositionnement options est légèrement moins défensif, voire marginalement haussier à très court terme, mais le cours n'a pas réagi. Le secteur financier (XLF) reste sans direction (momentum 0.0/10). Attendre un retour au-dessus de MM50 avec volume confirmatoire, ou un test du support $15.00 pour éventuelle entrée spéculative.
 **Score 5.7/10. Score Global 48.6/100. SURVEILLER.**
 
-**Données complètes** — Cours, RSI, ATR, P/E, beta disponibles dans `data/latest.json` (snapshot 2026-05-26T10:00 UTC). Options : Max Pain $15.00 (confirmé 25/05, anomalie JSON 26/05), Put/Call 0.75, Call OI 57.2%. Expiration prochaine 2026-05-29 (3 jours ouvrés).
+**Données complètes** — Cours, RSI, ATR, P/E, beta disponibles dans `data/latest.json` (snapshot 2026-05-26T13:00 UTC). Options : Max Pain $16.00 (corrigé 13:00 UTC), Put/Call 0.70, Call OI 58.8%. Expiration prochaine 2026-05-29 (3 jours ouvrés).
 
 ---
 
@@ -45,7 +45,7 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- 2026-07-28 — Earnings Q2 FY2026 (63j restants)
 
 ---
 
@@ -56,6 +56,9 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 - **MM 200j :** —
 - **ATR 14j :** 0.64
 - **Volume moy. 20j :** 68774005
+- **Max Pain options :** 16.00
+- **Put/Call ratio :** 0.70
+- **Call OI % :** 58.8%
 
 ---
 
@@ -64,7 +67,7 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 - **Date :** 2026-05-26
 - **Type :** update
 - **Fichier :** `SOFI_2026-05-26_update.md`
-- **Conclusion :** **Date :** 2026-05-26 (snapshot 10:00 UTC — stabilité confirmée vs 2026-05-25 21:00 UTC)
+- **Conclusion :** Snapshot 13:00 UTC corrige l'anomalie options du snapshot 10:00 UTC. Cours $15.62 inchangé. Options corrigées : Max Pain $16.00 (+$1.00 vs 25/05), Put/Call 0.70 (−0.05), Call OI 58.8% (+1.6 pts). Repositionnement options légèrement moins défensif mais cours inchangé. Score Global 48.6/100 (SURVEILLER). TP $17.54, SL $14.34, R/R 1.50. Earnings dans 63j. Support critique $15.00. Aucune news, aucun événement corporate, exposition FX et géo neutres. Accounting risk non évalué (fichier absent). Validation data : SOFI OK.
 
 ---
 
