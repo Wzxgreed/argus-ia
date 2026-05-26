@@ -8,22 +8,22 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ATTENDRE — Pas de position
-**Prix cible :** $9.26 (consensus 6 analystes)
-**Stop-loss :** $13.51 (cours − 2×ATR)
-**Take-profit :** $18.41 (cours + 3×ATR)
-**Upside/Downside :** −40.1% / −12.7%
-**Dernière mise à jour :** 2026-05-26 13:00 UTC
+- **Prix cible :** $9.26 (consensus 6 analystes)
+- **Stop-loss :** $14.52 (cours − 2×ATR)
+- **Take-profit :** $19.52 (cours + 3×ATR)
+- **Upside/Downside :** −43.9% / −12.1%
+- **Dernière mise à jour :** 2026-05-26 17:00 UTC
 
-Gap haussier de +9.1% (close $15.47, new 52-week high $15.78) sans catalyseur fondamental identifiable. Le momentum technique est réel (RSI 64.29, volume 1.07×) mais la valorisation reste un frein absolu (P/E 96.7, cours +66.8% vs consensus $9.26). Données options restaurées au snapshot 13:00 UTC : put/call 0.51, call OI 66.1%, max pain $15.00 (vs $14.00 au 25/05). Le pin options remonté réduit le risque d'un retour de moyenne violent vers $14.00 avant l'expiration du 29 mai, mais la modération du skew call suggère un léger désengagement spéculatif post-gap. Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%). Divergence structurelle Yahoo/FMP persistante (P/E FMP 45.8 vs Yahoo 96.7). Dividende 1.06%. Le secteur Communication Services (XLC) est en sous-performance relative (bottom 3 sector rotation), ce qui rend le gap idiosyncratique et fragile. Thèse modifiée vs 20/05 : le momentum invalide l'hypothèse de retour rapide au consensus, mais ne justifie pas un achat. Pas d'entrée.
+Double gap haussier consécutif : +9.1% (25/05) puis +6.79% (26/05), soit +18.3% en deux séances sans catalyseur fondamental identifiable. Cours $16.52, nouveau 52-week high $16.625, RSI 67.38 proche surachat. P/E Yahoo 103.3, premium consensus +78.4%. Options : max pain $15.00 (expiration 29/05, dans 2j), put/call 0.51, call OI 66.1%. Risque de mean-reversion vers le max pain élevé. Quality hors périmètre (2.5/6). Secteur XLC bottom 3. Pas d'entrée.
 
 **✅ Données complètes** — Cours, RSI, ATR, P/E, consensus, options disponibles dans `data/latest.json`.
 
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** —/10
+- **Score global :** 50.5/100
 - **Prix cible :** $9.26
-- **Stop-loss :** $13.51
+- **Stop-loss :** $14.52
 - **Statut thèse :** modifiée
 - **Horizon :** —
 
@@ -37,28 +37,30 @@ Gap haussier de +9.1% (close $15.47, new 52-week high $15.78) sans catalyseur fo
 
 ## 🚨 Alertes actives
 
-- Baisse — $12.03 (SL 2×ATR) — 🟢 Active
-- Hausse — $9.26 (consensus) — 🔴 Déjà au-dessus
-- Volume — >2× moy. 20j (>249M) — 🟢 Active
+- Baisse — $14.52 (SL 2×ATR) — 🟢 Active
+- Hausse — $9.26 (consensus) — 🔴 Déjà au-dessus (+78.4%)
+- Volume — >2× moy. 20j (>237M) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- 2026-05-29 — Expiration options (max pain $15.00, dans 2 jours)
+- 2026-07-23 — Earnings Q2 FY2026 (dans 58 jours)
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 64.29
-- **MM 50j :** 10.8
+- **Cours close :** $16.52
+- **RSI 14j :** 67.38
+- **MM 50j :** $10.96
 - **MM 200j :** —
-- **ATR 14j :** 0.98
-- **Volume moy. 20j :** 118870420
-- **Max pain options :** $15.00 (expiration 2026-05-29)
-- **Put/Call ratio :** 0.51
-- **Call OI % :** 66.1%
+- **ATR 14j :** $1.00
+- **Volume moy. 20j :** 118,756,294
+- **Volume relatif :** 1.17×
+- **52-week high :** $16.625
+- **52-week low :** $4.00
 
 ---
 
@@ -67,14 +69,17 @@ Gap haussier de +9.1% (close $15.47, new 52-week high $15.78) sans catalyseur fo
 - **Date :** 2026-05-26
 - **Type :** update
 - **Fichier :** `NOK_2026-05-26_update.md`
-- **Conclusion :** Thèse ATTENDRE confirmée (Score Global ajusté 50.5/100). Données prix/technique/fondamentales inchangées (close $15.47, RSI 64.29, ATR $0.98). Données options restaurées : max pain remonté à $15.00 (vs $14.00 au 25/05), put/call 0.51, call OI 66.1%. Le pin options plus proche du cours réduit le risque de retour vers $14.00 avant l'expiration du 29 mai, mais la modération du skew call suggère un léger désengagement spéculatif post-gap. Aucun catalyseur fondamental identifié.
+- **Conclusion :** Deuxième gap consécutif (+6.79%, close $16.52). New 52w high $16.625. RSI 67.38. P/E 103.3, premium consensus +78.4%. Aucun catalyseur identifié. Thèse modifiée : ATTENDRE maintenu, SL/TP révisés $14.52/$19.52. Risque mean-reversion élevé vers max pain $15.00 (expiration 29/05).
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +9.10% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 6.33% (seuil 5.0%)
+- **PRICE_GAP** (high) — Deuxième gap consécutif : +6.79% overnight (seuil ±5.0%)
+- **RSI_OVERBOUGHT** (medium) — RSI 67.38 approche zone surachat (>70)
+- **ATR_SPIKE** (medium) — ATR relatif 6.05% (seuil 5.0%)
+- **VOLUME_SPIKE** (medium) — Volume 1.17× moy. 20j (seuil 1.0×)
+- **MAX_PAIN_DIVERGENCE** (high) — Cours $16.52 vs max pain $15.00 : écart +10.1%, expiration dans 2 jours
 
 ---
 

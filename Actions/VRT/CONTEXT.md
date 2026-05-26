@@ -47,11 +47,11 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 48.88
-- **MM 50j :** 303.02
+- **RSI 14j :** 46.52
+- **MM 50j :** 304.46
 - **MM 200j :** —
-- **ATR 14j :** 19.66
-- **Volume moy. 20j :** 5715515
+- **ATR 14j :** 20.04
+- **Volume moy. 20j :** 5581819
 
 ---
 
@@ -60,13 +60,13 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 - **Date :** 2026-05-26
 - **Type :** update
 - **Fichier :** `VRT_2026-05-26_update.md`
-- **Conclusion :** Thèse CONFIRMÉE — Anomalie options JSON résolue (put/call 2.39, max pain $225, call OI 29.5%). Put/call en légère amélioration vs 25/05 (2.59→2.39). Toutes les métriques de marché stables. Score 4.3/10. SURVEILLER. Timing Neutre.
+- **Conclusion :** **Date :** 2026-05-26
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 6.00% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 6.15% (seuil 5.0%)
 
 ---
 

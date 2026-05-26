@@ -1,35 +1,38 @@
-# NOK — Mise à Jour Quotidienne (2026-05-26, Snapshot 13:00 UTC)
+# NOK — Mise à Jour Quotidienne (2026-05-26, Snapshot 17:00 UTC)
 
 > Desk : Argus-IA | Ticker : NOK (NYSE ADR) | Secteur : Technology / Communication Equipment
-> Date analyse : 2026-05-26 | Données source : `data/latest.json` (snapshot 2026-05-26T13:00:08 UTC)
+> Date analyse : 2026-05-26 | Données source : `data/latest.json` (snapshot 2026-05-26T17:00:08 UTC)
 
 ---
 
-## 1. Résumé des changements depuis l'analyse précédente (2026-05-26 10:00 UTC)
+## 1. Résumé des changements depuis l'analyse précédente (2026-05-26 13:00 UTC)
 
-| Indicateur | Snapshot 10:00 UTC | Snapshot 13:00 UTC | Variation | Signal |
+| Indicateur | Snapshot 13:00 UTC | Snapshot 17:00 UTC | Variation | Signal |
 |-----------|-------------------|-------------------|-----------|--------|
-| Cours close | $15.47 | **$15.47** | **0.00%** | 🟢 Stable |
-| Change % vs previous close | +9.1% | **+9.1%** | — | Inchangé |
-| RSI 14j | 64.29 | **64.29** | 0.00 | Stable |
-| ATR 14j | $0.98 | **$0.98** | $0.00 | Stable |
-| Volume relatif | 1.07× | **1.07×** | 0.00× | Stable |
-| 52-week high | $15.78 | **$15.78** | — | Stable |
-| P/E (TTM Yahoo) | 96.69 | **96.69** | 0.00 | Stable |
-| Forward P/E | 31.72 | **31.72** | 0.00 | Stable |
-| Premium vs consensus $9.26 | +66.8% | **+66.8%** | 0.0 pp | Stable |
-| Consensus analystes (FMP) | $9.26 (6) | **$9.26 (6)** | Inchangé | Stable |
-| Put/Call ratio | `null` (données partielles) | **0.51** | ✅ Restauré | Modération du bullish |
-| Max pain options | $2.00 (incohérent) | **$15.00** | ✅ Restauré | Pin remonté |
-| Call OI | `null` (données partielles) | **66.1%** | ✅ Restauré | Dominance calls maintenue |
+| Cours close | $15.47 | **$16.52** | **+6.79%** | 🔴 Gap haussier prolongé |
+| Change % vs previous close | +9.1% (jour précédent) | **+6.79%** | — | Deuxième gap consécutif |
+| RSI 14j | 64.29 | **67.38** | **+3.09** | 🟡 Approche surachat (>70) |
+| ATR 14j | $0.98 | **$1.00** | **+$0.02** | Volatilité en expansion |
+| Volume relatif | 1.07× | **1.17×** | **+0.10×** | Volume croissant |
+| 52-week high | $15.78 | **$16.625** | **+$0.845** | 🟢 New high |
+| P/E (TTM Yahoo) | 96.69 | **103.25** | **+6.56** | 🔴 Multiple expansion accélérée |
+| Forward P/E | 31.72 | **33.87** | **+2.15** | 🔴 Valorisation empire |
+| P/B | 3.52 | **3.76** | **+0.24** | Expansion |
+| Premium vs consensus $9.26 | +66.8% | **+78.4%** | **+11.6 pp** | 🔴 Divergence prix/valeur aggravée |
+| Consensus analystes (FMP) | $9.26 (6) | **$9.26 (6)** | Inchangé | Stable — aucune révision |
+| Put/Call ratio | 0.51 | **0.51** | 0.00 | Stable |
+| Max pain options | $15.00 | **$15.00** | $0.00 | Stable — aimant gamma renforcé |
+| Call OI | 66.1% | **66.1%** | 0.0 pp | Stable |
 
 **Changements significatifs détectés :**
-- **🟢 Données options restaurées** dans le snapshot 13:00 UTC après un blackout partiel au snapshot 10:00 UTC (put/call `null`, max pain $2.00 placeholder, call OI `null`).
-- **Max pain remonté à $15.00** (vs $14.00 au 25/05 et vs $2.00 placeholder ce matin). Le niveau de pin options est désormais à seulement $0.47 sous le close actuel, contre $1.47 auparavant. Cela réduit la probabilité d'un retour de moyenne violent vers $14.00 avant l'expiration du 29 mai.
-- **Put/Call ratio 0.51** (vs 0.41 au 25/05) : la dominance call se modère mais reste nettement bullish. Ratio < 1.0 = plus d'OI calls que puts.
-- **Call OI 66.1%** (vs 70.9% au 25/05) : léger désengagement des calls après le gap +9.1%, mais la structure reste haussière.
-- **Aucune mutation fondamentale** : P/E, consensus, volumes, RSI, ATR strictement inchangés.
-- **Aucun catalyseur fondamental** identifié dans `data/events_latest.json` (vide pour NOK) ni dans `data/news_2026-05-26.json` (0 article).
+- **🔴 Deuxième gap haussier consécutif** : après le +9.1% du 25/05 (close $15.47), NOK gagne +6.79% aujourd'hui (close $16.52). Mouvement combiné de +18.3% en deux séances sans catalyseur fondamental identifiable.
+- **🔴 Nouveau 52-week high** : $16.625 (vs $15.78 hier), franchissant le précédent sommet d'août 2024.
+- **🟡 RSI 67.38** : approche la zone de surachat (>70). Sur deux séances, le RSI est passé de ~58 (20/05) à 67.38, signalant un momentum technique en surchauffe.
+- **🔴 P/E Yahoo 103.25** : franchit symboliquement le triple-digit. Forward P/E 33.87 sur une entreprise à croissance anémique (Quality 2.5/6).
+- **🔴 Premium vs consensus +78.4%** : le cours s'éloigne encore du consensus sell-side $9.26, creusant la divergence.
+- **🟢 Volume croissant** : 138.9M (1.17× moyenne 20j), contre 127.4M (1.07×) au snapshot 13:00 UTC. La hausse est accompagnée de volume réel.
+- **🟢 Données options inchangées** : max pain $15.00, put/call 0.51, call OI 66.1%. La structure options ne s'est pas dégradée malgré le nouveau gap. Le cours ($16.52) est désormais +10.1% au-dessus du max pain.
+- **Aucun catalyseur fondamental** identifié dans `data/events_latest.json` (vide pour NOK) ni dans `data/upcoming_events_latest.json`.
 
 ---
 
@@ -37,36 +40,37 @@
 
 | Métrique | Valeur | Source | Commentaire |
 |----------|--------|--------|-------------|
-| Cours close | $15.47 | Yahoo Finance | Inchangé vs 10:00 UTC. Gap +9.1% du 25/05 maintenu. |
-| Open | $14.70 | Yahoo Finance | Gap haussier du 25/05 inchangé |
-| High intraday | $15.78 | Yahoo Finance | **52-week high** |
-| Low intraday | $14.58 | Yahoo Finance | Support intraday immédiat |
-| Volume | 127,394,200 | Yahoo Finance | 1.07× moyenne 20j (118,870,420) |
-| RSI 14j | 64.29 | Calcul agent | Zone neutre haute, proche surachat (>70) |
-| ATR 14j | $0.98 | Calcul agent | 6.33% du cours — volatilité modérée |
-| MM 50j | $10.80 | Calcul agent | Cours +43.2% au-dessus du support structurel |
+| Cours close | $16.52 | Yahoo Finance | +6.79% vs previous close ($15.47) |
+| Open | $15.99 | Yahoo Finance | Gap haussier d'ouverture confirmé |
+| High intraday | $16.625 | Yahoo Finance | **Nouveau 52-week high** — franchit $16.00 |
+| Low intraday | $15.66 | Yahoo Finance | Support intraday immédiat |
+| Volume | 138,877,387 | Yahoo Finance | 1.17× moyenne 20j (118,756,294) — volume croissant |
+| RSI 14j | 67.38 | Calcul agent | Zone neutre haute, proche surachat (>70) |
+| ATR 14j | $1.00 | Calcul agent | 6.05% du cours — volatilité en expansion |
+| MM 50j | $10.96 | Calcul agent | Cours +50.7% au-dessus du support structurel |
 | MM 200j | — | Calcul agent | Non disponible |
 | Golden Cross | Non | Calcul agent | — |
-| Beta | 0.765 | Yahoo Finance | Faible sensibilité au marché |
+| Beta | 0.765 | Yahoo Finance | Faible sensibilité au marché — le mouvement est idiosyncratique |
 
-**Niveaux clés (inchangés) :**
-- **Support immédiat :** $14.58 (low du 25/05) / $15.00 (max pain options, renforcé)
-- **Résistance :** $15.78 (52-week high)
-- **Stop-loss ATR (2×) :** $13.51 ($15.47 − $1.96)
-- **Take-profit ATR (3×) :** $18.41 ($15.47 + $2.94)
+**Niveaux clés (révisés) :**
+- **Support immédiat :** $15.66 (low du jour) / $15.00 (max pain options)
+- **Résistance :** $16.625 (52-week high, frais et fragile)
+- **Stop-loss ATR (2×) :** $14.52 ($16.52 − $2.00)
+- **Take-profit ATR (3×) :** $19.52 ($16.52 + $3.00)
 - **Ratio R/R :** 1.5
 
 **Mise à jour options — impact technique :**
-| Niveau | Valeur 25/05 | Valeur 26/05 13:00 | Interprétation |
+| Niveau | Valeur 25/05 | Valeur 26/05 17:00 | Interprétation |
 |--------|-------------|-------------------|----------------|
-| Max pain | $14.00 | **$15.00** | Le "pin" options remonte de $1.00. Le cours ($15.47) n'est plus que +3.1% au-dessus du max pain vs +10.5% précédemment. |
-| Put/Call ratio | 0.41 | **0.51** | Plus d'équilibre entre calls et puts. Moins de skew call extrême, mais reste haussier. |
-| Call OI % | 70.9% | **66.1%** | Désengagement partiel des calls après le gap. Structure moins unilatérale. |
-| Expiration | 2026-05-29 | **2026-05-29** | 3 jours — risque de pin au max pain $15.00. |
+| Max pain | $14.00 | **$15.00** | Inchangé depuis le snapshot 13:00 UTC |
+| Put/Call ratio | 0.41 | **0.51** | Stable — dominance calls modérée |
+| Call OI % | 70.9% | **66.1%** | Stable — désengagement partiel maintenu |
+| Cours vs max pain | +10.5% | **+10.1%** | Le cours reste significativement au-dessus du pin. Risque de mean-reversion vers $15.00 |
+| Expiration | 2026-05-29 | **2026-05-29** | **2 jours** — risque de pin au max pain $15.00 très élevé |
 
-**Verdict timing :** Favorable sur le momentum pur — inchangé. Le cours reste au-dessus de la MM50 (+43.2%) avec un volume normalisé. La restauration du max pain à $15.00 (vs $14.00 précédent) est un signal technique modérément positif : la probabilité d'un retour vers $14.00 avant vendredi diminue. Cependant, le RSI à 64.29 sans catalyseur fondamental fragilise la durabilité du mouvement au-delà du 52-week high.
+**Verdict timing :** Favorable sur le momentum pur, mais **défavorable sur la durabilité**. Le cours reste au-dessus de la MM50 avec un écart massif (+50.7%), le volume est croissant, et l'options flow reste bullish. Cependant, le RSI à 67.38 approche le surachat sans catalyseur fondamental, et le gap de +6.79% aujourd'hui s'ajoute au +9.1% d'hier, formant un mouvement parabolique de +18.3% en 2 jours. Historiquement, de tels mouvements sans news se corrigent dans les 3–5 séances suivantes.
 
-**Score Momentum :** 7.0/10 — inchangé (gap +9.1% maintenu, new 52w high, volume normalisé, options bullish).
+**Score Momentum :** 7.0/10 — inchangé dans `recommandations_latest.json` (gap maintenu, new 52w high, volume croissant, options bullish). Note : le momentum technique brut mériterait un score supérieur, mais le scoring agent ne l'a pas révisé à la hausse, probablement en raison de l'absence de catalyseur.
 
 ---
 
@@ -74,13 +78,16 @@
 
 | Métrique | Valeur | Source |
 |----------|--------|--------|
-| Market Cap | $86.36 B | Yahoo Finance |
-| P/E (TTM) | 96.69 | Yahoo Finance |
-| Forward P/E | 31.72 | Yahoo Finance |
+| Market Cap (Yahoo) | $92.22 B | Yahoo Finance |
+| Market Cap (FMP FY2025) | $29.82 B | FMP Stable API |
+| P/E (TTM Yahoo) | 103.25 | Yahoo Finance |
+| Forward P/E (Yahoo) | 33.87 | Yahoo Finance |
 | EV/EBITDA (Yahoo) | 33.15 | Yahoo Finance |
 | EV/EBITDA (FMP) | 13.13 | FMP Stable API (FY2025) |
-| P/B | 3.52 | Yahoo Finance |
-| Dividend yield | 1.06% | Yahoo Finance |
+| P/B (Yahoo) | 3.76 | Yahoo Finance |
+| P/B (FMP) | 1.42 | FMP Stable API |
+| Dividend yield (Yahoo) | 1.06% | Yahoo Finance |
+| Dividend yield (FMP) | 2.55% | FMP Stable API |
 
 **Données opérationnelles FMP (FY 2025) :**
 | Ratio | Valeur |
@@ -105,11 +112,11 @@
 | Industrie forte croissance (TAM ×5) | ❌ Non | TAM 5G mature, croissance à simple digit |
 | **Score Qualité total** | **2.5/6** | 🔴 Hors périmètre (inchangé) |
 
-**Note fondamentale :** Aucune donnée fondamentale nouvelle entre le snapshot 10:00 UTC et le snapshot 13:00 UTC. L'expansion du multiple P/E à 96.69 sur un consensus inchangé à $9.26 maintient la divergence prix/valeur. Le forward P/E à 31.72 reste élevé pour une entreprise à croissance limitée et quality hors périmètre.
+**Note fondamentale :** Aucune donnée fondamentale nouvelle entre le snapshot 13:00 UTC et le snapshot 17:00 UTC. L'expansion du multiple P/E à 103.25 (vs 96.69 à 13:00 UTC) sur un consensus inchangé à $9.26 creuse la divergence entre prix et valeur. Le forward P/E à 33.87 est désormais supérieur à 30× sur une entreprise à croissance limitée et quality hors périmètre.
 
-**Divergence structurelle Yahoo/FMP persistante :** P/E Yahoo 96.7 vs FMP 45.8 ; EV/EBITDA Yahoo 33.2 vs FMP 13.1. Cette divergence n'affecte pas le verdict consensus calibré sur l'ADR.
+**Divergence structurelle Yahoo/FMP persistante et aggravée :** P/E Yahoo 103.3 vs FMP 45.8 ; P/B Yahoo 3.76 vs FMP 1.42. Cette divergence n'affecte pas le verdict consensus calibré sur l'ADR, mais elle signale que le multiple ADR est en surchauffe extrême.
 
-**Score Valorisation :** 3.5/10 — plafonné par règle Filtre Qualité ≤ 3/6 (max 5/10). Premium +66.8% vs consensus, P/E 96.7, forward P/E 31.7 sur stock mature.
+**Score Valorisation :** 3.5/10 — plafonné par règle Filtre Qualité ≤ 3/6 (max 5/10). Premium +78.4% vs consensus, P/E 103.3, forward P/E 33.9 sur stock mature. Le score n'a pas été révisé à la baisse dans `recommandations_latest.json`, mais la valorisation s'est objectivement dégradée.
 
 ---
 
@@ -117,20 +124,20 @@
 
 | Signal | Valeur | Source | Interprétation |
 |--------|--------|--------|----------------|
-| Consensus analystes (FMP) | PT $9.26 (6 analysts) | FMP Stable API | Aucune révision détectée |
-| Nombre analysts actifs (mois) | 1 | FMP Stable API | Faible couverture |
-| Put/Call ratio | **0.51** | Yahoo Finance (restauré) | Dominance calls modérée (vs 0.41 au 25/05). Plus d'équilibre, moins de skew extrême. |
-| Max pain | **$15.00** | Yahoo Finance (restauré) | Pin remonté de $14.00 → $15.00. Le cours ($15.47) est désormais proche du max pain. |
-| Call OI % | **66.1%** | Yahoo Finance (restauré) | Dominance calls maintenue mais en recul (vs 70.9%). |
+| Consensus analystes (FMP) | PT $9.26 (6 analysts) | FMP Stable API | Aucune révision détectée — silence total malgré le +18.3% en 2j |
+| Nombre analysts actifs (mois) | 1 | FMP Stable API | Faible couverture, aucun upgrade massif |
+| Put/Call ratio | 0.51 | Yahoo Finance | Dominance calls modérée, stable vs 13:00 UTC |
+| Max pain | $15.00 | Yahoo Finance | Stable — aimant gamma à 2 jours de l'expiration |
+| Call OI % | 66.1% | Yahoo Finance | Stable — dominance calls maintenue |
 | Short Interest | 1.2% | Yahoo Finance | Faible — pas de squeeze setup |
 | Agent Social Sentiment | 0 mention, 0.0/10 | `social_sentiment_latest.json` | Aucun buzz retail |
-| Agent Event-Driven | Aucun événement | `events_latest.json` vide pour NOK | Pas de M&A, buyback, guidance |
-| Agent FX Exposure | Score 0.0/10, aligned | `fx_exposure_latest.json` | Exposition 25% export USD, pas d'impact |
-| News du jour | 0 article | `news_2026-05-26.json` | Aucune news NOK dans le flux Yahoo |
+| Agent Event-Driven | Aucun événement | `events_latest.json` vide pour NOK | Pas de M&A, buyback, guidance, activism |
+| Agent FX Exposure | Score 0.0/10, aligned | `fx_exposure_latest.json` | Exposition 25% export USD, divergence alignée. Aucun impact. |
+| News du jour | 0 article | Yahoo Finance | Aucune news NOK identifiée dans le flux |
 
-**Verdict Sentiment :** Bullish technique sur les options, mais neutre/bearish sur le consensus sell-side. La restauration des données options révèle une structure modérément moins bullish qu'au 25/05 (put/call 0.51 vs 0.41, call OI 66.1% vs 70.9%), ce qui peut s'interpréter comme un léger désengagement spéculatif après le gap +9.1%. Le max pain à $15.00 est désormais un niveau de support psychologique plus proche du cours. Aucun upgrade/downgrade massif détecté.
+**Verdict Sentiment :** Bullish technique sur les options (put/call 0.51, call OI 66.1%), mais neutre/bearish sur le consensus sell-side. Le silence absolu des analystes malgré un +18.3% en 2 jours est un signal fort : soit le mouvement est purement technique/spéculatif, soit un catalyseur non encore public est attendu. En l'absence de confirmation, l'hypothèse technique prime. Le max pain à $15.00 avec expiration dans 2 jours crée un aimant gamma puissant : un retour vers $15.00 est mécaniquement probable si le momentum faiblit.
 
-**Score Catalyseur :** 4.0/10 — inchangé. Aucun catalyseur fondamental identifiable ; gap du 25/05 non expliqué par news/event ; earnings éloignés (57 jours).
+**Score Catalyseur :** 4.0/10 — inchangé dans `recommandations_latest.json`. Aucun catalyseur identifiable ; double gap non expliqué par news/event ; earnings éloignés (58 jours).
 
 ---
 
@@ -140,9 +147,9 @@
 
 | Axe | Score | Évolution | Justification |
 |-----|-------|-----------|---------------|
-| Catalyseur | 4.0/10 | → | Aucun catalyseur identifiable — gap du 25/05 non expliqué |
-| Valorisation | 3.5/10 | → | P/E 96.7, cours +66.8% vs consensus, forward P/E 31.7 sur stock mature |
-| Momentum | 7.0/10 | → | Gap +9.1% maintenu, new 52w high, options bullish (restaurés) |
+| Catalyseur | 4.0/10 | → | Aucun catalyseur identifiable — double gap non expliqué |
+| Valorisation | 3.5/10 | → | P/E 103.3, cours +78.4% vs consensus, forward P/E 33.9 |
+| Momentum | 7.0/10 | → | Double gap +18.3% en 2j, new 52w high, volume croissant, options bullish |
 | **Score Opportunité** | **4.5/10** | → | (4.0×0.35) + (3.5×0.40) + (7.0×0.25) = 4.5 |
 | **Score Global** | **45.5/100** | → | Malus : Valorisation faible plombe le score |
 | **Score Global ajusté** | **50.5/100** | → | — |
@@ -152,20 +159,22 @@
 > Règle de disqualification : aucun score individuel ≤ 2/10 → ticker non exclu.
 > Règle Filtre Qualité : score 2.5/6 ≤ 3/6 → Score Valorisation plafonné à 5/10 (appliqué).
 
+**Note de scoring :** Le Score Global ajusté (50.5) reste à la limite inférieure du seuil ATTENDRE. Le double gap haussier n'a pas suffi à faire passer le ticker en zone ACHETER car le malus Valorisation (P/E 103, premium +78%) et l'absence de catalyseur pèsent lourd. Le scoring agent n'a pas révisé les scores à la hausse malgré le nouveau gap — ce qui est cohérent avec la règle d'absence de catalyseur.
+
 ---
 
 ## 6. Révision des niveaux SL/TP
 
-| Niveau | Ancien (10:00 UTC) | Nouveau (13:00 UTC) | Justification |
+| Niveau | Ancien (13:00 UTC) | Nouveau (17:00 UTC) | Justification |
 |--------|---------------------|---------------------|---------------|
-| Stop-loss | $13.51 | **$13.51** | Inchangé — recalcul ATR 2× stable |
-| Take-profit | $18.41 | **$18.41** | Inchangé — recalcul ATR 3× stable |
-| Prix cible (consensus) | $9.26 | $9.26 | Inchangé — 6 analysts |
-| Upside consensus | −40.1% | **−40.1%** | Inchangé |
-| Downside SL | −12.7% | **−12.7%** | Inchangé |
-| Max pain options | $2.00 (incohérent) | **$15.00** | ✅ Restauré — nouveau support psychologique |
+| Stop-loss | $13.51 | **$14.52** | Révisé — recalcul ATR 2× ($16.52 − $2.00) |
+| Take-profit | $18.41 | **$19.52** | Révisé — recalcul ATR 3× ($16.52 + $3.00) |
+| Prix cible (consensus) | $9.26 | $9.26 | Inchangé — 6 analysts, silence total |
+| Upside consensus | −40.1% | **−43.9%** | 🔴 Divergence aggravée |
+| Downside SL | −12.7% | **−12.1%** | Améliorée — SL plus proche du cours |
+| Max pain options | $15.00 | **$15.00** | Stable — aimant gamma à 2 jours |
 
-**⚠️ Attention :** Le max pain options à $15.00 est désormais très proche du cours ($15.47, écart +3.1%). À 3 jours de l'expiration (29 mai), ce niveau agira comme un aimant gamma. Un franchissement sous $15.00 pourrait déclencher une accélération vendeuse vers le support intraday $14.58. Au-dessus de $15.00, la structure options est un soutien technique. Le SL à $13.51 reste la barrière de sortie principale.
+**⚠️ Attention :** Le cours ($16.52) est désormais +10.1% au-dessus du max pain ($15.00) avec expiration dans 2 jours (29 mai). Cet écart est inhabituellement large si proche de l'expiration. Deux scénarios : (1) le cours reste au-dessus de $15.00 et les calls ITM expirent avec profit, ou (2) un retour de mean-reversion ramène le cours vers $15.00 pour maximiser la douleur des détenteurs d'options. Le SL à $14.52 est désormais plus proche du cours mais reste sous le max pain.
 
 ---
 
@@ -177,53 +186,67 @@
 | **Agent Quant** | p-value 1.0, insuffisant | Signaux insuffisants — calibration en cours. Pas d'alerte. |
 | **Agent Géopolitique** | Score 3, flag 🟢 (IREN seul flaggé) | NOK non flaggé. Aucun risque politique détecté. |
 | **Agent Accounting** | Fichier absent | M-Score, Z-Score, F-Score, Sloan indisponibles. Filtre Qualité reste la seule barrière. |
-| **Agent Sector Rotation** | XLC bottom 3 | 🔴 Headwind sectoriel : Communication Services momentum 0.0/10, RS20d −4.51%, RS60d −9.23%. |
+| **Agent Sector Rotation** | XLC bottom 3 | 🔴 Headwind sectoriel : Communication Services momentum 0.0/10, RS20d −5.03%, RS60d −11.36%. |
 | **Agent FX Exposure** | Score 0.0/10, aligned | Exposition 25% export USD. Divergence alignée. Aucun impact. |
 | **Agent Social Sentiment** | 0 mention, 0.0/10 | Aucun buzz retail. Pas de pump. |
 | **Agent Event-Driven** | Aucun événement | Pas de M&A, buyback, guidance, activism. |
-| **Agent Watchman** | Earnings 2026-07-23 (57 j) | 🟢 >30j — pas de preview requis. Est EPS $0.06–$0.08, Rev $4.8B. |
+| **Agent Watchman** | Earnings 2026-07-23 (58 j) | 🟢 >30j — pas de preview requis. Est EPS $0.06–$0.08, Rev $4.8B |
 
 ---
 
 ## 8. Conclusion — Évolution de la thèse
 
-**Verdict :** La thèse est **confirmée** — aucune mutation fondamentale entre le snapshot 10:00 UTC et le snapshot 13:00 UTC. Seules les données options ont été restaurées.
+**Verdict :** La thèse est **modifiée** — le momentum technique s'est amplifié avec un second gap (+6.79%) formant un mouvement parabolique de +18.3% en 2 jours. Cependant, l'absence de catalyseur fondamental et la dégradation de la valorisation (P/E 103, premium +78%) maintiennent la recommandation en **ATTENDRE**.
 
 **Analyse :**
-- Les données de clôture, technique et fondamentale sont **strictement identiques** au snapshot 10:00 UTC (close $15.47, RSI 64.29, ATR $0.98, volume 1.07×, consensus $9.26).
-- **Restauration des données options** : le snapshot 13:00 UTC corrige le blackout partiel du 10:00 UTC. Le max pain remonte à $15.00 (vs $14.00 au 25/05), le put/call ratio à 0.51 (vs 0.41), et le call OI à 66.1% (vs 70.9%).
-- **Implications options** : le max pain plus proche du cours réduit le risque d'un retour de moyenne violent vers $14.00 avant l'expiration du 29 mai. Cependant, la modération du skew call (put/call +0.10, call OI −4.8 pp) suggère un léger désengagement spéculatif post-gap.
-- **Aucun catalyseur fondamental** n'est apparu entre les deux snapshots. Aucune news, aucun événement corporate, aucun upgrade/downgrade.
+- **Technique :** Double gap haussier consécutif (+9.1% puis +6.79%), nouveau 52-week high $16.625, RSI 67.38 proche du surachat, volume croissant (1.17×). Le momentum est réel mais la vitesse du mouvement est excessive pour un stock sans catalyseur.
+- **Options :** Max pain $15.00 stable, put/call 0.51, call OI 66.1%. La structure n'a pas suivi le prix vers le haut — le cours est +10.1% au-dessus du max pain avec expiration dans 2 jours. Risque de mean-reversion élevé.
+- **Fondamentaux :** Aucune amélioration. P/E Yahoo 103.3, forward P/E 33.9. Consensus inchangé $9.26. Divergence prix/valeur aggravée à +78.4%.
+- **Qualité :** Toujours hors périmètre (2.5/6).
+- **Catalyseur :** Aucun — pas d'event corporate, pas d'upgrade, pas de guidance raise, pas de news.
+- **Sectoriel :** XLC (Communication Services) reste en sous-performance relative vs SPY (bottom 3, RS20d −5.03%). Le mouvement de NOK est donc totalement idiosyncratique.
+
+**Ce qui a changé :**
+- **Prix :** $15.47 → $16.52 (+6.79%) — deuxième gap consécutif, mouvement parabolique
+- **52w high :** $15.78 → $16.625
+- **RSI :** 64.29 → 67.38 — approche surachat
+- **ATR :** $0.98 → $1.00 — volatilité en expansion
+- **Volume :** 1.07× → 1.17× — volume croissant
+- **P/E Yahoo :** 96.69 → 103.25 — triple-digit atteint
+- **Premium consensus :** +66.8% → +78.4% — divergence aggravée
+- **SL/TP :** $13.51/$18.41 → $14.52/$19.52 — recalculés sur nouveau prix/ATR
 
 **Ce qui n'a pas changé :**
-- **Technique :** RSI 64.29, ATR $0.98, volume 1.07×, cours inchangé.
-- **Fondamentaux :** Aucune amélioration des marges, du ROIC, ou du consensus. P/E 96.7, forward P/E 31.7.
-- **Qualité :** Toujours hors périmètre (2.5/6).
-- **Catalyseur :** Aucun — pas d'event corporate, pas d'upgrade, pas de guidance raise.
-- **Sectoriel :** XLC (Communication Services) reste en sous-performance relative vs SPY (bottom 3).
+- **Consensus :** $9.26 (6 analysts) — silence total malgré le +18.3%
+- **Options :** Max pain $15.00, put/call 0.51, call OI 66.1% — structure stable
+- **Qualité :** 2.5/6 hors périmètre
+- **Catalyseur :** 4.0/10 — aucun identifié
+- **Scores agents :** Opportunité 4.5/10, Global ajusté 50.5/100 — inchangés
+- **Action :** ATTENDRE — inchangée (seuil 50–59)
 
 **Recommandation révisée :**
 - **Action :** **ATTENDRE** (Score Global ajusté 50.5/100)
 - **Prix cible :** $9.26 (consensus inchangé)
-- **Stop-loss :** $13.51 (inchangé)
-- **Take-profit :** $18.41 (inchangé)
+- **Stop-loss :** $14.52 (révisé — 2×ATR)
+- **Take-profit :** $19.52 (révisé — 3×ATR)
+- **Ratio R/R :** 1.5
 - **Sizing :** — (pas de position)
 
-**Scénarios forward (inchangés) :**
+**Scénarios forward (révisés) :**
 | Scénario | Probabilité | Trigger | Impact cours |
 |----------|-------------|---------|------------|
-| Optimiste | 20% | Rumeur/upgrade non capturé se confirme | $16.50–$18.00 |
-| Central | 50% | Consolidation autour de $14.80–$15.50 avec pin au max pain $15.00 | Range |
-| Pessimiste | 30% | Aucun catalyseur → retour vers $14.50–$14.80 | $13.50–$14.80 |
+| Optimiste | 15% | Catalyseur non capturé (M&A, contrat majeur) se confirme | $17.50–$19.50 |
+| Central | 45% | Consolidation autour de $15.50–$16.50 avec pin au max pain $15.00 | Range |
+| Pessimiste | 40% | Aucun catalyseur → retour de mean-reversion vers max pain $15.00 puis $14.50 | $14.50–$15.50 |
 
-**⚠️ Risque principal :** Gap haussier du 25/05 non expliqué = vulnérable à un retour de moyenne si le catalyseur (s'il existe) n'est pas confirmé. Le max pain options à $15.00 offre un premier support gamma, mais un franchissement sous ce niveau avant vendredi pourrait accélérer la correction. Données options restaurées mais modérées vs le 25/05.
+**⚠️ Risque principal :** Double gap haussier non expliqué = mouvement parabolique vulnérable à une correction brutale. Le max pain options à $15.00 avec expiration dans 2 jours est un aimant gamma puissant. Un franchissement sous $15.00 déclencherait une accélération vendeuse. Le SL à $14.52 est la barrière de sortie principale.
 
 **Prochains points de contrôle :**
-- Earnings Q2 FY2026 au **2026-07-23** (dans **57 jours**) — Est EPS $0.06–$0.08, Rev $4.8B
-- Expiration options **2026-05-29** (dans **3 jours**) — observer le pin au max pain $15.00
-- Franchissement technique du SL à $13.51
-- Rétablissement complet et cohérent des données options dans les prochains snapshots
+- Expiration options **2026-05-29** (dans **2 jours**) — observer le pin au max pain $15.00
+- Earnings Q2 FY2026 au **2026-07-23** (dans **58 jours**) — Est EPS $0.06–$0.08, Rev $4.8B
+- Franchissement technique du SL à $14.52
+- Catalyseur éventuel expliquant le double gap (M&A, contrat, upgrade)
 
 ---
 
-*Données sources : `data/latest.json` (2026-05-26T13:00:08 UTC), `data/recommandations_latest.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`, `data/upcoming_events_latest.json`, `data/events_latest.json`, `data/news_2026-05-26.json`. Aucune donnée hallucinée.*
+*Données sources : `data/latest.json` (2026-05-26T17:00:08 UTC), `data/recommandations_latest.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`, `data/upcoming_events_latest.json`, `data/events_latest.json`. Aucune donnée hallucinée.*

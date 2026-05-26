@@ -36,11 +36,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 74.5
-- **MM 50j :** 84.2
+- **RSI 14j :** 83.16
+- **MM 50j :** 84.93
 - **MM 200j :** —
-- **ATR 14j :** 9.01
-- **Volume moy. 20j :** 21065085
+- **ATR 14j :** 10.14
+- **Volume moy. 20j :** 21745745
 
 ---
 
@@ -49,7 +49,7 @@
 - **Date :** 2026-05-26
 - **Type :** update
 - **Fichier :** `ASTS_2026-05-26_update.md`
-- **Conclusion :** **Thèse confirmée : ÉVITER — snapshot 13:00 UTC, données stables vs 10:00 UTC, anomalie options RÉSOLUE (max pain $120,00, P/C 0,78, call OI 56,2%)**
+- **Conclusion :** **Thèse confirmée : ÉVITER — données stables post-Memorial Day, aucune mutation vs snapshot 2026-05-26 10:00 UTC**
 
 ---
 

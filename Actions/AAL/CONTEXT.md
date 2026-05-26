@@ -51,26 +51,26 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 71.43
-- **MM 50j :** 11.71
+- **RSI 14j :** 73.59
+- **MM 50j :** 11.8
 - **MM 200j :** —
-- **ATR 14j :** 0.55
-- **Volume moy. 20j :** 57882090
+- **ATR 14j :** 0.57
+- **Volume moy. 20j :** 58178119
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-26
-- **Type :** update
-- **Fichier :** `AAL_2026-05-26_update.md`
-- **Conclusion :** **Date :** 2026-05-26 (snapshot 13:00 UTC). Thèse SURVEILLER confirmée — stabilité totale vs snapshot 10:00 UTC. ✅ Correction data quality options (put/call 1.83, max pain $13.00, call OI 35.3%). Aucune mutation prix/volume/technique. Maintien SL $12.75 / TP $15.50.
+- **Type :** full refresh
+- **Fichier :** `AAL_2026-05-26_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-26
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **PRICE_GAP** (medium) — Gap +6.50% overnight (seuil ±5.0%)
 
 ---
 

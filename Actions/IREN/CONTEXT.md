@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER sizing réduit
-- **Score global :** 65.8/100
-- **Prix cible :** $65.86
-- **Stop-loss :** $45.13
-- **Statut thèse :** confirmée
-- **Horizon :** 1–3 mois
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
+- **Horizon :** —
 
 ---
 
@@ -41,26 +41,26 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 56.77
-- **MM 50j :** 46.1
+- **RSI 14j :** 55.01
+- **MM 50j :** 46.46
 - **MM 200j :** —
-- **ATR 14j :** 5.85
-- **Volume moy. 20j :** 52806795
+- **ATR 14j :** 5.68
+- **Volume moy. 20j :** 52296853
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-26
-- **Type :** update
-- **Fichier :** `IREN_2026-05-26_update.md`
-- **Conclusion :** Snapshot 13:00 UTC — stabilité totale vs 10:00 UTC, correction anomalie options (Max Pain $45.00, put/call 3.16, call OI 24.0%), défiance options record, DRAFT_refresh traité et archivé, thèse confirmée
+- **Type :** preview
+- **Fichier :** `IREN_2026-05-26_preview.md`
+- **Conclusion :** > **Date :** 2026-05-26
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 10.29% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 9.54% (seuil 5.0%)
 
 ---
 
