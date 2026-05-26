@@ -1,4 +1,4 @@
-# CONTEXT — MITK — Dernière mise à jour : 2026-05-26
+# CONTEXT — MITK — Dernière mise à jour : 2026-05-26 (10:00 UTC)
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -48,22 +48,25 @@
 - **MM 50j :** 14.34
 - **MM 200j :** —
 - **ATR 14j :** 0.94
-- **Volume moy. 20j :** 1284225
+- **Volume moy. 20j :** 1,284,225
+- **Cours close :** $16.03
+- **52w high / low :** $16.48 / $8.53
+- **Volume jour :** 1,648,000 (1.28× moyenne 20j)
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-26
-- **Type :** full refresh
-- **Fichier :** `MITK_2026-05-26_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-05-26
+- **Type :** update
+- **Fichier :** `MITK_2026-05-26_update.md`
+- **Conclusion :** THÈSE CONFIRMÉE — Snapshot 10:00 UTC confirme stabilité totale vs 21:00 UTC 25/05 (données dernière séance 23 mai, fetch pré-ouverture). Cours $16.03, RSI 57.06, volume 1.28× moyenne, cassure MM50 validée. Score Global 65.2/100 inchangé. ACHETER (Réduit) maintenu. Glitch options récurrent (max pain $7.50) détecté — valeurs confirmées 25/05 conservées.
 
 ---
 
-## 🔄 Triggers détectés (full refresh)
+## 🔄 Triggers détectés
 
-- **ATR_SPIKE** (medium) — ATR relatif 5.86% (seuil 5.0%)
+- Aucun trigger nouveau — snapshot 10:00 UTC pré-ouverture, données inchangées vs 25/05 21:00 UTC
 
 ---
 
