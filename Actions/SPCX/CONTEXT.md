@@ -1,4 +1,4 @@
-# CONTEXT — SPCX — Dernière mise à jour : 2026-05-26
+# CONTEXT — SPCX — Dernière mise à jour : 2026-05-27
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -40,26 +40,26 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-26** · earnings · Earnings ...
+- **2026-05-27** · earnings · Earnings ...
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 62.4
-- **MM 50j :** 21.99
+- **RSI 14j :** 59.07
+- **MM 50j :** 22.0
 - **MM 200j :** —
-- **ATR 14j :** 0.27
-- **Volume moy. 20j :** 3739
+- **ATR 14j :** 0.28
+- **Volume moy. 20j :** 3764
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-26
-- **Type :** update
-- **Fichier :** `SPCX_2026-05-26_update.md`
-- **Conclusion :** **Date :** 2026-05-26
+- **Date :** 2026-05-27
+- **Type :** preview
+- **Fichier :** `SPCX_2026-05-27_preview.md`
+- **Conclusion :** > **Date :** 2026-05-27
 
 ---
 

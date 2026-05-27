@@ -755,3 +755,23 @@ Données strictement inchangées vs snapshot 10:00 UTC du 2026-05-26 (cours $56.
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-05-27 — Full Refresh Complété
+
+**Triggers :**
+- price_gap (medium) : Gap +5.19% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 9.50% (seuil 5.0%)
+
+**Conclusion :** confirm — duplicata du FULL REFRESH complété le 2026-05-26 (snapshot 21:00 UTC). Données strictement inchangées vs close précédent (cours $59.78, RSI 54.85, ATR $5.68, MM50 $46.46, scores 5.8/10 et 63.3/100). Aucun nouveau flux post-earnings intégré (J=0, résultats non publiés). Thèse confirmée : ACHETER sizing réduit. DRAFT_refresh complété et archivé (_ARCHIVED_DRAFT_refresh_2026-05-27_1.md).
+
+---
+
+## 2026-05-27 — Full Refresh Triggered (duplicata)
+
+**Triggers :**
+- price_gap (medium) : Gap +5.19% overnight (seuil ±5.0%) — duplicata
+- atr_spike (medium) : ATR relatif 9.50% (seuil 5.0%) — duplicata
+
+**Conclusion :** confirm — duplicata du FULL REFRESH complété précédemment ce jour. Données strictement inchangées. DRAFT_refresh archivé.
+
+---

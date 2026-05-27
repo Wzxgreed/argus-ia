@@ -1,4 +1,4 @@
-# CONTEXT — NU — Dernière mise à jour : 2026-05-26
+# CONTEXT — NU — Dernière mise à jour : 2026-05-27
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -48,14 +48,14 @@
 - **MM 50j :** 14.1
 - **MM 200j :** —
 - **ATR 14j :** 0.51
-- **Volume moy. 20j :** 51785586
+- **Volume moy. 20j :** 51806315
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-26
-- **Type :** update (snapshot 21:00 UTC, close officielle)
+- **Type :** update
 - **Fichier :** `NU_2026-05-26_update.md`
 - **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE**
 

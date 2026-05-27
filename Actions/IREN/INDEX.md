@@ -45,6 +45,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 | 2026-05-25 | [IREN_2026-05-25_init.md](IREN_2026-05-25_init.md) | Full Refresh (post-ATR spike) | Analyse complète réécrite post-rally +19% · Filtre Qualité 4/6 confirmé · Market Researcher actualisé · Scénarios post-earnings confirmés · Thèse confirmée avec vigilance accrue |
 | 2026-05-26 | [IREN_2026-05-26_update.md](IREN_2026-05-26_update.md) | Mise à jour pré-ouverture (snapshot 13:00 UTC) | Stabilité totale vs snapshot 10:00 UTC · Correction anomalie options (Max Pain $45.00, put/call 3.16, call OI 24.0%) · Défiance options record · Earnings J=0 attendu · DRAFT_refresh traité et archivé · Thèse confirmée · Anomalie options (Max Pain $20.00, put/call indisponible) · Earnings J=0 attendu aujourd'hui · DRAFT_refresh traité et archivé · Thèse confirmée |
 | 2026-05-26 | [IREN_2026-05-26_update.md](IREN_2026-05-26_update.md) (rev. 21:00 UTC) | Mise à jour post-session | Snapshot 21:00 UTC — cours $59.78 (+5.19%) · high $61.47 · scores révisés 5.8/10 · Global 63.3/100 · valorisation dégradée (P/E 77.6×) · défiance options record maintenue · earnings J=0 non publiés · Thèse modifiée |
+| 2026-05-27 | [IREN_2026-05-27_update.md](IREN_2026-05-27_update.md) | Mise à jour pre-open | Snapshot 10:00 UTC — données stables vs close 26/05 · earnings J=0 attendu en séance · thèse confirmée · DRAFT_refresh duplicata archivé |
 
 ---
 
@@ -71,4 +72,4 @@ Voir [SUPPLY_CHAIN.md](SUPPLY_CHAIN.md) pour la cartographie fournisseurs/client
 
 ---
 
-*Dernière mise à jour : 2026-05-26 (snapshot 21:00 UTC)*
+*Dernière mise à jour : 2026-05-27 (snapshot 10:00 UTC)*

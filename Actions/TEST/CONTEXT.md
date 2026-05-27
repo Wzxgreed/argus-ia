@@ -1,4 +1,4 @@
-# CONTEXT — TEST — Dernière mise à jour : 2026-05-26
+# CONTEXT — TEST — Dernière mise à jour : 2026-05-27
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER (Réduit)
-- **Score global :** 64.8/100
-- **Prix cible :** $51.11
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
 - **Stop-loss :** $44.51
-- **Statut thèse :** Confirmée — deuxième mutation consécutive dans la session 26/05
-- **Horizon :** 1–3 mois
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -30,7 +30,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-26** · earnings · Earnings JOUR J — résultats non observables après 9 jours de flag
+- **2026-05-27** · earnings · Earnings ...
 
 ---
 
@@ -40,16 +40,16 @@
 - **MM 50j :** 43.48
 - **MM 200j :** —
 - **ATR 14j :** 1.32
-- **Volume moy. 20j :** 1893
+- **Volume moy. 20j :** 1895
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-26
-- **Type :** update
-- **Fichier :** `TEST_2026-05-26_update.md`
-- **Conclusion :** **Verdict : ACHETER (Réduit) — Thèse CONFIRMÉE, deuxième mutation consécutive dans la session (cours $47.15, RSI 62.86, volume 1,160).**
+- **Date :** 2026-05-27
+- **Type :** preview
+- **Fichier :** `TEST_2026-05-27_preview.md`
+- **Conclusion :** > **Date :** 2026-05-27
 
 ---
 

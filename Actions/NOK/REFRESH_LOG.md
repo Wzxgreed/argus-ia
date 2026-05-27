@@ -738,3 +738,23 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Conclusion :** MODIFIÉE CONFIRMÉE — Snapshot 21:00 UTC. Double gap haussier confirmé (+9.1% hier, +6.40% aujourd'hui), close $16.46. RSI 67.16, ATR $1.00, volume massif 1.48× moyenne 20j (178.7M). P/E Yahoo 102.9, premium consensus +77.8%. Options inchangées (max pain $15.00, put/call 0.51, call OI 66.1%). Aucun catalyseur fondamental identifié. Quality hors périmètre (2.5/6). XLC bottom 3. Thèse ATTENDRE maintenue (Score Global ajusté 50.5/100). SL/TP révisés $14.46/$19.46. Volume de clôture massif — accumulation ou distribution ? Risque mean-reversion vers max pain $15.00 à J-3 expiration.
 
 ---
+
+## 2026-05-27 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +6.40% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 6.08% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-27 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +6.40% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 6.08% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
