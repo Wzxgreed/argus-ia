@@ -29,13 +29,13 @@
 - 🟢 **Anomalie options JSON résolue au snapshot 13:00 UTC 26/05** — Put/Call 0.55, Max Pain $140.00, Call OI 64.4% validés et cohérents
 - 🟢 **Anomalie options JSON résolue snapshot 27/05 13:00 UTC** — valeurs validées (Put/Call 0.49, Max Pain $140.00, Call OI 67.0%)
 
-## Contexte technique (dernier snapshot 10:00 UTC)
-- Cours : $136.60
-- RSI 14j : 51.56
-- MM 50j : 142.36
-- ATR 14j : 4.92
-- Volume 20j moy. : 40,661,105
-- Volume jour : 31,568,400
-- Max Pain : 140.00 (valeur confirmée 26/05 — anomalie JSON 27/05 traitée)
-- Put/Call : 0.55 (valeur confirmée 26/05 — anomalie JSON 27/05 traitée)
-- Call OI % : 64.4 (valeur confirmée 26/05 — anomalie JSON 27/05 traitée)
+## Contexte technique (dernier snapshot 17:00 UTC)
+- Cours : $133.85
+- RSI 14j : 50.12
+- MM 50j : 141.98
+- ATR 14j : 4.94
+- Volume 20j moy. : 40,462,483
+- Volume jour : 20,784,766
+- Max Pain : 140.00
+- Put/Call : 0.49
+- Call OI % : 67.0
