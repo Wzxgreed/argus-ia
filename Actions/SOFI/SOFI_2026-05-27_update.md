@@ -1,14 +1,14 @@
 # SOFI (SoFi Technologies, Inc.) — Mise à jour quotidienne
 
-**Date :** 2026-05-27 (snapshot 10:00 UTC — pré-marché US)
-**Type :** `_update.md` — Mise à jour pré-session
+**Date :** 2026-05-27 (snapshot 13:00 UTC — post-session US confirmée)
+**Type :** `_update.md` — Mise à jour post-session
 **Analyste :** Desk Argus-IA
 
 ---
 
 ## 1. Résumé des changements depuis l'analyse précédente
 
-| Métrique | `_update.md` 2026-05-26 (21:00 UTC) | **Snapshot 2026-05-27 (10:00 UTC)** | **Δ** |
+| Métrique | `_update.md` 2026-05-26 (21:00 UTC) | **Snapshot 2026-05-27 (13:00 UTC)** | **Δ** |
 |----------|-------------------------------------|-------------------------------------|-------|
 | Cours close | $15.98 | **$15.98** | **$0.00 (0.00%)** |
 | RSI 14j | 49.59 | **49.59** | **0.00 pt** |
@@ -22,23 +22,25 @@
 | Beta | 2.126 | **2.126** | 0.000 |
 | Short interest | 12.72% | **12.72%** | 0.000 pts |
 | Consensus PT | $25.41 (27a) | **$25.41 (27a)** | 0.00 |
-| Max Pain options | $16.00 | **$5.00** ⚠️ | **Anomalie JSON** |
-| Put/Call ratio | 0.70 | **null** ⚠️ | **Anomalie JSON** |
-| Call OI % | 58.8% | **null** ⚠️ | **Anomalie JSON** |
+| Max Pain options | $16.00 | **$16.00** | **0.00** |
+| Put/Call ratio | 0.70 | **0.60** | **−0.10** |
+| Call OI % | 58.8% | **62.6%** | **+3.8 pts** |
 | 52W range | $12.86–$32.73 | **$12.86–$32.73** | Inchangé |
 | Earnings J | 63 | **62** | −1j |
 
-**Verdict : Stabilité totale du snapshot pré-marché. Aucune variation de cours, de technique ni de fondamental entre le close 2026-05-26 21:00 UTC et le snapshot 2026-05-27 10:00 UTC. Le volume légèrement révisé à la hausse (+1.2%) est une correction mécanique post-close. L'échéance earnings se rapproche de 62j (vs 63j).**
+**Verdict : Stabilité totale du snapshot post-session. Aucune variation de cours, de technique ni de fondamental entre le close 2026-05-26 21:00 UTC et le snapshot 2026-05-27 13:00 UTC. [RÉSOLU] Anomalie options JSON du snapshot 10:00 UTC corrigée : valeurs valides confirmées.**
 
-Le snapshot 10:00 UTC du 2026-05-27 est un snapshot **pré-marché** (10:00 UTC = 06:00 ET, marché US fermé). Il reprend le close final de la veille à **$15.98** sans aucune variation. Le RSI 14j reste à **49.59** (zone neutre médiane), l'ATR 14j à **$0.71**, la MM50 à **$16.73**. Le cours reste sous la MM50 (−4.5%). Le support psychologique **$15.00** est intact (52W low $12.86).
+Le snapshot 13:00 UTC du 2026-05-27 est un snapshot **post-session** (13:00 UTC = 09:00 ET, marché US ouvert depuis 2h, close NYSE 21:00 UTC). Il reprend le close final de la veille à **$15.98** sans aucune variation intraday. Le RSI 14j reste à **49.59** (zone neutre médiane), l'ATR 14j à **$0.71**, la MM50 à **$16.73**. Le cours reste sous la MM50 (−4.5%). Le support psychologique **$15.00** est intact (52W low $12.86).
 
-**[ALERTE DATA QUALITY]** — Le fichier `data/latest.json` du 2026-05-27 présente une **anomalie systémique sur les options SOFI** : Max Pain $5.00 (vs $16.00 historique confirmé), Put/Call `null`, Call OI `null`. Ces valeurs sont aberrantes et incohérentes avec les closes précédents. Les valeurs confirmées du 2026-05-26 sont maintenues : **Max Pain $16.00, Put/Call 0.70, Call OI 58.8%**.
+**[ALERTE DATA QUALITY RÉSOLUE]** — Le fichier `data/latest.json` du 2026-05-27T13:00 présente des **options SOFI corrigées et valides** : Max Pain **$16.00** (cohérent avec l'historique), Put/Call **0.60**, Call OI **62.6%**. Le snapshot 10:00 UTC signalait une anomalie (Max Pain $5.00, Put/Call `null`, Call OI `null`) — cette anomalie est désormais résolue. Les valeurs corrigées du 13:00 UTC prévalent.
+
+> **Interprétation options :** Le Put/Call 0.60 est inférieur au 0.70 du close 26/05 (−0.10) = repositionnement légèrement moins défensif / plus haussier. Le Call OI % remonte à 62.6% (+3.8 pts vs 58.8%) = skew call en renforcement. Ces signaux options sont marginalement positifs mais restent dans une fourchette neutre. Le Max Pain $16.00 est en parfaite parité avec le cours $15.98 — le pinning à l'expiration du 29/05 (2 jours ouvrés) reste le risque dominant à très court terme.
 
 ---
 
 ## 2. Mise à jour technique
 
-| Indicateur | Valeur 2026-05-27 (10:00 UTC) | Signal |
+| Indicateur | Valeur 2026-05-27 (13:00 UTC) | Signal |
 |------------|-------------------------------|--------|
 | RSI 14j | 49.59 | 🟡 Zone neutre médiane — sans direction claire |
 | MM 50j | $16.73 | 🔴 Cours −4.5% sous MM50 — trend baissier court terme intact |
@@ -49,16 +51,16 @@ Le snapshot 10:00 UTC du 2026-05-27 est un snapshot **pré-marché** (10:00 UTC 
 | Volume relatif | 1.14× | 🟢 Volume légèrement supérieur à la moyenne — stable |
 | Beta | 2.126 | ⚠️ Volatilité extrême — sizing réduit obligatoire |
 
-**Options (valeurs historiques confirmées — anomalie JSON 2026-05-27) :**
+**Options (valeurs corrigées 13:00 UTC) :**
 
-| Métrique | Valeur confirmée | Signal |
-|----------|------------------|--------|
-| Max Pain | $16.00 | 🟡 Légèrement au-dessus du cours ($15.98) — pinning vers ce niveau à l'expiration 29/05 |
-| Put/Call ratio | 0.70 | 🟡 Rebalancement vers les puts stable |
-| Call OI % | 58.8% | 🟢 Skew call stable |
-| Expiration prochaine | 2026-05-29 (2 jours ouvrés) | Risque de pinning autour de $16.00 élevé |
+| Métrique | Valeur 13:00 UTC | Δ vs 26/05 | Signal |
+|----------|------------------|------------|--------|
+| Max Pain | $16.00 | 0.00 | 🟡 Parité avec cours — pinning vers ce niveau à l'expiration 29/05 |
+| Put/Call ratio | 0.60 | −0.10 | 🟢 Rebalancement légèrement moins défensif |
+| Call OI % | 62.6% | +3.8 pts | 🟢 Skew call en renforcement |
+| Expiration prochaine | 2026-05-29 (2 jours ouvrés) | — | Risque de pinning autour de $16.00 élevé |
 
-> **Interprétation :** Aucun mouvement technique nouveau depuis le close 2026-05-26. Le cours $15.98 est en parfaite parité avec le Max Pain $16.00. Le pinning à l'expiration du 2026-05-29 (2 jours ouvrés restants) reste le risque dominant à très court terme. Le Put/Call 0.70 et le Call OI 58.8% sont inchangés. Un break net au-dessus de $16.30 ou sous $15.70 après expiration libérerait la tendance.
+> **Interprétation :** Aucun mouvement technique nouveau depuis le close 2026-05-26. Le cours $15.98 est en parfaite parité avec le Max Pain $16.00. Le pinning à l'expiration du 2026-05-29 (2 jours ouvrés restants) reste le risque dominant à très court terme. Le repositionnement options (Put/Call −0.10, Call OI +3.8 pts) est marginalement positif mais insuffisant pour changer le verdict technique. Un break net au-dessus de $16.30 ou sous $15.70 après expiration libérerait la tendance.
 
 ---
 
@@ -66,7 +68,7 @@ Le snapshot 10:00 UTC du 2026-05-27 est un snapshot **pré-marché** (10:00 UTC 
 
 **Aucune donnée fondamentale nouvelle.** Les ratios FMP (FY 2025) et les multiples de marché sont stables.
 
-| Ratio | Valeur _init.md (17/05) | Valeur 2026-05-27 (10:00 UTC) | Δ |
+| Ratio | Valeur _init.md (17/05) | Valeur 2026-05-27 (13:00 UTC) | Δ |
 |-------|-------------------------|-------------------------------|---|
 | Gross margin (FMP) | 75.1% | 75.1% | 0.0 |
 | Operating margin (FMP) | 11.0% | 11.0% | 0.0 |
@@ -89,11 +91,11 @@ Le snapshot 10:00 UTC du 2026-05-27 est un snapshot **pré-marché** (10:00 UTC 
 - **27 analystes, PT moyen $25.41** — inchangé. Upside +59.0% vs cours $15.98.
 - 8 analystes actifs le mois dernier, 10 le trimestre dernier — couverture dense et stable.
 
-### Options (valeurs confirmées — anomalie JSON 2026-05-27)
+### Options (valeurs corrigées 13:00 UTC)
 - **Max Pain :** $16.00 (inchangé) — parité avec le cours $15.98. Pinning très probable à l'expiration 29/05.
-- **Put/Call ratio :** 0.70 (inchangé) — défensivisme stable.
-- **Call OI % :** 58.8% (inchangé) — skew call stable.
-- **Interprétation :** Aucun repositionnement options depuis le snapshot 21:00 UTC 2026-05-26. Le marché options anticipe un niveau $16.00 pour l'expiration du 29/05. Le pinning reste le risque dominant à 2 jours de l'expiration.
+- **Put/Call ratio :** 0.60 (−0.10 vs 26/05) — repositionnement légèrement moins défensif, skew haussier marginal.
+- **Call OI % :** 62.6% (+3.8 pts vs 26/05) — renforcement de l'exposition call, mais reste dans une zone modérée.
+- **Interprétation :** Le marché options anticipe un niveau $16.00 pour l'expiration du 29/05. Le repositionnement vers les calls (+3.8 pts) et la baisse du Put/Call (−0.10) suggèrent un sentiment légèrement moins défensif qu'hier, compatible avec le rebond +2.3% de la veille. Le pinning reste le risque dominant à 2 jours de l'expiration.
 
 ### News & Social
 - **Aucune mention Reddit** (`social_sentiment_2026-05-27.json` : 0 mentions, score 0/10, EXTREME_BEARISH par absence de données).
@@ -106,7 +108,7 @@ Le snapshot 10:00 UTC du 2026-05-27 est un snapshot **pré-marché** (10:00 UTC 
 
 ## 5. Nouveau scoring global
 
-### Données agents actualisées (`recommandations_2026-05-27.json` — 10:00 UTC)
+### Données agents actualisées (`recommandations_2026-05-27.json` — 13:00 UTC)
 
 | Axe | Score /10 | Pondération (Régime Normal) | Pondéré |
 |-----|-----------|----------------------------|---------|
@@ -119,7 +121,7 @@ Le snapshot 10:00 UTC du 2026-05-27 est un snapshot **pré-marché** (10:00 UTC 
 
 **Évolution vs snapshot 2026-05-26 21:00 UTC :** Inchangé. Score Opportunité **6.1/10**, Score Global ajusté **53.1/100**. Classification **ATTENDRE** confirmée.
 
-Les scores agents n'ont pas évolué. Le Catalyseur (6.8), la Valorisation (6.0) et le Momentum (5.3) sont stables. Le snapshot pré-marché ne fournit pas de nouvelles données de prix ou de volume susceptibles de modifier le scoring.
+Les scores agents n'ont pas évolué. Le Catalyseur (6.8), la Valorisation (6.0) et le Momentum (5.3) sont stables. Le snapshot post-session 13:00 UTC ne fournit pas de nouvelles données de prix ou de volume susceptibles de modifier le scoring.
 
 ### Score Global Composite /100
 
@@ -147,7 +149,7 @@ Les scores agents n'ont pas évolué. Le Catalyseur (6.8), la Valorisation (6.0)
 
 ## 6. Révision des niveaux SL / TP
 
-| Niveau | Ancien (2026-05-26 21:00 UTC) | Révisé 2026-05-27 (10:00 UTC) | Justification |
+| Niveau | Ancien (2026-05-26 21:00 UTC) | Révisé 2026-05-27 (13:00 UTC) | Justification |
 |--------|-------------------------------|-------------------------------|---------------|
 | **Prix cible** | $18.11 | **$18.11** | Cours + 3×ATR = $15.98 + $2.13 — ATR stable à $0.71 |
 | **Stop-loss** | $14.56 | **$14.56** | Cours − 2×ATR = $15.98 − $1.42 — ATR stable |
@@ -157,15 +159,15 @@ Les scores agents n'ont pas évolué. Le Catalyseur (6.8), la Valorisation (6.0)
 
 **Verdict technique :** Les niveaux SL/TP sont inchangés. SL à **$14.56**, TP à **$18.11**. Le ratio R/R reste à 1.50. Le support critique reste le niveau psychologique **$15.00**. La résistance clé est la MM50 **$16.73** (high 26/05 $16.95 a été rejeté). Un break quotidien au-dessus de $16.73 avec volume > 1.2× moy. 20j (~84M) ouvrirait la voie vers le TP $18.11.
 
-> **Point de vigilance options :** Max Pain $16.00 légèrement au-dessus du cours. Le pinning à l'expiration du 29/05 (2 jours ouvrés) risque d'emprisonner le cours dans une fourchette étroite autour de $16.00 ± $0.30. Une cassure nette au-dessus de $16.30 ou sous $15.70 après expiration libérerait la tendance.
+> **Point de vigilance options :** Max Pain $16.00 légèrement au-dessus du cours. Le pinning à l'expiration du 29/05 (2 jours ouvrés) risque d'emprisonner le cours dans une fourchette étroite autour de $16.00 ± $0.30. Une cassure nette au-dessus de $16.30 ou sous $15.70 après expiration libérerait la tendance. Le repositionnement options (Call OI +3.8 pts, Put/Call −0.10) est marginalement haussier mais pas assez significatif pour modifier les niveaux.
 
 ---
 
 ## 7. Conclusion — Thèse confirmée, modifiée ou invalidée ?
 
-**Verdict : THÈSE CONFIRMÉE — Classification ATTENDRE maintenue, stabilité totale du snapshot pré-marché.**
+**Verdict : THÈSE CONFIRMÉE — Classification ATTENDRE maintenue, stabilité totale du snapshot post-session. Anomalie options résolue.**
 
-La thèse fondamentale et technique reste inchangée. Le snapshot 2026-05-27 10:00 UTC (pré-marché) confirme la stabilité totale vs le close 2026-05-26 21:00 UTC :
+La thèse fondamentale et technique reste inchangée. Le snapshot 2026-05-27 13:00 UTC (post-session) confirme la stabilité totale vs le close 2026-05-26 21:00 UTC :
 
 1. **Close $15.98** — Inchangé. Aucun mouvement de cours depuis le close final de la veille.
 2. **RSI stable à 49.59** — Zone neutre médiane inchangée. Pas de survente ni de surachat.
@@ -175,7 +177,7 @@ La thèse fondamentale et technique reste inchangée. Le snapshot 2026-05-27 10:
 6. **Momentum agent stable à 5.3/10** — Pas de changement de score.
 7. **Score Opportunité 6.1/10 (inchangé)** — Au-dessus du seuil 6.0.
 8. **Score Global 53.1/100 (inchangé)** — ATTENDRE confirmé (bord inférieur).
-9. **Options inchangées** — Max Pain $16.00 légèrement au-dessus du cours. Pinning 29/05 probable. [ALERTE DATA QUALITY] Anomalie JSON 2026-05-27 sur les options (max pain $5.00, put/call null) — valeurs historiques confirmées maintenues.
+9. **[RÉSOLU] Options corrigées** — Max Pain $16.00 (cohérent), Put/Call 0.60 (−0.10 vs 26/05), Call OI 62.6% (+3.8 pts). Anomalie JSON du snapshot 10:00 UTC résolue. Repositionnement marginalement haussier mais pinning 29/05 reste le risque dominant.
 10. **Aucun catalyseur fondamental** — Earnings Q2 dans 62j (2026-07-28), consensus stable, pas de news.
 11. **Sector headwind inchangé** — XLF momentum 0.0/10. Secteur financier sans direction.
 12. **Qualité partielle inchangée** — 4/6, FCF négatif, ROE faible.
@@ -183,14 +185,14 @@ La thèse fondamentale et technique reste inchangée. Le snapshot 2026-05-27 10:
 14. **Social sentiment neutre** — 0 mentions Reddit, pas de pump/dump.
 15. **Risque géopolitique faible** — SOFI non flaggé dans geo_risk_latest.json.
 16. **Accounting risk non évalué** — Fichier absent — pas de malus appliqué.
-17. **Validation data :** SOFI OK dans `validation_report.txt` (2026-05-27) — aucun warning, aucune erreur.
+17. **Validation data :** SOFI OK dans `validation_report.txt` (2026-05-27) — aucun warning, aucune erreur. Note : 4 erreurs sur d'autres tickers (VRT schema, AST/AXA/QTBS fetch failed) — SOFI non impacté.
 
-**Action recommandée : ATTENDRE** — Pas de position. La classification ATTENDRE est confirmée. Le snapshot pré-marché n'apporte aucun élément nouveau modifiant la thèse.
+**Action recommandée : ATTENDRE** — Pas de position. La classification ATTENDRE est confirmée. Le snapshot post-session n'apporte aucun élément nouveau modifiant la thèse.
 - **Entrée potentielle :** Un retour quotidien au-dessus de $16.76 (MM50) avec volume > 1.2× moy. 20j (~84M).
 - **Stop-loss :** $14.56 (inchangé).
 - **Scénario baissier :** Cassure de $15.00 → ouverture vers $14.56 (SL) puis $12.86 (52W low).
 - **Scénario haussier :** Break de $16.76 (MM50) avec volume > 84M → ouverture vers $18.11 (TP) puis $19.51 (prix cible historique).
-- **Scénario options (court terme) :** Pinning vers Max Pain $16.00 à l'expiration 29/05 (2 jours ouvrés). Pas d'action avant cassure post-expiration.
+- **Scénario options (court terme) :** Pinning vers Max Pain $16.00 à l'expiration 29/05 (2 jours ouvrés). Repositionnement call OI +3.8 pts et Put/Call −0.10 légèrement positif. Pas d'action avant cassure post-expiration.
 
 ---
 
@@ -204,7 +206,7 @@ La thèse fondamentale et technique reste inchangée. Le snapshot 2026-05-27 10:
 - Horizon : 3–6 mois
 - Score Opportunité : 6.1/10
 - Score Global : 53.1/100
-- Thèse résumée : Snapshot 10:00 UTC 2026-05-27 (pré-marché) confirme stabilité totale vs close 2026-05-26 21:00 UTC. Cours $15.98, RSI 49.59, ATR $0.71, MM50 $16.73. Volume 80.29M (1.14× moy. 20j) — stable. Cours sous MM50, timing Défavorable. Score Opportunité 6.1/10, Score Global 53.1/100 (ATTENDRE, bord inférieur). SL $14.56, TP $18.11, R/R 1.50. Options inchangées (valeurs historiques confirmées) : Max Pain $16.00 (parité avec cours), Put/Call 0.70, Call OI 58.8%. [ALERTE DATA QUALITY] Anomalie JSON 2026-05-27 sur options (max pain $5.00 aberrant, put/call null). Pinning 29/05 probable. Earnings dans 62j. Support $15.00 tenu. Aucune news, aucun événement corporate, exposition FX et géo neutres. Accounting risk non évalué (fichier absent). Validation data : SOFI OK.
+- Thèse résumée : Snapshot 13:00 UTC 2026-05-27 (post-session) confirme stabilité totale vs close 2026-05-26 21:00 UTC. Cours $15.98, RSI 49.59, ATR $0.71, MM50 $16.73. Volume 80.29M (1.14× moy. 20j) — stable. Cours sous MM50, timing Défavorable. Score Opportunité 6.1/10, Score Global 53.1/100 (ATTENDRE, bord inférieur). SL $14.56, TP $18.11, R/R 1.50. [RÉSOLU] Anomalie options JSON corrigée : Max Pain $16.00 (parité avec cours), Put/Call 0.60 (−0.10 vs 26/05), Call OI 62.6% (+3.8 pts). Pinning 29/05 probable. Earnings dans 62j. Support $15.00 tenu. Aucune news, aucun événement corporate, exposition FX et géo neutres. Accounting risk non évalué (fichier absent). Validation data : SOFI OK.
 
 ---
 
@@ -216,9 +218,9 @@ La thèse fondamentale et technique reste inchangée. Le snapshot 2026-05-27 10:
 - `Actions/SOFI/SOFI_2026-05-20_update.md` — Mise à jour quotidienne
 - `Actions/SOFI/SOFI_2026-05-25_update.md` — Mise à jour quotidienne (stabilité totale confirmée)
 - `Actions/SOFI/SOFI_2026-05-26_update.md` — Mise à jour quotidienne (close final confirmé, volume révisé +49.5%, ATTENDRE maintenu)
-- `Actions/SOFI/SOFI_2026-05-27_update.md` — Ce fichier (snapshot 10:00 UTC — pré-marché, stabilité totale confirmée, anomalie options JSON signalée)
-- `data/latest.json` (2026-05-27T10:00:08+00:00) — Cours, RSI, ATR, consensus, ratios FMP, options
-- `data/recommandations_2026-05-27.json` (10:00 UTC) — Scores agents actualisés
+- `Actions/SOFI/SOFI_2026-05-27_update.md` — Ce fichier (snapshot 13:00 UTC — post-session, stabilité totale confirmée, anomalie options JSON résolue)
+- `data/latest.json` (2026-05-27T13:00:08+00:00) — Cours, RSI, ATR, consensus, ratios FMP, options
+- `data/recommandations_2026-05-27.json` (13:00 UTC) — Scores agents actualisés
 - `data/quant_2026-05-17.json` — Insuffisant
 - `data/geo_risk_2026-05-17.json` — SOFI non flaggé
 - `data/sector_rotation_2026-05-27.json` — XLF momentum 0.0
