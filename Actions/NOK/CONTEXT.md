@@ -12,9 +12,9 @@
 **Stop-loss :** $14.46 (cours − 2×ATR)
 **Take-profit :** $19.46 (cours + 3×ATR)
 **Upside/Downside :** −43.7% / −12.2%
-**Dernière mise à jour :** 2026-05-27 10:00 UTC
+**Dernière mise à jour :** 2026-05-27 13:00 UTC
 
-Double gap haussier consécutif : +9.1% (25/05, close $15.47) puis +6.40% (26/05, close $16.46), soit +15.6% en deux séances sans catalyseur fondamental identifiable. Nouveau 52-week high $16.63. Le momentum technique est réel (RSI 67.16, volume 1.56× en clôture révisé à la hausse, options bullish) mais la valorisation est devenue un frein absolu (P/E Yahoo 102.9, cours +77.8% vs consensus $9.26). Données options : put/call 0.51, call OI 66.1%, max pain $15.00 (anomalie $2.00 dans latest.json ignorée). Le cours ($16.46) est +9.7% au-dessus du max pain avec expiration dans 2 jours (29 mai) — risque de mean-reversion élevé. Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%). Divergence structurelle Yahoo/FMP persistante (P/E FMP 45.8 vs Yahoo 102.9). Dividende 1.06%. Le secteur Communication Services (XLC) est en sous-performance relative vs SPY (bottom 3, RS20d −5.18%), ce qui rend le mouvement totalement idiosyncratique et fragile. Thèse confirmée : le volume de clôture massif (1.56×) est confirmé par révision post-clôture. Sans catalyseur, l'hypothèse de mean-reversion reste dominante. Pas d'entrée.
+Double gap haussier consécutif : +9.1% (25/05, close $15.47) puis +6.40% (26/05, close $16.46), soit +15.6% en deux séances sans catalyseur fondamental identifiable. Nouveau 52-week high $16.63. Le momentum technique est réel (RSI 67.16, volume 1.56× en clôture révisé à la hausse, options bullish) mais la valorisation est devenue un frein absolu (P/E Yahoo 102.9, cours +77.8% vs consensus $9.26). Données options **restaurées** : put/call 0.53, call OI 65.3%, max pain **$16.00** (revalorise depuis $15.00 opérationnel du 26/05). Le cours ($16.46) n'est plus que **+2.9%** au-dessus du max pain avec expiration dans 2 jours (29 mai) — **risque de mean-reversion fortement atténué**. Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%). Divergence structurelle Yahoo/FMP persistante (P/E FMP 45.8 vs Yahoo 102.9). Dividende 1.06%. Le secteur Communication Services (XLC) est en sous-performance relative vs SPY (bottom 3, RS20d −5.18%), ce qui rend le mouvement totalement idiosyncratique et fragile. Thèse modifiée confirmée : la restauration du max pain à $16.00 valide la nouvelle base de cours et élimine le risque de mean-reversion brutal. Sans catalyseur, l'entrée reste exclue. Pas de position.
 
 **✅ Données complètes** — Cours, RSI, ATR, P/E, consensus, options disponibles dans `data/latest.json`.
 
@@ -62,9 +62,9 @@ Double gap haussier consécutif : +9.1% (25/05, close $15.47) puis +6.40% (26/05
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-27
-- **Type :** full refresh
-- **Fichier :** `NOK_2026-05-27_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-05-27
+- **Type :** update
+- **Fichier :** `NOK_2026-05-27_update.md`
+- **Conclusion :** ATTENDRE maintenu (Score Global ajusté 50.5/100). Restauration options — max pain $16.00, risque mean-reversion fortement atténué. Pas de position.
 
 ---
 

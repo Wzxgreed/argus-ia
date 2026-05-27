@@ -1,39 +1,39 @@
 # AAL — Mise à Jour 2026-05-27
 
-**Date :** 2026-05-27 (snapshot 10:00 UTC)  
+**Date :** 2026-05-27 (snapshot 13:00 UTC)  
 **Ticker :** AAL (NASDAQ)  
-**Type :** Update matinal post-close — Snapshot 10:00 UTC confirme stabilité totale vs clôture 26/05  
+**Type :** Update post-midi — Snapshot 13:00 UTC confirme stabilité totale vs clôture 26/05  
 **Cours (close) :** $14.85  
 **Previous close :** $13.85  
-**Change vs previous close :** +7.22% (inchangé vs 26/05)  
+**Change vs previous close :** +7.22%  
 **Volume :** 109.82M (vs moy. 20j 61.25M, +79.3%)
 
-> **Note :** Ce snapshot 10:00 UTC (`data/latest.json` fetched_at 2026-05-27T10:00:01 UTC) reflète la clôture officielle de la session du 26 mai 2026. Aucune nouvelle session n'a eu lieu entre le snapshot 21:00 UTC du 26/05 et celui-ci. Les données sont mécaniquement identiques à la clôture d'hier.
+> **Note :** Ce snapshot 13:00 UTC (`data/latest.json` fetched_at 2026-05-27T13:00:02 UTC) reflète la clôture officielle de la session du 26 mai 2026. Aucune nouvelle session n'a eu lieu entre le snapshot 10:00 UTC et celui-ci. Les données prix/volume/technique sont mécaniquement identiques. **L'unique mutation est une correction data quality sur les options** (voir section Options).
 
 ---
 
-## Résumé des Changements depuis l'Update (2026-05-26 21:00 UTC)
+## Résumé des Changements depuis l'Update (2026-05-27 10:00 UTC)
 
-| Indicateur | 2026-05-26 21:00 UTC | 2026-05-27 10:00 UTC | Δ vs Prior |
+| Indicateur | 2026-05-27 10:00 UTC | 2026-05-27 13:00 UTC | Δ vs Prior |
 |-----------|----------------------|----------------------|------------|
-| Cours close | $14.845 | **$14.85** | **+$0.005 (+0.03%)** |
-| RSI 14j | 73.82 | **73.85** | **+0.03** |
+| Cours close | $14.85 | **$14.85** | **$0.00** |
+| RSI 14j | 73.85 | **73.85** | **0.00** |
 | ATR 14j | $0.58 | **$0.58** | **$0.00** |
 | MM 50j | $11.80 | **$11.80** | **$0.00** |
 | Forward P/E | 6.67 | **6.67** | **$0.00** |
-| Volume du jour | 109.76M vs 61.24M avg (+79.3%) | **109.82M vs 61.25M avg (+79.3%)** | **+0.06M** |
+| Volume du jour | 109.82M vs 61.25M avg (+79.3%) | **109.82M vs 61.25M avg (+79.3%)** | **Inchangé** |
 | Short Interest | 12.21% | **12.21%** | **0.00** |
 | Consensus FMP PT | $16.14 (16 analystes) | **$16.14 (16 analystes, 1 màj mois, 4 trimestre)** | **Inchangé** |
 | Upside vs PT | +8.7% | **+8.7%** | **0.0 pt** |
-| Put/Call Ratio | 1.83 | **null** | **[ANOMALIE DATA]** |
-| Max Pain | $13.00 | **$5.00** | **[ANOMALIE DATA]** |
-| Call OI % | 35.3% | **null** | **[ANOMALIE DATA]** |
+| Put/Call Ratio | [ANOMALIE — null] | **1.79** | **✅ Corrigé** |
+| Max Pain | [ANOMALIE — $5.00] | **$13.00** | **✅ Corrigé** |
+| Call OI % | [ANOMALIE — null] | **35.9%** | **✅ Corrigé** |
 | Score Opportunité agent | 5.4/10 | **5.4/10** | **0.0** |
 | Score Global ajusté | 44.0/100 | **44.0/100** | **0.0** |
 | Recommandation agent | SURVEILLER | **SURVEILLER** | **Inchangé** |
-| Earnings Q2 (jours) | 58 | **57** | **−1** |
+| Earnings Q2 (jours) | 57 | **57** | **Inchangé** |
 
-**Aucune mutation de données significative.** Le snapshot matinal confirme mécaniquement la clôture officielle du 26/05. Le cours $14.85, le RSI 73.85, l'ATR $0.58 et le volume 109.82M sont identiques à la séance d'hier. **L'unique différence notable est une anomalie data quality sur les options** : `max_pain` retourne $5.00 (aberrant vs $13.00 confirmé hier), `put_call_ratio` et `call_oi_pct` sont `null`. Ces valeurs sont rejetées ; les données options du 26/05 (put/call 1.83, max pain $13.00, call OI 35.3%) restent la référence opérationnelle. Le compte à rebours earnings Q2 passe à **57 jours** (2026-07-23). Le score Opportunité reste inchangé à **5.4/10** (SURVEILLER), le timing défavorable.
+**Aucune mutation de données prix/volume/technique.** Le snapshot 13:00 UTC confirme mécaniquement la clôture officielle du 26/05. **Correction data quality options** : les valeurs aberrantes du snapshot 10:00 UTC (`max_pain: $5.00`, `put_call_ratio: null`, `call_oi_pct: null`) sont résolues. Les données options 13:00 UTC sont désormais : **put/call 1.79**, **max pain $13.00**, **call OI 35.9%**. Le compte à rebours earnings Q2 reste à **57 jours** (2026-07-23). Le score Opportunité reste inchangé à **5.4/10** (SURVEILLER), le timing défavorable.
 
 ---
 
@@ -42,11 +42,11 @@
 | Indicateur | Valeur | Signal |
 |-----------|--------|--------|
 | Cours | $14.85 | +7.22% vs previous close 25/05 ; +23.2% vs close 20/05 ($12.06) |
-| RSI 14j | 73.85 | 🔴 **Surachat accentué** — inchangé, au-dessus de 70 depuis 3 séances |
+| RSI 14j | 73.85 | 🔴 **Surachat accentué** — au-dessus de 70 depuis 3 séances |
 | ATR 14j | $0.58 | Volatilité stable |
 | MM 50j | $11.80 | 🟢 Cours +25.8% au-dessus (trend haussier fort) |
 | MM 200j | null | [DONNÉES MANQUANTES] |
-| Volume 20j | 61.25M | 🔴 **+79.3% vs moyenne** — volume massif confirmé sur 2 snapshots |
+| Volume 20j | 61.25M | 🔴 **+79.3% vs moyenne** — volume massif confirmé sur 3 snapshots consécutifs |
 | 52W Range | $10.09–$16.50 | Cours à 90% du 52W low, 10.0% sous le 52W high |
 | Support clé | $14.00 | Ancienne résistance / gap janvier → support à valider |
 | Support secondaire | $13.69 | Cours − 2×ATR = niveau technique de sortie |
@@ -54,17 +54,17 @@
 | Résistance majeure | $16.50 | 52W high + consensus PT zone haute |
 | Short Interest | 12.21% | 🟡 Stable — fuel squeeze intact mais non consommé en masse |
 
-**Options — Données anormales (conserver valeurs 26/05) :**
+**Options — Correction data quality (snapshot 13:00 UTC) :**
 
-| Métrique | Valeur référence (26/05) | Interprétation |
-|----------|--------------------------|----------------|
-| Put/Call Ratio | **1.83** | 🟡 Baissier atténué mais >1.50 |
-| Max Pain | **$13.00** | Cours $1.85 au-dessus — pinning mécanique improbable |
-| Call OI % | **35.3%** | Repositionnement call confirmé |
-| Expiration proche | 2026-05-29 | **Dans 2 jours** — gamma risk décalé vers le haut |
+| Métrique | Valeur 13:00 UTC | Valeur référence (26/05) | Δ | Interprétation |
+|----------|------------------|--------------------------|---|----------------|
+| Put/Call Ratio | **1.79** | 1.83 | **−0.04** | 🟡 Baissier atténué, légère amélioration vs 26/05 |
+| Max Pain | **$13.00** | $13.00 | **$0.00** | Cours $1.85 au-dessus — pinning mécanique improbable |
+| Call OI % | **35.9%** | 35.3% | **+0.6 pt** | Accumulation call légèrement accentuée |
+| Expiration proche | 2026-05-29 | — | — | **Dans 2 jours** — gamma risk décalé vers le haut |
 
-**Interprétation technique — Confirmation de la divergence volume/prix :**
-- **Volume massif 109.82M (+79.3% vs moyenne) confirmé sur 2 snapshots consécutifs** : la divergence baissière identifiée hier (46.13M shares échangées 17:00–21:00 UTC pour +$0.095) se confirme aujourd'hui par la stabilité du prix malgré un volume identique. Le marché a absorbé ~110M shares sur 2 jours sans progression significative du cours au-delà de $14.85. Cela renforce l'hypothèse d'une **distribution institutionnelle** ou d'un **épuisement du short squeeze**.
+**Interprétation technique — Divergence volume/prix confirmée sur 3 snapshots :**
+- **Volume massif 109.82M (+79.3% vs moyenne) confirmé sur 3 snapshots consécutifs** : la divergence baissière identifiée lors des sessions 26/05 (46.13M shares échangées 17:00–21:00 UTC pour +$0.095) et confirmée ce matin se maintient. Le marché a absorbé ~110M shares sur 2 jours sans progression significative du cours au-delà de $14.85. Cela renforce l'hypothèse d'une **distribution institutionnelle** ou d'un **épuisement du short squeeze**.
 - **RSI 73.85** : surachat persistant. Historiquement, AAL corrige dans les 3–5 jours après franchissement de RSI 70. Le risque de consolidation ou de repli technique reste élevé.
 - **Max Pain $13.00 vs cours $14.85** : le cours s'éloigne de $1.85 du max pain à 2 jours de l'expiration. Le risque de pinning s'éloigne ; les market makers restent en position de perte sur les calls. Si le cours tient au-dessus de $14.50 jusqu'à expiration vendredi, le gamma squeeze pourrait s'amplifier. Inversement, un repli sous $14.00 déclencherait un dé-hedging violent.
 - **Niveau critique : $14.00.** Cassure en clôture sous ce niveau = fin de l'impulsion haussière. Sous $13.69 = sortie technique obligatoire (2×ATR).
@@ -106,7 +106,7 @@
 - **Date :** 2026-07-23 (**57 jours**)
 - **Estimates EPS :** -$0.34 à $0.17
 - **Estimates Revenue :** $16.6B
-- **Implication :** La fourchette EPS large reflète l'incertitude. Un beat au-dessus de $0.17 reste un catalyseur majeur compte tenu du short interest 12.2% et du put/call 1.83. Le timing d'entrée à $14.85 reste défavorable pour un nouveau positionnement ; le trade tactique optimal a eu lieu entre $12.06 et $13.50.
+- **Implication :** La fourchette EPS large reflète l'incertitude. Un beat au-dessus de $0.17 reste un catalyseur majeur compte tenu du short interest 12.2% et du put/call 1.79. Le timing d'entrée à $14.85 reste défavorable pour un nouveau positionnement ; le trade tactique optimal a eu lieu entre $12.06 et $13.50.
 
 ---
 
@@ -119,11 +119,11 @@
 - **Reddit / Yahoo Community :** 0 mentions. Aucun pump/dump détecté.
 - **Label agent :** EXTREME_BEARISH (valeur 0.0) — absence de buzz = indifférence retail. Pas de signal contrarian.
 
-### Options — Anomalie data quality, conserver valeurs 26/05
-- **Put/Call 1.83** : inchangé (valeur 26/05). Sentiment baissier atténué mais persistant.
-- **Max Pain $13.00** : le cours à $14.85 s'éloigne de $1.85 du max pain. À expiration 29/05 (dans 2 jours), le pinning mécanique est improbable ; si le cours tient, les market makers devront hedger à la hausse = squeeze auto-entretenu.
-- **Call OI 35.3%** : accumulation call stable.
-- **⚠️ Anomalie data quality :** Le snapshot 27/05 retourne `max_pain: $5.00` (aberrant) et `put_call_ratio: null`, `call_oi_pct: null`. Ces valeurs sont rejetées. Les données du 26/05 restent la référence.
+### Options — Correction data quality
+- **Put/Call 1.79** (vs 1.83 le 26/05, −0.04) : sentiment baissier légèrement atténué mais persistant >1.50.
+- **Max Pain $13.00** (identique au 26/05) : le cours à $14.85 s'éloigne de $1.85 du max pain. À expiration 29/05 (dans 2 jours), le pinning mécanique est improbable ; si le cours tient, les market makers devront hedger à la hausse = squeeze auto-entretenu.
+- **Call OI 35.9%** (vs 35.3% le 26/05, +0.6 pt) : accumulation call marginalement accentuée.
+- **✅ Anomalie résolue :** Le snapshot 13:00 UTC corrige les valeurs aberrantes du snapshot 10:00 UTC. Les données options sont désormais fiables et alignées sur la tendance du 26/05.
 
 ### Exposition Macro
 | Facteur | Exposition | Mise à jour |
@@ -149,11 +149,11 @@
 
 ## Score Opportunité Révisé
 
-| Axe | 2026-05-26 21:00 UTC /10 | 2026-05-27 10:00 UTC /10 | Δ | Justification |
+| Axe | 2026-05-27 10:00 UTC /10 | 2026-05-27 13:00 UTC /10 | Δ | Justification |
 |-----|--------------------------|--------------------------|---|---------------|
 | Catalyseur | 5.8 | **5.8** | 0.0 | Consensus PT $16.14 inchangé. Upside +8.7%. Earnings 23/07 reste le catalyseur clé. Pas de news structurante. |
 | Valorisation | 5.0 | **5.0** | 0.0 | Forward P/E 6.67 inchangé. Filtre qualité 0-1/6 intact. Asymétrie valorisation inchangée. |
-| Momentum | 5.5 | **5.5** | 0.0 | RSI 73.85 = surachat accentué. Volume massif confirmé (109.82M) mais prix stagnant = divergence baissière confirmée sur 2 sessions. |
+| Momentum | 5.5 | **5.5** | 0.0 | RSI 73.85 = surachat accentué. Volume massif confirmé (109.82M) mais prix stagnant = divergence baissière confirmée sur 3 snapshots. |
 | **Score Opportunité** | **5.4** | **5.4** | **0.0** | Pondération 35/40/25 (régime inconnu = default) |
 
 **Score Global Composite agent :** 54.0/100 → **Ajusté 44.0/100**
@@ -161,15 +161,15 @@
 - Timing : **Défavorable**
 - **Recommandation agent : SURVEILLER**
 
-**Verdict institutionnel Argus-IA :** La thèse tactique SURVEILLER est **confirmée**. Aucune mutation de données depuis la clôture officielle du 26/05. Le setup de risque/rendement reste défavorable à $14.85. **La divergence volume/prix se confirme sur 2 snapshots consécutifs** (~110M shares échangées sans progression significative du prix au-delà de $14.85), renforçant l'hypothèse d'épuisement du momentum et/ou de distribution institutionnelle. Le SL révisé à $13.69 implique une perte potentielle de −7.7% pour un upside de +11.8% (TP $16.59). La valorisation n'est plus attractive (upside consensus +8.7% seulement) et le RSI surachat (73.85) indique un risque de consolidation imminente. **Expiration options 29/05 dans 2 jours** : le cours à $14.85 est $1.85 au-dessus du Max Pain $13.00, ce qui réduit le risque de pinning et peut amplifier le gamma squeeze si le momentum call se maintient, mais la divergence volume/prix reste l'avertissement dominant.
+**Verdict institutionnel Argus-IA :** La thèse tactique SURVEILLER est **confirmée**. Aucune mutation de données prix/volume/technique entre le snapshot 10:00 UTC et 13:00 UTC du 27/05. La correction data quality sur les options (put/call 1.79, max pain $13.00, call OI 35.9%) ne modifie pas l'interprétation globale. La divergence volume/prix se confirme sur 3 snapshots consécutifs (~110M shares échangées sans progression prix), renforçant l'hypothèse d'épuisement du momentum et/ou de distribution institutionnelle. Le SL révisé à $13.69 implique une perte potentielle de −7.7% pour un upside de +11.8% (TP $16.59). La valorisation n'est plus attractive (upside consensus +8.7% seulement) et le RSI surachat (73.85) indique un risque de consolidation imminente. **Expiration options 29/05 dans 2 jours** : le cours à $14.85 est $1.85 au-dessus du Max Pain $13.00, ce qui réduit le risque de pinning et peut amplifier le gamma squeeze si le momentum call se maintient, mais la divergence volume/prix reste l'avertissement dominant.
 
 ---
 
 ## Niveaux SL / TP Révisés
 
-| | 2026-05-26 21:00 UTC | 2026-05-27 10:00 UTC | Justification |
+| | 2026-05-27 10:00 UTC | 2026-05-27 13:00 UTC | Justification |
 |---|----------------------|----------------------|---------------|
-| Entrée suggérée | $14.845 | **$14.85** | Close actuel — **Ne pas entrer à ce niveau** |
+| Entrée suggérée | $14.85 | **$14.85** | Close actuel — **Ne pas entrer à ce niveau** |
 | Stop-Loss | $13.69 | **$13.69** | Cours − 2×ATR = $14.85 − $1.16. Aligné sur support $13.69–$14.00 |
 | Take-Profit | $16.59 | **$16.59** | Cours + 3×ATR = $14.85 + $1.74. Objectif technique sous 52W high |
 | Ratio R/R | 1.5 | **1.5** | — |
@@ -180,23 +180,16 @@
 
 ## Conclusion — Thèse Confirmée, Modifiée ou Invalidée ?
 
-**Verdict : CONFIRMÉE — La thèse SURVEILLER est maintenue. Aucune mutation de données significative entre le snapshot 21:00 UTC du 26/05 et le snapshot 10:00 UTC du 27/05. La divergence volume/prix se confirme et reste le signal dominant.**
+**Verdict : CONFIRMÉE — La thèse SURVEILLER est maintenue. Aucune mutation de données significative entre le snapshot 10:00 UTC et le snapshot 13:00 UTC du 27/05. La divergence volume/prix se confirme et reste le signal dominant. La correction data quality options n'altère pas la thèse.**
 
-### Ce qui a changé (snapshot 2026-05-27 10:00 UTC vs 2026-05-26 21:00 UTC) :
-1. **Cours $14.845 → $14.85 (+0.03%)** — Aucun changement significatif. Même clôture officielle.
-2. **RSI 73.82 → 73.85 (+0.03)** — Aucun changement significatif.
-3. **Volume 109.76M → 109.82M (+0.06M)** — Quasi identique. Le volume massif se confirme.
-4. **Forward P/E 6.67 → 6.67** — Inchangé.
-5. **Upside consensus +8.7% → +8.7%** — Inchangé.
-6. **Score Opportunité 5.4 → 5.4** — Inchangé.
-7. **Score Global ajusté 44.0 → 44.0** — Inchangé, maintien de SURVEILLER.
-8. **Anomalie data quality options** : max_pain $5.00 (aberrant), put/call null, call_oi null — rejetés, conserver valeurs 26/05.
-9. **Earnings Q2 : 58 → 57 jours** — Compte à rebours mécanique.
+### Ce qui a changé (snapshot 2026-05-27 13:00 UTC vs 2026-05-27 10:00 UTC) :
+1. **Correction data quality options** : `put_call_ratio` passe de `null` à **1.79** (−0.04 vs 26/05), `max_pain` passe de `$5.00` (aberrant) à **$13.00** (identique au 26/05), `call_oi_pct` passe de `null` à **35.9%** (+0.6 pt vs 26/05). Anomalie résolue — données options désormais fiables.
+2. **Earnings Q2 : 57 jours** — Inchangé.
 
 ### Ce qui n'a PAS changé (et reste valide) :
 1. **Divergence volume/prix majeure** — ~110M shares sur 2 jours sans progression significative du prix. Signal d'épuisement du momentum et/ou distribution institutionnelle.
 2. **Surachat technique (RSI 73.85)** — Risque de repli de −5% à −8% vers $13.69–$14.00 dans les prochains jours.
-3. **Gamma squeeze / gamma risk à expiration 29/05** — Dans 2 jours. Le cours à $14.85 est $1.85 au-dessus du Max Pain. Si le momentum call se maintient, les market makers devront hedger à la hausse = squeeze auto-entretenu. Inversement, un repli sous $14.00 déclencherait un dé-hedging violent.
+3. **Gamma squeeze / gamma risk à expiration 29/05** — Dans 2 jours. Le cours à $14.85 est $1.85 au-dessus du Max Pain. Si le momentum call se maintient, squeeze auto-entretenu. Inversement, repli sous $14.00 = dé-hedging violent.
 4. **Value trap réactivé** — Forward EPS ~$2.23/share peut ne pas se matérialiser si fuel/grèves/récession. Le forward P/E 6.67 n'est pas une protection à ce niveau de cours.
 5. **Filtre Qualité 0-1/6** — Hors périmètre compounding. AAL reste une commodité sans moat, bilan stressé.
 6. **Bilan extrêmement fragile** — Current ratio 0.50, interest coverage 0.85x, tangible asset value -$9.88B, working capital -$12.3B.
@@ -233,9 +226,9 @@
 ---
 
 ## Références
-- `data/2026-05-27.json` (snapshot 10:00 UTC) — Cours $14.85, RSI 73.85, ATR $0.58, MM50 $11.80, volume 109.82M, short interest 12.21%, consensus FMP $16.14 (16 analysts), options anomalie (max_pain $5.00 aberrant, put/call null, call_oi null) — conserver valeurs 26/05, Forward P/E 6.67
+- `data/2026-05-27.json` (snapshot 13:00 UTC) — Cours $14.85, RSI 73.85, ATR $0.58, MM50 $11.80, volume 109.82M, short interest 12.21%, consensus FMP $16.14 (16 analysts), options corrigées (put/call 1.79, max_pain $13.00, call_oi 35.9%), Forward P/E 6.67
 - `data/recommandations_2026-05-27.json` — Score Opportunité 5.4/10, Score Global 54.0/100 (ajusté 44.0), Recommandation SURVEILLER, SL $13.69, TP $16.59
-- `data/validation_report.txt` (2026-05-27) — 3 errors globales (AST/AXA/QTBS fetch failed), 2 warnings (IREN, NOK). AAL non concerné.
+- `data/validation_report.txt` (2026-05-27) — 4 errors (AST/AXA/QTBS fetch failed + VRT schema), 2 warnings (IREN, NOK). AAL non concerné.
 - `data/sector_rotation_2026-05-27.json` — XLI return 20d +1.04%, RS20 vs SPY −3.92%
 - `data/fx_exposure_2026-05-27.json` — FX Impact Score 0.0, neutral
 - `data/social_sentiment_2026-05-27.json` — Sentiment retail 0 mentions (EXTREME_BEARISH)

@@ -141,7 +141,7 @@
 **Triggers :**
 - price_gap (medium) : Gap +7.22% overnight (seuil ±5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** CONFIRMED — Le gap +7.22% du 26/05 au 27/05 a été traité via `AAL_2026-05-27_update.md` (snapshot 13:00 UTC). La thèse SURVEILLER est confirmée. Aucune mutation fondamentale. Les données options corrigées (put/call 1.79, max pain $13.00, call OI 35.9%) ne modifient pas la thèse. Divergence volume/prix confirmée sur 3 snapshots. SL $13.69, TP $16.59. Score 5.4/10, Global ajusté 44.0/100.
 
 ---
 
@@ -150,7 +150,7 @@
 **Triggers :**
 - price_gap (medium) : Gap +7.22% overnight (seuil ±5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** CONFIRMED — Traité via `AAL_2026-05-27_update.md`. Mêmes conclusions que le DRAFT précédent.
 
 ---
 
@@ -159,7 +159,7 @@
 **Triggers :**
 - price_gap (medium) : Gap +7.22% overnight (seuil ±5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** CONFIRMED — Traité via `AAL_2026-05-27_update.md`. Mêmes conclusions.
 
 ---
 
@@ -168,6 +168,6 @@
 **Triggers :**
 - price_gap (medium) : Gap +7.22% overnight (seuil ±5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** CONFIRMED — Traité via `AAL_2026-05-27_update.md`. Mêmes conclusions.
 
 ---
