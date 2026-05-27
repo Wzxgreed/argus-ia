@@ -7,14 +7,14 @@
 - **Score Opportunité :** 6.4/10 (C:6.5 V:8.0 M:3.8)
 - **Prix Cible :** $18.39 (consensus FMP, 10 analysts)
 - **Stop-Loss :** $11.96 (2×ATR)
-- **Statut Thèse :** Score ajusté sous le seuil achat réduit (56.2) — snapshot pre-market 27/05 confirme stabilité totale vs close 26/05 ($12.98, +1.96%, volume 39.10M/0.75×, RSI 35.54 inchangé), momentum inchangé 3.8/10, anomalie options max pain 5.00 aberrante traitée (valeur confirmée $13.50 maintenue), aucune news structurante, attente confirmation
+- **Statut Thèse :** Score ajusté sous le seuil achat réduit (56.2) — snapshot 13:00 UTC 27/05 confirme stabilité totale vs snapshot 10:00 UTC ($12.98 inchangé, volume 39.10M/0.75×, RSI 35.54 inchangé), **mutation options significative détectée** (put/call 0.82 → 0.68, call OI 54.9% → 59.4%), biais haussier options légèrement renforcé, momentum inchangé 3.8/10, timing défavorable, attente confirmation technique
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
 
 | Fichier | Date | Type | Verdict |
 |---------|------|------|---------|
-| [NU_2026-05-27_update.md](NU_2026-05-27_update.md) | 2026-05-27 | Update quotidienne (snapshot 10:00 UTC, pre-market) | ATTENDRE — thèse confirmée, stabilité totale vs close 26/05 ($12.98 inchangé, RSI 35.54, volume 39.10M/0.75×), anomalie options JSON détectée et traitée (max pain 5.00 aberrant → valeur confirmée $13.50 maintenue), scores inchangés (Global 64.2, Ajusté 56.2, Opportunité 6.4, Momentum 3.8), SL $11.96 / TP $14.51 |
+| [NU_2026-05-27_update.md](NU_2026-05-27_update.md) | 2026-05-27 | Update quotidienne (snapshot 13:00 UTC, pre-market) | ATTENDRE — thèse confirmée, stabilité totale vs snapshot 10:00 UTC ($12.98 inchangé, RSI 35.54, volume 39.10M/0.75×), **mutation options significative** (put/call 0.82 → 0.68, call OI 54.9% → 59.4%), biais haussier options légèrement renforcé, scores inchangés (Global 64.2, Ajusté 56.2, Opportunité 6.4, Momentum 3.8), SL $11.96 / TP $14.51 |
 | [NU_2026-05-26_update.md](NU_2026-05-26_update.md) | 2026-05-26 | Update quotidienne (snapshot 21:00 UTC, close officielle) | ATTENDRE — thèse confirmée, close $12.98 (+1.96% vs previous close), volume final 38.70M (0.75×, révision hausse vs 21.68M/0.43× à 17h), RSI 35.54 (+1.28 pts vs 17h), scores inchangés (Global 64.2, Ajusté 56.2, Opportunité 6.4, Momentum 3.8), SL $11.96 / TP $14.51, options inchangées max pain $13.50 |
 | [NU_2026-05-26_update.md](NU_2026-05-26_update.md) | 2026-05-26 | Update quotidienne (snapshot 17:00 UTC, archive) | ATTENDRE — thèse confirmée, rebond +1.3% à $12.895, RSI 34.26 (+1.16), volume séance réel 21.68M (0.43×), scores révisés à la hausse (Global 64.2, Ajusté 56.2, Opportunité 6.4, Momentum 3.8), SL $11.88 / TP $14.42, options inchangées max pain $13.50 |
 | [NU_2026-05-25_update.md](NU_2026-05-25_update.md) | 2026-05-25 | Update quotidienne (snapshot 21:00 UTC, consolidé 13:00 + 21:00) | ATTENDRE — thèse confirmée, stabilité totale vs 13:00 UTC (marché fermé Memorial Day), 11e snapshot consécutif sans mutation, cours $12.73, RSI 33.1, max pain $13.00, call OI 65.2%, score ajusté 54.2, momentum 3.0, SL $11.73 |

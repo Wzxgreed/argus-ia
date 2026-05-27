@@ -1,27 +1,27 @@
-# MITK — Mise à Jour Post-Pipeline (2026-05-27 10:00 UTC)
+# MITK — Mise à Jour Post-Pipeline (2026-05-27 13:00 UTC)
 
-> Desk : Argus-IA | Pipeline : 10:00 UTC | Données : `data/latest.json` (2026-05-27T10:00:14Z) | Score Global Ajusté : **64.0/100** | Action : **ACHETER (Réduit)**
+> Desk : Argus-IA | Pipeline : 13:00 UTC | Données : `data/latest.json` (2026-05-27T13:00:13Z) | Score Global Ajusté : **64.0/100** | Action : **ACHETER (Réduit)**
 
 ---
 
 ## Résumé des Changements
 
-**Verdict : THÈSE CONFIRMÉE — STABILITÉ TOTALE. Le snapshot 10:00 UTC confirme l'absence de mutation vs la clôture officielle 2026-05-26 ($16.68). Le trigger ATR_SPIKE déclenchant le FULL REFRESH est un artefact algorithmique.**
+**Verdict : THÈSE CONFIRMÉE — STABILITÉ TOTALE + ANOMALIE OPTIONS RÉSOLUE.**
 
-Le snapshot 2026-05-27 10:00 UTC capture les données de clôture de la séance précédente (2026-05-26) avec une stabilité totale : cours **$16.68** inchangé, **RSI 60.74** inchangé, **ATR $0.99** inchangé, volume **1,401,200** (vs 1,398,836 précédent, écart <0.2%). La configuration technique, fondamentale et les scores agents sont strictement identiques à l'analyse post-pipeline 21:00 UTC du 26/05.
+Le snapshot 2026-05-27 13:00 UTC confirme l'absence de mutation des données de marché vs le snapshot 10:00 UTC : cours **$16.68** inchangé, **RSI 60.74** inchangé, **ATR $0.99** inchangé, volume **1,401,200** inchangé (1.07× moyenne 20j). La seule évolution notable est la **résolution de l'anomalie options** détectée au snapshot 10:00 UTC.
 
-**Table comparative — Snapshot 2026-05-26 21:00 UTC vs Snapshot 2026-05-27 10:00 UTC :**
+**Table comparative — Snapshot 2026-05-27 10:00 UTC vs Snapshot 2026-05-27 13:00 UTC :**
 
-| Variable | 2026-05-26 21:00 UTC | 2026-05-27 10:00 UTC | Δ |
+| Variable | 2026-05-27 10:00 UTC | 2026-05-27 13:00 UTC | Δ |
 |---|---|---|---|
 | **Cours close** | **$16.68** | **$16.68** | **—** |
 | **Change %** | **+4.05%** | **+4.05%** | **—** |
-| **Open / High / Low** | 16.00 / 16.805 / 15.69 | 16.00 / 16.81 / 15.69 | High légèrement arrondi |
+| **Open / High / Low** | 16.00 / 16.81 / 15.69 | 16.00 / 16.81 / 15.69 | **—** |
 | **RSI 14j** | **60.74** | **60.74** | **—** |
 | **ATR 14j** | **$0.99** | **$0.99** | **—** |
 | **MM 50j** | **$14.40** | **$14.40** | **—** |
-| **Volume jour** | 1,398,836 | 1,401,200 | **+2,364 (+0.17%)** |
-| **Volume vs 20j** | 1.06× | **1.07×** | **+0.01×** |
+| **Volume jour** | 1,401,200 | 1,401,200 | **—** |
+| **Volume vs 20j** | 1.07× | **1.07×** | **—** |
 | **Market Cap (Yahoo)** | $753.2M | **$753.2M** | **—** |
 | **Score Global Ajusté** | 64.0/100 | **64.0/100** | **—** |
 | **Score Opportunité** | 5.9/10 | **5.9/10** | **—** |
@@ -30,11 +30,11 @@ Le snapshot 2026-05-27 10:00 UTC capture les données de clôture de la séance 
 | **Score Momentum** | 7.0/10 | **7.0/10** | **—** |
 | **Action recommandée** | ACHETER (Réduit) | **ACHETER (Réduit)** | **—** |
 | **Consensus PT (FMP)** | $16.00 (2 analysts) | **$16.00 (2 analysts)** | **—** |
-| **Max Pain** | $20.00 | **$7.50** | **Anomalie** |
-| **Put/Call ratio** | 0.25 | **null** | **Données manquantes** |
-| **Call OI %** | 80.1% | **null** | **Données manquantes** |
-| **52-week high** | $16.805 | **$16.81** | **Arrondi** |
-| **Prochain earnings** | 2026-08-06 (72j) | **2026-08-06 (71j)** | **−1j** |
+| **Max Pain** | $7.50 (anomalie) | **$20.00** | **RÉSOLU** |
+| **Put/Call ratio** | null (anomalie) | **0.25** | **RÉSOLU** |
+| **Call OI %** | null (anomalie) | **80.0%** | **RÉSOLU** |
+| **52-week high** | $16.81 | **$16.81** | **—** |
+| **Prochain earnings** | 2026-08-06 (71j) | **2026-08-06 (71j)** | **—** |
 | **Régime macro** | Unknown | **Unknown** | **—** |
 | **XLK momentum** | 10.0/10 | **10.0/10** | **—** |
 | **Geo risk score** | N/D | **N/D** | **—** |
@@ -42,7 +42,7 @@ Le snapshot 2026-05-27 10:00 UTC capture les données de clôture de la séance 
 | **Social sentiment** | 0 / No data | **0 / No data** | **—** |
 | **Events corporate** | Aucun | **Aucun** | **—** |
 
-**Lecture institutionnelle :** Aucune mutation détectée entre la clôture 26/05 et le snapshot pré-marché 27/05. Le cours reste à **$16.68**, au-dessus du consensus PT ($16.00, +4.25%). Le RSI à 60.74 est inchangé. Le seul changement notable est une **dégradation des données options** : max pain tombe à $7.50 (aberrant, bien en-deçà du 52-week low $8.53), put/call ratio et call OI % passent à null. Ces valeurs sont traitées comme une anomalie de fetch et les valeurs historiques ($20.00 / 0.25 / 80.1%) sont maintenues pour l'analyse.
+**Lecture institutionnelle :** Le pipeline 13:00 UTC valide la stabilité totale de la configuration MITK. La résolution de l'anomalie options est le seul changement significatif : le max pain retourne à **$20.00** (cohérent avec le 52-week range et la thèse haussière), le put/call ratio à **0.25** et le call OI à **80.0%** confirment la structure dérivée haussière précédemment observée. Cette normalisation renforce la confiance dans le signal technique sans modifier le scoring.
 
 ---
 
@@ -50,9 +50,9 @@ Le snapshot 2026-05-27 10:00 UTC capture les données de clôture de la séance 
 
 | Indicateur | Valeur | Lecture |
 |---|---|---|
-| **Cours close** | $16.68 | Stable vs clôture 26/05 |
+| **Cours close** | $16.68 | Stable vs snapshot 10:00 UTC |
 | **Open / High / Low** | 16.00 / 16.81 / 15.69 | Range intraday identique |
-| **Change %** | +4.05% | Séance précédente (26/05) |
+| **Change %** | +4.05% | Séance 26/05, pas de nouvelle séance depuis |
 | **RSI (14j)** | 60.74 | Zone neutre favorable inchangée |
 | **ATR (14j)** | $0.99 | ~5.94% du spot — volatilité structurelle stable |
 | **MM 50j** | $14.40 | **Close AU-DESSUS de MM50 (+15.8%)** — support inchangé |
@@ -66,7 +66,7 @@ Le snapshot 2026-05-27 10:00 UTC capture les données de clôture de la séance 
 - Support structurel : $15.69 (low du jour 26/05)
 - Support MM50 : $14.40
 - Résistance intermédiaire : $16.81 (52w high)
-- Résistance majeure : $18.00–$20.00 (zone max pain historique)
+- Résistance majeure : $18.00–$20.00 (zone max pain confirmée)
 - Stop-loss ATR (2×) : **$14.70** (−11.9%)
 - Take-profit ATR (3×) : **$19.65** (+17.8%)
 - Ratio R/R : **1.5**
@@ -79,7 +79,7 @@ Le snapshot 2026-05-27 10:00 UTC capture les données de clôture de la séance 
 
 ## 2. Mise à Jour Fondamentale
 
-Les données fondamentales sont **strictement identiques** à l'analyse précédente ; aucune nouvelle donnée FMP n'a été publiée.
+Les données fondamentales sont **strictement identiques** au snapshot 10:00 UTC ; aucune nouvelle donnée FMP n'a été publiée.
 
 | Métrique | Valeur | Source | Δ vs précédent |
 |----------|--------|--------|----------------|
@@ -109,15 +109,15 @@ Les données fondamentales sont **strictement identiques** à l'analyse précéd
 | Signal | Valeur | Lecture |
 |---|---|---|
 | Consensus PT | $16.00 (2 analysts) | **DÉPASSÉ** — spot $16.68 = +4.25% au-dessus du PT |
-| **Max Pain** | **$7.50** | 🔴 **ANOMALIE** — valeurs aberrante, bien en-dessous du 52w low ($8.53) |
-| **Put/Call ratio** | **null** | 🔴 Données manquantes — valeurs confirmées 26/05 (0.25) maintenues |
-| **Call OI %** | **null** | 🔴 Données manquantes — valeurs confirmées 26/05 (80.1%) maintenues |
+| **Max Pain** | **$20.00** | 🟢 **RÉSOLU** — retour à la valeur historique cohérente, bien au-dessus du spot (+19.9%) |
+| **Put/Call ratio** | **0.25** | 🟢 **RÉSOLU** — biais call extrême confirmé (4 calls pour 1 put) |
+| **Call OI %** | **80.0%** | 🟢 **RÉSOLU** — structure dérivée très haussière |
 | Short Interest | 7.32% | Modéré, pas de squeeze setup |
 | Social Sentiment | 0 / No data | Sous le radar retail |
 | Upgrades/Downgrades | Aucun | Silence analystes persistant |
 | News structurantes | Aucune | — |
 
-**Verdict Sentiment :** Neutre à légèrement haussier. Le consensus PT reste dépassé. Aucun flux de news, aucun insider trade, aucun upgrade/downgrade. MITK reste sous le radar institutionnel. La structure options historique (max pain $20.00, put/call 0.25, call OI 80.1%) suggère que le marché dérivé anticipe une continuation haussière, mais les données actuelles sont corrompues.
+**Verdict Sentiment :** Neutre à légèrement haussier. Le consensus PT reste dépassé. Aucun flux de news, aucun insider trade, aucun upgrade/downgrade. MITK reste sous le radar institutionnel. La **structure options est désormais complète et validée** : max pain $20.00, put/call 0.25, call OI 80.0%. Cette configuration dérivée anticipe une continuation haussière vers la zone $18–$20. L'anomalie du snapshot 10:00 UTC était un artefact de fetch ; les données 13:00 UTC la réfutent totalement.
 
 ---
 
@@ -154,7 +154,7 @@ Les données fondamentales sont **strictement identiques** à l'analyse précéd
 | **Take-profit** | $19.65 | +17.8% |
 | **Ratio R/R** | 1.5 | Seuil institutionnel non atteint (cible 1:2) |
 
-Les niveaux sont **inchangés** : close $16.68 et ATR $0.99 stables. Le SL à $14.70 correspond au support structurel MM50 + marge ATR. Le TP à $19.65 est aligné avec la zone max pain historique ($20.00).
+Les niveaux sont **inchangés** : close $16.68 et ATR $0.99 stables. Le SL à $14.70 correspond au support structurel MM50 + marge ATR. Le TP à $19.65 est aligné avec la zone max pain confirmée ($20.00).
 
 ---
 
@@ -169,22 +169,22 @@ Les niveaux sont **inchangés** : close $16.68 et ATR $0.99 stables. Le SL à $1
 - 🟢 **[CASSURE MM50 CONFIRMÉE]** Cours $16.68 > MM50 $14.40 (+15.8%) avec volume 1.07× moyenne — signal technique validé — 2026-05-27
 - 🟢 **[BREAK 52-WEEK HIGH]** 52w high $16.81 atteint — break confirmé — 2026-05-27
 - 🟢 **[MOMENTUM SECTORIEL FAVORABLE]** XLK : 10.0/10 (+15.30% sur 20j) — vent de queue Technology — 2026-05-27
+- 🟢 **[ANOMALIE OPTIONS RÉSOLUE]** Max Pain $20.00 rétabli, Put/Call 0.25, Call OI 80.0% — structure dérivée haussière validée — **RÉSOLU** — 2026-05-27
 - 🟡 **[CONSENSUS PT DÉPASSÉ]** $16.00 dépassé de 4.25% — upside théorique nul, monitoring des révisions analystes — 2026-05-27
-- 🟡 **[ANOMALIE OPTIONS RÉCURRENTE]** Max Pain $7.50 aberrant (vs spot +55% sous 52w low), Put/Call et Call OI null — valeurs historiques 26/05 maintenues ($20.00 / 0.25 / 80.1%) — **RÉVISÉ** — 2026-05-27
 - 🟡 **[ROIC FAIBLE]** 3.16% — monitorer l'efficacité du capital dans les prochains filings — 2026-05-18
 - 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($753M Yahoo vs $447M FMP), P/E, EV multiples — utiliser Yahoo comme primaire — 2026-05-27
-- 🟡 **[LIQUIDITÉ DÉRIVÉE FAIBLE]** Options : données corrompues sur ce snapshot — prudence sur le hedging — 2026-05-27
+- 🟡 **[LIQUIDITÉ DÉRIVÉE FAIBLE]** Options : données normalisées mais faible couverture strike — prudence sur le hedging — 2026-05-27
 
 **Alertes levées :**
-- ✅ **[FULL REFRESH TRIGGER]** ATR_SPIKE 5.94% — artefact algorithmique, pas de mutation réelle — données identiques vs 26/05 21h — 2026-05-27
+- ✅ **[ANOMALIE OPTIONS]** Max pain $7.50 aberrant / put:call null / call OI null — RÉSOLU au snapshot 13:00 UTC — 2026-05-27
 
 ---
 
 ## 7. Conclusion — Thèse Confirmée (ACHETER Réduit)
 
-**Verdict : THÈSE CONFIRMÉE. Snapshot 10:00 UTC 2026-05-27 : cours $16.68 stable vs clôture 26/05, volume 1,401,200 (1.07× moyenne 20j), RSI 60.74 inchangé, 52-week high $16.81 inchangé, cassure MM50 ($14.40, +15.8%) inchangée. Score Global Ajusté 64.0/100 inchangé. Action ACHETER (Réduit) maintenue.**
+**Verdict : THÈSE CONFIRMÉE. Snapshot 13:00 UTC 2026-05-27 : cours $16.68 stable vs snapshot 10:00 UTC, volume 1,401,200 (1.07× moyenne 20j), RSI 60.74 inchangé, 52-week high $16.81 inchangé, cassure MM50 ($14.40, +15.8%) inchangée. Score Global Ajusté 64.0/100 inchangé. Action ACHETER (Réduit) maintenue.**
 
-MITK confirme sa stabilité post-breakout. Aucune mutation technique, fondamentale ni sentimentale n'est détectée vs l'analyse précédente (2026-05-26 21:00 UTC). Le trigger ATR_SPIKE déclenchant le FULL REFRESH est un **artefact algorithmique** : l'ATR relatif 5.94% est le niveau de volatilité structurelle normal de ce small-cap post-cassure, pas un signal d'alerte.
+MITK confirme sa stabilité post-breakout sur le second snapshot du jour. La **résolution de l'anomalie options** est le seul changement notable : elle valide la structure dérivée haussière (max pain $20.00, put/call 0.25, call OI 80.0%) et élimine l'incertitude technique introduite par le fetch 10:00 UTC.
 
 **Catalyseurs forward :**
 1. **Consolidation au-dessus de $16.48 (ancien 52w high)** — si confirmée avec volume >1.0× moyenne sur 2–3 séances, ouvrirait la voie vers $18.00–$20.00
@@ -196,7 +196,6 @@ MITK confirme sa stabilité post-breakout. Aucune mutation technique, fondamenta
 - Absence de catalyseur idiosyncratique avéré (Catalyseur 5.0/10)
 - RSI approche 60 — surveiller la zone de surachat (>70)
 - ROIC faible (3.16%) — efficacité du capital à prouver
-- Anomalie options récurrente — liquidité dérivée faible et données corrompues
 - SBC / Revenue élevé (9.35%) — dilution potentielle
 
 **Recommandation :** **ACHETER (Réduit).**
@@ -205,4 +204,4 @@ Nouvelles positions : entrée à $16.68 ou sur pullback vers $16.00–$16.20 (an
 
 ---
 
-*Révision post-pipeline 10:00 UTC — Données : `data/latest.json` (2026-05-27T10:00:14Z), `data/recommandations_2026-05-27.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_2026-05-27.json`, `data/fx_exposure_2026-05-27.json`, `data/social_sentiment_2026-05-27.json`, `data/upcoming_events_2026-05-27.json`, `data/events_2026-05-27.json` — Date : 2026-05-27*
+*Révision post-pipeline 13:00 UTC — Données : `data/latest.json` (2026-05-27T13:00:13Z), `data/recommandations_2026-05-27.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_2026-05-27.json`, `data/fx_exposure_2026-05-27.json`, `data/social_sentiment_2026-05-27.json`, `data/upcoming_events_2026-05-27.json`, `data/events_2026-05-27.json` — Date : 2026-05-27*

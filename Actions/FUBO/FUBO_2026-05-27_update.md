@@ -1,18 +1,18 @@
-# FUBO — Mise à Jour (2026-05-27, snapshot 10:00 UTC)
+# FUBO — Mise à Jour (2026-05-27, snapshot 13:00 UTC)
 
-> **Niveau d'impact :** 🟢 Faible — Snapshot 10:00 UTC confirme la **stabilité totale** vs snapshot 21:00 UTC du 26/05 (close $9.52 inchangé, RSI 21.08 inchangé, volume 1,004,300 légèrement supérieur à 986k). **Anomalie options JSON détectée et traitée** (max pain $7.50 aberrant vs $10.00 historique confirmé, put/call 0.00 vs 0.60, call OI 100% vs 62.3%). Scoring agent stable à 64.2/100 (ACHETER Réduit), ajustement analyste **SURVEILLER (~42/100)**. Earnings Q1 2026 J=0 non résolu après 8 jours.
-> **Référence précédente :** [FUBO_2026-05-26_update.md](FUBO_2026-05-26_update.md) (snapshot 21:00 UTC — close $9.56→$9.52, RSI 21.08, volume 986k/0.69×, max pain $10.00, put/call 0.60, call OI 62.3%, scoring agent 64.2/100, thèse SURVEILLER)
+> **Niveau d'impact :** 🟢 Faible — Snapshot 13:00 UTC confirme la **stabilité totale** vs snapshot 10:00 UTC (close $9.52 inchangé, RSI 21.08 inchangé, volume 1,004,300 inchangé). **Anomalie options JSON RÉSOLUE** : max pain $10.00 cohérent, put/call 0.51, call OI 66.3% (vs valeurs confirmées 10:00 UTC : 0.60 / 62.3%). Biais haussier options légèrement renforcé. Scoring agent stable à 64.2/100 (ACHETER Réduit), ajustement analyste **SURVEILLER (~42/100)**. Earnings Q1 2026 J=0 non résolu après 8 jours.
+> **Référence précédente :** [FUBO_2026-05-27_update.md](FUBO_2026-05-27_update.md) (snapshot 10:00 UTC — close $9.52, RSI 21.08, volume 1,004,300 / 0.70×, anomalie options JSON traitée, scoring agent 64.2/100, thèse SURVEILLER)
 
 ---
 
-## 1. Résumé des Changements depuis l'Analyse Précédente (2026-05-26 21:00 UTC)
+## 1. Résumé des Changements depuis l'Analyse Précédente (2026-05-27 10:00 UTC)
 
-| Métrique | 2026-05-26 21:00 UTC | **2026-05-27 10:00 UTC** | Variation |
+| Métrique | 2026-05-27 10:00 UTC | **2026-05-27 13:00 UTC** | Variation |
 |---|---|---|---|
 | Cours close | $9.52 | **$9.52** | **0.00%** |
 | Change % vs previous | −2.36% | **−2.36%** | — |
-| Volume séance | 986 857 | **1 004 300** | **+1.8%** |
-| Volume vs 20j | 0.69× | **0.70×** | **Stable** |
+| Volume séance | 1 004 300 | **1 004 300** | **0.00%** |
+| Volume vs 20j | 0.70× | **0.70×** | **Stable** |
 | RSI 14j | 21.08 | **21.08** | — |
 | ATR 14j | $0.62 | **$0.62** | — |
 | MM 50j | $11.42 | **$11.42** | — |
@@ -20,12 +20,9 @@
 | P/E TTM (Yahoo) | 2.48x | **2.48x** | — |
 | Forward P/E | 20.17x | **20.17x** | — |
 | Short Interest | 22.84% | **22.84%** | — |
-| **Max Pain (API)** | **$10.00** | **$7.50** | **[ANOMALIE JSON]** |
-| Put/Call Ratio (API) | 0.60 | **0.00** | **[ANOMALIE JSON]** |
-| Call OI % (API) | 62.3% | **100.0%** | **[ANOMALIE JSON]** |
-| **Max Pain (confirmé)** | **$10.00** | **$10.00** | **Valeurs historiques maintenues** |
-| Put/Call (confirmé) | 0.60 | **0.60** | **Valeurs historiques maintenues** |
-| Call OI % (confirmé) | 62.3% | **62.3%** | **Valeurs historiques maintenues** |
+| **Max Pain (API)** | $7.50 (anomalie) → confirmé **$10.00** | **$10.00** | **Anomalie résolue** |
+| Put/Call Ratio (API) | 0.00 (anomalie) → confirmé **0.60** | **0.51** | **−0.09 (haussier)** |
+| Call OI % (API) | 100.0% (anomalie) → confirmé **62.3%** | **66.3%** | **+4.0 pp (haussier)** |
 | Échéance options | 2026-05-29 | **2026-05-29** | J+2 |
 | **Score Global (agent)** | 67.2/100 | **67.2/100** | — |
 | **Score Global Ajusté (agent)** | 64.2/100 | **64.2/100** | — |
@@ -34,12 +31,12 @@
 | **Recommandation (agent)** | ACHETER (Réduit) | **ACHETER (Réduit)** | — |
 
 **Constats :**
-1. **Stabilité totale du cours et des métriques techniques** — Le close reste à **$9.52** (0.00% vs 21:00 UTC précédent, −2.36% vs previous close $9.75). Toutes les métriques techniques principales (RSI, ATR, MM50, market cap, P/E, short interest) sont **strictement inchangées** entre les deux snapshots. Il s'agit du 13e snapshot consécutif avec un close quasi-identique (variations intraday marginales, mais close consolidé autour de $9.20–$9.75 depuis le 20/05).
-2. **Anomalie options JSON détectée et traitée** — Le snapshot 10:00 UTC retourne un max pain **$7.50** (vs $10.00 historique confirmé depuis le 26/05), un put/call **0.00** (vs 0.60 confirmé), et un call OI **100.0%** (vs 62.3% confirmé). Cette anomalie est identique au pattern observé sur SOFI et SQ le même jour (valeurs aberrantes en fin de JSON options). **Les valeurs confirmées du 26/05 ($10.00 / 0.60 / 62.3%) sont maintenues** pour l'analyse. Le max pain $10.00 place le spot à **−4.8%** sous le niveau de pinning, en échéance J+2 (2026-05-29).
-3. **Liquidité stablement réduite** — Volume 1,004,300 (0.70× moyenne 20j), en ligne avec le snapshot précédent (986k / 0.69×). Aucune amélioration significative de la liquidité. Le titre reste sous sa moyenne de volume depuis 8 jours.
+1. **Stabilité absolue du cours et des métriques techniques** — Le close reste à **$9.52** (0.00% vs snapshot 10:00 UTC). Toutes les métriques techniques principales (RSI, ATR, MM50, market cap, P/E, short interest) sont **strictement inchangées**. Il s'agit du 14e snapshot consécutif avec un close quasi-identique (consolidation autour de $9.20–$9.75 depuis le 20/05).
+2. **Anomalie options JSON RÉSOLUE** — Le snapshot 13:00 UTC retourne un max pain **$10.00** (cohérent avec la valeur confirmée du 10:00 UTC), un put/call **0.51** (vs 0.60 confirmé précédemment), et un call OI **66.3%** (vs 62.3% confirmé). L'anomalie JSON identifiée sur SOFI et SQ à 10:00 UTC est donc corrigée. Le put/call en légère baisse et le call OI en hausse de 4.0 pp signalent un **biais haussier options légèrement renforcé**.
+3. **Liquidité stablement réduite** — Volume 1,004,300 (0.70× moyenne 20j), strictement inchangé vs 10:00 UTC. Le titre reste sous sa moyenne de volume depuis 8 jours.
 4. **RSI en survente extrême (21.08)** — inchangé en zone critique sous le seuil 30. Aucun signe de reversal technique.
-5. **Scoring agent stable** — 64.2/100 (ACHETER Réduit), Score Opportunité 6.7/10, Score Momentum 4.5/10. Aucun mouvement de la part des algorithmes de scoring.
-6. **Earnings Q1 2026 non résolu après 8 jours** : `data/upcoming_events_latest.json` (2026-05-27) place l'earnings au **2026-05-27** (jour J, `days_until: 0`). Aucun résultat Q1 n'est visible dans `data/latest.json` au snapshot 10:00 UTC. [ANOMALIE CALENDRIER PERSISTANTE — J+8 NON RÉSOLU]
+5. **Scoring agent stable** — 64.2/100 (ACHETER Réduit), Score Opportunité 6.7/10, Score Momentum 4.5/10. Aucun mouvement des algorithmes de scoring entre 10:00 et 13:00 UTC.
+6. **Earnings Q1 2026 non résolu après 8 jours** : `data/upcoming_events_latest.json` (2026-05-27) place l'earnings au **2026-05-27** (jour J, `days_until: 0`). Aucun résultat Q1 n'est visible dans `data/latest.json` au snapshot 13:00 UTC. [ANOMALIE CALENDRIER PERSISTANTE — J+8 NON RÉSOLU]
 7. **Validation report** (`data/validation_report.txt`, 2026-05-27) : 23/26 tickers OK, 4 errors (VRT schema, AST/AXA/QTBS fetch failed), 2 warnings (IREN, NOK). FUBO **non flaggué** — données considérées fiables.
 
 ---
@@ -59,7 +56,7 @@
 **Niveaux clés :**
 - Support immédiat : **$9.50** (low du jour)
 - Support secondaire : **$8.31** (52W low)
-- Résistance : **$10.00** (niveau psychologique + **max pain confirmé**)
+- Résistance : **$10.00** (niveau psychologique + **max pain**)
 - Résistance majeure : **$11.42** (MM50)
 - Stop-loss ATR (2×) : **$8.28** (−13.0%)
 - Take-profit ATR (3×) : **$11.38** (+19.5%)
@@ -70,7 +67,7 @@
 
 ## 3. Mise à Jour Fondamentale
 
-Aucun nouveau résultat Q1 2026 ni donnée fondamentale dans le snapshot 10:00 UTC. La divergence Yahoo/FMP persiste intégralement :
+Aucun nouveau résultat Q1 2026 ni donnée fondamentale dans le snapshot 13:00 UTC. La divergence Yahoo/FMP persiste intégralement :
 
 | Source | Market Cap | P/E | P/B | EV/EBITDA |
 |---|---|---|---|---|
@@ -109,14 +106,14 @@ Aucun nouveau résultat Q1 2026 ni donnée fondamentale dans le snapshot 10:00 U
 
 ### Options
 
-| Signal | Valeur API | Valeur Confirmée | Lecture |
+| Signal | Valeur 10:00 UTC | Valeur 13:00 UTC | Lecture |
 |---|---|---|---|
-| Max Pain | $7.50 | **$10.00** | [ANOMALIE JSON] — valeur historique maintenue |
-| Put/Call Ratio | 0.00 | **0.60** | [ANOMALIE JSON] — valeur historique maintenue |
-| Call OI % | 100.0% | **62.3%** | [ANOMALIE JSON] — valeur historique maintenue |
+| Max Pain | $10.00 (confirmé) | **$10.00** | Cohérent — anomalie résolue |
+| Put/Call Ratio | 0.60 (confirmé) | **0.51** | **Biais haussier légèrement renforcé** |
+| Call OI % | 62.3% (confirmé) | **66.3%** | **+4.0 pp — domination call accrue** |
 | Échéance options | 2026-05-29 | **2026-05-29** | J+2 — pinning vers $10.00 si pas de catalyseur |
 
-**Lecture institutionnelle :** Le spot $9.52 se situe à **−4.8%** sous le max pain confirmé $10.00. La pression de pinning baissier vers $10.00 se maintient en échéance J+2 (2026-05-29). Le call OI dominant (62.3%) et le short interest massif (22.84%) maintiennent un **setup short squeeze latent** — si un catalyseur positif survient (ex : résolution earnings, surprise EPS), le squeeze technique pourrait propulser le cours au-dessus de $10.00 vers $11.00–$11.50. Sans catalyseur, la gravitation options vers $10.00 reste le scénario central. **L'anomalie JSON (max pain $7.50, put/call 0.00, call OI 100%) est un artefact technique et ne modifie pas la lecture institutionnelle.**
+**Lecture institutionnelle :** Le spot $9.52 se situe à **−4.8%** sous le max pain $10.00. La pression de pinning baissier vers $10.00 se maintient en échéance J+2 (2026-05-29). Le call OI dominant (66.3%) et le short interest massif (22.84%) maintiennent un **setup short squeeze latent** — si un catalyseur positif survient (ex : résolution earnings, surprise EPS), le squeeze technique pourrait propulser le cours au-dessus de $10.00 vers $11.00–$11.50. Sans catalyseur, la gravitation options vers $10.00 reste le scénario central. La résolution de l'anomalie JSON et le renforcement du biais call (66.3% vs 62.3%) sont des signaux marginalement positifs, mais sans impact sur la thèse globale.
 
 ### Consensus Analystes (FMP)
 
@@ -141,7 +138,7 @@ Aucun nouveau résultat Q1 2026 ni donnée fondamentale dans le snapshot 10:00 U
 
 - `data/social_sentiment_latest.json` (2026-05-27) : 0 mentions Reddit, sentiment 0.0/10, pas de pump détecté. Silence retail total.
 
-**Verdict Sentiment :** Neutre à prudent. Silence médiatique et institutionnel total. Le repositionnement options call-biased (62.3%) est le seul signal haussier technique ; le max pain à $10.00 au-dessus du spot est le contre-signal baissier dominant. L'anomalie JSON n'altère pas cette lecture.
+**Verdict Sentiment :** Neutre à prudent. Silence médiatique et institutionnel total. Le repositionnement options call-biased (66.3%) est le seul signal haussier technique ; le max pain à $10.00 au-dessus du spot est le contre-signal baissier dominant.
 
 ---
 
@@ -193,7 +190,7 @@ Aucun nouveau résultat Q1 2026 ni donnée fondamentale dans le snapshot 10:00 U
 | Stop-Loss | **$8.28** | 2× ATR (−13.0%) |
 | Take-Profit | **$11.38** | 3× ATR (+19.5%) |
 | Ratio R/R | **1.5×** | Stable |
-| Max Pain (confirmé) | **$10.00** | Spot sous max pain (−4.8%) — pinning baissier J+2 |
+| Max Pain | **$10.00** | Spot sous max pain (−4.8%) — pinning baissier J+2 |
 | Résistance intermédiaire | **$10.00** | Niveau psychologique + max pain — à surveiller en échéance |
 
 **Condition de révision post-earnings (si résultats disponibles) :**
@@ -204,19 +201,21 @@ Aucun nouveau résultat Q1 2026 ni donnée fondamentale dans le snapshot 10:00 U
 
 ## 7. Conclusion — Thèse Confirmée, Modifiée ou Invalidée ?
 
-### **Verdict : THÈSE CONFIRMÉE — SURVEILLER (snapshot 10:00 UTC, stabilité totale, anomalie options JSON traitée, earnings J+8 non résolu)**
+### **Verdict : THÈSE CONFIRMÉE — SURVEILLER (snapshot 13:00 UTC, stabilité totale, anomalie options JSON résolue, biais call légèrement renforcé, earnings J+8 non résolu)**
 
-La thèse de **SURVEILLER** du snapshot 21:00 UTC du 26/05 est **confirmée** par le snapshot 10:00 UTC du 27/05. Cinq observations :
+La thèse de **SURVEILLER** du snapshot 10:00 UTC du 27/05 est **confirmée** par le snapshot 13:00 UTC. Six observations :
 
-1. **Stabilité absolue des métriques de prix et technique** — Le close reste à **$9.52** (0.00% vs précédent). Toutes les métriques techniques (RSI, ATR, MM50, options confirmées, max pain, put/call, call OI, scoring agent) sont **strictement inchangées**. Il s'agit du 13e snapshot consécutif avec des données quasi-identiques, signalant une absence totale de volatilité directionnelle.
+1. **Stabilité absolue des métriques de prix et technique** — Le close reste à **$9.52** (0.00% vs précédent). Toutes les métriques techniques (RSI, ATR, MM50, options confirmées, scoring agent) sont **strictement inchangées**. Il s'agit du 14e snapshot consécutif avec des données quasi-identiques, signalant une absence totale de volatilité directionnelle.
 
-2. **Anomalie options JSON détectée et traitée** — Le snapshot 10:00 UTC retourne des valeurs aberrantes (max pain $7.50, put/call 0.00, call OI 100.0%), identiques au pattern observé sur SOFI et SQ. Ces valeurs sont un artefact JSON et sont **remplacées par les valeurs historiques confirmées** ($10.00, 0.60, 62.3%). La lecture institutionnelle reste inchangée : pinning baissier vers $10.00 en échéance J+2.
+2. **Anomalie options JSON RÉSOLUE** — Le snapshot 13:00 UTC retourne des valeurs cohérentes : max pain **$10.00**, put/call **0.51**, call OI **66.3%**. L'anomalie observée à 10:00 UTC (max pain $7.50, put/call 0.00, call OI 100.0%) est un artefact corrigé. Le biais call est légèrement renforcé (+4.0 pp) et le put/call en légère baisse, mais cela ne modifie pas la lecture institutionnelle : pinning baissier vers $10.00 en échéance J+2.
 
-3. **Liquidité stablement réduite** — Volume 1,004,300 (0.70× moyenne 20j), en ligne avec le snapshot précédent. Aucune amélioration. Le risque de slippage persiste.
+3. **Liquidité stablement réduite** — Volume 1,004,300 (0.70× moyenne 20j), strictement inchangé vs 10:00 UTC. Aucune amélioration. Le risque de slippage persiste.
 
 4. **Scoring agent stable en ACHETER (Réduit)**, mais ajustement analyste maintenant **SURVEILLER (~42/100)** — inchangé vs précédent. Le plafonnement Qualité 1/6, le malus sectoriel XLC bottom 3, la liquidité réduite (0.70×) et le timing défavorable maintiennent le titre hors de la zone d'achat institutionnelle.
 
 5. **Anomalie calendrier earnings persistante (J+8)** : `upcoming_events_latest.json` place l'earnings FUBO au **2026-05-27** (jour J, `days_until: 0`). Aucun résultat Q1 n'est visible après 8 jours d'attente. Cette incohérence alimente l'incertitude fondamentale majeure.
+
+6. **Setup short squeeze latent inchangé** — short interest 22.84% + call OI 66.3% + spot sous max pain = configuration explosive si catalyseur positif. Mais sans volume (> 1.5× moyenne 20j) et sans confirmation de résultats, ce setup reste théorique.
 
 **Arguments confirmant la prudence :**
 1. **Qualité dégradée 1/6** — patrimoine net négatif, FCF négatif, current ratio 0.84, debt/equity 2.43, ROIC −2.1%.
@@ -229,10 +228,10 @@ La thèse de **SURVEILLER** du snapshot 21:00 UTC du 26/05 est **confirmée** pa
 8. **Max pain $10.00 au-dessus du spot** — pinning baissier en échéance J+2 si pas de catalyseur.
 9. **Momentum agent en retrait** — 4.5/10, confirmant la faiblesse du mouvement de prix.
 
-**Recommandation finale :** **SURVEILLER — pas de position.** Le titre reste dans une configuration de survente extrême (RSI 21.08) avec un setup short squeeze latent (short interest 22.84% + call OI 62.3%), mais l'absence de liquidité (0.70×) et l'incertitude earnings (J+8 non résolu) rendent tout trade de très court terme extrêmement risqué. Le scoring agent ACHETER (Réduit) ne doit pas être suivi sans confirmation technique (volume > 1.5× moyenne 20j + breakout MM50) et résolution des données fondamentales (earnings Q1 + divergence Yahoo/FMP). Toute entrée eventuelle resterait un trade spéculatif avec sizing minimal et stop-loss strict à $8.28.
+**Recommandation finale :** **SURVEILLER — pas de position.** Le titre reste dans une configuration de survente extrême (RSI 21.08) avec un setup short squeeze latent (short interest 22.84% + call OI 66.3%), mais l'absence de liquidité (0.70×) et l'incertitude earnings (J+8 non résolu) rendent tout trade de très court terme extrêmement risqué. Le scoring agent ACHETER (Réduit) ne doit pas être suivi sans confirmation technique (volume > 1.5× moyenne 20j + breakout MM50) et résolution des données fondamentales (earnings Q1 + divergence Yahoo/FMP). Toute entrée eventuelle resterait un trade spéculatif avec sizing minimal et stop-loss strict à $8.28.
 
 ---
 
 *Analyste institutionnel senior — Desk Argus-IA*
-*Date : 2026-05-27 (snapshot 10:00 UTC)*
-*Sources : data/latest.json (fetched 2026-05-27T10:00:01Z), data/recommandations_latest.json, data/quant_report_latest.json (2026-05-17), data/geo_risk_latest.json (2026-05-17), data/sector_rotation_latest.json (2026-05-27), data/social_sentiment_latest.json (2026-05-27), data/fx_exposure_latest.json (2026-05-27), data/upcoming_events_latest.json (2026-05-27), data/events_latest.json (2026-05-27), data/validation_report.txt (2026-05-27)*
+*Date : 2026-05-27 (snapshot 13:00 UTC)*
+*Sources : data/latest.json (fetched 2026-05-27T13:00:02Z), data/recommandations_latest.json, data/quant_report_latest.json (2026-05-17), data/geo_risk_latest.json (2026-05-17), data/sector_rotation_latest.json (2026-05-27), data/social_sentiment_latest.json (2026-05-27), data/fx_exposure_latest.json (2026-05-27), data/upcoming_events_latest.json (2026-05-27), data/events_latest.json (2026-05-27), data/validation_report.txt (2026-05-27)*

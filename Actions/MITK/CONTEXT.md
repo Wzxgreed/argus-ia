@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
-- **Horizon :** —
+- **Recommandation :** ACHETER (Réduit)
+- **Score global :** 64.0/100
+- **Prix cible :** $19.65
+- **Stop-loss :** $14.70
+- **Statut thèse :** confirmée
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -24,13 +24,21 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🟢 **[CASSURE MM50 CONFIRMÉE]** Cours $16.68 > MM50 $14.40 (+15.8%) avec volume 1.07× moyenne — signal technique validé — 2026-05-27
+- 🟢 **[BREAK 52-WEEK HIGH]** 52w high $16.81 atteint — break confirmé — 2026-05-27
+- 🟢 **[MOMENTUM SECTORIEL FAVORABLE]** XLK : 10.0/10 (+15.30% sur 20j) — vent de queue Technology — 2026-05-27
+- 🟢 **[ANOMALIE OPTIONS RÉSOLUE]** Max Pain $20.00 rétabli, Put/Call 0.25, Call OI 80.0% — structure dérivée haussière validée — 2026-05-27
+- 🟡 **[CONSENSUS PT DÉPASSÉ]** $16.00 dépassé de 4.25% — upside théorique nul, monitoring des révisions analystes — 2026-05-27
+- 🟡 **[ROIC FAIBLE]** 3.16% — monitorer l'efficacité du capital dans les prochains filings — 2026-05-18
+- 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($753M Yahoo vs $447M FMP), P/E, EV multiples — utiliser Yahoo comme primaire — 2026-05-27
+- 🟡 **[LIQUIDITÉ DÉRIVÉE FAIBLE]** Options : données normalisées mais faible couverture strike — prudence sur le hedging — 2026-05-27
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings Q3 FY2026 : **2026-08-06** (71j restants) — Est EPS $0.24–$0.34, Rev ~$0.1B
+- Expiration options : **2026-06-18** (23j)
 
 ---
 
@@ -49,7 +57,7 @@
 - **Date :** 2026-05-27
 - **Type :** update
 - **Fichier :** `MITK_2026-05-27_update.md`
-- **Conclusion :** > Desk : Argus-IA | Pipeline : 10:00 UTC | Données : `data/latest.json` (2026-05-27T10:00:14Z) | Score Global Ajusté : **64.0/100** | Action : **ACHETER (Réduit)**
+- **Conclusion :** Snapshot 13:00 UTC 2026-05-27 : stabilité totale vs snapshot 10:00 UTC, cours $16.68 inchangé, RSI 60.74, volume 1.07× moyenne. Anomalie options résolue (max pain $20.00, put/call 0.25, call OI 80.0%). Score Global Ajusté **64.0/100** inchangé. Action **ACHETER (Réduit)** confirmée.
 
 ---
 
