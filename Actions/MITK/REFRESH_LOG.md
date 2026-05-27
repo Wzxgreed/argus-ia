@@ -1,5 +1,21 @@
 # MITK — Historique des Full Refreshes
 
+## 2026-05-27 — Full Refresh Traité (Snapshot 10:00 UTC)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.94% (seuil 5.0%)
+
+**Conclusion :** CONFIRME — artefact algorithmique. Données snapshot 10:00 UTC strictement identiques à la clôture 21:00 UTC 26/05 : close $16.68 inchangé, RSI 60.74 inchangé, ATR $0.99 inchangé, volume 1,401,200 (1.07× moyenne, écart <0.2%). Le trigger ATR_SPIKE reflète la volatilité structurelle normale de ce small-cap post-breakout (ATR ~5.94% du spot), sans nouvel événement déclencheur. Anomalie options détectée : max pain $7.50 aberrant (sous 52w low $8.53), put/call et call OI null → valeurs historiques 26/05 ($20.00 / 0.25 / 80.1%) maintenues. Thèse ACHETER (Réduit) confirmée. SL $14.70, TP $19.65, R/R 1.5 inchangés.
+
+**Fichiers produits :**
+- `Actions/MITK/MITK_2026-05-27_update.md` — Mise à jour post-pipeline 10:00 UTC
+- `Actions/MITK/INDEX.md` — Thèse courante mise à jour
+- `Actions/MITK/CONTEXT.md` — Mémoire court terme mise à jour
+
+**DRAFT archivé :** `MITK_2026-05-27_DRAFT_refresh.md` → `_MITK_2026-05-27_DRAFT_refresh.md.archive`
+
+---
+
 ## 2026-05-26 — Full Refresh Traité (Snapshot 21:00 UTC)
 
 **Triggers :**

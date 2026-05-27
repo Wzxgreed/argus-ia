@@ -6,6 +6,7 @@
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
+| 2026-05-27 | [MITK_2026-05-27_update.md](MITK_2026-05-27_update.md) | Mise à jour post-pipeline 10:00 UTC — stabilité totale vs clôture 26/05 (cours $16.68 inchangé, RSI 60.74, volume 1,401,200 1.07×), trigger FULL REFRESH ATR_SPIKE 5.94% traité comme artefact algorithmique. Anomalie options récurrente (max pain $7.50 aberrant → valeurs historiques 26/05 maintenues). Score global 64.0/100 inchangé. Thèse ACHETER (Réduit) **confirmée** |
 | 2026-05-26 | [MITK_2026-05-26_update.md](MITK_2026-05-26_update.md) | Mise à jour post-pipeline 21:00 UTC — clôture officielle $16.68 (+4.05%), volume 1,398,836 (1.06× moyenne, alerte volume résolue), RSI 60.74 (+5.02 pt), nouveau 52w high $16.805. Score global 64.0/100 inchangé. Thèse ACHETER (Réduit) **confirmée et renforcée** |
 | 2026-05-26 | [MITK_2026-05-26_update.md](MITK_2026-05-26_update.md) | Mise à jour post-pipeline 17:00 UTC — première séance réelle post-Memorial Day, cours $16.01 (−0.12%), volume 494,720 (0.39× moyenne, chute −70%), RSI 55.72 (−1.34 pt). Score global révisé à 64.0/100 (−1.2 pt). Thèse ACHETER (Réduit) confirmée avec **alerte volume** |
 | 2026-05-26 | [MITK_2026-05-26_update.md](MITK_2026-05-26_update.md) | Mise à jour post-pipeline 13:00 UTC — 3e snapshot consécutif sans mutation (données dernière séance 23 mai, fetch pré-ouverture), cours $16.03 confirmé, volume 1,648,000 confirmé, RSI 57.06 stable. Score global 65.2/100 inchangé. Thèse ACHETER (Réduit) confirmée. **Alerte data quality options RÉSOLUE** |
@@ -25,11 +26,11 @@
 - Expiration options : **2026-06-18** (24j)
 
 ## Alertes actives
-- 🟢 **[CASSURE MM50 CONFIRMÉE ET RENFORCÉE]** Cours $16.68 > MM50 $14.40 (+15.8%) avec volume 1.06× moyenne — signal technique validé et renforcé — 2026-05-26
-- 🟢 **[BREAK 52-WEEK HIGH]** Nouveau 52w high $16.805 (vs $16.48) — break confirmé avec volume — 2026-05-26
-- 🟢 **[MOMENTUM SECTORIEL FAVORABLE]** XLK : 10.0/10 (+15.30% sur 20j) — vent de queue Technology — 2026-05-26
-- 🟡 **[CONSENSUS PT DÉPASSÉ]** $16.00 dépassé de 4.25% — upside théorique nul, monitoring des révisions analystes — 2026-05-26
-- 🟡 **[ANOMALIE OPTIONS PERSISTANTE]** Max Pain $20.00 (+19.9% vs spot), Put/Call 0.25, Call OI % 80.1% — structure très haussière stable — 2026-05-26
+- 🟢 **[CASSURE MM50 CONFIRMÉE]** Cours $16.68 > MM50 $14.40 (+15.8%) avec volume 1.07× moyenne — signal technique validé — 2026-05-27
+- 🟢 **[BREAK 52-WEEK HIGH]** 52w high $16.81 atteint — break confirmé — 2026-05-27
+- 🟢 **[MOMENTUM SECTORIEL FAVORABLE]** XLK : 10.0/10 (+15.30% sur 20j) — vent de queue Technology — 2026-05-27
+- 🟡 **[CONSENSUS PT DÉPASSÉ]** $16.00 dépassé de 4.25% — upside théorique nul, monitoring des révisions analystes — 2026-05-27
+- 🟡 **[ANOMALIE OPTIONS RÉCURRENTE]** Max Pain $7.50 aberrant (vs spot +55% sous 52w low), Put/Call et Call OI null — valeurs historiques 26/05 maintenues ($20.00 / 0.25 / 80.1%) — 2026-05-27
 - 🟡 **[ROIC FAIBLE]** 3.16% — monitorer l'efficacité du capital dans les prochains filings — 2026-05-18
-- 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($753M Yahoo) et P/E — utiliser Yahoo comme primaire — 2026-05-26
-- 🟡 **[LIQUIDITÉ DÉRIVÉE FAIBLE]** Options : faible OI, max pain éloigné — prudence sur le hedging — 2026-05-26
+- 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($753M Yahoo vs $447M FMP), P/E, EV multiples — utiliser Yahoo comme primaire — 2026-05-27
+- 🟡 **[LIQUIDITÉ DÉRIVÉE FAIBLE]** Options : données corrompues sur ce snapshot — prudence sur le hedging — 2026-05-27

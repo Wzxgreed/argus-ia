@@ -1,0 +1,163 @@
+# MITK — FULL REFRESH (Événement Majeur)
+
+> **Date :** 2026-05-27
+> **Statut :** 🔴 FULL REFRESH — Thèse précédente potentiellement obsolète
+> **Type :** Rafraîchissement complet (pas une simple mise à jour)
+
+---
+
+## 🚨 Triggers détectés
+
+- **ATR_SPIKE** (medium) — ATR relatif 5.94% (seuil 5.0%)
+
+---
+
+## 📜 Thèse précédente (à comparer)
+
+**ACHETER (Réduit)** — Small-cap logiciel (Software-Application, $753M) avec Forward P/E attractif (13.7x) mais rentabilité du capital faible (ROIC 3.16%) et absence de catalyseur idiosyncratique avéré. Close **$16.68** sur volume normalisé (1.06× moyenne 20j, 1,398,836 vs moy. 1,315,341) — alerte volume post-Memorial Day **RÉSOLUE**. RSI 60.74 (neutre favorable, approche vigilance), cours AU-DESSUS de MM50 ($14.40, +15.8%), configuration technique haussière confirmée avec **break du 52-week high ($16.805)**. Score Global Ajusté **64.0/100** (catégorie ACHETER Réduit, seuil inférieur). Max Pain $20.00 (+19.9% vs spot), Put/Call 0.25, Call OI % 80.1% — structure très haussière stable. Consensus PT $16.00 **dépassé** — upside théorique nul à court terme sans révision analystes. Sizing réduit recommandé (Catalyseur 5.0/10, Momentum 7.0/10). SL $14.70, TP $19.65, R/R 1.5. **Snapshot 21:00 UTC 26/05 : cours +4.05%, volume retour normalisé, break 52w high confirmé. Thèse confirmée et renforcée.**
+
+---
+
+## 1. Synthèse Exécutive (à réviser intégralement)
+
+**Verdict rapide :** [À COMPLÉTER — Achat / Neutre / Vente / Surveiller]
+**Prix cible révisé :** $XX.XX (upside/downside XX%)
+**Score Opportunité révisé :** X.X/10
+**Horizon :** [À COMPLÉTER]
+
+> ⚠️ **Cette section doit expliquer si les triggers ci-dessus confirment, modifient ou invalident la thèse précédente.**
+
+---
+
+## 2. Bloc Prix & Technique (données actuelles)
+
+| Métrique | Valeur | Source |
+|----------|--------|--------|
+| Cours close | $16.68 | Yahoo Finance |
+| Change % | 4.05% | Yahoo Finance |
+| Volume | 1,401,200 | Yahoo Finance |
+| Volume vs 20j | 1.1× | Calcul |
+| RSI 14j | 60.74 | Calcul agent |
+| ATR 14j | 0.99 | Calcul agent |
+| MM 50j | 14.4 | Calcul agent |
+| MM 200j | None | Calcul agent |
+| Golden Cross | None | Calcul agent |
+
+**Niveaux clés :**
+- Support : $XX.XX [À COMPLÉTER]
+- Résistance : $XX.XX [À COMPLÉTER]
+- Stop-loss ATR (2×) : $XX.XX [À COMPLÉTER]
+
+**Verdict timing :** [Favorable / Neutre / Défavorable — À COMPLÉTER]
+
+---
+
+## 3. Bloc Fondamental (données actuelles)
+
+| Métrique | Valeur | Source |
+|----------|--------|--------|
+| Market Cap | 753,249,664 | Yahoo Finance |
+| P/E (TTM) | 49.058823 | Yahoo Finance |
+| Forward P/E | 13.739704 | Yahoo Finance |
+| Beta | 0.955 | Yahoo Finance |
+| Secteur | Technology | Yahoo Finance |
+| **FMP Consensus PT** | 16 (2 analysts) | FMP Stable API |
+| **FMP ROE** | None | FMP Stable API |
+| **FMP Gross Margin** | 0.8509274254136268 | FMP Stable API |
+| **FMP EV/EBITDA** | 12.149984258806926 | FMP Stable API |
+
+**Filtre Qualité (6 critères) :**
+| Critère | Score | Justification |
+|---------|-------|---------------|
+| Revenue CAGR 5 ans ≥ 20% | [Oui/Non] | [À COMPLÉTER] |
+| Profit CAGR 5 ans ≥ 20% | [Oui/Non] | [À COMPLÉTER] |
+| Assets/Liabilities > 1.0 | [Oui/Non] | [À COMPLÉTER] |
+| FCF positif et croissant 5 ans | [Oui/Non] | [À COMPLÉTER] |
+| Avantage compétitif (moat) | [Oui/Non] | [À COMPLÉTER — l'event change-t-il le moat ?] |
+| Industrie forte croissance (TAM ×5) | [Oui/Non] | [À COMPLÉTER] |
+| **Score Qualité total** | X/6 | |
+
+> ⚠️ **L'événement majeur peut avoir changé la structure fondamentale. Réévaluer chaque critère.**
+
+---
+
+## 4. Bloc Market Researcher (à réactualiser)
+
+**TAM :** $XXB [À COMPLÉTER — l'event élargit-il le TAM ?]
+
+**Peers principaux :**
+| Peer | Market Cap | P/E | EV/EBITDA | Commentaire |
+|------|-----------|-----|-----------|-------------|
+| [Peer 1] | — | — | — | [À COMPLÉTER] |
+| [Peer 2] | — | — | — | [À COMPLÉTER] |
+| [Peer 3] | — | — | — | [À COMPLÉTER] |
+
+**Position concurrentielle :** [À COMPLÉTER — l'event renforce-t-il le positionnement ?]
+
+---
+
+## 5. Bloc Macro (réactualisé)
+
+**Régime macro actuel :** [Lire data/latest.json → macro.regime]
+**Exposition sectorielle :**
+- Sensibilité taux 10 ans : [+1% taux → -X% cours — À COMPLÉTER]
+- Sensibilité pétrole : [+$10/bbl → +X% cours — À COMPLÉTER]
+- Sensibilité DXY : [+5% DXY → -X% cours — À COMPLÉTER]
+
+**Verdict Macro :** [Favorable / Neutre / Défavorable — À COMPLÉTER]
+
+---
+
+## 6. Bloc Géopolitique (réactualisé)
+
+**Score Politique :** [Lire data/geo_risk_latest.json — À COMPLÉTER]
+**Exposition :**
+- Revenus géo : [À COMPLÉTER — l'event change-t-il l'exposition géographique ?]
+- Supply chain : [À COMPLÉTER]
+
+---
+
+## 7. Bloc Sentiment (réactualisé)
+
+| Signal | Valeur | Source |
+|--------|--------|--------|
+| Consensus analystes (FMP) | 16 (2 analysts) | FMP |
+| Put/Call ratio | None | Yahoo |
+| Max pain | 7.5 | Yahoo |
+
+**Verdict Sentiment :** [Bullish / Neutre / Bearish — À COMPLÉTER]
+
+---
+
+## 8. Synthèse & Recommandation (à réécrire)
+
+**Thèse d'investissement révisée (1 paragraphe) :**
+[À COMPLÉTER — la thèse précédente est-elle toujours valide ? Qu'a changé l'événement ?]
+
+**Catalyseurs forward :**
+| Catalyst | Timeline | Probabilité | Impact |
+|----------|----------|-------------|--------|
+| [Catalyst 1] | QX 20XX | XX% | [À COMPLÉTER] |
+| [Catalyst 2] | 20XX | XX% | [À COMPLÉTER] |
+
+**Risques clés :**
+1. [À COMPLÉTER — risque lié à l'événement détecté]
+2. [À COMPLÉTER]
+3. [À COMPLÉTER]
+
+---
+
+## ⚡ INSTRUCTION POUR L'AGENT LLM
+
+Cet analyse est un **FULL REFRESH** déclenché par `agents/detect_major_events/agent.py`.
+**Mission :**
+1. Comparer cette analyse avec la thèse précédente (section 📜 ci-dessus)
+2. Déterminer si l'événement majeur **confirme, modifie ou invalide** la thèse
+3. Recalculer le Filtre Qualité 6 critères (l'événement peut changer le moat, le TAM, etc.)
+4. Réviser le prix cible et le Score Opportunité
+5. Sauvegarder le fichier complété sous `Actions/MITK/MITK_2026-05-27_init.md`
+6. **Mettre à jour `INDEX.md`** avec la nouvelle thèse courante et un lien vers l'ancienne
+7. **Logger dans `Actions/MITK/REFRESH_LOG.md`** la date, les triggers, et la conclusion (confirm/modify/invalidate)
+8. **Renommer le DRAFT_refresh** en `_DRAFT_refresh.md` (archive)
+
+**Règle absolue :** utiliser EXCLUSIVEMENT les chiffres de `data/latest.json`. Ne jamais "deviner".
