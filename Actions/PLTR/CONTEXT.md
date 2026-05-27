@@ -48,8 +48,8 @@
 
 - **Date :** 2026-05-27
 - **Type :** update
-- **Fichier :** `PLTR_2026-05-27_update.md`
-- **Conclusion :** > **Source :** `data/2026-05-27.json` (snapshot 10:00 UTC, fetched_at 2026-05-27T10:00:01Z) + agents quant, geo, accounting, sector, social, FX, watchman, events
+- **Fichier :** `PLTR_2026-05-27_13-00_update.md`
+- **Conclusion :** Snapshot 13:00 UTC — stabilité totale vs 10:00 UTC. Anomalie options JSON résolue (max_pain $140.00, put/call 0.49, call OI 67.0%). Biais haussier options légèrement renforcé. Thèse SURVEILLER confirmée sans modification.
 
 ---
 

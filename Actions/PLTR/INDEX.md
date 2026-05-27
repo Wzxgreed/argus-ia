@@ -15,6 +15,7 @@
 | 2026-05-26 | [PLTR_2026-05-26_17-00_update.md](PLTR_2026-05-26_17-00_update.md) | Mise à jour snapshot 17:00 UTC — **rebond technique significatif** : RSI 35.66 → 52.85 (+17.19 pts, sortie de survente), cours +0.21% à $137.17, ATR compressé $4.92 (−8.0%), volume encore plus faible 21.32M (−46.9%). Score Opportunité 5.4/10 (+0.3), Score Global 46.3/100 (+3.8). Thèse SURVEILLER confirmée avec nuance positive — pas d'entrée avant franchissement MM50 + volume > 40M | SURVEILLER — Score Opp. 5.4/10, cours $137.17, RSI 52.85, volume 21.32M (−46.9%), rebond RSI sur volume faible, thèse confirmée |
 | 2026-05-26 | [PLTR_2026-05-26_21-00_update.md](PLTR_2026-05-26_21-00_update.md) | Mise à jour snapshot 21:00 UTC (close finale) — **stabilité quasi-totale** vs 17:00 UTC : cours −0.42% à $136.60, RSI 51.56 (−1.29 pt, reste neutre), volume révisé à 31.51M (−22.5% vs moyenne, +47.8% vs 17:00 UTC). Options, scores agents, consensus totalement inchangés. Thèse SURVEILLER confirmée sans modification | SURVEILLER — Score Opp. 5.4/10, cours $136.60, RSI 51.56, volume 31.51M (−22.5%), stabilité close finale, thèse confirmée |
 | 2026-05-27 | [PLTR_2026-05-27_update.md](PLTR_2026-05-27_update.md) | Mise à jour snapshot 10:00 UTC — **stabilité totale** vs close 26/05 : cours inchangé $136.60, RSI 51.56, volume 31.57M (−22.4%). Anomalie options JSON détectée et traitée (max_pain 50.0 aberrant → valeurs confirmées 26/05 $140.00/0.55/64.4% maintenues). Scores, consensus, fondamentaux inchangés. Thèse SURVEILLER confirmée sans modification | SURVEILLER — Score Opp. 5.4/10, cours $136.60, RSI 51.56, volume 31.57M (−22.4%), stabilité totale, anomalie options traitée, thèse confirmée |
+| 2026-05-27 | [PLTR_2026-05-27_13-00_update.md](PLTR_2026-05-27_13-00_update.md) | Mise à jour snapshot 13:00 UTC — **stabilité totale** vs 10:00 UTC : cours inchangé $136.60, RSI 51.56, volume 31.57M. **Anomalie options JSON résolue** (max_pain $140.00, put/call 0.49, call OI 67.0% validés). Biais options légèrement renforcé vs 26/05 (Put/Call −0.06, Call OI +2.6 pp). Scores, consensus, fondamentaux inchangés. Thèse SURVEILLER confirmée sans modification | SURVEILLER — Score Opp. 5.4/10, cours $136.60, RSI 51.56, volume 31.57M (−22.4%), anomalie options résolue, biais haussier options renforcé, thèse confirmée |
 
 ## Agenda
 - **Prochain earnings :** 2026-08-03 (Q2 FY2026, Est. EPS $0.32–$0.40, Rev $1.8B)
@@ -25,7 +26,7 @@
 - Warning : `data/accounting_risk_latest.json` absent — Filtre Qualité non alimenté
 - 🔴 **Alerte technique : RSI 35.66 < 40 — retour en zone de survente depuis le 25/05 (résolu le 26/05 17:00 UTC, RSI 52.85)**
 - 🟢 **Anomalie options JSON résolue au snapshot 13:00 UTC 26/05** — Put/Call 0.55, Max Pain $140.00, Call OI 64.4% validés et cohérents
-- ⚠️ **Anomalie options JSON détectée snapshot 27/05 10:00 UTC** — max_pain 50.0 aberrant, put_call_ratio null, call_oi_pct null → valeurs confirmées 26/05 maintenues
+- 🟢 **Anomalie options JSON résolue snapshot 27/05 13:00 UTC** — valeurs validées (Put/Call 0.49, Max Pain $140.00, Call OI 67.0%)
 
 ## Contexte technique (dernier snapshot 10:00 UTC)
 - Cours : $136.60
