@@ -758,3 +758,23 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-05-27 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +6.40% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 6.08% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-27 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +6.40% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 6.08% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

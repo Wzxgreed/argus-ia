@@ -38,7 +38,7 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 ## 🚨 Alertes actives
 
 - Baisse — $11.41 (SL 2×ATR) — 🟢 Active
-- Hausse — $14.00 (prix cible) — 🔴 Déclenchée (cours $14.85 le 27/05)
+- Hausse — $14.00 (prix cible) — 🔴 Déclenchée (27/05)
 - Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
@@ -62,9 +62,9 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-27
-- **Type :** update
-- **Fichier :** `AAL_2026-05-27_update.md`
-- **Conclusion :** Thèse SURVEILLER confirmée. Snapshot matinal stabilité totale vs clôture 26/05. Divergence volume/prix confirmée sur 2 sessions (~110M shares sans progression prix). RSI 73.85 surachat persistant. Earnings dans 57 jours. SL $13.69, TP $16.59.
+- **Type :** full refresh
+- **Fichier :** `AAL_2026-05-27_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-27
 
 ---
 

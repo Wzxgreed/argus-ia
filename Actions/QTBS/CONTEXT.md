@@ -41,7 +41,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-27** · earnings placeholder FMP · Earnings J0 glissant — non analysable
+- **2026-05-27** · earnings · Earnings ...
 
 ---
 
@@ -58,9 +58,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-27
-- **Type :** update
-- **Fichier :** `QTBS_2026-05-27_update.md`
-- **Conclusion :** Data blackout persistant (15e snapshot consécutif), placeholder earnings J0 glissant détecté, score inchangé 55.2/100, statut ATTENDRE maintenu.
+- **Type :** preview
+- **Fichier :** `QTBS_2026-05-27_preview.md`
+- **Conclusion :** > **Date :** 2026-05-27
 
 ---
 

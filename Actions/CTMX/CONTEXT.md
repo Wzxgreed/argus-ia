@@ -19,11 +19,11 @@
 
 ---
 
-## Historique des scores
-- **Score global :** 47.5/100
-- **Prix cible :** $9.05
+## Historique des fichiers
+- **Score global :** —/10
+- **Prix cible :** $—
 - **Stop-loss :** $3.29
-- **Statut thèse :** Non établie
+- **Statut thèse :** —
 - **Horizon :** 6–12 mois (dépendant des catalyseurs cliniques)
 
 ---
@@ -36,18 +36,13 @@
 
 ## 🚨 Alertes actives
 
-- [WARNING] Biotech pré-revenue — scoring standard peu fiable
-- [WARNING] Short interest 15.5% — sentiment institutionnel baissier
-- [WARNING] XLV (Healthcare) momentum 0.0 / RS négative — headwind sectoriel
-- [INFO] Earnings confirmé le 2026-08-06 (J+71) — Est EPS $−0.13 à $−0.07
-- [INFO] Anomalie options JSON traitée (Max Pain $1.00 aberrant → $4.00 confirmé)
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-08-06** · earnings · Est EPS $−0.13 à $−0.07, Rev $0.0B (J+71)
-- Catalyseurs potentiels : CX-2029 / CX-904 data readout / updates partenariats
+- Aucun événement à venir.
 
 ---
 
@@ -58,7 +53,6 @@
 - **MM 200j :** —
 - **ATR 14j :** 0.2
 - **Volume moy. 20j :** 3099090
-- **Cours :** 3.69
 
 ---
 
@@ -67,7 +61,7 @@
 - **Date :** 2026-05-27
 - **Type :** update
 - **Fichier :** `CTMX_2026-05-27_update.md`
-- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — SURVEILLER (CONFIRMÉE)** — Stabilité totale des données, aucun catalyseur nouveau, anomalie options traitée.
+- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — SURVEILLER (CONFIRMÉE)**
 
 ---
 

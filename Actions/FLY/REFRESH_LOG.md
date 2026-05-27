@@ -799,3 +799,23 @@
 **Conclusion :** Confirmee sans modification. Snapshot 10:00 UTC 27/05 strictement identique au close 21h UTC 26/05 (cours $58.81, RSI 81.38, volume 15.6M). Aucun nouveau catalyst, aucune news, aucun evenement corporate. These SURVEILLER (38.0, limite basse) maintenue. Filtre Qualite 2/6, fondamentaux inchanges. DRAFT_refresh traite et archive dans `FLY_2026-05-27_update.md`.
 
 ---
+
+## 2026-05-27 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (high) : Gap +18.81% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 9.11% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-27 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (high) : Gap +18.81% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 9.11% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

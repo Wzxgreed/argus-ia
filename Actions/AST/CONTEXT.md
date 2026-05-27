@@ -49,7 +49,7 @@
 - **Date :** 2026-05-27
 - **Type :** update
 - **Fichier :** `AST_2026-05-27_update.md`
-- **Conclusion :** 16e snapshot consécutif sans mutation pour AST — stabilité totale confirmée vs close 26/05. ASTS stable à $119.70 (+13.07%, volume 48.08M, RSI 82.58). Anomalie options JSON détectée et traitée (max pain 40.0 aberrant → valeur confirmée 120.0 maintenue). Earnings FMP placeholder glissant J=0 non résolu. Thèse INVALIDÉE par absence de données — recommandation : résoudre anomalie structurelle (supprimer AST ou marquer excluded), privilégier ASTS.
+- **Conclusion :** > **Date :** 2026-05-27
 
 ---
 

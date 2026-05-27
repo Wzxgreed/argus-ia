@@ -8,21 +8,21 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ACHETER · Sizing Standard · Direction Long
-- **Score Global :** 77.8/100
-- **Prix cible desk :** $124.80 (TP ATR-based) / $164.79 (consensus analystes)
-- **Stop-loss :** $108.60
-- **Horizon :** 1–3 mois
-- **Statut thèse :** 🟡 **Confirmée avec prudence** — setup favorable J=0 earnings Q2 2026. Snapshot 10:00 UTC confirme stabilité totale vs close 26/05 ($115.08 inchangé, RSI 43.36, ATR $3.24). Volume pré-event en hausse à 2.84M (1.27× moy. 20j). Anomalie options JSON détectée et traitée (max pain $190 aberrant → valeur confirmée $100 maintenue). Score Global ajusté 77.8 — zone ACHETER Standard.
+**Score Global :** 77.8/100
+**Prix cible desk :** $124.80 (TP ATR-based) / $164.79 (consensus analystes)
+**Stop-loss :** $108.60
+**Horizon :** 1–3 mois
+**Statut thèse :** 🟡 **Confirmée avec prudence** — setup favorable J=0 earnings Q2 2026. Snapshot 10:00 UTC confirme stabilité totale vs close 26/05 ($115.08 inchangé, RSI 43.36, ATR $3.24). Volume pré-event en hausse à 2.84M (1.27× moy. 20j). Anomalie options JSON détectée et traitée (max pain $190 aberrant → valeur confirmée $100 maintenue). Score Global ajusté 77.8 — zone ACHETER Standard.
 
 **Synthèse :** Agilent affiche encore le meilleur score composite du desk (77.8). Le forward P/E 17.5× décote de 31% le LTM, le consensus anticipe un upside 43%, et le setup technique reste au-dessus de la MM50. Le volume en hausse pré-event traduit une accumulation/hedging sans panique. Quality Compounder (5/6 critères). ⚠️ Flag `stale_price_history` persistant — valider les données en live avant exécution.
 
 ---
 
 ## 📜 Historique des analyses
-- **Score global :** 77.8/100
-- **Prix cible :** $124.80
+- **Score global :** —/10
+- **Prix cible :** $—
 - **Stop-loss :** $108.60
-- **Statut thèse :** confirmée avec prudence
+- **Statut thèse :** validée
 - **Horizon :** 1–3 mois
 
 ---
@@ -35,16 +35,30 @@
 
 ## 🚨 Alertes actives
 
-- Baisse — $108.60 (SL 2×ATR) — 🟢 Active
-- Hausse — $124.80 (TP ATR-based) — 🟢 Active
-- Hausse — $164.79 (consensus analystes) — 🟢 Active
-- Volume — >2× moy. 20j (>4.46M) — 🟢 Active
+- Baisse — $45.00 — 🟢 Active
+- Hausse — $65.86 — 🟢 Active
+- Volume — >2× moy. 20j (>104.9M) — 🟢 Active
+- Baisse — $335.22 — 🟢 Active
+- Hausse — $400.00 — 🟢 Active
+- Volume — >2× moy. 20j (>11.5M) — 🟢 Active
+- Baisse — $12.03 (SL 2×ATR) — 🟢 Active
+- Volume — >2× moy. 20j (>249M) — 🟢 Active
+- Baisse — $13.97 (SL 2×ATR) — 🟢 Active
+- Hausse — $19.51 (prix cible) — 🟢 Active
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
+- Baisse — $11.41 (SL 2×ATR) — 🟢 Active
+- Hausse — $14.00 (prix cible) — 🔴 Déclenchée (27/05)
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
+-  — Voir template ci-dessus — 🟢 Active
+- IREN — Vérification — $61.20
+- IREN — **⚠️ Volume DÉCLENCHÉ** — $55.15 (close)
+- IREN — **⚠️ Baisse INTRADAY** — $52.36 (low)
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-05-27** · earnings · Earnings Q2 2026 — J=0 (Est EPS $1.39-$1.42, Rev $1.8B)
+- **2026-05-27** · earnings · Earnings date — Est EPS $1.39-$1.42, Rev $1.8B...
 
 ---
 
@@ -63,7 +77,7 @@
 - **Date :** 2026-05-27
 - **Type :** update
 - **Fichier :** `A_2026-05-27_update.md`
-- **Conclusion :** 🟡 Thèse confirmée avec prudence à J=0 earnings. Cours stable $115.08 vs close 26/05, volume en hausse 2.84M (1.27×), RSI 43.36 stable. Score Global 77.8 inchangé. Anomalie options JSON traitée (valeurs confirmées conservées). Forward P/E 17.5×, consensus $164.79 (19 analystes). Binary event imminent — sizing Standard max.
+- **Conclusion :** > **Date :** 2026-05-27 · Snapshot 10:00 UTC
 
 ---
 

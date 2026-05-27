@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER (Sizing Réduit)
-- **Score global :** 63.3/100
-- **Prix cible :** $65.86 (consensus FMP 21 analysts)
-- **Stop-loss :** $48.42
-- **Statut thèse :** confirmée
-- **Horizon :** 1–3 mois
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
+- **Horizon :** —
 
 ---
 
@@ -52,16 +52,16 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-27
-- **Type :** update
-- **Fichier :** `IREN_2026-05-27_update.md`
-- **Conclusion :** Snapshot 10:00 UTC — données stables vs close 26/05, earnings J=0 attendu en séance, thèse confirmée ACHETER sizing réduit
+- **Type :** full refresh
+- **Fichier :** `IREN_2026-05-27_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-27
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +5.19% overnight (seuil ±5.0%) — duplicata 26/05
-- **ATR_SPIKE** (medium) — ATR relatif 9.50% (seuil 5.0%) — duplicata 26/05
+- **PRICE_GAP** (medium) — Gap +5.19% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 9.50% (seuil 5.0%)
 
 ---
 

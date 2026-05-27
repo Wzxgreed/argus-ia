@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Score global :** 41.0/100
-- **Prix cible :** $324.71
-- **Stop-loss :** $297.41
-- **Statut thèse :** active
-- **Horizon :** 1–3 mois
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -24,17 +24,13 @@
 
 ## 🚨 Alertes actives
 
-- RSI 87.71 — surachat sévère (décroissance continue depuis 91.1 le 25/05)
-- Rejet du 52W high $311.82 — risque de double top
-- Valorisation étirée — cours +5.1% au-dessus du consensus FMP $293.43
-- Anomalie options JSON (snapshot 10:00 UTC) — max pain $215.00 aberrant, valeurs confirmées 26/05 maintenues
-- Timing technique défavorable
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **Earnings Q3 FY2026 :** 2026-07-30 (64 jours) — Est EPS $1.83–$1.99, Rev $109.0B
+- Aucun événement à venir.
 
 ---
 
@@ -45,9 +41,6 @@
 - **MM 200j :** —
 - **ATR 14j :** 5.46
 - **Volume moy. 20j :** 48723985
-- **Volume jour :** 47956900 (0.98× moyenne)
-- **52W high :** 311.82
-- **52W low :** 195.07
 
 ---
 
@@ -56,7 +49,7 @@
 - **Date :** 2026-05-27
 - **Type :** update
 - **Fichier :** `AAPL_2026-05-27_update.md`
-- **Conclusion :** Stabilité totale vs close 26/05 (cours $308.33, RSI 87.71, volume 0.98×). Anomalie options JSON détectée et traitée (max pain $215.00 aberrant → valeurs confirmées 26/05 maintenues). Scores inchangés (Opportunité 5.1/10, Global ajusté 41.0/100). Thèse SURVEILLER confirmée sans modification. Pas d'entrée long à $308+ avec RSI > 85.
+- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-05-27 10:00 UTC) + agents quant, geo, accounting, sector, social, FX, watchman, events
 
 ---
 

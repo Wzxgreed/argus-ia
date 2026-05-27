@@ -62,9 +62,9 @@ Double gap haussier consécutif : +9.1% (25/05, close $15.47) puis +6.40% (26/05
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-27
-- **Type :** update
-- **Fichier :** `NOK_2026-05-27_update.md`
-- **Conclusion :** Snapshot 10:00 UTC confirme intégralement le snapshot 21:00 UTC du 26/05. Volume révisé à 1.56×. Anomalie options détectée (max pain $2.00 ignoré, conservé $15.00). Thèse ATTENDRE confirmée. SL/TP inchangés.
+- **Type :** full refresh
+- **Fichier :** `NOK_2026-05-27_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-27
 
 ---
 
