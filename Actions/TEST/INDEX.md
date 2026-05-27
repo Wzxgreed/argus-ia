@@ -3,17 +3,17 @@
 ## Thèse courante
 
 **Verdict :** ACHETER (Réduit)
-**Date dernière analyse :** 2026-05-27 (snapshot 13:00 UTC)
-**Cours actuel :** $47.15
+**Date dernière analyse :** 2026-05-27 (snapshot 17:00 UTC)
+**Cours actuel :** $47.525
 **Score Qualité :** 0/6 (Hors périmètre)
-**Score Opportunité :** 6.0/10 (agent reco — données fondamentales absentes)
-**Score Momentum :** 6.8/10
-**Score Global :** 64.8/100
-**Stop-loss :** $44.51
-**Take-profit :** $51.11
+**Score Opportunité :** 5.9/10 (agent reco — données fondamentales absentes)
+**Score Momentum :** 6.5/10
+**Score Global :** 64.0/100
+**Stop-loss :** $44.91
+**Take-profit :** $51.45
 **Ratio R/R :** 1.5
 
-TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Rebond technique confirmé sur 7 séances :** cours maintenu à $47.15 (+6.7% depuis $44.19 le 17/05), RSI à 62.86 (consolidation au-dessus de 60, momentum haussier maintenu), MM50 à $43.48 avec cours à +8.40% au-dessus. **Signal de fragilité majeur :** volume à 1,200 (0.63× moyenne 20j) — le mouvement haussier n'est pas confirmé par un flux acheteur robuste. Verdict agent confirmé **ACHETER (Réduit)** (Score Global 64.8/100). Timing Favorable. Stabilité totale détectée à 13:00 UTC 27/05 : 15e snapshot consécutif sans mutation (aucune donnée technique, fondamentale ou sentimentale n'a changé depuis la session du 26/05). Earnings JOUR J le 2026-05-27 — résultats toujours non observables à 13:00 UTC après 11 jours de flag.
+TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Rebond technique confirmé sur 7 séances :** cours maintenu à $47.525 (+7.5% depuis $44.19 le 17/05), RSI à 62.24 (consolidation au-dessus de 60, momentum haussier maintenu), MM50 à $43.55 avec cours à +9.13% au-dessus. **Signal de fragilité majeur :** volume à 1,356 (0.71× moyenne 20j) — le mouvement haussier n'est pas confirmé par un flux acheteur robuste. Verdict agent confirmé **ACHETER (Réduit)** (Score Global 64.0/100). Timing Favorable. Première mutation détectée à 17:00 UTC 27/05 : cours +0.79% vs 13:00 UTC, volume +13%, RSI −0.62. Earnings JOUR J le 2026-05-27 — résultats toujours non observables à 17:00 UTC (12 jours de flag).
 
 ---
 
@@ -42,12 +42,13 @@ TEST est un ticker de test / micro-cap sans données fondamentales exploitables 
 | TEST_2026-05-26_update.md | 2026-05-26 | Mise à jour 21:00 UTC — deuxième mutation confirmée (cours +1.76% session, RSI 62.86) | **ACHETER (Réduit)** |
 | TEST_2026-05-27_update.md | 2026-05-27 | Mise à jour 10:00 UTC — stabilité totale confirmée vs close 26/05 | **ACHETER (Réduit)** |
 | TEST_2026-05-27_update.md | 2026-05-27 | Mise à jour 13:00 UTC — 15e snapshot consécutif sans mutation | **ACHETER (Réduit)** |
+| TEST_2026-05-27_update.md | 2026-05-27 | Mise à jour 17:00 UTC — première mutation post-15 snapshots (cours +0.79%, RSI 62.24) | **ACHETER (Réduit)** |
 
 ---
 
 ## Agenda des prochains événements
 
-- 2026-05-27 — Earnings (source FMP) — 🔴 JOUR J — résultats non observables à 13:00 UTC (11 jours de flag)
+- 2026-05-27 — Earnings (source FMP) — 🔴 JOUR J — résultats non observables à 17:00 UTC (12 jours de flag)
 - [DONNÉES MANQUANTES] — Conférences / investor days
 
 ---
