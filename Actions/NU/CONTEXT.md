@@ -12,7 +12,7 @@
 - **Score Opportunité :** 6.3/10 (C:6.5 V:8.0 M:3.5)
 - **Prix Cible :** $18.39 (consensus FMP, 10 analysts)
 - **Stop-Loss :** $12.07 (2×ATR)
-- **Statut Thèse :** Score ajusté sous le seuil achat réduit (55.5) — snapshot 17:00 UTC 27/05 : cours $13.07 (+0.69%), **volume en effondrement** 20.18M (0.39× moyenne 20j), **anomalie RSI baissière** (33.41, −2.13 pts vs 13:00 UTC malgré cours supérieur), mutation options confirmée (put/call 0.68, call OI 59.4%), momentum reculé à 3.5/10, timing défavorable, attente confirmation volume
+- **Statut Thèse :** Score ajusté sous le seuil achat réduit (55.5) — snapshot 17:00 UTC 27/05 : cours $13.07 (+0.69% vs previous close), **volume en effondrement** 20.18M (0.39× moyenne 20j), **anomalie RSI baissière** (33.41, −2.13 pts vs 13:00 UTC malgré cours supérieur), mutation options confirmée (put/call 0.68, call OI 59.4%), momentum reculé à 3.5/10, timing défavorable, attente confirmation volume
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
@@ -38,18 +38,17 @@
 
 ## 📅 Prochains événements
 
-- **Earnings Q2 2026 :** 13 août 2026 (Est EPS $0.20–$0.27, Rev $5.4B)
-- **Expiration Options :** 2026-05-29 (2 jours, max pain $13.50 — au-dessus du spot)
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 33.41
+- **RSI 14j :** 33.02
 - **MM 50j :** 14.08
 - **MM 200j :** —
-- **ATR 14j :** 0.50
-- **Volume moy. 20j :** 51726128
+- **ATR 14j :** 0.5
+- **Volume moy. 20j :** 52476809
 
 ---
 

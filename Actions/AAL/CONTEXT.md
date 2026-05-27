@@ -22,7 +22,7 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 
 ## Actualités ayant impacté ce dossier
 - **Score global :** —/10
-- **Prix cible :** $16.59
+- **Prix cible :** $16.70
 - **Stop-loss :** $13.69
 - **Statut thèse :** —
 - **Horizon :** —
@@ -37,10 +37,9 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 
 ## 🚨 Alertes actives
 
-- Baisse — $13.69 (SL technique) — 🟢 Active
+- Baisse — $11.41 (SL 2×ATR) — 🟢 Active
 - Hausse — $14.00 (prix cible) — 🔴 Déclenchée (27/05)
-- Hausse — $15.50 (résistance majeure) — 🟢 Active
-- Volume — >2× moy. 20j (>122M) — 🟢 Active
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
@@ -52,20 +51,20 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 71.50
+- **RSI 14j :** 71.03
 - **MM 50j :** 11.89
 - **MM 200j :** —
 - **ATR 14j :** 0.57
-- **Volume moy. 20j :** 61322959
+- **Volume moy. 20j :** 63408716
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-27
-- **Type :** update
-- **Fichier :** `AAL_2026-05-27_update.md`
-- **Conclusion :** Session du 27/05 : cours $14.99 (+0.96%), volume 44.75M (−59.2% vs veille). Normalisation volumétrique majeure = épuisement du momentum confirmé. RSI 71.50 (détente surachat). Score 5.3/10 (SURVEILLER), Score Global ajusté 42.8/100. SL $13.69, TP $16.70. Thèse SURVEILLER confirmée et renforcée.
+- **Type :** full refresh
+- **Fichier :** `_DRAFT_refresh_2026-05-27.md`
+- **Conclusion :** > **Date :** 2026-05-27
 
 ---
 

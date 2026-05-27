@@ -7,10 +7,10 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 5.5/10
-- **Prix cible :** $65.86 (consensus FMP, 21 analysts)
-- **Stop-loss :** $54.90
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
 - **Statut thèse :** modifiée
 - **Horizon :** —
 
@@ -25,7 +25,7 @@
 ## 🚨 Alertes actives
 
 - Baisse — $45.00 — 🟢 Active
-- Hausse — $65.86 — 🔴 **DÉCLENCHÉE** (cours $66.22 > $65.86)
+- Hausse — $65.86 — 🟢 Active
 - Volume — >2× moy. 20j (>104.9M) — 🟢 Active
 - IREN — Vérification — $61.20
 - IREN — **⚠️ Volume DÉCLENCHÉ** — $55.15 (close)
@@ -41,27 +41,27 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 55.02
-- **MM 50j :** 46.89
+- **RSI 14j :** 56.37
+- **MM 50j :** 46.92
 - **MM 200j :** —
-- **ATR 14j :** 5.66
-- **Volume moy. 20j :** 53541463
+- **ATR 14j :** 5.79
+- **Volume moy. 20j :** 55089799
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-27
-- **Type :** update post-session (snapshot 17:00 UTC)
-- **Fichier :** `IREN_2026-05-27_update.md`
-- **Conclusion :** Thèse modifiée — cours explosé +10.77% à $66.22, dépassement du consensus PT ($65.86), valorisation massivement dégradée (P/E 85.95×, P/B 8.74×), action passée de ACHETER (Réduit) à ATTENDRE. Score Global 59.5/100. Earnings J=0 toujours attendu.
+- **Type :** full refresh
+- **Fichier :** `IREN_2026-05-27_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-27
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (high) — Gap +10.77% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 8.55% (seuil 5.0%)
+- **PRICE_GAP** (high) — Gap +13.48% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 8.53% (seuil 5.0%)
 
 ---
 

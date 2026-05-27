@@ -23,7 +23,7 @@ Double gap haussier consécutif : +9.1% (25/05, close $15.47) puis +6.40% (26/05
 ## Actualités ayant impacté ce dossier
 - **Score global :** —/10
 - **Prix cible :** $9.26
-- **Stop-loss :** $14.46
+- **Stop-loss :** $13.64
 - **Statut thèse :** modifiée
 - **Horizon :** —
 
@@ -37,9 +37,9 @@ Double gap haussier consécutif : +9.1% (25/05, close $15.47) puis +6.40% (26/05
 
 ## 🚨 Alertes actives
 
-- Baisse — $13.64 (SL 2×ATR) — 🟢 Active
+- Baisse — $12.03 (SL 2×ATR) — 🟢 Active
 - Hausse — $9.26 (consensus) — 🔴 Déjà au-dessus
-- Volume — >2× moy. 20j (>238M) — 🟢 Active
+- Volume — >2× moy. 20j (>249M) — 🟢 Active
 
 ---
 
@@ -51,26 +51,26 @@ Double gap haussier consécutif : +9.1% (25/05, close $15.47) puis +6.40% (26/05
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 63.35
+- **RSI 14j :** 63.13
 - **MM 50j :** 11.1
 - **MM 200j :** —
 - **ATR 14j :** 1.03
-- **Volume moy. 20j :** 119048713
+- **Volume moy. 20j :** 120453852
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-27
-- **Type :** update
-- **Fichier :** `NOK_2026-05-27_update.md`
-- **Conclusion :** Correction −4.63% sur volume effondré (0.76×). Cours passe sous max pain ($16.00). Action révisée SURVEILLER (Score Global ajusté 48.0/100). SL/TP $13.64/$18.79.
+- **Type :** full refresh
+- **Fichier :** `NOK_2026-05-27_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-27
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 6.56% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 6.57% (seuil 5.0%)
 
 ---
 

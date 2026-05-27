@@ -36,26 +36,23 @@
 
 ## 🚨 Alertes actives
 
-- [WARNING] Biotech pré-revenue — scoring standard peu fiable
-- [WARNING] Short interest 15.5% — sentiment institutionnel baissier
-- [WARNING] XLV (Healthcare) momentum 0.0 / RS négative — headwind sectoriel
-- [WARNING] Volume 0.33× moyenne — faible conviction sur le rebond +4.6%
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-08-06** · earnings · Est EPS $−0.13 à $−0.07, Rev $0.0B (J+71)
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 38.46
+- **RSI 14j :** 36.0
 - **MM 50j :** 4.26
 - **MM 200j :** —
 - **ATR 14j :** 0.2
-- **Volume moy. 20j :** 2969989
+- **Volume moy. 20j :** 3149387
 
 ---
 

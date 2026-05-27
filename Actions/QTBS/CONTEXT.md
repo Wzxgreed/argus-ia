@@ -58,9 +58,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-27
-- **Type :** update
-- **Fichier :** `QTBS_2026-05-27_update.md`
-- **Conclusion :** 🔴 Bloqué data — ATTENDRE (17e snapshot consécutif sans mutation)
+- **Type :** preview
+- **Fichier :** `QTBS_2026-05-27_preview.md`
+- **Conclusion :** > **Date :** 2026-05-27
 
 ---
 

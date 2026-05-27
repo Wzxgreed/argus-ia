@@ -21,7 +21,7 @@
 ## 📜 Historique des analyses
 - **Score global :** —/10
 - **Prix cible :** $—
-- **Stop-loss :** $108.60
+- **Stop-loss :** $109.06
 - **Statut thèse :** validée
 - **Horizon :** 1–3 mois
 
@@ -64,11 +64,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 44.39
+- **RSI 14j :** 45.03
 - **MM 50j :** 114.87
 - **MM 200j :** —
 - **ATR 14j :** 3.26
-- **Volume moy. 20j :** 2179914
+- **Volume moy. 20j :** 2246840
 
 ---
 
@@ -77,7 +77,7 @@
 - **Date :** 2026-05-27
 - **Type :** update
 - **Fichier :** `A_2026-05-27_update.md`
-- **Conclusion :** > **Date :** 2026-05-27 · Snapshot 17:00 UTC — Léger rebond +0.43% à $115.58, RSI 44.39, volume révisé 1.10M (0.51×), structure options stable, SL/TP recalculés $109.06/$125.36, Score Global 77.8 inchangé
+- **Conclusion :** > **Date :** 2026-05-27 · Snapshot 17:00 UTC
 
 ---
 

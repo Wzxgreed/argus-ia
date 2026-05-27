@@ -17,11 +17,11 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 43.8/100
-- **Prix cible :** $380–$400
-- **Stop-loss :** $281.23 (engine) / $308 (conservateur sous low $310.10)
-- **Statut thèse :** MODIFIÉE — pression baissière intensifiée, support $324 rompu, capitulation intraday avec bounce partiel
-- **Horizon :** 1–3 mois
+- **Score global :** —/10
+- **Prix cible :** $380
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
+- **Horizon :** —
 
 ---
 
@@ -36,29 +36,22 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 - Baisse — $335.22 — 🟢 Active
 - Hausse — $400.00 — 🟢 Active
 - Volume — >2× moy. 20j (>11.5M) — 🟢 Active
-- Gap up rejeté (27/05) — $326.01 → $310.10 — 🔴 Nouvelle
-- Capitulation intraday — $310.10 — 🔴 Nouvelle
-- Support $324 rompu — 🔴 Nouvelle
-- RSI sous 40 — 36.15 — 🔴 Nouvelle
 
 ---
 
 ## 📅 Prochains événements
 
-- 2026-05-29 — Expiration options (put/call 2.14, 68.2% puts, max pain $225) — risque volatilité élevée (2 jours)
-- 2026-07-29 — Earnings Q2 FY2026 — Est EPS $1.38-$1.59, Rev $3.4B (63 jours)
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 36.15
-- **MM 50j :** 305.46
+- **RSI 14j :** 35.73
+- **MM 50j :** 305.43
 - **MM 200j :** —
 - **ATR 14j :** 20.14
-- **Volume moy. 20j :** 5512308
-- **Low intraday :** 310.10
-- **High intraday :** 326.16
+- **Volume moy. 20j :** 5593038
 
 ---
 
@@ -67,13 +60,13 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 - **Date :** 2026-05-27
 - **Type :** update
 - **Fichier :** `VRT_2026-05-27_update.md`
-- **Conclusion :** Thèse MODIFIÉE — pression baissière intensifiée, support $324 rompu, capitulation intraday à $310.10 avec bounce partiel, RSI 36.15, volume collapse 0.56×, score 3.9/10 SURVEILLER
+- **Conclusion :** **Date :** 2026-05-27
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 6.26% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 6.30% (seuil 5.0%)
 
 ---
 
