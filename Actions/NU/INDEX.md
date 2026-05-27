@@ -7,13 +7,14 @@
 - **Score Opportunité :** 6.4/10 (C:6.5 V:8.0 M:3.8)
 - **Prix Cible :** $18.39 (consensus FMP, 10 analysts)
 - **Stop-Loss :** $11.96 (2×ATR)
-- **Statut Thèse :** Score ajusté sous le seuil achat réduit (56.2) — close officielle $12.98 (+1.96%), volume 38.70M (0.75×, révision à la hausse vs 0.43× mi-séance), RSI 35.54 (+2.44 pts vs 13:00 UTC), momentum inchangé 3.8/10, rebond technique confirmé mais sans conviction institutionnelle, attente confirmation
+- **Statut Thèse :** Score ajusté sous le seuil achat réduit (56.2) — snapshot pre-market 27/05 confirme stabilité totale vs close 26/05 ($12.98, +1.96%, volume 39.10M/0.75×, RSI 35.54 inchangé), momentum inchangé 3.8/10, anomalie options max pain 5.00 aberrante traitée (valeur confirmée $13.50 maintenue), aucune news structurante, attente confirmation
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
 
 | Fichier | Date | Type | Verdict |
 |---------|------|------|---------|
+| [NU_2026-05-27_update.md](NU_2026-05-27_update.md) | 2026-05-27 | Update quotidienne (snapshot 10:00 UTC, pre-market) | ATTENDRE — thèse confirmée, stabilité totale vs close 26/05 ($12.98 inchangé, RSI 35.54, volume 39.10M/0.75×), anomalie options JSON détectée et traitée (max pain 5.00 aberrant → valeur confirmée $13.50 maintenue), scores inchangés (Global 64.2, Ajusté 56.2, Opportunité 6.4, Momentum 3.8), SL $11.96 / TP $14.51 |
 | [NU_2026-05-26_update.md](NU_2026-05-26_update.md) | 2026-05-26 | Update quotidienne (snapshot 21:00 UTC, close officielle) | ATTENDRE — thèse confirmée, close $12.98 (+1.96% vs previous close), volume final 38.70M (0.75×, révision hausse vs 21.68M/0.43× à 17h), RSI 35.54 (+1.28 pts vs 17h), scores inchangés (Global 64.2, Ajusté 56.2, Opportunité 6.4, Momentum 3.8), SL $11.96 / TP $14.51, options inchangées max pain $13.50 |
 | [NU_2026-05-26_update.md](NU_2026-05-26_update.md) | 2026-05-26 | Update quotidienne (snapshot 17:00 UTC, archive) | ATTENDRE — thèse confirmée, rebond +1.3% à $12.895, RSI 34.26 (+1.16), volume séance réel 21.68M (0.43×), scores révisés à la hausse (Global 64.2, Ajusté 56.2, Opportunité 6.4, Momentum 3.8), SL $11.88 / TP $14.42, options inchangées max pain $13.50 |
 | [NU_2026-05-25_update.md](NU_2026-05-25_update.md) | 2026-05-25 | Update quotidienne (snapshot 21:00 UTC, consolidé 13:00 + 21:00) | ATTENDRE — thèse confirmée, stabilité totale vs 13:00 UTC (marché fermé Memorial Day), 11e snapshot consécutif sans mutation, cours $12.73, RSI 33.1, max pain $13.00, call OI 65.2%, score ajusté 54.2, momentum 3.0, SL $11.73 |
@@ -36,8 +37,8 @@ Voir [REFRESH_LOG.md](REFRESH_LOG.md) pour l'historique des déclencheurs.
 ## 📅 Agenda
 
 - **Earnings Q2 2026 :** 13 août 2026 (Est EPS $0.20–$0.27, Rev $5.4B)
-- **Expiration Options :** 2026-05-29 (3 jours, max pain $13.50 — au-dessus du spot)
+- **Expiration Options :** 2026-05-29 (2 jours, max pain $13.50 — au-dessus du spot)
 
 ## 📝 Résumé de la Thèse
 
-NU est le leader néo-banque latino-américain (Brésil/Mexique/Colombie) avec 100M+ clients, des marges opérationnelles solides (24.4%), un bilan net cash (net debt/EBITDA −2.47×), et une valorisation forward attractive (P/E ~11×, upside consensus +41.7%). Le snapshot 21:00 UTC du 26/05 confirme la **close officielle** à $12.98 (+1.96% vs previous close), validant le rebond technique entamé à 17:00 UTC ($12.895, +1.30%). Le volume final de séance s'établit à 38.70M (0.75× moyenne 20j), une révision substantielle à la hausse par rapport à l'estimation mi-séance (21.68M, 0.43×), mais qui reste sous la moyenne. Le RSI remonte à **35.54** (+1.28 pts vs 17:00 UTC, +2.44 pts vs 13:00 UTC), confirmant la sortie progressive de la survente extrême tout en restant sous le seuil de neutralité (40). Le score global ajusté reste à **56.2**, dans la zone **ATTENDRE** (50–59). Les fondamentaux sont intacts (ROIC 16.3%, consensus $18.39, 10 analysts). Aucune news structurante. Les options sont stables (max pain $13.50, put/call 0.82, call OI 54.9%, expiration 2026-05-29 dans 3 jours). La configuration technique montre des signes de réparation mais le momentum (3.8/10) reste faible et le timing défavorable.
+NU est le leader néo-banque latino-américain (Brésil/Mexique/Colombie) avec 100M+ clients, des marges opérationnelles solides (24.4%), un bilan net cash (net debt/EBITDA −2.47×), et une valorisation forward attractive (P/E ~11×, upside consensus +41.7%). Le snapshot pre-market du 27/05 confirme la **stabilité totale** vs la close officielle du 26/05 ($12.98, +1.96% vs previous close). Le volume de séance reste à 39.10M (0.75× moyenne 20j), inchangé en termes de ratio. Le RSI reste à **35.54**, confirmant la sortie progressive de la survente extrême tout en restant sous le seuil de neutralité (40). Le score global ajusté reste à **56.2**, dans la zone **ATTENDRE** (50–59). Les fondamentaux sont intacts (ROIC 16.3%, consensus $18.39, 10 analysts). Aucune news structurante. Les options sont stables (max pain confirmé $13.50, put/call 0.82, call OI 54.9%, expiration 2026-05-29 dans 2 jours) ; l'anomalie JSON max pain `5.00` du 27/05 a été identifiée comme aberrante et la valeur historique $13.50 est maintenue. La configuration technique montre des signes de réparation mais le momentum (3.8/10) reste faible et le timing défavorable.
