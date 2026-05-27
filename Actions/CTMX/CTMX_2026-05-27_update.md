@@ -1,19 +1,19 @@
-# CTMX — Mise à Jour — Snapshot 2026-05-27 10:00 UTC
+# CTMX — Mise à Jour — Snapshot 2026-05-27 13:00 UTC
 
 > **Société :** CytomX Therapeutics, Inc.
 > **Secteur :** Healthcare / Biotechnology — Probody therapeutics
 > **Exchange :** NASDAQ
 > **Date :** 2026-05-27
-> **Snapshot :** 10:00 UTC (pre-market / open)
+> **Snapshot :** 13:00 UTC (pipeline officiel)
 > **Analyste :** Desk Argus-IA
 
 ---
 
 ## Résumé Exécutif
 
-Troisième snapshot consécutif sans variation de cours pour CTMX. **$3.69** inchangé vs close 26/05 (−1.86% vs previous close $3.76), RSI stable à **31.43**, volume **0.82×** moyenne 20j. Aucune news majeure, aucun catalyseur nouveau. **Anomalie options JSON détectée** : Max Pain $1.00 aberrant (vs 52W low $1.72 et valeur historique $4.00) → valeur confirmée **$4.00 maintenue**. Scores agents inchangés, thèse **SURVEILLER** confirmée. Earnings maintenu au **2026-08-06** (J+71).
+Quatrième snapshot consécutif sans variation de cours pour CTMX. **$3.69** inchangé vs close 26/05 (−1.86% vs previous close $3.76), RSI stable à **31.43**, volume **0.82×** moyenne 20j. **Anomalie options JSON RÉSOLUE** : Max Pain $4.00 confirmé, Put/Call 0.96 et Call OI 51.1% restaurés. Aucune news majeure, aucun catalyseur nouveau. Scores agents inchangés, thèse **SURVEILLER** confirmée. Earnings maintenu au **2026-08-06** (J+71).
 
-| | Valeur (26/05 close) | Valeur (27/05 10:00) | Changement |
+| | Valeur (10:00 UTC) | Valeur (13:00 UTC) | Changement |
 |---|---|---|---|
 | **Cours** | $3.69 | **$3.69** | 0.00% |
 | **RSI 14j** | 31.43 | **31.43** | 0.00 |
@@ -29,19 +29,19 @@ Troisième snapshot consécutif sans variation de cours pour CTMX. **$3.69** inc
 
 ### 1. Technique — Stabilité Totale, Aucun Signal Nouveau
 
-| Indicateur | 26/05 21:00 UTC | 27/05 10:00 UTC | Signal |
-|------------|-----------------|-----------------|--------|
+| Indicateur | 10:00 UTC | 13:00 UTC | Signal |
+|------------|-----------|-----------|--------|
 | Cours | $3.69 | **$3.69** | Inchangé |
 | Open / High / Low | $3.75 / $3.78 / $3.57 | **$3.75 / $3.78 / $3.57** | Mêmes niveaux intraday |
 | Variation vs previous close | −1.86% | **−1.86%** | Inchangé |
-| Volume | 2,532,511 | **2,541,300** | +0.3% |
+| Volume | 2,541,300 | **2,541,300** | Inchangé |
 | Volume rel. 20j | 0.82× | **0.82×** | Inchangé |
 | RSI 14j | 31.43 | **31.43** | Inchangé — hors survente extrême |
 | ATR 14j | $0.20 | **$0.20** | Inchangé — faible volatilité |
 | MM 50j | $4.32 | **$4.32** | Cours −14.6% sous MM50 |
 | 52W High / Low | $8.21 / $1.72 | **$8.21 / $1.72** | — |
 
-**Verdict timing :** Défavorable — l'absence de mouvement sur deux snapshots consécutifs confirme le manque d'intérêt acheteur. Le RSI à 31.43 reste dans la zone faible sans signe de retournement. Volume sous moyenne, pas de divergence haussière.
+**Verdict timing :** Défavorable — l'absence de mouvement sur quatre snapshots consécutifs confirme le manque d'intérêt acheteur. Le RSI à 31.43 reste dans la zone faible sans signe de retournement. Volume sous moyenne, pas de divergence haussière.
 
 ### 2. Fondamental — Aucun Changement
 
@@ -50,31 +50,34 @@ Données FMP FY2025 inchangées. Pas de nouveau filing SEC, pas de guidance upda
 | Métrique | Valeur | Statut |
 |----------|--------|--------|
 | Market Cap (Yahoo) | $803.3M | — |
-| EV/Revenue | 12.93 | Élevé pour biotech pré-commercial |
+| Market Cap (FMP) | $587.6M | — |
+| EV/Revenue | 7.60 (FMP) / 12.93 (Yahoo) | Élevé pour biotech pré-commercial |
 | Forward P/E | −7.18 | Pertes attendues |
 | Short Interest | **15.5%** | Élevé — inchangé |
 | Current Ratio | 3.09 | Trésorerie confortable |
+| Cash / Working Capital | $97.3M / $97.6M | Runway ~2–3 ans |
 | Filtre Qualité | **2/6** | 🔴 Hors périmètre (inchangé) |
 
 **Consensus Analystes (FMP) :**
 - Price target moyen : **$9.05** (+145% upside vs $3.69)
 - Nombre d'analystes : **11** (2 ce mois, 4 ce trimestre)
+- Sources : TheFly, StreetInsider, Benzinga
 
 ### 3. Sentiment / Options / News
 
-| Indicateur | 26/05 21:00 UTC | 27/05 10:00 UTC | Signal |
-|------------|-----------------|-----------------|--------|
+| Indicateur | 10:00 UTC | 13:00 UTC | Signal |
+|------------|-----------|-----------|--------|
 | News pipeline | Aucune | **Aucune** | — |
-| Max Pain | $4.00 | **$4.00** | Valeur confirmée maintenue* |
-| Put/Call Ratio | — | **—** | Non disponible |
-| Call OI % | — | **—** | Non disponible |
+| Max Pain | $4.00* | **$4.00** | Valeur confirmée stable |
+| Put/Call Ratio | — (indisponible) | **0.96** | Neutre légèrement baissier |
+| Call OI % | — (indisponible) | **51.1%** | Léger biais haussier |
 | Expiration proche | 2026-06-18 | **2026-06-18** | ~3 semaines |
 | Social Sentiment | 0/10 | **0/10** | Aucun intérêt retail |
 | Pump detection | Non | **Non** | — |
 
-*!*Anomalie options détectée : le JSON retourne Max Pain $1.00, aberrant (inférieur au 52W low $1.72 et incompatible avec le consensus PT $9.05). La valeur historique de $4.00 est maintenue comme confirmée.
+*Anomalie options du snapshot 10:00 UTC résolue : le JSON retournait Max Pain $1.00, aberrant. Le snapshot 13:00 UTC confirme Max Pain $4.00 cohérent avec les données historiques, et restaure Put/Call 0.96 et Call OI 51.1%.
 
-**Verdict sentiment :** Neutre à légèrement baissier. Aucune news, aucun mouvement d'options, aucun intérêt retail. Le consensus analystes reste le seul soutien haussier structurel.
+**Verdict sentiment :** Neutre à légèrement baissier. Aucune news, aucun intérêt retail. Le consensus analystes reste le seul soutien haussier structurel (PT +145%). Le Put/Call 0.96 et le Call OI 51.1% traduisent un équilibre sans conviction directionnelle forte.
 
 ---
 
@@ -82,7 +85,7 @@ Données FMP FY2025 inchangées. Pas de nouveau filing SEC, pas de guidance upda
 
 | Facteur | Impact | Détail |
 |---------|--------|--------|
-| **XLV (Healthcare)** | Headwind | Momentum score **0.0/10**, RS 20j vs SPY **−1.43%**, RS 60j **−16.63%. Healthcare reste en sous-performance sectorielle.** |
+| **XLV (Healthcare)** | Headwind | Momentum score **0.0/10**, RS 20j vs SPY **−1.43%**, RS 60j **−16.63%**. Healthcare reste en sous-performance sectorielle. |
 | **Biotech spécifique** | Risque élevé | Sous-secteur biotech early-stage pénalisé par la rotation vers XLK (Technology, momentum 10.0/10). |
 | **DXY / FX** | Neutre | Score FX 0.0, exposition USD générique, pas d'impact direct. |
 | **Geo risk** | Non flaggé | Aucun risque politique spécifique détecté dans `geo_risk_latest.json`. |
@@ -109,7 +112,7 @@ Données FMP FY2025 inchangées. Pas de nouveau filing SEC, pas de guidance upda
 **Timing :** Défavorable
 **Sizing :** — (pas de position recommandée)
 
-**Note de fiabilité :** Score Opportunité 5.6/10 — en dessous du seuil d'opportunité institutionnel (≥ 6.0). Le profil biotech pré-profit reste incompatible avec le scoring standard. La stabilité des données sur trois snapshots consécutifs confirme l'absence de catalyseur immédiat.
+**Note de fiabilité :** Score Opportunité 5.6/10 — en dessous du seuil d'opportunité institutionnel (≥ 6.0). Le profil biotech pré-profit reste incompatible avec le scoring standard. La stabilité des données sur quatre snapshots consécutifs confirme l'absence de catalyseur immédiat.
 
 ---
 
@@ -134,15 +137,15 @@ Aucune révision nécessaire — cours, ATR et structure technique inchangés.
 
 **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — SURVEILLER (CONFIRMÉE)**
 
-Le snapshot du 2026-05-27 10:00 UTC confirme la stabilité totale des données par rapport au close du 26/05. Aucun mouvement de cours, aucun changement technique, aucune news. L'anomalie Max Pain JSON ($1.00) a été traitée et la valeur confirmée de $4.00 est maintenue.
+Le snapshot du 2026-05-27 13:00 UTC confirme la stabilité totale des données par rapport au snapshot 10:00 UTC. Aucun mouvement de cours, aucun changement technique, aucune news. L'anomalie options JSON (Max Pain $1.00 aberrant) est **résolue** : le snapshot 13:00 UTC confirme Max Pain $4.00 et restaure les métriques options (Put/Call 0.96, Call OI 51.1%).
 
-**Ce qui a changé depuis l'update du 26/05 :**
+**Ce qui a changé depuis l'update 10:00 UTC :**
 - ✅ Cours : $3.69 → $3.69 (inchangé)
 - ✅ RSI : 31.43 → 31.43 (inchangé)
 - ✅ Volume : 0.82× → 0.82× (inchangé)
 - ✅ Scores agents : inchangés (Score Global 47.5/100)
 - ✅ Recommandation : SURVEILLER confirmée
-- ⚠️ Anomalie options JSON détectée (Max Pain $1.00 aberrant → valeur confirmée $4.00 maintenue)
+- ✅ Anomalie options JSON RÉSOLUE (Max Pain $4.00 confirmé, Put/Call 0.96 et Call OI 51.1% restaurés)
 - ❌ Filtre Qualité 2/6 inchangé — plafonnement Score Valorisation maintenu
 - ❌ XLV Healthcare sous-performance maintenue (momentum 0.0/10)
 - ❌ Short interest 15.5% inchangé
@@ -163,9 +166,9 @@ Le snapshot du 2026-05-27 10:00 UTC confirme la stabilité totale des données p
 - [WARNING] Short interest 15.5% — sentiment institutionnel baissier
 - [WARNING] XLV (Healthcare) momentum 0.0 / RS négative — headwind sectoriel
 - [INFO] Earnings confirmé le 2026-08-06 (J+71) — Est EPS $−0.13 à $−0.07
-- [INFO] Anomalie options JSON traitée (Max Pain $1.00 aberrant → $4.00 confirmé)
+- [INFO] Anomalie options JSON RÉSOLUE (Max Pain $4.00 confirmé, Put/Call 0.96, Call OI 51.1% restaurés)
 
 ---
 
-*Rapport généré automatiquement — snapshot 2026-05-27 10:00 UTC.*
-*Analyse précédente : `CTMX_2026-05-26_update.md` (snapshot 21:00 UTC).*
+*Rapport généré automatiquement — snapshot 2026-05-27 13:00 UTC.*
+*Analyse précédente : `CTMX_2026-05-27_update.md` (snapshot 10:00 UTC).*

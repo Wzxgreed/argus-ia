@@ -17,7 +17,7 @@
 **Statut :** Thèse non établie — profil spéculatif biotech pré-profit, Filtre Qualité 2/6
 **Horizon :** 6–12 mois (dépendant des catalyseurs cliniques)
 
-**Résumé :** CTMX est une biotech en phase clinique avancée (plateforme Probody) avec des partenariats de qualité (AbbVie, BMS, Amgen). Le snapshot 10:00 UTC du 2026-05-27 confirme la stabilité totale vs close 26/05 : cours $3.69 inchangé, RSI 31.43 inchangé, volume 0.82× moyenne. Le consensus analystes reste constructif (PT $9.05, +145% upside) mais le short interest élevé (15.5%) et le momentum sectoriel négatif (XLV) freinent l'attrait immédiat. Le Filtre Qualité 2/6 plafonne le score Valorisation. Pas de position recommandée en l'absence de catalyseur clinique confirmé.
+**Résumé :** CTMX est une biotech en phase clinique avancée (plateforme Probody) avec des partenariats de qualité (AbbVie, BMS, Amgen). Le snapshot 13:00 UTC du 2026-05-27 confirme la stabilité totale vs snapshot 10:00 UTC : cours $3.69 inchangé, RSI 31.43 inchangé, volume 0.82× moyenne. L'anomalie options JSON est résolue (Max Pain $4.00 confirmé, Put/Call 0.96, Call OI 51.1% restaurés). Le consensus analystes reste constructif (PT $9.05, +145% upside) mais le short interest élevé (15.5%) et le momentum sectoriel négatif (XLV) freinent l'attrait immédiat. Le Filtre Qualité 2/6 plafonne le score Valorisation. Pas de position recommandée en l'absence de catalyseur clinique confirmé.
 
 ---
 
@@ -27,7 +27,7 @@
 |------|---------|------|------------|
 | 2026-05-26 | `CTMX_2026-05-26_init.md` | Analyse initiale | Migration depuis CYTOMX, premier snapshot valide, ATTENDRE, Score Global 48.2/100, Filtre Qualité 2/6 |
 | 2026-05-26 | `CTMX_2026-05-26_update.md` | Mise à jour snapshot 21h | Deuxième snapshot valide, cours $3.69, RSI 31.43, volume 0.82×, SURVEILLER, Score Global 47.5/100, earnings confirmé J+72 |
-| 2026-05-27 | `CTMX_2026-05-27_update.md` | Mise à jour snapshot 10:00 UTC | Stabilité totale vs close 26/05, cours $3.69 inchangé, RSI 31.43, anomalie options JSON traitée (max pain $1.00 aberrant → $4.00 confirmé), scores inchangés, SURVEILLER confirmé |
+| 2026-05-27 | `CTMX_2026-05-27_update.md` | Mise à jour snapshot 13:00 UTC | Stabilité totale vs 10:00 UTC, cours $3.69 inchangé, RSI 31.43, anomalie options JSON RÉSOLUE (max pain $4.00 confirmé, put/call 0.96, call OI 51.1% restaurés), scores inchangés, SURVEILLER confirmé |
 
 ---
 
@@ -55,4 +55,4 @@ L'ancien dossier `Actions/CYTOMX/` contient l'historique des analyses sous le sy
 
 ---
 
-*Dernière mise à jour : 2026-05-27 10:00 UTC*
+*Dernière mise à jour : 2026-05-27 13:00 UTC*

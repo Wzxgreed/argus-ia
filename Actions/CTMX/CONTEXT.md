@@ -1,4 +1,4 @@
-# CONTEXT — CTMX — Dernière mise à jour : 2026-05-27
+# CONTEXT — CTMX — Dernière mise à jour : 2026-05-27 13:00 UTC
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -15,7 +15,7 @@
 **Statut :** Thèse non établie — profil spéculatif biotech pré-profit, Filtre Qualité 2/6
 **Horizon :** 6–12 mois (dépendant des catalyseurs cliniques)
 
-**Résumé :** CTMX est une biotech en phase clinique avancée (plateforme Probody) avec des partenariats de qualité (AbbVie, BMS, Amgen). Le snapshot 10:00 UTC du 2026-05-27 confirme la stabilité totale vs close 26/05 : cours $3.69 inchangé, RSI 31.43 inchangé, volume 0.82× moyenne. Le consensus analystes reste constructif (PT $9.05, +145% upside) mais le short interest élevé (15.5%) et le momentum sectoriel négatif (XLV) freinent l'attrait immédiat. Le Filtre Qualité 2/6 plafonne le score Valorisation. Pas de position recommandée en l'absence de catalyseur clinique confirmé.
+**Résumé :** CTMX est une biotech en phase clinique avancée (plateforme Probody) avec des partenariats de qualité (AbbVie, BMS, Amgen). Le snapshot 13:00 UTC du 2026-05-27 confirme la stabilité totale vs snapshot 10:00 UTC : cours $3.69 inchangé, RSI 31.43 inchangé, volume 0.82× moyenne. L'anomalie options JSON est résolue (Max Pain $4.00 confirmé, Put/Call 0.96, Call OI 51.1% restaurés). Le consensus analystes reste constructif (PT $9.05, +145% upside) mais le short interest élevé (15.5%) et le momentum sectoriel négatif (XLV) freinent l'attrait immédiat. Le Filtre Qualité 2/6 plafonne le score Valorisation. Pas de position recommandée en l'absence de catalyseur clinique confirmé.
 
 ---
 
@@ -61,7 +61,7 @@
 - **Date :** 2026-05-27
 - **Type :** update
 - **Fichier :** `CTMX_2026-05-27_update.md`
-- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — SURVEILLER (CONFIRMÉE)**
+- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — SURVEILLER (CONFIRMÉE)** — stabilité totale, anomalie options résolue
 
 ---
 
