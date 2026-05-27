@@ -49,7 +49,7 @@
 - **Date :** 2026-05-27
 - **Type :** update
 - **Fichier :** `ASTS_2026-05-27_update.md`
-- **Conclusion :** **Thèse confirmée : SURVEILLER — stabilité totale des données, anomalie options récurrente traitée, risque de correction persistant**
+- **Conclusion :** **Thèse confirmée : SURVEILLER — stabilité totale des données, anomalie options résolue (Max Pain $120,00 cohérent, Put/Call 0,76, Call OI 57,0%), risque de correction persistant**
 
 ---
 
