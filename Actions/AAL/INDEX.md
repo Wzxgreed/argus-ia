@@ -20,6 +20,7 @@
 | 2026-05-25 21:00 UTC | Mise à jour | [AAL_2026-05-25_update.md](./AAL_2026-05-25_update.md) | Snapshot 21:00 UTC confirme stabilité totale vs 17:00 UTC — aucune mutation de données. Toutes les métriques techniques, fondamentales, options et consensus inchangées. RSI 71.43, volume 99.26M, Put/Call 1.82, Max Pain $13.00. Score agent 5.7/10 (SURVEILLER) maintenu. SL $12.75, TP $15.50. |
 | 2026-05-26 13:00 UTC | Mise à jour | [AAL_2026-05-26_update.md](./AAL_2026-05-26_update.md) | Snapshot 13:00 UTC pre-market confirme stabilité totale vs 10:00 UTC. ✅ Correction data quality options : put/call 1.83 (was null), max_pain $13.00 (was $5.00 aberrant), call_oi 35.3% (was null). Données alignées sur valeurs 25/05. Aucune mutation prix/volume/technique. Earnings Q2 dans 58 jours. Score agent 5.7/10 (SURVEILLER) maintenu. SL $12.75, TP $15.50. |
 | 2026-05-26 21:00 UTC | Mise à jour | [AAL_2026-05-26_update.md](./AAL_2026-05-26_update.md) | **Session explosive gap +7.18%** ($13.85 → $14.845). RSI 73.82 (surachat accentué). Forward P/E 6.67. Consensus FMP inchangé $16.14 (16 analysts). Volume massif 109.76M (+79.3% vs avg). **Divergence baissière majeure** : 46.13M shares échangées entre 17:00 et 21:00 UTC pour un gain de +$0.095 (+0.64%) = épuisement du momentum / distribution. Score Opportunité 5.4/10 (SURVEILLER). Score Global ajusté 44.0/100. SL révisé $13.69, TP $16.59. XLI stable (RS20 −3.92%). Thèse SURVEILLER confirmée — setup risque/rendement défavorable à $14.845. Rally +23.2% depuis 20/05. |
+| 2026-05-27 10:00 UTC | Mise à jour | [AAL_2026-05-27_update.md](./AAL_2026-05-27_update.md) | Snapshot matinal confirme stabilité totale vs clôture 26/05. Cours $14.85 (+0.03%), RSI 73.85, volume 109.82M (+79.3% vs avg). **Divergence volume/prix confirmée sur 2 sessions** (~110M shares sans progression prix). Anomalie data quality options (max_pain $5.00 aberrant) — conserver valeurs 26/05. Score Opportunité 5.4/10 (SURVEILLER). Score Global ajusté 44.0/100. SL $13.69, TP $16.59. Earnings Q2 dans 57 jours. Thèse SURVEILLER confirmée. |
 
 ---
 
@@ -29,7 +30,7 @@
 **Prix cible :** $16.59 (cours + 3×ATR) / Réviser à $16.00 si momentum confirmé sur volume > 70M  
 **Stop-loss :** $13.69 (cours − 2×ATR, ancienne résistance devenue support)  
 **Upside/Downside :** +11.8% / −7.7%  
-**Dernière mise à jour :** 2026-05-26 (snapshot 21:00 UTC)
+**Dernière mise à jour :** 2026-05-27 (snapshot 10:00 UTC)
 
 American Airlines est une compagnie aérienne legacy fortement endettée (~$40B) avec aucun moat. Hors périmètre qualité (0-1/6). Le rally du 20–26/05 a matérialisé **+23.2%** ($12.06 → $14.845), franchissant l'ancien TP ($13.47) et atteignant un nouveau high depuis fin janvier 2026. Le Forward P/E est remonté à 6.67, réduisant drastiquement l'asymétrie valorisation (upside consensus +8.7% vs +32.8% au début du rally). Le RSI 73.82 franchit la zone de surachat. **Le signal dominant de la session est la divergence volume/prix majeure** : 109.76M shares échangées (+79.3% vs moyenne), dont 46.13M dans l'après-midi (17:00–21:00 UTC) pour un gain de seulement +$0.095 (+0.64%). Cette divergence suggère un épuisement du momentum haussier et/ou une distribution institutionnelle au sommet. Le secteur Industrials (XLI) reste défavorable (RS20 vs SPY −3.92%). **Consensus FMP inchangé $16.14** (16 analystes, 1 mise à jour ce mois, 4 ce trimestre). Le score agent reste à **5.4/10** (SURVEILLER, timing défavorable, Score Global ajusté 44.0/100). **Verdict institutionnel :** la thèse tactique ACHETER sizing réduit est entièrement matérialisée. Ne pas chaser à $14.845. Attendre une consolidation vers $13.69–$14.00 sur volume normalisé (<70M) ou une cassure confirmée au-dessus de $15.50 sur volume > 70M. Respect strict du SL révisé à $13.69. AAdvantage (programme loyalty) reste le hidden asset (~$20-25B > market cap). Risque gamma à expiration 29/05 (Max Pain $13.00) s'éloigne — le cours à $14.845 est $1.845 au-dessus, ce qui peut amplifier le squeeze si le momentum call se maintient, mais la divergence volume/prix est un avertissement de prudence. Divergence P/E Yahoo 47.89 vs FMP 91.22 persiste. Session 26/05 active avec gap +7.18% : la thèse SURVEILLER est confirmée, le setup risque/rendement se dégrade mécaniquement à ce niveau.
 
@@ -66,5 +67,5 @@ Voir [SUPPLY_CHAIN.md](./SUPPLY_CHAIN.md)
 
 - Analyse initiale : [AAL_2026-05-17_init.md](./AAL_2026-05-17_init.md)
 - Mise à jour 2026-05-18 : [AAL_2026-05-18_update.md](./AAL_2026-05-18_update.md)
-- Dernière mise à jour : [AAL_2026-05-26_update.md](./AAL_2026-05-26_update.md)
+- Dernière mise à jour : [AAL_2026-05-27_update.md](./AAL_2026-05-27_update.md)
 - Contexte court terme : [CONTEXT.md](./CONTEXT.md)
