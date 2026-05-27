@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
+- **Recommandation :** ATTENDRE
+- **Score global :** 58.0/100
+- **Prix cible :** $85.67 (consensus, révisé à la baisse)
 - **Stop-loss :** $—
-- **Statut thèse :** —
+- **Statut thèse :** ATTENDRE — Qualité 3/6 hors périmètre, stale price 19 snapshots, earnings J=0 non résolu, consensus PT révisé ↓
 - **Horizon :** —
 
 ---
@@ -24,13 +24,18 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🔴 Stale price 19 snapshots / 8 jours calendaires (cours figé $83.46)
+- 🔴 Earnings Q1 2026 non résolu après 8 jours (placeholder J=0 glissant)
+- 🔴 SQ seul ticker avec source `fmp_fallback` + `change_pct: null`
+- 🟡 Consensus PT révisé à la baisse ($87.50 → $85.67, +1 analyste)
+- 🟡 Validation divergence (0 excluded by gate vs 1 excluded réel)
+- 🟡 Pipeline degradation (4 [ERROR] >2)
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-05-27** · earnings · Earnings ...
+- **2026-05-27** · earnings · Earnings (placeholder J=0, non résolu)
 
 ---
 
@@ -49,7 +54,7 @@
 - **Date :** 2026-05-27
 - **Type :** update
 - **Fichier :** `SQ_2026-05-27_update.md`
-- **Conclusion :** > **Trigger :** Snapshot pipeline 13:00 UTC — pré-ouverture US (9:00 ET)
+- **Conclusion :** Snapshot 17:00 UTC — ATTENDRE. Seule mutation : consensus PT révisé à la baisse ($87.50→$85.67). Stale price 19 snapshots, earnings J=0 non résolu, qualité 3/6 hors périmètre. Maintenir exclusion du périmètre long actif.
 
 ---
 
