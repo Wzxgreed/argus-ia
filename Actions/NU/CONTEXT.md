@@ -38,32 +38,17 @@
 
 ## 📅 Prochains événements
 
-- **Earnings Q2 2026 :** 13 août 2026 (Est EPS $0.20–$0.27, Rev $5.4B)
-- **Expiration Options :** 2026-05-29 (2 jours, max pain $13.50 — au-dessus du spot)
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 35.54
-- **MM 50j :** 14.1
+- **RSI 14j :** 34.49
+- **MM 50j :** 14.08
 - **MM 200j :** —
-- **ATR 14j :** 0.51
-- **Volume moy. 20j :** 51806315
-- **Volume dernier snapshot :** 39097100 (0.75×)
-- **52W low :** 11.71
-- **52W high :** 18.98
-- **Distance MM50 :** −7.9%
-
----
-
-## 📈 Structure options (dernier snapshot)
-
-- **Max pain :** $13.50
-- **Put/Call ratio :** 0.68 (vs 0.82 précédemment)
-- **Call OI % :** 59.4% (vs 54.9% précédemment)
-- **Expiration prochaine :** 2026-05-29
-- **Mutation :** put/call −0.14 pt, call OI +4.5 pts — biais haussier options légèrement renforcé
+- **ATR 14j :** 0.5
+- **Volume moy. 20j :** 51515870
 
 ---
 
@@ -72,7 +57,7 @@
 - **Date :** 2026-05-27
 - **Type :** update
 - **Fichier :** `NU_2026-05-27_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE**. Cours stable $12.98, mutation options significative (put/call 0.68, call OI 59.4%), biais haussier options renforcé mais insuffisant pour modifier le scoring sans confirmation cours/volume.
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE**
 
 ---
 

@@ -18,11 +18,11 @@
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 65.2/100
+- **Score global :** —/10
 - **Prix cible :** $23.18
 - **Stop-loss :** $21.78
-- **Statut thèse :** confirmée
-- **Horizon :** 1–2 semaines
+- **Statut thèse :** modifiée
+- **Horizon :** —
 
 ---
 
@@ -40,19 +40,17 @@
 
 ## 📅 Prochains événements
 
-- **Aucun** · ETF thématique — pas de calendrier earnings au sens classique
+- **2026-05-27** · earnings · Earnings ...
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
 - **RSI 14j :** 59.07
-- **MM 50j :** 22.00
+- **MM 50j :** 22.0
 - **MM 200j :** —
 - **ATR 14j :** 0.28
 - **Volume moy. 20j :** 3764
-- **Volume jour :** 3845
-- **Close :** 22.339
 
 ---
 
@@ -61,7 +59,7 @@
 - **Date :** 2026-05-27
 - **Type :** update
 - **Fichier :** `SPCX_2026-05-27_update.md`
-- **Conclusion :** Thèse confirmée — 8e snapshot consécutif sans mutation, stabilité totale cours/volume/RSI
+- **Conclusion :** **Date :** 2026-05-27
 
 ---
 

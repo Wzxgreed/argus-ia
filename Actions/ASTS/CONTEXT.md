@@ -36,11 +36,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 82.58
-- **MM 50j :** 84.87
+- **RSI 14j :** 82.6
+- **MM 50j :** 85.62
 - **MM 200j :** —
-- **ATR 14j :** 10.14
-- **Volume moy. 20j :** 22862305
+- **ATR 14j :** 10.3
+- **Volume moy. 20j :** 22929545
 
 ---
 
@@ -49,7 +49,7 @@
 - **Date :** 2026-05-27
 - **Type :** update
 - **Fichier :** `ASTS_2026-05-27_update.md`
-- **Conclusion :** **Thèse confirmée : SURVEILLER — stabilité totale des données, anomalie options résolue (Max Pain $120,00 cohérent, Put/Call 0,76, Call OI 57,0%), risque de correction persistant**
+- **Conclusion :** **Thèse confirmée : SURVEILLER — stabilité totale des données, anomalie options résolue, risque de correction persistant**
 
 ---
 

@@ -11,7 +11,7 @@
 - **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** —
+- **Statut thèse :** validée
 - **Horizon :** —
 
 ---
@@ -36,11 +36,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 51.56
-- **MM 50j :** 142.36
+- **RSI 14j :** 48.68
+- **MM 50j :** 141.97
 - **MM 200j :** —
-- **ATR 14j :** 4.92
-- **Volume moy. 20j :** 40661105
+- **ATR 14j :** 4.94
+- **Volume moy. 20j :** 40356734
 
 ---
 
@@ -48,8 +48,8 @@
 
 - **Date :** 2026-05-27
 - **Type :** update
-- **Fichier :** `PLTR_2026-05-27_13-00_update.md`
-- **Conclusion :** Snapshot 13:00 UTC — stabilité totale vs 10:00 UTC. Anomalie options JSON résolue (max_pain $140.00, put/call 0.49, call OI 67.0%). Biais haussier options légèrement renforcé. Thèse SURVEILLER confirmée sans modification.
+- **Fichier :** `PLTR_2026-05-27_update.md`
+- **Conclusion :** > **Source :** `data/2026-05-27.json` (snapshot 10:00 UTC, fetched_at 2026-05-27T10:00:01Z) + agents quant, geo, accounting, sector, social, FX, watchman, events
 
 ---
 

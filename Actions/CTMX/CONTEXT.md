@@ -1,4 +1,4 @@
-# CONTEXT — CTMX — Dernière mise à jour : 2026-05-27 13:00 UTC
+# CONTEXT — CTMX — Dernière mise à jour : 2026-05-27
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -48,11 +48,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 31.43
-- **MM 50j :** 4.32
+- **RSI 14j :** 37.93
+- **MM 50j :** 4.26
 - **MM 200j :** —
 - **ATR 14j :** 0.2
-- **Volume moy. 20j :** 3099090
+- **Volume moy. 20j :** 2959011
 
 ---
 
@@ -61,7 +61,7 @@
 - **Date :** 2026-05-27
 - **Type :** update
 - **Fichier :** `CTMX_2026-05-27_update.md`
-- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — SURVEILLER (CONFIRMÉE)** — stabilité totale, anomalie options résolue
+- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — SURVEILLER (CONFIRMÉE)**
 
 ---
 

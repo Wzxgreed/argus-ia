@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER (Sizing Réduit)
-- **Score global :** 63.3/100
-- **Prix cible :** $65.86 (consensus FMP)
-- **Stop-loss :** $48.42
-- **Statut thèse :** confirmée
-- **Horizon :** 1–3 mois
+- **Recommandation :** ATTENDRE
+- **Score global :** 5.5/10
+- **Prix cible :** $65.86 (consensus FMP, 21 analysts)
+- **Stop-loss :** $54.90
+- **Statut thèse :** modifiée
+- **Horizon :** —
 
 ---
 
@@ -25,7 +25,7 @@
 ## 🚨 Alertes actives
 
 - Baisse — $45.00 — 🟢 Active
-- Hausse — $65.86 — 🟢 Active
+- Hausse — $65.86 — 🔴 **DÉCLENCHÉE** (cours $66.22 > $65.86)
 - Volume — >2× moy. 20j (>104.9M) — 🟢 Active
 - IREN — Vérification — $61.20
 - IREN — **⚠️ Volume DÉCLENCHÉ** — $55.15 (close)
@@ -41,27 +41,27 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 54.85
-- **MM 50j :** 46.46
+- **RSI 14j :** 55.02
+- **MM 50j :** 46.89
 - **MM 200j :** —
-- **ATR 14j :** 5.68
-- **Volume moy. 20j :** 53239985
+- **ATR 14j :** 5.66
+- **Volume moy. 20j :** 53541463
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-27
-- **Type :** update
+- **Type :** update post-session (snapshot 17:00 UTC)
 - **Fichier :** `IREN_2026-05-27_update.md`
-- **Conclusion :** Thèse confirmée — cours stable $59.78, structure options corrigée (put/call 1.88 vs 3.16, call OI 34.7% vs 24.0%), défiance record atténuée, EV/EBITDA révisé 157.06×, earnings J=0 toujours attendu. Scores inchangés 5.8/10 et 63.3/100.
+- **Conclusion :** Thèse modifiée — cours explosé +10.77% à $66.22, dépassement du consensus PT ($65.86), valorisation massivement dégradée (P/E 85.95×, P/B 8.74×), action passée de ACHETER (Réduit) à ATTENDRE. Score Global 59.5/100. Earnings J=0 toujours attendu.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +5.19% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 9.50% (seuil 5.0%)
+- **PRICE_GAP** (high) — Gap +10.77% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 8.55% (seuil 5.0%)
 
 ---
 

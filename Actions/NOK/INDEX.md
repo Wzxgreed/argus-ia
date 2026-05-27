@@ -27,19 +27,20 @@
 | 2026-05-26 | Update (21:00 UTC) | [NOK_2026-05-26_update.md](./NOK_2026-05-26_update.md) | Snapshot 21:00 UTC. Close $16.46 (-0.36% vs 17:00 UTC, +6.40% vs previous close). RSI 67.16, ATR $1.00, volume massif 1.48× (+28.6% vs 17:00 UTC). P/E Yahoo 102.9, premium consensus +77.8%. Options inchangées (max pain $15.00). Thèse modifiée confirmée : ATTENDRE maintenu, SL/TP révisés $14.46/$19.46. Volume de clôture massif — accumulation ou distribution ? |
 | 2026-05-27 | Update (10:00 UTC) | [NOK_2026-05-27_update.md](./NOK_2026-05-27_update.md) | Snapshot 10:00 UTC confirme intégralement le snapshot 21:00 UTC du 26/05 (close $16.46, RSI 67.16, ATR $1.00). Volume révisé à 1.56× (+5.7% post-clôture). Anomalie options détectée (max pain $2.00 dans latest.json → conservé $15.00 opérationnel). Thèse ATTENDRE confirmée. SL/TP inchangés $14.46/$19.46. |
 | 2026-05-27 | Update (13:00 UTC) | [NOK_2026-05-27_update.md](./NOK_2026-05-27_update.md) | Snapshot 13:00 UTC. Données prix/volume/fondamentales strictement inchangées vs 10:00 UTC. **Mutation technique majeure : restauration des données options** — max pain $16.00 (vs $2.00 anomalie à 10:00, vs $15.00 opérationnel du 26/05), put/call 0.53, call OI 65.3%. Cours vs max pain +2.9% (vs +9.7%). Risque mean-reversion fortement atténué. Thèse modifiée confirmée : ATTENDRE maintenu, SL/TP inchangés. Expiration options dans 2 jours. |
+| 2026-05-27 | Update (17:00 UTC) | [NOK_2026-05-27_update.md](./NOK_2026-05-27_update.md) | Snapshot 17:00 UTC. **Correction −4.63%** (close $15.698 vs $16.46 à 13:00). RSI 63.35 (sortie zone surachat). Volume effondré −51.9% (90.9M, 0.76×). **Inversion cours/max pain** : cours −1.9% sous le pin $16.00 (vs +2.9% au-dessus). P/E Yahoo 98.1, premium consensus +69.5%. Score Momentum 6.0/10 (↓). Action révisée **SURVEILLER** (Score Global ajusté 48.0/100). SL/TP révisés $13.64/$18.79. Risque pin inversé à l'expiration 29/05. |
 
 ---
 
 ## Thèse d'investissement courante
 
-**Recommandation :** ATTENDRE — Pas de position
+**Recommandation :** SURVEILLER — Pas de position
 **Prix cible :** $9.26 (consensus 6 analystes)
-**Stop-loss :** $14.46 (cours − 2×ATR)
-**Take-profit :** $19.46 (cours + 3×ATR)
-**Upside/Downside :** −43.7% / −12.2%
-**Dernière mise à jour :** 2026-05-27 13:00 UTC
+**Stop-loss :** $13.64 (cours − 2×ATR)
+**Take-profit :** $18.79 (cours + 3×ATR)
+**Upside/Downside :** −41.0% / −13.1%
+**Dernière mise à jour :** 2026-05-27 17:00 UTC
 
-Double gap haussier consécutif : +9.1% (25/05, close $15.47) puis +6.40% (26/05, close $16.46), soit +15.6% en deux séances sans catalyseur fondamental identifiable. Nouveau 52-week high $16.63. Le momentum technique est réel (RSI 67.16, volume 1.56× en clôture révisé à la hausse, options bullish) mais la valorisation est devenue un frein absolu (P/E Yahoo 102.9, cours +77.8% vs consensus $9.26). Données options **restaurées** : put/call 0.53, call OI 65.3%, max pain **$16.00** (revalorise depuis $15.00 opérationnel du 26/05). Le cours ($16.46) n'est plus que **+2.9%** au-dessus du max pain avec expiration dans 2 jours (29 mai) — **risque de mean-reversion fortement atténué**. Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%). Divergence structurelle Yahoo/FMP persistante (P/E FMP 45.8 vs Yahoo 102.9). Dividende 1.06%. Le secteur Communication Services (XLC) est en sous-performance relative vs SPY (bottom 3, RS20d −5.18%), ce qui rend le mouvement totalement idiosyncratique et fragile. Thèse modifiée confirmée : la restauration du max pain à $16.00 valide la nouvelle base de cours et élimine le risque de mean-reversion brutal. Sans catalyseur, l'entrée reste exclue. Pas de position.
+Double gap haussier consécutif : +9.1% (25/05, close $15.47) puis +6.40% (26/05, close $16.46), soit +15.6% en deux séances sans catalyseur fondamental identifiable, **partiellement invalidé par la correction de −4.63% du 27/05** (close $15.698). Le momentum technique s'érode (RSI 63.35, volume 0.76×, rejet sous 52w high $16.63) et la valorisation reste un frein absolu (P/E Yahoo 98.1, cours +69.5% vs consensus $9.26). Données options : put/call 0.53, call OI 65.3%, max pain **$16.00**. Le cours ($15.698) est désormais **−1.9% sous le max pain** avec expiration dans 2 jours (29 mai) — **risque de pin inversé**. Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%). Divergence structurelle Yahoo/FMP persistante (P/E FMP 45.8 vs Yahoo 98.1). Dividende 1.00%. Le secteur Communication Services (XLC) est en sous-performance relative vs SPY (bottom 3, RS20d −4.82%), ce qui rend le mouvement totalement idiosyncratique et fragile. Thèse modifiée : la correction du jour et l'effondrement du volume signalent un mouvement spéculatif non soutenu. L'entrée reste exclue. Pas de position.
 
 **✅ Données complètes** — Cours, RSI, ATR, P/E, consensus, options disponibles dans `data/latest.json`.
 

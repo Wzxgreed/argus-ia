@@ -19,8 +19,8 @@
 ---
 
 ## 📜 Historique des analyses
-- **Score global :** 77.8/100
-- **Prix cible :** $124.80
+- **Score global :** —/10
+- **Prix cible :** $—
 - **Stop-loss :** $108.60
 - **Statut thèse :** validée
 - **Horizon :** 1–3 mois
@@ -64,11 +64,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 43.36
-- **MM 50j :** 114.79
+- **RSI 14j :** 44.18
+- **MM 50j :** 114.87
 - **MM 200j :** —
-- **ATR 14j :** 3.24
-- **Volume moy. 20j :** 2228680
+- **ATR 14j :** 3.26
+- **Volume moy. 20j :** 2171893
 
 ---
 
@@ -77,7 +77,7 @@
 - **Date :** 2026-05-27
 - **Type :** update
 - **Fichier :** `A_2026-05-27_update.md`
-- **Conclusion :** Snapshot 13:00 UTC confirme stabilité totale J=0 earnings ($115.08, RSI 43.36, volume 2.84M). Mutation options défensive : put/call 1.59 (+0.16), call OI 38.6% (−2.5 pts). Score Global 77.8 inchangé — ACHETER Standard.
+- **Conclusion :** > **Date :** 2026-05-27 · Snapshot 13:00 UTC
 
 ---
 

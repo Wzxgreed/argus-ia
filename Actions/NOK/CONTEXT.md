@@ -7,14 +7,14 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE — Pas de position
+- **Recommandation :** SURVEILLER — Pas de position
 **Prix cible :** $9.26 (consensus 6 analystes)
-**Stop-loss :** $14.46 (cours − 2×ATR)
-**Take-profit :** $19.46 (cours + 3×ATR)
-**Upside/Downside :** −43.7% / −12.2%
-**Dernière mise à jour :** 2026-05-27 13:00 UTC
+**Stop-loss :** $13.64 (cours − 2×ATR)
+**Take-profit :** $18.79 (cours + 3×ATR)
+**Upside/Downside :** −41.0% / −13.1%
+**Dernière mise à jour :** 2026-05-27 17:00 UTC
 
-Double gap haussier consécutif : +9.1% (25/05, close $15.47) puis +6.40% (26/05, close $16.46), soit +15.6% en deux séances sans catalyseur fondamental identifiable. Nouveau 52-week high $16.63. Le momentum technique est réel (RSI 67.16, volume 1.56× en clôture révisé à la hausse, options bullish) mais la valorisation est devenue un frein absolu (P/E Yahoo 102.9, cours +77.8% vs consensus $9.26). Données options **restaurées** : put/call 0.53, call OI 65.3%, max pain **$16.00** (revalorise depuis $15.00 opérationnel du 26/05). Le cours ($16.46) n'est plus que **+2.9%** au-dessus du max pain avec expiration dans 2 jours (29 mai) — **risque de mean-reversion fortement atténué**. Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%). Divergence structurelle Yahoo/FMP persistante (P/E FMP 45.8 vs Yahoo 102.9). Dividende 1.06%. Le secteur Communication Services (XLC) est en sous-performance relative vs SPY (bottom 3, RS20d −5.18%), ce qui rend le mouvement totalement idiosyncratique et fragile. Thèse modifiée confirmée : la restauration du max pain à $16.00 valide la nouvelle base de cours et élimine le risque de mean-reversion brutal. Sans catalyseur, l'entrée reste exclue. Pas de position.
+Double gap haussier consécutif : +9.1% (25/05, close $15.47) puis +6.40% (26/05, close $16.46), soit +15.6% en deux séances sans catalyseur fondamental identifiable, **partiellement invalidé par la correction de −4.63% du 27/05** (close $15.698). Le momentum technique s'érode (RSI 63.35, volume 0.76×, rejet sous 52w high $16.63) et la valorisation reste un frein absolu (P/E Yahoo 98.1, cours +69.5% vs consensus $9.26). Données options : put/call 0.53, call OI 65.3%, max pain **$16.00**. Le cours ($15.698) est désormais **−1.9% sous le max pain** avec expiration dans 2 jours (29 mai) — **risque de pin inversé**. Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%). Divergence structurelle Yahoo/FMP persistante (P/E FMP 45.8 vs Yahoo 98.1). Dividende 1.00%. Le secteur Communication Services (XLC) est en sous-performance relative vs SPY (bottom 3, RS20d −4.82%), ce qui rend le mouvement totalement idiosyncratique et fragile. Thèse modifiée : la correction du jour et l'effondrement du volume signalent un mouvement spéculatif non soutenu. L'entrée reste exclue. Pas de position.
 
 **✅ Données complètes** — Cours, RSI, ATR, P/E, consensus, options disponibles dans `data/latest.json`.
 
@@ -37,9 +37,9 @@ Double gap haussier consécutif : +9.1% (25/05, close $15.47) puis +6.40% (26/05
 
 ## 🚨 Alertes actives
 
-- Baisse — $12.03 (SL 2×ATR) — 🟢 Active
+- Baisse — $13.64 (SL 2×ATR) — 🟢 Active
 - Hausse — $9.26 (consensus) — 🔴 Déjà au-dessus
-- Volume — >2× moy. 20j (>249M) — 🟢 Active
+- Volume — >2× moy. 20j (>238M) — 🟢 Active
 
 ---
 
@@ -51,11 +51,11 @@ Double gap haussier consécutif : +9.1% (25/05, close $15.47) puis +6.40% (26/05
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 67.16
-- **MM 50j :** 10.96
+- **RSI 14j :** 63.35
+- **MM 50j :** 11.1
 - **MM 200j :** —
-- **ATR 14j :** 1.0
-- **Volume moy. 20j :** 121273695
+- **ATR 14j :** 1.03
+- **Volume moy. 20j :** 119048713
 
 ---
 
@@ -64,14 +64,13 @@ Double gap haussier consécutif : +9.1% (25/05, close $15.47) puis +6.40% (26/05
 - **Date :** 2026-05-27
 - **Type :** update
 - **Fichier :** `NOK_2026-05-27_update.md`
-- **Conclusion :** ATTENDRE maintenu (Score Global ajusté 50.5/100). Restauration options — max pain $16.00, risque mean-reversion fortement atténué. Pas de position.
+- **Conclusion :** Correction −4.63% sur volume effondré (0.76×). Cours passe sous max pain ($16.00). Action révisée SURVEILLER (Score Global ajusté 48.0/100). SL/TP $13.64/$18.79.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +6.40% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 6.08% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 6.56% (seuil 5.0%)
 
 ---
 
