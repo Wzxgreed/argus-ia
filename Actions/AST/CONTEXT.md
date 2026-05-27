@@ -49,7 +49,7 @@
 - **Date :** 2026-05-27
 - **Type :** update
 - **Fichier :** `AST_2026-05-27_update.md`
-- **Conclusion :** > **Date :** 2026-05-27
+- **Conclusion :** 🔴 INVALIDÉE PAR L'ABSENCE DE DONNÉES — 17e snapshot consécutif sans historique de prix pour AST. ASTS stable à $119.70 (+13.07%, vol 48.08M, RSI 82.58). Anomalie options JSON résolue (max pain 120.0, P/C 0.76, call OI 57.0%). Earnings FMP placeholder J=0 non résolu. Recommandation : supprimer AST de la watchlist ou marquer `excluded`, privilégier ASTS.
 
 ---
 

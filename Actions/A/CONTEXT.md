@@ -12,15 +12,15 @@
 **Prix cible desk :** $124.80 (TP ATR-based) / $164.79 (consensus analystes)
 **Stop-loss :** $108.60
 **Horizon :** 1–3 mois
-**Statut thèse :** 🟡 **Confirmée avec prudence** — setup favorable J=0 earnings Q2 2026. Snapshot 10:00 UTC confirme stabilité totale vs close 26/05 ($115.08 inchangé, RSI 43.36, ATR $3.24). Volume pré-event en hausse à 2.84M (1.27× moy. 20j). Anomalie options JSON détectée et traitée (max pain $190 aberrant → valeur confirmée $100 maintenue). Score Global ajusté 77.8 — zone ACHETER Standard.
+**Statut thèse :** 🟡 **Confirmée avec prudence** — setup favorable J=0 earnings Q2 2026. Snapshot 13:00 UTC confirme stabilité totale vs 10:00 UTC ($115.08 inchangé, RSI 43.36, ATR $3.24, volume 2.84M). Mutation options détectée : put/call 1.43 → 1.59 (+0.16), call OI 41.1% → 38.6% (−2.5 pts) — positionnement plus défensif avant l'annonce. Max pain $100 confirmé. Score Global ajusté 77.8 — zone ACHETER Standard.
 
-**Synthèse :** Agilent affiche encore le meilleur score composite du desk (77.8). Le forward P/E 17.5× décote de 31% le LTM, le consensus anticipe un upside 43%, et le setup technique reste au-dessus de la MM50. Le volume en hausse pré-event traduit une accumulation/hedging sans panique. Quality Compounder (5/6 critères). ⚠️ Flag `stale_price_history` persistant — valider les données en live avant exécution.
+**Synthèse :** Agilent affiche encore le meilleur score composite du desk (77.8). Le forward P/E 17.5× décote de 31% le LTM, le consensus anticipe un upside 43%, et le setup technique reste au-dessus de la MM50. Le volume pré-event stable traduit une accumulation/hedging sans panique. Quality Compounder (5/6 critères). ⚠️ Mutation options défensive à surveiller post-event. Flag `stale_price_history` persistant — valider les données en live avant exécution.
 
 ---
 
 ## 📜 Historique des analyses
-- **Score global :** —/10
-- **Prix cible :** $—
+- **Score global :** 77.8/100
+- **Prix cible :** $124.80
 - **Stop-loss :** $108.60
 - **Statut thèse :** validée
 - **Horizon :** 1–3 mois
@@ -77,7 +77,7 @@
 - **Date :** 2026-05-27
 - **Type :** update
 - **Fichier :** `A_2026-05-27_update.md`
-- **Conclusion :** > **Date :** 2026-05-27 · Snapshot 10:00 UTC
+- **Conclusion :** Snapshot 13:00 UTC confirme stabilité totale J=0 earnings ($115.08, RSI 43.36, volume 2.84M). Mutation options défensive : put/call 1.59 (+0.16), call OI 38.6% (−2.5 pts). Score Global 77.8 inchangé — ACHETER Standard.
 
 ---
 
