@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
+- **Recommandation :** SURVEILLER
+- **Score global :** 36,0/100
+- **Prix cible :** —
+- **Stop-loss :** $99,42
+- **Statut thèse :** confirmée
 - **Horizon :** —
 
 ---
@@ -24,13 +24,23 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- RSI surachat extrême (82,58) — risque de correction maximal
+- Cours au-dessus du consensus analystes ($119,70 vs PT $92,25 = −22,9%)
+- Test du 52W high sans catalyseur ($127,10 high intraday vs $129,89 52W high)
+- Range intraday extrême (13,0%)
+- ATR_SPIKE persistant (8,47% du cours)
+- Anomalie options récurrente (Max Pain $40 aberrant → valeur confirmée $120 maintenue)
+- Volume en forte expansion (2,10× moyenne 20j)
+- Secteur Communication Services bottom 3 (momentum score 0,0)
+- Profil non rentable (EPS estimé négatif, multiples extrêmes)
+- Expiration options 2026-05-29 (J+2) — max pain $120 aligné sur le spot
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings 2026-08-10 (J+75) — Est. EPS $−0,29 à $−0,17, Revenus $0,0B
+- Options expiry 2026-05-29 (J+2)
 
 ---
 
@@ -41,15 +51,18 @@
 - **MM 200j :** —
 - **ATR 14j :** 10.14
 - **Volume moy. 20j :** 22862305
+- **Cours :** 119.70
+- **52W high :** 129.89
+- **52W low :** 22.47
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-26
+- **Date :** 2026-05-27
 - **Type :** update
-- **Fichier :** `ASTS_2026-05-26_update.md`
-- **Conclusion :** **Thèse modifiée : SURVEILLER — mutation haussière de +13,07% non catalysée, mais repli de ~5% depuis le high intraday atténue la surchauffe extrême**
+- **Fichier :** `ASTS_2026-05-27_update.md`
+- **Conclusion :** **Thèse confirmée : SURVEILLER — stabilité totale des données vs close 26/05, anomalie options récurrente traitée comme artefact, risque de correction persistant. Ne pas entrer long à ces niveaux.**
 
 ---
 

@@ -5,7 +5,7 @@
 > **Secteur :** Non spécifié
 > **Exchange :** NASDAQ
 > **Priorité :** Medium
-> **Dernière mise à jour :** 2026-05-26 (snapshot 21:00 UTC)
+> **Dernière mise à jour :** 2026-05-27 (snapshot 10:00 UTC)
 
 ---
 
@@ -13,12 +13,12 @@
 
 **Statut :** DONNÉES MANQUANTES — analyse initiale requise / anomalie structurelle confirmée
 
-- Aucune donnée de cours disponible dans les snapshots (`No price history`) — confirmé stable sur **15 snapshots consécutifs** (18/05 → 26/05)
+- Aucune donnée de cours disponible dans les snapshots (`No price history`) — confirmé stable sur **16 snapshots consécutifs** (18/05 → 27/05)
 - Aucune analyse initiale (`_init.md`) n'a été produite
-- Earnings programmés le 2026-05-26 (source FMP) — résultats non disponibles dans les snapshots (pas de données de cotation)
+- Earnings programmés le 2026-05-27 (source FMP) — placeholder glissant J=0 non résolu depuis le 26/05, résultats non disponibles dans les snapshots
 - Scoring agent : placeholder 55.2/100 — action ATTENDRE par défaut
 - AST absent du quality gate (alors qu'ASTS y figure)
-- **Anomalie structurelle confirmée et renforcée :** doublon probable avec ASTS (AST SpaceMobile), ticker correct et liquide sur NASDAQ. ASTS a clôturé à **$119.70** (+13.07%, volume 47.17M, RSI 82.58) au snapshot 21:00 UTC, confirmant que le marché traite un catalyseur sous ASTS que le système ne capte pas sous AST.
+- **Anomalie structurelle confirmée :** doublon probable avec ASTS (AST SpaceMobile), ticker correct et liquide sur NASDAQ. ASTS a clôturé à **$119.70** (+13.07%, volume 48.08M, RSI 82.58) au snapshot 10:00 UTC, confirmant que le marché traite un catalyseur sous ASTS que le système ne capte pas sous AST.
 
 ---
 
@@ -26,6 +26,7 @@
 
 | Date | Fichier | Type | Résumé |
 |------|---------|------|--------|
+| 2026-05-27 | `AST_2026-05-27_update.md` | Update matin (10:00 UTC) | 16e snapshot consécutif sans mutation pour AST — stabilité totale confirmée vs close 26/05, ASTS stable à $119.70 (+13.07%) sur volume 48.08M (2.10×), RSI 82.58 inchangé, anomalie options JSON détectée et traitée (max pain 40.0 aberrant → valeur confirmée 120.0 maintenue), earnings FMP placeholder glissant J=0 non résolu, anomalie structurelle confirmée |
 | 2026-05-26 | `AST_2026-05-26_update.md` | Update finale (21:00 UTC) | 15e snapshot consécutif sans mutation pour AST — stabilité totale confirmée vs 17:00 UTC, ASTS corrige à $119.70 (+13.07%) sur volume 47.17M (2.07×), RSI 82.58 surchauffe persistante, close sous max pain 120, earnings FMP ajusté au 26/05, anomalie structurelle confirmée et renforcée |
 | 2026-05-26 | `AST_2026-05-26_update.md` | Update après-midi (17:00 UTC) | 14e snapshot consécutif sans mutation pour AST — stabilité totale confirmée vs 13:00 UTC, ASTS $125.96 (+18.99%) en gap haussier massif, RSI 83.77 surchauffe extrême, earnings FMP ajusté au 26/05, anomalie structurelle confirmée et renforcée |
 | 2026-05-26 | `AST_2026-05-26_update.md` | Update après-midi (13:00 UTC) | 13e snapshot consécutif sans mutation — stabilité totale confirmée vs 10:00 UTC, earnings FMP ajusté au 26/05, ASTS $105.86 (+10.01%) stable, anomalie structurelle confirmée |
@@ -53,7 +54,7 @@
 
 | Événement | Date | Statut |
 |-----------|------|--------|
-| Earnings | 2026-05-26 | Programmé (FMP) — résultats non disponibles dans les snapshots (pas de données de cotation) |
+| Earnings | 2026-05-27 | Programmé (FMP) — placeholder glissant J=0 non résolu, résultats non disponibles dans les snapshots |
 
 ---
 
@@ -64,4 +65,4 @@
 - ASTS (AST SpaceMobile) présent dans la watchlist avec données complètes — probable doublon erroné
 - AST absent du rapport quality gate (contrairement à ASTS)
 - **Action recommandée :** supprimer AST ou marquer `excluded` dans `config/watchlist.json` et privilégier ASTS
-- ASTS a clôturé à $119.70 (+13.07%, volume 47.17M, RSI 82.58) au snapshot 21:00 UTC — signal que le marché traite un catalyseur sous ASTS que le système ne capte pas sous AST
+- ASTS a clôturé à $119.70 (+13.07%, volume 48.08M, RSI 82.58) au snapshot 10:00 UTC — signal que le marché traite un catalyseur sous ASTS que le système ne capte pas sous AST
