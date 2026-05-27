@@ -1,5 +1,14 @@
 # FUBO — Historique des Full Refreshes
 
+## 2026-05-27 — Full Refresh Résolu (Snapshot 13:00 UTC)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.51% (seuil 5.0%) — persistant depuis 2026-05-17
+
+**Conclusion :** Thèse CONFIRMÉE (SURVEILLER). Snapshot 13:00 UTC confirme la **stabilité totale** vs 10:00 UTC et vs 21:00 UTC du 26/05 : close **$9.52** (inchangé), volume **1,004,300** (0.70× moyenne 20j), RSI **21.08** (survente extrême), ATR **$0.62**. **Anomalie options JSON RÉSOLUE** : max pain $10.00 cohérent (vs anomalie $7.50 à 10:00 UTC), put/call **0.51** (vs 0.60), call OI **66.3%** (vs 62.3% — biais haussier légèrement renforcé). Scoring agent stable : 64.2/100 (ACHETER Réduit), ajustement analyste **~42/100** (SURVEILLER). Divergence Yahoo/FMP persistante ($280.2M vs ~$3.27B — ×11.7). Score Qualité **1/6** confirmé. Earnings Q1 2026 **J=0 non résolu après 8 jours**. DRAFT_refresh.md archivé (`FUBO_2026-05-27_DRAFT_refresh.md` → `_DRAFT_refresh_2026-05-27_ARCHIVED.md`). Analyse initiale réécrite sous `FUBO_2026-05-27_init.md`. Pas de position longue recommandée.
+
+---
+
 ## 2026-05-26 — Full Refresh Résolu (Snapshot 17:00 UTC)
 
 **Triggers :**

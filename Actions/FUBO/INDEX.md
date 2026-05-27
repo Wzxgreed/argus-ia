@@ -24,21 +24,22 @@ Thèse d'investissement : FUBO est un titre spéculatif du secteur Communication
 | 2026-05-26 | [FUBO_2026-05-26_update.md](FUBO_2026-05-26_update.md) | Mise à jour snapshot **21:00 UTC** — cours **$9.52** (−2.36% vs previous), volume **986k** (0.69× moy. 20j — récupération partielle vs 517k à 17:00 UTC), RSI 21.08 survente extrême, max pain $10.00 pinning baissier (−4.8%), scoring agent stable 64.2/100, ajustement analyste **SURVEILLER (~42/100)** sur base liquidité réduite + earnings Q1 J=0 non résolu après 7 jours |
 | 2026-05-27 | [FUBO_2026-05-27_update.md](FUBO_2026-05-27_update.md) | Mise à jour snapshot **10:00 UTC** — **stabilité totale** vs 21:00 UTC du 26/05 (close $9.52 inchangé, RSI 21.08, volume 1,004,300 / 0.70×), **anomalie options JSON détectée et traitée** (max pain $7.50 aberrant → valeurs confirmées $10.00 maintenues), scoring agent stable 64.2/100, ajustement analyste **SURVEILLER (~42/100)**, earnings Q1 J=0 non résolu après 8 jours |
 | 2026-05-27 | [FUBO_2026-05-27_update.md](FUBO_2026-05-27_update.md) | Mise à jour snapshot **13:00 UTC** — **stabilité totale** vs 10:00 UTC (close $9.52 inchangé, RSI 21.08, volume 1,004,300 / 0.70×), **anomalie options JSON RÉSOLUE** (max pain $10.00 cohérent, put/call 0.51 vs 0.60, call OI 66.3% vs 62.3% — biais haussier légèrement renforcé), scoring agent stable 64.2/100, ajustement analyste **SURVEILLER (~42/100)**, earnings Q1 J=0 non résolu après 8 jours |
+| 2026-05-27 | [FUBO_2026-05-27_init.md](FUBO_2026-05-27_init.md) | FULL REFRESH — ATR_SPIKE 6.51% persistant depuis 2026-05-17, thèse confirmée SURVEILLER (close $9.52, RSI 21.08, volume 0.70×, anomalie options JSON résolue max pain $10.00 / put/call 0.51 / call OI 66.3%, earnings Q1 J=0 non résolu après 8 jours) |
 
 ## Agenda
-- **Earnings Q1 2026 :** anomalie calendrier persistante — `upcoming_events_latest.json` (2026-05-26) place l'earnings au **2026-05-26** (jour J, `days_until: 0`). Aucun résultat (EPS, revenue, guidance) n'est visible dans `data/latest.json` au snapshot 21:00 UTC. [ANOMALIE J+7 NON RÉSOLU]
-- Échéance options : 2026-05-29 (J+3 — max pain $10,00, put/call 0,60, call OI 62,3%)
+- **Earnings Q1 2026 :** anomalie calendrier persistante — `upcoming_events_latest.json` (2026-05-27) place l'earnings au **2026-05-27** (jour J, `days_until: 0`). Aucun résultat (EPS, revenue, guidance) n'est visible dans `data/latest.json` au snapshot 13:00 UTC. [ANOMALIE J+8 NON RÉSOLU]
+- Échéance options : 2026-05-29 (J+2 — max pain $10,00, put/call 0,51, call OI 66,3%)
 - Prochaine échéance earnings Q2 : ~août 2026
 
 ## Alertes actives
 - **PRICE_GAP** (medium) — Gap +6.67% overnight (seuil ±5.0%) — 2026-05-25
 - **ATR_SPIKE** (medium) — ATR relatif 6,51% (seuil 5,0%) — persistant depuis 2026-05-17
 - **RSI SURVENTE EXTRÊME** — RSI 21.08 (seuil 30) — 2026-05-27
-- **Earnings Q1 2026 en attente** — anomalie calendrier : `upcoming_events_latest.json` place l'earnings au **2026-05-27** (jour J), mais aucun résultat visible dans `data/latest.json` au snapshot 10:00 UTC — [ANOMALIE J+8 NON RÉSOLU]
+- **Earnings Q1 2026 en attente** — anomalie calendrier : `upcoming_events_latest.json` place l'earnings au **2026-05-27** (jour J), mais aucun résultat visible dans `data/latest.json` au snapshot 13:00 UTC — [ANOMALIE J+8 NON RÉSOLU]
 - **Divergence Yahoo/FMP Market Cap** — ×11,7 d'écart entre sources ($280,2M vs ~$3,27B)
 - **Sector Rotation XLC Bottom 3** — malus sectoriel actif (snapshot 2026-05-27 : momentum score 0.0 / 10)
-- **Options Spot/Max Pain Divergence** — spot $9.52 vs max pain $10.00 (écart −4.8%) ; call OI dominant 62,3%
-- **Anomalie Options JSON TRAITÉE** — snapshot 2026-05-27 10:00 UTC retourne max_pain $7.50, put/call 0.00, call OI 100.0% (artefact JSON) ; valeurs confirmées $10.00 / 0.60 / 62.3% maintenues
+- **Options Spot/Max Pain Divergence** — spot $9.52 vs max pain $10.00 (écart −4.8%) ; call OI dominant 66,3%
+- **Anomalie Options JSON RÉSOLUE** — snapshot 2026-05-27 13:00 UTC retourne max_pain $10.00, put/call 0.51, call OI 66.3% (cohérent) ; anomalie 10:00 UTC ($7.50 / 0.00 / 100.0%) corrigée
 - **Liquidité réduite** — volume 0.70× moyenne 20j (1,004M vs 1,44M) — risque de slippage majeur
 - **Qualité dégradée** — Score Qualité 1/6, patrimoine net négatif, FCF négatif
-- **Short Squeeze Setup (latent)** — short interest 22,84% + call OI dominant 62,3% = risque de squeeze technique si catalyseur positif
+- **Short Squeeze Setup (latent)** — short interest 22,84% + call OI dominant 66,3% = risque de squeeze technique si catalyseur positif

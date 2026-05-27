@@ -1,32 +1,32 @@
 # AST — Mise à jour Quotidienne
 
 > **Date :** 2026-05-27
-> **Type :** Update matin (snapshot 10:00 UTC)
-> **Source :** data/latest.json (10:00 UTC), data/recommandations_latest.json, data/quant_report_latest.json, data/geo_risk_latest.json, data/sector_rotation_latest.json, data/social_sentiment_latest.json, data/fx_exposure_latest.json, data/upcoming_events_latest.json, data/events_latest.json
+> **Type :** Update après-midi (snapshot 13:00 UTC)
+> **Source :** data/latest.json (13:00 UTC), data/recommandations_latest.json, data/quant_report_latest.json, data/geo_risk_latest.json, data/sector_rotation_latest.json, data/social_sentiment_latest.json, data/fx_exposure_latest.json, data/upcoming_events_latest.json, data/events_latest.json
 
 ---
 
 ## 1. Résumé des changements depuis l'analyse précédente
 
-**Analyse précédente :** `AST_2026-05-26_update.md` (snapshot 21:00 UTC)
+**Analyse précédente :** `AST_2026-05-27_update.md` (snapshot 10:00 UTC)
 
-| Élément | Snapshot 21:00 UTC (26/05) | Snapshot 10:00 UTC (27/05) | Changement |
+| Élément | Snapshot 10:00 UTC (27/05) | Snapshot 13:00 UTC (27/05) | Changement |
 |---------|---------------------------|---------------------------|------------|
 | Erreur Yahoo AST | `No price history` | `No price history` | **Confirmé stable** |
 | Cours AST | [DONNÉES MANQUANTES] | [DONNÉES MANQUANTES] | Aucun changement |
-| ASTS (proxy) | Cours **$119.70** (+13.07%) | Cours **$119.70** (+13.07%) | **Stable vs close 26/05** |
-| Volume ASTS | 47.17M (2.07× moy. 20j) | **48.08M** (2.10× moy. 20j) | **+1.9%** (stable) |
+| ASTS (proxy) | Cours **$119.70** (+13.07%) | Cours **$119.70** (+13.07%) | **Stable** |
+| Volume ASTS | 48.08M (2.10× moy. 20j) | **48.08M** (2.10× moy. 20j) | Stable |
 | RSI ASTS | 82.58 | **82.58** | Stable |
 | ATR ASTS | 10.14 | **10.14** | Stable |
 | MM 50j ASTS | 84.87 | **84.87** | Stable |
 | 52W high ASTS | 129.89 | 129.89 | Close $119.70 = 92.2% du 52W high |
-| Options ASTS | max pain 120.0 | max pain **40.0** | **Anomalie JSON détectée (voir §4)** |
+| Options ASTS | max pain 40.0 (anomalie JSON) | **max pain 120.0, P/C 0.76, call OI 57.0%** | **Anomalie JSON résolue** |
 | Score AST (agent) | 55.2/100 (ATTENDRE) | 55.2/100 (ATTENDRE) | Stable |
 | Score ASTS (agent) | 36.0/100 (SURVEILLER) | 36.0/100 (SURVEILLER) | Stable |
-| Earnings FMP AST | 2026-05-26 (days_until: 0) | 2026-05-27 (days_until: 0) | **Placeholder glissant J=0 non résolu** |
+| Earnings FMP AST | 2026-05-27 (days_until: 0) | 2026-05-27 (days_until: 0) | **Placeholder glissant J=0 non résolu** |
 | Earnings ASTS (yfinance) | 2026-08-10 | 2026-08-10 | Stable |
 
-**Constat :** Le snapshot 10:00 UTC du 27/05 confirme la **stabilité totale** de l'absence de données de marché pour AST. C'est le **16e snapshot consécutif** (18/05 → 27/05) sans historique de prix. ASTS affiche des données techniques strictement inchangées par rapport au close du 26/05 ($119.70, RSI 82.58, ATR 10.14), le snapshot matinal reflétant la clôture de la veille (marché US fermé à 10:00 UTC). Le volume de 48.08M (2.10× moyenne 20j) confirme la forte participation institutionnelle/rétail sur un catalyseur non capturé par le pipeline sous le ticker AST.
+**Constat :** Le snapshot 13:00 UTC confirme la **stabilité totale** de l'absence de données de marché pour AST. C'est le **17e snapshot consécutif** (18/05 → 27/05) sans historique de prix. ASTS affiche des données techniques strictement inchangées par rapport au snapshot 10:00 UTC ($119.70, RSI 82.58, ATR 10.14). L'anomalie options JSON détectée ce matin (max pain 40.0 aberrant) est **résolue** : le snapshot 13:00 UTC retourne max pain **120.0**, put/call ratio **0.76**, call OI **57.0%** — valeurs cohérentes avec le close $119.70 et confirmant la structure haussière des options. Le volume de 48.08M (2.10× moyenne 20j) confirme la forte participation institutionnelle/rétail sur un catalyseur non capturé par le pipeline sous le ticker AST.
 
 ---
 
@@ -34,7 +34,7 @@
 
 ### AST (données officielles)
 
-| Indicateur | Valeur snapshot 10:00 UTC (27/05) | Valeur précédente (21:00 UTC 26/05) | Δ |
+| Indicateur | Valeur snapshot 13:00 UTC (27/05) | Valeur précédente (10:00 UTC 27/05) | Δ |
 |-----------|--------------------------------|-----------------------------------|---|
 | Cours close | [DONNÉES MANQUANTES] | [DONNÉES MANQUANTES] | — |
 | Volume | [DONNÉES MANQUANTES] | [DONNÉES MANQUANTES] | — |
@@ -47,11 +47,11 @@
 
 ### ASTS (proxy, à titre de comparaison)
 
-| Indicateur | Valeur snapshot 10:00 UTC (27/05) | Valeur précédente (21:00 UTC 26/05) | Δ |
+| Indicateur | Valeur snapshot 13:00 UTC (27/05) | Valeur précédente (10:00 UTC 27/05) | Δ |
 |-----------|----------------------------------|-----------------------------------|---|
 | Cours close | **$119.70** | $119.70 | **Stable** |
-| Volume | **48.08M** | 47.17M | **+1.9%** |
-| Volume relatif | **2.10× moy. 20j** | 2.07× | Stable |
+| Volume | **48.08M** | 48.08M | Stable |
+| Volume relatif | **2.10× moy. 20j** | 2.10× | Stable |
 | RSI 14j | **82.58** | 82.58 | Stable |
 | ATR 14j | **10.14** | 10.14 | Stable |
 | MM 50j | **84.87** | 84.87 | Stable |
@@ -66,7 +66,7 @@
 
 ### AST (données officielles)
 
-| Métrique | Valeur snapshot 10:00 UTC (27/05) | Valeur précédente | Δ |
+| Métrique | Valeur snapshot 13:00 UTC (27/05) | Valeur précédente | Δ |
 |---------|----------------------------------|-------------------|---|
 | Market cap | [DONNÉES MANQUANTES] | [DONNÉES MANQUANTES] | — |
 | P/E LTM | — | — | — |
@@ -79,7 +79,7 @@
 
 ### ASTS (proxy)
 
-| Métrique | Valeur snapshot 10:00 UTC (27/05) |
+| Métrique | Valeur snapshot 13:00 UTC (27/05) |
 |---------|----------------------------------|
 | Market cap | $46.46B |
 | Forward P/E | −402.85 |
@@ -88,7 +88,7 @@
 | Beta | 2.598 |
 | Short interest | 18.14% |
 
-Pas de fondamentaux attractifs — valorisation purement spéculative sur la technologie satellite direct-to-device (D2D). Le consensus analystes ($92.25) reste **+29.8% sous le close** ($119.70), confirmant la surchauffe de la valorisation. Aucun changement fondamental depuis le 26/05.
+Pas de fondamentaux attractifs — valorisation purement spéculative sur la technologie satellite direct-to-device (D2D). Le consensus analystes ($92.25) reste **+29.8% sous le close** ($119.70), confirmant la surchauffe de la valorisation. Aucun changement fondamental depuis le snapshot 10:00 UTC.
 
 ---
 
@@ -96,7 +96,7 @@ Pas de fondamentaux attractifs — valorisation purement spéculative sur la tec
 
 - **News AST :** aucune entrée Yahoo Finance ni FMP dans `data/latest.json`
 - **News ASTS :** aucune entrée Yahoo Finance ni FMP dans `data/latest.json` — mais le volume ×2 persistant et le gap de +13.07% suggèrent fortement une news non capturée par le pipeline (probablement liée à l'earnings programmé sous le ticker erroné AST, ou à un contrat/annonce technique sur le D2D satellite)
-- **Options ASTS :** max pain **40.0** dans le JSON (vs 120.0 précédemment) — **anomalie JSON détectée et traitée** : valeur 40.0 aberrante vs close $119.70 → valeur confirmée **120.0 maintenue**. Put/call ratio et call OI inchangés (non disponibles dans ce snapshot)
+- **Options ASTS :** **anomalie JSON résolue** — max pain **120.0** (vs 40.0 aberrant ce matin), put/call ratio **0.76**, call OI **57.0%** (vs 56.2% précédemment). Configuration bullish confirmée : call wall à 120, max pain 120. Le close $119.70 est juste sous le max pain ($120), zone de friction technique inchangée. La résolution de l'anomalie confirme la fiabilité du parsing options pour ce snapshot.
 - **Social sentiment :** 0 mention Reddit pour AST, 0 pour ASTS
 - **Upgrades/downgrades AST :** pas de consensus analystes disponible (0 analystes)
 - **Upgrades/downgrades ASTS :** 10 analystes, price target moyen $92.25 — cours actuel $119.70 = **+29.8% au-dessus du consensus**, signal de surchauffe inchangé
@@ -113,7 +113,7 @@ Pas de fondamentaux attractifs — valorisation purement spéculative sur la tec
 
 ### AST (données officielles — placeholder)
 
-| Axe | Score 2026-05-27 (10:00 UTC) | Pondération | Note |
+| Axe | Score 2026-05-27 (13:00 UTC) | Pondération | Note |
 |-----|-----------------------------|-------------|------|
 | Catalyseur | 6.5/10 (placeholder) | 35% | [NON FONDÉ] — aucun catalyseur vérifiable |
 | Valorisation | 5.0/10 (placeholder) | 40% | [NON FONDÉ] — aucun multiple ni DCF possible |
@@ -130,7 +130,7 @@ Pas de fondamentaux attractifs — valorisation purement spéculative sur la tec
 
 ### ASTS (proxy, à titre indicatif uniquement)
 
-| Axe | Score 2026-05-27 (10:00 UTC) | Pondération | Note |
+| Axe | Score 2026-05-27 (13:00 UTC) | Pondération | Note |
 |-----|-----------------------------|-------------|------|
 | Catalyseur | 4.0/10 | 35% | Catalyseur potentiel (news non capturée) mais non vérifiable |
 | Valorisation | 3.0/10 | 40% | EV/Revenue 427×, forward P/E −402.85, consensus +29.8% sous cours |
@@ -172,14 +172,14 @@ Pas de fondamentaux attractifs — valorisation purement spéculative sur la tec
 
 ## 7. Conclusion — État de la thèse
 
-**Thèse :** 🔴 **INVALIDÉE PAR L'ABSENCE DE DONNÉES — CONFIRMÉE AU SNAPSHOT 10:00 UTC**
+**Thèse :** 🔴 **INVALIDÉE PAR L'ABSENCE DE DONNÉES — CONFIRMÉE AU SNAPSHOT 13:00 UTC**
 
-AST n'est pas évaluable en l'état. La situation est strictement inchangée depuis le snapshot 21:00 UTC du 26/05 :
+AST n'est pas évaluable en l'état. La situation est strictement inchangée depuis le snapshot 10:00 UTC du 27/05 :
 
 1. **Anomalie structurelle confirmée :** AST est probablement un doublon erroné d'ASTS (AST SpaceMobile — NASDAQ). ASTS affiche un cours de **$119.70** (volume 48.08M, RSI 82.58) avec un gap haussier massif post-Memorial Day confirmé stable. Le mouvement de +13.07% sur un volume ×2 suggère un catalyseur majeur que le système ne capte pas sous AST.
 2. **Earnings placeholder glissant non résolu :** FMP signale un earnings AST le 2026-05-27 (`days_until: 0`), mais sans historique de prix, le résultat ne peut être corrélé à un mouvement de marché. Le placeholder glisse depuis le 26/05 sans résolution.
 3. **Qualité des données :** AST fait partie des 3 tickers KO sur 26 requêtés (`tickers_ko: 3`), aux côtés d'AXA et QTBS. AST est absent du quality gate (alors qu'ASTS y figure comme `excluded` pour stale_price_history — ce qui prouve que le système reçoit au moins un historique pour ASTS, contrairement à AST).
-4. **Anomalie options JSON récurrente :** max_pain ASTS est passé à 40.0 dans ce snapshot (aberrant vs close $119.70), confirmant une instabilité du parsing options. La valeur confirmée 120.0 du 26/05 est maintenue.
+4. **Anomalie options JSON résolue :** le snapshot 13:00 UTC confirme max_pain **120.0**, put/call ratio **0.76**, call OI **57.0%** — valeurs cohérentes avec le close $119.70. L'anomalie 40.0 détectée ce matin était un artefact de parsing transitoire.
 
 **Recommandation opérationnelle :**
 - **Résoudre l'anomalie structurelle immédiatement :** supprimer AST de `config/watchlist.json` ou le marquer `excluded`
@@ -189,4 +189,4 @@ AST n'est pas évaluable en l'état. La situation est strictement inchangée dep
 
 ---
 
-*Rapport généré à partir des fichiers data/latest.json (snapshot 10:00 UTC), data/recommandations_latest.json, data/quant_report_latest.json, data/geo_risk_latest.json, data/sector_rotation_latest.json, data/social_sentiment_latest.json, data/fx_exposure_latest.json, data/upcoming_events_latest.json, data/events_latest.json — aucune donnée hallucinée.*
+*Rapport généré à partir des fichiers data/latest.json (snapshot 13:00 UTC), data/recommandations_latest.json, data/quant_report_latest.json, data/geo_risk_latest.json, data/sector_rotation_latest.json, data/social_sentiment_latest.json, data/fx_exposure_latest.json, data/upcoming_events_latest.json, data/events_latest.json — aucune donnée hallucinée.*
