@@ -5,7 +5,7 @@
 > **Secteur :** Non spécifié
 > **Exchange :** NASDAQ
 > **Priorité :** Medium
-> **Dernière mise à jour :** 2026-05-27 (snapshot 13:00 UTC)
+> **Dernière mise à jour :** 2026-05-27 (snapshot 17:00 UTC)
 
 ---
 
@@ -13,12 +13,12 @@
 
 **Statut :** DONNÉES MANQUANTES — analyse initiale requise / anomalie structurelle confirmée
 
-- Aucune donnée de cours disponible dans les snapshots (`No price history`) — confirmé stable sur **17 snapshots consécutifs** (18/05 → 27/05)
+- Aucune donnée de cours disponible dans les snapshots (`No price history`) — confirmé stable sur **18 snapshots consécutifs** (18/05 → 27/05)
 - Aucune analyse initiale (`_init.md`) n'a été produite
 - Earnings programmés le 2026-05-27 (source FMP) — placeholder glissant J=0 non résolu depuis le 26/05, résultats non disponibles dans les snapshots
 - Scoring agent : placeholder 55.2/100 — action ATTENDRE par défaut
 - AST absent du quality gate (alors qu'ASTS y figure)
-- **Anomalie structurelle confirmée :** doublon probable avec ASTS (AST SpaceMobile), ticker correct et liquide sur NASDAQ. ASTS a clôturé à **$119.70** (+13.07%, volume 48.08M, RSI 82.58) au snapshot 13:00 UTC, confirmant que le marché traite un catalyseur sous ASTS que le système ne capte pas sous AST.
+- **Anomalie structurelle confirmée :** doublon probable avec ASTS (AST SpaceMobile), ticker correct et liquide sur NASDAQ. ASTS a clôturé à **$129.335** (+8.05%, volume 19.72M, RSI 83.14) au snapshot 17:00 UTC, confirmant que le marché traite un catalyseur sous ASTS que le système ne capte pas sous AST. Le volume s'est effondré (−59% vs snapshot 13h), suggérant un rallye de l'après-midi sur faible participation (gamma squeeze / short squeeze). L'agent a downgradé ASTS de SURVEILLER (36.0) à **ÉVITER (29.8)** en raison de la surchauffe extrême (close à 99.6% du 52W high, consensus +40.2% sous cours).
 
 ---
 
@@ -26,6 +26,7 @@
 
 | Date | Fichier | Type | Résumé |
 |------|---------|------|--------|
+| 2026-05-27 | `AST_2026-05-27_update.md` | Update finale (17:00 UTC) | 18e snapshot consécutif sans mutation pour AST — stabilité totale confirmée vs 13:00 UTC, ASTS bondit à **$129.335** (+8.05%) sur volume **19.72M** (0.85×, −59% vs 13h), RSI **83.14** surchauffe extrême aggravée, high intraday **$129.38** à 0.4% du 52W high, **agent downgrade ASTS ÉVITER (29.8/100)** vs SURVEILLER précédemment, earnings FMP placeholder glissant J=0 non résolu, anomalie structurelle confirmée avec risque gamma squeeze |
 | 2026-05-27 | `AST_2026-05-27_update.md` | Update après-midi (13:00 UTC) | 17e snapshot consécutif sans mutation pour AST — stabilité totale confirmée vs 10:00 UTC, ASTS stable à $119.70 (+13.07%) sur volume 48.08M (2.10×), RSI 82.58 inchangé, **anomalie options JSON résolue** (max pain 120.0, P/C 0.76, call OI 57.0% cohérents), earnings FMP placeholder glissant J=0 non résolu, anomalie structurelle confirmée |
 | 2026-05-26 | `AST_2026-05-26_update.md` | Update finale (21:00 UTC) | 15e snapshot consécutif sans mutation pour AST — stabilité totale confirmée vs 17:00 UTC, ASTS corrige à $119.70 (+13.07%) sur volume 47.17M (2.07×), RSI 82.58 surchauffe persistante, close sous max pain 120, earnings FMP ajusté au 26/05, anomalie structurelle confirmée et renforcée |
 | 2026-05-26 | `AST_2026-05-26_update.md` | Update après-midi (17:00 UTC) | 14e snapshot consécutif sans mutation pour AST — stabilité totale confirmée vs 13:00 UTC, ASTS $125.96 (+18.99%) en gap haussier massif, RSI 83.77 surchauffe extrême, earnings FMP ajusté au 26/05, anomalie structurelle confirmée et renforcée |
