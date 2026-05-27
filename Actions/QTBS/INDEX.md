@@ -10,10 +10,10 @@
 - **Score global :** 55.2/100
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** 🔴 Bloqué data — pas de données de prix disponibles (confirmé snapshot 13:00 UTC, 16e snapshot consécutif sans mutation)
+- **Statut thèse :** 🔴 Bloqué data — pas de données de prix disponibles (confirmé snapshot 17:00 UTC, 17e snapshot consécutif sans mutation)
 - **Horizon :** Jusqu'à reprise du data feed
 
-**Synthèse (1 phrase) :** QTBS est en data blackout complet (No price history) depuis au moins le 20 mai 2026 ; le placeholder earnings J0 glissant reste non analysable sans cours, volumes ni consensus — statut ATTENDRE maintenu après vérification snapshot 13:00 UTC (16e snapshot consécutif sans mutation).
+**Synthèse (1 phrase) :** QTBS est en data blackout complet (No price history) depuis au moins le 20 mai 2026 ; le placeholder earnings J0 glissant reste non analysable sans cours, volumes ni consensus — statut ATTENDRE maintenu après vérification snapshot 17:00 UTC (17e snapshot consécutif sans mutation).
 
 ---
 
@@ -29,7 +29,7 @@
 | 2026-05-25 | `QTBS_2026-05-25_preview.md` | Preview earnings | Template vide — earnings J0 |
 | 2026-05-25 | `QTBS_2026-05-25_update.md` | Mise à jour quotidienne | Data blackout confirmé snapshot 21:00 UTC — ATTENDRE |
 | 2026-05-26 | `QTBS_2026-05-26_update.md` | Mise à jour quotidienne | Data blackout confirmé snapshot 21:00 UTC post-Memorial Day — ATTENDRE (14e snapshot sans mutation) |
-| 2026-05-27 | `QTBS_2026-05-27_update.md` | Mise à jour quotidienne | **Data blackout confirmé snapshot 13:00 UTC — ATTENDRE (16e snapshot consécutif sans mutation), placeholder earnings J0 détecté** |
+| 2026-05-27 | `QTBS_2026-05-27_update.md` | Mise à jour quotidienne | **Data blackout confirmé snapshot 17:00 UTC — ATTENDRE (17e snapshot consécutif sans mutation), placeholder earnings J0 détecté** |
 
 ---
 
@@ -47,4 +47,4 @@
 
 ---
 
-*Dernière mise à jour : 2026-05-27 (snapshot 13:00 UTC)*
+*Dernière mise à jour : 2026-05-27 (snapshot 17:00 UTC)*
