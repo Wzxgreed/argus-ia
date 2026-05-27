@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
-- **Horizon :** —
+- **Recommandation :** ACHETER (Sizing Réduit)
+- **Score global :** 63.3/100
+- **Prix cible :** $65.86 (consensus FMP)
+- **Stop-loss :** $48.42
+- **Statut thèse :** confirmée
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -52,9 +52,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-05-27
-- **Type :** full refresh
-- **Fichier :** `IREN_2026-05-27_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-05-27
+- **Type :** update
+- **Fichier :** `IREN_2026-05-27_update.md`
+- **Conclusion :** Thèse confirmée — cours stable $59.78, structure options corrigée (put/call 1.88 vs 3.16, call OI 34.7% vs 24.0%), défiance record atténuée, EV/EBITDA révisé 157.06×, earnings J=0 toujours attendu. Scores inchangés 5.8/10 et 63.3/100.
 
 ---
 

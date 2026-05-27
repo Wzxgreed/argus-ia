@@ -1,172 +1,192 @@
-# IREN — Mise à jour 2026-05-27
+# IREN — Mise à Jour Quotidienne (2026-05-27, snapshot 13:00 UTC)
 
-> **Date :** 2026-05-27 (snapshot 10:00 UTC)
-> **Type :** Mise à jour quotidienne pre-open
-> **Analyse précédente :** [IREN_2026-05-26_update.md](IREN_2026-05-26_update.md) (snapshot 21:00 UTC)
-
----
-
-## 1. Résumé Exécutif
-
-**Aucune mutation détectée.** Le snapshot 10:00 UTC du 2026-05-27 reproduit strictement les données du close officiel du 2026-05-26 (cours $59.78, RSI 54.85, ATR $5.68, volume 41.6M). Le marché US n'a pas encore ouvert à l'heure du fetch (pre-open 9:30 AM ET / 13:30 UTC).
-
-**Earnings Q1 2026 — J=0 aujourd'hui** (2026-05-27). Résultats attendus en séance. Aucun flux post-earnings intégré au snapshot.
-
-**Verdict :** Thèse confirmée — ACHETER (Sizing Réduit) — en attente des résultats earnings pour révision éventuelle.
+> **Type :** `_update.md` — Mise à jour post-session (snapshot 13:00 UTC)
+> **Référence précédente :** [IREN_2026-05-26_update.md](IREN_2026-05-26_update.md) (snapshot 21:00 UTC)
+> **Données source :** `data/latest.json` (timestamp 2026-05-27T13:00:07+00:00), `data/recommandations_latest.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`, `data/upcoming_events_latest.json`, `data/events_latest.json`, `data/news_latest.json`
 
 ---
 
-## 2. Tableau Comparatif — Précédent vs Actuel
+## Résumé des Changements
 
-| Métrique | 2026-05-26 (21:00 UTC) | 2026-05-27 (10:00 UTC) | Changement |
-|----------|------------------------|------------------------|------------|
-| Cours close | $59.78 | $59.78 | **=** |
-| Change % | +5.19% | +5.19% | **=** |
-| Volume | 41,647,200 | 41,647,200 | **=** |
-| Volume vs 20j | 78.2% | 78.2% | **=** |
-| RSI 14j | 54.85 | 54.85 | **=** |
-| ATR 14j | $5.68 | $5.68 | **=** |
-| MM 50j | $46.46 | $46.46 | **=** |
-| P/E TTM | 77.64× | 77.64× | **=** |
-| Forward P/E | −44.45× | −44.45× | **=** |
-| EV/EBITDA | 157.06× | 157.06× | **=** |
-| Beta | 4.18 | 4.18 | **=** |
-| Short Interest | 16.87% | 16.87% | **=** |
-| FMP Consensus PT | $65.86 (21 analysts) | $65.86 (21 analysts) | **=** |
-| Score Opportunité | 5.8/10 | 5.8/10 | **=** |
-| Score Global | 63.3/100 | 63.3/100 | **=** |
+| Métrique | 2026-05-26 (21:00 UTC) | 2026-05-27 (13:00 UTC) | Δ |
+|----------|------------------------|------------------------|---|
+| **Cours close** | $59.78 | **$59.78** | **=** |
+| **Previous close** | $56.83 | **$56.83** | **=** |
+| **Open** | $59.68 | **$59.68** | **=** |
+| **High** | $61.47 | **$61.49** | **+$0.02** |
+| **Low** | $58.61 | **$58.61** | **=** |
+| **Volume** | 40.53 M | **41.65 M** | **+2.8%** |
+| **Volume vs 20j** | 76.2% | **78.2%** | **+2.0 pts** |
+| **RSI 14j** | 54.85 | **54.85** | **=** |
+| **ATR 14j** | $5.68 | **$5.68** | **=** |
+| **MM 50j** | $46.46 | **$46.46** | **=** |
+| **P/E TTM (Yahoo)** | 77.64× | **77.64×** | **=** |
+| **Forward P/E (Yahoo)** | −44.45× | **−44.45×** | **=** |
+| **P/B (Yahoo)** | 7.90× | **7.90×** | **=** |
+| **EV/EBITDA (Yahoo)** | 149.90× | **157.06×** | **+4.8%** |
+| **Max Pain** | $45.00 | **$45.00** | **=** |
+| **Put/Call ratio** | 3.16 | **1.88** | **−1.28 pt** |
+| **Call OI %** | 24.0% | **34.7%** | **+10.7 pts** |
+| **Score Opportunité** | 5.8/10 | **5.8/10** | **=** |
+| **Score Global ajusté** | 63.3/100 | **63.3/100** | **=** |
 
----
+**Mutation significative :** Aucune mutation de cours ni de scores entre le close du 26/05 et le snapshot 13:00 UTC du 27/05. Le cours reste à **$59.78** (+5.19% vs previous close du 25/05). Cependant, **deux ajustements notables** apparaissent :
 
-## 3. Bloc Technique
+1. **Données options corrigées** : le put/call ratio est révisé à **1.88** (vs 3.16 au snapshot 21:00 UTC) et le call OI remonte à **34.7%** (vs 24.0%). Cette révision indique une **défiance options nettement moins extrême** que ce qui était lu hier soir. L'expiration hebdomadaire du 2026-05-29 reste imminente.
+2. **EV/EBITDA Yahoo révisé à 157.06×** (vs 149.90×) — écart de +4.8%, possible ajustement post-close. Le multiple reste extrême.
 
-| Indicateur | Valeur | Interprétation |
-|------------|--------|----------------|
-| Cours | $59.78 | Consolidation au sommet du rally (+25.2% en 7 sessions) |
-| High intraday | $61.49 | Test de la zone $61–$62, repli depuis $61.47 close précédent |
-| Low intraday | $58.61 | Support intraday $58.60 défendu |
-| RSI 14j | 54.85 | Zone neutre — ni surachat ni survente |
-| ATR 14j | $5.68 | Volatilité élevée persistante (ATR relatif 9.50%) |
-| MM 50j | $46.46 | Cours +28.7% au-dessus — tendance haussière moyen terme intacte |
-| MM 200j | — | Non disponible |
-| Golden Cross | None | Non disponible |
-
-**Niveaux clés :**
-- Résistance immédiate : $61.50 / $62.00
-- Support immédiat : $58.60 / $56.83 (previous close du 25/05)
-- Support majeur : $50.46 (breakout level du rally)
-- Support critique : $46.46 (MM50)
-
-**Verdict timing :** Favorable — structure haussière intacte mais volatilité extrême. Attendre le catalyst earnings avant nouvelle entrée.
+**Earnings Q1 2026 (J=0) :** toujours attendu — aucun flux post-earnings intégré au snapshot 13:00 UTC.
 
 ---
 
-## 4. Bloc Fondamental
+## Mise à Jour Technique
 
-| Métrique | Valeur | Commentaire |
-|----------|--------|-------------|
-| Market Cap | $21.36B | — |
-| P/E TTM | 77.64× | Valuation stretched, inchangée |
-| Forward P/E | −44.45× | Négatif — anticipation de pertes NTM |
-| EV/EBITDA | 157.06× | Premium extrême vs secteur |
-| P/B | 7.90× | — |
-| Gross Margin (FMP FY2025) | 68.3% | Solide |
-| Operating Margin (FMP) | 4.4% | Faible — coûts opérationnels élevés |
-| EBITDA Margin (FMP) | 57.0% | Très élevé (non-cash items) |
-| Net Margin (FMP) | 17.4% | Correct |
-| Debt/Equity (FMP) | 0.53× | Levier modéré |
-| Current Ratio (FMP) | 4.29× | Très solide |
-| ROE (FMP) | 4.8% | Faible |
-| ROIC (FMP) | 0.7% | Très faible — capital mal rémunéré |
-| FMP Consensus PT | $65.86 (21 analysts) | Upside 10.2% vs cours actuel |
+| Indicateur | Valeur | Commentaire |
+|------------|--------|-------------|
+| **RSI 14j** | 54.85 | Zone neutre inchangée — pas de surachat malgré le rally |
+| **ATR 14j** | $5.68 | Volatilité élevée persistante (beta 4.179, ATR relatif 9.50%) |
+| **MM 50j** | $46.46 | Cours **+28.7% au-dessus** — tendance haussière intacte |
+| **MM 200j** | N/A | Non disponible |
+| **Volume 20j moy.** | 53.24 M | Volume du jour 41.65 M = **78.2%** du moyen |
+| **Range intraday** | $58.61 – $61.49 | Expansion haussière du range, high à +2.9% du close |
+| **52-week high/low** | $76.87 / $8.28 | Cours à **77.8%** du 52W high |
 
-**Filtre Qualité (6 critères) :** 4/6 — inchangé
-- Revenue CAGR 5 ans : ⚠️ Partiel (croissance liée au pivot IA)
-- Profit CAGR 5 ans : 🔴 Non (pertes historiques, Forward P/E négatif)
-- Assets/Liabilities > 1.0 : ✅ Oui (current ratio 4.29)
-- FCF positif 5 ans : 🔴 Non (price_to_fcf négatif −2.77)
-- Moat structurel : ✅ Oui (contrat $3.4B NVIDIA, infrastructure critique)
-- TAM ×5 / 10 ans : ✅ Oui (IA infrastructure / HPC)
+**Niveaux clés (inchangés) :**
+- Support immédiat : **$58.61** (low du jour)
+- Support intermédiaire : **$56.83** (previous close du 25/05)
+- Support structurel : **$50.46** (breakout level du rally) / **$46.46** (MM50)
+- Résistance immédiate : **$61.49** (high du jour)
+- Résistance majeure : **$65.86** (consensus PT FMP, 21 analysts)
+- Stop-loss (2×ATR) : **$48.42** (−19.0%)
+- Take-profit (3×ATR) : **$76.82** (+28.5%)
+- Ratio R/R : **1.5 : 1**
+
+**Verdict timing : Favorable** — La tendance haussière reste intacte. Le cours évolue largement au-dessus de la MM50. La vigilance porte sur le maintien au-dessus de $56.83 et sur le test de $61.49 en clôture.
 
 ---
 
-## 5. Bloc Sentiment & Options
+## Mise à Jour Fondamentale
 
-| Signal | Valeur | Source | Commentaire |
-|--------|--------|--------|-------------|
-| Consensus analystes | $65.86 (21 analysts) | FMP Stable API | Inchangé |
-| Put/Call ratio | — | Yahoo Finance | **Indisponible** dans le snapshot |
-| Call OI % | — | Yahoo Finance | **Indisponible** |
-| Max Pain | $20.00 | Yahoo Finance | **⚠️ Anomalie persistante** — la correction du 26/05 l'avait ramené à $45.00 (expiration 2026-05-29) |
+**Aucun nouveau flux post-earnings Q1 2026** n'est intégré dans les sources Yahoo/FMP au snapshot 13:00 UTC. Les métriques FMP restent au FY 2025 (clos 2025-06-30).
 
-**Note options :** Les données options (put/call, call OI) sont absentes du snapshot 10:00 UTC. La dernière lecture fiable (26/05 21:00 UTC) indiquait un put/call ratio 3.16 et call OI 24.0% — défiance record avant earnings. Le Max Pain corrigé était $45.00 (tail risk −24.7%).
+| Métrique | Yahoo Finance | FMP Stable API | Écart | Source préférée |
+|----------|---------------|----------------|-------|-----------------|
+| **Market Cap** | $21.36 B | $3.13 B | **−85%** | Yahoo |
+| **EV/EBITDA** | 157.06× | 12.34× | **−92%** | Yahoo |
+| **P/B** | 7.90× | 1.72× | **−78%** | Yahoo |
+| **P/E TTM** | 77.64× | 35.96× | **−54%** | Yahoo |
+| **EV/Sales** | 30.53× | 7.04× | **−77%** | Yahoo |
 
-**Social Sentiment :** Aucune mention détectée sur Reddit (0 posts, 0 mentions). Pas de pump/dump signal.
+**Filtre Qualité : 4/6 — ⚠️ Quality Partielle** (inchangé)
+- ❌ Forward P/E négatif (−44.45)
+- ❌ FCF négatif (price_to_fcf = −2.77 FMP, FCF yield −36.0%)
+- ✅ Assets/Liabilities > 1.0 (current ratio 4.29, quick ratio 4.29)
+- ✅ Gross Margin 68.3%, EBITDA Margin 57.0%
+- ⚠️ Moat : contrat NVIDIA $3.4B = catalyseur, pas encore moat structurel prouvé
+- ⚠️ TAM / croissance industrie : pivot IA HPC en cours, TAM non quantifié dans les données FMP
+
+**Valorisation dégradée — reste stretched :**
+- P/E TTM Yahoo **77.64×** — expansion significative post-rally
+- EV/EBITDA Yahoo **157.06×** (+4.8% vs snapshot 21:00 UTC) — multiple extrême révisé à la hausse
+- Forward P/E **−44.45×** — attente de profits s'éloigne encore
+- P/B Yahoo **7.90×** — book value ne justifie pas le multiple
+
+> **[DONNÉES PARTIELLES]** — `data/validation_report.txt` confirme le warning IREN : Quality Partielle 4/6, Forward PE négatif, FCF négatif.
 
 ---
 
-## 6. Scoring Global
+## Mise à Jour Sentiment / Options / News
 
-| Axe | Score | Pondération | Contribution |
+| Signal | Valeur | Évolution |
+|--------|--------|-----------|
+| **Consensus PT (FMP)** | $65.86 (21 analysts) | Inchangé — upside +10.2% |
+| **Max Pain** | $45.00 (exp 2026-05-29) | Inchangé — tail risk −24.7% |
+| **Put/Call ratio** | 1.88 | **Révisé à la baisse** — défiance nettement moins extrême |
+| **Call OI %** | 34.7% | **Révisé à la hausse** — calls majoritaires vs 24.0% hier |
+| **Short Interest** | 0.169% | Très faible |
+| **Social Sentiment** | 0 mention, Score 0/10 | Aucun buzz |
+| **Event-Driven** | Aucun événement | `data/events_latest.json` vide |
+| **News Yahoo** | Aucune | `data/news_latest.json` vide |
+| **Geo Risk** | Score 3/10, flag "low" | Inchangé |
+| **FX Exposure** | 15% revenus CAD, Score 0/10 | Neutre |
+
+**Agent Sector Rotation (2026-05-27) :**
+- XLK : momentum score **10.0/10** (top sector)
+- XLE : bullish crossover détecté
+- Signal global : **ROTATION_TO_CYCLICAL**
+- Alignement macro favorable pour IREN (exposition Tech/IA)
+
+**Commentaire :** La structure options affiche une **révision notable** par rapport au snapshot 21:00 UTC du 26/05. Le put/call ratio est révisé de 3.16 à **1.88** et le call OI de 24.0% à **34.7%**. Cette correction suggère que la "défiance record" constatée hier était en partie un artefact de données (probablement lié à l'expiration imminente du 2026-05-29 et au rollover des positions). La structure reste défensive (puts majoritaires à 65.3%), mais nettement moins extrême. Le consensus analystes ($65.86 PT) reste haussier.
+
+---
+
+## Scoring Global (Agent Recommandation — 2026-05-27, snapshot 13:00 UTC)
+
+| Axe | Score | Pondération | Poids ajusté |
 |-----|-------|-------------|--------------|
-| Catalyseur | 7.3/10 | 35% | 2.56 |
-| Valorisation | 3.5/10 | 40% | 1.40 |
-| Momentum | 7.5/10 | 25% | 1.88 |
-| **Score Opportunité** | **5.8/10** | — | **5.83** |
+| **Catalyseur** | 7.3/10 | 35% | 2.56 |
+| **Valorisation** | 3.5/10 | 40% | 1.40 |
+| **Momentum** | 7.5/10 | 25% | 1.88 |
+| **Score Opportunité** | **5.8/10** | | |
 
 **Malus/Bonus appliqués :**
-- Malus Valorisation (P/E > 70×) : −0.5 pt (déjà intégré)
-- Bonus Sector Rotation (XLK top, rotation cyclical growth) : +0.5 pt
-- Malus Options (défiance record, put/call 3.16) : −0.5 pt
-- Malus Geo (score 3/10, low) : 0 pt
-- Malus FX (exposition 15%, impact neutre) : 0 pt
+- Geo Risk Score 3/10 → malus faible (−5.0 pts)
+- FX Impact Score 0/10 → neutre
+- Accounting Risk : `data/accounting_risk_latest.json` inexistant — [DONNÉES MANQUANTES]
+- Event-Driven : aucun malus/bonus
+- Social Sentiment : 0 → pas de malus/bonus
+- Sector Rotation : XLK top momentum (10/10) — alignement favorable → **bonus +10.0 pts**
 
-**Score Global ajusté : 63.3/100** — inchangé
+| Score brut | Malus | Bonus | **Score Global ajusté** |
+|------------|-------|-------|------------------------|
+| 58.3/100 | −5.0 | +10.0 | **63.3/100** |
 
-| Score Global | Action | Sizing |
-|-------------|--------|--------|
-| 60–74 | **ACHETER** | **Réduit** |
+**Action recommandée : ACHETER — Sizing Réduit**
+- Prix d'entrée suggéré : $59.78
+- Stop-loss : $48.42 (−19.0%)
+- Take-profit : $76.82 (+28.5%)
+- Ratio R/R : 1.5 : 1
+- Horizon : 1–3 mois
+- Timing : Favorable
 
----
-
-## 7. Niveaux de Sortie
-
-| Niveau | Calcul | Valeur |
-|--------|--------|--------|
-| Stop-loss (2× ATR) | $59.78 − $11.36 | **$48.42** |
-| Take-profit (3× ATR) | $59.78 + $17.04 | **$76.82** |
-| Ratio R/R | $17.04 / $11.36 | **1.5×** |
-| Prix cible consensus | FMP 21 analysts | **$65.86** (+10.2% upside) |
-
-**Règles de sortie dynamiques :**
-- Si cours casse $56.83 sans rebond → passer en **ATTENDRE**
-- Si cours casse $50.46 (breakout level) sans rebond → passer en **ATTENDRE**
-- Si cours casse $46.46 (MM50) → passer en **ÉVITER**
-- Si earnings Q1 2026 déçoivent (guidance cut > 5% ou EPS miss > 10%) → réviser immédiatement
+> **⚠️ Avertissements :**
+> 1. La recommandation reste basée sur des données **pre-earnings**. L'annonce du Q1 2026 est attendue aujourd'hui (J=0, 2026-05-27) — aucun flux post-earnings intégré au snapshot 13:00 UTC.
+> 2. Sizing réduit impératif (beta 4.179, ATR relatif 9.50%).
+> 3. **Défiance options atténuée** : put/call 1.88, call OI 34.7% — le marché reste défensif mais moins extrême qu'hier. Max Pain $45.00 = ancrage de risque de queue −24.7%.
+> 4. Si cours casse $56.83 sans rebond → **passer en ATTENDRE**.
+> 5. Si cours casse $50.46 sans rebond → **passer en ATTENDRE**.
+> 6. Si cours casse $46.46 (MM50) → **passer en ÉVITER**.
 
 ---
 
-## 8. Contexte Macro & Sectoriel
+## Conclusion
 
-- **Régime macro :** Inconnu dans les données (VIX, 10Y, DXY non renseignés dans latest.json)
-- **Sector rotation :** Signal **ROTATION_TO_CYCLICAL** — XLK (#1, momentum 10.0), XLE (bullish crossover). Favorable pour IREN (exposition IA infrastructure / cyclical growth).
-- **BTC :** Non renseigné dans ce snapshot. Corrélation historique forte — driver dominant court terme.
+**Thèse : CONFIRMÉE — Le rally haussier se maintient à $59.78 (+5.19% vs previous close du 25/05, +25.2% depuis le 20/05) avec une correction notable de la structure options (put/call 1.88 vs 3.16 hier). La valorisation reste stretched (P/E 77.6×, EV/EBITDA 157.1×). Le Score Global ajusté reste à 63.3/100 (bas de la zone ACHETER). Earnings Q1 2026 (J=0) toujours attendu, résultats non publiés au snapshot 13:00 UTC.**
+
+Le snapshot 13:00 UTC du 2026-05-27 confirme la stabilité des données de cours ($59.78, RSI 54.85, ATR $5.68, MM50 $46.46) avec deux ajustements importants :
+1. **Structure options révisée** : put/call 1.88 (vs 3.16) et call OI 34.7% (vs 24.0%) — la "défiance record" d'hier était en partie un artefact de données lié à l'expiration du 2026-05-29
+2. **EV/EBITDA Yahoo révisé à 157.06×** (vs 149.90×) — valuation encore plus stretched
+
+**Points clés :**
+1. **Cours stable à $59.78** — consolidation au sommet du rally
+2. **High $61.49** — test de la zone $61–$62, à +2.9% du close
+3. **Volume légèrement en hausse** (41.65M, 78.2% du moyen) mais toujours sous la moyenne 20j
+4. **P/E TTM 77.64×** — valuation stretched inchangée
+5. **Scores inchangés** — Opportunité 5.8/10, Global 63.3/100
+6. **Momentum inchangé** — 7.5/10, MM50 $46.46
+7. **Défiance options atténuée** — put/call 1.88, call OI 34.7%, puts à 65.3%
+8. **Earnings J=0** — résultats attendus aujourd'hui (2026-05-27), non publiés au snapshot 13:00 UTC
+9. **Filtre Qualité 4/6** — Quality Partielle inchangée
+10. **Sector XLK top momentum** (10/10) — alignement favorable
+
+**Recommandation :** Maintenir **ACHETER à sizing réduit** avec SL $48.42 / TP $76.82.
+- **Ne pas renforcer** avant publication des résultats Q1 2026
+- Si earnings beat + guidance HPC forte + FCF positif → possibilité de renforcement
+- Si miss ou guidance cut → attendre retour vers $56.83 puis $50.46
+- Si cours casse $56.83 sans rebond → **passer en ATTENDRE**
+- Si cours casse $50.46 sans rebond → **passer en ATTENDRE**
+- Si cours casse $46.46 (MM50) → **passer en ÉVITER**
 
 ---
 
-## 9. Conclusion
-
-**Thèse : CONFIRMÉE — ACHETER (Sizing Réduit)**
-
-Le snapshot pre-open du 2026-05-27 n'apporte aucune mutation par rapport au close du 26/05. La structure technique reste haussière (cours +28.7% au-dessus MM50, RSI neutre 54.85), le catalyseur NVIDIA $3.4B est intact, et le scoring global 63.3/100 maintient la recommandation ACHETER avec sizing réduit.
-
-**⚠️ Réserve earnings J=0 :** Les résultats Q1 2026 sont attendus en séance aujourd'hui. C'est le catalyseur déterminant. La défiance options record (put/call 3.16, puts à 76.0% au dernier snapshot fiable) suggère que le marché anticipe une volatilité post-earnings significative. **Ne pas renforcer avant la publication.** Attendre le transcript et la guidance pour réviser le Filtre Qualité, le DCF et le prix cible.
-
-**Scénarios post-earnings (à valider dès publication) :**
-- **Optimiste (30%) :** EPS beat + guidance raise → test $65–$70
-- **Central (50%) :** EPS in-line + guidance stable → consolidation $55–$62
-- **Pessimiste (20%) :** EPS miss + guidance cut → retour $48–$50
-
----
-
-*Généré par Argus-IA — snapshot 10:00 UTC 2026-05-27*
+*Rapport généré le 2026-05-27 — Données sources : data/latest.json (13:00 UTC), data/recommandations_latest.json, data/quant_report_latest.json, data/geo_risk_latest.json, data/sector_rotation_latest.json, data/social_sentiment_latest.json, data/fx_exposure_latest.json, data/upcoming_events_latest.json, data/events_latest.json, data/news_latest.json*

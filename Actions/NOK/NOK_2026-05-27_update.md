@@ -1,34 +1,34 @@
-# NOK — Mise a Jour Quotidienne (2026-05-27, Snapshot 10:00 UTC)
+# NOK — Mise a Jour Quotidienne (2026-05-27, Snapshot 13:00 UTC)
 
 > Desk : Argus-IA | Ticker : NOK (NYSE ADR) | Secteur : Technology / Communication Equipment
-> Date analyse : 2026-05-27 | Donnees source : `data/latest.json` (snapshot 2026-05-27T10:00:08 UTC)
+> Date analyse : 2026-05-27 | Donnees source : `data/latest.json` (snapshot 2026-05-27T13:00:02 UTC)
 
 ---
 
-## 1. Resume des changements depuis l'analyse precedente (2026-05-26 21:00 UTC)
+## 1. Resume des changements depuis l'analyse precedente (2026-05-27 10:00 UTC)
 
-| Indicateur | Snapshot 21:00 UTC (26/05) | Snapshot 10:00 UTC (27/05) | Variation | Signal |
+| Indicateur | Snapshot 10:00 UTC | Snapshot 13:00 UTC | Variation | Signal |
 |-----------|-------------------|-------------------|-----------|--------|
-| Cours close | $16.46 | **$16.46** | **$0.00** | Aucune mutation — marche US ferme a 21:00 UTC |
-| Change % vs previous close | +6.40% | **+6.40%** | 0.00 pp | Inchangé |
+| Cours close | $16.46 | **$16.46** | **$0.00** | Aucune mutation — marche ferme |
+| Change % vs previous close | +6.40% | **+6.40%** | 0.00 pp | Inchange |
 | RSI 14j | 67.16 | **67.16** | 0.00 | Stable — proche surachat (>70) |
 | ATR 14j | $1.00 | **$1.00** | $0.00 | Inchange |
-| Volume relatif | 1.48x | **1.56x** | **+0.08x** | Volume révisé a la hausse post-cloture |
-| 52-week high | $16.625 | **$16.63** | +$0.005 | Arrondi — meme niveau |
+| Volume | 188,895,200 | **188,895,200** | 0 | Inchange — 1.56x moyenne 20j |
+| 52-week high | $16.63 | **$16.63** | — | Inchange |
 | P/E (TTM Yahoo) | 102.88 | **102.88** | 0.00 | Inchange |
 | Forward P/E | 33.75 | **33.75** | 0.00 | Inchange |
 | P/B | 3.74 | **3.74** | 0.00 | Inchange |
 | Premium vs consensus $9.26 | +77.8% | **+77.8%** | 0.0 pp | Divergence prix/valeur inchangee |
-| Consensus analystes (FMP) | $9.26 (6) | **$9.26 (6)** | Inchange | Stable — silence total malgre +15.6% en 2j |
-| Put/Call ratio | 0.51 | **null** | [ANOMALIE] | Données options degradees dans latest.json |
-| Max pain options | $15.00 | **$2.00** | [ANOMALIE] | Valeur incoherente — conserver $15.00 comme reference |
-| Call OI | 66.1% | **null** | [ANOMALIE] | Données options degradees |
+| Consensus analystes (FMP) | $9.26 (6) | **$9.26 (6)** | Inchange | Silence total malgre +15.6% en 2j |
+| **Max pain options** | $2.00 [ANOMALIE] | **$16.00** | **+$14.00** | **Donnees restaurees — max pain aligne sur le cours** |
+| **Put/Call ratio** | null [ANOMALIE] | **0.53** | — | **Restaure — dominance calls moderee** |
+| **Call OI** | null [ANOMALIE] | **65.3%** | — | **Restaure — bullish mais leger recul** |
 
 **Changements significatifs detectes :**
-- **Aucun changement de cours** : le snapshot 10:00 UTC du 27/05 repete integralement la cloture du 26/05 ($16.46), le marche US etant ferme entre 21:00 UTC et 10:00 UTC le lendemain. Pas de nouvelle seance de trading.
-- **Volume révise a la hausse** : 188.9M actions (1.56x moyenne 20j) vs 178.7M rapporte hier a 21:00 UTC, soit +5.7% de volume supplementaire comptabilise post-cloture. Ce volume massif est maintenant confirme comme le plus eleve depuis le debut du suivi.
-- **Anomalie donnees options** : `latest.json` du 27/05 affiche max pain $2.00 (vs $15.00 hier) et put/call ratio / call OI a `null`. Cette mutation est incoherente avec la structure options observee depuis le 25/05 et probablement liee a une degradation des donnees Yahoo pre-expiration (29 mai) ou a un manque de liquidite sur les strikes proches du cours. Les valeurs operationnelles retenues restent : max pain $15.00, put/call 0.51, call OI 66.1%.
-- **Aucun catalyseur fondamental** identifie dans `data/events_latest.json` (vide pour NOK) ni dans `data/upcoming_events_latest.json`.
+- **Restauration des donnees options** : le snapshot 13:00 UTC corrige l'anomalie du 10:00 UTC (max pain $2.00, put/call et call OI a `null`). Les valeurs sont desormais coherentes : max pain **$16.00**, put/call **0.53**, call OI **65.3%**. Cette mutation est l'evenement technique majeur du snapshot.
+- **Max pain revalorise de $15.00 a $16.00** : le niveau de pin gamma a migre vers le haut, confirmant la nouvelle base de cours. Le cours ($16.46) n'est plus que **+2.9%** au-dessus du max pain (vs +9.7% hier) — le risque de mean-reversion vers le pin est **fortement attenue**.
+- **Aucun changement de cours/volume/fondamentaux** : le marche US n'ayant pas ouvert de nouvelle seance entre 10:00 et 13:00 UTC, toutes les donnees de prix, volumes, RSI, ATR et fondamentaux sont strictement identiques au snapshot 10:00 UTC.
+- **Aucun catalyseur fondamental** identifie dans `data/events_latest.json` (vide pour NOK).
 
 ---
 
@@ -36,11 +36,11 @@
 
 | Metrique | Valeur | Source | Commentaire |
 |----------|--------|--------|-------------|
-| Cours close | $16.46 | Yahoo Finance | Inchangé vs snapshot 21:00 UTC du 26/05 |
-| Open | $15.99 | Yahoo Finance | Gap haussier d'ouverture du 26/05 confirmé |
-| High intraday | $16.63 | Yahoo Finance | **52-week high** — arrondi a $16.63 vs $16.625 hier |
+| Cours close | $16.46 | Yahoo Finance | Inchange vs snapshots precedents |
+| Open | $15.99 | Yahoo Finance | Gap haussier du 26/05 confirme |
+| High intraday | $16.63 | Yahoo Finance | 52-week high — inchange |
 | Low intraday | $15.66 | Yahoo Finance | Support intraday immediat |
-| Volume | 188,895,200 | Yahoo Finance | **1.56x moyenne 20j** (121,273,695) — volume révise +5.7% post-cloture |
+| Volume | 188,895,200 | Yahoo Finance | 1.56x moyenne 20j (121,273,695) — volume massif confirme |
 | RSI 14j | 67.16 | Calcul agent | Zone neutre haute, proche surachat (>70) |
 | ATR 14j | $1.00 | Calcul agent | 6.08% du cours — volatilite en expansion |
 | MM 50j | $10.96 | Calcul agent | Cours +50.4% au-dessus du support structurel |
@@ -49,22 +49,22 @@
 | Beta | 0.765 | Yahoo Finance | Faible sensibilite au marche — mouvement idiosyncratique |
 
 **Niveaux cles (revises) :**
-- **Support immediat :** $15.66 (low du 26/05) / $15.00 (max pain options operationnel)
+- **Support immediat :** $15.66 (low du 26/05) / $16.00 (max pain options, nouveau)
 - **Resistance :** $16.63 (52-week high)
 - **Stop-loss ATR (2x) :** $14.46 ($16.46 - $2.00)
 - **Take-profit ATR (3x) :** $19.46 ($16.46 + $3.00)
 - **Ratio R/R :** 1.5
 
 **Mise a jour options — impact technique :**
-| Niveau | Valeur 21:00 UTC (26/05) | Valeur 10:00 UTC (27/05) | Interpretation |
+| Niveau | Valeur 10:00 UTC (27/05) | Valeur 13:00 UTC (27/05) | Interpretation |
 |--------|-------------|-------------------|----------------|
-| Max pain | $15.00 | **$2.00** | [ANOMALIE] — conserver $15.00 comme reference operationnelle |
-| Put/Call ratio | 0.51 | **null** | Donnees degradees — conserver 0.51 comme reference |
-| Call OI % | 66.1% | **null** | Donnees degradees — conserver 66.1% comme reference |
-| Cours vs max pain | +9.7% | **+9.7%** | Inchangé — cours significativement au-dessus du pin |
-| Expiration | 2026-05-29 | **2026-05-29** | **2 jours** — risque de pin au max pain $15.00 |
+| Max pain | $2.00 [ANOMALIE] | **$16.00** | **Restaure et revalorise** — pin aligne sur le cours |
+| Put/Call ratio | null [ANOMALIE] | **0.53** | **Restaure** — dominance calls moderee, legerement superieure a 0.51 |
+| Call OI % | null [ANOMALIE] | **65.3%** | **Restaure** — bullish, legere baisse vs 66.1% du 26/05 |
+| Cours vs max pain | +9.7% (vs $15.00 op.) | **+2.9%** | **Risque mean-reversion fortement reduit** |
+| Expiration | 2026-05-29 | **2026-05-29** | **2 jours** — risque de pin desormais faible |
 
-**Verdict timing :** Favorable sur le momentum pur, mais **defavorable sur la durabilite**. Le volume de cloture massif (1.56x) est maintenant confirme avec un chiffre revise a la hausse. L'absence de mutation entre le snapshot 21:00 UTC et 10:00 UTC confirme que le marche US n'a pas ouvert, mais l'expiration options approche dans 2 jours. Le risque de mean-reversion vers le max pain $15.00 reste eleve.
+**Verdict timing :** Favorable sur le momentum pur. La restauration du max pain a **$16.00** est un element technique positif majeur : le marché options a valide la nouvelle base de cours a $16.00, eliminant le risque de reversion violent vers $15.00. Le cours n'est plus que +2.9% au-dessus du pin, ce qui est dans la marge normale d'une expiration. Cependant, le timing reste **defavorable sur la durabilite** car le double gap (+15.6% en 2j) reste sans catalyseur fondamental.
 
 **Score Momentum :** 7.0/10 — inchange dans `recommandations_latest.json`.
 
@@ -75,27 +75,11 @@
 | Metrique | Valeur | Source |
 |----------|--------|--------|
 | Market Cap (Yahoo) | $91.89 B | Yahoo Finance |
-| Market Cap (FMP FY2025) | $29.82 B | FMP Stable API |
 | P/E (TTM Yahoo) | 102.88 | Yahoo Finance |
 | Forward P/E (Yahoo) | 33.75 | Yahoo Finance |
 | EV/EBITDA (Yahoo) | 35.33 | Yahoo Finance |
-| EV/EBITDA (FMP) | 13.13 | FMP Stable API (FY2025) |
 | P/B (Yahoo) | 3.74 | Yahoo Finance |
-| P/B (FMP) | 1.42 | FMP Stable API |
 | Dividend yield (Yahoo) | 1.00% | Yahoo Finance |
-| Dividend yield (FMP) | 2.55% | FMP Stable API |
-
-**Donnees operationnelles FMP (FY 2025) :**
-| Ratio | Valeur |
-|-------|--------|
-| Gross margin | 43.5% |
-| Operating margin | 3.9% |
-| Net margin | 3.3% |
-| ROE | 3.1% |
-| ROIC | 1.9% |
-| Debt/Equity | 0.25 |
-| Current ratio | 1.58 |
-| Net debt/EBITDA | -0.11 (net cash) |
 
 **Filtre Qualite (6 criteres) :**
 | Critere | Evaluation | Justification |
@@ -108,9 +92,7 @@
 | Industrie forte croissance (TAM x5) | ❌ Non | TAM 5G mature, croissance a simple digit |
 | **Score Qualite total** | **2.5/6** | 🔴 Hors perimetre (inchange) |
 
-**Note fondamentale :** Aucune donnee fondamentale nouvelle entre le snapshot 21:00 UTC du 26/05 et le snapshot 10:00 UTC du 27/05. Le P/E, forward P/E, P/B et consensus sont strictement inchanges. La divergence prix/valeur a +77.8% vs consensus $9.26 persiste.
-
-**Divergence structurelle Yahoo/FMP persistante :** P/E Yahoo 102.9 vs FMP 45.8 ; P/B Yahoo 3.74 vs FMP 1.42. Cette divergence n'affecte pas le verdict consensus calibre sur l'ADR, mais elle signale que le multiple ADR est en surchauffe extreme.
+**Note fondamentale :** Aucune donnee fondamentale nouvelle entre le snapshot 10:00 UTC et 13:00 UTC du 27/05. Le P/E, forward P/E, P/B et consensus sont strictement inchanges. La divergence prix/valeur a +77.8% vs consensus $9.26 persiste.
 
 **Score Valorisation :** 3.5/10 — plafonne par regle Filtre Qualite <= 3/6 (max 5/10). Premium +77.8% vs consensus, P/E 102.9, forward P/E 33.8 sur stock mature.
 
@@ -122,16 +104,16 @@
 |--------|--------|--------|----------------|
 | Consensus analystes (FMP) | PT $9.26 (6 analysts) | FMP Stable API | Aucune revision detectee — silence total malgre le +15.6% en 2j |
 | Nombre analysts actifs (mois) | 1 | FMP Stable API | Faible couverture, aucun upgrade massif |
-| Put/Call ratio | 0.51 [conservé] | Yahoo Finance (latest.json degrade) | Dominance calls moderee |
-| Max pain | $15.00 [conservé] | Yahoo Finance (latest.json degrade : $2.00) | Pin operationnel a 2 jours |
-| Call OI % | 66.1% [conservé] | Yahoo Finance (latest.json degrade) | Dominance calls maintenue |
+| Put/Call ratio | 0.53 | Yahoo Finance (restaure) | Dominance calls moderee, legerement superieure a 0.51 |
+| Max pain | $16.00 | Yahoo Finance (restaure) | **Pin revalorise** — aligne sur le cours, risque mean-reversion attenue |
+| Call OI % | 65.3% | Yahoo Finance (restaure) | Bullish, legere baisse vs 66.1% du 26/05 |
 | Short Interest | 1.2% | Yahoo Finance | Faible — pas de squeeze setup |
 | Agent Social Sentiment | 0 mention, 0.0/10 | `social_sentiment_latest.json` | Aucun buzz retail |
 | Agent Event-Driven | Aucun evenement | `events_latest.json` vide pour NOK | Pas de M&A, buyback, guidance, activism |
 | Agent FX Exposure | Score 0.0/10, aligned | `fx_exposure_latest.json` | Exposition 25% export USD. Divergence alignee. Aucun impact. |
 | News du jour | 0 article | Yahoo Finance | Aucune news NOK identifiee dans le flux |
 
-**Verdict Sentiment :** Bullish technique sur les options (put/call 0.51, call OI 66.1%), mais neutre/bearish sur le consensus sell-side. Le silence absolu des analystes malgre un +15.6% en 2 jours reste un signal fort : le mouvement est purement technique/speculatif. L'anomalie donnees options dans `latest.json` (max pain $2.00, null sur put/call et call OI) est a traiter avec prudence — les valeurs operationnelles retenues sont celles du 26/05. Le max pain a $15.00 avec expiration dans 2 jours cree un aimant gamma puissant.
+**Verdict Sentiment :** La restauration des donnees options est le signal cle du snapshot. Le max pain a $16.00 (vs $15.00 hier) indique que le marché options a valide la nouvelle base de cours. Le cours n'est plus que +2.9% au-dessus du pin avec expiration dans 2 jours — le risque de mean-reversion vers $15.00 est elimine. Cependant, le consensus sell-side reste silencieux ($9.26, 6 analysts) et le mouvement reste sans explication fondamentale.
 
 **Score Catalyseur :** 4.0/10 — inchange dans `recommandations_latest.json`. Aucun catalyseur identifiable ; double gap non explique par news/event ; earnings eloignes (57 jours).
 
@@ -155,22 +137,22 @@
 > Regle de disqualification : aucun score individuel <= 2/10 → ticker non exclu.
 > Regle Filtre Qualite : score 2.5/6 <= 3/6 → Score Valorisation plafonne a 5/10 (applique).
 
-**Note de scoring :** Le Score Global ajuste (50.5) reste a la limite inferieure du seuil ATTENDRE. Aucune mutation de donnees entre le 26/05 21:00 UTC et le 27/05 10:00 UTC. Le double gap haussier et le volume massif n'ont pas suffi a faire passer le ticker en zone ACHETER car le malus Valorisation (P/E 103, premium +78%) et l'absence de catalyseur pesent lourd.
+**Note de scoring :** Le Score Global ajuste (50.5) reste a la limite inferieure du seuil ATTENDRE. La restauration des options et le max pain a $16.00 ameliorent le profil technique, mais le malus Valorisation (P/E 103, premium +78%) et l'absence de catalyseur fondamental empechent tout passage en zone ACHETER.
 
 ---
 
 ## 6. Revision des niveaux SL/TP
 
-| Niveau | Ancien (21:00 UTC 26/05) | Nouveau (10:00 UTC 27/05) | Justification |
+| Niveau | Ancien (10:00 UTC) | Nouveau (13:00 UTC) | Justification |
 |--------|---------------------|---------------------|---------------|
 | Stop-loss | $14.46 | **$14.46** | Inchange — ATR 2x stable |
 | Take-profit | $19.46 | **$19.46** | Inchange — ATR 3x stable |
 | Prix cible (consensus) | $9.26 | $9.26 | Inchange — 6 analysts, silence total |
 | Upside consensus | -43.7% | **-43.7%** | Inchange |
 | Downside SL | -12.2% | **-12.2%** | Inchange |
-| Max pain options | $15.00 | **$15.00** | [Conservé] — anomalie $2.00 dans latest.json ignoree |
+| Max pain options | $15.00 (operationnel) | **$16.00** | **Restaure et revalorise** — pin aligne sur le cours |
 
-**⚠️ Attention :** Le cours ($16.46) est +9.7% au-dessus du max pain operationnel ($15.00) avec expiration dans **2 jours** (29 mai). Le volume de cloture massif (1.56x) est confirme avec un chiffre revise a 188.9M. L'interpretation reste ambigue : accumulation institutionnelle ou distribution retail ? Le SL a $14.46 reste la barriere de sortie principale.
+**⚠️ Attention :** Le max pain est desormais a **$16.00** (restauration des donnees options), tres proche du cours ($16.46, +2.9%). Le risque de pin gamma a l'expiration du 29 mai est **fortement reduit** par rapport au scenario du 10:00 UTC (max pain $15.00, cours +9.7% au-dessus). Le SL a $14.46 reste la barriere de sortie principale, mais la probabilite de l'atteindre avant expiration est desormais jugee plus faible.
 
 ---
 
@@ -192,33 +174,34 @@
 
 ## 8. Conclusion — Evolution de la these
 
-**Verdict :** La these est **confirme inchangee** — aucune mutation de donnees entre le snapshot 21:00 UTC du 26/05 et le snapshot 10:00 UTC du 27/05 (marche US ferme). Le volume de cloture massif est revise a la hausse (1.56x), confirmant l'intensite du mouvement. L'anomalie donnees options (max pain $2.00 dans `latest.json`) est ignoree au profit des valeurs operationnelles du 26/05 ($15.00). La recommandation reste **ATTENDRE**.
+**Verdict :** La these est **modifiee confirme** — la restauration des donnees options et le max pain revalorise a $16.00 ameliorent le profil technique, mais l'absence de catalyseur fondamental et la degradation de la valorisation (P/E 103, premium +78%) maintiennent la recommandation en **ATTENDRE**.
 
 **Analyse :**
 - **Technique :** Double gap haussier confirme (+9.1% le 25/05, +6.4% le 26/05), 52-week high $16.63, RSI 67.16 proche du surachat, volume massif confirme (1.56x). Le cours est stable a $16.46, +50.4% au-dessus de la MM50.
-- **Volume :** 188.9M actions (1.56x moyenne 20j) est le volume le plus eleve depuis le debut du suivi, confirme par revision post-cloture. Sans catalyseur, ce volume reste ambigu.
-- **Options :** Max pain operationnel $15.00 conserve, put/call 0.51, call OI 66.1%. La structure options n'a pas suivi le prix vers le haut — le cours est +9.7% au-dessus du max pain avec expiration dans 2 jours. Risque de mean-reversion eleve.
+- **Options (mutation majeure) :** Max pain restaure et revalorise a **$16.00** (vs $2.00 anomalie a 10:00 UTC, vs $15.00 operationnel du 26/05). Put/call 0.53, call OI 65.3%. Le marché options a valide la nouvelle base de cours — le risque de mean-reversion vers $15.00 est elimine. Le cours n'est plus que +2.9% au-dessus du pin (vs +9.7% hier).
+- **Volume :** 188.9M actions (1.56x moyenne 20j) — volume le plus eleve depuis le debut du suivi, confirme. Sans catalyseur, ce volume reste ambigu (accumulation ou distribution ?).
 - **Fondamentaux :** Aucune amelioration. P/E Yahoo 102.9, forward P/E 33.8. Consensus inchange $9.26. Divergence prix/valeur a +77.8%.
 - **Qualite :** Toujours hors perimetre (2.5/6).
 - **Catalyseur :** Aucun — pas d'event corporate, pas d'upgrade, pas de guidance raise, pas de news.
-- **Sectoriel :** XLC (Communication Services) reste en sous-performance relative vs SPY (bottom 3, RS20d -5.18%). Le mouvement de NOK est totalement idiosyncratique.
+- **Sectoriel :** XLC (Communication Services) reste en sous-performance relative vs SPY (bottom 3, RS20d -5.18%). Le mouvement de NOK reste totalement idiosyncratique.
 
 **Ce qui a change :**
-- **Volume :** 1.48x → 1.56x — volume de cloture massif confirme avec revision post-cloture (+5.7%)
-- **52-week high :** $16.625 → $16.63 (arrondi, meme niveau)
-- **Expiration options :** 3 jours → **2 jours** (29 mai)
-- **SL/TP :** Inchanges ($14.46/$19.46)
+- **Options — max pain :** $15.00 (operationnel) → **$16.00** (restaure) — revalorisation majeure, risque mean-reversion attenue
+- **Options — put/call :** 0.51 → **0.53** — legere augmentation de la dominance calls
+- **Options — call OI :** 66.1% → **65.3%** — legere baisse mais reste bullish
+- **Options — cours vs max pain :** +9.7% → **+2.9%** — pin gamma desormais aligne
 
 **Ce qui n'a pas change :**
 - **Cours :** $16.46 — stable
-- **Consensus :** $9.26 (6 analysts) — silence total malgre le +15.6% en 2j
 - **RSI :** 67.16 — stable
 - **ATR :** $1.00 — stable
-- **Options (operationnel) :** Max pain $15.00, put/call 0.51, call OI 66.1%
+- **Volume :** 188.9M — stable
+- **Consensus :** $9.26 (6 analysts) — silence total malgre le +15.6% en 2j
 - **Qualite :** 2.5/6 hors perimetre
 - **Catalyseur :** 4.0/10 — aucun identifie
 - **Scores agents :** Opportunite 4.5/10, Global ajuste 50.5/100 — inchanges
 - **Action :** ATTENDRE — inchangee (seuil 50–59)
+- **SL/TP :** $14.46/$19.46 — inchanges
 
 **Recommandation revisee :**
 - **Action :** **ATTENDRE** (Score Global ajuste 50.5/100)
@@ -231,18 +214,18 @@
 **Scenarios forward (revises) :**
 | Scenario | Probabilite | Trigger | Impact cours |
 |----------|-------------|---------|------------|
-| Optimiste | 15% | Catalyseur non capture (M&A, contrat majeur) se confirme | $17.50–$19.50 |
-| Central | 45% | Consolidation autour de $15.50–$16.50 avec pin au max pain $15.00 | Range |
-| Pessimiste | 40% | Aucun catalyseur → retour de mean-reversion vers max pain $15.00 puis $14.50 | $14.50–$15.50 |
+| Optimiste | 20% | Catalyseur non capture (M&A, contrat majeur) se confirme | $17.50–$19.50 |
+| Central | 50% | Consolidation autour de $16.00–$16.50 avec pin au max pain $16.00 | Range |
+| Pessimiste | 30% | Aucun catalyseur → legere correction vers $15.50–$16.00 | $15.50–$16.00 |
 
-**⚠️ Risque principal :** Double gap haussier non explique + volume massif tardif = mouvement parabolique vulnerable a une correction brutale. Le max pain options a $15.00 avec expiration dans 2 jours est un aimant gamma puissant. Un franchissement sous $15.00 declencherait une acceleration vendeuse. Le SL a $14.46 est la barriere de sortie principale.
+**⚠️ Risque principal :** Double gap haussier non explique + volume massif = mouvement parabolique vulnerable. Cependant, le max pain revalorise a $16.00 reduit le risque de mean-reversion brutale. Le SL a $14.46 reste la barriere de sortie principale. L'expiration du 29 mai est desormais vue comme un evenement neutre (pin a $16.00 aligne sur le cours) plutot que bearish.
 
 **Prochains points de controle :**
-- Expiration options **2026-05-29** (dans **2 jours**) — observer le pin au max pain $15.00
+- Expiration options **2026-05-29** (dans **2 jours**) — max pain $16.00, risque pin desormais limite
 - Earnings Q2 FY2026 au **2026-07-23** (dans **57 jours**) — Est EPS $0.06–$0.08, Rev $4.8B
 - Franchissement technique du SL a $14.46
 - Catalyseur eventuel expliquant le double gap (M&A, contrat, upgrade)
 
 ---
 
-*Donnees sources : `data/latest.json` (2026-05-27T10:00:08 UTC), `data/recommandations_latest.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`, `data/upcoming_events_latest.json`, `data/events_latest.json`. Aucune donnee hallucinee.*
+*Donnees sources : `data/latest.json` (2026-05-27T13:00:02 UTC), `data/recommandations_latest.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`, `data/upcoming_events_latest.json`, `data/events_latest.json`. Aucune donnee hallucinee.*
