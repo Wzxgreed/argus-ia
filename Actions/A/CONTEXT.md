@@ -9,12 +9,12 @@
 
 - **Recommandation :** ACHETER · Sizing Standard · Direction Long
 **Score Global :** 77.8/100
-**Prix cible desk :** $124.80 (TP ATR-based) / $164.79 (consensus analystes)
-**Stop-loss :** $108.60
+**Prix cible desk :** $125.36 (TP ATR-based) / $164.79 (consensus analystes)
+**Stop-loss :** $109.06
 **Horizon :** 1–3 mois
-**Statut thèse :** 🟡 **Confirmée avec prudence** — setup favorable J=0 earnings Q2 2026. Snapshot 13:00 UTC confirme stabilité totale vs 10:00 UTC ($115.08 inchangé, RSI 43.36, ATR $3.24, volume 2.84M). Mutation options détectée : put/call 1.43 → 1.59 (+0.16), call OI 41.1% → 38.6% (−2.5 pts) — positionnement plus défensif avant l'annonce. Max pain $100 confirmé. Score Global ajusté 77.8 — zone ACHETER Standard.
+**Statut thèse :** 🟡 **Confirmée avec prudence** — setup favorable J=0 earnings Q2 2026. Snapshot 17:00 UTC : léger rebond +0.43% à $115.58, RSI remonte à 44.39 (+1.03 pt), ATR $3.26, volume révisé à 1.10M (0.51× moy. 20j) — divergence vs snapshot 13:00 UTC (2.84M) à valider. Structure options stable (put/call 1.59, call OI 38.6%, max pain $100). Score Global ajusté 77.8 inchangé — zone ACHETER Standard.
 
-**Synthèse :** Agilent affiche encore le meilleur score composite du desk (77.8). Le forward P/E 17.5× décote de 31% le LTM, le consensus anticipe un upside 43%, et le setup technique reste au-dessus de la MM50. Le volume pré-event stable traduit une accumulation/hedging sans panique. Quality Compounder (5/6 critères). ⚠️ Mutation options défensive à surveiller post-event. Flag `stale_price_history` persistant — valider les données en live avant exécution.
+**Synthèse :** Agilent affiche encore le meilleur score composite du desk (77.8). Le forward P/E 17.6× décote de 31% le LTM, le consensus anticipe un upside 43%, et le setup technique reste au-dessus de la MM50 ($114.87). Quality Compounder (5/6 critères). ⚠️ Divergence volume majeure (1.10M vs 2.84M au snapshot 13:00 UTC) à valider — si confirmée, traduit un épuisement de l'activité pré-event. Structure options défensive stable. Flag `stale_price_history` persistant — valider les données en live avant exécution.
 
 ---
 
@@ -64,11 +64,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 44.18
+- **RSI 14j :** 44.39
 - **MM 50j :** 114.87
 - **MM 200j :** —
 - **ATR 14j :** 3.26
-- **Volume moy. 20j :** 2171893
+- **Volume moy. 20j :** 2179914
 
 ---
 
@@ -77,7 +77,7 @@
 - **Date :** 2026-05-27
 - **Type :** update
 - **Fichier :** `A_2026-05-27_update.md`
-- **Conclusion :** > **Date :** 2026-05-27 · Snapshot 13:00 UTC
+- **Conclusion :** > **Date :** 2026-05-27 · Snapshot 17:00 UTC — Léger rebond +0.43% à $115.58, RSI 44.39, volume révisé 1.10M (0.51×), structure options stable, SL/TP recalculés $109.06/$125.36, Score Global 77.8 inchangé
 
 ---
 
