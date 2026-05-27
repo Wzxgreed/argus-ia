@@ -2,7 +2,7 @@
 
 ## Thèse courante
 
-**ATTENDRE** (2026-05-27 · snapshot 10:00 UTC) — Qualité opérationnelle classée **hors périmètre (3/6)** après injection FMP FY 2025-12-31 : bilan structurellement négatif (tangible asset value −$32.5B, current ratio −0.18), rentabilité GAAP inexistante (ROIC −12.8%, net margin ~0%), et dilution SBC à 5% des revenus. La valorisation reflète cette dégradation (EV/EBITDA 18.2x, P/S 1.45x) sans marge de sécurité. Le timing est bloqué par l'**anomalie de données critique** : **cours figé $83.46 sur 17 snapshots consécutifs couvrant 8 jours calendaires** (20/05 → 27/05) et **earnings Q1 2026 non résolu après 8 jours** (date initialement prévue 20/05). SQ est désormais le **seul ticker** du snapshot 27/05 avec `source: fmp_fallback` et `change_pct: null`. Le quality gate maintient SQ comme **excluded** (CRITICAL stale price) — **SPCX est sorti de l'exclusion ce jour**, isolant SQ comme unique ticker affecté. Le fichier `recommandations_2026-05-27.json` affiche un RSI placeholder 50 mais le bloc `technical` est vide. Le secteur Technology bénéficie d'une rotation favorable (XLK top3), mais cela ne compense pas la fragilité fondamentale ni l'anomalie de données. Tout positionnement avant résolution du stale price et intégration des résultats Q1 est déconseillé. Priorité opérationnelle : vérifier cours live via broker, date réelle de publication des résultats, et forcer un re-fetch isolé de SQ.
+**ATTENDRE** (2026-05-27 · snapshot 13:00 UTC) — Qualité opérationnelle classée **hors périmètre (3/6)** après injection FMP FY 2025-12-31 : bilan structurellement négatif (tangible asset value −$32.5B, current ratio −0.18), rentabilité GAAP inexistante (ROIC −12.8%, net margin ~0%), et dilution SBC à 5% des revenus. La valorisation reflète cette dégradation (EV/EBITDA 18.2x, P/S 1.45x) sans marge de sécurité. Le timing est bloqué par l'**anomalie de données critique** : **cours figé $83.46 sur 18 snapshots consécutifs couvrant 8 jours calendaires** (20/05 → 27/05) et **earnings Q1 2026 non résolu après 8 jours** (date initialement prévue 20/05). SQ est désormais le **seul ticker** du snapshot 27/05 avec `source: fmp_fallback` et `change_pct: null`. Le quality gate maintient SQ comme **excluded** (CRITICAL stale price) — **SPCX est sorti de l'exclusion ce jour**, isolant SQ comme unique ticker affecté. Le fichier `recommandations_2026-05-27.json` affiche un RSI placeholder 50 mais le bloc `technical` est vide. Le secteur Technology bénéficie d'une rotation favorable (XLK top3), mais cela ne compense pas la fragilité fondamentale ni l'anomalie de données. Tout positionnement avant résolution du stale price et intégration des résultats Q1 est déconseillé. Priorité opérationnelle : vérifier cours live via broker, date réelle de publication des résultats, et forcer un re-fetch isolé de SQ. Validation report affiche 4 [ERROR] (>2), signalant une dégradation opérationnelle globale du pipeline — SQ n'est pas directement impacté, mais le contexte de fiabilité données s'affaiblit.
 
 ---
 
@@ -10,7 +10,8 @@
 
 | Date | Fichier | Type | Conclusion |
 |------|---------|------|------------|
-| 2026-05-27 | [SQ_2026-05-27_update.md](SQ_2026-05-27_update.md) | Mise à jour snapshot **10:00 UTC** pré-marché US | **ATTENDRE** — Qualité 3/6, earnings **non résolu après 8 jours**, **stale price 17 snapshots / 8 jours calendaires (quality gate excluded — SQ seul ticker excluded ce jour)**, SPCX retiré de l'exclusion, zero changement vs 26/05 21:00 UTC |
+| 2026-05-27 | [SQ_2026-05-27_update.md](SQ_2026-05-27_update.md) | Mise à jour snapshot **13:00 UTC** | **ATTENDRE** — Qualité 3/6, earnings **non résolu après 8 jours**, **stale price 18 snapshots / 8 jours calendaires**, 4 [ERROR] dans validation (>2), SPCX retiré de l'exclusion, SQ seul ticker excluded, zero changement vs 10:00 UTC |
+| 2026-05-27 | [SQ_2026-05-27_update.md](SQ_2026-05-27_update.md) *(archive 10:00 UTC)* | Mise à jour snapshot 10:00 UTC pré-marché US | **ATTENDRE** — Qualité 3/6, earnings **non résolu après 8 jours**, **stale price 17 snapshots / 8 jours calendaires (quality gate excluded — SQ seul ticker excluded ce jour)**, SPCX retiré de l'exclusion, zero changement vs 26/05 21:00 UTC |
 | 2026-05-26 | [SQ_2026-05-26_update.md](SQ_2026-05-26_update.md) | Mise à jour snapshot **21:00 UTC** post-session US | **ATTENDRE** — Qualité 3/6, earnings **non résolu après 7 jours**, **stale price 16 snapshots / 7 jours calendaires (quality gate excluded officiellement)**, SQ et SPCX excluded, pipeline partial, zero changement vs 17:00 UTC |
 | 2026-05-26 | [SQ_2026-05-26_update.md](SQ_2026-05-26_update.md) *(archive 17:00 UTC)* | Mise à jour snapshot 17:00 UTC | **ATTENDRE** — Qualité 3/6, earnings non résolu après 7 jours, stale price 15 snapshots / 7 jours calendaires, zero changement vs 13:00 UTC |
 | 2026-05-25 | [SQ_2026-05-25_update.md](SQ_2026-05-25_update.md) | Mise à jour snapshot **21:00 UTC** | **ATTENDRE** — Qualité 3/6, earnings J=0 **non résolu après 5 jours**, **stale price 12 snapshots / 5 jours calendaires (quality gate excluded)**, Memorial Day (marché fermé) n'explique pas le stale price depuis le 20/05, pipeline partial, zero changement vs snapshot 17:00 UTC |
@@ -42,10 +43,11 @@
 
 ## Alertes actives
 
-- 🔴 **Quality Gate Exclusion** — stale price 17 snapshots / ≥8 jours calendaires (2026-05-20 → 2026-05-27). SQ **seul ticker excluded** dans `quality_gate_2026-05-27.json` (SPCX retiré).
+- 🔴 **Quality Gate Exclusion** — stale price 18 snapshots / ≥8 jours calendaires (2026-05-20 → 2026-05-27). SQ **seul ticker excluded**.
 - 🔴 **Data Pipeline Alert** — Earnings Q1 2026 non résolu après 8 jours calendaires (date initiale 20/05). `upcoming_events_2026-05-27.json` affiche `days_until: 0` avec date 27/05 (glissement depuis 26/05), mais champ details vide (placeholder FMP générique).
 - 🔴 **Source FMP Fallback** — SQ est le seul ticker du snapshot 27/05 avec `"fmp_fallback"` et `change_pct: null` (23/26 tickers OK avec yahoo_worker_daemon).
-- 🟡 **Validation Divergence** — `validation_report.txt` indique `0 excluded by quality gate` alors que `quality_gate_2026-05-27.json` marque SQ excluded. Divergence persistante.
+- 🟡 **Validation Divergence** — `validation_report.txt` (12:06 UTC) indique `0 excluded by quality gate` alors que SQ est réellement excluded. Divergence persistante.
+- 🟡 **Pipeline Degradation** — `validation_report.txt` affiche **4 [ERROR]** (VRT schema, AST fetch, AXA fetch, QTBS fetch) — seuil >2 franchi.
 - Aucune alerte de seuil de cours déclenchée
 
 ---
@@ -60,4 +62,4 @@
 
 ---
 
-*Dernière mise à jour : 2026-05-27 · Snapshot 10:00 UTC*
+*Dernière mise à jour : 2026-05-27 · Snapshot 13:00 UTC*

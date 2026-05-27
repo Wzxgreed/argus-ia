@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
+- **Recommandation :** ATTENDRE
+- **Score global :** 58.0/100
+- **Prix cible :** —
+- **Stop-loss :** —
+- **Statut thèse :** Confirmée — aucune mutation détectée sur 18 snapshots consécutifs
 - **Horizon :** —
 
 ---
@@ -24,23 +24,27 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🔴 **Quality Gate Exclusion** — stale price 18 snapshots / ≥8 jours calendaires (2026-05-20 → 2026-05-27). SQ seul ticker excluded.
+- 🔴 **Data Pipeline Alert** — Earnings Q1 2026 non résolu après 8 jours calendaires (date initiale 20/05). Placeholder FMP générique glissant.
+- 🔴 **Source FMP Fallback** — SQ est le seul ticker du snapshot 27/05 avec `"fmp_fallback"` et `change_pct: null`.
+- 🟡 **Validation Divergence** — `validation_report.txt` indique `0 excluded by quality gate` alors que SQ est réellement excluded.
+- 🟡 **Pipeline Degradation** — 4 [ERROR] dans validation (VRT schema, AST/AXA/QTBS fetch) — seuil >2 franchi.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-05-27** · earnings · Earnings ...
+- **2026-05-27** · earnings · Earnings placeholder J=0 (non résolu, glissant depuis 20/05)
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** —
-- **MM 50j :** —
-- **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** —
+- **RSI 14j :** N/A (bloc `technical` vide)
+- **MM 50j :** N/A
+- **MM 200j :** N/A
+- **ATR 14j :** N/A
+- **Volume moy. 20j :** N/A
 
 ---
 
@@ -49,7 +53,7 @@
 - **Date :** 2026-05-27
 - **Type :** update
 - **Fichier :** `SQ_2026-05-27_update.md`
-- **Conclusion :** > **Trigger :** Snapshot pipeline 10:00 UTC — pré-marché US (9:30 ET)
+- **Conclusion :** Snapshot 13:00 UTC confirme intégralement la paralysie du snapshot 10:00 UTC. Cours $83.46 figé depuis 18 snapshots / 8 jours calendaires. Aucune mutation technique, fondamentale, sentiment ou macro. Score Opportunité 5.8/10, Global 58.0/100. Thèse ATTENDRE confirmée. Validation report dégrade à 4 [ERROR] (>2) — signal de fiabilité pipeline affaibli, sans impact direct sur SQ.
 
 ---
 
