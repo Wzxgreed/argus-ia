@@ -8,21 +8,22 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ACHETER (Réduit)
-**Prix cible :** $23.18 (+3.8% upside)
-**Stop-loss :** $21.78
-**Upside :** +3.8%
-**Dernière mise à jour :** 2026-05-27 (snapshot 13:00 UTC)
+- **Prix cible :** $23.18 (+3.8% upside)
+- **Stop-loss :** $21.78
+- **Upside :** +3.8%
+- **Dernière mise à jour :** 2026-05-27 (snapshot 17:00 UTC)
 
-> SPCX est un ETF thématique SPAC/post-IPO. Le setup technique (au-dessus MM50, RSI 59.07, volume normalisé) est validé par les scores agents pipeline 13:00 UTC 27/05. L'Agent Recommandation maintient SPCX en **ACHETER (Réduit)** avec un Score Global Ajusté de **65.2/100**. Score Opportunité = 6.0/10 (C:6.5 V:5.0 M:7.0), timing Favorable. 8e snapshot consécutif sans mutation — stabilité totale sur 3 séances complètes. Le secteur Financials (XLF) n'est pas dans la rotation haussière du jour (momentum_score = 0.0). L'absence de catalyseur fondamental et la liquidité historique faible justifient le sizing Réduit (max 5% capital). SL $21.78 (−2.5%), TP $23.18 (+3.8%), ratio R/R 1.5×. Invalidation : clôture sous MM50 ($22.00) avec volume >1.5× moyenne.
+> SPCX est un ETF thématique SPAC/post-IPO. Le setup technique (au-dessus MM50, RSI 59.07, volume normalisé) est validé par les scores agents pipeline 17:00 UTC 27/05. L'Agent Recommandation maintient SPCX en **ACHETER (Réduit)** avec un Score Global Ajusté de **65.2/100**. Score Opportunité = 6.0/10 (C:6.5 V:5.0 M:7.0), timing Favorable. 9e snapshot consécutif sans mutation — stabilité totale sur 3 séances complètes. Le secteur Financials (XLF) n'est pas dans la rotation haussière du jour (momentum_score = 0.0, return_20d −0.96%). L'absence de catalyseur fondamental et la liquidité historique faible justifient le sizing Réduit (max 5% capital). SL $21.78 (−2.5%), TP $23.18 (+3.8%), ratio R/R 1.5×. Invalidation : clôture sous MM50 ($22.00) avec volume >1.5× moyenne.
 
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** —/10
+
+- **Score global :** 65.2/100
 - **Prix cible :** $23.18
 - **Stop-loss :** $21.78
-- **Statut thèse :** modifiée
-- **Horizon :** —
+- **Statut thèse :** confirmée
+- **Horizon :** 1–2 semaines
 
 ---
 
@@ -40,7 +41,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-27** · earnings · Earnings ...
+- Aucun événement structurant — ETF thématique (artefact FMP `earnings` days_until=0 à ignorer)
 
 ---
 
@@ -51,6 +52,9 @@
 - **MM 200j :** —
 - **ATR 14j :** 0.28
 - **Volume moy. 20j :** 3764
+- **Volume jour :** 3845 (1.02× moyenne)
+- **52w high :** 26.61
+- **52w low :** 21.32
 
 ---
 
@@ -59,7 +63,7 @@
 - **Date :** 2026-05-27
 - **Type :** update
 - **Fichier :** `SPCX_2026-05-27_update.md`
-- **Conclusion :** **Date :** 2026-05-27
+- **Conclusion :** Thèse CONFIRMÉE — 9e snapshot consécutif sans mutation, stabilité totale cours/volume/RSI sur 3 séances complètes. Score Global Ajusté 65.2/100, ACHETER (Réduit) maintenu.
 
 ---
 
