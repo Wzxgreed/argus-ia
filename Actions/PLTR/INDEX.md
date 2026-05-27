@@ -1,7 +1,7 @@
 # PLTR
 
 ## Thèse courante
-**SURVEILLER** — Valorisation de croissance extrême (P/E 153–259x, EV/Revenue 61–94x) contrebalancée par des fondamentaux solides (marges 82/32/36%, bilan quasi-sans dette, ROIC 18%). Timing technique **stable en zone neutre** : RSI 51.56 (sortie de survente confirmée et stable), sous MM50 à $142.36 (−4.0%), volumes **compressés** (−22.4% vs moyenne 20j). Pas de position avant confirmation technique (franchissement MM50 + volume > 40M) ou compression multiple significative. XLK leader sectoriel (momentum 10.0/10) constitue un vent favorable structurel. Structure options modérément haussière confirmée (Put/Call 0.55, Call OI 64.4%, Max Pain $140.00) — anomalie JSON du snapshot 27/05 traitée. Score Opportunité 5.4/10, Score Global ajusté 46.3/100 — sous le seuil ATTENDRE (50).
+**SURVEILLER** — Valorisation de croissance extrême (P/E 150–259x, EV/Revenue 61–94x) contrebalancée par des fondamentaux solides (marges 82/32/36%, bilan quasi-sans dette, ROIC 18%). Timing technique **détérioré** : RSI 50.12 (recul de 1.44 pt, proche de la ligne de partage des eaux), sous MM50 à $141.98 (−5.7%), volumes **anémiques** (−48.6% vs moyenne 20j, plus faible depuis début du suivi). Pas de position avant confirmation technique (franchissement MM50 + volume > 40M) ou compression multiple significative. XLK leader sectoriel (momentum 10.0/10) constitue un vent favorable structurel, mais PLTR sous-performe sectoriellement. Structure options modérément haussière stable (Put/Call 0.49, Call OI 67.0%, Max Pain $140.00). Score Opportunité 5.4/10, Score Global ajusté 46.3/100 — sous le seuil ATTENDRE (50).
 
 ## Historique
 | Date | Fichier | Type | Conclusion |
