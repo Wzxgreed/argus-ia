@@ -1,15 +1,15 @@
 # QTBS — Mise à jour Quotidienne
 
-> **Date :** 2026-05-27 (snapshot 10:00 UTC)
+> **Date :** 2026-05-27 (snapshot 13:00 UTC)
 > **Type :** `_update.md`
-> **Source données :** `data/latest.json` (fetched_at 2026-05-27T10:00:01Z) + `data/recommandations_latest.json`
-> **Statut pipeline :** 🔴 Fetch KO — No price history (confirmé snapshot 10:00)
+> **Source données :** `data/latest.json` (fetched_at 2026-05-27T13:00:02Z) + `data/recommandations_latest.json` + `data/upcoming_events_latest.json` + `data/events_latest.json` + `data/social_sentiment_latest.json` + `data/fx_exposure_latest.json` + `data/sector_rotation_latest.json`
+> **Statut pipeline :** 🔴 Fetch KO — No price history (confirmé snapshot 13:00)
 
 ---
 
 ## 1. Résumé des changements depuis l'analyse précédente
 
-| Item | Snapshot 21:00 UTC (26/05) | Snapshot 10:00 UTC (27/05) | Changement |
+| Item | Snapshot 10:00 UTC (27/05) | Snapshot 13:00 UTC (27/05) | Changement |
 |------|---------------------------|---------------------------|------------|
 | Cours | [DONNÉES MANQUANTES] | **[DONNÉES MANQUANTES]** | **Aucun changement** |
 | RSI 14j | — | — | — |
@@ -17,9 +17,9 @@
 | Volume 20j | — | — | — |
 | Data feed | `error: true` | `error: true` | **Bloquant confirmé** |
 | Score global | 55.2/100 (ATTENDRE) | **55.2/100 (ATTENDRE)** | **Stable** |
-| Earnings | J0 (26/05) | **J0 (27/05)** | **Date glissante FMP** |
+| Earnings | J0 (27/05) | **J0 (27/05)** | **Placeholder glissant inchangé** |
 
-**Verdict macro :** QTBS reste en **data blackout complet** au snapshot 10:00 UTC du 27/05. Aucune mutation vs le snapshot 21:00 UTC du 26/05 — **15e snapshot consécutif sans changement** depuis au moins le 20 mai 2026. L'earnings signalé par FMP est passé de J0 (26/05) à J0 (27/05) : il s'agit d'un **placeholder glissant**, non d'un événement daté fiable.
+**Verdict macro :** QTBS reste en **data blackout complet** au snapshot 13:00 UTC du 27/05. Aucune mutation vs le snapshot 10:00 UTC — **16e snapshot consécutif sans changement** depuis au moins le 20 mai 2026. L'earnings signalé par FMP reste à J0 (27/05) : il s'agit d'un **placeholder glissant**, non d'un événement daté fiable.
 
 ---
 
@@ -27,7 +27,7 @@
 
 > **[DONNÉES MANQUANTES — FETCH KO CONFIRMÉ]**
 
-- **Cours close :** [UNSOURCED] — `data/latest.json` retourne `"error": true`, `"reason": "No price history"` (timestamp 10:00:21 UTC)
+- **Cours close :** [UNSOURCED] — `data/latest.json` retourne `"error": true`, `"reason": "No price history"` (timestamp 13:00:20 UTC)
 - **RSI 14j :** —
 - **ATR 14j :** —
 - **MM 50j / 200j :** —
@@ -35,7 +35,7 @@
 - **Max pain options :** —
 - **Put/Call ratio :** —
 
-**Impact :** Sans cours et sans ATR, les niveaux de stop-loss et take-profit restent **non calculables**. Le timing technique est indéterminable. La qualité gate du jour ne liste même pas QTBS parmi les tickers scannés (22 OK + 1 excluded), confirmant une exclusion totale du pipeline data.
+**Impact :** Sans cours et sans ATR, les niveaux de stop-loss et take-profit restent **non calculables**. Le timing technique est indéterminable. La quality gate du jour (`data/quality_report_latest.json`, date 2026-05-17) ne liste pas QTBS parmi les 7 tickers scannés, confirmant une exclusion totale du pipeline data.
 
 ---
 
@@ -50,7 +50,7 @@
 - **Nombre d'analystes :** —
 - **Market cap :** —
 
-**Événement du jour :** Earnings signalé par `upcoming_events_latest.json` (source FMP, date 2026-05-27, severity high, days_until=0). **Anomalie détectée :** la date J0 glisse de jour en jour (26/05 → 27/05), ce qui confirme un **placeholder FMP** et non une date d'earnings réelle. Aucun détail EPS/Revenue consensus n'a été récupéré. L'event-driven scan (`data/events_latest.json`) ne retourne **aucun événement corporate détecté** pour QTBS. Le NLP transcript (`data/transcripts_NLP_latest.json`) est indisponible pour QTBS (plan FMP insuffisant). Le rapport accounting risk est totalement absent.
+**Événement du jour :** Earnings signalé par `upcoming_events_latest.json` (source FMP, date 2026-05-27, severity high, days_until=0). **Anomalie détectée :** la date J0 glisse de jour en jour sans résolution (26/05 → 27/05), ce qui confirme un **placeholder FMP** et non une date d'earnings réelle. Aucun détail EPS/Revenue consensus n'a été récupéré. L'event-driven scan (`data/events_latest.json`) ne retourne **aucun événement corporate détecté** pour QTBS. Le rapport accounting risk (`data/accounting_risk_latest.json`) est **totalement absent**. Le NLP transcript (`data/transcripts_NLP_latest.json`) est indisponible pour QTBS (plan FMP insuffisant).
 
 ---
 
@@ -114,7 +114,7 @@ Aucune mention retail, aucune détection de pump/dump, aucune news Yahoo. Le sil
 
 **Argumentaire :**
 
-1. **Data blackout persistant :** Le snapshot 10:00 UTC confirme l'erreur `[ERROR] QTBS: fetch failed — No price history`. Ce bloquant empêche toute analyse technique, fondamentale et quantitative. La stabilité de l'erreur sur 15 snapshots consécutifs confirme une panne structurelle du data feed, et non un effet de latence temporaire.
+1. **Data blackout persistant :** Le snapshot 13:00 UTC confirme l'erreur `[ERROR] QTBS: fetch failed — No price history`. Ce bloquant empêche toute analyse technique, fondamentale et quantitative. La stabilité de l'erreur sur 16 snapshots consécutifs confirme une panne structurelle du data feed, et non un effet de latence temporaire.
 
 2. **Earnings J0 non analysable :** L'événement earnings du 2026-05-27 (source FMP, severity high, days_until=0) est un **placeholder glissant** (la date J0 avance de jour en jour sans résolution). Sans cours pré-event, sans consensus EPS/Revenue et sans métriques, il est impossible de mesurer un quelconque impact post-announcement.
 
@@ -124,5 +124,5 @@ Aucune mention retail, aucune détection de pump/dump, aucune news Yahoo. Le sil
 
 ---
 
-*Rapport généré le 2026-05-27. Données : latest.json (10:00 UTC), recommandations_latest.json, events_latest.json, social_sentiment_latest.json, fx_exposure_latest.json, upcoming_events_latest.json, quality_gate_2026-05-27.json.*
+*Rapport généré le 2026-05-27. Données : latest.json (13:00 UTC), recommandations_latest.json, events_latest.json, social_sentiment_latest.json, fx_exposure_latest.json, upcoming_events_latest.json, quality_report_latest.json.*
 *Avertissement : ce document est un outil d'analyse, pas un conseil en investissement.*
