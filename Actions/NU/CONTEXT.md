@@ -8,11 +8,11 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ATTENDRE
-- **Score Global :** 64.2/100 (ajusté 56.2)
-- **Score Opportunité :** 6.4/10 (C:6.5 V:8.0 M:3.8)
+- **Score Global :** 63.5/100 (ajusté 55.5)
+- **Score Opportunité :** 6.3/10 (C:6.5 V:8.0 M:3.5)
 - **Prix Cible :** $18.39 (consensus FMP, 10 analysts)
-- **Stop-Loss :** $11.96 (2×ATR)
-- **Statut Thèse :** Score ajusté sous le seuil achat réduit (56.2) — snapshot 13:00 UTC 27/05 confirme stabilité totale vs snapshot 10:00 UTC ($12.98 inchangé, volume 39.10M/0.75×, RSI 35.54 inchangé), **mutation options significative détectée** (put/call 0.82 → 0.68, call OI 54.9% → 59.4%), biais haussier options légèrement renforcé, momentum inchangé 3.8/10, timing défavorable, attente confirmation technique
+- **Stop-Loss :** $12.07 (2×ATR)
+- **Statut Thèse :** Score ajusté sous le seuil achat réduit (55.5) — snapshot 17:00 UTC 27/05 : cours $13.07 (+0.69%), **volume en effondrement** 20.18M (0.39× moyenne 20j), **anomalie RSI baissière** (33.41, −2.13 pts vs 13:00 UTC malgré cours supérieur), mutation options confirmée (put/call 0.68, call OI 59.4%), momentum reculé à 3.5/10, timing défavorable, attente confirmation volume
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
@@ -38,17 +38,18 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q2 2026 :** 13 août 2026 (Est EPS $0.20–$0.27, Rev $5.4B)
+- **Expiration Options :** 2026-05-29 (2 jours, max pain $13.50 — au-dessus du spot)
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 34.49
+- **RSI 14j :** 33.41
 - **MM 50j :** 14.08
 - **MM 200j :** —
-- **ATR 14j :** 0.5
-- **Volume moy. 20j :** 51515870
+- **ATR 14j :** 0.50
+- **Volume moy. 20j :** 51726128
 
 ---
 
@@ -57,7 +58,7 @@
 - **Date :** 2026-05-27
 - **Type :** update
 - **Fichier :** `NU_2026-05-27_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE**
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (nuance baissière)**
 
 ---
 
