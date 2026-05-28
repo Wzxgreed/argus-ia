@@ -51,11 +51,11 @@ Double gap haussier consécutif : +9.1% (25/05, close $15.47) puis +6.40% (26/05
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 63.23
-- **MM 50j :** 11.1
+- **RSI 14j :** 68.83
+- **MM 50j :** 11.24
 - **MM 200j :** —
-- **ATR 14j :** 1.03
-- **Volume moy. 20j :** 120782555
+- **ATR 14j :** 1.01
+- **Volume moy. 20j :** 115950024
 
 ---
 
@@ -70,7 +70,7 @@ Double gap haussier consécutif : +9.1% (25/05, close $15.47) puis +6.40% (26/05
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 6.57% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 6.52% (seuil 5.0%)
 
 ---
 

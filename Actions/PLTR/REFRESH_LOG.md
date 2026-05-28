@@ -1,0 +1,20 @@
+# PLTR — Historique des Full Refreshes
+
+
+## 2026-05-28 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +5.52% overnight (seuil ±5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-28 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +5.21% overnight (seuil ±5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

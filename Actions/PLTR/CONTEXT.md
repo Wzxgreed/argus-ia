@@ -36,26 +36,26 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 47.34
-- **MM 50j :** 141.95
+- **RSI 14j :** 54.95
+- **MM 50j :** 141.65
 - **MM 200j :** —
-- **ATR 14j :** 4.94
-- **Volume moy. 20j :** 41129845
+- **ATR 14j :** 4.98
+- **Volume moy. 20j :** 40634513
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-27
-- **Type :** update
-- **Fichier :** `PLTR_2026-05-27_update.md`
-- **Conclusion :** > **Source :** `data/2026-05-27.json` (snapshot 10:00 UTC, fetched_at 2026-05-27T10:00:01Z) + agents quant, geo, accounting, sector, social, FX, watchman, events
+- **Date :** 2026-05-28
+- **Type :** full refresh
+- **Fichier :** `PLTR_2026-05-28_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-28
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **PRICE_GAP** (medium) — Gap +5.21% overnight (seuil ±5.0%)
 
 ---
 
