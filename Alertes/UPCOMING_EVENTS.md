@@ -1,6 +1,6 @@
 # 🔭 Événements à venir — Watchlist Argus-IA
 
-> **Date :** 2026-05-27
+> **Date :** 2026-05-28
 > **Tickers scannés :** 26
 > **Événements détectés :** 26
 
@@ -10,15 +10,14 @@
 
 | Ticker | Type | Date | Jours | Détail | Source |
 |--------|------|------|-------|--------|--------|
-| IREN | earnings | 2026-05-27 | 0j | Earnings ... | fmp |
-| SQ | earnings | 2026-05-27 | 0j | Earnings ... | fmp |
-| TEST | earnings | 2026-05-27 | 0j | Earnings ... | fmp |
-| FUBO | earnings | 2026-05-27 | 0j | Earnings ... | fmp |
-| A | earnings | 2026-05-27 | 0j | Earnings date — Est EPS $1.39-$1.42, Rev $1.8B... | yfinance |
-| AST | earnings | 2026-05-27 | 0j | Earnings ... | fmp |
-| AXA | earnings | 2026-05-27 | 0j | Earnings ... | fmp |
-| SPCX | earnings | 2026-05-27 | 0j | Earnings ... | fmp |
-| QTBS | earnings | 2026-05-27 | 0j | Earnings ... | fmp |
+| SQ | earnings | 2026-05-28 | 0j | Earnings ... | fmp |
+| TEST | earnings | 2026-05-28 | 0j | Earnings ... | fmp |
+| FUBO | earnings | 2026-05-28 | 0j | Earnings ... | fmp |
+| A | earnings | 2026-05-28 | 0j | Earnings ... | fmp |
+| AST | earnings | 2026-05-28 | 0j | Earnings ... | fmp |
+| AXA | earnings | 2026-05-28 | 0j | Earnings ... | fmp |
+| SPCX | earnings | 2026-05-28 | 0j | Earnings ... | fmp |
+| QTBS | earnings | 2026-05-28 | 0j | Earnings ... | fmp |
 
 ---
 
@@ -34,7 +33,7 @@
 
 | Ticker | Type | Date | Jours | Détail | Source |
 |--------|------|------|-------|--------|--------|
-| MU | earnings | 2026-06-24 | 28j | Earnings date — Est EPS $7.53-$23.00, Rev $33.7B... | yfinance |
+| MU | earnings | 2026-06-24 | 27j | Earnings date — Est EPS $7.53-$23.00, Rev $33.7B... | yfinance |
 
 ---
 

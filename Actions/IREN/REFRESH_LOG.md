@@ -835,3 +835,23 @@ Données strictement inchangées vs snapshot 10:00 UTC du 2026-05-26 (cours $56.
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-05-28 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (high) : Gap +13.48% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 8.53% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-28 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (high) : Gap +13.48% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 8.53% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

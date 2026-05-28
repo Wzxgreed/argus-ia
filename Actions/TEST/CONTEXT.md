@@ -1,4 +1,4 @@
-# CONTEXT — TEST — Dernière mise à jour : 2026-05-27
+# CONTEXT — TEST — Dernière mise à jour : 2026-05-28
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -30,26 +30,26 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-27** · earnings · Earnings ...
+- **2026-05-28** · earnings · Earnings ...
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 62.24
-- **MM 50j :** 43.55
+- **RSI 14j :** 62.91
+- **MM 50j :** 43.35
 - **MM 200j :** —
-- **ATR 14j :** 1.31
-- **Volume moy. 20j :** 1926
+- **ATR 14j :** 1.32
+- **Volume moy. 20j :** 1925
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-27
+- **Date :** 2026-05-28
 - **Type :** preview
-- **Fichier :** `TEST_2026-05-27_preview.md`
-- **Conclusion :** > **Date :** 2026-05-27
+- **Fichier :** `TEST_2026-05-28_preview.md`
+- **Conclusion :** > **Date :** 2026-05-28
 
 ---
 
