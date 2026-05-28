@@ -58,7 +58,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-05-28** · earnings · Earnings ...
+- Aucun événement à venir.
 
 ---
 
