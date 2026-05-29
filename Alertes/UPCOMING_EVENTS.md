@@ -1,8 +1,8 @@
 # 🔭 Événements à venir — Watchlist Argus-IA
 
 > **Date :** 2026-05-29
-> **Tickers scannés :** 26
-> **Événements détectés :** 26
+> **Tickers scannés :** 27
+> **Événements détectés :** 27
 
 ---
 
@@ -17,6 +17,7 @@
 | AXA | earnings | 2026-05-29 | 0j | Earnings ... | fmp |
 | SPCX | earnings | 2026-05-29 | 0j | Earnings ... | fmp |
 | QTBS | earnings | 2026-05-29 | 0j | Earnings ... | fmp |
+| ASTSPACE | earnings | 2026-05-29 | 0j | Earnings ... | fmp |
 
 ---
 
