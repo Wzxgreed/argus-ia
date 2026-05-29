@@ -203,3 +203,21 @@
 - **Action :** DRAFT_refresh supprimé (`SOFI_2026-05-19_DRAFT_refresh.md`). Pas de réécriture de `_init.md` requise — la thèse du 2026-05-17 reste valide.
 
 ---
+
+## 2026-05-29 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +8.37% overnight (seuil ±5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-29 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +9.19% overnight (seuil ±5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
