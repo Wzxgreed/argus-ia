@@ -1,4 +1,4 @@
-# CONTEXT — NOK — Dernière mise à jour : 2026-05-29
+# CONTEXT — NOK — Dernière mise à jour : 2026-05-30
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -51,20 +51,20 @@ Double gap haussier consécutif : +9.1% (25/05, close $15.47) puis +6.40% (26/05
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 61.13
+- **RSI 14j :** 61.3
 - **MM 50j :** 11.37
 - **MM 200j :** —
 - **ATR 14j :** 1.01
-- **Volume moy. 20j :** 117228174
+- **Volume moy. 20j :** 117493570
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-29
+- **Date :** 2026-05-30
 - **Type :** full refresh
-- **Fichier :** `NOK_2026-05-29_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-05-29
+- **Fichier :** `NOK_2026-05-30_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-05-30
 
 ---
 

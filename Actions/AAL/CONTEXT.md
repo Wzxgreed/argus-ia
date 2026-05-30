@@ -1,4 +1,4 @@
-# CONTEXT — AAL — Dernière mise à jour : 2026-05-29
+# CONTEXT — AAL — Dernière mise à jour : 2026-05-30
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -51,11 +51,11 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 63.76
+- **RSI 14j :** 64.11
 - **MM 50j :** 12.04
 - **MM 200j :** —
 - **ATR 14j :** 0.6
-- **Volume moy. 20j :** 65332745
+- **Volume moy. 20j :** 65491030
 
 ---
 

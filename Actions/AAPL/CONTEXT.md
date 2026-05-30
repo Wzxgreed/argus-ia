@@ -1,4 +1,4 @@
-# CONTEXT — AAPL — Dernière mise à jour : 2026-05-29
+# CONTEXT — AAPL — Dernière mise à jour : 2026-05-30
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -36,11 +36,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 84.25
+- **RSI 14j :** 84.28
 - **MM 50j :** 275.11
 - **MM 200j :** —
 - **ATR 14j :** 4.97
-- **Volume moy. 20j :** 47222353
+- **Volume moy. 20j :** 49062120
 
 ---
 
