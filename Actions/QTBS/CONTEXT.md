@@ -1,4 +1,4 @@
-# CONTEXT — QTBS — Dernière mise à jour : 2026-05-30
+# CONTEXT — QTBS — Dernière mise à jour : 2026-05-31
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -41,7 +41,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-01** · earnings · Earnings ...
+- **2026-05-31** · earnings · Earnings ...
 
 ---
 
@@ -57,10 +57,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-30
+- **Date :** 2026-05-31
 - **Type :** preview
-- **Fichier :** `QTBS_2026-05-30_preview.md`
-- **Conclusion :** > **Date :** 2026-05-30
+- **Fichier :** `QTBS_2026-05-31_preview.md`
+- **Conclusion :** > **Date :** 2026-05-31
 
 ---
 
