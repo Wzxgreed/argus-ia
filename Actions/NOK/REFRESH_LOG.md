@@ -1085,3 +1085,21 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-05-31 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-05-31 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
