@@ -6,9 +6,9 @@
 
 ## 🎯 Thèse courante
 
-**Thèse :** 🔴 **INVALIDÉE PAR L'ABSENCE DE DONNÉES — ANOMALIE STRUCTURELLE PERSISTANTE**
+**Thèse :** 🔴 **INVALIDÉE PAR L'ABSENCE DE DONNÉES — DOUBLE CORRECTION PROXY ASTS CONFIRMÉE, ÉPUISEMENT VENDEUR EN SÉANCE PM**
 
-ASTSPACE n'est pas évaluable en l'état. Le ticker est probablement un **doublon erroné d'ASTS** (AST SpaceMobile — NASDAQ). Aucune donnée de marché n'est disponible depuis >4 snapshots consécutifs (erreur Yahoo : *No price history*). Le scoring agent (55,2/100, ATTENDRE) est un placeholder algorithmique sans fondement. Toute exposition space / telecom satellite doit être redirigée vers **ASTS**, ticker validé avec données complètes.
+ASTSPACE n'est pas évaluable en l'état. Le ticker est probablement un **doublon erroné d'ASTS** (AST SpaceMobile — NASDAQ). Aucune donnée de marché n'est disponible depuis >5 snapshots consécutifs (erreur Yahoo : *No price history*). Le scoring agent (55,2/100, ATTENDRE) est un placeholder algorithmique sans fondement. Toute exposition space / telecom satellite doit être redirigée vers **ASTS**, ticker validé avec données complètes. ASTS a clôturé à **$102,75** après une double correction (−14,79% AM / −9,40% PM) sur volume effondré en séance PM (0,67× moyenne 20j), signalant un épuisement vendeur. RSI normalisé à **60,09** (vs 83,14 le 31/05). Score agent ASTS upgrade de 38,5 à **43,8/100** (SURVEILLER, ajusté 48,8).
 
 **Recommandation opérationnelle :**
 - Supprimer ASTSPACE de `config/watchlist.json` ou le marquer `excluded`
