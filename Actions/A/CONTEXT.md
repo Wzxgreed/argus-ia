@@ -8,21 +8,21 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ATTENDRE · Direction Neutre
-**Score Global :** 62.5/100 (ajusté **60.0**)
-**Prix cible desk :** $149.72 (TP ATR-based) / $163.82 (consensus analystes)
-**Stop-loss :** $126.07
+**Score Global :** 62.5/100 (ajusté **52.5**)
+**Prix cible desk :** $148.40 (TP ATR-based) / $163.82 (consensus analystes)
+**Stop-loss :** $125.39
 **Horizon :** 1–3 mois
-**Statut thèse :** 🟡 **Confirmée mais modifiée** — beat Q2 2026 validé par gap +17.3% ($115.58 → $135.53) sur volume 1.90×. RSI 78.65 (surachat extrême), forward P/E 20.5× (+16.5%). **Correction données options (snapshot 13h UTC) :** max pain $130, put/call 1.58, call OI 38.7% — structure normalisée, ancrage réaliste. Le malus euphorie options erroné (−10 pts) est retiré. Score Global ajusté **60.0** — limite basse zone ATTENDRE. Entrée initiale laminée ; attendre pullback $126–$130 ou consolidation RSI <65.
+**Statut thèse :** 🟡 **Confirmée mais modifiée** — consolidation post-gap +17.3% sur volume effondré 0.31× ($135.53 → $134.60, −0.69%). RSI 86.69 (surachat extrême approfondi, +8 pts vs 13h). Options inchangées (max pain $130, put/call 1.58, call OI 38.7%). Score Global ajusté **52.5** — limite basse zone ATTENDRE. Aucune mutation fondamentale. Entrée initiale laminée ; attendre pullback $126–$130 ou consolidation RSI <65.
 
-**Synthèse :** Agilent a confirmé sa qualité fondamentale par un beat/guidance-up Q2 2026 spectaculaire (gap +17.3%). Le Filtre Qualité 5/6 est maintenu, le consensus $163.82 laisse un upside +20.9%, et le volume 1.90× confirme la légitimité du mouvement. Les données options corrigées retirent le scénario de surchauffe extrême (call OI 96.5% erroné). Le setup technique reste défavorable : RSI 79, ATR $4.73 (+45%), cours à +17% de la MM50. La fenêtre d'entrée optimale ($115–$116, forward P/E 17.6×) est fermée. La thèse reste haussière de fond mais neutre de timing — **ATTENDRE** une consolidation ou un retracement avant toute nouvelle position. Flag `stale_price_history` persistant — valider les données en live avant exécution.
+**Synthèse :** Agilent a confirmé sa qualité fondamentale par un beat/guidance-up Q2 2026 spectaculaire (gap +17.3%). Le Filtre Qualité 5/6 est maintenu, le consensus $163.82 laisse un upside +21.7%. La structure options reste normalisée (max pain $130, put/call 1.58, call OI 38.7%). Le setup technique s'est dégradé entre 13h et 17h : RSI 86.69 (+8 pts, surachat extrême approfondi), volume effondré à 0.31× (814K vs moy. 2.61M), ATR $4.60. Le micro-repli −0.69% sur volume désert confirme une consolidation sans conviction. Le Score Global ajusté recule à **52.5** (malus timing technique renforcé, limite basse zone ATTENDRE). La fenêtre d'entrée optimale ($115–$116) est fermée. La thèse reste haussière de fond mais neutre de timing — **ATTENDRE** une consolidation ou un retracement avant toute nouvelle position.
 
 ---
 
 ## 📜 Historique des analyses
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $126.07
-- **Statut thèse :** validée
+- **Score global :** 62.5/100 (ajusté 52.5)
+- **Prix cible :** $148.40
+- **Stop-loss :** $125.39
+- **Statut thèse :** confirmée mais modifiée
 - **Horizon :** 1–3 mois
 
 ---
@@ -58,17 +58,17 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **2026-08-26** · Earnings Q3 2026 · Est EPS $1.48–$1.51, Rev $1.8B · J+86
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 87.05
+- **RSI 14j :** 86.69
 - **MM 50j :** 116.28
 - **MM 200j :** —
-- **ATR 14j :** 4.6
-- **Volume moy. 20j :** 2599064
+- **ATR 14j :** 4.60
+- **Volume moy. 20j :** 2606366
 
 ---
 
@@ -77,7 +77,7 @@
 - **Date :** 2026-06-01
 - **Type :** update
 - **Fichier :** `A_2026-06-01_update.md`
-- **Conclusion :** > **Date :** 2026-06-01 · Snapshot 13:00 UTC
+- **Conclusion :** Consolidation post-gap +17.3% sur volume effondré 0.31× ($135.53 → $134.60, −0.69%). RSI 86.69 (surachat extrême approfondi, +8 pts vs 13h). Options inchangées. Score Global ajusté **52.5** — limite basse zone ATTENDRE. Aucune mutation fondamentale. SL/TP $125.39/$148.40.
 
 ---
 
