@@ -35,13 +35,13 @@ Thèse d'investissement : FUBO est un titre spéculatif du secteur Communication
 
 ## Alertes actives
 - **PRICE_GAP** (medium) — Gap +6.67% overnight (seuil ±5.0%) — 2026-05-25
-- **ATR_SPIKE** (medium) — ATR relatif 6,51% (seuil 5,0%) — persistant depuis 2026-05-17
-- **RSI SURVENTE EXTRÊME RÉSOLUE** — RSI 43.35 (sortie du seuil 30) — 2026-05-27 17:00 UTC
-- **Earnings Q1 2026 en attente** — anomalie calendrier : `upcoming_events_latest.json` place l'earnings au **2026-05-27** (jour J), mais aucun résultat visible dans `data/latest.json` au snapshot 17:00 UTC — [ANOMALIE J+8 NON RÉSOLU]
-- **Divergence Yahoo/FMP Market Cap** — ×11,2 d'écart entre sources ($293,5M vs ~$3,27B)
-- **Sector Rotation XLC Bottom 3** — malus sectoriel actif (snapshot 2026-05-27 : momentum score 0.0 / 10)
-- **Options Spot/Max Pain Compression** — spot $9.97 vs max pain $10.00 (écart −0.3%, vs −4.8% à 13:00 UTC) ; call OI dominant 66,3%
-- **Liquidité réduite** — volume 0.64× moyenne 20j (920k vs 1,43M) — risque de slippage majeur
+- **ATR_SPIKE** (medium) — ATR relatif 5.35% (seuil 5,0%) — persistant depuis 2026-05-17
+- **RSI PROGRESSION** — RSI 47.2 (progression continue depuis la survente extrême 21.08 le 26/05) — 2026-06-01
+- **Earnings Q1 2026 en attente** — anomalie calendrier : `upcoming_events_latest.json` place l'earnings au **2026-06-01** (jour J), mais aucun résultat visible dans `data/latest.json` au snapshot 10:00 UTC — [ANOMALIE PERSISTANTE]
+- **Divergence Yahoo/FMP Market Cap** — ×11,0 d'écart entre sources ($297,0M vs ~$3,27B)
+- **Sector Rotation XLC Bottom 3** — malus sectoriel actif (snapshot 2026-06-01 : momentum score 0.0 / 10, signal ROTATION_TO_DEFENSIVE)
+- **Données Options Corrompues** — max pain aberrant $3.00 (vs spot $10.09), put/call et call OI null suite au rollover d'échéance 2026-06-05 ; valeurs historiques de référence : max pain $10.00, put/call 0.51, call OI 66.3%
+- **Explosion de Volume** — volume 1.31× moyenne 20j (1,94M vs 1,48M) — signal notable, interprété comme distribution sur recul séance
 - **Qualité dégradée** — Score Qualité 1/6, patrimoine net négatif, FCF négatif
-- **Short Squeeze Setup (latent)** — short interest 22,84% + call OI dominant 66,3% = risque de squeeze technique si catalyseur positif
-- **Agent Downgrade** — scoring agent 64.2/100 ACHETER Réduit → 66.0/100 (ajusté 58.0/100) ATTENDRE
+- **Short Squeeze Setup (latent, intensifié)** — short interest **25.03%** (+2.19 pp) + call OI historique dominant 66.3% = risque de squeeze technique si catalyseur positif
+- **Agent Stable ATTENDRE** — scoring agent 67.2/100 (ajusté 59.2/100), Score Momentum 4.5/10
