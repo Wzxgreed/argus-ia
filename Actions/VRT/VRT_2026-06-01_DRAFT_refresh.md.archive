@@ -1,0 +1,177 @@
+# VRT — FULL REFRESH (Événement Majeur)
+
+> **Date :** 2026-06-01
+> **Statut :** 🔴 FULL REFRESH — Thèse précédente potentiellement obsolète
+> **Type :** Rafraîchissement complet (pas une simple mise à jour)
+
+---
+
+## 🚨 Triggers détectés
+
+- **ATR_SPIKE** (medium) — ATR relatif 6.17% (seuil 5.0%)
+
+---
+
+## 📜 Thèse précédente (à comparer)
+
+# VRT — Dossier d'analyse
+
+**Secteur :** Infrastructure IA / Hardware (Industrials)
+**Bourse :** NYSE
+**Priorité watchlist :** 🟡 Moyenne
+
+---
+
+## Historique des analyses
+
+| Date | Type | Fichier | Résumé |
+|------|------|---------|--------|
+| 2026-05-17 | Analyse initiale | [VRT_2026-05-17_init.md](./VRT_2026-05-17_init.md) | Quality Compounder 5–6/6. Score 5.43/10. SURVEILLER. Valorisation extrême (P/E 93, EV/EBITDA 60), put/call 3.41 bearish extrême. Attendre pullback |
+| 2026-05-17 | Post-earnings | [VRT_2026-05-17_earnings.md](./VRT_2026-05-17_earnings.md) | Earnings Reviewer Q1 2026. Variance table, NLP management, estimate revisions, valuation update, catalysts forward |
+| 2026-05-18 | Mise à jour quotidienne (20:54 UTC) | [VRT_2026-05-18_update.md](./VRT_2026-05-18_update.md) | **Ga
+
+---
+
+## 1. Synthèse Exécutive (à réviser intégralement)
+
+**Verdict rapide :** [À COMPLÉTER — Achat / Neutre / Vente / Surveiller]
+**Prix cible révisé :** $XX.XX (upside/downside XX%)
+**Score Opportunité révisé :** X.X/10
+**Horizon :** [À COMPLÉTER]
+
+> ⚠️ **Cette section doit expliquer si les triggers ci-dessus confirment, modifient ou invalident la thèse précédente.**
+
+---
+
+## 2. Bloc Prix & Technique (données actuelles)
+
+| Métrique | Valeur | Source |
+|----------|--------|--------|
+| Cours close | $315.71 | Yahoo Finance |
+| Change % | 0.49% | Yahoo Finance |
+| Volume | 7,218,800 | Yahoo Finance |
+| Volume vs 20j | 1.3× | Calcul |
+| RSI 14j | 40.3 | Calcul agent |
+| ATR 14j | 19.49 | Calcul agent |
+| MM 50j | 307.36 | Calcul agent |
+| MM 200j | None | Calcul agent |
+| Golden Cross | None | Calcul agent |
+
+**Niveaux clés :**
+- Support : $XX.XX [À COMPLÉTER]
+- Résistance : $XX.XX [À COMPLÉTER]
+- Stop-loss ATR (2×) : $XX.XX [À COMPLÉTER]
+
+**Verdict timing :** [Favorable / Neutre / Défavorable — À COMPLÉTER]
+
+---
+
+## 3. Bloc Fondamental (données actuelles)
+
+| Métrique | Valeur | Source |
+|----------|--------|--------|
+| Market Cap | 121,266,987,008 | Yahoo Finance |
+| P/E (TTM) | 79.32412 | Yahoo Finance |
+| Forward P/E | 35.726772 | Yahoo Finance |
+| Beta | 2.099 | Yahoo Finance |
+| Secteur | Industrials | Yahoo Finance |
+| **FMP Consensus PT** | 264.35 (46 analysts) | FMP Stable API |
+| **FMP ROE** | None | FMP Stable API |
+| **FMP Gross Margin** | 0.3435810711737163 | FMP Stable API |
+| **FMP EV/EBITDA** | 28.797692439159412 | FMP Stable API |
+
+**Filtre Qualité (6 critères) :**
+| Critère | Score | Justification |
+|---------|-------|---------------|
+| Revenue CAGR 5 ans ≥ 20% | [Oui/Non] | [À COMPLÉTER] |
+| Profit CAGR 5 ans ≥ 20% | [Oui/Non] | [À COMPLÉTER] |
+| Assets/Liabilities > 1.0 | [Oui/Non] | [À COMPLÉTER] |
+| FCF positif et croissant 5 ans | [Oui/Non] | [À COMPLÉTER] |
+| Avantage compétitif (moat) | [Oui/Non] | [À COMPLÉTER — l'event change-t-il le moat ?] |
+| Industrie forte croissance (TAM ×5) | [Oui/Non] | [À COMPLÉTER] |
+| **Score Qualité total** | X/6 | |
+
+> ⚠️ **L'événement majeur peut avoir changé la structure fondamentale. Réévaluer chaque critère.**
+
+---
+
+## 4. Bloc Market Researcher (à réactualiser)
+
+**TAM :** $XXB [À COMPLÉTER — l'event élargit-il le TAM ?]
+
+**Peers principaux :**
+| Peer | Market Cap | P/E | EV/EBITDA | Commentaire |
+|------|-----------|-----|-----------|-------------|
+| [Peer 1] | — | — | — | [À COMPLÉTER] |
+| [Peer 2] | — | — | — | [À COMPLÉTER] |
+| [Peer 3] | — | — | — | [À COMPLÉTER] |
+
+**Position concurrentielle :** [À COMPLÉTER — l'event renforce-t-il le positionnement ?]
+
+---
+
+## 5. Bloc Macro (réactualisé)
+
+**Régime macro actuel :** [Lire data/latest.json → macro.regime]
+**Exposition sectorielle :**
+- Sensibilité taux 10 ans : [+1% taux → -X% cours — À COMPLÉTER]
+- Sensibilité pétrole : [+$10/bbl → +X% cours — À COMPLÉTER]
+- Sensibilité DXY : [+5% DXY → -X% cours — À COMPLÉTER]
+
+**Verdict Macro :** [Favorable / Neutre / Défavorable — À COMPLÉTER]
+
+---
+
+## 6. Bloc Géopolitique (réactualisé)
+
+**Score Politique :** [Lire data/geo_risk_latest.json — À COMPLÉTER]
+**Exposition :**
+- Revenus géo : [À COMPLÉTER — l'event change-t-il l'exposition géographique ?]
+- Supply chain : [À COMPLÉTER]
+
+---
+
+## 7. Bloc Sentiment (réactualisé)
+
+| Signal | Valeur | Source |
+|--------|--------|--------|
+| Consensus analystes (FMP) | 264.35 (46 analysts) | FMP |
+| Put/Call ratio | None | Yahoo |
+| Max pain | 160.0 | Yahoo |
+
+**Verdict Sentiment :** [Bullish / Neutre / Bearish — À COMPLÉTER]
+
+---
+
+## 8. Synthèse & Recommandation (à réécrire)
+
+**Thèse d'investissement révisée (1 paragraphe) :**
+[À COMPLÉTER — la thèse précédente est-elle toujours valide ? Qu'a changé l'événement ?]
+
+**Catalyseurs forward :**
+| Catalyst | Timeline | Probabilité | Impact |
+|----------|----------|-------------|--------|
+| [Catalyst 1] | QX 20XX | XX% | [À COMPLÉTER] |
+| [Catalyst 2] | 20XX | XX% | [À COMPLÉTER] |
+
+**Risques clés :**
+1. [À COMPLÉTER — risque lié à l'événement détecté]
+2. [À COMPLÉTER]
+3. [À COMPLÉTER]
+
+---
+
+## ⚡ INSTRUCTION POUR L'AGENT LLM
+
+Cet analyse est un **FULL REFRESH** déclenché par `agents/detect_major_events/agent.py`.
+**Mission :**
+1. Comparer cette analyse avec la thèse précédente (section 📜 ci-dessus)
+2. Déterminer si l'événement majeur **confirme, modifie ou invalide** la thèse
+3. Recalculer le Filtre Qualité 6 critères (l'événement peut changer le moat, le TAM, etc.)
+4. Réviser le prix cible et le Score Opportunité
+5. Sauvegarder le fichier complété sous `Actions/VRT/VRT_2026-06-01_init.md`
+6. **Mettre à jour `INDEX.md`** avec la nouvelle thèse courante et un lien vers l'ancienne
+7. **Logger dans `Actions/VRT/REFRESH_LOG.md`** la date, les triggers, et la conclusion (confirm/modify/invalidate)
+8. **Renommer le DRAFT_refresh** en `_DRAFT_refresh.md` (archive)
+
+**Règle absolue :** utiliser EXCLUSIVEMENT les chiffres de `data/latest.json`. Ne jamais "deviner".

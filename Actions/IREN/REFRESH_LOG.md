@@ -1133,3 +1133,30 @@ Données strictement inchangées vs snapshot 10:00 UTC du 2026-05-26 (cours $56.
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-05-31 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 8.28% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-01 — Full Refresh Complété
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 8.28% (seuil 5.0%)
+
+**Conclusion :** confirm — trigger ATR_SPIKE persistant depuis le 2026-05-20 (artefact de volatilité historique), pas de nouvel événement majeur. Données : cours $63.54 (−4.05% vs 27/05), RSI 52.36, ATR $5.26, MM50 $47.77. Forward P/E détérioré −67.60×. Score Opportunité 4.8/10, Score Global ajusté 53.0/100. Action ATTENDRE maintenue. Upside consensus restauré +4.8% ($66.61). Short Interest −2.15 pts à 14.72%. Anomalie Max Pain $20.00 (probable erreur). Aucun flux post-earnings Q1 2026 intégré. DRAFT_refresh complété et archivé (_ARCHIVED_DRAFT_refresh_2026-06-01_1.md). Fichier de référence : [IREN_2026-06-01_update.md](IREN_2026-06-01_update.md).
+
+---
+
+## 2026-06-01 — Full Refresh Triggered (duplicata)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 8.28% (seuil 5.0%) — duplicata
+
+**Conclusion :** confirm — duplicata du FULL REFRESH complété précédemment ce jour. Données strictement inchangées. DRAFT_refresh archivé.
+
+---

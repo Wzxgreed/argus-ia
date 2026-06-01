@@ -1,4 +1,4 @@
-# CONTEXT — IREN — Dernière mise à jour : 2026-05-31
+# CONTEXT — IREN — Dernière mise à jour : 2026-06-01
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
+- **Recommandation :** ATTENDRE
+- **Score global :** 53.0/100
+- **Prix cible :** $66.61 (consensus FMP, 23 analysts)
+- **Stop-loss :** $53.02 (2×ATR)
+- **Statut thèse :** confirmée
 - **Horizon :** —
 
 ---
@@ -35,7 +35,7 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings Q2 2026 — 2026-08-27 — ⏳ 87 jours
 
 ---
 
@@ -46,21 +46,24 @@
 - **MM 200j :** —
 - **ATR 14j :** 5.26
 - **Volume moy. 20j :** 57653795
+- **Cours close :** 63.54
+- **52W high :** 76.87
+- **52W low :** 8.315
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-31
-- **Type :** full refresh
-- **Fichier :** `IREN_2026-05-31_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-05-31
+- **Date :** 2026-06-01
+- **Type :** update
+- **Fichier :** `IREN_2026-06-01_update.md`
+- **Conclusion :** Thèse ATTENDRE confirmée. Retrait −4.05% à $63.54 (consolidation post-sommet $66.29). Forward P/E détérioré −67.60×. Score Global 53.0/100. Upside consensus restauré +4.8% ($66.61). Short Interest −2.15 pts. Anomalie Max Pain $20.00 [à vérifier]. Aucun flux post-earnings Q1 2026 intégré. Prochain earnings Q2 2026 le 2026-08-27.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 8.28% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 8.28% (seuil 5.0%) — trigger persistant depuis le 2026-05-20, pas de nouvel événement majeur
 
 ---
 
