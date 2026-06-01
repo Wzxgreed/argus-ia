@@ -1187,7 +1187,7 @@
 - price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Modifiee en intensite — retournement attendu materialise. Cours corrige de $60.32 a $46.49 (-22.9%). RSI sorti du surachat extreme (57.87). Volume explosion 22.3M (2.51x). Agent EVITER (31.2) → SURVEILLER (45.8). Filtre Qualite 2/6 inchange, fondamentaux inchanges. Full Refresh complete sous `FLY_2026-06-01_init.md`. Update complementaire `FLY_2026-06-01_update.md`. DRAFT_refresh archive. — *Fichier : FLY_2026-06-01_init.md / FLY_2026-06-01_update.md*
 
 ---
 
@@ -1197,6 +1197,6 @@
 - price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Traitee dans l'entree precedente. Donnees identiques. DRAFT_refresh archive.
 
 ---
