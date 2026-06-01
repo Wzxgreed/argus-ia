@@ -25,7 +25,8 @@ ASTSPACE n'est pas évaluable en l'état. Le ticker est probablement un **doublo
 | 2026-05-30 | `ASTSPACE_2026-05-30_preview.md` | Preview earnings | Template vide — données indisponibles |
 | 2026-05-31 | `ASTSPACE_2026-05-31_preview.md` | Preview earnings | Template vide — données indisponibles |
 | 2026-06-01 | `ASTSPACE_2026-06-01_preview.md` | Preview earnings | Template vide — données indisponibles |
-| **2026-06-01** | **`ASTSPACE_2026-06-01_update.md`** | **Update matin** | **Thèse INVALIDÉE — anomalie structurelle persistante** |
+| 2026-06-01 | `ASTSPACE_2026-06-01_update.md` | Update matin (10h) | Thèse INVALIDÉE — anomalie structurelle persistante |
+| **2026-06-01** | **`ASTSPACE_2026-06-01_update.md`** | **Update PM (17h)** | **Double correction proxy ASTS confirmée, épuisement vendeur PM** |
 
 ---
 
