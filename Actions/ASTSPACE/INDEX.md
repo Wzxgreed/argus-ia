@@ -6,14 +6,14 @@
 
 ## 🎯 Thèse courante
 
-**Thèse :** 🔴 **INVALIDÉE PAR L'ABSENCE DE DONNÉES — DOUBLE CORRECTION PROXY ASTS CONFIRMÉE, ÉPUISEMENT VENDEUR EN SÉANCE PM**
+**Thèse :** 🔴 **INVALIDÉE PAR L'ABSENCE DE DONNÉES — REBOND TECHNIQUE PROXY ASTS +2,82% À $105,65, DIVERGENCE CONSENSUS RE-CREUSÉE**
 
-ASTSPACE n'est pas évaluable en l'état. Le ticker est probablement un **doublon erroné d'ASTS** (AST SpaceMobile — NASDAQ). Aucune donnée de marché n'est disponible depuis >5 snapshots consécutifs (erreur Yahoo : *No price history*). Le scoring agent (55,2/100, ATTENDRE) est un placeholder algorithmique sans fondement. Toute exposition space / telecom satellite doit être redirigée vers **ASTS**, ticker validé avec données complètes. ASTS a clôturé à **$102,75** après une double correction (−14,79% AM / −9,40% PM) sur volume effondré en séance PM (0,67× moyenne 20j), signalant un épuisement vendeur. RSI normalisé à **60,09** (vs 83,14 le 31/05). Score agent ASTS upgrade de 38,5 à **43,8/100** (SURVEILLER, ajusté 48,8).
+ASTSPACE n'est pas évaluable en l'état. Le ticker est probablement un **doublon erroné d'ASTS** (AST SpaceMobile — NASDAQ). Aucune donnée de marché n'est disponible depuis >29 snapshots consécutifs (erreur Yahoo : *No price history*). Le scoring agent (55,2/100, ATTENDRE) est un placeholder algorithmique sans fondement. Toute exposition space / telecom satellite doit être redirigée vers **ASTS**, ticker validé avec données complètes. ASTS a clôturé à **$105,65** après une double correction (−14,79% AM / −9,40% PM jusqu'à $102,75) suivie d'un rebond technique de +2,82% en soirée sur volume normalisé (1,00× moyenne 20j). RSI remonté légèrement à **61,89** (vs 60,09 à 17h). Score agent ASTS downgradé de 43,8 à **39,8/100** (SURVEILLER, ajusté 44,8), reflétant la re-détérioration de la divergence consensus (+11,75%).
 
 **Recommandation opérationnelle :**
 - Supprimer ASTSPACE de `config/watchlist.json` ou le marquer `excluded`
 - Ne pas engager de capital
-- Surveiller ASTS ($113,41, −14,79%) comme proxy
+- Surveiller ASTS ($105,65, rebond +2,82%) comme proxy
 
 ---
 
@@ -25,8 +25,7 @@ ASTSPACE n'est pas évaluable en l'état. Le ticker est probablement un **doublo
 | 2026-05-30 | `ASTSPACE_2026-05-30_preview.md` | Preview earnings | Template vide — données indisponibles |
 | 2026-05-31 | `ASTSPACE_2026-05-31_preview.md` | Preview earnings | Template vide — données indisponibles |
 | 2026-06-01 | `ASTSPACE_2026-06-01_preview.md` | Preview earnings | Template vide — données indisponibles |
-| 2026-06-01 | `ASTSPACE_2026-06-01_update.md` | Update matin (10h) | Thèse INVALIDÉE — anomalie structurelle persistante |
-| **2026-06-01** | **`ASTSPACE_2026-06-01_update.md`** | **Update PM (17h)** | **Double correction proxy ASTS confirmée, épuisement vendeur PM** |
+| **2026-06-01** | **`ASTSPACE_2026-06-01_update.md`** | **Update soir (21h)** | **Rebond proxy ASTS +2,82% à $105,65, divergence consensus re-creusée** |
 
 ---
 

@@ -11,7 +11,7 @@
 - **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** validée
+- **Statut thèse :** invalidée
 - **Horizon :** —
 
 ---
@@ -24,13 +24,14 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- **ANOMALIE STRUCTURELLE** : ASTSPACE probablement un doublon erroné d'ASTS — aucune donnée de cours depuis >29 snapshots
+- **DATA BLACKOUT** : `No price history` persistant depuis le 2026-05-29
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-06-01** · earnings · Earnings ...
+- **2026-06-01** · earnings · Earnings ASTSPACE (placeholder glissant non résolu)
 
 ---
 
@@ -49,7 +50,7 @@
 - **Date :** 2026-06-01
 - **Type :** update
 - **Fichier :** `ASTSPACE_2026-06-01_update.md`
-- **Conclusion :** > **Date :** 2026-06-01
+- **Conclusion :** ASTSPACE non évaluable. Proxy ASTS rebounded +2,82% à $105,65 sur volume normalisé (1,00×). RSI 61,89. Score agent downgradé 39,8/100 (SURVEILLER, ajusté 44,8). Divergence consensus re-creusée à +11,75%. Anomalie structurelle persistante.
 
 ---
 
