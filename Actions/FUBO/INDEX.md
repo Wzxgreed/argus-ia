@@ -36,14 +36,14 @@ Thèse d'investissement : FUBO est un titre spéculatif du secteur Communication
 - Prochaine échéance earnings Q2 : ~août 2026
 
 ## Alertes actives
-- **PRICE_GAP** (medium) — Gap +6.67% overnight (seuil ±5.0%) — 2026-05-25
-- **ATR_SPIKE** (medium) — ATR relatif 5.35% (seuil 5,0%) — persistant depuis 2026-05-17
-- **RSI PROGRESSION** — RSI 47.2 (progression continue depuis la survente extrême 21.08 le 26/05) — 2026-06-01
-- **Earnings Q1 2026 en attente** — anomalie calendrier : `upcoming_events_latest.json` place l'earnings au **2026-06-01** (jour J), mais aucun résultat visible dans `data/latest.json` au snapshot 13:00 UTC — [ANOMALIE PERSISTANTE]
-- **Divergence Yahoo/FMP Market Cap** — ×11,0 d'écart entre sources ($297,0M vs ~$3,27B)
-- **Sector Rotation XLC Bottom 3** — malus sectoriel actif (snapshot 2026-06-01 : momentum score 0.0 / 10, signal ROTATION_TO_DEFENSIVE)
-- **Explosion de Volume** — volume 1.31× moyenne 20j (1,94M vs 1,48M) — signal notable, interprété comme distribution sur recul séance
+- **PRICE_GAP** (medium) — Gap +8.03% overnight (seuil ±5.0%) — 2026-06-01
+- **ATR_SPIKE** (medium) — ATR relatif 5.23% (seuil 5,0%) — persistant depuis 2026-05-17
+- **RSI PROGRESSION** — RSI 62.27 (franchissement zone neutre, progression continue depuis survente extrême 21.08 le 26/05) — 2026-06-01
+- **Earnings Q1 2026 en attente** — anomalie calendrier : `upcoming_events_latest.json` place l'earnings au **2026-06-01** (jour J), mais aucun résultat visible dans `data/latest.json` au snapshot 17:00 UTC — [ANOMALIE PERSISTANTE]
+- **Divergence Yahoo/FMP Market Cap** — ×10,2 d'écart entre sources ($320,8M vs ~$3,27B)
+- **Sector Rotation XLC Bottom 3** — malus sectoriel actif (snapshot 2026-06-01 : momentum score 0.0 / 10)
+- **Effondrement de Volume** — volume 0.58× moyenne 20j (820k vs 1,41M) — rally sans conviction institutionnelle
 - **Qualité dégradée** — Score Qualité 1/6, patrimoine net négatif, FCF négatif
 - **Short Squeeze Setup (latent, intensifié)** — short interest **25.03%** + call OI dominant 70.9% = risque de squeeze technique si catalyseur positif
-- **Agent Stable ATTENDRE** — scoring agent 67.2/100 (ajusté 59.2/100), Score Momentum 4.5/10
-- **Données Options Restaurées** — max pain $11.00 (cohérent), put/call 0.41, call OI 70.9% (structure haussière)
+- **Agent Upgrade ACHETER** — scoring agent 68.5/100 (ajusté 60.5/100), Score Momentum 5.0/10
+- **Données Options Cohérentes** — max pain $11.00, put/call 0.41, call OI 70.9% (structure haussière)
