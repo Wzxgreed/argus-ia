@@ -1,40 +1,40 @@
-# FUBO — Mise à Jour (2026-06-01, snapshot 13:00 UTC)
+# FUBO — Mise à Jour (2026-06-01, snapshot 17h UTC)
 
-> **Niveau d'impact :** 🟡 Modéré — **Données options restaurées** : max pain **$11.00**, put/call **0.41**, call OI **70.9%**. Cours stable **$10.09** (−3.26% vs previous close), RSI **47.2**, volume **1 942 000** (1.31× moy. 20j). Short interest stable **25.03%**. Scoring agent inchangé **ATTENDRE** (67.2/100, ajusté 59.2/100). Ajustement analyste inchangé **SURVEILLER (~46/100)**. Anomalie earnings Q1 persistante (FMP jour J 2026-06-01, aucun résultat visible). Anomalie options du snapshot 10h UTC **RÉSOLUE**.
-> **Référence précédente :** [FUBO_2026-06-01_update.md](FUBO_2026-06-01_update.md) (snapshot 10:00 UTC — close $10.09, RSI 47.2, volume 1.94M, données options corrompues max pain aberrant $3.00, put/call et call OI null)
+> **Niveau d'impact :** 🟡 Modéré — Cours **$10.90** (+8.03% vs previous close $10.09), RSI **62.27** (franchissement zone neutre, +15.1 pts vs 13h), volume **820 898** (0.58× moy. 20j, effondrement de liquidité), short interest stable **25.03%**. Agent upgrade **ACHETER Réduit** (68.5/100 ajusté 60.5/100) vs ATTENDRE (59.2/100) au snapshot 13h. Ajustement analyste inchangé **SURVEILLER (~48/100)**. Données options inchangées et cohérentes (max pain $11.00, put/call 0.41, call OI 70.9%). Anomalie earnings Q1 persistante (FMP jour J 2026-06-01, aucun résultat visible).
+> **Référence précédente :** [FUBO_2026-06-01_update.md](FUBO_2026-06-01_update.md) (snapshot 13:00 UTC — close $10.09, RSI 47.2, volume 1.94M, agent ATTENDRE 59.2/100)
 
 ---
 
-## 1. Résumé des Changements depuis l'Analyse Précédente (2026-06-01 10:00 UTC)
+## 1. Résumé des Changements depuis l'Analyse Précédente (2026-06-01 13:00 UTC)
 
-| Métrique | 2026-06-01 10:00 UTC | **2026-06-01 13:00 UTC** | Variation |
+| Métrique | 2026-06-01 13:00 UTC | **2026-06-01 17:00 UTC** | Variation |
 |---|---|---|---|
-| Cours close | $10.09 | **$10.09** | **Stable** (marché fermé 10h–13h UTC) |
-| Change % vs previous | −3.26% | **−3.26%** | **Stable** |
-| Volume séance | 1 942 000 | **1 942 000** | **Stable** |
-| Volume vs 20j | 1.31× | **1.31×** | **Stable** |
-| RSI 14j | 47.2 | **47.2** | **Stable** |
-| ATR 14j | $0.54 | **$0.54** | **Stable** |
-| MM 50j | $11.19 | **$11.19** | **Stable** |
-| Market Cap (Yahoo) | $297.0M | **$297.0M** | **Stable** |
-| P/E TTM (Yahoo) | 2.63x | **2.63x** | **Stable** |
-| Short Interest | 25.03% | **25.03%** | **Stable** |
-| **Max Pain (API)** | $3.00 (anomalie) | **$11.00** | **✅ RÉSOLU** |
-| **Put/Call Ratio (API)** | null | **0.41** | **✅ RÉSOLU** |
-| **Call OI % (API)** | null | **70.9%** | **✅ RÉSOLU** |
-| Échéance options | 2026-06-05 | **2026-06-05** | **Stable** |
-| **Score Global (agent)** | 67.2/100 | **67.2/100** | **Stable** |
-| **Score Global Ajusté (agent)** | 59.2/100 | **59.2/100** | **Stable** |
-| **Score Opportunité (agent)** | 6.7/10 | **6.7/10** | **Stable** |
-| **Score Momentum (agent)** | 4.5/10 | **4.5/10** | **Stable** |
-| **Recommandation (agent)** | ATTENDRE | **ATTENDRE** | **Stable** |
+| Cours close | $10.09 | **$10.90** | **+8.03%** 🔴 |
+| Change % vs previous | −3.26% | **+8.03%** | **Inversion haussière** |
+| Volume séance | 1 942 000 | **820 898** | **−57.7%** 🔴 |
+| Volume vs 20j | 1.31× | **0.58×** | **Effondrement de liquidité** |
+| RSI 14j | 47.2 | **62.27** | **+15.1 pts** — franchi zone neutre |
+| ATR 14j | $0.54 | **$0.57** | +5.6% |
+| MM 50j | $11.19 | **$11.13** | −0.5% |
+| Market Cap (Yahoo) | $297.0M | **$320.8M** | +8.0% (mouvement cours) |
+| P/E TTM (Yahoo) | 2.63x | **2.84x** | +8.0% |
+| Short Interest | 25.03% | **25.03%** | Stable |
+| Max Pain (API) | $11.00 | **$11.00** | Stable |
+| Put/Call Ratio (API) | 0.41 | **0.41** | Stable |
+| Call OI % (API) | 70.9% | **70.9%** | Stable |
+| Échéance options | 2026-06-05 | **2026-06-05** | J+4 |
+| **Score Global (agent)** | 67.2/100 | **68.5/100** | **+1.3 pt** |
+| **Score Global Ajusté (agent)** | 59.2/100 | **60.5/100** | **+1.3 pt** |
+| **Score Opportunité (agent)** | 6.7/10 | **6.8/10** | +0.1 pt |
+| **Score Momentum (agent)** | 4.5/10 | **5.0/10** | **+0.5 pt** |
+| **Recommandation (agent)** | ATTENDRE | **ACHETER** | **🔴 UPGRADE** |
 
 **Constats :**
-1. **Données options RESTAURÉES** — L'anomalie majeure du snapshot 10:00 UTC (max pain aberrant $3.00, put/call et call OI null) est **résolue** au snapshot 13:00 UTC. Les valeurs sont maintenant cohérentes : max pain **$11.00**, put/call **0.41**, call OI **70.9%**. Ce reset coïncide avec le rollover d'échéance (2026-06-05, J+4) et la stabilisation du flux de données après le passage au nouveau cycle.
-2. **Structure options haussière renforcée** — Put/call 0.41 est un niveau très faible (fort biais haussier du positionnement). Call OI 70.9% confirme la domination des calls. Le spot $10.09 se situe à **−8.3%** du max pain $11.00, signalant un potentiel de pinning haussier si le cours converge vers le max pain à l'approche de l'échéance J+4.
-3. **Aucun changement de cours/RSI/volume** — Entre 10:00 et 13:00 UTC, le marché US est fermé (ouverture 14:30 UTC). Les métriques techniques sont donc inchangées.
-4. **Short interest stable à 25.03%** — Niveau très élevé maintenu. Le setup short squeeze latent persiste avec 25% du float shorté + call OI dominant 70.9%.
-5. **Anomalie calendrier earnings persistante** : `data/upcoming_events_latest.json` (2026-06-01) place l'earnings au **2026-06-01** (jour J, `days_until: 0`). Aucun résultat Q1 n'est visible dans `data/latest.json` au snapshot 13:00 UTC. [ANOMALIE PERSISTANTE — J+? NON RÉSOLU]
+1. **Rally +8.03% sur volume effondré** — Le cours gagne $0.81 (+8.03%) pour clôturer à $10.90, mais le volume chute de 1.94M à 820k (−57.7%), soit 0.58× la moyenne 20j. Ce rally est interprété comme un **short-covering mécanique** (short interest 25.03%) ou un mouvement de convergence vers le max pain $11.00 (spot désormais à −0.9%), plutôt qu'une accumulation institutionnelle. Faible liquidité = faible conviction.
+2. **RSI franchi 50 à 62.27** — Sortie de la zone neutre-baisse avec une accélération notable (+15.1 pts en 4h). Le RSI approche la zone de surachat (70). Cependant, le niveau 62.27 reste sous 70, laissant une marge technique avant surachat.
+3. **Agent upgrade ATTENDRE → ACHETER** — Le modèle quantitatif passe en ACHETER Réduit (60.5/100 ajusté) sur base d'un Score Opportunité 6.8/10 (C:8.0 V:7.0 M:5.0). L'upgrade est porté par le Catalyseur 8.0/10 et la Valorisation 7.0/10, malgré un Momentum 5.0/10 et un timing Défavorable (cours sous MM50).
+4. **Short interest stable à 25.03%** — Le niveau très élevé est inchangé. Le rally +8.03% pourrait refléter un début de couverture des shorts, mais l'absence d'explosion de volume suggère une couverture limitée ou un mouvement mécanique (max pain pinning).
+5. **Anomalie calendrier earnings persistante** : `data/upcoming_events_latest.json` (2026-06-01) place l'earnings au **2026-06-01** (jour J, `days_until: 0`). Aucun résultat Q1 n'est visible dans `data/latest.json` au snapshot 17h UTC. [ANOMALIE PERSISTANTE — J+? NON RÉSOLU]
 6. **Validation report** (`data/validation_report.txt`, 2026-06-01) : 24/28 tickers OK, 4 KO. FUBO **non flaggué** — données considérées fiables.
 
 ---
@@ -43,50 +43,50 @@
 
 | Indicateur | Valeur | Lecture |
 |---|---|---|
-| RSI 14j | 47.2 | **Neutre-baisse** — progression continue depuis la survente extrême (RSI 21.08 le 26/05), mais sous 50 |
-| MM 50j | $11.19 | Cours sous la moyenne — écart **−9.8%** |
+| RSI 14j | 62.27 | **Neutre-haussier** — franchi 50 avec vigueur, progression continue depuis la survente extrême (RSI 21.08 le 26/05), proche surachat 70 |
+| MM 50j | $11.13 | Cours sous la moyenne — écart **−2.1%** (vs −9.8% au snapshot 13h) |
 | MM 200j | N/A | [DONNÉES MANQUANTES] |
-| ATR 14j | $0.54 | Volatilité absolue stable (5.4% du spot) |
-| Volume vs 20j | 1.31× | **Retour de liquidité** — volume supérieur à la moyenne |
+| ATR 14j | $0.57 | Volatilité absolue stable (5.2% du spot) |
+| Volume vs 20j | 0.58× | **Liquidité effondrée** — volume bien sous la moyenne, faible conviction |
 | Beta | 2.508 | Volatilité systématique extrême |
-| 52W High / Low | $56.64 / $8.31 | Distance au 52W low : **+21.4%** |
-| Short Interest | 25.03% | **Très élevé** — stable vs snapshot 10h |
+| 52W High / Low | $56.64 / $8.31 | Distance au 52W low : **+31.2%** (vs +21.4% au snapshot 13h) |
+| Short Interest | 25.03% | **Très élevé** — stable |
 
 **Niveaux clés :**
-- Support immédiat : **$9.92** (low du jour)
-- Support secondaire : **$9.53** (low du 27/05)
+- Support immédiat : **$10.25** (low du jour)
+- Support secondaire : **$10.09** (previous close / support technique)
 - Support majeur : **$8.31** (52W low)
-- Résistance : **$10.49** (high du jour — rejet net en séance)
-- Résistance majeure : **$11.19** (MM50 — breakout requis pour inflexion de tendance)
-- Max pain options : **$11.00** (résistance technique supplémentaire, échéance J+4)
-- Stop-loss ATR (2×) : **$9.01** (−10.7%)
-- Take-profit ATR (3×) : **$11.71** (+16.1%)
+- Résistance immédiate : **$10.99** (high du jour)
+- Résistance majeure (max pain) : **$11.00** (échéance J+4 — spot à −0.9%)
+- Résistance majeure (MM50) : **$11.13** (breakout requis pour inflexion de tendance)
+- Stop-loss ATR (2×) : **$9.76** (−10.5%)
+- Take-profit ATR (3×) : **$12.61** (+15.7%)
 - Ratio R/R : **1.5×**
 
-**Verdict timing :** Défavorable — sous MM50 (−9.8%), RSI neutre-baisse malgré la progression, recul de −3.26% sur volume en hausse (distribution potentielle). Le rejet du high $10.49 et la mèche haute de la séance confirment la présence de vendeurs au-dessus de $10.40. Cependant, la **restauration des données options** apporte un élément haussier : put/call 0.41 et call OI 70.9% signalent un positionnement options clairement bullish. Le max pain $11.00 place un aimant technique haussier à J+4. Conflit entre structure technique baissière (cours sous MM50, distribution en séance) et structure options haussière (call OI dominant, max pain au-dessus du spot).
+**Verdict timing :** Défavorable — cours sous MM50 (−2.1%, mais nettement réduit vs −9.8% au snapshot 13h), RSI proche surachat (62.27), volume effondré (0.58×) signalant un rally sans conviction institutionnelle. La structure options haussière (put/call 0.41, call OI 70.9%, max pain $11.00) reste le principal support technique. Le spot à −0.9% du max pain suggère un pinning haussier probable à l'échéance J+4 (2026-06-05). Cependant, le faible volume et le manque de catalyseur fondamental limitent la directionnalité.
 
 ---
 
 ## 3. Mise à Jour Fondamentale
 
-Aucun nouveau résultat Q1 2026 ni donnée fondamentale structurante dans le snapshot 2026-06-01. La divergence Yahoo/FMP persiste intégralement :
+Aucun nouveau résultat Q1 2026 ni donnée fondamentale structurante dans le snapshot 2026-06-01 17h UTC. La divergence Yahoo/FMP persiste intégralement :
 
 | Source | Market Cap | P/E | P/B | EV/EBITDA |
 |---|---|---|---|---|
-| Yahoo Finance | $297.0M | 2.63x | 0.37x | — |
+| Yahoo Finance | $320.8M | 2.84x | 0.40x | — |
 | FMP Stable API | ~$3.27B | 5.65x | 3.19x | 16.10x |
 
-**Écart :** ×11.0 sur la capitalisation (stable).
+**Écart :** ×10.2 sur la capitalisation (stable en structure).
 
-### Ratios disponibles (Yahoo + FMP, close 2026-06-01)
+### Ratios disponibles (Yahoo + FMP, close 2026-06-01 17h UTC)
 
 | Métrique | Valeur | Lecture |
 |---|---|---|
-| P/E TTM (Yahoo) | 2.63x | Anormalement bas — divergence Yahoo/FMP |
-| Forward P/E | 21.38x | Élevé — anticipation bénéfices faibles NTM |
+| P/E TTM (Yahoo) | 2.84x | Anormalement bas — divergence Yahoo/FMP |
+| Forward P/E | 23.09x | Élevé — anticipation bénéfices faibles NTM |
 | EV/Revenue | 0.436x | Bas — valorisation type turnaround/distressed |
-| P/B (Yahoo) | 0.37x | < 1x — patrimoine net suspect ou négatif |
-| P/B (FMP) | 3.19x | Écart ×8.6 avec Yahoo |
+| P/B (Yahoo) | 0.40x | < 1x — patrimoine net suspect ou négatif |
+| P/B (FMP) | 3.19x | Écart ×8.0 avec Yahoo |
 | Beta | 2.508 | Extrême |
 | Short Interest | 25.03% | Très élevé — stable |
 | Gross Margin (FMP) | 11.1% | Très faible |
@@ -108,16 +108,16 @@ Aucun nouveau résultat Q1 2026 ni donnée fondamentale structurante dans le sna
 
 ### Options
 
-| Signal | Valeur 10:00 UTC | Valeur 13:00 UTC | Lecture |
+| Signal | Valeur 13:00 UTC | Valeur 17:00 UTC | Lecture |
 |---|---|---|---|
-| Max Pain | $3.00 (anomalie) | **$11.00** | **✅ Cohérent** — au-dessus du spot |
-| Put/Call Ratio | null | **0.41** | **✅ Très faible — biais haussier fort** |
-| Call OI % | null | **70.9%** | **✅ Domination calls** |
+| Max Pain | $11.00 | **$11.00** | Stable — spot à −0.9% |
+| Put/Call Ratio | 0.41 | **0.41** | Très faible — biais haussier fort |
+| Call OI % | 70.9% | **70.9%** | Domination calls |
 | Échéance options | 2026-06-05 | **2026-06-05** | J+4 |
 
-**Lecture institutionnelle :** Les données options du snapshot 13:00 UTC sont **entièrement restaurées et cohérentes**. Le put/call **0.41** est un niveau très faible signalant un positionnement net haussier sur les options. Le call OI **70.9%** confirme cette dominance. Le max pain **$11.00** place le spot à **−8.3%** en dessous — les vendeurs d'options (market makers) ont un intérêt mécanique à ce que le cours converge vers $11.00 à l'approche de l'échéance J+4.
+**Lecture institutionnelle :** Les données options du snapshot 17h UTC sont **inchangées et cohérentes**. Le put/call **0.41** et le call OI **70.9%** confirment un positionnement net haussier. Le max pain **$11.00** place le spot à **−0.9%** en dessous — les market makers ont un intérêt mécanique à ce que le cours converge vers $11.00 à l'approche de l'échéance J+4. Le rally +8.03% a rapproché le spot du max pain, réduisant le gap de −8.3% (snapshot 13h) à −0.9%.
 
-Le setup short squeeze latent s'intensifie avec le short interest à **25.03%** combiné au call OI dominant **70.9%**. Cependant, le recul séance de −3.26% sur volume en hausse (1.31×) et le rejet du high $10.49 suggèrent que les shorts utilisent les rallyes pour renforcer leurs positions plutôt que de couvrir.
+Le setup short squeeze latent persiste avec le short interest à **25.03%** combiné au call OI dominant **70.9%**. Cependant, le volume effondré (0.58×) suggère que le rally n'est pas porté par une accumulation institutionnelle massive, mais plutôt par un short-covering sélectif ou un mouvement mécanique (max pain pinning).
 
 ### Consensus Analystes (FMP)
 
@@ -127,7 +127,7 @@ Le setup short squeeze latent s'intensifie avec le short interest à **25.03%** 
 | Nombre d'analystes | 4 |
 | Mise à jour récente | 0 (dernier mois) |
 
-**Lecture :** Écart PT / spot de +398%. Consensus figé.
+**Lecture :** Écart PT / spot de +361%. Consensus figé.
 
 ### News & Événements Corporates
 
@@ -144,8 +144,7 @@ Le setup short squeeze latent s'intensifie avec le short interest à **25.03%** 
 
 ### Sector Rotation
 
-- `data/sector_rotation_latest.json` (2026-06-01) : XLC classé **bottom 3** (momentum score 0.0 / 10). Signal système : **ROTATION_TO_DEFENSIVE**.
-- Malus sectoriel maintenu : −0.5 pt composite.
+- `data/sector_rotation_latest.json` (2026-06-01) : XLC classé **bottom 3** (momentum score 0.0 / 10). Signal système : **ROTATION_TO_CYCLICAL** (note : signal a changé vs ROTATION_TO_DEFENSIVE mentionné au snapshot 13h — vérifier cohérence). Malus sectoriel maintenu : −0.5 pt composite.
 
 ### Geo Risk
 
@@ -155,7 +154,7 @@ Le setup short squeeze latent s'intensifie avec le short interest à **25.03%** 
 
 - `data/quant_report_latest.json` (2026-05-17) : n = 0, pas assez de signaux historiques FUBO. Win rate 0%, p-value 1.0 (insuffisant). Aucune calibration auto applicable.
 
-**Verdict Sentiment :** Neutre à prudent. Silence médiatique et institutionnel. L'unique signal observable est la hausse du short interest (25.03%) et la structure options haussière restaurée (put/call 0.41, call OI 70.9%). Le positionnement options est clairement bullish, mais le comportement du cours (recul sur volume de distribution) et l'absence de catalyseur fondamental limitent la traduction en momentum positif.
+**Verdict Sentiment :** Neutre à prudent. Silence médiatique et institutionnel. L'unique signal observable est la structure options haussière (put/call 0.41, call OI 70.9%, max pain $11.00) et le short interest élevé (25.03%). Le rally +8.03% sur volume faible est interprété comme un mouvement technique (short-covering / max pain pinning) plutôt qu'un changement de fondamental.
 
 ---
 
@@ -165,25 +164,27 @@ Le setup short squeeze latent s'intensifie avec le short interest à **25.03%** 
 
 | Composante | Valeur |
 |---|---|
-| Score Global | 67.2 / 100 |
-| Score Global Ajusté | **59.2 / 100** |
-| Score Opportunité | **6.7 / 10** |
+| Score Global | 68.5 / 100 |
+| Score Global Ajusté | **60.5 / 100** |
+| Score Opportunité | **6.8 / 10** |
 | Score Catalyseur | 8.0 / 10 |
 | Score Valorisation | 7.0 / 10 |
-| Score Momentum | **4.5 / 10** |
-| Recommandation agent | **ATTENDRE** |
+| Score Momentum | **5.0 / 10** |
+| Recommandation agent | **ACHETER** |
 | Timing agent | **Défavorable** |
 
 ### Scoring ajusté analyste (règles Argus-IA)
 
 | Composante | Valeur Agent | Valeur Ajustée | Règle appliquée |
 |---|---|---|---|
-| Score Opportunité | 6.7 / 10 | **~4.6 / 10** | Plafonnement Valorisation à 5/10 (Qualité 1/6) ; malus sectoriel XLC bottom 3 (−0.5 pt) ; malus timing défavorable (−0.3 pt) ; malus données earnings Q1 manquantes (−0.5 pt) ; bonus données options restaurées (+0.2 pt) |
-| Score Catalyseur | 8.0 / 10 | **7.7 / 10** | Malus earnings anomalie persistante −0.3 pt ; bonus options restaurées +0.0 pt (déjà intégré) |
+| Score Opportunité | 6.8 / 10 | **~4.8 / 10** | Plafonnement Valorisation à 5/10 (Qualité 1/6) ; malus sectoriel XLC bottom 3 (−0.5 pt) ; malus timing défavorable (−0.3 pt) ; malus données earnings Q1 manquantes (−0.5 pt) ; malus volume effondré 0.58× (−0.3 pt) ; bonus options haussières (+0.2 pt) ; bonus short squeeze latent (+0.1 pt) |
+| Score Catalyseur | 8.0 / 10 | **7.7 / 10** | Malus earnings anomalie persistante −0.3 pt |
 | Score Valorisation | 7.0 / 10 | **5.0 / 10** | Plafonnement absolu Qualité ≤ 3/6 |
-| Score Momentum | 4.5 / 10 | **4.5 / 10** | = |
-| **Score Global Ajusté** | 59.2 / 100 | **~46 / 100** | Recalculé sur base 4.6/10 × 10 = 46 |
+| Score Momentum | 5.0 / 10 | **4.5 / 10** | Rally sur volume faible — malus conviction −0.5 pt |
+| **Score Global Ajusté** | 60.5 / 100 | **~48 / 100** | Recalculé sur base 4.8/10 × 10 = 48 |
 | **Recommandation analyste** | — | **SURVEILLER** | Score 35–49 ; Qualité 1/6 exclut tout sizing standard |
+
+**Note sur la divergence agent/analyste :** L'agent quantitatif upgrade FUBO en ACHETER sur base d'un Score Opportunité 6.8/10 (Valorisation 7.0/10 non plafonnée). L'ajustement analyste applique le plafonnement Qualité 1/6 (Valorisation → 5.0/10), le malus volume effondré (0.58×, pas de confirmation institutionnelle) et le malus earnings anomalie persistante. Le Score Opportunité ajusté tombe à **4.8/10**, maintenant la recommandation en **SURVEILLER**.
 
 ---
 
@@ -191,15 +192,17 @@ Le setup short squeeze latent s'intensifie avec le short interest à **25.03%** 
 
 | Niveau | Prix | Commentaire |
 |---|---|---|
-| Close | $10.09 | — |
-| Stop-Loss | **$9.01** | 2× ATR (−10.7%) — confirmé par recommandations agent |
-| Take-Profit | **$11.71** | 3× ATR (+16.1%) — confirmé par recommandations agent |
+| Close | $10.90 | — |
+| Stop-Loss | **$9.76** | 2× ATR (−10.5%) — confirmé par recommandations agent |
+| Take-Profit | **$12.61** | 3× ATR (+15.7%) — confirmé par recommandations agent |
 | Ratio R/R | **1.5×** | Stable |
-| Résistance intermédiaire | **$10.49** | High du jour — rejet net, à surveiller |
-| Résistance majeure (MM50) | **$11.19** | Breakout requis pour inflexion de tendance |
-| Max pain options | **$11.00** | Aimant technique J+4 — proche du TP ATR |
+| Support immédiat | **$10.25** | Low du jour |
+| Support technique | **$10.09** | Previous close |
+| Résistance (max pain) | **$11.00** | Échéance J+4 — spot à −0.9% |
+| Résistance majeure (MM50) | **$11.13** | Breakout requis pour inflexion de tendance |
+| Résistance (high du jour) | **$10.99** | À franchir pour prolonger le rally |
 
-**Note sur le max pain vs TP :** Le max pain $11.00 se situe entre la résistance MM50 ($11.19) et le TP ATR ($11.71). Si le cours converge vers le max pain à l'échéance 2026-06-05, il atteindrait approximativement $11.00 (+9.0%), ce qui est en-deçà du TP ATR mais constituerait un premier objectif réaliste technique.
+**Note sur le max pain vs TP :** Le max pain $11.00 se situe entre la résistance high du jour ($10.99) et le TP ATR ($12.61). Si le cours converge vers le max pain à l'échéance 2026-06-05, le gain serait de +0.9%, bien en-deçà du TP. Le max pain agit comme un aimant technique court terme, pas comme un objectif de rendement.
 
 **Condition de révision post-earnings (si résultats disponibles) :**
 - Beat + guidance raise → réviser TP à $13.00+ (breakout MM50)
@@ -209,24 +212,24 @@ Le setup short squeeze latent s'intensifie avec le short interest à **25.03%** 
 
 ## 7. Conclusion — Thèse Confirmée, Modifiée ou Invalidée ?
 
-### **Verdict : THÈSE CONFIRMÉE — SURVEILLER (~46/100). Amélioration mineure : données options restaurées (structure haussière), mais fondamental dégradé et technique baissier inchangés.**
+### **Verdict : THÈSE CONFIRMÉE — SURVEILLER (~48/100). Rally technique +8.03% sur volume effondré sans changement fondamental. Agent upgrade mécanique non suivi par l'ajustement qualité.**
 
-La thèse de **SURVEILLER** du snapshot 2026-06-01 10:00 UTC est **confirmée** avec une nuance positive liée à la restauration des données options. Cinq observations :
+La thèse de **SURVEILLER** du snapshot 2026-06-01 13:00 UTC est **confirmée** avec une nuance technique haussière (RSI 62.27, rapprochement MM50) mais une conviction réduite (volume 0.58×). Cinq observations :
 
-1. **Données options RÉSOLUES** — Le passage du snapshot 10:00 au snapshot 13:00 UTC a vu la correction complète de l'anomalie options : max pain $11.00 (cohérent), put/call 0.41 (très faible, biais haussier), call OI 70.9% (domination calls). Cette structure options est **haussière** et place un aimant technique à $11.00 pour l'échéance J+4 (2026-06-05).
+1. **Rally +8.03% sur volume effondré** — Le cours gagne $0.81 pour clôturer à $10.90, mais le volume chute de 57.7% à 820k (0.58× moy. 20j). Ce profil (rally sur volume décroissant) est caractéristique d'un **short-covering mécanique** ou d'un mouvement de pinning vers le max pain ($11.00), plutôt que d'une accumulation institutionnelle. Faible liquidité = faible conviction.
 
-2. **Aucun changement de cours/RSI/volume** — Entre 10:00 et 13:00 UTC, les données de marché sont inchangées (marché US fermé). Le close reste $10.09, le RSI 47.2, le volume 1.94M. La séance US du jour a donc déjà été entièrement analysée dans le snapshot 10:00 UTC.
+2. **RSI franchi 50 à 62.27** — Progression technique notable (+15.1 pts vs snapshot 13h) qui rapproche le titre de la zone de surachat (70). Le franchissement de 50 est un signal technique positif, mais le niveau 62.27 reste sous le seuil critique de 70. Le cours est désormais à seulement **−2.1%** de la MM50 ($11.13), contre **−9.8%** au snapshot 13h.
 
-3. **Short interest stable à 25.03%** — Le niveau très élevé est maintenu. Le setup short squeeze latent persiste mécaniquement (25% du float shorté + call OI 70.9% = combustible élevé), mais le timing de déclenchement reste incertain sans catalyseur fondamental.
+3. **Agent upgrade ATTENDRE → ACHETER** — Le modèle quantitatif réagit au rally en passant en ACHETER Réduit (60.5/100 ajusté). Cet upgrade est porté par le Catalyseur 8.0/10 et la Valorisation 7.0/10. Cependant, le timing reste Défavorable (cours sous MM50) et le Momentum 5.0/10 reste modéré. L'upgrade est interprété comme une réaction mécanique au prix, non comme une réévaluation fondamentale.
 
-4. **Agent stable ATTENDRE (59.2/100)** — Le modèle quantitatif ne change pas de recommandation entre les deux snapshots, ce qui est cohérent avec la stabilité des données de marché.
+4. **Structure options inchangée et cohérente** — Max pain $11.00, put/call 0.41, call OI 70.9%. Le spot à −0.9% du max pain renforce l'hypothèse de pinning haussier à l'échéance J+4 (2026-06-05). Le rally +8.03% a réduit le gap spot/max pain, rendant la convergence mécanique plus probable.
 
-5. **Anomalie earnings persistante** — L'earnings Q1 reste placé au 2026-06-01 (jour J) dans `upcoming_events_latest.json` sans résultats visibles. Cette incertitude continue de peser sur le Score Catalyseur (−0.3 pt).
+5. **Anomalie earnings persistante** — L'earnings Q1 reste placé au 2026-06-01 (jour J) dans `upcoming_events_latest.json` sans résultats visibles. Cette incertitude continue de peser sur le Score Catalyseur (−0.3 pt) et justifie le maintien de la recommandation en SURVEILLER.
 
-**Recommandation finale :** **SURVEILLER — pas de position.** La restauration des données options est une amélioration analytique notable qui renforce le setup haussier latent (max pain $11.00, put/call 0.41, call OI 70.9%). Cependant, la directionnalité reste incertaine : le cours sous MM50 (−9.8%), le recul séance sur volume de distribution (−3.26% sur 1.31×) et l'empilement des shorts (25.03%) suggèrent une distribution plutôt qu'une accumulation. La structure options haussière et le setup short squeeze mécanique sont des éléments de surveillance actifs, mais sans catalyseur fondamental (earnings, guidance, M&A), toute entrée reste un trade spéculatif avec sizing minimal. La résolution de l'anomalie earnings et le comportement à l'échéance options J+4 sont les deux catalyseurs clés à surveiller.
+**Recommandation finale :** **SURVEILLER — pas de position.** Le rally +8.03% est un événement technique notable (RSI 62.27, rapprochement MM50, structure options favorable), mais il manque de conviction institutionnelle (volume 0.58×). La directionnalité reste incertaine : le cours sous MM50 (−2.1%), le fondamental dégradé (Qualité 1/6, patrimoine net négatif) et l'anomalie earnings persistante limitent tout sizing. La structure options haussière (max pain $11.00, put/call 0.41, call OI 70.9%) et le setup short squeeze mécanique (25.03% SI) sont des éléments de surveillance actifs, mais sans catalyseur fondamental, toute entrée reste un trade spéculatif avec sizing minimal. Le comportement à l'échéance options J+4 (2026-06-05) et la résolution de l'anomalie earnings sont les deux catalyseurs clés à surveiller.
 
 ---
 
 *Analyste institutionnel senior — Desk Argus-IA*
-*Date : 2026-06-01 (snapshot 13:00 UTC)*
-*Sources : data/latest.json (fetched 2026-06-01T13:00:16Z), data/recommandations_latest.json, data/quant_report_latest.json (2026-05-17), data/geo_risk_latest.json (2026-05-17), data/sector_rotation_latest.json (2026-06-01), data/social_sentiment_latest.json (2026-06-01), data/fx_exposure_latest.json (2026-06-01), data/upcoming_events_latest.json (2026-06-01), data/events_latest.json (2026-06-01), data/validation_report.txt (2026-06-01)*
+*Date : 2026-06-01 (snapshot 17:00 UTC)*
+*Sources : data/latest.json (fetched 2026-06-01T17:00:01Z), data/recommandations_latest.json, data/quant_report_latest.json (2026-05-17), data/geo_risk_latest.json (2026-05-17), data/sector_rotation_latest.json (2026-06-01), data/social_sentiment_latest.json (2026-06-01), data/fx_exposure_latest.json (2026-06-01), data/upcoming_events_latest.json (2026-06-01), data/events_latest.json (2026-06-01), data/validation_report.txt (2026-06-01)*
