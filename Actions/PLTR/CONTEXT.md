@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Score global :** 41.8/100
-- **Prix cible :** $186.15 (consensus FMP)
-- **Stop-loss :** $149.11
-- **Statut thèse :** Confirmée avec nuance négative
-- **Horizon :** 1–3 mois
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -36,20 +36,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 75.48
-- **MM 50j :** 141.91
+- **RSI 14j :** 75.14
+- **MM 50j :** 141.89
 - **MM 200j :** —
-- **ATR 14j :** 6.09
-- **Volume moy. 20j :** 45251800
+- **ATR 14j :** 6.2
+- **Volume moy. 20j :** 46043109
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-01 (snapshot 17:00 UTC)
-- **Type :** update
-- **Fichier :** `PLTR_2026-06-01_17-00_update.md`
-- **Conclusion :** Cours +3.03% a $161.29, RSI 75.48 surachat approfondi, volume effondre 37.24M (-59.5% vs 13h, -17.7% vs moyenne 20j), Score Global 41.8/100. These SURVEILLER confirmee avec nuance negative — pas d'entree avant pullback $152-$155 avec RSI < 65 et volume > 40M.
+- **Date :** 2026-06-01
+- **Type :** full refresh
+- **Fichier :** `_PLTR_2026-06-01_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-01
 
 ---
 

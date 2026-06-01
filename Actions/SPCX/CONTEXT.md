@@ -40,7 +40,7 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement réel — faux earnings FMP (artefact) à ignorer
+- **2026-06-01** · earnings · Earnings ...
 
 ---
 
@@ -56,10 +56,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-01 (17:00 UTC)
+- **Date :** 2026-06-01
 - **Type :** update
 - **Fichier :** `SPCX_2026-06-01_update.md`
-- **Conclusion :** Thèse confirmée en ATTENDRE — aucune mutation entre 10h et 17h, données Yahoo absentes persistantes, volume figé 196, Score Global 54.0 maintenu, signal sectoriel ROTATION_TO_CYCLICAL sans impact concret
+- **Conclusion :** **Date :** 2026-06-01
 
 ---
 

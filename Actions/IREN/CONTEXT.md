@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 53.0/100
-- **Prix cible :** $66.61 (consensus FMP)
-- **Stop-loss :** $55.72
-- **Statut thèse :** confirmée
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
 - **Horizon :** —
 
 ---
@@ -41,26 +41,26 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 61.59
-- **MM 50j :** 48.25
+- **RSI 14j :** 61.23
+- **MM 50j :** 48.24
 - **MM 200j :** —
-- **ATR 14j :** 5.02
-- **Volume moy. 20j :** 58077970
+- **ATR 14j :** 5.04
+- **Volume moy. 20j :** 59135712
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-01
-- **Type :** update (snapshot 17:00 UTC)
+- **Type :** update
 - **Fichier :** `IREN_2026-06-01_update.md`
-- **Conclusion :** Thèse CONFIRMÉE — ATTENDRE maintenu. Cours +3.49% à $65.76 testant résistance $66.28 (double top potentiel vs $66.29 du 27/05). Rally sur volume faible (59.7%). RSI 61.59. Forward P/E −69.96× (détérioration). Put/call 3.01 maintenu. Upside consensus réduit +1.3%. SL $55.72 / TP $80.82.
+- **Conclusion :** **Thèse : CONFIRMÉE — Le statut ATTENDRE est maintenu. Close officiel $65.33 (snapshot 21h), high intraday $66.50 dépasse le sommet du 27/05 ($66.29) mais rejet en clôture. Volume 55.79 M (94.3% moyenne) = participation institutionnelle active au close. Put/Call 3.01 maintenu (défiance record). Forward P/E −69.50×. Score Global 52.5/100. Ne pas entrer. SL $55.25 / TP $80.45.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 7.63% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 7.71% (seuil 5.0%)
 
 ---
 

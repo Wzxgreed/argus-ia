@@ -12,17 +12,17 @@
 **Prix cible desk :** $148.40 (TP ATR-based) / $163.82 (consensus analystes)
 **Stop-loss :** $125.39
 **Horizon :** 1–3 mois
-**Statut thèse :** 🟡 **Confirmée mais modifiée** — consolidation post-gap +17.3% sur volume effondré 0.31× ($135.53 → $134.60, −0.69%). RSI 86.69 (surachat extrême approfondi, +8 pts vs 13h). Options inchangées (max pain $130, put/call 1.58, call OI 38.7%). Score Global ajusté **52.5** — limite basse zone ATTENDRE. Aucune mutation fondamentale. Entrée initiale laminée ; attendre pullback $126–$130 ou consolidation RSI <65.
+**Statut thèse :** 🟡 **Confirmée mais modifiée** — consolidation post-gap +17.3% sur volume effondré 0.31× ($135.53 → $134.60, −0.69%). RSI 86.69 (surachat extrême approfondi, +8 pts vs 13h). Données options inchangées (max pain $130, put/call 1.58, call OI 38.7%). Score Global ajusté **52.5** — limite basse zone ATTENDRE. Aucune mutation fondamentale. Entrée initiale laminée ; attendre pullback $126–$130 ou consolidation RSI <65.
 
-**Synthèse :** Agilent a confirmé sa qualité fondamentale par un beat/guidance-up Q2 2026 spectaculaire (gap +17.3%). Le Filtre Qualité 5/6 est maintenu, le consensus $163.82 laisse un upside +21.7%. La structure options reste normalisée (max pain $130, put/call 1.58, call OI 38.7%). Le setup technique s'est dégradé entre 13h et 17h : RSI 86.69 (+8 pts, surachat extrême approfondi), volume effondré à 0.31× (814K vs moy. 2.61M), ATR $4.60. Le micro-repli −0.69% sur volume désert confirme une consolidation sans conviction. Le Score Global ajusté recule à **52.5** (malus timing technique renforcé, limite basse zone ATTENDRE). La fenêtre d'entrée optimale ($115–$116) est fermée. La thèse reste haussière de fond mais neutre de timing — **ATTENDRE** une consolidation ou un retracement avant toute nouvelle position.
+**Synthèse :** Agilent a confirmé sa qualité fondamentale par un beat/guidance-up Q2 2026 spectaculaire (gap +17.3%). Le Filtre Qualité 5/6 est maintenu, le consensus $163.82 laisse un upside +21.7%, et la structure options reste normalisée (max pain $130, put/call 1.58, call OI 38.7%). Le setup technique s'est dégradé entre 13h et 17h : RSI 86.69 (+8 pts, surachat extrême approfondi), volume effondré à 0.31× (814K vs moy. 2.61M), ATR $4.60. Le micro-repli −0.69% ($135.53 → $134.60) sur volume désert confirme une consolidation sans conviction. La fenêtre d'entrée optimale ($115–$116) est fermée. Le Score Global ajusté recule à **52.5** (malus timing technique renforcé, limite basse zone ATTENDRE). La thèse reste haussière de fond mais neutre de timing — **ATTENDRE** une consolidation ou un retracement avant toute nouvelle position.
 
 ---
 
 ## 📜 Historique des analyses
-- **Score global :** 62.5/100 (ajusté 52.5)
-- **Prix cible :** $148.40
+- **Score global :** —/10
+- **Prix cible :** $—
 - **Stop-loss :** $125.39
-- **Statut thèse :** confirmée mais modifiée
+- **Statut thèse :** validée
 - **Horizon :** 1–3 mois
 
 ---
@@ -58,17 +58,17 @@
 
 ## 📅 Prochains événements
 
-- **2026-08-26** · Earnings Q3 2026 · Est EPS $1.48–$1.51, Rev $1.8B · J+86
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 86.69
-- **MM 50j :** 116.28
+- **RSI 14j :** 89.56
+- **MM 50j :** 116.31
 - **MM 200j :** —
-- **ATR 14j :** 4.60
-- **Volume moy. 20j :** 2606366
+- **ATR 14j :** 4.71
+- **Volume moy. 20j :** 2669466
 
 ---
 
@@ -77,7 +77,7 @@
 - **Date :** 2026-06-01
 - **Type :** update
 - **Fichier :** `A_2026-06-01_update.md`
-- **Conclusion :** Consolidation post-gap +17.3% sur volume effondré 0.31× ($135.53 → $134.60, −0.69%). RSI 86.69 (surachat extrême approfondi, +8 pts vs 13h). Options inchangées. Score Global ajusté **52.5** — limite basse zone ATTENDRE. Aucune mutation fondamentale. SL/TP $125.39/$148.40.
+- **Conclusion :** > **Date :** 2026-06-01 · Snapshot 17:00 UTC
 
 ---
 

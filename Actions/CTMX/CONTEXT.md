@@ -36,10 +36,7 @@
 
 ## 🚨 Alertes actives
 
-- 🔴 Distribution active — volume 1.38× moyenne 20j, nouveau low $3.375
-- 🔴 RSI 35.24 — survente extrême maintenue
-- 🔴 Short interest 16.23% — accumulation shorts confirmée
-- 🔴 Cours sous MM50 ($4.19) avec écart −15.9%
+- Aucune alerte active.
 
 ---
 
@@ -51,11 +48,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 35.24
-- **MM 50j :** 4.19
+- **RSI 14j :** 33.06
+- **MM 50j :** 4.18
 - **MM 200j :** —
 - **ATR 14j :** 0.18
-- **Volume moy. 20j :** 3154412
+- **Volume moy. 20j :** 3269901
 
 ---
 
@@ -64,7 +61,7 @@
 - **Date :** 2026-06-01
 - **Type :** update
 - **Fichier :** `CTMX_2026-06-01_update.md`
-- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — SURVEILLER (CONFIRMÉE) — distribution accélérée volume 1.38×**
+- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — SURVEILLER (CONFIRMÉE)**
 
 ---
 

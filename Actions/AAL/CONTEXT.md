@@ -27,11 +27,11 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 65.3/100
+- **Score global :** —/10
 - **Prix cible :** $16.02
 - **Stop-loss :** $13.02
-- **Statut thèse :** ACHETER sizing réduit
-- **Horizon :** 1–3 mois
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -43,26 +43,25 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 
 ## 🚨 Alertes actives
 
-- Baisse — $13.02 (SL 2×ATR) — 🟢 Active
+- Baisse — $11.41 (SL 2×ATR) — 🟢 Active
 - Hausse — $14.00 (prix cible) — 🔴 Déclenchée (27/05)
-- Volume — >2× moy. 20j (>129M) — 🟢 Active
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- 2026-06-05 : Expiration options (Max Pain $15.50) — risque gamma
-- 2026-07-23 : Earnings Q2 FY2026 — Est EPS -$0.34 à $0.52, Rev $16.6B
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 66.14
+- **RSI 14j :** 67.98
 - **MM 50j :** 12.11
 - **MM 200j :** —
-- **ATR 14j :** 0.60
-- **Volume moy. 20j :** 64866509
+- **ATR 14j :** 0.6
+- **Volume moy. 20j :** 66345764
 
 ---
 
@@ -71,7 +70,7 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 - **Date :** 2026-06-01
 - **Type :** update
 - **Fichier :** `AAL_2026-06-01_update.md`
-- **Conclusion :** Repli technique −2.87% à $14.22 sur volume effondré 36.68M (−43.5%). Consensus PT révisé à la hausse $16.60 (+2.9%). Signal sectoriel pivoté ROTATION_TO_CYCLICAL. Score agent 6.0/10, Score Global ajusté 65.3/100. Thèse ACHETER sizing réduit confirmée et renforcée. SL $13.02, TP $16.02, R/R 1.5.
+- **Conclusion :** **Date :** 2026-06-01 (snapshot 17:00 UTC)
 
 ---
 
