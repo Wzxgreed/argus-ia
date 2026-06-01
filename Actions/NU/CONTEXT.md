@@ -11,8 +11,8 @@
 - **Score Global :** 63.5/100 (ajusté 55.5)
 - **Score Opportunité :** 6.3/10 (C:6.5 V:8.0 M:3.5)
 - **Prix Cible :** $18.39 (consensus FMP, 10 analysts)
-- **Stop-Loss :** $12.07 (2×ATR)
-- **Statut Thèse :** Score ajusté sous le seuil achat réduit (55.5) — snapshot 17:00 UTC 27/05 : cours $13.07 (+0.69% vs previous close), **volume en effondrement** 20.18M (0.39× moyenne 20j), **anomalie RSI baissière** (33.41, −2.13 pts vs 13:00 UTC malgré cours supérieur), mutation options confirmée (put/call 0.68, call OI 59.4%), momentum reculé à 3.5/10, timing défavorable, attente confirmation volume
+- **Stop-Loss :** $12.17 (2×ATR)
+- **Statut Thèse :** Score ajusté sous le seuil achat réduit (55.5) — snapshot 10:00 UTC 01/06 : cours $13.13 (+0.61% vs previous close), **volume en explosion** 91.64M (1.63× moyenne 20j), **RSI remontant** 40.77 (+7.36 pts vs 27/05 sortant de survente), timing défavorable (sous MM50 $14.03, distance −6.4%), momentum 3.5/10, anomalie options max pain $5.00 (à ignorer), attente confirmation technique (MM50 ou RSI > 50)
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
@@ -38,7 +38,8 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q2 2026 :** 13 août 2026 (73 jours), Est EPS $0.20–$0.27, Rev $5.4B
+- **Expiration options :** 2026-06-05 (4 jours), max pain $5.00 (anomalie — à ignorer)
 
 ---
 
@@ -49,15 +50,21 @@
 - **MM 200j :** —
 - **ATR 14j :** 0.48
 - **Volume moy. 20j :** 56171990
+- **Volume dernière séance :** 91639200 (1.63×)
+- **Cours close :** 13.13
+- **Previous close :** 13.05
+- **52W low :** 11.71
+- **52W high :** 18.98
+- **Distance MM50 :** −6.4%
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-27
+- **Date :** 2026-06-01
 - **Type :** update
-- **Fichier :** `NU_2026-05-27_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (nuance baissière)**
+- **Fichier :** `NU_2026-06-01_update.md`
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (nuance technique améliorée)**
 
 ---
 
