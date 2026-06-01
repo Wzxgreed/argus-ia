@@ -45,6 +45,7 @@ TEST est un ticker de test / micro-cap sans données fondamentales exploitables 
 | TEST_2026-05-27_update.md | 2026-05-27 | Mise à jour 17:00 UTC — première mutation post-15 snapshots (cours +0.79%, RSI 62.24) | **ACHETER (Réduit)** |
 | TEST_2026-06-01_update.md | 2026-06-01 | Mise à jour 10:00 UTC — RSI en chute (−8.82 pts à 53.42), volume en effondrement (400, 0.21× avg) | **ACHETER (Réduit)** |
 | TEST_2026-06-01_update.md | 2026-06-01 | Mise à jour 13:00 UTC — confirmation sans mutation vs 10:00 UTC (cours, RSI, volume inchangés) | **ACHETER (Réduit)** |
+| TEST_2026-06-01_update.md | 2026-06-01 | Mise à jour 17:00 UTC — mutation technique majeure : cours −2.55%, RSI 41.06 (−12.36 pts), volume ×7 sur baisse | **ACHETER (Réduit)** |
 
 ---
 
