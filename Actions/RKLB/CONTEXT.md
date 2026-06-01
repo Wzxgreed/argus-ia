@@ -7,12 +7,13 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
+- **Recommandation :** SURVEILLER
+- **Score global :** 47.0/100
+- **Prix cible :** $84.20 (consensus FMP 15 analysts)
+- **Stop-loss :** $97.39
+- **Take-profit :** $159.89
 - **Statut thèse :** modifiée
-- **Horizon :** —
+- **Horizon :** Attendre retour $97–$105 ou inflexion fondamentale
 
 ---
 
@@ -24,13 +25,20 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- Distribution active confirmée : repli −14.70% sur volume 1.17× moyenne 20j
+- Divergence consensus : spot +45.4% vs PT $84.20
+- Filtre Qualité 3/6 — hors périmètre institutionnel
+- Max Pain $90.00 (éch. 06-05) — spot $122.39 = +$32.39 (+26.5%) au-dessus
+- Options structure baissière : Put/Call 1.25, Call OI 44.4%
+- [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $70.85 Mds vs FMP $37.02 Mds
+- Ratio R/R 1.5:1 — inférieur au seuil 2:1
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings Q2 2026 : **2026-08-06** (66 jours)
+- Expiration options : **2026-06-05** (4 jours ouvrés)
 
 ---
 
@@ -47,15 +55,15 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-01
-- **Type :** update
+- **Type :** update (snapshot 21h UTC — close officiel)
 - **Fichier :** `RKLB_2026-06-01_update.md`
-- **Conclusion :** > Source : `data/2026-06-01.json` (fetched 2026-06-01T17:00:11 UTC) | `data/recommandations_2026-06-01.json` | Close officiel US du 2026-06-01
+- **Conclusion :** THÈSE MODIFIÉE — CORRECTION D'INTERPRÉTATION TECHNIQUE. Le repli −14.70% s'est produit sur volume final corrigé 36.66M (1.17× moyenne), invalidant l'hypothèse de dégonflement sans capitulation. Il s'agit d'une distribution active. Posture SURVEILLER maintenue, valorisation extrême, FQ 3/6 hors périmètre institutionnel. SL $97.39, TP $159.89.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (high) — Gap -14.70% overnight (seuil ±5.0%)
+- **PRICE_GAP** (high) — Gap −14.70% overnight (seuil ±5.0%)
 - **ATR_SPIKE** (medium) — ATR relatif 10.21% (seuil 5.0%)
 
 ---

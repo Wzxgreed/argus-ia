@@ -1,11 +1,12 @@
 # RKLB
 
 ## Thèse courante
-**2026-06-01** — SURVEILLER. Repli sévère −13.99% à $123.41 sur volume effondré 23.94M (0.78×) — dégonflement technique post-rally parabolique sans capitulation. RSI sorti du surachat 53.01 (−17.55 pts), ATR $12.50 stable, 52W high $151.00 spot à −18.3%. Divergence consensus réduite +46.6% (spot vs PT $84.20), Filtre Qualité 3/6 hors périmètre institutionnel, Forward P/E −11 198, EV/Rev 120.36×, P/B 31.38×. XLI sous-performe SPY. Aucune news — mouvement purement technique. Score global 42.0/100 ajusté 47.0 — posture modifiée de ÉVITER à SURVEILLER car la surchauffe s'est partiellement dégonflée, mais valorisation reste extrême. SL $98.41 (−20.3%), TP $160.91 (+30.4%), R/R 1.5:1. Support immédiat $121.75, support majeur $98.41 (2×ATR). [SNAPSHOT 17h UTC] Max Pain $90.00 (éch. 06-05), Put/Call 1.25, Call OI 44.4% — pression baissière CT persistante malgré le repli. [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $71.44 Mds vs FMP $37.02 Mds.
+**2026-06-01** — SURVEILLER. Repli sévère −14.70% à $122.39 sur volume final corrigé 36.66M (1.17× moyenne 20j) — mouvement de distribution active, pas dégonflement anémique. RSI neutre 52.48, ATR $12.50 stable, 52W high $151.00 spot à −18.9%. Divergence consensus réduite +45.4% (spot vs PT $84.20), Filtre Qualité 3/6 hors périmètre institutionnel, Forward P/E −11 106, EV/Rev 120.36×, P/B 31.12×. XLI sous-performe SPY. Aucune news — mouvement purement technique. Score global 42.0/100 ajusté 47.0 — posture SURVEILLER maintenue, interprétation technique modifiée (volume élevé = distribution). SL $97.39 (−20.4%), TP $159.89 (+30.7%), R/R 1.5:1. Support immédiat $121.75, support majeur $97.39 (2×ATR). [SNAPSHOT 21h UTC] Max Pain $90.00 (éch. 06-05), Put/Call 1.25, Call OI 44.4% — pression baissière CT persistante. [CORRECTION VOLUME] Snapshot 17h sous-estimait le volume (23.94M = 0.78×) ; volume final 36.66M = 1.17×. [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $70.85 Mds vs FMP $37.02 Mds.
 
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
+| 2026-06-01 | [RKLB_2026-06-01_update.md](RKLB_2026-06-01_update.md) | Snapshot 21:00 UTC — close officiel $122.39 (−14.70%), 🔴 CORRECTION VOLUME 36.66M (1.17×) vs 23.94M (0.78×) au snapshot 17h, interprétation modifiée : distribution active, pas dégonflement sans capitulation. RSI 52.48 stable neutre, divergence consensus +45.4%, score global 42.0/100 ajusté 47.0 — thèse SURVEILLER maintenue, SL/TP révisés $97.39/$159.89 |
 | 2026-06-01 | [RKLB_2026-06-01_update.md](RKLB_2026-06-01_update.md) | Snapshot 17:00 UTC — repli sévère −13.99% à $123.41 sur volume effondré 23.94M (0.78×), RSI sorti surachat 53.01 (−17.55 pts), divergence consensus réduite +46.6%, score global 42.0/100 ajusté 47.0 — thèse modifiée de ÉVITER à SURVEILLER, dégonflement technique sans capitulation, support $121.75 cassé, Max Pain $90.00 persistant |
 | 2026-06-01 | [RKLB_2026-06-01_update.md](RKLB_2026-06-01_update.md) | Snapshot 13:00 UTC — repli -3.07% à $143.48 sur volume 34.82M (1.15×), signal de distribution post-rally, RSI 70.56 (–6.91 pts), 52W high $151.00, divergence consensus +70.4%, données options corrigées (Max Pain $90.00, Put/Call 1.25, Call OI 44.4%), structure baissière à CT confirmée, thèse ÉVITER confirmée et renforcée |
 | 2026-05-27 | [RKLB_2026-05-27_update.md](RKLB_2026-05-27_update.md) | Snapshot 17:00 UTC — gap haussier +4.28% à $149.33, nouveau 52W high $150.78, 🔴 CORRECTION VOLUME 20.12M (0.70×) vs 32.78M au snapshot 13h, divergence consensus élargie +77.4%, thèse ÉVITER confirmée et renforcée |
@@ -34,13 +35,15 @@
 - Expiration options : **2026-05-29** (Max Pain $130.00 rétabli — 3 jours)
 
 ## Alertes actives
-- RSI 70.56 — surachat persistant (>70), refroidissement en cours
-- Divergence consensus — spot +70.4% vs PT $84.20
+- RSI 52.48 — neutre, sorti du surachat
+- Divergence consensus — spot +45.4% vs PT $84.20
 - Filtre Qualité 3/6 — hors périmètre institutionnel
 - Ratio R/R 1.5:1 — inférieur au seuil 2:1
-- [ANOMALIE DATA] Max Pain $45.00 dans latest.json (artefact JSON aberrant) → référence historique $123–$130
-- [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $83.06 Mds vs FMP $37.02 Mds
-- ATR $12.37 — volatilité élevée mais en contraction
-- Distribution détectée : repli -3.07% sur volume 1.15× moyenne 20j
+- [CORRECTION VOLUME] Snapshot 17h sous-estimait le volume ; volume final 36.66M = 1.17× moyenne 20j — interprétation technique modifiée (distribution active)
+- [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $70.85 Mds vs FMP $37.02 Mds
+- ATR $12.50 — volatilité élevée stable
+- Distribution active confirmée : repli −14.70% sur volume 1.17× moyenne 20j
 - 52W high $151.00 suivi de repli immédiat — rejet de nouveaux sommets
-- Gap sans news du 26–27/05 — mouvement parabolique non confirmé par fondamental
+- Max Pain $90.00 (éch. 06-05) — spot $122.39 = +$32.39 (+26.5%) au-dessus — pression baissière CT persistante
+- Options structure baissière : Put/Call 1.25, Call OI 44.4%
+- Gap sans news du 26–27/05 puis repli −14.70% le 01/06 — mouvement parabolique non confirmé par fondamental
