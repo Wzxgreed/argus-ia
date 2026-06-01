@@ -35,7 +35,7 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings Q3 FY2026 : 2026-07-30 (59 jours) — Est EPS $1.83–$1.99, Rev $109.0B
 
 ---
 
@@ -51,10 +51,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-05-27
+- **Date :** 2026-06-01
 - **Type :** update
-- **Fichier :** `AAPL_2026-05-27_update.md`
-- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-05-27 13:00 UTC) + agents quant, geo, accounting, sector, social, FX, watchman, events
+- **Fichier :** `AAPL_2026-06-01_update.md`
+- **Conclusion :** Thèse SURVEILLER confirmée avec nuance technique moins défavorable. RSI sort de zone >85 (84.28), break 52W high $315.00 confirmé sur volume 1.43× moyenne, ATR compressée $4.97. Scores agents inchangés à la baisse (Global ajusté 37.5/100), timing Défavorable. Anomalie options JSON détectée. Pas d'entrée long à $312+.
 
 ---
 
