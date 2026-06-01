@@ -1,11 +1,12 @@
 # RKLB
 
 ## Thèse courante
-**2026-05-27 (17:00 UTC)** — ÉVITER. Snapshot 17:00 UTC : gap haussier +4.28% à $149.33, nouveau 52W high $150.78, RSI 77.47, ATR $13.18, volume 20.12M (0.70×). 🔴 CORRECTION VOLUME vs snapshot 13:00 (32.78M → 20.12M) : le rally s'est opéré sur volume inférieur à la moyenne, confirmant la nature spéculative. Max Pain $123.00 (écart élargi à –17.7% vs spot), Put/Call 1.47, Call OI 40.5%. Divergence consensus +77.4% (spot vs PT $84.20), Filtre Qualité 3/6 hors périmètre institutionnel, Forward P/E –13 552, EV/Rev 120.12×, P/B 37.97×. XLI sous-performe SPY. Aucune news. Score global 40.8/100 ajusté 30.8 — ÉVITER confirmé et renforcé. SL $122.97 (–17.7%), TP $188.87 (+26.6%), R/R 1.5:1. Support immédiat $137.91. Max Pain $123.00 (éch. 2026-05-29) — convergence avec SL technique $122.97. [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $86.45 Mds vs FMP $37.02 Mds.
+**2026-06-01** — ÉVITER. Repli -3.07% à $143.48 sur volume 34.82M (1.15×) — signal de distribution classique post-rally parabolique. RSI refroidit à 70.56 (–6.91 pts) mais reste >70. ATR $12.37 (–6.1%), 52W high $151.00 suivi de repli immédiat. Divergence consensus +70.4% (spot vs PT $84.20), Filtre Qualité 3/6 hors périmètre institutionnel, Forward P/E –13 020, EV/Rev 120.36×, P/B 36.48×. XLI sous-performe SPY. Aucune news. Score global 38.3/100 ajusté 28.3 — ÉVITER confirmé et renforcé par le signal distribution (volume 1.15×). SL $118.74 (–17.2%), TP $180.59 (+25.9%), R/R 1.5:1. Support immédiat $134.05. [ANOMALIE DATA] Max Pain $45.00 aberrant dans latest.json — référence historique $123–$130. [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $83.06 Mds vs FMP $37.02 Mds.
 
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
+| 2026-06-01 | [RKLB_2026-06-01_update.md](RKLB_2026-06-01_update.md) | Snapshot 10:00 UTC — repli -3.07% à $143.48 sur volume 34.82M (1.15×), signal de distribution post-rally, RSI 70.56 (–6.91 pts), 52W high $151.00, divergence consensus +70.4%, thèse ÉVITER confirmée et renforcée |
 | 2026-05-27 | [RKLB_2026-05-27_update.md](RKLB_2026-05-27_update.md) | Snapshot 17:00 UTC — gap haussier +4.28% à $149.33, nouveau 52W high $150.78, 🔴 CORRECTION VOLUME 20.12M (0.70×) vs 32.78M au snapshot 13h, divergence consensus élargie +77.4%, thèse ÉVITER confirmée et renforcée |
 | 2026-05-27 | [RKLB_2026-05-27_update.md](RKLB_2026-05-27_update.md) | Snapshot 13:00 UTC — stabilité totale cours/volume/RSI/ATR, 🔴 MUTATION OPTIONS SIGNIFICATIVE (Max Pain $123.00 vs $130.00, Put/Call 1.47 vs 1.08, Call OI 40.5% vs 48.1%), thèse ÉVITER confirmée et renforcée |
 | 2026-05-27 | [RKLB_2026-05-27_update.md](RKLB_2026-05-27_update.md) | Snapshot 10:00 UTC pre-market — stabilité totale vs close 26/05 ($143.20 inchangé), [ANOMALIE OPTIONS] données interrompues dans latest.json, valeur confirmée $130.00 maintenue |
@@ -32,12 +33,13 @@
 - Expiration options : **2026-05-29** (Max Pain $130.00 rétabli — 3 jours)
 
 ## Alertes actives
-- RSI 77.42 — surachat extrême persistant (>70)
-- Divergence consensus — spot +70.1% vs PT $84.20
+- RSI 70.56 — surachat persistant (>70), refroidissement en cours
+- Divergence consensus — spot +70.4% vs PT $84.20
 - Filtre Qualité 3/6 — hors périmètre institutionnel
 - Ratio R/R 1.5:1 — inférieur au seuil 2:1
-- Pin options Max Pain $130.00 (éch. 2026-05-29, 2 jours ouvrés) — écart –9.2% vs spot, léger biais put (P/C 1.08, Call OI 48.1%)
-- [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $82.89 Mds vs FMP $37.02 Mds
-- ATR $12.68 stable — volatilité élevée
-- Gap +5.48% du 26/05 sans news — mouvement parabolique
-- [ANOMALIE OPTIONS] Max Pain $45.00 dans latest.json (artefact JSON aberrant) → valeur confirmée $130.00 maintenue
+- [ANOMALIE DATA] Max Pain $45.00 dans latest.json (artefact JSON aberrant) → référence historique $123–$130
+- [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $83.06 Mds vs FMP $37.02 Mds
+- ATR $12.37 — volatilité élevée mais en contraction
+- Distribution détectée : repli -3.07% sur volume 1.15× moyenne 20j
+- 52W high $151.00 suivi de repli immédiat — rejet de nouveaux sommets
+- Gap sans news du 26–27/05 — mouvement parabolique non confirmé par fondamental
