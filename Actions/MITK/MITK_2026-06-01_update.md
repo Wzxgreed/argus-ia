@@ -1,93 +1,93 @@
-# MITK — Mise à Jour Post-Pipeline (2026-06-01 10:00 UTC)
+# MITK — Mise à Jour Post-Pipeline (2026-06-01 13:00 UTC)
 
-> Desk : Argus-IA | Pipeline : 10:00 UTC | Données : `data/latest.json` (2026-06-01T10:00:01Z) | Score Global Ajusté : **56.0/100** | Action : **ATTENDRE**
+> Desk : Argus-IA | Pipeline : 13:00 UTC | Données : `data/latest.json` (2026-06-01T13:00:16Z) | Score Global Ajusté : **56.0/100** | Action : **ATTENDRE**
 
 ---
 
 ## Résumé des Changements
 
-**Verdict : THÈSE CONFIRMÉE — STABILITÉ TECHNIQUE AVEC RECUL DU RSI ET NOUVEAU 52W HIGH, VOLUME TOUJOURS FAIBLARD.**
+**Verdict : THÈSE CONFIRMÉE — STABILITÉ TOTALE DES DONNÉES DE PRIX, CORRECTION DE L'ANOMALIE OPTIONS, STRUCTURE DÉRIVÉE HAUSSIÈRE RÉTABLIE.**
 
-Snapshot 2026-06-01 : cours **$17.18** (+2.02% vs previous close $16.84), **nouveau 52-week high $17.62** (+2.5% vs $17.19 précédent), **RSI 61.88** (−2.66 pt vs 2026-05-27, sortie de la zone de vigilance >70), **ATR $0.91** (−9.0% vs $1.00, compression volatilité). Volume **771,300** (0.58× moyenne 20j) — en légère hausse vs 704,057 (0.54×) du 27/05 mais **toujours sous le seuil institutionnel de confirmation** (1.0×). Forward P/E remonte légèrement à **14.15x** (+0.14 pt vs 14.01x). Consensus PT ($16.00) désormais dépassé de **7.4%**.
+Snapshot 2026-06-01 13:00 UTC : cours **$17.18** (+2.02% vs previous close $16.84), **nouveau 52-week high $17.62** touché en séance, **RSI 61.88**, **ATR $0.91** (compression volatilité), volume **771,300** (0.58× moyenne 20j). **Aucune mutation** des données de prix, technique ou fondamentale vs le snapshot 10:00 UTC. L'événement du snapshot 13:00 UTC est la **correction de l'anomalie options** : max pain rétabli à **$20.00** (vs $2.50 aberrant au snapshot 10:00 UTC), put/call ratio **0.22**, call OI **81.8%** — la structure dérivée haussière est de nouveau interprétable et confirme un biais call extrême.
 
-**Table comparative — Snapshot 2026-05-27 17:00 UTC vs Snapshot 2026-06-01 10:00 UTC :**
+**Table comparative — Snapshot 2026-06-01 10:00 UTC vs Snapshot 2026-06-01 13:00 UTC :**
 
-| Variable | 2026-05-27 | 2026-06-01 | Δ |
+| Variable | 2026-06-01 10:00 UTC | 2026-06-01 13:00 UTC | Δ |
 |---|---|---|---|
-| **Cours close** | **$17.01** | **$17.18** | **+1.0%** |
-| **Change %** | +1.98% | **+2.02%** | Stable |
-| **Open / High / Low** | 16.70 / 17.19 / 16.45 | **16.95 / 17.62 / 16.87** | **Nouveau 52w high $17.62** |
-| **RSI 14j** | **64.54** | **61.88** | **−2.66 pt (sortie zone vigilance)** |
-| **ATR 14j** | **$1.00** | **$0.91** | **−9.0% (compression)** |
-| **MM 50j** | **$14.46** | **$14.57** | **+0.8%** |
-| **Volume jour** | 704,057 | **771,300** | **+9.5%** |
-| **Volume vs 20j** | 0.54× | **0.58×** | **🔴 Persiste sous 1.0×** |
-| **Market Cap (Yahoo)** | $768.2M | **$775.8M** | **+1.0%** |
-| **Score Global Ajusté** | 56.0/100 | **56.0/100** | **—** |
-| **Score Opportunité** | 5.1/10 | **5.1/10** | **—** |
-| **Score Catalyseur** | 4.0/10 | **4.0/10** | **—** |
-| **Score Valorisation** | 5.0/10 | **5.0/10** | **—** |
-| **Score Momentum** | 6.8/10 | **6.8/10** | **—** |
+| **Cours close** | **$17.18** | **$17.18** | **—** |
+| **Change %** | +2.02% | **+2.02%** | — |
+| **Open / High / Low** | 16.95 / 17.62 / 16.87 | **16.95 / 17.62 / 16.87** | — |
+| **RSI 14j** | **61.88** | **61.88** | — |
+| **ATR 14j** | **$0.91** | **$0.91** | — |
+| **MM 50j** | **$14.57** | **$14.57** | — |
+| **Volume jour** | 771,300 | **771,300** | — |
+| **Volume vs 20j** | 0.58× | **0.58×** | — |
+| **Market Cap (Yahoo)** | $775.8M | **$775.8M** | — |
+| **Score Global Ajusté** | 56.0/100 | **56.0/100** | — |
+| **Score Opportunité** | 5.1/10 | **5.1/10** | — |
+| **Score Catalyseur** | 4.0/10 | **4.0/10** | — |
+| **Score Valorisation** | 5.0/10 | **5.0/10** | — |
+| **Score Momentum** | 6.8/10 | **6.8/10** | — |
 | **Action recommandée** | ATTENDRE | **ATTENDRE** | **Confirmée** |
-| **Consensus PT (FMP)** | $16.00 (2 analysts) | **$16.00 (2 analysts)** | **Dépassé de 7.4%** |
-| **Max Pain** | $20.00 | **$2.50** | **🔴 ANOMALIE OPTIONS (valeur historique $20.00)** |
-| **Put/Call ratio** | 0.25 | **N/D** | — |
-| **Call OI %** | 80.0% | **N/D** | — |
-| **52-week high** | $17.19 | **$17.62** | **+2.5%** |
-| **Forward P/E** | 14.01x | **14.15x** | **+1.0%** |
-| **Prochain earnings** | 2026-08-06 (71j) | **2026-08-06 (66j)** | **—** |
+| **Consensus PT (FMP)** | $16.00 (2 analysts) | **$16.00 (2 analysts)** | Dépassé de 7.4% |
+| **Max Pain** | $2.50 (🔴 anomalie) | **$20.00** | **🟢 CORRIGÉ** |
+| **Put/Call ratio** | N/D | **0.22** | **🟢 RÉTABLI** |
+| **Call OI %** | N/D | **81.8%** | **🟢 RÉTABLI** |
+| **52-week high** | $17.62 | **$17.62** | — |
+| **Forward P/E** | 14.15x | **14.15x** | — |
+| **Prochain earnings** | 2026-08-06 (66j) | **2026-08-06 (66j)** | — |
 | **Régime macro** | Unknown | **Unknown** | — |
 | **XLK momentum** | 10.0/10 | **10.0/10** | — |
 | **Geo risk score** | N/D | **N/D** | — |
 | **FX impact score** | 0.0 | **0.0** | — |
 | **Social sentiment** | 0 / No data | **0 / No data** | — |
 | **Events corporate** | Aucun | **Aucun** | — |
-| **Signal sector rotation** | — | **ROTATION_TO_DEFENSIVE** | **🟡 NOUVEAU RISQUE MACRO** |
+| **Signal sector rotation** | ROTATION_TO_DEFENSIVE | **ROTATION_TO_DEFENSIVE** | — |
 
-**Lecture institutionnelle :** MITK affiche une **stabilité relative** sur 4 jours de bourse ($17.01 → $17.18, +1.0%) avec un **nouveau 52w high** ($17.62) en séance. Le RSI est revenu à 61.88, sortant de la zone de vigilance >70 — c'est un signe positif pour la marge de sécurité technique. L'ATR compresse à $0.91 (5.3% du spot), indiquant une consolidation de la volatilité. Cependant, le volume persiste à **0.58× moyenne 20j**, confirmant un rally sans participation institutionnelle significative. La structure options présente une **anomalie** (max pain $2.50 vs historique $20.00) — le signal dérivé est donc neutralisé. Le signal macro `ROTATION_TO_DEFENSIVE` émis par le module sector rotation constitue un **nouveau risque** pour le secteur Technology (XLK), bien que ce dernier conserve un momentum score de 10.0/10. Aucun catalyseur idiosyncratique n'est apparu. La recommandation **ATTENDRE** est confirmée.
+**Lecture institutionnelle :** Le snapshot 13:00 UTC confirme une **stabilité absolue** des données de marché vs le snapshot 10:00 UTC. L'unique évolution est la **restauration des données options** (max pain $20.00, put/call 0.22, call OI 81.8%), ce qui réactive un signal dérivé haussier de qualité. Cette structure options (max pain +16.4% au-dessus du spot, 4.5 calls pour 1 put) confirme que le marché dérivé anticipe une poursuite de la dynamique haussière, sous réserve d'un catalyseur idiosyncratique. Le volume persiste à **0.58× moyenne 20j**, maintenant le doute sur la conviction institutionnelle. Le signal macro `ROTATION_TO_DEFENSIVE` reste actif, mais XLK conserve un momentum de 10.0/10 (+19.76% sur 20j). Les scores agents sont strictement inchangés. La recommandation **ATTENDRE** est confirmée.
 
 ---
 
 ## 1. Mise à Jour Technique
 
-| Indicateur | Valeur | Δ vs 2026-05-27 | Lecture |
+| Indicateur | Valeur | Δ vs 2026-06-01 10:00 UTC | Lecture |
 |---|---|---|---|
-| **Cours close** | $17.18 | +1.0% | Consolidation au-dessus de $17.00 |
-| **Open / High / Low** | 16.95 / 17.62 / 16.87 | Nouveau 52w high | Effleuré $17.62 intraday |
+| **Cours close** | $17.18 | — | Consolidation au-dessus de $17.00 |
+| **Open / High / Low** | 16.95 / 17.62 / 16.87 | — | Nouveau 52w high $17.62 effleuré |
 | **Change %** | +2.02% | — | Performance positive vs previous close |
-| **RSI (14j)** | 61.88 | **−2.66 pt** | 🟢 Sortie zone vigilance (>70) |
-| **ATR (14j)** | $0.91 | **−9.0%** | Compression volatilité |
-| **MM 50j** | $14.57 | +0.8% | **Close AU-DESSUS de MM50 (+17.9%)** — support intact |
+| **RSI (14j)** | 61.88 | — | Zone saine, sortie de vigilance >70 confirmée |
+| **ATR (14j)** | $0.91 | — | Compression volatilité (5.3% du spot) |
+| **MM 50j** | $14.57 | — | **Close AU-DESSUS de MM50 (+17.9%)** — support intact |
 | **MM 200j** | N/A | — | [DONNÉES MANQUANTES] |
-| **Volume** | 771,300 | +9.5% | **0.58× moyenne 20j** — 🔴 persistance faible |
-| **52-week range** | $8.53 – $17.62 | +2.5% | Spot au **99.0%** du 52w high |
+| **Volume** | 771,300 | — | **0.58× moyenne 20j** — 🔴 persistance faible |
+| **52-week range** | $8.53 – $17.62 | — | Spot au **99.0%** du 52w high |
 | **Beta** | 0.955 | — | Aligné sur le marché |
 
-**Niveaux clés (révisés à la hausse, ATR compressé) :**
+**Niveaux clés (inchangés, ATR compressé) :**
 - Support immédiat : $16.87 (low du jour)
 - Support structurel : $16.45 (low 2026-05-27)
 - Support MM50 : $14.57
 - Résistance intermédiaire : $17.62 (52w high frais)
-- Résistance majeure : $18.00–$20.00 (zone max pain historique)
+- Résistance majeure : $18.00–$20.00 (zone max pain)
 - Stop-loss ATR (2×) : **$15.36** (−10.6%)
 - Take-profit ATR (3×) : **$19.91** (+15.9%)
 - Ratio R/R : **1.5**
 
-**Verdict timing :** Favorable mais **fragilisé par le volume**. La configuration technique reste haussière (prix au-dessus de MM50 avec marge confortable +17.9%, nouveau 52w high $17.62, RSI revenu dans une zone saine 61.88). Le break de $17.19 est validé, mais sans volume >1.0× moyenne, le risque de faux signal ou de pullback vers $16.50 persiste. L'ATR compression à $0.91 peut préfigurer un mouvement directionnel imminent (breakout ou breakdown) — à surveiller.
+**Verdict timing :** Favorable mais **fragilisé par le volume**. La configuration technique reste haussière (prix au-dessus de MM50 avec marge confortable +17.9%, 52w high $17.62, RSI 61.88 dans zone saine). L'ATR compression à $0.91 peut préfigurer un mouvement directionnel imminent. Le break de $17.19 est validé, mais sans volume >1.0× moyenne, le risque de faux signal ou de pullback vers $16.50 persiste.
 
-**Momentum sectoriel :** XLK affiche un momentum score de **10.0/10** (return 20j +19.76%, return 60j +36.77%). Signal macro `ROTATION_TO_DEFENSIVE` détecté — ce signal, combiné au faible volume de MITK, suggère que la participation institutionnelle au rally tech pourrait s'amenuiser. MITK reste exposé au vent de queue sectoriel tant que XLK conserve sa dynamique.
+**Momentum sectoriel :** XLK affiche un momentum score de **10.0/10** (return 20j +19.76%, return 60j +36.77%). Signal macro `ROTATION_TO_DEFENSIVE` persistant — ce signal, combiné au faible volume de MITK, suggère que la participation institutionnelle au rally tech pourrait s'amenuiser. MITK reste exposé au vent de queue sectoriel tant que XLK conserve sa dynamique.
 
 ---
 
 ## 2. Mise à Jour Fondamentale
 
-| Métrique | Valeur | Source | Δ vs 2026-05-27 |
-|----------|--------|--------|----------------|
-| Market Cap | $775.8M (Yahoo) | Yahoo | +1.0% |
+| Métrique | Valeur | Source | Δ vs 2026-06-01 10:00 UTC |
+|----------|--------|--------|---------------------------|
+| Market Cap | $775.8M (Yahoo) | Yahoo | — |
 | P/E (TTM) | 50.53x | Yahoo Finance | — |
-| Forward P/E | 14.15x | Yahoo Finance | **+1.0%** |
+| Forward P/E | 14.15x | Yahoo Finance | — |
 | EV/EBITDA | 17.99x | Yahoo Finance | — |
-| P/B | 3.22x | Yahoo Finance | +0.9% |
+| P/B | 3.22x | Yahoo Finance | — |
 | Gross Margin | 85.1% | FMP | — |
 | Operating Margin | 9.3% | FMP | — |
 | EBITDA Margin | 20.5% | FMP | — |
@@ -109,15 +109,15 @@ Snapshot 2026-06-01 : cours **$17.18** (+2.02% vs previous close $16.84), **nouv
 | Signal | Valeur | Lecture |
 |---|---|---|
 | Consensus PT | $16.00 (2 analysts) | **DÉPASSÉ** — spot $17.18 = +7.4% au-dessus du PT |
-| **Max Pain** | **$2.50** | 🔴 **ANOMALIE** — valeur aberrante vs historique $20.00 |
-| Put/Call ratio | N/D | Données manquantes (options JSON incomplet) |
-| Call OI % | N/D | Données manquantes |
+| **Max Pain** | **$20.00** | 🟢 Bien au-dessus du spot (+16.4%) — structure haussière confirmée |
+| **Put/Call ratio** | **0.22** | 🟢 Biais call extrême (4.5 calls pour 1 put) |
+| **Call OI %** | **81.8%** | 🟢 Structure dérivée très haussière |
 | Short Interest | 8.31% | Modéré, pas de squeeze setup |
 | Social Sentiment | 0 / No data | Sous le radar retail |
 | Upgrades/Downgrades | Aucun | Silence analystes persistant (0 analyste actif ce mois) |
 | News structurantes | Aucune | — |
 
-**Verdict Sentiment :** Neutre. Le consensus PT reste dépassé avec une marge croissante (+7.4%). Aucun flux de news, aucun insider trade, aucun upgrade/downgrade depuis le 27/05. MITK reste sous le radar institutionnel. La structure options est **non interprétable** suite à l'anomalie max pain $2.50 (valeur historique $20.00 à utiliser comme référence). Le dépassement croissant du PT analyste constitue un risque de retracement vers $16.00–$16.50 si absence de révision.
+**Verdict Sentiment :** Neutre à légèrement positif grâce au signal dérivé rétabli. Le consensus PT reste dépassé avec une marge croissante (+7.4%). Aucun flux de news, aucun insider trade, aucun upgrade/downgrade. MITK reste sous le radar institutionnel. La structure options est désormais **pleinement interprétable et haussière** : max pain $20.00 (+16.4% vs spot), put/call 0.22, call OI 81.8%. Cette configuration dérivée anticipe une poursuite haussière, mais la faible liquidité strike limite la fiabilité du signal. Le dépassement croissant du PT analyste constitue toujours un risque de retracement vers $16.00–$16.50 si absence de révision.
 
 ---
 
@@ -135,7 +135,7 @@ Snapshot 2026-06-01 : cours **$17.18** (+2.02% vs previous close $16.84), **nouv
 |---|---|---|
 | Score Global 56.0/100 | **ATTENDRE** | **—** |
 
-**Explication :** Les scores agents sont **strictement inchangés** vs le snapshot 2026-05-27. Le Score Opportunité reste à **5.1/10** (catégorie ATTENDRE 50–59). Le Catalyseur (4.0/10) pénalisé par l'absence de news idiosyncratique, la Valorisation (5.0/10) pénalisée par le consensus PT dépassé (+7.4%) et le Forward P/E resserré, le Momentum (6.8/10) soutenu par la configuration technique haussière (MM50, 52w high) mais limité par le volume faible. Le timing reste Favorable. La recommandation **ATTENDRE** est confirmée.
+**Explication :** Les scores agents sont **strictement inchangés** vs le snapshot 10:00 UTC. Le Score Opportunité reste à **5.1/10** (catégorie ATTENDRE 50–59). Le Catalyseur (4.0/10) pénalisé par l'absence de news idiosyncratique, la Valorisation (5.0/10) pénalisée par le consensus PT dépassé (+7.4%) et le Forward P/E resserré, le Momentum (6.8/10) soutenu par la configuration technique haussière (MM50, 52w high) mais limité par le volume faible. Le timing reste Favorable. La recommandation **ATTENDRE** est confirmée.
 
 **Risques additionnels :**
 - Geo risk : N/D — pas de données spécifiques MITK dans `geo_risk_latest.json`
@@ -155,7 +155,7 @@ Snapshot 2026-06-01 : cours **$17.18** (+2.02% vs previous close $16.84), **nouv
 | **Take-profit** | $19.91 | +15.9% |
 | **Ratio R/R** | 1.5 | Seuil institutionnel non atteint (cible 1:2) |
 
-Les niveaux sont **révisés à la hausse** : close $17.18 et ATR compressé $0.91. Le SL à $15.36 correspond au support structurel $16.45 + marge ATR compressée, aligné avec les recommandations agents. Le TP à $19.91 est aligné avec la zone max pain historique ($20.00).
+Les niveaux sont **inchangés** : close $17.18 et ATR compressé $0.91. Le SL à $15.36 correspond au support structurel $16.45 + marge ATR compressée. Le TP à $19.91 est aligné avec la zone max pain ($20.00).
 
 ---
 
@@ -170,24 +170,24 @@ Les niveaux sont **révisés à la hausse** : close $17.18 et ATR compressé $0.
 - 🟢 **[CASSURE MM50 CONFIRMÉE]** Cours $17.18 > MM50 $14.57 (+17.9%) — signal technique intact — 2026-06-01
 - 🟢 **[BREAK 52-WEEK HIGH]** 52w high $17.62 atteint — break confirmé — 2026-06-01
 - 🟢 **[MOMENTUM SECTORIEL FAVORABLE]** XLK : 10.0/10 (+19.76% sur 20j) — vent de queue Technology — 2026-06-01
+- 🟢 **[STRUCTURE OPTIONS HAUSSIÈRE RÉTABLIE]** Max Pain $20.00, Put/Call 0.22, Call OI 81.8% — signal dérivé haussier réactivé — **CORRIGÉ** — 2026-06-01
 - 🟡 **[CONSENSUS PT DÉPASSÉ]** $16.00 dépassé de 7.4% — upside théorique nul, monitoring des révisions analystes — 2026-06-01
 - 🟡 **[VOLUME FAIBLARD PERSISTANT]** 771,300 = 0.58× moyenne 20j — rally sans conviction institutionnelle — 2026-06-01
-- 🟡 **[ROTATION SECTORIELLE DÉFENSIVE]** Signal macro `ROTATION_TO_DEFENSIVE` — risque pour cyclical growth / Technology si confirmation — **NOUVEAU** — 2026-06-01
-- 🟡 **[ANOMALIE OPTIONS]** Max pain $2.50 aberrant — utiliser valeur historique $20.00, données options JSON incomplètes — **NOUVEAU** — 2026-06-01
+- 🟡 **[ROTATION SECTORIELLE DÉFENSIVE]** Signal macro `ROTATION_TO_DEFENSIVE` — risque pour cyclical growth / Technology si confirmation — 2026-06-01
 - 🟡 **[ROIC FAIBLE]** 3.16% — monitorer l'efficacité du capital dans les prochains filings — 2026-05-18
 - 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($776M Yahoo vs $447M FMP), P/E, EV multiples — utiliser Yahoo comme primaire — persistant
-- 🟡 **[LIQUIDITÉ DÉRIVÉE FAIBLE]** Faible couverture strike + anomalie max pain — prudence sur le hedging — 2026-06-01
+- 🟡 **[LIQUIDITÉ DÉRIVÉE FAIBLE]** Faible couverture strike — prudence sur le hedging — 2026-06-01
 
 **Alertes levées :**
-- ✅ **[RSI APPROCHE SURACHAT]** 64.54, zone de vigilance >70 — RÉSOLU (RSI reculé à 61.88) — 2026-06-01
+- ✅ **[ANOMALIE OPTIONS]** Max pain $2.50 aberrant — RÉSOLU (max pain rétabli à $20.00, put/call 0.22, call OI 81.8%) — 2026-06-01
 
 ---
 
 ## 7. Conclusion — Thèse Confirmée (ATTENDRE)
 
-**Verdict : THÈSE CONFIRMÉE. Snapshot 2026-06-01 : cours $17.18 (+2.02% vs previous close), nouveau 52-week high $17.62, RSI 61.88 (−2.66 pt, sortie zone vigilance), ATR $0.91 (compression), volume 771,300 (0.58× moyenne, persistance faible). Score Global Ajusté inchangé 56.0/100. Action ATTENDRE confirmée.**
+**Verdict : THÈSE CONFIRMÉE. Snapshot 13:00 UTC 2026-06-01 : cours $17.18 (+2.02% vs previous close), nouveau 52-week high $17.62, RSI 61.88 (zone saine), ATR $0.91 (compression), volume 771,300 (0.58× moyenne, persistance faible). Score Global Ajusté inchangé 56.0/100. Action ATTENDRE confirmée.**
 
-MITK poursuit sa lente dérive haussière sur 4 séances ($17.01 → $17.18, +1.0%) avec un **nouveau 52w high** ($17.62) mais toujours sur **volume insuffisant** (0.58× moyenne). Le recul du RSI à 61.88 est un signe positif (marge de sécurité technique restaurée), et la compression de l'ATR à $0.91 peut préfigurer un break directionnel. Cependant, l'absence de catalyseur idiosyncratique (Catalyseur 4.0/10), le consensus PT dépassé de 7.4% sans révision analyste, et le signal macro `ROTATION_TO_DEFENSIVE` limitent l'attrait opérationnel.
+MITK affiche une **stabilité parfaite** des données de marché entre les snapshots 10:00 UTC et 13:00 UTC. Le principal développement est la **correction de l'anomalie options** : max pain rétabli à $20.00, put/call ratio à 0.22, call OI à 81.8%. Ce signal dérivé haussier renforce la configuration technique mais ne modifie pas les scores agents, car le volume faible (0.58× moyenne) et l'absence de catalyseur idiosyncratique (Catalyseur 4.0/10) continuent de limiter l'attrait opérationnel. Le consensus PT ($16.00) reste dépassé de 7.4%, rendant l'upside théorique nul à court terme sans révision analystes. Le signal macro `ROTATION_TO_DEFENSIVE` reste un risque de fond pour le secteur Technology.
 
 **Catalyseurs forward :**
 1. **Consolidation au-dessus de $17.19 (ancien 52w high)** — si confirmée avec volume >1.0× moyenne sur 2–3 séances, ouverture voie $18.00–$20.00
@@ -198,7 +198,6 @@ MITK poursuit sa lente dérive haussière sur 4 séances ($17.01 → $17.18, +1.
 - **Volume faiblard persistant** (0.58× moyenne) — rally sans conviction, risque de faux signal ou de pullback vers $16.50
 - **Consensus PT dépassé** ($16.00 < $17.18, +7.4%) — upside théorique nul sans révision. Risque de retracement vers $16.00–$16.50
 - **Rotation sectorielle défensive** — signal macro `ROTATION_TO_DEFENSIVE` : si le flux institutionnel quitte le Technology (XLK), MITK subirait un underperformance relatif malgré son propre momentum
-- **Anomalie options** (max pain $2.50 aberrant) — impossible d'utiliser le signal dérivé comme confirmation
 - Absence de catalyseur idiosyncratique avéré (Catalyseur 4.0/10)
 - ROIC faible (3.16%) — efficacité du capital à prouver
 - SBC / Revenue élevé (9.35%) — dilution potentielle
@@ -209,4 +208,4 @@ Nouvelles positions : **ne pas entrer à ce stade.** Attendre un pullback vers $
 
 ---
 
-*Révision post-pipeline 10:00 UTC — Données : `data/latest.json` (2026-06-01T10:00:01Z), `data/recommandations_2026-06-01.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_2026-06-01.json`, `data/fx_exposure_2026-06-01.json`, `data/social_sentiment_2026-06-01.json`, `data/upcoming_events_2026-06-01.json`, `data/events_2026-06-01.json` — Date : 2026-06-01*
+*Révision post-pipeline 13:00 UTC — Données : `data/latest.json` (2026-06-01T13:00:16Z), `data/recommandations_2026-06-01.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_2026-06-01.json`, `data/fx_exposure_2026-06-01.json`, `data/social_sentiment_2026-06-01.json`, `data/upcoming_events_2026-06-01.json`, `data/events_2026-06-01.json` — Date : 2026-06-01*
