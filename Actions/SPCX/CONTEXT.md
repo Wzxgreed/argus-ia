@@ -11,9 +11,9 @@
 **Prix cible :** N/A (données insuffisantes)
 **Stop-loss :** N/A
 **Upside :** —
-**Dernière mise à jour :** 2026-06-01 (snapshot 10:00 UTC)
+**Dernière mise à jour :** 2026-06-01 (snapshot 17:00 UTC)
 
-> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot du 01/06 n'a fourni aucune donnée technique Yahoo (RSI, ATR, MM50 absents) — source basculée sur `fmp_fallback`. Le volume a chuté de 95% à **196 unités** (quasi-illiquide). L'Agent Recommandation a reclassé SPCX en **ATTENDRE** avec un Score Global Ajusté de **54.0/100** (Score Opportunité 5.4/10 : C:6.5 V:5.0 M:4.5), timing Neutre. Le setup technique du 27/05 (au-dessus MM50, RSI 59.07) est suspendu par manque de données fiables. Le secteur Financials (XLF) reste hors rotation haussière (momentum_score 0.0, return_20d −1.06%). Aucun catalyseur fondamental. SL/TP non calculables (ATR absent). Rétablissement possible si retour données Yahoo complètes + volume >1 000 + Score Momentum ≥ 6.0.
+> SPCX est un ETF thématique SPAC/post-IPO. Les snapshots 10h et 17h UTC du 01/06 n'ont fourni aucune donnée technique Yahoo (RSI, ATR, MM50 absents) — source persistante `fmp_fallback`. Le volume est figé à **196 unités** sur la séance complète (quasi-illiquide). L'Agent Recommandation maintient SPCX en **ATTENDRE** avec un Score Global Ajusté de **54.0/100** (Score Opportunité 5.4/10 : C:6.5 V:5.0 M:4.5), timing Neutre. Le setup technique du 27/05 est suspendu. Le signal sectoriel a basculé en `ROTATION_TO_CYCLICAL` (XLF top3, momentum_score 0.0, return_20d −1.13%) — sans impact concret sur l'ETF. Aucun catalyseur fondamental, news, options ni social. SL/TP non calculables (ATR absent). Rétablissement possible si retour données Yahoo complètes + volume >1 000 + Score Momentum ≥ 6.0.
 
 ---
 
@@ -40,7 +40,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-01** · earnings · Earnings ...
+- Aucun événement réel — faux earnings FMP (artefact) à ignorer
 
 ---
 
@@ -56,10 +56,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-01
+- **Date :** 2026-06-01 (17:00 UTC)
 - **Type :** update
 - **Fichier :** `SPCX_2026-06-01_update.md`
-- **Conclusion :** **Date :** 2026-06-01
+- **Conclusion :** Thèse confirmée en ATTENDRE — aucune mutation entre 10h et 17h, données Yahoo absentes persistantes, volume figé 196, Score Global 54.0 maintenu, signal sectoriel ROTATION_TO_CYCLICAL sans impact concret
 
 ---
 
