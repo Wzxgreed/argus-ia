@@ -27,8 +27,8 @@ Apple est une entreprise de qualité institutionnelle exceptionnelle (Filtre Qua
 - 🟡 **Alerte technique :** RSI 84.28 — surachat sévère persistant mais sortie de la zone >85 (décroissance continue depuis 91.1 le 25/05)
 - 🟢 **Alerte volume :** Volume 69.98M (1.43× moyenne 20j) — participation institutionnelle soutenue, break 52W high $315.00 confirmé
 - 🟡 **Alerte valorisation :** Cours $312.06 > Consensus FMP $293.43 (+6.0%)
-- 🔴 **Alerte options :** Anomalie JSON détectée sur snapshot 2026-06-01 (max pain $225.00 aberrant, put/call null, call OI null) — **valeurs du 27/05 maintenues en référence** ($312.50, P/C 0.68, Call OI 59.7%). Attendre snapshot suivant pour réinitialisation
+- 🟡 **Alerte options :** Anomalie JSON **corrigée** sur snapshot 13:00 UTC (max pain $310.00, put/call 0.42, call OI 70.6%). **Nouveau risque :** dominance call record (70.6%, +10.9 pts vs 27/05) + pinning gamma vers $310.00 à expiration mensuelle 01/06
 - 🟡 **Alerte scoring :** Scores agents à la baisse (Opportunité 4.8/10, Global ajusté 37.5/100), timing Défavorable
 - 🟡 **Alerte technique :** Break 52W high $315.00 — confirmation nécessaire sur volume >1.1× moyenne en clôture
 - 🟡 **Alerte sector rotation :** Signal ROTATION_TO_DEFENSIVE détecté — XLK reste top performer mais risque de profit-taking sectoriel si confirmation macro
-- 🟢 **Alerte data quality résolue :** Anomalie options JSON du 27/05 résolue, mais nouvelle anomalie détectée 01/06
+- 🟢 **Alerte data quality résolue :** Anomalie options JSON du 01/06 10:00 UTC corrigée sur snapshot 13:00 UTC

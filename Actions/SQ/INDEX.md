@@ -67,4 +67,4 @@
 
 ---
 
-*Dernière mise à jour : 2026-06-01 · Snapshot 10:00 UTC*
+*Dernière mise à jour : 2026-06-01 · Snapshot 13:00 UTC*
