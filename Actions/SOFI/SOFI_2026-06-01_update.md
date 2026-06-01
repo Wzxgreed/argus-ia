@@ -1,6 +1,6 @@
 # SOFI (SoFi Technologies, Inc.) — Mise à jour quotidienne
 
-**Date :** 2026-06-01 (snapshot 10:00 UTC — close final confirmé)
+**Date :** 2026-06-01 (snapshot 13:00 UTC — close final confirmé)
 **Type :** `_update.md` — Mise à jour post-gap
 **Analyste :** Desk Argus-IA
 
@@ -24,9 +24,9 @@
 | Beta | 2.126 | **2.126** | 0.000 |
 | Short interest | 12.72% | **13.68%** | **+0.96 pts** |
 | Consensus PT | $25.41 (27a) | **$25.41 (27a)** | 0.00 |
-| Max Pain options | $16.00 | **$5.00** | **−$11.00 [ANOMALIE JSON — valeur historique $16.00 conservée]** |
-| Put/Call ratio | 0.60 | **null** | **[DONNÉES PARTIELLES]** |
-| Call OI % | 62.6% | **null** | **[DONNÉES PARTIELLES]** |
+| Max Pain options | $16.00 | **$17.00** | **+$1.00** |
+| Put/Call ratio | 0.60 | **0.44** | **−0.16 (plus bullish)** |
+| Call OI % | 62.6% | **69.6%** | **+7.0 pts** |
 | 52W range | $12.86–$32.73 | **$13.09–$32.73** | Low révisé +$0.23 |
 | Earnings J | 62 | **57** | −5j |
 
@@ -60,10 +60,10 @@ L'ATR remonte à **$0.85** (+16.4% vs 27/05), reflétant l'expansion de volatili
 | Métrique | Valeur | Évolution | Commentaire |
 |----------|--------|-----------|-------------|
 | Market cap | $23.37B | +$3.6B vs 26/05 | Réévaluation sur gap |
-| P/E LTM | 40.49 | +4.26 | Expansion multiple sur cours |
+| P/E LTM (Yahoo) | 40.49 | +4.26 | Expansion multiple sur cours |
 | Forward P/E | 23.35 | +2.33 | Reste raisonnable pour fintech croissance |
 | EV/Revenue | 5.558 | +0.735 | Réévaluation mais pas excessive |
-| P/B | 2.160 | +0.227 | Charter bancaire = support du book value |
+| P/B (Yahoo) | 2.160 | +0.227 | Charter bancaire = support du book value |
 | Gross margin (FMP) | 75.1% | — | Stable, excellent |
 | Operating margin | 11.0% | — | Stable |
 | Net margin | 10.1% | — | Stable |
@@ -86,13 +86,19 @@ Le secteur financier (XLF) reste sans direction spécifique (momentum 0.0/10, RS
 | Consensus PT | $25.41 (27 analystes) | 🟢 Upside consensus +39.5% vs cours |
 | Analystes actifs (1M) | 2 | 🟡 Couverture stable |
 | Analystes actifs (1T) | 10 | 🟡 Couverture stable |
-| Max Pain | $5.00 | 🔴 **[ANOMALIE JSON]** — Valeur historique $16.00 conservée |
-| Put/Call ratio | null | ⚪ [DONNÉES PARTIELLES] |
-| Call OI % | null | ⚪ [DONNÉES PARTIELLES] |
+| Max Pain | $17.00 | 🟡 Proche du cours — pinning possible vers $17.00 (expiration 05/06) |
+| Put/Call ratio | 0.44 | 🟢 Bullish — plus d'achats de calls que de puts |
+| Call OI % | 69.6% | 🟢 Forte dominance call — sentiment options haussier |
 | Social sentiment | 0.0 / No data | ⚪ Pas de données Reddit aujourd'hui |
 | Pump detected | false | 🟢 Aucun signal pump |
 
-**Options** — Les données options dans `latest.json` présentent une anomalie (Max Pain $5.00 aberrant, Put/Call et Call OI null). La valeur historique de $16.00 est conservée pour l'analyse. L'expiration prochaine est le 2026-06-05 (4 jours ouvrés). Avec le cours à $18.22, l'ancien Max Pain $16.00 est désormais significativement sous le cours — le pinning vers $16.00 n'est plus pertinent.
+**Options — [CORRIGÉ vs snapshot 10:00 UTC]** Les données options du snapshot 13:00 UTC sont désormais complètes et cohérentes :
+- **Max Pain $17.00** (cohérent avec le cours $18.22 — ancienne anomalie $5.00 résolue)
+- **Put/Call ratio 0.44** (bullish, en baisse de 0.16 vs 27/05)
+- **Call OI 69.6%** (+7.0 pts vs 27/05, forte dominance haussière)
+- **Expiration prochaine :** 2026-06-05 (4 jours ouvrés)
+
+Avec le cours à $18.22, le Max Pain $17.00 est significativement sous le cours — le pinning vers $17.00 est théoriquement attractif mais le momentum haussier fort pourrait l'emporter. La montée du Call OI à 69.6% et la baisse du Put/Call à 0.44 traduisent un repositionnement options nettement haussier depuis le 27/05.
 
 **News** — Aucune news structurante détectée via les flux automatiques. Le mouvement est donc non-news-driven.
 
@@ -153,15 +159,17 @@ Le signal technique attendu depuis les analyses du 25–27 mai est arrivé : SOF
 - Forward P/E 23.35 reste raisonnable pour une fintech en croissance
 - Short interest 13.68% = potentiel de squeeze si continuation
 - Earnings Q2 dans 57j (28 juillet) avec EPS estimates $0.10–$0.11 — catalyseur forward
+- Options repositionnement haussier (Call OI 69.6%, Put/Call 0.44)
 
 **Risques à surveiller :**
 - RSI 69.63 = proche surachat, pullback probable à court terme
 - Pas de news structurante identifiée = risque de gap non-sustainable
 - ATR $0.85 (+16.4%) = volatilité élevée, sizing réduit obligatoire
 - Secteur financier (XLF) sous-performant SPY (−6.3% RS20) = headwind sectoriel
+- Max Pain $17.00 (expiration 05/06) = pinning possible si consolidation
 
 **Action : ACHETER — Sizing réduit — SL $16.52 — TP $20.77 — Ratio R/R 1.5×**
 
 ---
 
-*Données sourcées : data/latest.json (2026-06-01T10:00 UTC), data/recommandations_latest.json, data/sector_rotation_latest.json, data/fx_exposure_latest.json, data/upcoming_events_latest.json. Anomalie options signalée : Max Pain $5.00 aberrant, données Put/Call et Call OI null.*
+*Données sourcées : data/latest.json (2026-06-01T13:00 UTC), data/recommandations_latest.json, data/sector_rotation_latest.json, data/fx_exposure_latest.json, data/upcoming_events_latest.json. Données options corrigées vs snapshot 10:00 UTC : Max Pain $17.00, Put/Call 0.44, Call OI 69.6%.*

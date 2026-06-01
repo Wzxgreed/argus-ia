@@ -393,38 +393,18 @@
 
 ---
 
-## 2026-06-01 — Full Refresh Triggered
+## 2026-06-01 — Full Refresh Conclu (snapshot 13:00 UTC)
 
 **Triggers :**
 - price_gap (medium) : Gap +7.37% overnight (seuil ±5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
-
----
-
-## 2026-06-01 — Full Refresh Triggered
-
-**Triggers :**
-- price_gap (medium) : Gap +7.37% overnight (seuil ±5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
-
----
-
-## 2026-06-01 — Full Refresh Triggered
-
-**Triggers :**
-- price_gap (medium) : Gap +7.37% overnight (seuil ±5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
-
----
-
-## 2026-06-01 — Full Refresh Triggered
-
-**Triggers :**
-- price_gap (medium) : Gap +7.37% overnight (seuil ±5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** MODIFIE — La thèse est confirmée mais renforcée avec un reclassement majeur.
+- Le gap +7.37% à $18.22 valide le rebond technique attendu depuis le 25/05. Breakout MM50 ($16.71) avec écart +9.0% et volume 2.25× = signal technique fort.
+- Les fondamentaux n'ont pas changé structurellement : Forward P/E 23.35 raisonnable, Quality Partielle 4/6 inchangée, Filtre Qualité non affecté par le gap (événement technique).
+- Le repositionnement options haussier (Call OI 69.6%, Put/Call 0.44, Max Pain $17.00) confirme le sentiment positif à très court terme.
+- Recommandation : **ATTENDRE → ACHETER** (Score Opportunité 6.3/10, Score Global 72.5/100).
+- SL $16.52, TP $20.77, Ratio R/R 1.5×, sizing réduit (beta 2.126).
+- RSI 69.63 = proche surachat, pullback vers $17.20–$17.50 probable à court terme avant continuation.
+- **Action :** DRAFT_refresh archivés (`_DRAFT_refresh_2026-05-31_ARCHIVED.md`, `_DRAFT_refresh_2026-06-01_ARCHIVED.md`). Pas de réécriture de `_init.md` requise — la structure fondamentale du 2026-05-17 reste valide, le gap est un événement technique capturé par `SOFI_2026-06-01_update.md`.
 
 ---
