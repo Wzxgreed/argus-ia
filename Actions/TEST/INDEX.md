@@ -3,17 +3,17 @@
 ## Thèse courante
 
 **Verdict :** ACHETER (Réduit)
-**Date dernière analyse :** 2026-06-01 (snapshot 13:00 UTC)
-**Cours actuel :** $47.236
+**Date dernière analyse :** 2026-06-01 (snapshot 17:00 UTC)
+**Cours actuel :** $46.03
 **Score Qualité :** 0/6 (Hors périmètre)
-**Score Opportunité :** 6.0/10 (agent reco — données fondamentales absentes)
-**Score Momentum :** 7.0/10
-**Score Global :** 65.2/100
-**Stop-loss :** $44.84
-**Take-profit :** $50.84
+**Score Opportunité :** 5.7/10 (agent reco — données fondamentales absentes)
+**Score Momentum :** 5.5/10
+**Score Global :** 61.5/100
+**Stop-loss :** $43.87
+**Take-profit :** $49.27
 **Ratio R/R :** 1.5
 
-TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Rebond technique en pause :** cours à $47.236 (+6.9% depuis $44.19 le 17/05), RSI à 53.42 (zone neutre favorable après sortie de la zone momentum >60), MM50 à $43.49 avec cours à +8.60% au-dessus. **Signal de fragilité majeur :** volume en effondrement à 400 (0.21× moyenne 20j) — liquidité quasi-nulle. Verdict agent confirmé **ACHETER (Réduit)** (Score Global 65.2/100). Timing Favorable. Mise à jour 2026-06-01 13:00 UTC : aucune mutation détectée vs snapshot 10:00 UTC — cours, RSI, volume et scores strictement inchangés. Earnings JOUR J le 2026-06-01 — résultats non observables à 13:00 UTC (14 jours de flag cumulés).
+TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Dégradation technique confirmée :** cours à $46.03 (−2.55% vs close 13h, +5.69% depuis la MM50 à $43.55), RSI à 41.06 (franchissement du seuil 50 à la baisse, momentum négatif), volume en hausse relative à 2,810 (1.42× moyenne 20j) mais reste marginal. Verdict agent maintenu **ACHETER (Réduit)** (Score Global 61.5/100) mais à la marge. Timing Favorable. Mise à jour 2026-06-01 17:00 UTC : mutation technique majeure — cours, RSI et momentum en baisse, volume sur baisse. Earnings JOUR J le 2026-06-01 — résultats non observables à 17:00 UTC (15 jours de flag cumulés).
 
 ---
 

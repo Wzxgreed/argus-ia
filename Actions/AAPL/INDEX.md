@@ -2,7 +2,7 @@
 
 ## Thèse courante
 
-Apple est une entreprise de qualité institutionnelle exceptionnelle (Filtre Qualité 6/6), dotée d'un fossé structurel inégalé et d'une transition services/IA porteuse. Cependant, sa valorisation à 37.7x P/E, un RSI 84.28 en surachat sévère (sorti de la zone >85 depuis le 25/05), et un cours à +6.0% au-dessus du consensus analystes ($293.43) traduisent un excès d'optimisme de marché persistant et un timing d'entrée défavorable à court terme. Le snapshot du 2026-06-01 13:00 UTC confirme la **stabilité technique totale** ($312.06, RSI 84.28, volume 1.43×) et corrige l'anomalie options du snapshot matinal (max pain $310.00, put/call 0.42, call OI 70.6%). La structure options révèle une **dominance call accrue** (70.6%, +10.9 pts vs 27/05) et un FOMO structurel amplifié, avec un pinning gamma modéré vers $310.00 à l'expiration mensuelle du jour. **Les scores agents restent figés à la baisse** (Score Opportunité 4.8/10, Score Global ajusté 37.5/100) et le timing reste **Défavorable**. Aucune news structurante n'a été détectée. Le prochain catalyseur visible est l'earnings du 2026-07-30 (59 jours). Verdict : **SURVEILLER** — pas d'entrée long à $312+ avec RSI > 80. Attendre un repli vers $302–$305 ou une consolidation confirmée au-dessus de $315 sur volume >1.1× moyenne avant toute exposition longue. La solidité du modèle économique ne justifie pas à elle seule le prix actuel.
+Apple est une entreprise de qualité institutionnelle exceptionnelle (Filtre Qualité 6/6), dotée d'un fossé structurel inégalé et d'une transition services/IA porteuse. Le snapshot 17:00 UTC du 2026-06-01 enregistre un **repli technique contrôlé de −1.92%** à $306.08 sur un **volume effondré à 0.48× la moyenne** (22.03M), interprété comme une consolidation post-expiration mensuelle sans panique institutionnelle. Le RSI chute de 14.18 pts pour atteindre **70.10**, sortant de la zone de surachat sévère (>80) pour la première fois depuis le 25/05 — **amélioration technique majeure**. Cependant, la valorisation reste étirée (P/E 37.0x, cours +4.1% vs consensus $293.43) et le timing reste **Défavorable**. Les scores agents sont révisés à la hausse (Score Opportunité 5.1/10, Score Global ajusté 41.0/100) mais restent en zone **SURVEILLER**. La structure options conserve sa dominance call record (70.6%, put/call 0.42). Aucune news structurante n'a été détectée. Le prochain catalyseur visible est l'earnings du 2026-07-30 (59 jours). Verdict : **SURVEILLER** — pas d'entrée long à $306. Attendre un reclaim de $310.93 sur volume > 0.8× moyenne ou une consolidation confirmée au-dessus de $315 sur volume > 1.0× moyenne avant toute exposition longue. La solidité du modèle économique ne justifie pas à elle seule le prix actuel.
 
 ## Historique
 | Date | Fichier | Type |
@@ -19,16 +19,17 @@ Apple est une entreprise de qualité institutionnelle exceptionnelle (Filtre Qua
 | 2026-05-27 | [AAPL_2026-05-27_update_17h.md](AAPL_2026-05-27_update_17h.md) | Mise à jour quotidienne — snapshot 17:00 UTC (mi-séance). Cours +0.77% à $310.69, **nouveau 52W high intraday $313.26**, RSI 87.33 (légère détente), ATR $5.32 (compression), scores révisés à la baisse (Opportunité 4.8, Global ajusté 37.5), volume 0.60× à mi-séance. Thèse SURVEILLER confirmée |
 | 2026-06-01 | [AAPL_2026-06-01_update.md](AAPL_2026-06-01_update.md) | Mise à jour quotidienne — snapshot 10:00 UTC. Cours +0.44% à $312.06, **nouveau 52W high confirmé $315.00**, RSI 84.28 (sortie zone >85, −3.05 pts), ATR $4.97 (compression −6.6%), volume 1.43× moyenne, scores inchangés (Opportunité 4.8, Global ajusté 37.5), anomalie options JSON. Thèse SURVEILLER confirmée avec nuance technique moins défavorable |
 | 2026-06-01 | [AAPL_2026-06-01_update_13h.md](AAPL_2026-06-01_update_13h.md) | Mise à jour snapshot 13:00 UTC — **correction options JSON** (max pain $310.00, put/call 0.42, call OI 70.6%), structure haussière renforcée, pinning gamma modéré vers le bas à expiration, données techniques inchangées, scores inchangés. Thèse SURVEILLER confirmée |
+| 2026-06-01 | [AAPL_2026-06-01_update_17h.md](AAPL_2026-06-01_update_17h.md) | Mise à jour snapshot 17:00 UTC (close) — repli −1.92% à $306.08 sur volume effondré 0.48×, RSI 70.10 sortie surachat sévère, scores révisés à la hausse (Opportunité 5.1, Global ajusté 41.0), SL/TP révisés $295.74/$321.59. Thèse SURVEILLER modifiée avec nuance technique moins défavorable |
 
 ## Agenda
 - **Prochain earnings :** 2026-07-30 (59 jours) — Est EPS $1.83–$1.99, Rev $109.0B
 
 ## Alertes actives
-- 🟡 **Alerte technique :** RSI 84.28 — surachat sévère persistant mais sortie de la zone >85 (décroissance continue depuis 91.1 le 25/05)
-- 🟢 **Alerte volume :** Volume 69.98M (1.43× moyenne 20j) — participation institutionnelle soutenue, break 52W high $315.00 confirmé
-- 🟡 **Alerte valorisation :** Cours $312.06 > Consensus FMP $293.43 (+6.0%)
-- 🟡 **Alerte options :** Anomalie JSON **corrigée** sur snapshot 13:00 UTC (max pain $310.00, put/call 0.42, call OI 70.6%). **Nouveau risque :** dominance call record (70.6%, +10.9 pts vs 27/05) + pinning gamma vers $310.00 à expiration mensuelle 01/06
-- 🟡 **Alerte scoring :** Scores agents à la baisse (Opportunité 4.8/10, Global ajusté 37.5/100), timing Défavorable
-- 🟡 **Alerte technique :** Break 52W high $315.00 — confirmation nécessaire sur volume >1.1× moyenne en clôture
-- 🟡 **Alerte sector rotation :** Signal ROTATION_TO_DEFENSIVE détecté — XLK reste top performer mais risque de profit-taking sectoriel si confirmation macro
+- 🟡 **Alerte technique :** RSI 70.10 — surachat modéré (sortie de zone >80, amélioration mais encore au-dessus de 70)
+- 🔴 **Alerte volume :** Volume 22.03M (0.48× moyenne 20j) — effondrement de la participation, repli sur volume faible
+- 🟡 **Alerte valorisation :** Cours $306.08 > Consensus FMP $293.43 (+4.1%)
+- 🟡 **Alerte options :** Dominance call record maintenue (70.6%, put/call 0.42). FOMO structurel persistant post-expiration mensuelle
+- 🟡 **Alerte scoring :** Scores agents en zone SURVEILLER (Opportunité 5.1/10, Global ajusté 41.0/100), timing Défavorable
+- 🟡 **Alerte technique :** Support $305.49 (low du jour) — cassure = test du SL $295.74
+- 🟡 **Alerte sector rotation :** Signal ROTATION_TO_CYCLICAL — XLK reste top performer (momentum 10.0/10) mais risque de rotation latérent
 - 🟢 **Alerte data quality résolue :** Anomalie options JSON du 01/06 10:00 UTC corrigée sur snapshot 13:00 UTC
