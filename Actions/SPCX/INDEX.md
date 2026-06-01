@@ -24,6 +24,7 @@
 | 2026-05-27 | Mise à jour post-pipeline (13:00 UTC) | [SPCX_2026-05-27_update.md](./SPCX_2026-05-27_update.md) | Thèse confirmée : 8e snapshot consécutif sans mutation, stabilité totale cours/volume/RSI, ACHETER (Réduit) maintenu, Score Global Ajusté 65.2 |
 | 2026-05-27 | Mise à jour post-pipeline (17:00 UTC) | [SPCX_2026-05-27_update.md](./SPCX_2026-05-27_update.md) | Thèse confirmée : 9e snapshot consécutif sans mutation, stabilité totale cours/volume/RSI sur 3 séances complètes, ACHETER (Réduit) maintenu, Score Global Ajusté 65.2 |
 | 2026-06-01 | Mise à jour post-pipeline (10:00 UTC) | [SPCX_2026-06-01_update.md](./SPCX_2026-06-01_update.md) | Thèse invalidée : données Yahoo absentes (RSI/ATR/MM50), volume chute 95% à 196 unités, reclassement ATTENDRE, Score Global 54.0 |
+| 2026-06-01 | Mise à jour post-pipeline (17:00 UTC) | [SPCX_2026-06-01_update.md](./SPCX_2026-06-01_update.md) | Thèse confirmée en ATTENDRE : aucune mutation vs 10h, données Yahoo toujours absentes, volume figé 196, signal sectoriel ROTATION_TO_CYCLICAL sans impact, Score Global 54.0 maintenu |
 
 ---
 
@@ -33,9 +34,9 @@
 **Prix cible :** N/A (données insuffisantes)
 **Stop-loss :** N/A
 **Upside :** —
-**Dernière mise à jour :** 2026-06-01 (snapshot 10:00 UTC)
+**Dernière mise à jour :** 2026-06-01 (snapshot 17:00 UTC)
 
-> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot du 01/06 n'a fourni aucune donnée technique Yahoo (RSI, ATR, MM50 absents) — source basculée sur `fmp_fallback`. Le volume a chuté de 95% à **196 unités** (quasi-illiquide). L'Agent Recommandation a reclassé SPCX en **ATTENDRE** avec un Score Global Ajusté de **54.0/100** (Score Opportunité 5.4/10 : C:6.5 V:5.0 M:4.5), timing Neutre. Le setup technique du 27/05 (au-dessus MM50, RSI 59.07) est suspendu par manque de données fiables. Le secteur Financials (XLF) reste hors rotation haussière (momentum_score 0.0, return_20d −1.06%). Aucun catalyseur fondamental. SL/TP non calculables (ATR absent). Rétablissement possible si retour données Yahoo complètes + volume >1 000 + Score Momentum ≥ 6.0.
+> SPCX est un ETF thématique SPAC/post-IPO. Les snapshots 10h et 17h UTC du 01/06 n'ont fourni aucune donnée technique Yahoo (RSI, ATR, MM50 absents) — source persistante `fmp_fallback`. Le volume est figé à **196 unités** sur la séance complète (quasi-illiquide). L'Agent Recommandation maintient SPCX en **ATTENDRE** avec un Score Global Ajusté de **54.0/100** (Score Opportunité 5.4/10 : C:6.5 V:5.0 M:4.5), timing Neutre. Le setup technique du 27/05 est suspendu. Le signal sectoriel a basculé en `ROTATION_TO_CYCLICAL` (XLF top3, momentum_score 0.0, return_20d −1.13%) — sans impact concret sur l'ETF. Aucun catalyseur fondamental, news, options ni social. SL/TP non calculables (ATR absent). Rétablissement possible si retour données Yahoo complètes + volume >1 000 + Score Momentum ≥ 6.0.
 
 ---
 
