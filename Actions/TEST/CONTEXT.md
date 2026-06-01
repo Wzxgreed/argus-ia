@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $44.91
-- **Statut thèse :** —
-- **Horizon :** —
+- **Recommandation :** ACHETER (Réduit)
+- **Score global :** 65.2/100
+- **Prix cible :** $50.84
+- **Stop-loss :** $44.84
+- **Statut thèse :** Confirmée avec prudence renforcée
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -39,7 +39,7 @@
 - **RSI 14j :** 53.42
 - **MM 50j :** 43.49
 - **MM 200j :** —
-- **ATR 14j :** 1.2
+- **ATR 14j :** 1.20
 - **Volume moy. 20j :** 1860
 
 ---
@@ -47,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-01
-- **Type :** preview
-- **Fichier :** `TEST_2026-06-01_preview.md`
-- **Conclusion :** > **Date :** 2026-06-01
+- **Type :** update
+- **Fichier :** `TEST_2026-06-01_update.md`
+- **Conclusion :** RSI en chute de 8.82 pts à 53.42 (sortie zone momentum >60), volume en effondrement à 400 actions (0.21× avg 20j), cours −1.07% à $47.236. Verdict ACHETER (Réduit) confirmé (Score Global 65.2/100). Timing Favorable. Thèse confirmée avec prudence renforcée — liquidité quasi-nulle et opacité fondamentale totale.
 
 ---
 

@@ -7,12 +7,13 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
-- **Horizon :** —
+- **Recommandation :** SURVEILLER
+- **Score global :** 37.5/100
+- **Prix cible (consensus) :** $293.43
+- **Stop-loss :** $302.12
+- **Take-profit :** $326.97
+- **Statut thèse :** Confirmée avec nuance technique moins défavorable
+- **Horizon :** 1–3 mois (earnings 2026-07-30)
 
 ---
 
@@ -24,7 +25,11 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- RSI 84.28 — surachat sévère persistant, sortie de zone >85
+- Anomalie options JSON (max pain $225.00 aberrant, put/call null)
+- Valorisation étirée : cours +6.0% vs consensus FMP
+- Signal ROTATION_TO_DEFENSIVE détecté dans sector rotation
+- Timing défavorable (scores agents inchangés à la baisse)
 
 ---
 
