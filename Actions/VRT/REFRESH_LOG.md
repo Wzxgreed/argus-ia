@@ -1061,7 +1061,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.17% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Thèse **MODIFIÉE** — pression baissière atténuée, consolidation post-capitulation. Cours $315.71 (+0.49% vs close). Nouveau low $308.00 (−0.7% sous $310.10). RSI remonté à 40.3 (+4.15 pts depuis 36.15). Volume explosion à 7.22M (1.26× moyenne 20j) = contention acheteurs/vendeurs. Anomalie options max pain $160 suspect (put/call null, données partielles). Fondamentaux inchangés (Quality Compounder 5–6/6, ROIC 18.5%). Zone de consolidation $308–$320. Score Opportunité 3.9/10. SURVEILLER. DRAFT archivé. Voir [VRT_2026-06-01_update.md](./VRT_2026-06-01_update.md).
 
 ---
 
@@ -1070,6 +1070,6 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.17% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Thèse **MODIFIÉE** — pression baissière atténuée, consolidation post-capitulation. Cours $315.71 (+0.49% vs close). Nouveau low $308.00 (−0.7% sous $310.10). RSI remonté à 40.3 (+4.15 pts depuis 36.15). Volume explosion à 7.22M (1.26× moyenne 20j) = contention acheteurs/vendeurs. Anomalie options max pain $160 suspect (put/call null, données partielles). Fondamentaux inchangés (Quality Compounder 5–6/6, ROIC 18.5%). Zone de consolidation $308–$320. Score Opportunité 3.9/10. SURVEILLER. DRAFT archivé. Voir [VRT_2026-06-01_update.md](./VRT_2026-06-01_update.md).
 
 ---
