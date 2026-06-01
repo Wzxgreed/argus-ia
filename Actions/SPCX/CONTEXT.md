@@ -11,9 +11,9 @@
 **Prix cible :** N/A (données insuffisantes)
 **Stop-loss :** N/A
 **Upside :** —
-**Dernière mise à jour :** 2026-06-01 (snapshot 17:00 UTC)
+**Dernière mise à jour :** 2026-06-01 (snapshot 21:00 UTC)
 
-> SPCX est un ETF thématique SPAC/post-IPO. Les snapshots 10h et 17h UTC du 01/06 n'ont fourni aucune donnée technique Yahoo (RSI, ATR, MM50 absents) — source persistante `fmp_fallback`. Le volume est figé à **196 unités** sur la séance complète (quasi-illiquide). L'Agent Recommandation maintient SPCX en **ATTENDRE** avec un Score Global Ajusté de **54.0/100** (Score Opportunité 5.4/10 : C:6.5 V:5.0 M:4.5), timing Neutre. Le setup technique du 27/05 est suspendu. Le signal sectoriel a basculé en `ROTATION_TO_CYCLICAL` (XLF top3, momentum_score 0.0, return_20d −1.13%) — sans impact concret sur l'ETF. Aucun catalyseur fondamental, news, options ni social. SL/TP non calculables (ATR absent). Rétablissement possible si retour données Yahoo complètes + volume >1 000 + Score Momentum ≥ 6.0.
+> SPCX est un ETF thématique SPAC/post-IPO. Les snapshots 10h, 17h et 21h UTC du 01/06 n'ont fourni aucune donnée technique Yahoo (RSI, ATR, MM50 absents) — source persistante `fmp_fallback`. Le volume est figé à **196 unités** sur la séance complète (quasi-illiquide). L'Agent Recommandation maintient SPCX en **ATTENDRE** avec un Score Global Ajusté de **54.0/100** (Score Opportunité 5.4/10 : C:6.5 V:5.0 M:4.5), timing Neutre. Le setup technique du 27/05 est suspendu. Le signal sectoriel reste `ROTATION_TO_CYCLICAL` (XLF top3, momentum_score 0.0, return_20d −0.94%) — sans impact concret sur l'ETF. Aucun catalyseur fondamental, news, options ni social. SL/TP non calculables (ATR absent). Rétablissement possible si retour données Yahoo complètes + volume >1 000 + Score Momentum ≥ 6.0.
 
 ---
 
@@ -40,7 +40,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-01** · earnings · Earnings ...
+- **2026-06-01** · earnings · Earnings ... (artefact FMP — ignorer pour ETF)
 
 ---
 
@@ -59,7 +59,7 @@
 - **Date :** 2026-06-01
 - **Type :** update
 - **Fichier :** `SPCX_2026-06-01_update.md`
-- **Conclusion :** **Date :** 2026-06-01
+- **Conclusion :** Thèse confirmée en ATTENDRE — 3e snapshot consécutif (10h/17h/21h) sans mutation. Données Yahoo absentes persistantes, volume figé 196, Score Global 54.0 maintenu.
 
 ---
 
