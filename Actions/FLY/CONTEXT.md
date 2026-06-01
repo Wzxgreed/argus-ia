@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
+- **Recommandation :** ATTENDRE
+- **Score global :** 56.8/100
+- **Prix cible :** $62.12
+- **Stop-loss :** $32.32
+- **Statut thèse :** modifiée (moins négative)
 - **Horizon :** —
 
 ---
@@ -24,32 +24,34 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- Short Interest élevé — 9.78% stable, pression vendeuse persistante.
+- Divergence Yahoo/FMP sur Market Cap et P/B persistante — [DONNÉES PARTIELLES].
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings Q2 2026 : 2026-08-04 (64 jours) — Est EPS -$0.47 à -$0.45, Rev $0.1B
+- Expiration options : 2026-06-05 (4 jours) — max pain $42.00 vs spot $44.24
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 56.79
-- **MM 50j :** 37.38
+- **RSI 14j :** 56.81
+- **MM 50j :** 37.39
 - **MM 200j :** —
 - **ATR 14j :** 5.96
-- **Volume moy. 20j :** 9472465
+- **Volume moy. 20j :** 9539000
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-01
-- **Type :** full refresh
-- **Fichier :** `FLY_2026-06-01_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-01
+- **Type :** update
+- **Fichier :** `FLY_2026-06-01_update.md`
+- **Conclusion :** Rebond de clôture +5.6% depuis le low $39.75 (17h UTC) sur volume élevé 16.13M (1.69x). Spot repasse au-dessus du max pain ($42.00) et du consensus ($42.45). RSI 56.81 neutre. Support $39.75 tenu, MM50 $37.39 intacte. Thèse défavorable confirmée, intensité modifiée (moins négative). Agent Recommandation ATTENDRE (56.8). Filtre Qualité 2/6 inchangé. Aucun catalyst. Pas de position recommandée.
 
 ---
 
