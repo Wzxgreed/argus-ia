@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
+- **Recommandation :** SURVEILLER
+- **Score global :** 48,8/100
+- **Prix cible :** $94,54 (consensus analystes)
+- **Stop-loss :** $78,39
+- **Statut thèse :** confirmée
 - **Horizon :** —
 
 ---
@@ -24,23 +24,31 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- Double correction en séance 2026-06-01 : −14,79% AM (distribution, volume 2,08×) puis −9,40% PM (épuisement vendeur, volume 0,67×)
+- RSI normalisé à 60,09 — sortie complète de surachat
+- Test du support $100 — low PM $101,21
+- ATR_SPIKE : 11,9% du cours
+- Profil non rentable — multiples spéculatifs extrêmes
+- XLC bottom 3 sectoriel
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings : 2026-08-10 (J+70)
+- Options expiry : 2026-06-05 (J+4), Max Pain $120
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 60.22
-- **MM 50j :** 87.06
+- **RSI 14j :** 60,09
+- **MM 50j :** 87,05
 - **MM 200j :** —
-- **ATR 14j :** 12.18
-- **Volume moy. 20j :** 26410832
+- **ATR 14j :** 12,18
+- **Volume moy. 20j :** 26547843
+- **52W high :** 133,86
+- **52W low :** 22,72
 
 ---
 
@@ -49,7 +57,7 @@
 - **Date :** 2026-06-01
 - **Type :** update
 - **Fichier :** `ASTS_2026-06-01_update.md`
-- **Conclusion :** **Thèse modifiée : SURVEILLER — correction de −14,79% désamorce la surchauffe immédiate, mais structure fondamentale inchangée et volatilité extrême persistante
+- **Conclusion :** Thèse SURVEILLER confirmée — double correction en séance (−23,2% depuis 52W high), RSI normalisé à 60,09, volume réduit PM signalant épuisement vendeur, divergence consensus réduite à −8,0%. Structure fondamentale inchangée, volatilité extrême persistante.
 
 ---
 
