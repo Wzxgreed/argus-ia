@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
+- **Recommandation :** ACHETER (Réduit)
+- **Score global :** 65.2/100
+- **Prix cible :** $50.84
 - **Stop-loss :** $44.84
-- **Statut thèse :** —
-- **Horizon :** —
+- **Statut thèse :** Confirmée — aucune mutation détectée entre 10:00 et 13:00 UTC
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -30,7 +30,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-01** · earnings · Earnings ...
+- **2026-06-01** · earnings · Earnings JOUR J — résultats non observables (14 jours de flag cumulés)
 
 ---
 
@@ -47,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-01
-- **Type :** preview
-- **Fichier :** `TEST_2026-06-01_preview.md`
-- **Conclusion :** > **Date :** 2026-06-01
+- **Type :** update
+- **Fichier :** `TEST_2026-06-01_update.md`
+- **Conclusion :** Snapshot 13:00 UTC confirme intégralement le snapshot 10:00 UTC : cours $47.236, RSI 53.42, volume 400 (0.21× avg), ATR $1.20, MM50 $43.49. Aucune mutation détectée. Score Global 65.2/100 (ACHETER Réduit) inchangé. Earnings JOUR J non observable (14 jours de flag cumulés). Liquidité quasi-nulle — slippage extrême.
 
 ---
 

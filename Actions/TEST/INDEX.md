@@ -3,7 +3,7 @@
 ## Thèse courante
 
 **Verdict :** ACHETER (Réduit)
-**Date dernière analyse :** 2026-06-01 (snapshot 10:00 UTC)
+**Date dernière analyse :** 2026-06-01 (snapshot 13:00 UTC)
 **Cours actuel :** $47.236
 **Score Qualité :** 0/6 (Hors périmètre)
 **Score Opportunité :** 6.0/10 (agent reco — données fondamentales absentes)
@@ -13,7 +13,7 @@
 **Take-profit :** $50.84
 **Ratio R/R :** 1.5
 
-TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Rebond technique en pause :** cours à $47.236 (+6.9% depuis $44.19 le 17/05), RSI à 53.42 (retour dans la zone neutre après sortie de la zone momentum >60), MM50 à $43.49 avec cours à +8.60% au-dessus. **Signal de fragilité majeur :** volume en effondrement à 400 (0.21× moyenne 20j) — liquidité quasi-nulle. Verdict agent confirmé **ACHETER (Réduit)** (Score Global 65.2/100). Timing Favorable. Mise à jour 2026-06-01 : cours −1.07% vs previous close, RSI −8.82 pts à 53.42, volume −70.5% vs session 27/05. Earnings JOUR J le 2026-06-01 — résultats non observables à 10:00 UTC (13 jours de flag cumulés).
+TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Rebond technique en pause :** cours à $47.236 (+6.9% depuis $44.19 le 17/05), RSI à 53.42 (zone neutre favorable après sortie de la zone momentum >60), MM50 à $43.49 avec cours à +8.60% au-dessus. **Signal de fragilité majeur :** volume en effondrement à 400 (0.21× moyenne 20j) — liquidité quasi-nulle. Verdict agent confirmé **ACHETER (Réduit)** (Score Global 65.2/100). Timing Favorable. Mise à jour 2026-06-01 13:00 UTC : aucune mutation détectée vs snapshot 10:00 UTC — cours, RSI, volume et scores strictement inchangés. Earnings JOUR J le 2026-06-01 — résultats non observables à 13:00 UTC (14 jours de flag cumulés).
 
 ---
 
@@ -44,12 +44,13 @@ TEST est un ticker de test / micro-cap sans données fondamentales exploitables 
 | TEST_2026-05-27_update.md | 2026-05-27 | Mise à jour 13:00 UTC — 15e snapshot consécutif sans mutation | **ACHETER (Réduit)** |
 | TEST_2026-05-27_update.md | 2026-05-27 | Mise à jour 17:00 UTC — première mutation post-15 snapshots (cours +0.79%, RSI 62.24) | **ACHETER (Réduit)** |
 | TEST_2026-06-01_update.md | 2026-06-01 | Mise à jour 10:00 UTC — RSI en chute (−8.82 pts à 53.42), volume en effondrement (400, 0.21× avg) | **ACHETER (Réduit)** |
+| TEST_2026-06-01_update.md | 2026-06-01 | Mise à jour 13:00 UTC — confirmation sans mutation vs 10:00 UTC (cours, RSI, volume inchangés) | **ACHETER (Réduit)** |
 
 ---
 
 ## Agenda des prochains événements
 
-- 2026-06-01 — Earnings (source FMP) — 🔴 JOUR J — résultats non observables à 10:00 UTC (13 jours de flag cumulés)
+- 2026-06-01 — Earnings (source FMP) — 🔴 JOUR J — résultats non observables à 13:00 UTC (14 jours de flag cumulés)
 - [DONNÉES MANQUANTES] — Conférences / investor days
 
 ---
