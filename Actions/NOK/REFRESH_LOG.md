@@ -1141,3 +1141,21 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 Snapshot 2026-06-01 10:00 UTC. Cours $14.84 (−2.88% vs previous close, −5.47% depuis 27/05), RSI 61.3, ATR $1.01 (6.81%). Volume normalisé 0.96× moyenne 20j. Low $14.53 casse le support $15.47 (base du gap du 25/05) — invalidation quasi-complète du double gap haussier. Options data corrompues (max pain $2.00 aberrant, put/call et call OI null) — analyse options suspendue. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $9.26 à +60.2%. P/E Yahoo 92.75, forward P/E 30.43. Consensus 6 analysts inchangé. XLC bottom 3 sectoriel (RS20d −5.97%). Score Opportunité 4.4/10 (C:4.0 V:3.5 M:6.5). Score Global ajusté 49.2/100 — SURVEILLER confirmé. SL/TP révisés $12.82/$17.87. DRAFT_refresh archivé dans NOK_2026-06-01_update.md.
 
 ---
+
+## 2026-06-01 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-01 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

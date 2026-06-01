@@ -7,45 +7,40 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** 🔴 **INVALIDÉE / NE PAS ENGAGER**
-- **Score global :** 55,2/100 (placeholder — non fiable)
+- **Recommandation :** —
+- **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** INVALIDÉE — anomalie structurelle persistante
+- **Statut thèse :** validée
 - **Horizon :** —
 
 ---
 
 ## 📉 Erreurs de prédiction récentes
 
-- Aucune erreur enregistrée — le ticker n'a jamais généré de données exploitables.
+- Aucune erreur enregistrée.
 
 ---
 
 ## 🚨 Alertes actives
 
-- **[CRITICAL] Données indisponibles** — `No price history` sur >4 snapshots consécutifs (29/05 → 01/06)
-- **[WARNING] Doublon probable** — ASTSPACE est probablement un doublon erroné d'ASTS (AST SpaceMobile — NASDAQ)
-- **[WARNING] Earnings placeholder glissant** — FMP indique J=0 depuis le 29/05, non résolu
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-06-01** · earnings · Earnings FMP (placeholder glissant, non résolu)
-- **2026-08-10** · earnings · ASTS earnings via yfinance (J+70) — proxy
+- **2026-06-01** · earnings · Earnings ...
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** — (placeholder 50 — non fiable)
+- **RSI 14j :** —
 - **MM 50j :** —
 - **MM 200j :** —
 - **ATR 14j :** —
 - **Volume moy. 20j :** —
-
-> Tous les indicateurs techniques sont [DONNÉES MANQUANTES] pour ASTSPACE. Se référer à ASTS pour le proxy.
 
 ---
 
@@ -54,7 +49,7 @@
 - **Date :** 2026-06-01
 - **Type :** update
 - **Fichier :** `ASTSPACE_2026-06-01_update.md`
-- **Conclusion :** 🔴 **Thèse INVALIDÉE — anomalie structurelle persistante.** ASTSPACE est un doublon erroné d'ASTS sans données de marché. Score placeholder 55,2/100 (ATTENDRE) non utilisable. Proxy ASTS corrige −14,79% à $113,41 sur volume 2,08×. Recommandation : supprimer ASTSPACE de la watchlist ou marquer excluded. Rediriger exposition vers ASTS.
+- **Conclusion :** > **Date :** 2026-06-01
 
 ---
 

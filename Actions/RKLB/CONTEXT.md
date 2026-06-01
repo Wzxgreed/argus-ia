@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ÉVITER
-- **Score global :** 38,3/100 (ajusté 28,3)
-- **Prix cible :** $84,20 (consensus FMP)
-- **Stop-loss :** $118,74
-- **Statut thèse :** Confirmée et renforcée — signal de distribution détecté
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -24,32 +24,23 @@
 
 ## 🚨 Alertes actives
 
-- RSI 70,56 — surachat persistant (>70), refroidissement en cours
-- Divergence consensus — spot +70,4 % vs PT $84,20
-- Distribution détectée : repli -3,07 % sur volume 1,15× moyenne 20j
-- [ANOMALIE DATA] Max Pain $45,00 aberrant dans latest.json — référence historique $123–$130
-- [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $83,06 Mds vs FMP $37,02 Mds
-- 52W high $151,00 suivi de repli immédiat — rejet de nouveaux sommets
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- Earnings Q2 2026 : 2026-08-06 (66 jours)
-- Expiration options : 2026-06-05 (4 jours ouvrés)
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 70,56
-- **MM 50j :** 91,25
+- **RSI 14j :** 70.56
+- **MM 50j :** 91.25
 - **MM 200j :** —
-- **ATR 14j :** 12,37
-- **Volume moy. 20j :** 30 184 210
-- **52W high :** 151,00
-- **52W low :** 25,24
-- **Beta :** 2,313
+- **ATR 14j :** 12.37
+- **Volume moy. 20j :** 30184210
 
 ---
 
@@ -58,7 +49,13 @@
 - **Date :** 2026-06-01
 - **Type :** update
 - **Fichier :** `RKLB_2026-06-01_update.md`
-- **Conclusion :** Repli -3,07 % à $143,48 sur volume 1,15× — signal de distribution post-rally. RSI 70,56 (refroidissement mais surachat), 52W high $151,00 suivi de rejet. Divergence consensus +70,4 %. Score global 38,3/100 ajusté 28,3 — ÉVITER confirmé et renforcé. Attendre retour vers $118–$130 ou refroidissement complet (RSI < 60) avant réévaluation.
+- **Conclusion :** > Source : `data/latest.json` (fetched 2026-06-01T10:00:13 UTC) | `data/recommandations_2026-06-01.json` | Close officiel US du 2026-05-30
+
+---
+
+## 🔄 Triggers détectés (full refresh)
+
+- **ATR_SPIKE** (medium) — ATR relatif 8.62% (seuil 5.0%)
 
 ---
 

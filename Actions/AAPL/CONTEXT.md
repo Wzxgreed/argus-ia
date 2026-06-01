@@ -7,13 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Score global :** 37.5/100
-- **Prix cible (consensus) :** $293.43
-- **Stop-loss :** $302.12
-- **Take-profit :** $326.97
-- **Statut thèse :** Confirmée avec nuance technique moins défavorable
-- **Horizon :** 1–3 mois (earnings 2026-07-30)
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** invalide
+- **Horizon :** —
 
 ---
 
@@ -25,17 +24,13 @@
 
 ## 🚨 Alertes actives
 
-- RSI 84.28 — surachat sévère persistant, sortie de zone >85
-- Anomalie options JSON (max pain $225.00 aberrant, put/call null)
-- Valorisation étirée : cours +6.0% vs consensus FMP
-- Signal ROTATION_TO_DEFENSIVE détecté dans sector rotation
-- Timing défavorable (scores agents inchangés à la baisse)
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- Earnings Q3 FY2026 : 2026-07-30 (59 jours) — Est EPS $1.83–$1.99, Rev $109.0B
+- Aucun événement à venir.
 
 ---
 
@@ -54,7 +49,7 @@
 - **Date :** 2026-06-01
 - **Type :** update
 - **Fichier :** `AAPL_2026-06-01_update.md`
-- **Conclusion :** Thèse SURVEILLER confirmée avec nuance technique moins défavorable. RSI sort de zone >85 (84.28), break 52W high $315.00 confirmé sur volume 1.43× moyenne, ATR compressée $4.97. Scores agents inchangés à la baisse (Global ajusté 37.5/100), timing Défavorable. Anomalie options JSON détectée. Pas d'entrée long à $312+.
+- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-01 10:00 UTC) + agents quant, geo, accounting, sector, social, FX, watchman, events
 
 ---
 

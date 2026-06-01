@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Score global :** ~46/100 (analyste ajusté) / 59.2/100 (agent ajusté)
-- **Prix cible :** $11.71 (take-profit ATR 3×)
-- **Stop-loss :** $9.01 (stop-loss ATR 2×)
-- **Statut thèse :** Confirmée — SURVEILLER
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -24,20 +24,13 @@
 
 ## 🚨 Alertes actives
 
-- **ATR_SPIKE** (medium) — ATR relatif 5.35% (seuil 5.0%) — persistant depuis 2026-05-17
-- **RSI PROGRESSION** — RSI 47.2 (hors survente extrême depuis le 26/05)
-- **Earnings Q1 2026 en attente** — FMP place jour J au 2026-06-01, aucun résultat visible
-- **Données Options Corrompues** — max pain aberrant $3.00, put/call et call OI null (rollover échéance 2026-06-05)
-- **Sector Rotation XLC Bottom 3** — malus sectoriel actif (ROTATION_TO_DEFENSIVE)
-- **Short Squeeze Setup (latent, intensifié)** — short interest 25.03% (+2.19 pp)
-- **Agent Stable ATTENDRE** — 67.2/100 (ajusté 59.2/100)
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-06-01** · earnings · Earnings Q1 2026 (anomalie — jour J mais aucun résultat visible)
-- **2026-06-05** · options · Échéance options (données corrompues à surveiller)
+- **2026-06-01** · earnings · Earnings ...
 
 ---
 
@@ -48,8 +41,6 @@
 - **MM 200j :** —
 - **ATR 14j :** 0.54
 - **Volume moy. 20j :** 1478240
-- **Volume séance :** 1942000 (1.31×)
-- **Short Interest :** 25.03%
 
 ---
 
@@ -58,7 +49,13 @@
 - **Date :** 2026-06-01
 - **Type :** update
 - **Fichier :** `FUBO_2026-06-01_update.md`
-- **Conclusion :** THÈSE CONFIRMÉE — SURVEILLER (~46/100). Évolution technique ambiguë : RSI continue de remonter (47.2), volume explose (1.31×), mais recul séance −3.26% sur volume en hausse suggère distribution. Short interest grimpe à 25.03% (+2.19 pp), intensifiant le setup squeeze latent. Données options corrompues (max pain aberrant $3.00). Earnings Q1 anomalie persistante (FMP jour J 2026-06-01). Pas de position longue.
+- **Conclusion :** > **Niveau d'impact :** 🟡 Modéré — Évolution technique mixte : cours **$10.09 (−3.26% vs previous close)**, RSI **47.2** (+3.85 pts vs 2026-05-27 17:00 UTC), volume **1 942 000** (1.31× moy. 20j, expl
+
+---
+
+## 🔄 Triggers détectés (full refresh)
+
+- **ATR_SPIKE** (medium) — ATR relatif 5.35% (seuil 5.0%)
 
 ---
 

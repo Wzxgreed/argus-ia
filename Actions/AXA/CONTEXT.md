@@ -18,10 +18,10 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 ---
 
 ## 📜 Historique des analyses
-- **Score global :** 55.2/100
+- **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** ATTENDRE
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -34,15 +34,13 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 
 ## 🚨 Alertes actives
 
-- **[CRITICAL]** Pas de données de prix pour AXA — ticker probablement incorrect
-- **[WARNING]** Earnings J0 (2026-06-01) sans consensus ni résultats exploitables — 6e jour consécutif
-- **[INFO]** Headwind sectoriel XLF persistant : RS 20j −6.32%, RS 60j −10.05%, return 20j −1.06%, return 60j +0.67%, momentum 0.0/10
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-06-01** · earnings · Earnings J0 FMP sans détails exploitables
+- **2026-06-01** · earnings · Earnings ...
 
 ---
 
@@ -59,9 +57,9 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-01
-- **Type :** update
-- **Fichier :** `AXA_2026-06-01_update.md`
-- **Conclusion :** 19e snapshot consécutif sans mutation des données AXA. Thèse ATTENDRE confirmée. Données structurellement manquantes. Earnings J0 glissant sans détails. Headwind sectoriel XLF stable à 20j mais creusé à 60j. Action immédiate : corriger le symbole (`CS.PA` ou `AXAHY`) et relancer le fetch.
+- **Type :** preview
+- **Fichier :** `AXA_2026-06-01_preview.md`
+- **Conclusion :** > **Date :** 2026-06-01
 
 ---
 

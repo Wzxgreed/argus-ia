@@ -1200,3 +1200,23 @@
 **Conclusion :** Traitee dans l'entree precedente. Donnees identiques. DRAFT_refresh archive.
 
 ---
+
+## 2026-06-01 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-01 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

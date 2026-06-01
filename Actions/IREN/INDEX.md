@@ -9,13 +9,13 @@
 
 ## Thèse Courante
 
-IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot 10:00 UTC du 2026-06-01 confirme un **retrait de −4.05%** à **$63.54**, consolidation après le sommet $66.29 du 27/05. Le cours évolue **+33.0% au-dessus de la MM50** ($47.77), tendance haussière intacte mais momentum ralenti. La volatilité reste élevée mais s'atténue (beta 4.18, ATR $5.26, ATR relatif 8.28%).
+IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot 13:00 UTC du 2026-06-01 confirme un **retrait de −4.05%** à **$63.54**, consolidation après le sommet $66.29 du 27/05. Le cours évolue **+33.0% au-dessus de la MM50** ($47.77), tendance haussière intacte mais momentum ralenti. La volatilité reste élevée mais s'atténue (beta 4.18, ATR $5.26, ATR relatif 8.28%).
 
 **🔴 Valorisation stretched :** P/E TTM **82.52×**, EV/EBITDA **166.19×**, Forward P/E **−67.60×** (détérioration sévère), P/B **8.39×**. Le **Score Valorisation reste à 3.0/10**.
 
 **🟡 Consensus PT :** Le cours **$63.54 est sous le consensus FMP** ($66.61, 23 analysts). L'upside vers le consensus est **+4.8%** (restauré vs −0.5% le 27/05).
 
-**⚠️ Anomalie options :** Max Pain **$20.00** (expiration 2026-06-05) — [ANOMALIE] valeur incohérente vs historique. Put/Call ratio et Call OI **indisponibles** dans latest.json.
+**🔴 Défiance options record :** Put/Call ratio **3.01** (puts 75.1%), Call OI **24.9%**, Max Pain **$52.00** (expiration 2026-06-05, corrigé vs anomalie $20.00). Les options traders anticipent une correction ou se couvrent massivement.
 
 **⚠️ Short Interest en baisse :** 14.72% (−2.15 pts) — moins de squeeze potentiel.
 
@@ -25,7 +25,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 **Score Global ajusté : 53.0/100**
 **Action : ATTENDRE** — risque/rendement défavorable à l'entrée
 
-> **⚠️ Réserve earnings :** Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds (FY 2025 uniquement). Attendre la publication officielle avant toute nouvelle entrée. Ne pas entrer à $63.54 (Forward P/E −67.6×, EV/EBITDA 166×). Si le cours casse $60.73 sans rebond → passer en SURVEILLER. Si le cours casse $56.83 sans rebond → passer en ÉVITER. Si le cours casse $47.77 (MM50) → passer en ÉVITER.
+> **⚠️ Réserve earnings :** Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds (FY 2025 uniquement). Attendre la publication officielle avant toute nouvelle entrée. Ne pas entrer à $63.54 (Forward P/E −67.6×, EV/EBITDA 166×, put/call 3.01). Si le cours casse $60.73 sans rebond → passer en SURVEILLER. Si le cours casse $56.83 sans rebond → passer en ÉVITER. Si le cours casse $47.77 (MM50) → passer en ÉVITER.
 
 ---
 
@@ -52,7 +52,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 | 2026-05-27 | [IREN_2026-05-27_update.md](IREN_2026-05-27_update.md) | Mise à jour pre-open | Snapshot 10:00 UTC — données stables vs close 26/05 · earnings J=0 attendu en séance · thèse confirmée · DRAFT_refresh duplicata archivé |
 | 2026-05-27 | [IREN_2026-05-27_update.md](IREN_2026-05-27_update.md) (rev. 13:00 UTC) | Mise à jour post-open | Snapshot 13:00 UTC — cours stable $59.78 · structure options corrigée (put/call 1.88, call OI 34.7%) · EV/EBITDA révisé 157.06× · défiance record atténuée · earnings J=0 non publiés · thèse confirmée |
 | 2026-05-27 | [IREN_2026-05-27_update.md](IREN_2026-05-27_update.md) (rev. 17:00 UTC) | Mise à jour post-session | Snapshot 17:00 UTC — **cours $66.22 (+10.77%)** · high $66.29 · scores révisés 5.5/10 · Global 59.5/100 · valorisation massivement dégradée (P/E 85.95×, P/B 8.74×) · **dépassement consensus PT $65.86** · action changée ACHETER → **ATTENDRE** · earnings J=0 non publiés · thèse modifiée |
-| 2026-06-01 | [IREN_2026-06-01_update.md](IREN_2026-06-01_update.md) | Mise à jour post-session | Snapshot 10:00 UTC — **cours $63.54 (−4.05%)** · consolidation post-sommet · scores révisés 4.8/10 · Global 53.0/100 · Forward P/E détérioré −67.60× · consensus PT révisé à $66.61 (+4.8% upside) · Short Interest −2.15 pts · anomalie Max Pain $20.00 · thèse confirmée ATTENDRE |
+| 2026-06-01 | [IREN_2026-06-01_update.md](IREN_2026-06-01_update.md) | Mise à jour post-session (snapshot 13:00 UTC, révision) | Snapshot 13:00 UTC — **cours $63.54 (−4.05%)** · consolidation post-sommet · scores révisés 4.8/10 · Global 53.0/100 · Forward P/E détérioré −67.60× · consensus PT $66.61 (+4.8% upside) · Short Interest −2.15 pts · **Max Pain corrigé $52.00** · **put/call 3.01 (défiance record)** · call OI 24.9% · thèse confirmée ATTENDRE |
 
 ---
 

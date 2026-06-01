@@ -38,8 +38,7 @@
 
 ## 📅 Prochains événements
 
-- **Earnings Q2 2026 :** 13 août 2026 (73 jours), Est EPS $0.20–$0.27, Rev $5.4B
-- **Expiration options :** 2026-06-05 (4 jours), max pain $5.00 (anomalie — à ignorer)
+- Aucun événement à venir.
 
 ---
 
@@ -50,12 +49,6 @@
 - **MM 200j :** —
 - **ATR 14j :** 0.48
 - **Volume moy. 20j :** 56171990
-- **Volume dernière séance :** 91639200 (1.63×)
-- **Cours close :** 13.13
-- **Previous close :** 13.05
-- **52W low :** 11.71
-- **52W high :** 18.98
-- **Distance MM50 :** −6.4%
 
 ---
 
