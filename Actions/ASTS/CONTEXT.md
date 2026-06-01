@@ -55,7 +55,7 @@
 - **Date :** 2026-06-01
 - **Type :** update
 - **Fichier :** `ASTS_2026-06-01_update.md`
-- **Conclusion :** **Thèse confirmée : SURVEILLER — seconde correction de −9,40% sur volume réduit, RSI normalisé à 60,09, divergence consensus réduite à −8,0%
+- **Conclusion :** **Thèse confirmée : SURVEILLER — rebond post-correction +2,82% à $105,65 sur volume normalisé 1,00×, RSI 61,89, divergence consensus re-creusée à −10,5%, score global 44,8/100. Ne pas entrer long.**
 
 ---
 
