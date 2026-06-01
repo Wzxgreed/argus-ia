@@ -1,50 +1,52 @@
 # AXA — Mise à jour Quotidienne
 
 > **Date :** 2026-06-01
-> **Snapshot :** 2026-06-01T10:00:01 UTC
-> **Type :** `_update.md` (post-pipeline matin)
+> **Snapshot :** 2026-06-01T13:00:19 UTC
+> **Type :** `_update.md` (post-pipeline 13h00 UTC)
 > **Analyste :** Desk Argus-IA
-> **Réf. précédente :** `AXA_2026-05-27_update.md` (snapshot 17h00 UTC)
+> **Réf. précédente :** `AXA_2026-06-01_update.md` (snapshot 10h00 UTC)
 
 ---
 
 ## Résumé des changements depuis l'analyse précédente
 
-| Élément | État 2026-05-27 | État 2026-06-01 | Changement |
-|---------|----------------|----------------|------------|
-| Cours | `[DONNÉES MANQUANTES]` | `[DONNÉES MANQUANTES]` | **Stable** |
+| Élément | État 10h00 | État 13h00 | Changement |
+|---------|-----------|-----------|------------|
+| Cours AXA | `[DONNÉES MANQUANTES]` | `[DONNÉES MANQUANTES]` | **Stable** |
 | RSI 14j | `[DONNÉES MANQUANTES]` | `[DONNÉES MANQUANTES]` | **Stable** |
 | ATR 14j | `[DONNÉES MANQUANTES]` | `[DONNÉES MANQUANTES]` | **Stable** |
-| Volume | `[DONNÉES MANQUANTES]` | `[DONNÉES MANQUANTES]` | **Stable** |
-| Tickers KO pipeline | 3 / 26 | **4 / 28** | 🔴 **Détérioration** (AXA, AST, QTBS, ASTSPACE) |
+| Volume AXA | `[DONNÉES MANQUANTES]` | `[DONNÉES MANQUANTES]` | **Stable** |
+| Tickers KO pipeline | 4 / 28 | **4 / 28** | **Stable** (AXA, AST, QTBS, ASTSPACE) |
 | Score Opportunité | 5.5/10 (C:6.5 V:5.0 M:5.0) | **5.5/10** (C:6.5 V:5.0 M:5.0) | **Stable** |
 | Score Global | 55.2/100 | **55.2/100** | **Stable** |
 | Recommandation | ATTENDRE | **ATTENDRE** | **Confirmée** |
 | Timing | Neutre | **Neutre** | **Stable** |
-| XLF return 20j | −0.96% | **−1.06%** | 🔴 **Dégradation −0.10pp** |
-| XLF return 60j | +0.61% | **+0.67%** | 🟢 **Amélioration +0.06pp** |
-| XLF RS 20j vs SPY | −6.33% | **−6.32%** | 🟢 **Stable** |
-| XLF RS 60j vs SPY | −8.93% | **−10.05%** | 🔴 **Dégradation −1.12pp** |
-| XLF momentum score | 0.0/10 | **0.0/10** | Stable |
-| Earnings FMP | J0 (2026-05-27) | **J0 (2026-06-01)** | Date calendrier glissante, toujours sans détails |
+| XLF return 20j | −1.06% | **−1.06%** | **Stable** |
+| XLF return 60j | +0.67% | **+0.67%** | **Stable** |
+| XLF RS 20j vs SPY | −6.32% | **−6.32%** | **Stable** |
+| XLF RS 60j vs SPY | −10.05% | **−10.05%** | **Stable** |
+| XLF momentum score | 0.0/10 | **0.0/10** | **Stable** |
+| Signal macro | ROTATION_TO_DEFENSIVE | **ROTATION_TO_DEFENSIVE** | **Stable** |
+| Earnings FMP | J0 (2026-06-01) sans détails | **J0 (2026-06-01) sans détails** | **Stable** |
 
-**Verdict :** 19e snapshot consécutif sans mutation des données AXA. Le symbole "AXA" reste non reconnu par yfinance (instrument non coté US — Euronext Paris). Le secteur Financials (XLF) poursuit sa sous-performance relative vs SPY (−6.32% sur 20j, −10.05% sur 60j), sans mutation notable par rapport au close du 27/05. L'earnings FMP reste à J0 glissant sans estimates exploitables.
+**Verdict :** 20e snapshot consécutif sans mutation des données AXA. Le symbole "AXA" reste non reconnu par yfinance (instrument Euronext Paris, non coté US). Aucune variation inter-snapshot détectée entre 10h00 et 13h00 UTC sur les métriques sectorielles, macro ou de scoring. Le secteur Financials (XLF) maintient sa sous-performance relative vs SPY (−6.32% sur 20j, −10.05% sur 60j) avec un momentum nul.
 
 ---
 
 ## Mise à jour technique
 
-**[DONNÉES MANQUANTES]** Aucun cours, volume, RSI, ATR ou moyenne mobile disponible pour AXA dans `data/latest.json` (snapshot 2026-06-01T10:00:01 UTC).
+**[DONNÉES MANQUANTES]** Aucun cours, volume, RSI, ATR ou moyenne mobile disponible pour AXA dans `data/latest.json` (snapshot 2026-06-01T13:00:19 UTC).
 
-**Contexte sectoriel (XLF) — stable vs close 2026-05-27 :**
+**Contexte sectoriel (XLF) — strictement inchangé vs snapshot 10h00 :**
 - Return 20j : −1.06% (vs SPY +5.26%)
 - Return 60j : +0.67% (vs SPY +10.72%)
-- RS 20j vs SPY : −6.32% (stable vs −6.33% le 27/05)
-- RS 60j vs SPY : −10.05% (dégradation de 1.12pp vs −8.93% le 27/05)
+- RS 20j vs SPY : −6.32% (stable)
+- RS 60j vs SPY : −10.05% (stable)
 - Momentum score : 0.0/10 (stable)
 - Rang sectoriel : 4e/11 (stable, hors top 3 et bottom 3)
+- Crossover : aucun (stable)
 
-**Interprétation :** Le secteur financier poursuit sa phase de distribution relative vs le marché, avec un creusement du sous-performance à 60j (−10.05% vs SPY). Aucune mutation intermédiaire n'a été détectée entre le 27/05 et le 01/06. Le signal macro du jour est `ROTATION_TO_DEFENSIVE`, ce qui pénalise les secteurs cycliques dont Financials. Sans données AXA, on ne peut évaluer si le titre sur/sous-performe son secteur, mais le headwind sectoriel persiste. Si les données AXA étaient disponibles, le score Momentum placeholder (5.0/10) mériterait probablement un ajustement à la baisse compte tenu de l'écart RS 60j.
+**Interprétation :** Le secteur financier reste en phase de distribution relative vs le marché, avec un creusement structurel à 60j (−10.05% vs SPY). Le signal macro `ROTATION_TO_DEFENSIVE` pénalise les cycliques dont Financials, sans mutation entre les deux snapshots du jour. Sans données AXA, l'évaluation de la force relative du titre vs son secteur reste impossible. Le placeholder Momentum 5.0/10 mériterait un ajustement à la baisse si les données étaient disponibles, compte tenu du headwind sectoriel persistant.
 
 ---
 
@@ -79,7 +81,7 @@
 - Divergence cours / modèle FX : aligned
 
 **Géopolitique** (`geo_risk_latest.json`) :
-- Fichier absent. Aucun événement géopolitique spécifique à AXA détecté.
+- Fichier absent (date 2026-05-17). Aucun événement géopolitique spécifique à AXA détecté.
 
 **Social Sentiment** (`social_sentiment_2026-06-01.json`) :
 - AXA mention count : 0
@@ -91,8 +93,8 @@
 
 ## Scoring global (agents)
 
-| Score | Valeur | Évolution vs snapshot précédent |
-|-------|--------|--------------------------------|
+| Score | Valeur | Évolution vs snapshot 10h00 |
+|-------|--------|------------------------------|
 | Score Opportunité | **5.5/10** | Stable |
 | — Catalyseur | 6.5/10 | Stable |
 | — Valorisation | 5.0/10 | Stable |
@@ -120,7 +122,7 @@
 
 ### 🔴 Thèse ATTENDRE confirmée — DONNÉES STRUCTURELLEMENT MANQUANTES
 
-**La thèse n'a pas changé.** AXA reste l'un des 4 tickers structurellement KO sur 28 (AXA, AST, QTBS, ASTSPACE), avec un blocage de sourcing persistant depuis au moins le 18/05. Le symbole "AXA" n'est pas reconnu par yfinance (instrument Euronext Paris, non coté US). Le contexte sectoriel (XLF) affiche une sous-performance relative stable à 20j (−6.32%) mais creusée à 60j (−10.05%), dans un environnement de rotation vers la défensive.
+**La thèse n'a pas changé.** AXA reste l'un des 4 tickers structurellement KO sur 28 (AXA, AST, QTBS, ASTSPACE), avec un blocage de sourcing persistant depuis au moins le 18/05. Le symbole "AXA" n'est pas reconnu par yfinance (instrument Euronext Paris, non coté US). Aucune mutation inter-snapshot n'a été détectée entre 10h00 et 13h00 UTC. Le contexte sectoriel (XLF) affiche une sous-performance relative stable à 20j (−6.32%) et creusée à 60j (−10.05%), dans un environnement de rotation vers la défensive. L'earnings FMP reste à J0 glissant sans estimates exploitables.
 
 **Action immédiate :**
 1. Corriger le symbole dans `config/watchlist.json` (`CS.PA` ou `AXAHY`) et mettre à jour le secteur (Financials / Insurance).
@@ -129,4 +131,4 @@
 
 ---
 
-*Desk Argus-IA — Snapshot 2026-06-01T10:00:01 UTC*
+*Desk Argus-IA — Snapshot 2026-06-01T13:00:19 UTC*

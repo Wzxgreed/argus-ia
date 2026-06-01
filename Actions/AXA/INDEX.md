@@ -1,7 +1,7 @@
 # AXA — Index du Dossier
 
-> **Dernière mise à jour :** 2026-06-01 (snapshot 10h00 UTC)
-> **Statut :** 🔴 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`) + earnings J0 FMP glissant sans détails (6e jour consécutif)
+> **Dernière mise à jour :** 2026-06-01 (snapshot 13h00 UTC)
+> **Statut :** 🔴 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`) + earnings J0 FMP glissant sans détails (7e jour consécutif)
 
 ---
 
@@ -36,6 +36,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 | `AXA_2026-05-26_update.md` | 2026-05-26 | Mise à jour quotidienne (snapshot 21h00 UTC) | Données manquantes persistantes — 15e snapshot consécutif sans mutation ; earnings J0 FMP (2026-05-26) sans détails ; **dégradation sectorielle marginale XLF** entre 17h00 et 21h00 (RS 20j −4.74% → −4.88%, RS 60j −8.24% → −8.38%, return 20j 0.00% → +0.08%, return 60j +1.26% → +1.33%) ; marché close sans résolution du sourcing |
 | `AXA_2026-05-27_update.md` | 2026-05-27 | Mise à jour quotidienne (snapshot 10h00 UTC) | Données manquantes persistantes — 16e snapshot consécutif sans mutation ; earnings J0 FMP (2026-05-27) sans détails ; **stabilité totale sectorielle XLF** vs close 26/05 (RS 20j −4.88%, RS 60j −8.38%, return 20j +0.08%, return 60j +1.33%, momentum 0.0/10) ; marché pre-market sans résolution du sourcing |
 | `AXA_2026-05-27_update.md` | 2026-05-27 | Mise à jour quotidienne (snapshot 13h00 UTC) | Données manquantes persistantes — **17e snapshot consécutif sans mutation** ; earnings J0 FMP (2026-05-27) sans détails exploitables ; **stabilité totale sectorielle XLF** en séance (RS 20j −4.88%, RS 60j −8.38%, return 20j +0.08%, return 60j +1.33%, momentum 0.0/10) ; marché actif en séance sans résolution du sourcing |
+| `AXA_2026-06-01_update.md` | 2026-06-01 | Mise à jour quotidienne (snapshot 13h00 UTC) | Données manquantes persistantes — **20e snapshot consécutif sans mutation** ; aucune variation inter-snapshot vs 10h00 ; earnings J0 FMP (2026-06-01) sans détails exploitables ; headwind sectoriel XLF stable (RS 20j −6.32%, RS 60j −10.05%, return 20j −1.06%, return 60j +0.67%, momentum 0.0/10) ; signal macro ROTATION_TO_DEFENSIVE inchangé |
 | `AXA_2026-06-01_update.md` | 2026-06-01 | Mise à jour quotidienne (snapshot 10h00 UTC) | Données manquantes persistantes — **19e snapshot consécutif sans mutation** ; earnings J0 FMP (2026-06-01) sans détails exploitables ; headwind sectoriel XLF stable à 20j (−6.32%) mais creusé à 60j (−10.05%), momentum 0.0/10 ; signal macro ROTATION_TO_DEFENSIVE ; marché actif et liquide sans résolution du sourcing |
 | `AXA_2026-05-27_update.md` | 2026-05-27 | Mise à jour quotidienne (snapshot 17h00 UTC) | Données manquantes persistantes — **18e snapshot consécutif sans mutation** ; earnings J0 FMP (2026-05-27) sans détails exploitables ; **mutation sectorielle XLF détectée** entre 13h00 et 17h00 UTC (RS 20j −4.88% → −6.33%, return 20j +0.08% → −0.96%, return 60j +1.33% → +0.61%) ; marché actif en séance sans résolution du sourcing |
 
@@ -58,6 +59,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 | 2026-05-26 (21h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
 | 2026-05-27 (10h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
 | 2026-05-27 (13h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
+| 2026-06-01 (13h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
 | 2026-06-01 (10h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
 | 2026-05-27 (17h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
 
