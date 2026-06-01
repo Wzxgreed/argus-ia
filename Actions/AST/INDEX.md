@@ -5,7 +5,7 @@
 > **Secteur :** Non spécifié
 > **Exchange :** NASDAQ
 > **Priorité :** Medium
-> **Dernière mise à jour :** 2026-06-01 (snapshot 10:00 UTC)
+> **Dernière mise à jour :** 2026-06-01 (snapshot 13:00 UTC)
 
 ---
 
@@ -13,12 +13,12 @@
 
 **Statut :** DONNÉES MANQUANTES — analyse initiale requise / anomalie structurelle confirmée
 
-- Aucune donnée de cours disponible dans les snapshots (`No price history`) — confirmé stable sur **>20 snapshots consécutifs** (18/05 → 01/06)
+- Aucune donnée de cours disponible dans les snapshots (`No price history`) — confirmé stable sur **>21 snapshots consécutifs** (18/05 → 01/06)
 - Aucune analyse initiale (`_init.md`) n'a été produite
-- Earnings programmés le 2026-06-01 (source FMP) — placeholder glissant J=0 non résolu depuis le 26/05 (5 jours de glissement), résultats non disponibles dans les snapshots
+- Earnings programmés le 2026-06-01 (source FMP) — placeholder glissant J=0 non résolu depuis le 26/05 (6 jours de glissement), résultats non disponibles dans les snapshots
 - Scoring agent : placeholder 55.2/100 — action ATTENDRE par défaut
 - AST absent du quality gate (alors qu'ASTS y figure)
-- **Anomalie structurelle confirmée :** doublon probable avec ASTS (AST SpaceMobile), ticker correct et liquide sur NASDAQ. ASTS a clôturé à **$113.41** (−14.79%, volume 54.81M ×2.08, RSI 69.79) au snapshot 10:00 UTC, confirmant une correction technique post-squeeze après le rallye de fin mai ($129.335). L'agent a upgradé ASTS d'ÉVITER (29.8) à **SURVEILLER (38.5)** suite au soulagement de surchauffe.
+- **Anomalie structurelle confirmée :** doublon probable avec ASTS (AST SpaceMobile), ticker correct et liquide sur NASDAQ. ASTS est stable à **$113.41** (−14.79% matin, volume 54.81M ×2.08, RSI 69.79) au snapshot 13:00 UTC, confirmant la correction technique post-squeeze après le rallye de fin mai ($129.335). L'agent maintient ASTS en **SURVEILLER (38.5)** suite au soulagement de surchauffe.
 
 ---
 
@@ -26,6 +26,7 @@
 
 | Date | Fichier | Type | Résumé |
 |------|---------|------|--------|
+| 2026-06-01 | `AST_2026-06-01_update.md` | Update après-midi (13:00 UTC) | >21e snapshot consécutif sans mutation pour AST — stabilité totale confirmée vs 10:00 UTC, ASTS stable à **$113.41** (−14.79%) sur volume **54.81M** (2.08×), RSI **69.79** (sortie zone surchauffe confirmée), low intraday **$105.37**, consensus analystes inchangé ($94.54, 12 analysts), **agent maintient ASTS SURVEILLER (38.5/100)**, earnings FMP placeholder glissant J=0 non résolu (6j de glissement), anomalie structurelle confirmée avec support ASTS $105–110 |
 | 2026-06-01 | `AST_2026-06-01_update.md` | Update matin (10:00 UTC) | >20e snapshot consécutif sans mutation pour AST — stabilité totale confirmée, ASTS corrige à **$113.41** (−14.79%) sur volume **54.81M** (2.08×), RSI **69.79** (sortie zone surchauffe), low intraday **$105.37**, consensus analystes révisé à la hausse ($92.25 → $94.54, 10 → 12 analysts), **agent upgrade ASTS SURVEILLER (38.5/100)** vs ÉVITER précédemment, earnings FMP placeholder glissant J=0 non résolu (5j de glissement), anomalie structurelle confirmée avec support ASTS $105–110 |
 | 2026-05-27 | `AST_2026-05-27_update.md` | Update finale (17:00 UTC) | 18e snapshot consécutif sans mutation pour AST — stabilité totale confirmée vs 13:00 UTC, ASTS bondit à **$129.335** (+8.05%) sur volume **19.72M** (0.85×, −59% vs 13h), RSI **83.14** surchauffe extrême aggravée, high intraday **$129.38** à 0.4% du 52W high, **agent downgrade ASTS ÉVITER (29.8/100)** vs SURVEILLER précédemment, earnings FMP placeholder glissant J=0 non résolu, anomalie structurelle confirmée avec risque gamma squeeze |
 | 2026-05-27 | `AST_2026-05-27_update.md` | Update après-midi (13:00 UTC) | 17e snapshot consécutif sans mutation pour AST — stabilité totale confirmée vs 10:00 UTC, ASTS stable à $119.70 (+13.07%) sur volume 48.08M (2.10×), RSI 82.58 inchangé, **anomalie options JSON résolue** (max pain 120.0, P/C 0.76, call OI 57.0% cohérents), earnings FMP placeholder glissant J=0 non résolu, anomalie structurelle confirmée |
@@ -67,4 +68,4 @@
 - ASTS (AST SpaceMobile) présent dans la watchlist avec données complètes — probable doublon erroné
 - AST absent du rapport quality gate (contrairement à ASTS)
 - **Action recommandée :** supprimer AST ou marquer `excluded` dans `config/watchlist.json` et privilégier ASTS
-- ASTS a clôturé à $113.41 (−14.79%, volume 54.81M ×2.08, RSI 69.79) au snapshot 10:00 UTC — correction technique post-squeeze confirmée
+- ASTS est stable à $113.41 (−14.79% matin, volume 54.81M ×2.08, RSI 69.79) au snapshot 13:00 UTC — correction technique post-squeeze confirmée et stabilisée
