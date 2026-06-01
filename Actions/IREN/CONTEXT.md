@@ -10,7 +10,7 @@
 - **Recommandation :** ATTENDRE
 - **Score global :** 53.0/100
 - **Prix cible :** $66.61 (consensus FMP)
-- **Stop-loss :** $53.02 (2×ATR)
+- **Stop-loss :** $55.72
 - **Statut thèse :** confirmée
 - **Horizon :** —
 
@@ -27,7 +27,6 @@
 - Baisse — $45.00 — 🟢 Active
 - Hausse — $65.86 — 🟢 Active
 - Volume — >2× moy. 20j (>104.9M) — 🟢 Active
-- IREN — **⚠️ Défiance options record** — Put/Call 3.01 (puts 75.1%), Max Pain $52.00
 - IREN — Vérification — $61.20
 - IREN — **⚠️ Volume DÉCLENCHÉ** — $55.15 (close)
 - IREN — **⚠️ Baisse INTRADAY** — $52.36 (low)
@@ -42,26 +41,26 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 52.36
-- **MM 50j :** 47.77
+- **RSI 14j :** 61.59
+- **MM 50j :** 48.25
 - **MM 200j :** —
-- **ATR 14j :** 5.26
-- **Volume moy. 20j :** 57653795
+- **ATR 14j :** 5.02
+- **Volume moy. 20j :** 58077970
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-01 (snapshot 13:00 UTC, révision)
-- **Type :** update
+- **Date :** 2026-06-01
+- **Type :** update (snapshot 17:00 UTC)
 - **Fichier :** `IREN_2026-06-01_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — Le statut ATTENDRE est maintenu. Max Pain corrigé $52.00 (vs $20.00 anomalie). Put/Call 3.01 = défiance record. Aucune mutation prix/fondamentale.
+- **Conclusion :** Thèse CONFIRMÉE — ATTENDRE maintenu. Cours +3.49% à $65.76 testant résistance $66.28 (double top potentiel vs $66.29 du 27/05). Rally sur volume faible (59.7%). RSI 61.59. Forward P/E −69.96× (détérioration). Put/call 3.01 maintenu. Upside consensus réduit +1.3%. SL $55.72 / TP $80.82.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 8.28% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 7.63% (seuil 5.0%)
 
 ---
 

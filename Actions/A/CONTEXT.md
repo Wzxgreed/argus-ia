@@ -12,9 +12,9 @@
 **Prix cible desk :** $149.72 (TP ATR-based) / $163.82 (consensus analystes)
 **Stop-loss :** $126.07
 **Horizon :** 1–3 mois
-**Statut thèse :** 🟡 **Confirmée mais modifiée** — beat Q2 2026 validé par gap +17.3% ($115.58 → $135.53) sur volume 1.90×. RSI 78.65 (surachat extrême), forward P/E 20.5× (+16.5%). **Correction options (snapshot 13h) :** max pain $130, put/call 1.58, call OI 38.7% — structure normalisée. Score Global ajusté **60.0** — limite basse zone ATTENDRE. Entrée initiale laminée ; attendre pullback $126–$130 ou consolidation RSI <65.
+**Statut thèse :** 🟡 **Confirmée mais modifiée** — beat Q2 2026 validé par gap +17.3% ($115.58 → $135.53) sur volume 1.90×. RSI 78.65 (surachat extrême), forward P/E 20.5× (+16.5%). **Correction données options (snapshot 13h UTC) :** max pain $130, put/call 1.58, call OI 38.7% — structure normalisée, ancrage réaliste. Le malus euphorie options erroné (−10 pts) est retiré. Score Global ajusté **60.0** — limite basse zone ATTENDRE. Entrée initiale laminée ; attendre pullback $126–$130 ou consolidation RSI <65.
 
-**Synthèse :** Agilent a confirmé sa qualité fondamentale par un beat/guidance-up Q2 2026 spectaculaire (gap +17.3%). Le Filtre Qualité 5/6 est maintenu, le consensus $163.82 laisse un upside +20.9%, et le volume 1.90× confirme la légitimité du mouvement. Les données options corrigées retirent le scénario de surchauffe extrême. Le setup technique reste défavorable : RSI 79, ATR $4.73 (+45%), cours à +17% de la MM50. La fenêtre d'entrée optimale ($115–$116, forward P/E 17.6×) est fermée. La thèse reste haussière de fond mais neutre de timing — **ATTENDRE** une consolidation ou un retracement avant toute nouvelle position. Flag `stale_price_history` persistant — valider les données en live avant exécution.
+**Synthèse :** Agilent a confirmé sa qualité fondamentale par un beat/guidance-up Q2 2026 spectaculaire (gap +17.3%). Le Filtre Qualité 5/6 est maintenu, le consensus $163.82 laisse un upside +20.9%, et le volume 1.90× confirme la légitimité du mouvement. Les données options corrigées retirent le scénario de surchauffe extrême (call OI 96.5% erroné). Le setup technique reste défavorable : RSI 79, ATR $4.73 (+45%), cours à +17% de la MM50. La fenêtre d'entrée optimale ($115–$116, forward P/E 17.6×) est fermée. La thèse reste haussière de fond mais neutre de timing — **ATTENDRE** une consolidation ou un retracement avant toute nouvelle position. Flag `stale_price_history` persistant — valider les données en live avant exécution.
 
 ---
 
@@ -64,11 +64,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 78.65
-- **MM 50j :** 115.82
+- **RSI 14j :** 87.05
+- **MM 50j :** 116.28
 - **MM 200j :** —
-- **ATR 14j :** 4.73
-- **Volume moy. 20j :** 2629265
+- **ATR 14j :** 4.6
+- **Volume moy. 20j :** 2599064
 
 ---
 
@@ -77,7 +77,7 @@
 - **Date :** 2026-06-01
 - **Type :** update
 - **Fichier :** `A_2026-06-01_update.md`
-- **Conclusion :** > **Date :** 2026-06-01 · Snapshot 10:00 UTC
+- **Conclusion :** > **Date :** 2026-06-01 · Snapshot 13:00 UTC
 
 ---
 

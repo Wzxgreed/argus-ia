@@ -1,4 +1,4 @@
-# CONTEXT — NOK — Dernière mise à jour : 2026-06-01 13:00 UTC
+# CONTEXT — NOK — Dernière mise à jour : 2026-06-01
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -45,22 +45,17 @@ Correction continue post-double-gap : le cours est passé de $16.46 (26/05) à $
 
 ## 📅 Prochains événements
 
-- 2026-06-05 : Expiration options — max pain $13.50, pin risk baissier (cours +9.9% au-dessus)
-- 2026-07-23 : Earnings Q2 FY2026 (dans 52 jours) — Est EPS $0.06–$0.08, Rev $4.8B
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 61.3
-- **MM 50j :** 11.37
+- **RSI 14j :** 61.1
+- **MM 50j :** 11.52
 - **MM 200j :** —
-- **ATR 14j :** 1.01
-- **Volume moy. 20j :** 117493570
-- **Max pain options :** 13.50
-- **Put/Call ratio :** 0.46
-- **Call OI % :** 68.5
-- **Expiration options :** 2026-06-05
+- **ATR 14j :** 1.0
+- **Volume moy. 20j :** 114752262
 
 ---
 
@@ -75,7 +70,8 @@ Correction continue post-double-gap : le cours est passé de $16.46 (26/05) à $
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 6.81% (seuil 5.0%)
+- **PRICE_GAP** (medium) — Gap +9.00% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 6.31% (seuil 5.0%)
 
 ---
 

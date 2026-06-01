@@ -30,7 +30,7 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 - **Score global :** —/10
 - **Prix cible :** $16.44
 - **Stop-loss :** $13.44
-- **Statut thèse :** modifiée
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -57,11 +57,11 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 64.11
-- **MM 50j :** 12.04
+- **RSI 14j :** 65.9
+- **MM 50j :** 12.11
 - **MM 200j :** —
 - **ATR 14j :** 0.6
-- **Volume moy. 20j :** 65491030
+- **Volume moy. 20j :** 64196270
 
 ---
 
@@ -70,7 +70,7 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 - **Date :** 2026-06-01
 - **Type :** update
 - **Fichier :** `AAL_2026-06-01_update.md`
-- **Conclusion :** **Date :** 2026-06-01 (snapshot 10:00 UTC)
+- **Conclusion :** **Date :** 2026-06-01 (snapshot 13:00 UTC)
 
 ---
 

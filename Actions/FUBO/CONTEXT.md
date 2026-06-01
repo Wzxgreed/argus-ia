@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Score global :** ~46/100
-- **Prix cible :** $11.71 (TP ATR 3×)
-- **Stop-loss :** $9.01 (SL ATR 2×)
-- **Statut thèse :** Confirmée
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -24,33 +24,23 @@
 
 ## 🚨 Alertes actives
 
-- **Données Options Restaurées** (2026-06-01) — max pain $11.00, put/call 0.41, call OI 70.9% (structure haussière)
-- **Earnings Q1 Anomalie Persistante** (2026-06-01) — FMP place earnings au 2026-06-01 (jour J), aucun résultat visible
-- **Short Interest Très Élevé** (2026-06-01) — 25.03% du float
-- **Distribution Potentielle** (2026-06-01) — recul −3.26% sur volume 1.31×
-- **Sector Rotation XLC Bottom 3** (2026-06-01) — malus sectoriel actif
-- **Divergence Yahoo/FMP Market Cap** — ×11.0 écart
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-06-01** · earnings · Earnings Q1 2026 (anomalie : jour J, aucun résultat visible)
-- **2026-06-05** · options · Échéance options (J+4, max pain $11.00, put/call 0.41)
-- **~août 2026** · earnings · Earnings Q2 2026
+- **2026-06-01** · earnings · Earnings ...
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 47.2
-- **MM 50j :** 11.19
+- **RSI 14j :** 62.8
+- **MM 50j :** 11.14
 - **MM 200j :** —
-- **ATR 14j :** 0.54
-- **Volume moy. 20j :** 1478240
-- **Volume séance :** 1942000 (1.31×)
-- **Cours close :** $10.09
-- **52W High / Low :** $56.64 / $8.31
+- **ATR 14j :** 0.57
+- **Volume moy. 20j :** 1404641
 
 ---
 
@@ -59,13 +49,14 @@
 - **Date :** 2026-06-01
 - **Type :** update
 - **Fichier :** `FUBO_2026-06-01_update.md`
-- **Conclusion :** THÈSE CONFIRMÉE — SURVEILLER (~46/100). Données options restaurées entre snapshot 10h et 13h UTC (max pain $11.00, put/call 0.41, call OI 70.9%) = structure haussière. Cours stable $10.09 (marché fermé). Short interest 25.03% (stable). Fondamental dégradé 1/6 inchangé. Earnings Q1 anomalie persistante. Pas de position.
+- **Conclusion :** > **Niveau d'impact :** 🟡 Modéré — **Données options restaurées** : max pain **$11.00**, put/call **0.41**, call OI **70.9%**. Cours stable **$10.09** (−3.26% vs previous close), RSI **47.2**, volume 
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 5.35% (seuil 5.0%)
+- **PRICE_GAP** (medium) — Gap +8.03% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 5.23% (seuil 5.0%)
 
 ---
 

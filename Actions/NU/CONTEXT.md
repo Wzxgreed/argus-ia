@@ -1,4 +1,4 @@
-# CONTEXT — NU — Dernière mise à jour : 2026-06-01 (snapshot 13:00 UTC)
+# CONTEXT — NU — Dernière mise à jour : 2026-06-01
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -16,10 +16,10 @@
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
-- **Score global :** 63.5/100 (ajusté 55.5)
-- **Prix cible :** $18.39
-- **Stop-loss :** $12.17
-- **Statut thèse :** CONFIRMÉE — ATTENDRE (nuance technique améliorée + anomalie options résolue)
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
 - **Horizon :** 1–3 mois
 
 ---
@@ -38,27 +38,23 @@
 
 ## 📅 Prochains événements
 
-- **Earnings Q2 2026 :** 13 août 2026 (73 jours) — Est EPS $0.20–$0.27, Rev $5.4B
-- **Expiration Options :** 2026-06-05 (4 jours) — max pain $13.00 (cohérent avec spot)
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 40.77
-- **MM 50j :** 14.03
+- **RSI 14j :** 43.98
+- **MM 50j :** 14.01
 - **MM 200j :** —
-- **ATR 14j :** 0.48
-- **Volume moy. 20j :** 56171990
-- **Volume session :** 91639200 (1.63×)
-- **52W low :** $11.71
-- **52W high :** $18.98
+- **ATR 14j :** 0.46
+- **Volume moy. 20j :** 55598964
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-01 (snapshot 13:00 UTC)
+- **Date :** 2026-06-01
 - **Type :** update
 - **Fichier :** `NU_2026-06-01_update.md`
 - **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (nuance technique améliorée + anomalie options résolue)**

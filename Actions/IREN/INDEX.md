@@ -9,15 +9,17 @@
 
 ## Thèse Courante
 
-IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot 13:00 UTC du 2026-06-01 confirme un **retrait de −4.05%** à **$63.54**, consolidation après le sommet $66.29 du 27/05. Le cours évolue **+33.0% au-dessus de la MM50** ($47.77), tendance haussière intacte mais momentum ralenti. La volatilité reste élevée mais s'atténue (beta 4.18, ATR $5.26, ATR relatif 8.28%).
+IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot 17:00 UTC du 2026-06-01 confirme un **rebond de +3.49%** à **$65.76**, testant la résistance majeure à **$66.28** (proche du consensus $66.61 et du sommet $66.29 du 27/05). Le cours évolue **+36.3% au-dessus de la MM50** ($48.25), tendance haussière intacte mais momentum accéléré sur volume réduit.
 
-**🔴 Valorisation stretched :** P/E TTM **82.52×**, EV/EBITDA **166.19×**, Forward P/E **−67.60×** (détérioration sévère), P/B **8.39×**. Le **Score Valorisation reste à 3.0/10**.
+**🔴 Valorisation stretched :** P/E TTM **85.40×**, EV/EBITDA **166.19×**, Forward P/E **−69.96×** (détérioration sévère confirmée), P/B **8.69×**. Le **Score Valorisation reste à 3.0/10**.
 
-**🟡 Consensus PT :** Le cours **$63.54 est sous le consensus FMP** ($66.61, 23 analysts). L'upside vers le consensus est **+4.8%** (restauré vs −0.5% le 27/05).
+**🟡 Consensus PT :** Le cours **$65.76 approche le consensus FMP** ($66.61, 23 analysts). L'upside vers le consensus est réduit à **+1.3%** (vs +4.8% au snapshot 13:00 UTC).
 
-**🔴 Défiance options record :** Put/Call ratio **3.01** (puts 75.1%), Call OI **24.9%**, Max Pain **$52.00** (expiration 2026-06-05, corrigé vs anomalie $20.00). Les options traders anticipent une correction ou se couvrent massivement.
+**🔴 Défiance options record :** Put/Call ratio **3.01** (puts 75.1%), Call OI **24.9%**, Max Pain **$52.00** (expiration 2026-06-05). Les options traders maintiennent leur couverture massive malgré le rally.
 
-**⚠️ Short Interest en baisse :** 14.72% (−2.15 pts) — moins de squeeze potentiel.
+**⚠️ Volume faible :** 34.63 M = **59.7%** de la moyenne 20j. Le rally de +3.49% se fait sans participation institutionnelle, fragilité technique accrue.
+
+**⚠️ Short Interest stable :** 14.72% — en baisse vs mai mais fuel squeeze réduit.
 
 **Earnings Q1 2026** : résultats toujours non intégrés dans les feeds Yahoo/FMP au 2026-06-01. Prochain earnings Q2 2026 : **2026-08-27** (87 jours).
 
@@ -25,7 +27,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 **Score Global ajusté : 53.0/100**
 **Action : ATTENDRE** — risque/rendement défavorable à l'entrée
 
-> **⚠️ Réserve earnings :** Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds (FY 2025 uniquement). Attendre la publication officielle avant toute nouvelle entrée. Ne pas entrer à $63.54 (Forward P/E −67.6×, EV/EBITDA 166×, put/call 3.01). Si le cours casse $60.73 sans rebond → passer en SURVEILLER. Si le cours casse $56.83 sans rebond → passer en ÉVITER. Si le cours casse $47.77 (MM50) → passer en ÉVITER.
+> **⚠️ Réserve earnings :** Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds (FY 2025 uniquement). Attendre la publication officielle avant toute nouvelle entrée. Ne pas entrer à $65.76 (Forward P/E −70×, EV/EBITDA 166×, put/call 3.01). Si le cours casse $60.26 sans rebond → passer en SURVEILLER. Si le cours casse $56.83 sans rebond → passer en ÉVITER. Si le cours casse $48.25 (MM50) → passer en ÉVITER. Surveiller le double top potentiel $66.28 ≈ $66.29.
 
 ---
 
@@ -52,7 +54,8 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 | 2026-05-27 | [IREN_2026-05-27_update.md](IREN_2026-05-27_update.md) | Mise à jour pre-open | Snapshot 10:00 UTC — données stables vs close 26/05 · earnings J=0 attendu en séance · thèse confirmée · DRAFT_refresh duplicata archivé |
 | 2026-05-27 | [IREN_2026-05-27_update.md](IREN_2026-05-27_update.md) (rev. 13:00 UTC) | Mise à jour post-open | Snapshot 13:00 UTC — cours stable $59.78 · structure options corrigée (put/call 1.88, call OI 34.7%) · EV/EBITDA révisé 157.06× · défiance record atténuée · earnings J=0 non publiés · thèse confirmée |
 | 2026-05-27 | [IREN_2026-05-27_update.md](IREN_2026-05-27_update.md) (rev. 17:00 UTC) | Mise à jour post-session | Snapshot 17:00 UTC — **cours $66.22 (+10.77%)** · high $66.29 · scores révisés 5.5/10 · Global 59.5/100 · valorisation massivement dégradée (P/E 85.95×, P/B 8.74×) · **dépassement consensus PT $65.86** · action changée ACHETER → **ATTENDRE** · earnings J=0 non publiés · thèse modifiée |
-| 2026-06-01 | [IREN_2026-06-01_update.md](IREN_2026-06-01_update.md) | Mise à jour post-session (snapshot 13:00 UTC, révision) | Snapshot 13:00 UTC — **cours $63.54 (−4.05%)** · consolidation post-sommet · scores révisés 4.8/10 · Global 53.0/100 · Forward P/E détérioré −67.60× · consensus PT $66.61 (+4.8% upside) · Short Interest −2.15 pts · **Max Pain corrigé $52.00** · **put/call 3.01 (défiance record)** · call OI 24.9% · thèse confirmée ATTENDRE |
+| 2026-06-01 | [IREN_2026-06-01_update.md](IREN_2026-06-01_update.md) (snapshot 13:00 UTC) | Mise à jour post-session | Snapshot 13:00 UTC — **cours $63.54 (−4.05%)** · consolidation post-sommet · scores révisés 4.8/10 · Global 53.0/100 · Forward P/E détérioré −67.60× · consensus PT $66.61 (+4.8% upside) · Short Interest −2.15 pts · **Max Pain corrigé $52.00** · **put/call 3.01 (défiance record)** · call OI 24.9% · thèse confirmée ATTENDRE |
+| 2026-06-01 | [IREN_2026-06-01_update.md](IREN_2026-06-01_update.md) (snapshot 17:00 UTC) | Mise à jour post-session | Snapshot 17:00 UTC — **cours $65.76 (+3.49%)** · test résistance $66.28 ≈ double top · volume faible 59.7% · RSI 61.59 · Forward P/E −69.96× · défiance options 3.01 maintenue · upside consensus réduit +1.3% · thèse confirmée ATTENDRE |
 
 ---
 
@@ -79,4 +82,4 @@ Voir [SUPPLY_CHAIN.md](SUPPLY_CHAIN.md) pour la cartographie fournisseurs/client
 
 ---
 
-*Dernière mise à jour : 2026-05-27 (snapshot 17:00 UTC)*
+*Dernière mise à jour : 2026-06-01 (snapshot 17:00 UTC)*
