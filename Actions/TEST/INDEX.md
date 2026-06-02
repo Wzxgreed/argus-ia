@@ -2,18 +2,18 @@
 
 ## Thèse courante
 
-**Verdict :** ACHETER (Réduit)
-**Date dernière analyse :** 2026-06-01 (snapshot 21:00 UTC)
+**Verdict :** ATTENDRE
+**Date dernière analyse :** 2026-06-02 (snapshot 10:00 UTC)
 **Cours actuel :** $45.34
 **Score Qualité :** 0/6 (Hors périmètre)
-**Score Opportunité :** 5.5/10 (agent reco — données fondamentales absentes)
-**Score Momentum :** 5.0/10
-**Score Global :** 60.2/100
-**Stop-loss :** $43.34
-**Take-profit :** $48.34
+**Score Opportunité :** 5.4/10 (agent reco — données fondamentales absentes)
+**Score Momentum :** 4.5/10
+**Score Global :** 54.0/100
+**Stop-loss :** $43.08
+**Take-profit :** $48.73
 **Ratio R/R :** 1.5
 
-TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Dégradation technique approfondie :** cours à $45.34 (−4.01% vs previous close, +4.14% depuis la MM50 à $43.54), RSI à 38.77 (franchissement du seuil 40 à la baisse, momentum négatif confirmé), volume en effondrement à 389 (0.21× moyenne 20j). Verdict agent maintenu **ACHETER (Réduit)** (Score Global 60.2/100) mais à 0.2 pt du seuil ATTENDRE (60) — marge la plus étroite depuis le début du suivi. Timing Favorable. Mise à jour 2026-06-01 21:00 UTC : dégradation technique continue — cours, RSI et momentum en baisse, volume retour à l'illiquidité chronique. Earnings JOUR J le 2026-06-01 — résultats non observables à 21:00 UTC (16 jours de flag cumulés).
+TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Changement de verdict majeur :** l'agent recommandation dégrade TEST de **ACHETER (Réduit)** à **ATTENDRE** — Score Global en chute de 60.2 à 54.0 (−6.2 pts), franchissant le seuil ATTENDRE (60) par le bas. Cours stable à $45.34 (−4.01% vs previous close, +4.08% depuis la MM50 à $43.54), RSI à 38.77 (sous le seuil 40, momentum négatif maintenu), volume en explosion à 6,700 (3.07× moyenne 20j = 2,180) sur un cours inchangé — échange de mains significatif sans catalyseur. Timing passé de Favorable à Neutre. Mise à jour 2026-06-02 10:00 UTC : dégradation de verdict majeure — Score Momentum sous neutre, ATR en expansion, pattern intraday de rejet haussier au open ($46.25) puis retour au low. Earnings JOUR J le 2026-06-02 — résultats non observables à 10:00 UTC (17 jours de flag cumulés).
 
 ---
 

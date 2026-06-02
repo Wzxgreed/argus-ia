@@ -21,16 +21,18 @@ Apple est une entreprise de qualité institutionnelle exceptionnelle (Filtre Qua
 | 2026-06-01 | [AAPL_2026-06-01_update_13h.md](AAPL_2026-06-01_update_13h.md) | Mise à jour snapshot 13:00 UTC — **correction options JSON** (max pain $310.00, put/call 0.42, call OI 70.6%), structure haussière renforcée, pinning gamma modéré vers le bas à expiration, données techniques inchangées, scores inchangés. Thèse SURVEILLER confirmée |
 | 2026-06-01 | [AAPL_2026-06-01_update_17h.md](AAPL_2026-06-01_update_17h.md) | Mise à jour snapshot 17:00 UTC (close) — repli −1.92% à $306.08 sur volume effondré 0.48×, RSI 70.10 sortie surachat sévère, scores révisés à la hausse (Opportunité 5.1, Global ajusté 41.0), SL/TP révisés $295.74/$321.59. Thèse SURVEILLER modifiée avec nuance technique moins défavorable |
 | 2026-06-01 | [AAPL_2026-06-01_update_21h.md](AAPL_2026-06-01_update_21h.md) | Mise à jour snapshot final 21:00 UTC — correction majeure volume (22.03M → 44.17M, 0.93×), cours stable $306.31, RSI 70.58, distribution réelle sur volume standard. Scores inchangés. SL/TP révisés $295.89/$321.94. Thèse SURVEILLER confirmée avec correction technique défavorable |
+| 2026-06-02 | [AAPL_2026-06-02_update.md](AAPL_2026-06-02_update.md) | Mise à jour snapshot 10:00 UTC — stabilité totale post-close du 01/06. Volume ajusté 48.80M (1.03× moyenne), confirmant distribution réelle. Données options corrompues détectées (max pain $200, null P/C et Call OI). Scores inchangés. Thèse SURVEILLER confirmée |
 
 ## Agenda
 - **Prochain earnings :** 2026-07-30 (59 jours) — Est EPS $1.83–$1.99, Rev $109.0B
 
 ## Alertes actives
 - 🟡 **Alerte technique :** RSI 70.58 — surachat modéré (stable au-dessus de 70)
-- 🟡 **Alerte volume :** Volume 44.17M (0.93× moyenne 20j) — participation standard. CORRECTION vs 0.48× du snapshot 17h : distribution réelle, pas repli sans conviction
+- 🟡 **Alerte volume :** Volume 48.80M (1.03× moyenne 20j) — participation légèrement supérieure à la normale. Ajustement post-close vs 0.93× du snapshot 21h : distribution réelle confirmée
 - 🟡 **Alerte valorisation :** Cours $306.31 > Consensus FMP $293.43 (+4.0%)
-- 🟡 **Alerte options :** Dominance call record maintenue (70.6%, put/call 0.42). FOMO structurel persistant post-expiration mensuelle
+- 🔴 **Alerte options :** Données corrompues sur snapshot 02/06 (max pain $200, P/C null, Call OI null). Référence fiable : structure 01/06 (max pain $310, P/C 0.42, Call OI 70.6%). FOMO structurel persistant
 - 🟡 **Alerte scoring :** Scores agents en zone SURVEILLER (Opportunité 5.1/10, Global ajusté 41.0/100), timing Défavorable
-- 🟡 **Alerte technique :** Support $305.03 (low du jour corrigé) — cassure = test du SL $295.89
+- 🟡 **Alerte technique :** Support $305.02 (low du jour ajusté) — cassure = test du SL $295.89
 - 🟡 **Alerte sector rotation :** Signal ROTATION_TO_CYCLICAL — XLK reste top performer (momentum 10.0/10) mais risque de rotation latérent
+- 🔴 **Alerte data quality :** Anomalie options JSON du 02/06 10:00 UTC (max pain $200, null P/C et Call OI). Données non exploitables — surveiller correction au prochain snapshot
 - 🟢 **Alerte data quality résolue :** Anomalie options JSON du 01/06 10:00 UTC corrigée sur snapshot 13:00 UTC
