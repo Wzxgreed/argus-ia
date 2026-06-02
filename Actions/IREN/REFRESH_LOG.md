@@ -1268,3 +1268,23 @@ Données strictement inchangées vs snapshot 10:00 UTC du 2026-05-26 (cours $56.
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-06-02 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 7.68% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-02 — Full Refresh Complété (close officiel)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 7.67% (seuil 5.0%)
+
+**Conclusion :** confirm
+
+Données close officiel : cours $66.60 (−1.04% vs snapshot 17h), RSI 61.11, ATR $5.11, MM50 $48.75. Le breakout intraday à $69.57 est rejeté en clôture sous le consensus PT ($66.60 vs $66.61). Volume total de session 51.26 M (0.9× moyenne 20j), corrigeant l’impression de faible participation du snapshot 17h. Score Opportunité 4.8/10 inchangé, Score Global ajusté 52.5/100 (−0.5 pt). Forward P/E −70.85× (amélioration marginale vs −71.60×). Structure options inchangée (put/call 2.09, puts 67.6%). Thèse confirmée : ATTENDRE. DRAFT_refresh complété et archivé (_ARCHIVED_DRAFT_refresh_2026-06-02_close.md). Fichier de référence : [IREN_2026-06-02_update.md](IREN_2026-06-02_update.md).
+
+---

@@ -279,3 +279,21 @@
 **Conclusion :** CONFIRMEE — Snapshot 13:00 UTC valide le snapshot 10:00 UTC. Donnees options reparees (Max Pain $160.00, Put/Call 0.52, Call OI 65.8%). Structure haussiere validee, pinning a expiration 06/05 a $160.00. Cours/RSI/volume inchanges. These SURVEILLER confirmee avec nuance haussiere.
 
 ---
+
+## 2026-06-02 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -5.28% overnight (seuil ±5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-02 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -5.28% overnight (seuil ±5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

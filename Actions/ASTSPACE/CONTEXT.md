@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE (placeholder système)
-- **Score global :** 55,2/100 (placeholder — non fondé)
+- **Recommandation :** —
+- **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** invalidée (données indisponibles)
+- **Statut thèse :** validée
 - **Horizon :** —
 
 ---
@@ -24,42 +24,32 @@
 
 ## 🚨 Alertes actives
 
-- **Anomalie structurelle persistante :** ASTSPACE indisponible depuis 31+ snapshots (erreur Yahoo : No price history). Probable doublon erroné d'ASTS.
-- **Proxy ASTS (17h UTC) :** explosion haussière +9,11% à $115,27 sur volume collapse 0,49×, RSI surachat 71,77, downgrade agent à 29,8/100 (ÉVITER).
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-06-02** · earnings · Earnings placeholder ASTSPACE (FMP, glissant >5j)
-- **2026-06-05** · options expiry · Options expiry ASTS (Max Pain $120, J+3)
-- **2026-08-10** · earnings · Earnings ASTS (yfinance, J+69)
+- **2026-06-02** · earnings · Earnings ...
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** — (placeholder 50)
+- **RSI 14j :** —
 - **MM 50j :** —
 - **MM 200j :** —
 - **ATR 14j :** —
 - **Volume moy. 20j :** —
-
-**Proxy ASTS (17h UTC) :**
-- Cours : $115,27 (+9,11%)
-- RSI 14j : 71,77 (surachat)
-- MM 50j : $87,62
-- ATR 14j : $12,07
-- Volume relatif : 0,49×
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-02
-- **Type :** update (snapshot 17h UTC)
-- **Fichier :** `ASTSPACE_2026-06-02_update.md`
-- **Conclusion :** ASTSPACE reste indisponible. Le proxy ASTS a explosé de +9,11% à $115,27 sur volume collapse alarmant 0,49×. RSI retourné en surachat 71,77. Divergence consensus creusée à −21,9%. Downgrade agent de SURVEILLER (44,8/100) à ÉVITER (29,8/100). Signal sectoriel neutralisé NEUTRAL (was ROTATION_TO_CYCLICAL). Recommandation : résoudre l'anomalie structurelle, rediriger vers ASTS, ne pas engager de capital.
+- **Type :** preview
+- **Fichier :** `ASTSPACE_2026-06-02_preview.md`
+- **Conclusion :** > **Date :** 2026-06-02
 
 ---
 

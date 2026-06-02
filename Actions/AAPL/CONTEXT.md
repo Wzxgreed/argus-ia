@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Score global :** 38.3/100
-- **Prix cible :** $331.13 (TP agent)
-- **Stop-loss :** $303.13
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
 - **Statut thèse :** modifiée
-- **Horizon :** 1–3 mois
+- **Horizon :** —
 
 ---
 
@@ -24,41 +24,32 @@
 
 ## 🚨 Alertes actives
 
-- 🟡 **Alerte technique :** RSI 75.03 — surachat renforcé
-- 🔴 **Alerte volume :** Volume 18.16M (0.39× moyenne 20j) — collapse sévère sur le rally
-- 🟡 **Alerte valorisation :** Cours $314.33 > Consensus FMP $293.43 (+7.1%)
-- 🔴 **Alerte options :** Gamma risk imminent — échéance 2026-06-03, max pain $315.00, Call OI 73.5%
-- 🟡 **Alerte scoring :** Scores agents en zone SURVEILLER (Opportunité 4.8/10, Global ajusté 38.3/100), timing Défavorable
-- 🟡 **Alerte technique :** Support $306.72 (low snapshot 17h) — cassure = test SL $303.13
-- 🟡 **Alerte technique :** Test 52W high $315.00 — rejet à $314.47, break nécessite volume > 50M
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **Earnings Q3 FY2026 :** 2026-07-30 (58 jours) — Est EPS $1.83–$1.99, Rev $109.0B
-- **Expiration options hebdomadaire :** 2026-06-03 (demain) — gamma risk concentré autour de $315.00
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 75.03
-- **MM 50j :** 277.59
+- **RSI 14j :** 75.59
+- **MM 50j :** 277.61
 - **MM 200j :** —
-- **ATR 14j :** 5.60
-- **Volume moy. 20j :** 46083080
-- **Cours close :** 314.33
-- **Volume snapshot :** 18160400 (0.39× moyenne)
+- **ATR 14j :** 5.67
+- **Volume moy. 20j :** 46831486
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-02
-- **Type :** update
+- **Type :** init
 - **Fichier :** `AAPL_2026-06-02_update_17h.md`
-- **Conclusion :** Breakout haussier +2.62% à $314.33 testant le 52W high $315.00, mais sur volume collapse 0.39× et RSI 75.03 (surachat renforcé). Scores révisés à la baisse (Opportunité 4.8/10, Global ajusté 38.3/100). Thèse SURVEILLER modifiée avec nuance technique négative accrue — pas d'entrée. Gamma risk demain (échéance 2026-06-03, max pain $315.00).
+- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-02 17:00 UTC) + agents quant, geo, accounting, sector, social, FX, watchman, events, recommandation
 
 ---
 

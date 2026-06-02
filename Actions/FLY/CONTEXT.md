@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 58.0/100
-- **Prix cible :** $61.90
-- **Stop-loss :** $32.35
-- **Statut thèse :** confirmée
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
 - **Horizon :** —
 
 ---
@@ -24,40 +24,38 @@
 
 ## 🚨 Alertes actives
 
-- **RÉSISTANCE NON CONFIRMÉE** — High intraday $46.44 testé mais rejeté sur volume effondré (0.41x moy. 20j). Pas de signal de cassure durable.
-- **SHORT INTEREST ÉLEVÉ** — 9.78% stable. Pression vendeuse persistante, pas de setup squeeze.
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **Earnings Q2 2026** — 2026-08-04 (63 jours). Est EPS −$0.47 à −$0.45, Rev $0.1B.
-- **Expiration options** — 2026-06-05 (2 jours). Max pain $41.00 vs spot $44.17 (+7.7%).
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 55.63
-- **MM 50j :** 37.80
+- **RSI 14j :** 54.63
+- **MM 50j :** 37.79
 - **MM 200j :** —
 - **ATR 14j :** 5.91
-- **Volume moy. 20j :** 9493886
+- **Volume moy. 20j :** 9597090
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-02
-- **Type :** _update.md (snapshot 17h UTC)
-- **Fichier :** `FLY_2026-06-02_update_17h.md`
-- **Conclusion :** Stabilité intra-session quasi totale (cours $44.17 −0.16% vs 13h). High intraday $46.44 testé mais rejeté sur volume effondré (0.41x). Options stables (max pain $41.00, put/call 0.64, call OI 61.0%). Scores agents légèrement améliorés (Score Global Ajusté 58.0, +1.2 pt). Fondamentaux inchangés et défavorables (Filtre Qualité 2/6, Forward P/E −37.67). Consensus $42.45 à −4.1% sous le spot. Thèse défavorable confirmée, test de résistance non confirmé. Action ATTENDRE maintenue.
+- **Type :** full refresh
+- **Fichier :** `FLY_2026-06-02_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-02
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 13.38% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 13.63% (seuil 5.0%)
 
 ---
 

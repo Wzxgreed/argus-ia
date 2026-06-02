@@ -21,7 +21,7 @@
 ## 📜 Historique des analyses
 - **Score global :** —/10
 - **Prix cible :** $—
-- **Stop-loss :** $126.56
+- **Stop-loss :** $125.26
 - **Statut thèse :** validée
 - **Horizon :** 1–3 mois
 
@@ -64,11 +64,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 85.91
+- **RSI 14j :** 86.5
 - **MM 50j :** 116.79
 - **MM 200j :** —
 - **ATR 14j :** 4.83
-- **Volume moy. 20j :** 2648457
+- **Volume moy. 20j :** 2699189
 
 ---
 
@@ -77,7 +77,7 @@
 - **Date :** 2026-06-02
 - **Type :** update
 - **Fichier :** `A_2026-06-02_update.md`
-- **Conclusion :** > **Date :** 2026-06-02 · Snapshot 17:00 UTC · Cours $134.92 (−0.78%) sur volume collapse 0.35× (927.2K). RSI 85.91 (−3.59 pts), ATR $4.83 (+2.5%). Thèse confirmée mais modifiée — consolidation sans conviction à la baisse post-gap. Score Global ajusté 52.5 (ATTENDRE). SL/TP révisés $125.26/$149.41.
+- **Conclusion :** > **Date :** 2026-06-02 · Snapshot 17:00 UTC
 
 ---
 

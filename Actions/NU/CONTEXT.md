@@ -19,7 +19,7 @@
 - **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** —
+- **Statut thèse :** modifiée
 - **Horizon :** 1–3 mois
 
 ---
@@ -44,26 +44,26 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 33.75
+- **RSI 14j :** 34.18
 - **MM 50j :** 13.97
 - **MM 200j :** —
-- **ATR 14j :** 0.53
-- **Volume moy. 20j :** 60993650
+- **ATR 14j :** 0.55
+- **Volume moy. 20j :** 64303270
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-02 (snapshot 17h UTC)
-- **Type :** update
-- **Fichier :** `NU_2026-06-02_update.md`
-- **Conclusion :** ATTENDRE — thèse MODIFIÉE. Chute technique −8.81% à $11.845, nouveau 52W low $11.675, RSI 33.75, volume explosion 105.75M (1.73×), signal sectoriel NEUTRAL (was ROTATION_TO_CYCLICAL), scores révisés à la baisse (Global 61.0, Ajusté 53.0, Opportunité 6.1, Momentum 2.5), SL/TP révisés $10.79/$13.44. Fondamentaux intacts (forward P/E 10.18×, upside +55.2%). Aucune news structurante.
+- **Date :** 2026-06-02
+- **Type :** full refresh
+- **Fichier :** `NU_2026-06-02_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-02
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap -8.81% overnight (seuil ±5.0%)
+- **PRICE_GAP** (medium) — Gap -8.16% overnight (seuil ±5.0%)
 
 ---
 

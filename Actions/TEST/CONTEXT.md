@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER (Réduit)
-- **Score global :** 61.5/100
-- **Prix cible :** $48.75
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
 - **Stop-loss :** $43.65
-- **Statut thèse :** Modifiée — passage ATTENDRE → ACHETER (Réduit) sur rebond technique
-- **Horizon :** 1–3 mois
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -30,30 +30,26 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-02** · earnings · Earnings JOUR J — résultats non observables (18 jours de flag cumulés)
+- **2026-06-02** · earnings · Earnings ...
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 44.68
-- **MM 50j :** 43.62
+- **RSI 14j :** 45.13
+- **MM 50j :** 43.63
 - **MM 200j :** —
-- **ATR 14j :** 1.02
-- **Volume moy. 20j :** 2153
-- **Volume session :** 969 (0.45× moyenne)
-- **Cours close :** $45.69
-- **Previous close :** $45.342
-- **Variation :** +0.77%
+- **ATR 14j :** 1.03
+- **Volume moy. 20j :** 2187
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-02
-- **Type :** update_17h
-- **Fichier :** `TEST_2026-06-02_update_17h.md`
-- **Conclusion :** Verdict modifié de ATTENDRE à ACHETER (Réduit) — Score Global 61.5/100 (+7.5 pts). Rebond technique (+0.77% à $45.69) avec RSI sorti de la zone négative (44.68, +5.91 pts). Volume effondré à 969 (0.45× moyenne) — liquidité marginale fragilisant le signal. Timing Favorable. SL $43.65 / TP $48.75 / R/R 1.5.
+- **Type :** preview
+- **Fichier :** `TEST_2026-06-02_preview.md`
+- **Conclusion :** > **Date :** 2026-06-02
 
 ---
 

@@ -408,3 +408,21 @@
 - **Action :** DRAFT_refresh archivés (`_DRAFT_refresh_2026-05-31_ARCHIVED.md`, `_DRAFT_refresh_2026-06-01_ARCHIVED.md`). Pas de réécriture de `_init.md` requise — la structure fondamentale du 2026-05-17 reste valide, le gap est un événement technique capturé par `SOFI_2026-06-01_update.md`.
 
 ---
+
+## 2026-06-02 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.13% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-02 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.13% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

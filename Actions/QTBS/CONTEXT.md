@@ -58,9 +58,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-02
-- **Type :** update
-- **Fichier :** `QTBS_2026-06-02_update.md`
-- **Conclusion :** Data blackout confirmé snapshot 17:00 UTC — ATTENDRE (31e snapshot consécutif sans mutation), placeholder earnings J0 figé au 02/06
+- **Type :** preview
+- **Fichier :** `QTBS_2026-06-02_preview.md`
+- **Conclusion :** > **Date :** 2026-06-02
 
 ---
 
