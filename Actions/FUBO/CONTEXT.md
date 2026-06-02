@@ -13,7 +13,7 @@
 - **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** modifiée
+- **Statut thèse :** confirmée
 - **Horizon :** —
 
 ---
@@ -33,16 +33,17 @@
 ## 📅 Prochains événements
 
 - **2026-06-02** · earnings · Earnings ...
+- **2026-06-05** · options expiration · Max pain $12.00 (J+3)
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 58.38
+- **RSI 14j :** 58.61
 - **MM 50j :** 11.09
 - **MM 200j :** —
 - **ATR 14j :** 0.65
-- **Volume moy. 20j :** 1421816
+- **Volume moy. 20j :** 1428384
 
 ---
 
@@ -51,7 +52,7 @@
 - **Date :** 2026-06-02
 - **Type :** update
 - **Fichier :** `FUBO_2026-06-02_update.md`
-- **Conclusion :** > **Niveau d'impact :** 🔴 Élevé — Correction technique **−4.34%** à **$11.02** sur volume effondré **0.38×** (536k vs moy. 20j 1.40M), RSI sort de la zone proche-surachat (**62.22**, −5.26 pts), cours
+- **Conclusion :** > **Niveau d'impact :** 🔴 Élevé — Correction technique poursuivie **−6.94%** à **$10.72** sur volume recovery partiel **0.75×**, RSI **58.61**, spot à **−3.3% sous la MM50** ($11.09). Scores agents **inchangés** : **ATTENDRE 58.0/100**, Score Opportunité **6.6/10**, Score Momentum **4.0/10** (momentum baissier), timing **Défavorable**. Structure options haussière inchangée (max pain **$12.00**, put/call **0.20**, call OI **83.2%**) mais spot désormais **−10.7% sous le max pain**. Anomalie earnings persistante (`days_until: 0`). Thèse ATTENDRE confirmée.
 
 ---
 
