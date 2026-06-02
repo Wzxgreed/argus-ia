@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
-- **Horizon :** —
+- **Recommandation :** SURVEILLER
+- **Score global :** 41.3/100
+- **Prix cible :** $186.15 (consensus FMP)
+- **Stop-loss :** $148.25
+- **Statut thèse :** Confirmée sans modification — stabilité totale
+- **Horizon :** 1–3 mois (earnings 2026-08-03)
 
 ---
 
@@ -24,32 +24,39 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- Warning : `data/accounting_risk_latest.json` absent — Filtre Qualité non alimenté
+- Alerte technique RESOLUE : RSI 35.66 < 40 (25/05, résolu 26/05)
+- Anomalies options JSON résolues (26/05, 27/05, 01/06)
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings Q2 FY2026 : 2026-08-03 (62 jours) — Est. EPS $0.32-$0.40, Rev $1.8B
+- Expiration options : 2026-06-05 (3 jours)
 
 ---
 
-## 📊 Contexte technique (dernier snapshot)
+## 📊 Contexte technique (dernier snapshot 13:00 UTC)
 
-- **RSI 14j :** 75.14
+- **RSI 14j :** 75.14 (surachat approfondi figé)
 - **MM 50j :** 141.89
 - **MM 200j :** —
-- **ATR 14j :** 6.2
-- **Volume moy. 20j :** 46261660
+- **ATR 14j :** 6.20
+- **Volume moy. 20j :** 46,261,660
+- **Volume jour :** 57,262,800 (+23.8% vs moyenne)
+- **Max Pain :** $160.00
+- **Put/Call :** 0.50
+- **Call OI % :** 66.8% (+1.0 pp vs 21h)
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-01
+- **Date :** 2026-06-02
 - **Type :** update
-- **Fichier :** `PLTR_2026-06-01_21-00_update.md`
-- **Conclusion :** > **Source :** `data/2026-06-01.json` (snapshot 21:00 UTC, fetched_at 2026-06-01T21:00:02Z) + agents quant, geo, accounting, sector, social, FX, watchman, events
+- **Fichier :** `PLTR_2026-06-02_update.md`
+- **Conclusion :** Stabilité totale vs close 2026-06-01 ($160.65 inchangé, RSI 75.14, ATR $6.20). Volume 57.26M (+1.1% vs snapshot 21h). Options légèrement renforcées (Put/Call 0.50, Call OI 66.8%). Score Opportunité 5.1/10, Score Global 41.3/100. Pinning neutre à expiration 06/05. Thèse SURVEILLER confirmée sans modification. Pas d'entrée à $160.65.
 
 ---
 
