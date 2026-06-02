@@ -1,12 +1,12 @@
 # RKLB
 
 ## Thèse courante
-**2026-06-02 (snapshot 13h UTC)** — SURVEILLER. Stabilité totale vs close 01/06 ($122.39 inchangé, RSI 52.48 stable, ATR $12.55 stable). Volume 37.13M (1.19× moyenne) confirmant distribution active post-repli −14.7%. Divergence consensus +45.4% (spot vs PT $84.20), Filtre Qualité 3/6 hors périmètre institutionnel, Forward P/E −11106, EV/Rev 102.4×, P/B 31.12×. XLI sous-performe SPY. Aucune news. Score global 42.0/100 ajusté 47.0 — posture SURVEILLER maintenue. **CORRECTION DATA QUALITY OPTIONS (13h UTC)** : Max Pain repositionné à **$145.00** (vs anomalie $45.00 au snapshot 10h), Put/Call rétabli **1.18**, Call OI **45.9%**. Inversion du signal options CT : spot $122.39 passe **sous** le Max Pain → risque de pin haussier vers $145 d'ici expiration 05/06 (3 jours). SL $97.29 (−20.4%), TP $160.04 (+30.7%), R/R 1.5:1. [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $70.85 Mds vs FMP $37.02 Mds.
+**2026-06-02 (snapshot 17h UTC)** — SURVEILLER. Rebond technique +0.69% à $123.23 sur volume effondré 0.40× (12.45M vs moy. 31.04M), absence de participation acheteuse. RSI 52.77 stable neutre, ATR $12.33 légèrement en contraction. Divergence consensus +46.3% (spot vs PT $84.20), Filtre Qualité 3/6 hors périmètre institutionnel, Forward P/E −11182, EV/Rev 102.4×, P/B 31.33×. Signal sectoriel XLI dégradé **NEUTRAL** (was ROTATION_TO_CYCLICAL). Structure options inchangée : Max Pain $145.00, Put/Call 1.18, Call OI 45.9% — spot sous Max Pain = pin haussier CT vers expiration 05/06. Score global 44.5/100 ajusté 49.5 — posture SURVEILLER maintenue. SL $98.57 (−20.0%), TP $160.22 (+30.0%), R/R 1.5:1. [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $71.33 Mds vs FMP $37.02 Mds.
 
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
-| 2026-06-02 | [RKLB_2026-06-02_update.md](RKLB_2026-06-02_update.md) | Snapshot 13:00 UTC — stabilité totale vs 01/06 ($122.39 inchangé, RSI 52.48 stable, ATR $12.55), volume 37.13M (1.19×) confirmant distribution active, 🟡 CORRECTION DATA QUALITY OPTIONS (Max Pain $145.00 vs anomalie $45.00 au snapshot 10h, Put/Call 1.18 rétabli, Call OI 45.9%), inversion signal CT : spot sous Max Pain = pin haussier vers $145 d'ici expiration 05/06, score global 42.0/100 ajusté 47.0 — thèse SURVEILLER modifiée sur lecture options, SL/TP inchangés $97.29/$160.04 |
+| 2026-06-02 | [RKLB_2026-06-02_update.md](RKLB_2026-06-02_update.md) | Snapshot 17:00 UTC — rebond +0.69% à $123.23 sur volume effondré 0.40× (12.45M vs moy. 31.04M), RSI 52.77 stable, ATR $12.33 (−1.8%), signal sectoriel XLI dégradé NEUTRAL (was ROTATION_TO_CYCLICAL), structure options inchangée (Max Pain $145.00, Put/Call 1.18, Call OI 45.9%), score global révisé 44.5/100 ajusté 49.5 (+2.5 pts) — thèse SURVEILLER modifiée, rebond anémique sans participation, SL/TP révisés $98.57/$160.22 |
 | 2026-06-01 | [RKLB_2026-06-01_update.md](RKLB_2026-06-01_update.md) | Snapshot 21:00 UTC — close officiel $122.39 (−14.70%), 🔴 CORRECTION VOLUME 36.66M (1.17×) vs 23.94M (0.78×) au snapshot 17h, interprétation modifiée : distribution active, pas dégonflement sans capitulation. RSI 52.48 stable neutre, divergence consensus +45.4%, score global 42.0/100 ajusté 47.0 — thèse SURVEILLER maintenue, SL/TP révisés $97.39/$159.89 |
 | 2026-06-01 | [RKLB_2026-06-01_update.md](RKLB_2026-06-01_update.md) | Snapshot 17:00 UTC — repli sévère −13.99% à $123.41 sur volume effondré 23.94M (0.78×), RSI sorti surachat 53.01 (−17.55 pts), divergence consensus réduite +46.6%, score global 42.0/100 ajusté 47.0 — thèse modifiée de ÉVITER à SURVEILLER, dégonflement technique sans capitulation, support $121.75 cassé, Max Pain $90.00 persistant |
 | 2026-06-01 | [RKLB_2026-06-01_update.md](RKLB_2026-06-01_update.md) | Snapshot 13:00 UTC — repli -3.07% à $143.48 sur volume 34.82M (1.15×), signal de distribution post-rally, RSI 70.56 (–6.91 pts), 52W high $151.00, divergence consensus +70.4%, données options corrigées (Max Pain $90.00, Put/Call 1.25, Call OI 44.4%), structure baissière à CT confirmée, thèse ÉVITER confirmée et renforcée |
@@ -33,18 +33,18 @@
 
 ## Agenda
 - Prochain earnings : **2026-08-06** (Q2 2026, Est EPS –$0.06 à –$0.02)
-- Expiration options : **2026-05-29** (Max Pain $130.00 rétabli — 3 jours)
+- Expiration options : **2026-06-05** (Max Pain $145.00 — 3 jours)
 
 ## Alertes actives
-- RSI 52.48 — neutre, sorti du surachat
-- Divergence consensus — spot +45.4% vs PT $84.20
+- RSI 52.77 — neutre, sorti du surachat
+- Divergence consensus — spot +46.3% vs PT $84.20
 - Filtre Qualité 3/6 — hors périmètre institutionnel
 - Ratio R/R 1.5:1 — inférieur au seuil 2:1
-- [CORRECTION VOLUME] Snapshot 17h sous-estimait le volume ; volume final 36.66M = 1.17× moyenne 20j — interprétation technique modifiée (distribution active)
-- [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $70.85 Mds vs FMP $37.02 Mds
-- ATR $12.50 — volatilité élevée stable
-- Distribution active confirmée : repli −14.70% sur volume 1.17× moyenne 20j
+- Volume effondrement 0.40× — rebond anémique sans participation
+- ATR $12.33 — volatilité élevée
+- Distribution active confirmée : repli −14.70% le 01/06 sur volume 1.17× moyenne 20j
+- Max Pain $145.00 (éch. 06-05) — spot $123.23 = −$21.77 (−15.0%) sous le Max Pain — pin haussier CT
+- Options structure : Put/Call 1.18, Call OI 45.9%
 - 52W high $151.00 suivi de repli immédiat — rejet de nouveaux sommets
-- Max Pain $90.00 (éch. 06-05) — spot $122.39 = +$32.39 (+26.5%) au-dessus — pression baissière CT persistante
-- Options structure baissière : Put/Call 1.25, Call OI 44.4%
-- Gap sans news du 26–27/05 puis repli −14.70% le 01/06 — mouvement parabolique non confirmé par fondamental
+- Forward P/E −11182 — valorisation extrême
+- [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $71.33 Mds vs FMP $37.02 Mds
