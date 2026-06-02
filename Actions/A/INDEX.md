@@ -61,4 +61,4 @@
 
 ---
 
-*Index généré le 2026-05-26 — mis à jour automatiquement à chaque nouvelle analyse.*
+*Index généré le 2026-06-02 — mis à jour automatiquement à chaque nouvelle analyse.*
