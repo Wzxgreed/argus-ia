@@ -8,10 +8,10 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ATTENDRE
-- **Score global :** 52.5/100
-- **Prix cible :** $66.61 (consensus FMP, 23 analysts)
-- **Stop-loss :** $55.25
-- **Statut thèse :** confirmée
+- **Score global :** 4.8/10
+- **Prix cible :** $66.61 (consensus PT, désormais dépassé)
+- **Stop-loss :** $57.08
+- **Statut thèse :** modifiée
 - **Horizon :** —
 
 ---
@@ -41,26 +41,26 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 61.23
-- **MM 50j :** 48.24
+- **RSI 14j :** 61.7
+- **MM 50j :** 48.76
 - **MM 200j :** —
-- **ATR 14j :** 5.04
-- **Volume moy. 20j :** 59163095
+- **ATR 14j :** 5.11
+- **Volume moy. 20j :** 58525591
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-02
-- **Type :** _update.md
+- **Type :** update
 - **Fichier :** `IREN_2026-06-02_update.md`
-- **Conclusion :** Snapshot 13:00 UTC — stabilité totale des prix ($65.33) et indicateurs techniques. Structure options corrigée et améliorée (Max Pain $52.00, put/call 2.09 vs 3.01, call OI 32.4% vs 24.9%). Score Global 52.5/100, action ATTENDRE confirmée.
+- **Conclusion :** Breakout haussier à $67.30 (+3.02%), high $69.57 (nouveau high historique), volume faible 29.68 M (50.7% moyenne), consensus PT $66.61 dépassé. Forward P/E détérioré −71.60×, P/E 87.40×. Thèse modifiée — ATTENDRE maintenu (breakout non confirmé par le volume, valuation extrême).
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 7.71% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 7.59% (seuil 5.0%)
 
 ---
 
