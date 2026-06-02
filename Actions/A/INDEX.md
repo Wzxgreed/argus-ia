@@ -2,7 +2,7 @@
 
 > **Secteur :** Healthcare — Diagnostics & Research
 > **Capitalisation :** $38.38B
-> **Cours actuel :** $135.98 (2026-06-02 · snapshot 13:00 UTC)
+> **Cours actuel :** $134.92 (2026-06-02 · snapshot 17:00 UTC)
 > **Consensus PT :** $163.82 (22 analystes)
 
 ---
@@ -11,12 +11,12 @@
 
 **Recommandation :** ATTENDRE · Direction Neutre
 **Score Global :** 62.5/100 (ajusté **52.5**)
-**Prix cible desk :** $150.11 (TP ATR-based) / $163.82 (consensus analystes)
-**Stop-loss :** $126.56
+**Prix cible desk :** $149.41 (TP ATR-based) / $163.82 (consensus analystes)
+**Stop-loss :** $125.26
 **Horizon :** 1–3 mois
-**Statut thèse :** 🟡 **Confirmée mais modifiée** — stabilité totale snapshot 13h UTC du 02/06 (pré-ouverture US). Consolidation post-gap +17.3% sur volume normalisé 0.99× moy. 20j maintenue. RSI 89.50 (surachat extrême historique, inchangé). Données options inchangées (max pain $130, put/call 1.58, call OI 38.7%). Score Global ajusté **52.5** — limite basse zone ATTENDRE. Aucune mutation fondamentale. Entrée initiale laminée ; attendre pullback $126–$130 ou consolidation RSI <65.
+**Statut thèse :** 🟡 **Confirmée mais modifiée** — snapshot 17h UTC du 02/06 : consolidation à la baisse (−0.78%) sur volume effondré 0.35× moy. 20j (927.2K vs moy. 2.65M). RSI sort légèrement de la zone extrême à **85.91** (−3.59 pts vs 13h) mais reste dans le 99e percentile historique. ATR en expansion à **$4.83** (+2.5%). Données options inchangées (max pain $130, put/call 1.58, call OI 38.7%). Score Global ajusté **52.5** — limite basse zone ATTENDRE. Signal sectoriel **NEUTRAL** (was ROTATION_TO_CYCLICAL). Entrée initiale laminée ; attendre pullback $126–$130 ou consolidation RSI <65.
 
-**Synthèse :** Agilent a confirmé sa qualité fondamentale par un beat/guidance-up Q2 2026 spectaculaire (gap +17.3%). Le Filtre Qualité 5/6 est maintenu, le consensus $163.82 laisse un upside +20.5%, et la structure options reste normalisée. Le snapshot 13h UTC du 2 juin est pré-ouverture US ; aucune donnée de marché nouvelle n'est disponible. Le RSI à 89.50 reste dans le 99e percentile historique et exclut toute entrée à ce niveau. Le Score Global ajusté reste à **52.5** (malus timing technique, limite basse zone ATTENDRE). La thèse reste haussière de fond mais neutre de timing — **ATTENDRE** une consolidation ou un retracement avant toute nouvelle position.
+**Synthèse :** Agilent a confirmé sa qualité fondamentale par un beat/guidance-up Q2 2026 spectaculaire (gap +17.3%). Le Filtre Qualité 5/6 est maintenu, le consensus $163.82 laisse un upside +21.4%, et la structure options reste normalisée. La session du 2 juin confirme une digestion passive du gap : recul de −0.78% sur volume anémique (0.35×), signalant un marché sans conviction acheteuse. Le RSI à 85.91 reste dans le 99e percentile historique et exclut toute entrée à ce niveau. Le Score Global ajusté reste à **52.5** (malus timing technique, limite basse zone ATTENDRE). La thèse reste haussière de fond mais neutre de timing — **ATTENDRE** une consolidation ou un retracement avant toute nouvelle position.
 
 ---
 
@@ -39,6 +39,7 @@
 | 2026-06-01 | `A_2026-06-01_update.md` | Mise à jour post-earnings (17h UTC) | 🟡 **Thèse confirmée mais modifiée** — consolidation post-gap sur volume effondré 0.31× ($135.53 → $134.60, −0.69%). RSI 86.69 (surachat extrême approfondi, +8 pts). Options inchangées. Score Global 62.5 (ajusté **52.5**), recommandation ATTENDRE, SL/TP $125.39/$148.40 |
 | 2026-06-01 | `A_2026-06-01_update.md` | Mise à jour post-earnings (21h UTC) | 🟡 **Thèse confirmée mais modifiée** — correction volume : consolidation sur volume normalisé 0.99× (2.68M), invalidant l'hypothèse "sans conviction" du snapshot 17h. Cours $135.98 (+1.03% vs 17h). RSI 89.50 (surachat extrême historique). Options inchangées. Score Global 62.5 (ajusté **52.5**), recommandation ATTENDRE, SL/TP $126.56/$150.11 |
 | 2026-06-02 | `A_2026-06-02_update.md` | Mise à jour 13h UTC | 🟡 **Stabilité totale confirmée** — snapshot pré-ouverture US (fetch 13:00 UTC). Cours $135.98 inchangé, RSI 89.50 inchangé, volume 2.68M (0.99×) stable. Options inchangées. Score Global 62.5 (ajusté **52.5**), recommandation ATTENDRE, SL/TP $126.56/$150.11. Aucune mutation. Prochain earnings Q3 le 2026-08-26 (J+85). |
+| 2026-06-02 | `A_2026-06-02_update.md` | Mise à jour 17h UTC | 🟡 **Thèse confirmée mais modifiée** — consolidation à la baisse (−0.78%) sur volume effondré 0.35× (927.2K vs moy. 2.65M). RSI sort de la zone extrême à **85.91** (−3.59 pts). ATR $4.83 (+2.5%). Options inchangées. Score Global 62.5 (ajusté **52.5**), recommandation ATTENDRE, SL/TP révisés **$125.26/$149.41**. Signal sectoriel **NEUTRAL** (was ROTATION_TO_CYCLICAL). |
 
 ---
 

@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
+- **Recommandation :** ÉVITER
+- **Score global :** 32.5/100
 - **Prix cible :** $—
-- **Stop-loss :** $—
+- **Stop-loss :** $15.95
 - **Statut thèse :** validée
-- **Horizon :** —
+- **Horizon :** Court terme
 
 ---
 
@@ -24,23 +24,27 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- RSI surachat sévère (72.59 > 70) — timing défavorable — 2026-06-02
+- Volume collapse alarmant (291,639 = 0.225× moyenne 20j) — distribution sans conviction — 2026-06-02
+- Consensus PT dépassé ($16.00 dépassé de 10.3%) — risque de retracement — 2026-06-02
+- Signal sectoriel neutralisé (`NEUTRAL`, was `ROTATION_TO_CYCLICAL`) — suppression vent de queue Technology — 2026-06-02
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q3 FY2026** — 2026-08-06 (65 jours restants)
+- **Expiration options** — 2026-06-18 (16 jours restants)
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 71.31
+- **RSI 14j :** 72.59
 - **MM 50j :** 14.71
 - **MM 200j :** —
 - **ATR 14j :** 0.85
-- **Volume moy. 20j :** 1291196
+- **Volume moy. 20j :** 1294551
 
 ---
 
@@ -48,8 +52,8 @@
 
 - **Date :** 2026-06-02
 - **Type :** update
-- **Fichier :** `MITK_2026-06-02_update.md`
-- **Conclusion :** > Desk : Argus-IA | Pipeline : 13:00 UTC | Données : `data/latest.json` (2026-06-02T13:00:13Z) | Score Global Ajusté : **33.8/100** | Action : **ÉVITER**
+- **Fichier :** `MITK_2026-06-02_update_17h.md`
+- **Conclusion :** > Desk : Argus-IA | Snapshot : 17:00 UTC | Données : `data/latest.json` (2026-06-02T17:00:14Z) | Score Global Ajusté : **32.5/100** | Action : **ÉVITER** | Mutation technique majeure : repli −1.26% à $17.645 sur volume collapse −67.7% (291K vs 904K à 13h), RSI 72.59 (+0.93 pt), signal sectoriel neutralisé `NEUTRAL` (was `ROTATION_TO_CYCLICAL`). Thèse ÉVITER confirmée et renforcée.
 
 ---
 
