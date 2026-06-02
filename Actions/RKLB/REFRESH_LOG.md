@@ -1,5 +1,15 @@
 # RKLB — Historique des Full Refreshes
 
+## 2026-06-02 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10.00% (seuil 5.0%)
+
+**Conclusion :** MODIFY — Volume final révisé de 12.45M (0.40×) à 19.25M (0.61×). Le rebond du 02/06 s'est fait sur participation modérée, pas effondrement total. Interprétation technique modifiée. Thèse SURVEILLER maintenue, nuance positive sur le volume. Scores inchangés 44.5/49.5. DRAFT_refresh archivé.
+
+---
+
+
 
 ## 2026-05-17 — Full Refresh Triggered
 
