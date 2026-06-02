@@ -3,7 +3,7 @@
 ## Thèse courante
 
 **Verdict :** ATTENDRE
-**Date dernière analyse :** 2026-06-02 (snapshot 10:00 UTC)
+**Date dernière analyse :** 2026-06-02 (snapshot 13:00 UTC)
 **Cours actuel :** $45.34
 **Score Qualité :** 0/6 (Hors périmètre)
 **Score Opportunité :** 5.4/10 (agent reco — données fondamentales absentes)
@@ -13,7 +13,7 @@
 **Take-profit :** $48.73
 **Ratio R/R :** 1.5
 
-TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Changement de verdict majeur :** l'agent recommandation dégrade TEST de **ACHETER (Réduit)** à **ATTENDRE** — Score Global en chute de 60.2 à 54.0 (−6.2 pts), franchissant le seuil ATTENDRE (60) par le bas. Cours stable à $45.34 (−4.01% vs previous close, +4.08% depuis la MM50 à $43.54), RSI à 38.77 (sous le seuil 40, momentum négatif maintenu), volume en explosion à 6,700 (3.07× moyenne 20j = 2,180) sur un cours inchangé — échange de mains significatif sans catalyseur. Timing passé de Favorable à Neutre. Mise à jour 2026-06-02 10:00 UTC : dégradation de verdict majeure — Score Momentum sous neutre, ATR en expansion, pattern intraday de rejet haussier au open ($46.25) puis retour au low. Earnings JOUR J le 2026-06-02 — résultats non observables à 10:00 UTC (17 jours de flag cumulés).
+TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Verdict ATTENDRE confirmé** — Score Global stable à 54.0/100 (zone ATTENDRE 50–59). Cours inchangé à $45.34 (−4.01% vs previous close, +4.08% depuis la MM50 à $43.54), RSI à 38.77 (sous le seuil 40, momentum négatif maintenu), volume stable à 6,700 (3.07× moyenne 20j = 2,180) sur un cours inchangé — échange de mains significatif sans catalyseur. Timing Neutre. Snapshot 13:00 UTC : stabilité totale vs 10:00 UTC — aucune mutation de cours, RSI, ATR, volume ou scores. Earnings JOUR J le 2026-06-02 — résultats non observables à 13:00 UTC (17 jours de flag cumulés).
 
 ---
 
@@ -47,6 +47,7 @@ TEST est un ticker de test / micro-cap sans données fondamentales exploitables 
 | TEST_2026-06-01_update.md | 2026-06-01 | Mise à jour 13:00 UTC — confirmation sans mutation vs 10:00 UTC (cours, RSI, volume inchangés) | **ACHETER (Réduit)** |
 | TEST_2026-06-01_update.md | 2026-06-01 | Mise à jour 17:00 UTC — mutation technique majeure : cours −2.55%, RSI 41.06 (−12.36 pts), volume ×7 sur baisse | **ACHETER (Réduit)** |
 | TEST_2026-06-01_update_21h.md | 2026-06-01 | Mise à jour 21:00 UTC — dégradation continue : cours −4.01% total, RSI 38.77, volume effondré 389, Score Global 60.2/100 | **ACHETER (Réduit)** |
+| TEST_2026-06-02_update.md | 2026-06-02 | Mise à jour 13:00 UTC — stabilité totale vs 10:00 UTC (cours $45.342, RSI 38.77, volume 6,700), verdict ATTENDRE confirmé (score 54.0/100) | **ATTENDRE** |
 
 ---
 
