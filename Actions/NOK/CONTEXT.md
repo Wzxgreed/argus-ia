@@ -1,4 +1,4 @@
-# CONTEXT — NOK — Dernière mise à jour : 2026-06-01
+# CONTEXT — NOK — Dernière mise à jour : 2026-06-02
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -24,7 +24,7 @@ Snapshot 21h UTC : cours stable **$16.25** (+0.46% vs snapshot 17h), volume afte
 - **Score global :** —/10
 - **Prix cible :** $9.26
 - **Stop-loss :** $14.17
-- **Statut thèse :** confirmée
+- **Statut thèse :** modifiée
 - **Horizon :** —
 
 ---
@@ -55,16 +55,16 @@ Snapshot 21h UTC : cours stable **$16.25** (+0.46% vs snapshot 17h), volume afte
 - **MM 50j :** 11.53
 - **MM 200j :** —
 - **ATR 14j :** 1.04
-- **Volume moy. 20j :** 118168136
+- **Volume moy. 20j :** 118673740
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-01
-- **Type :** update
-- **Fichier :** `NOK_2026-06-01_update.md`
-- **Conclusion :** Snapshot 21h UTC confirmé : cours stable $16.25, volume after-hours massif 162M (1.37×), pin risk extrême maintenu. Thèse ATTENDRE confirmée (Score Global ajusté 50.5/100).
+- **Date :** 2026-06-02
+- **Type :** full refresh
+- **Fichier :** `NOK_2026-06-02_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-02
 
 ---
 

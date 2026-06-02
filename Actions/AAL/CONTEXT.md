@@ -1,4 +1,4 @@
-# CONTEXT — AAL — Dernière mise à jour : 2026-06-01
+# CONTEXT — AAL — Dernière mise à jour : 2026-06-02
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -28,9 +28,9 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 
 ## Actualités ayant impacté ce dossier
 - **Score global :** —/10
-- **Prix cible :** $16.02
-- **Stop-loss :** $13.02
-- **Statut thèse :** —
+- **Prix cible :** $16.14
+- **Stop-loss :** $13.14
+- **Statut thèse :** invalide
 - **Horizon :** —
 
 ---
@@ -43,9 +43,9 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 
 ## 🚨 Alertes actives
 
-- Baisse — $13.14 (SL 2×ATR) — 🟢 Active
+- Baisse — $11.41 (SL 2×ATR) — 🟢 Active
 - Hausse — $14.00 (prix cible) — 🔴 Déclenchée (27/05)
-- Volume — >2× moy. 20j (>132M) — 🟢 Active
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
@@ -61,7 +61,7 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 - **MM 50j :** 12.11
 - **MM 200j :** —
 - **ATR 14j :** 0.6
-- **Volume moy. 20j :** 66431420
+- **Volume moy. 20j :** 66485725
 
 ---
 
@@ -70,7 +70,7 @@ American Airlines est une compagnie aérienne legacy fortement endettée (~$40B)
 - **Date :** 2026-06-01
 - **Type :** update
 - **Fichier :** `AAL_2026-06-01_update.md`
-- **Conclusion :** **Date :** 2026-06-01 (snapshot 21:00 UTC) — Rebond post-session +0.84% à $14.34 sur volume after-hours massif 67.98M. Thèse ACHETER sizing réduit confirmée. SL $13.14, TP $16.14, R/R 1.5.
+- **Conclusion :** **Date :** 2026-06-01 (snapshot 21:00 UTC)
 
 ---
 

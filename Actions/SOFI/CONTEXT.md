@@ -1,4 +1,4 @@
-# CONTEXT — SOFI — Dernière mise à jour : 2026-06-01
+# CONTEXT — SOFI — Dernière mise à jour : 2026-06-02
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -22,8 +22,8 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ## Actualités ayant impacté ce dossier
 - **Score global :** —/10
-- **Prix cible :** $20.77
-- **Stop-loss :** $16.52
+- **Prix cible :** $21.25
+- **Stop-loss :** $16.80
 - **Statut thèse :** —
 - **Horizon :** —
 
@@ -37,15 +37,15 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ## 🚨 Alertes actives
 
-- Baisse — $16.80 (SL 2×ATR) — 🟢 Active
-- Hausse — $21.25 (prix cible) — 🟢 Active
-- Volume — >2× moy. 20j (>134.8M) — 🔴 Déclenchée le 2026-06-01 (gap matinal 150.17M, 2.25×)
+- Baisse — $13.97 (SL 2×ATR) — 🟢 Active
+- Hausse — $19.51 (prix cible) — 🟢 Active
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- Earnings Q2 FY2026 — 2026-07-28 (57j) — Est EPS $0.10–$0.11, Rev $1.1B
+- Aucun événement à venir.
 
 ---
 
@@ -55,7 +55,7 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 - **MM 50j :** 16.74
 - **MM 200j :** —
 - **ATR 14j :** 0.89
-- **Volume moy. 20j :** 67386386
+- **Volume moy. 20j :** 67467540
 
 ---
 
@@ -64,7 +64,7 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 - **Date :** 2026-06-01
 - **Type :** update
 - **Fichier :** `SOFI_2026-06-01_update.md`
-- **Conclusion :** Gap haussier +7.37% à $18.22, continuation +1.98% en close final à $18.58 sur volume 95.27M (1.41×). RSI 68.89, ATR $0.89, MM50 $16.74. Breakout MM50 validé avec écart +10.9%. Reclassement ATTENDRE → ACHETER. Score Opportunité 6.1/10, Score Global 60.8/100 (ajusté 65.8). SL $16.80, TP $21.25, R/R 1.5×. Options haussières : Max Pain $17.00, Put/Call 0.44, Call OI 69.6%. Short interest 13.68% = squeeze potentiel intact. Thèse confirmée et renforcée.
+- **Conclusion :** **Date :** 2026-06-01 (snapshot 21:00 UTC — close final confirmé)
 
 ---
 

@@ -224,6 +224,14 @@
       "priority": "medium",
       "exchange": "NASDAQ",
       "notes": "Ajouté via dashboard API"
+    },
+    {
+      "ticker": "CLSK",
+      "name": "CLSK",
+      "sector": "Non spécifié",
+      "priority": "medium",
+      "exchange": "NASDAQ",
+      "notes": "Ajouté via dashboard API"
     }
   ],
   "macro_symbols": {
