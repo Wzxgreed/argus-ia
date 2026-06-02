@@ -59,7 +59,7 @@
 - **Date :** 2026-06-02
 - **Type :** update
 - **Fichier :** `SPCX_2026-06-02_update.md`
-- **Conclusion :** Thèse confirmée en ATTENDRE : 4e snapshot consécutif sans mutation, stabilité totale cours/volume/scoring, données Yahoo absentes persistantes, volume figé 196, Score Global 54.0 maintenu
+- **Conclusion :** **Date :** 2026-06-02
 
 ---
 

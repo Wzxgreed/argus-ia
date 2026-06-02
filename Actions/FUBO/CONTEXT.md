@@ -8,12 +8,13 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ACHETER Réduit (sizing minimal) — attendre un pullback vers $11,15–$11,50 pour entrée optimale.
-- **Score global ajusté :** ~64.5 / 100
-- **Score opportunité ajusté :** ~6.5 / 10
-- **Prix cible (TP ATR) :** $13.38
-- **Stop-loss :** $10.28
-- **Statut thèse :** confirmée
-- **Horizon :** 1–3 mois
+
+## Historique
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -25,33 +26,23 @@
 
 ## 🚨 Alertes actives
 
-- **REPOSITIONNEMENT OPTIONS HAUSSIER** — Max pain $12.00 (+9.1%), put/call 0.20, call OI 83.2%. Spot −4.0% sous max pain → aimant haussier J+3 (2026-06-05)
-- **RSI PROCHE SURACHAT** — RSI 67.48, marge 2.52 pts avant 70. Risque consolidation
-- **Earnings Q1 2026 anomalie persistante** — `upcoming_events` jour J (2026-06-02, days_until: 0), aucun résultat visible
-- **Short Squeeze Setup** — SI 25.03% + call OI 83.2% + put/call 0.20 = setup squeeze majeur
-- **Qualité dégradée** — Score Qualité 1/6, patrimoine net négatif, FCF négatif
-- **Divergence Yahoo/FMP Market Cap** — ×9.6 écart ($339.1M vs ~$3.27B)
-- **Sector Rotation XLC Bottom 3** — malus sectoriel actif
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-06-05** · options · Échéance options (J+3) — max pain $12.00, put/call 0.20, call OI 83.2%
-- **2026-06-02** · earnings · Earnings Q1 2026 — anomalie calendrier persistante (jour J, aucun résultat visible)
+- **2026-06-02** · earnings · Earnings ...
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **Close :** $11.52
-- **RSI 14j :** 67.48
-- **MM 50j :** 11.15
+- **RSI 14j :** 62.41
+- **MM 50j :** 11.1
 - **MM 200j :** —
-- **ATR 14j :** 0.62
-- **Volume séance :** 1 822 500 (1.24× moy. 20j)
-- **Volume moy. 20j :** 1465240
-- **Short Interest :** 25.03%
+- **ATR 14j :** 0.63
+- **Volume moy. 20j :** 1397191
 
 ---
 
@@ -60,13 +51,13 @@
 - **Date :** 2026-06-02
 - **Type :** update
 - **Fichier :** `FUBO_2026-06-02_update.md`
-- **Conclusion :** THÈSE CONFIRMÉE — ACHETER Réduit (~64.5/100). Repositionnement options haussier majeur (max pain $12.00, put/call 0.20, call OI 83.2%) sur cours stable $11.52. Spot −4.0% sous max pain réintroduit un aimant haussier vers $12.00 à échéance J+3. Breakout MM50 confirmé ($11.15, +3.3%). Anomalie earnings persistante (jour J sans résultats). Fondamental inchangé (Qualité 1/6). Sizing minimal.
+- **Conclusion :** > **Niveau d'impact :** 🟡 Modéré — Cours stable **$11.52** (marché US non ouvert à 13h UTC ; dernier close identique au snapshot 21h UTC du 2026-06-01), RSI **67.48** inchangé. **Repositionnement opti
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **ATR_SPIKE** (medium) — ATR relatif 5.72% (seuil 5.0%)
 
 ---
 

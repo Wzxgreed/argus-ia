@@ -1,7 +1,7 @@
-# CONTEXT — AAL — Derniere mise a jour : 2026-06-02 (snapshot 13:00 UTC)
+# CONTEXT — AAL — Dernière mise à jour : 2026-06-02
 
-> Ce fichier est la **memoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
-> Mise a jour automatique par `agents/update_context/agent.py` a chaque passage du pipeline.
+> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
+> Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
 
 ---
 
@@ -27,58 +27,57 @@ American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) a
 ---
 
 ## Actualites ayant impacte ce dossier
-- **Score global :** 65.3/100
+- **Score global :** —/10
 - **Prix cible :** $16.14
 - **Stop-loss :** $13.14
-- **Statut these :** confirmee
-- **Horizon :** 1–3 mois
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
-## 📉 Erreurs de prediction recentes
+## 📉 Erreurs de prédiction récentes
 
-- Aucune erreur enregistree.
+- Aucune erreur enregistrée.
 
 ---
 
 ## 🚨 Alertes actives
 
-- Baisse — $13.14 (SL 2×ATR) — 🟢 Active
-- Hausse — $15.50 (Max Pain / resistance) — 🟢 Active
-- Volume — >2× moy. 20j (>132.9M) — 🟢 Active
+- Baisse — $11.41 (SL 2×ATR) — 🟢 Active
+- Hausse — $14.00 (prix cible) — 🔴 Déclenchée (27/05)
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
-## 📅 Prochains evenements
+## 📅 Prochains événements
 
-- 2026-06-05 : Expiration options (Max Pain $15.50) — risque gamma
-- 2026-07-23 : Earnings Q2 FY2026 — Est EPS -$0.34 a $0.52, Rev $16.6B
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 67.98
-- **MM 50j :** 12.11
+- **RSI 14j :** 64.89
+- **MM 50j :** 12.18
 - **MM 200j :** —
-- **ATR 14j :** 0.60
-- **Volume moy. 20j :** 66,485,725
+- **ATR 14j :** 0.6
+- **Volume moy. 20j :** 65344238
 
 ---
 
-## 📝 Resume derniere analyse
+## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-02
 - **Type :** update
 - **Fichier :** `AAL_2026-06-02_update.md`
-- **Conclusion :** Stabilite totale snapshot 13h vs 10h et 01/06 21h. Anomalie data quality options RESOLUE (max pain $15.50, put/call 1.46, call OI 40.7%). Micro-ajustements favorables (Put/Call -0.01, Call OI +0.3 pt). These ACHETER sizing reduit CONFIRMEE. Score 6.0/10, Global 65.3/100. SL $13.14, TP $16.14, R/R 1.5.
+- **Conclusion :** **Date :** 2026-06-02 (snapshot 13:00 UTC)
 
 ---
 
-## 🔄 Triggers detectes (full refresh)
+## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger recent.
+- Aucun trigger récent.
 
 ---
 
-*Genere automatiquement — ne pas editer manuellement.*
+*Généré automatiquement — ne pas éditer manuellement.*

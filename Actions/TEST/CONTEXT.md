@@ -36,20 +36,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 38.77
-- **MM 50j :** 43.54
+- **RSI 14j :** 44.68
+- **MM 50j :** 43.62
 - **MM 200j :** —
-- **ATR 14j :** 1.13
-- **Volume moy. 20j :** 2180
+- **ATR 14j :** 1.02
+- **Volume moy. 20j :** 2152
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-02
-- **Type :** update
-- **Fichier :** `TEST_2026-06-02_update.md`
-- **Conclusion :** Verdict ATTENDRE confirmé — stabilité totale vs snapshot 10:00 UTC (cours $45.342, RSI 38.77, volume 6,700). Score Global 54.0/100. Aucune mutation technique, fondamentale ou sentiment. Earnings JOUR J non observables.
+- **Type :** preview
+- **Fichier :** `TEST_2026-06-02_preview.md`
+- **Conclusion :** > **Date :** 2026-06-02
 
 ---
 

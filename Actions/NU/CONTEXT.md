@@ -44,26 +44,26 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 42.65
-- **MM 50j :** 14.01
+- **RSI 14j :** 36.05
+- **MM 50j :** 13.97
 - **MM 200j :** —
-- **ATR 14j :** 0.46
-- **Volume moy. 20j :** 57841945
+- **ATR 14j :** 0.53
+- **Volume moy. 20j :** 60118768
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-02
-- **Type :** update
-- **Fichier :** `NU_2026-06-02_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité totale vs snapshot 10h, anomalie options RÉSOLUE, volume normalisé, contexte sectoriel stable)**
+- **Type :** full refresh
+- **Fichier :** `NU_2026-06-02_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-02
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **PRICE_GAP** (medium) — Gap -8.81% overnight (seuil ±5.0%)
 
 ---
 

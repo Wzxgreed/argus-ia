@@ -19,10 +19,10 @@
 ---
 
 ## 📜 Historique des analyses
-- **Score global :** 62.5/100 (ajusté 52.5)
-- **Prix cible :** $150.11 (desk) / $163.82 (consensus)
+- **Score global :** —/10
+- **Prix cible :** $—
 - **Stop-loss :** $126.56
-- **Statut thèse :** validée (modifiée)
+- **Statut thèse :** validée
 - **Horizon :** 1–3 mois
 
 ---
@@ -58,18 +58,17 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-18** · Expiration options (max pain $130)
-- **2026-08-26** · Earnings Q3 2026 · Est EPS $1.48–$1.51, Rev $1.8B · J+85
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 89.5
-- **MM 50j :** 116.31
+- **RSI 14j :** 86.47
+- **MM 50j :** 116.79
 - **MM 200j :** —
-- **ATR 14j :** 4.71
-- **Volume moy. 20j :** 2699535
+- **ATR 14j :** 4.83
+- **Volume moy. 20j :** 2636457
 
 ---
 
@@ -78,7 +77,7 @@
 - **Date :** 2026-06-02
 - **Type :** update
 - **Fichier :** `A_2026-06-02_update.md`
-- **Conclusion :** Stabilité totale confirmée — snapshot pré-ouverture US. Aucune mutation. Score Global ajusté 52.5, recommandation ATTENDRE. Prochain earnings Q3 le 2026-08-26.
+- **Conclusion :** > **Date :** 2026-06-02 · Snapshot 13:00 UTC (pré-ouverture US)
 
 ---
 

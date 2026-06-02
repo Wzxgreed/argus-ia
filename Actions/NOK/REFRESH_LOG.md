@@ -1233,3 +1233,21 @@ Snapshot 2026-06-02 13:00 UTC. Cours **$16.25** strictement inchangé vs snapsho
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-06-02 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.98% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-02 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.06% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

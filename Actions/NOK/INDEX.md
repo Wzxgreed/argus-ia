@@ -31,19 +31,20 @@
 | 2026-06-01 | Update (10:00 UTC) | [NOK_2026-06-01_update.md](./NOK_2026-06-01_update.md) | Correction continue −5.47% depuis 27/05 (close $14.84). Low $14.53 **casse le support $15.47** (base du gap du 25/05). Options data corrompues (max pain $2.00 aberrant). Volume normalisé 0.96×. P/E Yahoo 92.75, premium consensus +60.2%. Score Global ajusté **49.2/100** — SURVEILLER confirmé. SL/TP révisés **$12.82/$17.87**. Earnings 2026-07-23 (52 j). |
 | 2026-06-01 | Update (21:00 UTC) | [NOK_2026-06-01_update.md](./NOK_2026-06-01_update.md) | Snapshot 21:00 UTC : cours stable **$16.25** (+0.46% vs 17h), volume after-hours massif **162M** (1.37×). Pin risk extrême maintenu ($13.50, expiration 05/06). P/E Yahoo 101.56, premium consensus +75.5%. Score Global ajusté **50.5/100** — **ATTENDRE** confirmé. SL/TP révisés **$14.17/$19.37**. Thèse confirmée : rally non justifié, entrée exclue. |
 | 2026-06-02 | Update (13:00 UTC) | [NOK_2026-06-02_update.md](./NOK_2026-06-02_update.md) | Snapshot 13:00 UTC : stabilité totale vs 10h (cours **$16.25** inchangé, RSI 62.59, ATR $1.04, volume 171.8M 1.45×). ✅ Données options **restaurées** dans `latest.json` : max pain **$13.50** (vs $2.00 aberrant à 10h), put/call **0.45**, call OI **69.1%** — structure call-dominated confirmée. Pin risk extrême maintenu : cours +20.4% au-dessus du max pain, expiration dans **2 jours** (05/06). Aucun événement corporate, aucune news structurante. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $9.26 stable à +75.5%. Score Opportunité 4.5/10. Score Global ajusté 50.5/100 — **ATTENDRE** confirmé. SL/TP inchangés $14.17/$19.37. DRAFT_refresh archivé. |
+| 2026-06-02 | Update (17:00 UTC) | [NOK_2026-06-02_update.md](./NOK_2026-06-02_update.md) | Snapshot 17:00 UTC : cours **$16.835** (+3.6% vs 13h), **new 52w high $17.11**, RSI **70.17** (🔴 surachat), volume **98.9M** (0.84×, −42.5%). P/E Yahoo **105.22**, premium consensus **+81.8%**. Options stables (max pain $13.50, put/call 0.45, call OI 69.1%, expiration **demain** 05/06). Pin risk +24.7% vs max pain. `recommandations_latest.json` révisé : Score Global ajusté **31.8/100** — **ÉVITER** (vs ATTENDRE 50.5 au snapshot 13h). Score Momentum révisé **5.5/10** (vs 7.0). SL/TP révisés **$14.80/$19.89**. Thèse modifiée : surchauffe technique + volume en décroissance + absence de catalyseur = configuration de distribution potentielle. |
 
 ---
 
 ## Thèse d'investissement courante
 
-**Recommandation :** ATTENDRE — Pas de position
+**Recommandation :** ÉVITER — Pas de position
 **Prix cible :** $9.26 (consensus 6 analystes)
-**Stop-loss :** $14.17 (cours − 2×ATR)
-**Take-profit :** $19.37 (cours + 3×ATR)
-**Upside/Downside :** −43.0% / −12.8%
-**Dernière mise à jour :** 2026-06-02 13:00 UTC
+**Stop-loss :** $14.80 (cours − 2×ATR)
+**Take-profit :** $19.89 (cours + 3×ATR)
+**Upside/Downside :** −45.0% / −12.1%
+**Dernière mise à jour :** 2026-06-02 17:00 UTC
 
-Snapshot 13h UTC : cours **$16.25** (strictement inchangé vs snapshot 10h), volume **171.8M** (1.45× moyenne 20j). Le support $15.47 (cassé à $14.53 le 01/06 matin) reste totalement récupéré. Le high du jour ($16.52) teste la résistance avant le 52-week high ($16.63). Le cours défend quasi-intégralement le double gap du 25–26/05. RSI 62.59 (zone neutre haute, pas de surachat), ATR $1.04 (trigger ATR_SPIKE actif à 6.40%). Le cours reste +40.9% au-dessus de la MM 50j ($11.53) — tendance haussière structurelle intacte. **Cependant**, la valorisation reste extrême (P/E Yahoo 101.56, cours +75.5% vs consensus $9.26). **Données options restaurées dans `data/latest.json`** : max pain **$13.50**, put/call **0.45**, call OI **69.1%**, expiration 2026-06-05 (dans **2 jours**). Le cours +20.4% au-dessus du max pain crée un **pin risk baissier extrême** — risque de mean-reversion vers $13.50 d'ici vendredi si aucun catalyseur n'intervient. Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%). Divergence structurelle Yahoo/FMP persistante (P/E FMP 45.81 vs Yahoo 101.56). Dividende 1.01%. Le secteur Communication Services (XLC) reste en sous-performance relative vs SPY (bottom 3, RS20d −6.21%). Le mouvement reste totalement idiosyncratique et fragile face à un rally non justifié. Thèse confirmée : la récupération technique est intacte mais l'entrée reste exclue (Score Global ajusté 50.5/100, seuil ACHETER ≥60). Pas de position.
+Snapshot 17h UTC : cours **$16.835** (+3.6% vs snapshot 13h, +9.6% vs previous close), volume **98.9M** (0.84× moyenne 20j, −42.5% vs 13h). **New 52-week high $17.11** atteint en séance. Le support $16.25 (close 13h) devient le niveau clé à défendre. RSI **70.17** (🔴 zone surachat franchie), ATR $1.02 (trigger ATR_SPIKE actif à 6.06%). Le cours reste +43.9% au-dessus de la MM 50j ($11.70) — tendance haussière structurelle intacte mais **surchauffée**. **Cependant**, la valorisation reste extrême (P/E Yahoo 105.22, cours +81.8% vs consensus $9.26). **Données options confirmées** : max pain **$13.50**, put/call **0.45**, call OI **69.1%**, expiration 2026-06-05 (**demain**). Le cours +24.7% au-dessus du max pain crée un **pin risk baissier extrême** — risque de mean-reversion vers $13.50 dès demain si aucun catalyseur n'intervient. Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%). Divergence structurelle Yahoo/FMP persistante (P/E FMP 45.81 vs Yahoo 105.22). Dividende 1.01%. Le secteur Communication Services (XLC) reste en sous-performance relative vs SPY (bottom 3, RS20d −7.39%). Le mouvement reste totalement idiosyncratique et fragile face à un rally non justifié. `recommandations_latest.json` révisé : Score Global ajusté **31.8/100** — **ÉVITER** (seuil <35). Thèse modifiée : la surchauffe technique (RSI 70 + new high sur volume déclinant) et l'absence de catalyseur font passer la recommandation de ATTENDRE à ÉVITER. Pas de position.
 
 ---
 
@@ -59,5 +60,5 @@ Snapshot 13h UTC : cours **$16.25** (strictement inchangé vs snapshot 10h), vol
 
 | Date | Événement |
 |------|-----------|
-| 2026-06-05 | Expiration options — max pain $13.50 confirmé, 2 jours restants |
+| 2026-06-05 | Expiration options — max pain $13.50 confirmé, demain |
 | 2026-07-23 | Earnings Q2 FY2026 (dans 52 jours) — Est EPS $0.06–$0.08, Rev $4.8B |

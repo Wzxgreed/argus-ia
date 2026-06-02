@@ -36,29 +36,23 @@
 
 ## 🚨 Alertes actives
 
-- 🔴 Distribution massive (veille 2026-06-01) — volume 2.05× moyenne 20j, low $3.375
-- 🔴 RSI 33.06 — survente extrême maintenue
-- 🔴 Score Global Ajusté 40.0/100 — sous seuil institutionnel (50)
-- 🔴 Short interest 16.23% — accumulation shorts confirmée
-- 🔴 Cours sous MM50 ($4.18) avec écart −17.5%
-- 🟡 Options — rebalancing pré-expiration (put/call 1.0, call OI 49.9%)
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-08-06** · earnings · Est EPS $−0.13 à $−0.07, Rev $0.0B (J+65)
-- **Catalyseurs potentiels** · CX-2029 / CX-904 · Data readout / updates partenariats AbbVie/BMS
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 33.06
-- **MM 50j :** 4.18
+- **RSI 14j :** 26.12
+- **MM 50j :** 4.16
 - **MM 200j :** —
-- **ATR 14j :** 0.18
-- **Volume moy. 20j :** 3271075
+- **ATR 14j :** 0.19
+- **Volume moy. 20j :** 3210890
 
 ---
 
