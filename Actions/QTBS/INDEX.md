@@ -31,7 +31,7 @@
 | 2026-05-26 | `QTBS_2026-05-26_update.md` | Mise à jour quotidienne | Data blackout confirmé snapshot 21:00 UTC post-Memorial Day — ATTENDRE (14e snapshot sans mutation) |
 | 2026-05-27 | `QTBS_2026-05-27_update.md` | Mise à jour quotidienne | Data blackout confirmé snapshot 17:00 UTC — ATTENDRE (17e snapshot consécutif sans mutation), placeholder earnings J0 détecté |
 | 2026-06-01 | `QTBS_2026-06-01_update.md` | Mise à jour quotidienne | Data blackout confirmé snapshot 21:00 UTC — ATTENDRE (29e snapshot consécutif sans mutation), placeholder earnings J0 figé au 01/06 |
-| 2026-06-02 | `QTBS_2026-06-02_update.md` | Mise à jour quotidienne | **Data blackout confirmé snapshot 17:00 UTC — ATTENDRE (31e snapshot consécutif sans mutation), placeholder earnings J0 figé au 02/06** |
+| 2026-06-02 | `QTBS_2026-06-02_update.md` | Mise à jour quotidienne | **Data blackout confirmé snapshot 21:00 UTC — ATTENDRE (32e snapshot consécutif sans mutation), placeholder earnings J0 figé au 02/06** |
 
 ---
 
@@ -49,4 +49,4 @@
 
 ---
 
-*Dernière mise à jour : 2026-06-02 (snapshot 17:00 UTC)*
+*Dernière mise à jour : 2026-06-02 (snapshot 21:00 UTC)*
