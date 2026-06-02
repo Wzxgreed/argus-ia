@@ -11,7 +11,7 @@
 
 AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **aucune donnée de prix n'est disponible** dans le pipeline Argus-IA car le symbole "AXA" n'est pas reconnu par yfinance (instrument non coté US). L'analyse technique et fondamentale reste impossible.
 
-**Contexte sectoriel (snapshot 2026-06-01 21h00 UTC) :** Le secteur Financials (XLF) sous-performe le S&P 500 de −6.20% sur 20j et −10.73% sur 60j, avec un momentum score de 0.0/10. Le secteur affiche un return 20j de −0.94% et un return 60j de +0.91%. Le signal macro reste **`ROTATION_TO_CYCLICAL`**, porté par la domination de XLK (Technology, return 20j +20.94%, momentum 10.0/10) et le crossover haussier de XLE (Energy). XLF reste classé 3e/11 mais sans momentum propre (0.0/10), en distribution relative structurelle vs le marché. Le RS 60j s'est légèrement amélioré à −10.73% (vs −10.81% à 17h00) mais le headwind sectoriel persiste. Le snapshot confirme que les données de prix US sont bien récupérées (24 tickers OK sur 28), isolant AXA comme l'un des 4 tickers structurellement KO sur 28. Si les données AXA étaient disponibles, le headwind sectoriel pourrait justifier un ajustement à la marge du score Momentum (actuellement placeholder 5.0/10).
+**Contexte sectoriel (snapshot 2026-06-02 10h00 UTC) :** Le secteur Financials (XLF) sous-performe le S&P 500 de −6.20% sur 20j et −10.73% sur 60j, avec un momentum score de 0.0/10. Le secteur affiche un return 20j de −0.94% et un return 60j de +0.91%. Ces chiffres sont **strictement inchangés** vs close 01/06. Le signal macro reste **`ROTATION_TO_CYCLICAL`**, porté par la domination de XLK (Technology, return 20j +20.94%, momentum 10.0/10) et le crossover haussier de XLE (Energy). XLF reste classé 3e/11 mais sans momentum propre (0.0/10), en distribution relative structurelle vs le marché. Le snapshot confirme que les données de prix US sont bien récupérées (25 tickers OK sur 29), isolant AXA comme l'un des 4 tickers structurellement KO sur 29. Si les données AXA étaient disponibles, le headwind sectoriel pourrait justifier un ajustement à la marge du score Momentum (actuellement placeholder 5.0/10).
 
 **Action immédiate :** corriger le symbole dans `config/watchlist.json` (`CS.PA` ou `AXAHY`), mettre à jour le secteur (Financials / Insurance) et relancer le fetch.
 
@@ -40,7 +40,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 
 ## 📅 Prochains événements
 
-- **2026-06-02** · earnings · Earnings ...
+- **2026-06-02** · earnings · Earnings J0 FMP sans détails exploitables
 
 ---
 
@@ -57,9 +57,9 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-02
-- **Type :** preview
-- **Fichier :** `AXA_2026-06-02_preview.md`
-- **Conclusion :** > **Date :** 2026-06-02
+- **Type :** update
+- **Fichier :** `AXA_2026-06-02_update.md`
+- **Conclusion :** 23e snapshot consécutif sans mutation des données AXA. Stabilité totale sectorielle XLF vs close 01/06. Earnings J0 FMP glissant sans détails — 8e jour consécutif. Thèse ATTENDRE confirmée (Score Global 55.2/100). Action : corriger le symbole (`CS.PA` ou `AXAHY`) et relancer le fetch.
 
 ---
 
