@@ -1,7 +1,7 @@
 # AXA — Index du Dossier
 
-> **Dernière mise à jour :** 2026-06-02 (snapshot 13h00 UTC)
-> **Statut :** 🔴 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`) + earnings J0 FMP glissant sans détails (8e jour consécutif)
+> **Dernière mise à jour :** 2026-06-02 (snapshot 17h00 UTC)
+> **Statut :** 🔴 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`) + earnings J0 FMP glissant sans détails (9e jour consécutif)
 
 ---
 
@@ -11,7 +11,7 @@
 
 AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **aucune donnée de prix n'est disponible** dans le pipeline Argus-IA car le symbole "AXA" n'est pas reconnu par yfinance (instrument non coté US). L'analyse technique et fondamentale reste impossible.
 
-**Contexte sectoriel (snapshot 2026-06-02 13h00 UTC) :** Le secteur Financials (XLF) sous-performe le S&P 500 de −6.20% sur 20j et −10.73% sur 60j, avec un momentum score de 0.0/10. Le secteur affiche un return 20j de −0.94% et un return 60j de +0.91%. Ces chiffres sont **strictement inchangés** vs snapshot 10h00. Le signal macro reste **`ROTATION_TO_CYCLICAL`**, porté par la domination de XLK (Technology, return 20j +20.94%, momentum 10.0/10) et le crossover haussier de XLE (Energy). XLF reste classé 3e/11 mais sans momentum propre (0.0/10), en distribution relative structurelle vs le marché. Le snapshot confirme que les données de prix US sont bien récupérées (25 tickers OK sur 29), isolant AXA comme l'un des 4 tickers structurellement KO sur 29. Si les données AXA étaient disponibles, le headwind sectoriel pourrait justifier un ajustement à la marge du score Momentum (actuellement placeholder 5.0/10).
+**Contexte sectoriel (snapshot 2026-06-02 17h00 UTC) :** Le secteur Financials (XLF) affiche une **amélioration absolue marquée** par rapport au snapshot 13h00 : return 20j −0.17% (vs −0.94%) et return 60j +2.34% (vs +0.91%). Cependant, cette amélioration est portée par le rebond du broad market (SPY +5.81% sur 20j, +13.30% sur 60j) et non par une dynamique propre du secteur — le momentum score reste à 0.0/10. En termes relatifs, le RS 60j vs SPY se dégrade légèrement (−10.96% vs −10.73% à 13h00), confirmant la sous-performance structurelle. Le signal macro a été **neutralisé** (`ROTATION_TO_CYCLICAL` → `NEUTRAL`), indiquant un affaiblissement de la rotation sectorielle observée depuis le 1er juin. XLF reste classé 3e/11, en distribution relative vs le marché. Le snapshot confirme que les données de prix US sont bien récupérées (24 tickers OK sur 29), isolant AXA comme l'un des 4 tickers structurellement KO sur 29. Si les données AXA étaient disponibles, le headwind sectoriel persistant justifierait un ajustement à la baisse du placeholder Momentum (actuellement 5.0/10).
 
 **Action immédiate :** corriger le symbole dans `config/watchlist.json` (`CS.PA` ou `AXAHY`), mettre à jour le secteur (Financials / Insurance) et relancer le fetch.
 

@@ -1,161 +1,169 @@
-# ASTS — Mise à Jour Snapshot 13h UTC (2026-06-02)
+# ASTS — Mise à Jour Snapshot 17h UTC (2026-06-02)
 
-> **Stabilité totale, anomalie options résolue** : cours **$105,65** à 13h UTC (inchangé vs snapshot 10h), RSI stable **61,89**, volume **normalisé 1,00×**. L'anomalie data quality options détectée au snapshot 10h (Max Pain $40 aberrant, Put/Call et Call OI null) est **résolue** : Max Pain rétabli à **$120,00**, Put/Call **1,09**, Call OI **47,9%**. Spot **−12,0% sous Max Pain** : pinning gamma haussier réactivé vers $120 d'ici expiration 05/06. Score global ajusté **44,8/100 (SURVEILLER)**. Thèse **SURVEILLER confirmée**.
+> **Explosion haussière +9,11% sur volume collapse** : cours **$115,27** vs snapshot 13h $105,65, RSI retourné en **surachat 71,77** (+9,88 pts), volume **effondré 0,49×** (13,18M vs moy. 27,05M). Divergence consensus creusée à **−21,9%** ($115,27 vs PT $94,54). Score global ajusté révisé à la baisse **29,8/100 (ÉVITER)**. Thèse **modifiée de SURVEILLER à ÉVITER**.
 
 ---
 
-## Résumé des Changements depuis le Snapshot 10h UTC
+## Résumé des Changements depuis le Snapshot 13h UTC (2026-06-02)
 
-| Indicateur | Snapshot 10h UTC 2026-06-02 | Snapshot 13h UTC 2026-06-02 | Delta |
+| Indicateur | Snapshot 13h UTC 2026-06-02 | Snapshot 17h UTC 2026-06-02 | Delta |
 |-----------|-----------------------------|-----------------------------|-------|
-| **Cours** | **$105,65** | **$105,65** | **—** 🟢 |
-| RSI 14j | **61,89** | **61,89** | **—** |
-| ATR 14j | **$12,18** | **$12,18** | **—** |
-| MM50 | **$87,11** | **$87,11** | **—** |
-| Volume rel. | **1,00×** | **1,00×** | **—** |
-| Market Cap | **$41,01B** | **$41,01B** | **—** |
-| Forward P/E | **−355,57** | **−355,57** | **—** |
-| EV/Revenue (Yahoo) | **378,00×** | **378,00×** | **—** |
-| P/B (Yahoo) | **15,16×** | **15,16×** | **—** |
-| 52W high | **$133,86** | **$133,86** | **—** |
-| Consensus PT | **$94,54** | **$94,54** | **—** |
-| Downside consensus | **−10,5%** | **−10,5%** | **—** |
-| Short Interest | **17,60%** | **17,60%** | **—** |
-| Score Global ajusté | **44,8** | **44,8** | **—** |
-| Max Pain | **$40,00** (anomalie) | **$120,00** | **+$80,00** 🟢 [RÉSOLU] |
-| Put/Call Ratio | **null** (manquant) | **1,09** | **Rétabli** 🟢 |
-| Call OI % | **null** (manquant) | **47,9%** | **Rétabli** 🟢 |
+| **Cours** | **$105,65** | **$115,27** | **+9,11%** 🔴 |
+| RSI 14j | **61,89** | **71,77** | **+9,88 pts** 🔴 |
+| ATR 14j | **$12,18** | **$12,07** | **−$0,11** |
+| MM50 | **$87,11** | **$87,62** | **+$0,51** |
+| Volume rel. | **1,00×** | **0,49×** | **−0,51×** 🔴 |
+| Market Cap | **$41,01B** | **$44,74B** | **+$3,73B** |
+| Forward P/E | **−355,57** | **−387,94** | **−32,37** 🔴 |
+| EV/Revenue (Yahoo) | **378,00×** | **378,01×** | **—** |
+| P/B (Yahoo) | **15,16×** | **16,55×** | **+1,39×** 🔴 |
+| 52W high | **$133,86** | **$133,86** | — |
+| Consensus PT | **$94,54** | **$94,54** | — |
+| Downside consensus | **−10,5%** | **−21,9%** | **−11,4 pts** 🔴 |
+| Short Interest | **17,60%** | **17,60%** | — |
+| Score Global ajusté | **44,8** | **29,8** | **−15,0 pts** 🔴 |
+| Max Pain | **$120,00** | **$120,00** | — |
+| Put/Call Ratio | **1,09** | **1,09** | — |
+| Call OI % | **47,9%** | **47,9%** | — |
 
-**Verdict :** stabilité absolue du cours à $105,65 entre les snapshots 10h et 13h UTC. Tous les indicateurs techniques (RSI, ATR, MM50, volume) et fondamentaux (market cap, multiples, consensus) sont **strictement inchangés**. La seule mutation significative est la **correction de l'anomalie data quality options** : Max Pain revient de $40 (aberrant) à $120,00 (cohérent avec l'historique), Put/Call Ratio passe de null à 1,09, et Call OI % de null à 47,9%. Cette résolution réactive la lecture options : le spot $105,65 est **−12,0% sous le Max Pain $120**, configuration qui exerce un **pinning gamma haussier** vers $120 à l'approche de l'expiration du 2026-06-05 (J+3).
+**Verdict :** le cours a bondi de **+9,11%** à $115,27 sur un **volume collapse alarmant de 0,49×**, signalant une hausse anémique sans participation institutionnelle. Le RSI remonte brutalement en **surachat (71,77)**, re-détériorant le profil technique. La divergence consensus s'aggrave mécaniquement à **−21,9%** et le score global ajusté chute de **15 points** à **29,8/100**, passant de la zone SURVEILLER à la zone **ÉVITER (< 35)**. Aucun catalyseur fondamental n'accompagne le mouvement.
 
 ---
 
 ## Mise à Jour Technique
 
-- **Cours :** $105,65 — **inchangé** vs snapshot 10h UTC ; **−6,84%** vs previous close officiel $113,41
-- **Range intraday :** $101,21–$111,28 (mêmes niveaux, pas de nouveau high/low)
-- **RSI 14j :** **61,89** — stable, zone neutre/haussière
-- **ATR 14j :** $12,18 (ATR relatif **11,5%** du cours) — **[TRIGGER HAUT]** volatilité extrême persistante
-- **MM50 :** $87,11 — cours **+21,3%** au-dessus, support éloigné
+- **Cours :** $115,27 — **+9,11%** vs close 13h $105,65 ; **+9,11%** vs previous close officiel $105,65 (même base)
+- **Range intraday étendu :** $108,80–$116,76 (**~7,3%**) — nouveau high intraday $116,76
+- **RSI 14j :** **71,77** — **retour en zone de surachat** (>70). Risque de correction technique réactivé
+- **ATR 14j :** $12,07 (ATR relatif **10,5%** du cours) — **[TRIGGER HAUT]** volatilité extrême persistante
+- **MM50 :** $87,62 — cours **+31,4%** au-dessus, support très éloigné
 - **MM200 :** N/A
-- **Volume 13h :** 27,11M vs moy. 20j 27,02M (**1,00×**) — volume parfaitement normalisé, aucun signal de distribution ni d'accumulation
-- **52W high :** $133,86 — repli total depuis le sommet : **−21,1%**
+- **Volume 17h :** 13,18M vs moy. 20j 27,05M (**0,49×**) — **[TRIGGER BAS]** hausse de +9,11% sur volume collapse. Absence de participation acheteuse : mouvement fragile, probablement driven par gamma/options et short covering
+- **52W high :** $133,86 — repli depuis le sommet réduit à **−13,9%** (vs −21,1% au snapshot 13h)
 - **52W low :** $23,80
-- **Supports clés :** $100,00 (psychologique, testé à $101,21) ; MM50 $87,11
-- **Résistances clés :** previous close $113,41 ; high intraday $111,28 ; Max Pain options $120,00
-- **Timing verdict :** **Neutre** (RSI stable, volume normalisé, volatilité extrême persistante, mais pinning gamma haussier réactivé J+3)
-- **Score Momentum :** 5,5/10 — **inchangé**. La stabilité du cours et du volume maintient le momentum haussier de moyen terme intact mais surveillé
+- **Supports clés :** $109,91 (open du jour) ; $105,65 (close 13h) ; $100,00 (psychologique) ; MM50 $87,62
+- **Résistances clés :** high intraday $116,76 ; Max Pain options $120,00 (écart +4,1%) ; 52W high $133,86
+- **Timing verdict :** **Défavorable** (RSI surachat, volume collapse, cours éloigné du support, divergence consensus extrême)
+- **Score Momentum :** 5,5/10 — **inchangé**. Le rally +9,11% est contrebalancé par le volume collapse et le retour en surachat. Le momentum haussier de moyen terme est intact (+31,4% au-dessus MM50) mais la configuration technique court terme s'est dégradée
 
 ---
 
 ## Mise à Jour Fondamentale
 
-Aucun nouveau résultat comptable ni guidance. La mutation reste **exclusivement technique/data quality**.
+Aucun nouveau résultat comptable ni guidance. La mutation reste **exclusivement technique/sentimentale**.
 
-- **Market Cap :** $41,01B (stable)
-- **Forward P/E :** −355,57 (profil non rentable, stable)
-- **EV/EBITDA :** −101,47 (stable)
-- **EV/Revenue :** 378,00× (Yahoo) / 355,70× (FMP annual) — stable, domaine spéculatif extrême
-- **P/B :** 15,16× (Yahoo) / 10,10× (FMP annual) — stable
-- **Beta :** 2,598 — sensibilité très supérieure au marché
-- **Short Interest :** 17,60% (stable, pas de short squeeze setup)
-- **Consensus analystes :** Price target moyen **$94,54** (12 analystes, 5 couverts le mois dernier, 7 le trimestre dernier) — inchangé. Downside consensus **−10,5%** vs cours $105,65
-- **Filtre Qualité :** ⚠️ Partielle — profil non rentable, marges négatives. Quality Gate : **OK** (pas d'exclusion, `accounting_risk_latest.json` absent)
+- **Market Cap :** $44,74B (**+$3,73B** vs 13h)
+- **Forward P/E :** −387,94 (profil non rentable, plus négatif vs −355,57)
+- **EV/EBITDA :** −101,47
+- **EV/Revenue :** 378,01× (Yahoo) / 355,70× (FMP annual) — stable, domaine spéculatif extrême
+- **P/B :** 16,55× (Yahoo) / 10,10× (FMP annual) — **détérioration mécanique** liée au rebond du cours
+- **Beta :** 2,598 — sensibilité très supérieure au marché, amplificateur des mouvements
+- **Short Interest :** 17,60% (stable, pas de short squeeze setup confirmé malgré le rally)
+- **Consensus analystes :** Price target moyen **$94,54** (12 analystes, 5 couverts le mois dernier, 7 le trimestre dernier) — inchangé. Downside consensus creusé mécaniquement à **−21,9%** vs cours $115,27
+- **Filtre Qualité :** ⚠️ Partielle — profil non rentable, marges négatives. Quality Gate : **OK** (pas d'exclusion)
 
-**Risque sectoriel :** ASTS est classé dans Communication Equipment (Technology). L'Agent Sector Rotation du 2026-06-02 émet un signal macro **ROTATION_TO_CYCLICAL**. XLK (Technology) #1 du ranking (momentum score 10,0). XLC (Communication Services) est dans le **bottom 3** (momentum score 0,0). Faiblesse sectorielle persistante — le mouvement d'ASTS reste **découplé** de son secteur. Malus sectoriel maintenu.
+**Risque sectoriel :** ASTS est classé dans Communication Equipment (Technology). L'Agent Sector Rotation du 2026-06-02 émet un signal macro **NEUTRAL** (was ROTATION_TO_CYCLICAL au snapshot 13h). XLK (Technology) #1 du ranking (momentum score 10,0). XLC (Communication Services) est dans le **bottom 3** (momentum score 0,0). Faiblesse sectorielle persistante — le mouvement d'ASTS reste **découplé** de son secteur. Malus sectoriel maintenu. La neutralisation du signal macro ROTATION_TO_CYCLICAL supprime un potentiel tailwind pour les cycliques growth.
 
 ---
 
 ## Mise à Jour Sentiment / Options / News
 
-- **Consensus analystes :** inchangé à $94,54. Divergence stable à **−10,5%**
-- **Options :** 🟢 **ANOMALIE RÉSOLUE — données rétablies**
-  - Max Pain **$120,00** (vs $40 aberrant au snapshot 10h) — **valeur cohérente avec l'historique**
-  - Put/Call Ratio **1,09** (vs null) — skew put modéré, sentiment légèrement baissier
-  - Call OI **47,9%** (vs null) — domination call modérée, en retrait vs 52,2% du snapshot 21h 2026-06-01
+- **Consensus analystes :** inchangé à $94,54. Le cours $115,27 creuse mécaniquement la divergence à **−21,9%** (vs −10,5% au snapshot 13h). Risque de downgrades **réactivé et aggravé**
+- **Options :** Données inchangées vs snapshot 13h
+  - Max Pain **$120,00** (écart **+4,1%** vs cours $115,27 — cours **sous le max pain** mais beaucoup plus proche)
+  - Put/Call Ratio **1,09** (skew put modéré, sentiment légèrement baissier)
+  - Call OI **47,9%** (domination call modérée)
   - Nearest expiry : **2026-06-05 (J+3)**
-  - **Lecture :** avec le cours $105,65 bien sous le max pain $120, le pinning gamma à l'expiration J+3 exerce une **pression haussière** vers $120. Le put/call 1,09 est légèrement plus baissier que le 0,92 précédent, mais le delta reste faible. Le passage du Call OI de 52,2% à 47,9% indique un **léger repositionnement baissier** des options, attenuant partiellement le signal haussier du pinning gamma
+  - **Lecture :** le cours $115,27 est désormais à seulement **+4,1% du Max Pain $120**. Le pinning gamma à l'expiration J+3 exerce une pression haussière **diminuée** (le gap s'est réduit). Le put/call 1,09 reste équilibré. Le cours proche du max pain réduit l'asymétrie technique
+  - **Risque :** si le cours consolide autour de $115–$116 à l'approche de l'expiration, le max pain $120 reste un aimant haussier mais l'upside technique est désormais limité à ~+4%
 - **Social Sentiment :** 0 mention Reddit ; Score 0,0/10 (no data) ; Pump detected : False — stable
-- **Event-Driven :** aucun événement corporate détecté pour ASTS (`events_latest.json` vide)
-- **Géopolitique :** ASTS non flaggé (`geo_risk_latest.json` absent pour ASTS)
+- **Event-Driven :** aucun événement corporate détecté pour ASTS (events_latest.json vide)
+- **Géopolitique :** ASTS non flaggé (geo_risk absent pour ASTS)
 - **FX Exposure :** Exposition 25%, direction export, devise USD. FX Impact Score 0,0/10 — impact neutre, divergence "aligned"
-- **News :** aucune news spécifique ASTS dans le flux du 2026-06-02
+- **News :** aucune news spécifique ASTS dans le flux du 2026-06-02 (news_latest.json vide pour ASTS). Le rally +9,11% est **non catalysé** par des news fondamentales
 
 **Catalyseurs à venir :**
 - Prochain earnings : **2026-08-10** (J+69) — Est. EPS $−0,29 à $−0,17, Revenus $0,0B
 - Aucun preview auto-généré (earnings > 3j)
-- **Expiration options 2026-06-05 (J+3)** — données rétablies, Max Pain $120 au-dessus du spot : pinning gamma haussier réactivé
+- **Expiration options 2026-06-05 (J+3)** — max pain $120 au-dessus du spot (+4,1%) : pinning gamma haussier atténué vs snapshot 13h
 
 ---
 
-## Scoring Global — Snapshot 13h UTC (2026-06-02)
+## Scoring Global — Snapshot 17h UTC (2026-06-02)
 
 | Axe | Score | Pondération | Commentaire |
 |-----|-------|-------------|-------------|
-| Catalyseur | 4,0/10 | 35% | Aucun catalyseur imminent, earnings dans 69j, pas de news structurante — stabilité totale. Pinning gamma J+3 léger bonus technique |
-| Valorisation | 3,0/10 | 40% | Multiples spéculatifs extrêmes (EV/Revenue 378×, P/B 15,16×), consensus $94,54 = −10,5% sous le cours |
-| Momentum | 5,5/10 | 25% | Cours stable $105,65, RSI 61,89 stable, cours +21,3% au-dessus MM50 — momentum haussier de moyen terme intact mais surveillé |
+| Catalyseur | 4,0/10 | 35% | Aucun catalyseur imminent, earnings dans 69j, pas de news structurante — le rally +9,11% est non catalysé (correction technique post-surchauffe inversée). Pinning gamma J+3 atténué |
+| Valorisation | 3,0/10 | 40% | Multiples spéculatifs extrêmes (EV/Revenue 378×, P/B 16,55×), consensus $94,54 = −21,9% sous le cours. Détérioration mécanique post-rally |
+| Momentum | 5,5/10 | 25% | Rally +9,11% sur volume collapse 0,49×, RSI retour surachat 71,77, cours +31,4% au-dessus MM50 — momentum haussier de moyen terme intact mais configuration court terme dégradée |
 | **Score Opportunité** | **4,0/10** | | |
 
 **Malus / Bonus appliqués (Agent Recommandation) :**
-- Malus ATR_SPIKE : volatilité intraday extrême persistante (11,5% du cours)
+- Malus ATR_SPIKE : volatilité intraday extrême persistante (10,5% du cours)
+- Malus VOLUME_COLLAPSE : hausse +9,11% sur volume 0,49× = mouvement anémique, suspect
+- Malus RSI_SURACHAT : retour en zone surachat (>70), risque de correction technique réactivé
 - Malus sectoriel (XLC bottom 3) : −0,5 pt — faiblesse sectorielle persistante
-- Malus consensus sous cours : price target $94,54 vs cours $105,65 = upside négatif −10,5%
-- Bonus RSI normalisé : sortie de surachat maintenue, risque de correction technique réduit
-- Bonus volume normalisé : 1,00× moyenne 20j = aucun signal de distribution
-- Aucun malus comptable (Quality Gate OK, `accounting_risk_latest.json` absent)
+- Malus consensus sous cours : price target $94,54 vs cours $115,27 = upside négatif −21,9% (aggravé vs −10,5%)
+- Malus signal macro neutralisé : passage de ROTATION_TO_CYCLICAL à NEUTRAL, suppression d'un potentiel tailwind
+- Aucun bonus volume (0,49× = collapse, pas de regain d'intérêt)
+- Aucun malus comptable (Quality Gate OK)
 - Aucun malus géopolitique
 - Aucun malus FX
 - Aucun bonus event-driven
 
-**Score Global Composite :** 40,0/100 (ajusté **44,8/100**) — **inchangé** vs snapshot 10h UTC. Confortablement dans la zone SURVEILLER (35–49) → **SURVEILLER**.
+**Score Global Composite :** 29,8/100 — **révision à la baisse drastique** (−15,0 pts vs 13h UTC) selon Agent Recommandation. Confortablement dans la zone **ÉVITER (< 35)** → **ÉVITER**.
 
 ---
 
 ## Niveaux et Ratio R/R
 
-- **Cours actuel :** $105,65
-- **Stop-loss suggéré :** $81,29 (cours − 2×ATR = $105,65 − $24,36) — **inchangé**
-- **Take-profit suggéré :** $142,19 (cours + 3×ATR = $105,65 + $36,54) — **inchangé**
-- **Ratio R/R :** 1,5:1 — **inchangé**
+- **Cours actuel :** $115,27
+- **Stop-loss suggéré :** $91,13 (cours − 2×ATR = $115,27 − $24,14)
+- **Take-profit suggéré :** $151,48 (cours + 3×ATR = $115,27 + $36,21)
+- **Ratio R/R :** 1,5:1
 
-**Révision :** niveaux maintenus. La stabilité technique totale entre les snapshots 10h et 13h ne modifie pas la structure de risque. Le SL à $81,29 correspond approximativement à la MM50 ($87,11) moins une marge de volatilité. En cas de rupture sous $100 puis $87, la tendance haussière de moyen terme serait invalidée. Le TP $142,19 reste 6,2% au-dessus du 52W high ($133,86). Probabilité d'atteinte faible sans catalyseur majeur.
-
-**Nouveau facteur J+3 :** le Max Pain rétabli à $120 crée un **aimant haussier technique** pour les 3 prochains jours. Si le cours consolide autour de $105–$108, le pinning gamma pourrait pousser vers $120 à l'expiration du 2026-06-05. Cela représente un **upside technique de +13,6%** sur 3 jours, mais dépend entièrement de la tenue du support $105 et de l'absence de choc macro/nouvelles négatives.
+**Révision :** niveaux révisés à la hausse en raison du rally.
+- Le SL à $91,13 correspond approximativement à la MM50 ($87,62) moins une marge de volatilité. En cas de rupture sous $105 puis $100, la tendance haussière de moyen terme serait invalidée
+- Le TP $151,48 est **13,2% au-dessus du 52W high ($133,86)**. Probabilité d'atteinte très faible sans catalyseur majeur post-rally
+- Le consensus analystes ($94,54) est **$20,73 sous le cours actuel**, zone vers laquelle un retest est hautement plausible en cas de consolidation
+- **Zone d'intérêt potentielle :** $95–$100 (alignement avec consensus et test du support psychologique)
+- **Niveau options J+3 :** Max Pain $120 au-dessus du spot (+4,1%) — pinning gamma haussier possible mais upside limité
 
 ---
 
 ## Conclusion
 
-**Thèse confirmée : SURVEILLER — stabilité totale vs snapshot 10h UTC 2026-06-02 à $105,65, RSI 61,89, volume normalisé 1,00×, divergence consensus −10,5% stable. Anomalie options RÉSOLUE (Max Pain $120,00 rétabli, Put/Call 1,09, Call OI 47,9%). Pinning gamma haussier réactivé J+3 vers $120 (+13,6%).**
+**Thèse modifiée : ÉVITER — explosion haussière +9,11% à $115,27 sur volume collapse 0,49×, RSI retour surachat 71,77, divergence consensus creusée à −21,9%. Score global ajusté chute à 29,8/100. Structure fondamentale inchangée, absence totale de catalyseur.**
 
-Le snapshot 13h UTC enregistre une **stabilité technique et fondamentale complète** vs le snapshot 10h UTC. Cours, RSI, ATR, MM50, volume, consensus, market cap, multiples fondamentaux sont **tous strictement inchangés**. La seule mutation significative est la **résolution de l'anomalie data quality options** : Max Pain revient à $120 (cohérent historique), Put/Call et Call OI sont rétablis.
+Le snapshot 17h UTC enregistre un **rally technique non catalysé** de +9,11% à $115,27, portant le cours à seulement **−13,9% du 52W high ($133,86)**. Le volume s'est effondré à **0,49×** la moyenne 20j, signalant une absence totale de participation institutionnelle. Ce type de mouvement sur volume anémique est classiquement suivi d'un retournement ou d'une consolidation rapide.
 
 **Changements structurants :**
-1. **Stabilité technique totale** — cours $105,65, RSI 61,89, ATR $12,18, MM50 $87,11, volume 1,00×. Aucun nouveau signal technique
-2. **🟢 Anomalie options RÉSOLUE** — Max Pain $120,00 (vs aberration $40 au 10h), Put/Call 1,09, Call OI 47,9%. Données utilisables à nouveau
-3. **Pinning gamma haussier réactivé J+3** — spot $105,65 sous Max Pain $120 (−12,0%). Upside technique +13,6% si le pinning s'exerce
-4. **Léger repositionnement baissier options** — Call OI 47,9% (vs 52,2% au 21h 01/06), Put/Call 1,09 (vs 0,92). Atténuation modérée du signal haussier
-5. **Sectoriel inchangé** — XLC bottom 3, malus sectoriel maintenu
+1. **Cours explosé** — $115,27 vs $105,65 (+9,11%) sur volume collapse 0,49×. Mouvement suspect
+2. **RSI retourné en surachat** — 71,77 (+9,88 pts). Risque de correction technique réactivé
+3. **Divergence consensus mécaniquement creusée** — $115,27 vs PT $94,54 = −21,9% (vs −10,5% au snapshot 13h). Le rally éloigne drastiquement le cours des attentes analystes
+4. **Score global ajusté chute de 15 pts** — 44,8 → 29,8/100, passage de SURVEILLER à ÉVITER
+5. **Signal sectoriel dégradé** — ROTATION_TO_CYCLICAL neutralisé en NEUTRAL. XLC reste bottom 3
+6. **Options inchangées** — Max Pain $120, Put/Call 1,09, Call OI 47,9%. Cours sous max pain (−4,1%) : pinning gamma haussier atténué (upside technique limité à ~+4%)
+7. **Valorisation mécaniquement alourdie** — P/B 16,55×, Forward P/E −387,94. Profil spéculatif extrême aggravé
 
 **Alertes actives :**
-- **ATR_SPIKE (haut)** — ATR relatif 11,5% du cours, volatilité extrême persistante
+- **VOLUME_COLLAPSE** — volume 0,49× sur rally +9,11% = mouvement anémique, suspect
+- **RSI_SURACHAT** — RSI 71,77, risque de correction technique réactivé
+- **ATR_SPIKE (haut)** — ATR relatif 10,5% du cours, volatilité extrême persistante
 - **Profil non rentable** — multiples négatifs, aucune visibilité sur la rentabilité
-- **Cours au-dessus du consensus** — $105,65 vs $94,54 = +11,7%. Risque de downgrades maintenu
-- **Test du support $100** — low intraday $101,21, niveau psychologique en vue
-- **Pinning gamma J+3** — Max Pain $120 au-dessus du spot. Risque de whipsaw élevé à l'expiration 2026-06-05
-- **Secteur Communication Services (XLC)** — bottom 3 du ranking sectoriel (momentum score 0,0). Signal macro ROTATION_TO_CYCLICAL du 2026-06-02
+- **Cours au-dessus du consensus** — $115,27 vs $94,54 = +22,0%. Risque de downgrades réactivé et aggravé
+- **Rally non catalysé** — +9,11% sans news ni catalyseur, risque de retournement élevé
+- **Secteur Communication Services (XLC)** — bottom 3 du ranking sectoriel (momentum score 0,0). Signal macro NEUTRAL
 
-**Verdict opérationnel :** ne pas entrer long à ces niveaux. La stabilité technique est rassurante à court terme, mais le profil fondamental reste spéculatif extrême. Le pinning gamma J+3 constitue un **facteur technique haussier de court terme** (+13,6% vers $120) mais est contrebalancé par le repositionnement baissier des options (Call OI en baisse, Put/Call en hausse) et l'absence totale de catalyseur fondamental. Le ratio R/R mécanique de 1,5:1 reste masqué par une probabilité d'atteinte du TP faible sans catalyseur et un risque de continuation baissière vers $95–$100 ou la MM50. **Attendre la résolution de l'expiration J+3 avant toute réévaluation.**
+**Verdict opérationnel :** **ne pas entrer long à ces niveaux.** Le rally de +9,11% est technique, non catalysé, et s'effectue sur un volume collapse alarmant (0,49×). La divergence consensus s'est creusée à −21,9%, et le score global ajusté chute à 29,8/100 (ÉVITER). Le RSI retourne en surachat (71,77), réactivant le risque de correction. Le ratio R/R mécanique de 1,5:1 est masqué par une probabilité d'atteinte du TP faible sans catalyseur et un risque de continuation baissière vers $105–$100 ou la MM50. L'expiration options J+3 avec max pain $120 au-dessus du spot constitue un **facteur technique haussier résiduel** mais l'upside est désormais limité à ~+4%.
 
 **Prochaines étapes :**
-- Surveiller le comportement autour du Max Pain $120 à l'expiration 2026-06-05 (J+3)
-- Tenue du niveau $105 (support technique) et $100 (psychologique)
-- Monitoring du Call OI et Put/Call Ratio en approche de l'expiration
+- Surveiller la tenue du niveau $115 (nouveau support) et $105 (close 13h)
+- Monitoring de l'expiration options 2026-06-05 — comportement autour du max pain $120
 - Attendre un retour vers $95–$100 (zone consensus) ou $87–$88 (MM50) pour réévaluer
 - Revoir le scoring si earnings preview à générer (dans ~69j)
-- **Ne pas entrer long à ces niveaux** — risque/rendement asymétriquement défavorable
+- **Ne pas entrer long à ces niveaux** — risque/rendement asymétriquement défavorable malgré le rally technique
 
 ---
 
-*Généré par le système Argus-IA — Snapshot 2026-06-02 13:00 UTC (cours $105,65 stable vs 10h, RSI 61,89, volume 1,00× normalisé, score global 44,8 SURVEILLER, anomalie options RÉSOLUE Max Pain $120,00, Put/Call 1,09, Call OI 47,9%)*
+*Généré par le système Argus-IA — Snapshot 2026-06-02 17:00 UTC (cours +9,11% à $115,27, RSI 71,77, volume 0,49× collapse sur rally, score global 29,8 ÉVITER, divergence consensus creusée −21,9%)*

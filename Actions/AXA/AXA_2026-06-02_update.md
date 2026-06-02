@@ -1,16 +1,16 @@
 # AXA — Mise à jour Quotidienne
 
 > **Date :** 2026-06-02
-> **Snapshot :** 2026-06-02T13:00:01 UTC
-> **Type :** `_update.md` (post-pipeline 13h00 UTC)
+> **Snapshot :** 2026-06-02T17:00:16 UTC
+> **Type :** `_update.md` (post-pipeline 17h00 UTC)
 > **Analyste :** Desk Argus-IA
-> **Réf. précédente :** `AXA_2026-06-02_update.md` (snapshot 10h00 UTC)
+> **Réf. précédente :** `AXA_2026-06-02_update.md` (snapshot 13h00 UTC)
 
 ---
 
 ## Résumé des changements depuis l'analyse précédente
 
-| Élément | État 10h00 | État 13h00 | Changement |
+| Élément | État 13h00 | État 17h00 | Changement |
 |---------|-----------|-----------|------------|
 | Cours AXA | `[DONNÉES MANQUANTES]` | `[DONNÉES MANQUANTES]` | **Stable** |
 | RSI 14j | `[DONNÉES MANQUANTES]` | `[DONNÉES MANQUANTES]` | **Stable** |
@@ -21,33 +21,36 @@
 | Score Global | 55.2/100 | **55.2/100** | **Stable** |
 | Recommandation | ATTENDRE | **ATTENDRE** | **Confirmée** |
 | Timing | Neutre | **Neutre** | **Stable** |
-| XLF return 20j | −0.94% | **−0.94%** | **Stable** |
-| XLF return 60j | +0.91% | **+0.91%** | **Stable** |
-| XLF RS 20j vs SPY | −6.20% | **−6.20%** | **Stable** |
-| XLF RS 60j vs SPY | −10.73% | **−10.73%** | **Stable** |
+| XLF return 20j | −0.94% | **−0.17%** | 🟢 **Amélioration absolue (+77 bp)** |
+| XLF return 60j | +0.91% | **+2.34%** | 🟢 **Amélioration absolue (+143 bp)** |
+| XLF RS 20j vs SPY | −6.20% | **−5.99%** | 🟢 Légère amélioration relative (+21 bp) |
+| XLF RS 60j vs SPY | −10.73% | **−10.96%** | 🔴 Dégradation relative (−23 bp) |
 | XLF momentum score | 0.0/10 | **0.0/10** | **Stable** |
-| Signal macro | ROTATION_TO_CYCLICAL | **ROTATION_TO_CYCLICAL** | **Stable** |
+| Signal macro | ROTATION_TO_CYCLICAL | **NEUTRAL** | 🔴 **Neutralisation du signal** |
 | Earnings FMP | J0 (2026-06-02) sans détails | **J0 (2026-06-02) sans détails** | **Stable** |
 
-**Verdict :** 24e snapshot consécutif sans mutation des données AXA. Le symbole "AXA" reste non reconnu par yfinance (`error: true`, `reason: "No price history"`). Aucune mutation inter-snapshot détectée entre 10h00 et 13h00 UTC. Le secteur Financials (XLF) affiche une **stabilité totale** sur toutes les fenêtres. Le signal macro reste `ROTATION_TO_CYCLICAL`, porté par XLK (return 20j +20.94%, momentum 10.0/10) et le crossover haussier de XLE.
+**Verdict :** 25e snapshot consécutif sans mutation des données AXA. Le symbole "AXA" reste non reconnu par yfinance (`error: true`, `reason: "No price history"`). Cependant, **mutation significative du contexte sectoriel et macro détectée** entre 13h00 et 17h00 UTC :
+- Le signal macro a été **neutralisé** (`ROTATION_TO_CYCLICAL` → `NEUTRAL`), indiquant un affaiblissement de la dynamique de rotation sectorielle observée depuis le 1er juin.
+- Le secteur Financials (XLF) affiche une **amélioration absolue marquée** sur 20j (+77 bp) et 60j (+143 bp), probablement portée par le rebond du marché (SPY +5.81% sur 20j, +13.30% sur 60j).
+- En termes relatifs, le RS 20j s'améliore marginalement (+21 bp) mais le RS 60j se creuse légèrement (−23 bp), confirmant que le secteur peine à suivre l'accélération du broad market.
 
 ---
 
 ## Mise à jour technique
 
-**[DONNÉES MANQUANTES]** Aucun cours, volume, RSI, ATR ou moyenne mobile disponible pour AXA dans `data/latest.json` (snapshot 2026-06-02T13:00:01 UTC). `AXA` est listé dans `tickers_ko` avec raison `"No price history"`.
+**[DONNÉES MANQUANTES]** Aucun cours, volume, RSI, ATR ou moyenne mobile disponible pour AXA dans `data/latest.json` (snapshot 2026-06-02T17:00:16 UTC). `AXA` est listé dans `tickers_ko` avec raison `"No price history"`.
 
-**Contexte sectoriel (XLF) — stabilité totale vs snapshot 10h00 :**
-- Return 20j : −0.94% (stable vs 10h00, vs SPY +5.26%)
-- Return 60j : +0.91% (stable vs 10h00, vs SPY +11.64%)
-- RS 20j vs SPY : −6.20% (stable)
-- RS 60j vs SPY : −10.73% (stable)
+**Contexte sectoriel (XLF) — amélioration absolue mais sous-performance relative persistante :**
+- Return 20j : −0.17% (vs −0.94% à 13h00, vs SPY +5.81%)
+- Return 60j : +2.34% (vs +0.91% à 13h00, vs SPY +13.30%)
+- RS 20j vs SPY : −5.99% (vs −6.20% à 13h00, amélioration +21 bp)
+- RS 60j vs SPY : −10.96% (vs −10.73% à 13h00, dégradation −23 bp)
 - Momentum score : 0.0/10 (stable)
-- Rang sectoriel : 3e/11 (stable, par artefact de classement)
-- Crossover : aucun sur XLF (BULLISH_CROSSOVER sur XLE uniquement)
-- Signal macro : `ROTATION_TO_CYCLICAL` (stable)
+- Rang sectoriel : 3e/11 (stable, par artefact de classement — XLK domine avec momentum 10.0/10)
+- Crossover : aucun sur XLF (`crossover: null`)
+- Signal macro : **`NEUTRAL`** (vs `ROTATION_TO_CYCLICAL` à 13h00) — neutralisation de la rotation sectorielle
 
-**Interprétation :** La stabilité totale du XLF confirme l'absence de catalyseur sectoriel pour le secteur Financials. Sans données AXA, l'évaluation de la force relative du titre vs son secteur reste impossible. Le placeholder Momentum 5.0/10 est maintenu mais mériterait un ajustement à la baisse si les données étaient disponibles, compte tenu du headwind sectoriel persistant (−10.73% à 60j vs SPY).
+**Interprétation :** L'amélioration absolue du XLF sur 20j et 60j est une évolution positive pour le secteur Financials, mais elle reste **entièrement dictée par le rebond du broad market** (SPY a gagné +77 bp à 20j et +166 bp à 60j entre les deux snapshots). Le secteur ne surperforme pas — il suit avec un décalage. Le momentum score reste à 0.0/10, confirmant l'absence de dynamique propre. La neutralisation du signal macro (`NEUTRAL`) retire le headwind explicite de "rotation hors Financials" mais n'établit pas de vent favorable. Sans données AXA, l'évaluation de la force relative du titre vs son secteur reste impossible. Le placeholder Momentum 5.0/10 est maintenu mais mérite un ajustement à la baisse compte tenu du RS 60j dégradé (−10.96%).
 
 ---
 
@@ -58,7 +61,7 @@
 **Earnings J0 (2026-06-02) :**
 - Source FMP signale un earnings à J0 (`"date": "2026-06-02"`, `"days_until": 0`) mais sans estimates EPS/Revenue (`"details": "Earnings "`).
 - Aucune variance table, aucun transcript NLP, aucune guidance détectée.
-- **Impact sur la thèse :** impossible à évaluer sans données. Pattern récurrent d'un earnings glissant sans résolution depuis le 20/05. C'est le 8e jour consécutif de J0 FMP sans détails exploitables.
+- **Impact sur la thèse :** impossible à évaluer sans données. Pattern récurrent d'un earnings glissant sans résolution depuis le 20/05. C'est le 9e jour consécutif de J0 FMP sans détails exploitables.
 
 **Accounting Risk :** Fichier `data/accounting_risk_latest.json` absent — aucun M-Score, Z-Score, F-Score ou Sloan Ratio disponible.
 
@@ -97,8 +100,8 @@
 
 ## Scoring global (agents)
 
-| Score | Valeur | Évolution vs snapshot 10h00 |
-|-------|--------|------------------------------|
+| Score | Valeur | Évolution vs snapshot 13h00 |
+|-------|--------|-----------------------------|
 | Score Opportunité | **5.5/10** | Stable |
 | — Catalyseur | 6.5/10 | Stable |
 | — Valorisation | 5.0/10 | Stable |
@@ -109,7 +112,11 @@
 
 **Pondération régime macro :** Inconnue (`regime_macro: Unknown`) — poids par défaut C:35% V:40% M:25% appliqués.
 
-**Note sectorielle :** La stabilité totale du XLF (aucune mutation vs snapshot 10h00) confirme l'absence de catalyseur sectoriel. Le secteur Financials reste en distribution relative structurelle vs le marché (−10.73% sur 60j). Sans données AXA, le score Opportunité reste figé sur des placeholders. Le signal macro `ROTATION_TO_CYCLICAL` est stable.
+**Note sectorielle :** La mutation la plus significative entre 13h00 et 17h00 est la **neutralisation du signal macro** (`ROTATION_TO_CYCLICAL` → `NEUTRAL`) et l'amélioration absolue du XLF (+77 bp à 20j, +143 bp à 60j). Cependant :
+1. Le momentum sectoriel reste à 0.0/10 — pas de dynamique propre.
+2. Le RS 60j vs SPY se dégrade (−10.96% vs −10.73%), confirmant la sous-performance structurelle.
+3. Sans données AXA, le score Opportunité reste figé sur des placeholders. Le Momentum 5.0/10 est maintenu par convention mais pourrait mériter un ajustement à ~4.5/10 compte tenu du headwind sectoriel persistant.
+4. La neutralisation du signal macro est marginalement positive (retrait d'un malus explicite de rotation hors Financials) mais ne constitue pas un catalyseur suffisant pour modifier la thèse.
 
 ---
 
@@ -126,13 +133,13 @@
 
 ## Conclusion
 
-### 🔴 Thèse ATTENDRE confirmée — DONNÉES STRUCTURELLEMENT MANQUANTES
+### 🔴 Thèse ATTENDRE confirmée — DONNÉES STRUCTURELLEMENT MANQUANTES, CONTEXTE SECTORIEL LÉGÈREMENT AMÉLIORÉ
 
 **La thèse n'a pas changé.** AXA reste l'un des 4 tickers structurellement KO sur 29 (AXA, AST, QTBS, ASTSPACE), avec un blocage de sourcing persistant depuis au moins le 18/05. Le symbole "AXA" n'est pas reconnu par yfinance (instrument Euronext Paris, non coté US).
 
-**Stabilité sectorielle à 13h00 UTC :** le signal macro reste `ROTATION_TO_CYCLICAL`, porté par la surperformance de XLK (+20.94% sur 20j, momentum 10.0/10) et le crossover haussier de XLE. XLF (Financials) affiche une **stabilité totale** vs snapshot 10h00 (return 20j −0.94%, return 60j +0.91%, RS 20j −6.20%, RS 60j −10.73%, momentum 0.0/10). Le secteur financier reste classé 3e/11 par artefact de classement, sans momentum propre et en distribution relative structurelle vs le marché.
+**Mutation sectorielle à 17h00 UTC :** le signal macro a été **neutralisé** (`ROTATION_TO_CYCLICAL` → `NEUTRAL`), et le secteur Financials (XLF) affiche une **amélioration absolue** sur 20j (−0.17% vs −0.94% à 13h00) et 60j (+2.34% vs +0.91%). Cette amélioration est portée par le rebond du broad market (SPY +5.81% / +13.30%) et non par une dynamique propre du secteur — le momentum score reste à 0.0/10. En termes relatifs, le RS 60j vs SPY se creuse légèrement (−10.96% vs −10.73%), confirmant que Financials reste en distribution structurelle vs le marché. La neutralisation du signal macro est une évolution favorable mais insuffisante pour modifier la thèse.
 
-**Earnings J0 glissant :** FMP signale un earnings à J0 (2026-06-02) mais sans estimates ni détails — 8e jour consécutif de J0 non résolu.
+**Earnings J0 glissant :** FMP signale un earnings à J0 (2026-06-02) mais sans estimates ni détails — 9e jour consécutif de J0 non résolu.
 
 **Action immédiate :**
 1. Corriger le symbole dans `config/watchlist.json` (`CS.PA` ou `AXAHY`) et mettre à jour le secteur (Financials / Insurance).
@@ -141,4 +148,4 @@
 
 ---
 
-*Desk Argus-IA — Snapshot 2026-06-02T13:00:01 UTC*
+*Desk Argus-IA — Snapshot 2026-06-02T17:00:16 UTC*

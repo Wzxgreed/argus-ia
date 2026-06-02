@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
+- **Recommandation :** ÉVITER
+- **Score global :** 29,8/100
+- **Prix cible :** $151,48 (cours + 3×ATR)
+- **Stop-loss :** $91,13 (cours − 2×ATR)
+- **Statut thèse :** modifiée (SURVEILLER → ÉVITER)
 - **Horizon :** —
 
 ---
@@ -24,23 +24,34 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- VOLUME_COLLAPSE — hausse +9,11% sur volume 0,49× (mouvement anémique, suspect)
+- RSI_SURACHAT — RSI 71,77, risque de correction technique
+- ATR_SPIKE — volatilité extrême persistante (10,5% du cours)
+- Cours au-dessus du consensus — $115,27 vs PT $94,54 = −21,9% downside
+- Rally non catalysé — +9,11% sans news ni catalyseur
+- Signal macro neutralisé — passage ROTATION_TO_CYCLICAL → NEUTRAL
+- Secteur XLC bottom 3 — faiblesse sectorielle persistante
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings : 2026-08-10 (J+69) — Est. EPS $−0,29 à $−0,17
+- Options expiry : 2026-06-05 (J+3) — Max Pain $120,00
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 71.29
-- **MM 50j :** 87.58
+- **Cours :** $115,27
+- **RSI 14j :** 71.77
+- **MM 50j :** 87.62
 - **MM 200j :** —
-- **ATR 14j :** 12.06
-- **Volume moy. 20j :** 26971818
+- **ATR 14j :** 12.07
+- **Volume moy. 20j :** 27054869
+- **Volume jour :** 13181392 (0,49×)
+- **52W high :** 133.86
+- **52W low :** 23.80
 
 ---
 
@@ -49,7 +60,7 @@
 - **Date :** 2026-06-02
 - **Type :** update
 - **Fichier :** `ASTS_2026-06-02_update.md`
-- **Conclusion :** **Thèse confirmée : SURVEILLER — stabilité totale vs snapshot 10h UTC 2026-06-02 à $105,65, RSI 61,89, volume normalisé 1,00×, divergence consensus −10,5% stable
+- **Conclusion :** **Thèse modifiée : ÉVITER — explosion haussière +9,11% à $115,27 sur volume collapse 0,49×, RSI retour surachat 71,77, divergence consensus creusée à −21,9%, score global ajusté 29,8/100**
 
 ---
 
