@@ -1,11 +1,12 @@
 # MITK
 
 ## Thèse courante
-**ÉVITER** — Small-cap logiciel (Software-Application, $796.8M) avec Forward P/E encore attractif (14.53x) mais rentabilité du capital faible (ROIC 3.16%) et absence de catalyseur idiosyncratique avéré. Close **$17.645** sur volume en effondrement alarmant (0.225× moyenne 20j, 291,639 vs moy. 1,294,551), repli de −1.26% vs snapshot 13h UTC. RSI 72.59 (**surachat sévère >70 accentué**), cours AU-DESSUS de MM50 ($14.71, +19.9%), configuration technique haussière de moyen terme mais **distribution au sommet sur liquidité extrêmement faible**. Score Global Ajusté **32.5/100** (catégorie ÉVITER, seuil <35, −1.3 pt vs 13h). Structure options haussière **inchangée** : Max Pain $20.00 (+13.3% vs spot), Put/Call 0.22, Call OI 81.8%. Consensus PT $16.00 **dépassé de 10.3%** — upside théorique nul, risque de retracement accentué. Signal macro **neutralisé `NEUTRAL`** (was `ROTATION_TO_CYCLICAL`) — suppression du vent de queue sectoriel Technology. Pas de sizing recommandé (Catalyseur 4.0/10, Valorisation 4.0/10, Momentum 5.0/10). SL $15.95, TP $20.20, R/R 1.5. **Snapshot 17:00 UTC 02/06 : thèse ÉVITER confirmée et renforcée. Mutation technique majeure : repli −1.26% à $17.645 sur volume collapse −67.7% (291K vs 904K à 13h), RSI 72.59 (+0.93 pt), signal sectoriel `NEUTRAL` (was `ROTATION_TO_CYCLICAL`). Score Global Ajusté 32.5/100 (−1.3 pt). Action ÉVITER confirmée, timing Défavorable.**
+**SURVEILLER** — Small-cap logiciel (Software-Application, $793.4M) avec Forward P/E attractif (14.47x) mais rentabilité du capital faible (ROIC 3.16%) et absence de catalyseur idiosyncratique avéré. Close **$17.57** sur volume en recovery significative (0.719× moyenne 20j, 954,557 vs moy. 1,327,697), consolidation au sommet (−1.68% vs previous close). RSI 71.77 (**surachat sévère >70 légèrement atténué**), cours AU-DESSUS de MM50 ($14.71, +19.4%), configuration technique haussière de moyen terme mais **asymétrique à la baisse sur le court terme**. Score Global Ajusté **36.5/100** (catégorie SURVEILLER, fourchette 35–49, +4.0 pts vs 17h). Structure options haussière **inchangée** : Max Pain $20.00 (+13.8% vs spot), Put/Call 0.22, Call OI 81.8%. Consensus PT $16.00 **dépassé de 9.8%** — upside théorique nul mais marge réduite. Signal macro **NEUTRAL** — pas de vent de queue sectoriel. Pas de sizing recommandé (Catalyseur 4.0/10, Valorisation 5.0/10, Momentum 5.0/10). SL $15.87, TP $20.12, R/R 1.5. **Snapshot 21:00 UTC 02/06 : thèse modifiée ÉVITER → SURVEILLER. Recovery volume +227% (954K vs 292K à 17h) invalidant le volume collapse, RSI 71.77 (−0.82 pt), signal sectoriel NEUTRAL inchangé. Score Global Ajusté 36.5/100 (+4.0 pts). Action SURVEILLER, timing Défavorable.**
 
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
+| 2026-06-02 | [MITK_2026-06-02_update.md](MITK_2026-06-02_update.md) | Mise à jour snapshot 21:00 UTC — **thèse modifiée ÉVITER → SURVEILLER**. Recovery volume +227% (954K vs 292K à 17h) invalidant l'alerte volume collapse, cours $17.57 (−1.68% vs previous close), RSI 71.77 (−0.82 pt, surachat légèrement atténué), signal sectoriel **NEUTRAL** inchangé. Score Global Ajusté **36.5/100** (+4.0 pts). Action **SURVEILLER**, timing **Défavorable** |
 | 2026-06-02 | [MITK_2026-06-02_update_17h.md](MITK_2026-06-02_update_17h.md) | Mise à jour snapshot 17:00 UTC — **thèse ÉVITER confirmée et renforcée**. Mutation technique majeure : repli −1.26% à $17.645 sur volume collapse −67.7% (291K vs 904K à 13h), RSI 72.59 (+0.93 pt), signal sectoriel **neutralisé** `NEUTRAL` (was `ROTATION_TO_CYCLICAL`). Score Global Ajusté **32.5/100** (−1.3 pt). Action **ÉVITER confirmée**, timing **Défavorable** |
 | 2026-06-02 | [MITK_2026-06-02_update.md](MITK_2026-06-02_update.md) | Mise à jour post-pipeline 13:00 UTC — thèse ÉVITER confirmée. Stabilité totale vs snapshot 10h UTC (cours $17.87 inchangé, RSI 71.66, ATR 0.86), volume 904K stable (0.68×). **Anomalie options RÉSOLUE** (max pain $20.00, put/call 0.22, call OI 81.8%). Score Global Ajusté **33.8/100** inchangé. Action **ÉVITER confirmée**, timing **Défavorable** |
 | 2026-06-01 | [MITK_2026-06-01_update.md](MITK_2026-06-01_update.md) | Mise à jour post-pipeline 21:00 UTC — thèse ÉVITER confirmée. Cours $17.87 (+4.02% vs previous close), consolidation au sommet (−0.22% vs 17h), nouveau 52w high $17.96, RSI 71.66 (surachat persistant), volume 887,369 (0.67×, rebond partiel +119.6% vs 17h). Score Global Ajusté **33.8/100** inchangé. Action **ÉVITER confirmée**, timing **Défavorable** |
@@ -34,13 +35,13 @@
 - Expiration options : **2026-06-18** (24j)
 
 ## Alertes actives
-- 🟢 **[CASSURE MM50 CONFIRMÉE]** Cours $17.645 > MM50 $14.71 (+19.9%) — signal technique intact — 2026-06-02
-- 🟢 **[BREAK 52-WEEK HIGH]** 52w high $17.97 proche — break testé mais non confirmé à 17h — 2026-06-02
-- 🔴 **[RSI SURACHAT SEVERE]** 72.59 > 70 — timing défavorable, malus technique majeur — 2026-06-02
-- 🔴 **[VOLUME COLLAPSE ALARMANT]** 291,639 = 0.225× moyenne 20j — effondrement −67.7% vs 13h, distribution sans conviction — 2026-06-02
-- 🔴 **[CONSENSUS PT DÉPASSÉ]** $16.00 dépassé de 10.3% — upside théorique nul, risque de retracement accentué — 2026-06-02
-- 🔴 **[SIGNAL SECTORIEL NEUTRALISÉ]** `ROTATION_TO_CYCLICAL` → `NEUTRAL` — suppression du vent de queue Technology — 2026-06-02
+- 🟢 **[CASSURE MM50 CONFIRMÉE]** Cours $17.57 > MM50 $14.71 (+19.4%) — signal technique intact — 2026-06-02
+- 🟢 **[BREAK 52-WEEK HIGH]** 52w high $17.97 proche — break testé mais non confirmé à 21h — 2026-06-02
+- 🟡 **[RSI SURACHAT SEVERE]** 71.77 > 70 — timing défavorable, malus technique majeur, légèrement atténué vs 17h — 2026-06-02
+- 🟡 **[VOLUME SOUS-MOYENNE PERSISTANT]** 954,557 = 0.719× moyenne 20j — recovery significative (+227% vs 17h) mais toujours sous moyenne — 2026-06-02
+- 🔴 **[CONSENSUS PT DÉPASSÉ]** $16.00 dépassé de 9.8% — upside théorique nul, risque de retracement accentué — 2026-06-02
 - 🟢 **[STRUCTURE OPTIONS HAUSSIÈRE CONFIRMÉE]** Max pain $20.00, Put/Call 0.22, Call OI 81.8% — signal dérivé haussier inchangé — 2026-06-02
 - 🟡 **[ROIC FAIBLE]** 3.16% — monitorer l'efficacité du capital dans les prochains filings — 2026-05-18
-- 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($796.8M Yahoo vs $446.6M FMP), P/E, EV multiples — utiliser Yahoo comme primaire — persistant
+- 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($793.4M Yahoo vs $446.6M FMP), P/E, EV multiples — utiliser Yahoo comme primaire — persistant
 - 🟡 **[LIQUIDITÉ DÉRIVÉE FAIBLE]** Faible couverture strike — prudence sur le hedging — 2026-06-02
+- 🟢 **[VOLUME COLLAPSE RÉSOLU]** 0.719× moyenne (was 0.225×) — invalidation de l'alerte volume collapse 17h — 2026-06-02

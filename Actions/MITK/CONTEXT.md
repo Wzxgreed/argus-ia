@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** validée
+- **Recommandation :** SURVEILLER
+- **Score global :** 36.5/100
+- **Prix cible :** $20.12
+- **Stop-loss :** $15.87
+- **Statut thèse :** modifiée (ÉVITER → SURVEILLER)
 - **Horizon :** —
 
 ---
@@ -40,7 +40,7 @@
 - **MM 50j :** 14.71
 - **MM 200j :** —
 - **ATR 14j :** 0.85
-- **Volume moy. 20j :** 1311682
+- **Volume moy. 20j :** 1327697
 
 ---
 
@@ -49,7 +49,7 @@
 - **Date :** 2026-06-02
 - **Type :** update
 - **Fichier :** `MITK_2026-06-02_update.md`
-- **Conclusion :** > Desk : Argus-IA | Pipeline : 13:00 UTC | Données : `data/latest.json` (2026-06-02T13:00:13Z) | Score Global Ajusté : **33.8/100** | Action : **ÉVITER**
+- **Conclusion :** > Desk : Argus-IA | Pipeline : 21:00 UTC | Données : `data/latest.json` (2026-06-02T21:00:12Z) | Score Global Ajusté : **36.5/100** | Action : **SURVEILLER** | Thèse modifiée (ÉVITER → SURVEILLER) sur recovery volume +227% (954K vs 292K à 17h), RSI 71.77 légèrement atténué, consensus PT dépassé réduit à 9.8%
 
 ---
 
