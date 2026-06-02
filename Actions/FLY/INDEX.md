@@ -1,7 +1,7 @@
 # FLY
 
 ## Thèse courante
-**ATTENDRE** (56.8) — Cours corrigé à $44.24 (-4.84% vs prior close $46.49, -26.6% vs $60.32), volume élevé 16.13M (1.69x moy. 20j), RSI 56.81 neutre, low $39.75 support tenu, MM50 $37.39 intacte (snapshot 21:00 UTC 01/06). Rebond de clôture +5.6% depuis le low 17h UTC sur volume élevé. Fondamentaux inchangés et défavorables (Filtre Qualité 2/6, Forward P/E -37.73, EV/Revenue 37.6x [DONNÉES PARTIELLES]). Score Opportunité 5.2/10, Score Global Ajusté 56.8. Consensus PT $42.45 **-4.0% sous le spot** (11 analystes). Options stables : max pain $42.00, put/call 0.83 (pessimisme léger), call OI 54.6% (quasi équilibré), expiration 2026-06-05 dans 4 jours — spot au-dessus du max pain, risque de pin atténué. Headwind sectoriel XLI sous-performant SPY (RS 20j -5.58%). Short Interest 9.78% stable. Divergence Yahoo/FMP sur Market Cap ($7.09B vs $3.40B) et P/B (6.41 vs 2.86) persistante — [DONNÉES PARTIELLES]. **Pas de position recommandée — ATTENDRE.** Prochain catalyst : earnings Q2 2026 le 2026-08-04 (64 jours).
+**ATTENDRE** (56.8) — Cours stable à $44.24 (-4.84% vs prior close $46.49, -26.6% vs $60.32), volume élevé 16.22M (1.70x moy. 20j), RSI 56.81 neutre, low $39.75 support tenu, MM50 $37.39 intacte (snapshot 13:00 UTC 02/06). Stabilité totale vs close 01/06. Fondamentaux inchangés et défavorables (Filtre Qualité 2/6, Forward P/E -37.73, EV/Revenue 35.6x [DONNÉES PARTIELLES]). Score Opportunité 5.2/10, Score Global Ajusté 56.8. Consensus PT $42.45 **-4.0% sous le spot** (11 analystes). Options repositionnées : max pain $41.00 (vs $42.00), put/call 0.64 (-22.9%, moins de protection baissière), call OI 61.0% (+6.4 pts, intérêt haussier), expiration 2026-06-05 dans 3 jours — spot +7.9% au-dessus du max pain, risque de pin quasi nul. Headwind sectoriel XLI sous-performant SPY (RS 20j -5.58%). Short Interest 9.78% stable. Divergence Yahoo/FMP sur Market Cap ($7.26B vs $3.40B) et P/B (6.41 vs 2.86) persistante — [DONNÉES PARTIELLES]. **Pas de position recommandée — ATTENDRE.** Prochain catalyst : earnings Q2 2026 le 2026-08-04 (63 jours).
 
 ## Historique
 | Date | Fichier | Type |
@@ -24,16 +24,17 @@
 | 2026-06-01 | [FLY_2026-06-01_update.md](FLY_2026-06-01_update.md) | **Mise à jour 21:00 UTC (close)** — Rebond de clôture +5.6% depuis le low $39.75 (17h), volume global 16.13M (1.69x), RSI 56.81 neutre. Spot repasse au-dessus du max pain ($42.00) et du consensus ($42.45). Agent ATTENDRE (56.8). Thèse défavorable confirmée, intensité modifiée (moins négative). |
 | 2026-06-01 | [FLY_2026-06-01_update_13h.md](FLY_2026-06-01_update_13h.md) | **Mise à jour 13:00 UTC** — Données options restaurées post-expiration (max pain $42.00, put/call 0.83, call OI 54.6%). Cours stable $46.49. Thèse SURVEILLER (45.8) confirmée avec lisibilité technique rétablie. |
 | 2026-06-01 | [FLY_2026-06-01_update_17h.md](FLY_2026-06-01_update_17h.md) | **Mise à jour 17:00 UTC** — Nouvelle baisse -9.87% à $41.90, low $39.75 approche MM50 $37.34, volume normalisé 9.77M (1.06x). Agent SURVEILLER (45.8) → **ATTENDRE (55.5)**. Consensus désormais +1.3% au-dessus du spot. Thèse modifiée en intensité. |
+| 2026-06-02 | [FLY_2026-06-02_update.md](FLY_2026-06-02_update.md) | **Mise à jour 13:00 UTC** — Stabilité totale vs close 01/06 (cours $44.24 inchangé, RSI 56.81, volume 16.22M 1.70x). **Mutation options haussière** : max pain $41.00 (−2.4%), put/call 0.64 (−22.9%), call OI 61.0% (+6.4 pts). Spot +7.9% au-dessus du max pain, risque de pin quasi nul. Agent **ATTENDRE (56.8) confirmé**. Thèse défavorable confirmée, repositionnement options atténue le risque de pin. |
 
 ## Agenda
-- Prochain earnings : **2026-08-04** (Q2 2026) — Est EPS -$0.47 à -$0.45, Rev $0.1B (64 jours)
+- Prochain earnings : **2026-08-04** (Q2 2026) — Est EPS -$0.47 à -$0.45, Rev $0.1B (63 jours)
 - ~~Expiration options : **2026-05-29** (passée)~~
-- Expiration options : **2026-06-05** (4 jours) — max pain $42.00 vs spot $44.24
+- Expiration options : **2026-06-05** (3 jours) — max pain $41.00 vs spot $44.24
 
 ## Alertes actives
 - ~~**DEUXIÈME GAP NON EXPLIQUÉ** — Deuxième gap haussier consécutif : +17.57% à $58.20 (2026-05-26 17:00 UTC) après +15.49% à $49.50 (2026-05-25/26). Cumul +35.8% en 2 sessions sans catalyst. Risque de gap fill élevé.~~ **EFFACÉ** — Gap fill matérialisé : cours retombé à $41.90 (-30.5% vs 27/05), rebond de clôture à $44.24.
 - ~~**RSI EXTRÊME** — RSI 14j 81.11 (snapshot 17:00 UTC). Surachat extrême, vulnérabilité à un retournement violent.~~ **RÉSOLU** — RSI 56.81 (snapshot 01/06 21h), normalisation complète.
 - ~~**ANOMALIE DATA OPTIONS** — Snapshot 01/06 10h : max pain $20.00 aberrant, put/call null, call OI null. [DONNÉES PARTIELLES] post-expiration 29/05.~~ **RÉSOLUE** — Snapshot 13h/17h/21h : max pain $42.00, put/call 0.83, call OI 54.6%, expiration 2026-06-05.
 - **SHORT INTEREST ÉLEVÉ** — 9.78% stable. Pression vendeuse persistante, pas de setup squeeze.
-- ~~**PIN RISK OPTIONS** — Expiration 2026-06-05 dans 4 jours, max pain $42.00 vs spot $41.90. Spot légèrement sous le max pain — aimant mécanique vers $42.00 à surveiller.~~ **ATTÉNUÉ** — Spot $44.24 repasse au-dessus du max pain $42.00. Risque de pin négatif réduit.
+- ~~**PIN RISK OPTIONS** — Expiration 2026-06-05 dans 4 jours, max pain $42.00 vs spot $41.90. Spot légèrement sous le max pain — aimant mécanique vers $42.00 à surveiller.~~ **RÉSOLU** — Max pain ajusté à $41.00, spot $44.24 à +7.9% au-dessus. Put/call 0.64, call OI 61.0%. Risque de pin négatif quasi nul.
 - ~~**APPROCHE MM50** — Low $39.75 à seulement $1.59 de la MM50 ($37.34). Cassure = retour vers $35 et tendance haussière MT remise en cause.~~ **ATTÉNUÉ** — Support $39.75 tenu, clôture $44.24, MM50 $37.39 intacte.
