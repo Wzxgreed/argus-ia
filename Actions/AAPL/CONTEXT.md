@@ -36,7 +36,8 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q3 FY2026 :** 2026-07-30 (58 jours) — Est EPS $1.83–$1.99, Rev $109.0B
+- **Expiration options hebdomadaire :** 2026-06-03 (demain) — gamma risk concentré autour de $315.00
 
 ---
 
