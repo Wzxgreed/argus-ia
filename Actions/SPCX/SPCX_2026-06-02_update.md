@@ -1,31 +1,31 @@
-# SPCX (SPAC ETF) — Mise à jour post-pipeline 2026-06-02 (snapshot 17h UTC)
+# SPCX (SPAC ETF) — Mise à jour post-pipeline 2026-06-02 (snapshot 21h UTC)
 
 **Date :** 2026-06-02
-**Type :** Mise à jour post-pipeline — snapshot 17h UTC
-**Analyse précédente :** snapshot 13h UTC 2026-06-02
+**Type :** Mise à jour post-pipeline — snapshot 21h UTC
+**Analyse précédente :** snapshot 17h UTC 2026-06-02
 
 ---
 
 ## Résumé des changements depuis l'analyse précédente
 
-| Donnée | Précédent (13h UTC 02/06) | Actuel (17h UTC 02/06) | Changement |
+| Donnée | Précédent (17h UTC 02/06) | Actuel (21h UTC 02/06) | Changement |
 |--------|--------------------------|------------------------|------------|
-| Cours close | $22.0801 | N/A | 🔴 **Perte totale du flux de prix** |
-| Volume | 196 | N/A | Indisponible |
-| Source | `fmp_fallback` | `error` | 🔴 Yahoo et FMP indisponibles |
-| RSI 14j | N/A | N/A | = [DONNÉES MANQUANTES] |
-| ATR 14j | N/A | N/A | = [DONNÉES MANQUANTES] |
-| MM 50j | N/A | N/A | = [DONNÉES MANQUANTES] |
+| Cours close | N/A | N/A | = |
+| Volume | N/A | N/A | = |
+| Source | `error` | `error` | = |
+| RSI 14j | N/A | N/A | = |
+| ATR 14j | N/A | N/A | = |
+| MM 50j | N/A | N/A | = |
 | Recommandation agent | ATTENDRE | ATTENDRE | = |
-| Score Opportunité | 5.4/10 | **5.5/10** | +0.1 |
+| Score Opportunité | 5.5/10 | 5.5/10 | = |
 | Score Catalyseur | 6.5/10 | 6.5/10 | = |
 | Score Valorisation | 5.0/10 | 5.0/10 | = |
-| Score Momentum | 4.5/10 | **5.0/10** | +0.5 (mécanique) |
-| **Score Global Ajusté** | **54.0/100** | **55.2/100** | **+1.2** |
+| Score Momentum | 5.0/10 | 5.0/10 | = |
+| **Score Global Ajusté** | **55.2/100** | **55.2/100** | = |
 | Timing | Neutre | Neutre | = |
-| Signal sectoriel | `ROTATION_TO_CYCLICAL` | **`NEUTRAL`** | 🔴 **Dégradation** |
+| Signal sectoriel | `NEUTRAL` | `NEUTRAL` | = |
 
-**Verdict :** Dégradation data majeure. Le snapshot 17h UTC perd totalement le prix FMP qui subsistait à 13h (`error: No price history`). Le Score Global Ajusté remonte mécaniquement à **55.2/100** (+1.2 pt) via un ajustement placeholder du Score Momentum, mais ce réajustement n'est pas fondé sur des données de marché. Le signal sectoriel passe de `ROTATION_TO_CYCLICAL` à `NEUTRAL`. Le setup devient **totalement non-actionnable**.
+**Verdict :** Aucun changement. Six snapshots consécutifs (10h/17h/21h UTC 01/06 et 13h/17h/21h UTC 02/06) sans aucune donnée de prix, volume ou technique pour SPCX. Le setup reste **totalement non-actionnable**.
 
 ---
 
@@ -37,7 +37,7 @@
   "ticker": "SPCX",
   "error": true,
   "reason": "No price history",
-  "timestamp": "2026-06-02T17:00:16.686636+00:00"
+  "timestamp": "2026-06-02T21:00:15.012142+00:00"
 }
 ```
 Aucune métrique technique, prix, volume, ni historique n'est disponible sur ce snapshot.
@@ -61,7 +61,7 @@ Aucune métrique technique, prix, volume, ni historique n'est disponible sur ce 
 - Résistance immédiate : $22.10 (high du jour précédent — non confirmé)
 - Résistance : $22.85 – $23.00 (zone de congestion pré-mai)
 
-**Verdict timing :** Défavorable → **Non-actionnable**. L'absence totale de données de prix sur le snapshot 17h, après quatre snapshots consécutifs de données partielles, rend impossible toute analyse technique. Le ticker n'est plus surveillable en temps réel.
+**Verdict timing :** Défavorable → **Non-actionnable**. L'absence totale de données de prix sur six snapshots consécutifs rend impossible toute analyse technique. Le ticker n'est plus surveillable en temps réel.
 
 ---
 
@@ -78,7 +78,7 @@ Aucune nouvelle donnée fondamentale. SPCX reste un ETF thématique SPAC/post-IP
 | Dividend yield | N/A | Non distribué |
 | Sector | Financial Services | Asset Management |
 
-**Sector rotation :** `data/sector_rotation_2026-06-02.json` enregistre un signal dégradé **`NEUTRAL`** (was `ROTATION_TO_CYCLICAL`). XLF (Financials) reste dans le `top3` mais avec un `return_20d` de **−0.17%** (vs −0.94% précédent) et un `momentum_score` de **0.0** — pas de catalyseur sectoriel exploitable. XLK (Technology) domine toujours avec `momentum_score` 10.0. Le secteur Financials affiche un `rs_20d` de **−5.99%** (sous-performant vs SPY).
+**Sector rotation :** `data/sector_rotation_2026-06-02.json` enregistre un signal **`NEUTRAL`**. XLF (Financials) reste dans le `top3` mais avec un `return_20d` de **−0.23%** et un `momentum_score` de **0.0** — pas de catalyseur sectoriel exploitable. XLK (Technology) domine toujours avec `momentum_score` 10.0. Le secteur Financials affiche un `rs_20d` de **−6.02%** (sous-performant vs SPY).
 
 ---
 
@@ -100,16 +100,16 @@ Aucune nouvelle donnée fondamentale. SPCX reste un ETF thématique SPAC/post-IP
 
 ---
 
-## Scoring global (agents pipeline 2026-06-02, snapshot 17h UTC)
+## Scoring global (agents pipeline 2026-06-02, snapshot 21h UTC)
 
-| Axe | Score | Changement vs 13h | Commentaire |
+| Axe | Score | Changement vs 17h | Commentaire |
 |-----|-------|-------------------|-------------|
 | Score Catalyseur | 6.5/10 | = | Modéré-haussier — absence de catalyseur fondamental |
 | Score Valorisation | 5.0/10 | = | Neutre |
-| Score Momentum | **5.0/10** | +0.5 | ⚠️ Réajustement mécanique (placeholder), non fondé sur données de marché |
-| **Score Opportunité** | **5.5/10** | +0.1 | Pondération régime Unknown : C×35% + V×40% + M×25% |
-| **Score Global** | **55.2/100** | +1.2 | Avant ajustements |
-| **Score Global Ajusté** | **55.2/100** | +1.2 | Aucun bonus/malus appliqué |
+| Score Momentum | 5.0/10 | = | ⚠️ Réajustement mécanique (placeholder), non fondé sur données de marché |
+| **Score Opportunité** | **5.5/10** | = | Pondération régime Unknown : C×35% + V×40% + M×25% |
+| **Score Global** | **55.2/100** | = | Avant ajustements |
+| **Score Global Ajusté** | **55.2/100** | = | Aucun bonus/malus appliqué |
 
 **Malus / Bonus appliqués (par Agent Recommandation) :**
 - Accounting : 0 (ETF non concerné)
@@ -147,7 +147,7 @@ Aucune nouvelle donnée fondamentale. SPCX reste un ETF thématique SPAC/post-IP
 
 ## Conclusion : thèse confirmée, modifiée ou invalidée ?
 
-**Verdict :** 🟡 Thèse **CONFIRMÉE** en état **ATTENDRE** — mais avec une dégradation data majeure qui renforce le caractère non-actionnable.
+**Verdict :** 🟡 Thèse **CONFIRMÉE** en état **ATTENDRE** — six snapshots consécutifs sans données, setup totalement non-actionnable.
 
 | Critère | Évaluation |
 |---------|------------|
@@ -157,11 +157,11 @@ Aucune nouvelle donnée fondamentale. SPCX reste un ETF thématique SPAC/post-IP
 | Catalyseur | 🟡 Aucun fondamental — signal purement technique, suspendu |
 | Risque technique | 🔴 Données absentes = risque non quantifiable |
 | Score Global | 🔴 55.2/100 → reclassement ATTENDRE maintenu |
-| Source données | 🔴 **Erreur totale** : Yahoo et FMP indisponibles sur snapshot 17h |
-| Signal sectoriel | 🟡 `NEUTRAL` (was ROTATION_TO_CYCLICAL) — pas d'impact concret |
+| Source données | 🔴 **Erreur totale persistante** : Yahoo et FMP indisponibles sur 6 snapshots |
+| Signal sectoriel | 🟡 `NEUTRAL` — pas d'impact concret |
 
-- **Confirmation :** La recommandation **ATTENDRE** est maintenue. Aucun nouveau signal technique, fondamental ni de sentiment n'est apparu. Le setup technique du 27/05 (au-dessus MM50, RSI 59.07) reste suspendu. Le Score Global Ajusté progresse mécaniquement de 54.0 à 55.2, mais ce réajustement est un artefact de l'Agent Recommandation en l'absence de données de marché.
-- **Nuances :** Le passage du signal sectoriel à `NEUTRAL` neutralise encore davantage tout catalyseur sectoriel. XLF reste dans le top3 mais sans momentum (0.0). Aucune news, événement corporate, flux options ni social n'est détecté.
+- **Confirmation :** La recommandation **ATTENDRE** est maintenue. Aucun nouveau signal technique, fondamental ni de sentiment n'est apparu sur ce snapshot. Le setup technique du 27/05 (au-dessus MM50, RSI 59.07) reste suspendu. Le Score Global Ajusté de 55.2/100 est un artefact mécanique de l'Agent Recommandation en l'absence de données de marché.
+- **Nuances :** Le signal sectoriel `NEUTRAL` persiste. XLF reste dans le top3 mais sans momentum (0.0). Aucune news, événement corporate, flux options ni social n'est détecté sur ce snapshot.
 - **Rétablissement :** Un snapshot futur avec **données de prix complètes** (Yahoo ou FMP), volume > 1 000 unités, et métriques techniques (RSI, ATR, MM50) justifierait une réévaluation. Un retour du Score Momentum à ≥ 6.0/10 relancerait le setup.
 - **Invalidation définitive :** Si le flux de prix ne revient pas sur les prochains snapshots → reclassement **ÉVITER** (ticker non surveillable). Si le prochain prix disponible confirme une clôture sous $21.32 (52w low) → **ÉVITER**.
 
@@ -169,7 +169,7 @@ Aucune nouvelle donnée fondamentale. SPCX reste un ETF thématique SPAC/post-IP
 **Prix cible :** N/A (données insuffisantes)
 **Stop-loss :** N/A (prix et ATR absents)
 **Horizon :** —
-**Conviction :** Très faible — setup technique suspendu par absence totale de données fiables sur cinq snapshots consécutifs. Le passage de `fmp_fallback` à `error: No price history` est un signal d'alerte sur la qualité du flux. Attendre un snapshot avec prix confirmé avant toute réévaluation.
+**Conviction :** Très faible — setup technique suspendu par absence totale de données fiables sur six snapshots consécutifs. Le flux Yahoo et FMP restent indisponibles. Attendre un snapshot avec prix confirmé avant toute réévaluation.
 
 ---
 
@@ -177,7 +177,7 @@ Aucune nouvelle donnée fondamentale. SPCX reste un ETF thématique SPAC/post-IP
 
 | Signal | Valeur actuelle | vs Normal | Interprétation |
 |--------|----------------|-----------|----------------|
-| Volume journalier | N/A | 🔴 Extrême anomalie | Données totalement indisponibles sur snapshot 17h |
+| Volume journalier | N/A | 🔴 Extrême anomalie | Données totalement indisponibles sur snapshot 21h |
 | Short interest | N/A | — | Données non disponibles |
 | Transactions insiders | N/A | — | Non applicable (ETF) |
 | Options flow | N/A | — | Données non disponibles |
@@ -200,7 +200,7 @@ Aucune nouvelle donnée fondamentale. SPCX reste un ETF thématique SPAC/post-IP
 ## Liens
 
 - [Retour à l'index du dossier](./INDEX.md)
-- Analyse précédente : snapshot 13h UTC 02/06
+- Analyse précédente : snapshot 17h UTC 02/06
 - Alertes actives : [Alertes/ALERTES.md](../../Alertes/ALERTES.md)
 
 ---
@@ -212,5 +212,5 @@ Aucune nouvelle donnée fondamentale. SPCX reste un ETF thématique SPAC/post-IP
 - Prix cible révisé : **N/A** (données insuffisantes)
 - Recommandation précédente : ATTENDRE
 - Recommandation révisée : **ATTENDRE**
-- Raison principale : Snapshot 17h UTC 02/06 : erreur totale data/latest.json (`No price history`) — Yahoo et FMP indisponibles, Score Global 55.2/100 (+1.2 pt mécanique), signal sectoriel dégradé NEUTRAL (was ROTATION_TO_CYCLICAL), aucun catalyseur ni news
-- Thèse : 🟡 Confirmée (statu quo non-actionnable, dégradation data)
+- Raison principale : Snapshot 21h UTC 02/06 : erreur totale data/latest.json (`No price history`) persistante — 6e snapshot consécutif sans prix, Score Global 55.2/100 (inchangé, artefact mécanique), signal sectoriel NEUTRAL, aucun catalyseur ni news
+- Thèse : 🟡 Confirmée (statu quo non-actionnable, dégradation data persistante)
