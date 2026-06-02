@@ -46,10 +46,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-01
-- **Type :** init
-- **Fichier :** `AAPL_2026-06-01_update_21h.md`
-- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-01 21:00 UTC) + agents quant, geo, accounting, sector, social, FX, watchman, events, recommandation
+- **Date :** 2026-06-02
+- **Type :** update
+- **Fichier :** `AAPL_2026-06-02_update.md`
+- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-02 10:00 UTC) + agents quant, geo, accounting, sector, social, FX, watchman, events, recommandation
 
 ---
 

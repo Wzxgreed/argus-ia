@@ -46,10 +46,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-01
+- **Date :** 2026-06-02
 - **Type :** update
-- **Fichier :** `ASTS_2026-06-01_update.md`
-- **Conclusion :** **Thèse confirmée : SURVEILLER — rebond technique +2,82% à $105,65 sur volume normalisé, RSI 61,89, divergence consensus re-creusée à −10,5%
+- **Fichier :** `ASTS_2026-06-02_update.md`
+- **Conclusion :** **Thèse confirmée : SURVEILLER — stabilité totale vs snapshot 21h 2026-06-01 à $105,65, RSI 61,89, volume normalisé 1,00×, divergence consensus −10,5% stable, mais anomalie data quality options détectée (Max Pain $40 aberrant, Put/Call et Call OI null)
 
 ---
 

@@ -10,7 +10,7 @@
 - **Recommandation :** —
 - **Score global :** —/10
 - **Prix cible :** $—
-- **Stop-loss :** $43.34
+- **Stop-loss :** $43.08
 - **Statut thèse :** —
 - **Horizon :** —
 

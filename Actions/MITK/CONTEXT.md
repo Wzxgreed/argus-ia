@@ -7,10 +7,10 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ÉVITER
-- **Score global :** 33.8/100
-- **Prix cible :** $— (consensus PT dépassé de 11.7%)
-- **Stop-loss :** $16.15
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
 - **Statut thèse :** validée
 - **Horizon :** —
 
@@ -24,19 +24,13 @@
 
 ## 🚨 Alertes actives
 
-- 🔴 RSI surachat sévère (71.66 > 70) — timing défavorable
-- 🔴 Consensus PT dépassé ($16.00 < $17.87, +11.7%) — upside théorique nul
-- 🟡 Volume faible persistant (0.68× moyenne 20j) — rally sans conviction
-- 🟡 Anomalie options data quality (max pain JSON $2.50 aberrant)
-- 🟡 ROIC faible (3.16%)
-- 🟡 Divergence Yahoo/FMP (market cap $807M vs $447M)
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- Earnings Q3 FY2026 : 2026-08-06 (65j) — Est EPS $0.24–$0.34, Rev ~$0.1B
-- Expiration options : 2026-06-18 (16j)
+- Aucun événement à venir.
 
 ---
 
@@ -55,7 +49,7 @@
 - **Date :** 2026-06-02
 - **Type :** update
 - **Fichier :** `MITK_2026-06-02_update.md`
-- **Conclusion :** Thèse ÉVITER confirmée. Stabilité totale vs close 01/06 (cours $17.87 inchangé, RSI 71.66 surachat persistant, ATR 0.86 stable). Volume légèrement supérieur (904K vs 887K, 0.68× moyenne). Score Global Ajusté 33.8/100 inchangé. Action ÉVITER, timing Défavorable. Aucun événement corporate, aucune news structurante.
+- **Conclusion :** > Desk : Argus-IA | Pipeline : 10:00 UTC | Données : `data/latest.json` (2026-06-02T10:00:12Z) | Score Global Ajusté : **33.8/100** | Action : **ÉVITER**
 
 ---
 

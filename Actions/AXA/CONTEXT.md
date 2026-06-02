@@ -40,7 +40,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 
 ## 📅 Prochains événements
 
-- **2026-06-02** · earnings · Earnings J0 FMP sans détails exploitables
+- **2026-06-02** · earnings · Earnings ...
 
 ---
 
@@ -59,7 +59,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 - **Date :** 2026-06-02
 - **Type :** update
 - **Fichier :** `AXA_2026-06-02_update.md`
-- **Conclusion :** 23e snapshot consécutif sans mutation des données AXA. Stabilité totale sectorielle XLF vs close 01/06. Earnings J0 FMP glissant sans détails — 8e jour consécutif. Thèse ATTENDRE confirmée (Score Global 55.2/100). Action : corriger le symbole (`CS.PA` ou `AXAHY`) et relancer le fetch.
+- **Conclusion :** > **Date :** 2026-06-02
 
 ---
 
