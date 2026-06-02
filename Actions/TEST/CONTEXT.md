@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $43.65
-- **Statut thèse :** —
-- **Horizon :** —
+- **Recommandation :** ACHETER (Réduit)
+- **Score global :** 66.0/100
+- **Prix cible :** $49.02
+- **Stop-loss :** $43.82
+- **Statut thèse :** Confirmée et renforcée
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -30,26 +30,30 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-02** · earnings · Earnings ...
+- **2026-06-02** · earnings · Earnings (JOUR J — résultats non observables à 21:00 UTC, 19 jours de flag cumulés)
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 45.13
+- **RSI 14j :** 45.68
 - **MM 50j :** 43.63
 - **MM 200j :** —
-- **ATR 14j :** 1.03
+- **ATR 14j :** 1.04
 - **Volume moy. 20j :** 2187
+- **Volume session :** 1645 (0.75× moyenne)
+- **Cours :** $45.9006
+- **Previous close :** $45.342
+- **Change vs previous close :** +1.23%
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-02
-- **Type :** preview
-- **Fichier :** `TEST_2026-06-02_preview.md`
-- **Conclusion :** > **Date :** 2026-06-02
+- **Type :** update (snapshot 21:00 UTC)
+- **Fichier :** `TEST_2026-06-02_update_21h.md`
+- **Conclusion :** ACHETER (Réduit) confirmé et renforcé. Score Global 66.0/100 (+4.5 pts vs 17h). Cours $45.90 (+1.23% vs previous close), RSI 45.68 (+1.0 pt), volume 1,645 (0.75× avg) en récupération. Momentum 7.3/10 (+1.8 pts). Pas de fondamentaux. Earnings JOUR J non observables.
 
 ---
 
