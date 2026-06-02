@@ -9,7 +9,7 @@
 
 ## Thèse courante
 
-**Recommandation :** SURVEILLER *(confirmée — légèrement dégradée)*
+**Recommandation :** SURVEILLER *(confirmée — stable)*
 **Score global ajusté :** 40.0/100
 **Prix cible consensus :** $9.05 (11 analysts)
 **Prix cible technique :** $3.99 (3×ATR)
@@ -17,7 +17,7 @@
 **Statut :** Thèse non établie — profil spéculatif biotech pré-profit, Filtre Qualité 2/6
 **Horizon :** 6–12 mois (dépendant des catalyseurs cliniques)
 
-**Résumé :** CTMX est une biotech en phase clinique avancée (plateforme Probody) avec des partenariats de qualité (AbbVie, BMS, Amgen). Le snapshot 21h UTC du 2026-06-01 enregistre une **accélération baissière** : cours $3.45 (−4.17% séance, low $3.375), volume explosant à **2.05× la moyenne 20j** (6.69M vs 3.27M), RSI **33.06** en survente extrême renforcée, MM50 descendante à **$4.18** (écart −17.5%). Le short interest reste élevé à **16.23%**. La structure options est stable (Max Pain $4.00, Put/Call 0.92, Call OI 52.2%). Le consensus analystes reste constructif (PT $9.05, +162% upside) mais le volume de distribution massive et le momentum sectoriel négatif (XLV) freinent l'attrait immédiat. Le Filtre Qualité 2/6 plafonne le score Valorisation. Les scores agents ont été révisés à la baisse (Score Global Ajusté 40.0/100, Score Momentum 2.5/10). Pas de position recommandée en l'absence de catalyseur clinique confirmé.
+**Résumé :** CTMX est une biotech en phase clinique avancée (plateforme Probody) avec des partenariats de qualité (AbbVie, BMS, Amgen). Le snapshot 13h UTC du 2026-06-02 enregistre une **stabilité totale** des données cours/technique par rapport à la clôture du 2026-06-01 : cours **$3.45** (marché non ouvert), RSI **33.06** (survente extrême maintenue), volume **2.05×** (distribution massive de la veille confirmée), MM50 **$4.18** (écart −17.5%). Le short interest reste élevé à **16.23%**. La structure options a légèrement dégradé (Put/Call **1.0**, Call OI **49.9%**) à l'approche de l'expiration du 2026-06-18. Le consensus analystes reste constructif (PT $9.05, +162% upside) mais le momentum sectoriel négatif (XLV) freine l'attrait immédiat. Le Filtre Qualité 2/6 plafonne le score Valorisation. Les scores agents sont inchangés (Score Global Ajusté 40.0/100, Score Momentum 2.5/10). Pas de position recommandée en l'absence de catalyseur clinique confirmé.
 
 ---
 
@@ -30,6 +30,7 @@
 | 2026-05-27 | `CTMX_2026-05-27_update.md` | Mise à jour snapshot 17:00 UTC | Mutation haussière +4.61% à $3.86, RSI 38.46, volume effondré 0.33×, scores révisés à la hausse (Score Global Ajusté 48.8/100, +1.3 pt), SL/TP révisés $3.46/$4.46, SURVEILLER confirmé |
 | 2026-06-01 | `CTMX_2026-06-01_update.md` | Mise à jour snapshot 17:00 UTC | Distribution accélérée −2.08% à $3.525 (low $3.375), volume 1.38× (au-dessus moyenne 20j), RSI 35.24 (survente extrême maintenue), MM50 $4.19 (écart −15.9%), short interest 16.23% stable, options stables, scores inchangés (Score Global Ajusté 47.5/100), SL/TP révisés $3.17/$4.07, SURVEILLER confirmé avec nuance technique dégradée par le volume vendeur |
 | 2026-06-01 | `CTMX_2026-06-01_update.md` | Mise à jour snapshot **21:00 UTC** | Accélération baissière −4.17% à $3.45 (low $3.375), volume **2.05×** (distribution massive en clôture), RSI **33.06** (survente extrême renforcée), MM50 $4.18 (écart −17.5%), scores révisés à la baisse (**Score Global Ajusté 40.0/100**, −7.5 pts ; Score Momentum **2.5/10**, −1.0 pt), SL/TP révisés **$3.09/$3.99**, SURVEILLER confirmée, timing défavorable |
+| 2026-06-02 | `CTMX_2026-06-02_update.md` | Mise à jour snapshot 13:00 UTC | **Stabilité totale** cours/technique vs clôture 2026-06-01 (marché non ouvert), cours $3.45 stable, RSI 33.06 stable, volume 2.05× stable, options légèrement dégradées (put/call 1.0 vs 0.92, call OI 49.9% vs 52.2%) — rebalancing pré-expiration, scores inchangés (**Score Global Ajusté 40.0/100**), SL/TP inchangés $3.09/$3.99, SURVEILLER confirmée, timing défavorable |
 
 ---
 
@@ -42,11 +43,12 @@
 
 ## Alertes actives
 
-- 🔴 **[NOUVEAU 2026-06-01 21h]** Distribution massive — volume 2.05× moyenne 20j en clôture, low $3.375
-- 🔴 **[NOUVEAU 2026-06-01 21h]** RSI 33.06 — survente extrême renforcée
-- 🔴 **[NOUVEAU 2026-06-01 21h]** Score Global Ajusté 40.0/100 — sous seuil institutionnel (50), révision à la baisse
-- 🔴 **[NOUVEAU 2026-06-01]** Short interest 16.23% — hausse de +0.73 pp, shorts accumulent sur la baisse
-- 🔴 **[NOUVEAU 2026-06-01]** Cours sous MM50 ($4.18) avec écart −17.5%
+- 🔴 Distribution massive (veille 2026-06-01) — volume 2.05× moyenne 20j en clôture, low $3.375
+- 🔴 RSI 33.06 — survente extrême maintenue
+- 🔴 Score Global Ajusté 40.0/100 — sous seuil institutionnel (50)
+- 🔴 Short interest 16.23% — accumulation shorts confirmée
+- 🔴 Cours sous MM50 ($4.18) avec écart −17.5%
+- 🟡 **[NOUVEAU 2026-06-02]** Options — rebalancing pré-expiration (put/call 1.0, call OI 49.9%)
 - 🔴 Migration ticker CYTOMX → CTMX complétée le 2026-05-26. `config/watchlist.json` corrigé.
 - [WARNING] Biotech pré-revenue — scoring standard peu fiable
 - [WARNING] XLV (Healthcare) momentum 0.0 / RS négative — headwind sectoriel
