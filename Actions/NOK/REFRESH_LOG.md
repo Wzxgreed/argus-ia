@@ -1206,16 +1206,8 @@ Snapshot 2026-06-01 10:00 UTC. Cours $14.84 (−2.88% vs previous close, −5.47
 - price_gap (medium) : Gap +9.50% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.40% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Aucune mutation vs snapshot 21h 01/06. Update 10:00 UTC suffisant.
 
----
-
-## 2026-06-02 — Full Refresh Triggered
-
-**Triggers :**
-- price_gap (medium) : Gap +9.50% overnight (seuil ±5.0%)
-- atr_spike (medium) : ATR relatif 6.40% (seuil 5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
+Snapshot 2026-06-02 10:00 UTC. Cours **$16.25** strictement inchangé vs snapshot 21h 01/06. Volume révisé **171.8M** (1.45× moyenne 20j, +6.0% vs 162.1M au snapshot 21h). RSI 62.59, ATR $1.04, MM50 $11.53 — tous inchangés. Données options corrompues dans `data/latest.json` (max pain $2.00 aberrant, put/call et call OI nuls) — valeurs opérationnelles du snapshot 21h 01/06 conservées (max pain $13.50, put/call 0.46, call OI 68.5%). Pin risk extrême maintenu : cours +20.4% au-dessus du max pain, expiration dans 3 jours (05/06). Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun upgrade/downgrade. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $9.26 stable à +75.5%. P/E Yahoo 101.56, forward P/E 33.32. Score Opportunité 4.5/10. Score Global ajusté 50.5/100 — **ATTENDRE** confirmé. SL/TP inchangés $14.17/$19.37. Le DRAFT_refresh du 02/06 est archivé car les triggers PRICE_GAP et ATR_SPIKE datent du 01/06 et ont déjà été traités. L'update quotidien suffit.
 
 ---

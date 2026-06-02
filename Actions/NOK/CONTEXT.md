@@ -62,9 +62,9 @@ Snapshot 10h UTC : cours **$16.25** (strictement inchangé vs snapshot 21h 01/06
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-02
-- **Type :** full refresh
-- **Fichier :** `NOK_2026-06-02_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-02
+- **Type :** update
+- **Fichier :** `NOK_2026-06-02_update.md`
+- **Conclusion :** Thèse confirmée — aucune mutation significative vs snapshot 21h 01/06. Cours $16.25 inchangé, volume révisé 171.8M (1.45×). Données options corrompues dans latest.json (max pain $2.00 aberrant) — valeurs opérationnelles $13.50 conservées. Pin risk extrême maintenu (expiration 05/06 dans 3 j). Score Global ajusté 50.5/100 — ATTENDRE confirmé.
 
 ---
 
