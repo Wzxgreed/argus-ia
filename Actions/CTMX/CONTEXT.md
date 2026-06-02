@@ -15,7 +15,7 @@
 **Statut :** Thèse non établie — profil spéculatif biotech pré-profit, Filtre Qualité 2/6
 **Horizon :** 6–12 mois (dépendant des catalyseurs cliniques)
 
-**Résumé :** CTMX est une biotech en phase clinique avancée (plateforme Probody) avec des partenariats de qualité (AbbVie, BMS, Amgen). Le snapshot 17h UTC du 2026-06-02 enregistre une **accélération baissière de 8.55%** à **$3.155** (low $3.15), portant le RSI à **25.59** (survente extrême accentuée) et l'écart sous MM50 à **−24.2%** ($4.16). Le volume a chuté de 2.05× à **0.53×** (collapse alarmant), signalant un épuisement potentiel des vendeurs. Paradoxalement, la chute a fait remonter le **Score Global Ajusté à 52.5/100** (+12.5 pts), portant la recommandation de **SURVEILLER à ATTENDRE** — l'amélioration du profil risque/rendement asymétrique (upside consensus +187%) et la révision du Score Momentum à **3.5/10** (+1.0 pt) par l'agent Recommandation expliquent cette inflexion, bien que le timing technique reste défavorable. Le signal sectoriel est neutralisé **NEUTRAL** (was ROTATION_TO_CYCLICAL). Le short interest stable à **16.23%** confirme que les shorts maintiennent leurs positions. Aucune position recommandée en l'absence de catalyseur clinique confirmé.
+**Résumé :** CTMX est une biotech en phase clinique avancée (plateforme Probody) avec des partenariats de qualité (AbbVie, BMS, Amgen). Le snapshot 21h UTC du 2026-06-02 enregistre une **stabilité technique en clôture officielle** à **$3.16** (+0.16% vs 17h, −8.41% séance), portant le RSI à **25.68** (survente extrême inchangée) et l'écart sous MM50 à **−24.0%** ($4.16). La donnée structurante est la **correction du volume de 0.53× à 1.45×** : l'hypothèse d'épuisement vendeur du snapshot 17h est invalidée. L'activité soutenue en clôture (4.92M vs moy. 3.39M) traduit une distribution institutionnelle continue ou un arbitrage autour du support $3.14–$3.16. Les scores agents sont inchangés (**Score Global Ajusté 52.5/100**, Score Opportunité **5.6/10**, Score Momentum **3.5/10**). La recommandation **ATTENDRE** est confirmée, timing **Défavorable**. Le signal sectoriel reste **NEUTRAL**. Le short interest stable à **16.23%** confirme que les shorts maintiennent leurs positions. Aucune position recommandée en l'absence de catalyseur clinique confirmé.
 
 ---
 
@@ -48,11 +48,13 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 25.59
+- **RSI 14j :** 25.68
 - **MM 50j :** 4.16
 - **MM 200j :** —
 - **ATR 14j :** 0.19
-- **Volume moy. 20j :** 3368720
+- **Volume moy. 20j :** 3387722
+- **Volume rel. 20j :** 1.45×
+- **Low officiel :** 3.14
 
 ---
 
@@ -61,7 +63,7 @@
 - **Date :** 2026-06-02
 - **Type :** update
 - **Fichier :** `CTMX_2026-06-02_update.md`
-- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — ATTENDRE (MODIFIÉE DEPUIS SURVEILLER)**
+- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — ATTENDRE (CONFIRMÉE)** — Stabilité technique en clôture officielle ($3.16, +0.16% vs 17h), volume corrigé 1.45× (invalidation épuisement vendeur), RSI 25.68 stable en survente extrême, scores inchangés 52.5/100.
 
 ---
 
