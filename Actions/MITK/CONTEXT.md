@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** validée
+- **Recommandation :** ÉVITER
+- **Score global :** 33.8/100
+- **Prix cible :** $20.45 (TP ATR 3×)
+- **Stop-loss :** $16.15 (SL ATR 2×)
+- **Statut thèse :** confirmée
 - **Horizon :** —
 
 ---
@@ -24,13 +24,22 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🔴 **RSI SURACHAT SEVERE** — 71.66 > 70, timing défavorable
+- 🔴 **CONSENSUS PT DÉPASSÉ** — $16.00 dépassé de 11.7%, risque de retracement
+- 🟡 **VOLUME FAIBLARD PERSISTANT** — 904K = 0.68× moyenne 20j
+- 🟢 **STRUCTURE OPTIONS HAUSSIÈRE CONFIRMÉE** — Max pain $20.00, Put/Call 0.22, Call OI 81.8%
+- 🟢 **CASSURE MM50 CONFIRMÉE** — Cours $17.87 > MM50 $14.64 (+22.1%)
+- 🟢 **BREAK 52-WEEK HIGH** — 52w high $17.97 atteint
+- 🟢 **MOMENTUM SECTORIEL FAVORABLE** — XLK : 10.0/10 (+20.9% sur 20j)
+- 🟡 **ROIC FAIBLE** — 3.16%, efficacité du capital à prouver
+- 🟡 **DIVERGENCE YAHOO/FMP** — Market cap, P/E, EV multiples divergents
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings Q3 FY2026 : 2026-08-06 (65j)
+- Expiration options : 2026-06-18 (16j)
 
 ---
 
@@ -49,7 +58,7 @@
 - **Date :** 2026-06-02
 - **Type :** update
 - **Fichier :** `MITK_2026-06-02_update.md`
-- **Conclusion :** > Desk : Argus-IA | Pipeline : 10:00 UTC | Données : `data/latest.json` (2026-06-02T10:00:12Z) | Score Global Ajusté : **33.8/100** | Action : **ÉVITER**
+- **Conclusion :** Snapshot 13:00 UTC — stabilité totale vs 10:00 UTC ($17.87, RSI 71.66, ATR 0.86 inchangés). Anomalie options RÉSOLUE (max pain $20.00, put/call 0.22, call OI 81.8%). Thèse ÉVITER confirmée, Score Global 33.8/100, timing Défavorable.
 
 ---
 
