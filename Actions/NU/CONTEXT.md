@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score Global :** 61.0/100 (ajusté 53.0)
-- **Score Opportunité :** 6.1/10 (C:6.5 V:8.0 M:2.5)
+- **Recommandation :** ÉVITER
+- **Score Global :** 20.0/100 (ajusté 7.0)
+- **Score Opportunité :** 2.0/10 (C:6.5 V:8.0 M:2.0)
 - **Prix Cible :** $18.39 (consensus FMP, 10 analysts)
-- **Stop-Loss :** $10.79 (2×ATR)
-- **Statut Thèse :** Score ajusté sous le seuil achat réduit (53.0) — snapshot 17:00 UTC 02/06 : cours $11.845 (−8.81% vs previous close), **chute technique sévère** vs snapshot 13h ($12.99), nouveau 52W low $11.675, RSI 33.75 (−8.9 pts), ATR $0.53 (+15.1%), volume explosion 105.75M (1.73× moyenne 20j), signal sectoriel **NEUTRAL** (was ROTATION_TO_CYCLICAL), options inchangées (max pain $13.00, put/call 0.94, call OI 51.6%), timing défavorable (sous MM50 $13.97, distance −15.2%), momentum 2.5/10, fondamentaux intacts (forward P/E 10.18×, upside +55.2%)
+- **Stop-Loss :** $10.83 (2×ATR)
+- **Statut Thèse :** Score ajusté 7.0 — snapshot 21:00 UTC 02/06 : cours $11.93 (−8.16% vs previous close), **déclenchement règle de disqualification** (momentum 2.0/10 ≤ 2), liquidation after-hours 171.8M (2.67×), nouveau 52W low intraday $11.44, RSI 34.42, ATR $0.55, signal sectoriel **NEUTRAL**, options inchangées (max pain $13.00, put/call 0.94, call OI 51.6%), timing défavorable, fondamentaux intacts (forward P/E 10.26×, upside +54.2%)
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
@@ -38,26 +38,27 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q2 2026 :** 13 août 2026 (72 jours) — Est EPS $0.20–$0.27, Rev $5.4B
+- **Expiration options :** 2026-06-05 (3 jours) — max pain $13.00
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 34.18
+- **RSI 14j :** 34.42
 - **MM 50j :** 13.97
 - **MM 200j :** —
 - **ATR 14j :** 0.55
-- **Volume moy. 20j :** 64303270
+- **Volume moy. 20j :** 64368191
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-02
-- **Type :** full refresh
-- **Fichier :** `NU_2026-06-02_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-02
+- **Type :** update
+- **Fichier :** `NU_2026-06-02_update.md`
+- **Conclusion :** ÉVITER — déclenchement règle de disqualification (momentum 2.0/10 ≤ 2), liquidation after-hours 171.8M (2.67×), nouveau 52W low intraday $11.44
 
 ---
 

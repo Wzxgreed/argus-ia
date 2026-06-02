@@ -2,18 +2,19 @@
 
 ## 🎯 Thèse Courante
 
-- **Recommandation :** ATTENDRE
-- **Score Global :** 61.0/100 (ajusté 53.0)
-- **Score Opportunité :** 6.1/10 (C:6.5 V:8.0 M:2.5)
+- **Recommandation :** ÉVITER
+- **Score Global :** 20.0/100 (ajusté 7.0)
+- **Score Opportunité :** 2.0/10 (C:6.5 V:8.0 M:2.0)
 - **Prix Cible :** $18.39 (consensus FMP, 10 analysts)
-- **Stop-Loss :** $10.79 (2×ATR)
-- **Statut Thèse :** Score ajusté sous le seuil achat réduit (53.0) — snapshot 17:00 UTC 02/06 : cours $11.845 (−8.81% vs previous close), **chute technique sévère** vs snapshot 13h ($12.99), nouveau 52W low $11.675, RSI 33.75 (−8.9 pts), ATR $0.53 (+15.1%), volume explosion 105.75M (1.73× moyenne 20j), signal sectoriel **NEUTRAL** (was ROTATION_TO_CYCLICAL), options inchangées (max pain $13.00, put/call 0.94, call OI 51.6%), timing défavorable (sous MM50 $13.97, distance −15.2%), momentum 2.5/10, fondamentaux intacts (forward P/E 10.18×, upside +55.2%)
+- **Stop-Loss :** $10.83 (2×ATR)
+- **Statut Thèse :** Score ajusté 7.0 — snapshot 21:00 UTC 02/06 : cours $11.93 (−8.16% vs previous close), **déclenchement règle de disqualification** (momentum 2.0/10 ≤ 2), liquidation after-hours 171.8M (2.67×), nouveau 52W low intraday $11.44, RSI 34.42, ATR $0.55, signal sectoriel **NEUTRAL**, options inchangées (max pain $13.00, put/call 0.94, call OI 51.6%), timing défavorable, fondamentaux intacts (forward P/E 10.26×, upside +54.2%)
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
 
 | Fichier | Date | Type | Verdict |
 |---------|------|------|---------|
+| [NU_2026-06-02_update.md](NU_2026-06-02_update.md) | 2026-06-02 | Update quotidienne (snapshot 21:00 UTC) | ÉVITER — thèse **INVALIDÉE**, chute technique −8.16% à $11.93, **nouveau 52W low intraday** $11.44, liquidation after-hours 171.8M (2.67×), RSI 34.42, **déclenchement règle de disqualification** (momentum 2.0/10 ≤ 2), scores effondrés (Global 20.0, Ajusté 7.0, Opportunité 2.0), action **ATTENDRE → ÉVITER**, SL révisé $10.83 / TP $13.58 |
 | [NU_2026-06-02_update.md](NU_2026-06-02_update.md) | 2026-06-02 | Update quotidienne (snapshot 17:00 UTC) | ATTENDRE — thèse **MODIFIÉE**, chute technique −8.81% à $11.845, **nouveau 52W low** $11.675, RSI 33.75 (−8.9 pts), volume explosion 105.75M (1.73×), signal sectoriel bascule **NEUTRAL** (was ROTATION_TO_CYCLICAL), scores révisés à la baisse (Global 61.0, Ajusté 53.0, Opportunité 6.1, Momentum 2.5), SL révisé $10.79 / TP $13.44 |
 | [NU_2026-06-02_update.md](NU_2026-06-02_update.md) | 2026-06-02 | Update quotidienne (snapshot 13:00 UTC, consolidée 10h + 13h) | ATTENDRE — thèse confirmée, **stabilité totale** vs 01/06 et vs snapshot 10h (cours $12.99 inchangé, RSI 42.65, ATR $0.46, volume 59.52M/1.03×), **rotation cyclique maintenue** (`ROTATION_TO_CYCLICAL`, XLF top3), 🟢 **anomalie options RÉSOLUE** (max pain $13.00 vs aberration $5.00 au snapshot 10h, put/call 0.94 rétabli, call OI 51.6%), scores inchangés (Global 63.5, Ajusté 55.5, Opportunité 6.3, Momentum 3.5), SL $12.07 / TP $14.37 |
 | [NU_2026-06-01_update.md](NU_2026-06-01_update.md) | 2026-06-01 | Update quotidienne (snapshot 21:00 UTC, consolidé 13:00 + 17:00 + 21:00) | ATTENDRE — thèse confirmée, **consolidation en fin de session** (cours $12.99 −1.07% vs previous close, volume normalisé 46.89M/0.82×), **RSI corrige** 42.65 (−1.07 pt vs 17h, +9.24 vs 27/05), **rotation cyclique maintenue** (`ROTATION_TO_CYCLICAL`, XLF top3), anomalie options résolue (max pain $13.00, put/call 0.91, call OI 52.4%), scores inchangés (Global 63.5, Ajusté 55.5, Opportunité 6.3, Momentum 3.5), SL $12.07 / TP $14.37 |
@@ -44,4 +45,4 @@ Voir [REFRESH_LOG.md](REFRESH_LOG.md) pour l'historique des déclencheurs.
 
 ## 📝 Résumé de la Thèse
 
-NU est le leader néo-banque latino-américain (Brésil/Mexique/Colombie) avec 100M+ clients, des marges opérationnelles solides (24.4%), un bilan net cash (net debt/EBITDA −2.47×), et une valorisation forward très attractive (P/E ~10×, upside consensus +55.2%). Le snapshot 17:00 UTC du 02/06 enregistre une **chute technique sévère de −8.81%** à **$11.845**, avec un **nouveau 52W low** à **$11.675**. Le RSI est tombé à **33.75** (−8.9 pts vs 13h), l'ATR s'est élargi à **$0.53** (+15.1%), et le volume a explosé à **105.75M (1.73×)**. Le signal sectoriel est passé de `ROTATION_TO_CYCLICAL` à **`NEUTRAL`** — le vent de queue contextuel est neutralisé. Les scores ont été révisés à la baisse : Global **61.0** (−2.5), Ajusté **53.0** (−2.5), Opportunité **6.1** (−0.2), Momentum **2.5** (−1.0). Les fondamentaux restent intacts (ROIC 16.3%, consensus $18.39, forward P/E 10.18×). Aucune news structurante sur NU — la chute est technique/sectorielle. Le timing reste défavorable (sous MM50 $13.97, distance −15.2%). La recommandation **ATTENDRE** est confirmée avec une nuance négative accrue. SL révisé **$10.79** / TP **$13.44**.
+NU est le leader néo-banque latino-américain (Brésil/Mexique/Colombie) avec 100M+ clients, des marges opérationnelles solides (24.4%), un bilan net cash (net debt/EBITDA −2.47×), et une valorisation forward très attractive (P/E ~10×, upside consensus +54.2%). Le snapshot 21:00 UTC du 02/06 enregistre une **chute technique de −8.16%** à **$11.93**, avec un **nouveau 52W low intraday** à **$11.44** et une **liquidation after-hours massive** de **171.8M (2.67×)**. Le RSI est à **34.42**, l'ATR s'est élargi à **$0.55**, et le signal sectoriel reste **`NEUTRAL`**. Le **momentum tombe à 2.0/10**, déclenchant la **règle de disqualification** (score individuel ≤ 2/10 → action exclue). Les scores s'effondrent : Global **20.0**, Ajusté **7.0**, Opportunité **2.0**, Momentum **2.0**. Les fondamentaux restent intacts (ROIC 16.3%, consensus $18.39, forward P/E 10.26×). Aucune news structurante sur NU — la chute est technique/sectorielle. Le timing reste défavorable (sous MM50 $13.97, distance −14.6%). La recommandation bascule en **ÉVITER**. SL révisé **$10.83** / TP **$13.58**.

@@ -9,19 +9,19 @@
 
 - **Recommandation :** ATTENDRE · Direction Neutre
 **Score Global :** 62.5/100 (ajusté **52.5**)
-**Prix cible desk :** $149.41 (TP ATR-based) / $163.82 (consensus analystes)
-**Stop-loss :** $125.26
+**Prix cible desk :** $149.54 (TP ATR-based) / $163.82 (consensus analystes)
+**Stop-loss :** $125.39
 **Horizon :** 1–3 mois
-**Statut thèse :** 🟡 **Confirmée mais modifiée** — snapshot 17h UTC du 02/06 : consolidation à la baisse (−0.78%) sur volume effondré 0.35× moy. 20j (927.2K vs moy. 2.65M). RSI sort légèrement de la zone extrême à **85.91** (−3.59 pts vs 13h) mais reste dans le 99e percentile historique. ATR en expansion à **$4.83** (+2.5%). Données options inchangées (max pain $130, put/call 1.58, call OI 38.7%). Score Global ajusté **52.5** — limite basse zone ATTENDRE. Signal sectoriel **NEUTRAL** (was ROTATION_TO_CYCLICAL). Entrée initiale laminée ; attendre pullback $126–$130 ou consolidation RSI <65.
+**Statut thèse :** 🟡 **Confirmée mais modifiée** — snapshot 21h UTC du 02/06 : stabilité marginale (+$0.13, +0.10%) avec **volume recovery majeur** à 2.02M (0.75× moy. 20j), invalidant le volume collapse du snapshot 17h (927.2K, 0.35×). RSI repique légèrement vers **86.28** (+0.37 pt vs 17h) — surachat extrême persistant dans le 99e percentile. ATR stable à **$4.83**. Données options inchangées (max pain $130, put/call 1.58, call OI 38.7%). Score Global ajusté **52.5** — limite basse zone ATTENDRE. Signal sectoriel **NEUTRAL**. Entrée initiale laminée ; attendre pullback $126–$130 ou consolidation RSI <65.
 
-**Synthèse :** Agilent a confirmé sa qualité fondamentale par un beat/guidance-up Q2 2026 spectaculaire (gap +17.3%). Le Filtre Qualité 5/6 est maintenu, le consensus $163.82 laisse un upside +21.4%, et la structure options reste normalisée. La session du 2 juin confirme une digestion passive du gap : recul de −0.78% sur volume anémique (0.35×), signalant un marché sans conviction acheteuse. Le RSI à 85.91 reste dans le 99e percentile historique et exclut toute entrée à ce niveau. Le Score Global ajusté reste à **52.5** (malus timing technique, limite basse zone ATTENDRE). La thèse reste haussière de fond mais neutre de timing — **ATTENDRE** une consolidation ou un retracement avant toute nouvelle position.
+**Synthèse :** Agilent a confirmé sa qualité fondamentale par un beat/guidance-up Q2 2026 spectaculaire (gap +17.3%). Le Filtre Qualité 5/6 est maintenu, le consensus $163.82 laisse un upside +21.3%, et la structure options reste normalisée. Le volume recovery à 2.02M (0.75×) invalide le narrative "sans conviction" du snapshot 17h et transforme la consolidation en digestion saine et ordonnée du gap. Le RSI à 86.28 reste dans le 99e percentile historique et exclut toute entrée à ce niveau. Le Score Global ajusté reste à **52.5** (malus timing technique, limite basse zone ATTENDRE). La thèse reste haussière de fond mais neutre de timing — **ATTENDRE** une consolidation ou un retracement avant toute nouvelle position.
 
 ---
 
 ## 📜 Historique des analyses
 - **Score global :** —/10
 - **Prix cible :** $—
-- **Stop-loss :** $125.26
+- **Stop-loss :** $125.39
 - **Statut thèse :** validée
 - **Horizon :** 1–3 mois
 
@@ -64,11 +64,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 86.5
+- **RSI 14j :** 86.28
 - **MM 50j :** 116.79
 - **MM 200j :** —
 - **ATR 14j :** 4.83
-- **Volume moy. 20j :** 2699189
+- **Volume moy. 20j :** 2703208
 
 ---
 
@@ -77,7 +77,7 @@
 - **Date :** 2026-06-02
 - **Type :** update
 - **Fichier :** `A_2026-06-02_update.md`
-- **Conclusion :** > **Date :** 2026-06-02 · Snapshot 17:00 UTC
+- **Conclusion :** > **Date :** 2026-06-02 · Snapshot 21:00 UTC
 
 ---
 
