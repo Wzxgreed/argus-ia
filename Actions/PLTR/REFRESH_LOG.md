@@ -285,7 +285,7 @@
 **Triggers :**
 - price_gap (medium) : Gap -5.28% overnight (seuil ±5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** CONFIRMEE — Traite via update 21h UTC (PLTR_2026-06-02_21-00_update.md). Correction technique −5.28% a $152.17 avec volume recovery (0.95× moyenne). Alerte volume collapse du snapshot 17h RESOLUE. RSI sort du surachat (64.74). Structure options et fondamentaux inchanges. These ATTENDRE maintenue (Score Global 56.8/100). Pas de full refresh necessaire — la these precedente reste valide.
 
 ---
 
@@ -294,6 +294,6 @@
 **Triggers :**
 - price_gap (medium) : Gap -5.28% overnight (seuil ±5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** CONFIRMEE — Traite via update 21h UTC (PLTR_2026-06-02_21-00_update.md). Correction technique −5.28% a $152.17 avec volume recovery (0.95× moyenne). Alerte volume collapse du snapshot 17h RESOLUE. RSI sort du surachat (64.74). Structure options et fondamentaux inchanges. These ATTENDRE maintenue (Score Global 56.8/100). Pas de full refresh necessaire — la these precedente reste valide.
 
 ---

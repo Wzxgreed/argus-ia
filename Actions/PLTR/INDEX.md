@@ -1,7 +1,7 @@
 # PLTR
 
 ## These courante
-**ATTENDRE** — Correction technique de −4.90% a $152.78 (snapshot 17h UTC) avec sortie du RSI surachat (75.14 → 65.47) et volume collapse alarmant (30.21M, 0.68× moyenne). Valorisation de croissance extreme (P/E 173-259x, EV/Revenue 72-94x) contrebalancee par des fondamentaux solides (marges 82/32/36%, bilan quasi-sans dette, ROIC 18%). Timing technique **retournement haussier intact** (cours +7.6% au-dessus MM50 $141.93) mais le volume collapse fragilise la conviction. Max Pain $160.00 ($7.22 au-dessus du cours) = aimant gamma potentiel a expiration 06/05 dans 3 jours. Options structure inchangée (Put/Call 0.50, Call OI 66.8%). Attendre repli vers $145-$149 avec volume > 40M avant evaluation d'entree. XLK top sectoriel (momentum 10.0/10, RS20 +15.7%) reste un vent favorable structurel. Score Opportunite 5.3/10, Score Global ajuste 58.0/100 — franchissement seuil ATTENDRE (50).
+**ATTENDRE** — Correction technique de −5.28% a $152.17 (close 21h UTC) avec sortie du RSI surachat (75.14 → 64.74) et volume recovery en fin de seance (42.49M, 0.95× moyenne). L'alerte volume collapse du snapshot 17h est **RESOLUE**. Valorisation de croissance extreme (P/E 173-259x, EV/Revenue 72-94x) contrebalancee par des fondamentaux solides (marges 82/32/36%, bilan quasi-sans dette, ROIC 18%). Timing technique **retournement haussier intact** (cours +7.2% au-dessus MM50 $141.92) avec volume normalise. Max Pain $160.00 ($7.83 au-dessus du cours) = aimant gamma potentiel a expiration 06/05 dans 3 jours. Options structure inchangée (Put/Call 0.50, Call OI 66.8%). Attendre repli vers $145-$149 avec volume > 40M avant evaluation d'entree. XLK top sectoriel (momentum 10.0/10, RS20 +16.5%) reste un vent favorable structurel. Score Opportunite 5.2/10, Score Global ajuste 56.8/100 — seuil ATTENDRE maintenu.
 
 ## Historique
 | Date | Fichier | Type | Conclusion |
@@ -22,6 +22,7 @@
 | 2026-06-01 | [PLTR_2026-06-01_21-00_update.md](PLTR_2026-06-01_21-00_update.md) | Mise a jour snapshot 21:00 UTC (close finale) — leger repli -0.40% a $160.65 vs 17h, mais volume recovery 56.62M (+22.5% vs moyenne 20j) resout l'alerte volume. RSI 75.14 (surachat persistant), Max Pain $160.00 quasi-aligne avec close (+0.4%) = pinning neutre a expiration 06/05. High PM $163.69. These SURVEILLER confirmee avec nuance neutre — pas d'entree. | SURVEILLER — Score Opp. 5.1/10, cours $160.65, RSI 75.14, volume 56.62M (+22.5%), volume alerte resolue, these confirmee avec nuance neutre |
 | 2026-06-02 | [PLTR_2026-06-02_update.md](PLTR_2026-06-02_update.md) | Mise a jour snapshot 13:00 UTC — **stabilite totale** vs close 01/06 : cours inchangé $160.65, RSI 75.14, ATR $6.20, volume 57.26M (+1.1% vs 21h). Options légèrement renforcées (Put/Call 0.50, Call OI 66.8%). Score Opportunité 5.1/10 inchangé, Score Global 41.3/100. These SURVEILLER confirmée sans modification. | SURVEILLER — Score Opp. 5.1/10, cours $160.65, RSI 75.14, volume 57.26M (+23.8% vs moyenne), stabilité totale, options renforcées |
 | 2026-06-02 | [PLTR_2026-06-02_17-00_update.md](PLTR_2026-06-02_17-00_update.md) | Mise a jour snapshot 17:00 UTC — **correction technique significative** : cours −4.90% a $152.78, RSI 65.47 (−9.67 pts, sortie surachat), volume collapse 30.21M (0.68× moyenne), ATR $6.69 (+7.9%). Options inchangées (Max Pain $160.00, Put/Call 0.50, Call OI 66.8%). Score Opportunité 5.3/10 (+0.2), Score Global ajusté 58.0/100 (+16.7 pts). These MODIFIEE — passage SURVEILLER → ATTENDRE. Volume collapse = alerte technique. | ATTENDRE — Score Opp. 5.3/10, cours $152.78, RSI 65.47, volume 30.21M (−47.2% vs moyenne), correction technique, sortie surachat, volume collapse |
+| 2026-06-02 | [PLTR_2026-06-02_21-00_update.md](PLTR_2026-06-02_21-00_update.md) | Mise a jour snapshot 21:00 UTC (close finale) — **stabilisation** vs 17h : cours −0.40% a $152.17, RSI 64.74 (−0.73 pt, quasi-stable), volume recovery 42.49M (0.95× moyenne, alerte RESOLUE). Options, scores agents, consensus, fondamentaux quasi-inchanges. These ATTENDRE **confirmee** — volume normalise, correction digeste. | ATTENDRE — Score Opp. 5.2/10, cours $152.17, RSI 64.74, volume 42.49M (0.95×), volume recovery, alerte resolue, these confirmee |
 
 ## Agenda
 - **Prochain earnings :** 2026-08-03 (Q2 FY2026, Est. EPS $0.32-$0.40, Rev $1.8B)
@@ -35,14 +36,14 @@
 - Anomalie options JSON RESOLUE snapshot 27/05 13:00 UTC — valeurs validees (Put/Call 0.49, Max Pain $140.00, Call OI 67.0%)
 - NOUVELLE Anomalie options JSON snapshot 01/06 — Max Pain aberrant $50.00, Put/Call null, Call OI null — donnees non exploitables (RESOLUE snapshot 01/06 13:00 UTC)
 
-## Contexte technique (dernier snapshot 13:00 UTC)
-- Cours : $160.65
-- RSI 14j : 75.14
-- MM 50j : 141.89
+## Contexte technique (dernier snapshot 21:00 UTC)
+- Cours : $152.17
+- RSI 14j : 64.74
+- MM 50j : 141.92
 - MM 200j : —
-- ATR 14j : 6.20
-- Volume 20j moy. : 46,261,660
-- Volume jour : 57,262,800
+- ATR 14j : 6.69
+- Volume 20j moy. : 44,879,421
+- Volume jour : 42,489,927
 - Max Pain : $160.00
 - Put/Call : 0.50
 - Call OI % : 66.8%
