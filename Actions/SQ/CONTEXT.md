@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
+- **Recommandation :** ATTENDRE
+- **Score global :** 59.0/100
+- **Prix cible :** $85.67 (consensus)
+- **Stop-loss :** —
+- **Statut thèse :** Stable — aucune mutation données brutes vs snapshot 17h
 - **Horizon :** —
 
 ---
@@ -24,23 +24,27 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🔴 **Stale Price** — cours figé ≥30 snapshots / ≥13 jours calendaires (2026-05-20 → 2026-06-02). SQ est le cas le plus ancien et le plus sévère de stale price dans le snapshot.
+- 🔴 **Data Pipeline Alert** — Earnings Q1 2026 non résolu après 13+ jours calendaires (date initiale 20/05). `upcoming_events_2026-06-02.json` affiche `days_until: 0` avec date 02/06 (glissement depuis 20/05), mais champ details vide (placeholder FMP générique).
+- 🔴 **Source FMP Fallback** — SQ est le dernier ticker du snapshot 02/06 avec `"fmp_fallback"` et `change_pct: null`.
+- 🟡 **Consensus PT Figé** — Price target consensus $85.67 (3 analystes) inchangé depuis le 27/05. Silence sell-side prolongé ; upside +2.6% quasi-insuffisant.
+- 🟡 **Rotation Sectorielle Neutralisée** — XLK (Technology) reste top3 sectoriel avec momentum score 10.0, mais le signal global est `NEUTRAL` (crossovers vides). Vent favorable growth/tech atténué.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-06-02** · earnings · Earnings ...
+- **2026-06-02** · earnings · Earnings (placeholder glissant, non résolu)
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** —
-- **MM 50j :** —
-- **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** —
+- **RSI 14j :** N/A (bloc `technical` vide)
+- **MM 50j :** N/A
+- **MM 200j :** N/A
+- **ATR 14j :** N/A
+- **Volume moy. 20j :** N/A
 
 ---
 
@@ -49,7 +53,7 @@
 - **Date :** 2026-06-02
 - **Type :** update
 - **Fichier :** `SQ_2026-06-02_update.md`
-- **Conclusion :** > **Trigger :** Snapshot pipeline 17:00 UTC — session US post-market
+- **Conclusion :** ATTENDRE — snapshot 21:00 UTC. Zero mutation données brutes SQ vs 17:00 UTC. Cours $83.46 figé ≥30 snapshots / ≥13 jours. Qualité 3/6 hors périmètre. Consensus figé $85.67 (3 analystes). Signal sectoriel NEUTRAL stable. Score Opportunité 5.4/10 institutionnel, Score Global Ajusté ~59.0.
 
 ---
 
