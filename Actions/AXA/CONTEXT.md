@@ -1,4 +1,4 @@
-# CONTEXT — AXA — Dernière mise à jour : 2026-06-02
+# CONTEXT — AXA — Dernière mise à jour : 2026-06-02 (snapshot 21h00 UTC)
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -11,7 +11,7 @@
 
 AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **aucune donnée de prix n'est disponible** dans le pipeline Argus-IA car le symbole "AXA" n'est pas reconnu par yfinance (instrument non coté US). L'analyse technique et fondamentale reste impossible.
 
-**Contexte sectoriel (snapshot 2026-06-02 17h00 UTC) :** Le secteur Financials (XLF) affiche une **amélioration absolue marquée** par rapport au snapshot 13h00 : return 20j −0.17% (vs −0.94%) et return 60j +2.34% (vs +0.91%). Cependant, cette amélioration est portée par le rebond du broad market (SPY +5.81% sur 20j, +13.30% sur 60j) et non par une dynamique propre du secteur — le momentum score reste à 0.0/10. En termes relatifs, le RS 60j vs SPY se dégrade légèrement (−10.96% vs −10.73% à 13h00), confirmant la sous-performance structurelle. Le signal macro a été **neutralisé** (`ROTATION_TO_CYCLICAL` → `NEUTRAL`), indiquant un affaiblissement de la rotation sectorielle observée depuis le 1er juin. XLF reste classé 3e/11, en distribution relative vs le marché. Le snapshot confirme que les données de prix US sont bien récupérées (24 tickers OK sur 29), isolant AXA comme l'un des 4 tickers structurellement KO sur 29. Si les données AXA étaient disponibles, le headwind sectoriel persistant justifierait un ajustement à la baisse du placeholder Momentum (actuellement 5.0/10).
+**Contexte sectoriel (snapshot 2026-06-02 21h00 UTC) :** Le secteur Financials (XLF) affiche une **dégradation marginale** par rapport au snapshot 17h00 : return 20j −0.23% (vs −0.17%), return 60j +2.28% (vs +2.34%), RS 20j −6.02% (vs −5.99%), RS 60j −10.99% (vs −10.96%). Ces variations (−3 bp à −6 bp) sont d'amplitude négligeable et ne modifient pas l'interprétation : le secteur reste en sous-performance structurelle vs le broad market (SPY +5.79% sur 20j, +13.28% sur 60j) et le momentum score reste à 0.0/10. Le signal macro `NEUTRAL` est inchangé. XLF reste classé 3e/11, en distribution relative vs le marché. Le snapshot confirme que les données de prix US sont bien récupérées (24 tickers OK sur 29), isolant AXA comme l'un des 5 tickers structurellement KO sur 29. Si les données AXA étaient disponibles, le headwind sectoriel persistant justifierait un ajustement à la baisse du placeholder Momentum (actuellement 5.0/10).
 
 **Action immédiate :** corriger le symbole dans `config/watchlist.json` (`CS.PA` ou `AXAHY`), mettre à jour le secteur (Financials / Insurance) et relancer le fetch.
 
@@ -59,7 +59,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 - **Date :** 2026-06-02
 - **Type :** update
 - **Fichier :** `AXA_2026-06-02_update.md`
-- **Conclusion :** > **Date :** 2026-06-02
+- **Conclusion :** 🔴 Thèse ATTENDRE confirmée — données structurellement manquantes (26e snapshot consécutif), contexte sectoriel XLF stable à légèrement dégradé (−3 bp à −6 bp), signal macro NEUTRAL inchangé, earnings J0 FMP glissant sans détails (10e jour consécutif)
 
 ---
 
