@@ -7,22 +7,22 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER *(confirmée — stable)*
-**Score global ajusté :** 40.0/100
-**Prix cible consensus :** $9.05 (11 analysts)
-**Prix cible technique :** $3.99 (3×ATR)
-**Stop-loss :** $3.09 (2×ATR)
-**Statut :** Thèse non établie — profil spéculatif biotech pré-profit, Filtre Qualité 2/6
-**Horizon :** 6–12 mois (dépendant des catalyseurs cliniques)
+- **Recommandation :** ATTENDRE *(modifiée depuis SURVEILLER)*
+- **Score global ajusté :** 52.5/100
+- **Prix cible consensus :** $9.05 (11 analysts)
+- **Prix cible technique :** $3.73 (3×ATR)
+- **Stop-loss :** $2.78 (2×ATR)
+- **Statut :** Thèse non établie — profil spéculatif biotech pré-profit, Filtre Qualité 2/6
+- **Horizon :** 6–12 mois (dépendant des catalyseurs cliniques)
 
-**Résumé :** CTMX est une biotech en phase clinique avancée (plateforme Probody) avec des partenariats de qualité (AbbVie, BMS, Amgen). Le snapshot 13h UTC du 2026-06-02 enregistre une **stabilité totale** des données cours/technique par rapport à la clôture du 2026-06-01 : cours **$3.45** (marché non ouvert), RSI **33.06** (survente extrême maintenue), volume **2.05×** (distribution massive de la veille confirmée), MM50 **$4.18** (écart −17.5%). Le short interest reste élevé à **16.23%**. La structure options a légèrement dégradé (Put/Call **1.0**, Call OI **49.9%**) à l'approche de l'expiration du 2026-06-18. Le consensus analystes reste constructif (PT $9.05, +162% upside) mais le momentum sectoriel négatif (XLV) freine l'attrait immédiat. Le Filtre Qualité 2/6 plafonne le score Valorisation. Les scores agents sont inchangés (Score Global Ajusté 40.0/100, Score Momentum 2.5/10). Pas de position recommandée en l'absence de catalyseur clinique confirmé.
+**Résumé :** CTMX est une biotech en phase clinique avancée (plateforme Probody) avec des partenariats de qualité (AbbVie, BMS, Amgen). Le snapshot 17h UTC du 2026-06-02 enregistre une **accélération baissière de 8.55%** à **$3.155** (low $3.15), portant le RSI à **25.59** (survente extrême accentuée) et l'écart sous MM50 à **−24.2%** ($4.16). Le volume a chuté de 2.05× à **0.53×** (collapse alarmant), signalant un épuisement potentiel des vendeurs. Paradoxalement, la chute a fait remonter le **Score Global Ajusté à 52.5/100** (+12.5 pts), portant la recommandation de **SURVEILLER à ATTENDRE** — l'amélioration du profil risque/rendement asymétrique (upside consensus +187%) et la révision du Score Momentum à **3.5/10** (+1.0 pt) par l'agent Recommandation expliquent cette inflexion, bien que le timing technique reste défavorable. Le signal sectoriel est neutralisé **NEUTRAL** (was ROTATION_TO_CYCLICAL). Le short interest stable à **16.23%** confirme que les shorts maintiennent leurs positions. Aucune position recommandée en l'absence de catalyseur clinique confirmé.
 
 ---
 
 ## Historique des fichiers
 - **Score global :** —/10
 - **Prix cible :** $—
-- **Stop-loss :** $3.09
+- **Stop-loss :** $2.78
 - **Statut thèse :** —
 - **Horizon :** 6–12 mois (dépendant des catalyseurs cliniques)
 
@@ -36,23 +36,36 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🔴 **Chute −8.55%** — accélération baissière en séance 2026-06-02
+- 🔴 **Volume collapse alarmant** — 0.53× moyenne 20j (épuisement vendeur potentiel)
+- 🔴 RSI 25.59 — survente extrême accentuée
+- 🔴 Score Global Ajusté 52.5/100 — reste sous seuil institutionnel (60) pour achat
+- 🔴 Short interest 16.23% — accumulation shorts confirmée
+- 🔴 Cours sous MM50 ($4.16) avec écart −24.2%
+- 🔴 Low du jour $3.15 — support immédiat testé
+- 🟡 Options — rebalancing pré-expiration (put/call 1.0, call OI 49.9%)
+- 🟡 Recommandation modifiée — SURVEILLER → ATTENDRE (snapshot 17h)
+- [WARNING] Biotech pré-revenue — scoring standard peu fiable
+- [WARNING] XLV (Healthcare) momentum 0.0 / RS négative — headwind sectoriel
+- [INFO] Earnings confirmé le 2026-08-06 (J+65)
+- [INFO] Signal sectoriel neutralisé NEUTRAL (was ROTATION_TO_CYCLICAL)
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **2026-08-06** · earnings · Est EPS $−0.13 à $−0.07, Rev $0.0B (J+65)
+- **Catalyseurs potentiels** · CX-2029 / CX-904 · Data readout / updates partenariats AbbVie/BMS
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 26.12
+- **RSI 14j :** 25.59
 - **MM 50j :** 4.16
 - **MM 200j :** —
 - **ATR 14j :** 0.19
-- **Volume moy. 20j :** 3210890
+- **Volume moy. 20j :** 3226669
 
 ---
 
@@ -61,7 +74,7 @@
 - **Date :** 2026-06-02
 - **Type :** update
 - **Fichier :** `CTMX_2026-06-02_update.md`
-- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — SURVEILLER (CONFIRMÉE, STABLE)**
+- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — ATTENDRE (MODIFIÉE DEPUIS SURVEILLER)**
 
 ---
 
