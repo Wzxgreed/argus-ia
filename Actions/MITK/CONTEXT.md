@@ -36,26 +36,27 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 71.77
-- **MM 50j :** 14.71
+- **RSI 14j :** 68.93
+- **MM 50j :** 14.74
 - **MM 200j :** —
-- **ATR 14j :** 0.85
-- **Volume moy. 20j :** 1327715
+- **ATR 14j :** 0.87
+- **Volume moy. 20j :** 1279307
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-03
-- **Type :** update
-- **Fichier :** `MITK_2026-06-03_update.md`
-- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-03 10:00 UTC) + agents quant, geo, sector, social, FX, events, recommandation
+- **Type :** full refresh
+- **Fichier :** `MITK_2026-06-03_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-03
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **PRICE_GAP** (medium) — Gap -7.23% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 5.40% (seuil 5.0%)
 
 ---
 

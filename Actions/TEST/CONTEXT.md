@@ -36,20 +36,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 46.74
-- **MM 50j :** 43.41
+- **RSI 14j :** 44.21
+- **MM 50j :** 43.49
 - **MM 200j :** —
-- **ATR 14j :** 1.03
-- **Volume moy. 20j :** 2190
+- **ATR 14j :** 0.97
+- **Volume moy. 20j :** 2211
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-03
-- **Type :** update
-- **Fichier :** `TEST_2026-06-03_update_13h.md`
-- **Conclusion :** ACHETER (Réduit) confirmé — stabilité totale snapshot 13h vs 10h, MM50 stabilisée à $43.41, Score Global 66.0/100 inchangé
+- **Type :** preview
+- **Fichier :** `TEST_2026-06-03_preview.md`
+- **Conclusion :** > **Date :** 2026-06-03
 
 ---
 

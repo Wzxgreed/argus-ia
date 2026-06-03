@@ -1366,3 +1366,23 @@
 **Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
+
+## 2026-06-03 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -5.63% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 14.71% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-03 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -8.72% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 15.36% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

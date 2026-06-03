@@ -19,9 +19,9 @@ American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) a
 
 **Sector rotation NEUTRAL** : Signal **NEUTRAL** (inchangé). XLI return 20d **+1.88%**, RS20 vs SPY **-3.91%** (amelioration technique marginale mais sans momentum score). La perte du signal sectoriel favorable continue de retirer un soutien au trade.
 
-**Verdict institutionnel :** La these tactique **SURVEILLER est CONFIRMEE.** Le snapshot 13:00 UTC du 03/06 ne rapporte aucune nouvelle donnée fondamentale par rapport au 02/06 21h. La **cassure du support $14.00** n'a pas ete recuperee. Le setup options (Max Pain $15.50, Call OI 41.3%) reste theoriquement favorable avec l'expiration dans 2 jours. **Un retour au-dessus de $14.00 en session reguliere sur volume > 40M reste necessaire pour reactiver la these ACHETER.** Le ratio R/R reste favorable a 1.5 (SL $12.71, TP $15.76) mais le niveau de confiance est degrade depuis la cassure de $14.00. Le bilan extremement fragile (current ratio 0.50, tangible asset value negatif) impose la prudence. AAdvantage (programme loyalty) reste le hidden asset (~$20-25B > market cap).
+**Verdict institutionnel :** La these tactique **SURVEILLER est CONFIRMEE.** Le snapshot matinal du 03/06 ne rapporte aucune nouvelle donnée par rapport au 02/06 21h. La **cassure du support $14.00** n'a pas ete recuperee. Le setup options (Max Pain $15.50, Call OI 40.7%) reste theoriquement favorable avec l'expiration dans 2 jours. **Un retour au-dessus de $14.00 en session reguliere sur volume > 40M reste necessaire pour reactiver la these ACHETER.** Le ratio R/R reste favorable a 1.5 (SL $12.71, TP $15.76) mais le niveau de confiance est degrade depuis la cassure de $14.00. Le bilan extremement fragile (current ratio 0.50, tangible asset value negatif) impose la prudence. AAdvantage (programme loyalty) reste le hidden asset (~$20-25B > market cap).
 
-**✅ Donnees completes** — Cours, RSI, ATR, P/E, beta, consensus FMP, short interest, volume, **options corrigées** (Put/Call 1.42, Max Pain $15.50, Call OI 41.3%) disponibles dans `data/2026-06-03.json` (snapshot 13:00 UTC).  
+**✅ Donnees completes** — Cours, RSI, ATR, P/E, beta, consensus FMP, short interest, volume disponibles dans `data/2026-06-03.json` (snapshot 10:00 UTC). Options valides dans `data/2026-06-02.json` (snapshot 21:00 UTC).  
 **⚠️ Donnees partielles** — Accounting risk (M-Score, Z-Score, F-Score, Sloan) : fichier indisponible. Quant report insuffisant. MACD, MM200, IV Rank, insider trades detailles, 13F complets, ETF flows, dark pool, transcripts NLP, job postings.
 
 ---
@@ -57,11 +57,11 @@ American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) a
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 63.42
-- **MM 50j :** 12.18
+- **RSI 14j :** 59.82
+- **MM 50j :** 12.24
 - **MM 200j :** —
-- **ATR 14j :** 0.61
-- **Volume moy. 20j :** 67119485
+- **ATR 14j :** 0.63
+- **Volume moy. 20j :** 65845323
 
 ---
 
@@ -70,7 +70,7 @@ American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) a
 - **Date :** 2026-06-03
 - **Type :** update
 - **Fichier :** `AAL_2026-06-03_update.md`
-- **Conclusion :** **Date :** 2026-06-03 (snapshot 13:00 UTC) — Stabilité totale des données fondamentales vs 02/06 21h. Cours $13.93 inchangé, RSI 63.42, volume 49.41M. Anomalie options corrompues RÉSOLUE : Put/Call 1.42 (vs 1.46), Call OI 41.3% (vs 40.7%), Max Pain $15.50. Thèse SURVEILLER confirmée. SL $12.71, TP $15.76, R/R 1.5.
+- **Conclusion :** **Date :** 2026-06-03 (snapshot 13:00 UTC)
 
 ---
 

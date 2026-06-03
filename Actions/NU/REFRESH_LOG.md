@@ -128,3 +128,21 @@
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-06-03 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -5.41% overnight (seuil ±5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-03 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -5.57% overnight (seuil ±5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

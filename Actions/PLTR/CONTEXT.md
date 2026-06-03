@@ -36,27 +36,26 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 64.74
-- **MM 50j :** 141.92
+- **RSI 14j :** 62.27
+- **MM 50j :** 141.59
 - **MM 200j :** —
-- **ATR 14j :** 6.69
-- **Volume moy. 20j :** 44891555
+- **ATR 14j :** 6.71
+- **Volume moy. 20j :** 41352013
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-03
-- **Type :** update
-- **Fichier :** [PLTR_2026-06-03_13-00_update.md](PLTR_2026-06-03_13-00_update.md)
-- **Conclusion :** Thèse ATTENDRE confirmée — stabilité totale vs snapshot 10h, anomalie options JSON résolue (Max Pain $160.00, Put/Call 0.48, Call OI 67.4%), structure légèrement renforcée.
+- **Type :** full refresh
+- **Fichier :** `_PLTR_2026-06-03_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-03
 
 ---
 
-## 🔄 Triggers détectés
+## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap -5.28% overnight (seuil ±5.0%) — déjà digéré
-- **OPTIONS_ANOMALY_RESOLVED** — Anomalie JSON résolue snapshot 13h UTC
+- **PRICE_GAP** (medium) — Gap -6.15% overnight (seuil ±5.0%)
 
 ---
 
