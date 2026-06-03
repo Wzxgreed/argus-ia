@@ -303,7 +303,7 @@
 **Triggers :**
 - price_gap (medium) : Gap -5.28% overnight (seuil ±5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** CONFIRMÉE — Traité via update 10h UTC (PLTR_2026-06-03_update.md). Stabilité totale vs close 02/06 : cours $152.17 inchangé, RSI 64.74 stable, volume 42.73M (0.95× moyenne). Anomalie options JSON détectée (Max Pain $50.00 aberrant) — valeurs opérationnelles conservées du snapshot 21h 02/06 ($160.00 / 0.50 / 66.8%). Pas de changement qualitatif sur les fondamentaux, le consensus, les scores agents ou la structure technique. Thèse ATTENDRE maintenue (Score Global 56.8/100). Pas de full refresh nécessaire — la thèse précédente reste valide.
 
 ---
 
@@ -312,6 +312,6 @@
 **Triggers :**
 - price_gap (medium) : Gap -5.28% overnight (seuil ±5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** CONFIRMÉE — Même conclusion que l'entrée précédente. Trigger dupliqué par le détecteur d'événements. Traité par l'update du 2026-06-03. Pas de full refresh nécessaire.
 
 ---
