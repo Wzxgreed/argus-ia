@@ -1,15 +1,16 @@
 # RKLB
 
 ## Thèse courante
-**2026-06-02 (snapshot 21h UTC)** — SURVEILLER. Close officiel $123.32 (+0.76% vs veille), volume révisé à 19.25M (0.61× moyenne 20j) vs 12.45M (0.40×) au snapshot 17h. Correction volume : rebond sur participation modérée, pas effondrement total. RSI 52.81 stable neutre, ATR $12.33 stable. Divergence consensus +46.5% (spot vs PT $84.20), Filtre Qualité 3/6 hors périmètre institutionnel, Forward P/E −11191, EV/Rev 102.4×, P/B 31.36×. Signal sectoriel XLI NEUTRAL. Structure options inchangée : Max Pain $145.00, Put/Call 1.18, Call OI 45.9% — spot sous Max Pain = pin haussier CT vers expiration 05/06. Score global 44.5/100 ajusté 49.5 — posture SURVEILLER maintenue. SL $98.66 (−20.0%), TP $160.31 (+30.0%), R/R 1.5:1. [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $71.39 Mds vs FMP $37.02 Mds.
+**2026-06-03 (snapshot 10h UTC)** — SURVEILLER. Stabilité totale vs close 02/06 ($123.32 inchangé, RSI 52.81 stable, ATR $12.33 stable, volume 19.34M 0.62× stable). Divergence consensus +46.5% (spot vs PT $84.20), Filtre Qualité 3/6 hors périmètre institutionnel, Forward P/E −11191, EV/Rev 103.2×, P/B 31.36×. Signal sectoriel XLI NEUTRAL. Structure options inchangée : Max Pain $145.00 (valeur opérationnelle conservée, anomalie JSON $45.00 aberrant signalée), Put/Call 1.18, Call OI 45.9% — spot sous Max Pain = pin haussier CT vers expiration 05/06. Score global 44.5/100 ajusté 49.5 — posture SURVEILLER confirmée. SL $98.66 (−20.0%), TP $160.31 (+30.0%), R/R 1.5:1. [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $71.39 Mds vs FMP $37.02 Mds.
 
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
+| 2026-06-03 | [RKLB_2026-06-03_update.md](RKLB_2026-06-03_update.md) | Snapshot 10h UTC — stabilité totale vs close 02/06, anomalie Max Pain JSON $45.00 détectée et signalée (valeur opérationnelle $145.00 conservée), scores inchangés SURVEILLER 49.5/100 — thèse confirmée |
 | 2026-06-02 | [RKLB_2026-06-02_update.md](RKLB_2026-06-02_update.md) | Snapshot 21:00 UTC — close officiel $123.32 (+0.76% vs veille), 🔴 CORRECTION VOLUME 19.25M (0.61×) vs 12.45M (0.40×) au snapshot 17h, interprétation modifiée : rebond sur participation modérée, RSI 52.81 stable, ATR $12.33 stable, divergence consensus +46.5%, score global inchangé 44.5/100 ajusté 49.5 — thèse SURVEILLER modifiée avec nuance positive sur le volume |
 | 2026-06-02 | [RKLB_2026-06-02_update.md](RKLB_2026-06-02_update.md) | Snapshot 17:00 UTC — rebond +0.69% à $123.23 sur volume effondré 0.40× (12.45M vs moy. 31.04M), RSI 52.77 stable, ATR $12.33 (−1.8%), signal sectoriel XLI dégradé NEUTRAL (was ROTATION_TO_CYCLICAL), structure options inchangée (Max Pain $145.00, Put/Call 1.18, Call OI 45.9%), score global révisé 44.5/100 ajusté 49.5 (+2.5 pts) — thèse SURVEILLER modifiée, rebond anémique sans participation, SL/TP révisés $98.57/$160.22 |
 | 2026-06-01 | [RKLB_2026-06-01_update.md](RKLB_2026-06-01_update.md) | Snapshot 21:00 UTC — close officiel $122.39 (−14.70%), 🔴 CORRECTION VOLUME 36.66M (1.17×) vs 23.94M (0.78×) au snapshot 17h, interprétation modifiée : distribution active, pas dégonflement sans capitulation. RSI 52.48 stable neutre, divergence consensus +45.4%, score global 42.0/100 ajusté 47.0 — thèse SURVEILLER maintenue, SL/TP révisés $97.39/$159.89 |
-| 2026-06-01 | [RKLB_2026-06-01_update.md](RKLB_2026-06-01_update.md) | Snapshot 17:00 UTC — repli sévère −13.99% à $123.41 sur volume effondré 23.94M (0.78×), RSI sorti surachat 53.01 (−17.55 pts), divergence consensus réduite +46.6%, score global 42.0/100 ajusté 47.0 — thèse modifiée de ÉVITER à SURVEILLER, dégonflement technique sans capitulation, support $121.75 cassé, Max Pain $90.00 persistant |
+| 2026-06-01 | [RKLB_2026-06-01_update.md](RKLB_2026-06-01_update.md) | Snapshot 17:00 UTC — repli –13.99% à $123.41 sur volume effondré 23.94M (0.78×), RSI sorti surachat 53.01 (−17.55 pts), divergence consensus réduite +46.6%, score global 42.0/100 ajusté 47.0 — thèse modifiée de ÉVITER à SURVEILLER, dégonflement technique sans capitulation, support $121.75 cassé, Max Pain $90.00 persistant |
 | 2026-06-01 | [RKLB_2026-06-01_update.md](RKLB_2026-06-01_update.md) | Snapshot 13:00 UTC — repli -3.07% à $143.48 sur volume 34.82M (1.15×), signal de distribution post-rally, RSI 70.56 (–6.91 pts), 52W high $151.00, divergence consensus +70.4%, données options corrigées (Max Pain $90.00, Put/Call 1.25, Call OI 44.4%), structure baissière à CT confirmée, thèse ÉVITER confirmée et renforcée |
 | 2026-05-27 | [RKLB_2026-05-27_update.md](RKLB_2026-05-27_update.md) | Snapshot 17:00 UTC — gap haussier +4.28% à $149.33, nouveau 52W high $150.78, 🔴 CORRECTION VOLUME 20.12M (0.70×) vs 32.78M au snapshot 13h, divergence consensus élargie +77.4%, thèse ÉVITER confirmée et renforcée |
 | 2026-05-27 | [RKLB_2026-05-27_update.md](RKLB_2026-05-27_update.md) | Snapshot 13:00 UTC — stabilité totale cours/volume/RSI/ATR, 🔴 MUTATION OPTIONS SIGNIFICATIVE (Max Pain $123.00 vs $130.00, Put/Call 1.47 vs 1.08, Call OI 40.5% vs 48.1%), thèse ÉVITER confirmée et renforcée |
@@ -34,17 +35,18 @@
 
 ## Agenda
 - Prochain earnings : **2026-08-06** (Q2 2026, Est EPS –$0.06 à –$0.02)
-- Expiration options : **2026-06-05** (Max Pain $145.00 — 3 jours)
+- Expiration options : **2026-06-05** (Max Pain $145.00 — 2 jours)
 
 ## Alertes actives
 - RSI 52.81 — neutre, sorti du surachat
 - Divergence consensus — spot +46.5% vs PT $84.20
 - Filtre Qualité 3/6 — hors périmètre institutionnel
 - Ratio R/R 1.5:1 — inférieur au seuil 2:1
-- Volume 0.61× — rebond sur participation modérée (corrigé vs 0.40×)
+- Volume 0.62× — rebond sur participation modérée
 - ATR $12.33 — volatilité élevée
 - Distribution active confirmée : repli −14.70% le 01/06 sur volume 1.17× moyenne 20j
 - Max Pain $145.00 (éch. 06-05) — spot $123.32 = −$21.68 (−15.0%) sous le Max Pain — pin haussier CT
+- [ANOMALIE OPTIONS 2026-06-03] Max Pain JSON $45.00 aberrant — valeur opérationnelle $145.00 conservée
 - Options structure : Put/Call 1.18, Call OI 45.9%
 - 52W high $151.00 suivi de repli immédiat — rejet de nouveaux sommets
 - Forward P/E −11191 — valorisation extrême

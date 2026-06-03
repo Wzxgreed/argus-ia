@@ -1309,12 +1309,12 @@
 
 ---
 
-## 2026-06-03 — Full Refresh Triggered
+## 2026-06-03 — DRAFT_refresh Archivé (Faux Positif)
 
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.00% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** FAUX POSITIF — DRAFT_refresh détecté et archivé. Données identiques au snapshot 21h UTC 02/06 (close $123.32, RSI 52.81, ATR $12.33, MM50 $93.38). L'ATR n'a pas varié ; le trigger ATR_SPIKE 10.00% est un artefact de détection. Aucun nouvel événement structurant. Thèse SURVEILLER confirmée. Scores inchangés 44.5/100 ajusté 49.5. Anomalie Max Pain JSON $45.00 détectée (valeur opérationnelle $145.00 conservée). Fichiers : RKLB_2026-06-03_update.md + INDEX.md + CONTEXT.md mis à jour. DRAFT_refresh archivé (_RKLB_2026-06-03_DRAFT_refresh.md).
 
 ---
 
