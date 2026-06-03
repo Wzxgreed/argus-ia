@@ -5,20 +5,20 @@
 > **Secteur :** Non spécifié
 > **Exchange :** NASDAQ
 > **Priorité :** Medium
-> **Dernière mise à jour :** 2026-06-02 (snapshot 21:00 UTC)
+> **Dernière mise à jour :** 2026-06-03 (snapshot 10:00 UTC)
 
 ---
 
 ## Thèse courante
 
-**Statut :** DONNÉES MANQUANTES PERSISTANTES — anomalie structurelle confirmée (>25 snapshots) / rebond technique ASTS extendu +11.85% à $118.17 sur volume recovery partiel 0.76× / RSI surachat consolidé 72.58 / agent maintient ASTS ÉVITER (29.8/100) / signal sectoriel NEUTRAL / max pain $120 à +1.5% du close
+**Statut :** DONNÉES MANQUANTES PERSISTANTES — anomalie structurelle confirmée (>26 snapshots) / stabilité pre-market ASTS à $118.17 sur volume 0.78× / RSI surachat consolidé 72.58 / agent maintient ASTS ÉVITER (29.8/100) / signal sectoriel NEUTRAL / anomalie options JSON max pain $40.0 aberrant → valeur opérationnelle $120.0 conservée / earnings placeholder glissant J=0 à 11 jours
 
-- Aucune donnée de cours disponible dans les snapshots (`No price history`) — confirmé stable sur **>25 snapshots consécutifs** (18/05 → 02/06)
+- Aucune donnée de cours disponible dans les snapshots (`No price history`) — confirmé stable sur **>26 snapshots consécutifs** (18/05 → 03/06)
 - Aucune analyse initiale (`_init.md`) n'a été produite
-- Earnings programmés le 2026-06-02 (source FMP) — placeholder glissant J=0 non résolu depuis le 25/05 (10 jours de glissement), résultats non disponibles dans les snapshots
+- Earnings programmés le 2026-06-03 (source FMP) — placeholder glissant J=0 non résolu depuis le 25/05 (11 jours de glissement), résultats non disponibles dans les snapshots
 - Scoring agent AST : placeholder 55.2/100 — action ATTENDRE par défaut
 - AST absent du quality gate (alors qu'ASTS y figure)
-- **Anomalie structurelle confirmée :** doublon probable avec ASTS (AST SpaceMobile — NASDAQ). ASTS a rebondi de **+11.85%** à **$118.17** au snapshot 21:00 UTC du 02/06 sur volume **recovery partiel à 0.76×** (20.93M vs moy. 20j 27.45M, +59% vs snapshot 17h). RSI **72.58** (surachat consolidé, +0.81 pt vs 17h). Short interest **17.60%** stable. Consensus **$94.54** (12 analysts) inchangé — premium consensus ré-étalé massivement à **+25.0%** (vs +21.9%). **Agent maintient ASTS ÉVITER (29.8/100)** — stable vs 17h. Signal sectoriel **NEUTRAL** (XLK top1, momentum 10.0). Supports/résistances ASTS : support immédiat **$108.80** (low intra-day), résistance **$118.74–120.00** (high intra-day + max pain options). Options ASTS restent baissières — put/call ratio **1.09** (>1.0), call OI **47.9%** (<50%). Échéance options 2026-06-05 (dans 3 jours). Max pain **$120** à seulement +1.5% du close — aimant gamma renforcé.
+- **Anomalie structurelle confirmée :** doublon probable avec ASTS (AST SpaceMobile — NASDAQ). ASTS stable à **$118.17** au snapshot 10:00 UTC du 03/06 (pre-market, données close 02/06 reportées) sur volume **21.29M (0.78×)** (légère révision mécanique vs 20.93M à 21h). RSI **72.58** (surachat consolidé). Short interest **17.60%** stable. Consensus **$94.54** (12 analysts) inchangé — premium consensus **+25.0%** stable. **Agent maintient ASTS ÉVITER (29.8/100)** — stable. Signal sectoriel **NEUTRAL** (XLK top1, momentum 10.0). Supports/résistances ASTS : support immédiat **$108.80** (low intra-day 02/06), résistance **$118.74–120.00** (high intra-day + max pain options opérationnel). **Anomalie options JSON détectée et traitée :** max pain retourné à **$40.0** (aberrant vs cours $118.17, écart −66%) → valeur opérationnelle **$120.0** conservée. Put/call ratio et call OI passés à **null** (données dégradées dans le snapshot). Échéance options 2026-06-05 (dans 2 jours).
 
 ---
 
@@ -26,6 +26,7 @@
 
 | Date | Fichier | Type | Résumé |
 |------|---------|------|--------|
+| 2026-06-03 | `AST_2026-06-03_update.md` | Update matin (10:00 UTC) | >26e snapshot consécutif sans mutation pour AST — stabilité totale confirmée, ASTS stable à **$118.17** (pre-market, données close 02/06 reportées) sur volume **21.29M (0.78×)** (légère révision mécanique vs 20.93M à 21h), RSI **72.58** (surachat consolidé), low intraday **$108.80** (plancher 02/06 conservé), high intraday **$118.74** stable, consensus analystes inchangé ($94.54, 12 analysts), premium consensus **+25.0%** stable, **agent maintient ASTS ÉVITER (29.8/100)** — stable, signal sectoriel **NEUTRAL** (XLK top1, momentum 10.0), **anomalie options JSON détectée et traitée** (max pain $40.0 aberrant → valeur opérationnelle $120.0 conservée, put/call et call OI passés à null), échéance 06-05 dans 2j, earnings placeholder glissant J=0 à **11 jours** (date glissée au 03/06), anomalie structurelle persistante — support immédiat $108.80, résistance $118.74–120.00 |
 | 2026-06-02 | `AST_2026-06-02_update.md` | Update finale (21:00 UTC) | >25e snapshot consécutif sans mutation pour AST — stabilité totale confirmée, ASTS rebondit **+11.85%** à **$118.17** sur volume **recovery partiel 0.76×** (20.93M vs moy. 20j 27.45M, +59% vs 17h), RSI **72.58** (surachat consolidé, +0.81 pt), low intraday **$108.80** (plancher conservé), high intraday **$118.74** (nouveau high), consensus analystes inchangé ($94.54, 12 analysts), premium consensus ré-étalé **+25.0%** (vs +21.9%), **agent maintient ASTS ÉVITER (29.8/100)** — stable vs 17h, signal sectoriel **NEUTRAL** (XLK top1, momentum 10.0), options ASTS restent baissières (put/call 1.09, call OI 47.9%), échéance 06-05 dans 3j, max pain **$120** à +1.5% du close — aimant gamma renforcé, anomalie structurelle persistante — support immédiat $108.80, résistance $118.74–120.00 |
 | 2026-06-02 | `AST_2026-06-02_update.md` | Update (13:00 UTC) | >24e snapshot consécutif sans mutation pour AST — stabilité totale confirmée, ASTS stable à **$105.65** (snapshot 13h UTC, marché non ouvert, données close 21h UTC 01/06) sur volume **27.14M** (1.00× moy. 20j), RSI **61.89** inchangé, low intraday **$101.21** conservé, consensus analystes inchangé ($94.54, 12 analysts), premium consensus **+11.8%**, **agent maintient ASTS SURVEILLER (44.8/100)**, signal sectoriel **ROTATION_TO_CYCLICAL** stable, earnings FMP placeholder glissant J=0 non résolu (8j de glissement), **anomalie options ASTS** : put/call ratio **1.09** (vs 0.92, bascule au-dessus de 1.0), call OI **47.9%** (vs 52.2%, chute sous 50%) — signal baissier options léger, anomalie structurelle persistante — support immédiat $101.21, résistance $105–110 |
 | 2026-06-01 | `AST_2026-06-01_update.md` | Update finale (21:00 UTC) | >23e snapshot consécutif sans mutation pour AST — stabilité totale confirmée, ASTS stabilise à **$105.65** (rebond +2.82% vs 17h, −6.84% vs veille) sur volume total **27.07M** (1.00× moy. 20j), RSI **61.89** (neutre-haussier), low intraday **$101.21** conservé, consensus analystes inchangé ($94.54, 12 analysts), premium consensus **+11.8%** (ré-étalement mécanique), **agent maintient ASTS SURVEILLER (44.8/100)** vs 48.8/100 précédent (recalibration), signal sectoriel **ROTATION_TO_CYCLICAL** stable, earnings FMP placeholder glissant J=0 non résolu (7j de glissement), anomalie structurelle persistante — support immédiat $101.21, résistance $105–110 |
@@ -60,7 +61,7 @@
 
 | Événement | Date | Statut |
 |-----------|------|--------|
-| Earnings | 2026-06-01 | Programmé (FMP) — placeholder glissant J=0 non résolu depuis 26/05, résultats non disponibles dans les snapshots |
+| Earnings | 2026-06-03 | Programmé (FMP) — placeholder glissant J=0 non résolu depuis 26/05 (11 jours de glissement), résultats non disponibles dans les snapshots |
 
 ---
 

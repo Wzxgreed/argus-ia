@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
+- **Recommandation :** ÉVITER
+- **Score global :** 29,8/100
+- **Prix cible :** $94,54 (consensus analystes)
+- **Stop-loss :** $93,73
+- **Statut thèse :** confirmée
 - **Horizon :** —
 
 ---
