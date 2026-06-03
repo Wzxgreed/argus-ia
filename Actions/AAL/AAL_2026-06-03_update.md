@@ -65,12 +65,13 @@
 | Call OI % | **41.3%** | 🟢 Accumulation call légèrement renforcée (+0.6 pt vs 40.7%) — paris haussiers maintenus |
 | Expiration proche | 2026-06-05 | **Dans 2 jours** — gamma risk centré sur $15.50 |
 
-**Interprétation technique — Stabilité pré-session, support $14.00 toujours cassé :**
+**Interprétation technique — Stabilité pré-session, support $14.00 toujours cassé, setup options légèrement amélioré :**
 - **Cours $13.93 (inchangé)** : la cassure du support clé **$14.00** n'a pas été récupérée. Le cours est en dessous du niveau critique depuis la session du 02/06. En l'absence de nouvelle session dans ce snapshot, aucun élément technique nouveau ne modifie l'interprétation.
 - **RSI 63.42 (inchangé)** : stable dans la zone neutre-haussière 50–70. La marge avant surachat reste confortable, mais la stabilité du RSI sans rebond de prix confirme l'absence de momentum acheteur immédiat.
 - **Volume 49.41M (−26.4% vs moyenne)** : identique au volume total rapporté à 21h du 02/06 (49.13M). Ce niveau intègre le volume after-hours compensateur. Il reste sous la moyenne 20j mais n'est plus un collapse extrême.
 - **Max Pain $15.50 vs cours $13.93** : le cours est $1.57 sous le max pain à J-2 de l'expiration (05/06). Le potentiel mécanique de pinning reste de **+11.3%**. Cependant, la probabilité de réalisation dépendra entièrement du comportement en session régulière aujourd'hui (03/06).
-- **Niveau critique : $14.00.** La non-récupération de ce support dans le snapshot matinal confirme la cassure. Un retour au-dessus de $14.00 en session régulière sur volume > 40M reste nécessaire pour réactiver la thèse ACHETER.
+- **Put/Call 1.42 vs 1.46 (21h 02/06)** : légère amélioration du sentiment options. Le ratio put/call continue de se détendre depuis le pic à 4.07 (18/05), confirmant un repositionnement progressif vers les calls. Call OI 41.3% (+0.6 pt) = accumulation call marginale.
+- **Niveau critique : $14.00.** La non-récupération de ce support dans le snapshot 13:00 UTC confirme la cassure. Un retour au-dessus de $14.00 en session régulière sur volume > 40M reste nécessaire pour réactiver la thèse ACHETER.
 - **Niveau critique : $12.71 (2×ATR).** Une cassure en clôture sous ce niveau = invalidation complète du trend haussier court terme.
 - **Niveau critique : $15.50.** Franchissement confirmé au-dessus = réactivation du momentum avec objectif $16.00–$16.50.
 
@@ -123,10 +124,10 @@
 - **Reddit / Yahoo Community :** 0 mentions. Aucun pump/dump détecté.
 - **Label agent :** EXTREME_BEARISH (valeur 0.0) — absence de buzz = indifférence retail. Pas de signal contrarian.
 
-### Options — Données corrompues dans latest.json, dernières valides du 02/06 21h
-- **Put/Call 1.46** : inchangé. Sentiment baissier atténué mais persistant (>1.00).
+### Options — Données corrigées dans latest.json (snapshot 13h UTC)
+- **Put/Call 1.42** : amélioration vs 1.46 (21h 02/06). Sentiment baissier atténué mais persistant (>1.00). Le ratio continue de se détendre depuis le pic à 4.07 (18/05).
 - **Max Pain $15.50** : le cours $13.93 est **$1.57 sous le max pain**. À expiration 05/06 (dans 2 jours), le pinning mécanique pourrait exercer une pression à la hausse de +11.3%.
-- **Call OI 40.7%** : accumulation call maintenue — paris haussiers stables avant expiration.
+- **Call OI 41.3%** : accumulation call légèrement renforcée (+0.6 pt vs 40.7%) — paris haussiers stables avant expiration.
 - **Risque gamma baissier** : si le cours recule sous $13.50 avant expiration, le dé-hedging des market makers pourrait accélérer la baisse.
 
 ### Sector Rotation — Signal stable
@@ -155,9 +156,9 @@
 
 ## Score Opportunité Révisé
 
-| Axe | 2026-06-02 21:00 UTC /10 | 2026-06-03 10:00 UTC /10 | Δ | Justification |
+| Axe | 2026-06-02 21:00 UTC /10 | 2026-06-03 13:00 UTC /10 | Δ | Justification |
 |-----|--------------------------|--------------------------|---|---------------|
-| Catalyseur | 5.8 | **5.8** | **0.0** | Consensus PT stable $16.60. Upside mécanique +19.2%. Earnings 23/07 reste le catalyseur clé. Cassure support $14.00 non récupérée. Options stables (Put/Call 1.46, Call OI 40.7%). |
+| Catalyseur | 5.8 | **5.8** | **0.0** | Consensus PT stable $16.60. Upside mécanique +19.2%. Earnings 23/07 reste le catalyseur clé. Cassure support $14.00 non récupérée. Options légèrement améliorées (Put/Call 1.42 vs 1.46, Call OI 41.3% vs 40.7%). |
 | Valorisation | 5.7 | **5.7** | **0.0** | Forward P/E 6.25 (inchangé). Asymétrie intacte. Filtre qualité 0-1/6 intact mais plafond valorisation inchangé. |
 | Momentum | 5.3 | **5.3** | **0.0** | RSI 63.42 (inchangé). Volume 49.41M (−26.4% vs moyenne) — identique au 21h 02/06. Cours stable sous support cassé = pas de momentum acheteur. Signal sectoriel NEUTRAL persistant. |
 | **Score Opportunité** | **5.6** | **5.6** | **0.0** | Pondération 35/40/25 (régime inconnu = default) |
@@ -168,29 +169,29 @@
 - Timing : **Neutre** (support cassé, volume partiellement compensé)
 - **Recommandation institutionnelle Argus-IA : SURVEILLER**
 
-**Verdict institutionnel Argus-IA :** La thèse tactique **SURVEILLER est CONFIRMÉE.** Le snapshot matinal du 03/06 ne rapporte aucune nouvelle donnée par rapport au snapshot 21h du 02/06. Le support **$14.00** reste cassé et non récupéré. Le setup options (Max Pain $15.50, Call OI 40.7%) reste théoriquement favorable avec l'expiration dans 2 jours. **Verdict : maintenir SURVEILLER. Attendre la session régulière du 03/06 pour évaluer le comportement du cours autour de $14.00.**
+**Verdict institutionnel Argus-IA :** La thèse tactique **SURVEILLER est CONFIRMÉE.** Le snapshot 13:00 UTC du 03/06 ne rapporte aucune nouvelle donnée fondamentale par rapport au snapshot 21h du 02/06. Le support **$14.00** reste cassé et non récupéré. Le setup options (Max Pain $15.50, Call OI 41.3%) reste théoriquement favorable avec l'expiration dans 2 jours. **Verdict : maintenir SURVEILLER. Attendre la session régulière du 03/06 pour évaluer le comportement du cours autour de $14.00.**
 
 ---
 
 ## Niveaux SL / TP Révisés
 
-| | 2026-06-02 21:00 UTC | 2026-06-03 10:00 UTC | Justification |
+| | 2026-06-02 21:00 UTC | 2026-06-03 13:00 UTC | Justification |
 |---|----------------------|----------------------|---------------|
 | Entrée suggérée | $13.93 | **$13.93** | Close actuel — inchangé |
 | Stop-Loss | $12.71 | **$12.71** | Cours − 2×ATR = $13.93 − $1.22. Aligné sur support technique $12.75–$13.00 |
 | Take-Profit | $15.76 | **$15.76** | Cours + 3×ATR = $13.93 + $1.83. Objectif technique sous 52W high |
 | Ratio R/R | 1.5 | **1.5** | Inchangé — Gain $1.83 / Perte $1.22 |
 
-**Note institutionnelle :** Les niveaux sont inchangés car le cours et l'ATR n'ont pas varié. Le SL $12.71 correspond à la zone $12.75–$13.00 (confluence ancien gap + MM50 ascendante). Une cassure sous $12.71 en clôture = invalidation complète du trend haussier court terme. Le TP $15.76 est conservateur. Le Max Pain $15.50 constitue une résistance intermédiaire critique. **Expiration options 05/06 dans 2 jours** : le cours à $13.93 est $1.57 sous le Max Pain. Si le cours tient au-dessus de $13.50 jusqu'à expiration, le pinning vers $15.50 pourrait matérialiser +11.3%.
+**Note institutionnelle :** Les niveaux sont inchangés car le cours et l'ATR n'ont pas varié. Le SL $12.71 correspond à la zone $12.75–$13.00 (confluence ancien gap + MM50 ascendante). Une cassure sous $12.71 en clôture = invalidation complète du trend haussier court terme. Le TP $15.76 est conservateur. Le Max Pain $15.50 constitue une résistance intermédiaire critique. **Expiration options 05/06 dans 2 jours** : le cours à $13.93 est $1.57 sous le Max Pain. Si le cours tient au-dessus de $13.50 jusqu'à expiration, le pinning vers $15.50 pourrait matérialiser +11.3%. **Setup options légèrement amélioré** : Put/Call 1.42 (vs 1.46), Call OI 41.3% (vs 40.7%) — repositionnement call confirmé.
 
 ---
 
 ## Conclusion — Thèse Confirmée, Modifiée ou Invalidée ?
 
-**Verdict : CONFIRMÉE — La thèse reste SURVEILLER. Le snapshot matinal du 03/06 confirme la stabilité totale des données par rapport au 02/06 21h. Aucun élément nouveau ne modifie l'interprétation.**
+**Verdict : CONFIRMÉE — La thèse reste SURVEILLER. Le snapshot 13:00 UTC du 03/06 confirme la stabilité totale des données fondamentales par rapport au 02/06 21h. Seule évolution : correction de l'anomalie options dans `data/latest.json`.**
 
-### Ce qui a changé (snapshot 10:00 UTC vs 21:00 UTC 02/06) :
-1. **Aucun changement de fond** — Le snapshot 10h UTC est un snapshot matinal post-pipeline qui reflète la clôture de la veille. Toutes les données (cours, RSI, ATR, MM, consensus, short interest, options valides) sont strictement identiques.
+### Ce qui a changé (snapshot 13:00 UTC 03/06 vs 21:00 UTC 02/06) :
+1. **✅ Anomalie data quality options RÉSOLUE** — `data/latest.json` (snapshot 13h UTC) retourne désormais des données options valides : Put/Call **1.42** (vs 1.46), Max Pain **$15.50** (inchangé), Call OI **41.3%** (vs 40.7%). Le snapshot 10h retournait des valeurs corrompues (`max_pain` $5.00 aberrant, `put_call_ratio` null).
 2. **Earnings 51 → 50 jours** — Décompte mécanique, pas de nouvelle information.
 3. **Volume 49.13M → 49.41M** — Différence d'arrondi/precision entre snapshots, pas de nouvelle activité.
 
@@ -198,7 +199,7 @@
 1. **Support $14.00 cassé** — Non récupéré = niveau technique clé toujours perdu.
 2. **Cours $13.93** — Stable sous le support cassé.
 3. **RSI 63.42** — Neutre-haussier stable.
-4. **Put/Call 1.46** — Atténuation du sentiment extrême baissier. Repositionnement call confirmé (Call OI 40.7%).
+4. **Put/Call 1.42** — Atténuation du sentiment extrême baissier. Repositionnement call confirmé (Call OI 41.3%).
 5. **Short Interest 12.87%** — Stable. Le fuel de squeeze n'a pas été consommé.
 6. **Filtre Qualité 0-1/6** — Hors périmètre compounding. AAL reste une commodité sans moat, bilan stressé.
 7. **Bilan extrêmement fragile** — Current ratio 0.50, interest coverage 0.85x, tangible asset value négatif, working capital négatif.
@@ -238,7 +239,7 @@
 ---
 
 ## [ANOMALIE]
-- **Données options corrompues dans `data/latest.json`** (snapshot 10h UTC) : `max_pain` = $5.00 (aberrant, .00), `put_call_ratio` = null, `call_oi_pct` = null. Ces valeurs sont ignorées. Les dernières données valides connues datent du snapshot 21h UTC du 02/06 (Put/Call 1.46, Max Pain $15.50, Call OI 40.7%).
+- **RÉSOLUE** — Données options corrompues dans `data/latest.json` (snapshot 10h UTC) : `max_pain` = $5.00 (aberrant, .00), `put_call_ratio` = null, `call_oi_pct` = null. **Corrigées dans le snapshot 13h UTC** : Put/Call 1.42, Max Pain $15.50, Call OI 41.3%.
 
 ## [DONNÉES PARTIELLES]
 - MACD, MM200, IV Rank, earnings whisper, insider trades détaillés, 13F complets, ETF flows, dark pool, transcripts NLP, job postings.
@@ -249,9 +250,9 @@
 ---
 
 ## Références
-- `data/2026-06-03.json` (snapshot 10:00 UTC) — Cours $13.93, RSI 63.42, ATR $0.61, MM50 $12.18, volume 49.41M, short interest 12.87%, consensus FMP $16.60 (17 analysts), Forward P/E 6.25
+- `data/2026-06-03.json` (snapshot 13:00 UTC) — Cours $13.93, RSI 63.42, ATR $0.61, MM50 $12.18, volume 49.41M, short interest 12.87%, consensus FMP $16.60 (17 analysts), Forward P/E 6.25, **options corrigées** (Put/Call 1.42, Max Pain $15.50, Call OI 41.3%, expiration 2026-06-05)
 - `data/recommandations_2026-06-03.json` — Score Opportunité 6.0/10, Score Global 60.3/100 (ajusté 65.3), Recommandation ACHETER sizing réduit, SL $12.71, TP $15.76, ratio R/R 1.5
-- `data/validation_report.txt` (2026-06-03) — 6 errors (VRT schema, AST, AXA, SPCX, QTBS, ASTSPACE), 2 warnings (IREN, NOK). AAL non concerné.
+- `data/validation_report.txt` (2026-06-03) — 6 errors (VRT schema, AST, AXA, SPCX, QTBS, ASTSPACE fetch failed), 2 warnings (IREN, NOK). AAL non concerné.
 - `data/sector_rotation_2026-06-03.json` — XLI return 20d +1.88%, RS20 vs SPY −3.91%, momentum score 0.0, signal NEUTRAL
 - `data/fx_exposure_2026-06-03.json` — FX Impact Score 0.0, neutral
 - `data/social_sentiment_2026-06-03.json` — Sentiment retail 0 mentions (EXTREME_BEARISH)
@@ -259,7 +260,6 @@
 - `data/events_2026-06-03.json` — Aucun événement corporate détecté
 - `data/geo_risk_latest.json` — Score Politique 2/10, non exposé
 - `data/quant_report_latest.json` — Données quantitatives insuffisantes
-- Données options valides — `data/2026-06-02.json` snapshot 21:00 UTC (Put/Call 1.46, Max Pain $15.50, Call OI 40.7%)
 - `Agents/AGENT_FONDAMENTAL.md` — Méthodologie Filtre Qualité
 - `Agents/AGENT_TECHNIQUE.md` — Méthodologie technique
 - `Agents/AGENT_SENTIMENT.md` — Méthodologie sentiment

@@ -47,15 +47,16 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-03
-- **Type :** full refresh
-- **Fichier :** `_PLTR_2026-06-03_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-03
+- **Type :** update
+- **Fichier :** [PLTR_2026-06-03_13-00_update.md](PLTR_2026-06-03_13-00_update.md)
+- **Conclusion :** Thèse ATTENDRE confirmée — stabilité totale vs snapshot 10h, anomalie options JSON résolue (Max Pain $160.00, Put/Call 0.48, Call OI 67.4%), structure légèrement renforcée.
 
 ---
 
-## 🔄 Triggers détectés (full refresh)
+## 🔄 Triggers détectés
 
-- **PRICE_GAP** (medium) — Gap -5.28% overnight (seuil ±5.0%)
+- **PRICE_GAP** (medium) — Gap -5.28% overnight (seuil ±5.0%) — déjà digéré
+- **OPTIONS_ANOMALY_RESOLVED** — Anomalie JSON résolue snapshot 13h UTC
 
 ---
 

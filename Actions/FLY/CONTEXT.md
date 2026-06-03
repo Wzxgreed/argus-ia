@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
+- **Recommandation :** ATTENDRE
+- **Score global :** 58.0/100
+- **Prix cible :** $61.10
+- **Stop-loss :** $31.55
+- **Statut thèse :** confirmée
 - **Horizon :** —
 
 ---
@@ -24,13 +24,15 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- **PIN RISK OPTIONS** — Expiration 2026-06-05 dans 1 jour, max pain $50.00 vs spot $43.37. Spot −13.3% sous le max pain — aimant mécanique vers $50.00 à surveiller, mais probabilité faible compte tenu du volume 0.64×.
+- **SHORT INTEREST ÉLEVÉ** — 9.78% stable. Pression vendeuse persistante, pas de setup squeeze.
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q2 2026** le 2026-08-04 (62 jours) — Est EPS −$0.47 à −$0.45, Rev $0.1B.
+- **Expiration options** 2026-06-05 (1 jour) — max pain $50.00 vs spot $43.37.
 
 ---
 
@@ -48,8 +50,8 @@
 
 - **Date :** 2026-06-03
 - **Type :** update
-- **Fichier :** `FLY_2026-06-03_update.md`
-- **Conclusion :** > **Type :** `_update.md` — Stabilité totale vs close 02/06, consensus révisé à la hausse, anomalie max pain détectée
+- **Fichier :** `FLY_2026-06-03_update_13h.md`
+- **Conclusion :** > **Type :** `_update.md` — Stabilité totale vs snapshot 10h, anomalie options RÉSOLUE, max pain remonté à $50.00, Forward P/E moins négatif
 
 ---
 
