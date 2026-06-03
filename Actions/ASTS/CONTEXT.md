@@ -51,10 +51,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-02
+- **Date :** 2026-06-03
 - **Type :** update
-- **Fichier :** `ASTS_2026-06-02_update.md`
-- **Conclusion :** **Thèse confirmée : ÉVITER — close officiel +11,85% à $118,17 sur volume recovery partiel 0,76×, RSI surachat persistant 72,58, divergence consensus creusée à −25,0%
+- **Fichier :** `ASTS_2026-06-03_update.md`
+- **Conclusion :** **Thèse confirmée : ÉVITER — stabilité totale vs close 02/06 ($118,17), volume 0,78× stable, RSI surachat persistant 72,58, divergence consensus stable −25,0%, anomalie options JSON traitée (max pain $40 aberrant → $120 opérationnel)**
 
 ---
 
