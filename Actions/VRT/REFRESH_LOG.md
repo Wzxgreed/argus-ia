@@ -1217,3 +1217,21 @@
 **Conclusion :** Résolu — fusionné avec le traitement du DRAFT du 3 juin (même trigger persistant, données inchangées). DRAFT archivé. Voir [VRT_2026-06-03_update.md](./VRT_2026-06-03_update.md).
 
 ---
+
+## 2026-06-03 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.49% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-03 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.49% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

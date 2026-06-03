@@ -23,7 +23,7 @@
 - **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $2.78
-- **Statut thèse :** validée
+- **Statut thèse :** modifiée
 - **Horizon :** 6–12 mois (dépendant des catalyseurs cliniques)
 
 ---
@@ -36,18 +36,13 @@
 
 ## 🚨 Alertes actives
 
-- 🔴 RSI 25.68 — survente extrême maintenue sans rebond
-- 🔴 Short interest 16.23% — accumulation shorts confirmée
-- 🔴 Cours sous MM50 ($4.16) avec écart −24.0%
-- 🔴 Low officiel $3.14 — support immédiat testé
-- 🟡 Anomalie options JSON 2026-06-03 — max pain $1.00 aberrant, valeurs opérationnelles conservées ($4.00 / 1.0 / 49.9%)
-- 🟡 Score Global Ajusté 52.5/100 — reste sous seuil institutionnel (60) pour achat
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-08-06** · earnings · Est EPS $−0.13 à $−0.07, Rev $0.0B (J+64)
+- Aucun événement à venir.
 
 ---
 
@@ -58,7 +53,6 @@
 - **MM 200j :** —
 - **ATR 14j :** 0.19
 - **Volume moy. 20j :** 3387760
-- **Volume rel. 20j :** 1.45×
 
 ---
 
@@ -67,7 +61,7 @@
 - **Date :** 2026-06-03
 - **Type :** update
 - **Fichier :** `CTMX_2026-06-03_update.md`
-- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — ATTENDRE (CONFIRMÉE)** — stabilité totale vs clôture 02/06, anomalie options JSON détectée et traitée sans impact sur la thèse
+- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — ATTENDRE (CONFIRMÉE)**
 
 ---
 

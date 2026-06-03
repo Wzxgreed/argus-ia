@@ -315,3 +315,21 @@
 **Conclusion :** CONFIRMÉE — Même conclusion que l'entrée précédente. Trigger dupliqué par le détecteur d'événements. Traité par l'update du 2026-06-03. Pas de full refresh nécessaire.
 
 ---
+
+## 2026-06-03 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -5.28% overnight (seuil ±5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-03 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -5.28% overnight (seuil ±5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

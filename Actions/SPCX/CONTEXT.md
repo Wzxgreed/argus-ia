@@ -59,7 +59,7 @@
 - **Date :** 2026-06-03
 - **Type :** update
 - **Fichier :** `SPCX_2026-06-03_update.md`
-- **Conclusion :** > **Date :** 2026-06-03
+- **Conclusion :** **Date :** 2026-06-03
 
 ---
 

@@ -7,10 +7,10 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Score global :** 36.5/100
-- **Prix cible :** $20.12
-- **Stop-loss :** $15.87
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
 - **Statut thèse :** validée
 - **Horizon :** —
 
@@ -24,18 +24,13 @@
 
 ## 🚨 Alertes actives
 
-- RSI surachat sévère (71.77 > 70) — malus technique majeur
-- Consensus PT dépassé ($16.00 < $17.57, +9.8%) — upside théorique nul
-- Volume sous-moyenne persistant (0.719×)
-- Anomalie options JSON (max pain $2.50 aberrant → valeur opérationnelle $20.00 conservée)
-- ROIC faible (3.16%)
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- Earnings Q3 FY2026 : 2026-08-06 (64j) — Est EPS $0.24–$0.34, Rev ~$0.1B
-- Expiration options : 2026-06-18 (15j)
+- Aucun événement à venir.
 
 ---
 
@@ -54,7 +49,7 @@
 - **Date :** 2026-06-03
 - **Type :** update
 - **Fichier :** `MITK_2026-06-03_update.md`
-- **Conclusion :** Thèse SURVEILLER confirmée. Stabilité totale vs close 02/06 (cours $17.57 inchangé, RSI 71.77, ATR 0.85, volume 954,900 stable 0.719×). Anomalie options JSON détectée et traitée (max pain $2.50 aberrant → valeur opérationnelle $20.00 conservée). Score Global Ajusté 36.5/100 inchangé. Action SURVEILLER, timing Défavorable.
+- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-03 10:00 UTC) + agents quant, geo, sector, social, FX, events, recommandation
 
 ---
 

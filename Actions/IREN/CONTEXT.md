@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 52.5/100
-- **Prix cible :** $66.61 (consensus FMP, 23 analysts)
-- **Stop-loss :** $56.38
-- **Statut thèse :** confirmée
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
 - **Horizon :** —
 
 ---
@@ -35,7 +35,7 @@
 
 ## 📅 Prochains événements
 
-- Earnings Q2 2026 : 2026-08-27 (85 jours)
+- Aucun événement à venir.
 
 ---
 
@@ -52,15 +52,15 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-03
-- **Type :** _update.md (snapshot 10:00 UTC)
-- **Fichier :** `IREN_2026-06-03_update.md`
-- **Conclusion :** Thèse confirmée ATTENDRE. Snapshot 10h00 UTC = close officiel 02/06 (marché fermé). Données strictement identiques. DRAFT_refresh déclenché par ATR_SPIKE = faux positif (données inchangées). Anomalie Max Pain $20.00 détectée dans latest.json (valeur fiable $52.00). EV/EBITDA Yahoo révisé +3.08 pts (173.62×), P/B −0.09 pt (8.80×). Scores inchangés 4.8/10, Global 52.5/100.
+- **Type :** full refresh
+- **Fichier :** `_ARCHIVED_DRAFT_refresh_2026-06-03.md`
+- **Conclusion :** > **Date :** 2026-06-03
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 7.67% (seuil 5.0%) — **FAUX POSITIF** : données inchangées, DRAFT_refresh archivé
+- **ATR_SPIKE** (medium) — ATR relatif 7.67% (seuil 5.0%)
 
 ---
 

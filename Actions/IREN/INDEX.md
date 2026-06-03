@@ -9,13 +9,13 @@
 
 ## Thèse Courante
 
-IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot 10:00 UTC du 2026-06-03 est **strictement identique** au close officiel du 2026-06-02 (cours **$66.60**, RSI **61.11**, ATR **$5.11**, MM50 **$48.75**). Aucun nouveau flux de marché n'est disponible (marché US fermé jusqu'à 14:30 UTC). Le **DRAFT_refresh déclenché automatiquement à 10:00 UTC par ATR_SPIKE est un faux positif** : l'ATR n'a pas changé, le trigger est mécanique sur une volatilité historique déjà intégrée. Le cours évolue **+36.6% au-dessus de la MM50**, tendance haussière intacte.
+IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot 13:00 UTC du 2026-06-03 confirme la **stabilité totale** vs close officiel du 2026-06-02 (cours **$66.60**, RSI **61.11**, ATR **$5.11**, MM50 **$48.75**). Les **anomalies options du snapshot 10h sont résolues** : Max Pain **$52.00** (vs $20.00 erroné), put/call **1.95** (vs null), call OI **33.9%** (vs null). La défiance options s'est légèrement atténuée (puts 66.1% vs 67.6%) mais reste élevée. Le cours évolue **+36.6% au-dessus de la MM50**, tendance haussière intacte.
 
-**🔴 Valorisation stretched :** P/E TTM **86.49×**, EV/EBITDA **173.62×** (+3.08 pts vs close précédent, révision technique), Forward P/E **−70.85×** (profitabilité attendue toujours éloignée), P/B **8.80×** (−0.09 pt). Le **Score Valorisation reste à 3.0/10**.
+**🔴 Valorisation stretched :** P/E TTM **86.49×**, EV/EBITDA **173.62×**, Forward P/E **−70.85×** (profitabilité attendue toujours éloignée), P/B **8.80×**. Le **Score Valorisation reste à 3.0/10**.
 
 **🟡 Consensus PT = cours :** Le cours **$66.60 est exactement au contact du consensus FMP** ($66.61, 23 analysts). L'upside vers le consensus est **nul (0.0%)**.
 
-**🟡 Structure options stable :** Put/Call ratio **2.09** (puts 67.6%), Call OI **32.4%**, Max Pain **$52.00** (expiration 2026-06-05). La défiance du marché options persiste. **Anomalie détectée** : `data/latest.json` retourne Max Pain $20.00 et put/call null — valeurs incohérentes, à ignorer.
+**🟡 Structure options défensive atténuée :** Put/Call ratio **1.95** (puts 66.1%), Call OI **33.9%**, Max Pain **$52.00** (expiration 2026-06-05). La défiance du marché options persiste mais s'est légèrement réduite vs close 02/06 (2.09 → 1.95).
 
 **⚠️ Short Interest stable :** 14.72% — en baisse vs mai mais fuel squeeze réduit.
 
@@ -25,7 +25,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 **Score Global ajusté : 52.5/100**
 **Action : ATTENDRE** — risque/rendement défavorable à l'entrée (consensus PT = cours, valuation extrême)
 
-> **⚠️ Réserve earnings :** Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds (FY 2025 uniquement). Attendre la publication officielle avant toute nouvelle entrée. Ne pas entrer à $66.60 (Forward P/E −70.85×, EV/EBITDA 173.62×, put/call 2.09). Si le cours casse $64.27 sans rebond → signe de faiblesse. Si le cours casse $60.26 sans rebond → passer en SURVEILLER. Si le cours casse $56.83 sans rebond → passer en ÉVITER. Si le cours casse $48.75 (MM50) → passer en ÉVITER. Surveiller la clôture au-dessus de $66.61 avec volume confirmé.
+> **⚠️ Réserve earnings :** Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds (FY 2025 uniquement). Attendre la publication officielle avant toute nouvelle entrée. Ne pas entrer à $66.60 (Forward P/E −70.85×, EV/EBITDA 173.62×, put/call 1.95). Si le cours casse $64.27 sans rebond → signe de faiblesse. Si le cours casse $60.26 sans rebond → passer en SURVEILLER. Si le cours casse $56.83 sans rebond → passer en ÉVITER. Si le cours casse $48.75 (MM50) → passer en ÉVITER. Surveiller la clôture au-dessus de $66.61 avec volume confirmé.
 
 ---
 

@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ÉVITER
-- **Score global :** 29,8/100
-- **Prix cible :** $94,54 (consensus analystes)
-- **Stop-loss :** $93,73
-- **Statut thèse :** confirmée
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
 - **Horizon :** —
 
 ---
@@ -24,12 +24,7 @@
 
 ## 🚨 Alertes actives
 
-- RSI_SURACHAT — RSI 72,58, risque de correction technique persistant
-- VOLUME_COLLAPSE — volume 0,78× sur rally +11,85% = participation sous-moyenne
-- ATR_SPIKE — ATR relatif 10,3% du cours, volatilité extrême persistante
-- Rally non catalysé — +11,85% sans news ni catalyseur
-- Cours au-dessus du consensus — $118,17 vs PT $94,54 = −25,0% downside
-- Anomalie options JSON — max pain $40 aberrant, valeur opérationnelle $120 conservée
+- Aucune alerte active.
 
 ---
 
@@ -54,7 +49,7 @@
 - **Date :** 2026-06-03
 - **Type :** update
 - **Fichier :** `ASTS_2026-06-03_update.md`
-- **Conclusion :** **Thèse confirmée : ÉVITER — stabilité totale vs close 02/06 ($118,17), volume 0,78× stable, RSI surachat persistant 72,58, divergence consensus stable −25,0%, anomalie options JSON traitée (max pain $40 aberrant → $120 opérationnel)**
+- **Conclusion :** **Thèse confirmée : ÉVITER — close stable à $118,17, volume matinal 0,78× (stable vs 0,76×), RSI surachat persistant 72,58, divergence consensus stable à −25,0%
 
 ---
 

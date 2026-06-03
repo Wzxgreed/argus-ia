@@ -1,7 +1,7 @@
-# VRT — Mise à Jour 2026-06-03 (Snapshot 10:00 UTC)
+# VRT — Mise à Jour 2026-06-03 (Snapshot 13:00 UTC)
 
 **Date :** 2026-06-03
-**Snapshot :** 10:00 UTC (pré-marché US)
+**Snapshot :** 13:00 UTC (pré-marché US — ouverture 13:30 UTC)
 **Cours :** $334.49
 **Market Cap :** $128.48B (Yahoo)
 **Volume :** 5.05M (0.87× moy. 20j : 5.81M)
@@ -12,18 +12,18 @@
 
 ---
 
-## Résumé des changements depuis l'analyse précédente (Snapshot 21:00 UTC 02/06)
+## Résumé des changements depuis l'analyse précédente (Snapshot 10:00 UTC 03/06)
 
-| Indicateur | Snapshot 21:00 UTC (02/06) | Snapshot 10:00 UTC (03/06) | Δ |
+| Indicateur | Snapshot 10:00 UTC (03/06) | Snapshot 13:00 UTC (03/06) | Δ |
 |---|---|---|---|
 | Cours | **$334.49** | **$334.49** | ✅ **Identique** |
 | RSI 14j | **35.81** | **35.81** | ✅ Identique |
 | ATR 14j | **$18.35** | **$18.35** | ✅ Identique |
 | MM 50j | **$310.02** | **$310.02** | ✅ Identique |
-| Volume | **5.04M** (0.87×) | **5.05M** (0.87×) | ✅ Identique |
-| Max Pain | **$220.00** | **$160.00** | 🔴 **ANOMALIE — identique au 02/06 10:00 UTC** |
-| Put/Call Ratio | **2.08** | **null** | 🔴 **ANOMALIE — identique au 02/06 10:00 UTC** |
-| Call OI % | **32.4%** | **null** | 🔴 **ANOMALIE — identique au 02/06 10:00 UTC** |
+| Volume | **5.05M** (0.87×) | **5.05M** (0.87×) | ✅ Identique |
+| Max Pain | **$160.00** (anomalie) | **$220.00** | 🟢 **RÉSOLU — +37.5%** |
+| Put/Call Ratio | **null** (anomalie) | **1.99** | 🟢 **RÉSOLU — cohérent** |
+| Call OI % | **null** (anomalie) | **33.5%** | 🟢 **RÉSOLU — +1.1 pt vs 02/06** |
 | P/E (Yahoo TTM) | **84.04** | **84.04** | ✅ Identique |
 | Forward P/E | **37.85** | **37.85** | ✅ Identique |
 | Consensus PT | **$264.35 (46)** | **$264.35 (46)** | ✅ Identique — obsolète |
@@ -31,15 +31,15 @@
 | Score Global | **40.0/100** | **40.0/100** | ✅ Identique |
 | Score Global Ajusté | **45.0/100** | **45.0/100** | ✅ Identique — SURVEILLER |
 | Timing moteur | Favorable | **Favorable** | ✅ Identique |
-| Earnings (jours) | 57 | **56** | ✅ −1 jour |
+| Earnings (jours) | 56 | **56** | ✅ Identique |
 
-> **Verdict :** Le snapshot 10:00 UTC du 3 juin est un **snapshot pré-marché** (US ouvre à 13:30 UTC). Toutes les données de cours, indicateurs techniques et fondamentaux sont **strictement identiques** à la clôture du 2 juin ($334.49, RSI 35.81, ATR $18.35, volume 5.05M). L'unique évolution concerne la **réapparition de l'anomalie options** déjà observée à 10:00 UTC le 2 juin : max pain **$160.00** (vs $220 confirmé), put/call **null**, call OI **null**. Cette anomalie pré-marché est un artefact récurrent. Les valeurs confirmées du 2 juin ($220 / 2.08 / 32.4%) restent la référence. Le Score Global Ajusté reste à **45.0/100** (zone SURVEILLER). **Thèse modifiée inchangée** — pas de nouvel élément structurant.
+> **Verdict :** Le snapshot 13:00 UTC confirme la **stabilité totale** des données de cours, indicateurs techniques et fondamentaux vs le snapshot 10:00 UTC et vs la clôture du 2 juin. L'**anomalie options pré-marché détectée à 10:00 UTC** (max pain $160, put/call `null`, call OI `null`) est **résolue** à 13:00 UTC. Les valeurs affichées sont désormais cohérentes : max pain **$220.00**, put/call **1.99**, call OI **33.5%**. Ce niveau de put/call représente une **amélioration marginale** vs la référence confirmée du 2 juin (2.08 → 1.99, soit **−4.3%** de puts), et le call OI % remonte de 32.4% à 33.5%. L'orientation options reste baissière pour l'expiration du 5 juin, mais légèrement atténuée. Le Score Global Ajusté reste à **45.0/100** (zone SURVEILLER). **Thèse modifiée inchangée** — anomalie levée, pas de nouvel élément structurant.
 
 ---
 
 ## Mise à jour technique
 
-| Indicateur | Valeur JSON 10:00 UTC | Interprétation |
+| Indicateur | Valeur JSON 13:00 UTC | Interprétation |
 |---|---|---|
 | RSI 14j | **35.81** | 🟢 **Stable** — sortie de survente extrême (<30) confirmée, reste faible (<40) |
 | ATR 14j | **$18.35** | Volatilité stable. ATR relatif 5.49% > seuil 5.0% = ATR_SPIKE persistant mais contenu |
@@ -56,18 +56,18 @@
 | Volume relatif | 0.87× | 🟢 **Quasi-standard** — participation inchangée |
 
 **Options (expiration 2026-06-05 — vendredi, 2 jours)**
-| Métrique | Valeur JSON 10:00 UTC | Valeur confirmée 21:00 UTC 02/06 | Δ | Commentaire |
+| Métrique | Valeur JSON 13:00 UTC | Valeur confirmée 21:00 UTC 02/06 | Δ | Commentaire |
 |---|---|---|---|---|
-| Max Pain | **$160.00** | **$220.00** | 🔴 **ANOMALIE** | Artefact pré-marché récurrent. Valeur confirmée $220 conservée |
-| Put/Call Ratio | **null** | **2.08** | 🔴 **ANOMALIE** | Artefact pré-marché récurrent. Valeur confirmée 2.08 conservée |
-| Call OI % | **null** | **32.4%** | 🔴 **ANOMALIE** | Artefact pré-marché récurrent. Valeur confirmée 32.4% conservée |
+| Max Pain | **$220.00** | **$220.00** | ✅ **Identique** | Anomalie 10:00 UTC ($160) résolue. Valeur confirmée maintenue |
+| Put/Call Ratio | **1.99** | **2.08** | 🟢 **−4.3%** | Amélioration marginale — moins bearish. 66.5% puts vs 67.6% |
+| Call OI % | **33.5%** | **32.4%** | 🟢 **+1.1 pt** | Appels en légère hausse, mais puts toujours dominants |
 
-> **Verdict timing : Neutre** (inchangé vs 21:00 UTC 02/06)
+> **Verdict timing : Neutre** (inchangé vs 10:00 UTC 03/06)
 - RSI 35.81 = remontée confirmée mais reste faible, pas de surachat
 - Cours au-dessus de MM50 ($310.02) de +7.9% = support tenu
 - Low $331.23 = bien au-dessus de l'ancien support $324, support pivoté
 - Volume 0.87× = quasi-standard, inchangé
-- Options : **anomalie pré-marché récurrente** (max pain $160, put/call null). Les valeurs confirmées du 2 juin ($220 / 2.08 / 32.4%) restent la référence. Orientation baissière persistante mais moins extrême qu'au 1er juin (2.41 → 2.08, −13.7%)
+- Options : **anomalie pré-marché résolue** (max pain $220, put/call 1.99, call OI 33.5%). Orientation baissière persistante mais légèrement atténuée vs référence 02/06 (2.08 → 1.99, −4.3%)
 - **ATR_SPIKE persistant** (5.49%) : volatilité résiduelle élevée mais stable
 - **Résistance $345.18** reste la première cible à breaker pour confirmer un rebond
 
@@ -75,7 +75,7 @@
 
 ## Mise à jour fondamentale
 
-| Métrique | Source | Valeur JSON 10:00 UTC | Contexte |
+| Métrique | Source | Valeur JSON 13:00 UTC | Contexte |
 |---|---|---|---|
 | P/E (Yahoo TTM) | Yahoo | **84.04** | Prime de croissance IA massive. Stable |
 | Forward P/E | Yahoo | **37.85** | Réflète croissance >30% attendue. Stable |
@@ -105,9 +105,9 @@
 |---|---|---|
 | News VRT | Aucune news détectée (`data/news_latest.json` → `VRT: []`) | 🟢 Pas de catalyseur externe |
 | Consensus analystes | 46 analysts · PT $264.35 | ⚠️ **OBSOLÈTE** — cours $334.49 = +26.6% au-dessus. 7 analysts actifs le mois dernier |
-| Put/Call Ratio | **2.08** (confirmé 02/06) | 🔴 **Bearish** — sentiment options défensif. Valeur confirmée conservée (anomalie 03/06 à ignorer) |
-| Max Pain | **$220.00** (confirmé 02/06) | 🔴 Gap 34.2% vs cours. Orientation baissière expiration 5 juin persistante |
-| Call OI % | **32.4%** (confirmé 02/06) | 🟡 Puts toujours dominants (67.6%), inchangés |
+| Put/Call Ratio | **1.99** (JSON résolu) | 🔴 **Bearish** — sentiment options défensif, mais moins extrême que la référence 02/06 (2.08) |
+| Max Pain | **$220.00** (JSON résolu) | 🔴 Gap 34.2% vs cours. Orientation baissière expiration 5 juin persistante |
+| Call OI % | **33.5%** (JSON résolu) | 🟡 Puts toujours dominants (66.5%), mais appels en hausse vs 32.4% confirmé 02/06 |
 | Social Sentiment | 0 mentions / No data | 🟢 Pas de pump/dump (`data/social_sentiment_latest.json`) |
 | Event-Driven | 0 événement corporate (`data/events_latest.json`) | 🟢 Pas de M&A, buyback, guidance change |
 | FX Exposure | 45% EUR/CNY · Score 0.0 | 🟢 Aligné — pas d'impact FX (`data/fx_exposure_latest.json`) |
@@ -149,19 +149,19 @@
 | **Sizing recommandé** | Réduit (beta 2.10) | Inchangé. Volatilité extrême |
 | **Horizon** | 1–3 mois | Earnings 29 juillet = catalyseur binaire |
 
-> **Révision :** Aucune révision nécessaire. Les niveaux restent identiques au snapshot 21:00 UTC 02/06. Le SL engine ($297.79) reste éloigné (−11.0%) compte tenu du beta 2.10. La zone $313–$325 reste le support immédiat à surveiller. Le cours $334.49 confirme le soutien au-dessus de $324.
+> **Révision :** Aucune révision nécessaire. Les niveaux restent identiques au snapshot 10:00 UTC 03/06 et au snapshot 21:00 UTC 02/06. Le SL engine ($297.79) reste éloigné (−11.0%) compte tenu du beta 2.10. La zone $313–$325 reste le support immédiat à surveiller. Le cours $334.49 confirme le soutien au-dessus de $324.
 
 ---
 
 ## Conclusion — Thèse confirmée, modifiée ou invalidée ?
 
-**Verdict : THÈSE MODIFIÉE INCHANGÉE — SNAPSHOT PRÉ-MARCHÉ SANS NOUVELLE DONNÉE DE COURS, ANOMALIE OPTIONS RÉCURRENTE, SCORE ET RECOMMANDATION INCHANGÉS (SURVEILLER).**
+**Verdict : THÈSE MODIFIÉE INCHANGÉE — ANOMALIE OPTIONS PRÉ-MARCHÉ RÉSOLUE, SENTIMENT LÉGÈREMENT ATTÉNUÉ, SCORE ET RECOMMANDATION INCHANGÉS (SURVEILLER).**
 
 - **Fondamentaux :** ✅ Confirmés — Quality Compounder 5–6/6, ROIC 18.5%, ROCE 24.3%, FCF yield 3.06%, net debt/EBITDA 0.76×. Marges en expansion, moat intact. Aucun changement fondamental.
 - **Valorisation :** 🔴 **Stable** — P/E TTM 84.0, Forward P/E 37.9. Prime massive inchangée.
 - **Catalyseur :** 🟡 Stable — Score C 4.3/10. Pas de nouveau catalyseur. Earnings 29 juillet reste le prochain catalyseur binaire (56 jours).
 - **Momentum :** 🟡 **Stable** — Score M 6.0/10. Cours inchangé $334.49, au-dessus de MM50, low $331.23 tenu. RSI 35.81, sortie de survente extrême confirmée.
-- **Options :** 🔴 **Bearish inchangé** — Valeurs confirmées 02/06 : put/call 2.08 (67.6% puts), max pain $220 (gap 34.2% vs cours). Orientation baissière expiration 5 juin persistante. Anomalie 03/06 10:00 UTC ($160 / null / null) = artefact pré-marché récurrent à ignorer.
+- **Options :** 🟡 **Bearish atténué** — Anomalie pré-marché 10:00 UTC résolue à 13:00 UTC. Put/call 1.99 (vs 2.08 au 02/06, −4.3%), call OI 33.5% (vs 32.4%). Puts toujours dominants mais moins extrêmes. Max pain $220 confirmé (gap 34.2% vs cours). Orientation baissière expiration 5 juin persistante mais légèrement atténuée.
 - **Volume :** 🟢 **Stable** — 5.05M (0.87×), quasi-standard. Pas de collapse.
 - **Timing :** 🟡 **Neutre** — Cours au-dessus de MM50 et $324 confirmé, RSI remonté mais faible, options bearish persistants, résistance $345.18 rejetée.
 - **Sector Rotation :** 🔴 **Stable** — XLI Industrials momentum 0.0, sous-performant vs XLK/XLE.
@@ -169,10 +169,10 @@
 - **Données Pipeline :** ✅ Intègres — 24/29 tickers OK, VRT sans erreur [CRITICAL]. Quality Gate VRT = `ok`. 1 WARNING non bloquant (JSON schema).
 
 **Recommandation : SURVEILLER** (Score Global Ajusté 45.0/100 — zone 35–49)
-- **Pas de position longue significative à $334.49.** Le snapshot pré-marché n'apporte aucune nouvelle donnée de cours. L'anomalie options est un artefact récurrent en pré-marché.
+- **Pas de position longue significative à $334.49.** Le snapshot pré-marché n'apporte aucune nouvelle donnée de cours. L'anomalie options est résolue mais l'orientation reste baissière pour l'expiration vendredi.
 - **Si le cours clôture sous $331** en séance US avec volume → risque de retour vers $324 puis $313–$316.
 - **Si le cours clôture au-dessus de $345** avec volume >1.0× → possible confirmation du rebond, objectif $360–$370.
-- **Urgence :** Expiration options vendredi 5 juin avec max pain confirmé $220 et 67.6% puts. Risque de volatilité difficile à quantifier. Le gap +3.43% du 2 juin sur volume quasi-standard atténue le risque de short squeeze forcé.
+- **Urgence :** Expiration options vendredi 5 juin avec max pain confirmé $220 et 66.5% puts. Risque de volatilité difficile à quantifier. Le gap +3.43% du 2 juin sur volume quasi-standard atténue le risque de short squeeze forcé.
 - Earnings 29 juillet (56 jours) reste binaire : valider la croissance ou correction vers MM50 ($310).
 
 ---
@@ -180,7 +180,7 @@
 ## Alertes actives
 
 - 🟢 **RSI 35.81** — Sortie de survente extrême confirmée, mais reste faible (<40)
-- 🔴 **Options bearish** — Put/call 2.08 (67.6% puts), max pain $220 (gap 34.2% vs cours). Orientation baissière expiration 5 juin. **Anomalie 03/06 10:00 UTC ($160/null/null) = artefact pré-marché à ignorer**
+- 🔴 **Options bearish** — Put/call 1.99 (66.5% puts), max pain $220 (gap 34.2% vs cours). Orientation baissière expiration 5 juin. **Anomalie 03/06 10:00 UTC ($160/null/null) RÉSOLUE à 13:00 UTC**
 - 🔴 **Valorisation extrême** — P/E 84.0, Forward P/E 37.9, EV/EBITDA 54.2. Aucune marge d'erreur
 - 🔴 **Sector rotation défavorable** — XLI Industrials momentum 0.0, sous-performant vs XLK/XLE
 - 🔴 **ATR_SPIKE persistant** — 5.49% > seuil 5.0%. Volatilité résiduelle élevée post-correction
@@ -194,8 +194,8 @@
 
 ## Notes et limitations
 
-- [SNAPSHOT PRÉ-MARCHÉ 10:00 UTC] — Le snapshot 10:00 UTC du 3 juin est pré-marché (US ouvre à 13:30 UTC). Les données de cours, volumes, RSI et ATR sont strictement identiques à la clôture du 2 juin ($334.49, RSI 35.81, ATR $18.35, volume 5.05M). Aucune évolution de marché n'est observable à ce stade.
-- [ANOMALIE OPTIONS RÉCURRENTE] — Le JSON 10:00 UTC affiche max pain $160.00, put/call null, call OI null — identique à l'anomalie détectée à 10:00 UTC le 2 juin. Cet artefact pré-marché est récurrent et a été résolu à 13:00 UTC le 2 juin (max pain $220, put/call 2.08, call OI 32.4%). Les valeurs confirmées du 2 juin sont conservées comme référence.
+- [SNAPSHOT PRÉ-MARCHÉ 13:00 UTC] — Le snapshot 13:00 UTC du 3 juin est pré-marché (US ouvre à 13:30 UTC). Les données de cours, volumes, RSI et ATR sont strictement identiques à la clôture du 2 juin ($334.49, RSI 35.81, ATR $18.35, volume 5.05M). Aucune évolution de marché n'est observable à ce stade.
+- [ANOMALIE OPTIONS RÉSOLUE] — Le JSON 13:00 UTC affiche désormais max pain $220.00, put/call 1.99, call OI 33.5% — cohérent avec les valeurs historiques et résolvant l'artefact $160/null détecté à 10:00 UTC. Put/call légèrement amélioré vs référence 02/06 (2.08 → 1.99, −4.3% de puts).
 - [DONNÉES PARTIELLES] — FMP ratios dérivés obsolètes (FY2025, share count dépassé). Préférer Yahoo pour capitalisation et P/E TTM.
 - [DONNÉES MANQUANTES] — `data/accounting_risk_latest.json` absent. Pas de M-Score, Z-Score, F-Score, Sloan Ratio pour VRT.
 - [DONNÉES MANQUANTES] — MM200, MACD, IV Rank, earnings whisper, insider trades, job postings, 13F, ETF flows, dark pool, transcripts NLP.
@@ -204,4 +204,4 @@
 
 ---
 
-*Analyse générée le 2026-06-03 avec snapshot 10:00 UTC. Cours $334.49 (inchangé vs 02/06), RSI 35.81 (inchangé), volume 5.05M (0.87×, inchangé), Score Global Ajusté 45.0/100 (SURVEILLER). Thèse modifiée inchangée — snapshot pré-marché sans nouvelle donnée de cours, anomalie options récurrente.*
+*Analyse générée le 2026-06-03 avec snapshot 13:00 UTC. Cours $334.49 (inchangé vs 02/06), RSI 35.81 (inchangé), volume 5.05M (0.87×, inchangé), Score Global Ajusté 45.0/100 (SURVEILLER). Thèse modifiée inchangée — anomalie options pré-marché résolue, sentiment légèrement atténué, pas de nouvel élément structurant.*

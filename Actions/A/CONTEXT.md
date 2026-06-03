@@ -58,7 +58,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-08-26** · Earnings Q3 2026 · Est EPS $1.48–$1.51, Rev $1.8B · J+84
+- Aucun événement à venir.
 
 ---
 
@@ -77,7 +77,7 @@
 - **Date :** 2026-06-03
 - **Type :** update
 - **Fichier :** `A_2026-06-03_update.md`
-- **Conclusion :** Stabilité totale vs close 02/06 avec volume au-dessus moyenne 20j (1.10×) pour la première fois post-gap. Anomalie options JSON détectée et traitée. Score Global ajusté 52.5 inchangé. Recommandation ATTENDRE maintenue.
+- **Conclusion :** > **Date :** 2026-06-03 · Snapshot 10:00 UTC
 
 ---
 

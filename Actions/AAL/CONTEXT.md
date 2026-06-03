@@ -1,4 +1,4 @@
-# CONTEXT — AAL — Dernière mise à jour : 2026-06-03 (snapshot 10:00 UTC)
+# CONTEXT — AAL — Dernière mise à jour : 2026-06-03
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -21,17 +21,17 @@ American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) a
 
 **Verdict institutionnel :** La these tactique **SURVEILLER est CONFIRMEE.** Le snapshot matinal du 03/06 ne rapporte aucune nouvelle donnée par rapport au 02/06 21h. La **cassure du support $14.00** n'a pas ete recuperee. Le setup options (Max Pain $15.50, Call OI 40.7%) reste theoriquement favorable avec l'expiration dans 2 jours. **Un retour au-dessus de $14.00 en session reguliere sur volume > 40M reste necessaire pour reactiver la these ACHETER.** Le ratio R/R reste favorable a 1.5 (SL $12.71, TP $15.76) mais le niveau de confiance est degrade depuis la cassure de $14.00. Le bilan extremement fragile (current ratio 0.50, tangible asset value negatif) impose la prudence. AAdvantage (programme loyalty) reste le hidden asset (~$20-25B > market cap).
 
-**✅ Donnees completes** — Cours, RSI, ATR, P/E, beta, consensus FMP, short interest, volume, options (put/call, max pain, call OI) disponibles dans `data/2026-06-02.json` (snapshot 17:00 UTC).  
+**✅ Donnees completes** — Cours, RSI, ATR, P/E, beta, consensus FMP, short interest, volume disponibles dans `data/2026-06-03.json` (snapshot 10:00 UTC). Options valides dans `data/2026-06-02.json` (snapshot 21:00 UTC).  
 **⚠️ Donnees partielles** — Accounting risk (M-Score, Z-Score, F-Score, Sloan) : fichier indisponible. Quant report insuffisant. MACD, MM200, IV Rank, insider trades detailles, 13F complets, ETF flows, dark pool, transcripts NLP, job postings.
 
 ---
 
 ## Actualites ayant impacte ce dossier
-- **Score global :** 65.3/100 (ajusté)
+- **Score global :** —/10
 - **Prix cible :** $15.76
 - **Stop-loss :** $12.71
-- **Statut thèse :** SURVEILLER
-- **Horizon :** 1–3 mois
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -43,16 +43,15 @@ American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) a
 
 ## 🚨 Alertes actives
 
-- Baisse — $12.71 (SL 2×ATR) — 🟢 Active
-- Hausse — $14.00 (prix cible) — 🔴 Déclenchée (02/06)
-- Volume — >2× moy. 20j (>134.2M) — 🟢 Active
+- Baisse — $11.41 (SL 2×ATR) — 🟢 Active
+- Hausse — $14.00 (prix cible) — 🔴 Déclenchée (27/05)
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- 2026-06-05 — Expiration options (Max Pain $15.50) — risque gamma
-- 2026-07-23 — Earnings Q2 FY2026 — Est EPS -$0.34 à $0.52, Rev $16.6B
+- Aucun événement à venir.
 
 ---
 
@@ -62,10 +61,7 @@ American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) a
 - **MM 50j :** 12.18
 - **MM 200j :** —
 - **ATR 14j :** 0.61
-- **Volume moy. 20j :** 67,119,485
-- **Cours :** $13.93
-- **Forward P/E :** 6.25
-- **Short Interest :** 12.87%
+- **Volume moy. 20j :** 67119485
 
 ---
 
@@ -74,7 +70,7 @@ American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) a
 - **Date :** 2026-06-03
 - **Type :** update
 - **Fichier :** `AAL_2026-06-03_update.md`
-- **Conclusion :** Stabilité totale vs 02/06 21h — cours $13.93 inchangé, données techniques et fondamentales identiques. Données options corrompues dans latest.json (max pain $5.00 aberrant) — valeurs opérationnelles du 02/06 conservées. Thèse SURVEILLER confirmée. SL $12.71, TP $15.76, R/R 1.5.
+- **Conclusion :** **Date :** 2026-06-03 (snapshot 10:00 UTC)
 
 ---
 
