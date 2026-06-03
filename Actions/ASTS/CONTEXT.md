@@ -24,7 +24,12 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- RSI_SURACHAT — RSI 72,58, risque de correction technique persistant
+- VOLUME_COLLAPSE — volume 0,78× sur rally +11,85% = participation sous-moyenne
+- ATR_SPIKE — ATR relatif 10,3% du cours, volatilité extrême persistante
+- Rally non catalysé — +11,85% sans news ni catalyseur
+- Cours au-dessus du consensus — $118,17 vs PT $94,54 = −25,0% downside
+- Anomalie options JSON — max pain $40 aberrant, valeur opérationnelle $120 conservée
 
 ---
 
