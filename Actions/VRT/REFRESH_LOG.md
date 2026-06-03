@@ -1205,7 +1205,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.49% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** DRAFT_refresh du 3 juin traité comme **artefact algorithmique**. ATR_SPIKE 5.49% est un trigger persistant depuis le 18/05 (volatilité résiduelle post-correction), pas un nouvel événement. Données de cours strictement identiques à la clôture du 2 juin ($334.49, RSI 35.81, ATR $18.35, volume 5.05M). Anomalie options pré-marché récurrente ($160/null/null) — valeurs confirmées 02/06 conservées. Pas de nouvel événement structurant. Thèse MODIFIÉE inchangée. Score 4.0/10. SURVEILLER. DRAFT archivé. Voir [VRT_2026-06-03_update.md](./VRT_2026-06-03_update.md).
 
 ---
 
@@ -1214,6 +1214,6 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.49% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Résolu — fusionné avec le traitement du DRAFT du 3 juin (même trigger persistant, données inchangées). DRAFT archivé. Voir [VRT_2026-06-03_update.md](./VRT_2026-06-03_update.md).
 
 ---

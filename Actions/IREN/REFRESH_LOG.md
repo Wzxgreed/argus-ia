@@ -2,6 +2,17 @@
 
 ---
 
+## 2026-06-03 — Full Refresh Triggered (faux positif)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 7.67% (seuil 5.0%)
+
+**Conclusion :** confirm — faux positif
+
+Le DRAFT_refresh a ete declenche automatiquement a 10:00 UTC par ATR_SPIKE, mais les donnees brutes sont strictement identiques au close officiel du 2026-06-02 (cours $66.60, RSI 61.11, ATR $5.11, MM50 $48.75, volume 51.34 M). L'ATR n'a pas change — le trigger est mecanique sur une volatilite historique deja integree. Le marché US etant ferme jusqu'a 14:30 UTC, aucun nouveau flux de marche n'est disponible. DRAFT_refresh archive. Anomalie detectee : `data/latest.json` retourne Max Pain $20.00 (incohérent) et put/call null — valeurs fiables maintenues : Max Pain $52.00, put/call 2.09, call OI 32.4%. These confirmee ATTENDRE (Score Opportunite 4.8/10, Global 52.5/100).
+
+---
+
 ## 2026-05-17 — Full Refresh Triggered
 
 **Triggers :**

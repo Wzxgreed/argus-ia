@@ -9,23 +9,23 @@
 
 ## Thèse Courante
 
-IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le close officiel du 2026-06-02 enregistre un **retrait partiel du breakout** avec cours à **$66.60 (−1.04% vs snapshot 17h)**. Le high intraday à **$69.57** est rejeté en clôture, le cours finissant **exactement au contact du consensus analystes $66.61**. Le **volume total de la session s'établit à 51.26 M (0.9× la moyenne 20j)**, participation normale corrigeant l'impression de faible volume du snapshot 17h. Le cours évolue **+36.6% au-dessus de la MM50** ($48.75), tendance haussière intacte.
+IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot 10:00 UTC du 2026-06-03 est **strictement identique** au close officiel du 2026-06-02 (cours **$66.60**, RSI **61.11**, ATR **$5.11**, MM50 **$48.75**). Aucun nouveau flux de marché n'est disponible (marché US fermé jusqu'à 14:30 UTC). Le **DRAFT_refresh déclenché automatiquement à 10:00 UTC par ATR_SPIKE est un faux positif** : l'ATR n'a pas changé, le trigger est mécanique sur une volatilité historique déjà intégrée. Le cours évolue **+36.6% au-dessus de la MM50**, tendance haussière intacte.
 
-**🔴 Valorisation stretched :** P/E TTM **86.49×**, EV/EBITDA **170.54×**, Forward P/E **−70.85×** (profitabilité attendue toujours éloignée), P/B **8.89×**. Le **Score Valorisation reste à 3.0/10**.
+**🔴 Valorisation stretched :** P/E TTM **86.49×**, EV/EBITDA **173.62×** (+3.08 pts vs close précédent, révision technique), Forward P/E **−70.85×** (profitabilité attendue toujours éloignée), P/B **8.80×** (−0.09 pt). Le **Score Valorisation reste à 3.0/10**.
 
 **🟡 Consensus PT = cours :** Le cours **$66.60 est exactement au contact du consensus FMP** ($66.61, 23 analysts). L'upside vers le consensus est **nul (0.0%)**.
 
-**🟡 Structure options stable :** Put/Call ratio **2.09** (puts 67.6%), Call OI **32.4%**, Max Pain **$52.00** (expiration 2026-06-05). La défiance du marché options persiste.
+**🟡 Structure options stable :** Put/Call ratio **2.09** (puts 67.6%), Call OI **32.4%**, Max Pain **$52.00** (expiration 2026-06-05). La défiance du marché options persiste. **Anomalie détectée** : `data/latest.json` retourne Max Pain $20.00 et put/call null — valeurs incohérentes, à ignorer.
 
 **⚠️ Short Interest stable :** 14.72% — en baisse vs mai mais fuel squeeze réduit.
 
-**Earnings Q1 2026** : résultats toujours non intégrés dans les feeds Yahoo/FMP au 2026-06-02. Prochain earnings Q2 2026 : **2026-08-27** (86 jours).
+**Earnings Q1 2026** : résultats toujours non intégrés dans les feeds Yahoo/FMP au 2026-06-03. Prochain earnings Q2 2026 : **2026-08-27** (85 jours).
 
 **Score Opportunité : 4.8/10** (Catalyseur 5.3, Valorisation 3.0, Momentum 6.8)
 **Score Global ajusté : 52.5/100**
-**Action : ATTENDRE** — risque/rendement défavorable à l'entrée (breakout invalidé en clôture, valuation extrême)
+**Action : ATTENDRE** — risque/rendement défavorable à l'entrée (consensus PT = cours, valuation extrême)
 
-> **⚠️ Réserve earnings :** Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds (FY 2025 uniquement). Attendre la publication officielle avant toute nouvelle entrée. Ne pas entrer à $66.60 (Forward P/E −70.85×, EV/EBITDA 170×, put/call 2.09). Si le cours casse $64.27 sans rebond → signe de faiblesse. Si le cours casse $60.26 sans rebond → passer en SURVEILLER. Si le cours casse $56.83 sans rebond → passer en ÉVITER. Si le cours casse $48.75 (MM50) → passer en ÉVITER. Surveiller la clôture au-dessus de $66.61 avec volume confirmé.
+> **⚠️ Réserve earnings :** Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds (FY 2025 uniquement). Attendre la publication officielle avant toute nouvelle entrée. Ne pas entrer à $66.60 (Forward P/E −70.85×, EV/EBITDA 173.62×, put/call 2.09). Si le cours casse $64.27 sans rebond → signe de faiblesse. Si le cours casse $60.26 sans rebond → passer en SURVEILLER. Si le cours casse $56.83 sans rebond → passer en ÉVITER. Si le cours casse $48.75 (MM50) → passer en ÉVITER. Surveiller la clôture au-dessus de $66.61 avec volume confirmé.
 
 ---
 
@@ -58,6 +58,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 | 2026-06-02 | [IREN_2026-06-02_update.md](IREN_2026-06-02_update.md) (snapshot 13:00 UTC) | Mise à jour pré-ouverture | Snapshot 13:00 UTC — **stabilité totale vs close 01/06** · cours $65.33 (=) · volume finalisé 56.24 M (95.1% moyenne) · RSI 61.23 · Forward P/E −69.50× · scores inchangés 4.8/10 · Global 52.5/100 · **structure options corrigée** (Max Pain $52.00, put/call 2.09 vs 3.01, call OI 32.4% vs 24.9%) · thèse confirmée ATTENDRE |
 | 2026-06-02 | [IREN_2026-06-02_update.md](IREN_2026-06-02_update.md) (snapshot 17:00 UTC) | Mise à jour intra-session | Snapshot 17:00 UTC — **breakout haussier** · cours $67.30 (+3.02%) · high $69.57 (nouveau high historique) · volume faible 29.68 M (50.7% moyenne) · RSI 61.70 · Forward P/E −71.60× (détérioration) · P/E 87.40× · consensus PT $66.61 dépassé · scores inchangés 4.8/10 · Global 53.0/100 · thèse modifiée ATTENDRE maintenu |
 | 2026-06-02 | [IREN_2026-06-02_update.md](IREN_2026-06-02_update.md) (close officiel) | Mise à jour close officiel | Close officiel — **retrait partiel du breakout** · cours $66.60 (−1.04% vs 17h) · volume total 51.26 M (0.9× moyenne) · RSI 61.11 · Forward P/E −70.85× (amélioration marginale) · P/E 86.49× · consensus PT $66.61 non dépassé · scores inchangés 4.8/10 · Global 52.5/100 · thèse confirmée ATTENDRE |
+| 2026-06-03 | [IREN_2026-06-03_update.md](IREN_2026-06-03_update.md) (snapshot 10:00 UTC) | Mise à jour pré-ouverture | Snapshot 10:00 UTC — **stabilité totale vs close 02/06** · cours $66.60 (=) · volume 51.34 M (86.1% moyenne) · RSI 61.11 · Forward P/E −70.85× · scores inchangés 4.8/10 · Global 52.5/100 · **anomalie Max Pain $20.00 détectée** (valeur fiable $52.00) · **DRAFT_refresh archivé** (faux positif ATR_SPIKE) · thèse confirmée ATTENDRE |
 
 ---
 
@@ -84,4 +85,4 @@ Voir [SUPPLY_CHAIN.md](SUPPLY_CHAIN.md) pour la cartographie fournisseurs/client
 
 ---
 
-*Dernière mise à jour : 2026-06-02 (snapshot 17:00 UTC)*
+*Dernière mise à jour : 2026-06-03 (snapshot 10:00 UTC)*
