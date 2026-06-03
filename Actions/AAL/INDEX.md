@@ -26,6 +26,7 @@
 | 2026-06-02 10:00 UTC | Mise a jour | [AAL_2026-06-02_update.md](./AAL_2026-06-02_update.md) | **Snapshot 10:00 UTC** : **stabilite totale** vs 01/06 21h — cours $14.34 inchange, RSI 67.98 inchange, volume 69.02M (+3.8% vs moyenne, +1.5% vs prior). XLI RS20 vs SPY -5.58% (amelioration marginale vs -5.67%). Anomalie data quality options (max pain $5.00 aberrant, put/call null). Score agent 6.0/10 (ACHETER sizing reduit, 65.3/100) maintenu. SL $13.14, TP $16.14, R/R 1.5. These confirmee. |
 | 2026-06-02 17:00 UTC | Mise a jour | [AAL_2026-06-02_update.md](./AAL_2026-06-02_update.md) | **Snapshot 17:00 UTC** : repli technique -2.68% a $13.96 sur **volume collapse 0.35x** (22.75M vs 65.79M avg). RSI 63.76 (-4.22 pts, sortie zone surachat). **Support $14.00 CASSÉ**. Forward P/E 6.26. Options stables (put/call 1.46, max pain $15.50, call OI 40.7%). Sector signal passe ROTATION_TO_CYCLICAL → NEUTRAL. Score agent 6.0/10 maintenu mais **these MODIFIEE** — recommandation institutionnelle passe SURVEILLER. SL $12.74, TP $15.79, R/R 1.5. |
 | 2026-06-02 21:00 UTC | Mise a jour | [AAL_2026-06-02_update.md](./AAL_2026-06-02_update.md) | **Snapshot 21:00 UTC** : stabilite $13.93 (-0.21% vs 17h), volume total **49.13M** (+116% vs 17h grace aux after-hours). Support $14.00 **non recupere**. RSI 63.42 (stable). XLI RS20 vs SPY **-3.91%** (amelioration marginale). Options inchangées. **These SURVEILLER CONFIRMEE** — volume after-hours compensateur mais sans rebond de prix. SL $12.71, TP $15.76, R/R 1.5. |
+| 2026-06-03 10:00 UTC | Mise a jour | [AAL_2026-06-03_update.md](./AAL_2026-06-03_update.md) | **Snapshot matinal 10:00 UTC** : stabilité totale vs 02/06 21h — cours $13.93 inchangé, RSI 63.42, volume 49.41M (-26.4% vs moyenne). Données options corrompues dans latest.json (max pain $5.00 aberrant) — valeurs opérationnelles du 02/06 conservées (Put/Call 1.46, Max Pain $15.50, Call OI 40.7%). Earnings dans 50 jours. Score agent 6.0/10 (ACHETER sizing réduit), verdict institutionnel **SURVEILLER CONFIRME**. SL $12.71, TP $15.76, R/R 1.5. |
 
 ---
 
@@ -35,7 +36,7 @@
 **Prix cible :** $15.76 (cours + 3×ATR) / Reviser a $16.60 si consensus confirme sur volume > 50M  
 **Stop-loss :** $12.71 (cours - 2×ATR, confluence ancien gap + MM50)  
 **Upside/Downside :** +13.1% / -8.8%  
-**Derniere mise a jour :** 2026-06-02 (snapshot 21:00 UTC)
+**Derniere mise a jour :** 2026-06-03 (snapshot 10:00 UTC)
 
 American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). Le rally du 20–27/05 a matérialise **+24.3%** ($12.06 → $14.99). Le repli du 01/06 en seance reguliere a **$14.22 (-2.87%)** a ete suivi d'un **rebond post-session a $14.34 (+0.84%)** sur un **volume after-hours massif de 67.98M**. Le snapshot du 02/06 13h confirmait la **stabilite totale** a **$14.34** avec volume **69.02M** (+3.8% vs moyenne). Le **snapshot 17h** (cloture officielle) a revele un **repli technique -2.68% a $13.96** sur un **volume collapse dramatique de 22.75M** (0.35x la moyenne), cassant le **support cle $14.00**. Le **snapshot 21h** montre une **stabilite du cours a $13.93** avec un **volume total de 49.13M** — soit ~26M actions echangees en after-hours **sans mouvement de prix** (equilibre acheteurs/vendeurs). Le RSI est stable a **63.42**, la MM50 est a **$12.18** (cours +14.3% au-dessus), et le short interest est stable a **12.87%**. Le Forward P/E est a **6.25** (asymetrie intacte). **Consensus FMP $16.60** (17 analystes). Le score agent est stable a **6.0/10** mais le verdict institutionnel Argus-IA est **SURVEILLER CONFIRME**.
 
@@ -78,5 +79,5 @@ Voir [SUPPLY_CHAIN.md](./SUPPLY_CHAIN.md)
 
 - Analyse initiale : [AAL_2026-05-17_init.md](./AAL_2026-05-17_init.md)
 - Mise a jour 2026-05-18 : [AAL_2026-05-18_update.md](./AAL_2026-05-18_update.md)
-- Derniere mise a jour : [AAL_2026-06-02_update.md](./AAL_2026-06-02_update.md)
+- Derniere mise a jour : [AAL_2026-06-03_update.md](./AAL_2026-06-03_update.md)
 - Contexte court terme : [CONTEXT.md](./CONTEXT.md)
