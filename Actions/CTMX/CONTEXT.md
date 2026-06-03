@@ -47,7 +47,7 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **2026-08-06** · earnings · Est EPS $−0.13 à $−0.07, Rev $0.0B (J+64)
 
 ---
 
