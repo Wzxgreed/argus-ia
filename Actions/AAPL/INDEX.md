@@ -32,12 +32,11 @@ Apple est une entreprise de qualité institutionnelle exceptionnelle (Filtre Qua
 - **Prochain earnings :** 2026-07-30 (57 jours) — Est EPS $1.83–$1.99, Rev $109.0B
 
 ## Alertes actives
-- 🟡 **Alerte technique :** RSI 70.58 — surachat modéré (stable au-dessus de 70)
-- 🟡 **Alerte volume :** Volume 48.80M (1.03× moyenne 20j) — participation légèrement supérieure à la normale. Ajustement post-close vs 0.93× du snapshot 21h : distribution réelle confirmée
-- 🟡 **Alerte valorisation :** Cours $306.31 > Consensus FMP $293.43 (+4.0%)
-- 🔴 **Alerte options :** Données corrompues sur snapshot 02/06 (max pain $200, P/C null, Call OI null). Référence fiable : structure 01/06 (max pain $310, P/C 0.42, Call OI 70.6%). FOMO structurel persistant
-- 🟡 **Alerte scoring :** Scores agents en zone SURVEILLER (Opportunité 5.1/10, Global ajusté 41.0/100), timing Défavorable
-- 🟡 **Alerte technique :** Support $305.02 (low du jour ajusté) — cassure = test du SL $295.89
-- 🟡 **Alerte sector rotation :** Signal ROTATION_TO_CYCLICAL — XLK reste top performer (momentum 10.0/10) mais risque de rotation latérent
-- 🔴 **Alerte data quality :** Anomalie options JSON du 02/06 10:00 UTC (max pain $200, null P/C et Call OI). Données non exploitables — surveiller correction au prochain snapshot
-- 🟢 **Alerte data quality résolue :** Anomalie options JSON du 01/06 10:00 UTC corrigée sur snapshot 13:00 UTC
+- 🟡 **Alerte technique :** RSI 75.58 — surachat modéré (stable au-dessus de 70)
+- 🟡 **Alerte volume :** Volume 44.42M (0.94× moyenne 20j) — participation institutionnelle confirmée
+- 🟡 **Alerte valorisation :** Cours $315.20 > Consensus FMP $293.43 (+7.1%)
+- 🔴 **Alerte options gamma baissier :** Max pain révisé $310.00 (vs spot $315.20 = +1.65%), P/C 0.62, Call OI 61.9%. Pinning gamma baissier à expiration 2026-06-03. Pression mécanique vers $310.00
+- 🟡 **Alerte scoring :** Scores agents en zone SURVEILLER (Opportunité 4.8/10, Global ajusté 38.3/100), timing Défavorable
+- 🟡 **Alerte technique :** Support $306.69 (low du 02/06) — cassure = test du SL $303.86
+- 🟡 **Alerte sector rotation :** XLK top performer (momentum 10.0/10, RS20 +16.53%) — signal NEUTRAL
+- 🟢 **Alerte data quality résolue :** Anomalie options JSON du 03/06 10:00 UTC corrigée sur snapshot 13:00 UTC (max pain $310.00, P/C 0.62, Call OI 61.9%)
