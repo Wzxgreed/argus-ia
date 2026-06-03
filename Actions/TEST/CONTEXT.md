@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $43.82
-- **Statut thèse :** —
-- **Horizon :** —
+- **Recommandation :** ACHETER (Réduit)
+- **Score global :** 66.0/100
+- **Prix cible :** $48.99
+- **Stop-loss :** $43.84
+- **Statut thèse :** Confirmée
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -30,7 +30,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-03** · earnings · Earnings ...
+- **2026-06-03** · earnings · Earnings (JOUR J — 20 jours de flag cumulés, résultats non observables)
 
 ---
 
@@ -47,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-03
-- **Type :** preview
-- **Fichier :** `TEST_2026-06-03_preview.md`
-- **Conclusion :** > **Date :** 2026-06-03
+- **Type :** update
+- **Fichier :** `TEST_2026-06-03_update.md`
+- **Conclusion :** Stabilité totale vs close 02/06 21h (cours $45.901 inchangé, RSI 46.74 +1.06 pt, volume 1,700 0.78× avg). MM50 baisse de $0.22 à $43.41 — signal d'adoucissement de la tendance à moyen terme. Scores inchangés : Score Opportunité 6.1/10, Score Momentum 7.3/10, Score Global 66.0/100. Verdict ACHETER (Réduit) confirmé. SL $43.84 / TP $48.99 / R/R 1.5. Vigilance sur la poursuite de la baisse de la MM50.
 
 ---
 

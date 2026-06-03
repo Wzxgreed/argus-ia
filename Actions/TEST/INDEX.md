@@ -3,17 +3,17 @@
 ## Thèse courante
 
 **Verdict :** ACHETER (Réduit)
-**Date dernière analyse :** 2026-06-02 (snapshot 21:00 UTC)
-**Cours actuel :** $45.9006
+**Date dernière analyse :** 2026-06-03 (snapshot 10:00 UTC)
+**Cours actuel :** $45.901
 **Score Qualité :** 0/6 (Hors périmètre)
 **Score Opportunité :** 6.1/10 (agent reco — données fondamentales absentes)
 **Score Momentum :** 7.3/10
 **Score Global :** 66.0/100
-**Stop-loss :** $43.82
-**Take-profit :** $49.02
+**Stop-loss :** $43.84
+**Take-profit :** $48.99
 **Ratio R/R :** 1.5
 
-TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Verdict ACHETER (Réduit) confirmé et renforcé** — Score Global progressé à 66.0/100 (+4.5 pts vs 17h), consolidant le positionnement dans la zone ACHETER. Cours remonté à $45.9006 (+1.23% vs previous close du 02/06, +0.46% vs 17h), RSI à 45.68 (+1.0 pt), volume en récupération à 1,645 (0.75× moyenne 20j = 2,187) — amélioration de la participation en fin de séance. Timing Favorable. Earnings JOUR J le 2026-06-02 — résultats non observables à 21:00 UTC (19 jours de flag cumulés).
+TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Verdict ACHETER (Réduit) confirmé** — Score Global stable à 66.0/100, consolidation dans la zone ACHETER. Cours stable à $45.901 (+0.00% vs close 02/06 21h, +1.75% vs previous close du 03/06), RSI à 46.74 (+1.06 pt), volume stable à 1,700 (0.78× moyenne 20j = 2,190). **Point de vigilance :** la MM50 baisse de $43.63 à $43.41 (−$0.22), signal d'adoucissement de la tendance à moyen terme. Timing Favorable. Earnings JOUR J le 2026-06-03 — résultats non observables à 10:00 UTC (20 jours de flag cumulés).
 
 ---
 
@@ -50,6 +50,7 @@ TEST est un ticker de test / micro-cap sans données fondamentales exploitables 
 | TEST_2026-06-02_update.md | 2026-06-02 | Mise à jour 13:00 UTC — stabilité totale vs 10:00 UTC (cours $45.342, RSI 38.77, volume 6,700), verdict ATTENDRE confirmé (score 54.0/100) | **ATTENDRE** |
 | TEST_2026-06-02_update_17h.md | 2026-06-02 | Mise à jour 17:00 UTC — rebond technique : cours +0.77% à $45.69, RSI 44.68 (+5.91 pts), volume effondré 969, Score Global 61.5/100 | **ACHETER (Réduit)** |
 | TEST_2026-06-02_update_21h.md | 2026-06-02 | Mise à jour 21:00 UTC — consolidation haussière : cours +1.23% à $45.90, RSI 45.68 (+1.0 pt), volume 1,645 (0.75× avg), Score Global 66.0/100 | **ACHETER (Réduit)** |
+| TEST_2026-06-03_update.md | 2026-06-03 | Mise à jour 10:00 UTC — stabilité totale vs close 02/06 21h (cours $45.901 inchangé, RSI 46.74 +1.06 pt, volume 1,700 0.78× avg), MM50 baisse $0.22 à $43.41, scores inchangés ACHETER (Réduit) 66.0/100 — thèse confirmée, vigilance sur la tendance MM50 | **ACHETER (Réduit)** |
 
 ---
 
