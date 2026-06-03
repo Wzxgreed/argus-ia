@@ -253,7 +253,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.53% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -262,7 +262,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.58% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -271,7 +271,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.44% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -280,7 +280,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.43% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -289,7 +289,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.43% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -298,7 +298,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.43% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -307,7 +307,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.43% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -316,7 +316,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.43% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -325,7 +325,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.43% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -334,7 +334,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.43% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -343,7 +343,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.93% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -352,7 +352,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.92% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -361,7 +361,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.85% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -370,7 +370,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.85% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -379,7 +379,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.85% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -388,7 +388,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.85% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -397,7 +397,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.85% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -406,7 +406,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.85% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -416,7 +416,7 @@
 - price_gap (high) : Gap +13.44% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.26% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -426,7 +426,7 @@
 - price_gap (high) : Gap +11.39% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.45% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -436,7 +436,7 @@
 - price_gap (high) : Gap +15.56% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -446,7 +446,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -456,7 +456,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -466,7 +466,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -476,7 +476,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -486,7 +486,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -496,7 +496,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -506,7 +506,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -516,7 +516,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -526,7 +526,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -536,7 +536,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -546,7 +546,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -556,7 +556,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -566,7 +566,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -576,7 +576,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -586,7 +586,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -596,7 +596,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -606,7 +606,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -616,7 +616,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -666,7 +666,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -676,7 +676,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -686,7 +686,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -696,7 +696,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -706,7 +706,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -716,7 +716,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -726,7 +726,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -736,7 +736,7 @@
 - price_gap (high) : Gap +15.49% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -756,7 +756,7 @@
 - price_gap (high) : Gap +15.58% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 9.09% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -766,7 +766,7 @@
 - price_gap (high) : Gap +17.57% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 8.94% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -776,7 +776,7 @@
 - price_gap (high) : Gap +18.78% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 9.12% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -806,7 +806,7 @@
 - price_gap (high) : Gap +18.81% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 9.11% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -816,7 +816,7 @@
 - price_gap (high) : Gap +18.81% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 9.11% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -825,7 +825,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 8.97% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -834,7 +834,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 9.17% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -843,7 +843,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 9.65% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -852,7 +852,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 9.65% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -861,7 +861,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 9.65% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -870,7 +870,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 9.65% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -879,7 +879,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 9.65% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -888,7 +888,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 9.65% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -898,7 +898,7 @@
 - price_gap (medium) : Gap -5.93% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.78% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -908,7 +908,7 @@
 - price_gap (medium) : Gap -6.91% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.90% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -918,7 +918,7 @@
 - price_gap (high) : Gap -14.16% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.02% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -928,7 +928,7 @@
 - price_gap (high) : Gap -13.81% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 11.97% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -938,7 +938,7 @@
 - price_gap (high) : Gap -13.81% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 11.97% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -948,7 +948,7 @@
 - price_gap (high) : Gap -13.81% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 11.97% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -958,7 +958,7 @@
 - price_gap (high) : Gap -13.81% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 11.97% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -968,7 +968,7 @@
 - price_gap (high) : Gap -13.81% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 11.97% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -978,7 +978,7 @@
 - price_gap (medium) : Gap -8.08% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.60% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -987,7 +987,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 12.19% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -997,7 +997,7 @@
 - price_gap (medium) : Gap -6.00% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.32% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1007,7 +1007,7 @@
 - price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1017,7 +1017,7 @@
 - price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1027,7 +1027,7 @@
 - price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1037,7 +1037,7 @@
 - price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1047,7 +1047,7 @@
 - price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1057,7 +1057,7 @@
 - price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1067,7 +1067,7 @@
 - price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1077,7 +1077,7 @@
 - price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1087,7 +1087,7 @@
 - price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1097,7 +1097,7 @@
 - price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1107,7 +1107,7 @@
 - price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1117,7 +1117,7 @@
 - price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1127,7 +1127,7 @@
 - price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1137,7 +1137,7 @@
 - price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1147,7 +1147,7 @@
 - price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1157,7 +1157,7 @@
 - price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1167,7 +1167,7 @@
 - price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1177,7 +1177,7 @@
 - price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1207,7 +1207,7 @@
 - price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1217,7 +1217,7 @@
 - price_gap (medium) : Gap -5.83% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 12.30% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1227,7 +1227,7 @@
 - price_gap (high) : Gap -10.51% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 14.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1237,7 +1237,7 @@
 - price_gap (medium) : Gap -9.87% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 14.22% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1246,7 +1246,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 13.48% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1255,7 +1255,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 13.47% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1264,7 +1264,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 13.47% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1273,7 +1273,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 13.47% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1282,7 +1282,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 13.47% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1291,7 +1291,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 13.47% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1300,7 +1300,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 13.23% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1309,7 +1309,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 13.38% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1318,7 +1318,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 13.62% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1327,7 +1327,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 13.63% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1336,7 +1336,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 13.63% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1345,7 +1345,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 13.63% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1354,7 +1354,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 13.63% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
 
@@ -1363,6 +1363,6 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 13.63% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 10:00 UTC (cours $43.37, RSI 54.62, volume 6.18M). Anomalie options RESOLUE : max pain $50.00 (vs $20.00 aberrant), put/call 0.68, call OI 59.5% restaurés. Forward P/E mécaniquement moins négatif −33.30 (vs −36.99). Thèse ATTENDRE (58.0) confirmée sans modification. DRAFT_refresh archivé. — Fichier : FLY_2026-06-03_update_13h.md
 
 ---
