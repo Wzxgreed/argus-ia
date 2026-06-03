@@ -59,6 +59,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 | 2026-06-02 | [IREN_2026-06-02_update.md](IREN_2026-06-02_update.md) (snapshot 17:00 UTC) | Mise à jour intra-session | Snapshot 17:00 UTC — **breakout haussier** · cours $67.30 (+3.02%) · high $69.57 (nouveau high historique) · volume faible 29.68 M (50.7% moyenne) · RSI 61.70 · Forward P/E −71.60× (détérioration) · P/E 87.40× · consensus PT $66.61 dépassé · scores inchangés 4.8/10 · Global 53.0/100 · thèse modifiée ATTENDRE maintenu |
 | 2026-06-02 | [IREN_2026-06-02_update.md](IREN_2026-06-02_update.md) (close officiel) | Mise à jour close officiel | Close officiel — **retrait partiel du breakout** · cours $66.60 (−1.04% vs 17h) · volume total 51.26 M (0.9× moyenne) · RSI 61.11 · Forward P/E −70.85× (amélioration marginale) · P/E 86.49× · consensus PT $66.61 non dépassé · scores inchangés 4.8/10 · Global 52.5/100 · thèse confirmée ATTENDRE |
 | 2026-06-03 | [IREN_2026-06-03_update.md](IREN_2026-06-03_update.md) (snapshot 10:00 UTC) | Mise à jour pré-ouverture | Snapshot 10:00 UTC — **stabilité totale vs close 02/06** · cours $66.60 (=) · volume 51.34 M (86.1% moyenne) · RSI 61.11 · Forward P/E −70.85× · scores inchangés 4.8/10 · Global 52.5/100 · **anomalie Max Pain $20.00 détectée** (valeur fiable $52.00) · **DRAFT_refresh archivé** (faux positif ATR_SPIKE) · thèse confirmée ATTENDRE |
+| 2026-06-03 | [IREN_2026-06-03_update.md](IREN_2026-06-03_update.md) (snapshot 13:00 UTC) | Mise à jour intra-journalière | Snapshot 13:00 UTC — **stabilité totale vs snapshot 10h** · cours $66.60 (=) · données brutes inchangées · **anomalies options résolues** (Max Pain $52.00, put/call 1.95, call OI 33.9%) · défiance options légèrement atténuée (puts 66.1% vs 67.6%) · scores inchangés 4.8/10 · Global 52.5/100 · thèse confirmée ATTENDRE |
 
 ---
 
@@ -85,4 +86,4 @@ Voir [SUPPLY_CHAIN.md](SUPPLY_CHAIN.md) pour la cartographie fournisseurs/client
 
 ---
 
-*Dernière mise à jour : 2026-06-03 (snapshot 10:00 UTC)*
+*Dernière mise à jour : 2026-06-03 (snapshot 13:00 UTC)*
