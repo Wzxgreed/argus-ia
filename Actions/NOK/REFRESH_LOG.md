@@ -1272,3 +1272,21 @@ Snapshot 2026-06-02 13:00 UTC. Cours **$16.25** strictement inchangé vs snapsho
 Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs previous close). Volume **révisé à la hausse 129.6M** (1.09× moyenne 20j, +31.0% vs 98.9M au snapshot 17h) — divergence baissière volume/prix **invalidée**. RSI **70.22** (surachat confirmé), ATR $1.02 (6.05%), MM50 $11.70. New 52w high $17.11 confirmé. Options stables (max pain $13.50, put/call 0.45, call OI 69.1%, expiration demain 05/06). Pin risk +24.8% vs max pain. `recommandations_latest.json` inchangé : Score Global ajusté **31.8/100** — **ÉVITER**. Score Opportunité 4.2/10 (C:4.0 V:3.5 M:5.5). Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $9.26 stable à +81.9%. P/E Yahoo 105.31, forward P/E 34.55. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun upgrade/downgrade. XLC bottom 3 sectoriel (RS20d −7.97%). DRAFT_refresh du 02/06 archivés. Thèse confirmée : surchauffe technique persistante mais volume final plus sain qu'estimé à 17h. Absence de catalyseur fondamental. Pas de position.
 
 ---
+
+## 2026-06-03 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.05% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-03 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.05% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

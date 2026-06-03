@@ -1,4 +1,4 @@
-# CONTEXT — SOFI — Dernière mise à jour : 2026-06-02
+# CONTEXT — SOFI — Dernière mise à jour : 2026-06-03
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -24,7 +24,7 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 - **Score global :** —/10
 - **Prix cible :** $20.47
 - **Stop-loss :** $15.92
-- **Statut thèse :** —
+- **Statut thèse :** invalide
 - **Horizon :** —
 
 ---
@@ -51,20 +51,20 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 63.90
+- **RSI 14j :** 63.9
 - **MM 50j :** 16.76
 - **MM 200j :** —
 - **ATR 14j :** 0.91
-- **Volume moy. 20j :** 67829803
+- **Volume moy. 20j :** 68006990
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-02
-- **Type :** update
-- **Fichier :** `SOFI_2026-06-02_update.md`
-- **Conclusion :** **Date :** 2026-06-02 (snapshot 21:00 UTC — close final confirmé)
+- **Date :** 2026-06-03
+- **Type :** full refresh
+- **Fichier :** `SOFI_2026-06-03_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-03
 
 ---
 

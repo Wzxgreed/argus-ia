@@ -1,4 +1,4 @@
-# CONTEXT — CTMX — Dernière mise à jour : 2026-06-02
+# CONTEXT — CTMX — Dernière mise à jour : 2026-06-03
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -23,7 +23,7 @@
 - **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $2.78
-- **Statut thèse :** modifiée
+- **Statut thèse :** validée
 - **Horizon :** 6–12 mois (dépendant des catalyseurs cliniques)
 
 ---
@@ -52,9 +52,7 @@
 - **MM 50j :** 4.16
 - **MM 200j :** —
 - **ATR 14j :** 0.19
-- **Volume moy. 20j :** 3387722
-- **Volume rel. 20j :** 1.45×
-- **Low officiel :** 3.14
+- **Volume moy. 20j :** 3387760
 
 ---
 
@@ -63,7 +61,7 @@
 - **Date :** 2026-06-02
 - **Type :** update
 - **Fichier :** `CTMX_2026-06-02_update.md`
-- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — ATTENDRE (CONFIRMÉE)** — Stabilité technique en clôture officielle ($3.16, +0.16% vs 17h), volume corrigé 1.45× (invalidation épuisement vendeur), RSI 25.68 stable en survente extrême, scores inchangés 52.5/100.
+- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — ATTENDRE (CONFIRMÉE)**
 
 ---
 

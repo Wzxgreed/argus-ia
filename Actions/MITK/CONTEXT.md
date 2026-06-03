@@ -1,4 +1,4 @@
-# CONTEXT — MITK — Dernière mise à jour : 2026-06-02
+# CONTEXT — MITK — Dernière mise à jour : 2026-06-03
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Score global :** 36.5/100
-- **Prix cible :** $20.12
-- **Stop-loss :** $15.87
-- **Statut thèse :** modifiée (ÉVITER → SURVEILLER)
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** validée
 - **Horizon :** —
 
 ---
@@ -40,7 +40,7 @@
 - **MM 50j :** 14.71
 - **MM 200j :** —
 - **ATR 14j :** 0.85
-- **Volume moy. 20j :** 1327697
+- **Volume moy. 20j :** 1327715
 
 ---
 
@@ -49,7 +49,7 @@
 - **Date :** 2026-06-02
 - **Type :** update
 - **Fichier :** `MITK_2026-06-02_update.md`
-- **Conclusion :** > Desk : Argus-IA | Pipeline : 21:00 UTC | Données : `data/latest.json` (2026-06-02T21:00:12Z) | Score Global Ajusté : **36.5/100** | Action : **SURVEILLER** | Thèse modifiée (ÉVITER → SURVEILLER) sur recovery volume +227% (954K vs 292K à 17h), RSI 71.77 légèrement atténué, consensus PT dépassé réduit à 9.8%
+- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-02 21:00 UTC) + agents recommandation, quant, geo, sector, social, FX, events
 
 ---
 

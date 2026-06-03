@@ -1,4 +1,4 @@
-# CONTEXT — NU — Dernière mise à jour : 2026-06-02
+# CONTEXT — NU — Dernière mise à jour : 2026-06-03
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -19,7 +19,7 @@
 - **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** modifiée
+- **Statut thèse :** validée
 - **Horizon :** 1–3 mois
 
 ---
@@ -38,8 +38,7 @@
 
 ## 📅 Prochains événements
 
-- **Earnings Q2 2026 :** 13 août 2026 (72 jours) — Est EPS $0.20–$0.27, Rev $5.4B
-- **Expiration options :** 2026-06-05 (3 jours) — max pain $13.00
+- Aucun événement à venir.
 
 ---
 
@@ -49,16 +48,16 @@
 - **MM 50j :** 13.97
 - **MM 200j :** —
 - **ATR 14j :** 0.55
-- **Volume moy. 20j :** 64368191
+- **Volume moy. 20j :** 64942935
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-02
-- **Type :** update
-- **Fichier :** `NU_2026-06-02_update.md`
-- **Conclusion :** ÉVITER — déclenchement règle de disqualification (momentum 2.0/10 ≤ 2), liquidation after-hours 171.8M (2.67×), nouveau 52W low intraday $11.44
+- **Date :** 2026-06-03
+- **Type :** full refresh
+- **Fichier :** `NU_2026-06-03_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-03
 
 ---
 

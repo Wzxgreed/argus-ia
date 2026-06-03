@@ -1,4 +1,4 @@
-# CONTEXT — A — Dernière mise à jour : 2026-06-02
+# CONTEXT — A — Dernière mise à jour : 2026-06-03
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -12,7 +12,7 @@
 **Prix cible desk :** $149.54 (TP ATR-based) / $163.82 (consensus analystes)
 **Stop-loss :** $125.39
 **Horizon :** 1–3 mois
-**Statut thèse :** 🟡 **Confirmée mais modifiée** — snapshot 21h UTC du 02/06 : stabilité marginale (+$0.13, +0.10%) avec **volume recovery majeur** à 2.02M (0.75× moy. 20j), invalidant le volume collapse du snapshot 17h (927.2K, 0.35×). RSI repique légèrement vers **86.28** (+0.37 pt vs 17h) — surachat extrême persistant dans le 99e percentile. ATR stable à **$4.83**. Données options inchangées (max pain $130, put/call 1.58, call OI 38.7%). Score Global ajusté **52.5** — limite basse zone ATTENDRE. Signal sectoriel **NEUTRAL**. Entrée initiale laminée ; attendre pullback $126–$130 ou consolidation RSI <65.
+**Statut thèse :** 🟡 **Confirmée mais modifiée** — snapshot 21h UTC du 02/06 : stabilité marginale (+$0.13, +0.10%) avec **volume recovery majeur** à **2.02M** (0.75× moy. 20j), invalidant le volume collapse du snapshot 17h (927.2K, 0.35×). RSI repique légèrement vers **86.28** (+0.37 pt vs 17h) — surachat extrême persistant dans le 99e percentile. ATR stable à **$4.83**. Données options inchangées (max pain $130, put/call 1.58, call OI 38.7%). Score Global ajusté **52.5** — limite basse zone ATTENDRE. Signal sectoriel **NEUTRAL**. Entrée initiale laminée ; attendre pullback $126–$130 ou consolidation RSI <65.
 
 **Synthèse :** Agilent a confirmé sa qualité fondamentale par un beat/guidance-up Q2 2026 spectaculaire (gap +17.3%). Le Filtre Qualité 5/6 est maintenu, le consensus $163.82 laisse un upside +21.3%, et la structure options reste normalisée. Le volume recovery à 2.02M (0.75×) invalide le narrative "sans conviction" du snapshot 17h et transforme la consolidation en digestion saine et ordonnée du gap. Le RSI à 86.28 reste dans le 99e percentile historique et exclut toute entrée à ce niveau. Le Score Global ajusté reste à **52.5** (malus timing technique, limite basse zone ATTENDRE). La thèse reste haussière de fond mais neutre de timing — **ATTENDRE** une consolidation ou un retracement avant toute nouvelle position.
 
@@ -68,7 +68,7 @@
 - **MM 50j :** 116.79
 - **MM 200j :** —
 - **ATR 14j :** 4.83
-- **Volume moy. 20j :** 2703208
+- **Volume moy. 20j :** 2753140
 
 ---
 
