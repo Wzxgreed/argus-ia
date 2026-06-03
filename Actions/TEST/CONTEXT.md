@@ -47,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-03
-- **Type :** preview
-- **Fichier :** `TEST_2026-06-03_preview.md`
-- **Conclusion :** > **Date :** 2026-06-03
+- **Type :** update
+- **Fichier :** `TEST_2026-06-03_update_13h.md`
+- **Conclusion :** ACHETER (Réduit) confirmé — stabilité totale snapshot 13h vs 10h, MM50 stabilisée à $43.41, Score Global 66.0/100 inchangé
 
 ---
 
