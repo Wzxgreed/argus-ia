@@ -11,21 +11,21 @@
 **Prix cible :** $20.47 (cours + 3×ATR)
 **Stop-loss :** $15.92 (cours − 2×ATR)
 **Upside/Downside :** +15.4% / −10.3%
-**Dernière mise à jour :** 2026-06-02 (snapshot 21:00 UTC — close final confirmé, pullback −4.52% à $17.74 sur volume 1.10×)
+**Dernière mise à jour :** 2026-06-03 (snapshot 13:00 UTC — stabilité totale vs close 02/06, anomalie options JSON résolue)
 
-SoFi est une fintech-banque hybride avec un écosystème complet (lending + banking + investing) et une marque forte chez les millennials. Le charter bancaire 2022 crée une barrière réglementaire modérée vs les fintechs non-banques. Le snapshot du **2026-06-02** enregistre un **pullback de −4.52%** à **$17.74** après le gap haussier du 01/06 ($18.58). Le RSI 14j refroidit à **63.90** (−5.0 pts vs 01/06, sortie progressive de la zone proche-surachat). L'ATR 14j s'élargit légèrement à **$0.91**. La MM50 est à **$16.76** — le cours reste +5.8% au-dessus de la moyenne mobile, mais l'écart s'est réduit. Le volume final de **73.21M (1.10× moy. 20j)** est supérieur à la moyenne, invalide la lecture "profit-taking sur faible conviction" du snapshot 17h (42.15M, 0.64×) et suggère une distribution partielle en fin de séance. Le support immédiat est le low du jour **$17.46**, suivi de la MM50 à **$16.76**. La résistance immédiate est le close du 01/06 à **$18.58**, puis **$19.00** (psychologique) et **$20.00** (Max Pain options). La dépendance aux taux d'intérêt et l'exposition aux prêts étudiants créent des risques macro majeurs. Le Forward P/E **22.74** est légèrement plus attractif que le 01/06 (23.81). Le Score Opportunité est stable à **6.1/10**, et le Score Global Composite reste en zone **ACHETER (60.8/100, ajusté 65.8)**. Le short interest à **13.68%** laisse un potentiel de squeeze si un rebond se matérialise. Le secteur financier (XLF) reste sous-performant SPY (RS20 −6.0%, momentum 0.0/10) — headwind sectoriel à surveiller. Earnings Q2 dans **56j** (28 juillet, estimates EPS $0.10–$0.11, Rev $1.1B). ⚠️ Clôture proche du low du jour ($17.46) + volume supérieur à la moyenne (1.10×) = signal de distribution à très court terme. Attendre un rebond au-dessus de $18.00 avec volume >1.0× acheteur pour confirmer la fin de la distribution.
+SoFi est une fintech-banque hybride avec un écosystème complet (lending + banking + investing) et une marque forte chez les millennials. Le charter bancaire 2022 crée une barrière réglementaire modérée vs les fintechs non-banques. Le snapshot du **2026-06-03 13h UTC** confirme la **stabilité totale** des prix depuis le close du 02/06 : cours **$17.74**, RSI **63.90**, ATR **$0.91**, MM50 **$16.76** (+5.8%). Le volume final de **76.76M (1.13× moy. 20j)** confirme la distribution partielle active lors du pullback −4.52% du 02/06. **[RÉSOLU]** Les données options corrompues du snapshot 10h UTC (Max Pain $5.00 aberrant, Put/Call et Call OI `null`) ont été corrigées dans `data/latest.json` : Max Pain confirmé à **$20.00**, Put/Call **0.54** (+0.06 vs 02/06, légèrement moins bullish mais reste haussier), Call OI **65.0%** (−2.4 pts vs 02/06, légère prise de profit sur calls post-gap). Le support immédiat est le low du 02/06 à **$17.46**, suivi de la MM50 à **$16.76**. La résistance immédiate est le close du 01/06 à **$18.58**, puis **$19.00** (psychologique) et **$20.00** (Max Pain confirmé). La dépendance aux taux d'intérêt et l'exposition aux prêts étudiants créent des risques macro majeurs. Le Forward P/E **22.74** est stable. Le Score Opportunité reste à **6.1/10**, et le Score Global Composite en zone **ACHETER (60.8/100, ajusté 65.8)**. Le short interest à **13.68%** laisse un potentiel de squeeze si un rebond se matérialise. Le secteur financier (XLF) reste sous-performant SPY (RS20 −6.0%, momentum 0.0/10) — headwind sectoriel à surveiller. Earnings Q2 dans **55j** (28 juillet, estimates EPS $0.10–$0.11, Rev $1.1B). ⚠️ Clôture proche du low du 02/06 ($17.46) + volume supérieur à la moyenne (1.13×) = signal de distribution à très court terme. Attendre un rebond au-dessus de $18.00 avec volume >1.0× acheteur pour confirmer la fin de la distribution.
 **Score 6.1/10. Score Global 60.8/100 (ajusté 65.8). ACHETER — Sizing réduit.**
 
-**Données complètes** — Cours, RSI, ATR, P/E, beta disponibles dans `data/latest.json` (snapshot 2026-06-02T21:00 UTC). Options : Max Pain $20.00, Put/Call 0.48, Call OI 67.4%. Expiration prochaine 2026-06-05 (3 jours ouvrés).
+**Données complètes** — Cours, RSI, ATR, P/E, beta disponibles dans `data/latest.json` (snapshot 2026-06-03T13:00 UTC). Options : Max Pain $20.00, Put/Call 0.54, Call OI 65.0%. Expiration prochaine 2026-06-05 (2 jours ouvrés).
 
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** —/10
+- **Score global :** 60.8/100 (ajusté 65.8)
 - **Prix cible :** $20.47
 - **Stop-loss :** $15.92
-- **Statut thèse :** invalide
-- **Horizon :** —
+- **Statut thèse :** confirmée
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -62,9 +62,9 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-03
-- **Type :** full refresh
-- **Fichier :** `SOFI_2026-06-03_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-03
+- **Type :** _update.md
+- **Fichier :** `SOFI_2026-06-03_update.md`
+- **Conclusion :** Thèse confirmée — stabilité totale des prix vs close 02/06, anomalie options JSON résolue (Max Pain $20.00 confirmé, Put/Call 0.54, Call OI 65.0%). Scores inchangés ACHETER 60.8/100.
 
 ---
 

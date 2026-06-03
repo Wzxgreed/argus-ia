@@ -1,20 +1,20 @@
-# AAL — Mise à Jour 2026-06-03 (Snapshot 10:00 UTC)
+# AAL — Mise à Jour 2026-06-03 (Snapshot 13:00 UTC)
 
-**Date :** 2026-06-03 (snapshot 10:00 UTC)  
+**Date :** 2026-06-03 (snapshot 13:00 UTC)  
 **Ticker :** AAL (NASDAQ)  
-**Type :** Update matinal post-pipeline — Snapshot reflétant la clôture de la session 2026-06-02, stabilité totale des données, thèse SURVEILLER confirmée  
+**Type :** Update post-pipeline — Snapshot reflétant la clôture de la session 2026-06-02, stabilité totale des données fondamentales, **correction anomalie options**, thèse SURVEILLER confirmée  
 **Cours (close) :** $13.93  
 **Previous close :** $14.34  
 **Change session :** −2.86%  
 **Volume :** 49.41M (vs moy. 20j 67.12M, **−26.4%**)
 
-> **Note :** Ce snapshot 10:00 UTC (`data/latest.json` fetched_at 2026-06-03T10:00:09 UTC) est le **snapshot matinal post-pipeline** qui reflète la clôture officielle de la session 2026-06-02. Aucune nouvelle session de trading n'a eu lieu entre le snapshot 21:00 UTC du 02/06 et ce snapshot. Les données techniques, fondamentales et de consensus sont **strictement identiques** au snapshot 21h du 02/06. Le volume de **49.41M** est cohérent avec le volume total rapporté à 21h (49.13M, différence d'arrondi). **Thèse SURVEILLER confirmée.**
+> **Note :** Ce snapshot 13:00 UTC (`data/latest.json` fetched_at 2026-06-03T13:00:01 UTC) reflète la **clôture officielle de la session 2026-06-02** (même close que le snapshot 10h). Les données techniques, fondamentales et de consensus sont **strictement identiques** au snapshot 10h et 21h du 02/06. **Seule évolution : les données options, corrompues dans le snapshot 10h, sont désormais valides.** Put/Call **1.42** (vs 1.46 au 02/06 21h), Call OI **41.3%** (vs 40.7%), Max Pain **$15.50** (inchangé). **Thèse SURVEILLER confirmée.**
 
 ---
 
 ## Résumé des Changements depuis l'Update (2026-06-02 21:00 UTC)
 
-| Indicateur | 2026-06-02 21:00 UTC | 2026-06-03 10:00 UTC | Δ vs Prior |
+| Indicateur | 2026-06-02 21:00 UTC | 2026-06-03 13:00 UTC | Δ vs Prior |
 |-----------|----------------------|----------------------|------------|
 | Cours close | $13.93 | **$13.93** | **Inchangé** |
 | RSI 14j | 63.42 | **63.42** | **Inchangé** |
@@ -25,14 +25,17 @@
 | Short Interest | 12.87% | **12.87%** | **Inchangé** |
 | Consensus FMP PT | $16.60 (17 analystes) | **$16.60 (17 analystes, 2 màj mois, 5 trimestre)** | **Inchangé** |
 | Upside vs PT | +19.2% | **+19.2%** | **Inchangé** |
+| Put/Call Ratio | 1.46 | **1.42** | **−0.04 (amélioration)** |
+| Max Pain | $15.50 | **$15.50** | **Inchangé** |
+| Call OI % | 40.7% | **41.3%** | **+0.6 pt (accumulation call)** |
 | Earnings Q2 (jours) | 51 | **50** | **−1 (mécanique)** |
 | Score Opportunité agent | 6.0/10 | **6.0/10** | **Inchangé** |
 | Score Global ajusté | 65.3/100 | **65.3/100** | **Inchangé** |
 | Recommandation agent | ACHETER (Sizing Reduit) | **ACHETER (Sizing Reduit)** | **Inchangée** |
 
-**Snapshot matinal 03/06 : stabilité totale.** Aucune donnée n'a changé par rapport au snapshot 21h du 02/06. Le cours reste à **$13.93**, le RSI à **63.42**, l'ATR à **$0.61**, et la MM50 à **$12.18**. Le consensus FMP reste à **$16.60** (17 analystes). Le short interest est stable à **12.87%**. Le score Opportunité (**6.0/10**) et le score global ajusté (**65.3/100**) sont inchangés. **Verdict institutionnel : SURVEILLER maintenu.**
+**Snapshot 13:00 UTC 03/06 : stabilité totale des données fondamentales, correction options.** Aucune donnée technique ou fondamentale n'a changé par rapport au snapshot 10h et 21h du 02/06. Le cours reste à **$13.93**, le RSI à **63.42**, l'ATR à **$0.61**, et la MM50 à **$12.18**. Le consensus FMP reste à **$16.60** (17 analystes). Le short interest est stable à **12.87%**. Le score Opportunité (**6.0/10**) et le score global ajusté (**65.3/100**) sont inchangés. **Verdict institutionnel : SURVEILLER maintenu.**
 
-> ⚠️ **Anomalie data quality options persistante** : `data/latest.json` (snapshot 10h UTC) retourne des données options corrompues pour AAL : `max_pain` = $5.00 (aberrant, .00), `put_call_ratio` = null, `call_oi_pct` = null. Ces valeurs sont invalides et sont ignorées. Les dernières données options valides connues datent du snapshot 21h UTC du 02/06 : **Put/Call 1.46, Max Pain $15.50, Call OI 40.7%**.
+> ✅ **Anomalie data quality options RÉSOLUE** : `data/latest.json` (snapshot 13h UTC) retourne désormais des données options valides pour AAL : **Put/Call 1.42, Max Pain $15.50, Call OI 41.3%** (expiration 2026-06-05). Ces valeurs remplacent les données corrompues du snapshot 10h (`max_pain` $5.00 aberrant, `put_call_ratio` null). Les données du snapshot 13h confirment une légère amélioration du setup options vs le snapshot 21h du 02/06 (Put/Call 1.46 → 1.42, Call OI 40.7% → 41.3%).
 
 ---
 
@@ -53,13 +56,13 @@
 | Résistance majeure | $16.50 | 52W high + consensus PT zone haute |
 | Short Interest | 12.87% | 🟢 Stable — fuel squeeze intact |
 
-**Options — Données corrompues dans latest.json, dernières valides du 02/06 21h :**
+**Options — Données corrigées dans latest.json (snapshot 13h UTC) :**
 
-| Métrique | Valeur (dernières valides) | Interprétation |
-|----------|---------------------------|----------------|
-| Put/Call Ratio | **1.46** | 🟡 Baissier atténué — sentiment neutre-biaisé à la baisse |
+| Métrique | Valeur (snapshot 13h UTC) | Interprétation |
+|----------|--------------------------|----------------|
+| Put/Call Ratio | **1.42** | 🟡 Baissier atténué — amélioration vs 1.46 (21h 02/06), sentiment neutre-biaisé à la baisse |
 | Max Pain | **$15.50** | 🟡 Cours **$1.57 sous le max pain** — pinning mécanique vers le haut à J-2 expiration |
-| Call OI % | **40.7%** | 🟢 Accumulation call stable — paris haussiers maintenus |
+| Call OI % | **41.3%** | 🟢 Accumulation call légèrement renforcée (+0.6 pt vs 40.7%) — paris haussiers maintenus |
 | Expiration proche | 2026-06-05 | **Dans 2 jours** — gamma risk centré sur $15.50 |
 
 **Interprétation technique — Stabilité pré-session, support $14.00 toujours cassé :**

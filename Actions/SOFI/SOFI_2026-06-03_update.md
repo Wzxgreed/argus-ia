@@ -1,67 +1,68 @@
 # SOFI (SoFi Technologies, Inc.) — Mise à jour quotidienne
 
-**Date :** 2026-06-03 (snapshot 10:00 UTC — close du 02/06 confirmé, pas de nouvelle session US)
-**Type :** `_update.md` — Stabilité overnight, données options corrompues dans latest.json
+**Date :** 2026-06-03 (snapshot 13:00 UTC — close du 02/06 confirmé, pas de nouvelle session US)
+**Type :** `_update.md` — Stabilité totale des prix, [RÉSOLU] données options corrompues corrigées
 **Analyste :** Desk Argus-IA
 
 ---
 
 ## 1. Résumé des changements depuis l'analyse précédente
 
-| Métrique | `SOFI_2026-06-02_update.md` (21:00 UTC) | **Snapshot 2026-06-03 (10:00 UTC)** | **Δ** |
-|----------|------------------------------------------|-------------------------------------|-------|
+| Métrique | `SOFI_2026-06-03_update.md` (10:00 UTC) | **Snapshot 2026-06-03 (13:00 UTC)** | **Δ** |
+|----------|----------------------------------------|-------------------------------------|-------|
 | Cours close | $17.74 | **$17.74** | **0.00** |
 | RSI 14j | 63.90 | **63.90** | **0.00** |
 | ATR 14j | $0.91 | **$0.91** | **0.00** |
 | MM 50j | $16.76 | **$16.76** | **0.00** |
 | Écart MM50 | +5.8% | **+5.8%** | **0.0 pt** |
-| Volume | 73.21M (1.10×) | **76.76M (1.13×)** | **+3.55M (+0.03×)** |
+| Volume | 76.76M (1.13×) | **76.76M (1.13×)** | **0.00** |
 | P/E LTM (Yahoo) | 39.42 | **39.42** | **0.00** |
 | Forward P/E | 22.74 | **22.74** | **0.00** |
 | EV/Revenue (Yahoo) | 5.401 | **5.401** | **0.000** |
 | P/B (Yahoo) | 2.103 | **2.103** | **0.000** |
 | Short interest | 13.68% | **13.68%** | **0.00** |
 | Consensus PT | $25.41 (27a) | **$25.41 (27a)** | **0.00** |
-| Max Pain options | $20.00 | **$5.00 [ABERRANT]** | **Données corrompues** |
-| Put/Call ratio | 0.48 | **null [CORROMPU]** | **Données corrompues** |
-| Call OI % | 67.4% | **null [CORROMPU]** | **Données corrompues** |
-| Earnings J | 56 | **55** | **−1j** |
+| Max Pain options | $20.00 [historique 02/06] | **$20.00** | **Confirmé par latest.json** |
+| Put/Call ratio | 0.48 [historique 02/06] | **0.54** | **+0.06** |
+| Call OI % | 67.4% [historique 02/06] | **65.0%** | **−2.4 pts** |
+| Earnings J | 55 | **55** | **0** |
 | **Score Opportunité** | **6.1/10** | **6.1/10** | **0.0** |
 | **Score Global** | **60.8/100** | **60.8/100** | **0.0** |
 | **Action** | **ACHETER** | **ACHETER** | **Confirmé** |
 | **SL / TP** | **$15.92 / $20.47** | **$15.92 / $20.47** | **Inchangés** |
 
-**Verdict :** Snapshot matinal 10h UTC reprenant le close du 02/06 sans nouvelle session US intermédiaire. **Stabilité totale** des prix, RSI, ATR et MM50. Seule révision : le volume final est ajusté à **76.76M (1.13× moy. 20j)** vs 73.21M (1.10×) dans le snapshot 21h du 02/06 — confirmation que le repli s'est effectué sur volume supérieur à la moyenne.
+**Verdict :** Snapshot 13h UTC reprenant le close du 02/06 sans nouvelle session US intermédiaire. **Stabilité totale** des prix, RSI, ATR et MM50. La seule évolution est la **correction des données options** dans `data/latest.json` : les valeurs corrompues du snapshot 10h (Max Pain $5.00 aberrant, Put/Call `null`, Call OI `null`) sont remplacées par des données cohérentes.
 
-**[ALERTE DATA QUALITY]** Les données options dans `data/latest.json` sont corrompues ce matin : Max Pain $5.00 (aberrant vs historique $20.00), Put/Call ratio `null`, Call OI % `null`. Les valeurs opérationnelles du snapshot 02/06 sont conservées : **Max Pain $20.00, Put/Call 0.48, Call OI 67.4%**.
+**[RÉSOLU] Anomalie options JSON :**
+- Max Pain confirmé à **$20.00** (cohérent avec historique 02/06 et niveau opérationnel)
+- Put/Call ratio **0.54** (+0.06 vs historique 02/06) — légèrement moins bullish mais reste dans la zone bullish (< 1.0)
+- Call OI **65.0%** (−2.4 pts vs historique 02/06) — légère prise de profit sur les calls après le gap du 01/06
 
 ---
 
 ## 2. Mise à jour technique
 
-| Indicateur | Valeur 2026-06-03 (10:00 UTC) | Signal |
+| Indicateur | Valeur 2026-06-03 (13:00 UTC) | Signal |
 |------------|-------------------------------|--------|
 | RSI 14j | 63.90 | 🟢 Zone neutre haute — stable, constructif |
 | MM 50j | $16.76 | 🟢 Cours +5.8% au-dessus de MM50 — trend haussier court terme intact |
 | MM 200j | [UNSOURCED] | — |
 | ATR 14j | $0.91 | 🟡 Volatilité stable (ATR rel. 5.13%) |
 | Support clé | $16.76 / $17.46 | 🟢 MM50 + low du 02/06 = supports immédiats |
-| Résistance clé | $18.58 / $19.00 / $20.00 | 🟡 Close 01/06 = résistance immédiate, puis $19.00 psychologique et $20.00 (Max Pain) |
+| Résistance clé | $18.58 / $19.00 / $20.00 | 🟡 Close 01/06 = résistance immédiate, puis $19.00 psychologique et $20.00 (Max Pain confirmé) |
 | Volume relatif | 1.13× | 🔴 **Supérieur à la moyenne 20j** — distribution partielle confirmée sur données révisées |
 | Beta | 2.126 | ⚠️ Volatilité extrême — sizing réduit obligatoire |
 
-**Analyse technique :** Aucun changement de prix depuis le close du 02/06. Le cours reste à **$17.74** avec le RSI à **63.90** et l'ATR à **$0.91**. La MM50 à **$16.76** est inchangée. Le volume révisé à **76.76M (1.13× moy. 20j)** confirme la lecture du snapshot 21h : le repli de −4.52% du 02/06 s'est effectué sur volume supérieur à la moyenne, signalant une distribution partielle active.
+**Analyse technique :** Aucun changement de prix depuis le close du 02/06. Le cours reste à **$17.74** avec le RSI à **63.90** et l'ATR à **$0.91**. La MM50 à **$16.76** est inchangée. Le volume de **76.76M (1.13× moy. 20j)** confirme la lecture distribution du snapshot 10h : le repli de −4.52% du 02/06 s'est effectué sur volume supérieur à la moyenne, signalant une distribution partielle active.
 
-Le support immédiat reste le low du 02/06 à **$17.46**, suivi de la MM50 à **$16.76**. Une cassure sous $17.46 ouvrirait un test de **$17.00–$17.20** (zone du gap du 01/06). La résistance immédiate est le close du 01/06 à **$18.58**, suivi de **$19.00** (psychologique) puis **$20.00** (Max Pain options historique).
-
-⚠️ **Données options corrompues** — `latest.json` retourne Max Pain $5.00 (aberrant, le 52W low est $13.23), Put/Call `null`, Call OI `null`. Ces valeurs sont ignorées. Les dernières valeurs fiables (02/06) sont : Max Pain **$20.00**, Put/Call **0.48**, Call OI **67.4%**.
+Le support immédiat reste le low du 02/06 à **$17.46**, suivi de la MM50 à **$16.76**. Une cassure sous $17.46 ouvrirait un test de **$17.00–$17.20** (zone du gap du 01/06). La résistance immédiate est le close du 01/06 à **$18.58**, suivi de **$19.00** (psychologique) puis **$20.00** (Max Pain options confirmé à $20.00, aimant statistique pour l'expiration prochaine).
 
 ---
 
 ## 3. Mise à jour fondamentale
 
-| Métrique | Valeur | Évolution vs 02/06 | Commentaire |
-|----------|--------|--------------------|-------------|
+| Métrique | Valeur | Évolution vs 10h | Commentaire |
+|----------|--------|------------------|-------------|
 | Market cap | $22.76B | 0.00 | Stable |
 | P/E LTM (Yahoo) | 39.42 | 0.00 | Stable |
 | Forward P/E | 22.74 | 0.00 | Stable |
@@ -90,17 +91,17 @@ Le secteur financier (XLF) reste sous-performant SPY (RS20 −6.0%, momentum 0.0
 | Consensus PT | $25.41 (27 analystes) | 🟢 Upside consensus +43.2% vs cours $17.74 |
 | Analystes actifs (1M) | 2 | 🟡 Couverture stable |
 | Analystes actifs (1T) | 10 | 🟡 Couverture stable |
-| Max Pain | $20.00 (historique 02/06) | 🟢 Révision haussière confirmée — strikes repositionnés à la hausse |
-| Put/Call ratio | 0.48 (historique 02/06) | 🟢 Bullish — repositionnement haussier intact |
-| Call OI % | 67.4% (historique 02/06) | 🟢 Dominance call maintenue |
+| Max Pain | $20.00 | 🟢 Révision haussière confirmée — strikes repositionnés à la hausse |
+| Put/Call ratio | 0.54 | 🟢 Bullish — légèrement moins bullish vs 02/06 (+0.06) mais reste dans zone haussière |
+| Call OI % | 65.0% | 🟢 Dominance call maintenue — légère prise de profit post-gap (−2.4 pts) |
 | Social sentiment | 0.0 / No data | ⚪ Pas de données Reddit aujourd'hui |
 | Pump detected | false | 🟢 Aucun signal pump |
 
-**[ALERTE DATA QUALITY] Options JSON corrompu dans latest.json :**
-- Max Pain retourné : $5.00 (aberrant — 52W low $13.23, impossible)
-- Put/Call ratio : `null`
-- Call OI % : `null`
-- **Action :** Valeurs historiques du 02/06 conservées (Max Pain $20.00, Put/Call 0.48, Call OI 67.4%). L'expiration prochaine reste le 2026-06-05 (2 jours ouvrés).
+**[RÉSOLU] Options JSON corrigé dans latest.json 13h UTC :**
+- Max Pain : **$20.00** (cohérent — vs $5.00 aberrant à 10h UTC, 52W low $13.23)
+- Put/Call ratio : **0.54** (vs `null` à 10h UTC) — repositionnement légèrement moins bullish vs 02/06 (0.48 → 0.54)
+- Call OI % : **65.0%** (vs `null` à 10h UTC) — légère baisse vs 02/06 (67.4% → 65.0%), probable prise de profit partielle sur les calls après le gap haussier du 01/06
+- **Expiration prochaine :** 2026-06-05 (2 jours ouvrés) — avec le cours sous le Max Pain $20.00, le pinning théorique favorise un rebond vers les strikes, mais la distance est significative (+12.7%) et le volume de distribution du 02/06 complique la donne
 
 **News** — Aucune news structurante détectée via les flux automatiques. Le mouvement est non-news-driven.
 
@@ -108,7 +109,7 @@ Le secteur financier (XLF) reste sous-performant SPY (RS20 −6.0%, momentum 0.0
 
 ## 5. Scoring global révisé
 
-| Score | Snapshot 2026-06-02 21h (ACHETER) | **Snapshot 2026-06-03 10h (ACHETER)** | **Δ** |
+| Score | Snapshot 2026-06-03 10h (ACHETER) | **Snapshot 2026-06-03 13h (ACHETER)** | **Δ** |
 |-------|-----------------------------------|----------------------------------------|-------|
 | Score Opportunité | 6.1/10 | **6.1/10** | **0.0** |
 | Score Catalyseur | 6.8/10 | **6.8/10** | 0.0 |
@@ -132,13 +133,13 @@ Le secteur financier (XLF) reste sous-performant SPY (RS20 −6.0%, momentum 0.0
 - Bonus event : 0 (pas d'événement corporate)
 - Timing technique : +10 (cours au-dessus de MM50 + breakout historique confirmé le 01/06)
 
-**Note sur la stabilité du score :** Le Score Opportunité et le Score Global Composite restent stables à 6.1/10 et 60.8/100. Aucune nouvelle donnée de prix n'est disponible depuis le close du 02/06. Le volume révisé à 1.13× (vs 1.10×) ne modifie pas l'interprétation : distribution partielle confirmée. Le secteur XLF reste sous-performant (momentum 0.0/10) — headwind sectoriel non résolu.
+**Note sur la stabilité du score :** Le Score Opportunité et le Score Global Composite restent stables à 6.1/10 et 60.8/100. Aucune nouvelle donnée de prix n'est disponible depuis le close du 02/06. La correction des options ne modifie pas l'interprétation fondamentale : le repositionnement haussier reste intact (Max Pain $20.00, Call OI 65.0%, Put/Call 0.54). Le secteur XLF reste sous-performant (momentum 0.0/10) — headwind sectoriel non résolu.
 
 ---
 
 ## 6. Niveaux révisés
 
-| Niveau | Snapshot 2026-06-02 21h | Snapshot 2026-06-03 10h | Calcul |
+| Niveau | Snapshot 2026-06-03 10h | Snapshot 2026-06-03 13h | Calcul |
 |--------|-------------------------|-------------------------|--------|
 | Prix d'entrée suggéré | $17.74 | **$17.74** | Cours actuel — acceptable en momentum avec SL ajusté |
 | Stop-loss | $15.92 | **$15.92** | $17.74 − 2×ATR ($0.91) = $15.92 |
@@ -154,11 +155,11 @@ Le secteur financier (XLF) reste sous-performant SPY (RS20 −6.0%, momentum 0.0
 
 ## 7. Conclusion — Thèse confirmée, modifiée ou invalidée ?
 
-**🟢 THÈSE CONFIRMÉE — ACHETER maintenu (bord inférieur 60–74), stabilité overnight**
+**🟢 THÈSE CONFIRMÉE — ACHETER maintenu (bord inférieur 60–74), stabilité overnight + correction options**
 
-Aucune nouvelle session US n'a eu lieu entre le close du 02/06 et le snapshot 10h UTC du 03/06. Les données sont **identiques** : cours $17.74, RSI 63.90, ATR $0.91, MM50 $16.76. Le volume final est légèrement révisé à la hausse (**76.76M, 1.13× moy. 20j** vs 73.21M, 1.10×), confirmant la lecture distribution du snapshot 21h.
+Aucune nouvelle session US n'a eu lieu entre le close du 02/06 et le snapshot 13h UTC du 03/06. Les données de prix sont **identiques** : cours $17.74, RSI 63.90, ATR $0.91, MM50 $16.76. Le volume final est stable à **76.76M (1.13× moy. 20j)**, confirmant la lecture distribution du snapshot 10h.
 
-**[ALERTE DATA QUALITY]** Les données options dans `data/latest.json` sont corrompues (Max Pain $5.00 aberrant, Put/Call et Call OI `null`). Les valeurs opérationnelles du 02/06 sont conservées.
+**[RÉSOLU] Anomalie options corrigée :** Les données options dans `data/latest.json` ont été corrigées entre le snapshot 10h et 13h UTC. Le Max Pain est confirmé à **$20.00** (cohérent avec l'historique), le Put/Call à **0.54** et le Call OI à **65.0%**. Ces valeurs indiquent un repositionnement légèrement moins bullish vs le 02/06 (Put/Call +0.06, Call OI −2.4 pts), probablement due à une prise de profit partielle sur les calls après le gap haussier du 01/06. L'orientation globale reste clairement haussière en options.
 
 **Éléments confirmant la thèse :**
 - Cours +5.8% au-dessus de MM50 — trend haussier court terme intact malgré le pullback
@@ -167,11 +168,11 @@ Aucune nouvelle session US n'a eu lieu entre le close du 02/06 et le snapshot 10
 - Forward P/E 22.74 attractif vs historique récent
 - Short interest 13.68% (inchangé) = potentiel de squeeze intact
 - Earnings Q2 dans 55j (28 juillet) avec EPS estimates $0.10–$0.11 — catalyseur forward
-- Max Pain $20.00 (historique) = repositionnement haussier des strikes options confirmé
-- Put/Call 0.48 et Call OI 67.4% (historique) = sentiment options reste bullish
+- Max Pain $20.00 confirmé = repositionnement haussier des strikes options validé
+- Put/Call 0.54 et Call OI 65.0% = sentiment options reste bullish
 - Aucune news négative — le mouvement est purement technique
 
-**Risques à surveiller (inchangés vs 02/06) :**
+**Risques à surveiller (inchangés vs 10h) :**
 - Volume 1.13× = distribution partielle confirmée — vigilance à l'ouverture US du 03/06
 - Clôture proche du low du 02/06 ($17.46) = signal tactique défavorable à très court terme
 - P/E LTM 39.42 et Forward P/E 22.74 restent étirés pour un Filtre Qualité 4/6
@@ -180,10 +181,9 @@ Aucune nouvelle session US n'a eu lieu entre le close du 02/06 et le snapshot 10
 - Score Global au bord inférieur de la zone ACHETER (60.8) — une baisse de 0.9 pt ferait basculer en ATTENDRE
 - Filtre Qualité 4/6 inchangé — Quality Partielle, FCF négatif, ROE faible
 - Cassure sous $17.46 ouvrirait un test de $17.00–$17.20 (zone du gap)
-- Données options corrompues dans latest.json — surveillance nécessaire à la prochaine snapshot
 
 **Action : ACHETER — Sizing réduit — SL $15.92 — TP $20.47 — Ratio R/R ~1.5×**
 
 ---
 
-*Données sourcées : data/latest.json (2026-06-03T10:00:08+00:00), data/recommandations_latest.json, data/sector_rotation_latest.json, data/fx_exposure_latest.json, data/upcoming_events_latest.json, data/events_latest.json, data/social_sentiment_latest.json, data/geo_risk_latest.json, data/quant_report_latest.json.*
+*Données sourcées : data/latest.json (2026-06-03T13:00:08+00:00), data/recommandations_latest.json, data/sector_rotation_latest.json, data/fx_exposure_latest.json, data/upcoming_events_latest.json, data/events_latest.json, data/social_sentiment_latest.json, data/geo_risk_latest.json, data/quant_report_latest.json.*

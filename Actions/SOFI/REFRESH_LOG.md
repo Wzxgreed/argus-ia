@@ -16,6 +16,20 @@
 
 ---
 
+## 2026-06-03 — Full Refresh Trigger Detected (DRAFT)
+
+**Triggers :**
+- ATR_SPIKE (medium) : ATR relatif 5.13% (seuil 5.0%)
+
+**Conclusion :** CONFIRME — Trigger déjà intégré dans l'analyse courante. Pas de réécriture de `_init.md` requise.
+- L'ATR relatif 5.13% reflète la volatilité post-gap du 01/06 ($18.58, +7.37%) et le pullback du 02/06 ($17.74, −4.52%), déjà analysés en détail dans les `_update.md` des 2026-06-01 et 2026-06-02.
+- Aucun nouvel événement structurant ne modifie le moat, le TAM ou la qualité bénéfice. Le Filtre Qualité reste 4/6 (Quality Partielle).
+- Cours stable $17.74, RSI 63.90, MM50 $16.76, volume 76.76M (1.13×). Score Opportunité 6.1/10, Score Global 60.8/100 (ajusté 65.8) — ACHETER maintenu.
+- [RÉSOLU] Anomalie options JSON corrigée dans `data/latest.json` 13h UTC : Max Pain $20.00 confirmé, Put/Call 0.54, Call OI 65.0%.
+- **Action :** DRAFT_refresh archivé (`SOFI_2026-06-03_DRAFT_refresh_ARCHIVED.md`). La mise à jour quotidienne `SOFI_2026-06-03_update.md` intègre la correction options et confirme la thèse.
+
+---
+
 ## 2026-05-18 — Full Refresh Trigger Detected (DRAFT)
 
 **Triggers :**
