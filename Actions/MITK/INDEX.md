@@ -1,11 +1,12 @@
 # MITK
 
 ## Thèse courante
-**SURVEILLER** — Small-cap logiciel (Software-Application, $793.4M) avec Forward P/E attractif (14.47x) mais rentabilité du capital faible (ROIC 3.16%) et absence de catalyseur idiosyncratique avéré. Close **$17.57** sur volume en recovery significative (0.719× moyenne 20j, 954,557 vs moy. 1,327,697), consolidation au sommet (−1.68% vs previous close). RSI 71.77 (**surachat sévère >70 légèrement atténué**), cours AU-DESSUS de MM50 ($14.71, +19.4%), configuration technique haussière de moyen terme mais **asymétrique à la baisse sur le court terme**. Score Global Ajusté **36.5/100** (catégorie SURVEILLER, fourchette 35–49, +4.0 pts vs 17h). Structure options haussière **inchangée** : Max Pain $20.00 (+13.8% vs spot), Put/Call 0.22, Call OI 81.8%. Consensus PT $16.00 **dépassé de 9.8%** — upside théorique nul mais marge réduite. Signal macro **NEUTRAL** — pas de vent de queue sectoriel. Pas de sizing recommandé (Catalyseur 4.0/10, Valorisation 5.0/10, Momentum 5.0/10). SL $15.87, TP $20.12, R/R 1.5. **Snapshot 21:00 UTC 02/06 : thèse modifiée ÉVITER → SURVEILLER. Recovery volume +227% (954K vs 292K à 17h) invalidant le volume collapse, RSI 71.77 (−0.82 pt), signal sectoriel NEUTRAL inchangé. Score Global Ajusté 36.5/100 (+4.0 pts). Action SURVEILLER, timing Défavorable.**
+**SURVEILLER** — Small-cap logiciel (Software-Application, $793.4M) avec Forward P/E attractif (14.47x) mais rentabilité du capital faible (ROIC 3.16%) et absence de catalyseur idiosyncratique avéré. Close **$17.57** sur volume stable (0.719× moyenne 20j, 954,900 vs moy. 1,327,715), consolidation au sommet (−1.68% vs previous close). RSI 71.77 (**surachat sévère >70 persistant**), cours AU-DESSUS de MM50 ($14.71, +19.4%), configuration technique haussière de moyen terme mais **asymétrique à la baisse sur le court terme**. Score Global Ajusté **36.5/100** (catégorie SURVEILLER, fourchette 35–49, inchangé vs 02/06). Structure options haussière **inchangée** : Max Pain $20.00 (+13.8% vs spot, valeur opérationnelle conservée — anomalie JSON $2.50 détectée et signalée), Put/Call 0.22, Call OI 81.8%. Consensus PT $16.00 **dépassé de 9.8%** — upside théorique nul. Signal macro **NEUTRAL** — pas de vent de queue sectoriel. Pas de sizing recommandé (Catalyseur 4.0/10, Valorisation 5.0/10, Momentum 5.0/10). SL $15.87, TP $20.12, R/R 1.5. **Snapshot 10:00 UTC 03/06 : thèse SURVEILLER confirmée. Stabilité totale vs close 02/06 (cours $17.57 inchangé, RSI 71.77, ATR 0.85, volume 954,900 stable). Anomalie options JSON détectée et traitée (max pain $2.50 aberrant → valeur opérationnelle $20.00 conservée). Score Global Ajusté 36.5/100 inchangé. Action SURVEILLER, timing Défavorable.**
 
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
+| 2026-06-03 | [MITK_2026-06-03_update.md](MITK_2026-06-03_update.md) | Mise à jour snapshot 10:00 UTC — **thèse SURVEILLER confirmée**. Stabilité totale vs close 02/06 (cours $17.57 inchangé, RSI 71.77, ATR 0.85, volume 954,900 stable 0.719×). **Anomalie options JSON détectée et traitée** (max pain $2.50 aberrant → valeur opérationnelle $20.00 conservée). Score Global Ajusté **36.5/100** inchangé. Action **SURVEILLER**, timing **Défavorable** |
 | 2026-06-02 | [MITK_2026-06-02_update.md](MITK_2026-06-02_update.md) | Mise à jour snapshot 21:00 UTC — **thèse modifiée ÉVITER → SURVEILLER**. Recovery volume +227% (954K vs 292K à 17h) invalidant l'alerte volume collapse, cours $17.57 (−1.68% vs previous close), RSI 71.77 (−0.82 pt, surachat légèrement atténué), signal sectoriel **NEUTRAL** inchangé. Score Global Ajusté **36.5/100** (+4.0 pts). Action **SURVEILLER**, timing **Défavorable** |
 | 2026-06-02 | [MITK_2026-06-02_update_17h.md](MITK_2026-06-02_update_17h.md) | Mise à jour snapshot 17:00 UTC — **thèse ÉVITER confirmée et renforcée**. Mutation technique majeure : repli −1.26% à $17.645 sur volume collapse −67.7% (291K vs 904K à 13h), RSI 72.59 (+0.93 pt), signal sectoriel **neutralisé** `NEUTRAL` (was `ROTATION_TO_CYCLICAL`). Score Global Ajusté **32.5/100** (−1.3 pt). Action **ÉVITER confirmée**, timing **Défavorable** |
 | 2026-06-02 | [MITK_2026-06-02_update.md](MITK_2026-06-02_update.md) | Mise à jour post-pipeline 13:00 UTC — thèse ÉVITER confirmée. Stabilité totale vs snapshot 10h UTC (cours $17.87 inchangé, RSI 71.66, ATR 0.86), volume 904K stable (0.68×). **Anomalie options RÉSOLUE** (max pain $20.00, put/call 0.22, call OI 81.8%). Score Global Ajusté **33.8/100** inchangé. Action **ÉVITER confirmée**, timing **Défavorable** |
@@ -31,17 +32,18 @@
 | 2026-05-17 | [MITK_2026-05-17_claude.md](MITK_2026-05-17_claude.md) | Analyse approfondie (LLM) |
 
 ## Agenda
-- Prochain earnings : **2026-08-06** (72j) — Est EPS $0.24–$0.34, Rev ~$0.1B
-- Expiration options : **2026-06-18** (24j)
+- Prochain earnings : **2026-08-06** (64j) — Est EPS $0.24–$0.34, Rev ~$0.1B
+- Expiration options : **2026-06-18** (15j)
 
 ## Alertes actives
-- 🟢 **[CASSURE MM50 CONFIRMÉE]** Cours $17.57 > MM50 $14.71 (+19.4%) — signal technique intact — 2026-06-02
-- 🟢 **[BREAK 52-WEEK HIGH]** 52w high $17.97 proche — break testé mais non confirmé à 21h — 2026-06-02
-- 🟡 **[RSI SURACHAT SEVERE]** 71.77 > 70 — timing défavorable, malus technique majeur, légèrement atténué vs 17h — 2026-06-02
-- 🟡 **[VOLUME SOUS-MOYENNE PERSISTANT]** 954,557 = 0.719× moyenne 20j — recovery significative (+227% vs 17h) mais toujours sous moyenne — 2026-06-02
-- 🔴 **[CONSENSUS PT DÉPASSÉ]** $16.00 dépassé de 9.8% — upside théorique nul, risque de retracement accentué — 2026-06-02
-- 🟢 **[STRUCTURE OPTIONS HAUSSIÈRE CONFIRMÉE]** Max pain $20.00, Put/Call 0.22, Call OI 81.8% — signal dérivé haussier inchangé — 2026-06-02
+- 🟢 **[CASSURE MM50 CONFIRMÉE]** Cours $17.57 > MM50 $14.71 (+19.4%) — signal technique intact — 2026-06-03
+- 🟢 **[BREAK 52-WEEK HIGH]** 52w high $17.97 proche — break testé mais non confirmé — 2026-06-03
+- 🟡 **[RSI SURACHAT SEVERE]** 71.77 > 70 — timing défavorable, malus technique majeur — 2026-06-03
+- 🟡 **[VOLUME SOUS-MOYENNE PERSISTANT]** 954,900 = 0.719× moyenne 20j — stable mais toujours sous moyenne — 2026-06-03
+- 🔴 **[CONSENSUS PT DÉPASSÉ]** $16.00 dépassé de 9.8% — upside théorique nul, risque de retracement accentué — 2026-06-03
+- 🟢 **[STRUCTURE OPTIONS HAUSSIÈRE CONFIRMÉE]** Max Pain $20.00 (opérationnel), Put/Call 0.22, Call OI 81.8% — signal dérivé haussier inchangé — 2026-06-03
+- 🔴 **[ANOMALIE OPTIONS JSON]** Max pain $2.50 aberrant dans latest.json (was $20.00), put/call et call OI null — valeurs opérationnelles historiques conservées — 2026-06-03
 - 🟡 **[ROIC FAIBLE]** 3.16% — monitorer l'efficacité du capital dans les prochains filings — 2026-05-18
 - 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($793.4M Yahoo vs $446.6M FMP), P/E, EV multiples — utiliser Yahoo comme primaire — persistant
-- 🟡 **[LIQUIDITÉ DÉRIVÉE FAIBLE]** Faible couverture strike — prudence sur le hedging — 2026-06-02
-- 🟢 **[VOLUME COLLAPSE RÉSOLU]** 0.719× moyenne (was 0.225×) — invalidation de l'alerte volume collapse 17h — 2026-06-02
+- 🟡 **[LIQUIDITÉ DÉRIVÉE FAIBLE]** Faible couverture strike — prudence sur le hedging — 2026-06-03
+- 🟢 **[VOLUME COLLAPSE RÉSOLU]** 0.719× moyenne (was 0.225× le 02/06 17h) — invalidation persistante — 2026-06-03
