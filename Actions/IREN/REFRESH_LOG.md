@@ -1407,3 +1407,23 @@ Données close officiel : cours $66.60 (−1.04% vs snapshot 17h), RSI 61.11, AT
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-06-04 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -6.48% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 8.57% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-04 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -6.61% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 8.59% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
