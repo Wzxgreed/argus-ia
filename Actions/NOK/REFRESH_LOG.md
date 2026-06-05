@@ -1472,3 +1472,23 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-06-05 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (high) : Gap -13.90% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 7.90% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-05 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (high) : Gap -13.48% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 7.86% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
