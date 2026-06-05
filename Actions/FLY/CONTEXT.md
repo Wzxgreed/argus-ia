@@ -36,26 +36,27 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 47.07
-- **MM 50j :** —
+- **RSI 14j :** 46.37
+- **MM 50j :** 38.64
 - **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** 9480625
+- **ATR 14j :** 6.05
+- **Volume moy. 20j :** 9463989
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-04
+- **Date :** 2026-06-05
 - **Type :** full refresh
-- **Fichier :** `FLY_2026-06-04_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-04
+- **Fichier :** `FLY_2026-06-05_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-05
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **PRICE_GAP** (high) — Gap -10.97% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 16.58% (seuil 5.0%)
 
 ---
 

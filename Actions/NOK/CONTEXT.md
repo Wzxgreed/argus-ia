@@ -49,11 +49,11 @@ Snapshot 13h UTC : cours **$16.85** (strictement inchangé vs snapshot 10h 03/06
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 64.32
-- **MM 50j :** 12.04
+- **RSI 14j :** 56.53
+- **MM 50j :** 12.18
 - **MM 200j :** —
-- **ATR 14j :** 1.0
-- **Volume moy. 20j :** 122440390
+- **ATR 14j :** 1.06
+- **Volume moy. 20j :** 119867178
 
 ---
 
@@ -68,7 +68,8 @@ Snapshot 13h UTC : cours **$16.85** (strictement inchangé vs snapshot 10h 03/06
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 6.02% (seuil 5.0%)
+- **PRICE_GAP** (high) — Gap -12.00% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 7.52% (seuil 5.0%)
 
 ---
 
