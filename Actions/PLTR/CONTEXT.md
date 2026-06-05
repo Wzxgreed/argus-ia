@@ -1,4 +1,4 @@
-# CONTEXT — PLTR — Dernière mise à jour : 2026-06-04
+# CONTEXT — PLTR — Dernière mise à jour : 2026-06-05
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -36,11 +36,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 57.16
-- **MM 50j :** 141.29
+- **RSI 14j :** 57.67
+- **MM 50j :** —
 - **MM 200j :** —
-- **ATR 14j :** 6.96
-- **Volume moy. 20j :** 41519895
+- **ATR 14j :** —
+- **Volume moy. 20j :** 41727270
 
 ---
 

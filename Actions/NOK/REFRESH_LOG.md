@@ -1416,3 +1416,21 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-06-05 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.02% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-05 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.02% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

@@ -1,4 +1,4 @@
-# CONTEXT — SOFI — Dernière mise à jour : 2026-06-04
+# CONTEXT — SOFI — Dernière mise à jour : 2026-06-05
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -51,11 +51,11 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 58.22
-- **MM 50j :** 16.76
+- **RSI 14j :** 55.17
+- **MM 50j :** —
 - **MM 200j :** —
-- **ATR 14j :** 0.93
-- **Volume moy. 20j :** 69081494
+- **ATR 14j :** —
+- **Volume moy. 20j :** 69286986
 
 ---
 
@@ -70,7 +70,7 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 5.42% (seuil 5.0%)
+- ATR_SPIKE (medium) : ATR relatif 5.13% (seuil 5.0%)
 
 ---
 
