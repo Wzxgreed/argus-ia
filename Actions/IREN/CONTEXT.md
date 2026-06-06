@@ -1,4 +1,4 @@
-# CONTEXT — IREN — Dernière mise à jour : 2026-06-05
+# CONTEXT — IREN — Dernière mise à jour : 2026-06-06
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -41,20 +41,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 51.36
-- **MM 50j :** 49.88
+- **RSI 14j :** 51.49
+- **MM 50j :** 49.89
 - **MM 200j :** —
 - **ATR 14j :** 5.63
-- **Volume moy. 20j :** 58250315
+- **Volume moy. 20j :** 58529045
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-05
+- **Date :** 2026-06-06
 - **Type :** full refresh
-- **Fichier :** `IREN_2026-06-05_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-05
+- **Fichier :** `IREN_2026-06-06_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-06
 
 ---
 
