@@ -1,4 +1,4 @@
-# CONTEXT — PLTR — Dernière mise à jour : 2026-06-06
+# CONTEXT — PLTR — Dernière mise à jour : 2026-06-07
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -46,10 +46,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-06
+- **Date :** 2026-06-07
 - **Type :** full refresh
-- **Fichier :** `PLTR_2026-06-06_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-06
+- **Fichier :** `PLTR_2026-06-07_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-07
 
 ---
 
