@@ -1,7 +1,7 @@
 # AXA — Index du Dossier
 
-> **Dernière mise à jour :** 2026-06-03 (snapshot 10h00 UTC)
-> **Statut :** 🔴 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`) + earnings J0 FMP glissant sans détails (11e jour consécutif)
+> **Dernière mise à jour :** 2026-06-08 (snapshot 10h00 UTC)
+> **Statut :** 🟡 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`) + earnings J0 FMP glissant sans détails. CONTEXTE SECTORIEL XLF NETTEMENT AMÉLIORÉ.
 
 ---
 
@@ -11,7 +11,7 @@
 
 AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **aucune donnée de prix n'est disponible** dans le pipeline Argus-IA car le symbole "AXA" n'est pas reconnu par yfinance (instrument non coté US). L'analyse technique et fondamentale reste impossible.
 
-**Contexte sectoriel (snapshot 2026-06-03 10h00 UTC) :** Le secteur Financials (XLF) affiche une **stabilité totale** vs le snapshot 21h00 du 02/06 : return 20j −0.23% (vs SPY +5.79% sur 20j, +13.28% sur 60j), return 60j +2.28%, RS 20j −6.02%, RS 60j −10.99%. Le momentum score reste à 0.0/10 et le signal macro `NEUTRAL` est inchangé. XLF reste classé 3e/11, en distribution relative vs le marché. Le snapshot confirme que les données de prix US sont bien récupérées (24 tickers OK sur 29), isolant AXA comme l'un des 5 tickers structurellement KO sur 29. Si les données AXA étaient disponibles, le headwind sectoriel persistant justifierait un ajustement à la baisse du placeholder Momentum (actuellement 5.0/10).
+**Contexte sectoriel (snapshot 2026-06-08 10h00 UTC) :** Le secteur Financials (XLF) affiche une **amélioration significative** vs le snapshot du 03/06 : return 20j **+1.45%** (vs SPY +0.82%), return 60j **+5.90%** (vs SPY +9.35%), RS 20j **+0.64%** (vs −6.02% le 03/06), RS 60j **−3.45%** (vs −10.99% le 03/06). Le momentum score a bondi à **4.0/10** (vs 0.0/10). Le signal macro `NEUTRAL` est inchangé. XLF reste classé 3e/11. Le snapshot confirme que les données de prix US sont bien récupérées (25 tickers OK sur 29), isolant AXA comme l'un des **4 tickers structurellement KO** sur 29 (SPCX résolu depuis le 03/06). Si les données AXA étaient disponibles, le contexte sectoriel aurait justifié un relèvement du placeholder Momentum.
 
 **Action immédiate :** corriger le symbole dans `config/watchlist.json` (`CS.PA` ou `AXAHY`), mettre à jour le secteur (Financials / Insurance) et relancer le fetch.
 
