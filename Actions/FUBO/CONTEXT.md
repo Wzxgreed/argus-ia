@@ -7,13 +7,13 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE — pas d'entrée en l'état. Surveiller la résolution de l'anomalie earnings et le comblement éventuel du gap vers $10.16.
+- **Recommandation :** ATTENDRE — pas d'entrée en l'état. Surveiller la résolution de l'anomalie earnings et l'échéance options du 2026-06-12.
 
 ## Historique
-- **Score global :** —/10
+- **Score global :** ~56.5/100
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** modifiée
+- **Statut thèse :** confirmée
 - **Horizon :** —
 
 ---
@@ -26,13 +26,16 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- Anomalie options JSON **RÉSOLUE** (snapshot 13h) — max pain $13.00, put/call 0.25, call OI 79.7%
+- Setup short squeeze latent (short interest 25.03% + structure options haussière)
+- Earnings Q1 2026 jour J non résolu (anomalie calendrier persistante)
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-06-08** · earnings · Earnings ...
+- **2026-06-08** · earnings · Earnings Q1 2026 (jour J, non résolu)
+- **2026-06-12** · options · Échéance options (max pain $13.00)
 
 ---
 
@@ -49,9 +52,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-08
-- **Type :** full refresh
-- **Fichier :** `FUBO_2026-06-08_DRAFT_refresh_ARCHIVED.md`
-- **Conclusion :** > **Date :** 2026-06-08
+- **Type :** update (snapshot 13h UTC)
+- **Fichier :** `FUBO_2026-06-08_update.md`
+- **Conclusion :** Stabilité totale vs snapshot 10h (cours $9.54, RSI 49.4, volume 1.28M inchangés). Anomalie options JSON RÉSOLUE (max pain $13.00, put/call 0.25, call OI 79.7%). Structure haussière re-quantifiable avec spot −26.6% sous max pain. Setup short squeeze latent réactivé. Thèse ATTENDRE confirmée (~56.5/100).
 
 ---
 

@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** validée
-- **Horizon :** —
+- **Recommandation :** ACHETER (Sizing Réduit)
+- **Score global :** 65.2/100
+- **Prix cible :** $17.56
+- **Stop-loss :** $13.11
+- **Statut thèse :** confirmée
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -24,13 +24,18 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🟢 **[STRUCTURE OPTIONS HAUSSIÈRE CONFIRMÉE]** Max Pain $20.00, Put/Call 0.23, Call OI 81.5% — signal dérivé haussier validé par données JSON corrigées — 2026-06-08
+- 🟢 **[ANOMALIE OPTIONS JSON RÉSOLUE]** Max pain $20.00, put/call 0.23, call OI 81.5% — données JSON corrigées dans latest.json — 2026-06-08
+- 🟢 **[CASSURE MM50 CONFIRMÉE — MARGE ÉTROITE]** Cours $14.89 > MM50 $14.79 (+0.7%) — signal technique intact — 2026-06-08
+- 🟡 **[RSI SORTI DU SURACHAT]** 54.17 — zone neutre favorable — 2026-06-08
+- 🔴 **[PULLBACK −15.3% SANS CATALYSEUR IDENTIFIABLE]** Risque de continuation baissière si support MM50 cède — 2026-06-08
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q3 FY2026** : 2026-08-06 (59j)
+- **Expiration options** : 2026-06-18 (10j)
 
 ---
 
@@ -47,9 +52,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-08
-- **Type :** update
-- **Fichier :** `MITK_2026-06-08_update.md`
-- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-08 10:00 UTC) + agents quant, geo, sector, social, FX, events, recommandation
+- **Type :** update_13h
+- **Fichier :** `MITK_2026-06-08_update_13h.md`
+- **Conclusion :** THÈSE CONFIRMÉE. Stabilité totale vs snapshot 10:00 UTC. Anomalie options JSON RÉSOLUE (max pain $20.00, put/call 0.23, call OI 81.5%). Score Global Ajusté 65.2/100 inchangé. Action ACHETER (Sizing Réduit), timing Favorable.
 
 ---
 
