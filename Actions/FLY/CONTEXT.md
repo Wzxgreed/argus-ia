@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
+- **Recommandation :** SURVEILLER
+- **Score global :** 43.8/100
+- **Prix cible :** $43.25 (consensus FMP, 12 analysts)
+- **Stop-loss :** $24.60
+- **Statut thèse :** confirmée
 - **Horizon :** —
 
 ---
@@ -24,32 +24,37 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- **PIN RISK OPTIONS J-4** — Expiration 2026-06-12, max pain $40.00 vs spot $36.18 (−9.6%). Puts $40.00 in-the-money. Surveillance du comportement autour de $40.00.
+- **SHORT INTEREST ÉLEVÉ** — 9.78% stable. Pression vendeuse persistante, pas de setup squeeze.
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings Q2 2026 : **2026-08-04** (57 jours) — Est EPS −$0.61 à −$0.45, Rev $0.1B
+- Expiration options : **2026-06-12** (J-4) — max pain $40.00
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 41.5
+- **RSI 14j :** 41.52
 - **MM 50j :** 38.81
 - **MM 200j :** —
 - **ATR 14j :** 5.79
-- **Volume moy. 20j :** 9244546
+- **Volume moy. 20j :** 9261206
+- **Volume session :** 4190536 (0.45×)
+- **High du jour :** 38.20 (rejeté)
+- **Low du jour :** 35.68
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-08
-- **Type :** full refresh
-- **Fichier :** `FLY_2026-06-08_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-08
+- **Type :** update (close officiel 21h UTC)
+- **Fichier :** `FLY_2026-06-08_update.md`
+- **Conclusion :** Thèse défavorable CONFIRMÉE — SURVEILLER (43.8). Close $36.18 (+0.22% vs prior close) sur volume 0.45×. High $38.20 rejeté sans confirmation. Score Momentum dégradé 3.5/10. Filtre Qualité 2/6, fondamentaux inchangés et défavorables. Aucun catalyst. Expiration options J-4 avec max pain $40.00.
 
 ---
 
