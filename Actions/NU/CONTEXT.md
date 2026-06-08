@@ -8,11 +8,11 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ATTENDRE
-- **Score Global :** 63.5/100 (ajusté 55.5)
-- **Score Opportunité :** 6.3/10 (C:6.5 V:8.0 M:3.5)
+- **Score Global :** 62.2/100 (ajusté 54.2)
+- **Score Opportunité :** 6.2/10 (C:6.5 V:8.0 M:3.0)
 - **Prix Cible :** $17.49 (consensus FMP, 12 analysts)
-- **Stop-Loss :** $10.56 (2×ATR)
-- **Statut Thèse :** Score ajusté 55.5 — snapshot 17:00 UTC 08/06 : cours $11.625 (−2.88% vs previous close), **anomalie options JSON RÉSOLUE maintenue** (max pain $12.00, put/call 1.02, call OI 49.4%), dégradation technique modérée (momentum 5.0 → 3.5/10, RSI 47.19 → 42.02), volume effondré 27.26M (0.39×, pas de conviction), support critique $11.20 à +3.8%, fondamentaux intacts (forward P/E 10.15×, upside +50.5%)
+- **Stop-Loss :** $10.52 (2×ATR)
+- **Statut Thèse :** Score ajusté 54.2 — close officiel 21:00 UTC 08/06 : cours $11.60 (−3.09% vs previous close), **volume révisé à la hausse massive 57.35M (0.80×)** révèle distribution vendeuse réelle, momentum dégradé 3.5 → 3.0/10, RSI quasi-stable 41.77, support critique $11.20 à +3.4%, fondamentaux intacts (forward P/E 10.13×, upside +50.8%)
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
@@ -38,26 +38,28 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q2 2026 :** 13 août 2026 (Est EPS $0.18–$0.27, Rev $5.4B)
+- **Expiration Options :** 2026-06-12 (4 jours, max pain $12.00)
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 41.57
+- **RSI 14j :** 41.77
 - **MM 50j :** 13.77
 - **MM 200j :** —
 - **ATR 14j :** 0.54
-- **Volume moy. 20j :** 71146403
+- **Volume moy. 20j :** 71443742
+- **Volume dernière séance :** 57349849 (0.80×)
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-08
-- **Type :** update
-- **Fichier :** `NU_2026-06-08_13-00_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité totale, anomalie options résolue, fondamentaux intacts, mais sous MM50 et structure options légèrement baissière)**
+- **Type :** update (close officiel 21h UTC)
+- **Fichier :** `NU_2026-06-08_21-00_update.md`
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (distribution vendeuse réelle révélée par volume révisé 0.80×, momentum dégradé 3.0/10, fondamentaux intacts, support critique $11.20 à +3.4%)**
 
 ---
 
