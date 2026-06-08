@@ -2,7 +2,7 @@
 
 > **Secteur :** Healthcare — Diagnostics & Research
 > **Capitalisation :** $38.25B
-> **Cours actuel :** $135.44 (2026-06-08 · snapshot 13:00 UTC)
+> **Cours actuel :** $133.53 (2026-06-08 · snapshot 17:00 UTC)
 > **Consensus PT :** $163.87 (23 analystes)
 
 ---
@@ -11,12 +11,12 @@
 
 **Recommandation :** ATTENDRE · Direction Neutre
 **Score Global :** 62.5/100 (ajusté **52.5**)
-**Prix cible desk :** $151.10 (TP ATR-based) / $163.87 (consensus analystes)
-**Stop-loss :** $125.00
+**Prix cible desk :** $149.46 (TP ATR-based) / $163.87 (consensus analystes)
+**Stop-loss :** $122.91
 **Horizon :** 1–3 mois
-**Statut thèse :** 🟡 **Confirmée mais modifiée** — snapshot 13h UTC du 08/06 : **stabilité totale** vs 10h UTC (cours $135.44 inchangé, RSI 84.37 inchangé, ATR $5.22 inchangé, volume 2.20M inchangé). **Anomalie options JSON RÉSOLUE** : valeurs normalisées (max pain $130.0, put/call 1.51, call OI 39.8%). Score Global ajusté **52.5** — limite basse zone ATTENDRE. Signal sectoriel **POSITIF MARGINAL** (Healthcare XLV au #2 du classement sectoriel, momentum score 4.41). Entrée initiale laminée ; attendre pullback $126–$130 ou consolidation RSI <65.
+**Statut thèse :** 🟡 **Confirmée mais modifiée** — snapshot 17h UTC du 08/06 : **correction marginale** (−1.41% à $133.53) sur **volume effondré** (489K, 0.19× moy. 20j). RSI refluxe à **79.71** (−4.66 pts), première amélioration technique depuis le gap post-earnings. Low intraday **$132.71** valide la zone support $130–$133. Options inchangées et normalisées. Score Global ajusté **52.5** — limite basse zone ATTENDRE. Signal sectoriel **POSITIF MARGINAL** (Healthcare XLV au #2 du classement sectoriel, momentum score 4.69). Entrée initiale laminée ; attendre pullback $126–$130 ou consolidation RSI <65.
 
-**Synthèse :** Agilent a confirmé sa qualité fondamentale par un beat/guidance-up Q2 2026 spectaculaire (gap +17.3%). Le Filtre Qualité 5/6 est maintenu, le consensus $163.87 laisse un upside +21.0%, et la structure options est désormais normalisée (anomalie JSON résolue). Le reflux du RSI à 84.37 est une note positive marginale mais insuffisante pour lever le malus timing technique. Le volume stable à 0.81× moy. 20j signale une consolidation sans conviction marquée. Le secteur Healthcare (XLV) au #2 offre un vent de poupe de fond favorable. Le Score Global ajusté reste à **52.5** (malus timing technique, limite basse zone ATTENDRE). La thèse reste haussière de fond mais neutre de timing — **ATTENDRE** une consolidation ou un retracement avant toute nouvelle position.
+**Synthèse :** Agilent a confirmé sa qualité fondamentale par un beat/guidance-up Q2 2026 spectaculaire (gap +17.3%). Le Filtre Qualité 5/6 est maintenu, le consensus $163.87 laisse un upside +22.7% (mécaniquement accru par le repli), et la structure options reste normalisée. Le reflux du RSI à 79.71 est une note positive marginale mais insuffisante pour lever le malus timing technique. Le volume collapse à 0.19× moy. 20j est un signal de fragilité structurelle — la session après-midi s'est déroulée sur une liquidité quasi nulle, fragilisant toute lecture directionnelle. Le secteur Healthcare (XLV) au #2 offre un vent de poupe de fond favorable. Le Score Global ajusté reste à **52.5** (malus timing technique, limite basse zone ATTENDRE). La thèse reste haussière de fond mais neutre de timing — **ATTENDRE** une consolidation ou un retracement vers $126–$130 avant toute nouvelle position.
 
 ---
 
@@ -44,6 +44,7 @@
 | 2026-06-03 | `A_2026-06-03_update.md` | Mise à jour 10h UTC | 🟡 **Thèse confirmée mais modifiée** — **stabilité totale** vs close 02/06 (cours $135.05 inchangé, RSI 86.28 inchangé, ATR $4.83 stable). Volume **3.02M** (+49%, **1.10× moy. 20j**) — première fois au-dessus de la moyenne post-gap. **Anomalie options JSON détectée et traitée** (max pain $190 aberrant → valeurs opérationnelles $130/1.58/38.7% conservées). Score Global 62.5 (ajusté **52.5**), recommandation ATTENDRE, SL/TP **$125.39/$149.54**. Signal sectoriel **NEUTRAL**. |
 | 2026-06-08 | `A_2026-06-08_update.md` | Mise à jour 10h UTC | 🟡 **Thèse confirmée mais modifiée** — **stabilité globale** sur 5 séances ($135.44 vs $135.05, +0.3%). RSI refluxe à **84.37** (−1.91 pt), ATR remonte à **$5.22** (+8.1%), volume **2.20M (0.81×)** — retour sous moyenne. Anomalie options JSON persistante. Score Global 62.5 (ajusté **52.5**), recommandation ATTENDRE, SL/TP **$125.00/$151.10**. Signal sectoriel **POSITIF MARGINAL** (XLV #2). |
 | 2026-06-08 | `A_2026-06-08_update.md` | Mise à jour 13h UTC | 🟡 **Thèse confirmée mais modifiée** — **stabilité totale** vs 10h UTC (cours $135.44 inchangé, RSI 84.37 inchangé, ATR $5.22 inchangé, volume 2.20M inchangé). **Anomalie options JSON RÉSOLUE** (max pain $130.0, put/call 1.51, call OI 39.8% normalisés). Score Global 62.5 (ajusté **52.5**), recommandation ATTENDRE, SL/TP **$125.00/$151.10**. Signal sectoriel **POSITIF MARGINAL** (XLV #2). |
+| 2026-06-08 | `A_2026-06-08_update.md` | Mise à jour 17h UTC | 🟡 **Thèse confirmée mais modifiée** — **correction marginale** (−1.41% à $133.53) sur **volume effondré** (489K, 0.19× moy. 20j, −77.8% vs 13h). RSI refluxe à **79.71** (−4.66 pts), low intraday $132.71 valide le support $130–$133. Options inchangées et normalisées. Score Global 62.5 (ajusté **52.5**), recommandation ATTENDRE, SL/TP révisés **$122.91/$149.46**. Signal sectoriel **POSITIF MARGINAL** (XLV #2, momentum score 4.69). |
 
 ---
 
