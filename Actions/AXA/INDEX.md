@@ -46,6 +46,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 | `AXA_2026-06-02_update.md` | 2026-06-02 | Mise à jour quotidienne (snapshot 17h00 UTC) | Données manquantes persistantes — **25e snapshot consécutif sans mutation** ; **mutation significative du contexte sectoriel** : signal macro neutralisé `NEUTRAL` (was `ROTATION_TO_CYCLICAL`), XLF return 20j amélioré −0.17% (vs −0.94%), return 60j +2.34% (vs +0.91%), RS 60j dégradé −10.96% (vs −10.73%) ; earnings J0 FMP (2026-06-02) sans détails exploitables — 9e jour consécutif ; marché actif et liquide sans résolution du sourcing |
 | `AXA_2026-06-02_update.md` | 2026-06-02 | Mise à jour quotidienne (snapshot 21h00 UTC) | Données manquantes persistantes — **26e snapshot consécutif sans mutation** ; dégradation marginale du contexte sectoriel XLF entre 17h00 et 21h00 (RS 20j −6.02% vs −5.99%, RS 60j −10.99% vs −10.96%, return 20j −0.23% vs −0.17%) ; signal macro `NEUTRAL` inchangé ; earnings J0 FMP (2026-06-02) sans détails exploitables — **10e jour consécutif** ; marché close sans résolution du sourcing |
 | `AXA_2026-06-03_update.md` | 2026-06-03 | Mise à jour quotidienne (snapshot 10h00 UTC) | Données manquantes persistantes — **27e snapshot consécutif sans mutation** ; **stabilité totale sectorielle XLF** vs close 02/06 (RS 20j −6.02%, RS 60j −10.99%, return 20j −0.23%, return 60j +2.28%, momentum 0.0/10) ; signal macro `NEUTRAL` inchangé ; earnings J0 FMP (2026-06-03) sans détails exploitables — **11e jour consécutif** ; marché pre-market sans résolution du sourcing |
+| `AXA_2026-06-08_update.md` | 2026-06-08 | Mise à jour quotidienne (snapshot 10h00 UTC) | Données manquantes persistantes — 4 tickers KO sur 29 (SPCX résolu) ; **amélioration significative du contexte sectoriel XLF** (RS 20j −6.02% → +0.64%, RS 60j −10.99% → −3.45%, return 20j −0.23% → +1.45%, momentum 0.0/10 → 4.0/10) ; signal macro `NEUTRAL` stable ; earnings J0 FMP (2026-06-08) sans détails exploitables — pattern persistant depuis mi-mai |
 
 ---
 
@@ -76,6 +77,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 | 2026-06-02 (21h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
 | 2026-06-02 (17h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
 | 2026-06-03 (10h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
+| 2026-06-08 (10h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
 
 ---
 
@@ -96,8 +98,8 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 ## ⚠️ Alertes actives
 
 - **[CRITICAL]** Pas de données de prix pour AXA — ticker probablement incorrect
-- **[WARNING]** Earnings J0 (2026-06-03) sans consensus ni résultats exploitables — **11e jour consécutif**
-- **[INFO]** Headwind sectoriel XLF persistant : RS 20j −6.02%, RS 60j −10.99%, return 20j −0.23%, return 60j +2.28%, momentum 0.0/10 ; signal macro `NEUTRAL`
+- **[WARNING]** Earnings J0 (2026-06-08) sans consensus ni résultats exploitables — pattern persistant depuis mi-mai
+- **[INFO]** Contexte sectoriel XLF nettement amélioré : RS 20j +0.64% (was −6.02%), RS 60j −3.45% (was −10.99%), return 20j +1.45% (was −0.23%), momentum 4.0/10 (was 0.0/10) ; signal macro `NEUTRAL` stable
 
 ---
 
