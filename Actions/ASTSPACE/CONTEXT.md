@@ -49,7 +49,7 @@
 - **Date :** 2026-06-08
 - **Type :** update
 - **Fichier :** `ASTSPACE_2026-06-08_update.md`
-- **Conclusion :** > **Proxy ASTS Close $93,60** : **stabilité totale** vs snapshot 10h UTC ($93,60). Range intraday inchangé $90,91–$104,49. RSI **54,36** (stable). Volume **0,87×** (23,90M vs moy. 27,50M) — inchangé. 
+- **Conclusion :** > **Proxy ASTS Close $92,96** : repli **−0,69%** vs snapshot 13h UTC ($93,60). Range intraday $91,91–$97,00. RSI **52,75** (−1,61 pt, zone neutre). Volume **effondré à 0,29×** (7,71M vs moy. 26,75M) — perte de conviction structurelle. Score global ajusté proxy **51,0/100 (ATTENDRE)** — downgrade de 2,5 pts vs 13h. Thèse proxy **ATTENDRE confirmée, momentum s'érode légèrement**.
 
 ---
 
