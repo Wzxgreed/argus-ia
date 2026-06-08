@@ -1,19 +1,19 @@
-# SPCX — Mise à jour post-pipeline 2026-06-08 (snapshot 10h UTC)
+# SPCX — Mise à jour post-pipeline 2026-06-08 (snapshot 13h UTC)
 
 **Date :** 2026-06-08
-**Type :** Mise à jour post-pipeline — snapshot 10h UTC
-**Analyse précédente :** snapshot 10h UTC 2026-06-03
+**Type :** Mise à jour post-pipeline — snapshot 13h UTC
+**Analyse précédente :** snapshot 10h UTC 2026-06-08
 
 ---
 
 ## Résumé des changements depuis l'analyse précédente
 
-| Donnée | Précédent (10h UTC 03/06) | Actuel (10h UTC 08/06) | Changement |
+| Donnée | Précédent (10h UTC 08/06) | Actuel (13h UTC 08/06) | Changement |
 |--------|--------------------------|------------------------|------------|
-| Statut flux | `error: true` (`No price history`) | `error: false` | 🟢 Retour partiel du flux |
-| Cours close | N/A | **$135.00** | 🔴 **Anomalie majeure** (ancien niveau ~$22) |
-| Open / High / Low | N/A | **$0.00 / $0.00 / $0.00** | 🔴 Incohérence critique |
-| Volume | N/A | **0** | 🔴 Liquidité nulle |
+| Statut flux | `error: false` | `error: false` | = |
+| Cours close | **$135.00** | **$135.00** | = |
+| Open / High / Low | **$0.00 / $0.00 / $0.00** | **$0.00 / $0.00 / $0.00** | = |
+| Volume | **0** | **0** | = |
 | RSI 14j | N/A | N/A | = |
 | ATR 14j | N/A | N/A | = |
 | MM 50j | N/A | N/A | = |
@@ -26,13 +26,13 @@
 | Timing | Neutre | Neutre | = |
 | Signal sectoriel | `NEUTRAL` | `NEUTRAL` | = |
 
-**Verdict :** Le statut `error` est levé (`error: false`), mais une **anomalie structurelle critique** est apparue : le flux retourne un cours de **$135.00** avec OHLC à **$0.00**, volume **0**, et un changement de secteur (`Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management`). Ce setup est **encore plus non-actionnable** que l'erreur brute précédente.
+**Verdict :** Stabilité totale sur le snapshot 13h UTC. Le **conflit de symbole critique** persiste : `error: false` mais cours **$135.00** avec OHLC à **$0.00**, volume **0**, et secteur `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management`. Ce setup reste **non-actionnable**.
 
 ---
 
 ## Mise à jour technique
 
-**🔴 [CRITICAL] — Anomalie data quality de type "conflit de symbole" détectée sur `data/latest.json` :**
+**🔴 [CRITICAL] — Anomalie data quality de type "conflit de symbole" persistante sur `data/latest.json` :**
 
 | Indicateur | Valeur | Signal |
 |------------|--------|--------|
@@ -55,13 +55,13 @@
 - Résistance immédiate : $22.10 (high du 19/05 — non confirmé)
 - Résistance : $22.85 – $23.00 (zone de congestion pré-mai)
 
-**Verdict timing :** Défavorable → **Non-actionnable**. L'absence de données techniques fiables (RSI, ATR, MM50) sur douze snapshots consécutifs, combinée à un cours manifestement erroné ($135.00 avec OHLC à $0.00), rend toute analyse technique impossible. Le signal `error: false` est trompeur — la qualité des données est dégradée.
+**Verdict timing :** Défavorable → **Non-actionnable**. L'absence de données techniques fiables (RSI, ATR, MM50) sur treize snapshots consécutifs, combinée à un cours manifestement erroné ($135.00 avec OHLC à $0.00), rend toute analyse technique impossible. Le signal `error: false` reste trompeur — la qualité des données est dégradée.
 
 ---
 
 ## Mise à jour fondamentale
 
-**🔴 [CRITICAL] — Changement de secteur dans `data/latest.json` :**
+**🔴 [CRITICAL] — Changement de secteur dans `data/latest.json` persistant :**
 
 | Métrique | Valeur actuelle | Valeur historique | Commentaire |
 |----------|----------------|-------------------|-------------|
@@ -90,7 +90,7 @@
 
 | Source | État | Commentaire |
 |--------|------|-------------|
-| News | Aucune structurante | `data/events_2026-06-08.json` : 0 événement corporate pour SPCX |
+| News | Aucune structurante | `data/news_2026-06-08.json` : 0 item pour tous les tickers (source yahoo_rest) |
 | Social sentiment | No data | `data/social_sentiment_2026-06-08.json` : 0 mentions Reddit, pump_detected = false |
 | Options | 🟡 Anomalie | `max_pain` = $24.00 (incompatible avec cours $135.00), put/call ratio = 1.00, call_oi_pct = 50% — données probablement issues du même conflit de symbole |
 | Short interest | N/A | Données non fournies |
@@ -104,9 +104,9 @@
 
 ---
 
-## Scoring global (agents pipeline 2026-06-08, snapshot 10h UTC)
+## Scoring global (agents pipeline 2026-06-08, snapshot 13h UTC)
 
-| Axe | Score | Changement vs 10h 03/06 | Commentaire |
+| Axe | Score | Changement vs 10h 08/06 | Commentaire |
 |-----|-------|------------------------|-------------|
 | Score Catalyseur | 6.5/10 | = | Modéré-haussier — absence de catalyseur fondamental |
 | Score Valorisation | 5.0/10 | = | Neutre |
@@ -151,7 +151,7 @@
 
 ## Conclusion : thèse confirmée, modifiée ou invalidée ?
 
-**Verdict :** 🔴 Thèse **CONFIRMÉE** en état **ATTENDRE** — douze snapshots consécutifs sans données fiables, apparition d'un **conflit de symbole FMP** majeur.
+**Verdict :** 🔴 Thèse **CONFIRMÉE** en état **ATTENDRE** — treize snapshots consécutifs sans données fiables, conflit de symbole FMP persistant, aucune mutation détectée entre 10h et 13h UTC.
 
 | Critère | Évaluation |
 |---------|------------|
@@ -163,9 +163,10 @@
 | Score Global | 🔴 55.2/100 → reclassement ATTENDRE maintenu |
 | Source données | 🔴 **Conflit de symbole détecté** : SPCX mappé sur `Industrials` / `Aerospace & Defense` avec cours $135.00, OHLC $0.00 |
 | Signal sectoriel | 🟡 `NEUTRAL` — XLF top3 avec momentum 4.0 (`return_20d` +1.45%), pas d'impact concret |
+| Stabilité intra-journalière | 🟢 Aucune mutation entre 10h et 13h UTC |
 
 - **Confirmation :** La recommandation **ATTENDRE** est maintenue. Aucun nouveau signal technique, fondamental ni de sentiment n'est apparu sur ce snapshot. Le setup technique du 27/05 (au-dessus MM50, RSI 59.07) reste suspendu. Le Score Global Ajusté de 55.2/100 est un artefact mécanique de l'Agent Recommandation en l'absence de données de marché fiables.
-- **Nuances :** Le passage de `error: true` à `error: false` est un changement technique, mais la qualité des données s'est **dégradée** : le symbole SPCX semble désormais renvoyer les données d'une autre entité (`Aerospace & Defense`, cours $135.00, OHLC nuls). C'est un conflit de symbole classique sur les APIs FMP/Yahoo. Le signal sectoriel `NEUTRAL` persiste. XLF reste dans le top3 avec un momentum de 4.0 (`return_20d` +1.45%, amélioration vs le −0.23% du 03/06). Aucune news, événement corporate, flux options ni social n'est détecté sur ce snapshot. Le faux événement FMP `earnings` du 08/06 est un artefact récurrent et ignoré.
+- **Nuances :** Le snapshot 13h UTC confirme la **stabilité totale** par rapport au snapshot 10h UTC : cours identique ($135.00), volume identique (0), scores identiques (55.2/100), secteur erroné identique (`Industrials` / `Aerospace & Defense`). Le signal sectoriel `NEUTRAL` persiste. XLF reste dans le top3 avec un momentum de 4.0 (`return_20d` +1.45%). Aucune news, événement corporate, flux options ni social n'est détecté sur ce snapshot. Le faux événement FMP `earnings` du 08/06 est un artefact récurrent et ignoré.
 - **Rétablissement :** Un snapshot futur avec **données de prix fiables** (Yahoo ou FMP corrigé), volume > 1 000 unités, métriques techniques (RSI, ATR, MM50) et **sector correct** (`Financial Services`) justifierait une réévaluation. Un retour du Score Momentum à ≥ 6.0/10 relancerait le setup.
 - **Invalidation définitive :** Si le flux de prix fiable ne revient pas sur les prochains snapshots → reclassement **ÉVITER** (ticker non surveillable). Si le prochain prix disponible confirmé est sous $21.32 (ancien 52w low) → **ÉVITER**.
 
@@ -173,7 +174,7 @@
 **Prix cible :** N/A (données insuffisantes — cours $135.00 non fiable)
 **Stop-loss :** N/A (prix et ATR absents)
 **Horizon :** —
-**Conviction :** Très faible — setup technique suspendu par absence totale de données fiables sur douze snapshots consécutifs. Le flux Yahoo reste indisponible et FMP semble renvoyer les données d'un autre ticker (conflit de symbole). Attendre un snapshot avec prix confirmé, sector correct et volume > 0 avant toute réévaluation.
+**Conviction :** Très faible — setup technique suspendu par absence totale de données fiables sur treize snapshots consécutifs. Le flux Yahoo reste indisponible et FMP semble renvoyer les données d'un autre ticker (conflit de symbole). Attendre un snapshot avec prix confirmé, sector correct et volume > 0 avant toute réévaluation.
 
 ---
 
@@ -204,7 +205,7 @@
 ## Liens
 
 - [Retour à l'index du dossier](./INDEX.md)
-- Analyse précédente : snapshot 10h UTC 03/06
+- Analyse précédente : snapshot 10h UTC 08/06
 - Alertes actives : [Alertes/ALERTES.md](../../Alertes/ALERTES.md)
 
 ---
@@ -216,5 +217,5 @@
 - Prix cible révisé : **N/A** (données insuffisantes — cours $135.00 non fiable)
 - Recommandation précédente : ATTENDRE
 - Recommandation révisée : **ATTENDRE**
-- Raison principale : Snapshot 10h UTC 08/06 : statut `error: false` mais anomalie structurelle critique — conflit de symbole FMP détecté (cours $135.00, OHLC $0.00, volume 0, sector Industrials/Aerospace au lieu de Financial Services/Asset Management). Score Global 55.2/100 (inchangé, artefact mécanique). Signal sectoriel NEUTRAL. Aucun catalyseur ni news. Faux earnings FMP ignoré.
-- Thèse : 🟡 Confirmée (statu quo non-actionnable, dégradation data persistante avec nouveau conflit de symbole)
+- Raison principale : Snapshot 13h UTC 08/06 : stabilité totale vs 10h UTC, conflit de symbole FMP persistant (cours $135.00, OHLC $0.00, volume 0, sector Industrials/Aerospace au lieu de Financial Services/Asset Management). Score Global 55.2/100 (inchangé, artefact mécanique). Signal sectoriel NEUTRAL. Aucun catalyseur ni news. Faux earnings FMP ignoré.
+- Thèse : 🟡 Confirmée (statu quo non-actionnable, dégradation data persistante avec conflit de symbole stable)
