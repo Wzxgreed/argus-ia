@@ -1696,6 +1696,8 @@ Le DRAFT_refresh a été complété par l'agent LLM. Correction majeure −18.4%
 - price_gap (medium) : Gap +7.68% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 9.62% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** confirm
+
+Snapshot 17:00 UTC — Rebond +7.68% ($54.35 → $58.525) sur volume faible (0.41× moyenne). RSI 58.22, MM50 $50.31. Défiance options record persistante (put/call 3.95, puts 79.8%). Scores révisés (C 6.3, V 4.0, M 7.5). Score Global 61.8/100. Action ACHETER (Sizing Réduit) maintenue. Thèse confirmée. DRAFT_refresh complété et archivé (_ARCHIVED_DRAFT_refresh_IREN_2026-06-08_17h00.md). Fichier de référence : [IREN_2026-06-08_update.md](IREN_2026-06-08_update.md).
 
 ---

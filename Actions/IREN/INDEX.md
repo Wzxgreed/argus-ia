@@ -73,6 +73,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 | 2026-06-08 | [IREN_2026-06-08_init.md](IREN_2026-06-08_init.md) | Full Refresh (post-gap) | Correction majeure −18.4% ($66.60 → $54.35) · Filtre Qualité 4/6 confirmé · Consensus PT révisé $69.12 (+27.2% upside) · RSI 51.49 neutre · MM50 $49.89 respectée · Action **ACHETER (Sizing Réduit)** · Score Global 61.8/100 · Thèse modifiée favorablement |
 | 2026-06-08 | [IREN_2026-06-08_update.md](IREN_2026-06-08_update.md) (snapshot 10:00 UTC) | Mise à jour post-gap | Snapshot 10:00 UTC — **correction −18.4%** vs close 03/06 · gap down −12.14% · RSI 51.49 · consensus $69.12 (+27.2%) · multiples mécaniquement réduits · Action **ACHETER (Sizing Réduit)** · Score Global **61.8/100** · Thèse modifiée favorablement |
 | 2026-06-08 | [IREN_2026-06-08_update.md](IREN_2026-06-08_update.md) (snapshot 13:00 UTC — révision post-pipeline) | Révision post-pipeline | Snapshot 13:00 UTC — **Données de cours inchangées** · **Correction options majeure** : Max Pain $33.00 (vs $20.00 anomalie), put/call **3.95** record (vs null), call OI **20.2%** (vs null) · Quality Gate exclusion stale_price_history (probable artefact) · Pipeline partial (phases C/D failed) · Action **ACHETER (Sizing Réduit)** confirmée · Score Global **61.8/100** · Thèse confirmée |
+| 2026-06-08 | [IREN_2026-06-08_update.md](IREN_2026-06-08_update.md) (snapshot 17:00 UTC) | Mise à jour post-session | Snapshot 17:00 UTC — **Rebond +7.68%** ($54.35 → $58.525) · Volume effondré 0.41× moyenne · RSI 58.22 · MM50 $50.31 · Multiples dégradés (P/E 76.0×, Forward P/E −62.26×) · Défiance options record persistante (put/call 3.95, puts 79.8%) · Scores révisés (C 6.3, V 4.0, M 7.5) · Action **ACHETER (Sizing Réduit)** · Score Global **61.8/100** · Thèse confirmée |
 
 ---
 
@@ -100,4 +101,4 @@ Voir [SUPPLY_CHAIN.md](SUPPLY_CHAIN.md) pour la cartographie fournisseurs/client
 
 ---
 
-*Dernière mise à jour : 2026-06-08 (snapshot 10:00 UTC)*
+*Dernière mise à jour : 2026-06-08 (snapshot 17:00 UTC)*

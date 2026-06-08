@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
-- **Horizon :** —
+- **Recommandation :** ACHETER (Sizing Réduit)
+- **Score global :** 61.8/100
+- **Prix cible :** $69.12
+- **Stop-loss :** $47.27
+- **Statut thèse :** confirmée
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -41,20 +41,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 57.89
-- **MM 50j :** 50.3
+- **RSI 14j :** 58.22
+- **MM 50j :** 50.31
 - **MM 200j :** —
 - **ATR 14j :** 5.63
-- **Volume moy. 20j :** 54001825
+- **Volume moy. 20j :** 54123365
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-08
-- **Type :** full refresh
-- **Fichier :** `_ARCHIVED_DRAFT_refresh_2026-06-08.md`
-- **Conclusion :** > **Date :** 2026-06-08
+- **Type :** update
+- **Fichier :** `IREN_2026-06-08_update.md` (snapshot 17:00 UTC)
+- **Conclusion :** Rebond +7.68% confirmé ($54.35 → $58.525) sur volume faible (0.41× moyenne). RSI 58.22, MM50 $50.31 respectée. Défiance options record persistante (put/call 3.95, puts 79.8%). Scores révisés (C 6.3, V 4.0, M 7.5). Score Global 61.8/100. Action ACHETER (Sizing Réduit) maintenue. Thèse confirmée.
 
 ---
 
