@@ -3,17 +3,18 @@
 ## 🎯 Thèse Courante
 
 - **Recommandation :** ATTENDRE
-- **Score Global :** 67.2/100 (ajusté 59.2)
-- **Score Opportunité :** 6.7/10 (C:6.5 V:8.0 M:5.0)
+- **Score Global :** 63.5/100 (ajusté 55.5)
+- **Score Opportunité :** 6.3/10 (C:6.5 V:8.0 M:3.5)
 - **Prix Cible :** $17.49 (consensus FMP, 12 analysts)
-- **Stop-Loss :** $10.91 (2×ATR)
-- **Statut Thèse :** Score ajusté 59.2 — snapshot 13:00 UTC 08/06 : cours $11.97 (−1.24% vs previous close), **anomalie options JSON RÉSOLUE** (max pain $12.00 vs aberration $5.00, put/call 1.02, call OI 49.4%), levée règle de disqualification (momentum 5.0/10 > 2), RSI 47.19, volume normalisé 48.6M (0.68×), nouveau 52W low $11.20, consensus PT révisé à la baisse $17.49 (−4.9%), fondamentaux intacts (forward P/E 10.45×, upside +46.1%)
+- **Stop-Loss :** $10.56 (2×ATR)
+- **Statut Thèse :** Score ajusté 55.5 — snapshot 17:00 UTC 08/06 : cours $11.625 (−2.88% vs previous close), **anomalie options JSON RÉSOLUE maintenue** (max pain $12.00, put/call 1.02, call OI 49.4%), dégradation technique modérée (momentum 5.0 → 3.5/10, RSI 47.19 → 42.02), volume effondré 27.26M (0.39×, pas de conviction), support critique $11.20 à +3.8%, fondamentaux intacts (forward P/E 10.15×, upside +50.5%)
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
 
 | Fichier | Date | Type | Verdict |
 |---------|------|------|---------|
+| [NU_2026-06-08_17-00_update.md](NU_2026-06-08_17-00_update.md) | 2026-06-08 | Update 17:00 UTC | ATTENDRE — thèse **CONFIRMÉE**, dégradation technique modérée (cours −2.88%, RSI 42.02, momentum 5.0 → 3.5/10), volume effondré 0.39× (pas de conviction), score global ajusté 59.2 → **55.5** (zone ATTENDRE maintenue), support critique $11.20 à +3.8%, fondamentaux intacts (forward P/E 10.15×, upside +50.5%), SL/TP $10.56/$13.22 |
 | [NU_2026-06-08_13-00_update.md](NU_2026-06-08_13-00_update.md) | 2026-06-08 | Update 13:00 UTC | ATTENDRE — thèse **CONFIRMÉE**, stabilité totale vs snapshot 10h, **anomalie options JSON RÉSOLUE** (max pain $12.00 vs aberration $5.00, put/call 1.02, call OI 49.4%), structure légèrement plus baissière, scores inchangés (Global 67.2, Ajusté 59.2, Opportunité 6.7), SL/TP $10.91/$13.56 |
 | [NU_2026-06-08_update.md](NU_2026-06-08_update.md) | 2026-06-08 | Update quotidienne (snapshot 10:00 UTC) | ATTENDRE — thèse **MODIFIÉE**, levée règle de disqualification (momentum 2.0 → 5.0/10), RSI 47.19 (+12.77 pts), volume normalisé 48.6M (0.68×), consensus PT révisé à la baisse $17.49 (−4.9%, 12 analysts), nouveau 52W low $11.20, scores révisés à la hausse (Global 67.2, Ajusté 59.2, Opportunité 6.7), action ÉVITER → ATTENDRE, SL/TP $10.91/$13.56 |
 | [NU_2026-06-03_update.md](NU_2026-06-03_update.md) | 2026-06-03 | Update quotidienne (snapshot 10:00 UTC) | ÉVITER — thèse **CONFIRMÉE**, stabilité totale vs close 02/06 (cours $11.93 inchangé, RSI 34.42, ATR $0.55, volume révisé 183.3M/2.82×), anomalie options JSON détectée et traitée (max pain $5.00 aberrant → valeur opérationnelle $13.00 conservée), DRAFT_refresh archivé faux positif, scores inchangés ÉVITER 7.0/100, SL/TP $10.83/$13.58 |
@@ -48,4 +49,4 @@ Voir [REFRESH_LOG.md](REFRESH_LOG.md) pour l'historique des déclencheurs.
 
 ## 📝 Résumé de la Thèse
 
-NU est le leader néo-banque latino-américain (Brésil/Mexique/Colombie) avec 100M+ clients, des marges opérationnelles solides (24.4%), un bilan net cash (net debt/EBITDA −2.47×), et une valorisation forward attractive (P/E ~10.5×, upside consensus +46.1%). Le snapshot 13:00 UTC du 08/06 confirme la **stabilité totale** vs 10h et marque la **résolution de l'anomalie options JSON** (max pain $12.00 vs aberration $5.00). Le signal sectoriel reste **`NEUTRAL`** avec XLF top3 momentum 4.0. Les scores sont inchangés : Global **67.2**, Ajusté **59.2**, Opportunité **6.7**, Momentum **5.0**. Les fondamentaux restent intacts (ROIC 16.3%, consensus $17.49, forward P/E 10.45×). Aucune news structurante sur NU. La recommandation **ATTENDRE** est confirmée. SL **$10.91** / TP **$13.56**.
+NU est le leader néo-banque latino-américain (Brésil/Mexique/Colombie) avec 100M+ clients, des marges opérationnelles solides (24.4%), un bilan net cash (net debt/EBITDA −2.47×), et une valorisation forward attractive (P/E ~10.2×, upside consensus +50.5%). Le snapshot 17:00 UTC du 08/06 confirme la thèse **ATTENDRE** avec une **dégradation technique modérée** : cours −2.88% à $11.625, RSI retombe à **42.02**, momentum baisse de 5.0 à **3.5/10**, volume effondré à **0.39×** (pas de conviction). Le score global ajusté passe de 59.2 à **55.5** (−3.7 pts), restant dans la zone ATTENDRE. L'anomalie options JSON reste résolue (max pain $12.00, put/call 1.02, call OI 49.4%). Le signal sectoriel reste **`NEUTRAL`** avec XLF top3 momentum 3.99. Les fondamentaux restent intacts (ROIC 16.3%, consensus $17.49, forward P/E 10.15×). Le support critique $11.20 (52W low) est désormais à seulement +3.8%. Aucune news structurante sur NU. La recommandation **ATTENDRE** est confirmée avec vigilance accrue. SL **$10.56** / TP **$13.22**.

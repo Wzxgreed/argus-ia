@@ -8,11 +8,11 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ATTENDRE
-- **Score Global :** 67.2/100 (ajusté 59.2)
-- **Score Opportunité :** 6.7/10 (C:6.5 V:8.0 M:5.0)
+- **Score Global :** 63.5/100 (ajusté 55.5)
+- **Score Opportunité :** 6.3/10 (C:6.5 V:8.0 M:3.5)
 - **Prix Cible :** $17.49 (consensus FMP, 12 analysts)
-- **Stop-Loss :** $10.91 (2×ATR)
-- **Statut Thèse :** Score ajusté 59.2 — snapshot 13:00 UTC 08/06 : cours $11.97 (−1.24% vs previous close), **anomalie options JSON RÉSOLUE** (max pain $12.00 vs aberration $5.00, put/call 1.02, call OI 49.4%), levée règle de disqualification (momentum 5.0/10 > 2), RSI 47.19, volume normalisé 48.6M (0.68×), nouveau 52W low $11.20, consensus PT révisé à la baisse $17.49 (−4.9%), fondamentaux intacts (forward P/E 10.45×, upside +46.1%)
+- **Stop-Loss :** $10.56 (2×ATR)
+- **Statut Thèse :** Score ajusté 55.5 — snapshot 17:00 UTC 08/06 : cours $11.625 (−2.88% vs previous close), **anomalie options JSON RÉSOLUE maintenue** (max pain $12.00, put/call 1.02, call OI 49.4%), dégradation technique modérée (momentum 5.0 → 3.5/10, RSI 47.19 → 42.02), volume effondré 27.26M (0.39×, pas de conviction), support critique $11.20 à +3.8%, fondamentaux intacts (forward P/E 10.15×, upside +50.5%)
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
@@ -44,11 +44,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 42.48
+- **RSI 14j :** 42.02
 - **MM 50j :** 13.77
 - **MM 200j :** —
 - **ATR 14j :** 0.53
-- **Volume moy. 20j :** 69751689
+- **Volume moy. 20j :** 69939145
 
 ---
 
@@ -56,8 +56,8 @@
 
 - **Date :** 2026-06-08
 - **Type :** update
-- **Fichier :** `NU_2026-06-08_13-00_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité totale, anomalie options résolue, fondamentaux intacts, mais sous MM50 et structure options légèrement baissière)**
+- **Fichier :** `NU_2026-06-08_17-00_update.md`
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (dégradation technique modérée, cours −2.88%, RSI 42.02, momentum 3.5/10, volume effondré 0.39×, score ajusté 55.5, support critique $11.20 à +3.8%, fondamentaux intacts)**
 
 ---
 
