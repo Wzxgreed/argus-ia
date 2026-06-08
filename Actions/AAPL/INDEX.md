@@ -27,16 +27,17 @@ Apple est une entreprise de qualité institutionnelle exceptionnelle (Filtre Qua
 | 2026-06-02 | [AAPL_2026-06-02_update_17h.md](AAPL_2026-06-02_update_17h.md) | Mise à jour snapshot 17:00 UTC (mi-séance) — breakout haussier +2.62% à $314.33, test 52W high $315.00 sur **volume collapse 0.39×**, RSI 75.03 (+4.45 pts), scores révisés à la baisse (Opportunité 4.8, Global ajusté 38.3), SL/TP révisés $303.13/$331.13. Thèse SURVEILLER **modifiée** avec nuance technique négative accrue |
 | 2026-06-03 | [AAPL_2026-06-03_update.md](AAPL_2026-06-03_update.md) | Mise à jour snapshot 10:00 UTC — **stabilité totale** vs close 02/06 (cours $315.20, RSI 75.58, ATR $5.67, volume 0.94× inchangés), anomalie options JSON détectée et traitée (max pain $200.00 aberrant → valeurs opérationnelles $315.00/0.36/73.5% conservées), scores inchangés SURVEILLER 38.3/100, **gamma risk JOUR J** (expiration 2026-06-03). Thèse confirmée |
 | 2026-06-03 | [AAPL_2026-06-03_update_13h.md](AAPL_2026-06-03_update_13h.md) | Mise à jour snapshot 13:00 UTC — **stabilité prix/technique** vs 10h (cours $315.20, RSI 75.58, ATR $5.67 inchangés), **anomalie options JSON CORRIGÉE** (max pain $310.00, P/C 0.62, Call OI 61.9% — structure moins haussière vs 02/06), **gamma risk JOUR J révisé BAISSIER** (max pain $5.20 sous le spot), scores inchangés SURVEILLER 38.3/100. Thèse confirmée avec nuance gamma négative |
+| 2026-06-08 | [AAPL_2026-06-08_update.md](AAPL_2026-06-08_update.md) | Mise à jour snapshot 10:00 UTC — après 5 jours sans snapshot : correction **−2.49%** ($315.20 → $307.34), **nouveau 52W high $316.94** atteint entre temps, **RSI sorti du surachat** (75.58 → 58.28), volume anormal **1.37×** (65.25M), scores révisés à la hausse (Opportunité 5.6, Global ajusté 61.0), recommandation modifiée **SURVEILLER → ACHETER** (Sizing Réduit), timing **Favorable**, SL/TP révisés $295.88/$324.53. Thèse **modifiée positivement** |
 
 ## Agenda
 - **Prochain earnings :** 2026-07-30 (57 jours) — Est EPS $1.83–$1.99, Rev $109.0B
 
 ## Alertes actives
-- 🟡 **Alerte technique :** RSI 75.58 — surachat modéré (stable au-dessus de 70)
-- 🟡 **Alerte volume :** Volume 44.42M (0.94× moyenne 20j) — participation institutionnelle confirmée
-- 🟡 **Alerte valorisation :** Cours $315.20 > Consensus FMP $293.43 (+7.1%)
-- 🔴 **Alerte options gamma baissier :** Max pain révisé $310.00 (vs spot $315.20 = +1.65%), P/C 0.62, Call OI 61.9%. Pinning gamma baissier à expiration 2026-06-03. Pression mécanique vers $310.00
-- 🟡 **Alerte scoring :** Scores agents en zone SURVEILLER (Opportunité 4.8/10, Global ajusté 38.3/100), timing Défavorable
-- 🟡 **Alerte technique :** Support $306.69 (low du 02/06) — cassure = test du SL $303.86
-- 🟡 **Alerte sector rotation :** XLK top performer (momentum 10.0/10, RS20 +16.53%) — signal NEUTRAL
-- 🟢 **Alerte data quality résolue :** Anomalie options JSON du 03/06 10:00 UTC corrigée sur snapshot 13:00 UTC (max pain $310.00, P/C 0.62, Call OI 61.9%)
+- 🟢 **Alerte technique :** RSI 58.28 — zone neutre favorable (sortie surachat complète)
+- 🔴 **Alerte volume :** Volume 65.25M (1.37× moyenne 20j) — distribution anormale à la baisse sur 5 jours
+- 🟡 **Alerte valorisation :** Cours $307.34 > Consensus FMP $293.43 (+4.7%)
+- 🟡 **Alerte options gamma :** Max pain opérationnel $310.00 (vs spot $307.34 = −0.86%), P/C 0.62, Call OI 61.9%. Échéance aujourd'hui 2026-06-08 — pinning gamma modéré
+- 🟢 **Alerte scoring :** Scores agents en zone ACHETER (Opportunité 5.6/10, Global ajusté 61.0/100), timing Favorable
+- 🟡 **Alerte technique :** Support $295.88 (SL agent) — cassure = retour vers MM50 $281.09
+- 🟡 **Alerte sector rotation :** XLK top performer (momentum 10.0/10, RS20 +5.44%) — signal NEUTRAL
+- 🔴 **Alerte anomalie options JSON :** Max pain JSON $250.00 aberrant, P/C et Call OI null — valeurs opérationnelles du 03/06 conservées
