@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ÉVITER
-- **Score Global :** 20.0/100 (ajusté 7.0)
-- **Score Opportunité :** 2.0/10 (C:6.5 V:8.0 M:2.0)
-- **Prix Cible :** $18.39 (consensus FMP, 10 analysts)
-- **Stop-Loss :** $10.83 (2×ATR)
-- **Statut Thèse :** Score ajusté 7.0 — snapshot 21:00 UTC 02/06 : cours $11.93 (−8.16% vs previous close), **déclenchement règle de disqualification** (momentum 2.0/10 ≤ 2), liquidation after-hours 171.8M (2.67×), nouveau 52W low intraday $11.44, RSI 34.42, ATR $0.55, signal sectoriel **NEUTRAL**, options inchangées (max pain $13.00, put/call 0.94, call OI 51.6%), timing défavorable, fondamentaux intacts (forward P/E 10.26×, upside +54.2%)
+- **Recommandation :** ATTENDRE
+- **Score Global :** 67.2/100 (ajusté 59.2)
+- **Score Opportunité :** 6.7/10 (C:6.5 V:8.0 M:5.0)
+- **Prix Cible :** $17.49 (consensus FMP, 12 analysts)
+- **Stop-Loss :** $10.91 (2×ATR)
+- **Statut Thèse :** Score ajusté 59.2 — snapshot 10:00 UTC 08/06 : cours $11.97 (−1.24% vs previous close), **levée règle de disqualification** (momentum 5.0/10 > 2), RSI 47.19 (+12.77 pts), volume normalisé 48.6M (0.68×), nouveau 52W low $11.20, consensus PT révisé à la baisse $17.49 (−4.9%), fondamentaux intacts (forward P/E 10.45×, upside +46.1%)
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
@@ -49,15 +49,18 @@
 - **MM 200j :** —
 - **ATR 14j :** 0.53
 - **Volume moy. 20j :** 71120505
+- **52W low :** $11.20
+- **52W high :** $18.98
+- **Forward P/E :** 10.45×
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-03
+- **Date :** 2026-06-08
 - **Type :** update
-- **Fichier :** `NU_2026-06-03_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ÉVITER (stabilité totale vs close 02/06, règle de disqualification momentum ≤ 2
+- **Fichier :** `NU_2026-06-08_update.md`
+- **Conclusion :** **Thèse : MODIFIÉE — ATTENDRE (levée règle de disqualification, RSI remonté 47.19, volume normalisé, fondamentaux intacts, mais sous MM50 et nouveau 52W low $11.20)
 
 ---
 
