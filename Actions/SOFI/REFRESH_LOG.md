@@ -864,3 +864,21 @@
 - **Action :** DRAFT_refresh archivé (`_DRAFT_refresh_2026-06-08_ARCHIVED.md`). La mise à jour `SOFI_2026-06-08_update.md` est à jour et intègre la correction options.
 
 ---
+
+## 2026-06-08 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.82% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-08 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.84% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

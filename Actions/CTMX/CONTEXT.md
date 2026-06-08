@@ -1,6 +1,6 @@
 # CONTEXT — CTMX — Dernière mise à jour : 2026-06-08
 
-> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l’historique.
+> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
 
 ---
@@ -36,33 +36,23 @@
 
 ## 🚨 Alertes actives
 
-- 🔴 **Cours $3.00** — jambe de baisse confirmée, support $3.14 cassé
-- 🔴 **Low $2.98** — support immédiat, ligne de défense clé
-- 🔴 RSI 29.53 — survente maintenue sans rebond significatif
-- 🔴 Short interest 16.23% — accumulation shorts confirmée
-- 🔴 Cours sous MM50 ($4.09) avec écart −26.6%
-- 🔴 Score Global Ajusté 52.5/100 — reste sous seuil institutionnel (60) pour achat
-- 🟢 Options — anomalie JSON RÉSOLUE (max pain $4.00, put/call 0.96, call OI 51.0% rétablis)
-- 🟡 XLV momentum 4.41 — amélioration sectorielle marginale
-- [WARNING] Biotech pré-revenue — scoring standard peu fiable
-- [INFO] Earnings confirmé le 2026-08-06 (J+59)
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-08-06** · earnings · Est EPS $−0.13 à $−0.07, Rev $0.0B (J+59)
-- **Catalyseurs potentiels** · CX-2029 / CX-904 · Data readout / updates partenariats AbbVie/BMS
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 29.53
-- **MM 50j :** 4.09
+- **RSI 14j :** 30.45
+- **MM 50j :** 4.06
 - **MM 200j :** —
 - **ATR 14j :** 0.19
-- **Volume moy. 20j :** 3492020
+- **Volume moy. 20j :** 3291545
 
 ---
 
@@ -71,7 +61,7 @@
 - **Date :** 2026-06-08
 - **Type :** update
 - **Fichier :** `CTMX_2026-06-08_update.md`
-- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — ATTENDRE (CONFIRMÉE)** — stabilité totale vs 10h, anomalie options JSON RÉSOLUE
+- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — ATTENDRE (CONFIRMÉE)**
 
 ---
 

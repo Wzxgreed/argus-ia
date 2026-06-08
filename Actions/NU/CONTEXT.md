@@ -44,11 +44,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 47.19
-- **MM 50j :** 13.82
+- **RSI 14j :** 42.48
+- **MM 50j :** 13.77
 - **MM 200j :** —
 - **ATR 14j :** 0.53
-- **Volume moy. 20j :** 71120505
+- **Volume moy. 20j :** 69751689
 
 ---
 
@@ -57,7 +57,7 @@
 - **Date :** 2026-06-08
 - **Type :** update
 - **Fichier :** `NU_2026-06-08_13-00_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité totale vs snapshot 10h, anomalie options JSON RÉSOLUE, fondamentaux intacts, mais sous MM50 et structure options légèrement baissière)**
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité totale, anomalie options résolue, fondamentaux intacts, mais sous MM50 et structure options légèrement baissière)**
 
 ---
 

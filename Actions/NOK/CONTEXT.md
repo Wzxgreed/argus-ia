@@ -19,10 +19,10 @@ Snapshot 13h UTC : cours **$14.38** (−13.48% vs previous close $16.62), volume
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 48.0/100
+- **Score global :** —/10
 - **Prix cible :** $10.8
 - **Stop-loss :** $12.12
-- **Statut thèse :** confirmée
+- **Statut thèse :** validée
 - **Horizon :** —
 
 ---
@@ -35,8 +35,8 @@ Snapshot 13h UTC : cours **$14.38** (−13.48% vs previous close $16.62), volume
 
 ## 🚨 Alertes actives
 
-- Baisse — $12.12 (SL 2×ATR) — 🟢 Active
-- Hausse — $10.8 (consensus) — 🔴 Déjà au-dessus
+- Baisse — $12.03 (SL 2×ATR) — 🟢 Active
+- Hausse — $9.26 (consensus) — 🔴 Déjà au-dessus
 - Volume — >2× moy. 20j (>249M) — 🟢 Active
 
 ---
@@ -49,30 +49,26 @@ Snapshot 13h UTC : cours **$14.38** (−13.48% vs previous close $16.62), volume
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 52.32
-- **MM 50j :** 12.16
+- **RSI 14j :** 55.82
+- **MM 50j :** 12.29
 - **MM 200j :** —
-- **ATR 14j :** 1.13
-- **Volume moy. 20j :** 125239520
-- **Max pain options :** 15.00
-- **Put/Call ratio :** 1.00
-- **Call OI % :** 49.9%
+- **ATR 14j :** 1.11
+- **Volume moy. 20j :** 123785877
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-08
-- **Type :** update (snapshot 13:00 UTC)
-- **Fichier :** `NOK_2026-06-08_update.md`
-- **Conclusion :** Données prix inchangées vs 10:00. Données options restaurées (max pain $15.00, put/call 1.00, call OI 49.9%). Cours sous le max pain (−4.1%). DRAFT_refresh traité (triggers PRICE_GAP/ATR_SPIKE confirmés). Thèse SURVEILLER confirmée. Pas de position.
+- **Type :** full refresh
+- **Fichier :** `_NOK_2026-06-08_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-08
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (high) — Gap -13.48% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 7.86% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 7.51% (seuil 5.0%)
 
 ---
 

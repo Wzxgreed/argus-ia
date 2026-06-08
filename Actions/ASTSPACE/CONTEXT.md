@@ -49,7 +49,7 @@
 - **Date :** 2026-06-08
 - **Type :** update
 - **Fichier :** `ASTSPACE_2026-06-08_update.md`
-- **Conclusion :** > **Stabilité totale proxy ASTS $93,60** vs snapshot 10h UTC. RSI **54,36** stable (zone neutre). Volume **0,87×** stable. **Anomalie options JSON RÉSOLUE** : max pain **$120,00** (cohérent), put/call **0,70**, call OI **59,0%** — positionnement options haussier confirmé. Divergence consensus **résorbée −1,0%** stable. Score global ajusté proxy **53,5/100 (ATTENDRE)**. Thèse proxy **ATTENDRE confirmée**. Timing **FAVORABLE**. ASTSPACE officiel toujours `No price history` (38+ snapshots).
+- **Conclusion :** > **Proxy ASTS Close $93,60** : **stabilité totale** vs snapshot 10h UTC ($93,60). Range intraday inchangé $90,91–$104,49. RSI **54,36** (stable). Volume **0,87×** (23,90M vs moy. 27,50M) — inchangé. 
 
 ---
 

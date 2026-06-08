@@ -9,31 +9,33 @@
 
 ## Thèse Courante
 
-IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot 2026-06-08 confirme une **correction majeure de −18.4%** vs le close du 2026-06-03 ($66.60 → $54.35), probablement driven par la corrélation BTC (beta 2.1) et/ou un mouvement technique de consolidation post-rallye ($8.70 → $76.87). Le gap down overnight de −12.14% ($61.86 → $59.31) a été suivi d'un rejet intraday ($51.04) et d'un rebond partiel en clôture ($54.35).
+IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot 2026-06-08 (17h UTC) confirme un **rebond de +7.68%** en séance ($54.35 → $58.525), partiellement comblant le gap down du matin ($61.86 → $54.35). Le rejet du low intraday $51.04 (snapshot 10h) s'est confirmé en clôture à $58.525, proche du high $58.99.
 
-**🟢 Point d'entrée technique favorable :** Le RSI retourne dans la zone neutre (**51.49**) et le cours évolue **+8.9% au-dessus de la MM50 ($49.89)**, contre +36.6% précédemment. Le rapport risque/rendement s'améliore mécaniquement.
+**🟢 Momentum technique favorable :** Le RSI remonte à **58.22** (zone neutre-haute) et le cours évolue **+16.3% au-dessus de la MM50 ($50.31)**. Le support dynamique est intact et renforcé.
 
-**🟢 Consensus PT révisé à la hausse :** **$69.12 (26 analysts)** — upside de **+27.2%** vs cours $54.35. Le consensus s'est renforcé malgré la baisse (+3 analysts vs 23 précédemment).
+**🟢 Consensus PT stable :** **$69.12 (26 analysts)** — upside de **+18.1%** vs cours $58.525. Le consensus reste ancré malgré la volatilité.
 
-**🟡 Valorisation mécaniquement améliorée :** P/E TTM **70.58×** (−15.9 pts), EV/EBITDA **143.88×** (−29.7 pts), P/B **6.96×** (−1.84 pts). Restent élevés mais moins extrêmes.
+**🟡 Valorisation mécaniquement dégradée par le rebond :** P/E TTM **76.01×** (+5.4 pts), EV/EBITDA **143.88×** (inchangé), P/B **7.49×** (+0.53 pt). Les multiples retournent à des niveaux élevés.
 
-**🔴 Forward P/E négatif :** **−57.82×** — profitabilité attendue toujours éloignée. FCF négatif (yield −36%).
+**🔴 Forward P/E négatif :** **−62.26×** — profitabilité attendue éloignée, détérioration vs −57.82×. FCF négatif (yield −36%).
 
-**🔴 Volatilité extrême :** Beta **4.232**, ATR **$5.63** (ATR relatif 10.36%). Sizing réduit obligatoire (max 5% portefeuille).
+**🔴 Volume faible sur le rebond :** 22.43 M = **0.41× moyenne 20j** — manque de conviction institutionnelle. Le rebond est technique, non confirmé par le volume.
+
+**🔴 Volatilité extrême :** Beta **4.232**, ATR **$5.63** (ATR relatif 9.62%). Sizing réduit obligatoire (max 5% portefeuille).
 
 **🔴 Corrélation BTC :** Corrélation 30j **0.82**, beta BTC **2.1** — le pivot IA n'est pas encore pricé comme découplage. Toute position IREN reste un pari implicite sur BTC.
 
+**⚠️ Défiance options record persistante :** Put/call **3.95** (record historique), call OI **20.2%** (puts 79.8%). Le marché s'hedge massivement malgré le rebond — signal contrarian fort ou anticipation de mauvaises nouvelles.
+
 **⚠️ Short Interest stable :** 14.72% — fuel squeeze présent mais non activé.
 
-**⚠️ Anomalies options :** Max Pain **$20.00** suspect (pattern historique de corrections d'anomalies), put/call et call OI indisponibles au snapshot.
+**Earnings Q1 2026** : résultats toujours non intégrés dans les feeds Yahoo/FMP au 2026-06-08 (14 jours après le J0 annoncé). Prochain earnings Q2 2026 : **2026-08-27** (80 jours).
 
-**Earnings Q1 2026** : résultats toujours non intégrés dans les feeds Yahoo/FMP au 2026-06-08. Prochain earnings Q2 2026 : **2026-08-27** (80 jours).
-
-**Score Opportunité : 5.7/10** (Catalyseur 6.8, Valorisation 4.5, Momentum 6.0)
+**Score Opportunité : 5.7/10** (Catalyseur 6.3, Valorisation 4.0, Momentum 7.5)
 **Score Global ajusté : 61.8/100**
-**Action : ACHETER (Sizing Réduit)** — risque/rendement redevenu favorable à l'entrée (upside +27.2% vs consensus, SL $43.09, TP $71.24, R/R 1.5)
+**Action : ACHETER (Sizing Réduit)** — rebond technique confirmé, mais volume faible et défiance options record imposent la prudence (SL $47.27, TP $75.41, R/R 1.5)
 
-> **⚠️ Réserve earnings :** Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds (FY 2025 uniquement). Sizing réduit obligatoire (beta 4.232, ATR 10.36%). Surveiller BTC ($78,143) — seuil critique $75k. Si le cours casse $49.89 (MM50) sans rebond → réviser la position. Si le cours casse $46.00 (low 19/05) → passer en SURVEILLER. Si le cours casse $43.09 (SL 2×ATR) → stopper la position. Premier objectif : gap fill $59.31.
+> **⚠️ Réserve earnings :** Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds (FY 2025 uniquement). Sizing réduit obligatoire (beta 4.232, ATR 9.62%). Surveiller BTC ($78,143) — seuil critique $75k. Si le cours casse $50.31 (MM50) sans rebond → réviser la position. Si le cours casse $46.00 (low 19/05) → passer en SURVEILLER. Si le cours casse $47.27 (SL 2×ATR) → stopper la position. Premier objectif : gap fill $59.31 (avec volume confirmé).
 
 ---
 
