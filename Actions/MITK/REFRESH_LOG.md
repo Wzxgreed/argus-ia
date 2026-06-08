@@ -1,5 +1,22 @@
 # MITK — Historique des Full Refreshes
 
+## 2026-06-08 — Full Refresh Traité (Snapshot 10:00 UTC)
+
+**Triggers :**
+- price_gap (medium) : Gap -6.47% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 5.98% (seuil 5.0%)
+
+**Conclusion :** MODIFIE — la thèse précédente (SURVEILLER, Score Global 36.5/100) est modifiée en ACHETER (Sizing Réduit, Score Global 65.2/100). Données snapshot 10:00 UTC : close $14.89 (−15.3% vs 03/06, −6.47% vs previous close $15.92), RSI 54.17 (−17.6 pts, sorti du surachat sévère), ATR $0.89 (+4.7%), volume 1,481,300 (1.13× moyenne 20j, retour au-dessus de la moyenne après 0.719× le 03/06), MM50 $14.79 (+0.7% vs spot). Forward P/E 12.27x (was 14.47x), spot sous consensus PT $16.00 (upside +7.5% rétabli). Aucune news négative, aucun événement corporate, aucun downgrade — le repli est purement technique (prise de bénéfices post-52w-high $17.97). Structure options haussière inchangée (max pain opérationnel $20.00, put/call 0.22, call OI 81.8%). Anomalie JSON persistante ($2.50) conservée avec valeurs opérationnelles. Timing passe de Défavorable à Favorable. SL révisé $13.11, TP $17.56, R/R 1.5.
+
+**Fichiers produits :**
+- `Actions/MITK/MITK_2026-06-08_update.md` — Mise à jour post-full-refresh
+- `Actions/MITK/INDEX.md` — Thèse courante mise à jour
+- `Actions/MITK/CONTEXT.md` — Mémoire court terme mise à jour
+
+**DRAFT archivé :** `MITK_2026-06-08_DRAFT_refresh.md` → supprimé après traitement
+
+---
+
 ## 2026-05-27 — Full Refresh Traité (Snapshot 13:00 UTC)
 
 **Triggers :**

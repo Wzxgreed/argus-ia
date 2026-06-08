@@ -1644,13 +1644,13 @@
 
 ---
 
-## 2026-06-08 — Full Refresh Triggered
+## 2026-06-08 — Full Refresh Résolu (Snapshot 10:00 UTC)
 
 **Triggers :**
 - price_gap (medium) : Gap -6.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.55% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Thèse CONFIRMÉE ET RENFORCÉE (ATTENDRE). Snapshot 10:00 UTC enregistre une détérioration technique majeure : gap -6.10% overnight, close $9.54 (−11.0% inter-snapshot vs 03/06), RSI 49.4 (−9.2 pts), spot sous MM50 creusé à −12.96% (vs −3.3%), volume de liquidation 1.28M (1.02× moyenne 20j), ATR $0.72 (+10.8%). Scoring agent inchangé ATTENDRE 58.0/100. Divergence Yahoo/FMP persistante ($280.8M vs ~$3.27B — ×11.6). Score Qualité 1/6 confirmé (patrimoine net négatif −$398.9M, ROIC −2.1%). Anomalie options JSON persistante (max pain $3.00 aberrant, put/call null, call OI null) avec nouvelle échéance 2026-06-12 — valeurs opérationnelles historiques non applicables. Earnings Q1 J=0 non résolu après plus de 2 semaines. DRAFT_refresh.md archivé (`FUBO_2026-06-08_DRAFT_refresh.md` → `FUBO_2026-06-08_DRAFT_refresh_ARCHIVED.md`). Analyse update rédigée sous `FUBO_2026-06-08_update.md`. Pas de position longue recommandée.
 
 ---
 
