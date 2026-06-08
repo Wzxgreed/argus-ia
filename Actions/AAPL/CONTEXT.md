@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
-- **Horizon :** —
+- **Recommandation :** ACHETER (Sizing Réduit)
+- **Score global :** 61.0/100 (ajusté)
+- **Prix cible :** $324.53 (TP = cours + 3×ATR)
+- **Stop-loss :** $295.88 (SL = cours − 2×ATR)
+- **Statut thèse :** confirmée avec nuance options haussière
+- **Horizon :** 1–3 mois (jusqu'à earnings Q3 FY2026 le 2026-07-30)
 
 ---
 
@@ -24,13 +24,21 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🟢 **Alerte technique :** RSI 58.28 — zone neutre favorable (sortie surachat complète)
+- 🔴 **Alerte volume :** Volume 65.25M (1.37× moyenne 20j) — distribution anormale à la baisse sur 5 jours
+- 🟡 **Alerte valorisation :** Cours $307.34 > Consensus FMP $293.43 (+4.7%)
+- 🟢 **Alerte options :** Max pain corrigé $330.00 (vs spot $307.34 = +7.4%), P/C 0.42, Call OI 70.6%. Échéance aujourd'hui 2026-06-08 — call wall et gamma risk haussier
+- 🟢 **Alerte scoring :** Scores agents en zone ACHETER (Opportunité 5.6/10, Global ajusté 61.0/100), timing Favorable
+- 🟡 **Alerte technique :** Support $295.88 (SL agent) — cassure = retour vers MM50 $281.09
+- 🟡 **Alerte sector rotation :** XLK top performer (momentum 10.0/10, RS20 +5.44%) — signal NEUTRAL
+- 🟢 **Alerte qualité :** Filtre Qualité 6/6 ✅ Quality Compounder
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q3 FY2026 :** 2026-07-30 (52 jours) — Est. EPS $1.83–$1.99, Rev $109.0B
+- **Expiration options :** 2026-06-08 (aujourd'hui)
 
 ---
 
@@ -41,15 +49,18 @@
 - **MM 200j :** —
 - **ATR 14j :** 5.73
 - **Volume moy. 20j :** 47808380
+- **Volume jour :** 65246700 (1.37×)
+- **52W high :** 316.94
+- **52W low :** 195.07
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-08
-- **Type :** update
+- **Type :** update (snapshot 13:00 UTC)
 - **Fichier :** `AAPL_2026-06-08_update.md`
-- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-08 10:00 UTC) + agents quant, geo, accounting, sector, social, FX, watchman, events, recommandation
+- **Conclusion :** Thèse ACHETER (Sizing Réduit) confirmée. Anomalie options JSON résolue : max pain $330.00 (+7.4%), P/C 0.42, Call OI 70.6% — structure plus haussière que prévu. Cours/technique inchangés ($307.34, RSI 58.28, ATR $5.73). Surveillance du call wall $330.00 à l'expiration.
 
 ---
 
