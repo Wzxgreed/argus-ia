@@ -28,26 +28,27 @@
 | 2026-06-02 21:00 UTC | Mise a jour | [AAL_2026-06-02_update.md](./AAL_2026-06-02_update.md) | **Snapshot 21:00 UTC** : stabilite $13.93 (-0.21% vs 17h), volume total **49.13M** (+116% vs 17h grace aux after-hours). Support $14.00 **non recupere**. RSI 63.42 (stable). XLI RS20 vs SPY **-3.91%** (amelioration marginale). Options inchangées. **These SURVEILLER CONFIRMEE** — volume after-hours compensateur mais sans rebond de prix. SL $12.71, TP $15.76, R/R 1.5. |
 | 2026-06-03 13:00 UTC | Mise a jour | [AAL_2026-06-03_update.md](./AAL_2026-06-03_update.md) | **Snapshot 13:00 UTC** : stabilité totale vs 02/06 21h — cours $13.93 inchangé, RSI 63.42, volume 49.41M (-26.4% vs moyenne). **Anomalie options corrompues RÉSOLUE** : Put/Call 1.42 (vs 1.46), Max Pain $15.50, Call OI 41.3% (vs 40.7%). Earnings dans 50 jours. Score agent 6.0/10 (ACHETER sizing réduit), verdict institutionnel **SURVEILLER CONFIRME**. SL $12.71, TP $15.76, R/R 1.5. |
 | 2026-06-08 13:00 UTC | Mise a jour | [AAL_2026-06-08_update.md](./AAL_2026-06-08_update.md) | **Snapshot 13:00 UTC** : stabilité totale vs 10:00 UTC — cours $13.50 inchangé, RSI 61.83, volume 105.99M. **Anomalie options CORRIGÉE** : Put/Call 1.92, Max Pain $13.00, Call OI 34.2% (vs corrompu 10h). **Setup options DÉGRADÉ vs 03/06** (Put/Call 1.42→1.92, Max Pain $15.50→$13.00, Call OI 41.3%→34.2%). Risque gamma J-4 élevé. Score agent **6.1/10**, Global ajusté **66.0/100**. These **ACHETER (Sizing Reduit) CONFIRMEE avec vigilance accrue**. SL $12.20, TP $15.45, R/R 1.5. |
+| 2026-06-08 17:00 UTC | Mise a jour | [AAL_2026-06-08_update.md](./AAL_2026-06-08_update.md) | **Snapshot 17:00 UTC** : rebond technique +1.37% a $13.685, RSI 62.83, ATR $0.63, MM50 $12.40. **CORRECTION VOLUME MAJEURE** : le volume 105.99M du snapshot 13h etait une anomalie data quality. Volume reel 51.15M (-26.6% vs moyenne) = signal accumulation INVALIDE. Options stables (Put/Call 1.92, Max Pain $13.00, Call OI 34.2%). Score agent 6.1/10, Global ajuste 66.0/100. These **ACHETER (Sizing Reduit) CONFIRMEE avec vigilance, accumulation INVALIDEE**. SL $12.43, TP $15.58, R/R 1.5. |
 
 ---
 
 ## Thèse d'investissement courante
 
 **Recommandation :** ACHETER (Sizing Réduit)  
-**Prix cible :** $15.45 (cours + 3×ATR) / Reviser a $16.60 si consensus confirme sur volume > 80M  
-**Stop-loss :** $12.20 (cours - 2×ATR, confluence MM50 + ancien gap)  
-**Upside/Downside :** +14.4% / -9.6%  
-**Derniere mise a jour :** 2026-06-08 (snapshot 10:00 UTC)
+**Prix cible :** $15.58 (cours + 3×ATR) / Reviser a $16.60 si consensus confirme sur volume > 70M  
+**Stop-loss :** $12.43 (cours - 2×ATR, confluence MM50 + ancien gap)  
+**Upside/Downside :** +13.9% / -9.1%  
+**Derniere mise a jour :** 2026-06-08 (snapshot 17:00 UTC)
 
-American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). Le rally du 20–27/05 a matérialise **+24.3%** ($12.06 → $14.99). Le repli post-rally s'est poursuivi jusqu'a **$13.50 (05/06)** sur un **volume explosif de 105.99M (+51.3% vs moyenne)**. Ce recul de −3.1% sur deux seances combine a un volume en explosion cree un setup d'accumulation contrarian renouvele. Le Forward P/E est tombe a **6.06** (asymetrie renforcee). Le RSI est en detente a **61.83**. La MM50 monte a **$12.34** (cours +9.4%). Le RS20 XLI vs SPY s'est considerablement ameliore a **−0.71%** (vs −3.91%). Le score agent est remonte a **6.1/10** et le score global ajuste a **66.0/100**, reactivant la these **ACHETER (Sizing Reduit)**. **⚠️ Anomalie data quality options RECURRENTE** dans `data/latest.json` 08/06 (Max Pain $5.00 aberrant, Put/Call null) — utiliser le snapshot 13h 03/06 comme reference (Max Pain $15.50, Put/Call 1.42, Call OI 41.3%).
+American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). Le rally du 20–27/05 a matérialise **+24.3%** ($12.06 → $14.99). Le repli post-rally s'est poursuivi jusqu'a **$13.50 (05/06)**. Un rebond technique de +1.37% a **$13.685** s'est produit sur la session du 08/06, mais sur un **volume faible de 51.15M (−26.6% vs moyenne)**. **⚠️ CORRECTION : le volume de 105.99M rapporte a 13h etait une anomalie data quality.** Le rebond sans volume n'est pas un signal d'accumulation. Le Forward P/E est a **6.14** (asymetrie intacte). Le RSI est en detente a **62.83**. La MM50 monte a **$12.40** (cours +10.4%). Le RS20 XLI vs SPY s'est considerablement ameliore a **−0.11%** (vs −3.91%). Le score agent est a **6.1/10** et le score global ajuste a **66.0/100**, maintenant la these **ACHETER (Sizing Reduit)**. Cependant, le signal d'accumulation contrarian est **INVALIDE** suite a la correction volume.
 
-**Donnees options (dernier snapshot valide : 13h UTC 03/06)** : Put/Call **1.42** (vs 1.46), Max Pain **$15.50**, Call OI **41.3%** (vs 40.7%). L'expiration du 12/06 (dans 4 jours) reste un catalyseur technique potentiel. **⚠️ Anomalie data quality options RECURRENTE dans latest.json 08/06** (Max Pain $5.00 aberrant, Put/Call null, Call OI null).
+**Donnees options (snapshot 17h UTC 08/06)** : Put/Call **1.92**, Max Pain **$13.00**, Call OI **34.2%**. L'expiration du 12/06 (dans 4 jours) reste un risque gamma. Le setup options est dégradé vs 03/06 (Put/Call 1.42, Max Pain $15.50, Call OI 41.3%).
 
-**Sector rotation NEUTRAL ameliore** : Signal **NEUTRAL** mais avec amelioration significative du RS20 XLI vs SPY **−0.71%** (vs −3.91%). XLI return 20d **+0.10%**, momentum score **2.05** (vs 0.0). La sous-performance sectorielle s'est considerablement reduite.
+**Sector rotation NEUTRAL ameliore** : Signal **NEUTRAL** mais avec amelioration significative du RS20 XLI vs SPY **−0.11%** (vs −3.91%). XLI return 20d **+0.44%**, momentum score **2.5** (vs 0.0). La sous-performance sectorielle s'est considerablement reduite.
 
-**Verdict institutionnel :** La these tactique passe de **SURVEILLER → ACHETER (Sizing Reduit)**. Le recul a $13.50 sur un **volume explosif de +51.3%** est interprete comme un signal d'accumulation potentiel. Le Forward P/E 6.06 est un niveau rare pour une legacy airline. Cependant, le support **$14.00 reste casse** depuis le 02/06 et le bilan est toujours extremement fragile (current ratio 0.50, tangible asset value negatif). Le sizing reduit est imperatif. **Un retour au-dessus de $14.00 sur volume > 80M confirmerait l'accumulation.** Si le volume du 05/06 etait de la distribution (et non de l'accumulation), le support $13.20 cedera rapidement. AAdvantage (programme loyalty) reste le hidden asset (~$20-25B > market cap).
+**Verdict institutionnel :** La these tactique **ACHETER (Sizing Reduit)** est maintenue. Le Forward P/E 6.14 est un niveau rare pour une legacy airline. Cependant, le support **$14.00 reste casse** depuis le 02/06, le bilan est toujours extremement fragile (current ratio 0.50, tangible asset value negatif), et le **signal d'accumulation volumique est INVALIDE** (volume reel −26.6%). Le sizing reduit est imperatif. **Un retour au-dessus de $14.00 sur volume > 70M confirmerait l'accumulation.** Si le volume reste faible sous $14.00, le support $13.20 cedera rapidement. AAdvantage (programme loyalty) reste le hidden asset (~$20-25B > market cap).
 
-**✅ Donnees completes** — Cours, RSI, ATR, P/E, beta, consensus FMP, short interest, volume disponibles dans `data/2026-06-08.json` (snapshot 10:00 UTC). Options corrompues — utiliser snapshot 13h 03/06 comme reference.  
+**✅ Donnees completes** — Cours, RSI, ATR, P/E, beta, consensus FMP, short interest, volume disponibles dans `data/2026-06-08.json` (snapshot 17:00 UTC).  
 **⚠️ Donnees partielles** — Accounting risk (M-Score, Z-Score, F-Score, Sloan) : fichier indisponible. Quant report insuffisant. MACD, MM200, IV Rank, insider trades detailles, 13F complets, ETF flows, dark pool, transcripts NLP, job postings.
 
 ---
@@ -64,7 +65,7 @@ American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) a
 
 | Date | Evenement |
 |------|-----------|
-| 2026-06-12 | Expiration options (Max Pain $15.50, dernier snapshot valide) — risque gamma |
+| 2026-06-12 | Expiration options (Max Pain $13.00) — risque gamma J-4 |
 | 2026-07-23 | Earnings Q2 FY2026 — Est EPS -$0.34 a $0.52, Rev $16.6B |
 | 2026-06-XX | Decision Fed — impact taux sur cout de la dette |
 

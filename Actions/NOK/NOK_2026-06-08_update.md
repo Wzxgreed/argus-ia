@@ -1,25 +1,27 @@
-# NOK — Mise à jour quotidienne (Snapshot 13:00 UTC)
+# NOK — Mise à jour quotidienne (Snapshot 17:00 UTC)
 
 > **Date :** 2026-06-08
-> **Type :** Update post-gap — confirmation thèse
-> **Fichier précédent :** [NOK_2026-06-08_update.md](./NOK_2026-06-08_update.md) (snapshot 10:00 UTC)
+> **Type :** Update — révision technique post-session US
+> **Fichier précédent :** [NOK_2026-06-08_update.md](./NOK_2026-06-08_update.md) (snapshot 13:00 UTC)
 
 ---
 
 ## 1. Résumé des changements
 
-| Métrique | 2026-06-08 10:00 UTC | 2026-06-08 13:00 UTC | Δ |
+| Métrique | 2026-06-08 13:00 UTC | 2026-06-08 17:00 UTC | Δ |
 |----------|----------------------|----------------------|---|
-| **Cours close** | $14.38 | **$14.38** | — |
-| **RSI 14j** | 52.32 | **52.32** | — |
-| **Volume** | 183.6M | **183.6M** | — |
-| **Max pain options** | $3.00 (corrompu) | **$15.00** | ✅ Restauré |
-| **Put/Call ratio** | null (corrompu) | **1.00** | ✅ Restauré |
-| **Call OI %** | null (corrompu) | **49.9%** | ✅ Restauré |
-| **Score Global ajusté** | 48.0 — SURVEILLER | **48.0 — SURVEILLER** | — |
-| **Recommandation** | SURVEILLER | **SURVEILLER** | Confirmée |
+| **Cours close** | $14.38 | **$14.775** | +2.75% |
+| **RSI 14j** | 52.32 | **55.47** | +3.15 |
+| **Volume session** | 183.6M (1.47×) | **76.2M (0.61×)** | Révisé |
+| **ATR 14j** | $1.13 | **$1.11** | −$0.02 |
+| **MM 50j** | $12.16 | **$12.29** | +$0.13 |
+| **Max pain options** | $15.00 | **$15.00** | — |
+| **Put/Call ratio** | 1.00 | **1.00** | — |
+| **Call OI %** | 49.9% | **49.9%** | — |
+| **Score Global ajusté** | 48.0 — SURVEILLER | **51.2 — ATTENDRE** | +3.2 |
+| **Recommandation** | SURVEILLER | **ATTENDRE** | Upgrade mécanique |
 
-**Verdict :** Données de prix/volume/technique **strictement inchangées** vs snapshot 10:00 UTC (même source `data/2026-06-08.json`, fetched_at 13:00). **Mutation options majeure** : les données corrompues du matin (max pain $3.00, put/call null) sont intégralement restaurées dans `latest.json` : max pain **$15.00**, put/call **1.00**, call OI **49.9%**, expiration **2026-06-12**. Le cours ($14.38) passe **sous le max pain** (−4.1%) pour la première fois depuis le 25/05, inversant la dynamique options. Aucun événement corporate (`events_latest.json` vide). Le **DRAFT_refresh** déclenché par PRICE_GAP (−13.48%) et ATR_SPIKE (7.86%) est traité : la thèse SURVEILLER est confirmée, pas invalidée.
+**Verdict :** Le cours rebondit de +2.75% en fin de session US, portant le close à **$14.775** et ramenant le RSI dans le haut de la zone neutre (55.47). Le volume est révisé à la baisse dans `latest.json` (76.2M, 0.61× moy. 20j), signalant une participation institutionnelle modérée sur ce rebond. Les données options restent inchangées (max pain $15.00, put/call 1.00, expiration 2026-06-12). Le **Score Global ajusté** passe à **51.2/100**, franchissant le seuil ATTENDRE (50–59), ce qui constitue un upgrade mécanique post-rebond. Aucun événement corporate (`events_latest.json` vide pour NOK). Aucune mutation fondamentale.
 
 ---
 
@@ -27,40 +29,42 @@
 
 | Métrique | Valeur | Source |
 |----------|--------|--------|
-| Open | $15.66 | Yahoo Finance |
-| High | $15.67 | Yahoo Finance |
-| Low | $14.00 | Yahoo Finance |
-| Close | $14.38 | Yahoo Finance |
-| Change vs previous close | **−13.48%** | Yahoo Finance |
-| Volume | 183,595,200 | Yahoo Finance |
-| Volume vs moy. 20j | **1.47×** | Calcul (125.2M) |
-| RSI 14j | **52.32** | Calcul agent |
-| ATR 14j | **$1.13** | Calcul agent |
-| MM 50j | **$12.16** | Calcul agent |
+| Open | $14.86 | Yahoo Finance |
+| High | $15.06 | Yahoo Finance |
+| Low | $14.445 | Yahoo Finance |
+| Close | **$14.775** | Yahoo Finance |
+| Change vs previous close | **+2.75%** | Yahoo Finance |
+| Volume | 76,155,361 | Yahoo Finance |
+| Volume vs moy. 20j | **0.61×** | Calcul (124.2M) |
+| RSI 14j | **55.47** | Calcul agent |
+| ATR 14j | **$1.11** | Calcul agent |
+| MM 50j | **$12.29** | Calcul agent |
 | MM 200j | — | N/A |
 
 **Niveaux clés révisés :**
-- Support immédiat : **$14.00** (low du jour) — si cassé, prochain support structurel **$12.16** (MM50)
-- Résistance : **$15.47** (base du gap haussier du 25/05)
-- Stop-loss ATR (2×) : **$12.12** ($14.38 − $2.26)
-- Take-profit ATR (3×) : **$17.77** ($14.38 + $3.39)
-- Ratio R/R : **1.5x**
+- Support immédiat : **$14.445** (low du jour)
+- Support structurel : **$12.29** (MM50)
+- Résistance : **$15.00** (max pain options) / **$15.06** (high du jour)
+- Résistance gap : **$15.47** (base du gap haussier du 25/05, non comblé)
+- Stop-loss ATR (2×) : **$12.56** ($14.775 − $2.22)
+- Take-profit ATR (3×) : **$18.11** ($14.775 + $3.33)
+- Ratio R/R : **1.5×**
 
-**Verdict timing :** Neutre — La sortie de surachat est healthy, le gap baissier sur volume élevé laisse un surhang technique. Le cours reste +18.3% au-dessus de la MM50. Cependant, le non-franchissement du gap du 25/05 ($15.47) et la position sous le max pain options ($15.00) indiquent une faiblesse relative à court terme.
+**Verdict timing :** Favorable — Le rebond de +2.75% confirme un soutien au-dessus du low intraday ($14.445). Le cours reste sous le max pain ($15.00, −1.5%), maintenant une pression baissière à l'expiration du 12/06. Le RSI à 55.47 indique une zone neutre constructive, loin du surachat. Cependant, le volume révisé à 0.61× moyenne 20j questionne la robustesse de ce rebond (participation faible).
 
 ---
 
 ## 3. Bloc Fondamental
 
-Inchangé vs snapshot 10:00 UTC. Voir [NOK_2026-06-08_update.md](./NOK_2026-06-08_update.md) pour le détail complet.
+Inchangé vs snapshot 13:00 UTC. Voir [NOK_2026-05-17_init.md](./NOK_2026-05-17_init.md) pour le détail complet.
 
 | Métrique | Valeur | Source |
 |----------|--------|--------|
-| Market Cap | $80.3B | Yahoo Finance |
-| P/E (TTM) | 89.88 | Yahoo Finance |
-| Forward P/E | 29.49 | Yahoo Finance |
+| Market Cap | $82.5B | Yahoo Finance |
+| P/E (TTM) | 92.34 | Yahoo Finance |
+| Forward P/E | 30.35 | Yahoo Finance |
 | EV/EBITDA | 30.75 | Yahoo Finance |
-| P/B | 3.27 | Yahoo Finance |
+| P/B | 3.36 | Yahoo Finance |
 | Beta | 0.781 | Yahoo Finance |
 | Dividend Yield | 1.14% | Yahoo Finance |
 | Short Interest | 1.08% | Yahoo Finance |
@@ -68,7 +72,7 @@ Inchangé vs snapshot 10:00 UTC. Voir [NOK_2026-06-08_update.md](./NOK_2026-06-0
 
 **Filtre Qualité :** 2.5/6 — 🔴 Hors périmètre (inchangé). Bilan solide (net cash, D/E 0.25) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%).
 
-> **[DONNÉES PARTIELLES]** : `validation_report.txt` du 2026-06-08 signale un warning qualité sur NOK (P/E élevé, premium vs consensus). Ce warning est hérité du snapshot du 17/05 et ne reflète pas la correction de −13.5% qui a réduit le premium à +33.1%.
+> **[DONNÉES PARTIELLES]** : `validation_report.txt` du 2026-06-08 signale un warning qualité sur NOK (P/E élevé, premium vs consensus). Le premium vs consensus $10.8 est désormais de **+36.8%** (vs +33.1% à 13:00 UTC).
 
 ---
 
@@ -77,17 +81,16 @@ Inchangé vs snapshot 10:00 UTC. Voir [NOK_2026-06-08_update.md](./NOK_2026-06-0
 | Signal | Valeur | Source |
 |--------|--------|--------|
 | Consensus analystes (FMP) | **$10.8** (7 analysts) | FMP Stable API |
-| Max pain options | **$15.00** | Yahoo Finance (restauré) |
-| Put/Call ratio | **1.00** | Yahoo Finance (restauré) |
-| Call OI % | **49.9%** | Yahoo Finance (restauré) |
+| Max pain options | **$15.00** | Yahoo Finance |
+| Put/Call ratio | **1.00** | Yahoo Finance |
+| Call OI % | **49.9%** | Yahoo Finance |
 | Expiration nearest | **2026-06-12** | Yahoo Finance |
-| Social sentiment (Reddit) | 0 mentions / 0.0 score | `social_sentiment_latest.json` |
+| Social sentiment (Reddit) | 0 mentions / No data | `social_sentiment_latest.json` |
 
-**⚠️ Mutation options majeure :**
-- **Max pain remonté** de $13.50 (opérationnel historique) à **$15.00** (données 13:00 propres)
-- **Structure inversée** : call OI 49.9% (vs 68.5% historique call-dominated) → équilibre put/call
-- **Cours sous max pain** : $14.38 < $15.00 (−4.1%) — la première fois depuis le gap du 25/05. Cela crée une pression baissière à l'expiration du 12/06 (dans 4 jours) car le pin vers $15.00 favorise les vendeurs.
-- Put/call à 1.0 indique un sentiment neutre, loin de l'optimisme extrême du début juin (put/call 0.45).
+**Structure options :**
+- Max pain $15.00 inchangé. Cours $14.775 < max pain (−1.5%) — la pression baissière au pin est atténuée par rapport au snapshot 13:00 UTC (−4.1%) mais persiste.
+- Put/call 1.00 et call OI 49.9% inchangés — structure neutre, sans domination call ou put.
+- Expiration dans 4 jours (2026-06-12). Risque de pin vers $15.00 si le cours ne parvient pas à s'en éloigner.
 
 **News / Événements :**
 - `events_latest.json` : **0 événement** corporate pour NOK
@@ -99,9 +102,10 @@ Inchangé vs snapshot 10:00 UTC. Voir [NOK_2026-06-08_update.md](./NOK_2026-06-0
 ## 5. Bloc Macro & Sectoriel
 
 - **Régime macro :** UNKNOWN (`recommandations_latest.json`)
-- **Sectoriel :** Technology / Communication Equipment. Le secteur XLC (Communication Services) reste en **bottom 3** du sector rotation (momentum score 0.0, RS20d −5.68% vs SPY). Malus structurel pour NOK.
-- **Exposition FX :** 25% revenus hors-USD, impact neutre (`fx_exposure_latest.json` : fx_impact_score 0.0)
-- **Géopolitique :** Score politique 2/10, non exposé (`geo_risk_latest.json`)
+- **Sectoriel :** Technology / Communication Equipment. Le secteur **XLC** (Communication Services) reste en **bottom 3** du sector rotation (momentum score 0.0, RS20d −5.68% vs SPY). Malus structurel pour NOK.
+- **Exposition FX :** 25% revenus hors-USD, impact neutre (`fx_exposure_latest.json` : fx_impact_score 0.0, flag 🟢)
+- **Géopolitique :** Score politique 0/10, non exposé (`geo_risk_latest.json` : aucun ticker flaggé pour NOK)
+- **Quant :** Insuffisant (`quant_report_latest.json` : 0 signaux historiques, p-value 1.0)
 
 ---
 
@@ -111,31 +115,32 @@ Inchangé vs snapshot 10:00 UTC. Voir [NOK_2026-06-08_update.md](./NOK_2026-06-0
 
 | Score | Valeur | Commentaire |
 |-------|--------|-------------|
-| **Score Opportunité** | **4.3/10** | C:4.0 V:3.5 M:6.0 |
+| **Score Opportunité** | **4.6/10** | C:4.0 V:3.5 M:7.3 |
 | **Score Catalyseur** | 4.0/10 | 🔴 Faible — aucun catalyseur identifié |
-| **Score Valorisation** | 3.5/10 | 🔴 Défavorable — P/E 89.9, premium consensus +33% |
-| **Score Momentum** | 6.0/10 | Tendance haussière structurelle intacte (+18% vs MM50) |
-| **Score Global ajusté** | **48.0/100** | **SURVEILLER** (seuil 35–49) |
-| **Timing technique** | Favorable | Sortie de surachat, cours au-dessus MM50 |
+| **Score Valorisation** | 3.5/10 | 🔴 Défavorable — P/E 92.3, premium consensus +37% |
+| **Score Momentum** | 7.3/10 | 🟢 Tendance haussière structurelle intacte (+20.3% vs MM50) |
+| **Score Global ajusté** | **51.2/100** | **ATTENDRE** (seuil 50–59) |
+| **Timing technique** | Favorable | RSI neutre, cours au-dessus MM50, rebond sur support |
 
 **Évolution du scoring :**
 - Le 02/06 : Score Global 31.8 — ÉVITER
 - Le 03/06 : Score Global 31.8 — ÉVITER
 - Le 08/06 10:00 : Score Global 48.0 — SURVEILLER
-- Le 08/06 13:00 : Score Global **48.0** — **SURVEILLER** (confirmé)
+- Le 08/06 13:00 : Score Global 48.0 — SURVEILLER
+- Le 08/06 17:00 : Score Global **51.2** — **ATTENDRE** (+3.2 pts, upgrade mécanique post-rebond)
 
-L'upgrade de ÉVITER → SURVEILLER reste **purement mécanique** (post-baisse). Les scores fondamentaux (Catalyseur 4.0, Valorisation 3.5) restent dans la zone de disqualification relative.
+L'upgrade de SURVEILLER → ATTENDRE est **mécanique** (post-rebond +2.75% qui booste le Score Momentum de 6.0 à 7.3). Les scores fondamentaux (Catalyseur 4.0, Valorisation 3.5) restent dans la zone de faiblesse relative. Le Filtre Qualité 2.5/6 maintient le plafond sur la valorisation.
 
 ---
 
 ## 7. Révision des Niveaux SL / TP / Sizing
 
-| Niveau | Valeur précédente (10:00) | Valeur révisée (13:00) | Justification |
+| Niveau | Valeur précédente (13:00) | Valeur révisée (17:00) | Justification |
 |--------|---------------------------|------------------------|---------------|
 | **Prix cible** | $10.8 (consensus) | **$10.8** | Inchangé |
-| **Stop-loss** | $12.12 | **$12.12** | Cours − 2×ATR |
-| **Take-profit** | $17.77 | **$17.77** | Cours + 3×ATR |
-| **Upside / Downside** | −24.9% / −15.7% | **−24.9%** / **−15.7%** | Inchangé |
+| **Stop-loss** | $12.12 | **$12.56** | Cours − 2×ATR |
+| **Take-profit** | $17.77 | **$18.11** | Cours + 3×ATR |
+| **Upside / Downside** | −24.9% / −15.7% | **−26.9%** / **−14.9%** | Révisé |
 | **Ratio R/R** | 1.5× | **1.5×** | Stable |
 | **Sizing** | — | **—** | Pas de position |
 
@@ -145,35 +150,37 @@ L'upgrade de ÉVITER → SURVEILLER reste **purement mécanique** (post-baisse).
 
 | Scénario | Probabilité | Impact cours | Description |
 |----------|-------------|--------------|-------------|
-| **Optimiste** | 20% | Retour $15.47–$16.25 | Comblement partiel du gap, soutenu par un catalyseur (contrat 5G, upgrade). Nécessite cassure du max pain $15.00 |
-| **Central** | 50% | Range $13.50–$15.00 | Consolidation autour de la nouvelle base. MM50 ($12.16) agit comme ancre technique. Pin options $15.00 capte le cours |
-| **Pessimiste** | 30% | Cassure $14.00 → test MM50 $12.16 | Distribution continue, retour vers les fondamentaux (consensus $10.8). Volume élevé confirme la sortie |
+| **Optimiste** | 20% | Test $15.47 (base du gap) | Rebond confirmé sur volume, cassure du max pain $15.00. Nécessite catalyseur (contrat 5G, upgrade) |
+| **Central** | 55% | Range $14.40–$15.00 | Consolidation autour de $14.75. Pin options $15.00 capte le cours jusqu'à expiration 12/06. MM50 ($12.29) comme ancre technique si dérive |
+| **Pessimiste** | 25% | Cassure $14.445 → test $13.50 | Distribution continue, retour vers les fondamentaux (consensus $10.8). Volume faible sur le rebond = absence de conviction |
 
 ---
 
-## 9. Conclusion — Thèse confirmée
+## 9. Conclusion — Thèse modifiée (upgrade mécanique)
 
-**Verdict :** La thèse précédente (« SURVEILLER — value trap, surchauffe dissipée mais pas d'opportunité d'achat ») est **confirmée** après traitement du DRAFT_refresh.
+**Verdict :** La thèse précédente (« SURVEILLER — value trap, surchauffe dissipée mais pas d'opportunité d'achat ») est **modifiée** en **ATTENDRE** après le rebond de +2.75%.
 
 **Ce qui a changé :**
-1. **Données options restaurées.** Max pain remonté à $15.00 (vs $3.00 corrompu à 10:00). Le cours passe sous le pin (−4.1%), créant une pression baissière à l'expiration du 12/06.
-2. **Structure options inversée.** Call OI tombe de 68.5% à 49.9% ; put/call passe de 0.46 à 1.00. Sentiment neutre, plus call-dominated.
-3. **DRAFT_refresh traité.** Les triggers PRICE_GAP (−13.48%) et ATR_SPIKE (7.86%) ont été analysés. Ils ne modifient pas la thèse mais confirment la volatilité post-gap.
+1. **Cours rebondit à $14.775** (+2.75% vs $14.38 à 13:00 UTC). Le low $14.445 n'a pas été cassé, confirmant un soutien technique immédiat.
+2. **Score Momentum boosté** de 6.0 à 7.3/10 (mécanique post-rebond), entraînant le Score Global ajusté de 48.0 à 51.2/100 et l'upgrade SURVEILLER → ATTENDRE.
+3. **Volume révisé à 0.61× moyenne 20j** (76.2M vs 183.6M au snapshot 13:00 UTC). Ce révision à la baisse atténue la conviction sur le rebond.
+4. **Niveaux SL/TP révisés** à la hausse ($12.56 / $18.11) compte tenu du nouveau close et de l'ATR stable.
 
 **Ce qui n'a pas changé :**
-- Données prix/volume/technique/fondamentales strictement identiques au snapshot 10:00.
-- Filtre Qualité hors périmètre (2.5/6).
-- Aucun catalyseur fondamental.
-- Score Global 48.0 — SURVEILLER.
-- XLC bottom 3.
+- Filtre Qualité hors périmètre (2.5/6) — pas de changement qualitatif.
+- Aucun catalyseur fondamental détecté.
+- Consensus analystes $10.8 (7 analysts) — premium persistant +36.8%.
+- XLC bottom 3 du sector rotation.
+- Options inchangées (max pain $15.00, put/call 1.00, expiration 12/06).
+- Aucun événement corporate, aucune news structurante.
 
-**Recommandation révisée :** **SURVEILLER** — Pas de position. La correction de −13.5% a dissipé la surchauffe mais le retournement sous le max pain options ($15.00) et la structure put/call équilibrée ajoutent une incertitude à court terme (expiration 12/06). Une entrée reste exclue sans :
-- Test et rebond sur la MM50 ($12.16) avec volume en hausse
+**Recommandation révisée :** **ATTENDRE** — Pas de position. Le rebond de +2.75% est mécaniquement positif mais le volume révisé à la baisse (0.61×) et l'absence de catalyseur fondamental maintiennent l'exclusion d'entrée. La proximité du max pain ($15.00, expiration dans 4 jours) crée un overhang technique. Une entrée reste exclue sans :
+- Test et rebond sur la MM50 ($12.29) avec volume > moyenne
 - Amélioration du Score Valorisation > 5.0/10
-- Apparition d'un catalyseur sectoriel
+- Apparition d'un catalyseur sectoriel ou corporate
 
 **Prochain point de contrôle :** Earnings Q2 FY2026 le **2026-07-23** (dans 45 jours) — Est EPS $0.06–$0.08, Rev $4.8B.
 
 ---
 
-*Généré automatiquement — données sourcées exclusivement depuis `data/latest.json`, `data/recommandations_latest.json`, et fichiers JSON agents.*
+*Généré automatiquement — données sourcées exclusivement depuis `data/latest.json` (snapshot 17:00 UTC), `data/recommandations_latest.json`, et fichiers JSON agents.*
