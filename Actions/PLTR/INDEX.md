@@ -1,7 +1,7 @@
 # PLTR
 
 ## These courante
-**SURVEILLER** — Snapshot 17h UTC 2026-06-08 = premières données post-ouverture du lundi 08/06 après le weekend. Cours $135.71 (+0.13% vs close vendredi $135.53), RSI 50.47 (zone neutre stable), ATR $7.13 (légère compression −2.2%), volume très faible intraday 14.44M (projection ~0.67× moyenne). High $137.76 rejeté sous MM50 $140.66, low $135.34 au-dessus du low vendredi $134.03 — pas de retest. Options inchangées (Max Pain $150.00, Put/Call 0.54, Call OI 64.9%). Cassure sous MM50 maintenue (−3.5%), invalidation du retournement haussier persistante. Aucune news structurante, aucune révision analyste — mouvement purement technique. Valorisation extrême inchangée (P/E 152x, EV/Revenue 60.7x). Fondamentaux solides inchangés (marges 82/32/36%, ROIC 18%, bilan quasi-sans dette). XLK reste top sectoriel (RS20 +5.05%). Score Opportunité 5.4/10, Score Global ajusté 46.3/100 — thèse SURVEILLER confirmée. Attendre retour en clôture > MM50 $140.66 + volume > 40M avant réactivation de la thèse haussière.
+**SURVEILLER** — Snapshot 21h UTC 2026-06-08 = close officielle du lundi 08/06 après le weekend. Cours $136.47 (+0.69% vs close vendredi $135.53), RSI 51.08 (zone neutre stable), ATR $7.14 (quasi-stable), volume très faible 26.77M (0.66× moyenne 20j). High $137.76 rejeté sous MM50 $140.68, low $135.29 au-dessus du low vendredi $134.03 — pas de retest. Léger grignotage haussier en fin de séance ($135.71 → $136.47, +0.56% entre 17h et 21h UTC) sur volume faible (~12.3M), sans signification directionnelle. Options inchangées (Max Pain $150.00, Put/Call 0.54, Call OI 64.9%). Cassure sous MM50 maintenue (−3.0%), invalidation du retournement haussier persistante. Aucune news structurante, aucune révision analyste — mouvement purement technique sans conviction. Valorisation extrême inchangée (P/E 153x, EV/Revenue 60.7x). Fondamentaux solides inchangés (marges 82/32/36%, ROIC 18%, bilan quasi-sans dette). XLK reste top sectoriel (RS20 +4.72%). Score Opportunité 5.4/10, Score Global ajusté 46.3/100 — thèse SURVEILLER confirmée. Attendre retour en clôture > MM50 $140.68 + volume > 40M avant réactivation de la thèse haussière.
 
 ## Historique
 | Date | Fichier | Type | Conclusion |
@@ -28,6 +28,7 @@
 | 2026-06-08 | [PLTR_2026-06-08_update.md](PLTR_2026-06-08_update.md) | Mise a jour snapshot 10:00 UTC — **deterioration technique majeure** : cours −10.93% a 35.53, **cassure sous MM50** 40.90, invalidation retournement haussier. RSI 51.25 (zone neutre), ATR .29 (+8.97%), volume 38.11M (0.93×, faible sur baisse). Options anomalie JSON (max_pain 0.00 aberrant). Score Global ajusté 45.0/100 (−11.8 pts), these **MODIFIEE** — passage ATTENDRE → SURVEILLER | SURVEILLER — Score Opp. 5.3/10, cours 35.53, RSI 51.25, volume 38.11M (0.93×), cassure MM50, these modifiee |
 | 2026-06-08 | [PLTR_2026-06-08_13-00_update.md](PLTR_2026-06-08_13-00_update.md) | Mise a jour snapshot 13:00 UTC — **stabilité totale** vs 10:00 UTC : cours inchangé $135.53, RSI 51.25, volume 38.11M (0.93×). **Anomalie options JSON RÉSOLUE** (Max Pain $150.00, Put/Call 0.54, Call OI 64.9%) — structure cohérente avec biais haussier modéré atténué vs 03/06. Fondamentaux, consensus, scores agents inchangés. These SURVEILLER **confirmée** sans modification | SURVEILLER — Score Opp. 5.3/10, cours $135.53, RSI 51.25, volume 38.11M (0.93×), options réparées, these confirmée |
 | 2026-06-08 | [PLTR_2026-06-08_17-00_update.md](PLTR_2026-06-08_17-00_update.md) | Mise a jour snapshot 17:00 UTC — **premières données post-ouverture lundi 08/06**. Stabilité relative vs close vendredi : cours +0.13% a $135.71, RSI 50.47 (-0.78 pt), ATR $7.13 (-2.2%), volume tres faible intraday 14.44M (projection ~0.67×). High $137.76 rejete, low $135.34 au-dessus du low vendredi. Options inchangées. Cassure MM50 maintenue. Score Global ajuste 46.3/100 (+1.3 pts). These SURVEILLER **confirmée** sans modification | SURVEILLER — Score Opp. 5.4/10, cours $135.71, RSI 50.47, volume 14.44M intraday (~0.67×), stabilite relative post-gap, these confirmée |
+| 2026-06-08 | [PLTR_2026-06-08_21-00_update.md](PLTR_2026-06-08_21-00_update.md) | Mise a jour snapshot 21:00 UTC (close officielle) — **léger grignotage haussier** en fin de séance : cours +0.56% a $136.47 vs 17h, RSI 51.08 (+0.61 pt), ATR $7.14 (+0.1%), volume final 26.77M (0.66× moyenne, en dessous de la projection 17h). High $137.76 confirmé, low $135.29 légèrement plus bas. Options inchangées. Cassure MM50 maintenue. Score Global ajusté 46.3/100 (=). These SURVEILLER **confirmée** sans modification | SURVEILLER — Score Opp. 5.4/10, cours $136.47, RSI 51.08, volume 26.77M (0.66×), grignotage haussier sans volume, these confirmée |
 
 ## Agenda
 - **Prochain earnings :** 2026-08-03 (Q2 FY2026, Est. EPS $0.32-$0.40, Rev $1.8B)
@@ -43,19 +44,14 @@
 - Anomalie options JSON snapshot 03/06 10h UTC — Max Pain aberrant $50.00, Put/Call null, Call OI null (RESOLUE snapshot 03/06 13h UTC : Max Pain $160.00, Put/Call 0.48, Call OI 67.4%)
 - 🟡 **Anomalie options JSON snapshot 08/06 10h UTC** — Max Pain aberrant $50.00, Put/Call null, Call OI null — pattern récurrent 10h UTC. **RÉSOLUE snapshot 08/06 13h UTC** : Max Pain $150.00, Put/Call 0.54, Call OI 64.9% valides et cohérents
 
-## Contexte technique (dernier snapshot 13:00 UTC)
-- Cours : $135.53
-- RSI 14j : 51.25
-- MM 50j : 140.90
+## Contexte technique (dernier snapshot 21:00 UTC)
+- Cours : $136.47
+- RSI 14j : 51.08
+- MM 50j : 140.68
 - MM 200j : —
-- ATR 14j : 7.29
-- Volume moy. 20j : 41,140,970
-- Volume jour : 38,108,100
-- Max Pain : $150.00 (snapshot 13h — anomalie 10h résolue)
-- Put/Call : 0.54 (snapshot 13h)
-- Call OI % : 64.9% (snapshot 13h)
-- Volume 20j moy. : 41,140,970
-- Volume jour : 38,108,100
-- Max Pain : $160.00 (dernière valeur valide — anomalie JSON 08/06)
-- Put/Call : 0.48 (dernière valeur valide — anomalie JSON 08/06)
-- Call OI % : 67.4% (dernière valeur valide — anomalie JSON 08/06)
+- ATR 14j : 7.14
+- Volume moy. 20j : 40,392,048
+- Volume jour : 26,766,965
+- Max Pain : $150.00
+- Put/Call : 0.54
+- Call OI % : 64.9%

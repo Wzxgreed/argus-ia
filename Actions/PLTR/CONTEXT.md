@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
-- **Horizon :** —
+- **Recommandation :** SURVEILLER
+- **Score global :** 5.4/10 (ajusté 46.3/100)
+- **Prix cible :** $186.15 (consensus FMP, 34 analystes)
+- **Stop-loss :** $122.19
+- **Statut thèse :** Confirmée — cassure sous MM50 persistante, aucune entrée
+- **Horizon :** 1–3 mois (jusqu'à earnings Q2 FY2026 le 03/08)
 
 ---
 
@@ -24,23 +24,29 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🔴 **Cassure MM50** — Cours $136.47 sous MM50 $140.68 (snapshot 08/06 21h UTC) — invalidation retournement haussier persistante
+- Warning : `data/accounting_risk_latest.json` absent — Filtre Qualité non alimenté
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q2 FY2026 :** 2026-08-03 (56 jours, Est. EPS $0.32–$0.40, Rev $1.8B)
+- **Expiration options :** 2026-06-12 (4 jours)
 
 ---
 
-## 📊 Contexte technique (dernier snapshot)
+## 📊 Contexte technique (dernier snapshot 21:00 UTC)
 
-- **RSI 14j :** 51.02
+- **RSI 14j :** 51.08
 - **MM 50j :** 140.68
 - **MM 200j :** —
 - **ATR 14j :** 7.14
-- **Volume moy. 20j :** 40145664
+- **Volume moy. 20j :** 40,392,048
+- **Volume jour :** 26,766,965 (0.66× moyenne)
+- **Max Pain :** $150.00
+- **Put/Call :** 0.54
+- **Call OI % :** 64.9%
 
 ---
 
@@ -48,14 +54,14 @@
 
 - **Date :** 2026-06-08
 - **Type :** update
-- **Fichier :** `PLTR_2026-06-08_17-00_update.md`
-- **Conclusion :** > **Source :** `data/2026-06-08.json` (snapshot 17:00 UTC, fetched_at 2026-06-08T17:00:02Z) + agents quant, geo, accounting, sector, social, FX, watchman, events
+- **Fichier :** `PLTR_2026-06-08_21-00_update.md`
+- **Conclusion :** Close officielle 21h UTC = léger grignotage haussier en fin de séance ($135.71 → $136.47, +0.56%) sur volume faible. RSI 51.08 stable, ATR $7.14 quasi-stable, volume final 26.77M (0.66× moyenne) — très faible, manque de conviction. Cassure MM50 ($140.68) maintenue (−3.0%). Options inchangées. Aucune news, aucune révision analyste. Thèse SURVEILLER confirmée. Attendre retour > MM50 + volume > 40M.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 5.23% (seuil 5.0%)
+- Aucun trigger détecté.
 
 ---
 
