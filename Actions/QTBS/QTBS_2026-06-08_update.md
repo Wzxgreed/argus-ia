@@ -1,15 +1,15 @@
 # QTBS — Mise à jour Quotidienne
 
-> **Date :** 2026-06-08 (snapshot 10h UTC)
+> **Date :** 2026-06-08 (snapshot 13h UTC)
 > **Type :** `_update.md`
-> **Source données :** `data/latest.json` (fetched_at 2026-06-08T10:00:02Z) + `data/recommandations_latest.json` + `data/upcoming_events_latest.json` + `data/events_latest.json` + `data/social_sentiment_latest.json` + `data/fx_exposure_latest.json` + `data/sector_rotation_latest.json` + `data/validation_report.txt`
-> **Statut pipeline :** 🔴 Fetch KO — No price history (confirmé snapshot 10h UTC)
+> **Source données :** `data/latest.json` (fetched_at 2026-06-08T13:00:01Z) + `data/recommandations_latest.json` + `data/upcoming_events_latest.json` + `data/events_latest.json` + `data/social_sentiment_latest.json` + `data/fx_exposure_latest.json` + `data/sector_rotation_latest.json` + `data/validation_report.txt`
+> **Statut pipeline :** 🔴 Fetch KO confirmé snapshot 13h UTC
 
 ---
 
 ## 1. Résumé des changements depuis l'analyse précédente
 
-| Item | Snapshot 10h UTC (03/06) | Snapshot 10h UTC (08/06) | Changement |
+| Item | Snapshot 10h UTC (08/06) | Snapshot 13h UTC (08/06) | Changement |
 |------|--------------------------|--------------------------|------------|
 | Cours | [DONNÉES MANQUANTES] | **[DONNÉES MANQUANTES]** | **Aucun changement** |
 | RSI 14j | — | — | — |
@@ -17,9 +17,9 @@
 | Volume 20j | — | — | — |
 | Data feed | `error: true` | `error: true` | **Bloquant confirmé** |
 | Score global | 55.2/100 (ATTENDRE) | **55.2/100 (ATTENDRE)** | **Stable** |
-| Earnings | J0 (03/06) placeholder | **J0 (08/06) placeholder** | **Date glissée +5j** |
+| Earnings | J0 (08/06) placeholder | **J0 (08/06) placeholder** | **Stable** |
 
-**Verdict macro :** QTBS reste en **data blackout complet** au snapshot 10h UTC du 08/06. Aucune mutation vs le snapshot du 03/06 — **38e snapshot consécutif sans changement** depuis au moins le 20 mai 2026. Le placeholder FMP a de nouveau glissé au 2026-06-08, confirmant son caractère automatique et non une date d'earnings réelle.
+**Verdict macro :** QTBS reste en **data blackout complet** au snapshot 13h UTC du 08/06. Aucune mutation vs le snapshot 10h UTC — **39e snapshot consécutif sans changement** depuis au moins le 20 mai 2026. Le placeholder FMP a été maintenu au 2026-06-08, confirmant son caractère automatique et non une date d'earnings réelle.
 
 ---
 
@@ -27,7 +27,7 @@
 
 > **[DONNÉES MANQUANTES — FETCH KO CONFIRMÉ]**
 
-- **Cours close :** [UNSOURCED] — `data/latest.json` retourne `"error": true`, `"reason": "No price history"` (timestamp 2026-06-08T10:00:21Z)
+- **Cours close :** [UNSOURCED] — `data/latest.json` retourne `"error": true`, `"reason": "No price history"` (timestamp 2026-06-08T13:00:19Z)
 - **RSI 14j :** —
 - **ATR 14j :** —
 - **MM 50j / 200j :** —
@@ -35,7 +35,7 @@
 - **Max pain options :** —
 - **Put/Call ratio :** —
 
-**Impact :** Sans cours et sans ATR, les niveaux de stop-loss et take-profit restent **non calculables**. Le timing technique est indéterminable. Le rapport de validation du jour (`data/validation_report.txt`, 2026-06-08T10:00:02Z) liste explicitement `[ERROR] QTBS: fetch failed — No price history`, confirmant l'exclusion totale du pipeline data.
+**Impact :** Sans cours et sans ATR, les niveaux de stop-loss et take-profit restent **non calculables**. Le timing technique est indéterminable. Le rapport de validation du jour (`data/validation_report.txt`, 2026-06-08T12:07:19Z) liste explicitement `[ERROR] QTBS: fetch failed — No price history`, confirmant l'exclusion totale du pipeline data.
 
 ---
 
@@ -50,7 +50,7 @@
 - **Nombre d'analystes :** —
 - **Market cap :** —
 
-**Événement du jour :** Earnings signalé par `upcoming_events_latest.json` (source FMP, date 2026-06-08, severity high, days_until=0). **Anomalie confirmée :** la date J0 a glissé du 2026-06-03 au 2026-06-08, ce qui confirme un **placeholder FMP automatique** et non une date d'earnings réelle. Aucun détail EPS/Revenue consensus n'a été récupéré. Le rapport accounting risk (`data/accounting_risk_latest.json`) reste **totalement absent**. Le NLP transcript (`data/transcripts_NLP_latest.json`) est indisponible pour QTBS (plan FMP insuffisant).
+**Événement du jour :** Earnings signalé par `upcoming_events_latest.json` (source FMP, date 2026-06-08, severity high, days_until=0). **Anomalie confirmée :** la date J0 est restée figée au 2026-06-08, confirmant un **placeholder FMP automatique** et non une date d'earnings réelle. Aucun détail EPS/Revenue consensus n'a été récupéré. Le rapport accounting risk (`data/accounting_risk_latest.json`) reste **totalement absent**. Le NLP transcript (`data/transcripts_NLP_latest.json`) est indisponible pour QTBS (plan FMP insuffisant).
 
 ---
 
@@ -117,9 +117,9 @@ Aucune mention retail, aucune détection de pump/dump, aucune news Yahoo, aucun 
 
 **Argumentaire :**
 
-1. **Data blackout persistant :** Le snapshot 10h UTC du 08/06 confirme l'erreur `[ERROR] QTBS: fetch failed — No price history`. Ce bloquant empêche toute analyse technique, fondamentale et quantitative. La stabilité de l'erreur sur **38 snapshots consécutifs** confirme une panne structurelle du data feed, et non un effet de latence temporaire.
+1. **Data blackout persistant :** Le snapshot 13h UTC du 08/06 confirme l'erreur `[ERROR] QTBS: fetch failed — No price history`. Ce bloquant empêche toute analyse technique, fondamentale et quantitative. La stabilité de l'erreur sur **39 snapshots consécutifs** confirme une panne structurelle du data feed, et non un effet de latence temporaire.
 
-2. **Earnings J0 non analysable :** L'événement earnings du 2026-06-08 (source FMP, severity high, days_until=0) est un **placeholder glissant** passé du 03/06 au 08/06. Sans cours pré-event, sans consensus EPS/Revenue et sans métriques, il est impossible de mesurer un quelconque impact post-announcement.
+2. **Earnings J0 non analysable :** L'événement earnings du 2026-06-08 (source FMP, severity high, days_until=0) est un **placeholder glissant** resté figé au 08/06. Sans cours pré-event, sans consensus EPS/Revenue et sans métriques, il est impossible de mesurer un quelconque impact post-announcement.
 
 3. **Score agent inchangé :** La recommandation `ATTENDRE` (55.2/100) reflète une absence de signal plutôt qu'une conviction neutre. Les scores Catalyseur 6.5/10 sont grevés par l'impossibilité de vérification. Le ticker n'apparaît pas dans le quality gate du jour (ni OK, ni warning, ni excluded), ce qui confirme une exclusion totale du pipeline.
 
@@ -127,5 +127,5 @@ Aucune mention retail, aucune détection de pump/dump, aucune news Yahoo, aucun 
 
 ---
 
-*Rapport généré le 2026-06-08. Données : latest.json (10h UTC), recommandations_latest.json, events_latest.json, social_sentiment_latest.json, fx_exposure_latest.json, upcoming_events_latest.json, validation_report.txt.*
+*Rapport généré le 2026-06-08. Données : latest.json (13h UTC), recommandations_latest.json, events_latest.json, social_sentiment_latest.json, fx_exposure_latest.json, upcoming_events_latest.json, validation_report.txt.*
 *Avertissement : ce document est un outil d'analyse, pas un conseil en investissement.*
