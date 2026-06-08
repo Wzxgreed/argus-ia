@@ -1,34 +1,35 @@
-# RKLB — Mise à Jour Post-Gap (2026-06-08)
+# RKLB — Mise à Jour Snapshot 13h UTC (2026-06-08)
 
-> Source : `data/latest.json` (fetched 2026-06-08T10:00:02 UTC) | `data/recommandations_2026-06-08.json` | Snapshot 10h UTC
+> Source : `data/latest.json` (fetched 2026-06-08T13:00:01 UTC) | `data/recommandations_latest.json` | Snapshot 13h UTC
 
 ---
 
-## 1. Résumé des Changements depuis le Snapshot 10h UTC (2026-06-03)
+## 1. Résumé des Changements depuis le Snapshot 10h UTC (2026-06-08)
 
-| Métrique | Snapshot 03/06 | Snapshot 08/06 | Variation |
+| Métrique | Snapshot 10h | Snapshot 13h | Variation |
 |---|---|---|---|
-| **Cours close** | $123,32 | **$110,08** | **−13,24 $ (−10,7 %)** |
-| **RSI 14j** | 52,81 | **42,89** | **−9,92 pts** 🔴 |
-| **ATR 14j** | $12,33 | **$12,49** | +$0,16 (+1,3 %) |
-| **Volume séance** | 19,34 M (0,62×) | **21,34 M (0,67×)** | +2,0 M, participation légèrement meilleure |
-| **Score Global Agent** | 44,5/100 (aj. 49,5) | **38,3/100 (aj. 43,3)** | **−6,2 pts** 🔴 |
-| **Score Opportunité** | 4,5/10 | **3,8/10** | −0,7 pt |
-| **Score Momentum** | 7,0/10 | **4,5/10** | **−2,5 pts** 🔴 |
+| **Cours close** | $110,08 | **$110,08** | **Inchangé** |
+| **RSI 14j** | 42,89 | **42,89** | Inchangé |
+| **ATR 14j** | $12,49 | **$12,49** | Inchangé |
+| **Volume séance** | 21,34 M (0,67×) | **21,34 M (0,67×)** | Inchangé |
+| **Score Global ajusté** | 43,3/100 | **43,3/100** | Inchangé |
+| **Score Opportunité** | 3,8/10 | **3,8/10** | Inchangé |
+| **Score Momentum** | 4,5/10 | **4,5/10** | Inchangé |
 | **Score Valorisation** | 3,0/10 | **3,0/10** | Inchangé |
 | **Score Catalyseur** | 4,3/10 | **4,3/10** | Inchangé |
-| **Max Pain (JSON)** | $45,00 (anomalie) | **$45,00** | Anomalie persistante — [NON OPÉRATIONNEL] |
-| **Forward P/E** | −11 191 | **−15 142** | Détérioration |
-| **P/B Yahoo** | 31,36× | **27,99×** | −3,37 pts |
-| **EV/Revenue** | 103,19× | **91,92×** | −11,3 % |
-| **FMP Consensus PT** | $84,20 (15 analysts) | **$87,19 (16 analysts)** | **+$2,99 (+3,5 %)** 🟡 |
-| **Divergence vs consensus** | +46,5 % | **+26,3 %** | Réduction significative |
-| **Beta** | 2,313 | **2,499** | +0,186 |
-| **MM 50j** | $93,38 | **$96,14** | +$2,76 |
-| **52W High / Low** | $151,00 / $25,24 | **$151,00 / $25,24** | Inchangé |
-| **Earnings Q2 2026** | 64 jours | **59 jours** | −5j |
+| **Max Pain (JSON)** | $45,00 (anomalie) | **$65,00** | **Corrigé** 🟡 |
+| **Put/Call ratio** | *Absent* | **0,90** | **Rétabli** ✅ |
+| **Call OI %** | *Absent* | **52,7 %** | **Rétabli** ✅ |
+| **Forward P/E** | −15 142 | **−15 142** | Inchangé |
+| **P/B Yahoo** | 27,99× | **27,99×** | Inchangé |
+| **EV/Revenue** | 91,92× | **91,92×** | Inchangé |
+| **FMP Consensus PT** | $87,19 (16 analysts) | **$87,19 (16 analysts)** | Inchangé |
+| **Divergence vs consensus** | +26,3 % | **+26,3 %** | Inchangé |
+| **Beta** | 2,499 | **2,499** | Inchangé |
+| **MM 50j** | $96,14 | **$96,14** | Inchangé |
+| **Earnings Q2 2026** | 59 jours | **59 jours** | Inchangé |
 
-**Verdict** : **Gap significatif −8,23 %** sur la séance du 8 juin porte le repli cumulé depuis le 3 juin à **−10,7 %**. Le RSI franchit la zone neutre (52,81 → 42,89) et le Score Momentum s'effondre (7,0 → 4,5). Le consensus sell-side a *haussé* son PT moyen à $87,19 (+3,5 %) malgré la baisse du cours — la divergence consensus se réduit mécaniquement de +46,5 % à +26,3 %. La valorisation reste extrême (Forward P/E négatif, EV/Rev 92×) et le Filtre Qualité 3/6 maintient le plafonnement à 5/10. **Aucun événement corporate détecté** (`events_latest.json` vide).
+**Verdict** : **Stabilité totale** des cours et des métriques techniques entre les deux snapshots du 8 juin. Le gap −8,23 % séance et le repli cumulé −10,7 % depuis le 03/06 sont confirmés sans amplification. La principale évolution concerne la **résolution partielle de l'anomalie options** : les données Put/Call (0,90) et Call OI (52,7 %) sont rétablies dans `latest.json`. Le Max Pain passe de $45,00 aberrant à $65,00 — moins incohérent mais toujours éloigné du spot ($110,08). Aucune news fondamentale, aucun événement corporate (`events_latest.json` vide).
 
 ---
 
@@ -36,42 +37,47 @@
 
 | Indicateur | Valeur | Commentaire |
 |---|---|---|
-| **RSI 14j** | 42,89 | Neutre-bas. Sorti de la zone neutre haute (52,81) sans atteindre la survente (<30). Momentum dégradé. |
-| **ATR 14j** | $12,49 | Volatilité élevée en légère expansion (+1,3 %). Le gap −8,23 % est contenu dans 0,66× ATR. |
-| **MM 50j** | $96,14 | Écart haussier **+14,5 %** vs spot (était +32,1 %). Réduction mécanique du premium de tendance. |
-| **Volume 20j** | 31 790 650 | Séance 08/06 : **21,34 M** — **0,67× moyenne**. Participation modérée, légèrement supérieure au 03/06 (0,62×). |
-| **Beta** | 2,499 | Sensibilité systématique extrême en hausse (+8,0 %). Amplification des mouvements de marché. |
-| **52W High / Low** | $151,00 / $25,24 | Spot à **−27,1 %** du 52W high (était −18,3 %). Éloignement des sommets. |
-| **Range intraday** | $106,73 – $117,98 | Gap down suivi d'un repli intra jusqu'à −12,5 % avant rebond partiel à −8,2 %. |
+| **RSI 14j** | 42,89 | Neutre-bas. Inchangé vs snapshot 10h. Sorti de la zone neutre haute sans survente (<30). |
+| **ATR 14j** | $12,49 | Volatilité élevée stable. Gap −8,23 % contenu dans 0,66× ATR. |
+| **MM 50j** | $96,14 | Écart haussier **+14,5 %** vs spot. Tendance haussière structurelle intacte. |
+| **Volume 20j** | 31 790 650 | Séance : **21,34 M** — **0,67× moyenne**. Participation modérée, stable. |
+| **Beta** | 2,499 | Sensibilité systématique extrême. Amplification des mouvements de marché. |
+| **52W High / Low** | $151,00 / $25,24 | Spot à **−27,1 %** du 52W high. Éloignement des sommets confirmé. |
+| **Range intraday** | $106,73 – $117,98 | Identique au snapshot 10h. Gap down suivi d'un repli intra jusqu'à −12,5 % avant rebond partiel à −8,2 %. |
 
-**Niveaux clés révisés** :
+**Niveaux clés révisés** (inchangés vs snapshot 10h) :
 - Support immédiat : **$106,73** (basse intraday 08/06)
-- Support technique majeur : **$85,10** (spot − 2×ATR = $110,08 − $24,98) — aligné agent officiel
-- Support confluence : **$90,00** (zone psychologique + ancien Max Pain opérationnel)
+- Support technique majeur : **$85,10** (spot − 2×ATR)
+- Support confluence : **$90,00** (zone psychologique)
 - Résistance immédiate : **$117,98** (haute intraday 08/06)
-- Résistance majeure : **$123,32** (close 03/06 — ancien support devenu résistance)
-- Objectif haussier : **$147,55** (spot + 3×ATR) — aligné agent officiel
-- **[ANOMALIE OPTIONS PERSISTANTE]** : `latest.json` affiche Max Pain **$45,00** (vs spot $110,08). Divergence de −59,1 % sans fondement. **Valeur rejetée** — cause probable : corruption partielle du flux options JSON.
+- Résistance majeure : **$123,32** (close 03/06)
+- Objectif haussier : **$147,55** (spot + 3×ATR)
 
-**Verdict timing : Défavorable** — Le gap −8,23 % avec volume modéré (0,67×) confirme une distribution active plutôt qu'une capitulation. Le RSI à 42,89 laisse encore de la marge avant la survente (<30). Le cours reste au-dessus de la MM50 ($96,14) donc la tendance haussière structurelle n'est pas rompue, mais le momentum s'est effondré (7,0 → 4,5). Le support $85,10 (2×ATR) est le pivot clé.
+**Structure options — anomalie partiellement résolue** :
+- **Max Pain** : **$65,00** (vs $45,00 aberrant au snapshot 10h). Divergence −40,9 % vs spot. Moins incohérent mais reste éloigné ; à interpréter avec prudence.
+- **Put/Call ratio** : **0,90** — légère prédominance call dans l'OI.
+- **Call OI %** : **52,7 %** — équilibre légèrement call-skewed.
+- Expiration la plus proche : **2026-06-12** (4 jours).
+
+**Verdict timing : Défavorable** — Inchangé. Le gap −8,23 % avec volume modéré confirme une distribution active. Le RSI à 42,89 laisse de la marge avant la survente. Le cours > MM50 ($96,14) maintient la tendance haussière structurelle, mais le momentum est fragilisé (Score Momentum 4,5/10).
 
 ---
 
 ## 3. Mise à Jour Fondamentale
 
-Aucune news fondamentale majeure détectée. `data/news_2026-06-08.json` vide pour RKLB. `data/events_latest.json` vide (0 événement corporate). Le gap est purement technique/sentiment.
+Aucune news fondamentale majeure détectée. `data/news_2026-06-08.json` vide pour RKLB. `data/events_latest.json` vide (0 événement corporate).
 
-| Métrique | Valeur | Variation vs 03/06 |
+| Métrique | Valeur | Variation vs snapshot 10h |
 |---|---|---|
-| Market Cap (Yahoo) | **$68,78 Mds** | −$2,61 Mds (−3,7 %) |
-| Forward P/E | **−15 142** | Détérioration (−36 %) |
-| EV/Revenue | 91,92× | −11,3 % |
-| P/B (Yahoo) | 27,99× | −10,7 % |
+| Market Cap (Yahoo) | **$68,78 Mds** | Inchangé |
+| Forward P/E | **−15 142** | Inchangé |
+| EV/Revenue | 91,92× | Inchangé |
+| P/B (Yahoo) | 27,99× | Inchangé |
 | P/S (FMP) | 61,51× | Inchangé |
-| Short Interest | 5,81 % | Stable |
-| **FMP Consensus PT** | **$87,19** (16 analysts) | **+$2,99 (+3,5 %)** 🟡 |
+| Short Interest | 5,81 % | Inchangé |
+| **FMP Consensus PT** | **$87,19** (16 analysts) | Inchangé |
 
-**[ANOMALIE DONNÉES PERSISTANTE]** — Market Cap Yahoo ($68,78 Mds) vs FMP sous-jacent ($37,02 Mds) persiste. Écart de 85,7 %.
+**[ANOMALIE DONNÉES PERSISTANTE]** — Market Cap Yahoo ($68,78 Mds) vs FMP sous-jacent ($37,02 Mds). Écart de 85,7 % inchangé.
 
 **Filtre Qualité (6 critères) — inchangé** :
 
@@ -86,26 +92,27 @@ Aucune news fondamentale majeure détectée. `data/news_2026-06-08.json` vide po
 
 **Score Qualité total : 3/6** → 🔴 **Hors périmètre institutionnel**. Score Valorisation plafonné à 5/10.
 
-**Divergence cours vs consensus** : Spot $110,08 vs PT moyen $87,19 = **+26,3 % au-dessus du consensus sell-side** (était +46,5 %). La réduction de divergence est mécanique (baisse du cours + hausse du PT) mais la prime reste significative.
+**Divergence cours vs consensus** : Spot $110,08 vs PT moyen $87,19 = **+26,3 % au-dessus du consensus sell-side**.
 
 ---
 
 ## 4. Mise à Jour Sentiment / Options / News
 
-| Signal | Valeur | Évolution vs 03/06 |
+| Signal | Valeur | Évolution vs snapshot 10h |
 |---|---|---|
-| **Consensus analystes (FMP)** | $87,19 (16 analysts) | **+$2,99 (+3,5 %)** — hausse malgré baisse cours |
-| **Max Pain (JSON)** | $45,00 | Anomalie persistante — [NON OPÉRATIONNEL] |
-| **Put/Call ratio** | *Absent* | Données interrompues dans latest.json |
-| **Call OI %** | *Absent* | Données interrompues dans latest.json |
-| **Short Interest** | 5,81 % | Stable |
+| **Consensus analystes (FMP)** | $87,19 (16 analysts) | Inchangé |
+| **Max Pain (JSON)** | $65,00 | Corrigé depuis $45,00 (anomalie) 🟡 |
+| **Put/Call ratio** | 0,90 | **Rétabli** (était absent) ✅ |
+| **Call OI %** | 52,7 % | **Rétabli** (était absent) ✅ |
+| **Short Interest** | 5,81 % | Inchangé |
 | **News du jour** | Aucune | Vide |
 | **Social Sentiment** | 0 mentions, score 0/10 | Aucune activité retail |
 
-- **[ANOMALIE OPTIONS PERSISTANTE]** : Max Pain $45,00 dans `latest.json` est aberrant. Les données Put/Call et Call OI sont absentes du snapshot du 08/06. La structure options du 03/06 (Put/Call 1,18, Call OI 45,9 %) est la dernière connue mais obsolète de 5 jours.
-- **Consensus haussé** : Le PT moyen est passé de $84,20 à $87,19 avec un analyste supplémentaire (16 vs 15). Cela peut refléter une révision post-gap baissier ou un ajustement du modèle. Malgré cela, le spot reste +26,3 % au-dessus du consensus.
+- **Structure options rétablie** : Le flux options JSON est désormais complet (Max Pain, Put/Call, Call OI) contrairement au snapshot 10h où les champs étaient partiellement absents/corrompus.
+- **Max Pain $65,00** : Bien que moins aberrant que $45,00, cette valeur reste éloignée du spot ($110,08). La proximité de l'expiration (2026-06-12, 4 jours) avec un Max Pain aussi bas suggère soit une concentration d'OI héritée des niveaux antérieurs à la chute, soit une incertitude persistante sur le support à court terme.
+- **Put/Call 0,90 + Call OI 52,7 %** : Légère coloration haussière dans l'open interest, insuffisante cependant pour contrebalancer la dégradation technique du Momentum.
 
-**Verdict Sentiment :** Neutre-bas — Aucun upgrade/downgrade détecté, absence totale d'activité retail. La dégradation du Score Momentum (7,0 → 4,5) et le gap −8,23 % traduisent un retrait des acheteurs. La hausse du consensus PT est un signal positif marginal mais insuffisant face à la chute de cours.
+**Verdict Sentiment :** Neutre-bas — Inchangé. Aucun upgrade/downgrade détecté, absence totale d'activité retail. La structure options rétablie n'apporte pas de signal directionnel net.
 
 ---
 
@@ -128,14 +135,14 @@ Aucune news fondamentale majeure détectée. `data/news_2026-06-08.json` vide po
 
 | Pilier | Score | Commentaire |
 |---|---|---|
-| **Catalyseur** | 4,3/10 | Aucune news. Earnings dans 59j. Consensus PT révisé à la hausse (+3,5 %) — signal positif marginal. |
+| **Catalyseur** | 4,3/10 | Aucune news. Earnings dans 59j. Consensus PT stable. |
 | **Valorisation** | 3,0/10 | Forward P/E négatif, EV/Rev 92×, spot +26,3 % vs consensus. Plafonné par FQ ≤3/6. |
-| **Momentum** | 4,5/10 | **Effondrement** (était 7,0). Gap −8,23 %, RSI 42,89, volume modéré 0,67×. Tendance haussière intacte (prix > MM50) mais fragilisée. |
+| **Momentum** | 4,5/10 | Gap −8,23 % confirmé, RSI 42,89, volume modéré 0,67×. Tendance haussière intacte (prix > MM50) mais fragilisée. |
 | **Score Opportunité** | **3,8/10** | Pondération Normal : C×35 % + V×40 % + M×25 % |
 | **Malus** | −5 pts | Malus structurel (valorisation extrême + divergence consensus persistante). |
-| **Score Global ajusté** | **43,3/100** | **SURVEILLER** — Seuil 35–49. L'agent officiel classe SURVEILLER. |
+| **Score Global ajusté** | **43,3/100** | **SURVEILLER** — Seuil 35–49. |
 
-**Comparaison avec snapshot 03/06** : Le score global ajusté chute de **49,5 à 43,3 (−6,2 pts)**. La quasi-totalité de la dégradation vient du Momentum (7,0 → 4,5) sous l'effet du gap −8,23 %. Le Catalyseur et la Valorisation sont stables. Le Consensus PT s'est amélioré (+3,5 %) mais cela ne compense pas la chute technique.
+**Comparaison avec snapshot 10h** : Le scoring est **intégralement inchangé** (43,3/100). Les seules évolutions concernent la qualité des données options (résolution partielle de l'anomalie), sans impact sur les scores agrégés.
 
 ---
 
@@ -148,7 +155,7 @@ Aucune news fondamentale majeure détectée. `data/news_2026-06-08.json` vide po
 | **Take-profit** | $147,55 (+34,0 %) | 3×ATR ($12,49) — aligné agent officiel |
 | **Ratio R/R** | **1,5 : 1** | Inchangé — inférieur au seuil 2:1 |
 
-**Révision vs 03/06** : Les niveaux sont révisés à la baisse mécaniquement (SL $98,66 → $85,10, TP $160,31 → $147,55) en raison du gap −8,23 %. Le ratio R/R reste à 1,5:1. Le SL élargi à −22,7 % reflète la volatilité extrême (Beta 2,50, ATR $12,49).
+**Révision vs snapshot 10h** : Inchangés. Les niveaux reflètent la volatilité extrême (Beta 2,50, ATR $12,49).
 
 **Zone d'intérêt potentielle** : Un retour vers **$90–$97** (test support psychologique + confluence 2×ATR) constituerait une zone d'accumulation technique intéressante pour les spéculateurs, sous réserve de confirmation de volume.
 
@@ -159,36 +166,35 @@ Aucune news fondamentale majeure détectée. `data/news_2026-06-08.json` vide po
 | Événement | Date | Jours restants | Détail |
 |---|---|---|---|
 | **Earnings Q2 2026** | 2026-08-06 | **59 jours** | Est EPS : −$0,06 à −$0,02 ; Rev : $0,2 B |
+| **Expiration options** | 2026-06-12 | **4 jours** | Max Pain JSON $65,00 (à interpréter avec prudence) |
 
-**Prochain catalyseur majeur** : Aucun avant earnings (août).
+**Prochain catalyseur majeur** : Aucun avant earnings (août). L'expiration options du 12 juin pourrait amplifier la volatilité à court terme compte tenu du Max Pain éloigné du spot.
 
 ---
 
 ## 9. Conclusion — Thèse Confirmée / Modifiée / Invalidée ?
 
-**Verdict : THÈSE MODIFIÉE 🟡 SURVEILLER — DÉGRADATION TECHNIQUE SIGNIFICATIVE**
+**Verdict : THÈSE CONFIRMÉE 🟡 SURVEILLER — STABILITÉ TOTALE, ANOMALIE OPTIONS PARTIELLEMENT RÉSOLUE**
 
-Le snapshot du 8 juin 2026 modifie la thèse du 3 juin sur le plan technique tout en maintenant le verdict global SURVEILLER :
+Le snapshot du 13h UTC confirme intégralement la thèse du snapshot 10h UTC :
 
-1. 🔴 **Gap −8,23 %** — mouvement significatif (>5 %) sans news fondamentale. Distribution active confirmée.
-2. 🔴 **RSI dégradé** — 52,81 → 42,89. Sortie de la zone neutre haute vers le bas.
-3. 🔴 **Score Momentum effondré** — 7,0 → 4,5. La tendance haussière structurelle (prix > MM50) n'est pas rompue mais fragilisée.
-4. 🔴 **Score Global ajusté** — 49,5 → 43,3 (−6,2 pts). Passage de la limite supérieure vers le milieu de la fourchette SURVEILLER.
-5. 🟡 **Consensus PT haussé** — $87,19 (+3,5 %) avec 16 analysts. Signal positif marginal mais spot reste +26,3 % au-dessus.
-6. 🟡 **Divergence consensus réduite** — +46,5 % → +26,3 %. Mécanique (baisse cours + hausse PT).
-7. 🟡 **Volume légèrement meilleur** — 0,67× (vs 0,62×). Participation modérée mais pas de capitulation.
-8. 🟡 **Options corrompues** — Max Pain JSON $45,00 persistant (anomalie), données Put/Call absentes.
-9. ✅ **Filtre Qualité 3/6** inchangé — hors périmètre institutionnel.
-10. ✅ **Earnings** inchangé — 59 jours.
+1. ✅ **Cours stable** — $110,08 inchangé. Aucun nouveau gap ni mouvement significatif entre 10h et 13h UTC.
+2. ✅ **Anomalie options partiellement résolue** — Put/Call (0,90) et Call OI (52,7 %) rétablis. Le Max Pain passe de $45,00 aberrant à $65,00 (moins incohérent mais toujours éloigné du spot).
+3. ✅ **Métriques techniques stables** — RSI 42,89, ATR $12,49, MM50 $96,14, volume 0,67× inchangés.
+4. ✅ **Fondamentaux inchangés** — Forward P/E −15 142, EV/Rev 92×, Filtre Qualité 3/6, consensus PT $87,19 stable.
+5. ✅ **Scoring inchangé** — Score Global ajusté 43,3/100 (SURVEILLER).
+6. ✅ **Niveaux SL/TP inchangés** — SL $85,10, TP $147,55, R/R 1,5:1.
+7. ✅ **Aucune news fondamentale** ni événement corporate détecté.
+8. 🟡 **Max Pain $65,00** — reste distant du spot ($110,08). À traiter avec prudence jusqu'à validation avec source tierce.
 
-**Recommandation** : Maintenir la posture **SURVEILLER**. Le gap −8,23 % ne justifie pas un passage à ÉVITER (le cours reste > MM50, le consensus s'est amélioré), mais la dégradation technique est réelle et le risque d'un test du support $85–$90 est élevé compte tenu du Beta 2,50 et de l'ATR $12,49.
+**Recommandation** : Maintenir la posture **SURVEILLER**. Le setup technique reste identique. La résolution de l'anomalie options renforce légèrement la fiabilité des données sans modifier la thèse. La vigilance reste de mise sur le support $85–$90 (2×ATR) en cas de poursuite de la distribution.
 
 Attendre :
 - Un **retour vers la zone $90–$97** avec **volume supérieur à la moyenne** (confirmation de capitulation), ou
 - Une **stabilisation au-dessus de $117,98** (haute du 08/06) avec volume croissant pour confirmer un rebond.
 
-Toute position longue actuelle expose à un drawdown de −22,7 % (SL) en 1–2 séances. Le ratio R/R 1,5:1 reste insuffisant pour un trade directionnel.
+Toute position longue actuelle expose à un drawdown de −22,7 % (SL) en 1–2 séances compte tenu du Beta 2,50 et de l'ATR $12,49. Le ratio R/R 1,5:1 reste insuffisant pour un trade directionnel institutionnel.
 
 ---
 
-*Rapport généré le 2026-06-08 — Données : `data/latest.json` (10:00 UTC), `data/recommandations_2026-06-08.json`, `data/upcoming_events_2026-06-08.json`, `data/events_2026-06-08.json`, `data/sector_rotation_2026-06-08.json`, `data/quant_report_2026-05-17.json`, `data/social_sentiment_2026-06-08.json`, `data/fx_exposure_2026-06-08.json`*
+*Rapport généré le 2026-06-08 — Données : `data/latest.json` (13:00 UTC), `data/recommandations_latest.json`, `data/upcoming_events_latest.json`, `data/events_latest.json`, `data/sector_rotation_latest.json`, `data/quant_report_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`*

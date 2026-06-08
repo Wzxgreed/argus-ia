@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
+- **Recommandation :** SURVEILLER
+- **Score global :** 43.3/100
+- **Prix cible :** $147.55 (TP 3×ATR)
+- **Stop-loss :** $85.10 (2×ATR)
+- **Statut thèse :** confirmée
 - **Horizon :** —
 
 ---
@@ -24,13 +24,27 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- RSI 42.89 — neutre-bas, dégradation −9.9 pts depuis le 03/06
+- Divergence consensus — spot +26.3% vs PT $87.19
+- Filtre Qualité 3/6 — hors périmètre institutionnel
+- Ratio R/R 1.5:1 — inférieur au seuil 2:1
+- Volume 0.67× — participation modérée
+- ATR $12.49 — volatilité élevée
+- Distribution active confirmée : gap −8.23% le 08/06, repli cumulé −10.7% depuis le 03/06
+- [ANOMALIE OPTIONS PARTIELLEMENT RÉSOLUE] Max Pain JSON $65.00 (corrigé depuis $45.00 aberrant) — reste éloigné du spot, à interpréter avec prudence
+- Put/Call 0.90 et Call OI 52.7% rétablis dans latest.json (13h UTC)
+- Forward P/E −15142 — valorisation extrême
+- [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $68.78 Mds vs FMP $37.02 Mds
+- Beta 2.50 — sensibilité systématique extrême
+- Support critique : $85.10 (2×ATR)
+- Expiration options 2026-06-12 (4 jours) — risque de volatilité de courte durée
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings Q2 2026 : **2026-08-06** (59 jours) — Est EPS −$0.06 à −$0.02, Rev $0.2 B
+- Expiration options : **2026-06-12** (4 jours)
 
 ---
 
@@ -41,15 +55,19 @@
 - **MM 200j :** —
 - **ATR 14j :** 12.49
 - **Volume moy. 20j :** 31790650
+- **Volume séance :** 21339800 (0.67×)
+- **Beta :** 2.499
+- **52W High/Low :** $151.00 / $25.24
+- **Range intraday :** $106.73 – $117.98
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-08
-- **Type :** full refresh
-- **Fichier :** `RKLB_2026-06-08_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-08
+- **Type :** update (snapshot 13h UTC)
+- **Fichier :** `RKLB_2026-06-08_update.md`
+- **Conclusion :** Stabilité totale des cours et métriques techniques vs snapshot 10h ($110.08 inchangé). Anomalie options partiellement résolue : Max Pain corrigé $65.00 (vs $45.00 aberrant), Put/Call 0.90 et Call OI 52.7% rétablis. Thèse SURVEILLER confirmée. Score global 43.3/100 inchangé. Aucune news fondamentale.
 
 ---
 
