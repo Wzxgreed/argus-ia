@@ -1,11 +1,11 @@
 # FUBO
 
 ## Thèse courante
-**ATTENDRE** — Score Opportunité ajusté ~5.7/10 (plafonné Qualité 1/6, malus sectoriel XLC bottom 3 −0.5 pt, malus earnings anomalie persistante −0.3 pt), Score Global ajusté ~56.5/100 (2026-06-08 snapshot 10h UTC)
+**ATTENDRE** — Score Opportunité ajusté ~5.7/10 (plafonné Qualité 1/6, malus sectoriel XLC bottom 3 −0.5 pt, malus earnings anomalie persistante −0.3 pt), Score Global ajusté ~56.5/100 (2026-06-08 snapshot 13h UTC)
 
-Thèse d'investissement : FUBO est un titre spéculatif du secteur Communication Services (streaming sportif live) avec un profil fondamental dégradé inchangé (Score Qualité 1/6, FCF négatif, current ratio 0,84, debt/equity 2,43, patrimoine net négatif −$398,9M). Le snapshot 2026-06-08 enregistre un **gap technique −6.10% overnight** et une **chute inter-snapshot de −11.0% à $9.54** sur **volume de liquidation 1.02×** (1.28M vs moy. 20j 1.26M), RSI **49.4** (−9.2 pts vs 03/06), franchissement **sous la MM50** ($10.96) profondément creusé à **−12.96%** (vs −3.3%). Le scoring agent est stable **ATTENDRE** (58.0/100 ajusté), Score Opportunité **6.6/10**, Score Momentum **4.0/10** (momentum baissier), timing **Défavorable**. L'anomalie options JSON persiste (max pain **$3.00** aberrant, put/call null, call OI null) avec échéance repoussée au **2026-06-12**. Le short interest est stable à **25.03%** (très élevé). Le setup de short squeeze reste latémaent présent mais non quantifiable sans données options fiables. **Attendre une stabilisation et un retour au-dessus de MM50 ($10.96) avec volume confirmé (>1.0×) avant toute réactivation.**
+Thèse d'investissement : FUBO est un titre spéculatif du secteur Communication Services (streaming sportif live) avec un profil fondamental dégradé inchangé (Score Qualité 1/6, FCF négatif, current ratio 0,84, debt/equity 2,43, patrimoine net négatif −$398,9M). Le snapshot 2026-06-08 enregistre un **gap technique −6.10% overnight** et une **chute à $9.54** sur **volume de liquidation 1.02×** (1.28M vs moy. 20j 1.26M), RSI **49.4**, franchissement **sous la MM50** ($10.96) à **−12.96%**. Le scoring agent est stable **ATTENDRE** (58.0/100 ajusté), Score Opportunité **6.6/10**, Score Momentum **4.0/10** (momentum baissier), timing **Défavorable**. **Anomalie options JSON RÉSOLUE au snapshot 13h UTC** : max pain **$13.00** (vs $3.00 aberrant), put/call **0.25**, call OI **79.7%** — structure haussière re-quantifiable avec spot −26.6% sous max pain. Le short interest est stable à **25.03%** (très élevé). Le setup de short squeeze est re-quantifiable mais reste latent sans catalyseur déclencheur. **Attendre une stabilisation et un retour au-dessus de MM50 ($10.96) avec volume confirmé (>1.0×) avant toute réactivation.**
 
-**Recommandation :** ATTENDRE — pas d'entrée en l'état. Surveiller la résolution de l'anomalie earnings et le comblement éventuel du gap vers $10.16.
+**Recommandation :** ATTENDRE — pas d'entrée en l'état. Surveiller la résolution de l'anomalie earnings et l'échéance options du 2026-06-12.
 
 ## Historique
 | Date | Fichier | Type |
@@ -36,19 +36,20 @@ Thèse d'investissement : FUBO est un titre spéculatif du secteur Communication
 | 2026-06-02 | [FUBO_2026-06-02_update.md](FUBO_2026-06-02_update.md) | Mise à jour snapshot **21:00 UTC** — **correction technique poursuivie −2.72%** à $10.72 (cumulative −6.94% vs previous close), volume recovery partiel 1.07M (0.75×, doublement vs 17h), RSI 58.61 (−3.61 pts), franchissement sous MM50 ($11.09) creusé à −3.3%, spot à −10.7% sous max pain $12.00, scores agents inchangés ATTENDRE 58.0/100, thèse **ATTENDRE CONFIRMÉE (~56.5/100)** |
 | 2026-06-03 | [FUBO_2026-06-03_update.md](FUBO_2026-06-03_update.md) | Mise à jour snapshot **10:00 UTC** — **stabilité totale** vs close 02/06 (cours $10.72 inchangé, RSI 58.61, volume 1.10M / 0.77×), anomalie options JSON détectée et traitée (max pain $3.00 aberrant → valeurs opérationnelles $12.00/0.20/83.2% conservées), scores inchangés ATTENDRE 58.0/100 — thèse **ATTENDRE CONFIRMÉE (~56.5/100)** |
 | 2026-06-08 | [FUBO_2026-06-08_update.md](FUBO_2026-06-08_update.md) | Mise à jour snapshot **10:00 UTC** — **détérioration technique majeure** : gap −6.10% overnight, close $9.54 (−11.0% inter-snapshot), RSI 49.4 (−9.2 pts), volume liquidation 1.28M (1.02×), spot sous MM50 ($10.96) creusé à −12.96%, ATR $0.72 (+10.8%), anomalie options JSON persistante (max pain $3.00, échéance repoussée 2026-06-12), scores inchangés ATTENDRE 58.0/100 — thèse **ATTENDRE CONFIRMÉE ET RENFORCÉE (~56.5/100)** |
+| 2026-06-08 | [FUBO_2026-06-08_update.md](FUBO_2026-06-08_update.md) | Mise à jour snapshot **13:00 UTC** — **stabilité totale** vs 10:00 UTC (cours $9.54, RSI 49.4, volume 1.28M inchangés), **anomalie options JSON RÉSOLUE** (max pain $13.00 vs $3.00 aberrant, put/call 0.25 vs null, call OI 79.7% vs null), structure haussière re-quantifiable, spot −26.6% sous max pain, thèse **ATTENDRE CONFIRMÉE (~56.5/100)** |
 
 ## Agenda
-- **Earnings Q1 2026 :** anomalie calendrier persistante — `upcoming_events_latest.json` (2026-06-02) place l'earnings au **2026-06-02** (jour J, `days_until: 0`). Aucun résultat (EPS, revenue, guidance) n'est visible dans `data/latest.json` au snapshot 17:00 UTC. [ANOMALIE PERSISTANTE]
-- Échéance options : 2026-06-05 (J+3 — max pain $12.00, put/call 0.20, call OI 83.2%)
+- **Earnings Q1 2026 :** anomalie calendrier persistante — `upcoming_events_latest.json` (2026-06-08) place l'earnings au **2026-06-08** (jour J, `days_until: 0`). Aucun résultat (EPS, revenue, guidance) n'est visible dans `data/latest.json` au snapshot 13:00 UTC. [ANOMALIE PERSISTANTE]
+- Échéance options : 2026-06-12 (J+4 — max pain $13.00, put/call 0.25, call OI 79.7%)
 - Prochaine échéance earnings Q2 : ~août 2026
 
 ## Alertes actives
-- **CORRECTION TECHNIQUE + VOLUME COLLAPSE** — Cours −4.34% à $11.02, volume 0.38× (536k), franchissement sous MM50 — 2026-06-02
-- **Downgrade Agent Majeur** — ACHETER Standard 78.5/100 → ATTENDRE 58.0/100, Score Momentum 7.0 → 4.0, timing Favorable → Défavorable — 2026-06-02
-- **Structure Options Haussière Persistante** — Max pain $12.00, put/call 0.20, call OI 83.2%, spot à −8.2% sous max pain → aimant haussier mécanique vers $12.00 à échéance J+3 — 2026-06-02
-- **Short Squeeze Setup (latent)** — short interest 25.03% + call OI dominant 83.2% + put/call 0.20 = risque de squeeze technique si catalyseur positif — 2026-06-02
-- **Earnings Q1 2026 en attente** — anomalie calendrier : `upcoming_events_latest.json` place l'earnings au **2026-06-02** (jour J, `days_until: 0`), mais aucun résultat visible — [ANOMALIE PERSISTANTE]
-- **Divergence Yahoo/FMP Market Cap** — ×10.1 d'écart entre sources ($324.4M vs ~$3.27B)
-- **Sector Rotation XLC Bottom 3** — malus sectoriel actif (snapshot 2026-06-02 : momentum score 0.0 / 10)
+- **Structure Options Haussière Re-quantifiable** — Max pain $13.00, put/call 0.25, call OI 79.7%, spot à −26.6% sous max pain → aimant haussier mécanique vers $13.00 à échéance J+4 (2026-06-12) — 2026-06-08 (snapshot 13h)
+- **Short Squeeze Setup (latent)** — short interest 25.03% + call OI dominant 79.7% + put/call 0.25 = risque de squeeze technique si catalyseur positif — 2026-06-08
+- **Earnings Q1 2026 en attente** — anomalie calendrier : `upcoming_events_latest.json` place l'earnings au **2026-06-08** (jour J, `days_until: 0`), mais aucun résultat visible — [ANOMALIE PERSISTANTE]
+- **Divergence Yahoo/FMP Market Cap** — ×11.6 d'écart entre sources ($280.8M vs ~$3.27B)
+- **Sector Rotation XLC Bottom 3** — malus sectoriel actif (snapshot 2026-06-08 : momentum score 0.0 / 10)
 - **Qualité dégradée** — Score Qualité 1/6, patrimoine net négatif, FCF négatif
 - **ATR_SPIKE** (medium) — ATR relatif persistant depuis 2026-05-17
+- **CORRECTION TECHNIQUE + VOLUME COLLAPSE** — Cours −4.34% à $11.02, volume 0.38× (536k), franchissement sous MM50 — 2026-06-02
+- **Downgrade Agent Majeur** — ACHETER Standard 78.5/100 → ATTENDRE 58.0/100, Score Momentum 7.0 → 4.0, timing Favorable → Défavorable — 2026-06-02

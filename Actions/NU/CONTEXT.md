@@ -12,7 +12,7 @@
 - **Score Opportunité :** 6.7/10 (C:6.5 V:8.0 M:5.0)
 - **Prix Cible :** $17.49 (consensus FMP, 12 analysts)
 - **Stop-Loss :** $10.91 (2×ATR)
-- **Statut Thèse :** Score ajusté 59.2 — snapshot 10:00 UTC 08/06 : cours $11.97 (−1.24% vs previous close), **levée règle de disqualification** (momentum 5.0/10 > 2), RSI 47.19 (+12.77 pts), volume normalisé 48.6M (0.68×), nouveau 52W low $11.20, consensus PT révisé à la baisse $17.49 (−4.9%), fondamentaux intacts (forward P/E 10.45×, upside +46.1%)
+- **Statut Thèse :** Score ajusté 59.2 — snapshot 13:00 UTC 08/06 : cours $11.97 (−1.24% vs previous close), **anomalie options JSON RÉSOLUE** (max pain $12.00 vs aberration $5.00, put/call 1.02, call OI 49.4%), levée règle de disqualification (momentum 5.0/10 > 2), RSI 47.19, volume normalisé 48.6M (0.68×), nouveau 52W low $11.20, consensus PT révisé à la baisse $17.49 (−4.9%), fondamentaux intacts (forward P/E 10.45×, upside +46.1%)
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
@@ -56,8 +56,8 @@
 
 - **Date :** 2026-06-08
 - **Type :** update
-- **Fichier :** `NU_2026-06-08_update.md`
-- **Conclusion :** **Thèse : MODIFIÉE — ATTENDRE (levée de la règle de disqualification, amélioration technique, fondamentaux intacts, mais sous MM50 et nouveau 52W low)**
+- **Fichier :** `NU_2026-06-08_13-00_update.md`
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité totale vs snapshot 10h, anomalie options JSON RÉSOLUE, fondamentaux intacts, mais sous MM50 et structure options légèrement baissière)**
 
 ---
 
