@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $41.59
-- **Statut thèse :** —
-- **Horizon :** —
+- **Recommandation :** ACHETER (Réduit)
+- **Score global :** 61.0/100 (66.0 ajusté)
+- **Prix cible :** $47.54
+- **Stop-loss :** $42.69
+- **Statut thèse :** Modifiée (SURVEILLER → ACHETER Réduit)
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -30,26 +30,30 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-08** · earnings · Earnings ...
+- **2026-06-08** · earnings · Earnings JOUR J — résultats non observables à 17h UTC
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
+- **Cours close :** $44.63
 - **RSI 14j :** 51.62
 - **MM 50j :** 43.59
 - **MM 200j :** —
 - **ATR 14j :** 0.97
-- **Volume moy. 20j :** 2532
+- **Volume session :** 2,251
+- **Volume moy. 20j :** 2,532
+- **Volume vs avg :** 0.89×
+- **52w range :** $40.27–$57.74
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-08
-- **Type :** preview
-- **Fichier :** `TEST_2026-06-08_preview.md`
-- **Conclusion :** > **Date :** 2026-06-08
+- **Type :** update (snapshot 17h UTC)
+- **Fichier :** `TEST_2026-06-08_update_17h.md`
+- **Conclusion :** Rebond technique +2.53% à $44.63, RSI remonté à 51.62 (franchissement seuil 50), cours repassé au-dessus de MM50 ($43.59). Score Global 61.0/100 (66.0 ajusté), Score Momentum 7.3/10. Verdict modifié SURVEILLER → ACHETER (Réduit). Volume faible 0.89× moyenne = rebond sans conviction. Earnings JOUR J toujours non résolu.
 
 ---
 
