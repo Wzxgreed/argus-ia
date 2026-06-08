@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
-- **Horizon :** —
+- **Recommandation :** ACHETER (Sizing Réduit)
+- **Score global :** 61.8/100
+- **Prix cible :** $69.12 (consensus PT 26 analysts)
+- **Stop-loss :** $47.83
+- **Statut thèse :** confirmée
+- **Horizon :** 1–3 mois
 
 ---
 
