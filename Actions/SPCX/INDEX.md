@@ -32,6 +32,7 @@
 | 2026-06-03 | Mise à jour post-pipeline (10h UTC) | [SPCX_2026-06-03_update.md](./SPCX_2026-06-03_update.md) | Thèse confirmée en ATTENDRE — sept snapshots consécutifs sans données, erreur totale persistante (`No price history`), signal sectoriel NEUTRAL, Score Global 55.2/100 (inchangé, artefact mécanique), faux earnings FMP ignoré |
 | 2026-06-08 | Mise à jour post-pipeline (10h UTC) | [SPCX_2026-06-08_update.md](./SPCX_2026-06-08_update.md) | Thèse confirmée en ATTENDRE — douze snapshots consécutifs sans données fiables, conflit de symbole FMP détecté (cours $135.00, OHLC $0.00, sector Aerospace), Score Global 55.2/100 (inchangé) |
 | 2026-06-08 | Mise à jour post-pipeline (13h UTC) | [SPCX_2026-06-08_update.md](./SPCX_2026-06-08_update.md) | Thèse confirmée en ATTENDRE — stabilité totale vs 10h, treize snapshots consécutifs sans données fiables, conflit de symbole persistant, Score Global 55.2/100 (inchangé) |
+| 2026-06-08 | Mise à jour post-pipeline (17h UTC) | [SPCX_2026-06-08_update_17h.md](./SPCX_2026-06-08_update_17h.md) | Thèse confirmée en ATTENDRE — stabilité totale vs 13h, quatorze snapshots consécutifs sans données fiables, conflit de symbole persistant, XLF return_20d légèrement amélioré +1.76%, Score Global 55.2/100 (inchangé) |
 
 ---
 
@@ -41,9 +42,9 @@
 **Prix cible :** N/A (données insuffisantes — cours $135.00 non fiable)
 **Stop-loss :** N/A
 **Upside :** —
-**Dernière mise à jour :** 2026-06-08 (snapshot 13h UTC)
+**Dernière mise à jour :** 2026-06-08 (snapshot 17h UTC)
 
-> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 13h UTC du 08/06 confirme la **stabilité totale** par rapport au snapshot 10h UTC : cours **$135.00** avec OHLC à **$0.00**, volume **0**, secteur `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management` — indiquant que FMP renvoie toujours les données d'une autre entité. L'Agent Recommandation maintient SPCX en **ATTENDRE** avec un Score Global Ajusté de **55.2/100** (Score Opportunité 5.5/10 : C:6.5 V:5.0 M:5.0), timing Neutre, mais ce score est un artefact mécanique (placeholder). Le signal sectoriel reste **`NEUTRAL`** — XLF top3 avec momentum 4.0 (`return_20d` +1.45%). Aucun catalyseur fondamental, news, options ni social. SL/TP non calculables (prix et ATR absents). Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + Score Momentum ≥ 6.0. Si le flux fiable ne revient pas sur les prochains snapshots → reclassement **ÉVITER**.
+> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 17h UTC du 08/06 confirme la **stabilité totale** par rapport au snapshot 13h UTC : cours **$135.00** avec OHLC à **$0.00**, volume **0**, secteur `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management` — indiquant que FMP renvoie toujours les données d'une autre entité. L'Agent Recommandation maintient SPCX en **ATTENDRE** avec un Score Global Ajusté de **55.2/100** (Score Opportunité 5.5/10 : C:6.5 V:5.0 M:5.0), timing Neutre, mais ce score est un artefact mécanique (placeholder). Le signal sectoriel reste **`NEUTRAL`** — XLF top3 avec momentum 3.99 (`return_20d` +1.76%, légère amélioration vs +1.45% au snapshot 13h). Aucun catalyseur fondamental, news, options ni social. SL/TP non calculables (prix et ATR absents). Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + Score Momentum ≥ 6.0. Si le flux fiable ne revient pas sur les prochains snapshots → reclassement **ÉVITER**.
 
 ---
 
@@ -59,6 +60,7 @@
 | 2026-06-01 | Données Yahoo absentes + volume effondré 196 | 🔴 Élevé | [SPCX_2026-06-01_update.md](./SPCX_2026-06-01_update.md) |
 | 2026-06-02 | Stabilité totale sur 6 snapshots, données absentes persistantes | 🔴 Élevé | [SPCX_2026-06-02_update.md](./SPCX_2026-06-02_update.md) |
 | 2026-06-08 | Conflit de symbole FMP détecté : cours $135.00, OHLC $0.00, sector Aerospace | 🔴 Élevé | [SPCX_2026-06-08_update.md](./SPCX_2026-06-08_update.md) |
+| 2026-06-08 | Snapshot 17h UTC — stabilité totale, quatorze snapshots sans données fiables | 🔴 Élevé | [SPCX_2026-06-08_update_17h.md](./SPCX_2026-06-08_update_17h.md) |
 
 ---
 

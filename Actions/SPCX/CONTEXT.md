@@ -8,12 +8,12 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ATTENDRE
-**Prix cible :** N/A (données insuffisantes — cours $135.00 non fiable)
-**Stop-loss :** N/A
-**Upside :** —
-**Dernière mise à jour :** 2026-06-08 (snapshot 13h UTC)
+- **Prix cible :** N/A (données insuffisantes — cours $135.00 non fiable)
+- **Stop-loss :** N/A
+- **Upside :** —
+- **Dernière mise à jour :** 2026-06-08 (snapshot 17h UTC)
 
-> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 13h UTC du 08/06 confirme la **stabilité totale** par rapport au snapshot 10h UTC : cours **$135.00** avec OHLC à **$0.00**, volume **0**, secteur `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management` — indiquant que FMP renvoie toujours les données d'une autre entité. L'Agent Recommandation maintient SPCX en **ATTENDRE** avec un Score Global Ajusté de **55.2/100** (Score Opportunité 5.5/10 : C:6.5 V:5.0 M:5.0), timing Neutre, mais ce score est un artefact mécanique (placeholder). Le signal sectoriel reste **`NEUTRAL`** — XLF top3 avec momentum 4.0 (`return_20d` +1.45%). Aucun catalyseur fondamental, news, options ni social. SL/TP non calculables (prix et ATR absents). Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + Score Momentum ≥ 6.0. Si le flux fiable ne revient pas sur les prochains snapshots → reclassement **ÉVITER**.
+> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 17h UTC du 08/06 confirme la **stabilité totale** par rapport au snapshot 13h UTC : cours **$135.00** avec OHLC à **$0.00**, volume **0**, secteur `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management` — indiquant que FMP renvoie toujours les données d'une autre entité. L'Agent Recommandation maintient SPCX en **ATTENDRE** avec un Score Global Ajusté de **55.2/100** (Score Opportunité 5.5/10 : C:6.5 V:5.0 M:5.0), timing Neutre, mais ce score est un artefact mécanique (placeholder). Le signal sectoriel reste **`NEUTRAL`** — XLF top3 avec momentum 3.99 (`return_20d` +1.76%, légère amélioration vs +1.45% au snapshot 13h). Aucun catalyseur fondamental, news, options ni social. SL/TP non calculables (prix et ATR absents). Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + Score Momentum ≥ 6.0. Si le flux fiable ne revient pas sur les prochains snapshots → reclassement **ÉVITER**.
 
 ---
 
@@ -57,9 +57,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-08
-- **Type :** preview
-- **Fichier :** `SPCX_2026-06-08_preview.md`
-- **Conclusion :** > **Date :** 2026-06-08
+- **Type :** update
+- **Fichier :** `SPCX_2026-06-08_update_17h.md`
+- **Conclusion :** Snapshot 17h UTC 08/06 : stabilité totale vs 13h UTC, quatorze snapshots consécutifs sans données fiables, conflit de symbole FMP persistant (cours $135.00, OHLC $0.00, volume 0, sector Industrials/Aerospace au lieu de Financial Services/Asset Management). Score Global 55.2/100 (inchangé, artefact mécanique). Signal sectoriel NEUTRAL avec légère amélioration XLF return_20d +1.76% (vs +1.45% au snapshot 13h). Aucun catalyseur ni news. Faux earnings FMP ignoré.
 
 ---
 
