@@ -1644,26 +1644,18 @@ Données close officiel : cours $66.60 (−1.04% vs snapshot 17h), RSI 61.11, AT
 - price_gap (high) : Gap -12.14% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.36% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** modifiée — DRAFT_refresh traité le 2026-06-08 (pipeline différé). Correction −12.14% confirmée.
 
 ---
 
-## 2026-06-08 — Full Refresh Triggered
+## 2026-06-08 — Full Refresh Completed
 
 **Triggers :**
 - price_gap (high) : Gap -12.14% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 10.36% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** MODIFIÉE favorablement
 
----
-
-## 2026-06-08 — Full Refresh Triggered
-
-**Triggers :**
-- price_gap (high) : Gap -12.14% overnight (seuil ±5.0%)
-- atr_spike (medium) : ATR relatif 10.36% (seuil 5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
+Le DRAFT_refresh a été complété par l'agent LLM. Correction majeure −18.4% vs close 03/06 ($66.60→$54.35). Consensus PT révisé à la hausse $69.12 (+27.2% upside, +3 analysts). RSI retourne zone neutre (51.49). MM50 respectée ($49.89, cours +8.9%). Multiples mécaniquement réduits (P/E 70.6×, EV/EBITDA 143.9×, P/B 7.0×). Action passée de ATTENDRE à ACHETER (Sizing Réduit). Score Global 61.8/100. Risques : corrélation BTC (beta 2.1), volatilité extrême (beta 4.232), FCF négatif. Fichier généré : `IREN_2026-06-08_init.md`. DRAFT_refresh archivé.
 
 ---

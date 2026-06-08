@@ -63,6 +63,7 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 | 2026-06-01 | **Volume de séance révisé à 6.13M (1.06×) vs 3.71M (0.65×) au snapshot 17h** | 🟢 Correction positive — rebond sur participation standard | VRT_2026-06-01_update.md |
 | 2026-06-02 | **Anomalie options pré-marché : max pain $160, put/call null, call OI null** | 🟡 Artefact probable — identique aux anomalies 19–20 mai. Valeurs confirmées 01/06 conservées | VRT_2026-06-02_update.md |
 | 2026-06-02 | **Anomalie options RÉSOLUE à 13:00 UTC : max pain $220, put/call 2.08, call OI 32.4%** | 🟢 Données options normalisées. Put/call amélioré −13.7% vs 01/06. Orientation baissière atténuée | VRT_2026-06-02_update.md |
+| 2026-06-08 | **Gap down −7.23% overnight — rupture MM50, RSI 23.84, volume explosion 1.25×** | 🔴 Distribution institutionnelle confirmée. Score 30.8/100 ÉVITER. Thèse MODIFIÉE | VRT_2026-06-08_update.md |
 
 ---
 
@@ -70,5 +71,5 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 
 | Date | Événement |
 |------|-----------|
-| 2026-06-05 | Expiration options — max pain confirmé $220, put/call 2.41, call OI 29.3%. Risque volatilité (3 jours) |
-| 2026-07-29 | Earnings Q2 FY2026 — Est EPS $1.38-$1.59, Rev $3.4B (58 jours) |
+| 2026-06-12 | Expiration options — anomalie pré-marché $160/null/null (à confirmer). Risque volatilité (4 jours) |
+| 2026-07-29 | Earnings Q2 FY2026 — Est EPS $1.38-$1.59, Rev $3.4B (51 jours) |

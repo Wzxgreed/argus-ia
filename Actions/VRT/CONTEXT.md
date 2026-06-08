@@ -45,7 +45,8 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **2026-06-12** — Expiration options (anomalie pré-marché à confirmer)
+- **2026-07-29** — Earnings Q2 FY2026 (51 jours)
 
 ---
 
@@ -69,16 +70,16 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-08
-- **Type :** full refresh
-- **Fichier :** `VRT_2026-06-08_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-08
+- **Type :** update
+- **Fichier :** `VRT_2026-06-08_update.md`
+- **Conclusion :** Gap down −7.23% overnight avec rupture MM50. Cours $300.51, RSI 23.84 (survente extrême), volume explosion 1.25× (7.30M, distribution confirmée), low $294.40 (casse supports). Score 3.4/10. ÉVITER (Score Global Ajusté 30.8/100). Thèse MODIFIÉE — nuance baissière intensifiée, passage ÉVITER.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap -7.23% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 6.59% (seuil 5.0%)
+- **PRICE_GAP** (medium) — Gap -7.23% overnight (seuil ±5.0%) → Traité dans VRT_2026-06-08_update.md
+- **ATR_SPIKE** (medium) — ATR relatif 6.59% (seuil 5.0%) → Traité dans VRT_2026-06-08_update.md
 
 ---
 

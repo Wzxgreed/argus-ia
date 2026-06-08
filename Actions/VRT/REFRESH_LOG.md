@@ -1,5 +1,15 @@
 # VRT — Historique des Full Refreshes
 
+## 2026-06-08 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -7.23% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 6.59% (seuil 5.0%)
+
+**Conclusion :** Thèse **MODIFIÉE** — nuance baissière intensifiée, passage de **SURVEILLER à ÉVITER**. Le cours a chuté de $334.49 à $300.51 (−10.16% vs dernier snapshot, −7.23% vs previous close), avec rupture de la MM50 ($313.08, cours −4.0% en-dessous) et RSI plongé en survente extrême (23.84). Le volume a explosé à 1.25× (7.30M, distribution institutionnelle confirmée). Le low $294.40 rompt les supports précédents ($324, $331). Les fondamentaux restent inchangés structurellement (Quality Compounder 5–6/6, ROIC 18.5%, moat IA) mais la correction est purement technique/market-driven. Le Score Global Ajusté s'effondre à **30.8/100** (zone ÉVITER). Le Score Momentum chute de 6.0 à **3.5/10**. Timing recalculé **Défavorable**. Options anomalie pré-marché ($160/null/null) — probable artefact identique aux anomalies 19–20 mai et 2–3 juin, valeurs confirmées 03/06 conservées. DRAFT archivé. Voir [VRT_2026-06-08_update.md](./VRT_2026-06-08_update.md).
+
+---
+
 ## 2026-05-19 — Full Refresh Triggered (artefact algorithmique)
 
 **Triggers :**
