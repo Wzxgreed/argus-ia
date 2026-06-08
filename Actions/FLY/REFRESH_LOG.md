@@ -1,5 +1,15 @@
 # FLY — Historique des Full Refreshes
 
+## 2026-06-08 — Full Refresh Triggered (snapshot 13h UTC)
+
+**Triggers :**
+- price_gap (high) : Gap -12.65% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 16.98% (seuil 5.0%)
+
+**Conclusion :** Modifiée en intensité négative — gap -12.65% sans catalyst, cassure MM50 ($38.63), momentum basculé baissier (4.0/10). Anomalie options RÉSOLUE au snapshot 13h UTC : max pain $40.00, put/call 1.08, call OI 48.1% restaurés. Agent SURVEILLER (45.0). Full Refresh complété sous `FLY_2026-06-08_init.md`. Update complémentaire `FLY_2026-06-08_update.md` (snapshot 13h). DRAFT_refresh archivé.
+
+---
+
 ## 2026-05-17 — Full Refresh Triggered
 
 **Triggers:**

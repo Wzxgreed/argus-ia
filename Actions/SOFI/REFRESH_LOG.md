@@ -850,3 +850,17 @@
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-06-08 — Full Refresh Conclu (snapshot 13:00 UTC, DRAFT résiduel traité)
+
+**Triggers :**
+- price_gap (medium) : Gap -6.53% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 6.18% (seuil 5.0%)
+
+**Conclusion :** ARCHIVÉ — DRAFT_refresh résiduel traité par l'update du 2026-06-08 (snapshot 13:00 UTC). Même conclusion que le full refresh du 2026-06-08 10:00 UTC : **INVALIDE**.
+- Le snapshot 13:00 UTC confirme l'absence de changement de données vs le snapshot 10:00 UTC : cours $16.03, RSI 52.78, ATR $0.99, MM50 $16.75, volume 81.21M (1.15×). Les données de clôture sont identiques car il s'agit du même close du 05/06 (pré-ouverture lundi matin avant 9:30 ET).
+- **[RÉSOLU]** Anomalie options JSON corrigée dans `data/latest.json` (snapshot 13:00 UTC) : Max Pain $17.00 (vs $5.00 aberrant à 10:00 UTC), Put/Call 0.57 (vs `null`), Call OI 63.7% (vs `null`).
+- Thèse précédente (ACHETER) reste invalidée : breakout MM50 du 01/06 rompu, Score Global ajusté 49.8/100 (SURVEILLER), SL $14.05, TP $19.00.
+- **Action :** DRAFT_refresh archivé (`_DRAFT_refresh_2026-06-08_ARCHIVED.md`). La mise à jour `SOFI_2026-06-08_update.md` est à jour et intègre la correction options.
+
+---
