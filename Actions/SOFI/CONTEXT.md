@@ -31,11 +31,10 @@ Le Forward P/E **20.54** s'améliore mécaniquement mais ne compense pas le mome
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** —/10
-- **Prix cible :** $20.47
-- **Stop-loss :** $15.92
-- **Statut thèse :** invalide
-- **Horizon :** —
+
+| Date | Événement | Impact | Fichier |
+|------|-----------|--------|---------|
+| 2026-06-08 | Gap baissier −6.53% invalidant breakout MM50 | 🔴 Élevé — Thèse invalidée | [SOFI_2026-06-08_update.md](./SOFI_2026-06-08_update.md) |
 
 ---
 
@@ -47,34 +46,39 @@ Le Forward P/E **20.54** s'améliore mécaniquement mais ne compense pas le mome
 
 ## 🚨 Alertes actives
 
-- Baisse — $13.97 (SL 2×ATR) — 🟢 Active
-- Hausse — $19.51 (prix cible) — 🟢 Active
-- Volume — >2× moy. 20j (>XXM) — 🟢 Active
+- Baisse — $14.05 (SL 2×ATR) — 🟢 Active
+- Hausse — $19.00 (prix cible) — 🟢 Active
+- Volume — >2× moy. 20j (>140.9M) — 🟢 Active
+- Cassure MM50 — Cours < $16.75 — 🔴 Déclenchée le 05/06
+- Gap baissier — Gap < −5% — 🔴 Déclenchée le 05/06
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- 2026-07-28 — Earnings Q2 FY2026 (est. EPS $0.10–$0.11, Rev $1.1B) — dans 50j
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
+- **Cours close :** $16.03
 - **RSI 14j :** 52.78
 - **MM 50j :** 16.75
 - **MM 200j :** —
 - **ATR 14j :** 0.99
 - **Volume moy. 20j :** 70441210
+- **Change % :** −6.53%
+- **Volume du jour :** 81,213,200 (1.15×)
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-08
-- **Type :** full refresh
-- **Fichier :** `SOFI_2026-06-08_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-08
+- **Type :** update
+- **Fichier :** `SOFI_2026-06-08_update.md`
+- **Conclusion :** Gap −6.53% invalidant le breakout MM50 du 01/06. Reclassement ACHETER → SURVEILLER. Score Global ajusté 49.8/100. Cours $16.03, RSI 52.78, sous MM50. Distribution sur volume 1.15×. Données options corrompues. Aucune entrée recommandée jusqu'à reclaim MM50 ou rebond sur $15.68 avec volume.
 
 ---
 

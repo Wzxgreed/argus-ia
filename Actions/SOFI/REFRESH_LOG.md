@@ -1,5 +1,23 @@
 # SOFI — Historique des Full Refreshes
 
+## 2026-06-08 — Full Refresh Conclu (snapshot 10:00 UTC)
+
+**Triggers :**
+- price_gap (medium) : Gap -6.53% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 6.18% (seuil 5.0%)
+
+**Conclusion :** INVALIDE — Le breakout MM50 du 01/06 est rompu. Thèse précédente (ACHETER) invalidée.
+- Le gap baissier de −6.53% à $16.03 sur volume 1.15× a cassé le support MM50 ($16.75) et invalidé le breakout haussier de 4 séances.
+- Le RSI est retombé de 63.90 à 52.78, le Score Momentum de 6.0 à 4.0/10 (baissier), et le Score Global ajusté de 65.8 à 49.8/100 (zone SURVEILLER).
+- Aucun événement corporate ni news négative — la rupture est technique/macro-correlée (beta 2.152, secteur XLF faible).
+- La valorisation s'améliore mécaniquement (Forward P/E 20.54) mais ne compense pas le momentum perdu.
+- Données options corrompues dans `data/latest.json` (Max Pain $5.00 aberrant, Put/Call et Call OI null) — impossible d'évaluer le sentiment options.
+- Recommandation : **ACHETER → SURVEILLER**. Aucune entrée recommandée. SL $14.05, TP $19.00, Ratio R/R 1.5×.
+- Conditions pour réactiver ACHETER : (1) reclaim MM50 $16.75 avec volume >1.0×, (2) rebond vif sur $15.68 avec RSI >55, ou (3) catalyseur fondamental positif.
+- **Action :** DRAFT_refresh archivés (`SOFI_2026-06-03_DRAFT_refresh_ARCHIVED.md` à `SOFI_2026-06-08_DRAFT_refresh_ARCHIVED.md`). Pas de réécriture de `_init.md` requise — la structure fondamentale du 2026-05-17 reste inchangée, mais la thèse technique est invalidée. La mise à jour `SOFI_2026-06-08_update.md` capture la nouvelle posture.
+
+---
+
 ## 2026-05-17 — Full Refresh Triggered
 
 **Triggers :**
