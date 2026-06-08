@@ -27,26 +27,27 @@
 | 2026-06-02 17:00 UTC | Mise a jour | [AAL_2026-06-02_update.md](./AAL_2026-06-02_update.md) | **Snapshot 17:00 UTC** : repli technique -2.68% a $13.96 sur **volume collapse 0.35x** (22.75M vs 65.79M avg). RSI 63.76 (-4.22 pts, sortie zone surachat). **Support $14.00 CASSÉ**. Forward P/E 6.26. Options stables (put/call 1.46, max pain $15.50, call OI 40.7%). Sector signal passe ROTATION_TO_CYCLICAL → NEUTRAL. Score agent 6.0/10 maintenu mais **these MODIFIEE** — recommandation institutionnelle passe SURVEILLER. SL $12.74, TP $15.79, R/R 1.5. |
 | 2026-06-02 21:00 UTC | Mise a jour | [AAL_2026-06-02_update.md](./AAL_2026-06-02_update.md) | **Snapshot 21:00 UTC** : stabilite $13.93 (-0.21% vs 17h), volume total **49.13M** (+116% vs 17h grace aux after-hours). Support $14.00 **non recupere**. RSI 63.42 (stable). XLI RS20 vs SPY **-3.91%** (amelioration marginale). Options inchangées. **These SURVEILLER CONFIRMEE** — volume after-hours compensateur mais sans rebond de prix. SL $12.71, TP $15.76, R/R 1.5. |
 | 2026-06-03 13:00 UTC | Mise a jour | [AAL_2026-06-03_update.md](./AAL_2026-06-03_update.md) | **Snapshot 13:00 UTC** : stabilité totale vs 02/06 21h — cours $13.93 inchangé, RSI 63.42, volume 49.41M (-26.4% vs moyenne). **Anomalie options corrompues RÉSOLUE** : Put/Call 1.42 (vs 1.46), Max Pain $15.50, Call OI 41.3% (vs 40.7%). Earnings dans 50 jours. Score agent 6.0/10 (ACHETER sizing réduit), verdict institutionnel **SURVEILLER CONFIRME**. SL $12.71, TP $15.76, R/R 1.5. |
+| 2026-06-08 10:00 UTC | Mise a jour | [AAL_2026-06-08_update.md](./AAL_2026-06-08_update.md) | **Snapshot 10:00 UTC** : recul technique −3.1% a $13.50 sur **volume explosif +51.3%** (105.99M vs 70.08M avg). Forward P/E 6.06 (asymetrie renforcee). RSI 61.83 (detente saine). MM50 $12.34 (cours +9.4%). RS20 XLI vs SPY −0.71% (amelioration vs −3.91%). **Anomalie options RECURRENTE** (Max Pain $5.00 aberrant). Score agent **6.1/10**, Score Global ajuste **66.0/100**. These **ACHETER (Sizing Reduit) REACTIVEE**. SL $12.20, TP $15.45, R/R 1.5. |
 
 ---
 
 ## Thèse d'investissement courante
 
-**Recommandation :** SURVEILLER  
-**Prix cible :** $15.76 (cours + 3×ATR) / Reviser a $16.60 si consensus confirme sur volume > 50M  
-**Stop-loss :** $12.71 (cours - 2×ATR, confluence ancien gap + MM50)  
-**Upside/Downside :** +13.1% / -8.8%  
-**Derniere mise a jour :** 2026-06-03 (snapshot 13:00 UTC)
+**Recommandation :** ACHETER (Sizing Réduit)  
+**Prix cible :** $15.45 (cours + 3×ATR) / Reviser a $16.60 si consensus confirme sur volume > 80M  
+**Stop-loss :** $12.20 (cours - 2×ATR, confluence MM50 + ancien gap)  
+**Upside/Downside :** +14.4% / -9.6%  
+**Derniere mise a jour :** 2026-06-08 (snapshot 10:00 UTC)
 
-American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). Le rally du 20–27/05 a matérialise **+24.3%** ($12.06 → $14.99). Le repli du 01/06 en seance reguliere a **$14.22 (-2.87%)** a ete suivi d'un **rebond post-session a $14.34 (+0.84%)** sur un **volume after-hours massif de 67.98M**. Le snapshot du 02/06 13h confirmait la **stabilite totale** a **$14.34** avec volume **69.02M** (+3.8% vs moyenne). Le **snapshot 17h** (cloture officielle) a revele un **repli technique -2.68% a $13.96** sur un **volume collapse dramatique de 22.75M** (0.35x la moyenne), cassant le **support cle $14.00**. Le **snapshot 21h** montrait une **stabilite du cours a $13.93** avec un **volume total de 49.13M** — soit ~26M actions echangees en after-hours **sans mouvement de prix** (equilibre acheteurs/vendeurs). Le **snapshot matinal 03/06 10h** confirmait la **stabilite totale** : cours **$13.93** (inchangé), RSI **63.42**, volume **49.41M** (-26.4% vs moyenne), toutes les données techniques et fondamentales identiques au 21h 02/06. Le **snapshot 13h** corrige l'anomalie options : Put/Call **1.42** (vs 1.46), Call OI **41.3%** (vs 40.7%), Max Pain **$15.50** (inchangé). Le RSI est stable a **63.42**, la MM50 est a **$12.18** (cours +14.3% au-dessus), et le short interest est stable a **12.87%**. Le Forward P/E est a **6.25** (asymetrie intacte). **Consensus FMP $16.60** (17 analystes). Le score agent est stable a **6.0/10** mais le verdict institutionnel Argus-IA est **SURVEILLER CONFIRME**.
+American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). Le rally du 20–27/05 a matérialise **+24.3%** ($12.06 → $14.99). Le repli post-rally s'est poursuivi jusqu'a **$13.50 (05/06)** sur un **volume explosif de 105.99M (+51.3% vs moyenne)**. Ce recul de −3.1% sur deux seances combine a un volume en explosion cree un setup d'accumulation contrarian renouvele. Le Forward P/E est tombe a **6.06** (asymetrie renforcee). Le RSI est en detente a **61.83**. La MM50 monte a **$12.34** (cours +9.4%). Le RS20 XLI vs SPY s'est considerablement ameliore a **−0.71%** (vs −3.91%). Le score agent est remonte a **6.1/10** et le score global ajuste a **66.0/100**, reactivant la these **ACHETER (Sizing Reduit)**. **⚠️ Anomalie data quality options RECURRENTE** dans `data/latest.json` 08/06 (Max Pain $5.00 aberrant, Put/Call null) — utiliser le snapshot 13h 03/06 comme reference (Max Pain $15.50, Put/Call 1.42, Call OI 41.3%).
 
-**Donnees options (snapshot 13:00 UTC 03/06)** : Put/Call **1.42** (amélioration vs 1.46), Max Pain **$15.50** (cours $1.57 sous le max pain = pinning theorique de +11.3%), Call OI **41.3%** (+0.6 pt vs 40.7%). L'expiration du 05/06 (dans 2 jours) reste un catalyseur technique potentiel. **✅ Anomalie data quality options résolue dans latest.json 03/06 13h.**
+**Donnees options (dernier snapshot valide : 13h UTC 03/06)** : Put/Call **1.42** (vs 1.46), Max Pain **$15.50**, Call OI **41.3%** (vs 40.7%). L'expiration du 12/06 (dans 4 jours) reste un catalyseur technique potentiel. **⚠️ Anomalie data quality options RECURRENTE dans latest.json 08/06** (Max Pain $5.00 aberrant, Put/Call null, Call OI null).
 
-**Sector rotation NEUTRAL** : Signal **NEUTRAL** (inchangé). XLI return 20d **+1.88%**, RS20 vs SPY **-3.91%** (amelioration technique marginale mais sans momentum score). La perte du signal sectoriel favorable continue de retirer un soutien au trade.
+**Sector rotation NEUTRAL ameliore** : Signal **NEUTRAL** mais avec amelioration significative du RS20 XLI vs SPY **−0.71%** (vs −3.91%). XLI return 20d **+0.10%**, momentum score **2.05** (vs 0.0). La sous-performance sectorielle s'est considerablement reduite.
 
-**Verdict institutionnel :** La these tactique **SURVEILLER est CONFIRMEE.** Le snapshot matinal du 03/06 ne rapporte aucune nouvelle donnée par rapport au 02/06 21h. La **cassure du support $14.00** n'a pas ete recuperee. Le setup options (Max Pain $15.50, Call OI 40.7%) reste theoriquement favorable avec l'expiration dans 2 jours. **Un retour au-dessus de $14.00 en session reguliere sur volume > 40M reste necessaire pour reactiver la these ACHETER.** Le ratio R/R reste favorable a 1.5 (SL $12.71, TP $15.76) mais le niveau de confiance est degrade depuis la cassure de $14.00. Le bilan extremement fragile (current ratio 0.50, tangible asset value negatif) impose la prudence. AAdvantage (programme loyalty) reste le hidden asset (~$20-25B > market cap).
+**Verdict institutionnel :** La these tactique passe de **SURVEILLER → ACHETER (Sizing Reduit)**. Le recul a $13.50 sur un **volume explosif de +51.3%** est interprete comme un signal d'accumulation potentiel. Le Forward P/E 6.06 est un niveau rare pour une legacy airline. Cependant, le support **$14.00 reste casse** depuis le 02/06 et le bilan est toujours extremement fragile (current ratio 0.50, tangible asset value negatif). Le sizing reduit est imperatif. **Un retour au-dessus de $14.00 sur volume > 80M confirmerait l'accumulation.** Si le volume du 05/06 etait de la distribution (et non de l'accumulation), le support $13.20 cedera rapidement. AAdvantage (programme loyalty) reste le hidden asset (~$20-25B > market cap).
 
-**✅ Donnees completes** — Cours, RSI, ATR, P/E, beta, consensus FMP, short interest, volume disponibles dans `data/2026-06-03.json` (snapshot 10:00 UTC). Options valides dans `data/2026-06-02.json` (snapshot 21:00 UTC).  
+**✅ Donnees completes** — Cours, RSI, ATR, P/E, beta, consensus FMP, short interest, volume disponibles dans `data/2026-06-08.json` (snapshot 10:00 UTC). Options corrompues — utiliser snapshot 13h 03/06 comme reference.  
 **⚠️ Donnees partielles** — Accounting risk (M-Score, Z-Score, F-Score, Sloan) : fichier indisponible. Quant report insuffisant. MACD, MM200, IV Rank, insider trades detailles, 13F complets, ETF flows, dark pool, transcripts NLP, job postings.
 
 ---
@@ -63,7 +64,7 @@ American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) a
 
 | Date | Evenement |
 |------|-----------|
-| 2026-06-05 | Expiration options (Max Pain $15.50) — risque gamma |
+| 2026-06-12 | Expiration options (Max Pain $15.50, dernier snapshot valide) — risque gamma |
 | 2026-07-23 | Earnings Q2 FY2026 — Est EPS -$0.34 a $0.52, Rev $16.6B |
 | 2026-06-XX | Decision Fed — impact taux sur cout de la dette |
 
@@ -79,5 +80,5 @@ Voir [SUPPLY_CHAIN.md](./SUPPLY_CHAIN.md)
 
 - Analyse initiale : [AAL_2026-05-17_init.md](./AAL_2026-05-17_init.md)
 - Mise a jour 2026-05-18 : [AAL_2026-05-18_update.md](./AAL_2026-05-18_update.md)
-- Derniere mise a jour : [AAL_2026-06-03_update.md](./AAL_2026-06-03_update.md)
+- Derniere mise a jour : [AAL_2026-06-08_update.md](./AAL_2026-06-08_update.md)
 - Contexte court terme : [CONTEXT.md](./CONTEXT.md)

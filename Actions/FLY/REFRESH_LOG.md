@@ -1689,7 +1689,7 @@
 - price_gap (high) : Gap -12.65% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 16.98% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Modifiée en intensité négative — gap -12.65% sans catalyst, cassure MM50 ($38.63), momentum basculé baissier (4.0/10). Agent SURVEILLER (45.0). Thèse défavorable renforcée. DRAFT_refresh traité et archivé dans `FLY_2026-06-08_update.md`.
 
 ---
 
@@ -1699,6 +1699,6 @@
 - price_gap (high) : Gap -12.65% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 16.98% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Traitée dans l'entrée précédente. Données identiques. DRAFT_refresh archivé.
 
 ---

@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
+- **Recommandation :** SURVEILLER
+- **Score global :** 45.0/10
+- **Prix cible :** $43.25 (consensus 12 analysts)
+- **Stop-loss :** $23.84
+- **Statut thèse :** modifiée en intensité négative
 - **Horizon :** —
 
 ---
@@ -24,13 +24,15 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- **CASSURE MM50** — Cours $36.10 sous MM50 $38.63 (seuil fracturé le 2026-06-08).
+- **ANOMALIE DATA OPTIONS** — Max pain $20.00 aberrant dans latest.json depuis le 2026-06-03. Put/call et call OI null. [DONNÉES PARTIELLES].
+- **SHORT INTEREST ÉLEVÉ** — 9.78% stable. Pression vendeuse persistante, pas de setup squeeze.
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Prochain earnings : **2026-08-04** (Q2 2026) — Est EPS -$0.61 à -$0.45, Rev $0.1B (57 jours)
 
 ---
 
@@ -47,9 +49,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-08
-- **Type :** full refresh
-- **Fichier :** `FLY_2026-06-08_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-08
+- **Type :** update
+- **Fichier :** `FLY_2026-06-08_update.md`
+- **Conclusion :** Gap -12.65% à $36.10, cassure MM50, momentum basculé baissier (4.0/10). Agent SURVEILLER (45.0). Thèse défavorable modifiée en intensité négative. Aucun catalyst identifié.
 
 ---
 
@@ -57,6 +59,7 @@
 
 - **PRICE_GAP** (high) — Gap -12.65% overnight (seuil ±5.0%)
 - **ATR_SPIKE** (medium) — ATR relatif 16.98% (seuil 5.0%)
+- **Traitement :** _update.md créé, DRAFT_refresh archivé.
 
 ---
 

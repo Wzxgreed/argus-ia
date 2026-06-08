@@ -1,7 +1,7 @@
 # PLTR
 
 ## These courante
-**ATTENDRE** — Stabilite totale du snapshot 13h UTC 2026-06-03 vs snapshot 10h : cours $152.17 inchangé, RSI 64.74 stable, volume 42.73M (0.95× moyenne) confirmé. **Anomalie options JSON RESOLUE** dans `latest.json` (Max Pain $160.00 restauré, Put/Call 0.48, Call OI 67.4%) — structure légèrement plus haussière que le snapshot 21h 02/06 (0.50 / 66.8%). Correction technique −5.28% du 02/06 digérée sur volume normal sans panique. Valorisation de croissance extreme (P/E 173-259x, EV/Revenue 72-94x) contrebalancée par fondamentaux solides (marges 82/32/36%, bilan quasi-sans dette, ROIC 18%). Timing technique **retournement haussier intact** (cours +7.2% au-dessus MM50 $141.92). Max Pain $160.00 = aimant gamma potentiel à expiration 06/05 dans 2 jours. Attendre repli vers $145-$149 avec volume > 40M avant évaluation d'entrée. XLK top sectoriel (momentum 10.0/10, RS20 +16.5%) reste un vent favorable structurel. Score Opportunité 5.2/10, Score Global ajusté 56.8/100 — seuil ATTENDRE maintenu.
+**SURVEILLER** — **Deterioration technique majeure** sur le snapshot 10h UTC 2026-06-08 : cours $135.53 (−10.93% vs 03/06), **cassure sous MM50 $140.90** (−3.8%), invalidation du retournement haussier de court terme. RSI retombé en zone neutre (51.25, −13.49 pts), ATR expandu $7.29 (+8.97%), volume faible 38.11M (0.93× moyenne) — baisse sans capitulation ni soutien. Options anomalie JSON récurrente (Max Pain $50.00 aberrant). Aucune news structurante, aucune révision analyste — mouvement purement technique. Valorisation mécaniquement moins extrême (P/E 152x, EV/Revenue 60.7x) mais reste incompatible avec taux élevés. Fondamentaux solides inchangés (marges 82/32/36%, ROIC 18%, bilan quasi-sans dette). XLK reste top sectoriel mais vent atténué (RS20 +5.44% vs +16.5%). Score Opportunité 5.3/10, Score Global ajusté 45.0/100 — passage sous seuil ATTENDRE. Attendre retour en clôture > MM50 $140.90 + volume > 40M avant réactivation de la thèse haussière.
 
 ## Historique
 | Date | Fichier | Type | Conclusion |
@@ -28,25 +28,26 @@
 
 ## Agenda
 - **Prochain earnings :** 2026-08-03 (Q2 FY2026, Est. EPS $0.32-$0.40, Rev $1.8B)
-- **Expiration options :** 2026-06-05 (2 jours)
+- **Expiration options :** 2026-06-12 (4 jours) — anomalie JSON récurrente, dernière valeur valide Max Pain $160.00 (03/06)
 
 ## Alertes actives
-- Aucune alerte seuil declenchee
+- 🔴 **Cassure MM50** — Cours $135.53 sous MM50 $140.90 (snapshot 08/06) — invalidation retournement haussier
 - Warning : `data/accounting_risk_latest.json` absent — Filtre Qualite non alimente
 - Alerte technique RESOLUE : RSI 35.66 < 40 — retour en zone de survente depuis le 25/05 (resolu le 26/05 17:00 UTC, RSI 52.85)
 - Anomalie options JSON RESOLUE snapshot 26/05 13:00 UTC — Put/Call 0.55, Max Pain $140.00, Call OI 64.4% valides et coherents
 - Anomalie options JSON RESOLUE snapshot 27/05 13:00 UTC — valeurs validees (Put/Call 0.49, Max Pain $140.00, Call OI 67.0%)
 - Anomalie options JSON snapshot 01/06 — Max Pain aberrant $50.00, Put/Call null, Call OI null — donnees non exploitables (RESOLUE snapshot 01/06 13:00 UTC)
 - Anomalie options JSON snapshot 03/06 10h UTC — Max Pain aberrant $50.00, Put/Call null, Call OI null (RESOLUE snapshot 03/06 13h UTC : Max Pain $160.00, Put/Call 0.48, Call OI 67.4%)
+- 🟡 **Anomalie options JSON snapshot 08/06 10h UTC** — Max Pain aberrant $50.00, Put/Call null, Call OI null — pattern récurrent 10h UTC. Dernière valeur valide : Max Pain $160.00, Put/Call 0.48, Call OI 67.4% (03/06 13h UTC)
 
-## Contexte technique (dernier snapshot 21:00 UTC)
-- Cours : $152.17
-- RSI 14j : 64.74
-- MM 50j : 141.92
+## Contexte technique (dernier snapshot 10:00 UTC)
+- Cours : $135.53
+- RSI 14j : 51.25
+- MM 50j : 140.90
 - MM 200j : —
-- ATR 14j : 6.69
-- Volume 20j moy. : 44,879,421
-- Volume jour : 42,489,927
-- Max Pain : $160.00
-- Put/Call : 0.50
-- Call OI % : 66.8%
+- ATR 14j : 7.29
+- Volume 20j moy. : 41,140,970
+- Volume jour : 38,108,100
+- Max Pain : $160.00 (dernière valeur valide — anomalie JSON 08/06)
+- Put/Call : 0.48 (dernière valeur valide — anomalie JSON 08/06)
+- Call OI % : 67.4% (dernière valeur valide — anomalie JSON 08/06)
