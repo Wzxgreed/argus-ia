@@ -30,18 +30,19 @@
 | 2026-06-02 | Mise à jour post-pipeline (17:00 UTC) | [SPCX_2026-06-02_update.md](./SPCX_2026-06-02_update.md) | Thèse confirmée en ATTENDRE — dégradation data majeure : perte totale du flux prix (`error: No price history`), signal sectoriel dégradé NEUTRAL, Score Global 55.2/100 (+1.2 pt mécanique) |
 | 2026-06-02 | Mise à jour post-pipeline (21:00 UTC) | [SPCX_2026-06-02_update.md](./SPCX_2026-06-02_update.md) | Thèse confirmée en ATTENDRE — six snapshots consécutifs sans données, erreur totale persistante (`No price history`), signal sectoriel NEUTRAL, Score Global 55.2/100 (inchangé, artefact mécanique) |
 | 2026-06-03 | Mise à jour post-pipeline (10h UTC) | [SPCX_2026-06-03_update.md](./SPCX_2026-06-03_update.md) | Thèse confirmée en ATTENDRE — sept snapshots consécutifs sans données, erreur totale persistante (`No price history`), signal sectoriel NEUTRAL, Score Global 55.2/100 (inchangé, artefact mécanique), faux earnings FMP ignoré |
+| 2026-06-08 | Mise à jour post-pipeline (10h UTC) | [SPCX_2026-06-08_update.md](./SPCX_2026-06-08_update.md) | Thèse confirmée en ATTENDRE — douze snapshots consécutifs sans données fiables, conflit de symbole FMP détecté (cours $135.00, OHLC $0.00, sector Aerospace), Score Global 55.2/100 (inchangé) |
 
 ---
 
 ## Thèse d'investissement courante
 
 **Recommandation :** ATTENDRE
-**Prix cible :** N/A (données insuffisantes)
+**Prix cible :** N/A (données insuffisantes — cours $135.00 non fiable)
 **Stop-loss :** N/A
 **Upside :** —
-**Dernière mise à jour :** 2026-06-03 (snapshot 10h UTC)
+**Dernière mise à jour :** 2026-06-08 (snapshot 10h UTC)
 
-> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 10h UTC du 03/06 retourne une **erreur totale** (`No price history`) dans `data/latest.json` — sept snapshots consécutifs (10h/17h/21h UTC 01/06, 13h/17h/21h UTC 02/06 et 10h UTC 03/06) sans aucune donnée de prix, volume ou technique. L'Agent Recommandation maintient SPCX en **ATTENDRE** avec un Score Global Ajusté de **55.2/100** (Score Opportunité 5.5/10 : C:6.5 V:5.0 M:5.0), timing Neutre, mais ce score est un artefact mécanique (placeholder) et non fondé sur des données de marché. Le signal sectoriel reste **`NEUTRAL`** — XLF top3 sans momentum (`return_20d` −0.23%, `momentum_score` 0.0). Aucun catalyseur fondamental, news, options ni social. SL/TP non calculables (prix et ATR absents). Rétablissement possible si retour d'une source de prix fiable + volume >1 000 + Score Momentum ≥ 6.0. Si le flux ne revient pas sur les prochains snapshots → reclassement **ÉVITER**.
+> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 10h UTC du 08/06 présente un **conflit de symbole critique** : bien que `error` passe à `false`, `data/latest.json` retourne un cours de **$135.00** avec OHLC à **$0.00**, volume **0**, et un secteur `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management` — indiquant que FMP renvoie les données d'une autre entité. L'Agent Recommandation maintient SPCX en **ATTENDRE** avec un Score Global Ajusté de **55.2/100** (Score Opportunité 5.5/10 : C:6.5 V:5.0 M:5.0), timing Neutre, mais ce score est un artefact mécanique (placeholder). Le signal sectoriel reste **`NEUTRAL`** — XLF top3 avec momentum 4.0 (`return_20d` +1.45%). Aucun catalyseur fondamental, news, options ni social. SL/TP non calculables (prix et ATR absents). Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + Score Momentum ≥ 6.0. Si le flux fiable ne revient pas sur les prochains snapshots → reclassement **ÉVITER**.
 
 ---
 
@@ -56,6 +57,7 @@
 | 2026-05-27 | Normalisation volume, micro-recul −0.27% | 🟢 Faible | [SPCX_2026-05-27_update.md](./SPCX_2026-05-27_update.md) |
 | 2026-06-01 | Données Yahoo absentes + volume effondré 196 | 🔴 Élevé | [SPCX_2026-06-01_update.md](./SPCX_2026-06-01_update.md) |
 | 2026-06-02 | Stabilité totale sur 6 snapshots, données absentes persistantes | 🔴 Élevé | [SPCX_2026-06-02_update.md](./SPCX_2026-06-02_update.md) |
+| 2026-06-08 | Conflit de symbole FMP détecté : cours $135.00, OHLC $0.00, sector Aerospace | 🔴 Élevé | [SPCX_2026-06-08_update.md](./SPCX_2026-06-08_update.md) |
 
 ---
 
