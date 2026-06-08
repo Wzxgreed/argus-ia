@@ -30,7 +30,8 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q2 2026** : 2026-08-06 (59 jours) — Est EPS −$0.06 à −$0.02, Rev $0.2 B
+- **Expiration options** : 2026-06-12 (4 jours) — Max Pain $65.00
 
 ---
 
@@ -47,9 +48,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-08
-- **Type :** init
-- **Fichier :** `RKLB_2026-06-08_update_17h.md`
-- **Conclusion :** > Source : `data/latest.json` (fetched 2026-06-08T17:00:02 UTC) | `data/recommandations_latest.json` | Snapshot 17h UTC
+- **Type :** update_21h
+- **Fichier :** `RKLB_2026-06-08_update_21h.md`
+- **Conclusion :** SURVEILLER confirmé. Close $113.65 (+3.24% vs veille) sur volume révisé 0.47× (13.36M, +59.6% vs snapshot 17h). ATR stable $11.96, RSI 41.29. Score Global ajusté 47.0/100 inchangé. Timing Favorable maintenu (cours > MM50). SL/TP inchangés $89.73/$149.53. Aucune news, aucun événement corporate.
 
 ---
 
