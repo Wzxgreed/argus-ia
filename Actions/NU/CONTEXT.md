@@ -49,9 +49,6 @@
 - **MM 200j :** —
 - **ATR 14j :** 0.53
 - **Volume moy. 20j :** 71120505
-- **52W low :** $11.20
-- **52W high :** $18.98
-- **Forward P/E :** 10.45×
 
 ---
 
@@ -60,7 +57,7 @@
 - **Date :** 2026-06-08
 - **Type :** update
 - **Fichier :** `NU_2026-06-08_update.md`
-- **Conclusion :** **Thèse : MODIFIÉE — ATTENDRE (levée règle de disqualification, RSI remonté 47.19, volume normalisé, fondamentaux intacts, mais sous MM50 et nouveau 52W low $11.20)
+- **Conclusion :** **Thèse : MODIFIÉE — ATTENDRE (levée de la règle de disqualification, amélioration technique, fondamentaux intacts, mais sous MM50 et nouveau 52W low)**
 
 ---
 

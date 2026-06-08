@@ -41,7 +41,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-08** · earnings · Earnings placeholder FMP (J0 glissant) — non analysable
+- **2026-06-08** · earnings · Earnings ...
 
 ---
 
@@ -60,7 +60,7 @@
 - **Date :** 2026-06-08
 - **Type :** update
 - **Fichier :** `QTBS_2026-06-08_update.md`
-- **Conclusion :** Data blackout persistant — 38e snapshot consécutif sans mutation. Aucune donnée technique, fondamentale ni quantitative disponible. Placeholder earnings J0 glissant au 08/06 confirmé comme artefact FMP. Score 55.2/100 stable, action ATTENDRE maintenue.
+- **Conclusion :** > **Date :** 2026-06-08 (snapshot 10h UTC)
 
 ---
 

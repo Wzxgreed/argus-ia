@@ -1,6 +1,6 @@
 # CONTEXT — CTMX — Dernière mise à jour : 2026-06-08
 
-> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l’historique.
+> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
 
 ---
@@ -36,21 +36,13 @@
 
 ## 🚨 Alertes actives
 
-- 🔴 **Cours $3.00** — nouvelle jambe de baisse, support $3.14 cassé
-- 🔴 **Low $2.98** — nouveau support immédiat
-- 🔴 RSI 29.53 — survente maintenue sans rebond significatif
-- 🔴 Short interest 16.23% — accumulation shorts confirmée
-- 🔴 Cours sous MM50 ($4.09) avec écart −26.6%
-- 🔴 Score Global Ajusté 52.5/100 — reste sous seuil institutionnel (60) pour achat
-- 🟡 Options — anomalie JSON persistante (max pain $1.00 aberrant, valeurs opérationnelles conservées)
-- 🟡 XLV momentum 4.41 — amélioration sectorielle marginale
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-08-06** · earnings · Est EPS $−0.13 à $−0.07, Rev $0.0B (J+59)
-- **Catalyseurs potentiels** · CX-2029 / CX-904 · Data readout / updates partenariats AbbVie/BMS
+- Aucun événement à venir.
 
 ---
 

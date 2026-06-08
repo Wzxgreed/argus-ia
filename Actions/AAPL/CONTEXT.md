@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER (Sizing Réduit)
-- **Score global :** 61.0/100
-- **Prix cible :** $324.53
-- **Stop-loss :** $295.88
-- **Statut thèse :** modifiée positivement
-- **Horizon :** 1–3 mois
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
+- **Horizon :** —
 
 ---
 
@@ -24,18 +24,13 @@
 
 ## 🚨 Alertes actives
 
-- 🟢 RSI 58.28 — sortie complète du surachat, zone neutre favorable
-- 🔴 Volume 65.25M (1.37× moyenne) — distribution anormale à la baisse sur 5 jours
-- 🟡 Valorisation élevée : P/E 37.2x, cours +4.7% vs consensus
-- 🟡 Options gamma : max pain opérationnel $310.00, échéance 2026-06-08
-- 🟡 Support clé $295.88 — cassure = retour MM50 $281.09
-- 🔴 Anomalie options JSON — max pain JSON $250.00 aberrant
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **Earnings Q3 FY2026 :** 2026-07-30 (52 jours) — Est EPS $1.83–$1.99, Rev $109.0B
+- Aucun événement à venir.
 
 ---
 
@@ -46,8 +41,6 @@
 - **MM 200j :** —
 - **ATR 14j :** 5.73
 - **Volume moy. 20j :** 47808380
-- **52W high :** 316.94
-- **52W low :** 195.07
 
 ---
 
@@ -56,7 +49,7 @@
 - **Date :** 2026-06-08
 - **Type :** update
 - **Fichier :** `AAPL_2026-06-08_update.md`
-- **Conclusion :** Après 5 jours sans snapshot, correction −2.49% ($315.20 → $307.34) avec nouveau 52W high $316.94 atteint entre temps. RSI sorti du surachat (75.58 → 58.28). Volume anormal 1.37×. Scores révisés à la hausse (Opportunité 5.6/10, Global ajusté 61.0/100). Recommandation modifiée SURVEILLER → ACHETER (Sizing Réduit). Timing Favorable. SL $295.88, TP $324.53.
+- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-08 10:00 UTC) + agents quant, geo, accounting, sector, social, FX, watchman, events, recommandation
 
 ---
 

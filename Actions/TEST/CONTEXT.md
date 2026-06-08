@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Score global :** 49.0/100 (36.0 ajusté)
-- **Prix cible :** $46.44
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
 - **Stop-loss :** $41.59
-- **Statut thèse :** Modifiée — passage ACHETER (Réduit) → SURVEILLER
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -25,38 +25,31 @@
 ## 🚨 Alertes actives
 
 - Aucune alerte active.
-- **Point de vigilance :** cours test exactement la MM50 ($43.54, écart -$0.013) — franchissement à la baisse = risque de passage ÉVITER.
-- **Point de vigilance :** volume ×2.06 sur baisse = distribution possible.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-06-08** · earnings · Earnings JOUR J — résultats non observables dans snapshot 10h UTC
+- **2026-06-08** · earnings · Earnings ...
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **Cours :** $43.527
-- **Previous close :** $45.468
-- **Changement session :** -4.27%
 - **RSI 14j :** 41.19
 - **MM 50j :** 43.54
 - **MM 200j :** —
 - **ATR 14j :** 0.97
-- **Volume session :** 5,000
-- **Volume moy. 20j :** 2,430
-- **Volume vs avg :** 2.06×
+- **Volume moy. 20j :** 2430
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-08
-- **Type :** update
-- **Fichier :** `TEST_2026-06-08_update.md`
-- **Conclusion :** Verdict modifié SURVEILLER — repli -4.27% session, momentum effondré (7.3→2.5), Score Global chute 66.0→49.0. Cours exactement sur MM50. Surveiller franchissement MM50 et RSI < 35.
+- **Type :** preview
+- **Fichier :** `TEST_2026-06-08_preview.md`
+- **Conclusion :** > **Date :** 2026-06-08
 
 ---
 

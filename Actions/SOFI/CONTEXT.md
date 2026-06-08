@@ -7,34 +7,25 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Prix cible :** $19.00 (cours + 3×ATR)
-- **Stop-loss :** $14.05 (cours − 2×ATR)
-- **Upside/Downside :** +18.5% / −12.4%
-- **Dernière mise à jour :** 2026-06-08 (gap −6.53% invalidant breakout MM50, reclassement ACHETER → SURVEILLER)
+- **Recommandation :** ACHETER — Sizing réduit
+**Prix cible :** $20.47 (cours + 3×ATR)
+**Stop-loss :** $15.92 (cours − 2×ATR)
+**Upside/Downside :** +15.4% / −10.3%
+**Dernière mise à jour :** 2026-06-03 (snapshot 13:00 UTC — stabilité totale vs close 02/06, anomalie options JSON résolue)
 
-SoFi est une fintech-banque hybride avec un écosystème complet (lending + banking + investing) et une marque forte chez les millennials. Le snapshot du **2026-06-08** enregistre un **gap baissier de −6.53%** à **$16.03** sur un volume de **81.21M (1.15× moy. 20j)**, invalidant le breakout au-dessus de la MM50 du 01/06. Le RSI est retombé à **52.78** (−11.1 pts), l'ATR a gonflé à **$0.99** (+8.8%) et le cours est repassé **sous la MM50 à $16.75** (−0.43%). La thèse haussière du début juin est **invalidée**.
+SoFi est une fintech-banque hybride avec un écosystème complet (lending + banking + investing) et une marque forte chez les millennials. Le charter bancaire 2022 crée une barrière réglementaire modérée vs les fintechs non-banques. Le snapshot du **2026-06-03 13h UTC** confirme la **stabilité totale** des prix depuis le close du 02/06 : cours **$17.74**, RSI **63.90**, ATR **$0.91**, MM50 **$16.76** (+5.8%). Le volume final de **76.76M (1.13× moy. 20j)** confirme la distribution partielle active lors du pullback −4.52% du 02/06. **[RÉSOLU]** Les données options corrompues du snapshot 10h UTC (Max Pain $5.00 aberrant, Put/Call et Call OI `null`) ont été corrigées dans `data/latest.json` : Max Pain confirmé à **$20.00**, Put/Call **0.54** (+0.06 vs 02/06, légèrement moins bullish mais reste haussier), Call OI **65.0%** (−2.4 pts vs 02/06, légère prise de profit sur calls post-gap). Le support immédiat est le low du 02/06 à **$17.46**, suivi de la MM50 à **$16.76**. La résistance immédiate est le close du 01/06 à **$18.58**, puis **$19.00** (psychologique) et **$20.00** (Max Pain confirmé). La dépendance aux taux d'intérêt et l'exposition aux prêts étudiants créent des risques macro majeurs. Le Forward P/E **22.74** est stable. Le Score Opportunité reste à **6.1/10**, et le Score Global Composite en zone **ACHETER (60.8/100, ajusté 65.8)**. Le short interest à **13.68%** laisse un potentiel de squeeze si un rebond se matérialise. Le secteur financier (XLF) reste sous-performant SPY (RS20 −6.0%, momentum 0.0/10) — headwind sectoriel à surveiller. Earnings Q2 dans **55j** (28 juillet, estimates EPS $0.10–$0.11, Rev $1.1B). ⚠️ Clôture proche du low du 02/06 ($17.46) + volume supérieur à la moyenne (1.13×) = signal de distribution à très court terme. Attendre un rebond au-dessus de $18.00 avec volume >1.0× acheteur pour confirmer la fin de la distribution.
+**Score 6.1/10. Score Global 60.8/100 (ajusté 65.8). ACHETER — Sizing réduit.**
 
-Le Forward P/E **20.54** s'améliore mécaniquement mais ne compense pas le momentum perdu. Le Score Opportunité est tombé à **5.8/10** et le Score Global ajusté à **49.8/100** (zone SURVEILLER). Le secteur financier (XLF) reste faible (momentum 4.0/10). Le short interest à **13.68%** laisse un potentiel de squeeze si un rebond technique se matérialise, mais le setup n'est pas actif sous MM50.
-
-**Données options corrompues** dans `data/latest.json` du 08/06 (Max Pain $5.00 aberrant, Put/Call et Call OI null) — impossible d'évaluer le sentiment options. Dernières valeurs cohérentes : Max Pain **$20.00** (03/06).
-
-**Conditions pour réactiver la thèse ACHETER :**
-1. Reclaim MM50 $16.75 en close avec volume >1.0×
-2. Rebond vif sur $15.68 (low du 05/06) avec RSI >55 et volume acheteur >1.2×
-3. Catalyseur fondamental positif (guidance, contrat, M&A)
-
-**Score 5.8/10. Score Global ajusté 49.8/100. SURVEILLER — Aucune entrée recommandée.**
-
-**Données complètes** — Cours $16.03, RSI 52.78, ATR $0.99, MM50 $16.75, Forward P/E 20.54 dans `data/latest.json` (snapshot 2026-06-08T10:00 UTC). Options : données corrompues.
+**Données complètes** — Cours, RSI, ATR, P/E, beta disponibles dans `data/latest.json` (snapshot 2026-06-03T13:00 UTC). Options : Max Pain $20.00, Put/Call 0.54, Call OI 65.0%. Expiration prochaine 2026-06-05 (2 jours ouvrés).
 
 ---
 
 ## Actualités ayant impacté ce dossier
-
-| Date | Événement | Impact | Fichier |
-|------|-----------|--------|---------|
-| 2026-06-08 | Gap baissier −6.53% invalidant breakout MM50 | 🔴 Élevé — Thèse invalidée | [SOFI_2026-06-08_update.md](./SOFI_2026-06-08_update.md) |
+- **Score global :** —/10
+- **Prix cible :** $20.47
+- **Stop-loss :** $15.92
+- **Statut thèse :** validée
+- **Horizon :** —
 
 ---
 
@@ -46,30 +37,25 @@ Le Forward P/E **20.54** s'améliore mécaniquement mais ne compense pas le mome
 
 ## 🚨 Alertes actives
 
-- Baisse — $14.05 (SL 2×ATR) — 🟢 Active
-- Hausse — $19.00 (prix cible) — 🟢 Active
-- Volume — >2× moy. 20j (>140.9M) — 🟢 Active
-- Cassure MM50 — Cours < $16.75 — 🔴 Déclenchée le 05/06
-- Gap baissier — Gap < −5% — 🔴 Déclenchée le 05/06
+- Baisse — $13.97 (SL 2×ATR) — 🟢 Active
+- Hausse — $19.51 (prix cible) — 🟢 Active
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- 2026-07-28 — Earnings Q2 FY2026 (est. EPS $0.10–$0.11, Rev $1.1B) — dans 50j
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **Cours close :** $16.03
 - **RSI 14j :** 52.78
 - **MM 50j :** 16.75
 - **MM 200j :** —
 - **ATR 14j :** 0.99
 - **Volume moy. 20j :** 70441210
-- **Change % :** −6.53%
-- **Volume du jour :** 81,213,200 (1.15×)
 
 ---
 
@@ -78,7 +64,7 @@ Le Forward P/E **20.54** s'améliore mécaniquement mais ne compense pas le mome
 - **Date :** 2026-06-08
 - **Type :** update
 - **Fichier :** `SOFI_2026-06-08_update.md`
-- **Conclusion :** Gap −6.53% invalidant le breakout MM50 du 01/06. Reclassement ACHETER → SURVEILLER. Score Global ajusté 49.8/100. Cours $16.03, RSI 52.78, sous MM50. Distribution sur volume 1.15×. Données options corrompues. Aucune entrée recommandée jusqu'à reclaim MM50 ou rebond sur $15.68 avec volume.
+- **Conclusion :** **Date :** 2026-06-08 (snapshot 10:00 UTC — close du 05/06 confirmé)
 
 ---
 

@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE (ASTS proxy)
-- **Score global :** 48.5/100 (ajusté 53.5)
-- **Prix cible :** $94.54 (consensus 12 analysts)
-- **Stop-loss :** $67.22 (ASTS proxy, 2×ATR)
-- **Statut thèse :** Modifiée — correction majeure (−12.76%), normalisation valuation (premium consensus passé de +25% à −1%), sortie du surachat technique (RSI 54.36), upgrade agent ÉVITER → ATTENDRE
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -24,26 +24,23 @@
 
 ## 🚨 Alertes actives
 
-- **Anomalie structurelle persistante :** AST (>31 snapshots consécutifs sans données de cours) — recommandation : supprimer ou marquer `excluded` dans config/watchlist.json
-- **Anomalie options JSON :** max pain ASTS retourné à $45.0 (aberrant vs cours $93.60) — non interprétable
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-06-08** · earnings · Earnings (AST — placeholder glissant J=0 depuis 25/05, résultats non intégrés)
-- **2026-08-10** · earnings · ASTS (63j) — Est EPS $−0.29 à $−0.17, Rev $0.0B
-- **2026-06-12** · options · Échéance options ASTS (max pain anomalie JSON)
+- **2026-06-08** · earnings · Earnings ...
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 54.36 (ASTS — sortie surachat, zone neutre favorable)
-- **MM 50j :** 88.42 (ASTS — cours +5.9% au-dessus)
+- **RSI 14j :** —
+- **MM 50j :** —
 - **MM 200j :** —
-- **ATR 14j :** 13.19 (ASTS — volatilité en hausse)
-- **Volume moy. 20j :** 27.50M (ASTS — séance 23.90M, 0.87×)
+- **ATR 14j :** —
+- **Volume moy. 20j :** —
 
 ---
 
@@ -52,7 +49,7 @@
 - **Date :** 2026-06-08
 - **Type :** update
 - **Fichier :** `AST_2026-06-08_update.md`
-- **Conclusion :** ASTS a corrigé de −12.76% à $93.60 (low $90.905), revenant légèrement sous le consensus analystes ($94.54). RSI sorti du surachat (54.36). Agent upgrade ÉVITER (29.8/100) → ATTENDRE (48.5/100) avec timing Favorable. AST reste sans données de cours (>31 snapshots). Support immédiat ASTS : MM50j $88.42. Résistance : gap baissier $103.33–104.49.
+- **Conclusion :** > **Date :** 2026-06-08
 
 ---
 

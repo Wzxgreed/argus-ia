@@ -34,15 +34,13 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 
 ## 🚨 Alertes actives
 
-- **[CRITICAL]** Pas de données de prix pour AXA — ticker probablement incorrect
-- **[WARNING]** Earnings J0 (2026-06-08) sans consensus ni résultats exploitables — pattern persistant depuis mi-mai
-- **[INFO]** Contexte sectoriel XLF nettement amélioré : RS 20j +0.64% (was −6.02%), RS 60j −3.45% (was −10.99%), return 20j +1.45% (was −0.23%), momentum 4.0/10 (was 0.0/10) ; signal macro `NEUTRAL` stable
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-06-08** · earnings · Earnings J0 FMP glissant sans détails exploitables
+- **2026-06-08** · earnings · Earnings ...
 
 ---
 
@@ -61,7 +59,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 - **Date :** 2026-06-08
 - **Type :** update
 - **Fichier :** `AXA_2026-06-08_update.md`
-- **Conclusion :** Thèse ATTENDRE confirmée (Score Global 55.2/100). Données AXA toujours manquantes (error: true, No price history). Contexte sectoriel XLF nettement amélioré : RS 20j +0.64% (vs −6.02% le 03/06), RS 60j −3.45% (vs −10.99%), momentum 4.0/10 (vs 0.0/10). Tickers KO réduit à 4/29 (SPCX résolu). Earnings J0 FMP persistant sans détails. Action : corriger symbole (`CS.PA` ou `AXAHY`) et relancer fetch.
+- **Conclusion :** > **Date :** 2026-06-08
 
 ---
 
