@@ -10,11 +10,11 @@
 - **Recommandation :** ATTENDRE — pas d'entrée en l'état. Surveiller la résolution de l'anomalie earnings et l'échéance options du 2026-06-12. L'upgrade agent à ACHETER Réduit est noté comme signal positif mais non suivi en l'absence de confirmation volume et de franchissement MM50.
 
 ## Historique
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
-- **Horizon :** —
+- **Score global :** ~5.9/10
+- **Prix cible :** $11.89
+- **Stop-loss :** $8.24
+- **Statut thèse :** confirmée
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -38,26 +38,26 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 52.4
+- **RSI 14j :** 52.43
 - **MM 50j :** 10.96
 - **MM 200j :** —
 - **ATR 14j :** 0.73
-- **Volume moy. 20j :** 1206213
+- **Volume moy. 20j :** 1212343
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-08
-- **Type :** full refresh
-- **Fichier :** `FUBO_2026-06-08_DRAFT_refresh_ARCHIVED.md`
-- **Conclusion :** > **Date :** 2026-06-08
+- **Type :** update
+- **Fichier :** `FUBO_2026-06-08_update.md`
+- **Conclusion :** THÈSE ATTENDRE CONFIRMÉE (~58.5/100). Repli en fin de séance à $9.70 valide le scepticisme sur le rebond intraday de 17h. Volume partiellement récupéré (0.7×) mais insuffisant. Agent ACHETER Réduit maintenu (61.2/100) mais non suivi par l'analyste.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 7.53% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 7.53% (seuil 5.0%) — couvert par l'update du snapshot 21h
 
 ---
 

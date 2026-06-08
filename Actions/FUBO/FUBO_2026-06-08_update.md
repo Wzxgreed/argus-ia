@@ -1,38 +1,36 @@
-# FUBO — Mise à Jour (2026-06-08, snapshot 17h UTC)
+# FUBO — Mise à Jour (2026-06-08, snapshot 21h UTC)
 
-> **Niveau d'impact :** 🟡 Modéré — **Rebond technique +3.51%** à $9.875 sur **volume effondré 0.38×** (pas de conviction), RSI remonté à **53.66** (+4.26 pts), spot sous MM50 réduit à **−9.9%**. **Upgrade agent majeur** : ATTENDRE 58.0/100 → **ACHETER Réduit 61.8/100** (Score Opportunité 7.0/10, Catalyseur 8.0, Valorisation 7.0, Momentum 5.5). Structure options inchangée : max pain **$13.00**, put/call **0.25**, call OI **79.7%** — setup haussier latent intact. Échéance options **J+4** (2026-06-12). Earnings Q1 jour J toujours non résolu.
-> **Référence précédente :** [FUBO_2026-06-08_update.md](FUBO_2026-06-08_update.md) (snapshot 13:00 UTC)
+> **Niveau d'impact :** 🟡 Modéré — Repli en fin de séance **−1.77%** vs snapshot 17h (clôture officielle **$9.70**, +1.68% séance), volume récupère partiellement à **0.7×** (898k vs 451k à 17h), RSI **52.43** (−1.23 pts, stable au-dessus de 50), spot sous MM50 creusé à **−11.5%**. **Agent : ACHETER Réduit maintenu** (61.2/100 ajusté, −0.6 pt), Score Opportunité **6.9/10**, Catalyseur **8.0**, Valorisation **7.0**, Momentum **5.3** (timing Défavorable). Structure options inchangée (max pain $13.00, put/call 0.25, call OI 79.7%, échéance **J+4** 2026-06-12). Anomalie earnings Q1 jour J persistante. Analyste maintient **ATTENDRE** (~58.5/100).
+> **Référence précédente :** [FUBO_2026-06-08_17-00_update.md](FUBO_2026-06-08_17-00_update.md) (snapshot 17:00 UTC)
 
 ---
 
-## 1. Résumé des Changements depuis l'Analyse Précédente (2026-06-08 13:00 UTC)
+## 1. Résumé des Changements depuis l'Analyse Précédente (2026-06-08 17:00 UTC)
 
-| Métrique | 2026-06-08 13:00 UTC | **2026-06-08 17:00 UTC** | Variation |
+| Métrique | 2026-06-08 17:00 UTC | **2026-06-08 21:00 UTC** | Variation |
 |---|---|---|---|
-| Cours close | $9.54 | **$9.875** | **+3.51%** |
-| Volume séance | 1 281 500 | **451 615** | **−64.7%** (0.38× moy. 20j) |
-| RSI 14j | 49.4 | **53.66** | **+4.26 pts** |
-| ATR 14j | $0.72 | **$0.73** | Stable |
+| Cours close | $9.875 | **$9.70** | **−1.77%** vs 17h (+1.68% séance vs previous close $9.54) |
+| Volume séance | 451 615 | **898 262** | **+98.9%** (0.38× → **0.7×** moy. 20j) |
+| RSI 14j | 53.66 | **52.43** | **−1.23 pts** |
+| ATR 14j | $0.73 | **$0.73** | Stable |
 | MM 50j | $10.96 | **$10.96** | Stable |
-| Spot vs MM50 | −12.96% | **−9.9%** | Amélioration |
+| Spot vs MM50 | −9.9% | **−11.5%** | Détérioration légère |
 | Max Pain (API) | $13.00 | **$13.00** | Inchangé |
 | Put/Call Ratio | 0.25 | **0.25** | Inchangé |
 | Call OI % | 79.7% | **79.7%** | Inchangé |
 | Échéance options | 2026-06-12 | **2026-06-12** | J+4 |
-| **Score Global ajusté (agent)** | 58.0/100 | **61.8/100** | **Upgrade +3.8 pts** |
-| **Score Opportunité (agent)** | 6.6/10 | **7.0/10** | **+0.4 pt** |
-| **Score Catalyseur (agent)** | — | **8.0/10** | **Fort** |
-| **Score Valorisation (agent)** | — | **7.0/10** | **Attractive** |
-| **Score Momentum (agent)** | 4.0/10 | **5.5/10** | **+1.5 pt** |
-| **Recommandation (agent)** | ATTENDRE | **ACHETER Réduit** | **Upgrade majeur** |
-| Timing | Défavorable | **Défavorable** | Inchangé |
+| **Score Global ajusté (agent)** | 61.8/100 | **61.2/100** | **−0.6 pt** |
+| **Score Opportunité (agent)** | 7.0/10 | **6.9/10** | **−0.1 pt** |
+| **Score Momentum (agent)** | 5.5/10 | **5.3/10** | **−0.2 pt** |
+| **Recommandation (agent)** | ACHETER Réduit | **ACHETER Réduit** | Stable |
+| Timing | Défavorable | **Défavorable** | Stable |
 
 **Constats :**
-1. **Rebond technique modéré +3.51%** — Le cours remonte de $9.54 à $9.875, réduisant l'écart sous MM50 de −12.96% à −9.9%. Le RSI franchit la médiane (53.66) et sort de la zone neutre basse.
-2. **Volume effondré 0.38×** — 451k vs moy. 20j 1.19M. Le rebond s'effectue sur une liquidité très réduite, ce qui invalide la conviction du mouvement. [VOLUME INSUFFISANT]
-3. **Upgrade agent majeur** — L'agent passe de ATTENDRE (58.0) à ACHETER Réduit (61.8) avec une forte amélioration des composantes Catalyseur (8.0) et Valorisation (7.0). Le Momentum remonte à 5.5/10. Cependant, le timing reste **Défavorable** (cours sous MM50).
-4. **Structure options inchangée** — Max pain $13.00, put/call 0.25, call OI 79.7%. Le spot à $9.875 est désormais **−24.0% sous le max pain** (vs −26.6% à 13h), ce qui réduit légèrement l'asymétrie haussière mécanique mais maintient l'aimant vers $13.00 à échéance J+4.
-5. **Earnings Q1 2026 anomalie persistante** — `upcoming_events_latest.json` place toujours l'earnings au **2026-06-08** (jour J, `days_until: 0`). Aucun résultat Q1 visible.
+1. **Repli en fin de séance −1.77%** — Après le rebond intraday à $9.875 (17h), le cours retombe à $9.70 en clôture officielle. Le mouvement valide le scepticisme sur le rebond de 17h : il s'agissait d'une poussée technique intraday sans support de clôture.
+2. **Volume récupère partiellement à 0.7×** — 898k vs 1.21M moy. 20j. La liquidité presque double par rapport au snapshot 17h (451k), ce qui est un signal positif, mais le volume reste sous la moyenne. [VOLUME PARTIELLEMENT RÉCUPÉRÉ]
+3. **Agent maintient ACHETER Réduit** — Légère dégradation mécanique (−0.6 pt à 61.2/100) due au repli du momentum (5.3 vs 5.5). Les composantes Catalyseur (8.0) et Valorisation (7.0) restent très élevées. Le timing reste Défavorable (sous MM50).
+4. **Structure options inchangée** — Max pain $13.00, put/call 0.25, call OI 79.7%. Le spot à $9.70 est désormais **−25.4% sous le max pain** (vs −24.0% à 17h), ce qui maintient l'asymétrie haussière mécanique à J+4.
+5. **Anomalie earnings Q1 2026 persistante** — `upcoming_events_latest.json` (2026-06-08) place toujours l'earnings au **2026-06-08** (jour J, `days_until: 0`). Aucun résultat Q1 visible dans les données.
 6. **Données fondamentales stables** — Aucun changement dans les ratios FMP ou le consensus (price target $50.25, 4 analysts).
 
 ---
@@ -41,47 +39,48 @@
 
 | Indicateur | Valeur | Lecture |
 |---|---|---|
-| RSI 14j | 53.66 | Neutre médian-haut — remontée de +4.26 pts |
-| MM 50j | $10.96 | Cours sous MM50 — écart réduit à −9.9% |
-| ATR 14j | $0.73 | Volatilité stable (7.39% du spot) |
-| Volume vs 20j | 0.38× | **Effondré** — pas de conviction |
+| RSI 14j | 52.43 | Neutre médian — stable au-dessus de 50, −1.23 pts vs 17h |
+| MM 50j | $10.96 | Cours sous MM50 — écart creusé à −11.5% |
+| ATR 14j | $0.73 | Volatilité stable (7.53% du spot) |
+| Volume vs 20j | 0.7× | Partiellement récupéré — reste sous la moyenne |
 | Beta | 2.392 | Extrême |
-| 52W High / Low | $56.64 / $8.31 | Distance 52W low : +18.8% |
+| 52W High / Low | $56.64 / $8.31 | Distance 52W low : +16.7% |
 | Short Interest | 25.03% | Très élevé — stable |
 
 **Options (inchangées) :**
 
 | Signal | Valeur | Lecture |
 |---|---|---|
-| Max Pain | $13.00 | Spot −24.0% sous max pain |
+| Max Pain | $13.00 | Spot −25.4% sous max pain |
 | Put/Call Ratio | 0.25 | Très faible — biais haussier |
 | Call OI % | 79.7% | Dominance call — structure haussière |
 | Échéance | 2026-06-12 | J+4 |
 
-**Lecture institutionnelle :** Le rebond +3.51% est technique et s'effectue sur volume très faible (0.38×), ce qui en fait un mouvement peu fiable. L'amélioration du RSI et la réduction de l'écart sous MM50 sont positives, mais le franchissement persistant sous la MM50 et l'absence de volume confirmé empêchent de qualifier ce rebond comme un retournement de tendance. La structure options reste haussière avec un aimant mécanique vers $13.00 à J+4, mais le marché ne semble pas trader cette asymétrie activement en l'absence de catalyseur déclencheur. Le short interest 25.03% combiné à la structure call dominante maintient un setup de short squeeze latent, mais sans volume et sans news, il reste dormant.
+**Lecture institutionnelle :** Le repli en clôture à $9.70 valide que le rebond de 17h ($9.875) était une poussée intraday non soutenue. La récupération du volume à 0.7× est un signal positif partiel : les échanges ont repris en fin de séance, mais sans dépasser la moyenne. Le RSI à 52.43 reste dans la zone neutre favorable mais sans momentum directionnel clair. Le franchissement persistant sous la MM50 ($10.96) maintient le timing défavorable. La structure options reste haussière avec un aimant mécanique vers $13.00 à J+4, mais le marché ne semble pas trader cette asymétrie activement en l'absence de catalyseur. Le short interest 25.03% combiné à la structure call dominante maintient un setup de short squeeze latent, mais dormant.
 
 **Niveaux clés :**
 - Support immédiat : **$9.41** (low 08/06)
 - Support psychologique : **$9.00**
 - Support majeur : **$8.31** (52W low)
-- Résistance immédiate : **$10.16** (previous close 07/06)
+- Résistance immédiate : **$9.875** (high intraday 08/06)
+- Résistance : **$10.16** (previous close 07/06)
 - Résistance : **$10.96** (MM50)
 - Résistance majeure : **$11.00–$13.00** (zone max pain / ancienne structure)
-- Stop-loss ATR (2×) : **$8.41** (−14.9%)
-- Take-profit ATR (3×) : **$12.06** (+22.1%)
+- Stop-loss ATR (2×) : **$8.24** (−15.1%)
+- Take-profit ATR (3×) : **$11.89** (+22.6%)
 - Ratio R/R : **1.5×**
 
-**Verdict timing :** Défavorable — cours sous MM50 (−9.9%), momentum en amélioration mais non confirmé par le volume. La structure options haussière reste un facteur latent positif mais pas un catalyseur actif.
+**Verdict timing :** Défavorable — cours sous MM50 (−11.5%), momentum neutre sans direction claire. La structure options haussière reste un facteur latent positif mais pas un catalyseur actif.
 
 ---
 
 ## 3. Mise à Jour Fondamentale
 
-Aucun nouveau résultat Q1 2026 ni donnée fondamentale structurante dans le snapshot 17h. Divergence Yahoo/FMP inchangée :
+Aucun nouveau résultat Q1 2026 ni donnée fondamentale structurante dans le snapshot 21h. Divergence Yahoo/FMP inchangée :
 
 | Source | Market Cap | P/E | P/B |
 |---|---|---|---|
-| Yahoo Finance | $290.7M | 2.57x | 0.36x |
+| Yahoo Finance | $285.5M | 2.53x | 0.35x |
 | FMP Stable API | ~$3.27B | 5.65x | 3.19x |
 
 **Filtre Qualité :** Score **1/6** confirmé. Hors périmètre Quality Compounder. Score Valorisation plafonné à **5/10** en analyse manuelle.
@@ -91,52 +90,57 @@ Aucun nouveau résultat Q1 2026 ni donnée fondamentale structurante dans le sna
 ## 4. Mise à Jour Sentiment / Options / News
 
 ### Consensus Analystes (FMP)
-- Price Target Moyen : **$50.25** (4 analysts, 0 mise à jour récente) — écart +408.9%, consensus figé.
+- Price Target Moyen : **$50.25** (4 analysts, 0 mise à jour récente) — écart +418.0%, consensus figé.
 
 ### News & Événements Corporates
 - `data/events_latest.json` (2026-06-08) : **vide** — aucun événement corporate.
 - **Earnings Q1 2026** : anomalie calendrier persistante (`days_until: 0`), aucun résultat visible.
 
 ### FX Exposure / Social Sentiment / Sector Rotation / Geo Risk / Quant
-- Inchangés vs snapshot 13h. FX Impact **0.0/10**, Social Sentiment **0.0/10** (silence total), XLC **bottom 3** (malus sectoriel −0.5 pt). Quant Report insuffisant (pas assez de signaux historiques).
+- FX Impact **0.0/10** (exposition nulle).
+- Social Sentiment **0.0/10** (silence total, 0 mention Reddit).
+- Sector Rotation : XLC **bottom 3** (momentum score 0.0 / 10) — malus sectoriel **−0.5 pt** actif.
+- Quant Report : insuffisant (pas assez de signaux historiques).
+- Geo Risk : pas de flag spécifique sur FUBO.
 
 ---
 
 ## 5. Scoring Global
 
 ### Scoring brut agent (recommandations_latest.json)
-Score Global **69.8/100** (brut), Score Global Ajusté **61.8/100**, Score Opportunité **7.0/10**, Score Catalyseur **8.0/10**, Score Valorisation **7.0/10**, Score Momentum **5.5/10**, Recommandation **ACHETER Réduit**, Timing **Défavorable**.
+Score Global **69.2/100** (brut), Score Global Ajusté **61.2/100**, Score Opportunité **6.9/10**, Score Catalyseur **8.0/10**, Score Valorisation **7.0/10**, Score Momentum **5.3/10**, Recommandation **ACHETER Réduit**, Timing **Défavorable**.
 
 ### Scoring ajusté analyste
 
 | Composante | Valeur Ajustée | Règle appliquée |
 |---|---|---|
-| Score Catalyseur | **7.5 / 10** | Malus earnings anomalie persistante −0.3 pt, malus volume effondré −0.2 pt |
+| Score Catalyseur | **7.5 / 10** | Malus earnings anomalie persistante −0.3 pt, malus volume partiellement récupéré mais encore insuffisant −0.2 pt |
 | Score Valorisation | **5.0 / 10** | Plafonnement absolu Qualité ≤ 3/6 |
-| Score Momentum | **5.0 / 10** | Rebond sur volume faible — non confirmé |
+| Score Momentum | **5.0 / 10** | Repli en fin de séance, sous MM50, RSI stable mais non convaincant |
 | **Score Opportunité** | **~5.9 / 10** | (7.5×0.35) + (5.0×0.40) + (5.0×0.25) |
 | **Score Global** | **~59.0 / 100** | 5.9 × 10 |
 | Malus sectoriel XLC bottom 3 | **−0.5 pt** | Composite |
 | **Score Global Ajusté** | **~58.5 / 100** | Zone 50–59 |
 | **Recommandation analyste** | **ATTENDRE** | Zone 50–59 : Qualité présente mais pas de catalyseur clair |
 
-**Note :** L'upgrade agent à ACHETER Réduit (61.8) reflète une amélioration mécanique des scores, mais l'analyste maintient **ATTENDRE** (~58.5) en raison du **volume effondré 0.38×** (absence de conviction sur le rebond), du timing défavorable persistant (sous MM50) et de l'anomalie earnings non résolue. Le franchissement du seuil 60 par l'agent est noté comme un signal positif, mais insuffisant pour justifier une entrée en l'état. Le plafonnement Qualité 1/6 empêche toute valorisation au-dessus de 5/10 en analyse fondamentale, ce qui limite le score global.
+**Note :** L'agent maintient ACHETER Réduit (61.2) avec des composantes Catalyseur et Valorisation très élevées. Cependant, l'analyste maintient **ATTENDRE** (~58.5) car le plafonnement Qualité 1/6 limite la valorisation fondamentale à 5/10, le volume 0.7× reste sous la moyenne (pas de confirmation d'afflux institutionnel), le timing défavorable persiste (sous MM50) et l'anomalie earnings jour J non résolue constitue un risque de calendrier. L'upgrade agent est noté comme un signal positif mais non suivi en l'état.
 
 ---
 
 ## 6. Révision des Niveaux SL / TP
 
-Révisés à la hausse avec le rebond du cours :
+Révisés à la baisse avec le repli du cours :
 
 | Niveau | Prix | Commentaire |
 |---|---|---|
-| Close | $9.875 | — |
-| Stop-Loss | **$8.41** | 2× ATR (−14.9%) |
-| Take-Profit | **$12.06** | 3× ATR (+22.1%) |
+| Close | $9.70 | — |
+| Stop-Loss | **$8.24** | 2× ATR (−15.1%) |
+| Take-Profit | **$11.89** | 3× ATR (+22.6%) |
 | Ratio R/R | **1.5×** | Stable |
 | Support immédiat | **$9.41** | Low 08/06 |
 | Support majeur | **$8.31** | 52W low |
-| Résistance immédiate | **$10.16** | Previous close 07/06 |
+| Résistance immédiate | **$9.875** | High intraday 08/06 |
+| Résistance | **$10.16** | Previous close 07/06 |
 | Résistance | **$10.96** | MM50 |
 | Résistance majeure | **$11.00–$13.00** | Zone max pain / historique |
 
@@ -144,18 +148,20 @@ Révisés à la hausse avec le rebond du cours :
 
 ## 7. Conclusion — Thèse Confirmée, Modifiée ou Invalidée ?
 
-### **Verdict : THÈSE ATTENDRE CONFIRMÉE AVEC NUANCE POSITIVE TECHNIQUE (~58.5/100). Rebond +3.51% sur volume effondré, upgrade agent à ACHETER Réduit noté mais non suivi en raison du manque de conviction et du timing défavorable persistant.**
+### **Verdict : THÈSE ATTENDRE CONFIRMÉE (~58.5/100). Repli en fin de séance à $9.70 valide le scepticisme sur le rebond intraday de 17h. Volume partiellement récupéré (0.7×) mais insuffisant. Agent ACHETER Réduit maintenu mais non suivi par l'analyste.**
 
-La thèse **ATTENDRE** du snapshot 13h est **confirmée** avec deux observations principales :
+La thèse **ATTENDRE** du snapshot 17h est **confirmée** avec trois observations principales :
 
-1. **Rebond technique modéré sans conviction** — Le cours remonte +3.51% à $9.875, mais le volume s'effondre à 0.38× (451k vs 1.19M moyenne). Ce rebond est donc technique et non fondé sur un afflux d'acheteurs institutionnels. Le RSI remonte à 53.66 et l'écart sous MM50 se réduit, mais le franchissement persistant sous la MM50 ($10.96) maintient le timing défavorable.
+1. **Repli en fin de séance −1.77%** — Le cours retombe de $9.875 (17h) à $9.70 (clôture 21h), ce qui invalide la poussée haussière intraday comme un retournement de tendance. La clôture positive +1.68% vs la veille ($9.54) est un point positif, mais le repli vs le high de séance montre un manque de conviction des acheteurs en fin de journée.
 
-2. **Upgrade agent majeur non confirmé par les conditions de marché** — L'agent passe de ATTENDRE (58.0) à ACHETER Réduit (61.8) avec des scores Catalyseur (8.0) et Valorisation (7.0) très élevés. Cependant, l'analyste maintient ATTENDRE (~58.5) car le plafonnement Qualité 1/6 limite la valorisation fondamentale à 5/10, le volume effondré invalide la conviction du rebond, et l'anomalie earnings jour J non résolue constitue un risque de calendrier. L'upgrade agent est noté comme un signal positif à surveiller.
+2. **Volume partiellement récupéré à 0.7×** — 898k vs 451k à 17h : la liquidité a doublé en fin de séance, ce qui est un signal positif partiel. Cependant, le volume reste sous la moyenne 20j (1.21M), ce qui empêche de qualifier ce mouvement comme un afflux institutionnel confirmé.
 
-**Recommandation finale :** **ATTENDRE.** Le rebond +3.51% est technique et non confirmé par le volume. L'upgrade agent à ACHETER Réduit est un signal positif, mais les conditions d'entrée ne sont pas réunies : cours sous MM50 (−9.9%), volume insuffisant, timing défavorable, earnings Q1 jour J non résolu, qualité fondamentale dégradée 1/6. La structure options haussière (max pain $13.00, put/call 0.25, call OI 79.7%) et le short interest 25.03% maintiennent un setup latent favorable, mais il nécessite un catalyseur déclencheur (résolution earnings, upgrade/downgrade, ou volume confirmé >1.0×). **Un retour au-dessus de MM50 ($10.96) avec volume confirmé (>1.0×) reste la condition préalable à toute réactivation haussière et à un suivi de l'upgrade agent ACHETER Réduit.**
+3. **Agent ACHETER Réduit maintenu avec légère dégradation** — L'agent passe de 61.8 à 61.2 (−0.6 pt) avec un momentum légèrement réduit (5.3 vs 5.5). Les scores Catalyseur (8.0) et Valorisation (7.0) restent très élevés, mais le timing Défavorable persiste (sous MM50). L'analyste maintient ATTENDRE (~58.5) car le plafonnement Qualité 1/6 limite le score fondamental à 5/10, le volume reste insuffisant, et l'anomalie earnings jour J non résolue constitue un risque opérationnel.
+
+**Recommandation finale :** **ATTENDRE.** Le repli en fin de séance valide le scepticisme sur le rebond de 17h. La récupération partielle du volume est un signal positif à noter, mais insuffisante pour justifier une entrée. Les conditions d'entrée ne sont pas réunies : cours sous MM50 (−11.5%), volume sous la moyenne, timing défavorable, earnings Q1 jour J non résolu, qualité fondamentale dégradée 1/6. La structure options haussière (max pain $13.00, put/call 0.25, call OI 79.7%) et le short interest 25.03% maintiennent un setup latent favorable, mais il nécessite un catalyseur déclencheur (résolution earnings, upgrade/downgrade, ou volume confirmé >1.0× avec clôture au-dessus de MM50). **Un retour au-dessus de MM50 ($10.96) avec volume confirmé (>1.0×) reste la condition préalable à toute réactivation haussière et au suivi de l'upgrade agent ACHETER Réduit.**
 
 ---
 
 *Analyste institutionnel senior — Desk Argus-IA*  
-*Date : 2026-06-08 (snapshot 17:00 UTC)*  
-*Sources : data/latest.json (fetched 2026-06-08T17:00:02Z), data/recommandations_latest.json, data/sector_rotation_latest.json, data/social_sentiment_latest.json, data/fx_exposure_latest.json, data/upcoming_events_latest.json, data/events_latest.json*
+*Date : 2026-06-08 (snapshot 21:00 UTC)*  
+*Sources : data/latest.json (fetched 2026-06-08T21:00:11Z), data/recommandations_latest.json, data/sector_rotation_latest.json, data/social_sentiment_latest.json, data/fx_exposure_latest.json, data/upcoming_events_latest.json, data/events_latest.json*
