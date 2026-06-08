@@ -591,33 +591,6 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.38% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
-
----
-
-## 2026-06-08 — Full Refresh Triggered
-
-**Triggers :**
-- atr_spike (medium) : ATR relatif 5.38% (seuil 5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
-
----
-
-## 2026-06-08 — Full Refresh Triggered
-
-**Triggers :**
-- atr_spike (medium) : ATR relatif 5.38% (seuil 5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
-
----
-
-## 2026-06-08 — Full Refresh Triggered
-
-**Triggers :**
-- atr_spike (medium) : ATR relatif 5.38% (seuil 5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** CONFIRMÉE — Traité via update 13h UTC (PLTR_2026-06-08_13-00_update.md). Snapshot 13h UTC confirme la stabilité totale vs 10h UTC : cours $135.53 inchangé, RSI 51.25, volume 38.11M (0.93× moyenne). Anomalie options JSON RÉSOLUE (Max Pain $150.00, Put/Call 0.54, Call OI 64.9%). Structure haussier modéré atténué vs 03/06. Fondamentaux, consensus, scores agents inchangés. Cassure MM50 maintenue = signal baissier de court terme persistant. Thèse SURVEILLER confirmée (Score Global 45.0/100). Pas de full refresh nécessaire — la thèse précédente reste valide.
 
 ---
