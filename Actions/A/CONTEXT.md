@@ -9,12 +9,12 @@
 
 - **Recommandation :** ATTENDRE · Direction Neutre
 **Score Global :** 62.5/100 (ajusté **52.5**)
-**Prix cible desk :** $149.46 (TP ATR-based) / $163.87 (consensus analystes)
-**Stop-loss :** $122.91
+**Prix cible desk :** $148.62 (TP ATR-based) / $163.87 (consensus analystes)
+**Stop-loss :** $122.07
 **Horizon :** 1–3 mois
-**Statut thèse :** 🟡 **Confirmée mais modifiée** — snapshot 17h UTC du 08/06 : **correction marginale** (−1.41% à $133.53) sur **volume effondré** (489K, 0.19× moy. 20j). RSI refluxe à **79.71** (−4.66 pts), première amélioration technique depuis le gap post-earnings. Low intraday **$132.71** valide la zone support $130–$133. Options inchangées et normalisées. Score Global ajusté **52.5** — limite basse zone ATTENDRE. Signal sectoriel **POSITIF MARGINAL** (Healthcare XLV au #2 du classement sectoriel, momentum score 4.69). Entrée initiale laminée ; attendre pullback $126–$130 ou consolidation RSI <65.
+**Statut thèse :** 🟡 **Confirmée mais modifiée** — close officiel 21h UTC du 08/06 : consolidation baissière **−2.03%** à **$132.69** sur volume **1.16M (0.44× moy. 20j)**. RSI refluxe sous 80 pour la première fois depuis le gap (**77.9**, −1.81 pt vs 17h, −6.47 pts vs 13h). Low **$132.63** proche du close valide le support $130–$133. Options inchangées et normalisées. Score Global ajusté **52.5** — limite basse zone ATTENDRE. Signal sectoriel **POSITIF MARGINAL** (Healthcare XLV au #2, momentum score 5.02). Entrée initiale laminée ; attendre pullback $126–$130 ou consolidation RSI <65.
 
-**Synthèse :** Agilent a confirmé sa qualité fondamentale par un beat/guidance-up Q2 2026 spectaculaire (gap +17.3%). Le Filtre Qualité 5/6 est maintenu, le consensus $163.87 laisse un upside +22.7% (mécaniquement accru par le repli), et la structure options reste normalisée. Le reflux du RSI à 79.71 est une note positive marginale mais insuffisante pour lever le malus timing technique. Le volume collapse à 0.19× moy. 20j est un signal de fragilité structurelle — la session après-midi s'est déroulée sur une liquidité quasi nulle, fragilisant toute lecture directionnelle. Le secteur Healthcare (XLV) au #2 offre un vent de poupe de fond favorable. Le Score Global ajusté reste à **52.5** (malus timing technique, limite basse zone ATTENDRE). La thèse reste haussière de fond mais neutre de timing — **ATTENDRE** une consolidation ou un retracement vers $126–$130 avant toute nouvelle position.
+**Synthèse :** Agilent a confirmé sa qualité fondamentale par un beat/guidance-up Q2 2026 spectaculaire (gap +17.3%). Le Filtre Qualité 5/6 est maintenu, le consensus $163.87 laisse un upside **+23.5%** (mécaniquement accru par le repli du jour), et la structure options reste normalisée. Le reflux du RSI à 77.9 est la **première sortie sous 80** depuis le gap — amélioration technique notable mais le malus timing technique reste actif (RSI > 75). Le volume 0.44× moy. 20j est un signal de participation réduite qui fragilise la structure de marché, bien que la recovery de +137% entre 17h et 21h suggère une clôture stabilisée. Le secteur Healthcare (XLV) au #2 offre un vent de poupe de fond favorable. Le Score Global ajusté reste à **52.5** (malus timing technique, limite basse zone ATTENDRE). La thèse reste haussière de fond mais neutre de timing — **ATTENDRE** une consolidation ou un retracement vers $126–$130 avant toute nouvelle position.
 
 ---
 
@@ -64,11 +64,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 78.07
+- **RSI 14j :** 77.9
 - **MM 50j :** 118.63
 - **MM 200j :** —
 - **ATR 14j :** 5.31
-- **Volume moy. 20j :** 2635743
+- **Volume moy. 20j :** 2638362
 
 ---
 
@@ -77,7 +77,7 @@
 - **Date :** 2026-06-08
 - **Type :** update
 - **Fichier :** `A_2026-06-08_update.md`
-- **Conclusion :** > **Date :** 2026-06-08 · Snapshot 13:00 UTC
+- **Conclusion :** Close officiel 21h UTC : consolidation baissière −2.03% à $132.69, RSI refluxe sous 80 (77.9) pour la première fois depuis le gap, volume recovery partielle 1.16M (0.44×). Low $132.63 proche du close valide support $130–$133. Score Global ajusté 52.5/100 (ATTENDRE), SL/TP $122.07/$148.62.
 
 ---
 
