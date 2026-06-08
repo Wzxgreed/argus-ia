@@ -1,4 +1,4 @@
-# CONTEXT — AAL — Dernière mise à jour : 2026-06-08 (17:00 UTC)
+# CONTEXT — AAL — Dernière mise à jour : 2026-06-08
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -27,47 +27,41 @@ American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) a
 ---
 
 ## Actualites ayant impacte ce dossier
-- **Score global :** 6.1/10
+- **Score global :** —/10
 - **Prix cible :** $15.58
 - **Stop-loss :** $12.43
-- **Statut thèse :** ACHETER (Sizing Réduit) — accumulation INVALIDEE
-- **Horizon :** 1–3 mois
+- **Statut thèse :** invalide
+- **Horizon :** —
 
 ---
 
 ## 📉 Erreurs de prédiction récentes
 
-- **2026-06-08 13:00 UTC** — Signal d'accumulation basé sur volume 105.99M (+51.3%) a été INVALIDE par la correction data quality (volume reel 51.15M, −26.6%). Le rebond +1.37% s'est fait sur volume faible = pas d'accumulation.
+- Aucune erreur enregistrée.
 
 ---
 
 ## 🚨 Alertes actives
 
-- Baisse — $12.43 (SL 2×ATR) — 🟢 Active
-- Hausse — $14.00 (support cassé) — 🔴 Déclenchée (02/06)
-- Volume — >2× moy. 20j (>139M) — 🟢 Active
-- Gamma Risk — Cours < $13.00 avant expiration 12/06 — 🟡 Vigilance
+- Baisse — $11.41 (SL 2×ATR) — 🟢 Active
+- Hausse — $14.00 (prix cible) — 🔴 Déclenchée (27/05)
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- 2026-06-12 — Expiration options (Max Pain $13.00) — risque gamma
-- 2026-07-23 — Earnings Q2 FY2026 — Est EPS -$0.34 a $0.52, Rev $16.6B
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 62.83
-- **MM 50j :** 12.40
+- **RSI 14j :** 62.24
+- **MM 50j :** 12.4
 - **MM 200j :** —
 - **ATR 14j :** 0.63
-- **Volume moy. 20j :** 69741605
-- **Volume session :** 51146818 (−26.6% vs moyenne)
-- **Short Interest :** 12.87%
-- **Forward P/E :** 6.14
-- **Consensus PT :** $16.60 (17 analystes)
+- **Volume moy. 20j :** 72504437
 
 ---
 
@@ -76,7 +70,7 @@ American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) a
 - **Date :** 2026-06-08
 - **Type :** update
 - **Fichier :** `AAL_2026-06-08_update.md`
-- **Conclusion :** Snapshot 17:00 UTC — rebond technique +1.37% a $13.685 sur volume faible (51.15M, −26.6%). CORRECTION volume majeure : le volume 105.99M du snapshot 13h etait une anomalie data quality. Signal accumulation INVALIDE. Options stables (Put/Call 1.92, Max Pain $13.00, Call OI 34.2%). Score agent 6.1/10, Global ajuste 66.0/100. These ACHETER (Sizing Reduit) CONFIRMEE avec vigilance, accumulation INVALIDEE. SL $12.43, TP $15.58, R/R 1.5.
+- **Conclusion :** **Date :** 2026-06-08 (snapshot 17:00 UTC)
 
 ---
 

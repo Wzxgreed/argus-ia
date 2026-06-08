@@ -44,11 +44,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 42.02
+- **RSI 14j :** 41.57
 - **MM 50j :** 13.77
 - **MM 200j :** —
-- **ATR 14j :** 0.53
-- **Volume moy. 20j :** 69939145
+- **ATR 14j :** 0.54
+- **Volume moy. 20j :** 71146403
 
 ---
 
@@ -56,8 +56,8 @@
 
 - **Date :** 2026-06-08
 - **Type :** update
-- **Fichier :** `NU_2026-06-08_17-00_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (dégradation technique modérée, cours −2.88%, RSI 42.02, momentum 3.5/10, volume effondré 0.39×, score ajusté 55.5, support critique $11.20 à +3.8%, fondamentaux intacts)**
+- **Fichier :** `NU_2026-06-08_13-00_update.md`
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité totale, anomalie options résolue, fondamentaux intacts, mais sous MM50 et structure options légèrement baissière)**
 
 ---
 

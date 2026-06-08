@@ -36,11 +36,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 52.75
-- **MM 50j :** 88.52
+- **RSI 14j :** 52.33
+- **MM 50j :** 88.5
 - **MM 200j :** —
-- **ATR 14j :** 12.97
-- **Volume moy. 20j :** 26754799
+- **ATR 14j :** 13.05
+- **Volume moy. 20j :** 27008208
 
 ---
 
@@ -49,7 +49,7 @@
 - **Date :** 2026-06-08
 - **Type :** update
 - **Fichier :** `ASTS_2026-06-08_update.md`
-- **Conclusion :** **Thèse confirmée : ATTENDRE — repli −0,69% à $92,96 sur volume effondré 0,29×, RSI 52,75 neutre, divergence consensus inversée +1,71%, score global 51,0/100
+- **Conclusion :** **Thèse confirmée : ATTENDRE — léger repli −0,69% à $92,96 sur volume effondré 0,29× (signal de manque de conviction majeur)
 
 ---
 

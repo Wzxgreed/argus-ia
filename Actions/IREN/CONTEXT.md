@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER (Sizing Réduit)
-- **Score global :** 61.8/100
-- **Prix cible :** $69.12
-- **Stop-loss :** $47.27
-- **Statut thèse :** confirmée
-- **Horizon :** 1–3 mois
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
+- **Horizon :** —
 
 ---
 
@@ -41,27 +41,27 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 58.22
-- **MM 50j :** 50.31
+- **RSI 14j :** 58.78
+- **MM 50j :** 50.32
 - **MM 200j :** —
-- **ATR 14j :** 5.63
-- **Volume moy. 20j :** 54123365
+- **ATR 14j :** 5.68
+- **Volume moy. 20j :** 55029186
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-08
-- **Type :** update
-- **Fichier :** `IREN_2026-06-08_update.md` (snapshot 17:00 UTC)
-- **Conclusion :** Rebond +7.68% confirmé ($54.35 → $58.525) sur volume faible (0.41× moyenne). RSI 58.22, MM50 $50.31 respectée. Défiance options record persistante (put/call 3.95, puts 79.8%). Scores révisés (C 6.3, V 4.0, M 7.5). Score Global 61.8/100. Action ACHETER (Sizing Réduit) maintenue. Thèse confirmée.
+- **Type :** _update.md (close officiel 21h UTC)
+- **Fichier :** `IREN_2026-06-08_update.md`
+- **Conclusion :** Close $59.19 (+8.91% séance) · gap fill quasi atteint · volume révisé 0.74× · RSI 58.78 · défiance options record persistante · Scores 5.7/61.8 · Action ACHETER (Sizing Réduit) · Thèse confirmée
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +7.68% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 9.62% (seuil 5.0%)
+- **PRICE_GAP** (medium) — Gap +8.91% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 9.60% (seuil 5.0%)
 
 ---
 

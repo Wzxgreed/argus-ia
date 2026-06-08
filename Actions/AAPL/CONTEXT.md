@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 54.0/100
-- **Prix cible :** $331.18
-- **Stop-loss :** $301.73
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
 - **Statut thèse :** modifiée
-- **Horizon :** 1–3 mois (jusqu'à earnings Q3 FY2026 le 2026-07-30)
+- **Horizon :** —
 
 ---
 
@@ -36,20 +36,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 66.77
-- **MM 50j :** 282.3
+- **RSI 14j :** 53.98
+- **MM 50j :** 282.06
 - **MM 200j :** —
-- **ATR 14j :** 5.89
-- **Volume moy. 20j :** 46348120
+- **ATR 14j :** 6.48
+- **Volume moy. 20j :** 48369603
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-08
-- **Type :** update_17h
+- **Type :** init
 - **Fichier :** `AAPL_2026-06-08_update_17h.md`
-- **Conclusion :** Rebond technique +2.01% ($307.34 → $313.505) sur volume effondré 0.51× (pas de conviction). RSI remonté à 66.77 (+8.49 pts, approche surachat). Score Opportunité révisé à 5.4/10, Score Global ajusté 54.0/100. Recommandation downgradée de ACHETER (Sizing Réduit) à ATTENDRE. Timing passé de Favorable à Neutre. SL/TP révisés $301.73/$331.18. Spot vs max pain réduit à +5.3% ($330.00). Thèse modifiée avec nuance technique négative.
+- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-08 17:00 UTC) + agents quant, geo, accounting, sector, social, FX, watchman, events, recommandation
 
 ---
 

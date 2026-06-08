@@ -36,7 +36,7 @@
 | 2026-06-03 | Update (13:00 UTC) | [NOK_2026-06-03_update.md](./NOK_2026-06-03_update.md) | Snapshot 13h UTC : **stabilité totale** vs snapshot 10h (cours $16.85 inchangé, RSI 70.22, volume 134.7M 1.13×, ATR $1.02). **Anomalie options résolue** dans `latest.json` : max pain **$13.50** (vs $2.00 aberrant à 10h), put/call **0.46** (vs null), call OI **68.5%** (vs null) — aligné avec les valeurs opérationnelles du 02/06. Pin risk extrème confirmé : cours +24.8% au-dessus du max pain, expiration dans **2 jours** (05/06). P/E Yahoo 105.31, premium consensus +81.9% inchangés. Quality hors périmètre 2.5/6. XLC bottom 3. `recommandations_latest.json` inchangé : Score Global ajusté **31.8/100** — **ÉVITER**. Thèse confirmée : stabilité complète, surchauffe persistante, absence de catalyseur. DRAFT_refresh 13h archivé (trigger ATR_SPIKE déjà traité). |
 | 2026-06-08 | Update (10:00 UTC) | [NOK_2026-06-08_update.md](./NOK_2026-06-08_update.md) | Gap baissier **−13.48%** (close $14.38). RSI normalisé 52.32, volume +36% (1.47×). Consensus FMP révisé $10.8 (+1 analyste). Score Global 48.0 — **SURVEILLER** (upgrade mécanique post-baisse). Thèse modifiée mais pas invalidée. Pas de position. |
 | 2026-06-08 | Update (13:00 UTC) | [NOK_2026-06-08_update.md](./NOK_2026-06-08_update.md) | Données prix/volume/technique inchangées vs 10:00. **Données options restaurées** : max pain $15.00 (vs $3.00 corrompu), put/call 1.00, call OI 49.9%. Cours passe sous le max pain (−4.1%). DRAFT_refresh traité (triggers PRICE_GAP/ATR_SPIKE confirmés). Thèse SURVEILLER confirmée. Pas de position. |
-| 2026-06-08 | Update (17:00 UTC) | [NOK_2026-06-08_update.md](./NOK_2026-06-08_update.md) | Rebond **+2.75%** (close $14.775). RSI 55.47 (+3.15), volume révisé 0.61× (76.2M). Score Momentum boosté 6.0→7.3. Score Global ajusté **51.2/100** — **ATTENDRE** (upgrade mécanique post-rebond). Options inchangées. Filtre Qualité hors périmètre persistant. Pas de position. |
+| 2026-06-08 | Update (21:00 UTC) | [NOK_2026-06-08_update.md](./NOK_2026-06-08_update.md) | Close révisé $14.59 (+1.46%). Volume révisé 102.4M (0.82×). RSI 54.58. Score Global 51.2 — ATTENDRE confirmé. Options max pain $15.00, expiration 12/06. Pas de position. |
 
 ---
 
@@ -44,12 +44,12 @@
 
 **Recommandation :** ATTENDRE — Pas de position
 **Prix cible :** $10.8 (consensus 7 analystes FMP)
-**Stop-loss :** $12.56 (cours − 2×ATR)
-**Take-profit :** $18.11 (cours + 3×ATR)
-**Upside/Downside :** −26.9% / −14.9%
-**Dernière mise à jour :** 2026-06-08 17:00 UTC
+**Stop-loss :** $12.37 (cours − 2×ATR)
+**Take-profit :** $17.92 (cours + 3×ATR)
+**Upside/Downside :** −26.9% / −15.2%
+**Dernière mise à jour :** 2026-06-08 21:00 UTC
 
-Snapshot 17h UTC : cours **$14.775** (+2.75% vs previous close $14.38), volume **76.2M** (0.61× moyenne 20j). RSI **55.47** (zone neutre, haut de fourchette). ATR **$1.11**. MM50 **$12.29**. Cours +20.3% au-dessus de la MM50. **Données options** : max pain **$15.00**, put/call **1.00**, call OI **49.9%**, expiration **2026-06-12** (dans 4 jours). Cours sous le max pain (−1.5%) — pression baissière atténuée vs snapshot 13h (−4.1%). Consensus FMP **$10.8** (7 analysts). Premium consensus **+36.8%**. Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%). Divergence structurelle Yahoo/FMP persistante (P/E Yahoo 92.34 vs P/E FMP 45.81). Dividende 1.14%. Le secteur Communication Services (XLC) reste en sous-performance relative vs SPY (bottom 3, momentum 0.0). `recommandations_latest.json` : Score Global ajusté **51.2/100** — **ATTENDRE**. Score Opportunité **4.6/10** (C:4.0 V:3.5 M:7.3). Pas de position.
+Snapshot 21h UTC : cours **$14.59** (+1.46% vs previous close $14.38), volume **102.4M** (0.82× moyenne 20j). RSI **54.58** (zone neutre, haut de fourchette). ATR **$1.11**. MM50 **$12.29**. Cours +18.7% au-dessus de la MM50. **Données options** : max pain **$15.00**, put/call **1.00**, call OI **49.9%**, expiration **2026-06-12** (dans 4 jours). Cours sous le max pain (−2.7%) — pression baissière modérée. Consensus FMP **$10.8** (7 analysts). Premium consensus **+35.1%**. Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%). Divergence structurelle Yahoo/FMP persistante (P/E Yahoo 91.19 vs P/E FMP 45.81). Dividende 1.14%. Le secteur Communication Services (XLC) reste en sous-performance relative vs SPY (bottom 3, momentum 0.0). `recommandations_latest.json` : Score Global ajusté **51.2/100** — **ATTENDRE**. Score Opportunité **4.6/10** (C:4.0 V:3.5 M:7.3). Pas de position.
 
 ---
 
