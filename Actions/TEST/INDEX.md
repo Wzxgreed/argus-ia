@@ -3,17 +3,17 @@
 ## Thèse courante
 
 **Verdict :** ACHETER (Réduit)
-**Date dernière analyse :** 2026-06-08 (snapshot 17:00 UTC)
-**Cours actuel :** $44.63
+**Date dernière analyse :** 2026-06-08 (snapshot 21:00 UTC)
+**Cours actuel :** $45.3501
 **Score Qualité :** 0/6 (Hors périmètre)
-**Score Opportunité :** 6.1/10 (agent reco — données fondamentales absentes)
-**Score Momentum :** 7.3/10
-**Score Global :** 61.0/100 (66.0 ajusté)
-**Stop-loss :** $42.69
-**Take-profit :** $47.54
+**Score Opportunité :** 6.2/10 (agent reco — données fondamentales absentes)
+**Score Momentum :** 7.5/10
+**Score Global :** 61.5/100 (66.5 ajusté)
+**Stop-loss :** $43.33
+**Take-profit :** $48.38
 **Ratio R/R :** 1.5
 
-TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie sur des fondamentaux. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Verdict modifié : SURVEILLER → ACHETER (Réduit)** — rebond technique de +2.53% à la clôture 17h UTC ($44.63 vs $43.527 à 13h), RSI remonté de 10.4 pts à 51.62 (franchissement du seuil 50), cours repassé nettement au-dessus de la MM50 ($43.59, écart +$1.04). Score Global bondit de 49.0 à 61.0/100 (66.0 ajusté), Score Momentum de 2.5 à 7.3/10. **Point de vigilance :** volume effondré à 2,251 (0.89× moyenne 20j) = rebond sans conviction institutionnelle. Earnings JOUR J le 2026-06-08 — résultats toujours non observables à 17h UTC. Un retour sous MM50 + volume faible invaliderait le réclassement.
+TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie sur des fondamentaux. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Verdict confirmé : ACHETER (Réduit)** — grignotage haussier de +1.61% entre 17h et 21h UTC, portant le gain de séance à +4.19% ($45.3501 vs $43.527 veille). RSI remonté à 54.61 (+2.99 pts vs 17h), cours bien au-dessus de la MM50 ($43.61, écart +$1.74 / +4.0%). Score Global stable à 61.5/100 (66.5 ajusté), Score Momentum 7.5/10. **Points de vigilance :** volume faible persistant 2,294 (0.90× moyenne 20j) = rebond sans conviction institutionnelle ; earnings JOUR J (2026-06-08) non résolus à 21h UTC. Un retour sous MM50 + volume faible invaliderait la thèse.
 
 ---
 
