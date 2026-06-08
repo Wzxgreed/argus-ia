@@ -17,7 +17,7 @@
 **Statut :** Thèse non établie — profil spéculatif biotech pré-profit, Filtre Qualité 2/6
 **Horizon :** 6–12 mois (dépendant des catalyseurs cliniques)
 
-**Résumé :** CTMX est une biotech en phase clinique avancée (plateforme Probody) avec des partenariats de qualité (AbbVie, BMS, Amgen). Le snapshot 10h UTC du 2026-06-08 enregistre une **nouvelle accélération baissière** : cours **$3.00** (−5.06% vs snapshot 03/06), RSI **29.53** (+3.85 pts, survente maintenue), volume **0.98×** la moyenne 20j (retour sous moyenne après distribution). Le **support immédiat $3.14 est cassé** avec un nouveau low à **$2.98**. L’écart sous MM50 s’élargit à **−26.6%** ($4.09). L’**anomalie options JSON persiste** (max pain $1.00 aberrant, put/call et call OI null) — valeur opérationnelle $4.00 conservée conformément au protocole. Les scores agents restent inchangés (**Score Global Ajusté 52.5/100**, Score Opportunité **5.6/10**, Score Momentum **3.5/10**). La recommandation **ATTENDRE** est confirmée, timing **Défavorable**. Le short interest stable à **16.23%** confirme que les shorts maintiennent leurs positions. Aucune position recommandée en l’absence de catalyseur clinique confirmé.
+**Résumé :** CTMX est une biotech en phase clinique avancée (plateforme Probody) avec des partenariats de qualité (AbbVie, BMS, Amgen). Le snapshot 13h UTC du 2026-06-08 enregistre une **stabilité totale** vs snapshot 10h UTC : cours **$3.00** inchangé, RSI **29.53** inchangé en survente, volume **0.98×** la moyenne 20j stable. L’événement technique principal est la **résolution de l’anomalie options JSON** (max pain $4.00 confirmé, put/call 0.96 rétabli, call OI 51.0% rétablis), ce qui légèrement améliore la lecture de la structure options. Le **support immédiat $3.14 est cassé** avec un low à **$2.98**. L’écart sous MM50 reste à **−26.6%** ($4.09). Les scores agents restent inchangés (**Score Global Ajusté 52.5/100**, Score Opportunité **5.6/10**, Score Momentum **3.5/10**). La recommandation **ATTENDRE** est confirmée, timing **Défavorable**. Le short interest stable à **16.23%** confirme que les shorts maintiennent leurs positions. Aucune position recommandée en l’absence de catalyseur clinique confirmé.
 
 ---
 
@@ -34,6 +34,7 @@
 | 2026-06-02 | `CTMX_2026-06-02_update.md` | Mise à jour snapshot **21:00 UTC** | Stabilité technique en clôture officielle $3.16 (+0.16% vs 17h), volume corrigé **1.45×** (invalidation épuisement vendeur), RSI 25.68 stable, scores inchangés (Score Global Ajusté 52.5/100), SL/TP inchangés $2.78/$3.73, ATTENDRE confirmée, timing défavorable |
 | 2026-06-03 | `CTMX_2026-06-03_update.md` | Mise à jour snapshot **10:00 UTC** | Stabilité totale vs clôture 02/06 (cours $3.16 inchangé, RSI 25.68 inchangé, volume 1.45× inchangé), anomalie options JSON détectée et traitée (max pain $1.00 aberrant → valeur opérationnelle $4.00 conservée, put/call et call OI passés à null → valeurs opérationnelles 1.0 et 49.9% conservées), scores inchangés (Score Global Ajusté 52.5/100), SL/TP inchangés $2.78/$3.73, ATTENDRE confirmée, timing défavorable |
 | 2026-06-08 | `CTMX_2026-06-08_update.md` | Mise à jour snapshot **10:00 UTC** | **Nouvelle accélération baissière** −5.06% à $3.00 (low $2.98), support $3.14 cassé, RSI 29.53 (+3.85 pts), volume 0.98× (retour sous moyenne), MM50 $4.09 (écart −26.6%), anomalie options JSON persistante, scores inchangés (Score Global Ajusté 52.5/100), SL/TP révisés à la baisse $2.62/$3.57, ATTENDRE confirmée, timing défavorable |
+| 2026-06-08 | `CTMX_2026-06-08_update.md` | Mise à jour snapshot **13:00 UTC** | **Stabilité totale** vs snapshot 10h UTC (cours $3.00 inchangé, RSI 29.53 inchangé, volume 0.98× inchangé), **anomalie options JSON RÉSOLUE** (max pain $4.00 confirmé, put/call 0.96 rétabli, call OI 51.0% rétabli), structure options légèrement plus haussière, scores inchangés (Score Global Ajusté 52.5/100), SL/TP inchangés $2.62/$3.57, ATTENDRE confirmée, timing défavorable |
 
 ---
 
@@ -46,13 +47,13 @@
 
 ## Alertes actives
 
-- 🔴 **Cours $3.00** — nouvelle jambe de baisse, support $3.14 cassé
-- 🔴 **Low $2.98** — nouveau support immédiat, ligne de défense clé
+- 🔴 **Cours $3.00** — jambe de baisse confirmée, support $3.14 cassé
+- 🔴 **Low $2.98** — support immédiat, ligne de défense clé
 - 🔴 RSI 29.53 — survente maintenue sans rebond significatif
 - 🔴 Short interest 16.23% — accumulation shorts confirmée
 - 🔴 Cours sous MM50 ($4.09) avec écart −26.6%
 - 🔴 Score Global Ajusté 52.5/100 — reste sous seuil institutionnel (60) pour achat
-- 🟡 Options — anomalie JSON persistante (max pain $1.00 aberrant, valeurs opérationnelles conservées)
+- 🟢 Options — anomalie JSON RÉSOLUE (max pain $4.00, put/call 0.96, call OI 51.0% rétablis)
 - 🟡 XLV momentum 4.41 — amélioration sectorielle marginale
 - [WARNING] Biotech pré-revenue — scoring standard peu fiable
 - [INFO] Earnings confirmé le 2026-08-06 (J+59)
@@ -67,4 +68,4 @@ L’ancien dossier `Actions/CYTOMX/` contient l’historique des analyses sous l
 
 ---
 
-*Dernière mise à jour : 2026-06-08 10:00 UTC*
+*Dernière mise à jour : 2026-06-08 13:00 UTC*

@@ -1,69 +1,67 @@
-# CTMX — Mise à Jour — Snapshot 2026-06-08 10h UTC
+# CTMX — Mise à Jour — Snapshot 2026-06-08 13h UTC
 
 > **Société :** CytomX Therapeutics, Inc.
 > **Secteur :** Healthcare / Biotechnology — Probody therapeutics
 > **Exchange :** NASDAQ
 > **Date :** 2026-06-08
-> **Snapshot :** 10:00 UTC (pipeline matin)
+> **Snapshot :** 13:00 UTC (pipeline matin)
 > **Analyste :** Desk Argus-IA
 
 ---
 
 ## Résumé Exécutif
 
-**Nouvelle accélération baissière** pour CTMX : le cours clôture à **$3.00**, en baisse de **−5.66%** vs previous close ($3.18) et de **−5.06%** vs le snapshot précédent ($3.16). Le **nouveau low du jour à $2.98** casse le support immédiat $3.14 établi le 2026-06-02. Le RSI remonte légèrement de **25.68 à 29.53** (+3.85 pts) — sortie du 2e percentile historique mais toujours en zone de survente technique. Le volume retombe à **0.98×** la moyenne 20j (3.42M vs 3.49M), signal d’épuisement vendeur partiel après la distribution des séances précédentes.
+**Stabilité totale vs snapshot 10h UTC** pour CTMX à **$3.00** (inchangé, −5.66% vs previous close $3.18). Le RSI reste en survente à **29.53** (inchangé). Le volume est stable à **0.98×** la moyenne 20j (3.42M vs 3.49M).
 
-L’**anomalie options JSON persiste** : le worker retourne un max pain de **$1.00** (valeur aberrante, incompatible avec le spot et l’historique) et des champs put/call ratio + call OI % à **null**. La valeur opérationnelle historique **$4.00** est conservée conformément au protocole.
+L’événement technique dominant du snapshot 13h UTC est la **résolution de l’anomalie options JSON** : le worker retourne désormais des données valides — **max pain $4.00**, **put/call ratio 0.96**, **call OI 51.0%** — contre des valeurs aberrantes/null au snapshot 10h UTC. La structure options est légèrement plus haussière qu’avec les valeurs opérationnelles conservées précédemment (put/call 0.96 vs 1.0, call OI 51.0% vs 49.9%).
 
 Les scores agents restent **inchangés** : Score Global Ajusté **52.5/100**, Score Opportunité **5.6/10**, Score Momentum **3.5/10**. La recommandation **ATTENDRE** est confirmée, timing **Défavorable**.
 
-| | Valeur (03/06 10h UTC) | Valeur (08/06 10h UTC) | Changement |
+| | Valeur (08/06 10h UTC) | Valeur (08/06 13h UTC) | Changement |
 |---|---|---|---|
-| **Cours** | $3.16 | **$3.00** | **−5.06%** — accélération baissière |
-| **RSI 14j** | 25.68 | **29.53** | **+3.85 pts** — sortie 2e percentile, survente maintenue |
-| **Volume rel. 20j** | 1.45× | **0.98×** | **Retour sous moyenne** — épuisement vendeur partiel |
+| **Cours** | $3.00 | **$3.00** | **Stable** |
+| **RSI 14j** | 29.53 | **29.53** | **Stable** — survente maintenue |
+| **Volume rel. 20j** | 0.98× | **0.98×** | **Stable** |
 | **ATR 14j** | $0.19 | **$0.19** | Stable |
 | **Short Interest** | 16.23% | **16.23%** | Stable — accumulation shorts confirmée |
-| **MM 50j** | $4.16 | **$4.09** | **−1.7%** — écart cours élargi à **−26.6%** |
-| **Max Pain** | $4.00 | **$4.00** | Valeur opérationnelle conservée (anomalie JSON $1.00 persistante) |
-| **Put/Call Ratio** | 1.0 | **1.0** | Valeur opérationnelle conservée (JSON null) |
-| **Call OI %** | 49.9% | **49.9%** | Valeur opérationnelle conservée (JSON null) |
+| **MM 50j** | $4.09 | **$4.09** | Stable — écart cours **−26.6%** |
+| **Max Pain** | $4.00 (opérationnelle) | **$4.00** | **Anomalie JSON RÉSOLUE** — valeur confirmée |
+| **Put/Call Ratio** | 1.0 (opérationnelle) | **0.96** | **Légèrement plus haussier** |
+| **Call OI %** | 49.9% (opérationnelle) | **51.0%** | **Légèrement plus haussier** |
 | **Score Opportunité** | 5.6/10 | **5.6/10** | Inchangé |
 | **Score Global Ajusté** | 52.5/100 | **52.5/100** | Inchangé |
 | **Recommandation** | ATTENDRE | **ATTENDRE** | Confirmée — timing défavorable |
 
 ---
 
-## Changements depuis l’Analyse Précédente (Snapshot 2026-06-03 10h UTC)
+## Changements depuis l’Analyse Précédente (Snapshot 2026-06-08 10h UTC)
 
-### 1. Technique — Accélération Baissière, Support Cassé
+### 1. Technique — Stabilité Totale
 
-| Indicateur | 03/06 10h UTC | 08/06 10h UTC | Signal |
+| Indicateur | 08/06 10h UTC | 08/06 13h UTC | Signal |
 |------------|---------------|---------------|--------|
-| Cours close | $3.16 | **$3.00** | **−5.06%** — nouvelle jambe de baisse |
-| Open / High / Low | $3.40 / $3.41 / $3.14 | **$3.19 / $3.19 / $2.98** | **Nouveau low $2.98** — cassure support $3.14 |
-| Variation vs previous close | −8.41% | **−5.66%** | Accélération baissière confirmée |
-| Volume | 4,924,600 | **3,419,400** | **−30.6%** — retour sous moyenne 20j |
-| Volume rel. 20j | 1.45× | **0.98×** | Épuisement vendeur partiel |
-| RSI 14j | 25.68 | **29.53** | **+3.85 pts** — survente maintenue |
-| ATR 14j | $0.19 | **$0.19** | Stable — volatilité inchangée |
-| MM 50j | $4.16 | **$4.09** | **−1.7%** — cours **−26.6%** sous MM50 |
-| 52W High / Low | $8.21 / $1.72 | **$8.21 / $1.72** | Low du jour $2.98 à +73% du 52W low |
+| Cours close | $3.00 | **$3.00** | **Stable** |
+| Open / High / Low | $3.19 / $3.19 / $2.98 | **$3.19 / $3.19 / $2.98** | Stable |
+| Variation vs previous close | −5.66% | **−5.66%** | Stable |
+| Volume | 3,419,400 | **3,419,400** | Stable |
+| Volume rel. 20j | 0.98× | **0.98×** | Stable |
+| RSI 14j | 29.53 | **29.53** | Survente maintenue |
+| ATR 14j | $0.19 | **$0.19** | Stable |
+| MM 50j | $4.09 | **$4.09** | Cours **−26.6%** sous MM50 |
+| 52W High / Low | $8.21 / $1.72 | **$8.21 / $1.72** | — |
 
-**Verdict timing :** Défavorable. Le cours a confirmé une nouvelle jambe de baisse avec un **break du support immédiat $3.14** (low du 2026-06-02) pour atteindre **$2.98**. Le rejet du open à $3.19 sans aucun relais haussier (high = open) confirme la domination vendeuse en séance. Le RSI 29.53 reste en survente mais la légère remontée (+3.85 pts) n’est pas portée par un rebond de cours — elle reflète plutôt la compression de la volatilité intrajour (range $0.21 vs $0.27 précédent).
+**Verdict timing :** Défavorable. Aucun changement technique entre le snapshot 10h UTC et le snapshot 13h UTC. Le cours reste figé à $3.00 avec un RSI 29.53 en survente. Le break du support $3.14 vers $2.98 reste la référence technique dominante. Le volume stable à 0.98× la moyenne 20j indique un épuisement vendeur partiel sans regain d’intérêt acheteur.
 
-Le retour du volume sous la moyenne (0.98×) est un signal mixte : il peut indiquer un épuisement vendeur temporaire après les distributions massives des 01–02/06, mais dans un contexte de break de support, il traduit aussi un manque d’acheteurs à ce niveau. La MM50 qui descend à $4.09 renforce la pente baissière structurelle.
+### 2. Options — Anomalie JSON RÉSOLUE, Structure Légèrement Plus Haussière
 
-### 2. Options — Anomalie JSON Persistante (Valeurs Opérationnelles Conservées)
-
-| Indicateur | 03/06 10h UTC | 08/06 10h UTC | Signal |
+| Indicateur | 08/06 10h UTC | 08/06 13h UTC | Signal |
 |------------|---------------|---------------|--------|
-| Max Pain | $4.00 | **$4.00** | **Anomalie persistante** — JSON $1.00 aberrant, valeur opérationnelle conservée |
-| Put/Call Ratio | 1.0 | **1.0** | Valeur opérationnelle conservée (JSON null) |
-| Call OI % | 49.9% | **49.9%** | Valeur opérationnelle conservée (JSON null) |
+| Max Pain | $4.00 (opérationnelle) | **$4.00** | **Anomalie résolue** — JSON valide |
+| Put/Call Ratio | 1.0 (opérationnelle) | **0.96** | **Légèrement plus haussier** |
+| Call OI % | 49.9% (opérationnelle) | **51.0%** | **Légèrement plus haussier** |
 | Expiration proche | 2026-06-18 | **2026-06-18** | ~10 jours |
 
-**Verdict options :** Aucun changement structurel. L’anomalie JSON (max pain $1.00) persiste depuis le 2026-06-03 sans données alternatives valides. Le spot à $3.00 reste sous le max pain opérationnel ($4.00), ce qui maintient une pression technique neutre à légèrement haussière vers l’expiration. Le rebalancing pré-expiration se poursuit dans un contexte de break de support.
+**Verdict options :** L’anomalie JSON persistante depuis le 2026-06-03 est **résolue** au snapshot 13h UTC. Le worker retourne désormais un max pain cohérent à **$4.00**, un put/call ratio de **0.96** (contre 1.0 opérationnel) et un call OI de **51.0%** (contre 49.9% opérationnel). La structure est légèrement plus haussière qu’avec les valeurs opérationnelles conservées précédemment, mais reste globalement neutre (put/call proche de 1.0, call OI proche de 50%). Le spot à $3.00 reste significativement sous le max pain ($4.00), ce qui maintient une pression technique neutre à légèrement haussière vers l’expiration.
 
 ### 3. Fondamental — Aucun Changement
 
@@ -71,10 +69,10 @@ Données FMP FY2025 inchangées. Pas de nouveau filing SEC, pas de guidance upda
 
 | Métrique | Valeur | Statut |
 |----------|--------|--------|
-| Market Cap (Yahoo) | **$653.1M** | −5.7% vs 03/06 ($687.9M) |
+| Market Cap (Yahoo) | **$653.1M** | Stable |
 | Market Cap (FMP) | $587.6M | — |
 | EV/Revenue | 8.70 (Yahoo) / 7.60 (FMP) | Élevé pour biotech pré-commercial |
-| Forward P/E | −5.93 | Pertes attendues (légère amélioration vs −6.15) |
+| Forward P/E | −5.93 | Pertes attendues |
 | Short Interest | **16.23%** | 🔴 Élevé et stable |
 | Current Ratio | 3.09 | Trésorerie confortable |
 | Cash / Working Capital | $97.3M / $97.6M | Runway ~2–3 ans |
@@ -87,7 +85,7 @@ Données FMP FY2025 inchangées. Pas de nouveau filing SEC, pas de guidance upda
 
 ### 4. Sentiment / News / Social
 
-| Indicateur | 03/06 10h UTC | 08/06 10h UTC | Signal |
+| Indicateur | 08/06 10h UTC | 08/06 13h UTC | Signal |
 |------------|---------------|---------------|--------|
 | News pipeline | Aucune | **Aucune** | — |
 | Social Sentiment | 0/10 | **0/10** | Aucun intérêt retail |
@@ -101,15 +99,15 @@ Données FMP FY2025 inchangées. Pas de nouveau filing SEC, pas de guidance upda
 
 | Facteur | Impact | Détail |
 |---------|--------|--------|
-| **XLV (Healthcare)** | Atténué | Momentum score remonté à **4.41/10** (vs 0.0 le 03/06), RS 20j vs SPY **+4.91%** — le secteur repasse en surperformance courte. Headwind sectoriel partiellement atténué. |
-| **Biotech spécifique** | Risque élevé | Sous-secteur biotech early-stage reste pénalisé par la rotation vers la tech, malgré l’amélioration XLV. |
-| **Rotation sectorielle** | `NEUTRAL` | Signal macro du jour : XLV top 2 des sectors, alignement amélioré. |
+| **XLV (Healthcare)** | Atténué | Momentum score **4.41/10**, RS 20j vs SPY **+4.91%** — top 2 sectoriel. Headwind sectoriel partiellement atténué. |
+| **Biotech spécifique** | Risque élevé | Sous-secteur biotech early-stage reste pénalisé par la rotation vers la tech. |
+| **Rotation sectorielle** | `NEUTRAL` | Signal macro du jour : XLV top 2 des sectors. |
 | **DXY / FX** | Neutre | `fx_exposure_latest.json` : CTMX exposure 55% EUR/CNY, FX Impact Score **0.0** — aucun headwind/tailwind détecté. |
 | **Geo risk** | Non flaggé | `geo_risk_latest.json` (2026-05-17) : CTMX non présent. |
 | **Accounting risk** | Scan indisponible | `accounting_risk_latest.json` absent — pas de M-Score/Z-Score. |
-| **Event-driven** | Aucun | `events_2026-06-08.json` : 0 événement corporate détecté. |
-| **Earnings** | J+59 | Earnings confirmé le **2026-08-06** (Est EPS $−0.13 à $−0.07, Rev $0.0B). Pas de preview requis (≥ 5 jours). |
-| **Quant** | Calibration en cours | `quant_report_latest.json` (2026-05-17) : 0 signaux, p-value 1.0 — pas assez d’historique pour significativité. |
+| **Event-driven** | Aucun | `events_latest.json` (2026-06-08) : 0 événement corporate détecté. |
+| **Earnings** | J+59 | Earnings confirmé le **2026-08-06** (Est EPS $−0.13 à $−0.07, Rev $0.0B). Pas de preview requis. |
+| **Quant** | Calibration en cours | `quant_report_latest.json` (2026-05-17) : 0 signaux, p-value 1.0 — pas assez d’historique. |
 
 ---
 
@@ -119,24 +117,24 @@ Données FMP FY2025 inchangées. Pas de nouveau filing SEC, pas de guidance upda
 |-----|-------|---------------------------|------------|---------------|
 | Catalyseur | **6.5/10** | 35% | 2.28 | Pipeline Probody + partenariats majeurs, earnings à J+59 |
 | Valorisation | **6.0/10** | 40% | 2.40 | Biotech pré-profit, PT consensus +202% offre upside asymétrique. Plafonné par Filtre Qualité 2/6. |
-| Momentum | **3.5/10** | 25% | 0.88 | RSI 29.53 survente, cours −26.6% sous MM50, recul −5.66% sur volume 0.98× (épuisement vendeur partiel) |
-| **Score Opportunité** | **5.6/10** | — | — | **Inchangé** vs snapshot 03/06 10h UTC |
+| Momentum | **3.5/10** | 25% | 0.88 | RSI 29.53 survente, cours −26.6% sous MM50, recul −5.66% sur volume 0.98× |
+| **Score Opportunité** | **5.6/10** | — | — | **Inchangé** vs snapshot 10h UTC |
 | **Malus** | | | −0.5 | Biotech pre-revenue + pertes (Filtre Qualité ≤ 3/6) |
 | **Bonus** | | | +0.0 | Aucun bonus détecté |
 | **Score Global** | **55.5/100** | | | Inchangé |
-| **Score Global Ajusté** | **52.5/100** | | | **Inchangé** vs snapshot 03/06 10h UTC |
+| **Score Global Ajusté** | **52.5/100** | | | **Inchangé** vs snapshot 10h UTC |
 
 **Action recommandée :** **ATTENDRE** *(confirmée)*
 **Timing :** Défavorable
 **Sizing :** — (pas de position recommandée)
 
-**Note de fiabilité :** Score Opportunité 5.6/10 — en dessous du seuil d’opportunité institutionnel (≥ 6.0). Le profil biotech pré-profit reste incompatible avec le scoring standard. Le break du support $3.14 vers $2.98 renforce le risque technique à court terme. L’amélioration du momentum sectoriel XLV (4.41 vs 0.0) est un facteur positif marginal mais insuffisant pour modifier la thèse en l’absence de catalyseur clinique confirmé.
+**Note de fiabilité :** Score Opportunité 5.6/10 — en dessous du seuil d’opportunité institutionnel (≥ 6.0). Le profil biotech pré-profit reste incompatible avec le scoring standard. La résolution de l’anomalie options JSON est un facteur positif marginal (structure légèrement plus haussière) mais insuffisant pour modifier la thèse en l’absence de catalyseur clinique confirmé.
 
 ---
 
 ## Révision des Niveaux SL / TP
 
-Révisés à la baisse suite au nouveau cours $3.00 et au break de support.
+Inchangés — cours stable à $3.00, ATR stable à $0.19.
 
 | Niveau | Valeur | Méthode |
 |--------|--------|---------|
@@ -147,7 +145,7 @@ Révisés à la baisse suite au nouveau cours $3.00 et au break de support.
 | Ratio R/R (technique) | **1.5** | $0.57 / $0.38 |
 | Ratio R/R (consensus) | **15.9** | $6.05 / $0.38 |
 
-**Attention :** Le ratio R/R consensus reste trompeur pour une biotech. Le risque de gap-down en cas d’échec clinique peut dépasser 50%. Le **support immédiat $3.14 est cassé** — le nouveau low $2.98 devient la ligne de défense clé. Un break sous $2.98 avec volume > 1.5× moyenne ouvrirait la voie vers $2.70–$2.50 (zone de consolidation historique).
+**Attention :** Le ratio R/R consensus reste trompeur pour une biotech. Le risque de gap-down en cas d’échec clinique peut dépasser 50%. Le **support immédiat $3.14 est cassé** — le low $2.98 reste la ligne de défense clé. Un break sous $2.98 avec volume > 1.5× moyenne ouvrirait la voie vers $2.70–$2.50 (zone de consolidation historique).
 
 ---
 
@@ -155,18 +153,16 @@ Révisés à la baisse suite au nouveau cours $3.00 et au break de support.
 
 **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — ATTENDRE (CONFIRMÉE)**
 
-Le snapshot 10h UTC du 2026-06-08 enregistre une **nouvelle accélération baissière** par rapport à la clôture du 2026-06-03 : cours **$3.00** (−5.06%), RSI **29.53** (+3.85 pts), volume **0.98×** (retour sous moyenne). Le **support $3.14 est cassé** avec un nouveau low à **$2.98**, renforçant la tendance baissière structurelle. L’écart sous MM50 s’élargit à **−26.6%** ($4.09).
+Le snapshot 13h UTC du 2026-06-08 enregistre une **stabilité totale** par rapport au snapshot 10h UTC : cours **$3.00** inchangé, RSI **29.53** inchangé en survente, volume **0.98×** inchangé. L’événement technique principal est la **résolution de l’anomalie options JSON** : le worker retourne désormais des données valides (**max pain $4.00**, **put/call 0.96**, **call OI 51.0%**), ce qui confirme la valeur opérationnelle du max pain et légèrement améliore la lecture de la structure options (plus haussière qu’avec les valeurs conservées).
 
-**Ce qui a changé depuis le snapshot 03/06 10h UTC :**
-- 🔴 **Cours :** **−5.06%** à $3.00 (accélération baissière confirmée)
-- 🟡 **RSI :** **29.53** (+3.85 pts) — sortie du 2e percentile, survente maintenue
-- 🔴 **Volume :** **0.98×** (3.42M vs moy. 3.49M) — épuisement vendeur partiel après distribution
-- 🔴 **Support :** **cassé** — low $2.98 sous le support immédiat $3.14
-- 🔴 **MM50 :** **$4.09** (−$0.07) — écart élargi à −26.6%
-- 🟡 **Options :** **anomalie JSON persistante** (max pain $1.00 aberrant → valeur opérationnelle $4.00 conservée)
-- ✅ **Scores agents — inchangés** (Score Global Ajusté 52.5/100, Opportunité 5.6/10, Momentum 3.5/10)
-- ✅ **Recommandation — ATTENDRE confirmée**
-- 🟡 **XLV momentum** — amélioration sectorielle marginale (4.41 vs 0.0)
+**Ce qui a changé depuis le snapshot 10h UTC :**
+- ✅ Cours : **stable** à $3.00
+- ✅ RSI : **stable** à 29.53 (survente inchangée)
+- ✅ Volume : **stable** à 0.98×
+- ✅ Scores agents — **inchangés** (Score Global Ajusté 52.5/100, Opportunité 5.6/10, Momentum 3.5/10)
+- ✅ Recommandation — **ATTENDRE confirmée**
+- 🟢 **Options — anomalie JSON RÉSOLUE** (max pain $4.00 confirmé, put/call 0.96 rétabli, call OI 51.0% rétabli)
+- 🟡 Options — structure légèrement plus haussière vs valeurs opérationnelles conservées
 - ❌ Filtre Qualité 2/6 inchangé — plafonnement Score Valorisation maintenu
 - ❌ Aucune news majeure
 
@@ -176,25 +172,25 @@ Le snapshot 10h UTC du 2026-06-08 enregistre une **nouvelle accélération baiss
 3. Cours consolidation au-dessus de MM50 ($4.09) avec volume > 1.5× moyenne
 4. Forward P/E amélioration vers break-even
 
-**Conditions de passage à ÉVITER :** *(révisées)*
+**Conditions de passage à ÉVITER :** *(inchangées)*
 1. Échec clinique majeur (stop essai)
 2. Dilution capitale > 20% sans catalyseur
 3. Perte d’un partenariat stratégique (AbbVie/BMS)
-4. **Break sous $2.98 avec volume > 1.5× moyenne** (nouveau support cassé)
+4. Break sous $2.98 avec volume > 1.5× moyenne (support immédiat cassé)
 
 **Alertes actives :**
-- 🔴 **Cours $3.00** — nouvelle jambe de baisse, support $3.14 cassé
-- 🔴 **Low $2.98** — nouveau support immédiat, ligne de défense clé
+- 🔴 **Cours $3.00** — jambe de baisse confirmée, support $3.14 cassé
+- 🔴 **Low $2.98** — support immédiat, ligne de défense clé
 - 🔴 RSI 29.53 — survente maintenue sans rebond significatif
 - 🔴 Short interest 16.23% — accumulation shorts confirmée
 - 🔴 Cours sous MM50 ($4.09) avec écart −26.6%
 - 🔴 Score Global Ajusté 52.5/100 — reste sous seuil institutionnel (60) pour achat
-- 🟡 Options — anomalie JSON persistante (max pain $1.00 aberrant, valeurs opérationnelles conservées)
+- 🟢 Options — anomalie JSON RÉSOLUE (max pain $4.00, put/call 0.96, call OI 51.0% rétablis)
 - 🟡 XLV momentum 4.41 — amélioration sectorielle marginale
 - [WARNING] Biotech pré-revenue — scoring standard peu fiable
 - [INFO] Earnings confirmé le 2026-08-06 (J+59) — Est EPS $−0.13 à $−0.07
 
 ---
 
-*Rapport généré automatiquement — snapshot 2026-06-08 10:00 UTC.*
-*Analyse précédente : `CTMX_2026-06-03_update.md` (snapshot 10:00 UTC) — stabilité totale, anomalie options JSON détectée.*
+*Rapport généré automatiquement — snapshot 2026-06-08 13:00 UTC.*
+*Analyse précédente : `CTMX_2026-06-08_update.md` (snapshot 10:00 UTC) — nouvelle accélération baissière, anomalie options JSON persistante.*
