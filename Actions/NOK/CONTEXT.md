@@ -9,19 +9,19 @@
 
 - **Recommandation :** ATTENDRE — Pas de position
 **Prix cible :** $10.8 (consensus 7 analystes FMP)
-**Stop-loss :** $12.56 (cours − 2×ATR)
-**Take-profit :** $18.11 (cours + 3×ATR)
-**Upside/Downside :** −26.9% / −14.9%
-**Dernière mise à jour :** 2026-06-08 17:00 UTC
+**Stop-loss :** $12.37 (cours − 2×ATR)
+**Take-profit :** $17.92 (cours + 3×ATR)
+**Upside/Downside :** −26.9% / −15.2%
+**Dernière mise à jour :** 2026-06-08 21:00 UTC
 
-Snapshot 17h UTC : cours **$14.775** (+2.75% vs previous close $14.38), volume **76.2M** (0.61× moyenne 20j). RSI **55.47** (zone neutre, haut de fourchette). ATR **$1.11**. MM50 **$12.29**. Cours +20.3% au-dessus de la MM50. **Données options** : max pain **$15.00**, put/call **1.00**, call OI **49.9%**, expiration **2026-06-12** (dans 4 jours). Cours sous le max pain (−1.5%) — pression baissière atténuée vs snapshot 13h (−4.1%). Consensus FMP **$10.8** (7 analysts). Premium consensus **+36.8%**. Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%). Divergence structurelle Yahoo/FMP persistante (P/E Yahoo 92.34 vs P/E FMP 45.81). Dividende 1.14%. Le secteur Communication Services (XLC) reste en sous-performance relative vs SPY (bottom 3, momentum 0.0). `recommandations_latest.json` : Score Global ajusté **51.2/100** — **ATTENDRE**. Score Opportunité **4.6/10** (C:4.0 V:3.5 M:7.3). Pas de position.
+Snapshot 21h UTC : cours **$14.59** (+1.46% vs previous close $14.38), volume **102.4M** (0.82× moyenne 20j). RSI **54.58** (zone neutre, haut de fourchette). ATR **$1.11**. MM50 **$12.29**. Cours +18.7% au-dessus de la MM50. **Données options** : max pain **$15.00**, put/call **1.00**, call OI **49.9%**, expiration **2026-06-12** (dans 4 jours). Cours sous le max pain (−2.7%) — pression baissière modérée. Consensus FMP **$10.8** (7 analysts). Premium consensus **+35.1%**. Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%). Divergence structurelle Yahoo/FMP persistante (P/E Yahoo 91.19 vs P/E FMP 45.81). Dividende 1.14%. Le secteur Communication Services (XLC) reste en sous-performance relative vs SPY (bottom 3, momentum 0.0). `recommandations_latest.json` : Score Global ajusté **51.2/100** — **ATTENDRE**. Score Opportunité **4.6/10** (C:4.0 V:3.5 M:7.3). Pas de position.
 
 ---
 
 ## Actualités ayant impacté ce dossier
 - **Score global :** —/10
 - **Prix cible :** $10.8
-- **Stop-loss :** $12.56
+- **Stop-loss :** $12.37
 - **Statut thèse :** validée
 - **Horizon :** —
 
@@ -35,7 +35,7 @@ Snapshot 17h UTC : cours **$14.775** (+2.75% vs previous close $14.38), volume *
 
 ## 🚨 Alertes actives
 
-- Baisse — $12.03 (SL 2×ATR) — 🟢 Active
+- Baisse — $12.37 (SL 2×ATR) — 🟢 Active
 - Hausse — $9.26 (consensus) — 🔴 Déjà au-dessus
 - Volume — >2× moy. 20j (>249M) — 🟢 Active
 
@@ -49,20 +49,20 @@ Snapshot 17h UTC : cours **$14.775** (+2.75% vs previous close $14.38), volume *
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 54.73
+- **RSI 14j :** 54.58
 - **MM 50j :** 12.29
 - **MM 200j :** —
 - **ATR 14j :** 1.11
-- **Volume moy. 20j :** 125398328
+- **Volume moy. 20j :** 125507041
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-08
-- **Type :** full refresh
-- **Fichier :** `_NOK_2026-06-08_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-08
+- **Type :** update
+- **Fichier :** `NOK_2026-06-08_update.md`
+- **Conclusion :** Thèse ATTENDRE confirmée — close révisé $14.59 (+1.46%), volume 102.4M (0.82×), RSI 54.58. Score Global 51.2/100. Pas de position.
 
 ---
 
