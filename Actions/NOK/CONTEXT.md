@@ -1,4 +1,4 @@
-# CONTEXT — NOK — Dernière mise à jour : 2026-06-07
+# CONTEXT — NOK — Dernière mise à jour : 2026-06-08
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -7,22 +7,23 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ÉVITER — Pas de position
-**Prix cible :** $9.26 (consensus 6 analystes)
-**Stop-loss :** $14.81 (cours − 2×ATR)
-**Take-profit :** $19.91 (cours + 3×ATR)
-**Upside/Downside :** −45.0% / −12.1%
-**Dernière mise à jour :** 2026-06-03 13:00 UTC
+- **Recommandation :** SURVEILLER — Pas de position
+- **Prix cible :** $10.8 (consensus 7 analystes FMP)
+- **Stop-loss :** $12.12 (cours − 2×ATR)
+- **Take-profit :** $17.77 (cours + 3×ATR)
+- **Upside/Downside :** −24.9% / −15.7%
+- **Dernière mise à jour :** 2026-06-08 10:00 UTC
 
-Snapshot 13h UTC : cours **$16.85** (strictement inchangé vs snapshot 10h 03/06), volume **134.7M** (1.13× moyenne 20j). **New 52-week high $17.11** confirmé. Le support $16.25 (close 01/06) demeure le niveau clé à défendre. RSI **70.22** (🔴 zone surachat confirmée), ATR $1.02 (trigger ATR_SPIKE actif à 6.05%). Le cours reste +44.0% au-dessus de la MM 50j ($11.70) — tendance haussière structurelle intacte mais **surchauffée**. **Données options RESTAURÉES dans `latest.json`** (snapshot 13h) : max pain **$13.50**, put/call **0.46**, call OI **68.5%**, expiration 2026-06-05 (**dans 2 jours**). Le cours +24.8% au-dessus du max pain crée un **pin risk baissier extrème** — risque de mean-reversion vers $13.50 dès demain si aucun catalyseur n'intervient. Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%). Divergence structurelle Yahoo/FMP persistante (P/E FMP 45.81 vs Yahoo 105.31). Dividende 0.97%. Le secteur Communication Services (XLC) reste en sous-performance relative vs SPY (bottom 3, RS20d −7.97%). Le mouvement reste totalement idiosyncratique. `recommandations_latest.json` inchangé : Score Global ajusté **31.8/100** — **ÉVITER** (seuil <35). Thèse confirmée : stabilité totale vs 10h, anomalie options résolue, surchauffe technique persistante (RSI 70), volume confirmé au-dessus de la moyenne. Absence de catalyseur fondamental. Pas de position.
+Snapshot 10h UTC : cours **$14.38** (−13.48% vs previous close $16.62), volume **183.6M** (1.47× moyenne 20j). RSI **52.32** (zone neutre, sortie complète du surachat 70.22 du 03/06). ATR $1.13, trigger ATR_SPIKE actif à 7.86%. Cours +18.3% au-dessus de la MM 50j ($12.16) — tendance haussière structurelle intacte mais affaiblie. **Données options corrompues dans `latest.json`** (max pain $3.00 aberrant, put/call et call OI null) — valeurs opérationnelles historiques conservées ($13.50 / 0.46 / 68.5%). Consensus FMP révisé à $10.8 (+1 analyste, vs $9.26 historique). Premium consensus réduit à +33.1% (vs +81.9% au 02/06). Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%). Divergence structurelle Yahoo/FMP persistante (P/E FMP 45.81 vs Yahoo 89.88). Dividende 1.14%. Le secteur Communication Services (XLC) reste en sous-performance relative vs SPY (bottom 3, momentum 0.0). `recommandations_latest.json` : Score Global ajusté **48.0/100** — **SURVEILLER** (upgrade mécanique de ÉVITER). Score Opportunité 4.3/10 (C:4.0 V:3.5 M:6.0). Thèse modifiée : la correction de −13.5% dissipe la surchauffe technique mais ne crée pas d'opportunité d'achat (qualité hors périmètre, absence de catalyseur). Pas de position.
 
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** —/10
-- **Prix cible :** $9.26
-- **Stop-loss :** $14.81
-- **Statut thèse :** validée
+
+- **Score global :** 48.0/100
+- **Prix cible :** $10.8
+- **Stop-loss :** $12.12
+- **Statut thèse :** modifiée
 - **Horizon :** —
 
 ---
@@ -35,15 +36,16 @@ Snapshot 13h UTC : cours **$16.85** (strictement inchangé vs snapshot 10h 03/06
 
 ## 🚨 Alertes actives
 
-- Baisse — $12.03 (SL 2×ATR) — 🟢 Active
-- Hausse — $9.26 (consensus) — 🔴 Déjà au-dessus
-- Volume — >2× moy. 20j (>249M) — 🟢 Active
+- Baisse — $12.12 (SL 2×ATR) — 🟢 Active
+- Hausse — $10.8 (consensus) — 🔴 Déjà au-dessus
+- Volume — >2× moy. 20j (>250M) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
 - Aucun événement à venir.
+- Earnings Q2 FY2026 — 2026-07-23 (dans 45 jours)
 
 ---
 
@@ -59,10 +61,10 @@ Snapshot 13h UTC : cours **$16.85** (strictement inchangé vs snapshot 10h 03/06
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-07
-- **Type :** full refresh
-- **Fichier :** `NOK_2026-06-07_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-07
+- **Date :** 2026-06-08
+- **Type :** update
+- **Fichier :** `NOK_2026-06-08_update.md`
+- **Conclusion :** Gap baissier −13.48% dissipe la surchauffe technique (RSI 70→52). Score Global upgrade mécanique ÉVITER→SURVEILLER (48.0/100). Pas d'entrée — qualité hors périmètre, aucun catalyseur.
 
 ---
 

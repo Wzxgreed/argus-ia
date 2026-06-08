@@ -1652,3 +1652,15 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-06-08 — Full Refresh Consolidé (Update 10:00 UTC)
+
+**Triggers :**
+- price_gap (high) : Gap -13.48% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 7.86% (seuil 5.0%)
+
+**Conclusion :** MODIFIÉ
+
+Snapshot 2026-06-08 10:00 UTC. Cours **$14.38** (−13.48% vs previous close $16.62), volume **183.6M** (1.47× moyenne 20j, +36% vs 03/06). RSI **52.32** (sortie complète de la zone surachat 70.22 du 03/06). ATR $1.13 (7.86%). MM50 $12.16 — tendance haussière structurelle intacte (+18.3%) mais affaiblie. Consensus FMP révisé **$10.8** (7 analysts, +1 vs historique). Premium consensus réduit mécaniquement de +81.9% à +33.1%. Quality hors périmètre inchangé (2.5/6). Données options corrompues ($3.00 aberrant) — valeurs historiques conservées. Aucun événement corporate (`events_latest.json` vide), aucune news structurante. Score Global ajusté **48.0/100** — **SURVEILLER** (upgrade mécanique de ÉVITER 31.8). Score Opportunité 4.3/10 (C:4.0 V:3.5 M:6.0). SL/TP révisés **$12.12/$17.77**. Thèse modifiée : la correction dissipe la surchauffe technique mais ne crée pas d'opportunité d'achat (qualité hors périmètre, absence de catalyseur, secteur XLC bottom 3). Pas de position. DRAFT_refresh archivé.
+
+---
