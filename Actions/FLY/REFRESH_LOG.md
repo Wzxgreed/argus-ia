@@ -1824,3 +1824,23 @@
 **Conclusion :** Modifiée en intensité négative — gap -9.56% en séance à $32.72 sans catalyst, cassure MM50 amplifiée ($38.99, −15.9%), RSI 39.71 proche survente, Score Momentum 2.5/10. Agent SURVEILLER (45.0). Thèse défavorable confirmée et renforcée. DRAFT_refresh traité et archivé dans `FLY_2026-06-09_update_17h.md`.
 
 ---
+
+## 2026-06-09 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -7.53% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 17.58% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-09 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -7.56% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 17.58% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

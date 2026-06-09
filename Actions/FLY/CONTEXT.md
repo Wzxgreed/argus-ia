@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Score global :** 45.0/100
-- **Prix cible :** $43.25 (consensus 12 analysts)
-- **Stop-loss :** $20.96
-- **Statut thèse :** confirmée et renforcée
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
 - **Horizon :** —
 
 ---
@@ -36,27 +36,27 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 39.71
-- **MM 50j :** 38.99
+- **RSI 14j :** 40.33
+- **MM 50j :** 39.01
 - **MM 200j :** —
 - **ATR 14j :** 5.88
-- **Volume moy. 20j :** 9078528
+- **Volume moy. 20j :** 9163498
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** update
-- **Fichier :** `FLY_2026-06-09_update_17h.md`
-- **Conclusion :** > **Type :** `_update.md` — Snapshot 17h UTC, gap baissier −9.56% en séance à $32.72, RSI 39.71 proche survente, cassure MM50 amplifiée (−15.9%), Score Momentum 2.5/10. Agent SURVEILLER (45.0). Thèse défavorable confirmée et renforcée.
+- **Type :** init
+- **Fichier :** `FLY_2026-06-09_update_13h.md`
+- **Conclusion :** > **Type :** `_update.md` — Snapshot 13h UTC, stabilité confirmée vs 10h UTC, anomalie options RÉSOLUE, thèse SURVEILLER (43.8) inchangée
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap -9.56% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 17.97% (seuil 5.0%)
+- **PRICE_GAP** (medium) — Gap -7.56% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 17.58% (seuil 5.0%)
 
 ---
 

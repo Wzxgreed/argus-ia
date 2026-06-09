@@ -1805,3 +1805,23 @@ Snapshot 17:00 UTC — Rebond +7.68% ($54.35 → $58.525) sur volume faible (0.4
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-06-09 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -8.69% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 11.21% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-09 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -8.73% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 11.22% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

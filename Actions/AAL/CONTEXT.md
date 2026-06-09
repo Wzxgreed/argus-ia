@@ -23,7 +23,7 @@ Le Forward P/E est a **6.16** (asymetrie intacte). Le RSI remonte a **66.97** (+
 
 **Verdict institutionnel :** La these tactique **ACHETER (Sizing Reduit)** est CONFIRMEE. La session du matin du 09/06 apporte une **progression technique favorable** : cours +0.92%, RSI 66.97 (+4.77 pts), test de $14.30 (vs rejet a $13.80 le 08/06), options stables et favorables. Le Forward P/E 6.16 reste attractif. Cependant, le **support $14.00 reste casse en close** — le test intraday n'a pas ete confirme. Le bilan reste extremement fragile (current ratio 0.50, tangible asset value negatif). Le sizing reduit est imperatif. **Un retour au-dessus de $14.00 en close sur volume > 80M confirmerait l'accumulation.** Si le volume normalise trop fortement (< 60M) avec cours sous $13.50, le support $13.20 cedera rapidement. Le RSI approche 70 — la marge de securite technique se reduit. AAdvantage (programme loyalty) reste le hidden asset (~$20-25B > market cap).
 
-**✅ Donnees completes** — Cours, RSI, ATR, P/E, beta, consensus FMP, short interest, volume disponibles dans `data/2026-06-09.json` (snapshot 17h UTC).  
+**✅ Donnees completes** — Cours, RSI, ATR, P/E, beta, consensus FMP, short interest, volume disponibles dans `data/2026-06-09.json` (snapshot 13h UTC).  
 **⚠️ Donnees partielles** — Accounting risk (M-Score, Z-Score, F-Score, Sloan) : fichier indisponible. Quant report insuffisant. MACD, MM200, IV Rank, insider trades detailles, 13F complets, ETF flows, dark pool, transcripts NLP, job postings.
 
 ---
@@ -59,11 +59,11 @@ Le Forward P/E est a **6.16** (asymetrie intacte). Le RSI remonte a **66.97** (+
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 66.97
-- **MM 50j :** 12.47
+- **RSI 14j :** 69.2
+- **MM 50j :** 12.48
 - **MM 200j :** —
 - **ATR 14j :** 0.66
-- **Volume moy. 20j :** 74395300
+- **Volume moy. 20j :** 77707574
 
 ---
 

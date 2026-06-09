@@ -2086,3 +2086,22 @@ Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 
 Le gap baissier de -7.98% est accompagné d'un volume supérieur à la moyenne 20j (1.13×), confirmant une participation vendeuse réelle et non un gap technique sur volume anémique. Le cours casse la consolidation des deux derniers jours ($14.59) et le RSI retourne sous les 50 (48.82). Le Score Global ajusté recule de 51.2 (ATTENDRE) à 48.0 (SURVEILLER). Aucun catalyseur fondamental n'est identifié (0 news, 0 événement corporate). La baisse s'inscrit dans la correction post-surchauffe des semaines précédentes (cours avait doublé depuis début mai sans fondamental). Le Filtre Qualité reste hors périmètre (2.5/6). Le niveau critique à surveiller est la MM50 à $12.40. Les niveaux SL/TP sont révisés à $11.12 / $16.88.
 
 ---
+
+## 2026-06-09 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 8.29% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-09 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -5.07% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 8.30% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

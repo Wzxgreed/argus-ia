@@ -10,8 +10,8 @@
 - **Recommandation :** —
 - **Score global :** —/10
 - **Prix cible :** $—
-- **Stop-loss :** $43.33
-- **Statut thèse :** invalide
+- **Stop-loss :** $40.83
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -36,11 +36,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 57.17
-- **MM 50j :** 43.7
+- **RSI 14j :** 45.88
+- **MM 50j :** 43.64
 - **MM 200j :** —
-- **ATR 14j :** 1.0
-- **Volume moy. 20j :** 2499
+- **ATR 14j :** 1.1
+- **Volume moy. 20j :** 2463
 
 ---
 

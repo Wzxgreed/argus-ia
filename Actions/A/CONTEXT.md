@@ -43,9 +43,9 @@
 - Volume — >2× moy. 20j (>11.5M) — 🟢 Active
 - Baisse — $12.03 (SL 2×ATR) — 🟢 Active
 - Volume — >2× moy. 20j (>249M) — 🟢 Active
-- Baisse — $13.97 (SL 2×ATR) — 🟢 Active
-- Hausse — $19.51 (prix cible) — 🟢 Active
-- Volume — >2× moy. 20j (>XXM) — 🟢 Active
+- Baisse — $13.78 (SL 2×ATR) — 🟢 Active
+- Hausse — $18.88 (prix cible) — 🟢 Active
+- Volume — >2× moy. 20j (>140.7M) — 🟢 Active
 - Baisse — $11.41 (SL 2×ATR) — 🟢 Active
 - Hausse — $14.00 (prix cible) — 🔴 Déclenchée (27/05)
 - Volume — >2× moy. 20j (>XXM) — 🟢 Active
@@ -64,11 +64,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 82.6
+- **RSI 14j :** 82.61
 - **MM 50j :** 119.14
 - **MM 200j :** —
 - **ATR 14j :** 5.45
-- **Volume moy. 20j :** 2582380
+- **Volume moy. 20j :** 2628732
 
 ---
 
