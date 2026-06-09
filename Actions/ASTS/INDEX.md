@@ -1,7 +1,7 @@
 # ASTS
 
 ## Thèse courante
-La thèse sur ASTS est **ATTENDRE confirmée** — snapshot 13h UTC 2026-06-09. Stabilité totale vs snapshot 10h UTC : cours **$92,06** inchangé, RSI **52,33** inchangé, volume **0,50×** stable (13,62M vs moy. 27,06M). **Anomalie options JSON RÉSOLUE** (max pain JSON restauré à $120 cohérent, put/call 0,74, call OI 57,4%). Divergence consensus **inversée maintenue** ($92,06 vs PT $94,54 = +2,69% upside). Score global ajusté **51,0/100 (ATTENDRE)**. Profil fondamental spéculatif extrême inchangé (EV/Revenue 330×, P/B 13,21×, Forward P/E −448,64, non rentable). Signal sectoriel **NEUTRAL** — XLC reste bottom 3 (momentum score 0,0). Timing **Favorable** (tempéré par volume sous-moyenne persistant). Options **fiables** (données restaurées) : max pain **$120,00**, put/call **0,74**, call OI **57,4%**. Verdict global : **ne pas entrer long sans catalyseur ni volume normalisé**. Attendre consolidation au-dessus de $95 sur volume >0,8× ou retour vers MM50 $88,50 pour réévaluer. Volatilité extrême persistante (ATR 14,2% du cours).
+La thèse sur ASTS est **ATTENDRE confirmée** — close officiel 21h UTC 2026-06-09. Distribution technique **−3,64%** à **$88,71** (vs snapshot 13h $92,06), RSI **50,27** (neutre, −2,06 pt), volume **normalisé 1,01×** (26,69M vs moy. 26,41M) — première séance avec liquidité institutionnelle normale depuis le 02/06. Cours **exactement sur la MM50 $88,70** après rejet intraday de la résistance **$100,94**. Divergence consensus **positivement creusée** ($88,71 vs PT $94,54 = **+6,59% upside**). Score global ajusté **58,5/100 (ATTENDRE)** — haut de fourchette, porté par l'upside consensus et le volume normalisé. Profil fondamental spéculatif extrême inchangé (EV/Revenue 330×, P/B 12,73×, Forward P/E −432,31, non rentable). Signal sectoriel **NEUTRAL** — XLC reste bottom 3 (momentum score 0,0). Timing **Neutre à Défavorable** (rejet $100 + close sur MM50 tempèrent le signal). Options **fiables** : max pain **$120,00**, put/call **0,74**, call OI **57,4%**. Verdict global : **ne pas entrer long sans confirmation au-dessus de $92 sur volume >0,8×**. La structure de séance (longue mèche supérieure, close faible sur MM50) est baissière à court terme. Risque de rupture sous MM50 = révision vers SURVEILLER. Volatilité extrême persistante (ATR 15,0% du cours, range intraday 17,4%).
 
 ## Historique
 | Date | Fichier | Type |
@@ -19,16 +19,18 @@ La thèse sur ASTS est **ATTENDRE confirmée** — snapshot 13h UTC 2026-06-09. 
 | 2026-06-08 | [ASTS_2026-06-08_update.md](ASTS_2026-06-08_update.md) | Snapshot 17h UTC — repli −0,69% à $92,96 sur volume effondré 0,29×, RSI 52,75, divergence consensus inversée +1,71%, score global 51,0 ATTENDRE, thèse ATTENDRE confirmée |
 | 2026-06-09 | [ASTS_2026-06-09_update.md](ASTS_2026-06-09_update.md) | Snapshot 10h UTC — stabilité totale vs close 08/06 (cours $92,06, RSI 52,33, volume 0,50× stable), anomalie options JSON récurrente détectée et traitée (max pain $45 aberrant → valeur opérationnelle $120 conservée), score global 51,0 ATTENDRE confirmé |
 | 2026-06-09 | [ASTS_2026-06-09_13-00_update.md](ASTS_2026-06-09_13-00_update.md) | Snapshot 13h UTC — stabilité totale vs 10h UTC (cours/volume/RSI inchangés), **anomalie options JSON RÉSOLUE** (max pain restauré $120, put/call 0,74, call OI 57,4%), score global 51,0 ATTENDRE confirmé |
+| 2026-06-09 | [ASTS_2026-06-09_21-00_update.md](ASTS_2026-06-09_21-00_update.md) | **Close officiel 21h UTC** — distribution −3,64% à $88,71, RSI 50,27, **volume normalisé 1,01×** (liquidité restaurée), close exactement sur MM50 $88,70 après rejet $100,94, divergence consensus creusée +6,59%, score global 58,5 ATTENDRE (haut de fourchette)
 
 ## Agenda
 - Prochain earnings : **2026-08-10** (J+63) — Est. EPS $-0,29 à $-0,17, Revenus $0,0B
 - Options expiry : **2026-06-12** (J+4) — max pain $120 au-dessus du spot (+29,1%), données JSON fiables (put/call 0,70, call OI 59,0%)
 
 ## Alertes actives
-- **Volume effondré 0,29×** — liquidité quasi absente en séance tardive (7,71M vs moy. 26,75M). Mouvement non significatif sans participation institutionnelle
-- **Correction technique −12,76% depuis l'open du jour** — cours $92,96 vs 52W high $133,86 = −30,6%. Liquidation du surachat sans catalyseur négatif identifié
-- **Volatilité extrême** — ATR relatif 13,95% du cours (seuil 5,0%). Risque de whipsaw majeur
-- **Profil non rentable** — EPS estimé négatif, multiples extrêmes (P/B 13,34x Yahoo / 10,10x FMP, EV/Revenue 335x), aucune visibilité sur la rentabilité
+- **VOLUME_NORMALISÉ** — volume 1,01×, participation institutionnelle de retour (signal positif, première séance normale depuis le 02/06)
+- **ATR_SPIKE (haut)** — ATR relatif 15,0% du cours, range intraday 17,4% ($85,50–$100,94)
+- **REJET_100** — test et rejet de la résistance psychologique $100 (high $100,94, close $88,71) — structure de séance baissière
+- **CLOSE_SUR_MM50** — cours exactement sur MM50 $88,70. Risque de rupture support immédiat
+- **Profil non rentable** — EPS estimé négatif, multiples extrêmes (P/B 12,73x Yahoo / 10,10x FMP, EV/Revenue 330x), aucune visibilité sur la rentabilité
 - **Secteur Communication Services (XLC)** — bottom 3 du ranking sectoriel (momentum score 0,0)
-- **Options J+4** — Max Pain $120 au-dessus du spot (+29,1%). Pinning gamma haussier théorique mais gap large. Données JSON fiables
-- **Support MM50** — $88,52. Rupture sous ce niveau = révision baissière
+- **Options J+3** — Max Pain $120 au-dessus du spot (+35,3%). Pinning gamma haussier théorique mais gap très large après rejet $100
+- **Divergence consensus creusée** — upside mécanique +6,59% ($88,71 vs PT $94,54), signal positif
