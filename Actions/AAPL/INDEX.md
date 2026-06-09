@@ -2,7 +2,7 @@
 
 ## Thèse courante
 
-Apple est une entreprise de qualité institutionnelle exceptionnelle (Filtre Qualité 6/6), dotée d'un fossé structurel inégalé et d'une transition services/IA porteuse. Le close officiel 21h UTC enregistre le **rejet complet du rebond intraday** ($313.505 → $301.54, −3.82%) sur **volume final élevé 73.86M (1.51×)** — distribution vendeuse réelle en fin de séance, vraisemblablement liée au dégarnissage gamma call à l'expiration. Le RSI redescend à **53.99** (−12.78 pts), retournant en zone neutre favorable. L'ATR gonfle à **$6.48** (+10%), reflétant l'expansion de volatilité. La tendance haussière reste intacte (cours +6.9% vs MM50 $282.06). Scores agents révisés à la hausse : Score Opportunité **5.6/10** (+0.2 pt), Score Global ajusté **61.0/100** (+7.0 pts), recommandation **ACHETER (Sizing Réduit)** (upgrade depuis ATTENDRE), timing **Favorable**. Verdict : **ACHETER (Sizing Réduit)** — le retour du RSI en zone neutre favorable et l'amélioration de l'upside vs consensus (−2.7%) améliorent le setup, mais le volume de distribution impose une prudence stricte et un sizing réduit (ratio R/R 1.5:1). Surveillance du support $288.58 (SL) et du volume d'ouverture demain pour valider l'absence de distribution continue.
+Apple est une entreprise de qualité institutionnelle exceptionnelle (Filtre Qualité 6/6), dotée d'un fossé structurel inégalé et d'une transition services/IA porteuse. Le snapshot 2026-06-09 confirme une **stabilité totale** des données techniques et fondamentales vs le close officiel 08/06. Cours inchangé à **$301.54**, RSI **53.99** en zone neutre favorable, ATR **$6.48** stabilisé, MM50 **$282.06** intacte (+6.9%). Volume légèrement supérieur **77.73M (1.58×)** maintient le signal de distribution vendeuse mais **sans accélération**. Anomalie options JSON détectée (max pain $250.00 aberrant, P/C et Call OI null) — valeurs opérationnelles conservées du 08/06 (**$330.00**, P/C **0.42**, Call OI **70.6%**). Scores agents strictement inchangés : Score Opportunité **5.6/10**, Score Global ajusté **61.0/100**, recommandation **ACHETER (Sizing Réduit)**, timing **Favorable**. Verdict : **ACHETER (Sizing Réduit)** — le setup technique reste intact (RSI neutre favorable, MM50 support), le rejet du rebond du 08/06 n'a pas été suivi d'une poursuite baissière (consolidation), mais le ratio R/R **1.5:1** reste inférieur au seuil institutionnel 2:1 et le volume de distribution persistant impose une **prudence stricte**. Surveillance du support **$288.58** (SL), de la résistance **$317.40** (52W high) et du volume post-expiration options (échéance 2026-06-10 demain).
 
 ## Historique
 | Date | Fichier | Type |
@@ -35,11 +35,10 @@ Apple est une entreprise de qualité institutionnelle exceptionnelle (Filtre Qua
 - **Prochain earnings :** 2026-07-30 (57 jours) — Est EPS $1.83–$1.99, Rev $109.0B
 
 ## Alertes actives
-- 🟡 **Alerte technique :** RSI 66.77 — approche surachat >70 (remontée rapide de 8.49 pts sur volume faible)
-- 🔴 **Alerte volume :** Volume 23.49M (0.51× moyenne 20j) — effondrement du volume sur rebond = pas de conviction
-- 🔴 **Alerte valorisation :** Cours $313.505 > Consensus FMP $293.43 (+6.8%) — upside négatif
-- 🟡 **Alerte options gamma :** Max pain $330.00 (vs spot $313.505 = +5.3%), P/C 0.42, Call OI 70.6%. Échéance aujourd'hui 2026-06-08 — pinning gamma haussier possible si spot approche $315–$320
-- 🟡 **Alerte scoring :** Scores agents révisés à la baisse (Opportunité 5.4/10, Global ajusté 54.0/100), recommandation ATTENDRE, timing Neutre
-- 🟡 **Alerte technique :** Support $301.73 (SL agent révisé) — cassure = retour vers MM50 $282.3
-- 🟡 **Alerte sector rotation :** XLK top performer (momentum 10.0/10, RS20 +5.44%) — signal NEUTRAL
-- 🟢 **Alerte options JSON :** Anomalie résolue — max pain $330.00, P/C 0.42, Call OI 70.6% confirmés
+- 🟡 **Alerte volume :** Volume 77.73M (1.58× moyenne 20j) — distribution vendeuse persistante sans accélération. Surveiller normalisation demain (> 0.8×)
+- 🟡 **Alerte options gamma :** Max pain opérationnel $330.00 (vs spot $301.54 = +9.4%), P/C 0.42, Call OI 70.6%. Échéance demain 2026-06-10 — pinning gamma vers le bas peu probable
+- 🟡 **Alerte valorisation :** Cours $301.54 > Consensus FMP $293.43 (+2.7%) — upside négatif vs consensus
+- 🟡 **Alerte technique :** Support $288.58 (SL agent) — cassure sur volume > 50M = retour vers MM50 $282.06 puis $275
+- 🟡 **Alerte options JSON :** Anomalie détectée — max pain JSON $250.00 aberrant, P/C et Call OI null. Valeurs opérationnelles conservées : $330.00/0.42/70.6%
+- 🟡 **Alerte sector rotation :** XLK top performer (momentum 10.0/10, RS20 +4.72%) — signal NEUTRAL
+- 🟢 **Alerte scoring :** Scores agents inchangés (Opportunité 5.6/10, Global ajusté 61.0/100), recommandation ACHETER (Sizing Réduit), timing Favorable
