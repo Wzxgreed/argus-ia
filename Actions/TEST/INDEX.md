@@ -56,6 +56,7 @@ TEST est un ticker de test / micro-cap sans données fondamentales exploitables 
 | TEST_2026-06-08_update_13h.md | 2026-06-08 | Mise à jour 13:00 UTC — **stabilité totale confirmée** vs snapshot 10h (cours $43.527 inchangé, RSI 41.19, volume 5,000 2.06× avg, MM50 $43.54), scores et verdict SURVEILLER inchangés, earnings JOUR J non résolu | **SURVEILLER** |
 | TEST_2026-06-08_update_17h.md | 2026-06-08 | Mise à jour 17:00 UTC — **mutation technique majeure** : rebond +2.53% à $44.63, RSI 51.62 (+10.43 pts), volume effondré 2,251 (0.89× avg), Score Global 49.0→61.0 (36.0→66.0 ajusté), Score Momentum 2.5→7.3, verdict modifié **SURVEILLER → ACHETER (Réduit)** | **ACHETER (Réduit)** |
 | TEST_2026-06-08_update_21h.md | 2026-06-08 | Mise à jour 21:00 UTC — grignotage haussier +1.61% vs 17h ($45.3501), RSI 54.61 (+2.99 pts), volume stable 2,294 (0.90× avg), ATR $1.01 (+$0.04), Score Global 61.0→61.5 (66.0→66.5 ajusté), Score Momentum 7.3→7.5, verdict **ACHETER (Réduit) confirmé** | **ACHETER (Réduit)** |
+| TEST_2026-06-09_update.md | 2026-06-09 | Mise à jour 10:00 UTC — stabilité totale vs close 08/06 (cours $45.35 inchangé, RSI 54.61, volume 2,400 0.94× avg), earnings JOUR J non résolu, verdict **ACHETER (Réduit) confirmé** | **ACHETER (Réduit)** |
 
 ---
 
