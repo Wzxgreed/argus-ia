@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
+- **Recommandation :** ACHETER (Réduit)
+- **Score global :** 66.5/100
+- **Prix cible :** $48.38
 - **Stop-loss :** $43.33
-- **Statut thèse :** invalide
-- **Horizon :** —
+- **Statut thèse :** confirmée
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -30,7 +30,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-09** · earnings · Earnings ...
+- **2026-06-09** · earnings · Earnings JOUR J — résultats non observables à 10h UTC
 
 ---
 
@@ -47,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** preview
-- **Fichier :** `TEST_2026-06-09_preview.md`
-- **Conclusion :** > **Date :** 2026-06-09
+- **Type :** update
+- **Fichier :** `TEST_2026-06-09_update.md`
+- **Conclusion :** Stabilité totale vs close 08/06. Cours $45.35 inchangé, RSI 54.61 stable, MM50 $43.61 stable. Volume 2,400 (0.94× avg). Score Global 61.5/100 (66.5 ajusté), verdict ACHETER (Réduit) confirmé. Earnings JOUR J (2026-06-09) non résolu à 10h UTC. Risque d'invalidation si résultats décevants post-close.
 
 ---
 
