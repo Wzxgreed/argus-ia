@@ -10,10 +10,10 @@
 - **Score global :** 55.2/100
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** 🔴 Bloqué data — pas de données de prix disponibles (confirmé snapshot 10h UTC, 41e snapshot consécutif sans mutation)
+- **Statut thèse :** 🔴 Bloqué data — pas de données de prix disponibles (confirmé snapshot 13h UTC, 42e snapshot consécutif sans mutation)
 - **Horizon :** Jusqu'à reprise du data feed
 
-**Synthèse (1 phrase) :** QTBS est en data blackout complet (No price history) depuis au moins le 20 mai 2026 ; le placeholder earnings J0 glissant a muté du 08/06 au 09/06, confirmant son caractère automatique FMP — statut ATTENDRE maintenu après vérification snapshot 10h UTC (41e snapshot consécutif sans mutation).
+**Synthèse (1 phrase) :** QTBS est en data blackout complet (No price history) depuis au moins le 20 mai 2026 ; le placeholder earnings J0 glissant reste figé au 09/06 entre snapshots 10h et 13h, confirmant son caractère automatique FMP — statut ATTENDRE maintenu après vérification snapshot 13h UTC (42e snapshot consécutif sans mutation).
 
 ---
 
@@ -35,7 +35,7 @@
 | 2026-06-03 | `QTBS_2026-06-03_update.md` | Mise à jour quotidienne | Data blackout confirmé snapshot 10h UTC — ATTENDRE (33e snapshot consécutif sans mutation), placeholder earnings J0 glissant au 03/06 |
 | 2026-06-08 | `QTBS_2026-06-08_update.md` | Mise à jour quotidienne | Data blackout confirmé snapshot 13h UTC — ATTENDRE (39e snapshot consécutif sans mutation), placeholder earnings J0 figé au 08/06 |
 | 2026-06-08 | `QTBS_2026-06-08_update_17h.md` | Mise à jour quotidienne | Data blackout confirmé snapshot 17h UTC — ATTENDRE (40e snapshot consécutif sans mutation), upcoming_events absent |
-| 2026-06-09 | `QTBS_2026-06-09_update.md` | Mise à jour quotidienne | **Data blackout confirmé snapshot 10h UTC — ATTENDRE (41e snapshot consécutif sans mutation), placeholder earnings J0 glissé au 09/06 (confirmation caractère automatique FMP)** |
+| 2026-06-09 | `QTBS_2026-06-09_update.md` | Mise à jour quotidienne | **Data blackout confirmé snapshot 13h UTC — ATTENDRE (42e snapshot consécutif sans mutation), placeholder earnings J0 figé au 09/06 (confirmation caractère automatique FMP)** |
 
 ---
 
@@ -54,4 +54,4 @@
 
 ---
 
-*Dernière mise à jour : 2026-06-09 (snapshot 10h UTC)*
+*Dernière mise à jour : 2026-06-09 (snapshot 13h UTC)*

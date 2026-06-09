@@ -1,24 +1,24 @@
 # INDEX — ASTSPACE (AST SpaceMobile)
 
-> Dernière mise à jour : 2026-06-09 (snapshot 10h UTC)
+> Dernière mise à jour : 2026-06-09 (snapshot 13h UTC)
 
 ---
 
 ## 🎯 Thèse courante
 
-**Thèse :** 🔴 **INVALIDÉE PAR L'ABSENCE DE DONNÉES — REPLI PROXY ASTS À $92,06 (−1,65% vs 08/06), VOLUME AMÉLIORÉ MAIS TOUJOURS FAIBLE 0,50×, RSI 52,33 EN NORMALISATION, ANOMALIE OPTIONS JSON DE RETOUR (max pain $45,00 ABERRANT, 3E OCCURRENCE), SCORE ATTENDRE 56,0/100 (STABLE), TIMING FAVORABLE MAIS CONVICTION LIMITÉE**
+**Thèse :** 🔴 **INVALIDÉE PAR L'ABSENCE DE DONNÉES — STABILITÉ TOTALE PROXY ASTS À $92,06, VOLUME 0,50×, RSI 52,33 EN NORMALISATION, ANOMALIE OPTIONS JSON RÉSOLUE (max pain $120,00, put/call 0,74, call OI 57,4%), SCORE ATTENDRE 56,0/100 (STABLE), TIMING FAVORABLE MAIS CONVICTION LIMITÉE**
 
 ASTSPACE n'est pas évaluable en l'état. Le ticker est probablement un **doublon erroné d'ASTS** (AST SpaceMobile — NASDAQ). Aucune donnée de marché n'est disponible depuis 39+ snapshots consécutifs (erreur Yahoo : *No price history*). Le scoring agent (55,2/100, ATTENDRE) est un placeholder algorithmique sans fondement. Toute exposition space / telecom satellite doit être redirigée vers **ASTS**, ticker validé avec données complètes.
 
-**Proxy ASTS (snapshot 10h UTC) :**
+**Proxy ASTS (snapshot 13h UTC) :**
 - Cours **$92,06** — **repli −1,65%** vs close 08/06 ($93,60)
-- RSI **52,33** — zone neutre (−0,42 pt)
-- Volume **13,62M** (0,50× moy. 27,06M) — **amélioration mais toujours faible**
-- Score agent ASTS **56,0/100 (ATTENDRE)** — stable vs 51,0/100 (ajustement régime)
-- Divergence consensus **légèrement creusée** à **−2,6%** ($92,06 vs PT $94,54)
-- EV/Revenue mécanique **330,20×** — compression
-- P/B **13,21×** — compression
-- **Anomalie options JSON de retour** : Max Pain **$45,00** (aberrant) — 3e occurrence documentée, données put/call et call OI null
+- RSI **52,33** — zone neutre (stable)
+- Volume **13,62M** (0,50× moy. 27,06M) — **stable mais toujours faible**
+- Score agent ASTS **56,0/100 (ATTENDRE)** — stable
+- Divergence consensus stable à **−2,6%** ($92,06 vs PT $94,54)
+- EV/Revenue mécanique **330,20×** — stable
+- P/B **13,21×** — stable
+- **Anomalie options JSON RÉSOLUE** : Max Pain **$120,00** (cohérent), put/call **0,74**, call OI **57,4%** — positionnement haussier confirmé
 - Timing **FAVORABLE** maintenu
 - Signal sectoriel **NEUTRAL** stable — XLC bottom 3
 
@@ -29,7 +29,7 @@ ASTSPACE n'est pas évaluable en l'état. Le ticker est probablement un **doublo
 - Supports immédiats : $90,81 (low du jour) et MM50 $88,50
 - Résistance immédiate : $97,13 (high/open du jour) puis $100 (psychologique)
 - Attention au volume : un volume < 0,50× pendant 2 sessions consécutives invaliderait tout setup technique
-- Ignorer les données options JSON jusqu'à résolution de l'anomalie
+- Données options JSON de nouveau fiables (max pain $120,00 confirmé) — positionnement haussier
 - Prochain earnings ASTS : 2026-08-10 (J+62)
 
 ---
