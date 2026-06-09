@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
-- **Horizon :** —
+- **Recommandation :** SURVEILLER
+- **Score global :** 45.0/100
+- **Prix cible :** $154.72 (take-profit agent)
+- **Stop-loss :** $116.97
+- **Statut thèse :** Confirmée avec nuance baissière légèrement atténuée
+- **Horizon :** 1-3 mois (jusqu'à earnings Q2 FY2026 le 03/08)
 
 ---
 
@@ -24,38 +24,48 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🔴 **Cassure MM50** — Cours $132.07 sous MM50 $140.46 (close 21h UTC) — invalidation retournement haussier persistante
+- Warning : `data/accounting_risk_latest.json` absent — Filtre Qualité non alimenté
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q2 FY2026 :** 2026-08-03 (Est. EPS $0.32-$0.40, Rev $1.8B) — 55 jours
+- **Expiration options :** 2026-06-12 (3 jours)
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 47.59
+- **Cours :** $132.07
+- **RSI 14j :** 47.57
 - **MM 50j :** 140.46
 - **MM 200j :** —
 - **ATR 14j :** 7.55
-- **Volume moy. 20j :** 39906052
+- **Volume moy. 20j :** 40,264,510
+- **Volume jour :** 38,476,415 (0.95x moyenne)
+- **Max Pain :** $150.00
+- **Put/Call :** 0.51
+- **Call OI % :** 66.2%
+- **52W Range :** $122.68-$207.52
+- **Support immédiat :** $127.35 (low du jour)
+- **Résistance immédiate :** $136.47 (previous close)
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** update
-- **Fichier :** `PLTR_2026-06-09_update.md`
-- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-09T10:00:02Z, fetched_at 2026-06-09T10:00:12Z) + agents quant, geo, accounting, sector, social, FX, watchman, events
+- **Type :** update (close officiel 21h UTC)
+- **Fichier :** `PLTR_2026-06-09_21-00_update.md`
+- **Conclusion :** Rebound partiel de +2.65% depuis le snapshot 17h ($128.67 → $132.07), volume normalisé à 0.95x moyenne, RSI 47.57, cassure MM50 persistante (-5.9%). Score Global ajusté 45.0/100 (+1.2 pts). Thèse SURVEILLER confirmée avec nuance baissière légèrement atténuée. Pas d'entrée avant retour au-dessus de MM50 + volume > 40M.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 5.72% (seuil 5.0%)
+- Aucun trigger actif.
 
 ---
 

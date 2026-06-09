@@ -1,97 +1,84 @@
-# FLY — Mise à Jour (2026-06-09, snapshot 10h UTC)
+# FLY — Mise à Jour (2026-06-09, close officiel 21h UTC)
 
-> **Type :** `_update.md` — Snapshot pré-marché 10h UTC, stabilité totale vs close officiel 08/06, thèse SURVEILLER (43.8) confirmée
-> **Référence précédente :** [FLY_2026-06-08_update.md](FLY_2026-06-08_update.md) (close officiel 21h UTC 08/06)
-> **Données source :** `data/latest.json` (timestamp 2026-06-09T10:00:02.122584+00:00), `data/recommandations_latest.json`, `data/sector_rotation_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`, `data/upcoming_events_latest.json`, `data/events_latest.json`
+> **Type :** `_update.md` — Close officiel 21h UTC, rebond partiel +2.22% depuis le snapshot 17h, thèse SURVEILLER (45.0) confirmée
+> **Référence précédente :** [FLY_2026-06-09_update_17h.md](FLY_2026-06-09_update_17h.md) (snapshot 17h UTC 09/06)
+> **Données source :** `data/2026-06-09.json` (timestamp 2026-06-09T21:00:09.112232+00:00), `data/recommandations_2026-06-09.json`, `data/quant_2026-06-09.json`, `data/geo_2026-06-09.json`, `data/sector_rotation_2026-06-09.json`, `data/social_sentiment_2026-06-09.json`, `data/fx_exposure_2026-06-09.json`, `data/upcoming_events_2026-06-09.json`, `data/events_2026-06-09.json`
 > **Validation data :** FLY status `ok` dans `data/validation_report.txt`. Aucun warning. 25/29 tickers OK.
 
 ---
 
-## Résumé — Stabilité totale vs close 08/06, thèse SURVEILLER (43.8) confirmée
+## Résumé — Rebond partiel +2.22% en fin de séance à $33.45, thèse SURVEILLER (45.0) confirmée
 
-Le snapshot pré-marché 10h UTC du 2026-06-09 enregistre un cours de **$36.18** (+0.22% vs prior close $36.10), sur un **volume de 4.21M (0.45× moy. 20j)**. Toutes les données techniques, fondamentales et de scoring sont strictement identiques au close officiel 21h UTC du 08/06. L'absence de changement matériel confirme que la séance du 08/06 s'est close sans évolution post-markets.
+Le close officiel 21h UTC du 2026-06-09 enregistre un **rebond partiel de +2.22%** depuis le snapshot 17h UTC, portant le cours de clôture à **$33.445** (vs low intraday $31.91 et snapshot 17h $32.72). La baisse vs prior close demeure significative à **−7.56%**. Le volume de session total s'élève à **6.31M (0.69× moy. 20j)**, révisé à la hausse par rapport au snapshot 17h (4.26M). Aucun catalyst fondamental n'est identifié dans `data/events_2026-06-09.json` ni dans les news.
 
-**Changements majeurs vs close 21h UTC 08/06 :**
-- **Cours close** : $36.18 → **$36.18** (inchangé)
-- **RSI 14j** : 41.52 → **41.52** (inchangé)
-- **ATR 14j** : $5.79 → **$5.79** (inchangé)
-- **MM 50j** : $38.81 → **$38.81** (inchangé)
-- **Volume session** : 4.19M → **4.21M** (+0.5%, révision marginale)
-- **Volume vs moy. 20j** : 0.45x → **0.45x** (inchangé)
-- **Score Momentum (agent)** : 3.5/10 → **3.5/10** (inchangé)
-- **Score Global Ajusté (agent)** : 43.8 → **43.8** (inchangé)
-- **Timing** : Défavorable → **Défavorable** (inchangé)
-- **Forward P/E** : −27.78 → **−27.78** (inchangé)
-- **Options** : **Anomalie data** — max pain $19.00 aberrant (vs $40.00 opérationnel), put/call et call OI null. Valeurs opérationnelles du 08/06 conservées.
-- **Sector Rotation (XLI)** : momentum_score 2.65 → **2.65** (inchangé)
+**Changements significatifs vs snapshot 17h UTC :**
 
-| Métrique | 2026-06-08 21h UTC | 2026-06-09 10h UTC | Variation |
-|----------|--------------------|--------------------|-----------|
-| Cours close | $36.18 | **$36.18** | Inchangé (+0.22% vs prior) |
-| RSI 14j | 41.52 | **41.52** | Inchangé |
-| MM 50j | $38.81 | **$38.81** | Inchangé |
-| Position vs MM50 | −6.8% | **−6.8%** | Inchangé |
-| ATR 14j | $5.79 | **$5.79** | Inchangé |
-| Volume session | 4.19M | **4.21M** | +0.5% (révision marginale) |
-| Volume vs moy. 20j | 0.45x | **0.45x** | Inchangé |
-| Options — Max Pain | $40.00 | **$19.00** | ⚠️ Anomalie data (valeur opérationnelle $40.00 conservée) |
-| Options — Put/Call | 1.08 | **null** | ⚠️ Anomalie data (valeur opérationnelle 1.08 conservée) |
-| Options — Call OI % | 48.1% | **null** | ⚠️ Anomalie data (valeur opérationnelle 48.1% conservée) |
-| Score Opportunité (agent) | 5.2/10 | **5.2/10** | Inchangé |
-| Score Momentum (agent) | 3.5/10 | **3.5/10** | Inchangé |
-| Score Global Ajusté (agent) | 43.8 | **43.8** | Inchangé |
+| Métrique | 2026-06-09 17h UTC | 2026-06-09 21h UTC (close) | Variation |
+|----------|--------------------|----------------------------|-----------|
+| Cours close | $32.72 | **$33.445** | **+2.22%** |
+| RSI 14j | 39.71 | **40.32** | +0.61 pt |
+| MM 50j | $38.99 | **$39.01** | +$0.02 |
+| Position vs MM50 | −15.9% | **−14.3%** | Répit mécanique |
+| ATR 14j | $5.88 | **$5.88** | Inchangé |
+| Volume session | 4.26M | **6.31M** | **+48.1%** |
+| Volume vs moy. 20j | 0.47x | **0.69x** | Amélioration mécanique |
+| Score Catalyseur | 6.5/10 | **6.5/10** | Inchangé |
+| Score Valorisation | 6.0/10 | **6.0/10** | Inchangé |
+| Score Momentum | 2.5/10 | **2.5/10** | Inchangé |
+| Score Opportunité | 5.3/10 | **5.3/10** | Inchangé |
+| Score Global Ajusté | 45.0 | **45.0** | Confirmé |
 | Action | SURVEILLER | **SURVEILLER** | Confirmée |
 | Timing | Défavorable | **Défavorable** | Confirmé |
 
-**Verdict :** Le snapshot 10h UTC confirme la **stabilité totale** des données. L'Agent Recommandation maintient **SURVEILLER (43.8)**. L'anomalie options détectée dans `latest.json` (max pain $19.00, put/call null) est un artefact data récurrent post-expiration ; les valeurs opérationnelles du 08/06 ($40.00 / 1.08 / 48.1%) restent la référence jusqu'à confirmation.
+**Verdict :** Le rebond de clôture à $33.445 (+2.22% vs 17h) est un **mouvement technique mécanique** sans catalyst et sans volume confirmant. Le volume global 0.69× reste sous la moyenne 20j, signalant un manque d'intérêt acheteur structurel. L'Agent Recommandation maintient **SURVEILLER (45.0)** avec scores inchangés. La cassure MT (−14.3% sous MM50) et le Score Momentum à 2.5/10 confirment la tendance baissière. Le rebond partiel ne modifie pas la thèse.
 
 ---
 
-## Mise à jour technique — Stabilité totale, configuration inchangée
+## Mise à jour technique — Rebond mécanique sur support $31.91, cassure MT intacte
 
 | Indicateur | Valeur | Verdict |
 |------------|--------|---------|
-| Cours close | $36.18 | +0.22% vs prior close $36.10, −51.0% vs 52W high $73.80 |
-| Open | $37.18 | Gap haussier minime vs prior close |
-| High | $38.20 | Résistance intraday inchangée — zone $38.00–$38.20 non conquise |
-| Low | $35.68 | Support du jour inchangé |
-| RSI 14j | **41.52** | **Neutre-basse, inchangé** |
-| MM 50j | $38.81 | Cours inférieur de **−6.8%** — cassure technique confirmée |
-| Volume | 4,211,600 | **0.45× moy. 20j** — participation faible, inchangée |
-| ATR 14j | $5.79 | Volatilité stable |
-| Support 1 | $35.68 (Low du jour) | Support immédiat — zone $35.55–$35.70 |
-| Support 2 | $35.55 (Low 08/06 17h) | Support de session précédente |
-| Support 3 | $35.00 (psychologique) | Ancien support de consolidation (fin mai) |
-| Résistance 1 | $38.81 (MM 50j) | Ancien support devenu résistance |
-| Résistance 2 | $40.00 (Max Pain) | Aimant options — niveau de référence |
-| Résistance 3 | $38.20 (High du jour) | Résistance intraday testée et rejetée |
+| Cours close | $33.445 | **−7.56% vs prior close**, −54.7% vs 52W high $73.80 |
+| Open | $37.94 | Gap baissier vs prior close $36.18 — non comblé |
+| High | $38.00 | Rejet immédiat à l'ouverture, retournement violent |
+| Low | $31.91 | **Test de la zone de gap fill mai** — tenue provisoirement |
+| RSI 14j | **40.32** | Zone neutre dégradée, proche survente (<40) — léger répit vs 17h |
+| MM 50j | $39.01 | Cours inférieur de **−14.3%** — cassure MT confirmée |
+| Volume | 6,312,138 | **0.69× moy. 20j** — amélioration mécanique mais reste sous moyenne |
+| ATR 14j | $5.88 | Volatilité inchangée, élevée |
+| Support 1 | $31.91 (Low du jour) | Zone de gap fill mai — testée et tenue en clôture |
+| Support 2 | $31.00 (psychologique) | Prochain support structuré si cassure $31.91 |
+| Support 3 | $30.00 (psychologique) | Support structurel majeur |
+| Résistance 1 | $35.55 (ancien support) | Ancien support devenu résistance |
+| Résistance 2 | $36.18 (prior close) | Gap à combler si rebond |
+| Résistance 3 | $39.01 (MM 50j) | Résistance MT majeure |
 
-**Timing verdict :** **Défavorable** — Inchangé. Le cours $36.18 reste sous la MM50 ($38.81) de −6.8%, avec un RSI stable à 41.52 et un Score Momentum à 3.5/10. L'expiration options J-3 (2026-06-12) avec max pain opérationnel $40.00 et spot $36.18 (−9.6%) positionne le marché options légèrement favorable aux puts. La zone $35.55–$35.70 reste le support critique à surveiller.
+**Timing verdict :** **Défavorable** — Inchangé. Le cours $33.445 reste **−14.3% sous la MM50** ($39.01), le RSI à 40.32 frôle la zone de survente, et le Score Momentum est à **2.5/10**. L'expiration options J-3 (2026-06-12) avec max pain $40.00 et spot $33.445 (−16.4%) positionne le marché options favorable aux puts $35.00–$40.00. La zone $31.91–$33.00 demeure le dernier support technique avant $30.00. Le rebond de clôture n'a pas modifié la structure technique.
 
 ---
 
-## Mise à jour fondamentale — Inchangée
+## Mise à jour fondamentale — Multiples inchangés, Filtre Qualité stable
 
-Données croisées Yahoo / FMP (annual FY 2025) — **strictement inchangées** :
+Données croisées Yahoo / FMP (annual FY 2025) :
 
-| Métrique | Valeur | Commentaire |
-|----------|--------|-------------|
-| Market Cap (Yahoo) | $5.94B | Stable |
-| Market Cap (FMP) | $3.40B | Stable — divergence Yahoo/FMP persistante |
-| Forward P/E | **−27.78** | Stable — valorisation incompatible avec profil sans profit |
-| EV/Revenue (Yahoo) | 28.66x | Stable |
-| EV/Revenue (FMP) | 18.23x | Stable |
-| P/B (Yahoo) | 5.241 | Stable |
-| P/B (FMP) | 2.855 | Stable |
-| Gross Margin (FMP) | 15.56% | Faible, stable |
-| Operating Margin (FMP) | −154.25% | Fortement négatif, stable |
-| Net Margin (FMP) | −186.63% | Fortement négatif, stable |
-| Debt/Equity (FMP) | 0.259 | Levier modéré, stable |
-| Current Ratio (FMP) | 4.51 | Liquidité solide, stable |
-| Short Interest | 9.78% | Stable — pression vendeuse persistante |
-| FMP Consensus PT | **$43.25 (12 analysts)** | **Inchangé** — upside mécanique +19.5% |
+| Métrique | Valeur | Variation vs 17h | Commentaire |
+|----------|--------|------------------|-------------|
+| Market Cap (Yahoo) | **$5.49B** | +2.2% | Mécanique rebond du cours |
+| Market Cap (FMP) | $3.40B | Inchangé | Divergence Yahoo/FMP persistante |
+| Forward P/E (Yahoo) | **−25.68** | Inchangé | Profil sans profit |
+| EV/Revenue (Yahoo) | 28.66x | Inchangé | Stable — multiple incompatible avec profil sans profit |
+| EV/Revenue (FMP) | 18.23x | Inchangé | Stable |
+| P/B (Yahoo) | **4.845** | +2.2% | Mécaniquement ajusté au rebond |
+| P/B (FMP) | 2.855 | Inchangé | Stable |
+| Gross Margin (FMP) | 15.56% | Inchangé | Faible |
+| Operating Margin (FMP) | −154.25% | Inchangé | Fortement négatif |
+| Net Margin (FMP) | −186.63% | Inchangé | Fortement négatif |
+| Debt/Equity (FMP) | 0.259 | Inchangé | Levier modéré |
+| Current Ratio (FMP) | 4.51 | Inchangé | Liquidité solide |
+| Short Interest | 9.78% | Inchangé | Pression vendeuse persistante |
+| FMP Consensus PT | **$43.25 (12 analysts)** | Inchangé | **Upside mécanique +29.3%** vs spot $33.445 |
 
-**Filtre Qualité** : **2/6** (Hors périmètre) — **strictement inchangé**. Aucun critère qualité n'est modifié par l'absence d'événement.
+**Filtre Qualité** : **2/6** (Hors périmètre) — **strictement inchangé**. L'événement prix n'a aucun impact sur la structure fondamentale.
 
 | Critère | Score | Justification |
 |---------|-------|---------------|
@@ -103,116 +90,120 @@ Données croisées Yahoo / FMP (annual FY 2025) — **strictement inchangées** 
 | Industrie forte croissance (TAM ×5) | ❌ | Aerospace & Defense en croissance, mais pas ×5 pour ce profil |
 | **Score Qualité total** | **2/6** | 🔴 Hors périmètre |
 
-**Règle** : Score ≤ 3/6 → Score Valorisation plafonné à 5/10. L'Agent Recommandation applique **5.5/10** (inchangé).
+**Règle** : Score ≤ 3/6 → Score Valorisation plafonné à 5/10. L'Agent Recommandation applique **6.0/10** — la détente mécanique des multiples liée au rebond de clôture n'améliore pas la qualité intrinsèque.
 
 ---
 
-## Mise à jour sentiment / options / news — Silence total, anomalie options récurrente
+## Mise à jour sentiment / options / news — Silence médiatique persistant, configuration options baissière
 
 | Signal | Valeur | Source | Interprétation |
 |--------|--------|--------|----------------|
-| Consensus analystes (FMP) | $43.25 (12 analysts) | FMP Stable API | PT **+19.5% au-dessus du spot** — inchangé. |
-| Max Pain | **$19.00** | Yahoo Finance 10:00 UTC | ⚠️ **Anomalie data** — valeur aberrante (vs $40.00 opérationnel 08/06). Valeur opérationnelle conservée. |
-| Put/Call Ratio | **null** | Yahoo Finance 10:00 UTC | ⚠️ **Anomalie data** — valeur opérationnelle 1.08 conservée. |
-| Call OI % | **null** | Yahoo Finance 10:00 UTC | ⚠️ **Anomalie data** — valeur opérationnelle 48.1% conservée. |
+| Consensus analystes (FMP) | $43.25 (12 analysts) | FMP Stable API | PT **+29.3% au-dessus du spot** — upside mécanique stable. |
+| Max Pain | **$40.00** | Yahoo Finance 21:00 UTC | Inchangé — spot $33.445 désormais **−16.4% sous le max pain**. |
+| Put/Call Ratio | **1.00** | Yahoo Finance 21:00 UTC | Inchangé — neutre en surface, puts $35–$40 ITM. |
+| Call OI % | **50.0%** | Yahoo Finance 21:00 UTC | Inchangé — rééquilibrage 50/50. |
 | Short Interest | 9.78% | Yahoo Finance | Stable — pression vendeuse persistante, pas de setup squeeze. |
 | Social Sentiment | 0 mention | `data/social_sentiment_2026-06-09.json` | Pas d'activité retail. |
 | Event-Driven | Aucun | `data/events_2026-06-09.json` | Pas de M&A, buyback, guidance change, activism. |
 | Upcoming Events | Earnings Q2 2026 le 2026-08-04 (56 jours) | `data/upcoming_events_2026-06-09.json` | Est EPS −$0.61 à −$0.45, Rev $0.1B. |
 | News FLY | Aucune | Pas de fichier news | **Aucune news spécifique** — silence médiatique persistant. |
-| Expiration options | **2026-06-12 (J-3)** | Yahoo Finance | Max pain opérationnel $40.00 vs spot $36.18. |
+| Expiration options | **2026-06-12 (J-3)** | Yahoo Finance | Max pain $40.00 vs spot $33.445 — puts massivement ITM. |
 
-**Score Catalyseur** : **6.0/10** (données agents). Aucun catalyseur nouveau. Le silence médiatique et l'absence d'événement corporate confirment que le cours stable à $36.18 est dénué de fondamental. La configuration options (max pain opérationnel $40.00, put/call 1.08) reste globalement neutre avec une légère coloration baissière. L'approche de l'expiration (J-3) pourrait créer une pression mécanique si le spot reste significativement sous $40.00.
+**Score Catalyseur** : **6.5/10** (inchangé vs 17h). Aucun catalyst fondamental nouveau. La divergence consensus/spot ($43.25 vs $33.445 = +29.3%) reste le principal facteur de soutien du score catalyseur. La configuration options (max pain $40.00, spot $33.445) reste **favorable aux puts** — risque de pin mécanique vers le bas si le spot reste sous $35.00 à l'expiration.
 
 ---
 
-## Scoring global — SURVEILLER (43.8) confirmé, stabilité totale
+## Scoring global — SURVEILLER (45.0) confirmé, momentum dégradé stable
 
 | Axe | Score | Pondération | Contribution |
 |-----|-------|-------------|------------|
-| Catalyseur | 6.0/10 | 35% | 2.10 |
-| Valorisation | 5.5/10 | 40% | 2.20 |
-| Momentum | 3.5/10 | 25% | 0.88 |
-| **Score Opportunité** | **5.2/10** | | |
-| **Score Global** | **51.8** | | |
-| **Score Global Ajusté** | **43.8** | | |
+| Catalyseur | 6.5/10 | 35% | 2.28 |
+| Valorisation | 6.0/10 | 40% | 2.40 |
+| Momentum | 2.5/10 | 25% | 0.63 |
+| **Score Opportunité** | **5.3/10** | | |
+| **Score Global** | **53.0** | | |
+| **Score Global Ajusté** | **45.0** | | |
 
 **Action :** **SURVEILLER**
 **Direction :** Neutre
 **Timing :** Défavorable
 **Horizon :** —
 
-**Note sur le scoring :** L'Agent Recommandation maintient FLY en **SURVEILLER (43.8)**. Tous les scores sont strictement identiques au close 08/06. Le Score Opportunité (5.2/10) franchit le seuil 5.0 mais le Score Global Ajusté tombe dans la fourchette 35–49 (SURVEILLER).
+**Note sur le scoring :** L'Agent Recommandation maintient FLY en **SURVEILLER (45.0)**. Le Score Opportunité (5.3/10) franchit le seuil 5.0 mais le Score Global Ajusté reste dans la fourchette 35–49 (SURVEILLER). Le **Score Momentum à 2.5/10** est le facteur dominant négatif — la cassure MT est confirmée malgré le rebond mécanique de clôture.
 
 **Ajustements agents complémentaires :**
-- **Agent Quant** : Signaux non significatifs (p-value 1.0, insuffisant depuis le 2026-05-17) — pas d'ajustement.
-- **Agent Geo** : FLY non flaggé (geo_risk absent du rapport 2026-05-17) — pas de malus.
-- **Agent Sector Rotation** : XLI momentum_score **2.65/10** — inchangé, headwind sectoriel persistant. Malus sectoriel −0.5 pt inchangé.
+- **Agent Quant** : Signaux non significatifs (p-value null, n=0, insuffisant) — pas d'ajustement.
+- **Agent Geo** : FLY non flaggé (geo_risk_score 2, flag 🟢) — pas de malus.
+- **Agent Sector Rotation** : XLI momentum_score **3.52/10** (vs 3.15 à 17h) — légère amélioration sectorielle, mais headwind persistant. Malus sectoriel inchangé.
 - **Agent Social** : 0 mention — neutre.
-- **Agent FX** : Exposition 25%, fx_impact_score 0.0 — pas d'ajustement.
+- **Agent FX** : Exposition 25%, fx_impact_score 0.0, flag 🟢 — pas d'ajustement.
 - **Agent Event-Driven** : 0 événement — neutre.
-- **Agent Accounting** : `data/accounting_risk_latest.json` indisponible — pas d'ajustement.
+- **Agent Accounting** : Fichier indisponible — pas d'ajustement.
 
 ---
 
-## Révision des niveaux SL / TP — Inchangés (stabilité ATR)
+## Révision des niveaux SL / TP — Révisés à la baisse (cours + ATR stable)
 
 | Niveau | Valeur | Méthode | Commentaire |
 |--------|--------|---------|-------------|
-| Cours actuel | $36.18 | Snapshot 10h UTC 09/06 | +0.22% vs prior close $36.10 |
-| Stop-loss | $24.60 | Agent Recommandation (2×ATR $5.79) | Inchangé |
-| Take-profit | $53.55 | Agent Recommandation (3×ATR $5.79) | Inchangé |
+| Cours actuel | $33.445 | Close officiel 21h UTC 09/06 | −7.56% vs prior close, +2.22% vs 17h |
+| Stop-loss | **$21.69** | Agent Recommandation (2×ATR $5.88) | **Révisé à la baisse** (vs $24.60 à 10h, ATR inchangé) |
+| Take-profit | **$51.09** | Agent Recommandation (3×ATR $5.88) | **Révisé à la baisse** (vs $53.55 à 10h, ATR inchangé) |
 | Ratio R/R | 1.5:1 | Agent Recommandation | Standard agent — limité pour un profil sans profit |
 
-Les niveaux sont issus de l'Agent Recommandation et restent inchangés du fait de la stabilité de l'ATR. Le SL $24.60 correspond à une zone sous le support structurel $35.55. Le TP reflète un rebond partiel vers la zone $40–$46.
+Les niveaux sont issus de l'Agent Recommandation et révisés à la baisse du fait de la baisse du cours (ATR stable à $5.88). Le SL $21.69 correspond à une zone sous le support structurel $31.91. Le TP reflète un rebond partiel vers la zone $40–$46.
 
-**Risque technique persistant :** L'expiration options J-3 (2026-06-12) avec max pain opérationnel $40.00 et spot $36.18 (−9.6%) pourrait créer une pression mécanique. En dessous de $35.55, le prochain support structuré reste vers $33.00–$34.00 (zone de gap fill du rally de mai). Une cassure de cette zone sur volume > 1.0× moy. 20j ouvrirait le chemin vers les $30.00.
+**Risque technique persistant :** L'expiration options J-3 (2026-06-12) avec max pain $40.00 et spot $33.445 (−16.4%) positionne le marché options favorable aux puts. En dessous de $31.91, le prochain support structuré reste vers $30.00. Une cassure de $31.00 sur volume > 1.0× moy. 20j ouvrirait le chemin vers les $28.00–$29.00 (zone de gap fill du rally d'avril).
 
 ---
 
-## Conclusion — Thèse défavorable confirmée, stabilité totale sans catalyst — SURVEILLER (43.8)
+## Conclusion — Thèse défavorable CONFIRMÉE — SURVEILLER (45.0)
 
-**Verdict : Thèse défavorable CONFIRMÉE — SURVEILLER (43.8). Le snapshot à $36.18 (+0.22%) sur volume 0.45× n'est pas significatif. Aucun changement matériel depuis le close 08/06.**
+**Verdict : Thèse défavorable CONFIRMÉE — SURVEILLER (45.0). Le rebond partiel de clôture à $33.445 (+2.22% vs 17h) ne modifie pas la structure technique négative.**
 
-Le snapshot 10h UTC du 09/06 confirme la **stabilité complète** de la dégradation technique : cours $36.18 (+0.22% vs prior close), volume 4.21M (0.45× moy. 20j), RSI stable à 41.52, Score Momentum stable à 3.5/10. L'Agent Recommandation maintient la thèse à **SURVEILLER (43.8)**.
+Le close officiel 21h UTC du 09/06 marque un **rebond mécanique de fin de séance** ($32.72 → $33.445) sur un volume total révisé à 6.31M (0.69× moy. 20j), toujours sous la moyenne. Ce rebond n'est pas accompagné d'un catalyst fondamental ni d'une accélération du volume. Le cours reste **−7.56% sous le prior close** et **−14.3% sous la MM50** ($39.01).
 
 **Ce qui renforce la thèse défavorable :**
-- **Volume faible** : 0.45× moy. 20j — le cours stable est dénué de conviction acheteuse.
-- **Score Momentum faible** : 3.5/10, Timing Défavorable.
-- **Cassure MM50** : cours −6.8% sous la MM50 ($38.81) — tendance MT baissière confirmée.
-- **Aucun catalyst identifié** : aucune news, aucun événement corporate.
-- **Filtre Qualité 2/6, Forward P/E −27.78, EV/Revenue 28.6x** : fondamentaux inchangés et défavorables.
+- **Baisse −7.56% en séance** : le rebond de clôture n'efface pas la destruction de valeur intraday.
+- **Score Momentum effondré** : 2.5/10, Timing Défavorable confirmé.
+- **Cassure MM50** : cours −14.3% sous la MM50 ($39.01) — tendance MT baissière confirmée.
+- **RSI 40.32** : proche zone survente, momentum absent.
+- **Aucun catalyst identifié** : aucune news, aucun événement corporate, 0 mention social.
+- **Filtre Qualité 2/6, Forward P/E −25.68, EV/Revenue 28.6x** : fondamentaux inchangés et défavorables.
 - **Short Interest 9.78%** : stable, pression vendeuse persistante.
-- **Spot sous max pain** $40.00 de −9.6% — expiration J-3 potentiellement favorable aux puts.
-- **Anomalie data options** : max pain $19.00 aberrant dans `latest.json` — [DONNÉES PARTIELLES].
+- **Spot sous max pain** $40.00 de −16.4% — expiration J-3 favorable aux puts.
+- **Volume sous moyenne** : 0.69× moy. 20j — manque d'intérêt acheteur persistant.
+- **Divergence Yahoo/FMP** sur Market Cap ($5.49B vs $3.40B) et P/B (4.845 vs 2.855) persistante — [DONNÉES PARTIELLES].
 
-**Ce qui modifie la thèse (aucun) :**
-- Aucun changement matériel depuis le close 08/06.
+**Ce qui modifie la thèse (léger répit mécanique) :**
+- Rebond de clôture +2.22% à $33.445 — mouvement technique sans fondamental.
+- Volume révisé à 6.31M (0.69×) — meilleur que le 0.47× du snapshot 17h, mais reste sous moyenne.
+- XLI momentum_score légèrement amélioré (3.15 → 3.52) — headwind sectoriel marginalement atténué.
 
 **Catalyseurs forward :**
 1. **Earnings Q2 2026** (2026-08-04, 56 jours) : Est EPS −$0.61 à −$0.45, Rev $0.1B.
-2. **Expiration options** (2026-06-12, J-3) : surveillance du comportement autour de $40.00.
-3. **Reconstitution technique** : surveillance du comportement autour de $35.55 et $38.81.
+2. **Expiration options** (2026-06-12, J-3) : surveillance du comportement autour de $35.00–$40.00. Spot $33.445 = puts ITM.
+3. **Reconstitution technique** : surveillance du comportement autour de $31.91 et $35.55.
 
 **Risques :**
 1. Rentabilité non démontrée et non attendue à court terme.
 2. Multiple incompatible avec un profil quality compounding.
 3. **Cassure MM50** — tendance MT retournée à la baissière.
 4. Short Interest 9.78% : pression vendeuse persistante.
-5. Divergence Yahoo/FMP sur Market Cap ($5.94B vs $3.40B) et P/B (5.24 vs 2.86) persistante — [DONNÉES PARTIELLES].
-6. **Volume faible** : 0.45× moy. 20j — manque d'intérêt acheteur, risque de retournement baissier.
-7. Forward P/E −27.78 : valorisation reste incompatible avec un profil sans profit.
-8. **Absence de support technique** sous $35.55 — risque de retour vers $33.00–$34.00.
-9. **Pin risk options J-3** : max pain opérationnel $40.00, spot $36.18 — puts $40.00 in-the-money.
-10. **Anomalie data options récurrente** : max pain aberrant ($19.00) dans `latest.json` — nécessite vérification systématique des données brutes.
+5. Divergence Yahoo/FMP sur Market Cap et P/B persistante — [DONNÉES PARTIELLES].
+6. **Volume sous moyenne** : 0.69× moy. 20j — manque d'intérêt acheteur.
+7. Forward P/E −25.68 : valorisation incompatible avec un profil sans profit.
+8. **Absence de support technique** sous $31.91 — risque de retour vers $30.00–$28.00.
+9. **Pin risk options J-3** : max pain $40.00, spot $33.445 — puts $35.00–$40.00 ITM.
+10. **Volatilité élevée** : ATR $5.88, range intraday $31.91–$38.00 (19.1%).
 
 **Prochaine étape :**
-- **Ne pas prendre de position** — SURVEILLER (43.8).
-- **Surveiller le comportement autour de $35.55** : si cassure en clôture sur volume > 0.5× moy. 20j → risque d'accélération vers $33.00–$34.00.
-- **Surveiller l'expiration options 2026-06-12** : comportement autour de $40.00.
-- **Si rebond au-dessus de $38.81** (MM50) sur volume > 1.0× moy. 20j → possible réintégration technique, mais nécessite confirmation.
-- **Si un catalyst fondamental émerge** → réévaluer Score Catalyseur et Filtre Qualité. Sans cela, le mouvement reste spéculatif.
+- **Ne pas prendre de position** — SURVEILLER (45.0).
+- **Surveiller le comportement autour de $31.91** : si cassure en clôture sur volume > 1.0× moy. 20j → risque d'accélération vers $30.00–$28.00.
+- **Surveiller l'expiration options 2026-06-12** : comportement autour de $35.00–$40.00.
+- **Si rebond au-dessus de $35.55** sur volume > 1.0× moy. 20j → possible réintégration technique partielle, mais nécessite confirmation.
+- **Si un catalyst fondamental émerge** → réévaluer Score Catalyseur et Filtre Qualité. Sans cela, le mouvement reste spéculatif / technique.
 
 ---
 
-*Snapshot 10:00 UTC 09/06 — Cours $36.18 (+0.22% vs prior close $36.10, −51.0% vs 52W high), RSI 41.52 neutre-basse, volume 4.21M (0.45× moy. 20j). Consensus inchangé $43.25 (12 analysts). Options : anomalie data max pain $19.00 (valeur opérationnelle conservée $40.00), put/call 1.08, call OI 48.1%, expiration 2026-06-12 (J-3). Aucun catalyst. Fondamentaux inchangés et défavorables. Agent Recommandation : SURVEILLER (43.8). Thèse défavorable confirmée.*
+*Close officiel 21:00 UTC 09/06 — Cours $33.445 (−7.56% vs prior close, +2.22% vs snapshot 17h, −54.7% vs 52W high), RSI 40.32, volume session 6.31M (0.69× moy. 20j). Consensus inchangé $43.25 (12 analysts). Options : max pain $40.00, put/call 1.00, call OI 50.0%, expiration 2026-06-12 (J-3). Aucun catalyst. Fondamentaux inchangés et défavorables. Agent Recommandation : SURVEILLER (45.0). Thèse défavorable confirmée.*

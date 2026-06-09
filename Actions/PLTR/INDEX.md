@@ -1,11 +1,12 @@
 # PLTR
 
 ## These courante
-| 2026-06-09 | [PLTR_2026-06-09_17-00_update.md](PLTR_2026-06-09_17-00_update.md) | Mise a jour snapshot 17:00 UTC (close) — **deterioration technique nette** vs snapshot 13:00 UTC : cours -5.72% a $128.67, RSI 45.23 (-5.85 pts), ATR $7.55 (+5.7%), volume effondre 20.64M (0.52x), cassure MM50 creusee a -8.4%, Score Global ajuste 43.8/100 (-2.5 pts), these SURVEILLER **confirmee avec nuance baissiere accrue** | SURVEILLER — Score Opp. 5.2/10, cours $128.67, RSI 45.23, volume 20.64M (0.52x), deterioration technique, cassure MM50 creusee, these confirmee avec nuance baissiere accrue |
+| 2026-06-09 | [PLTR_2026-06-09_21-00_update.md](PLTR_2026-06-09_21-00_update.md) | Close officiel 21h UTC — **rebound partiel** (+2.65%) depuis le snapshot 17h ($128.67 → $132.07), volume normalise a 0.95x moyenne, RSI 47.57 (+2.34 pts), cassure MM50 persistante (-5.9%), Score Global ajuste 45.0/100 (+1.2 pts), these SURVEILLER **confirmee avec nuance baissiere legerement attenuee** | SURVEILLER — Score Opp. 5.3/10, cours $132.07, RSI 47.57, volume 38.48M (0.95x), rebound partiel sur volume normalise, cassure MM50 persistante, these confirmee |
 
 ## Historique
 | Date | Fichier | Type | Conclusion |
 |------|---------|------|------------|
+| 2026-06-09 | [PLTR_2026-06-09_21-00_update.md](PLTR_2026-06-09_21-00_update.md) | Close officiel 21h UTC — rebound partiel +2.65% depuis 17h, volume normalise 0.95x, RSI 47.57, cassure MM50 persistante, Score Global 45.0/100, these SURVEILLER confirmee avec nuance baissiere attenuee | SURVEILLER — Score Opp. 5.3/10, cours $132.07, RSI 47.57, volume 38.48M (0.95x), rebound partiel, these confirmee |
 | 2026-05-17 | [PLTR_2026-05-17_init.md](PLTR_2026-05-17_init.md) | Analyse initiale | SURVEILLER — Score Opp. 3.0/10 |
 | 2026-05-18 | [PLTR_2026-05-18_update.md](PLTR_2026-05-18_update.md) | Mise a jour post-pipeline (consolidee) | SURVEILLER — Score Opp. 5.1/10, RSI 42.52, volume 31.76M, these confirmee |
 | 2026-05-19 | [PLTR_2026-05-19_update.md](PLTR_2026-05-19_update.md) | Mise a jour snapshot 21:00 UTC (close finale) | SURVEILLER — Score Opp. 5.4/10, cours $135.26, RSI 46.36, volume 29.65M, rebond fin de session, these confirmee |
@@ -48,14 +49,14 @@
 - 🟡 **Anomalie options JSON snapshot 08/06 10h UTC** — Max Pain aberrant $50.00, Put/Call null, Call OI null — pattern recurrent 10h UTC. **RESOLUE snapshot 08/06 13h UTC** : Max Pain $150.00, Put/Call 0.54, Call OI 64.9% valides et coherents
 - 🟡 **Anomalie options JSON snapshot 09/06 10h UTC** — Max Pain aberrant $50.00, Put/Call null, Call OI null — pattern recurrent 10h UTC. **RESOLUE snapshot 09/06 13h UTC** : Max Pain $150.00, Put/Call 0.51, Call OI 66.2% valides et coherents, biais haussier legerement renforce
 
-## Contexte technique (dernier snapshot 13:00 UTC)
-- Cours : $136.47
-- RSI 14j : 51.08
-- MM 50j : 140.68
+## Contexte technique (dernier snapshot 21:00 UTC)
+- Cours : $132.07
+- RSI 14j : 47.57
+- MM 50j : 140.46
 - MM 200j : —
-- ATR 14j : 7.14
-- Volume moy. 20j : 40,406,310
-- Volume jour : 26,876,800
+- ATR 14j : 7.55
+- Volume moy. 20j : 40,264,510
+- Volume jour : 38,476,415
 - Max Pain : $150.00
 - Put/Call : 0.51
 - Call OI % : 66.2%
