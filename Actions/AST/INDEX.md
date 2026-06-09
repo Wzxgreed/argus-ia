@@ -5,20 +5,20 @@
 > **Secteur :** Non spécifié
 > **Exchange :** NASDAQ
 > **Priorité :** Medium
-> **Dernière mise à jour :** 2026-06-09 (snapshot 10:00 UTC)
+> **Dernière mise à jour :** 2026-06-09 (snapshot 13h UTC)
 
 ---
 
 ## Thèse courante
 
-**Statut :** DONNÉES MANQUANTES PERSISTANTES — anomalie structurelle confirmée (>34 snapshots) / **ASTS proxy stable à $92.06** (stabilité totale vs close 08/06, snapshot pré-ouverture 09/06) / RSI **52.33** (zone neutre favorable) / cours sous consensus **-2.6%** (normalisation consolidée) / **agent maintient ASTS 51.0/100 (ATTENDRE, timing Favorable)** / MM50j $88.50 (support +4.0%) / low intraday **$90.81** / résistance **$97.00** (high intraday) / volume **13.62M (0.50×)** / short interest 17.60% stable / signal sectoriel NEUTRAL / options haussières stables (max pain $120.0 opérationnel, put/call 0.7, call OI 59.0%) — **anomalie options JSON détectée dans data/2026-06-09.json** (max pain $45.0 aberrant, P/C et call OI null, faux positif de pipeline) / earnings placeholder glissant J=0 à 16+ jours
+**Statut :** DONNÉES MANQUANTES PERSISTANTES — anomalie structurelle confirmée (>35 snapshots) / **ASTS proxy stable à $92.06** (stabilité totale vs snapshot 10h UTC, snapshot 13h UTC) / RSI **52.33** (zone neutre favorable) / cours sous consensus **-2.6%** (normalisation consolidée) / **agent maintient ASTS 51.0/100 (ATTENDRE, timing Favorable)** / MM50j $88.50 (support +4.0%) / low intraday **$90.81** / résistance **$97.13** (high intraday révisé) / volume **13.62M (0.50×)** / short interest 17.60% stable / signal sectoriel NEUTRAL / options haussières restaurées (max pain $120.0, put/call 0.74, call OI 57.4%) — **anomalie options JSON RÉSOLUE dans data/latest.json (snapshot 13h UTC)** / earnings placeholder glissant J=0 à 17+ jours
 
-- Aucune donnée de cours disponible dans les snapshots (`No price history`) — confirmé stable sur **>34 snapshots consécutifs** (18/05 → 09/06)
+- Aucune donnée de cours disponible dans les snapshots (`No price history`) — confirmé stable sur **>35 snapshots consécutifs** (18/05 → 09/06)
 - Aucune analyse initiale (`_init.md`) n'a été produite
-- Earnings programmés le 2026-06-08 (source FMP) — placeholder glissant J=0 non résolu depuis le 25/05 (16+ jours de glissement), résultats non disponibles dans les snapshots
+- Earnings programmés le 2026-06-08 (source FMP) — placeholder glissant J=0 non résolu depuis le 25/05 (17+ jours de glissement), résultats non disponibles dans les snapshots
 - Scoring agent AST : placeholder 55.2/100 — action ATTENDRE par défaut
 - AST absent du quality gate (alors qu'ASTS y figure)
-- **Anomalie structurelle confirmée :** doublon probable avec ASTS (AST SpaceMobile — NASDAQ). ASTS est **stable à $92.06** sur volume **13.62M (0.50×)**, RSI **52.33** (neutre favorable), short interest **17.60%** stable. Consensus **$94.54** (12 analysts) inchangé — premium consensus **-2.6%** (normalisation consolidée). **Agent maintient ASTS 51.0/100 (ATTENDRE)** avec timing **Favorable**. Signal sectoriel **NEUTRAL** (XLK top1, momentum 10.0). Supports/résistances ASTS : support immédiat **MM50j $88.50** (+4.0% du cours), prochaine zone **$85–88** ; résistance **$97.00** (high intraday). Options haussières stables (valeurs opérationnelles) : max pain **$120.0**, put/call **0.7**, call OI **59.0%**. **Anomalie options JSON dans data/2026-06-09.json :** max pain affiché à $45.0 (aberrant, -62.5%), put/call et call OI null — identifié comme faux positif de pipeline (3e occurrence cette semaine). Échéance 06-12 dans **3 jours**. Earnings placeholder glissant J=0 à **16+ jours**.
+- **Anomalie structurelle confirmée :** doublon probable avec ASTS (AST SpaceMobile — NASDAQ). ASTS est **stable à $92.06** sur volume **13.62M (0.50×)**, RSI **52.33** (neutre favorable), short interest **17.60%** stable. Consensus **$94.54** (12 analysts) inchangé — premium consensus **-2.6%** (normalisation consolidée). **Agent maintient ASTS 51.0/100 (ATTENDRE)** avec timing **Favorable**. Signal sectoriel **NEUTRAL** (XLK top1, momentum 10.0). Supports/résistances ASTS : support immédiat **MM50j $88.50** (+4.0% du cours), prochaine zone **$85–88** ; résistance **$97.13** (high intraday révisé). Options haussières restaurées : max pain **$120.0**, put/call **0.74**, call OI **57.4%**. **Anomalie options JSON RÉSOLUE** (snapshot 13h UTC) : max pain rétabli à $120.0 (vs $45.0 aberrant à 10h), put/call et call OI rétablis. Échéance 06-12 dans **3 jours**. Earnings placeholder glissant J=0 à **17+ jours**.
 
 ---
 
@@ -26,6 +26,7 @@
 
 | Date | Fichier | Type | Résumé |
 |------|---------|------|--------|
+| 2026-06-09 | `AST_2026-06-09_update.md` | Snapshot 13h UTC | >35e snapshot consécutif sans mutation pour AST — anomalie persistante ; ASTS **stabilité totale** vs snapshot 10h à **$92.06**, low **$90.81**, high **$97.13** (révision +0.13%), open **$97.13**, RSI **52.33** (neutre favorable), volume **13.62M (0.50×)** stable, consensus analystes inchangé ($94.54, 12 analysts), premium consensus **-2.6%**, **agent maintient ASTS 51.0/100 (ATTENDRE, timing Favorable)**, signal sectoriel **NEUTRAL** (XLK top1, momentum 10.0), **anomalie options JSON RÉSOLUE** dans data/latest.json (snapshot 13h UTC) : max pain $120.0 rétabli (vs $45.0 aberrant à 10h), put/call 0.74 et call OI 57.4% restaurés — faux positif pipeline confirmé, échéance 06-12 dans **3j**, earnings placeholder glissant J=0 à **17+ jours**, support immédiat MM50j $88.50, résistance $97.13 |
 | 2026-06-09 | `AST_2026-06-09_update.md` | Snapshot matinal 10h UTC (pré-ouverture) | >34e snapshot consécutif sans mutation pour AST — anomalie persistante ; ASTS **stabilité totale** vs close 08/06 à **$92.06**, low **$90.81**, high **$97.00**, open **$97.13**, RSI **52.33** (neutre favorable), volume **13.62M (0.50×)** stable, consensus analystes inchangé ($94.54, 12 analysts), premium consensus **-2.6%**, **agent maintient ASTS 51.0/100 (ATTENDRE, timing Favorable)**, signal sectoriel **NEUTRAL** (XLK top1, momentum 10.0), **anomalie options JSON détectée** dans data/2026-06-09.json (max pain $45.0 aberrant vs $120.0 opérationnel, put/call et call OI null — faux positif pipeline), échéance 06-12 dans **3j**, earnings placeholder glissant J=0 à **16+ jours**, support immédiat MM50j $88.50, résistance $97.00 |
 | 2026-06-08 | `AST_2026-06-08_update.md` | Close officiel 21h UTC | >33e snapshot consécutif sans mutation pour AST — anomalie persistante ; ASTS close officiel à **$92.06** (-1.65% séance, -0.97% vs 17h), low confirmé **$90.81**, high **$97.00**, open **$97.13**, RSI **52.33** (neutre favorable), volume final **13.55M (0.50×)** révisé à la hausse vs snapshot 17h, consensus analystes inchangé ($94.54, 12 analysts), premium consensus **-2.6%** (normalisation consolidée vs +25.0% début juin), **agent maintient ASTS 51.0/100 (ATTENDRE, timing Favorable)**, signal sectoriel **NEUTRAL** (XLK top1, momentum 10.0), options haussières stables (max pain $120.0, put/call 0.7, call OI 59.0%), échéance 06-12 dans 4j, earnings placeholder glissant J=0 à **15+ jours**, support immédiat MM50j $88.50, résistance $97.00 |
 | 2026-06-08 | `AST_2026-06-08_update.md` | Update soir (17:00 UTC) | >32e snapshot consécutif sans mutation pour AST — anomalie persistante ; ASTS consolide **-0.69%** à **$92.955** (low $91.91, high $97.00, open $97.00), RSI **52.75** (neutre favorable), volume intraday **7.71M (0.29×)** très faible, consensus analystes inchangé ($94.54, 12 analysts), premium consensus **-1.7%** (normalisation consolidée), **agent upgrade ASTS 48.5 → 51.0/100 (ATTENDRE, timing Favorable)** — +2.5 pts, signal sectoriel **NEUTRAL** (XLK top1, momentum 10.0), options haussières stables (max pain $120.0, put/call 0.7, call OI 59.0%), échéance 06-12 dans 4j, earnings placeholder glissant J=0 à **15+ jours**, support immédiat MM50j $88.52, résistance $97.00 |
@@ -65,14 +66,14 @@
 
 | Événement | Date | Statut |
 |-----------|------|--------|
-| Earnings | 2026-06-08 | Programmé (FMP) — placeholder glissant J=0 non résolu depuis 25/05 (15+ jours de glissement), résultats non disponibles dans les snapshots |
+| Earnings | 2026-06-08 | Programmé (FMP) — placeholder glissant J=0 non résolu depuis 25/05 (17+ jours de glissement), résultats non disponibles dans les snapshots |
 
 ---
 
 ## Notes
 
 - Symbole ajouté via dashboard API — validité du ticker à confirmer
-- Pas de données FMP, pas de données Yahoo Finance dans les snapshots du 18/05 au 08/06
+- Pas de données FMP, pas de données Yahoo Finance dans les snapshots du 18/05 au 09/06
 - ASTS (AST SpaceMobile) présent dans la watchlist avec données complètes — probable doublon erroné
 - AST absent du rapport quality gate (contrairement à ASTS)
 - **Action recommandée :** supprimer AST ou marquer `excluded` dans `config/watchlist.json` et privilégier ASTS
