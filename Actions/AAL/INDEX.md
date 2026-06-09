@@ -30,6 +30,7 @@
 | 2026-06-08 13:00 UTC | Mise a jour | [AAL_2026-06-08_update.md](./AAL_2026-06-08_update.md) | **Snapshot 13:00 UTC** : stabilité totale vs 10:00 UTC — cours $13.50 inchangé, RSI 61.83, volume 105.99M. **Anomalie options CORRIGÉE** : Put/Call 1.92, Max Pain $13.00, Call OI 34.2% (vs corrompu 10h). **Setup options DÉGRADÉ vs 03/06** (Put/Call 1.42→1.92, Max Pain $15.50→$13.00, Call OI 41.3%→34.2%). Risque gamma J-4 élevé. Score agent **6.1/10**, Global ajusté **66.0/100**. These **ACHETER (Sizing Reduit) CONFIRMEE avec vigilance accrue**. SL $12.20, TP $15.45, R/R 1.5. |
 | 2026-06-08 17:00 UTC | Mise a jour | [AAL_2026-06-08_update.md](./AAL_2026-06-08_update.md) | **Snapshot 17:00 UTC** : rebond technique +1.37% a $13.685, RSI 62.83, ATR $0.63, MM50 $12.40. **CORRECTION VOLUME MAJEURE** : le volume 105.99M du snapshot 13h etait une anomalie data quality. Volume reel 51.15M (-26.6% vs moyenne) = signal accumulation INVALIDE. Options stables (Put/Call 1.92, Max Pain $13.00, Call OI 34.2%). Score agent 6.1/10, Global ajuste 66.0/100. These **ACHETER (Sizing Reduit) CONFIRMEE avec vigilance, accumulation INVALIDEE**. SL $12.43, TP $15.58, R/R 1.5. |
 | 2026-06-08 21:00 UTC | Mise a jour | [AAL_2026-06-08_update.md](./AAL_2026-06-08_update.md) | **Snapshot 21:00 UTC — CLÔTURE OFFICIELLE** : cours $13.60 (+0.74% vs prior close $13.50), RSI 62.2, ATR $0.63, volume **108.46M (+49.4% vs moyenne)**. **CORRECTION D'INTERPRÉTATION** : le snapshot 17h (51.15M) était intraday (13h ET). Le volume réel est 108.46M = accumulation REVALIDÉE. Cependant, rejet du sommet $13.80 sur volume massif = churn/résistance institutionnelle. Options stables (Put/Call 1.92, Max Pain $13.00, Call OI 34.2%). XLI RS20 vs SPY **+0.03%** (convergence parfaite). Score agent **6.0/10**, Global ajusté **65.3/100**. These **ACHETER (Sizing Reduit) CONFIRMEE avec nuance churn/résistance**. SL $12.34, TP $15.49, R/R 1.5. |
+| 2026-06-09 10:00 UTC | Mise a jour | [AAL_2026-06-09_update.md](./AAL_2026-06-09_update.md) | **Snapshot 10h UTC** : stabilité totale vs close 08/06 — cours $13.60 inchangé, RSI 62.2, ATR $0.63, volume 109.04M (+50.1%). **ANOMALIE OPTIONS RÉCURRENTE** : Max Pain $5.00 aberrant (.00), Put/Call null, Call OI null (pattern observé 02/06 et 20/05). Dernières données valides : Put/Call 1.92, Max Pain $13.00, Call OI 34.2%. Earnings dans 44 jours. Score agent **6.0/10**, Global ajusté **65.3/100**. These **ACHETER (Sizing Reduit) CONFIRMEE avec vigilance accrue J-3**. SL $12.34, TP $15.49, R/R 1.5. |
 
 ---
 
@@ -84,5 +85,5 @@ Voir [SUPPLY_CHAIN.md](./SUPPLY_CHAIN.md)
 
 - Analyse initiale : [AAL_2026-05-17_init.md](./AAL_2026-05-17_init.md)
 - Mise a jour 2026-05-18 : [AAL_2026-05-18_update.md](./AAL_2026-05-18_update.md)
-- Derniere mise a jour : [AAL_2026-06-08_update.md](./AAL_2026-06-08_update.md)
+- Derniere mise a jour : [AAL_2026-06-09_update.md](./AAL_2026-06-09_update.md)
 - Contexte court terme : [CONTEXT.md](./CONTEXT.md)
