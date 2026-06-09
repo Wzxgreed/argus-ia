@@ -1,36 +1,44 @@
-# IREN — Mise à Jour (2026-06-09, snapshot 10:00 UTC — Pré-ouverture)
+# IREN — Mise à Jour (2026-06-09, snapshot 13:00 UTC)
 
-> **Type :** `_update.md` — Pré-ouverture US, snapshot 10:00 UTC
-> **Référence précédente :** [IREN_2026-06-08_update.md](IREN_2026-06-08_update.md) (close officiel 21:00 UTC)
+> **Type :** `_update.md` — Snapshot intra-journalier, 13:00 UTC
+> **Référence précédente :** [IREN_2026-06-09_update.md](IREN_2026-06-09_update.md) (snapshot 10:00 UTC)
 > **Référence full refresh :** [IREN_2026-06-08_init.md](IREN_2026-06-08_init.md)
-> **Données source :** `data/latest.json` (fetched_at 2026-06-09T10:00:02 UTC), `data/recommandations_2026-06-09.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_2026-06-09.json`, `data/social_sentiment_2026-06-09.json`, `data/fx_exposure_2026-06-09.json`, `data/events_2026-06-09.json`, `data/upcoming_events_2026-06-09.json`, `data/validation_report.txt`
+> **Données source :** `data/latest.json` (fetched_at 2026-06-09T13:00:01 UTC), `data/recommandations_2026-06-09.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_2026-06-09.json`, `data/social_sentiment_2026-06-09.json`, `data/fx_exposure_2026-06-09.json`, `data/events_2026-06-09.json`, `data/upcoming_events_2026-06-09.json`
 
 ---
 
-## Résumé des Changements (vs close officiel 2026-06-08 21:00 UTC)
+## Résumé des Changements (vs snapshot 10:00 UTC 09/06)
 
-| Métrique | Close 21:00 UTC (08/06) | Snapshot 10:00 UTC (09/06) | Δ |
-|----------|------------------------|---------------------------|---|
+| Métrique | Snapshot 10:00 UTC | Snapshot 13:00 UTC | Δ |
+|----------|-------------------|-------------------|---|
 | **Cours close** | **$59.19** | **$59.19** | **=** |
-| **Open** | $56.60 | $56.60 | **=** |
-| **High** | $59.67 | $59.67 | **=** |
-| **Low** | $55.14 | $55.14 | **=** |
-| **Previous close** | $54.35 | $54.35 | **=** |
-| **Volume** | 40.54 M (0.74× moy.) | 40.99 M (0.74× moy.) | **+1.1% révision** |
-| **RSI 14j** | 58.78 | 58.78 | **=** |
-| **ATR 14j** | $5.68 | $5.68 | **=** |
-| **MM 50j** | $50.32 | $50.32 | **=** |
-| **P/E TTM (Yahoo)** | 76.87× | 76.87× | **=** |
-| **Forward P/E** | −62.97× | −62.97× | **=** |
-| **Market Cap (Yahoo)** | $21.15 B | $21.15 B | **=** |
-| **Consensus PT (FMP)** | $69.12 (26 analysts) | $69.12 (26 analysts) | **=** |
-| **Score Opportunité** | 5.7/10 | 5.7/10 | **=** |
-| **Score Global ajusté** | 61.8/100 | 61.8/100 | **=** |
+| **Open** | $56.60 | $56.60 | = |
+| **High** | $59.67 | $59.67 | = |
+| **Low** | $55.14 | $55.14 | = |
+| **Previous close** | $54.35 | $54.35 | = |
+| **Volume** | 40.99 M (0.74× moy.) | 40.99 M (0.74× moy.) | = |
+| **RSI 14j** | 58.78 | 58.78 | = |
+| **ATR 14j** | $5.68 | $5.68 | = |
+| **MM 50j** | $50.32 | $50.32 | = |
+| **P/E TTM (Yahoo)** | 76.87× | 76.87× | = |
+| **Forward P/E** | −62.97× | −62.97× | = |
+| **EV/EBITDA (Yahoo)** | 143.88× | **155.63×** | **+8.2%** |
+| **EV/Revenue (Yahoo)** | 27.97× | **30.25×** | **+8.2%** |
+| **Market Cap (Yahoo)** | $21.15 B | $21.15 B | = |
+| **Consensus PT (FMP)** | $69.12 (26 analysts) | $69.12 (26 analysts) | = |
+| **Max Pain** | $33.00 | $33.00 | = |
+| **Put/Call ratio** | **3.95** | **2.22** | **−1.73 (−43.8%)** |
+| **Call OI %** | **20.2%** | **31.0%** | **+10.8 pts** |
+| **Short Interest** | 14.72% | 14.72% | = |
+| **Score Opportunité** | 5.7/10 | 5.7/10 | = |
+| **Score Global ajusté** | 61.8/100 | 61.8/100 | = |
 | **Action recommandée** | **ACHETER (Sizing Réduit)** | **ACHETER (Sizing Réduit)** | **=** |
 
-**Mutations : aucune.** Le snapshot 10:00 UTC du 2026-06-09 reflète la stabilité totale du close officiel du 2026-06-08. Aucune donnée de cours, technique ou fondamentale n'a changé.
+**Mutation principale : Détente structure options.** Le put/call ratio est passé de 3.95 (record historique de défiance) à 2.22, et le call OI a grimpé de 20.2% à 31.0%. Cette détente traduit un retrait partiel du hedging put massif observé depuis le gap down du 8 juin. Les puts restent majoritaires (69.0% de l'OI), signalant que la prudence structurale persiste sans atteindre l'extrémisme du snapshot 10h.
 
-**Traitement DRAFT_refresh :** Un fichier `IREN_2026-06-09_DRAFT_refresh.md` a été détecté avec triggers `PRICE_GAP` (+8.91%) et `ATR_SPIKE` (9.60%). Ces triggers sont des **faux positifs hérités** du gap down/rally du 2026-06-08 (previous close $54.35 → open $56.60 → close $59.19). L'événement majeur s'est produit le 8 juin et a déjà été traité dans le full refresh `IREN_2026-06-08_init.md` et le `_update.md` close 21h. Le DRAFT_refresh du 9 juin est archivé sans réécriture de l'analyse initiale — la thèse reste valide.
+**Mutation secondaire : Révision EV/EBITDA Yahoo (+8.2%).** Les multiples EV/EBITDA et EV/Revenue calculés par Yahoo ont été révisés à la hausse (+8.2%) sans changement de cours, traduisant probablement un ajustement des données sous-jacentes (EBITDA, Revenue) dans le feed Yahoo entre les deux snapshots. Les données FMP (EV/EBITDA 12.34×) restent inchangées.
+
+**Mutations tertiaires : aucune.** Toutes les autres données de cours, technique, fondamentale et consensus sont strictement identiques.
 
 ---
 
@@ -60,7 +68,7 @@
 - Take-profit (3×ATR) : **$76.23** (+28.8%)
 - Ratio R/R : **1.5 : 1**
 
-**Verdict timing : Favorable** — Aucun changement technique depuis le close du 8 juin. Le cours stabilisé à $59.19 confirme le rebond post-gap. Le gap fill à $59.31 reste le niveau immédiat à surveiller en ouverture US.
+**Verdict timing : Favorable** — Aucun changement technique depuis le snapshot 10h. Le cours stabilisé à $59.19 confirme le rebond post-gap. Le gap fill à $59.31 reste le niveau immédiat à surveiller.
 
 ---
 
@@ -71,10 +79,12 @@
 | Métrique | Yahoo Finance | FMP Stable API | Écart | Source préférée |
 |----------|---------------|----------------|-------|-----------------|
 | Market Cap | **$21.15 B** | $3.13 B | **−85%** | Yahoo |
-| EV/EBITDA | 143.88× | 12.34× | **−91%** | Yahoo |
+| EV/EBITDA | **155.63×** | 12.34× | **−91%** | Yahoo |
 | P/B | 7.57× | 1.72× | **−77%** | Yahoo |
 | P/E TTM | 76.87× | 35.96× | **−53%** | Yahoo |
-| EV/Revenue | 27.97× | 7.04× | **−75%** | Yahoo |
+| EV/Revenue | **30.25×** | 7.04× | **−77%** | Yahoo |
+
+> **Note :** EV/EBITDA et EV/Revenue Yahoo révisés +8.2% vs snapshot 10h (143.88× / 27.97×). Les données FMP sont inchangées.
 
 **Filtre Qualité : 4/6 — ⚠️ Quality Partielle** (inchangé)
 - ❌ Forward P/E négatif (−62.97)
@@ -87,21 +97,22 @@
 **Valorisation :**
 - P/E TTM Yahoo **76.87×** — niveaux élevés, inchangés
 - Forward P/E **−62.97×** — profitabilité attendue éloignée
+- EV/EBITDA Yahoo **155.63×** — révisé +8.2% vs 10h, niveau extrêmement élevé
 - **Cours $59.19 vs Consensus PT $69.12** — upside **+16.8%**
 
 > **[DONNÉES PARTIELLES]** — `data/accounting_risk_latest.json` inexistant — [DONNÉES MANQUANTES].
-> **[WARNING]** — `validation_report.txt` : Quality Partielle 4/6, Forward PE négatif, FCF négatif.
+> **[WARNING]** — Quality Partielle 4/6, Forward PE négatif, FCF négatif.
 
 ---
 
 ## Mise à Jour Sentiment / Options / News
 
-| Signal | Valeur | Évolution vs close 21:00 UTC |
-|--------|--------|------------------------------|
+| Signal | Valeur | Évolution vs snapshot 10:00 UTC |
+|--------|--------|-----------------------------------|
 | **Consensus PT (FMP)** | **$69.12 (26 analysts)** | = |
-| **Max Pain** | **$33.00** (exp 2026-06-12) | = — anomalie $20.00 dans snapshot 10h, valeur fiable $33.00 |
-| **Put/Call ratio** | **3.95** | = — **record historique de défiance maintenu** |
-| **Call OI %** | **20.2%** | = — puts à 79.8% |
+| **Max Pain** | **$33.00** (exp 2026-06-12) | = |
+| **Put/Call ratio** | **2.22** | **−1.73 (−43.8%)** — détente significative |
+| **Call OI %** | **31.0%** | **+10.8 pts** — regain d'intérêt call |
 | **Short Interest** | 14.72% | = — fuel squeeze présent |
 | **Social Sentiment** | Aucun buzz retail | = |
 | **Event-Driven** | Aucun événement | = |
@@ -119,14 +130,24 @@
 - Beta BTC : **2.1**
 - Verdict : Fortement corrélé — inchangé
 
-**Analyse options — défiance record persistante :**
-Le put/call ratio à **3.95** et le call OI à **20.2%** restent inchangés. La persistence de cette structure extrême malgré le rebond de +8.91% du 8 juin maintient deux interprétations possibles :
-1. **Signal contrarian** — couverture put massive = potentiel de squeeze si déshedging
-2. **Anticipation de mauvaises nouvelles** — earnings Q1 2026 toujours non publiés (15 jours après le J0 annoncé)
+**Analyse options — détente significative mais prudence persistante :**
+La structure options s'est nettement détendue entre le snapshot 10h et 13h :
+- Put/call **2.22** (vs 3.95 record) — retrait du hedging défensif massif
+- Call OI **31.0%** (vs 20.2%) — regain d'intérêt pour les calls
+- Puts **69.0%** — toujours majoritaires, la défiance reste élevée
+
+**Interprétation institutionnelle :**
+La détente de 3.95 à 2.22 traduit probablement un **déshedging partiel** des positions puts ouvertes en amont du gap down du 8 juin, ou un arbitrage post-gap. Avec 69% de puts encore en OI, la structure reste défensive. Le niveau 2.22 est encore supérieur à la moyenne historique observée sur IREN (typiquement 1.0–1.5), signalant que le marché ne fait pas encore confiance au rebond.
+
+Deux scénarios possibles :
+1. **Déshedging technique** — les puts ouverts à $54–$56 sont en train d'être clos ou roulés, libérant du gamma haussier si le cours se maintient
+2. **Repositionnement call** — anticipation d'un test du gap fill $59.31 ou de la résistance $61.86
+
+Le signal contrarian s'atténue mais persiste. Le passage sous put/call 2.0 serait un signal de confirmation haussier additionnel.
 
 ---
 
-## Scoring Global (Agent Recommandation — 2026-06-09, snapshot 10:00 UTC)
+## Scoring Global (Agent Recommandation — 2026-06-09, snapshot 13:00 UTC)
 
 | Axe | Score | Pondération | Poids ajusté |
 |-----|-------|-------------|--------------|
@@ -163,13 +184,13 @@ Le put/call ratio à **3.95** et le call OI à **20.2%** restent inchangés. La 
 > 3. **Volume sous-moyen** — 0.74× moyenne 20j = participation institutionnelle modérée.
 > 4. **Corrélation BTC** : Beta 2.1, corrélation 0.82 — position IREN = pari implicite sur BTC. Surveiller $75k comme seuil critique.
 > 5. **Forward P/E négatif** : −62.97× — profitabilité attendue éloignée.
-> 6. **Valorisation** : P/E 76.9×, EV/EBITDA 143.9× — multiples élevés.
-> 7. **Défiance options record** : put/call 3.95, puts 79.8% — le marché s'hedge massivement malgré le rebond.
+> 6. **Valorisation** : P/E 76.9×, EV/EBITDA 155.6× — multiples extrêmement élevés.
+> 7. **Défiance options atténuée mais persistante** : put/call 2.22, puts 69.0% — le marché reste sur la défensive.
 > 8. Si cours casse $50.32 (MM50) sans rebond → réviser la position.
 > 9. Si cours casse $46.00 (low 19/05) → **passer en SURVEILLER**.
 > 10. Si cours casse $47.83 (SL) → **stopper la position**.
 > 11. Si gap fill $59.31 avec volume confirmé > moyenne 20j → momentum haussier retrouvé.
-> 12. Si structure options se détend (put/call < 2.5) avec rebond du cours → signal haussier additionnel.
+> 12. Si structure options se détend davantage (put/call < 2.0) avec rebond du cours → signal haussier additionnel.
 
 ---
 
@@ -177,34 +198,33 @@ Le put/call ratio à **3.95** et le call OI à **20.2%** restent inchangés. La 
 
 **Thèse : CONFIRMÉE — ACHETER (Sizing Réduit) maintenu.**
 
-Le snapshot pré-ouverture du 2026-06-09 confirme la **stabilité totale** des données vs le close officiel du 2026-06-08. Aucune mutation technique, fondamentale ou sentimentale n'est détectée. Le cours stabilisé à $59.19 valide le rebond post-gap du 8 juin.
+Le snapshot 13:00 UTC confirme la **stabilité totale** des données de cours, technique et fondamentale principales vs le snapshot 10:00 UTC. La seule mutation significative est la **détente de la structure options** (put/call 3.95 → 2.22, call OI 20.2% → 31.0%), qui atténue l'alerte contrarian sans l'annuler. La thèse reste inchangée.
 
-**Traitement du DRAFT_refresh :**
-Le fichier `IREN_2026-06-09_DRAFT_refresh.md` détecté à 10h UTC est un **faux positif**. Les triggers `PRICE_GAP` (+8.91%) et `ATR_SPIKE` (9.60%) correspondent au mouvement du 2026-06-08, déjà pleinement analysé dans le full refresh `IREN_2026-06-08_init.md` et le `_update.md` close 21h. Aucun nouvel événement majeur n'a eu lieu entre le close 21h UTC du 8 juin et le snapshot 10h UTC du 9 juin.
-
-**Différentiels clés vs analyse précédente (close 21:00 UTC 08/06) :**
+**Différentiels clés vs analyse précédente (snapshot 10:00 UTC) :**
 1. **Cours** : $59.19 → $59.19 — stabilité totale
-2. **Volume** : 40.54 M → 40.99 M (+1.1% révision) — toujours 0.74× moyenne
+2. **Volume** : 40.99 M → 40.99 M — inchangé
 3. **RSI** : 58.78 → 58.78 — inchangé
 4. **MM50** : $50.32 → $50.32 — inchangé
-5. **Multiples** : P/E 76.87×, Forward P/E −62.97× — inchangés
+5. **Multiples** : P/E 76.87×, Forward P/E −62.97× — inchangés ; EV/EBITDA 143.88× → **155.63×** (+8.2%, révision Yahoo)
 6. **Consensus PT** : $69.12 — inchangé
-7. **Options** : Max Pain $33.00, put/call 3.95, call OI 20.2% — inchangés (anomalie $20.00 dans snapshot 10h, valeur fiable $33.00)
-8. **Scores** : Catalyseur 6.3, Valorisation 4.0, Momentum 7.5 — Score Opportunité 5.7/10, Global 61.8/100
-9. **Niveaux** : SL $47.83, TP $76.23 — inchangés
-10. **Aucune news** : Le calme pré-séance maintient la configuration technique du 8 juin
+7. **Options put/call** : 3.95 → **2.22** — **détente significative**
+8. **Call OI** : 20.2% → **31.0%** — **regain d'intérêt call**
+9. **Max Pain** : $33.00 — inchangé
+10. **Scores** : Catalyseur 6.3, Valorisation 4.0, Momentum 7.5 — Score Opportunité 5.7/10, Global 61.8/100
+11. **Niveaux** : SL $47.83, TP $76.23 — inchangés
+12. **Aucune news** : Le calme intra-journalier maintient la configuration technique du 8 juin
 
 **Recommandation :**
 - **Entrer** à $59.19 avec SL $47.83 / TP $76.23 (R/R 1.5)
 - **Sizing réduit** — max 5% du portefeuille (beta 4.232, ATR 9.60%)
-- Surveiller l'ouverture US du 9 juin — si le cours comble le gap $59.31 avec volume > moyenne 20j → confirmation haussière
+- Surveiller la suite de séance US du 9 juin — si le cours comble le gap $59.31 avec volume > moyenne 20j → confirmation haussière
 - Premier objectif : $61.86 (previous close avant gap down)
 - Deuxième objectif : $66.60 (close 03/06) puis $69.12 (consensus PT)
-- **DRAFT_refresh archivé** — faux positif, pas de réécriture nécessaire
+- Si structure options se détend sous put/call 2.0 → signal contrarian s'atténue, momentum renforcé
 - Si rupture sous $50.32 (MM50) → réviser la position
 - Si rupture sous $46.00 (low 19/05) → **passer en SURVEILLER**
 - Si rupture sous $47.83 (SL) → **stopper la position**
 
 ---
 
-*Rapport rédigé le 2026-06-09 — Données sources : `data/latest.json` (fetched_at 2026-06-09T10:00:02 UTC), `data/recommandations_2026-06-09.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_2026-06-09.json`, `data/social_sentiment_2026-06-09.json`, `data/fx_exposure_2026-06-09.json`, `data/events_2026-06-09.json`, `data/upcoming_events_2026-06-09.json`, `data/validation_report.txt`.*
+*Rapport rédigé le 2026-06-09 — Données sources : `data/latest.json` (fetched_at 2026-06-09T13:00:01 UTC), `data/recommandations_2026-06-09.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_2026-06-09.json`, `data/social_sentiment_2026-06-09.json`, `data/fx_exposure_2026-06-09.json`, `data/events_2026-06-09.json`, `data/upcoming_events_2026-06-09.json`.*

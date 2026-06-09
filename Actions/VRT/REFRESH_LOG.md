@@ -1646,3 +1646,21 @@
 **Conclusion :** Résolu — fusionné avec le traitement du DRAFT du 9 juin (même trigger persistant, snapshot pré-marché identique). DRAFT archivé. Voir [VRT_2026-06-09_init.md](./VRT_2026-06-09_init.md) et [VRT_2026-06-09_update.md](./VRT_2026-06-09_update.md).
 
 ---
+
+## 2026-06-09 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.88% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-09 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.88% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

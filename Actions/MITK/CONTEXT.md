@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER (Sizing Réduit)
-- **Score global :** 65.2/100
-- **Prix cible :** $18.13
-- **Stop-loss :** $13.58
-- **Statut thèse :** confirmée
-- **Horizon :** 1–3 mois
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** validée
+- **Horizon :** —
 
 ---
 
@@ -24,21 +24,13 @@
 
 ## 🚨 Alertes actives
 
-- 🟢 **[STABILITÉ TOTALE vs CLOSE 08/06]** Aucune mutation technique, fondamentale ou sentimentale — 2026-06-09
-- 🟢 **[CASSURE MM50 CONFIRMÉE — MARGE CONFORTABLE]** Cours $15.40 > MM50 $14.82 (+3.9%) — 2026-06-09
-- 🟢 **[VOLUME NORMALISÉ]** 1,020,200 = 0.82× moyenne 20j — liquidité crédible confirmée — 2026-06-09
-- 🟡 **[ANOMALIE OPTIONS JSON RÉCURRENTÉE]** Max pain $2.50 aberrant, put/call null, call OI null — valeurs opérationnelles conservées ($20.00 / 0.23 / 81.5%) — 2026-06-09
-- 🟡 **[DRAFT_refresh FAUX POSITIF]** Trigger ATR_SPIKE 5.91% sans mutation réelle — archivé — 2026-06-09
-- 🟡 **[ROIC FAIBLE]** 3.16% — monitorer l'efficacité du capital — 2026-05-18
-- 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($695.4M Yahoo vs $446.6M FMP), P/E, EV multiples — persistant
-- 🔴 **[PULLBACK −15.3% SANS CATALYSEUR IDENTIFIABLE]** Risque de continuation baissière si support MM50 cède — 2026-06-08
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- Earnings Q3 FY2026 : **2026-08-06** (58j) — Est EPS $0.24–$0.34, Rev ~$0.1B
-- Expiration options : **2026-06-18** (9j)
+- Aucun événement à venir.
 
 ---
 
@@ -55,9 +47,15 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** update quotidien
+- **Type :** update
 - **Fichier :** `MITK_2026-06-09_update.md`
-- **Conclusion :** Thèse CONFIRMÉE — stabilité totale vs close 08/06, aucune mutation des données. DRAFT_refresh faux positif archivé. Anomalie options JSON récurrente documentée (3e occurrence).
+- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-09 10:00 UTC) + agents quant, geo, sector, social, FX, events, recommandation
+
+---
+
+## 🔄 Triggers détectés (full refresh)
+
+- **ATR_SPIKE** (medium) — ATR relatif 5.91% (seuil 5.0%)
 
 ---
 

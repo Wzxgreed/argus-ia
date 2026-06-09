@@ -8,18 +8,18 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ATTENDRE — Pas de position
-- **Prix cible :** $10.8 (consensus 7 analystes FMP)
-- **Stop-loss :** $12.37 (cours − 2×ATR)
-- **Take-profit :** $17.92 (cours + 3×ATR)
-- **Upside/Downside :** −26.9% / −15.2%
-- **Dernière mise à jour :** 2026-06-09 10:00 UTC
+**Prix cible :** $10.8 (consensus 7 analystes FMP)
+**Stop-loss :** $12.37 (cours − 2×ATR)
+**Take-profit :** $17.92 (cours + 3×ATR)
+**Upside/Downside :** −26.9% / −15.2%
+**Dernière mise à jour :** 2026-06-09 10:00 UTC
 
 Snapshot 10h UTC : cours **$14.59** (+1.46% vs previous close $14.38), volume **102.6M** (0.82× moyenne 20j). RSI **54.58** (zone neutre, haut de fourchette). ATR **$1.11**. MM50 **$12.29**. Cours +18.7% au-dessus de la MM50. **Données options** : max pain **$15.00** (valeur opérationnelle conservée — `latest.json` affiche $3.00 aberrant), put/call **1.00**, call OI **49.9%**, expiration **2026-06-12** (dans 3 jours). Cours sous le max pain (−2.7%) — pression baissière modérée. Consensus FMP **$10.8** (7 analysts). Premium consensus **+35.1%**. Quality hors périmètre (2.5/6) : bilan solide (net cash, D/E 0.25) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%). Divergence structurelle Yahoo/FMP persistante (P/E Yahoo 91.19 vs P/E FMP 45.81). Dividende 1.12%. Le secteur Communication Services (XLC) reste en sous-performance relative vs SPY (bottom 3, momentum 0.0). `recommandations_latest.json` : Score Global ajusté **51.2/100** — **ATTENDRE**. Score Opportunité **4.6/10** (C:4.0 V:3.5 M:7.3). Pas de position.
 
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 51.2/10
+- **Score global :** —/10
 - **Prix cible :** $10.8
 - **Stop-loss :** $12.37
 - **Statut thèse :** validée
@@ -60,16 +60,15 @@ Snapshot 10h UTC : cours **$14.59** (+1.46% vs previous close $14.38), volume **
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** update
-- **Fichier :** `NOK_2026-06-09_update.md`
-- **Conclusion :** Stabilité totale vs close 08/06 21h. Snapshot 10h UTC identique. Anomalie options (max pain $3.00 corrompu). Thèse ATTENDRE confirmée. Pas de position.
+- **Type :** full refresh
+- **Fichier :** `_NOK_2026-06-09_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-09
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 7.61% (seuil 5.0%) — **Faux positif technique archivé**
-- Aucun changement structurel. Données identiques au snapshot précédent. DRAFT_refresh du 2026-06-09 archivé.
+- **ATR_SPIKE** (medium) — ATR relatif 7.61% (seuil 5.0%)
 
 ---
 

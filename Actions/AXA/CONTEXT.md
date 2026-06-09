@@ -40,7 +40,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 
 ## 📅 Prochains événements
 
-- **2026-06-09** · earnings · Earnings J0 FMP sans détails exploitables
+- **2026-06-09** · earnings · Earnings ...
 
 ---
 
@@ -57,9 +57,9 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** update
-- **Fichier :** `AXA_2026-06-09_update.md`
-- **Conclusion :** Stabilité globale vs close 08/06. Données AXA toujours manquantes (No price history). Contexte sectoriel XLF légèrement dégradé (return 20j +1.42% vs +1.76%, return 60j +6.98% vs +7.33%, recul au rang 4e/11). Score stable 55.2/100, recommandation ATTENDRE confirmée. Earnings J0 FMP (2026-06-09) sans détails — 12e occurrence consécutive.
+- **Type :** preview
+- **Fichier :** `AXA_2026-06-09_preview.md`
+- **Conclusion :** > **Date :** 2026-06-09
 
 ---
 

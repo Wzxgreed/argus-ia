@@ -648,3 +648,21 @@
 **Conclusion :** **FAUX POSITIF — ARCHIVÉ (DUPLIQUÉ)** — Même conclusion que l'entrée précédente. Trigger dupliqué par le détecteur d'événements. Traité par l'update 10h UTC du 2026-06-09. Pas de full refresh nécessaire.
 
 ---
+
+## 2026-06-09 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.23% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-09 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.23% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

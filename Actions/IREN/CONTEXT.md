@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER (Sizing Réduit)
-- **Score global :** 61.8/100
-- **Prix cible :** $69.12 (consensus FMP, 26 analysts)
-- **Stop-loss :** $47.83 (2×ATR)
-- **Statut thèse :** confirmée
-- **Horizon :** 1–3 mois
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
+- **Horizon :** —
 
 ---
 
@@ -35,7 +35,7 @@
 
 ## 📅 Prochains événements
 
-- Earnings Q2 2026 — 2026-08-27 (79 jours) — Est EPS −$0.51 à −$0.33, Rev $0.2B
+- Aucun événement à venir.
 
 ---
 
@@ -52,9 +52,16 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** update pré-ouverture
-- **Fichier :** `IREN_2026-06-09_update.md`
-- **Conclusion :** Stabilité totale vs close 08/06. DRAFT_refresh du 09/06 traité comme faux positif (triggers hérités du gap 08/06). Thèse ACHETER (Sizing Réduit) confirmée. SL $47.83 / TP $76.23.
+- **Type :** full refresh
+- **Fichier :** `IREN_2026-06-09_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-09
+
+---
+
+## 🔄 Triggers détectés (full refresh)
+
+- **PRICE_GAP** (medium) — Gap +8.91% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 9.60% (seuil 5.0%)
 
 ---
 

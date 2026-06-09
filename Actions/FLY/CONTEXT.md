@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Score global :** 43.8/100
-- **Prix cible :** $43.25 (consensus FMP, 12 analysts)
-- **Stop-loss :** $24.60
-- **Statut thèse :** confirmée
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
 - **Horizon :** —
 
 ---
@@ -24,15 +24,13 @@
 
 ## 🚨 Alertes actives
 
-- **PIN RISK OPTIONS J-3** — Expiration 2026-06-12, max pain opérationnel $40.00 vs spot $36.18 (−9.6%). Puts $40.00 in-the-money. Surveillance du comportement autour de $40.00.
-- **ANOMALIE DATA OPTIONS** — Snapshot 09/06 10h UTC : max pain $19.00 aberrant dans `latest.json`, put/call null, call OI null. Valeurs opérationnelles conservées ($40.00 / 1.08 / 48.1%).
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- Earnings Q2 2026 : **2026-08-04** (56 jours) — Est EPS −$0.61 à −$0.45, Rev $0.1B
-- Expiration options : **2026-06-12** (J-3) — max pain opérationnel $40.00
+- Aucun événement à venir.
 
 ---
 
@@ -49,15 +47,15 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** update
-- **Fichier :** `FLY_2026-06-09_update.md`
-- **Conclusion :** Thèse SURVEILLER (43.8) confirmée — stabilité totale vs close 08/06 (cours $36.18 inchangé, RSI 41.52, volume 4.21M 0.45×). Aucun changement matériel de scores, fondamentaux ou catalyst. Anomalie options récurrente (max pain $19.00 aberrant). Timing défavorable, cassure MM50 confirmée.
+- **Type :** full refresh
+- **Fichier :** `FLY_2026-06-09_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-09
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger valide — le DRAFT_refresh généré ce matin (ATR_SPIKE 16.00%) était un faux positif sur données inchangées et a été archivé.
+- **ATR_SPIKE** (medium) — ATR relatif 16.00% (seuil 5.0%)
 
 ---
 

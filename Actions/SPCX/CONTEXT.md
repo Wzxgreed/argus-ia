@@ -57,9 +57,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** preview
-- **Fichier :** `SPCX_2026-06-09_preview.md`
-- **Conclusion :** > **Date :** 2026-06-09
+- **Type :** update
+- **Fichier :** `SPCX_2026-06-09_update.md`
+- **Conclusion :** **Date :** 2026-06-09
 
 ---
 

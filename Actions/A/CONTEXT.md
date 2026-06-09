@@ -21,7 +21,7 @@
 ## 📜 Historique des analyses
 - **Score global :** —/10
 - **Prix cible :** $—
-- **Stop-loss :** $122.07
+- **Stop-loss :** $122.05
 - **Statut thèse :** validée
 - **Horizon :** 1–3 mois
 
@@ -69,9 +69,6 @@
 - **MM 200j :** —
 - **ATR 14j :** 5.32
 - **Volume moy. 20j :** 2659740
-- **Volume session :** 1588800 (0.60× moy. 20j)
-- **52W range :** $108.35 – $160.27
-- **Distance MM50 :** +11.9%
 
 ---
 
@@ -80,7 +77,7 @@
 - **Date :** 2026-06-09
 - **Type :** update
 - **Fichier :** `A_2026-06-09_update.md`
-- **Conclusion :** 🟡 **Thèse confirmée mais modifiée** — stabilité totale vs close 08/06 ($132.69, RSI 77.9, ATR $5.32 inchangés). Volume révisé 1.59M (0.60×). Anomalie options JSON récurrente détectée et traitée (valeurs opérationnelles $130/1.51/39.8% conservées). Score Global ajusté **52.5** — limite basse zone ATTENDRE. Signal sectoriel **POSITIF MARGINAL** (XLV #2, momentum score 5.02).
+- **Conclusion :** > **Date :** 2026-06-09 · Snapshot 10:00 UTC
 
 ---
 

@@ -1744,3 +1744,21 @@ Snapshot 2026-06-09 10:00 UTC. Données **strictement inchangées** vs snapshot 
 DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusions identiques au snapshot 10:00 UTC.
 
 ---
+
+## 2026-06-09 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 7.61% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-09 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 7.61% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
