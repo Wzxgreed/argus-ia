@@ -636,7 +636,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.23% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** **FAUX POSITIF — ARCHIVÉ** — Traité via update 10h UTC (PLTR_2026-06-09_update.md). Stabilité totale vs close 08/06 21h UTC : cours $136.47 inchangé, RSI 51.08 stable, ATR $7.14 stable (identique à hier), MM50 $140.68 inchangée, volume 26.88M (0.67x, +0.4% vs close). Le trigger ATR_SPIKE 5.23% est un faux positif : l'ATR réel n'a pas bougé. Anomalie options JSON récurrente détectée (Max Pain $50.00, Put/Call null, Call OI null) — valeurs opérationnelles conservées du snapshot 21h 08/06 ($150.00 / 0.54 / 64.9%). Pas de changement qualitatif sur les fondamentaux, le consensus, les scores agents ou la structure technique. Thèse SURVEILLER maintenue (Score Global 46.3/100). Pas de full refresh nécessaire — la thèse précédente reste valide.
 
 ---
 
@@ -645,6 +645,6 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.23% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** **FAUX POSITIF — ARCHIVÉ (DUPLIQUÉ)** — Même conclusion que l'entrée précédente. Trigger dupliqué par le détecteur d'événements. Traité par l'update 10h UTC du 2026-06-09. Pas de full refresh nécessaire.
 
 ---
