@@ -1,4 +1,4 @@
-# CONTEXT — ASTSPACE — Dernière mise à jour : 2026-06-08
+# CONTEXT — ASTSPACE — Dernière mise à jour : 2026-06-09
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -30,7 +30,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-08** · earnings · Earnings ...
+- **2026-06-09** · earnings · Earnings ...
 
 ---
 
@@ -46,10 +46,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-08
-- **Type :** update
-- **Fichier :** `ASTSPACE_2026-06-08_update.md`
-- **Conclusion :** > **Proxy ASTS Close $92,96** : repli **−0,69%** vs snapshot 13h UTC ($93,60). Range intraday $91,91–$97,00. RSI **52,75** (−1,61 pt, zone neutre). Volume **effondré à 0,29×** (7,71M vs moy. 26,75M) —
+- **Date :** 2026-06-09
+- **Type :** preview
+- **Fichier :** `ASTSPACE_2026-06-09_preview.md`
+- **Conclusion :** > **Date :** 2026-06-09
 
 ---
 

@@ -2,6 +2,18 @@
 
 ---
 
+## 2026-06-09 — Full Refresh Triggered (faux positif)
+
+**Triggers :**
+- price_gap (medium) : Gap +8.91% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 9.60% (seuil 5.0%)
+
+**Conclusion :** confirm — faux positif
+
+Le DRAFT_refresh a été déclenché automatiquement à 10:00 UTC par PRICE_GAP et ATR_SPIKE, mais les triggers sont hérités du mouvement du 2026-06-08 (previous close $54.35 → open $56.60 → close $59.19). Les données du snapshot 10:00 UTC du 9 juin sont strictement identiques au close officiel du 8 juin (cours $59.19, RSI 58.78, ATR $5.68, MM50 $50.32, volume ~41.0 M). Aucun nouvel événement majeur n'a eu lieu. DRAFT_refresh archivé. Anomalie détectée : `data/latest.json` retourne Max Pain $20.00 (incohérent) et put/call null — valeurs fiables maintenues : Max Pain $33.00, put/call 3.95, call OI 20.2%. Thèse confirmée ACHETER (Sizing Réduit) — Score Opportunité 5.7/10, Global 61.8/100.
+
+---
+
 ## 2026-06-03 — Full Refresh Triggered (faux positif)
 
 **Triggers :**
@@ -1713,6 +1725,26 @@ Snapshot 17:00 UTC — Rebond +7.68% ($54.35 → $58.525) sur volume faible (0.4
 ---
 
 ## 2026-06-08 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +8.91% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 9.60% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-09 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +8.91% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 9.60% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-09 — Full Refresh Triggered
 
 **Triggers :**
 - price_gap (medium) : Gap +8.91% overnight (seuil ±5.0%)

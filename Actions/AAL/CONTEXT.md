@@ -1,4 +1,4 @@
-# CONTEXT — AAL — Dernière mise à jour : 2026-06-08
+# CONTEXT — AAL — Dernière mise à jour : 2026-06-09
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -29,11 +29,11 @@ Le Forward P/E est a **6.10** (asymetrie intacte). Le RSI est en detente a **62.
 ---
 
 ## Actualites ayant impacte ce dossier
-- **Score global :** 65.3/100
+- **Score global :** —/10
 - **Prix cible :** $15.49
 - **Stop-loss :** $12.34
-- **Statut thèse :** active
-- **Horizon :** 1–3 mois
+- **Statut thèse :** validée
+- **Horizon :** —
 
 ---
 
@@ -45,16 +45,15 @@ Le Forward P/E est a **6.10** (asymetrie intacte). Le RSI est en detente a **62.
 
 ## 🚨 Alertes actives
 
-- Baisse — $12.34 (SL 2×ATR) — 🟢 Active
-- Hausse — $14.00 (support cassé / résistance) — 🔴 Déclenchée (02/06)
-- Volume — >2× moy. 20j (>145M) — 🟢 Active
+- Baisse — $11.41 (SL 2×ATR) — 🟢 Active
+- Hausse — $14.00 (prix cible) — 🔴 Déclenchée (27/05)
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- 2026-06-12 — Expiration options (Max Pain $13.00) — risque gamma J-4
-- 2026-07-23 — Earnings Q2 FY2026 — Est EPS -$0.34 à $0.52, Rev $16.6B
+- Aucun événement à venir.
 
 ---
 
@@ -64,7 +63,7 @@ Le Forward P/E est a **6.10** (asymetrie intacte). Le RSI est en detente a **62.
 - **MM 50j :** 12.4
 - **MM 200j :** —
 - **ATR 14j :** 0.63
-- **Volume moy. 20j :** 72607024
+- **Volume moy. 20j :** 72642960
 
 ---
 
@@ -73,7 +72,7 @@ Le Forward P/E est a **6.10** (asymetrie intacte). Le RSI est en detente a **62.
 - **Date :** 2026-06-08
 - **Type :** update
 - **Fichier :** `AAL_2026-06-08_update.md`
-- **Conclusion :** Thèse ACHETER (Sizing Réduit) CONFIRMÉE avec nuance churn/résistance. Volume réel 108.46M (+49.4%) REVALIDÉ (correction interprétation 17h intraday). Rejet $13.80 sur volume massif = résistance. Support $14.00 cassé persistant. Score 6.0/10, Global 65.3/100. SL $12.34, TP $15.49, R/R 1.5.
+- **Conclusion :** **Date :** 2026-06-08 (snapshot 21h UTC)
 
 ---
 

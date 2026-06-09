@@ -1,4 +1,4 @@
-# CONTEXT — NU — Dernière mise à jour : 2026-06-08
+# CONTEXT — NU — Dernière mise à jour : 2026-06-09
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -38,8 +38,7 @@
 
 ## 📅 Prochains événements
 
-- **Earnings Q2 2026 :** 13 août 2026 (Est EPS $0.18–$0.27, Rev $5.4B)
-- **Expiration Options :** 2026-06-12 (4 jours, max pain $12.00)
+- Aucun événement à venir.
 
 ---
 
@@ -49,17 +48,16 @@
 - **MM 50j :** 13.77
 - **MM 200j :** —
 - **ATR 14j :** 0.54
-- **Volume moy. 20j :** 71443742
-- **Volume dernière séance :** 57349849 (0.80×)
+- **Volume moy. 20j :** 71493095
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-08
-- **Type :** update (close officiel 21h UTC)
+- **Type :** update
 - **Fichier :** `NU_2026-06-08_21-00_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (distribution vendeuse réelle révélée par volume révisé 0.80×, momentum dégradé 3.0/10, fondamentaux intacts, support critique $11.20 à +3.4%)**
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (distribution vendeuse réelle révélée par volume révisé 0
 
 ---
 

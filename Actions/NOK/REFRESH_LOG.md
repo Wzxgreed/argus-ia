@@ -1722,3 +1722,25 @@ Données prix/volume/technique **strictement inchangées** vs snapshot 10:00 UTC
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-06-09 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 7.61% (seuil 5.0%)
+
+**Conclusion :** ARCHIVÉ — Faux positit technique
+
+Snapshot 2026-06-09 10:00 UTC. Données **strictement inchangées** vs snapshot 2026-06-08 21:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday historique ($14.45–$15.06) consolidé depuis le gap baissier du 2026-06-08, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). Anomalie options dans `latest.json` (max pain $3.00 aberrant) — valeurs opérationnelles du 08/06 conservées ($15.00 / 1.00 / 49.9%). DRAFT_refresh archivé. Thèse inchangée.
+
+---
+
+## 2026-06-09 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 7.61% (seuil 5.0%)
+
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 10:00 UTC
+
+DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusions identiques au snapshot 10:00 UTC.
+
+---

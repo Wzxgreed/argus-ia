@@ -75,6 +75,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 | 2026-06-08 | [IREN_2026-06-08_update.md](IREN_2026-06-08_update.md) (snapshot 13:00 UTC — révision post-pipeline) | Révision post-pipeline | Snapshot 13:00 UTC — **Données de cours inchangées** · **Correction options majeure** : Max Pain $33.00 (vs $20.00 anomalie), put/call **3.95** record (vs null), call OI **20.2%** (vs null) · Quality Gate exclusion stale_price_history (probable artefact) · Pipeline partial (phases C/D failed) · Action **ACHETER (Sizing Réduit)** confirmée · Score Global **61.8/100** · Thèse confirmée |
 | 2026-06-08 | [IREN_2026-06-08_update.md](IREN_2026-06-08_update.md) (snapshot 17:00 UTC) | Mise à jour post-session | Snapshot 17:00 UTC — **Rebond +7.68%** ($54.35 → $58.525) · Volume effondré 0.41× moyenne · RSI 58.22 · MM50 $50.31 · Multiples dégradés (P/E 76.0×, Forward P/E −62.26×) · Défiance options record persistante (put/call 3.95, puts 79.8%) · Scores révisés (C 6.3, V 4.0, M 7.5) · Action **ACHETER (Sizing Réduit)** · Score Global **61.8/100** · Thèse confirmée |
 | 2026-06-08 | [IREN_2026-06-08_update.md](IREN_2026-06-08_update.md) (snapshot 21:00 UTC — close officiel) | Close officiel post-session | Close officiel — **Rebond consolidé +8.91%** ($54.35 → $59.19) · Volume révisé 40.54 M (0.74× moyenne) · RSI 58.78 · MM50 $50.32 · Gap fill quasi atteint ($59.31) · Multiples dégradés (P/E 76.9×, Forward P/E −62.97×) · Défiance options record maintenue · Scores inchangés 5.7/61.8 · Action **ACHETER (Sizing Réduit)** · SL/TP $47.83/$76.23 · Thèse confirmée |
+| 2026-06-09 | [IREN_2026-06-09_update.md](IREN_2026-06-09_update.md) (snapshot 10:00 UTC) | Mise à jour pré-ouverture | Snapshot 10:00 UTC — **stabilité totale vs close 08/06** · cours $59.19 (=) · données brutes inchangées · DRAFT_refresh du 09/06 traité (faux positif, triggers hérités du gap 08/06) · Score Opportunité 5.7/10 inchangé · Score Global 61.8/100 inchangé · Action **ACHETER (Sizing Réduit)** confirmée · SL/TP $47.83/$76.23 · Thèse confirmée |
 
 ---
 
@@ -102,4 +103,4 @@ Voir [SUPPLY_CHAIN.md](SUPPLY_CHAIN.md) pour la cartographie fournisseurs/client
 
 ---
 
-*Dernière mise à jour : 2026-06-08 (snapshot 21:00 UTC)*
+*Dernière mise à jour : 2026-06-09 (snapshot 10:00 UTC)*
