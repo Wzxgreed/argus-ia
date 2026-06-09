@@ -2092,7 +2092,9 @@ Le gap baissier de -7.98% est accompagné d'un volume supérieur à la moyenne 2
 **Triggers :**
 - atr_spike (medium) : ATR relatif 8.29% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans les updates 2026-06-09 17h et 21h UTC
+
+Snapshot 2026-06-09 21:00 UTC. Cours $13.85 (−5.07% vs previous close), RSI 50.91, ATR $1.15, volume 178.7M (1.40× moyenne 20j). Rebond technique +3.17% depuis le close 17h ($13.425) sur volume d'absorption. Support intraday $13.18 testé et tenu. Score Global ajusté **48.0/100** — **SURVEILLER** (C:4.0 V:3.5 M:6.0). Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +28.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante. Les DRAFT_refresh du 09/06 sont archivés comme traités dans les updates. Thèse SURVEILLER confirmée avec nuance constructive.
 
 ---
 
@@ -2102,6 +2104,8 @@ Le gap baissier de -7.98% est accompagné d'un volume supérieur à la moyenne 2
 - price_gap (medium) : Gap -5.07% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 8.30% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans les updates 2026-06-09 17h et 21h UTC
+
+Même conclusion que l'entrée précédente. DRAFT_refresh archivé.
 
 ---

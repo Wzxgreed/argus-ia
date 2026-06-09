@@ -9,23 +9,23 @@
 
 ## Thèse Courante
 
-IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot 17h UTC du 2026-06-09 révèle une **correction sévère de −11.65%** en séance : le cours a ouvert à $58.98, a atteint un high de $60.86, puis a chuté brutalement jusqu'à $51.145 pour clôturer à **$52.295**. Le range intraday de **18.6%** traduit une volatilité extrême et un rejet institutionnel du niveau $60+.
+IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le **close officiel** du 2026-06-09 (21h UTC) révèle une **correction de −8.73%** en séance : le cours a ouvert à $58.96, a atteint un high de $60.86, puis a chuté jusqu'à $51.145 pour finir à **$54.02**. Le range intraday de **18.6%** traduit une volatilité extrême, mais le **rebond du low vers $54.02** et le **volume supérieur à la moyenne** (56.48 M = 1.08×) suggèrent une défense acheteuse institutionnelle sur les niveaux bas.
 
-**🟡 Momentum technique dégradé :** Le RSI est retourné à **54.23** (zone neutre, −4.55 pts vs 13h) et le cours évolue désormais **+3.2% au-dessus de la MM50 ($50.67)** — le support dynamique est directement testé. Le ATR a grimpé à **$6.06** (ATR relatif 11.59%), imposant une vigilance accrue.
+**🟡 Momentum technique stable :** Le RSI est à **56.02** (zone neutre favorable) et le cours évolue **+6.6% au-dessus de la MM50 ($50.70)** — le support dynamique est confortable. Le ATR est à **$6.06** (ATR relatif 11.22%), imposant une vigilance accrue.
 
-**🟢 Consensus PT stable :** **$69.12 (26 analysts)** — upside révisé à **+32.2%** vs cours $52.295. Le consensus reste ancré malgré la volatilité.
+**🟢 Consensus PT stable :** **$69.12 (26 analysts)** — upside révisé à **+27.9%** vs cours $54.02. Le consensus reste ancré malgré la volatilité.
 
-**🟢 Valorisation mécaniquement améliorée par la chute :** P/E TTM **67.86×** (−11.7% vs 13h), P/B **6.69×** (−11.6%). Les multiples restent élevés mais le retrait offre un meilleur point d'entrée relatif.
+**🟡 Valorisation mécaniquement dégradée par la remontée :** P/E TTM **70.16×** (+3.4% vs 17h), P/B **6.91×** (+3.3%). Les multiples restent extrêmement élevés.
 
-**🔴 Forward P/E négatif :** **−55.59×** — profitabilité attendue éloignée, amélioration marginale vs −62.97×. FCF négatif (yield −36%).
+**🔴 Forward P/E négatif :** **−57.47×** — profitabilité attendue éloignée, légère détérioration vs −55.59×. FCF négatif (yield −36%).
 
-**🟡 Volume sous-moyen confirmé :** 33.21 M = **0.65× moyenne 20j** — distribution plus faible que le matin, mais toujours insuffisante pour une conviction institutionnelle forte.
+**🟢 Volume au-dessus de la moyenne :** 56.48 M = **1.08× moyenne 20j** — participation institutionnelle en fin de séance, invalidant la lecture "distribution silencieuse" du snapshot 17h (0.65×).
 
-**🔴 Volatilité extrême :** Beta **4.232**, ATR **$6.06** (ATR relatif 11.59%). Sizing réduit obligatoire (max 5% portefeuille).
+**🔴 Volatilité extrême :** Beta **4.232**, ATR **$6.06** (ATR relatif 11.22%). Sizing réduit obligatoire (max 5% portefeuille).
 
 **🔴 Corrélation BTC :** Corrélation 30j **0.82**, beta BTC **2.1** — le pivot IA n'est pas encore pricé comme découplage. Toute position IREN reste un pari implicite sur BTC.
 
-**⚠️ Défiance options persistante :** Put/call **2.22**, call OI **31.0%** (puts 69.0%). La structure options n'a pas bougé malgré la chute de −11.65%, signalant que le marché options n'a pas réagi au mouvement — les puts étaient déjà massively overhang. Le signal contrarian s'atténue légèrement (Max Pain $33.00 à −37% vs −52% à $59.19).
+**⚠️ Défiance options persistante :** Put/call **2.22**, call OI **31.0%** (puts 69.0%). La structure options n'a pas bougé malgré le range de 18.6%, signalant que le marché options était déjà massively overhang. Le signal contrarian s'atténue (Max Pain $33.00 à −39% vs −37% à $52.295).
 
 **⚠️ Short Interest stable :** 14.72% — fuel squeeze présent mais non activé.
 
@@ -33,9 +33,9 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 
 **Score Opportunité : 5.7/10** (Catalyseur 6.8, Valorisation 4.5, Momentum 6.0)
 **Score Global ajusté : 61.8/100**
-**Action : ACHETER (Sizing Réduit)** — la thèse fondamentale (pivot IA/HPC, contrat NVIDIA) reste intacte mais le rejet technique du high $60.86 impose une vigilance accrue. La MM50 ($50.67) est le niveau critique à surveiller (SL $40.18, TP $70.47, R/R 1.5)
+**Action : ACHETER (Sizing Réduit)** — la thèse fondamentale (pivot IA/HPC, contrat NVIDIA) reste intacte. Le rejet technique du high $60.86 impose une vigilance accrue, mais le close officiel $54.02 et le volume 1.08× améliorent la lecture par rapport au snapshot 17h. La MM50 ($50.70) est le niveau critique à surveiller (SL $41.90, TP $72.20, R/R 1.5)
 
-> **⚠️ Réserve earnings :** Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds (FY 2025 uniquement). Sizing réduit obligatoire (beta 4.232, ATR 9.60%). Surveiller BTC ($78,143) — seuil critique $75k. Si le cours casse $50.32 (MM50) sans rebond → réviser la position. Si le cours casse $46.00 (low 19/05) → passer en SURVEILLER. Si le cours casse $47.83 (SL 2×ATR) → stopper la position. Gap fill $59.31 quasi atteint ($59.19) — surveiller volume > moyenne 20j pour confirmation.
+> **⚠️ Réserve earnings :** Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds (FY 2025 uniquement). Sizing réduit obligatoire (beta 4.232, ATR 11.22%). Surveiller BTC ($78,143) — seuil critique $75k. Si le cours casse $50.70 (MM50) sans rebond → réviser la position. Si le cours casse $46.00 (low 19/05) → passer en SURVEILLER. Si le cours casse $41.90 (SL 2×ATR) → stopper la position. Gap fill $59.31 ($59.19) — surveiller volume > moyenne 20j pour confirmation.
 
 ---
 
@@ -78,6 +78,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 | 2026-06-09 | [IREN_2026-06-09_update.md](IREN_2026-06-09_update.md) (snapshot 10:00 UTC) | Mise à jour pré-ouverture | Snapshot 10:00 UTC — **stabilité totale vs close 08/06** · cours $59.19 (=) · données brutes inchangées · DRAFT_refresh du 09/06 traité (faux positif, triggers hérités du gap 08/06) · Score Opportunité 5.7/10 inchangé · Score Global 61.8/100 inchangé · Action **ACHETER (Sizing Réduit)** confirmée · SL/TP $47.83/$76.23 · Thèse confirmée |
 | 2026-06-09 | [IREN_2026-06-09_update.md](IREN_2026-06-09_update.md) (snapshot 13:00 UTC) | Mise à jour intra-journalière | Snapshot 13:00 UTC — stabilité totale cours $59.19 (=) — **détente options** (put/call 2.22 vs 3.95, call OI 31.0% vs 20.2%) — EV/EBITDA révisé 155.63× (+8.2%) — Score inchangé 5.7/10 — Global 61.8/100 — Action **ACHETER (Sizing Réduit)** confirmée — Thèse confirmée |
 | 2026-06-09 | [IREN_2026-06-09_update.md](IREN_2026-06-09_update.md) (snapshot 17:00 UTC) | Mise à jour post-session | Snapshot 17:00 UTC — **correction −11.65%** ($59.19 → $52.295) · rejet massif du high $60.86 · range intraday 18.6% · RSI 54.23 · MM50 $50.67 testée (+3.2%) · multiples mécaniquement améliorés (P/E 67.86×, P/B 6.69×) · upside consensus +32.2% · options inchangées (put/call 2.22) · scores révisés (C 6.8, V 4.5, M 6.0) · Global 61.8/100 inchangé · Action **ACHETER (Sizing Réduit)** · SL/TP $40.18/$70.47 · Thèse **modifiée** — vigilance accrue |
+| 2026-06-09 | [IREN_2026-06-09_update_21h00.md](IREN_2026-06-09_update_21h00.md) (close officiel) | Close officiel post-session | Close officiel 21:00 UTC — **correction close $52.295 → $54.02 (+3.3%)** · volume révisé 56.48 M (1.08× moyenne) · RSI 56.02 · MM50 $50.70 (+6.6%) · multiples mécaniquement dégradés (P/E 70.16×, P/B 6.91×) · upside consensus +27.9% · options inchangées · Score Opportunité 5.7/10 inchangé · Global 61.8/100 inchangé · Action **ACHETER (Sizing Réduit)** · SL/TP $41.90/$72.20 · Thèse **confirmée** — lecture technique améliorée vs snapshot 17h |
 
 ---
 
@@ -105,4 +106,4 @@ Voir [SUPPLY_CHAIN.md](SUPPLY_CHAIN.md) pour la cartographie fournisseurs/client
 
 ---
 
-*Dernière mise à jour : 2026-06-09 (snapshot 13:00 UTC)*
+*Dernière mise à jour : 2026-06-09 (close officiel 21:00 UTC)*

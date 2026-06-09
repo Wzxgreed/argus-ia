@@ -35,9 +35,9 @@ Snapshot 21h UTC : cours **$13.85** (−5.07% vs previous close $14.59), volume 
 
 ## 🚨 Alertes actives
 
-- Baisse — $12.03 (SL 2×ATR) — 🟢 Active
-- Hausse — $9.26 (consensus) — 🔴 Déjà au-dessus
-- Volume — >2× moy. 20j (>249M) — 🟢 Active
+- Baisse — $12.41 (MM50) — 🟢 Active
+- Hausse — $14.58 (open du jour) — 🟢 Active
+- Volume — >2× moy. 20j (>254M) — 🟢 Active
 
 ---
 
@@ -49,27 +49,30 @@ Snapshot 21h UTC : cours **$13.85** (−5.07% vs previous close $14.59), volume 
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 50.98
+- **RSI 14j :** 50.91
 - **MM 50j :** 12.41
 - **MM 200j :** —
 - **ATR 14j :** 1.15
-- **Volume moy. 20j :** 127265084
+- **Volume moy. 20j :** 127342320
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** full refresh
-- **Fichier :** `_NOK_2026-06-09_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-09
+- **Type :** update (snapshot 21h UTC)
+- **Fichier :** [NOK_2026-06-09_21h_update.md](./NOK_2026-06-09_21h_update.md)
+- **Conclusion :** Thèse SURVEILLER confirmée avec nuance constructive. Rebond technique +3.17% post-gap sur volume d'absorption (1.40×). RSI retourne au-dessus de 50 (50.91). Support $13.18 validé. Pas de catalyseur fondamental. Score Global 48.0/100 inchangé.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap -5.07% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 8.30% (seuil 5.0%)
+- **PRICE_GAP** (medium) — Gap -5.07% overnight (seuil ±5.0%) — traité dans NOK_2026-06-09_update.md
+- **ATR_SPIKE** (medium) — ATR relatif 8.30% (seuil 5.0%) — traité dans NOK_2026-06-09_update.md
+- **VOLUME_SPIKE** (medium) — Volume 1.40× moyenne 20j sur rebond +3.17% — signal d'absorption
+
+**Note :** Tous les DRAFT_refresh du 2026-06-09 sont archivés/consolidés dans les updates 17h et 21h UTC.
 
 ---
 
