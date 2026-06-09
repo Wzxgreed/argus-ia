@@ -28,8 +28,8 @@
 - Hausse — $65.86 — 🟢 Active
 - Volume — >2× moy. 20j (>104.9M) — 🟢 Active
 - IREN — Vérification — $61.20
-- IREN — **⚠️ Volume DÉCLENCHÉ** — $55.15 (close)
-- IREN — **⚠️ Baisse INTRADAY** — $52.36 (low)
+- IREN — **⚠️ Volume DÉCLENCHÉ** — $55.15 (close) — 🟡 Résolu (cours $59.19 > seuil)
+- IREN — **⚠️ Baisse INTRADAY** — $52.36 (low) — 🟡 Résolu (cours $59.19 > seuil)
 
 ---
 
@@ -52,9 +52,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** full refresh
-- **Fichier :** `IREN_2026-06-09_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-09
+- **Type :** _update.md
+- **Fichier :** `IREN_2026-06-09_update.md` (snapshot 13:00 UTC)
+- **Conclusion :** Thèse CONFIRMÉE — ACHETER (Sizing Réduit) maintenu. Cours stable $59.19. Détente structure options significative (put/call 3.95 → 2.22, call OI 20.2% → 31.0%). EV/EBITDA Yahoo révisé +8.2% (155.63×). Scores inchangés 5.7/10 — Global 61.8/100.
 
 ---
 

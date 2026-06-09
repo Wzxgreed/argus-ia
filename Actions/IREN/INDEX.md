@@ -25,7 +25,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 
 **🔴 Corrélation BTC :** Corrélation 30j **0.82**, beta BTC **2.1** — le pivot IA n'est pas encore pricé comme découplage. Toute position IREN reste un pari implicite sur BTC.
 
-**⚠️ Défiance options record persistante :** Put/call **3.95** (record historique), call OI **20.2%** (puts 79.8%). Le marché s'hedge massivement malgré le rebond — signal contrarian fort ou anticipation de mauvaises nouvelles.
+**⚠️ Défiance options atténuée mais persistante :** Put/call **2.22** (vs record 3.95 à 10h UTC), call OI **31.0%** (puts 69.0%). La structure options s'est nettement détendue entre les deux snapshots intra-journaliers, traduisant un déshedging partiel des positions défensives post-gap. Le signal contrarian s'atténue sans disparaître — la prudence reste majoritaire.
 
 **⚠️ Short Interest stable :** 14.72% — fuel squeeze présent mais non activé.
 
@@ -76,6 +76,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 | 2026-06-08 | [IREN_2026-06-08_update.md](IREN_2026-06-08_update.md) (snapshot 17:00 UTC) | Mise à jour post-session | Snapshot 17:00 UTC — **Rebond +7.68%** ($54.35 → $58.525) · Volume effondré 0.41× moyenne · RSI 58.22 · MM50 $50.31 · Multiples dégradés (P/E 76.0×, Forward P/E −62.26×) · Défiance options record persistante (put/call 3.95, puts 79.8%) · Scores révisés (C 6.3, V 4.0, M 7.5) · Action **ACHETER (Sizing Réduit)** · Score Global **61.8/100** · Thèse confirmée |
 | 2026-06-08 | [IREN_2026-06-08_update.md](IREN_2026-06-08_update.md) (snapshot 21:00 UTC — close officiel) | Close officiel post-session | Close officiel — **Rebond consolidé +8.91%** ($54.35 → $59.19) · Volume révisé 40.54 M (0.74× moyenne) · RSI 58.78 · MM50 $50.32 · Gap fill quasi atteint ($59.31) · Multiples dégradés (P/E 76.9×, Forward P/E −62.97×) · Défiance options record maintenue · Scores inchangés 5.7/61.8 · Action **ACHETER (Sizing Réduit)** · SL/TP $47.83/$76.23 · Thèse confirmée |
 | 2026-06-09 | [IREN_2026-06-09_update.md](IREN_2026-06-09_update.md) (snapshot 10:00 UTC) | Mise à jour pré-ouverture | Snapshot 10:00 UTC — **stabilité totale vs close 08/06** · cours $59.19 (=) · données brutes inchangées · DRAFT_refresh du 09/06 traité (faux positif, triggers hérités du gap 08/06) · Score Opportunité 5.7/10 inchangé · Score Global 61.8/100 inchangé · Action **ACHETER (Sizing Réduit)** confirmée · SL/TP $47.83/$76.23 · Thèse confirmée |
+| 2026-06-09 | [IREN_2026-06-09_update.md](IREN_2026-06-09_update.md) (snapshot 13:00 UTC) | Mise à jour intra-journalière | Snapshot 13:00 UTC — stabilité totale cours $59.19 (=) — **détente options** (put/call 2.22 vs 3.95, call OI 31.0% vs 20.2%) — EV/EBITDA révisé 155.63× (+8.2%) — Score inchangé 5.7/10 — Global 61.8/100 — Action **ACHETER (Sizing Réduit)** confirmée — Thèse confirmée |
 
 ---
 
@@ -103,4 +104,4 @@ Voir [SUPPLY_CHAIN.md](SUPPLY_CHAIN.md) pour la cartographie fournisseurs/client
 
 ---
 
-*Dernière mise à jour : 2026-06-09 (snapshot 10:00 UTC)*
+*Dernière mise à jour : 2026-06-09 (snapshot 13:00 UTC)*
