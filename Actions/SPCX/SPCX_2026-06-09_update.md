@@ -1,32 +1,32 @@
-# SPCX — Mise à jour post-pipeline 2026-06-09 (snapshot 10h UTC)
+# SPCX — Mise à jour post-pipeline 2026-06-09 (snapshot 13h UTC)
 
 **Date :** 2026-06-09
-**Type :** Mise à jour post-pipeline — snapshot 10h UTC
-**Analyse précédente :** snapshot 17h UTC 2026-06-08
+**Type :** Mise à jour post-pipeline — snapshot 13h UTC
+**Analyse précédente :** snapshot 10h UTC 2026-06-09
 
 ---
 
 ## Résumé des changements depuis l'analyse précédente
 
-| Donnée | Précédent (17h UTC 08/06) | Actuel (10h UTC 09/06) | Changement |
+| Donnée | Précédent (10h UTC 09/06) | Actuel (13h UTC 09/06) | Changement |
 |--------|--------------------------|------------------------|------------|
 | Statut flux | `error: false` | `error: false` | = |
 | Cours close | **$135.00** | **$135.00** | = |
-| Open / High / Low | **$0.00 / $0.00 / $0.00** | **$0.00 / $135.00 / $135.00** | 🟡 High/Low corrigés mécaniquement (restent non fiables) |
+| Open / High / Low | **$0.00 / $135.00 / $135.00** | **$0.00 / $135.00 / $135.00** | = |
 | Volume | **0** | **0** | = |
 | RSI 14j | N/A | N/A | = |
 | ATR 14j | N/A | N/A | = |
 | MM 50j | N/A | N/A | = |
-| Recommandation agent | **ATTENDRE** | **SURVEILLER** | 🔴 **Reclassement mécanique** |
-| Score Opportunité | 5.5/10 | **4.7/10** | 🔴 **−0.8 pt** |
+| Recommandation agent | **SURVEILLER** | **SURVEILLER** | = |
+| Score Opportunité | 4.7/10 | **4.7/10** | = |
 | Score Catalyseur | 6.5/10 | 6.5/10 | = |
-| Score Valorisation | 5.0/10 | **3.0/10** | 🔴 **−2.0 pts** |
+| Score Valorisation | 3.0/10 | **3.0/10** | = |
 | Score Momentum | 5.0/10 | 5.0/10 | = |
-| **Score Global Ajusté** | **55.2/100** | **47.2/100** | 🔴 **−8.0 pts** |
+| **Score Global Ajusté** | **47.2/100** | **47.2/100** | = |
 | Timing | Neutre | Neutre | = |
-| Signal sectoriel XLF | `NEUTRAL` (+1.76% 20j) | `NEUTRAL` (+1.42% 20j) | 🟡 Légère détérioration |
+| Signal sectoriel XLF | `NEUTRAL` (+1.42% 20j) | `NEUTRAL` (+1.42% 20j) | = |
 
-**Verdict :** Quinzième snapshot consécutif sans données fiables. Le conflit de symbole persiste (cours $135.00, volume 0, sector `Industrials` / `Aerospace & Defense`). La nouveauté du snapshot est une **détérioration mécanique du score Valorisation** (5.0 → 3.0/10) qui entraîne un **reclassement de ATTENDRE à SURVEILLER** (Score Global 47.2, fourchette 35–49). Ce reclassement est un artefact algorithmique — le setup reste **non-actionnable**.
+**Verdict :** Seizième snapshot consécutif sans données fiables. **Stabilité totale** vs le snapshot 10h UTC : cours inchangé, volume inchangé, scores inchangés, conflit de symbole FMP persistant. Aucune mutation détectée sur aucun axe.
 
 ---
 
@@ -55,7 +55,7 @@
 - Résistance immédiate : $22.10 (high du 19/05 — non confirmé)
 - Résistance : $22.85 – $23.00 (zone de congestion pré-mai)
 
-**Verdict timing :** Défavorable → **Non-actionnable**. L'absence de données techniques fiables (RSI, ATR, MM50) sur quinze snapshots consécutifs, combinée à un cours manifestement erroné ($135.00 avec open $0.00), rend toute analyse technique impossible.
+**Verdict timing :** Défavorable → **Non-actionnable**. L'absence de données techniques fiables (RSI, ATR, MM50) sur seize snapshots consécutifs, combinée à un cours manifestement erroné ($135.00 avec open $0.00), rend toute analyse technique impossible.
 
 ---
 
@@ -69,8 +69,10 @@
 | Industry | `Aerospace & Defense` | `Asset Management` | 🔴 Conflit de symbole confirmé |
 | P/E | N/A | N/A | ETF — non applicable |
 | Forward P/E | N/A | N/A | ETF — non applicable |
-| Market cap | $1,765.2B | N/A | 🔴 Valeur absurde — correspond à une mega-cap industrielle, pas à un ETF SPAC |
-| Price-to-book | 22.66622 | N/A | 🟡 Valeur FMP présente mais sector "Aerospace" → données d'une autre société |
+| Market cap (fundamentals) | $1,765.2B | N/A | 🔴 Valeur absurde — correspond à une mega-cap industrielle, pas à un ETF SPAC |
+| Market cap (fmp_key_metrics) | $395.0B | N/A | 🔴 Divergence interne flagrante vs $1,765.2B |
+| Price-to-book (fundamentals) | 22.66622 | N/A | 🟡 Valeur FMP présente mais sector "Aerospace" → données d'une autre société |
+| Price-to-book (fmp_ratios) | 9.56 | N/A | 🔴 Divergence interne vs 22.67 (fundamentals) |
 | Beta | N/A | N/A | Non calculé |
 | Dividend yield | N/A | N/A | Non distribué |
 
@@ -82,8 +84,10 @@
 - `operating_margin`: −13.86%
 - `net_margin`: −26.44%
 - `price_to_earnings`: −80.01
+- `return_on_equity`: −11.95%
+- `net_debt_to_ebitda`: −0.43
 
-> **Note institutionnelle :** Les ratios FMP affichés (marges négatives, P/E −80, market cap $395B–$1,765B) ne correspondent ni à un ETF SPAC ni aux données historiques de SPCX. Le symbole `SPCX` est mappé par FMP sur une entité du secteur `Aerospace & Defense` (probablement une mega-cap industrielle) plutôt que sur l'ETF `SPAC & New Issue` de Tuttle Capital Management. **Toute donnée fondamentale sur ce snapshot doit être considérée comme non fiable.**
+> **Note institutionnelle :** Les ratios FMP affichés (marges négatives, P/E −80, market cap $395B–$1,765B) ne correspondent ni à un ETF SPAC ni aux données historiques de SPCX. Le symbole `SPCX` est mappé par FMP sur une entité du secteur `Industrials` / `Aerospace & Defense` (probablement une mega-cap industrielle) plutôt que sur l'ETF `SPAC & New Issue` de Tuttle Capital Management. **Toute donnée fondamentale sur ce snapshot doit être considérée comme non fiable.**
 
 ---
 
@@ -105,16 +109,16 @@
 
 ---
 
-## Scoring global (agents pipeline 2026-06-09, snapshot 10h UTC)
+## Scoring global (agents pipeline 2026-06-09, snapshot 13h UTC)
 
-| Axe | Score | Changement vs 17h 08/06 | Commentaire |
+| Axe | Score | Changement vs 10h 09/06 | Commentaire |
 |-----|-------|------------------------|-------------|
 | Score Catalyseur | 6.5/10 | = | Modéré-haussier — absence de catalyseur fondamental |
-| Score Valorisation | **3.0/10** | 🔴 −2.0 pts | Détérioration mécanique — probablement un artefact de l'Agent Recommandation face aux données corrompues (P/B 22.7, P/E −80) |
+| Score Valorisation | **3.0/10** | = | Détérioration mécanique — artefact de l'Agent Recommandation face aux données corrompues (P/B 22.7, P/E −80) |
 | Score Momentum | 5.0/10 | = | ⚠️ Réajustement mécanique (placeholder), non fondé sur données de marché |
-| **Score Opportunité** | **4.7/10** | 🔴 −0.8 pt | Pondération régime Unknown : C×35% + V×40% + M×25% |
-| **Score Global** | **47.2/100** | 🔴 −8.0 pts | Avant ajustements |
-| **Score Global Ajusté** | **47.2/100** | 🔴 −8.0 pts | Aucun bonus/malus appliqué |
+| **Score Opportunité** | **4.7/10** | = | Pondération régime Unknown : C×35% + V×40% + M×25% |
+| **Score Global** | **47.2/100** | = | Avant ajustements |
+| **Score Global Ajusté** | **47.2/100** | = | Aucun bonus/malus appliqué |
 
 **Malus / Bonus appliqués (par Agent Recommandation) :**
 - Accounting : 0 (ETF non concerné)
@@ -133,7 +137,7 @@
 |-------|--------|--------|-----------|
 | ≥ 75 | ACHETER | Standard | — |
 | 60–74 | ACHETER | Réduit | ❌ |
-| 50–59 | **ATTENDRE** | — | ❌ (précédent : 55.2) |
+| 50–59 | **ATTENDRE** | — | ❌ |
 | 35–49 | **SURVEILLER** | — | ✅ **SPCX = 47.2** |
 | < 35 | ÉVITER | — | — |
 
@@ -156,7 +160,7 @@
 
 ## Conclusion : thèse confirmée, modifiée ou invalidée ?
 
-**Verdict :** 🔴 Thèse **CONFIRMÉE** en état **SURVEILLER** — quinze snapshots consécutifs sans données fiables, conflit de symbole FMP persistant, **reclassement mécanique de ATTENDRE à SURVEILLER** entraîné par la baisse du Score Valorisation (5.0 → 3.0/10). Le setup reste non-actionnable.
+**Verdict :** 🔴 Thèse **CONFIRMÉE** en état **SURVEILLER** — seize snapshots consécutifs sans données fiables, conflit de symbole FMP persistant, **stabilité totale du scoring** (Score Global 47.2/100 inchangé). Le setup reste non-actionnable.
 
 | Critère | Évaluation |
 |---------|------------|
@@ -166,13 +170,13 @@
 | Catalyseur | 🟡 Aucun fondamental — signal purement technique, suspendu |
 | Risque technique | 🔴 Données absentes / corrompues = risque non quantifiable |
 | Score Global | 🔴 **47.2/100** → reclassement SURVEILLER (fourchette 35–49) |
-| Source données | 🔴 **Conflit de symbole détecté** : SPCX mappé sur `Industrials` / `Aerospace & Defense` avec cours $135.00, OHLC $0.00/$135.00 |
-| Signal sectoriel | 🟡 `NEUTRAL` — XLF top3 avec momentum 4.0 (`return_20d` +1.42%, légère baisse vs +1.76% au snapshot 17h 08/06). XLF reste dans le top3 sectoriel |
-| Stabilité inter-journalière | 🟢 Cours inchangé ($135.00), volume inchangé (0) |
-| Seuil de vigilance | ⚠️ Score Valorisation 3.0/10 — proche du seuil de disqualification (≤ 2/10) |
+| Source données | 🔴 **Conflit de symbole détecté** : SPCX mappé sur `Industrials` / `Aerospace & Defense` avec cours $135.00, OHLC $0.00/$135.00, volume 0, sector Industrials/Aerospace au lieu de Financial Services/Asset Management |
+| Signal sectoriel | 🟡 `NEUTRAL` — XLF top3 avec momentum 4.0 (`return_20d` +1.42%, inchangé vs snapshot 10h). XLF reste dans le top3 sectoriel |
+| Stabilité inter-snapshot | 🟢 Cours inchangé ($135.00), volume inchangé (0), scores inchangés |
+| Seuil de vigilance | ⚠️ Score Valorisation 3.0/10 proche du seuil de disqualification (≤ 2/10) |
 
 - **Confirmation :** La recommandation **SURVEILLER** est un artefact mécanique — le fondamental (absence de données fiables) n'a pas changé. Le Score Global Ajusté de 47.2/100 reflète la détérioration du Score Valorisation, probablement déclenchée par les ratios FMP aberrants (P/B 22.7, P/E −80) que l'Agent Recommandation interprète comme une valorisation défavorable. En réalité, ces ratios appartiennent à une autre entité (conflit de symbole).
-- **Nuances :** Le snapshot 10h UTC confirme la **stabilité totale** par rapport au snapshot 17h UTC du 08/06 : cours identique ($135.00), volume identique (0), secteur erroné identique (`Industrials` / `Aerospace & Defense`). Le signal sectoriel `NEUTRAL` persiste avec une légère détérioration du return 20j de XLF de +1.76% à +1.42% (momentum_score 4.0). Aucune news, événement corporate, flux options ni social n'est détecté sur ce snapshot. Le faux événement FMP `earnings` du 09/06 est un artefact récurrent et ignoré.
+- **Nuances :** Le snapshot 13h UTC confirme la **stabilité totale** par rapport au snapshot 10h UTC du 09/06 : cours identique ($135.00), volume identique (0), secteur erroné identique (`Industrials` / `Aerospace & Defense`), scores identiques (Global 47.2, Opportunité 4.7, Catalyseur 6.5, Valorisation 3.0, Momentum 5.0). Le signal sectoriel `NEUTRAL` persiste avec XLF return_20d +1.42% (momentum_score 4.0). Aucune news, événement corporate, flux options ni social n'est détecté sur ce snapshot. Le faux événement FMP `earnings` du 09/06 est un artefact récurrent et ignoré.
 - **Rétablissement :** Un snapshot futur avec **données de prix fiables** (Yahoo ou FMP corrigé), volume > 1 000 unités, métriques techniques (RSI, ATR, MM50) et **sector correct** (`Financial Services`) justifierait une réévaluation. Un retour du Score Global au-dessus de 50/100 relancerait le setup en ATTENDRE ; au-dessus de 60/100 en ACHENTER.
 - **Invalidation définitive :** Si le flux de prix fiable ne revient pas sur les prochains snapshots → maintien en **SURVEILLER** puis reclassement **ÉVITER**. Si le prochain prix disponible confirmé est sous $21.32 (ancien 52w low) → **ÉVITER**. Si Score Valorisation passe ≤ 2/10 → exclusion automatique du rapport.
 
@@ -180,7 +184,7 @@
 **Prix cible :** N/A (données insuffisantes — cours $135.00 non fiable)
 **Stop-loss :** N/A (prix et ATR absents)
 **Horizon :** —
-**Conviction :** Très faible — setup technique suspendu par absence totale de données fiables sur quinze snapshots consécutifs. Le flux Yahoo reste indisponible et FMP semble renvoyer les données d'une autre ticker (conflit de symbole). Attendre un snapshot avec prix confirmé, sector correct et volume > 0 avant toute réévaluation.
+**Conviction :** Très faible — setup technique suspendu par absence totale de données fiables sur seize snapshots consécutifs. Le flux Yahoo reste indisponible et FMP semble renvoyer les données d'une autre ticker (conflit de symbole). Attendre un snapshot avec prix confirmé, sector correct et volume > 0 avant toute réévaluation.
 
 ---
 
@@ -212,7 +216,7 @@
 ## Liens
 
 - [Retour à l'index du dossier](./INDEX.md)
-- Analyse précédente : snapshot 17h UTC 2026-06-08
+- Analyse précédente : snapshot 10h UTC 2026-06-09
 - Alertes actives : [Alertes/ALERTES.md](../../Alertes/ALERTES.md)
 
 ---
@@ -222,7 +226,7 @@
 **Données à enregistrer :**
 - Prix cible précédent : N/A
 - Prix cible révisé : **N/A** (données insuffisantes — cours $135.00 non fiable)
-- Recommandation précédente : ATTENDRE
+- Recommandation précédente : SURVEILLER
 - Recommandation révisée : **SURVEILLER** (artefact mécanique)
-- Raison principale : Snapshot 10h UTC 09/06 : stabilité totale vs 17h UTC 08/06, quinze snapshots consécutifs sans données fiables, conflit de symbole FMP persistant (cours $135.00, OHLC $0.00/$135.00, volume 0, sector Industrials/Aerospace au lieu de Financial Services/Asset Management). Score Global 47.2/100 (−8.0 pts vs précédent, artefact mécanique) : Score Valorisation 3.0/10 (−2.0 pts), Score Opportunité 4.7/10 (−0.8 pt). Signal sectoriel NEUTRAL avec légère détérioration XLF return_20d +1.42% (vs +1.76% au snapshot 17h 08/06). Aucun catalyseur ni news. Faux earnings FMP du 09/06 ignoré (artefact récurrent). Alerte : Score Valorisation 3.0/10 proche du seuil de disqualification (≤ 2/10).
-- Thèse : 🟡 Confirmée (statu quo non-actionnable, dégradation data persistante avec conflit de symbole stable, reclassement mécanique ATTENDRE → SURVEILLER)
+- Raison principale : Snapshot 13h UTC 09/06 : stabilité totale vs snapshot 10h UTC 09/06, seize snapshots consécutifs sans données fiables, conflit de symbole FMP persistant (cours $135.00, OHLC $0.00/$135.00, volume 0, sector Industrials/Aerospace au lieu de Financial Services/Asset Management). Scoring inchangé : Score Global 47.2/100, Score Opportunité 4.7/10 (C:6.5 V:3.0 M:5.0). Signal sectoriel NEUTRAL avec XLF return_20d +1.42% (momentum_score 4.0). Aucun catalyseur ni news. Faux earnings FMP du 09/06 ignoré (artefact récurrent). Alerte : Score Valorisation 3.0/10 proche du seuil de disqualification (≤ 2/10).
+- Thèse : 🟡 Confirmée (statu quo non-actionnable, dégradation data persistante avec conflit de symbole stable, reclassement mécanique ATTENDRE → SURVEILLER maintenu)

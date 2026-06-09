@@ -61,7 +61,7 @@
 - **Date :** 2026-06-09
 - **Type :** update
 - **Fichier :** `CTMX_2026-06-09_update.md`
-- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — SURVEILLER (INCHANGÉE)**
+- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — SURVEILLER (INCHANGÉE)** — Stabilité totale vs snapshot 10h UTC (cours $2.94 inchangé, RSI 30.56 inchangé, volume 1.06× inchangé). Anomalie options JSON RÉSOLUE (max pain $4.00, put/call 0.96, call OI 51.0% confirmés). Support $2.90 testé (low $2.89) sans cassure. Score Global Ajusté 47.5/100 inchangé.
 
 ---
 

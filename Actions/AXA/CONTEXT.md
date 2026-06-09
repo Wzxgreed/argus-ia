@@ -11,7 +11,7 @@
 
 AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **aucune donnée de prix n'est disponible** dans le pipeline Argus-IA car le symbole "AXA" n'est pas reconnu par yfinance (instrument non coté US). L'analyse technique et fondamentale reste impossible.
 
-**Contexte sectoriel (snapshot 2026-06-09 10h00 UTC) :** Le secteur Financials (XLF) affiche une **léger dégradation** vs le close 08/06 : return 20j **+1.42%** (−0.34 pt), return 60j **+6.98%** (−0.35 pt), RS 20j **+1.21%** (stable), RS 60j **−4.31%** (+0.03 pt), momentum score **4.0/10** (stable). Le rang sectoriel recule au **4e/11** (was 3e). Le signal macro `NEUTRAL` est inchangé. Le snapshot confirme que les données de prix US sont bien récupérées (25 tickers OK sur 29), isolant AXA comme l'un des **4 tickers structurellement KO** sur 29.
+**Contexte sectoriel (snapshot 2026-06-09 13h00 UTC) :** Le secteur Financials (XLF) affiche une **stabilité totale** vs le snapshot 10h : return 20j **+1.42%** (stable), return 60j **+6.98%** (stable), RS 20j **+1.21%** (stable), RS 60j **−4.31%** (stable), momentum score **4.0/10** (stable). Le rang sectoriel reste au **4e/11** (stable). Le signal macro `NEUTRAL` est inchangé. Le snapshot confirme que les données de prix US sont bien récupérées (25 tickers OK sur 29), isolant AXA comme l'un des **4 tickers structurellement KO** sur 29.
 
 **Action immédiate :** corriger le symbole dans `config/watchlist.json` (`CS.PA` ou `AXAHY`), mettre à jour le secteur (Financials / Insurance) et relancer le fetch.
 
@@ -57,9 +57,9 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** preview
-- **Fichier :** `AXA_2026-06-09_preview.md`
-- **Conclusion :** > **Date :** 2026-06-09
+- **Type :** update
+- **Fichier :** `AXA_2026-06-09_update.md`
+- **Conclusion :** Thèse ATTENDRE confirmée — stabilité totale vs snapshot 10h, données toujours manquantes, contexte sectoriel XLF inchangé.
 
 ---
 

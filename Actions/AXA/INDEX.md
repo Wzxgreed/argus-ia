@@ -1,7 +1,7 @@
 # AXA — Index du Dossier
 
-> **Dernière mise à jour :** 2026-06-09 (snapshot 10h00 UTC)
-> **Statut :** 🟡 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`) + earnings J0 FMP glissant sans détails. SCORING STABLE. CONTEXTE SECTORIEL XLF LÉGÈREMENT DÉGRADÉ (return 20j +1.42% vs +1.76% close 08/06, return 60j +6.98% vs +7.33%, recul au rang 4e/11).
+> **Dernière mise à jour :** 2026-06-09 (snapshot 13h00 UTC)
+> **Statut :** 🟡 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`) + earnings J0 FMP glissant sans détails. SCORING STABLE. CONTEXTE SECTORIEL XLF STABLE (return 20j +1.42%, return 60j +6.98%, rang 4e/11).
 
 ---
 
@@ -11,7 +11,7 @@
 
 AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **aucune donnée de prix n'est disponible** dans le pipeline Argus-IA car le symbole "AXA" n'est pas reconnu par yfinance (instrument non coté US). L'analyse technique et fondamentale reste impossible.
 
-**Contexte sectoriel (snapshot 2026-06-09 10h00 UTC) :** Le secteur Financials (XLF) affiche une **léger dégradation** vs le close 08/06 : return 20j **+1.42%** (−0.34 pt), return 60j **+6.98%** (−0.35 pt), RS 20j **+1.21%** (stable), RS 60j **−4.31%** (+0.03 pt), momentum score **4.0/10** (stable). Le rang sectoriel recule au **4e/11** (was 3e). Le signal macro `NEUTRAL` est inchangé. Le snapshot confirme que les données de prix US sont bien récupérées (25 tickers OK sur 29), isolant AXA comme l'un des **4 tickers structurellement KO** sur 29.
+**Contexte sectoriel (snapshot 2026-06-09 13h00 UTC) :** Le secteur Financials (XLF) affiche une **stabilité totale** vs le snapshot 10h : return 20j **+1.42%** (stable), return 60j **+6.98%** (stable), RS 20j **+1.21%** (stable), RS 60j **−4.31%** (stable), momentum score **4.0/10** (stable). Le rang sectoriel reste au **4e/11** (stable). Le signal macro `NEUTRAL` est inchangé. Le snapshot confirme que les données de prix US sont bien récupérées (25 tickers OK sur 29), isolant AXA comme l'un des **4 tickers structurellement KO** sur 29.
 
 **Action immédiate :** corriger le symbole dans `config/watchlist.json` (`CS.PA` ou `AXAHY`), mettre à jour le secteur (Financials / Insurance) et relancer le fetch.
 
@@ -49,6 +49,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 | `AXA_2026-06-08_update.md` | 2026-06-08 | Mise à jour quotidienne (snapshot 13h00 UTC) | **Stabilité totale** vs snapshot 10h — données manquantes persistantes (4 tickers KO sur 29), contexte sectoriel XLF strictement inchangé (RS 20j +0.64%, RS 60j −3.45%, return 20j +1.45%, momentum 4.0/10), signal macro `NEUTRAL` stable, earnings J0 FMP (2026-06-08) sans détails exploitables |
 | `AXA_2026-06-08_update.md` | 2026-06-08 | Mise à jour quotidienne (snapshot 10h00 UTC) | Données manquantes persistantes — 4 tickers KO sur 29 (SPCX résolu) ; **amélioration significative du contexte sectoriel XLF** (RS 20j −6.02% → +0.64%, RS 60j −10.99% → −3.45%, return 20j −0.23% → +1.45%, momentum 0.0/10 → 4.0/10) ; signal macro `NEUTRAL` stable ; earnings J0 FMP (2026-06-08) sans détails exploitables — pattern persistant depuis mi-mai |
 | `AXA_2026-06-08_update_17h.md` | 2026-06-08 | Mise à jour quotidienne (snapshot 17h00 UTC) | Scoring stable — données manquantes persistantes (4 tickers KO sur 29) ; contexte sectoriel XLF légèrement mixte (return 20j +1.76% vs +1.45% à 13h, RS 20j +1.20% vs +0.64%, RS 60j −4.34% vs −3.45%), momentum 3.99/10 stable ; signal macro `NEUTRAL` inchangé ; earnings J0 FMP (2026-06-08) sans détails exploitables |
+| `AXA_2026-06-09_update.md` | 2026-06-09 | Mise à jour quotidienne (snapshot 13h00 UTC) | **Stabilité totale** vs snapshot 10h — données manquantes persistantes (4 tickers KO sur 29) ; contexte sectoriel XLF strictement inchangé (RS 20j +1.21%, RS 60j −4.31%, return 20j +1.42%, momentum 4.0/10) ; signal macro `NEUTRAL` stable ; earnings J0 FMP (2026-06-09) sans détails exploitables |
 | `AXA_2026-06-09_update.md` | 2026-06-09 | Mise à jour quotidienne (snapshot 10h00 UTC) | **Stabilité globale** vs close 08/06 — données manquantes persistantes (4 tickers KO sur 29) ; contexte sectoriel XLF légèrement dégradé (return 20j +1.42% vs +1.76%, return 60j +6.98% vs +7.33%, recul au rang 4e/11), RS et momentum stables ; signal macro `NEUTRAL` inchangé ; earnings J0 FMP (2026-06-09) sans détails exploitables — **12e jour consécutif** |
 
 ---
@@ -80,6 +81,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 | 2026-06-03 (10h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
 | 2026-06-08 (10h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
 | 2026-06-08 (13h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
+| 2026-06-09 (13h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
 | 2026-06-09 (10h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
 
 ---
@@ -96,7 +98,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 
 - **[CRITICAL]** Pas de données de prix pour AXA — ticker probablement incorrect
 - **[WARNING]** Earnings J0 (2026-06-09) sans consensus ni résultats exploitables — pattern persistant depuis mi-mai (12e occurrence consécutive)
-- **[INFO]** Contexte sectoriel XLF légèrement dégradé vs close 08/06 : return 20j +1.42% (−0.34 pt), return 60j +6.98% (−0.35 pt), recul au rang 4e/11 ; RS 20j +1.21% (stable), RS 60j −4.31% (+0.03 pt), momentum 4.0/10 stable ; signal macro `NEUTRAL` inchangé
+- **[INFO]** Contexte sectoriel XLF stable vs snapshot 10h : return 20j +1.42% (stable), return 60j +6.98% (stable), rang 4e/11 (stable) ; RS 20j +1.21% (stable), RS 60j −4.31% (stable), momentum 4.0/10 stable ; signal macro `NEUTRAL` inchangé
 
 ---
 
