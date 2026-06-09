@@ -2,18 +2,18 @@
 
 ## Thèse courante
 
-**Verdict :** ACHETER (Réduit)
-**Date dernière analyse :** 2026-06-09 (snapshot 13:00 UTC)
-**Cours actuel :** $45.35
+**Verdict :** SURVEILLER
+**Date dernière analyse :** 2026-06-09 (snapshot 17:00 UTC)
+**Cours actuel :** $42.97
 **Score Qualité :** 0/6 (Hors périmètre)
-**Score Opportunité :** 6.2/10 (agent reco — données fondamentales absentes)
-**Score Momentum :** 7.5/10
-**Score Global :** 61.5/100 (66.5 ajusté)
-**Stop-loss :** $43.33
-**Take-profit :** $48.38
+**Score Opportunité :** 5.3/10 (agent reco — données fondamentales absentes)
+**Score Momentum :** 4.0/10
+**Score Global :** 52.8/100 (44.8 ajusté)
+**Stop-loss :** $40.83
+**Take-profit :** $46.18
 **Ratio R/R :** 1.5
 
-TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie sur des fondamentaux. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Verdict confirmé : ACHETER (Réduit)** — stabilité technique confirmée sur le snapshot 13h UTC (close $45.35 inchangé vs 10h), grille intraday enrichie (open $44.03, high $45.35, low $44.03, +3.00% session, +4.19% vs previous close). RSI inchangé à 54.61, MM50 stable à $43.61 (écart +$1.74 / +4.0%). Score Global stable à 61.5/100 (66.5 ajusté), Score Momentum 7.5/10. **Points de vigilance :** volume faible persistant 2,400 (0.94× moyenne 20j) — le rebond intraday de +3.00% n'est pas validé par une accélération volume, ce qui affaiblit la conviction institutionnelle ; earnings JOUR J (2026-06-09) toujours non résolus à 13h UTC. Un retour sous MM50 + volume faible invaliderait la thèse.
+TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie sur des fondamentaux. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Verdict regradé : SURVEILLER** — mutation technique majeure sur le snapshot 17h UTC : cours $42.97 en repli de −5.25% vs close 13h ($45.35), RSI 47.1 (−7.51 pts), **cassure de la MM50** ($43.65) avec écart négatif de −$0.68 (−1.6%). Volume effondré à 1,217 unités (0.50× moyenne 20j). Score Global chuté de 66.5 à 44.8 ajusté, Score Momentum effondré de 7.5 à 4.0/10. **Points de vigilance :** proximité immédiate du low 52 semaines ($40.27, +6.7%) ; earnings JOUR J (2026-06-09) toujours non résolus après 9 jours de flag — risque d'artefact calendrier FMP élevé mais non écarté ; illiquidité extrême amplifiant le bruit de microstructure. Un retour au-dessus de MM50 sur volume > 1.5× moyenne permettrait une réévaluation. Une cassure sous $40.83 (SL) justifierait le passage à ÉVITER.
 
 ---
 
