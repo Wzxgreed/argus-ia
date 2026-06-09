@@ -1681,6 +1681,6 @@
 - price_gap (medium) : Gap -6.81% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.44% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Thèse **MODIFIÉE** — correction technique accélérée en séance US. Cours $280.09 (−6.81% vs snapshot 13h $300.57). Volume 6.21M (1.06× moyenne 20j) = distribution institutionnelle confirmée avec participation élevée. Support $294.40 (low du 08/06) **rompu**, nouveau low $276.50 ouvrant vide technique vers $260–$265. RSI 30.1 (survente persistante), ATR_SPIKE 6.44%. Options inchangées (max pain $295, put/call 0.95, call OI 51.2%). Score Opportunité 3.5/10, Score Global Ajusté 27.3/100 (zone ÉVITER). Fondamentaux intacts (Quality Compounder 6/6, ROIC 18.5%, ROCE 24.3%). Aucune news négative identifiée — la chute est purement technique/market-driven. DRAFT archivé. Voir [VRT_2026-06-09_update.md](./VRT_2026-06-09_update.md).
 
 ---
