@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
+- **Recommandation :** SURVEILLER
+- **Score global :** 45.0/100
+- **Prix cible :** $51.09
+- **Stop-loss :** $21.69
+- **Statut thèse :** confirmée
 - **Horizon :** —
 
 ---
@@ -24,7 +24,10 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- **PIN RISK OPTIONS J-3** — Expiration 2026-06-12, max pain $40.00 vs spot $33.445 (−16.4%). Puts massivement ITM.
+- **SHORT INTEREST ÉLEVÉ** — 9.78% stable. Pression vendeuse persistante.
+- **CASSURE MM50** — Cours −14.3% sous MM50 ($39.01). Tendance MT baissière confirmée.
+- **Divergence Yahoo/FMP** — Market Cap ($5.49B vs $3.40B) et P/B (4.845 vs 2.855) persistante — [DONNÉES PARTIELLES].
 
 ---
 
@@ -36,11 +39,14 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 40.33
+- **RSI 14j :** 40.32
 - **MM 50j :** 39.01
 - **MM 200j :** —
 - **ATR 14j :** 5.88
-- **Volume moy. 20j :** 9163498
+- **Volume moy. 20j :** 9181716
+- **Cours close :** $33.445
+- **Position vs MM50 :** −14.3%
+- **Volume session :** 6.31M (0.69× moy. 20j)
 
 ---
 

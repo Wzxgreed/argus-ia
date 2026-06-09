@@ -32,7 +32,7 @@
 | 2026-06-08 | [FLY_2026-06-08_update.md](FLY_2026-06-08_update.md) | **Mise à jour 21:00 UTC (close officiel)** — Cours $36.18 (+0.22% vs prior close $36.10), volume révisé 4.19M (0.45×), RSI 41.52 stable, Score Momentum 3.5/10 dégradé. Agent **SURVEILLER (43.8)**. Thèse défavorable confirmée, high $38.20 rejeté, expiration options J-4. |
 | 2026-06-08 | [FLY_2026-06-08_update_17h.md](FLY_2026-06-08_update_17h.md) | **Mise à jour 17:00 UTC** — Rebond technique +1.05% à $36.48 sur volume effondré 2.53M (0.28× moy. 20j). RSI 41.9 en baisse, momentum dégradé 3.8/10. Agent **SURVEILLER (44.5)**. Thèse défavorable confirmée, intensité légèrement plus négative. |
 | 2026-06-08 | [FLY_2026-06-08_init.md](FLY_2026-06-08_init.md) | **Full Refresh** — Réécriture complète post-triggers (gap -12.65%, ATR spike 16.98%). Filtre Qualité 2/6 confirmé, TAM/peers qualitatifs, macro défavorable. Thèse SURVEILLER (45.0) confirmée. |
-| 2026-06-09 | [FLY_2026-06-09_update.md](FLY_2026-06-09_update.md) | **Mise à jour 10:00 UTC** — Stabilité totale vs close 08/06 (cours $36.18 inchangé, RSI 41.52, volume 4.21M 0.45×). Anomalie options récurrente (max pain $19.00 aberrant, valeurs opérationnelles $40.00/1.08/48.1% conservées). Agent **SURVEILLER (43.8) confirmé**. Thèse défavorable confirmée. |
+| 2026-06-09 | [FLY_2026-06-09_update.md](FLY_2026-06-09_update.md) | **Close officiel 21h UTC** — rebond partiel +2.22% en fin de séance à $33.445 (vs low $31.91), volume session 6.31M (0.69×), RSI 40.32, cassure MM50 −14.3%. Scores inchangés. Agent **SURVEILLER (45.0) confirmé**. Thèse défavorable confirmée, rebond mécanique sans catalyst. |
 | 2026-06-09 | [FLY_2026-06-09_update_13h.md](FLY_2026-06-09_update_13h.md) | **Mise à jour 13:00 UTC** — Stabilité confirmée vs 10h UTC. **Anomalie options RÉSOLUE** (max pain $40.00 confirmé, put/call 1.00, call OI 50.0%). Scores et fondamentaux inchangés. Agent **SURVEILLER (43.8) confirmé**. Thèse défavorable confirmée. |
 | 2026-06-09 | [FLY_2026-06-09_update_17h.md](FLY_2026-06-09_update_17h.md) | **Mise à jour 17:00 UTC** — **Gap baissier −9.56%** en séance à $32.72, range intraday 16.8%, RSI 39.71 proche survente, cassure MM50 amplifiée (−15.9%). Score Momentum **2.5/10**. Agent **SURVEILLER (45.0)** — thèse défavorable confirmée et renforcée. DRAFT_refresh archivé. |
 
@@ -40,7 +40,7 @@
 - Prochain earnings : **2026-08-04** (Q2 2026) — Est EPS -$0.47 à -$0.45, Rev $0.1B (57 jours)
 - ~~Expiration options : **2026-05-29** (passée)~~
 - ~~Expiration options : **2026-06-05** (passée)~~
-- Expiration options : **2026-06-12** (J-4) — max pain $40.00 vs spot $36.18
+- Expiration options : **2026-06-12** (J-3) — max pain $40.00 vs spot $33.445
 
 ## Alertes actives
 - ~~**DEUXIÈME GAP NON EXPLIQUÉ** — Deuxième gap haussier consécutif : +17.57% à $58.20 (2026-05-26 17:00 UTC) après +15.49% à $49.50 (2026-05-25/26). Cumul +35.8% en 2 sessions sans catalyst. Risque de gap fill élevé.~~ **EFFACÉ** — Gap fill matérialisé : cours retombé à $41.90 (-30.5% vs 27/05), rebond de clôture à $44.24.
@@ -50,4 +50,4 @@
 - ~~**ANOMALIE DATA OPTIONS** — Snapshot 03/06 10h : max pain $20.00 aberrant dans latest.json (vs $41.00 opérationnel). Put/call et call OI null. [DONNÉES PARTIELLES] — valeurs opérationnelles conservées.~~ **RÉSOLUE** — Snapshot 08/06 21h UTC : max pain $40.00, put/call 1.08, call OI 48.1% restaurés.
 - ~~**PIN RISK OPTIONS** — Expiration 2026-06-05 dans 4 jours, max pain $42.00 vs spot $41.90. Spot légèrement sous le max pain — aimant mécanique vers $42.00 à surveiller.~~ **RÉSOLU** — Max pain opérationnel $41.00, spot $43.37 à +5.8% au-dessus. Risque de pin négatif quasi nul.
 - ~~**APPROCHE MM50** — Low $39.75 à seulement $1.59 de la MM50 ($37.34). Cassure = retour vers $35 et tendance haussière MT remise en cause.~~ **ATTÉNUÉ** — Support $39.75 tenu, clôture $43.37, MM50 $37.79 intacte.
-- **PIN RISK OPTIONS J-3** — Expiration 2026-06-12, max pain opérationnel $40.00 vs spot $36.18 (−9.6%). Puts $40.00 in-the-money. Surveillance du comportement autour de $40.00. Anomalie data dans `latest.json` (max pain $19.00 aberrant) — valeurs opérationnelles conservées.
+- **PIN RISK OPTIONS J-3** — Expiration 2026-06-12, max pain opérationnel $40.00 vs spot $33.445 (−16.4%). Puts $35.00–$40.00 massivement in-the-money. Surveillance du comportement autour de $35.00–$40.00. Anomalie data dans `latest.json` (max pain $19.00 aberrant) — valeurs opérationnelles conservées.
