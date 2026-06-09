@@ -28,8 +28,8 @@
 - Hausse — $65.86 — 🟢 Active
 - Volume — >2× moy. 20j (>104.9M) — 🟢 Active
 - IREN — Vérification — $61.20
-- IREN — **⚠️ Volume DÉCLENCHÉ** — $55.15 (close) — 🟡 Résolu (cours $59.19 > seuil)
-- IREN — **⚠️ Baisse INTRADAY** — $52.36 (low) — 🟡 Résolu (cours $59.19 > seuil)
+- IREN — **⚠️ Volume DÉCLENCHÉ** — $55.15 (close)
+- IREN — **⚠️ Baisse INTRADAY** — $52.36 (low)
 
 ---
 
@@ -41,27 +41,27 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 58.78
-- **MM 50j :** 50.32
+- **RSI 14j :** 55.4
+- **MM 50j :** 50.69
 - **MM 200j :** —
-- **ATR 14j :** 5.68
-- **Volume moy. 20j :** 55064190
+- **ATR 14j :** 5.9
+- **Volume moy. 20j :** 50637639
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** _update.md
-- **Fichier :** `IREN_2026-06-09_update.md` (snapshot 13:00 UTC)
-- **Conclusion :** Thèse CONFIRMÉE — ACHETER (Sizing Réduit) maintenu. Cours stable $59.19. Détente structure options significative (put/call 3.95 → 2.22, call OI 20.2% → 31.0%). EV/EBITDA Yahoo révisé +8.2% (155.63×). Scores inchangés 5.7/10 — Global 61.8/100.
+- **Type :** full refresh
+- **Fichier :** `IREN_2026-06-09_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-09
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +8.91% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 9.60% (seuil 5.0%)
+- **PRICE_GAP** (high) — Gap -11.65% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 11.59% (seuil 5.0%)
 
 ---
 

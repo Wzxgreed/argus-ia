@@ -2064,3 +2064,25 @@ Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 
 Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
+
+## 2026-06-09 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -7.09% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 8.26% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-09 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -7.98% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 8.57% (seuil 5.0%)
+
+**Conclusion :** MODIFIÉ — Triggers confirmés comme réels (non faux positifs)
+
+Le gap baissier de -7.98% est accompagné d'un volume supérieur à la moyenne 20j (1.13×), confirmant une participation vendeuse réelle et non un gap technique sur volume anémique. Le cours casse la consolidation des deux derniers jours ($14.59) et le RSI retourne sous les 50 (48.82). Le Score Global ajusté recule de 51.2 (ATTENDRE) à 48.0 (SURVEILLER). Aucun catalyseur fondamental n'est identifié (0 news, 0 événement corporate). La baisse s'inscrit dans la correction post-surchauffe des semaines précédentes (cours avait doublé depuis début mai sans fondamental). Le Filtre Qualité reste hors périmètre (2.5/6). Le niveau critique à surveiller est la MM50 à $12.40. Les niveaux SL/TP sont révisés à $11.12 / $16.88.
+
+---

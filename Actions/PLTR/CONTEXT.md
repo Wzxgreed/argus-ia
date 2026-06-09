@@ -1,62 +1,63 @@
-# CONTEXT — PLTR — Derniere mise a jour : 2026-06-09
+# CONTEXT — PLTR — Dernière mise à jour : 2026-06-09
 
-> Ce fichier est la **memoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
-> Mise a jour automatique par `agents/update_context/agent.py` a chaque passage du pipeline.
-
----
-
-## 🎯 These active
-
-- **Recommandation :** SURVEILLER
-- **Score global :** 46.3/100
-- **Prix cible :** $157.89 (TP ATR-based)
-- **Stop-loss :** $122.19
-- **Statut these :** CONFIRMEE
-- **Horizon :** 1-3 mois
+> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
+> Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
 
 ---
 
-## 📉 Erreurs de prediction recentes
+## 🎯 Thèse active
 
-- Aucune erreur enregistree.
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
+
+---
+
+## 📉 Erreurs de prédiction récentes
+
+- Aucune erreur enregistrée.
 
 ---
 
 ## 🚨 Alertes actives
 
-- 🔴 **Cassure MM50** — Cours $136.47 sous MM50 $140.68 (snapshot 09/06 13:00 UTC) — invalidation retournement haussier persistante
+- Aucune alerte active.
 
 ---
 
-## 📅 Prochains evenements
+## 📅 Prochains événements
 
-- **Earnings Q2 FY2026** : 2026-08-03 (55 jours) — Est. EPS $0.32-$0.40, Rev $1.8B
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 51.08
-- **MM 50j :** 140.68
+- **RSI 14j :** 46.2
+- **MM 50j :** 140.42
 - **MM 200j :** —
-- **ATR 14j :** 7.14
-- **Volume moy. 20j :** 40406310
+- **ATR 14j :** 7.39
+- **Volume moy. 20j :** 39055800
 
 ---
 
-## 📝 Resume derniere analyse
+## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
 - **Type :** update
-- **Fichier :** `PLTR_2026-06-09_13-00_update.md`
-- **Conclusion :** Snapshot 13:00 UTC pre-marche : stabilite totale vs 10:00 UTC, anomalie options JSON resolue (Max Pain $150.00, Put/Call 0.51, Call OI 66.2%), biais haussier options legerement renforce (+1.3 pp). These SURVEILLER confirmee (Score Global 46.3/100). Attendre retour > MM50 $140.68 + volume > 40M.
+- **Fichier :** `PLTR_2026-06-09_update.md`
+- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-09T10:00:02Z, fetched_at 2026-06-09T10:00:12Z) + agents quant, geo, accounting, sector, social, FX, watchman, events
 
 ---
 
-## 🔄 Triggers detectes (full refresh)
+## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger actif.
+- **PRICE_GAP** (medium) — Gap -5.72% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 5.87% (seuil 5.0%)
 
 ---
 
-*Genere automatiquement — ne pas editer manuellement.*
+*Généré automatiquement — ne pas éditer manuellement.*

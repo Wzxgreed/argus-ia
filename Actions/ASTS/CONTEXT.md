@@ -36,20 +36,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 52.33
-- **MM 50j :** 88.5
+- **RSI 14j :** 50.08
+- **MM 50j :** 88.69
 - **MM 200j :** —
-- **ATR 14j :** 13.06
-- **Volume moy. 20j :** 27055370
+- **ATR 14j :** 13.12
+- **Volume moy. 20j :** 25740227
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-09 (snapshot 13h UTC)
+- **Date :** 2026-06-09
 - **Type :** update
 - **Fichier :** `ASTS_2026-06-09_13-00_update.md`
-- **Conclusion :** **Thèse confirmée : ATTENDRE — stabilité totale à $92,06 sur volume stable 0,50×, RSI neutre 52,33, divergence consensus inversée maintenue (+2,69% upside), anomalie options JSON RÉSOLUE (max pain $120, put/call 0,74, call OI 57,4%), score global ajusté 51,0/100
+- **Conclusion :** **Thèse confirmée : ATTENDRE — stabilité totale à $92,06 sur volume stable 0,50×, RSI neutre 52,33, divergence consensus inversée maintenue (+2,69% upside), score global ajusté 51,0/100
 
 ---
 

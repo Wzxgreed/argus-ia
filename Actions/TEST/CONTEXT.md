@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER (Réduit)
-- **Score global :** 66.5/100
-- **Prix cible :** $48.38
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
 - **Stop-loss :** $43.33
-- **Statut thèse :** Confirmée
-- **Horizon :** 1–3 mois
+- **Statut thèse :** invalide
+- **Horizon :** —
 
 ---
 
@@ -36,20 +36,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 54.61
-- **MM 50j :** 43.61
+- **RSI 14j :** 57.17
+- **MM 50j :** 43.7
 - **MM 200j :** —
-- **ATR 14j :** 1.01
-- **Volume moy. 20j :** 2540
+- **ATR 14j :** 1.0
+- **Volume moy. 20j :** 2499
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** update
-- **Fichier :** `TEST_2026-06-09_update_13h.md`
-- **Conclusion :** Thèse CONFIRMÉE : ACHETER (Réduit) — stabilité technique confirmée avec grille intraday enrichie (open $44.03, high $45.35, +3.00% session), volume faible persistant, earnings JOUR J non résolu.
+- **Type :** preview
+- **Fichier :** `TEST_2026-06-09_preview.md`
+- **Conclusion :** > **Date :** 2026-06-09
 
 ---
 

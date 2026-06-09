@@ -1,4 +1,4 @@
-# CONTEXT — FLY — Dernière mise à jour : 2026-06-09 13h UTC
+# CONTEXT — FLY — Dernière mise à jour : 2026-06-09
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Score global :** 43.8/100
-- **Prix cible :** $43.25 (consensus 12 analysts)
-- **Stop-loss :** $24.60
-- **Statut thèse :** défavorable confirmée
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
 - **Horizon :** —
 
 ---
@@ -24,37 +24,39 @@
 
 ## 🚨 Alertes actives
 
-- **PIN RISK OPTIONS J-3** — Expiration 2026-06-12, max pain $40.00 vs spot $36.18 (−9.6%). Puts $40.00 in-the-money. Surveillance du comportement autour de $40.00. Anomalie data du snapshot 10h **RÉSOLUE** à 13h (max pain confirmé $40.00, put/call 1.00, call OI 50.0%).
-- **SHORT INTEREST ÉLEVÉ** — 9.78% stable. Pression vendeuse persistante, pas de setup squeeze.
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- Earnings Q2 2026 : **2026-08-04** (56 jours) — Est EPS −$0.61 à −$0.45, Rev $0.1B
-- Expiration options : **2026-06-12** (J-3) — max pain $40.00
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 41.52
-- **MM 50j :** 38.81
+- **RSI 14j :** 40.06
+- **MM 50j :** 39.0
 - **MM 200j :** —
-- **ATR 14j :** 5.79
-- **Volume moy. 20j :** 9264395
-- **Volume session :** 4211600 (0.45×)
-- **Support immédiat :** $35.68 / $35.55 / $35.00
-- **Résistance immédiate :** $38.81 (MM50) / $40.00 (max pain) / $38.20 (high)
+- **ATR 14j :** 5.8
+- **Volume moy. 20j :** 9017077
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** update
+- **Type :** init
 - **Fichier :** `FLY_2026-06-09_update_13h.md`
-- **Conclusion :** Stabilité confirmée vs 10h UTC. Anomalie options résolue (max pain $40.00, put/call 1.00, call OI 50.0%). Scores, fondamentaux et technique inchangés. Thèse SURVEILLER (43.8) défavorable confirmée. Aucun catalyst identifié.
+- **Conclusion :** > **Type :** `_update.md` — Snapshot 13h UTC, stabilité confirmée vs 10h UTC, anomalie options RÉSOLUE, thèse SURVEILLER (43.8) inchangée
+
+---
+
+## 🔄 Triggers détectés (full refresh)
+
+- **PRICE_GAP** (medium) — Gap -9.56% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 17.97% (seuil 5.0%)
 
 ---
 

@@ -57,9 +57,9 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** update
-- **Fichier :** `AXA_2026-06-09_update.md`
-- **Conclusion :** Thèse ATTENDRE confirmée — stabilité totale vs snapshot 10h, données toujours manquantes, contexte sectoriel XLF inchangé.
+- **Type :** preview
+- **Fichier :** `AXA_2026-06-09_preview.md`
+- **Conclusion :** > **Date :** 2026-06-09
 
 ---
 

@@ -15,7 +15,7 @@
 **Statut :** Thèse non établie — profil spéculatif biotech pré-profit, Filtre Qualité 2/6
 **Horizon :** 6–12 mois (dépendant des catalyseurs cliniques)
 
-**Résumé :** CTMX est une biotech en phase clinique avancée (plateforme Probody) avec des partenariats de qualité (AbbVie, BMS, Amgen). Le snapshot 17h UTC du 2026-06-08 enregistre une **dégradation technique modérée** vs snapshot 13h UTC : cours **$2.94** (−2.0%), volume **effondré à 0.55×** la moyenne 20j (signal d'absence de conviction), **support $2.98 cassé** (low $2.90). Le RSI remonte marginalement à **30.56** (+1.03 pt) mais reste en survente sans rebond. L'écart sous MM50 s'élargit à **−27.6%** ($4.06). Le **Score Global Ajusté recule de 52.5 à 47.5/100** (−5.0 pts), ce qui fait basculer la recommandation de **ATTENDRE à SURVEILLER**. Le timing reste **Défavorable**. Le short interest stable à **16.23%** confirme que les shorts maintiennent leurs positions. Aucune position recommandée en l'absence de catalyseur clinique confirmé et de reconstruction du support.
+**Résumé :** CTMX est une biotech en phase clinique avancée (plateforme Probody) avec des partenariats de qualité (AbbVie, BMS, Amgen). Le snapshot 13h UTC du 2026-06-09 enregistre une **stabilité totale** vs snapshot 10h UTC : cours **$2.94** inchangé, RSI **30.56** inchangé (survente maintenue), volume **1.06×** stable (retour au-dessus moyenne 20j). L'**anomalie options JSON détectée au snapshot 10h UTC est RÉSOLUE** : max pain confirmé à **$4.00**, put/call **0.96**, call OI **51.0%**. Le support **$2.90 est testé** (low $2.89) sans être cassé. L'écart sous MM50 reste à **−27.6%** ($4.06). Le **Score Global Ajusté reste à 47.5/100** et la recommandation **SURVEILLER** est maintenue. Le timing reste **Défavorable**. Le short interest stable à **16.23%** confirme que les shorts maintiennent leurs positions. Aucune position recommandée en l'absence de catalyseur clinique confirmé et de reconstruction du support.
 
 ---
 
@@ -48,11 +48,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 30.56
-- **MM 50j :** 4.06
+- **RSI 14j :** 21.9
+- **MM 50j :** 4.03
 - **MM 200j :** —
-- **ATR 14j :** 0.19
-- **Volume moy. 20j :** 3421305
+- **ATR 14j :** 0.18
+- **Volume moy. 20j :** 3307004
 
 ---
 
@@ -61,7 +61,7 @@
 - **Date :** 2026-06-09
 - **Type :** update
 - **Fichier :** `CTMX_2026-06-09_update.md`
-- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — SURVEILLER (INCHANGÉE)** — Stabilité totale vs snapshot 10h UTC (cours $2.94 inchangé, RSI 30.56 inchangé, volume 1.06× inchangé). Anomalie options JSON RÉSOLUE (max pain $4.00, put/call 0.96, call OI 51.0% confirmés). Support $2.90 testé (low $2.89) sans cassure. Score Global Ajusté 47.5/100 inchangé.
+- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — SURVEILLER (INCHANGÉE)**
 
 ---
 

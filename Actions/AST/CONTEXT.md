@@ -30,8 +30,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-09** · earnings · Earnings placeholder glissant J=0 (17+ jours)
-- **2026-08-10** · earnings · ASTS earnings (proxy) — 62j
+- **2026-06-09** · earnings · Earnings ...
 
 ---
 
@@ -48,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** update (snapshot 13h UTC)
-- **Fichier :** `AST_2026-06-09_update.md`
-- **Conclusion :** > **Date :** 2026-06-09 — Snapshot 13h UTC. AST >35 snapshots consécutifs sans données (anomalie structurelle persistante, doublon probable ASTS). ASTS proxy stable à $92.06, stabilité totale vs snapshot 10h. RSI 52.33 (neutre favorable), MM50j $88.50 (support +4.0%), volume 13.62M (0.50×). **Anomalie options JSON RÉSOLUE** (max pain $120.0, put/call 0.74, call OI 57.4%). Échéance options 06-12 dans 3j. Agent maintient ASTS 51.0/100 (ATTENDRE, timing Favorable). Earnings placeholder glissant J=0 à 17+ jours. Recommandation : résoudre anomalie AST (supprimer/exclure), rediriger vers ASTS.
+- **Type :** preview
+- **Fichier :** `AST_2026-06-09_preview.md`
+- **Conclusion :** > **Date :** 2026-06-09
 
 ---
 

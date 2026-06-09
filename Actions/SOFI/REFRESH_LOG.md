@@ -945,3 +945,21 @@
 **Conclusion :** ARCHIVÉ — Même DRAFT_refresh résiduel que ci-dessus. Faux positif ATR_SPIKE. Aucune modification de thèse.
 
 ---
+
+## 2026-06-09 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.37% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-09 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.45% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

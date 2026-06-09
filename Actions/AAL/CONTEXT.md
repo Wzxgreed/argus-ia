@@ -45,7 +45,7 @@ Le Forward P/E est a **6.10** (asymetrie intacte). Le RSI est en detente a **62.
 
 ## 🚨 Alertes actives
 
-- Baisse — $12.34 (SL 2×ATR) — 🟢 Active
+- Baisse — $11.41 (SL 2×ATR) — 🟢 Active
 - Hausse — $14.00 (prix cible) — 🔴 Déclenchée (27/05)
 - Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
@@ -59,11 +59,11 @@ Le Forward P/E est a **6.10** (asymetrie intacte). Le RSI est en detente a **62.
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 62.2
-- **MM 50j :** 12.4
+- **RSI 14j :** 67.98
+- **MM 50j :** 12.47
 - **MM 200j :** —
-- **ATR 14j :** 0.63
-- **Volume moy. 20j :** 72642960
+- **ATR 14j :** 0.66
+- **Volume moy. 20j :** 72852946
 
 ---
 
@@ -73,7 +73,6 @@ Le Forward P/E est a **6.10** (asymetrie intacte). Le RSI est en detente a **62.
 - **Type :** update
 - **Fichier :** `AAL_2026-06-09_update.md`
 - **Conclusion :** **Date :** 2026-06-09 (snapshot 13h UTC)
-- **Résumé :** Anomalie options résolue (Max Pain $13.00, Put/Call 1.57, Call OI 38.9%). Amélioration structurelle vs 08/06 (Put/Call −18.2%, Call OI +4.7 pts). Risque gamma J-3 atténué. Thèse ACHETER (Sizing Réduit) confirmée et renforcée. Score ajusté ~6.2/10, Global ~68.0/100. Cours stable $13.60, RSI 62.2, volume 109.04M (+50.1%).
 
 ---
 
