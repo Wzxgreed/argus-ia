@@ -41,17 +41,18 @@ Thèse d'investissement : FUBO est un titre spéculatif du secteur Communication
 | 2026-06-08 | [FUBO_2026-06-08_update.md](FUBO_2026-06-08_update.md) | Mise à jour snapshot **21:00 UTC** — **repli en fin de séance −1.77%** vs 17h (clôture officielle $9.70, +1.68% séance), volume récupère partiellement à 0.7× (898k), RSI 52.43 (−1.23 pts), spot sous MM50 creusé à −11.5%, **agent ACHETER Réduit maintenu** (61.2/100 ajusté, −0.6 pt), structure options inchangée (max pain $13.00), anomalie earnings Q1 jour J persistante, analyste **ATTENDRE CONFIRMÉ** (~58.5/100) |
 | 2026-06-09 | [FUBO_2026-06-09_update.md](FUBO_2026-06-09_update.md) | Mise à jour snapshot **10:00 UTC** — **stabilité totale** vs close 08/06 (cours $9.70 inchangé, RSI 52.43 stable, volume 904k / 0.75×, ATR $0.74 +$0.01), anomalie options JSON récurrente ($3.00 aberrant → valeurs opérationnelles $13.00 conservées), agent ACHETER Réduit maintenu (61.2/100), analyste **ATTENDRE CONFIRMÉ** (~58.5/100), earnings Q1 jour J persistant après 22 sessions |
 | 2026-06-09 | [FUBO_2026-06-09_update.md](FUBO_2026-06-09_update.md) | Mise à jour snapshot **13:00 UTC** — **stabilité totale** vs 10h UTC (cours $9.70 inchangé, RSI 52.43, volume 904k / 0.75×), **anomalie options JSON RÉSOLUE** (max pain $13.00 cohérent vs $3.00 aberrant, put/call 0.23 vs 0.25, call OI 81.0% vs 79.7% — structure haussière légèrement renforcée), agent ACHETER Réduit maintenu (61.2/100), analyste **ATTENDRE CONFIRMÉ** (~58.5/100), earnings Q1 jour J persistant après 23 sessions |
+| 2026-06-09 | [FUBO_2026-06-09_update.md](FUBO_2026-06-09_update.md) | Mise à jour **close officielle 21:00 UTC** — micro-progression +0.31% à $9.73, volume retraité 0.65× (760k vs 904k à 13h), RSI 54.12 (+1.69 pt), agent légèrement downgradé 60.5/100 (−0.7 pt, Momentum 5.0/10 −0.3 pt), structure options haussière inchangée (max pain $13.00 / put/call 0.23 / call OI 81.0%), anomalie earnings Q1 persistante (24 sessions), thèse **ATTENDRE CONFIRMÉE** (~58.5/100) |
 
 ## Agenda
-- **Earnings Q1 2026 :** anomalie calendrier persistante — `upcoming_events_latest.json` (2026-06-09) place l'earnings au **2026-06-09** (jour J, `days_until: 0`). Aucun résultat (EPS, revenue, guidance) n'est visible dans `data/latest.json` au snapshot 13h UTC. [ANOMALIE PERSISTANTE — 23 SESSIONS]
+- **Earnings Q1 2026 :** anomalie calendrier persistante — `upcoming_events_latest.json` (2026-06-09) place l'earnings au **2026-06-09** (jour J, `days_until: 0`). Aucun résultat (EPS, revenue, guidance) n'est visible dans `data/latest.json` au snapshot 21h UTC. [ANOMALIE PERSISTANTE — 24 SESSIONS]
 - Échéance options : 2026-06-12 (J+3 — max pain $13.00, put/call 0.23, call OI 81.0%)
 - Prochaine échéance earnings Q2 : ~août 2026
 
 ## Alertes actives
-- **Structure Options Haussière Re-quantifiable** — Max pain $13.00, put/call 0.25, call OI 79.7%, spot à −25.4% sous max pain → aimant haussier mécanique vers $13.00 à échéance J+3 (2026-06-12) — 2026-06-08 (snapshot 13h)
-- **Short Squeeze Setup (latent)** — short interest 25.03% + call OI dominant 79.7% + put/call 0.25 = risque de squeeze technique si catalyseur positif — 2026-06-08
-- **Earnings Q1 2026 en attente** — anomalie calendrier : `upcoming_events_latest.json` place l'earnings au **2026-06-09** (jour J, `days_until: 0`), mais aucun résultat visible — [ANOMALIE PERSISTANTE — 22 SESSIONS]
-- **Divergence Yahoo/FMP Market Cap** — ×11.6 d'écart entre sources ($280.8M vs ~$3.27B)
+- **Structure Options Haussière Re-quantifiable** — Max pain $13.00, put/call 0.23, call OI 81.0%, spot à −25.4% sous max pain → aimant haussier mécanique vers $13.00 à échéance J+3 (2026-06-12) — 2026-06-09 (close officielle 21h)
+- **Short Squeeze Setup (latent)** — short interest 25.03% + call OI dominant 81.0% + put/call 0.23 = risque de squeeze technique si catalyseur positif — 2026-06-09
+- **Earnings Q1 2026 en attente** — anomalie calendrier : `upcoming_events_latest.json` place l'earnings au **2026-06-09** (jour J, `days_until: 0`), mais aucun résultat visible — [ANOMALIE PERSISTANTE — 24 SESSIONS]
+- **Divergence Yahoo/FMP Market Cap** — ×11.4 d'écart entre sources ($286.4M vs ~$3.27B)
 - **Sector Rotation XLC Bottom 3** — malus sectoriel actif (snapshot 2026-06-09 : momentum score 0.0 / 10)
 - **Qualité dégradée** — Score Qualité 1/6, patrimoine net négatif, FCF négatif
 - **ATR_SPIKE** (medium) — ATR relatif persistant depuis 2026-05-17
