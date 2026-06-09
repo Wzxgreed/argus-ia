@@ -53,16 +53,16 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** init
-- **Fichier :** `FLY_2026-06-09_update_13h.md`
-- **Conclusion :** > **Type :** `_update.md` — Snapshot 13h UTC, stabilité confirmée vs 10h UTC, anomalie options RÉSOLUE, thèse SURVEILLER (43.8) inchangée
+- **Type :** update
+- **Fichier :** `FLY_2026-06-09_update.md`
+- **Conclusion :** Close officiel 21h UTC — rebond partiel +2.22% en fin de séance à $33.445 (vs low $31.91), volume session 6.31M (0.69×), RSI 40.32, cassure MM50 −14.3%. Scores inchangés. Agent SURVEILLER (45.0). Thèse défavorable confirmée, rebond mécanique sans catalyst.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap -7.56% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 17.58% (seuil 5.0%)
+- **PRICE_GAP** (medium) — Gap −7.56% vs prior close (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif élevé $5.88 (seuil 5.0%)
 
 ---
 
