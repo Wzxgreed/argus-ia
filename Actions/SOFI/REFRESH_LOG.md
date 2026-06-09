@@ -906,7 +906,12 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.88% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — DRAFT_refresh faux positif traité par l'update du 2026-06-09 (snapshot 10:00 UTC).
+- Le trigger ATR_SPIKE 5.88% est un **faux positif** : l'ATR est resté stable à **$0.97** entre le close 08/06 et le snapshot 09/06. Aucune expansion de volatilité n'est survenue.
+- Le snapshot `data/latest.json` (timestamp 2026-06-09T10:00:09+00:00) confirme la **stabilité totale** des données vs le close 08/06 : cours $16.50, RSI 54.98, ATR $0.97, MM50 $16.76, volume 79.06M (1.10×) — ajustement mécanique mineur vs 77.12M (1.08×).
+- Les données options dans `data/latest.json` sont partielles (Max Pain aberrant $5.00, Put/Call et Call OI null) — valeurs du 08/06 conservées : Max Pain $17.00, Put/Call 0.57, Call OI 63.7%.
+- Thèse **ATTENDRE** confirmée sans changement : Score Opportunité 6.1/10, Score Global ajusté 53.1/100. SL $14.56, TP $19.41, R/R 1.50.
+- **Action :** DRAFT_refresh archivé (`SOFI_2026-06-09_DRAFT_refresh_ARCHIVED.md`). Pas de réécriture de `_init.md` requise — la structure fondamentale du 2026-05-17 reste valide, et la mise à jour `SOFI_2026-06-09_update.md` capture la stabilité.
 
 ---
 
@@ -915,6 +920,6 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.88% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Même DRAFT_refresh résiduel que ci-dessus. Faux positif ATR_SPIKE. Aucune modification de thèse.
 
 ---
