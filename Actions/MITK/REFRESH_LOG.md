@@ -1,5 +1,21 @@
 # MITK — Historique des Full Refreshes
 
+## 2026-06-09 — Full Refresh FAUX POSITIF (Snapshot 10:00 UTC)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.91% (seuil 5.0%)
+
+**Conclusion :** FAUX POSITIF — aucune mutation réelle des données. Le snapshot 10:00 UTC 09/06 est strictement identique au close officiel 21:00 UTC 08/06 : close $15.40 inchangé, RSI 58.01 inchangé, ATR $0.91 inchangé, MM50 $14.82 inchangé, volume 1,020,200 (0.82× moyenne 20j, vs 1,012,441 au close 21h). Le trigger ATR_SPIKE est un artefact algorithmique généré sur un snapshot pré-ouverture sans nouvelle session de négociation. **Thèse précédente (ACHETER Sizing Réduit, Score Global 65.2/100) confirmée et inchangée.** Anomalie options JSON récurrente documentée (3e occurrence : max pain $2.50 aberrant, put/call null, call OI null — valeurs opérationnelles $20.00 / 0.23 / 81.5% conservées).
+
+**Fichiers produits :**
+- `Actions/MITK/MITK_2026-06-09_update.md` — Mise à jour snapshot 10:00 UTC
+- `Actions/MITK/INDEX.md` — Thèse courante confirmée
+- `Actions/MITK/CONTEXT.md` — Mémoire court terme mise à jour
+
+**DRAFT archivé :** `MITK_2026-06-09_DRAFT_refresh.md` → `_DRAFT_refresh.md` (archive)
+
+---
+
 ## 2026-06-08 — Full Refresh Traité (Snapshot 10:00 UTC)
 
 **Triggers :**

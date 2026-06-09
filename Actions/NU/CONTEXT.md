@@ -12,7 +12,7 @@
 - **Score Opportunité :** 6.2/10 (C:6.5 V:8.0 M:3.0)
 - **Prix Cible :** $17.49 (consensus FMP, 12 analysts)
 - **Stop-Loss :** $10.52 (2×ATR)
-- **Statut Thèse :** Score ajusté 54.2 — close officiel 21:00 UTC 08/06 : cours $11.60 (−3.09% vs previous close), **volume révisé à la hausse massive 57.35M (0.80×)** révèle distribution vendeuse réelle, momentum dégradé 3.5 → 3.0/10, RSI quasi-stable 41.77, support critique $11.20 à +3.4%, fondamentaux intacts (forward P/E 10.13×, upside +50.8%)
+- **Statut Thèse :** Score ajusté 54.2 — snapshot 10:00 UTC 09/06 : cours $11.60 (stable vs close 08/06), **stabilité totale** des données (RSI 41.77, volume 58.29M/0.82× confirme distribution vendeuse réelle), momentum 3.0/10, support critique $11.20 à +3.4%, fondamentaux intacts (forward P/E 10.13×, upside +50.8%), **anomalie options JSON récurrente documentée** (max pain $20.00 aberrant → valeur opérationnelle $12.00 conservée)
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
@@ -54,10 +54,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-08
+- **Date :** 2026-06-09
 - **Type :** update
-- **Fichier :** `NU_2026-06-08_21-00_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (distribution vendeuse réelle révélée par volume révisé 0
+- **Fichier :** `NU_2026-06-09_update.md`
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité totale vs close 08/06, distribution vendeuse réelle confirmée par volume 0.82×, momentum 3.0/10, fondamentaux intacts, anomalie options JSON récurrente documentée)**
 
 ---
 
