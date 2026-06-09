@@ -30,7 +30,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-09** · earnings · Earnings ...
+- **2026-06-08** · earnings · Earnings (placeholder glissant J=0 non résolu depuis 25/05, 18+ jours)
 
 ---
 
@@ -47,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** preview
-- **Fichier :** `AST_2026-06-09_preview.md`
-- **Conclusion :** > **Date :** 2026-06-09
+- **Type :** close officiel 21h UTC
+- **Fichier :** `AST_2026-06-09_update.md`
+- **Conclusion :** AST données manquantes persistantes (>36 snapshots). ASTS proxy distribué à $88.71 (−3.64%), retour exact sur MM50j $88.70 (+0.01%), volume explosion 26.69M (1.01×, +96% vs 13h), RSI 50.27. Downgrade 51.0 → 45.0/100 (SURVEILLER, timing Défavorable). Supports $85.50 / $80–85, résistances $92.06 / $97.13–97.23.
 
 ---
 

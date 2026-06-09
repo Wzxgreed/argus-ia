@@ -1,46 +1,41 @@
 # AST — Mise à jour Quotidienne
 
 > **Date :** 2026-06-09
-> **Type :** Snapshot 13h UTC
-> **Source :** data/latest.json (fetched_at 2026-06-09T13:00:01 UTC), data/recommandations_latest.json, data/sector_rotation_latest.json, data/social_sentiment_latest.json, data/fx_exposure_latest.json, data/upcoming_events_latest.json, data/events_latest.json, data/validation_report.txt
+> **Type :** Close officiel 21h UTC
+> **Source :** data/2026-06-09.json (fetched_at 2026-06-09T21:00:02 UTC), data/validation_report.txt, data/sector_rotation_latest.json
 
 ---
 
 ## 1. Résumé des changements depuis l'analyse précédente
 
-**Analyse précédente :** `AST_2026-06-09_update.md` (snapshot matinal 10:00 UTC)
+**Analyse précédente :** `AST_2026-06-09_update.md` (snapshot 13h UTC)
 
-| Élément | 10:00 UTC | 13:00 UTC | Changement |
-|---------|-----------|-----------|------------|
-| Erreur Yahoo AST | `No price history` | `No price history` | **Confirmé stable — >35 snapshots consécutifs** |
-| Cours ASTS (proxy) | **$92.06** | **$92.06** | **Stable** |
-| Open ASTS | $97.13 | **$97.13** | Stable |
-| High intraday ASTS | $97.00 | **$97.13** | **+0.13%** (révision mineure à la hausse) |
-| Low intraday ASTS | $90.81 | **$90.81** | Stable |
-| Volume ASTS | 13.62M | **13.6158M** | **Stable** (−0.03% — révision mécanique négligeable) |
-| RSI ASTS | 52.33 | **52.33** | Stable |
-| ATR ASTS | 13.06 | **13.06** | Stable |
-| MM 50j ASTS | $88.50 | **$88.50** | Stable |
-| Distance MM50j ASTS | +4.0% | **+4.0%** | Stable |
+| Élément | 13:00 UTC | Close 21h UTC | Changement |
+|---------|-----------|---------------|------------|
+| Erreur Yahoo AST | `No price history` | `No price history` | **Confirmé stable — >36 snapshots consécutifs** |
+| Cours ASTS (proxy) | **$92.06** | **$88.71** | **−3.64%** 🔴 |
+| Open ASTS | $97.13 | **$97.225** | **+0.10%** (gap haussier vs close veille) |
+| High intraday ASTS | $97.13 | **$100.94** | **+3.92%** — spike matinal à +9.5% vs open |
+| Low intraday ASTS | $90.81 | **$85.50** | **−5.85%** — cassure support $90.80 |
+| Volume ASTS | 13.62M | **26.69M** | **+96.0%** — explosion, ~1.01× moy. 20j |
+| Volume relatif ASTS | 0.50× | **1.01×** | **Doublement du volume relatif** |
+| RSI ASTS | 52.33 | **50.27** | **−2.06 pts** (zone neutre) |
+| ATR ASTS | 13.06 | **13.29** | **+1.76%** (expansion volatilité) |
+| MM 50j ASTS | $88.50 | **$88.70** | **+0.23%** |
+| Distance MM50j ASTS | +4.0% | **+0.01%** | **Retour exact sur MM50j** 🔴 |
 | Short interest ASTS | 17.60% | **17.60%** | Stable |
 | Consensus PT ASTS | $94.54 (12 analysts) | **$94.54 (12 analysts)** | Stable |
-| Premium vs consensus ASTS | -2.6% | **-2.6%** | Stable |
-| Score ASTS (agent) | 51.0/100 (ATTENDRE) | **51.0/100 (ATTENDRE)** | Inchangé |
-| Score AST (agent) | 55.2/100 (ATTENDRE) | **55.2/100 (ATTENDRE)** | Placeholder stable |
-| Options ASTS — max pain | $45.0 (aberrant) | **$120.0** | **🟢 ANOMALIE JSON RÉSOLUE** |
-| Options ASTS — P/C | null | **0.74** | **🟢 ANOMALIE JSON RÉSOLUE** |
-| Options ASTS — call OI | null | **57.4%** | **🟢 ANOMALIE JSON RÉSOLUE** |
+| Premium vs consensus ASTS | −2.6% | **−6.2%** | **Dégradation −3.6 pts** 🔴 |
+| Options ASTS — max pain | $120.0 | **$120.0** | Stable |
+| Options ASTS — P/C | 0.74 | **0.74** | Stable |
+| Options ASTS — call OI | 57.4% | **57.4%** | Stable |
 | Échéance options ASTS | 2026-06-12 | **2026-06-12** | Dans **3 jours** |
-| Earnings FMP AST | 2026-06-08 (days_until: 0) | **2026-06-08 (days_until: 0)** | Placeholder glissant J=0 persistant — **17+ jours**, résultats non intégrés |
-| Earnings ASTS (yfinance) | 2026-08-10 (63j) | **2026-08-10 (62j)** | **−1j** (décompte normal) |
 | News AST / ASTS | 0 | 0 | Stable |
 | Events corporates AST/ASTS | 0 | 0 | Stable |
 | Signal sectoriel | NEUTRAL | **NEUTRAL** | Stable (XLK top1, momentum 10.0) |
-| Social sentiment AST/ASTS | 0 mention | 0 mention | Stable |
-| FX exposure AST/ASTS | 25% placeholder, neutral | 25% placeholder, neutral | Stable |
 | Validation report | 5 errors (>2) | **5 errors (>2)** | [DONNÉES PARTIELLES] — AST en erreur connue |
 
-**Constat :** Le snapshot 13h UTC confirme la **stabilité totale** des données ASTS par rapport au snapshot matinal 10h UTC. Le cours reste à **$92.06**, le RSI à **52.33**, le volume à **13.62M (0.50×)** et la MM50j à **$88.50** (+4.0%). L'anomalie structurelle sur AST persiste (**>35 snapshots consécutifs** sans données). **L'anomalie options JSON détectée à 10h est résolue** : le max pain redevient **$120.0** (vs $45.0 aberrant), le put/call ratio **0.74** (vs null) et le call OI **57.4%** (vs null). L'échéance options **2026-06-12** est dans **3 jours**. L'agent maintient ASTS à **51.0/100 (ATTENDRE)** — le score Opportunité (5.1/10) reste sous le seuil d'achat.
+**Constat :** Le close 21h UTC révèle une **distribution technique majeure** sur ASTS. Après un spike matinal à **$100.94** (+9.5% vs open), le titre a subi un violent reflux pour clôturer à **$88.71** (−3.64% vs veille), effaçant la quasi-totalité du rebond du 08/06. Le retour exact sur la **MM50j ($88.70, distance +0.01%)** avec un **volume doublé (26.69M, 1.01× moy. 20j)** est le signal technique dominant du jour. L'anomalie structurelle sur AST persiste (**>36 snapshots consécutifs** sans données). Le premium vs consensus analystes s'est dégradé de −2.6% à **−6.2%**. L'échéance options **2026-06-12** reste dans **3 jours** avec max pain **$120.0** (+35.3% du close).
 
 ---
 
@@ -48,8 +43,8 @@
 
 ### AST (données officielles)
 
-| Indicateur | Valeur 13:00 UTC (09/06) | Valeur précédente (10:00 UTC) | Δ |
-|-----------|--------------------------|-------------------------------|---|
+| Indicateur | Valeur Close 21h UTC (09/06) | Valeur précédente (13h UTC) | Δ |
+|-----------|------------------------------|-----------------------------|---|
 | Cours close | [DONNÉES MANQUANTES] | [DONNÉES MANQUANTES] | — |
 | Volume | [DONNÉES MANQUANTES] | [DONNÉES MANQUANTES] | — |
 | RSI 14j | Placeholder 50 (agent) | Placeholder 50 (agent) | — |
@@ -57,25 +52,27 @@
 | MM 50j | [DONNÉES MANQUANTES] | [DONNÉES MANQUANTES] | — |
 | MM 200j | [DONNÉES MANQUANTES] | [DONNÉES MANQUANTES] | — |
 
-**Verdict timing AST :** [NON ÉVALUABLE] — absence totale de données techniques sur **>35 snapshots consécutifs** (18/05 → 09/06). L'earnings FMP placeholder glissant au **2026-06-08** (`days_until: 0`, 17+ jours de glissement) n'a pas produit de résultats intégrés au pipeline.
+**Verdict timing AST :** [NON ÉVALUABLE] — absence totale de données techniques sur **>36 snapshots consécutifs** (18/05 → 09/06).
 
 ### ASTS (proxy, à titre de comparaison)
 
-| Indicateur | Valeur 13:00 UTC (09/06) | Valeur précédente (10:00 UTC) | Δ |
-|-----------|--------------------------|-------------------------------|---|
-| Cours close | **$92.06** | $92.06 | **Stable** |
-| Open | **$97.13** | $97.13 | Stable |
-| High intraday | **$97.13** | $97.00 | **+0.13%** (révision mineure) |
-| Low intraday | **$90.81** | $90.81 | Stable |
-| Volume séance | **13.6158M** | 13.62M | **Stable** (−0.03%) |
-| RSI 14j | **52.33** | 52.33 | Stable |
-| ATR 14j | **13.06** | 13.06 | Stable |
-| MM 50j | **$88.50** | $88.50 | Stable |
-| Distance MM50j | **+4.0%** | +4.0% | Stable |
+| Indicateur | Valeur Close 21h UTC (09/06) | Valeur précédente (13h UTC) | Δ |
+|-----------|------------------------------|-----------------------------|---|
+| Cours close | **$88.71** | $92.06 | **−3.64%** 🔴 |
+| Open | **$97.225** | $97.13 | **+0.10%** |
+| High intraday | **$100.94** | $97.13 | **+3.92%** |
+| Low intraday | **$85.50** | $90.81 | **−5.85%** 🔴 |
+| Volume séance | **26.689M** | 13.6158M | **+96.0%** 🔴 |
+| Volume relatif | **1.01×** | 0.50× | **Doublement** 🔴 |
+| RSI 14j | **50.27** | 52.33 | **−2.06 pts** |
+| ATR 14j | **13.29** | 13.06 | **+1.76%** |
+| MM 50j | **$88.70** | $88.50 | **+0.23%** |
+| Distance MM50j | **+0.01%** | +4.0% | **Retour sur MM50j** 🔴 |
 | 52W high | 133.86 | 133.86 | Stable |
-| Distance 52W high | **-31.2%** | -31.2% | Stable |
+| Distance 52W high | **−33.7%** | −31.2% | **−2.5 pts** 🔴 |
+| 52W low | 34.21 | 34.21 | Stable |
 
-**Verdict timing ASTS (proxy) :** 🟡 **CONSOLIDATION POST-CORRECTION — STABILITÉ TOTALE CONFIRMÉE, ANOMALIE OPTIONS RÉSOLUE** — Le snapshot 13h UTC confirme l'absence de mutation technique par rapport au snapshot 10h. Le cours reste à **$92.06**, avec le RSI consolidé à **52.33** (zone neutre favorable 50–60) et le support MM50j intact à **$88.50** (+4.0%). La zone de support immédiate reste **$90.80–91.00** (low intraday confirmé). La résistance immédiate est désormais **$97.13** (high intraday révisé légèrement à la hausse). L'échéance options **2026-06-12** est dans **3 jours** — le risque gamma reste actif. L'anomalie options JSON est **résolue** : max pain **$120.0**, put/call **0.74**, call OI **57.4%** — valeurs cohérentes avec le positionnement haussier précédent.
+**Verdict timing ASTS (proxy) :** 🔴 **DISTRIBUTION POST-SPIKE — RETOUR SUR MM50J AVEC VOLUME EXPLOSIF** — Le close 21h UTC confirme un **reversal de la consolidation** observée à 13h. Après un spike matinal à **$100.94** (+9.5% vs open, +3.92% vs high 13h), le titre a subi un reflux violent pour clôturer à **$88.71**, effaçant le rebond du 08/06. Le retour exact sur la **MM50j ($88.70, distance +0.01%)** est un signal technique critique : une cassure durable de cette moyenne ouvrirait la voie vers la zone **$85.50** (low intraday confirmé) puis **$80–85**. La résistance immédiate est désormais la zone **$92.06–97.13** (close précédent + high 13h UTC). Le RSI à **50.27** reste en zone neutre mais la tendance est baissière. L'ATR à **13.29** (+1.76%) confirme l'expansion de la volatilité. Le volume à **26.69M (1.01×)** est le plus élevé depuis le gap baissier du 01/06 (54.81M), signalant une prise de profit / distribution significative.
 
 ---
 
@@ -83,8 +80,8 @@
 
 ### AST (données officielles)
 
-| Métrique | Valeur 13:00 UTC (09/06) | Valeur précédente | Δ |
-|---------|--------------------------|-------------------|---|
+| Métrique | Valeur Close 21h UTC (09/06) | Valeur précédente | Δ |
+|---------|------------------------------|-------------------|---|
 | Market cap | [DONNÉES MANQUANTES] | [DONNÉES MANQUANTES] | — |
 | P/E LTM | — | — | — |
 | Forward P/E | — | — | — |
@@ -96,42 +93,42 @@
 
 ### ASTS (proxy)
 
-| Métrique | Valeur 13:00 UTC (09/06) | Valeur précédente (10:00 UTC) | Δ |
-|---------|--------------------------|-------------------------------|---|
-| Market cap | **$35.73B** | $35.73B | Stable |
-| Forward P/E | **-448.635** | -448.635 | Stable |
+| Métrique | Valeur Close 21h UTC (09/06) | Valeur précédente (13h UTC) | Δ |
+|---------|------------------------------|-------------------------------|---|
+| Market cap | **$34.43B** | $35.73B | **−3.64%** (mécanique) |
+| Forward P/E | **−432.31** | −448.635 | Stable (spéculatif) |
 | EV/Revenue | **330.204×** | 330.2× | Stable |
-| EV/EBITDA | **-88.642** | -88.642 | Stable |
+| EV/EBITDA | **−88.642** | −88.642 | Stable |
 | Beta | **2.634** | 2.634 | Stable |
 | Short interest | **17.60%** | 17.60% | Stable |
 | Consensus PT | **$94.54** (12 analysts) | $94.54 (12 analysts) | Stable |
-| Premium vs consensus | **-2.6%** | -2.6% | Stable |
-| Price to book | **13.21** | 13.21 | Stable |
+| Premium vs consensus | **−6.2%** | −2.6% | **Dégradation −3.6 pts** |
+| Price to book | **12.73** | 13.21 | **−3.6%** |
 | Sector | Technology | Technology | Stable |
 | Industry | Communication Equipment | Communication Equipment | Stable |
 
-La valorisation reste purement spéculative sur la technologie satellite direct-to-device (D2D). Aucune révision sell-side n'a été enregistrée. Le retour du cours sous le consensus analystes ($92.06 vs $94.54, premium **-2.6%**) est consolidé. Les multiples restent extrêmement élevés (EV/Revenue 330.2×, forward P/E -448.635), confirmant le caractère spéculatif du titre.
+La valorisation reste purement spéculative (EV/Revenue 330.2×, forward P/E −432.31). Aucune révision sell-side n'a été enregistrée. Le retour du cours sous le consensus analystes ($88.71 vs $94.54, premium **−6.2%**) élargit la marge de sécurité mais confirme l'absence de traction fondamentale. Les multiples extrêmement élevés confirment le caractère spéculatif du titre.
 
 ---
 
 ## 4. Mise à jour sentiment / options / news
 
-- **News AST / ASTS :** aucune entrée Yahoo Finance ni FMP dans `data/latest.json` — **0 article pour AST, 0 pour ASTS**
-- **Options ASTS — ANOMALIE RÉSOLUE :**
-  - `data/latest.json` (snapshot 13h UTC) affiche max pain **$120.0** (vs $45.0 aberrant au snapshot 10h) — **🟢 ANOMALIE CONFIRMÉE RÉSOLUE**
-  - Put/call ratio **0.74** (vs null au snapshot 10h) — **🟢 ANOMALIE CONFIRMÉE RÉSOLUE**
-  - Call OI **57.4%** (vs null au snapshot 10h) — **🟢 ANOMALIE CONFIRMÉE RÉSOLUE**
+- **News AST / ASTS :** aucune entrée Yahoo Finance ni FMP dans `data/2026-06-09.json` — **0 article pour AST, 0 pour ASTS**
+- **Options ASTS :**
+  - Max pain **$120.0** (stable) — à +35.3% du close
+  - Put/call ratio **0.74** (stable) — positionnement haussier
+  - Call OI **57.4%** (stable) — haussier
   - Échéance prochaine : **2026-06-12** (dans **3 jours**)
-  - **Interprétation :** le positionnement options est de nouveau cohérent et nettement haussier (put/call 0.74, call OI 57.4%). Le max pain à **$120.0** (+30.3% au-dessus du cours) constitue un aimant gamma distant. L'échéance 2026-06-12 dans 3 jours maintient un risque gamma significatif : si le cours se rapproche de $95–97, la pression de réachet gamma par les dealers pourrait amplifier les mouvements. Le volume stable (~13.6M, 0.50× moy. 20j) indique un marché en attente de la résolution de l'échéance.
+  - **Interprétation :** le positionnement options reste nettement haussier (put/call 0.74, call OI 57.4%) mais le max pain à **$120.0** (+35.3%) est désormais très éloigné du cours après la distribution du jour. Le risque gamma diminue pour les puts (cours éloigné du max pain) mais les calls OTM proches pourraient subir une accélération de la décroissance temporelle (theta decay) si le cours reste sous $90 vendredi. Le volume explosion (1.01×) combiné au retour sur MM50j suggère que la distribution a été pilotée par des opérateurs institutionnels plutôt que par le retail.
 - **Social sentiment :** 0 mention Reddit pour AST, 0 pour ASTS — aucun pump/dump détecté
 - **Upgrades/downgrades AST :** pas de consensus analystes disponible (0 analystes)
-- **Upgrades/downgrades ASTS :** 12 analystes, price target moyen $94.54 — cours actuel $92.06 = **-2.6% sous le consensus** (normalisation consolidée). Publishers FMP : TheFly + StreetInsider.
+- **Upgrades/downgrades ASTS :** 12 analystes, price target moyen $94.54 — cours actuel $88.71 = **−6.2% sous le consensus**. Publishers FMP : TheFly + StreetInsider.
 - **Quant / Geo / Accounting / Events :** aucune donnée spécifique pour AST ou ASTS dans les rapports quant, geo, accounting (inexistant), ou events (0 événement)
-- **FX exposure AST/ASTS :** exposition placeholder 25%, direction neutral, impact 0% — pas de facteur FX identifiable. ASTS price_change_pct enregistré à **-1.65%**
+- **FX exposure AST/ASTS :** exposition placeholder 25%, direction neutral, impact 0% — pas de facteur FX identifiable
 - **Upcoming events :**
-  - AST : earnings signalé le **2026-06-08** (`days_until: 0`) via FMP — **placeholder glissant non résolu** (J=0 depuis le 25/05, **17+ jours de glissement**), résultats non intégrés au pipeline
-  - ASTS : earnings le **2026-08-10** (`days_until: 62`) via yfinance, estimations EPS $-0.29 à $-0.17, Revenues $0.0B
-- **Sector rotation :** signal **NEUTRAL** maintenu. XLK reste top1 sector (momentum 10.0). ASTS (Technology / Communication Equipment) sousperforme le secteur — consolidation idiosyncratique post-correction. XLC (Communication Services) est dans le bottom3 (momentum 0.0), ce qui pèse sur le sentiment sectoriel de ASTS.
+  - AST : earnings signalé le **2026-06-08** (`days_until: 0`) via FMP — **placeholder glissant non résolu** (J=0 depuis le 25/05, **18+ jours**), résultats non intégrés au pipeline
+  - ASTS : earnings le **2026-08-10** (`days_until: 62`) via yfinance, estimations EPS $−0.29 à $−0.17, Revenues $0.0B
+- **Sector rotation :** signal **NEUTRAL** maintenu. XLK reste top1 sector (momentum 10.0). ASTS (Technology / Communication Equipment) sousperforme massivement le secteur aujourd'hui (−3.64% vs SPY stable à −0.3% sur 20j). XLC (Communication Services) est dans le bottom3 (momentum 0.0), ce qui pèse sur le sentiment sectoriel de ASTS.
 
 ---
 
@@ -139,8 +136,8 @@ La valorisation reste purement spéculative sur la technologie satellite direct-
 
 ### AST (données officielles — placeholder)
 
-| Axe | Score 13:00 UTC (09/06) | Pondération | Note |
-|-----|------------------------|-------------|------|
+| Axe | Score Close 21h UTC (09/06) | Pondération | Note |
+|-----|------------------------------|-------------|------|
 | Catalyseur | 6.5/10 (placeholder) | 35% | [NON FONDÉ] — aucun catalyseur vérifiable |
 | Valorisation | 5.0/10 (placeholder) | 40% | [NON FONDÉ] — aucun multiple ni DCF possible |
 | Momentum | 5.0/10 (placeholder) | 25% | [NON FONDÉ] — pas de cours, pas de momentum |
@@ -156,20 +153,20 @@ La valorisation reste purement spéculative sur la technologie satellite direct-
 
 ### ASTS (proxy, à titre indicatif uniquement)
 
-| Axe | Score 13:00 UTC (09/06) | Pondération | Note |
-|-----|------------------------|-------------|------|
-| Catalyseur | 5.0/10 | 35% | Catalyseur latent (technologie D2D, earnings 10/08) mais aucun catalyseur court terme vérifiable |
-| Valorisation | 4.0/10 | 40% | EV/Revenue 330.2×, forward P/E -448.635 — reste spéculatif malgré la normalisation du premium consensus |
-| Momentum | 7.0/10 | 25% | Correction consolidée, RSI 52.33 (neutre favorable), cours au-dessus MM50j, options haussières (P/C 0.74, call OI 57.4%) |
-| **Score Opportunité** | **5.1/10** | — | Non qualifié pour position (score < 6) |
-| **Score Global** | **51.0/100** | — | ATTENDRE |
-| **Score Global Ajusté** | **56.0/100** | — | **ATTENDRE** |
+| Axe | Score Close 21h UTC (09/06) | Pondération | Note |
+|-----|------------------------------|-------------|------|
+| Catalyseur | 4.5/10 | 35% | Aucun catalyseur court terme vérifiable. Earnings 10/08 distant. Distribution post-spike sans news = pas de catalyseur |
+| Valorisation | 4.0/10 | 40% | EV/Revenue 330.2×, forward P/E −432.31 — reste spéculatif. Premium consensus −6.2% élargi mais sans fondamental |
+| Momentum | 5.5/10 | 25% | Retour sur MM50j, RSI 50.27 (neutre), volume explosion (1.01×). Distribution technique = momentum négatif court terme |
+| **Score Opportunité** | **4.5/10** | — | **Non qualifié pour position** (score < 6) |
+| **Score Global** | **45.0/100** | — | **SURVEILLER** (downgrade vs 51.0/100 ATTENDRE à 13h) |
+| **Score Global Ajusté** | **45.0/100** | — | **SURVEILLER** |
 
-**Action recommandée par l'agent :** ATTENDRE
-**Timing :** Favorable
+**Action recommandée :** SURVEILLER (downgrade de ATTENDRE à 13h)
+**Timing :** Défavorable (distribution post-spike, retour sur MM50j)
 **Horizon :** —
 
-> ASTS n'est PAS dans le périmètre d'analyse officiel d'AST. Ces scores sont fournis uniquement pour quantifier l'évolution du proxy. L'agent maintient **51.0/100 (ATTENDRE)** avec timing **Favorable**. Le score Opportunité (5.1/10) reste sous le seuil d'achat (6.0/10) et la valorisation demeure spéculative (EV/Revenue 330.2×, forward P/E -448.635). L'action reste classée **ATTENDRE**.
+> ASTS n'est PAS dans le périmètre d'analyse officiel d'AST. Ces scores sont fournis uniquement pour quantifier l'évolution du proxy. La distribution technique du jour (−3.64%, retour sur MM50j, volume explosion) justifie un **downgrade de ATTENDRE (51.0/100) à SURVEILLER (45.0/100)**. Le score Opportunité (4.5/10) est désormais sous le seuil de qualification (6.0/10) et la valorisation spéculative reste un frein majeur. Le timing est requalifié **Défavorable** suite au spike & dump intraday.
 
 ---
 
@@ -187,38 +184,43 @@ La valorisation reste purement spéculative sur la technologie satellite direct-
 
 | Niveau | Calcul | Valeur |
 |--------|--------|--------|
-| Prix entrée | Cours close | $92.06 |
-| Stop-loss | $92.06 − 2×13.06 | **$65.94** |
-| Take-profit | $92.06 + 3×13.06 | **$131.24** |
-| Ratio R/R | (131.24−92.06)/(92.06−65.94) | **1.5** |
+| Prix entrée | Cours close | $88.71 |
+| Stop-loss | $88.71 − 2×13.29 | **$62.13** |
+| Take-profit | $88.71 + 3×13.29 | **$128.58** |
+| Ratio R/R | (128.58−88.71)/(88.71−62.13) | **1.5** |
 
-> ASTS n'est PAS dans le périmètre d'analyse officiel d'AST. Ces niveaux sont fournis uniquement pour quantifier la volatilité du proxy. Le support immédiat est la **MM50j à $88.50** ; une cassure ouvrirait la voie vers la zone **$85–88** puis le low intraday à **$90.81**. La résistance immédiate est la zone **$97.13** (high intraday révisé). Un franchissement durable au-dessus de **$97.13** réactiverait le biais haussier. L'échéance options 2026-06-12 (dans 3 jours) avec max pain $120.0 (+30.3% du cours) maintient un risque gamma à surveiller : le positionnement haussier (P/C 0.74, call OI 57.4%) pourrait générer une pression de réachet si le cours remonte vers $95–97 avant l'échéance.
+> ASTS n'est PAS dans le périmètre d'analyse officiel d'AST. Ces niveaux sont fournis uniquement pour quantifier la volatilité du proxy. Le support immédiat est la **MM50j à $88.70** ; une cassure en clôture ouvrirait la voie vers le low intraday à **$85.50** puis la zone **$80–85**. La résistance immédiate est la zone **$92.06** (close veille) puis **$97.13–97.23** (high 13h + open). Un franchissement durable au-dessus de **$100.94** (high intraday) réactiverait le biais haussier mais cela nécessiterait un catalyseur majeur. L'échéance options 2026-06-12 (dans 3 jours) avec max pain $120.0 (+35.3% du cours) voit son risque gamma s'atténuer : le cours s'éloigne du max pain, réduisant la pression de réachet des dealers.
 
 ---
 
 ## 7. Conclusion — État de la thèse
 
-**Thèse AST :** 🔴 **INVALIDÉE PAR L'ABSENCE DE DONNÉES — ANOMALIE STRUCTURELLE PERSISTANTE (>35 SNAPSHOTS CONSÉCUTIFS)**
+**Thèse AST :** 🔴 **INVALIDÉE PAR L'ABSENCE DE DONNÉES — ANOMALIE STRUCTURELLE PERSISTANTE (>36 SNAPSHOTS CONSÉCUTIFS)**
 
-**Thèse ASTS (proxy) :** 🟡 **CONFIRMÉE — STABILITÉ TOTALE, ANOMALIE OPTIONS RÉSOLUE, RESTE ATTENDRE**
+**Thèse ASTS (proxy) :** 🔴 **MODIFIÉE — DISTRIBUTION POST-SPIKE, RETOUR SUR MM50J, DOWNGRADE ATTENDRE → SURVEILLER**
 
-1. **Anomalie structurelle persistante sur AST :** AST reste probablement un doublon erroné d'ASTS (AST SpaceMobile — NASDAQ). AST n'a toujours aucune donnée de cours après **>35 snapshots consécutifs** (18/05 → 09/06). La suppression ou l'exclusion de la watchlist reste recommandée.
-2. **Stabilité totale des données ASTS :** le snapshot 13h UTC confirme l'absence de mutation technique par rapport au snapshot 10h UTC. Le cours reste à **$92.06**, le RSI à **52.33**, le volume à **13.62M (0.50×)**, et la MM50j à **$88.50** (+4.0%).
-3. **Anomalie options JSON résolue :** les données options ASTS dans `data/latest.json` (snapshot 13h UTC) sont de nouveau cohérentes : max pain **$120.0** (vs $45.0 aberrant à 10h), put/call **0.74** (vs null), call OI **57.4%** (vs null). Cette résolution confirme le diagnostic de faux positif de pipeline émis à 10h. Le positionnement options reste haussier.
-4. **RSI consolidé en zone neutre favorable :** le RSI à **52.33** reste dans la zone 50–60, confirmant la sortie du surachat et l'absence de survente. Cette zone est favorable à un rebond technique si un catalyseur apparaît.
-5. **Maintien au-dessus de la MM50j :** le cours à $92.06 reste à **+4.0%** de la MM50j ($88.50). Tant que ce support tient, la tendance haussière de moyen terme n'est pas invalidée.
-6. **Positionnement options haussier restauré :** le put/call ratio à **0.74** et le call OI à **57.4%** sont restaurés, confirmant que les acheteurs d'options anticipent un rebond. Le max pain à **$120.0** (+30.3%) reste un aimant gamma distant mais actif à 3 jours de l'échéance.
-7. **Agent maintient ASTS à 51.0/100 (ATTENDRE) :** l'agent n'a pas révisé le score. Le timing reste **Favorable** mais le score Opportunité (5.1/10) reste sous le seuil d'achat (6.0/10). La valorisation spéculative (EV/Revenue 330.2×, forward P/E -448.635) et l'absence de catalyseur court terme justifient le maintien en ATTENDRE.
-8. **Earnings placeholder glissant non résolu :** FMP signale un earnings AST le **2026-06-08** (`days_until: 0`), mais sans historique de prix, le résultat ne peut être corrélé à un mouvement de marché. Le glissement J=0 persiste depuis le **25/05** (17+ jours de décalage non résolu).
-9. **Validation report >2 errors :** le rapport de validation compte **5 errors** (AST, AXA, QTBS, ASTSPACE, VRT schema). Aucune [CRITICAL] n'est déclarée. AST est en erreur connue. [DONNÉES PARTIELLES] noté pour le système global, sans impact direct sur l'analyse ASTS.
+1. **Anomalie structurelle persistante sur AST :** AST reste probablement un doublon erroné d'ASTS (AST SpaceMobile — NASDAQ). AST n'a toujours aucune donnée de cours après **>36 snapshots consécutifs** (18/05 → 09/06). La suppression ou l'exclusion de la watchlist reste recommandée.
+2. **Distribution technique majeure sur ASTS :** le titre a clôturé à **$88.71** (−3.64%) après un spike matinal à **$100.94** (+9.5% vs open). Le range intraday de **$15.44** (17.4% du close) est extrêmement élevé et témoigne d'une lutte acharnée entre acheteurs et vendeurs, résolue en faveur des vendeurs. Le close exactement sur la **MM50j ($88.70, distance +0.01%)** est un signal technique critique.
+3. **Volume explosion = distribution confirmée :** le volume a plus que doublé entre le snapshot 13h (13.62M, 0.50×) et le close (26.69M, 1.01×). Ce niveau de volume est le plus élevé depuis le gap baissier du 01/06 (54.81M) et confirme que la vente a été massive en fin de séance.
+4. **RSI en zone neutre mais tendance baissière :** le RSI à **50.27** (−2.06 pts vs 13h) est sorti de la zone favorable 50–60 et se dirige vers la zone 40–50. Une lecture sous 48 demain confirmerait la perte de momentum.
+5. **Retour sur MM50j = test clé :** le cours est exactement sur la MM50j ($88.70). Historiquement, ASTS a défendu cette moyenne en juin (test le 03/06 à $108.80, test le 08/06 à $90.81). Une cassure en clôture sous $88.70 ouvrirait la voie vers $85.50 (low) puis la zone $80–85.
+6. **Premium consensus dégradé :** le cours passe de −2.6% à **−6.2%** sous le consensus ($94.54). Cela élargit la marge de sécurité mais sans catalyseur fondamental, c'est un signe de faiblesse relative.
+7. **Options — risque gamma atténué :** le max pain à **$120.0** (+35.3%) est désormais très éloigné après la distribution. Le positionnement haussier (P/C 0.74, call OI 57.4%) pourrait subir un theta decay accéléré vendredi si le cours reste sous $90. Le risque de réachet gamma est réduit mais un rebond technique vers $95–97 avant l'échéance reste possible si la MM50j tient.
+8. **Downgrade de ATTENDRE à SURVEILLER :** la distribution post-spike, le retour sur MM50j et le volume explosion justifient un retrait de la thèse précédente (ATTENDRE, timing Favorable). Le nouveau score est **45.0/100 (SURVEILLER)** avec timing **Défavorable**. Le score Opportunité (4.5/10) est sous le seuil de qualification.
+9. **Earnings placeholder glissant non résolu :** FMP signale un earnings AST le **2026-06-08** (`days_until: 0`), mais sans historique de prix, le résultat ne peut être corrélé à un mouvement de marché. Le glissement J=0 persiste depuis le **25/05** (18+ jours de décalage non résolu).
+10. **Validation report >2 errors :** le rapport de validation compte **5 errors** (AST, AXA, QTBS, ASTSPACE, VRT schema). Aucune [CRITICAL] n'est déclarée. AST est en erreur connue. [DONNÉES PARTIELLES] noté pour le système global, sans impact direct sur l'analyse ASTS.
 
 **Recommandation opérationnelle :**
 - **Résoudre l'anomalie structurelle immédiatement :** supprimer AST de `config/watchlist.json` ou le marquer `excluded`
 - **Rediriger toute exposition space / telecom satellite vers ASTS**, ticker validé avec data complètes
 - **Ne pas engager de capital sur AST** tant que les données de cours ne sont pas disponibles
-- **Surveiller ASTS** pour un test de la zone **$88.50** (MM50j) — support technique majeur. Une cassure ouvrirait la voie vers $85–88. À la hausse, le franchissement de **$97.13** (high intraday révisé) serait le premier signal technique positif. Le timing est requalifié **Favorable** mais le score Opportunité (5.1/10) reste insuffisant pour une entrée. La thèse sur ASTS reste **ATTENDRE**.
-- **Surveiller l'échéance options 2026-06-12** (dans 3 jours) — risque gamma actif avec max pain $120.0 (+30.3%). Un rapprochement du cours vers $95–97 avant vendredi pourrait déclencher une pression de réachet gamma.
+- **Surveiller ASTS avec prudence** — la distribution du jour invalide le biais haussier court terme. La MM50j ($88.70) est le niveau clé à surveiller demain :
+  - **Cassure sous $88.70** en clôture → prochaines cibles $85.50 puis $80–85
+  - **Rebond au-dessus de $90** avec volume faible → possible consolidation avant nouvelle tentative sur $92–97
+  - **Rebond au-dessus de $97.23** (open) → retour du biais haussier mais nécessite confirmation volume > 20M
+- **Ne pas entrer de position longue** sur ASTS avant un test réussi de la MM50j ($88.70) ou un catalyseur fondamental vérifiable
+- **Surveiller l'échéance options 2026-06-12** (vendredi) — theta decay sur les calls OTM pourrait amplifier la pression vendeuse si le cours reste sous $90
 
 ---
 
-*Rapport généré à partir des fichiers data/latest.json (snapshot 13:00 UTC, fetched_at 2026-06-09T13:00:01.409912+00:00), data/recommandations_latest.json, data/sector_rotation_latest.json, data/social_sentiment_latest.json, data/fx_exposure_latest.json, data/upcoming_events_latest.json, data/events_latest.json, data/validation_report.txt — aucune donnée hallucinée.*
+*Rapport généré à partir des fichiers data/2026-06-09.json (snapshot 21:00 UTC, fetched_at 2026-06-09T21:00:02.092076+00:00), data/validation_report.txt, data/sector_rotation_latest.json — aucune donnée hallucinée.*
