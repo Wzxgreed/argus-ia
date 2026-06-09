@@ -3,7 +3,7 @@
 ## Thèse courante
 
 **Verdict :** ACHETER (Réduit)
-**Date dernière analyse :** 2026-06-09 (snapshot 10:00 UTC)
+**Date dernière analyse :** 2026-06-09 (snapshot 13:00 UTC)
 **Cours actuel :** $45.35
 **Score Qualité :** 0/6 (Hors périmètre)
 **Score Opportunité :** 6.2/10 (agent reco — données fondamentales absentes)
@@ -13,7 +13,7 @@
 **Take-profit :** $48.38
 **Ratio R/R :** 1.5
 
-TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie sur des fondamentaux. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Verdict confirmé : ACHETER (Réduit)** — stabilité totale du snapshot matinal 10h UTC vs close 08/06 ($45.35 vs $45.3501). RSI inchangé à 54.61, MM50 stable à $43.61 (écart +$1.74 / +4.0%). Score Global stable à 61.5/100 (66.5 ajusté), Score Momentum 7.5/10. **Points de vigilance :** volume faible persistant 2,400 (0.94× moyenne 20j) = attente pré-événement sans conviction institutionnelle ; earnings JOUR J (2026-06-09) toujours non résolus à 10h UTC. Un retour sous MM50 + volume faible invaliderait la thèse.
+TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie sur des fondamentaux. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Verdict confirmé : ACHETER (Réduit)** — stabilité technique confirmée sur le snapshot 13h UTC (close $45.35 inchangé vs 10h), grille intraday enrichie (open $44.03, high $45.35, low $44.03, +3.00% session, +4.19% vs previous close). RSI inchangé à 54.61, MM50 stable à $43.61 (écart +$1.74 / +4.0%). Score Global stable à 61.5/100 (66.5 ajusté), Score Momentum 7.5/10. **Points de vigilance :** volume faible persistant 2,400 (0.94× moyenne 20j) — le rebond intraday de +3.00% n'est pas validé par une accélération volume, ce qui affaiblit la conviction institutionnelle ; earnings JOUR J (2026-06-09) toujours non résolus à 13h UTC. Un retour sous MM50 + volume faible invaliderait la thèse.
 
 ---
 
@@ -56,6 +56,7 @@ TEST est un ticker de test / micro-cap sans données fondamentales exploitables 
 | TEST_2026-06-08_update_13h.md | 2026-06-08 | Mise à jour 13:00 UTC — **stabilité totale confirmée** vs snapshot 10h (cours $43.527 inchangé, RSI 41.19, volume 5,000 2.06× avg, MM50 $43.54), scores et verdict SURVEILLER inchangés, earnings JOUR J non résolu | **SURVEILLER** |
 | TEST_2026-06-08_update_17h.md | 2026-06-08 | Mise à jour 17:00 UTC — **mutation technique majeure** : rebond +2.53% à $44.63, RSI 51.62 (+10.43 pts), volume effondré 2,251 (0.89× avg), Score Global 49.0→61.0 (36.0→66.0 ajusté), Score Momentum 2.5→7.3, verdict modifié **SURVEILLER → ACHETER (Réduit)** | **ACHETER (Réduit)** |
 | TEST_2026-06-08_update_21h.md | 2026-06-08 | Mise à jour 21:00 UTC — grignotage haussier +1.61% vs 17h ($45.3501), RSI 54.61 (+2.99 pts), volume stable 2,294 (0.90× avg), ATR $1.01 (+$0.04), Score Global 61.0→61.5 (66.0→66.5 ajusté), Score Momentum 7.3→7.5, verdict **ACHETER (Réduit) confirmé** | **ACHETER (Réduit)** |
+| TEST_2026-06-09_update_13h.md | 2026-06-09 | Mise à jour 13:00 UTC — stabilité technique confirmée, grille intraday enrichie (open $44.03, high $45.35, +3.00% session), volume faible persistant, earnings JOUR J non résolu | **ACHETER (Réduit)** |
 | TEST_2026-06-09_update.md | 2026-06-09 | Mise à jour 10:00 UTC — stabilité totale vs close 08/06 (cours $45.35 inchangé, RSI 54.61, volume 2,400 0.94× avg), earnings JOUR J non résolu, verdict **ACHETER (Réduit) confirmé** | **ACHETER (Réduit)** |
 
 ---
