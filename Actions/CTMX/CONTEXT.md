@@ -15,7 +15,7 @@
 **Statut :** Thèse non établie — profil spéculatif biotech pré-profit, Filtre Qualité 2/6
 **Horizon :** 6–12 mois (dépendant des catalyseurs cliniques)
 
-**Résumé :** CTMX est une biotech en phase clinique avancée (plateforme Probody) avec des partenariats de qualité (AbbVie, BMS, Amgen). Le snapshot 17h UTC du 2026-06-08 enregistre une **dégradation technique modérée** vs snapshot 13h UTC : cours **$2.94** (−2.0%), volume **effondré à 0.55×** la moyenne 20j (signal d'absence de conviction), **support $2.98 cassé** (low $2.90). Le RSI remonte marginalement à **30.56** (+1.03 pt) mais reste en survente sans rebond. L'écart sous MM50 s'élargit à **−27.6%** ($4.06). Le **Score Global Ajusté recule de 52.5 à 47.5/100** (−5.0 pts), ce qui fait basculer la recommandation de **ATTENDRE à SURVEILLER**. Le timing reste **Défavorable**. Le short interest stable à **16.23%** confirme que les shorts maintiennent leurs positions. Aucune position recommandée en l'absence de catalyseur clinique confirmé et de reconstruction du support.
+**Résumé :** CTMX est une biotech en phase clinique avancée (plateforme Probody) avec des partenariats de qualité (AbbVie, BMS, Amgen). Le snapshot 10h UTC du 2026-06-09 enregistre une **stabilité totale de cours** vs clôture 08/06 ($2.94 inchangé) mais un **retour significatif du volume** (1.06× vs 0.55× hier). Le RSI reste figé en survente à **30.56**. Le support **$2.90 est testé** (low $2.89) sans être cassé. Le **Score Global Ajusté reste à 47.5/100** et la recommandation **SURVEILLER** est maintenue. Le timing reste **Défavorable**. Le short interest stable à **16.23%** confirme que les shorts maintiennent leurs positions. Aucune position recommandée en l'absence de catalyseur clinique confirmé et de consolidation au-dessus de $3.00.
 
 ---
 
@@ -53,15 +53,18 @@
 - **MM 200j :** —
 - **ATR 14j :** 0.19
 - **Volume moy. 20j :** 3421305
+- **Volume rel. 20j :** 1.06×
+- **Low du jour :** 2.89
+- **Support immédiat :** 2.90
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-08
+- **Date :** 2026-06-09
 - **Type :** update
-- **Fichier :** `CTMX_2026-06-08_update.md`
-- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — SURVEILLER (DÉGRADÉE DEPUIS ATTENDRE)**
+- **Fichier :** `CTMX_2026-06-09_update.md`
+- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — SURVEILLER (INCHANGÉE)**
 
 ---
 
