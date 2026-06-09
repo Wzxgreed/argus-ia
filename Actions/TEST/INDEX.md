@@ -2,18 +2,18 @@
 
 ## Thèse courante
 
-**Verdict :** SURVEILLER
-**Date dernière analyse :** 2026-06-09 (snapshot 17:00 UTC)
-**Cours actuel :** $42.97
+**Verdict :** ACHETER (Réduit)
+**Date dernière analyse :** 2026-06-09 (snapshot 21:00 UTC)
+**Cours actuel :** $43.87
 **Score Qualité :** 0/6 (Hors périmètre)
-**Score Opportunité :** 5.3/10 (agent reco — données fondamentales absentes)
-**Score Momentum :** 4.0/10
-**Score Global :** 52.8/100 (44.8 ajusté)
-**Stop-loss :** $40.83
-**Take-profit :** $46.18
+**Score Opportunité :** 5.9/10 (agent reco — données fondamentales absentes)
+**Score Momentum :** 6.5/10
+**Score Global :** 59.0/100 (64.0 ajusté)
+**Stop-loss :** $41.73
+**Take-profit :** $47.08
 **Ratio R/R :** 1.5
 
-TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie sur des fondamentaux. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Verdict regradé : SURVEILLER** — mutation technique majeure sur le snapshot 17h UTC : cours $42.97 en repli de −5.25% vs close 13h ($45.35), RSI 47.1 (−7.51 pts), **cassure de la MM50** ($43.65) avec écart négatif de −$0.68 (−1.6%). Volume effondré à 1,217 unités (0.50× moyenne 20j). Score Global chuté de 66.5 à 44.8 ajusté, Score Momentum effondré de 7.5 à 4.0/10. **Points de vigilance :** proximité immédiate du low 52 semaines ($40.27, +6.7%) ; earnings JOUR J (2026-06-09) toujours non résolus après 9 jours de flag — risque d'artefact calendrier FMP élevé mais non écarté ; illiquidité extrême amplifiant le bruit de microstructure. Un retour au-dessus de MM50 sur volume > 1.5× moyenne permettrait une réévaluation. Une cassure sous $40.83 (SL) justifierait le passage à ÉVITER.
+TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie sur des fondamentaux. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Verdict regradé : ACHETER (Réduit)** — mutation technique favorable sur le snapshot 21h UTC : cours $43.87 en rebond de +2.10% vs close 17h ($42.97), RSI 50.48 (+3.38 pts), **reclaim de la MM50** ($43.67) avec écart positif de +$0.20 (+0.5%). Volume légèrement remonté à 1,570 unités (0.64× moyenne 20j). Score Global remonté de 44.8 à 64.0 ajusté, Score Momentum regradé de 4.0 à 6.5/10. **Points de vigilance :** proximité du low 52 semaines ($40.27, +8.3%) ; earnings JOUR J (2026-06-09) toujours non résolus après 9 jours de flag — risque d'artefact calendrier FMP élevé mais non écarté ; volume faible amplifiant le bruit de microstructure. Si clôture sous MM50 ($43.67) sur volume > moyenne → regradation SURVEILLER. Si clôture sous $41.73 (SL) → passage ÉVITER.
 
 ---
 
@@ -58,6 +58,7 @@ TEST est un ticker de test / micro-cap sans données fondamentales exploitables 
 | TEST_2026-06-08_update_21h.md | 2026-06-08 | Mise à jour 21:00 UTC — grignotage haussier +1.61% vs 17h ($45.3501), RSI 54.61 (+2.99 pts), volume stable 2,294 (0.90× avg), ATR $1.01 (+$0.04), Score Global 61.0→61.5 (66.0→66.5 ajusté), Score Momentum 7.3→7.5, verdict **ACHETER (Réduit) confirmé** | **ACHETER (Réduit)** |
 | TEST_2026-06-09_update_13h.md | 2026-06-09 | Mise à jour 13:00 UTC — stabilité technique confirmée, grille intraday enrichie (open $44.03, high $45.35, +3.00% session), volume faible persistant, earnings JOUR J non résolu | **ACHETER (Réduit)** |
 | TEST_2026-06-09_update.md | 2026-06-09 | Mise à jour 10:00 UTC — stabilité totale vs close 08/06 (cours $45.35 inchangé, RSI 54.61, volume 2,400 0.94× avg), earnings JOUR J non résolu, verdict **ACHETER (Réduit) confirmé** | **ACHETER (Réduit)** |
+| TEST_2026-06-09_update_21h.md | 2026-06-09 | Mise à jour 21:00 UTC — **rebond technique +2.10%** vs 17h ($42.97 → $43.87), RSI 50.48 (+3.38 pts), **reclaim MM50** ($43.67) avec écart +$0.20, volume 1,570 (0.64× avg), Score Global 44.8 → **64.0 ajusté**, Score Momentum 4.0 → **6.5**, verdict regradé **SURVEILLER → ACHETER (Réduit)** | **ACHETER (Réduit)** |
 
 ---
 

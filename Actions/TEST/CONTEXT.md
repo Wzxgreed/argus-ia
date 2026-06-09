@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $40.83
-- **Statut thèse :** —
-- **Horizon :** —
+- **Recommandation :** ACHETER (Réduit)
+- **Score global :** 6.4/10
+- **Prix cible :** $47.08
+- **Stop-loss :** $41.73
+- **Statut thèse :** Active
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -36,10 +36,10 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 45.88
-- **MM 50j :** 43.64
+- **RSI 14j :** 50.48
+- **MM 50j :** 43.67
 - **MM 200j :** —
-- **ATR 14j :** 1.1
+- **ATR 14j :** 1.07
 - **Volume moy. 20j :** 2463
 
 ---
@@ -47,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** preview
-- **Fichier :** `TEST_2026-06-09_preview.md`
-- **Conclusion :** > **Date :** 2026-06-09
+- **Type :** update_21h
+- **Fichier :** `TEST_2026-06-09_update_21h.md`
+- **Conclusion :** Rebond technique +2.10% vs 17h ($42.97 → $43.87), reclaim MM50 ($43.67) avec écart +$0.20, RSI 50.48 (+3.38 pts) retour au-dessus de 50, Score Global 64.0/100 ajusté, verdict regradé **ACHETER (Réduit)**. Volume faible persistant (0.64× avg). Earnings JOUR J non résolu. SL $41.73 / TP $47.08 / R/R 1.5.
 
 ---
 
