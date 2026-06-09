@@ -1634,7 +1634,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.88% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Thèse **MODIFIÉE INCHANGÉE** — ATR_SPIKE persistant depuis le 18/05 (volatilité résiduelle post-correction). Pas de nouvel événement structurant au snapshot pré-marché 10:00 UTC. Cours stable $300.57, RSI 31.08, volume 4.75M (0.81×) — identique au close 08/06. **Anomalie massive options pré-marché détectée** : max pain $220 (vs $295 close 08/06), put/call 0.03 (vs 1.10), call OI 96.8% (vs 47.6%). Pattern récurrent d'artefact pré-marché (expiration J+3 12 juin). Référence valide conservée : max pain $295, put/call 1.10, call OI 47.6%. Fondamentaux intacts (Quality Compounder 6/6, ROIC 18.5%, ROCE 24.3%). Rupture MM50 maintenue ($314.04). Gap down −7.23% non comblé. Score Opportunité 3.4/10. ÉVITER maintenu (25.8/100). Timing Défavorable. DRAFT archivé. Voir [VRT_2026-06-09_init.md](./VRT_2026-06-09_init.md) et [VRT_2026-06-09_update.md](./VRT_2026-06-09_update.md).
 
 ---
 
@@ -1643,6 +1643,6 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.88% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Résolu — fusionné avec le traitement du DRAFT du 9 juin (même trigger persistant, snapshot pré-marché identique). DRAFT archivé. Voir [VRT_2026-06-09_init.md](./VRT_2026-06-09_init.md) et [VRT_2026-06-09_update.md](./VRT_2026-06-09_update.md).
 
 ---
