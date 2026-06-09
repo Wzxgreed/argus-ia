@@ -1774,7 +1774,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 16.00% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Confirmée. Données strictement identiques au snapshot 13h UTC (cours $36.18, RSI 41.52, volume 4.21M 0.45x). Thèse SURVEILLER (43.8) confirmée sans modification. DRAFT_refresh archivé.
 
 ---
 
@@ -1783,7 +1783,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 16.00% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Traitée dans l'entrée précédente. Données identiques. DRAFT_refresh archivé.
 
 ---
 
@@ -1792,7 +1792,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 16.00% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Traitée dans l'entrée précédente. Données identiques. DRAFT_refresh archivé.
 
 ---
 
@@ -1801,7 +1801,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 16.00% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Traitée dans l'entrée précédente. Données identiques. DRAFT_refresh archivé.
 
 ---
 
@@ -1811,7 +1811,7 @@
 - price_gap (medium) : Gap -8.40% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 17.50% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Traitée dans l'entrée suivante (gap -9.56% confirmé). Snapshot intermédiaire.
 
 ---
 
@@ -1821,6 +1821,6 @@
 - price_gap (medium) : Gap -9.56% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 17.97% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Modifiée en intensité négative — gap -9.56% en séance à $32.72 sans catalyst, cassure MM50 amplifiée ($38.99, −15.9%), RSI 39.71 proche survente, Score Momentum 2.5/10. Agent SURVEILLER (45.0). Thèse défavorable confirmée et renforcée. DRAFT_refresh traité et archivé dans `FLY_2026-06-09_update_17h.md`.
 
 ---

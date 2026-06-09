@@ -17,9 +17,9 @@ Fichier lu automatiquement à chaque session. Si un seuil est franchi, un `_upda
 | **NOK** | Baisse | $12.03 (SL 2×ATR) | $13.95 | 🟢 Active | 2026-05-17 |
 | **NOK** | Hausse | $9.26 (consensus) | $13.95 | 🔴 Déjà au-dessus | 2026-05-17 |
 | **NOK** | Volume | >2× moy. 20j (>249M) | 124.8M moy. | 🟢 Active | 2026-05-17 |
-| **SOFI** | Baisse | $13.97 (SL 2×ATR) | $15.61 | 🟢 Active | 2026-05-17 |
-| **SOFI** | Hausse | $19.51 (prix cible) | $15.61 | 🟢 Active | 2026-05-17 |
-| **SOFI** | Volume | >2× moy. 20j (>XXM) | — | 🟢 Active | 2026-05-17 |
+| **SOFI** | Baisse | $13.78 (SL 2×ATR) | $15.82 | 🟢 Active | 2026-06-09 |
+| **SOFI** | Hausse | $18.88 (prix cible) | $15.82 | 🟢 Active | 2026-06-09 |
+| **SOFI** | Volume | >2× moy. 20j (>140.7M) | — | 🟢 Active | 2026-06-09 |
 | **AAL** | Baisse | $11.41 (SL 2×ATR) | $14.85 | 🟢 Active | 2026-05-17 |
 | **AAL** | Hausse | $14.00 (prix cible) | $14.85 | 🔴 Déclenchée (27/05) | 2026-05-17 |
 | **AAL** | Volume | >2× moy. 20j (>XXM) | — | 🟢 Active | 2026-05-17 |

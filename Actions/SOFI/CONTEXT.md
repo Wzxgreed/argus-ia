@@ -62,9 +62,9 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** full refresh
-- **Fichier :** `SOFI_2026-06-09_DRAFT_refresh_ARCHIVED_2.md`
-- **Conclusion :** > **Date :** 2026-06-09
+- **Type :** update
+- **Fichier :** `SOFI_2026-06-09_update.md`
+- **Conclusion :** Thèse ATTENDRE confirmée mais affaiblie — baisse −4.14% sur volume faible, élargissement écart MM50 à −5.68%, Score Global ajusté 51.1/100 (bord inférieur ATTENDRE).
 
 ---
 

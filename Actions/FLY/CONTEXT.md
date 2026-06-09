@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
+- **Recommandation :** SURVEILLER
+- **Score global :** 45.0/100
+- **Prix cible :** $43.25 (consensus 12 analysts)
+- **Stop-loss :** $20.96
+- **Statut thèse :** confirmée et renforcée
 - **Horizon :** —
 
 ---
@@ -36,20 +36,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 40.06
-- **MM 50j :** 39.0
+- **RSI 14j :** 39.71
+- **MM 50j :** 38.99
 - **MM 200j :** —
-- **ATR 14j :** 5.8
-- **Volume moy. 20j :** 9017077
+- **ATR 14j :** 5.88
+- **Volume moy. 20j :** 9078528
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** init
-- **Fichier :** `FLY_2026-06-09_update_13h.md`
-- **Conclusion :** > **Type :** `_update.md` — Snapshot 13h UTC, stabilité confirmée vs 10h UTC, anomalie options RÉSOLUE, thèse SURVEILLER (43.8) inchangée
+- **Type :** update
+- **Fichier :** `FLY_2026-06-09_update_17h.md`
+- **Conclusion :** > **Type :** `_update.md` — Snapshot 17h UTC, gap baissier −9.56% en séance à $32.72, RSI 39.71 proche survente, cassure MM50 amplifiée (−15.9%), Score Momentum 2.5/10. Agent SURVEILLER (45.0). Thèse défavorable confirmée et renforcée.
 
 ---
 
