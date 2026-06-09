@@ -1,11 +1,12 @@
 # MITK
 
 ## Thèse courante
-**ACHETER (Sizing Réduit)** — Small-cap logiciel (Software-Application, $695.4M) avec Forward P/E très attractif (12.69x) après correction technique de −15.3% sur cinq séances. Snapshot 13h UTC **$15.40** sur volume normalisé (0.82× moyenne 20j, 1,020,200 vs moy. 1,240,110) — **stabilité totale vs snapshot 10h UTC 09/06**. RSI 58.01 (**stable zone neutre favorable**), cours AU-DESSUS de MM50 ($14.82, +3.9%) avec marge confortable. Score Global Ajusté **65.2/100** (catégorie ACHETER Réduit, fourchette 60–74). Composition du score stable : Catalyseur 5.0/10, Valorisation 6.0/10, Momentum 7.5/10. Structure options haussière stable : Max Pain $20.00 (+29.9% vs spot), Put/Call 0.22, Call OI 81.7%. **Anomalie options JSON RÉSOLUE dans latest.json** — première occurrence de valeurs valides depuis le 3 juin. Consensus PT $16.00 **au-dessus du spot** — upside théorique de +3.9%. Signal macro **NEUTRAL** — XLK top rank (momentum 10.0), pas de vent de queue sectoriel. Sizing réduit recommandé. SL $13.58, TP $18.13, R/R 1.5. **Snapshot 13:00 UTC 09/06 : thèse CONFIRMÉE — aucune mutation des données, DRAFT_refresh faux positif archivé, anomalie options JSON résolue.**
+**ACHETER (Sizing Réduit)** — Small-cap logiciel (Software-Application, $699.5M) avec Forward P/E très attractif (12.76x) après correction technique de −15.3% sur cinq séances. Snapshot 21h UTC **$15.49** sur volume confirmé (1.24× moyenne 20j, 1,481,772 vs moy. 1,191,173) — **session US réelle avec volatilité intraday élevée ($14.50–$15.96, range 10.1%)**. RSI 58.37 (**zone neutre favorable**), cours AU-DESSUS de MM50 ($14.87, +4.2%) avec marge confortable. Score Global Ajusté **64.0/100** (catégorie ACHETER Réduit, fourchette 60–74). Composition du score : Catalyseur 5.0/10, Valorisation 6.0/10, Momentum 7.0/10 (−0.5 pt vs 13h). Structure options haussière stable : Max Pain $20.00 (+29.1% vs spot), Put/Call 0.22, Call OI 81.7%. Consensus PT $16.00 **au-dessus du spot** — upside théorique de +3.3%. Signal macro **NEUTRAL** — XLK top rank (momentum 10.0), pas de vent de queue sectoriel. Sizing réduit recommandé. SL $13.53, TP $18.43, R/R 1.5. **Snapshot 21:00 UTC 09/06 : thèse CONFIRMÉE avec vigilance — session US validée, rejet du high $15.96, DRAFT_refresh faux positif archivé, Score Global légèrement révisé à la baisse (−1.2 pt).**
 
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
+| 2026-06-09 | [MITK_2026-06-09_update_21h.md](MITK_2026-06-09_update_21h.md) | **Snapshot 21:00 UTC — thèse CONFIRMÉE avec vigilance : ACHETER (Sizing Réduit)**. Session US réelle avec volume 1.24× moyenne, range intraday élevé $14.50–$15.96 (10.1%). Cours $15.49 (+0.58%), RSI 58.37, ATR $0.98 (+7.7%), MM50 $14.87 (+4.2%). Score Global Ajusté **64.0/100** (−1.2 pt vs 13h), Score Momentum **7.0/10** (−0.5 pt). Rejet du high $15.96 (test consensus PT $16.00). SL $13.53, TP $18.43, R/R 1.5. DRAFT_refresh faux positif archivé |
 | 2026-06-09 | [MITK_2026-06-09_update.md](MITK_2026-06-09_update.md) | **Snapshot 13:00 UTC — thèse CONFIRMÉE : ACHETER (Sizing Réduit)**. **Stabilité totale vs snapshot 10h UTC** — aucune mutation des données (cours $15.40, RSI 58.01, ATR $0.91, MM50 $14.82, volume 0.82× inchangés). **DRAFT_refresh faux positif archivé** (ATR_SPIKE 5.91% sans mutation réelle). **Anomalie options JSON RÉSOLUE** (max pain $20.00, put/call 0.22, call OI 81.7% — valeurs JSON validées pour la première fois depuis le 3 juin). Score Global Ajusté **65.2/100** inchangé. SL $13.58, TP $18.13, R/R 1.5. Action **ACHETER (Sizing Réduit)**, timing **Favorable** |
 | 2026-06-08 | [MITK_2026-06-08_update_21h.md](MITK_2026-06-08_update_21h.md) | **Close officiel 21:00 UTC — thèse CONFIRMÉE : ACHETER (Sizing Réduit)**. Consolidation à $15.40 (−0.39% vs 17h) sur volume normalisé 0.82× moyenne 20j (+155% vs 17h). **Alerte volume collapse RÉSOLUE** — rebond +3.43% vs veille crédible. RSI 58.01 (stable), MM50 $14.82 (+3.9% au-dessus). Composition du score stable (C:5.0 V:6.0 M:7.5). Score Global Ajusté **65.2/100** inchangé. SL $13.58, TP $18.13, R/R 1.5. Action **ACHETER (Sizing Réduit)**, timing **Favorable** |
 | 2026-06-08 | [MITK_2026-06-08_update_17h.md](MITK_2026-06-08_update_17h.md) | Mise à jour snapshot 17:00 UTC — **thèse CONFIRMÉE : ACHETER (Sizing Réduit)**. Rebond technique +3.83% à $15.46 sur volume effondré 0.33× (pas de conviction). RSI 58.32 (+4.15 pts), MM50 $14.82 (+4.3% au-dessus). **Mutation de composition du score** : Catalyseur 5.0/10 (−0.5), Valorisation 6.0/10 (−0.5), Momentum 7.5/10 (+1.5). Score Global Ajusté **65.2/100** inchangé. Action **ACHETER (Sizing Réduit)**, timing **Favorable** |
@@ -41,14 +42,16 @@
 - Expiration options : **2026-06-18** (15j)
 
 ## Alertes actives
-- 🟢 **[ANOMALIE OPTIONS JSON RÉSOLUE — 13h UTC]** Max pain $20.00, put/call 0.22, call OI 81.7% — données JSON corrigées dans latest.json (13h UTC), première validation algorithmique depuis le 3 juin — 2026-06-09
-- 🟢 **[CASSURE MM50 CONFIRMÉE — MARGE CONFORTABLE]** Cours $15.40 > MM50 $14.82 (+3.9%) — signal technique intact — 2026-06-08
-- 🟢 **[VOLUME NORMALISÉ]** 1,020,200 = 0.82× moyenne 20j — liquidité crédible confirmée — 2026-06-09
-- 🟡 **[RSI STABLE SOUS 60]** 58.01 — zone neutre favorable, pas de surachat — 2026-06-09
-- 🟢 **[CONSENSUS PT SOUS LE SPOT]** $16.00 > $15.40 — upside théorique de +3.9% — 2026-06-09
-- 🟢 **[STRUCTURE OPTIONS HAUSSIÈRE CONFIRMÉE]** Max Pain $20.00, Put/Call 0.22, Call OI 81.7% — signal dérivé haussier stable (données JSON validées) — 2026-06-09
+- 🟢 **[SESSION US CONFIRMÉE — 21h UTC]** Volume 1,481,772 = 1.24× moyenne 20j — liquidité réelle validée — 2026-06-09
+- 🟢 **[CASSURE MM50 CONFIRMÉE — MARGE CONFORTABLE]** Cours $15.49 > MM50 $14.87 (+4.2%) — signal technique intact — 2026-06-09
+- 🟡 **[RSI STABLE SOUS 60]** 58.37 — zone neutre favorable, pas de surachat — 2026-06-09
+- 🟡 **[VOLATILITÉ INTRADAY ÉLEVÉE]** Range $14.50–$15.96 (10.1%), ATR +7.7% à $0.98 — prudence sur les stops — 2026-06-09
+- 🟡 **[REJET DU HIGH $15.96]** Test du consensus PT $16.00 suivi d'un rejet — résistance technique active — 2026-06-09
+- 🟢 **[CONSENSUS PT SOUS LE SPOT]** $16.00 > $15.49 — upside théorique de +3.3% — 2026-06-09
+- 🟢 **[STRUCTURE OPTIONS HAUSSIÈRE CONFIRMÉE]** Max Pain $20.00, Put/Call 0.22, Call OI 81.7% — signal dérivé haussier stable — 2026-06-09
+- 🟡 **[DRAFT_refresh FAUX POSITIF — ARCHIVÉ]** Trigger ATR_SPIKE 6.33% généré par `detect_major_events` — session US normale, pas d'événement structurel — 2026-06-09
 - 🟡 **[ROIC FAIBLE]** 3.16% — monitorer l'efficacité du capital dans les prochains filings — 2026-05-18
-- 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($695.4M Yahoo vs $446.6M FMP), P/E, EV multiples — utiliser Yahoo comme primaire — persistant
+- 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($699.5M Yahoo vs $446.6M FMP), P/E, EV multiples — utiliser Yahoo comme primaire — persistant
 - 🟡 **[LIQUIDITÉ DÉRIVÉE FAIBLE]** Faible couverture strike — prudence sur le hedging — 2026-06-08
 - 🟡 **[BETA LÉGÈREMENT SUPÉRIEUR AU MARCHÉ]** 1.007 — sensibilité marché accrue — 2026-06-08
 - 🔴 **[PULLBACK −15.3% SANS CATALYSEUR IDENTIFIABLE]** Risque de continuation baissière si support MM50 cède — 2026-06-08

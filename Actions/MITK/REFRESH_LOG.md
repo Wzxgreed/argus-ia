@@ -1,5 +1,21 @@
 # MITK — Historique des Full Refreshes
 
+## 2026-06-09 — Full Refresh FAUX POSITIF (Snapshot 21:00 UTC)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
+
+**Conclusion :** FAUX POSITIF — session US normale, pas d’événement structurel. Données snapshot 21:00 UTC : close $15.49 (+0.58% vs previous close $15.40, +0.6% vs 13h), RSI 58.37 (+0.36 pt), ATR $0.98 (+$0.07, +7.7%), MM50 $14.87 (+$0.05), volume 1,481,772 (+45.2% vs 13h, 1.24× moyenne 20j). Le trigger ATR_SPIKE capture la volatilité intraday normale de la session US (range $14.50–$15.96, 10.1%), pas un événement majeur. Rejet du high $15.96 (test consensus PT $16.00). Score Global Ajusté légèrement révisé à 64.0/100 (−1.2 pt), Score Momentum 7.0/10 (−0.5 pt). Structure options haussière stable (max pain $20.00, put/call 0.22, call OI 81.7%). **Thèse précédente (ACHETER Sizing Réduit, Score Global 65.2/100) confirmée avec vigilance.** SL révisé $13.53, TP $18.43, R/R 1.5.
+
+**Fichiers produits :**
+- `Actions/MITK/MITK_2026-06-09_update_21h.md` — Mise à jour snapshot 21:00 UTC
+- `Actions/MITK/INDEX.md` — Thèse courante confirmée
+- `Actions/MITK/CONTEXT.md` — Mémoire court terme mise à jour
+
+**DRAFT archivé :** `MITK_2026-06-09_DRAFT_refresh.md` → `_MITK_2026-06-09_DRAFT_refresh.md.archive`
+
+---
+
 ## 2026-06-09 — Full Refresh FAUX POSITIF (Snapshot 10:00 UTC)
 
 **Triggers :**

@@ -8,13 +8,13 @@
 
 ## 🚨 Triggers détectés
 
-- **ATR_SPIKE** (medium) — ATR relatif 5.91% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 6.33% (seuil 5.0%)
 
 ---
 
 ## 📜 Thèse précédente (à comparer)
 
-**ACHETER (Sizing Réduit)** — Small-cap logiciel (Software-Application, $695.4M) avec Forward P/E très attractif (12.69x) après correction technique de −15.3% sur cinq séances. Close officiel 21h UTC **$15.40** sur volume normalisé (0.82× moyenne 20j, 1,012,441 vs moy. 1,239,692), léger grignotage baissier de −0.39% en fin de séance mais **rebond de +3.43% vs veille confirmé sur liquidité crédible**. RSI 58.01 (**stable zone neutre favorable**), cours AU-DESSUS de MM50 ($14.82, +3.9%) avec marge confortable. Score Global Ajusté **65.2/100** (catégorie ACHETER Réduit, fourchette 60–74). Composition du score stable : Catalyseur 5.0/10, Valorisation 6.0/10, Momentum 7.5/10. Structure options haussière stable : Max Pain $20.00 (+29.9% vs spot), Put/Call 0.23, Call OI 81.5%. Consensus PT $16.00 **au-dessus du spot** — upside théorique de +3.9%. Signal macro **NEUTRAL** — XLK top rank (momentum 10.0), pas de vent de queue sectoriel. Sizing réduit recommandé. SL $13.58, TP $18.13, R/R 1.5. **Close officiel 21:00 UTC 08/06 : thèse CONFIRMÉE — volume collapse résolu (0.82× moyenne), rebond crédible, marge MM50 maintenue (+3.9%), score stable.**
+**ACHETER (Sizing Réduit)** — Small-cap logiciel (Software-Application, $695.4M) avec Forward P/E très attractif (12.69x) après correction technique de −15.3% sur cinq séances. Snapshot 13h UTC **$15.40** sur volume normalisé (0.82× moyenne 20j, 1,020,200 vs moy. 1,240,110) — **stabilité totale vs snapshot 10h UTC 09/06**. RSI 58.01 (**stable zone neutre favorable**), cours AU-DESSUS de MM50 ($14.82, +3.9%) avec marge confortable. Score Global Ajusté **65.2/100** (catégorie ACHETER Réduit, fourchette 60–74). Composition du score stable : Catalyseur 5.0/10, Valorisation 6.0/10, Momentum 7.5/10. Structure options haussière stable : Max Pain $20.00 (+29.9% vs spot), Put/Call 0.22, Call OI 81.7%. **Anomalie options JSON RÉSOLUE dans latest.json** — première occurrence de valeurs valides depuis le 3 juin. Consensus PT $16.00 **au-dessus du spot** — upside théorique de +3.9%. Signal macro **NEUTRAL** — XLK top rank (momentum 10.0), pas de vent de queue sectoriel. Sizing réduit recommandé. SL $13.58, TP $18.13, R/R 1.5. **Snapshot 13:00 UTC 09/06 : thèse CONFIRMÉE — aucune mutation des données, DRAFT_refresh faux positif archivé, anomalie options JSON résolue.**
 
 ---
 
@@ -33,13 +33,13 @@
 
 | Métrique | Valeur | Source |
 |----------|--------|--------|
-| Cours close | $15.4 | Yahoo Finance |
-| Change % | 3.43% | Yahoo Finance |
-| Volume | 1,020,200 | Yahoo Finance |
-| Volume vs 20j | 0.8× | Calcul |
-| RSI 14j | 58.01 | Calcul agent |
-| ATR 14j | 0.91 | Calcul agent |
-| MM 50j | 14.82 | Calcul agent |
+| Cours close | $15.49 | Yahoo Finance |
+| Change % | 0.58% | Yahoo Finance |
+| Volume | 1,481,772 | Yahoo Finance |
+| Volume vs 20j | 1.2× | Calcul |
+| RSI 14j | 58.37 | Calcul agent |
+| ATR 14j | 0.98 | Calcul agent |
+| MM 50j | 14.87 | Calcul agent |
 | MM 200j | None | Calcul agent |
 | Golden Cross | None | Calcul agent |
 
@@ -56,9 +56,9 @@
 
 | Métrique | Valeur | Source |
 |----------|--------|--------|
-| Market Cap | 695,446,272 | Yahoo Finance |
-| P/E (TTM) | 45.294117 | Yahoo Finance |
-| Forward P/E | 12.685338 | Yahoo Finance |
+| Market Cap | 699,510,592 | Yahoo Finance |
+| P/E (TTM) | 45.558823 | Yahoo Finance |
+| Forward P/E | 12.759473 | Yahoo Finance |
 | Beta | 1.007 | Yahoo Finance |
 | Secteur | Technology | Yahoo Finance |
 | **FMP Consensus PT** | 16 (2 analysts) | FMP Stable API |
@@ -122,8 +122,8 @@
 | Signal | Valeur | Source |
 |--------|--------|--------|
 | Consensus analystes (FMP) | 16 (2 analysts) | FMP |
-| Put/Call ratio | None | Yahoo |
-| Max pain | 2.5 | Yahoo |
+| Put/Call ratio | 0.22 | Yahoo |
+| Max pain | 20.0 | Yahoo |
 
 **Verdict Sentiment :** [Bullish / Neutre / Bearish — À COMPLÉTER]
 

@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score Global :** 62.2/100 (ajusté 54.2)
-- **Score Opportunité :** 6.2/10 (C:6.5 V:8.0 M:3.0)
+- **Recommandation :** ACHETER (Réduit)
+- **Score Global :** 68.0/100 (ajusté 60.0)
+- **Score Opportunité :** 6.8/10 (C:6.5 V:8.0 M:5.3)
 - **Prix Cible :** $17.49 (consensus FMP, 12 analysts)
-- **Stop-Loss :** $10.52 (2×ATR)
-- **Statut Thèse :** Score ajusté 54.2 — snapshot 13:00 UTC 09/06 : cours $11.60 (stable vs snapshot 10h), **stabilité totale** des données (RSI 41.77, volume 58.29M/0.82×, distribution vendeuse réelle confirmée), momentum 3.0/10, support critique $11.20 à +3.4%, fondamentaux intacts (forward P/E 10.13×, upside +50.8%), **anomalie options JSON RÉSOLUE** (max pain $12.00 cohérent, put/call 1.00, call OI 50.0%)
+- **Stop-Loss :** $10.80 (2×ATR)
+- **Statut Thèse :** Score ajusté 60.0 — close officiel 21:00 UTC 09/06 : cours $11.88 (+2.41% vs 13h), **thèse MODIFIÉE** (upgrade ATTENDRE → ACHETER Réduit), rebond technique confirmé (RSI 45.41, momentum 5.3/10), mais volume faible 0.60× et rejet résistance $12.00 (high $12.035), fondamentaux intacts (forward P/E 10.37×, upside +47.2%), support $11.20 à +5.7%, timing défavorable
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
@@ -44,11 +44,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 45.35
+- **RSI 14j :** 45.41
 - **MM 50j :** 13.74
 - **MM 200j :** —
 - **ATR 14j :** 0.54
-- **Volume moy. 20j :** 70486666
+- **Volume moy. 20j :** 70521606
 
 ---
 
@@ -56,8 +56,8 @@
 
 - **Date :** 2026-06-09
 - **Type :** update
-- **Fichier :** `NU_2026-06-09_13-00_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité totale vs snapshot 10h, distribution vendeuse réelle confirmée par volume 0
+- **Fichier :** `NU_2026-06-09_21-00_update.md`
+- **Conclusion :** **Thèse : MODIFIÉE — ACHETER (Réduit) (rebond technique +2.41% confirmé, RSI 45.41 remontant, momentum fortement amélioré 5.3/10, score global ajusté bascule 54.2 → 60.0 dans la zone ACHETER, fondamentaux intacts, support $11.20 à +5.7%, mais volume faible 0.60× et rejet de la résistance $12.00)**
 
 ---
 
