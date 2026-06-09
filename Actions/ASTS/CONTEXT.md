@@ -46,10 +46,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-09
+- **Date :** 2026-06-09 (snapshot 13h UTC)
 - **Type :** update
-- **Fichier :** `ASTS_2026-06-09_update.md`
-- **Conclusion :** **Thèse confirmée : ATTENDRE — stabilité totale à $92,06 sur volume stable 0,50×, RSI neutre 52,33, divergence consensus inversée maintenue (+2,69% upside), score global ajusté 51,0/100
+- **Fichier :** `ASTS_2026-06-09_13-00_update.md`
+- **Conclusion :** **Thèse confirmée : ATTENDRE — stabilité totale à $92,06 sur volume stable 0,50×, RSI neutre 52,33, divergence consensus inversée maintenue (+2,69% upside), anomalie options JSON RÉSOLUE (max pain $120, put/call 0,74, call OI 57,4%), score global ajusté 51,0/100
 
 ---
 
