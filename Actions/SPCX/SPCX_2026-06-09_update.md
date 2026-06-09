@@ -1,14 +1,14 @@
-# SPCX — Mise à jour post-pipeline 2026-06-09 (snapshot 13h UTC)
+# SPCX — Mise à jour post-pipeline 2026-06-09 (close officiel 21h UTC)
 
 **Date :** 2026-06-09
-**Type :** Mise à jour post-pipeline — snapshot 13h UTC
-**Analyse précédente :** snapshot 10h UTC 2026-06-09
+**Type :** Mise à jour post-pipeline — close officiel 21h UTC
+**Analyse précédente :** snapshot 13h UTC 2026-06-09
 
 ---
 
 ## Résumé des changements depuis l'analyse précédente
 
-| Donnée | Précédent (10h UTC 09/06) | Actuel (13h UTC 09/06) | Changement |
+| Donnée | Précédent (13h UTC 09/06) | Actuel (21h UTC 09/06) | Changement |
 |--------|--------------------------|------------------------|------------|
 | Statut flux | `error: false` | `error: false` | = |
 | Cours close | **$135.00** | **$135.00** | = |
@@ -24,9 +24,9 @@
 | Score Momentum | 5.0/10 | 5.0/10 | = |
 | **Score Global Ajusté** | **47.2/100** | **47.2/100** | = |
 | Timing | Neutre | Neutre | = |
-| Signal sectoriel XLF | `NEUTRAL` (+1.42% 20j) | `NEUTRAL` (+1.42% 20j) | = |
+| Signal sectoriel XLF | `NEUTRAL` (momentum 4.0, return_20d +1.42%) | `NEUTRAL` (momentum **5.19**, return_20d **+2.5%**) | 🟢 **Amélioration** |
 
-**Verdict :** Seizième snapshot consécutif sans données fiables. **Stabilité totale** vs le snapshot 10h UTC : cours inchangé, volume inchangé, scores inchangés, conflit de symbole FMP persistant. Aucune mutation détectée sur aucun axe.
+**Verdict :** Dix-septième snapshot consécutif sans données fiables. **Stabilité totale** vs le snapshot 13h UTC : cours inchangé, volume inchangé, scores inchangés, conflit de symbole FMP persistant. Seul changement détecté : **amélioration sectorielle** du XLF (momentum_score 4.0 → 5.19, return_20d +1.42% → +2.5%), sans impact sur le scoring de SPCX en raison de l'absence de données ticker fiables.
 
 ---
 
@@ -55,7 +55,7 @@
 - Résistance immédiate : $22.10 (high du 19/05 — non confirmé)
 - Résistance : $22.85 – $23.00 (zone de congestion pré-mai)
 
-**Verdict timing :** Défavorable → **Non-actionnable**. L'absence de données techniques fiables (RSI, ATR, MM50) sur seize snapshots consécutifs, combinée à un cours manifestement erroné ($135.00 avec open $0.00), rend toute analyse technique impossible.
+**Verdict timing :** Défavorable → **Non-actionnable**. L'absence de données techniques fiables (RSI, ATR, MM50) sur dix-sept snapshots consécutifs, combinée à un cours manifestement erroné ($135.00 avec open $0.00), rend toute analyse technique impossible.
 
 ---
 
@@ -99,7 +99,7 @@
 | Social sentiment | No data | `data/social_sentiment_2026-06-09.json` : 0 mentions Reddit, pump_detected = false |
 | Options | 🟡 Anomalie | `max_pain` = $24.00 (incompatible avec cours $135.00), put/call ratio = 1.00, call_oi_pct = 50% — données probablement issues du même conflit de symbole |
 | Short interest | N/A | Données non fournies |
-| Analyst consensus | N/A | Non applicable (ETF) |
+| Analyst consensus | N/A | Non applicable (ETF) — `fmp_consensus` absent du snapshot SPCX |
 | FX Exposure | 🟢 | `data/fx_exposure_2026-06-09.json` : fx_impact_score 0.0, flag 🟢, neutral |
 | Géopolitique | 🟢 | `data/geo_risk_latest.json` (2026-05-17) : aucun flag SPCX |
 | Accounting | N/A | `data/accounting_risk_latest.json` absent — ETF non concerné |
@@ -107,11 +107,13 @@
 
 **Anomalie data quality persistante :** `data/upcoming_events_2026-06-09.json` mentionne un faux événement `earnings` pour SPCX le 2026-06-09 (source FMP, days_until = 0) — artefact connu pour un ETF, à ignorer. Ce faux signal est récurrent depuis plusieurs snapshots et n'impacte pas le scoring.
 
+**Alerte social sentiment (artefact) :** `data/social_sentiment_latest.json` émet une alerte `EXTREME_BEARISH` sur SPCX (value 0.0) — purement mécanique due à l'absence totale de mentions (sentiment_score = 0.0). À ignorer en l'absence de volume réel de discussion.
+
 ---
 
-## Scoring global (agents pipeline 2026-06-09, snapshot 13h UTC)
+## Scoring global (agents pipeline 2026-06-09, close officiel 21h UTC)
 
-| Axe | Score | Changement vs 10h 09/06 | Commentaire |
+| Axe | Score | Changement vs 13h 09/06 | Commentaire |
 |-----|-------|------------------------|-------------|
 | Score Catalyseur | 6.5/10 | = | Modéré-haussier — absence de catalyseur fondamental |
 | Score Valorisation | **3.0/10** | = | Détérioration mécanique — artefact de l'Agent Recommandation face aux données corrompues (P/B 22.7, P/E −80) |
@@ -125,9 +127,10 @@
 - Geo : 0 (pas de flag)
 - FX : 0 (neutre)
 - Event : 0 (aucun événement corporate réel)
-- Social : 0 (pas de données)
+- Social : 0 (pas de données — alerte EXTREME_BEARISH ignorée, artefact)
 - Quant : 0 (pas assez d'historique)
 - **Timing technique :** 0 (données absentes, momentum non vérifiable)
+- **Sector rotation :** +0 (XLF momentum_score amélioré 4.0 → 5.19, mais non transmis au scoring SPCX en raison de la corruption des données ticker)
 
 **⚠️ Alerte de seuil :** Le Score Valorisation à 3.0/10 est proche du seuil de disqualification (≤ 2/10). Une baisse additionnelle de 1.0 pt exclurait SPCX du rapport d'opportunités.
 
@@ -160,7 +163,7 @@
 
 ## Conclusion : thèse confirmée, modifiée ou invalidée ?
 
-**Verdict :** 🔴 Thèse **CONFIRMÉE** en état **SURVEILLER** — seize snapshots consécutifs sans données fiables, conflit de symbole FMP persistant, **stabilité totale du scoring** (Score Global 47.2/100 inchangé). Le setup reste non-actionnable.
+**Verdict :** 🔴 Thèse **CONFIRMÉE** en état **SURVEILLER** — dix-sept snapshots consécutifs sans données fiables, conflit de symbole FMP persistant, **stabilité totale du scoring** (Score Global 47.2/100 inchangé). Le setup reste non-actionnable.
 
 | Critère | Évaluation |
 |---------|------------|
@@ -171,12 +174,12 @@
 | Risque technique | 🔴 Données absentes / corrompues = risque non quantifiable |
 | Score Global | 🔴 **47.2/100** → reclassement SURVEILLER (fourchette 35–49) |
 | Source données | 🔴 **Conflit de symbole détecté** : SPCX mappé sur `Industrials` / `Aerospace & Defense` avec cours $135.00, OHLC $0.00/$135.00, volume 0, sector Industrials/Aerospace au lieu de Financial Services/Asset Management |
-| Signal sectoriel | 🟡 `NEUTRAL` — XLF top3 avec momentum 4.0 (`return_20d` +1.42%, inchangé vs snapshot 10h). XLF reste dans le top3 sectoriel |
+| Signal sectoriel | 🟢 **XLF amélioré** : momentum_score 4.0 → **5.19** (`return_20d` +1.42% → **+2.5%**). XLF reste dans le top3 sectoriel. Amélioration marginale du contexte sectoriel, sans impact sur le scoring de SPCX |
 | Stabilité inter-snapshot | 🟢 Cours inchangé ($135.00), volume inchangé (0), scores inchangés |
 | Seuil de vigilance | ⚠️ Score Valorisation 3.0/10 proche du seuil de disqualification (≤ 2/10) |
 
 - **Confirmation :** La recommandation **SURVEILLER** est un artefact mécanique — le fondamental (absence de données fiables) n'a pas changé. Le Score Global Ajusté de 47.2/100 reflète la détérioration du Score Valorisation, probablement déclenchée par les ratios FMP aberrants (P/B 22.7, P/E −80) que l'Agent Recommandation interprète comme une valorisation défavorable. En réalité, ces ratios appartiennent à une autre entité (conflit de symbole).
-- **Nuances :** Le snapshot 13h UTC confirme la **stabilité totale** par rapport au snapshot 10h UTC du 09/06 : cours identique ($135.00), volume identique (0), secteur erroné identique (`Industrials` / `Aerospace & Defense`), scores identiques (Global 47.2, Opportunité 4.7, Catalyseur 6.5, Valorisation 3.0, Momentum 5.0). Le signal sectoriel `NEUTRAL` persiste avec XLF return_20d +1.42% (momentum_score 4.0). Aucune news, événement corporate, flux options ni social n'est détecté sur ce snapshot. Le faux événement FMP `earnings` du 09/06 est un artefact récurrent et ignoré.
+- **Nuances :** Le close officiel 21h UTC confirme la **stabilité totale** par rapport au snapshot 13h UTC du 09/06 : cours identique ($135.00), volume identique (0), secteur erroné identique (`Industrials` / `Aerospace & Defense`), scores identiques (Global 47.2, Opportunité 4.7, Catalyseur 6.5, Valorisation 3.0, Momentum 5.0). Le signal sectoriel `NEUTRAL` persiste avec XLF return_20d **+2.5%** (momentum_score **5.19**), en **légère amélioration** vs le snapshot 13h (+1.42% / 4.0). Cette amélioration du contexte sectoriel financier ne se transmet pas au scoring de SPCX en raison de la corruption persistante des données ticker. Aucune news, événement corporate, flux options ni social n'est détecté sur ce snapshot. Le faux événement FMP `earnings` du 09/06 est un artefact récurrent et ignoré. L'alerte `EXTREME_BEARISH` du module social est un artefact mécanique (0 mention) et ignorée.
 - **Rétablissement :** Un snapshot futur avec **données de prix fiables** (Yahoo ou FMP corrigé), volume > 1 000 unités, métriques techniques (RSI, ATR, MM50) et **sector correct** (`Financial Services`) justifierait une réévaluation. Un retour du Score Global au-dessus de 50/100 relancerait le setup en ATTENDRE ; au-dessus de 60/100 en ACHENTER.
 - **Invalidation définitive :** Si le flux de prix fiable ne revient pas sur les prochains snapshots → maintien en **SURVEILLER** puis reclassement **ÉVITER**. Si le prochain prix disponible confirmé est sous $21.32 (ancien 52w low) → **ÉVITER**. Si Score Valorisation passe ≤ 2/10 → exclusion automatique du rapport.
 
@@ -184,7 +187,7 @@
 **Prix cible :** N/A (données insuffisantes — cours $135.00 non fiable)
 **Stop-loss :** N/A (prix et ATR absents)
 **Horizon :** —
-**Conviction :** Très faible — setup technique suspendu par absence totale de données fiables sur seize snapshots consécutifs. Le flux Yahoo reste indisponible et FMP semble renvoyer les données d'une autre ticker (conflit de symbole). Attendre un snapshot avec prix confirmé, sector correct et volume > 0 avant toute réévaluation.
+**Conviction :** Très faible — setup technique suspendu par absence totale de données fiables sur dix-sept snapshots consécutifs. Le flux Yahoo reste indisponible et FMP semble renvoyer les données d'une autre ticker (conflit de symbole). Attendre un snapshot avec prix confirmé, sector correct et volume > 0 avant toute réévaluation.
 
 ---
 
@@ -210,13 +213,14 @@
 | Cours confirmé sous $21.32 (ancien 52w low) | Immédiat | — | Reclassement ÉVITER |
 | News macro favorable (taux, IPO/SPAC) | Variable | Soutien aux SPACs | — |
 | Cassure $23.00 avec volume | Variable | Rehaussement en ACHENTER | — |
+| XLF momentum_score > 6.0 | 5–10j | Contexte sectoriel favorable | — |
 
 ---
 
 ## Liens
 
 - [Retour à l'index du dossier](./INDEX.md)
-- Analyse précédente : snapshot 10h UTC 2026-06-09
+- Analyse précédente : snapshot 13h UTC 2026-06-09
 - Alertes actives : [Alertes/ALERTES.md](../../Alertes/ALERTES.md)
 
 ---
@@ -228,5 +232,5 @@
 - Prix cible révisé : **N/A** (données insuffisantes — cours $135.00 non fiable)
 - Recommandation précédente : SURVEILLER
 - Recommandation révisée : **SURVEILLER** (artefact mécanique)
-- Raison principale : Snapshot 13h UTC 09/06 : stabilité totale vs snapshot 10h UTC 09/06, seize snapshots consécutifs sans données fiables, conflit de symbole FMP persistant (cours $135.00, OHLC $0.00/$135.00, volume 0, sector Industrials/Aerospace au lieu de Financial Services/Asset Management). Scoring inchangé : Score Global 47.2/100, Score Opportunité 4.7/10 (C:6.5 V:3.0 M:5.0). Signal sectoriel NEUTRAL avec XLF return_20d +1.42% (momentum_score 4.0). Aucun catalyseur ni news. Faux earnings FMP du 09/06 ignoré (artefact récurrent). Alerte : Score Valorisation 3.0/10 proche du seuil de disqualification (≤ 2/10).
+- Raison principale : Close officiel 21h UTC 09/06 : stabilité totale vs snapshot 13h UTC 09/06, dix-sept snapshots consécutifs sans données fiables, conflit de symbole FMP persistant (cours $135.00, OHLC $0.00/$135.00, volume 0, sector Industrials/Aerospace au lieu de Financial Services/Asset Management). Scoring inchangé : Score Global 47.2/100, Score Opportunité 4.7/10 (C:6.5 V:3.0 M:5.0). Signal sectoriel NEUTRAL avec XLF return_20d +2.5% (momentum_score 5.19), en légère amélioration vs snapshot 13h (+1.42% / 4.0). Aucun catalyseur ni news. Faux earnings FMP du 09/06 ignoré (artefact récurrent). Alerte social sentiment EXTREME_BEARISH ignorée (artefact mécanique, 0 mention). Alerte : Score Valorisation 3.0/10 proche du seuil de disqualification (≤ 2/10).
 - Thèse : 🟡 Confirmée (statu quo non-actionnable, dégradation data persistante avec conflit de symbole stable, reclassement mécanique ATTENDRE → SURVEILLER maintenu)
