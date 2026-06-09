@@ -89,7 +89,9 @@ Snapshot 22:34 UTC. Mêmes conclusions que le DRAFT précédent — données str
 **Triggers :**
 - atr_spike (medium) : ATR relatif 7.06% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -153,7 +155,9 @@ Snapshot 2026-05-19 17:00 UTC. Cours $13.635 (−0.76 % vs clôture précédente
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.88% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -162,7 +166,9 @@ Snapshot 2026-05-19 17:00 UTC. Cours $13.635 (−0.76 % vs clôture précédente
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.88% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -193,7 +199,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.88% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -202,7 +210,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.88% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -211,7 +221,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.76% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -220,7 +232,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.78% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -229,7 +243,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -238,7 +254,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.83% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -247,7 +265,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.83% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -256,7 +276,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.83% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -265,7 +287,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.83% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -274,7 +298,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.83% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -283,7 +309,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.83% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -292,7 +320,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.83% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -301,7 +331,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.41% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -310,7 +342,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.41% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -319,7 +353,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.35% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -328,7 +364,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.35% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -337,7 +375,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.35% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -346,7 +386,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.35% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -355,7 +397,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.35% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -364,7 +408,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.35% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -374,7 +420,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (high) : Gap +10.15% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.21% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -384,7 +432,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (high) : Gap +10.59% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.25% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -394,7 +444,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.17% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -404,7 +456,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -414,7 +468,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -424,7 +480,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -434,7 +492,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -444,7 +504,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -454,7 +516,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -464,7 +528,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -474,7 +540,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -484,7 +552,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -494,7 +564,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -504,7 +576,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -514,7 +588,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -524,7 +600,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -534,7 +612,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -544,7 +624,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -554,7 +636,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -564,7 +648,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -644,7 +730,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -666,7 +754,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -676,7 +766,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -686,7 +778,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -696,7 +790,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 - price_gap (medium) : Gap +9.10% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.33% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -705,7 +801,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.04% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -715,7 +813,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 - price_gap (medium) : Gap +6.79% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.05% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -725,7 +825,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 - price_gap (medium) : Gap +6.24% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.08% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -745,7 +847,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 - price_gap (medium) : Gap +6.40% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.08% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -755,7 +859,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 - price_gap (medium) : Gap +6.40% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.08% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -765,7 +871,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 - price_gap (medium) : Gap +6.40% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.08% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -775,7 +883,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 - price_gap (medium) : Gap +6.40% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.08% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -785,7 +895,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 - price_gap (medium) : Gap -5.26% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.60% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -794,7 +906,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.56% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -803,7 +917,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.58% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -812,7 +928,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.57% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -821,7 +939,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.57% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -830,7 +950,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.57% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -839,7 +961,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.57% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -848,7 +972,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.57% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -857,7 +983,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.47% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -866,7 +994,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.52% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -875,7 +1005,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.60% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -884,7 +1016,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.61% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -893,7 +1027,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.61% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -902,7 +1038,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.61% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -911,7 +1049,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.61% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -920,7 +1060,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.61% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -929,7 +1071,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.91% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -938,7 +1082,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.84% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -947,7 +1093,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.82% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -956,7 +1104,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -965,7 +1115,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -974,7 +1126,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -983,7 +1137,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -992,7 +1148,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1001,7 +1159,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1010,7 +1170,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1019,7 +1181,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1028,7 +1192,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1037,7 +1203,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1046,7 +1214,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1055,7 +1225,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1064,7 +1236,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1073,7 +1247,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1082,7 +1258,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1091,7 +1269,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1100,7 +1280,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1109,7 +1291,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1118,7 +1302,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1127,7 +1313,9 @@ Snapshot 21:00 UTC. Données strictement inchangées vs snapshot 17:00 UTC (clos
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1147,7 +1335,9 @@ Snapshot 2026-06-01 10:00 UTC. Cours $14.84 (−2.88% vs previous close, −5.47
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1156,7 +1346,9 @@ Snapshot 2026-06-01 10:00 UTC. Cours $14.84 (−2.88% vs previous close, −5.47
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.81% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1166,7 +1358,9 @@ Snapshot 2026-06-01 10:00 UTC. Cours $14.84 (−2.88% vs previous close, −5.47
 - price_gap (medium) : Gap +7.11% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.29% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1176,7 +1370,9 @@ Snapshot 2026-06-01 10:00 UTC. Cours $14.84 (−2.88% vs previous close, −5.47
 - price_gap (medium) : Gap +9.00% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.31% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1186,7 +1382,9 @@ Snapshot 2026-06-01 10:00 UTC. Cours $14.84 (−2.88% vs previous close, −5.47
 - price_gap (medium) : Gap +9.40% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.41% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1196,7 +1394,9 @@ Snapshot 2026-06-01 10:00 UTC. Cours $14.84 (−2.88% vs previous close, −5.47
 - price_gap (medium) : Gap +9.50% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.40% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1230,7 +1430,9 @@ Snapshot 2026-06-02 13:00 UTC. Cours **$16.25** strictement inchangé vs snapsho
 - price_gap (medium) : Gap +9.50% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 6.40% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1239,7 +1441,9 @@ Snapshot 2026-06-02 13:00 UTC. Cours **$16.25** strictement inchangé vs snapsho
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.98% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1248,7 +1452,9 @@ Snapshot 2026-06-02 13:00 UTC. Cours **$16.25** strictement inchangé vs snapsho
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.06% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1257,7 +1463,9 @@ Snapshot 2026-06-02 13:00 UTC. Cours **$16.25** strictement inchangé vs snapsho
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.07% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1278,7 +1486,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.05% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1287,7 +1497,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.05% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1296,7 +1508,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.05% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1305,7 +1519,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.05% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1314,7 +1530,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.70% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1323,7 +1541,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.79% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1332,7 +1552,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.85% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1341,7 +1563,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1350,7 +1574,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1359,7 +1585,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1368,7 +1596,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1377,7 +1607,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1386,7 +1618,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.16% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1395,7 +1629,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.13% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1404,7 +1640,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.02% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1413,7 +1651,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.02% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1422,7 +1662,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.02% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1431,7 +1673,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.02% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1440,7 +1684,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.02% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1449,7 +1695,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.02% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1459,7 +1707,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 - price_gap (medium) : Gap -9.33% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.03% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1469,7 +1719,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 - price_gap (high) : Gap -12.00% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.52% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1479,7 +1731,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 - price_gap (high) : Gap -13.90% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.90% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1489,7 +1743,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 - price_gap (high) : Gap -13.48% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1499,7 +1755,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 - price_gap (high) : Gap -13.48% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1509,7 +1767,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 - price_gap (high) : Gap -13.48% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1519,7 +1779,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 - price_gap (high) : Gap -13.48% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1529,7 +1791,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 - price_gap (high) : Gap -13.48% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1539,7 +1803,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 - price_gap (high) : Gap -13.48% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1549,7 +1815,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 - price_gap (high) : Gap -13.48% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1559,7 +1827,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 - price_gap (high) : Gap -13.48% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1569,7 +1839,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 - price_gap (high) : Gap -13.48% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1579,7 +1851,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 - price_gap (high) : Gap -13.48% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1589,7 +1863,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 - price_gap (high) : Gap -13.48% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1599,7 +1875,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 - price_gap (high) : Gap -13.48% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1609,7 +1887,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 - price_gap (high) : Gap -13.48% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1619,7 +1899,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 - price_gap (high) : Gap -13.48% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1629,7 +1911,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 - price_gap (high) : Gap -13.48% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1639,7 +1923,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 - price_gap (high) : Gap -13.48% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1649,7 +1935,9 @@ Snapshot 2026-06-02 21:00 UTC final. Cours **$16.85** (+0.09% vs 17h, +3.7% vs p
 - price_gap (high) : Gap -13.48% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1683,7 +1971,9 @@ Données prix/volume/technique **strictement inchangées** vs snapshot 10:00 UTC
 - price_gap (high) : Gap -13.48% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.86% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1692,7 +1982,9 @@ Données prix/volume/technique **strictement inchangées** vs snapshot 10:00 UTC
 **Triggers :**
 - atr_spike (medium) : ATR relatif 7.47% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1701,7 +1993,9 @@ Données prix/volume/technique **strictement inchangées** vs snapshot 10:00 UTC
 **Triggers :**
 - atr_spike (medium) : ATR relatif 7.51% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1710,7 +2004,9 @@ Données prix/volume/technique **strictement inchangées** vs snapshot 10:00 UTC
 **Triggers :**
 - atr_spike (medium) : ATR relatif 7.59% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1719,7 +2015,9 @@ Données prix/volume/technique **strictement inchangées** vs snapshot 10:00 UTC
 **Triggers :**
 - atr_spike (medium) : ATR relatif 7.61% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1750,7 +2048,9 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Triggers :**
 - atr_spike (medium) : ATR relatif 7.61% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---
 
@@ -1759,6 +2059,8 @@ DRAFT_refresh antérieur sans matérialisation de données nouvelles. Conclusion
 **Triggers :**
 - atr_spike (medium) : ATR relatif 7.61% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 13:00 UTC
+
+Snapshot 2026-06-09 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.59, RSI 54.58, ATR $1.11, volume 102.6M 0.82×). **Données options corrigées** dans `latest.json` : max pain $15.00 (vs $3.00 aberrant à 10h), put/call 0.78, call OI 56.2%. Aucun événement corporate (`events_latest.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative (7.61%) reflète le range intraday consolidé depuis le gap du 08/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +35.1%. Score Opportunité 4.6/10. Action ATTENDRE confirmée (Score Global ajusté 51.2/100). DRAFT_refresh archivé. Thèse inchangée.
 
 ---

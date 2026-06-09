@@ -1,28 +1,30 @@
-# NOK — Mise à jour quotidienne (Snapshot 10:00 UTC)
+# NOK — Mise à jour quotidienne (Snapshot 13:00 UTC)
 
 > **Date :** 2026-06-09
-> **Type :** Update — stabilité totale vs close officiel précédent
-> **Fichier précédent :** [NOK_2026-06-08_update.md](./NOK_2026-06-08_update.md) (snapshot 21:00 UTC)
+> **Type :** Update — stabilité prix/volume, correction données options
+> **Fichier précédent :** [NOK_2026-06-09_update.md](./NOK_2026-06-09_update.md) (snapshot 10:00 UTC)
 
 ---
 
 ## 1. Résumé des changements
 
-| Métrique | 2026-06-08 21:00 UTC | 2026-06-09 10:00 UTC | Δ |
+| Métrique | 2026-06-09 10:00 UTC | 2026-06-09 13:00 UTC | Δ |
 |----------|----------------------|----------------------|---|
 | **Cours close** | $14.59 | **$14.59** | — |
 | **Change vs previous close** | +1.46% | **+1.46%** | — |
 | **RSI 14j** | 54.58 | **54.58** | — |
-| **Volume session** | 102.4M (0.82×) | **102.6M (0.82×)** | +0.2% |
+| **Volume session** | 102.6M (0.82×) | **102.6M (0.82×)** | — |
 | **ATR 14j** | $1.11 | **$1.11** | — |
 | **MM 50j** | $12.29 | **$12.29** | — |
-| **Max pain options** | $15.00 | **$15.00** (opérationnel) | — |
-| **Put/Call ratio** | 1.00 | **1.00** (opérationnel) | — |
-| **Call OI %** | 49.9% | **49.9%** (opérationnel) | — |
+| **Max pain options** | $15.00 (opérationnel) | **$15.00** | ✅ Corrigé dans `latest.json` |
+| **Put/Call ratio** | 1.00 (opérationnel) | **0.78** | 🟢 Amélioration (call-biased) |
+| **Call OI %** | 49.9% (opérationnel) | **56.2%** | 🟢 Call-dominated confirmé |
 | **Score Global ajusté** | 51.2 — ATTENDRE | **51.2 — ATTENDRE** | — |
 | **Recommandation** | ATTENDRE | **ATTENDRE** | Confirmé |
 
-**Verdict :** Le snapshot 10:00 UTC du 2026-06-09 reproduit **intégralement** le close officiel du 2026-06-08 21:00 UTC. Aucune mutation technique, fondamentale ou sentimentale. Le volume est quasi-identique (102.6M vs 102.4M). Le **Score Global ajusté** reste à **51.2/100** (zone ATTENDRE). Aucun événement corporate (`events_latest.json` vide pour NOK). Aucune news structurante.
+**Verdict :** Le snapshot 13:00 UTC du 2026-06-09 reproduit **intégralement** le close officiel du 2026-06-08 21:00 UTC sur toutes les métriques prix, volume, technique et fondamentale. La seule mutation est la **correction des données options** dans `data/latest.json` (anomalie $3.00 du snapshot 10h résolue). Le **Score Global ajusté** reste à **51.2/100** (zone ATTENDRE). Aucun événement corporate (`events_latest.json` vide pour NOK). Aucune news structurante.
+
+**DRAFT_refresh traité :** Trigger `ATR_SPIKE` (7.61%) archivé comme **faux positit technique** — l'ATR $1.11 est stable depuis le gap du 08/06, le ratio ATR/cours reflète un range consolidé, pas un changement de régime.
 
 > **[DONNÉES PARTIELLES]** : `validation_report.txt` du 2026-06-09 signale un warning qualité sur NOK (P/E élevé, premium vs consensus). Ce warning est inchangé depuis le 2026-05-17.
 
@@ -84,18 +86,22 @@ Inchangé vs snapshot 2026-06-08 21:00 UTC. Voir [NOK_2026-05-17_init.md](./NOK_
 | Signal | Valeur | Source |
 |--------|--------|--------|
 | Consensus analystes (FMP) | **$10.8** (7 analysts) | FMP Stable API |
-| Max pain options | **$15.00** | Valeur opérationnelle (conservée) |
-| Put/Call ratio | **1.00** | Valeur opérationnelle (conservée) |
-| Call OI % | **49.9%** | Valeur opérationnelle (conservée) |
+| Max pain options | **$15.00** | `data/latest.json` (✅ corrigé) |
+| Put/Call ratio | **0.78** | `data/latest.json` |
+| Call OI % | **56.2%** | `data/latest.json` |
 | Expiration nearest | **2026-06-12** | Yahoo Finance |
 | Social sentiment (Reddit) | 0 mentions / No data | `social_sentiment_latest.json` |
 
-⚠️ **Anomalie options dans `data/latest.json` :** max pain $3.00 (aberrant vs $15.00 opérationnel), put/call null, call OI null. Cette anomalie est récurrente sur NOK (dernière occurrence le 2026-06-03). Les valeurs opérationnelles du snapshot 2026-06-08 21:00 UTC sont conservées : max pain $15.00, put/call 1.00, call OI 49.9%.
+✅ **Anomalie options résolue dans `data/latest.json` :** Le snapshot 13:00 UTC corrige l'anomalie du snapshot 10:00 (max pain $3.00 aberrant, put/call et call OI null). Les valeurs actuelles sont :
+- Max pain **$15.00** — aligné avec les valeurs opérationnelles précédentes
+- Put/call **0.78** — structure légèrement call-biased (vs 1.00 équilibré précédemment)
+- Call OI **56.2%** — call-dominated confirmé (vs 49.9% précédemment)
 
-**Structure options (valeurs conservées) :**
-- Max pain $15.00 inchangé. Cours $14.59 < max pain (−2.7%) — pression baissière au pin modérée.
-- Put/call 1.00 et call OI 49.9% inchangés — structure neutre, sans domination call ou put.
-- Expiration dans 3 jours (2026-06-12). Risque de pin vers $15.00 persiste.
+**Structure options (mise à jour) :**
+- Max pain $15.00 inchangé. Cours $14.59 < max pain (−2.7%) — pression baissière au pin modérée persiste.
+- Put/call 0.78 — amélioration vs 1.00 précédent : les puts sont moins dominants, signal légèrement bullish.
+- Call OI 56.2% — confirmation de la domination call, structure plus constructive qu'estimé à 10h.
+- Expiration dans 3 jours (2026-06-12). Risque de pin vers $15.00 persiste mais légèrement atténué par la structure call-biased.
 
 **News / Événements :**
 - `events_latest.json` : **0 événement** corporate pour NOK
@@ -116,7 +122,7 @@ Inchangé vs snapshot 2026-06-08 21:00 UTC. Voir [NOK_2026-05-17_init.md](./NOK_
 
 ## 6. Nouveau Scoring Global
 
-**Source :** `data/recommandations_latest.json` (2026-06-09)
+**Source :** `data/recommandations_latest.json` (2026-06-09 13:00 UTC)
 
 | Score | Valeur | Commentaire |
 |-------|--------|-------------|
@@ -132,16 +138,17 @@ Inchangé vs snapshot 2026-06-08 21:00 UTC. Voir [NOK_2026-05-17_init.md](./NOK_
 - Le 03/06 : Score Global 31.8 — ÉVITER
 - Le 08/06 10:00 : Score Global 48.0 — SURVEILLER
 - Le 08/06 21:00 : Score Global 51.2 — ATTENDRE
-- Le 09/06 10:00 : Score Global **51.2** — **ATTENDRE** (confirmé)
+- Le 09/06 10:00 : Score Global **51.2** — **ATTENDRE**
+- Le 09/06 13:00 : Score Global **51.2** — **ATTENDRE** (confirmé)
 
-Le scoring est **stable**. Le Score Momentum 7.3/10 compense les faiblesses fondamentales (Catalyseur 4.0, Valorisation 3.5) pour maintenir l'action dans la zone ATTENDRE. Le Filtre Qualité 2.5/6 maintient le plafond sur la valorisation.
+Le scoring est **stable**. Le Score Momentum 7.3/10 compense les faiblesses fondamentales (Catalyseur 4.0, Valorisation 3.5) pour maintenir l'action dans la zone ATTENDRE. Le Filtre Qualité 2.5/6 maintient le plafond sur la valorisation. La correction des données options (put/call 0.78, call OI 56.2%) ne modifie pas le scoring global.
 
 ---
 
 ## 7. Révision des Niveaux SL / TP / Sizing
 
-| Niveau | Valeur précédente (08/06) | Valeur actuelle (09/06) | Justification |
-|--------|---------------------------|-------------------------|---------------|
+| Niveau | Valeur précédente (10:00 UTC) | Valeur actuelle (13:00 UTC) | Justification |
+|--------|-------------------------------|----------------------------|---------------|
 | **Prix cible** | $10.8 (consensus) | **$10.8** | Inchangé |
 | **Stop-loss** | $12.37 | **$12.37** | Cours − 2×ATR (inchangé) |
 | **Take-profit** | $17.92 | **$17.92** | Cours + 3×ATR (inchangé) |
@@ -153,7 +160,7 @@ Le scoring est **stable**. Le Score Momentum 7.3/10 compense les faiblesses fond
 
 ## 8. Scénarios & Probabilités
 
-Inchangés vs 2026-06-08.
+Inchangés vs 2026-06-09 10:00 UTC.
 
 | Scénario | Probabilité | Impact cours | Description |
 |----------|-------------|--------------|-------------|
@@ -165,10 +172,11 @@ Inchangés vs 2026-06-08.
 
 ## 9. Conclusion — Thèse confirmée
 
-**Verdict :** La thèse **ATTENDRE** est **confirmée** avec stabilité totale.
+**Verdict :** La thèse **ATTENDRE** est **confirmée** avec stabilité totale des données prix/volume/technique.
 
 **Ce qui a changé :**
-- **Rien.** Le snapshot 10:00 UTC du 2026-06-09 est strictement identique au close officiel du 2026-06-08 21:00 UTC sur toutes les métriques prix, volume, technique, fondamentale et scoring.
+- **Options corrigées** dans `data/latest.json` : anomalie $3.00 du snapshot 10h résolue. Put/call 0.78 (vs 1.00 opérationnel), call OI 56.2% (vs 49.9% opérationnel) — structure légèrement plus call-biased, signal modérément plus constructif sans changer le verdict global.
+- **DRAFT_refresh archivé** : trigger ATR_SPIKE (7.61%) traité comme faux positit technique.
 
 **Ce qui n'a pas changé :**
 - Cours stable à $14.59 (+1.46% vs previous close).
@@ -178,11 +186,10 @@ Inchangés vs 2026-06-08.
 - Aucun catalyseur fondamental détecté.
 - Consensus analystes $10.8 (7 analysts) — premium persistant +35.1%.
 - XLC bottom 3 du sector rotation.
-- Options structurellement inchangées (max pain $15.00, put/call 1.00, expiration 12/06 dans 3 jours).
 - Aucun événement corporate, aucune news structurante.
 - Score Global ajusté 51.2/100 — ATTENDRE.
 
-**Recommandation révisée :** **ATTENDRE** — Pas de position. L'absence de mutation entre le close d'hier et le snapshot d'aujourd'hui confirme que le marché est en phase de consolidation sans direction claire. Le risque de pin options ($15.00, expiration dans 3 jours) limite l'upside technique. Une entrée reste exclue sans :
+**Recommandation révisée :** **ATTENDRE** — Pas de position. L'absence de mutation entre le snapshot 10h et 13h confirme la consolidation sans direction claire. La correction des données options (structure call-biased 56.2%) atténue légèrement le risque de pin mais ne modifie pas l'overhang technique. Une entrée reste exclue sans :
 - Test et rebond sur la MM50 ($12.29) avec volume > moyenne
 - Amélioration du Score Valorisation > 5.0/10
 - Apparition d'un catalyseur sectoriel ou corporate
@@ -191,4 +198,4 @@ Inchangés vs 2026-06-08.
 
 ---
 
-*Généré automatiquement — données sourcées exclusivement depuis `data/latest.json` (snapshot 2026-06-09 10:00 UTC), `data/recommandations_latest.json`, et fichiers JSON agents.*
+*Généré automatiquement — données sourcées exclusivement depuis `data/latest.json` (snapshot 2026-06-09 13:00 UTC), `data/recommandations_latest.json`, et fichiers JSON agents.*
