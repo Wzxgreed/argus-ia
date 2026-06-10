@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
-- **Horizon :** —
+- **Recommandation :** ATTENDRE
+- **Score global :** 53.5/100
+- **Prix cible :** $295.96 (consensus FMP 61 analystes)
+- **Stop-loss :** $287.22 (estimé sur base ATR $7.16 — [DONNÉES PARTIELLES])
+- **Statut thèse :** confirmée
+- **Horizon :** 1–3 mois (jusqu'à earnings Q3 FY2026 le 2026-07-30)
 
 ---
 
@@ -24,32 +24,41 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🟡 Volume élevé pré-ouverture 69.93M (1.39×) — à confirmer en séance
+- 🟡 Anomalie options JSON récurrente (snapshot 10h) — valeurs opérationnelles conservées
+- 🟡 Short interest en légère hausse 1.06% (+0.11 pt)
+- 🟡 Timing downgradé Favorable → Neutre
+- 🟡 Support $287.22 estimé — cassure = invalidation rebond
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q3 FY2026 :** 2026-07-30 (50 jours) — Est. EPS $1.83–$1.99, Rev $109.0B
+- **Échéance options :** 2026-06-10 (aujourd'hui) — gamma risk JOUR J
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 52.84
-- **MM 50j :** —
-- **MM 200j :** —
-- **ATR 14j :** —
+- **Cours :** $301.54 (previous close)
+- **RSI 14j :** 52.84 (zone neutre favorable)
+- **MM 50j :** null [DONNÉES PARTIELLES]
+- **MM 200j :** null [DONNÉES PARTIELLES]
+- **ATR 14j :** null [DONNÉES PARTIELLES] — dernier connu $7.16
 - **Volume moy. 20j :** 50458533
+- **Volume jour :** 69930268 (1.39×)
+- **Short Interest :** 1.06%
+- **52W Range :** $195.07–$317.40
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-09
-- **Type :** init
-- **Fichier :** `AAPL_2026-06-09_update_13h.md`
-- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-09 13:00 UTC) + agents quant, geo, accounting, sector, social, FX, watchman, events, recommandation
+- **Date :** 2026-06-10
+- **Type :** update
+- **Fichier :** `AAPL_2026-06-10_update.md`
+- **Conclusion :** Rebond technique +4.23% post-sell-off, RSI remonté 52.84 (zone neutre favorable), données techniques partielles (ATR/MM50 null), options JSON anomalie récurrente, timing downgradé Favorable → Neutre, recommandation ATTENDRE confirmée. Score Global 53.5/100, Score Opportunité 5.4/10.
 
 ---
 
