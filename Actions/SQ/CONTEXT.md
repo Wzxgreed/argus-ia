@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
+- **Recommandation :** ATTENDRE
+- **Score global :** 5.4/10 (institutionnel) / 5.8/10 (agent — non fiable car quality gate excluded)
+- **Prix cible :** $85.67 (consensus, 3 analystes)
+- **Stop-loss :** $— (non défini — stale price)
+- **Statut thèse :** Confirmée — ATTENDRE
 - **Horizon :** —
 
 ---
@@ -24,32 +24,41 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🔴 **Exclusion Quality Gate** — `quality_gate_2026-06-10.json` : `excluded` (CRITICAL stale_price_history)
+- 🔴 **Stale Price** — Cours $83.46 figé ≥53 snapshots / ≥22 jours calendaires (20/05 → 10/06)
+- 🔴 **Earnings Placeholder Glissant** — J=0 depuis ≥53 snapshots, date glissée au 10/06, details vide
+- 🔴 **Source FMP Fallback** — Dernier ticker avec `source: "fmp_fallback"` et `change_pct: null`
+- 🟡 **Consensus Figé** — $85.67 (3 analystes) inchangé depuis 27/05
+- 🟡 **Divergence Market Cap FMP** — $51.73B vs $35.03B (~47%)
+- 🟡 **Données Techniques Partielles** — Bloc `technical` vide, RSI/ATR/MM indisponibles
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-06-10** · earnings · Earnings ...
+- **2026-06-10** · earnings · Earnings (placeholder FMP, J=0, non résolu)
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** —
-- **MM 50j :** —
-- **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** —
+- **RSI 14j :** N/A (bloc `technical` vide)
+- **MM 50j :** N/A
+- **MM 200j :** N/A
+- **ATR 14j :** N/A
+- **Volume moy. 20j :** N/A
+- **Volume snapshot :** 1,142,032
+- **Cours :** $83.46 (figé, stale ≥22 jours)
+- **Previous close :** $82.99 (divergence vs close)
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-10
-- **Type :** preview
-- **Fichier :** `SQ_2026-06-10_preview.md`
-- **Conclusion :** > **Date :** 2026-06-10
+- **Type :** update
+- **Fichier :** `SQ_2026-06-10_update.md`
+- **Conclusion :** ATTENDRE — Qualité 3/6 (hors périmètre), stale price ≥53 snapshots / ≥22 jours, exclusion quality_gate CRITICAL, earnings placeholder glissant ≥53 snapshots, consensus figé $85.67, signal sectoriel NEUTRAL, divergence market cap FMP ~47%, zero mutation données brutes vs 09/06 21h00.
 
 ---
 

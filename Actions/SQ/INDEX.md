@@ -2,7 +2,7 @@
 
 ## Thèse courante
 
-**ATTENDRE** (2026-06-09 · snapshot 17h00 UTC) — Qualité opérationnelle classée **hors périmètre (3/6)** après injection FMP FY 2025-12-31 : bilan structurellement négatif (tangible asset value −$32.5B, current ratio −0.18), rentabilité GAAP inexistante (ROIC −12.8%, net margin ~0%), et dilution SBC à 5% des revenus. La valorisation reflète cette dégradation (EV/EBITDA 18.2x, P/S 1.45x) sans marge de sécurité. Le timing est bloqué par l'**anomalie de données critique** : **cours figé $83.46 sur ≥51 snapshots consécutifs couvrant ≥21 jours calendaires** (20/05 → 09/06) et **earnings placeholder glissant depuis ≥51 snapshots** (date initialement prévue 20/05, glissée au 09/06). SQ est le **dernier ticker** du snapshot 09/06 avec `source: fmp_fallback` et `change_pct: null`. Le consensus sell-side est **figé à $85.67** (3 analystes, upside +2.6%) — silence institutionnel complet depuis le 27/05. Le validation report du 09/06 affiche **5 [ERROR]** (identique 16:07 UTC) et `0 excluded by quality gate` — SQ n'est pas listé dans les erreurs, mais le stale price reste le cas le plus ancien et le plus sévère. Le signal sectoriel reste **`NEUTRAL`** (`data:sector_rotation_2026-06-09.json`, XLK top3 mais crossovers vides). Ce contexte sectoriel reste globalement favorable pour SQ mais **ne compense pas** le stale price, la qualité hors périmètre, et le silence informationnel. Tout positionnement avant résolution du stale price est déconseillé. Priorité opérationnelle : vérifier cours live via broker, date réelle de publication Q1 2026, forcer re-fetch isolé de SQ. Risque de gap violent (±10–15%) à la réouverture d'un cours live maximal.
+**ATTENDRE** (2026-06-10 · snapshot 10h00 UTC) — Qualité opérationnelle classée **hors périmètre (3/6)** après injection FMP FY 2025-12-31 : bilan structurellement négatif (tangible asset value −$32.5B, current ratio −0.18), rentabilité GAAP inexistante (ROIC −12.8%, net margin ~0%), et dilution SBC à 5% des revenus. La valorisation reflète cette dégradation (EV/EBITDA 18.2x, P/S 1.45x) sans marge de sécurité. Le timing est bloqué par l'**anomalie de données critique** : **cours figé $83.46 sur ≥53 snapshots consécutifs couvrant ≥22 jours calendaires** (20/05 → 10/06), **exclusion officielle dans `quality_gate_2026-06-10.json`** (CRITICAL stale_price_history), et **earnings placeholder glissant depuis ≥53 snapshots** (date initialement prévue 20/05, glissée au 10/06). SQ est le **dernier ticker** du snapshot 10/06 avec `source: fmp_fallback` et `change_pct: null`. Le consensus sell-side est **figé à $85.67** (3 analystes, upside +2.6%) — silence institutionnel complet depuis le 27/05. Le validation report du 10/06 affiche **5 [ERROR]** et `0 excluded by quality gate`, mais le fichier `quality_gate_2026-06-10.json` place SQ comme **`excluded`** — divergence gate/validation persistante. Le signal sectoriel reste **`NEUTRAL`** (`data:sector_rotation_2026-06-10.json`, XLK top3 mais crossovers vides et returns `NaN`). Ce contexte sectoriel reste globalement favorable pour SQ mais **ne compense pas** l'exclusion quality gate, le stale price, la qualité hors périmètre, et le silence informationnel. Tout positionnement avant résolution du stale price est déconseillé. Priorité opérationnelle : vérifier cours live via broker, date réelle de publication Q1 2026, forcer re-fetch isolé de SQ. Risque de gap violent (±10–15%) à la réouverture d'un cours live maximal.
 
 ---
 
@@ -10,6 +10,7 @@
 
 | Date | Fichier | Type | Conclusion |
 |------|---------|------|------------|
+| 2026-06-10 | [SQ_2026-06-10_update.md](SQ_2026-06-10_update.md) | Mise à jour snapshot **10:00 UTC** pré-session US | **ATTENDRE** — Qualité 3/6, **stale price ≥53 snapshots / ≥22 jours**, earnings placeholder **glissant ≥53 snapshots** (date glissée au 10/06), consensus PT **figé** $85.67 (3 analystes), signal sectoriel **`NEUTRAL`** stable, **exclusion quality_gate_2026-06-10.json** (CRITICAL stale_price_history), **divergence market cap FMP ~47%**, **zero mutation données brutes SQ vs snapshot 21h00 UTC 09/06**, scoring inchangé 5.4/10 institutionnel, Score Global Ajusté **~59.0**, validation **5 [ERROR]** (identique 09/06) |
 | 2026-06-09 | [SQ_2026-06-09_update_21h00.md](SQ_2026-06-09_update_21h00.md) | Mise à jour snapshot **21:00 UTC** close officiel US / fin de journée | **ATTENDRE** — Qualité 3/6, **stale price ≥52 snapshots / ≥21 jours**, earnings placeholder **glissant ≥52 snapshots** (date glissée au 09/06), consensus PT **figé** $85.67 (3 analystes), signal sectoriel **`NEUTRAL`** stable, **zero mutation données brutes SQ vs snapshot 17h00 UTC**, scoring inchangé 5.4/10 institutionnel, Score Global Ajusté **~59.0**, validation **5 [ERROR]** (identique 16:07 UTC) |
 | 2026-06-09 | [SQ_2026-06-09_update.md](SQ_2026-06-09_update.md) | Mise à jour snapshot **17:00 UTC** close officiel US / fin de journée | **ATTENDRE** — Qualité 3/6, **stale price ≥51 snapshots / ≥21 jours**, earnings placeholder **glissant ≥51 snapshots** (date glissée au 09/06), consensus PT **figé** $85.67 (3 analystes), signal sectoriel **`NEUTRAL`** stable, **zero mutation données brutes SQ vs snapshot 13h00 UTC**, scoring inchangé 5.4/10 institutionnel, Score Global Ajusté **~59.0**, validation **5 [ERROR]** (identique 16:07 UTC) |
 | 2026-06-09 | [SQ_2026-06-09_update.md](SQ_2026-06-09_update.md) *(archive 13:00 UTC)* | Mise à jour snapshot **13:00 UTC** mid-session US | **ATTENDRE** — Qualité 3/6, **stale price ≥50 snapshots / ≥21 jours**, earnings placeholder **glissant 23+ jours** (date glissée au 09/06), consensus PT **figé** $85.67 (3 analystes), signal sectoriel **`NEUTRAL`** stable, **zero mutation données brutes SQ vs snapshot 10h00 UTC 09/06**, scoring inchangé 5.4/10 institutionnel, Score Global Ajusté **~59.0**, validation **5 [ERROR]** (identique 12:07 UTC) |
@@ -51,8 +52,8 @@
 
 ## Agenda
 
-- **2026-05-20 (initialement prévu)** · 🔴 **Earnings Q1 2026** — résultats **toujours non intégrés** dans le snapshot 09/06 (**21 jours après date prévue**). `upcoming_events_2026-06-09.json` affiche `"date": "2026-06-09"` avec `"days_until": 0`, mais le champ `"details": "Earnings "` est vide, et ce pattern est identique pour TEST, FUBO, AST, AXA, SPCX, QTBS, ASTSPACE (7 autres tickers), suggérant un placeholder FMP générique.
-- **Action opérationnelle urgente :** Vérifier date réelle de publication Q1 2026 via site IR Block / SEC EDGAR. Forcer re-fetch isolé de SQ (`scripts/fetch_prices.py --tickers SQ`) pour diagnostiquer l'échec spécifique du worker daemon.
+- **2026-06-10 (glissement)** · 🔴 **Earnings Q1 2026** — résultats **toujours non intégrés** dans le snapshot 10/06 (**24 jours après date prévue**). `upcoming_events_2026-06-10.json` affiche `"date": "2026-06-10"` avec `"days_until": 0`, mais le champ `"details": "Earnings "` est vide, et ce pattern est identique pour TEST, FUBO, AST, AXA, SPCX, QTBS, ASTSPACE (7 autres tickers), suggérant un placeholder FMP générique.
+- **Action opérationnelle urgente :** Vérifier date réelle de publication Q1 2026 via site IR Block / SEC EDGAR. Forcer re-fetch isolé de SQ (`scripts/fetch_prices.py --tickers SQ`) pour diagnostiquer l'échec spécifique du worker daemon. Surveiller la résolution de l'exclusion `quality_gate_2026-06-10.json`.
 - Post-earnings : réviser le Filtre Qualité, le scoring, et le timing technique dès disponibilité des données RSI/ATR/MM **non stale**
 - Vérifier résolution du stale price dans le prochain snapshot (risque de gap violent ±10–15% à réouverture)
 
@@ -60,12 +61,15 @@
 
 ## Alertes actives
 
-- 🔴 **Stale Price aggravé** — cours figé ≥49 snapshots / ≥21 jours calendaires (2026-05-20 → 2026-06-09). SQ est le cas le plus ancien et le plus sévère de stale price dans le snapshot.
-- 🔴 **Data Pipeline Alert** — Earnings Q1 2026 non résolu après **23 jours calendaires** (date initiale 20/05). `upcoming_events_2026-06-09.json` affiche `days_until: 0` avec date 09/06 (glissement depuis 20/05), mais champ details vide (placeholder FMP générique).
-- 🔴 **Source FMP Fallback** — SQ est le **dernier ticker** du snapshot 09/06 avec `"fmp_fallback"` et `change_pct: null`.
+- 🔴 **Exclusion Quality Gate** — SQ est désormais **`excluded`** dans `quality_gate_2026-06-10.json` (CRITICAL stale_price_history : "close identique sur 4 jours consécutifs"). Première exclusion officielle documentée.
+- 🔴 **Stale Price aggravé** — cours figé ≥53 snapshots / ≥22 jours calendaires (2026-05-20 → 2026-06-10). SQ est le cas le plus ancien et le plus sévère de stale price dans le snapshot.
+- 🔴 **Data Pipeline Alert** — Earnings Q1 2026 non résolu après **24 jours calendaires** (date initiale 20/05). `upcoming_events_2026-06-10.json` affiche `days_until: 0` avec date 10/06 (glissement depuis 20/05), mais champ details vide (placeholder FMP générique).
+- 🔴 **Source FMP Fallback** — SQ est le **dernier ticker** du snapshot 10/06 avec `"fmp_fallback"` et `change_pct: null`.
 - 🟡 **Consensus PT Figé** — Price target consensus **$85.67** (3 analystes) inchangé depuis le 27/05. Silence sell-side prolongé ; upside +2.6% quasi-insuffisant.
-- 🔴 **Pipeline Degradation** — `validation_report.txt` (09:07 UTC) affiche **5 [ERROR]** (VRT schema + AST/AXA/ASTSPACE/QTBS fetch) — seuil >2 franchi, stable vs 08/06.
-- 🟡 **Rotation Sectorielle Neutralisée** — XLK (Technology) reste top3 sectoriel avec momentum score 10.0, mais le signal global reste **`NEUTRAL`** (crossovers vides). Vent favorable growth/tech atténué.
+- 🔴 **Pipeline Degradation** — `validation_report.txt` (10/06 09:07 UTC) affiche **5 [ERROR]** (VRT schema + AST/AXA/ASTSPACE/QTBS fetch) — seuil >2 franchi, stable vs 09/06.
+- 🟡 **Divergence Validation / Quality Gate** — `validation_report.txt` indique "0 excluded" alors que `quality_gate_2026-06-10.json` liste SQ comme `excluded`. Divergence persistante.
+- 🟡 **Rotation Sectorielle Neutralisée** — XLK (Technology) reste top3 sectoriel avec momentum score 10.0, mais le signal global reste **`NEUTRAL`** (crossovers vides, returns `NaN`). Vent favorable growth/tech atténué.
+- 🟡 **Divergence Market Cap FMP** — `fundamentals.market_cap` ($51.73B) vs `fmp_key_metrics.market_cap` ($35.03B) : écart ~47%. Anomalie source.
 - Aucune alerte de seuil de cours déclenchée
 
 ---
@@ -80,4 +84,4 @@
 
 ---
 
-*Dernière mise à jour : 2026-06-09 · Snapshot 10h00 UTC*
+*Dernière mise à jour : 2026-06-10 · Snapshot 10h00 UTC*

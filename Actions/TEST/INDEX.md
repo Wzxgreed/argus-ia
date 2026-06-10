@@ -2,18 +2,18 @@
 
 ## Thèse courante
 
-**Verdict :** ACHETER (Réduit)
-**Date dernière analyse :** 2026-06-09 (snapshot 21:00 UTC)
-**Cours actuel :** $43.87
+**Verdict :** ATTENDRE
+**Date dernière analyse :** 2026-06-10 (snapshot 10:00 UTC)
+**Cours actuel :** NaN [DONNÉES PARTIELLES]
 **Score Qualité :** 0/6 (Hors périmètre)
-**Score Opportunité :** 5.9/10 (agent reco — données fondamentales absentes)
-**Score Momentum :** 6.5/10
-**Score Global :** 59.0/100 (64.0 ajusté)
-**Stop-loss :** $41.73
-**Take-profit :** $47.08
-**Ratio R/R :** 1.5
+**Score Opportunité :** 5.8/10 (agent reco — données fondamentales absentes)
+**Score Momentum :** 6.0/10
+**Score Global :** 57.8/100 (57.8 ajusté)
+**Stop-loss :** null [DONNÉES MANQUANTES]
+**Take-profit :** null [DONNÉES MANQUANTES]
+**Ratio R/R :** —
 
-TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie sur des fondamentaux. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Verdict regradé : ACHETER (Réduit)** — mutation technique favorable sur le snapshot 21h UTC : cours $43.87 en rebond de +2.10% vs close 17h ($42.97), RSI 50.48 (+3.38 pts), **reclaim de la MM50** ($43.67) avec écart positif de +$0.20 (+0.5%). Volume légèrement remonté à 1,570 unités (0.64× moyenne 20j). Score Global remonté de 44.8 à 64.0 ajusté, Score Momentum regradé de 4.0 à 6.5/10. **Points de vigilance :** proximité du low 52 semaines ($40.27, +8.3%) ; earnings JOUR J (2026-06-09) toujours non résolus après 9 jours de flag — risque d'artefact calendrier FMP élevé mais non écarté ; volume faible amplifiant le bruit de microstructure. Si clôture sous MM50 ($43.67) sur volume > moyenne → regradation SURVEILLER. Si clôture sous $41.73 (SL) → passage ÉVITER.
+TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie sur des fondamentaux. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Verdict dégradé : ATTENDRE** — snapshot 10h UTC du 2026-06-10 marqué par des données techniques partielles : cours close NaN, ATR14 null, MM50/200 null. Le RSI remonte à 57.17 (+6.69 pts vs 50.48 hier) mais l'absence de cours et de volatilité rend le signal technique non fiable. L'agent reco a mécaniquement dégradé le verdict de ACHETER (Réduit) à ATTENDRE (Score Global 57.8). Volume stable à 1,570 unités (0.64× moyenne 20j). **Points de vigilance :** données techniques partielles empêchant tout positionnement fiable ; earnings JOUR J (2026-06-10) persistant depuis 10+ jours — risque d'artefact calendrier FMP très élevé ; illiquidité extrême. Si retour des données avec cours confirmé sous MM50 sur volume > moyenne → maintien ATTENDRE voire SURVEILLER. Si cours confirmé au-dessus des mobiles avec volume > 1.0× avg → regradation possible ACHETER (Réduit).
 
 ---
 
@@ -59,6 +59,7 @@ TEST est un ticker de test / micro-cap sans données fondamentales exploitables 
 | TEST_2026-06-09_update_13h.md | 2026-06-09 | Mise à jour 13:00 UTC — stabilité technique confirmée, grille intraday enrichie (open $44.03, high $45.35, +3.00% session), volume faible persistant, earnings JOUR J non résolu | **ACHETER (Réduit)** |
 | TEST_2026-06-09_update.md | 2026-06-09 | Mise à jour 10:00 UTC — stabilité totale vs close 08/06 (cours $45.35 inchangé, RSI 54.61, volume 2,400 0.94× avg), earnings JOUR J non résolu, verdict **ACHETER (Réduit) confirmé** | **ACHETER (Réduit)** |
 | TEST_2026-06-09_update_21h.md | 2026-06-09 | Mise à jour 21:00 UTC — **rebond technique +2.10%** vs 17h ($42.97 → $43.87), RSI 50.48 (+3.38 pts), **reclaim MM50** ($43.67) avec écart +$0.20, volume 1,570 (0.64× avg), Score Global 44.8 → **64.0 ajusté**, Score Momentum 4.0 → **6.5**, verdict regradé **SURVEILLER → ACHETER (Réduit)** | **ACHETER (Réduit)** |
+| TEST_2026-06-10_update.md | 2026-06-10 | Mise à jour 10:00 UTC — données techniques partielles (close NaN, ATR/MM null), RSI 57.17 (+6.69 pts), volume stable 1,570, Score Global 59.0 → **57.8**, Score Momentum 6.5 → **6.0**, verdict dégradé **ACHETER (Réduit) → ATTENDRE** | **ATTENDRE** |
 
 ---
 
