@@ -7,22 +7,22 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE · Direction Neutre
-**Score Global :** 63.3/100 (ajusté **53.3**)
-**Prix cible desk :** $151.83 (TP ATR-based) / $163.87 (consensus analystes)
-**Stop-loss :** $124.58
+- **Recommandation :** SURVEILLER · Direction Neutre
+**Score Global :** 52.5/100 (ajusté **37.5**)
+**Prix cible desk :** $151.83 (TP ATR-based, conservé) / $163.87 (consensus analystes)
+**Stop-loss :** $124.58 (conservé, non révisé — ATR null)
 **Horizon :** 1–3 mois
-**Statut thèse :** 🟡 **Confirmée mais modifiée** — close officiel 21h UTC du 09/06 : **rebond +2.10%** à $135.48 vs close 08/06 ($132.69), RSI repique à **82.66** (+4.76 pts), retour dans la zone de surachat extrême (>80). ATR **$5.45** (+$0.13), volume session **1.50M (0.57× moy. 20j)** — participation réduite persistante. Structure options **inchangée et normalisée** ($130.0 / 1.52 / 39.7%). Score Global ajusté **53.3** (+0.8 pt) — limite basse zone ATTENDRE. Signal sectoriel **POSITIF MARGINAL** (Healthcare XLV au #2, momentum score 6.83). Entrée initiale laminée ; attendre pullback $126–$130 ou consolidation RSI <65.
+**Statut thèse :** 🟡 **Modifiée** — snapshot 10h UTC du 10/06 : **[DONNÉES PARTIELLES]** (close NaN, ATR null, MM50 null) + **anomalie options JSON récurrente** ($190 / 0.02 / 97.8%). Cours indicateur **$132.69** (previous_close, divergence vs close 09/06 $135.48). RSI refluxe à **81.3** (−1.36 pt), surachat extrême persistant. Volume **1.50M (0.57× moy. 20j)** stable. Score Global ajusté **37.5** (−15.8 pts) — passage zone **SURVEILLER** (was ATTENDRE). Signal sectoriel **NEUTRAL** (données sectorielles NaN). Aucune entrée recommandée.
 
-**Synthèse :** Agilent a confirmé sa qualité fondamentale par un beat/guidance-up Q2 2026 spectaculaire (gap +17.3%). Le Filtre Qualité 5/6 est maintenu, le consensus $163.87 laisse un upside **+20.9%**, et la structure options reste normalisée. Le rebond de +2.10% du 9 juin est une note positive de court terme, mais le **retour du RSI à 82.66** (>80) annule l'amélioration technique des séances précédentes et maintient le malus timing technique actif. Le volume 0.57× moy. 20j est un signal de participation réduite qui fragilise la structure de marché. Le secteur Healthcare (XLV) au #2 offre un vent de poupe de fond favorable (momentum score 6.83). Le Score Global ajusté progresse marginalement à **53.3** (malus timing technique, limite basse zone ATTENDRE). La thèse reste haussière de fond mais neutre de timing — **ATTENDRE** une consolidation ou un retracement vers $126–$130 avant toute nouvelle position.
+**Synthèse :** Agilent a confirmé sa qualité fondamentale par un beat/guidance-up Q2 2026 spectaculaire (gap +17.3%). Le Filtre Qualité 5/6 est maintenu, le consensus $163.87 laisse un upside **+23.5%** (si cours $132.69). Cependant, le snapshot 10h UTC du 10/06 présente des **données partielles** (close NaN, ATR null, MM50 null) et une **anomalie options JSON récurrente**. Le scoring agent a dégradé massivement l'action : Score Global ajusté **37.5/100** (−15.8 pts), recommandation **SURVEILLER** (was ATTENDRE). Le RSI à 81.3 reste dans la zone extrême, le momentum est baissier (4.0/10), et le catalyseur earnings s'érode (5.3/10). Le volume 0.57× moy. 20j fragilise la structure. La thèse fondamentale reste solide mais le **timing technique est défavorable** et le **scoring a dégradé** l'action en zone SURVEILLER. **Aucune action recommandée à ce stade.**
 
 ---
 
 ## 📜 Historique des analyses
-- **Score global :** —/10
-- **Prix cible :** $—
+- **Score global :** 37.5/100
+- **Prix cible :** $151.83
 - **Stop-loss :** $124.58
-- **Statut thèse :** validée
+- **Statut thèse :** modifiée
 - **Horizon :** 1–3 mois
 
 ---
@@ -65,19 +65,19 @@
 ## 📊 Contexte technique (dernier snapshot)
 
 - **RSI 14j :** 81.3
-- **MM 50j :** —
-- **MM 200j :** —
-- **ATR 14j :** —
+- **MM 50j :** null [DONNÉES PARTIELLES]
+- **MM 200j :** null [DONNÉES PARTIELLES]
+- **ATR 14j :** null [DONNÉES PARTIELLES]
 - **Volume moy. 20j :** 2633352
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-09
+- **Date :** 2026-06-10
 - **Type :** update
-- **Fichier :** `A_2026-06-09_update.md`
-- **Conclusion :** > **Date :** 2026-06-09 · Snapshot 10:00 UTC
+- **Fichier :** `A_2026-06-10_update.md`
+- **Conclusion :** Snapshot 10h UTC — [DONNÉES PARTIELLES] (close NaN, ATR/MM50 null) + anomalie options JSON récurrente. Cours indicateur $132.69 (divergence vs close 09/06 $135.48). RSI 81.3 (−1.36 pt). Score Global ajusté 37.5 (−15.8 pts) — passage ATTENDRE → SURVEILLER. Aucune action recommandée.
 
 ---
 
