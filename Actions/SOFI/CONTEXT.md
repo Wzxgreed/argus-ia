@@ -1,4 +1,4 @@
-# CONTEXT — SOFI — Dernière mise à jour : 2026-06-09
+# CONTEXT — SOFI — Dernière mise à jour : 2026-06-10
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -21,7 +21,7 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 52.3/100
+- **Score global :** —/10
 - **Prix cible :** $19.53
 - **Stop-loss :** $14.43
 - **Statut thèse :** validée
@@ -37,24 +37,24 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ## 🚨 Alertes actives
 
-- Baisse — $14.43 (SL 2×ATR) — 🟢 Active
-- Hausse — $19.53 (prix cible) — 🟢 Active
-- Volume — >2× moy. 20j (>144.1M) — 🟢 Active
+- Baisse — $13.78 (SL 2×ATR) — 🟢 Active
+- Hausse — $18.88 (prix cible) — 🟢 Active
+- Volume — >2× moy. 20j (>140.7M) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-07-28** — Earnings Q2 FY2026 (49j) — Est EPS $0.10–$0.11, Rev $1.1B
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 58.29
-- **MM 50j :** 16.78
+- **RSI 14j :** 58.52
+- **MM 50j :** —
 - **MM 200j :** —
-- **ATR 14j :** 1.02
+- **ATR 14j :** —
 - **Volume moy. 20j :** 72059377
 
 ---
@@ -62,15 +62,16 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** _update.md
-- **Fichier :** `SOFI_2026-06-09_update.md`
-- **Conclusion :** Close officiel $16.47 — rebond +4.13% vs snapshot 17h, reclaim partiel MM50 (−1.85% vs −5.68%), volume normalisé 1.10×. Structure en marteau. Thèse ATTENDRE confirmée et légèrement renforcée. SL $14.43, TP $19.53.
+- **Type :** full refresh
+- **Fichier :** `SOFI_2026-06-09_DRAFT_refresh_ARCHIVED_2.md`
+- **Conclusion :** > **Date :** 2026-06-09
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 6.19% (seuil 5.0%)
+- ATR_SPIKE (medium) : ATR relatif 5.13% (seuil 5.0%)
+- Le trigger ATR_SPIKE 5.88% est un **faux positif** : l'ATR est resté stable à **$0.97** entre le close 08/06 et le snapshot 09/06. Aucune expansion de volatilité n'est survenue.
 
 ---
 

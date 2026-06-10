@@ -1,4 +1,4 @@
-# CONTEXT — VRT — Dernière mise à jour : 2026-06-09
+# CONTEXT — VRT — Dernière mise à jour : 2026-06-10
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -41,16 +41,16 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 
 ## 📅 Prochains événements
 
-- **2026-07-29** — Earnings Q2 FY2026 (Est EPS $1.38–$1.59, Rev ~$3.4B) — 50 jours
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 33.01
-- **MM 50j :** 314.81
+- **RSI 14j :** 37.23
+- **MM 50j :** —
 - **MM 200j :** —
-- **ATR 14j :** 18.03
+- **ATR 14j :** —
 - **Volume moy. 20j :** 6077383
 
 ---
@@ -58,15 +58,15 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** update
-- **Fichier :** `VRT_2026-06-09_update.md`
-- **Conclusion :** Close officiel 21:00 UTC — cours $289.52 (−3.68% vs previous close, +3.37% vs snapshot 17h $280.09). Volume explosion 11.10M (1.83×). RSI 33.01 (survente persistante). Support $294.40 rompu en close. Score Global Ajusté 28.6/100 (ÉVITER). Thèse CONFIRMÉE — rebond partiel non confirmé sur volume croissant (redistribution institutionnelle), fondamentaux intacts.
+- **Type :** init
+- **Fichier :** `VRT_2026-06-09_update_13h_archive.md`
+- **Conclusion :** **Date :** 2026-06-09
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 6.23% (seuil 5.0%)
+- Aucun trigger récent.
 
 ---
 

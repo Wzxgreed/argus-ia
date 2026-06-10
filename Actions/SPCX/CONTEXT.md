@@ -1,4 +1,4 @@
-# CONTEXT — SPCX — Dernière mise à jour : 2026-06-09
+# CONTEXT — SPCX — Dernière mise à jour : 2026-06-10
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -40,7 +40,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-09** · earnings · Earnings ...
+- **2026-06-10** · earnings · Earnings ...
 
 ---
 
@@ -56,10 +56,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-09
-- **Type :** update
-- **Fichier :** `SPCX_2026-06-09_update.md`
-- **Conclusion :** Thèse CONFIRMÉE en SURVEILLER — dix-sept snapshots consécutifs sans données fiables, conflit de symbole FMP persistant, stabilité totale du scoring (Score Global 47.2/100). Seul changement : XLF momentum_score amélioré 4.0 → 5.19 (return_20d +2.5%). Setup non-actionnable.
+- **Date :** 2026-06-10
+- **Type :** preview
+- **Fichier :** `SPCX_2026-06-10_preview.md`
+- **Conclusion :** > **Date :** 2026-06-10
 
 ---
 

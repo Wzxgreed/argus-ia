@@ -1,4 +1,4 @@
-# CONTEXT — AAL — Dernière mise à jour : 2026-06-09
+# CONTEXT — AAL — Dernière mise à jour : 2026-06-10
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -30,8 +30,8 @@ Le Forward P/E est a **6.32** (asymetrie intacte). Le RSI remonte a **69.26** (+
 
 ## Actualites ayant impacte ce dossier
 - **Score global :** —/10
-- **Prix cible :** $15.71
-- **Stop-loss :** $12.41
+- **Prix cible :** $16.07
+- **Stop-loss :** $12.77
 - **Statut thèse :** validée
 - **Horizon :** —
 
@@ -45,36 +45,34 @@ Le Forward P/E est a **6.32** (asymetrie intacte). Le RSI remonte a **69.26** (+
 
 ## 🚨 Alertes actives
 
-- Baisse — $12.77 (SL 2×ATR) — 🟢 Active
-- Hausse — $14.00 (support clé) — 🟢 Récupérée en close officielle 09/06 ($14.09)
-- Volume — >2× moy. 20j (>155.6M) — 🔴 Déclenchée (09/06, volume 149.70M = 1.92x, proche seuil)
+- Baisse — $11.41 (SL 2×ATR) — 🟢 Active
+- Hausse — $14.00 (prix cible) — 🔴 Déclenchée (27/05)
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- 2026-06-12 — Expiration options (Max Pain $13.00) — risque gamma J-3, très atténué
-- 2026-07-23 — Earnings Q2 FY2026 — Est EPS -$0.34 à $0.52, Rev $16.6B
-- 2026-06-XX — Décision Fed — impact taux sur coût de la dette
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 69.26
-- **MM 50j :** 12.48
+- **RSI 14j :** 66.11
+- **MM 50j :** —
 - **MM 200j :** —
-- **ATR 14j :** 0.66
+- **ATR 14j :** —
 - **Volume moy. 20j :** 77804677
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-09 (snapshot 21h UTC, clôture officielle)
-- **Type :** update
+- **Date :** 2026-06-09
+- **Type :** init
 - **Fichier :** `AAL_2026-06-09_update_21h00.md`
-- **Conclusion :** Cassure technique majeure — support $14.00 RECUPERE en close ($14.09) sur volume historique 149.70M (1.92x moyenne). RSI 69.26, options stables (Put/Call 1.57, Call OI 38.9%). Score agent 6.2/10 (officiel) / 6.4/10 (ajusté inst.), Global ajusté ~70.5/100. Thèse ACHETER (Sizing Réduit) CONFIRMEE ET RENFORCEE. SL $12.77, TP $16.07, R/R 1.5.
+- **Conclusion :** **Date :** 2026-06-09 (snapshot 21h UTC, close officielle session US)
 
 ---
 

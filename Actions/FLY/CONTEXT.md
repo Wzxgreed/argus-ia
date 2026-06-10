@@ -1,4 +1,4 @@
-# CONTEXT — FLY — Dernière mise à jour : 2026-06-09
+# CONTEXT — FLY — Dernière mise à jour : 2026-06-10
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Score global :** 45.0/100
-- **Prix cible :** $51.09
-- **Stop-loss :** $21.69
-- **Statut thèse :** confirmée
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
 - **Horizon :** —
 
 ---
@@ -24,10 +24,7 @@
 
 ## 🚨 Alertes actives
 
-- **PIN RISK OPTIONS J-3** — Expiration 2026-06-12, max pain $40.00 vs spot $33.445 (−16.4%). Puts massivement ITM.
-- **SHORT INTEREST ÉLEVÉ** — 9.78% stable. Pression vendeuse persistante.
-- **CASSURE MM50** — Cours −14.3% sous MM50 ($39.01). Tendance MT baissière confirmée.
-- **Divergence Yahoo/FMP** — Market Cap ($5.49B vs $3.40B) et P/B (4.845 vs 2.855) persistante — [DONNÉES PARTIELLES].
+- Aucune alerte active.
 
 ---
 
@@ -39,30 +36,26 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 40.32
-- **MM 50j :** 39.01
+- **RSI 14j :** 42.81
+- **MM 50j :** —
 - **MM 200j :** —
-- **ATR 14j :** 5.88
+- **ATR 14j :** —
 - **Volume moy. 20j :** 9181716
-- **Cours close :** $33.445
-- **Position vs MM50 :** −14.3%
-- **Volume session :** 6.31M (0.69× moy. 20j)
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-09
-- **Type :** update
-- **Fichier :** `FLY_2026-06-09_update.md`
-- **Conclusion :** Close officiel 21h UTC — rebond partiel +2.22% en fin de séance à $33.445 (vs low $31.91), volume session 6.31M (0.69×), RSI 40.32, cassure MM50 −14.3%. Scores inchangés. Agent SURVEILLER (45.0). Thèse défavorable confirmée, rebond mécanique sans catalyst.
+- **Type :** init
+- **Fichier :** `FLY_2026-06-09_update_13h.md`
+- **Conclusion :** > **Type :** `_update.md` — Snapshot 13h UTC, stabilité confirmée vs 10h UTC, anomalie options RÉSOLUE, thèse SURVEILLER (43.8) inchangée
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap −7.56% vs prior close (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif élevé $5.88 (seuil 5.0%)
+- Aucun trigger récent.
 
 ---
 

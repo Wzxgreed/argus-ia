@@ -1,4 +1,4 @@
-# CONTEXT — IREN — Dernière mise à jour : 2026-06-09
+# CONTEXT — IREN — Dernière mise à jour : 2026-06-10
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -7,13 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER (Sizing Réduit)
-- **Score global :** 5.7/10
-- **Score global ajusté :** 61.8/100
+- **Recommandation :** SURVEILLER
+- **Score global :** 44.3/100
 - **Prix cible :** $69.12 (consensus FMP)
-- **Stop-loss :** $41.90 (2×ATR)
-- **Statut thèse :** confirmée
-- **Horizon :** 1–3 mois
+- **Stop-loss :** $41.90 (estimé, dernier ATR connu $6.06)
+- **Statut thèse :** modifiée
+- **Horizon :** —
 
 ---
 
@@ -27,11 +26,10 @@
 
 - Baisse — $45.00 — 🟢 Active
 - Hausse — $65.86 — 🟢 Active
-- Hausse — $69.12 (consensus PT) — 🟢 Active
 - Volume — >2× moy. 20j (>104.9M) — 🟢 Active
 - IREN — Vérification — $61.20
-- IREN — **⚠️ Baisse INTRADAY** — $51.145 (low du 2026-06-09)
-- IREN — **⚠️ Volume SUPÉRIEUR À LA MOYENNE** — 56.48 M (1.08× moy. 20j)
+- IREN — **⚠️ Volume DÉCLENCHÉ** — $55.15 (close)
+- IREN — **⚠️ Baisse INTRADAY** — $52.36 (low)
 
 ---
 
@@ -43,27 +41,30 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 56.02
-- **MM 50j :** 50.70
-- **MM 200j :** —
-- **ATR 14j :** 6.06
+- **RSI 14j :** 62.18 (zone neutre-haute, +6.16 pts vs close 09/06)
+- **MM 50j :** N/A (indisponible dans `latest.json`)
+- **MM 200j :** N/A (indisponible dans `latest.json`)
+- **ATR 14j :** N/A (indisponible dans `latest.json` — dernier connu $6.06)
 - **Volume moy. 20j :** 52267212
+- **Previous close :** $59.19
+- **Short Interest :** 16.05% (+1.33 pt vs close 09/06)
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-09
-- **Type :** update close officiel
-- **Fichier :** `IREN_2026-06-09_update_21h00.md`
-- **Conclusion :** Close officiel $54.02 corrige le snapshot 17h ($52.295). Volume 56.48 M (1.08× moyenne) = défense acheteuse institutionnelle. RSI 56.02, MM50 $50.70 (+6.6%). Thèse confirmée ACHETER (Sizing Réduit), Score Global 61.8/100. SL $41.90 / TP $72.20 (R/R 1.5). Vigilance accrue sur rejet high $60.86.
+- **Date :** 2026-06-10
+- **Type :** _update.md
+- **Fichier :** `IREN_2026-06-10_update.md`
+- **Conclusion :** Snapshot pre-market 10h UTC — Score Global dégradé de 61.8/100 à 44.3/100 (−17.5 pts), entraînant un changement de recommandation ACHETER (Sizing Réduit) → SURVEILLER. Le downgrade est piloté par une dégradation algorithmique de la Valorisation (4.5 → 3.0) et du Catalyseur (6.8 → 5.3). Le RSI remonte à 62.18 (+6.16 pts) en zone neutre-haute. Le Short Interest grimpe à 16.05% (+1.33 pt). Données techniques partielles (ATR, MM50, MM200 indisponibles). Aucune nouvelle fondamentale ni événement corporate. Attendre clarification données techniques et stabilisation scoring agent.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap -8.73% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 11.22% (seuil 5.0%)
+- Le DRAFT_refresh a été déclenché automatiquement à 17:00 UTC par PRICE_GAP et ATR_SPIKE sur le snapshot `data/2026-06-09.json`. Les données révèlent une correction sévère de −11.65% en séance : cours $52.295 (vs $59.19 à 13h), high $60.86, low $51.145, range intraday 18.6%. Le rejet massif du high $60.86 et le close faible dégradent le momentum technique (RSI 54.23, MM50 $50.67 testée à +3.2%). Cependant, la valorisation s'améliore mécaniquement (P/E 67.86×, P/B 6.69×, upside consensus +32.2%). Les options restent inchangées (put/call 2.22, puts 69.0%), signalant que le marché options n'a pas réagi à la chute. Le Score Opportunité reste inchangé à 5.7/10 (Catalyseur 6.8, Valorisation 4.5, Momentum 6.0), le Score Global reste 61.8/100. L'action ACHETER (Sizing Réduit) est maintenue mais la thèse est modifiée avec vigilance accrue. La MM50 ($50.67) est désormais le niveau critique : si cassure sans rebond → réviser en ATTENDRE. DRAFT_refresh archivé. Analyse complète sauvegardée dans `IREN_2026-06-09_update.md` (snapshot 17:00 UTC).
+- Le DRAFT_refresh a été déclenché automatiquement à 10:00 UTC par PRICE_GAP et ATR_SPIKE, mais les triggers sont hérités du mouvement du 2026-06-08 (previous close $54.35 → open $56.60 → close $59.19). Les données du snapshot 10:00 UTC du 9 juin sont strictement identiques au close officiel du 8 juin (cours $59.19, RSI 58.78, ATR $5.68, MM50 $50.32, volume ~41.0 M). Aucun nouvel événement majeur n'a eu lieu. DRAFT_refresh archivé. Anomalie détectée : `data/latest.json` retourne Max Pain $20.00 (incohérent) et put/call null — valeurs fiables maintenues : Max Pain $33.00, put/call 3.95, call OI 20.2%. Thèse confirmée ACHETER (Sizing Réduit) — Score Opportunité 5.7/10, Global 61.8/100.
+- Le DRAFT_refresh a ete declenche automatiquement a 10:00 UTC par ATR_SPIKE, mais les donnees brutes sont strictement identiques au close officiel du 2026-06-02 (cours $66.60, RSI 61.11, ATR $5.11, MM50 $48.75, volume 51.34 M). L'ATR n'a pas change — le trigger est mecanique sur une volatilite historique deja integree. Le marché US etant ferme jusqu'a 14:30 UTC, aucun nouveau flux de marche n'est disponible. DRAFT_refresh archive. Anomalie detectee : `data/latest.json` retourne Max Pain $20.00 (incohérent) et put/call null — valeurs fiables maintenues : Max Pain $52.00, put/call 2.09, call OI 32.4%. These confirmee ATTENDRE (Score Opportunite 4.8/10, Global 52.5/100).
 
 ---
 

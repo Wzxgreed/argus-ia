@@ -1,4 +1,4 @@
-# CONTEXT — NU — Dernière mise à jour : 2026-06-09
+# CONTEXT — NU — Dernière mise à jour : 2026-06-10
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -44,10 +44,10 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 45.41
-- **MM 50j :** 13.74
+- **RSI 14j :** 41.77
+- **MM 50j :** —
 - **MM 200j :** —
-- **ATR 14j :** 0.54
+- **ATR 14j :** —
 - **Volume moy. 20j :** 70521606
 
 ---
@@ -56,8 +56,8 @@
 
 - **Date :** 2026-06-09
 - **Type :** update
-- **Fichier :** `NU_2026-06-09_21-00_update.md`
-- **Conclusion :** **Thèse : MODIFIÉE — ACHETER (Réduit) (rebond technique +2.41% confirmé, RSI 45.41 remontant, momentum fortement amélioré 5.3/10, score global ajusté bascule 54.2 → 60.0 dans la zone ACHETER, fondamentaux intacts, support $11.20 à +5.7%, mais volume faible 0.60× et rejet de la résistance $12.00)**
+- **Fichier :** `NU_2026-06-09_13-00_update.md`
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité totale vs snapshot 10h, distribution vendeuse réelle confirmée par volume 0
 
 ---
 

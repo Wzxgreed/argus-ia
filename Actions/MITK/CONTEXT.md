@@ -1,4 +1,4 @@
-# CONTEXT — MITK — Dernière mise à jour : 2026-06-09
+# CONTEXT — MITK — Dernière mise à jour : 2026-06-10
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -36,10 +36,10 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 58.37
-- **MM 50j :** 14.87
+- **RSI 14j :** 57.9
+- **MM 50j :** —
 - **MM 200j :** —
-- **ATR 14j :** 0.98
+- **ATR 14j :** —
 - **Volume moy. 20j :** 1191173
 
 ---
@@ -48,14 +48,14 @@
 
 - **Date :** 2026-06-09
 - **Type :** update
-- **Fichier :** `MITK_2026-06-09_update_21h.md`
-- **Conclusion :** Session US réelle confirmée (volume 1.24×, range 10.1%). Cours $15.49 (+0.58%), RSI 58.37, ATR $0.98 (+7.7%). Score Global Ajusté 64.0/100 (−1.2 pt), Momentum 7.0/10 (−0.5 pt). Rejet du high $15.96. Thèse ACHETER (Sizing Réduit) confirmée avec vigilance. SL $13.53, TP $18.43, R/R 1.5.
+- **Fichier :** `MITK_2026-06-09_update.md`
+- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-09 13:00 UTC) + agents quant, geo, sector, social, FX, events, recommandation
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 6.33% (seuil 5.0%)
+- Aucun trigger récent.
 
 ---
 
