@@ -49,11 +49,11 @@ Snapshot 13h UTC (pré-ouverture NY, 9h locale) : previous_close **$14.59**, clo
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 49.96
-- **MM 50j :** 12.52
+- **RSI 14j :** 48.89
+- **MM 50j :** 12.51
 - **MM 200j :** —
-- **ATR 14j :** 1.13
-- **Volume moy. 20j :** 125255329
+- **ATR 14j :** 1.14
+- **Volume moy. 20j :** 127030096
 
 ---
 
@@ -68,7 +68,7 @@ Snapshot 13h UTC (pré-ouverture NY, 9h locale) : previous_close **$14.59**, clo
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 8.39% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 8.51% (seuil 5.0%)
 
 ---
 

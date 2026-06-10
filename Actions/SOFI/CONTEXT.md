@@ -51,11 +51,11 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 53.53
+- **RSI 14j :** 51.18
 - **MM 50j :** 16.8
 - **MM 200j :** —
-- **ATR 14j :** 1.02
-- **Volume moy. 20j :** 70564007
+- **ATR 14j :** 1.03
+- **Volume moy. 20j :** 73084987
 
 ---
 
@@ -70,7 +70,7 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 6.33% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 6.49% (seuil 5.0%)
 
 ---
 

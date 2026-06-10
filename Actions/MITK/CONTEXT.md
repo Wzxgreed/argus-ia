@@ -40,7 +40,7 @@
 - **MM 50j :** 14.93
 - **MM 200j :** —
 - **ATR 14j :** 0.98
-- **Volume moy. 20j :** 1162163
+- **Volume moy. 20j :** 1190032
 
 ---
 
@@ -55,7 +55,7 @@
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 6.19% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 6.12% (seuil 5.0%)
 
 ---
 

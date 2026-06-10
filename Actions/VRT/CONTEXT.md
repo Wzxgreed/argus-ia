@@ -47,11 +47,11 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 32.34
-- **MM 50j :** 315.73
+- **RSI 14j :** 32.54
+- **MM 50j :** 315.75
 - **MM 200j :** —
-- **ATR 14j :** 18.24
-- **Volume moy. 20j :** 5899689
+- **ATR 14j :** 18.32
+- **Volume moy. 20j :** 6045695
 
 ---
 
@@ -66,7 +66,7 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 6.57% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 6.52% (seuil 5.0%)
 
 ---
 
