@@ -2,18 +2,19 @@
 
 ## 🎯 Thèse Courante
 
-- **Recommandation :** ACHETER (Réduit)
-- **Score Global :** 68.0/100 (ajusté 60.0)
-- **Score Opportunité :** 6.8/10 (C:6.5 V:8.0 M:5.3)
+- **Recommandation :** ATTENDRE
+- **Score Global :** 54.8/100 (ajusté 54.8)
+- **Score Opportunité :** 5.5/10 (C:5.0 V:6.5 M:4.5)
 - **Prix Cible :** $17.49 (consensus FMP, 12 analysts)
-- **Stop-Loss :** $10.80 (2×ATR)
-- **Statut Thèse :** Score ajusté 60.0 — close officiel 21:00 UTC 09/06 : cours $11.88 (+2.41% vs 13h), **thèse MODIFIÉE** (upgrade ATTENDRE → ACHETER Réduit), rebond technique confirmé (RSI 45.41, momentum 5.3/10), mais volume faible 0.60× et rejet résistance $12.00 (high $12.035), fondamentaux intacts (forward P/E 10.37×, upside +47.2%), support $11.20 à +5.7%, timing défavorable
+- **Stop-Loss :** $10.52 (conservé, ATR indisponible)
+- **Statut Thèse :** Score ajusté 54.8 — snapshot 10h UTC 10/06 : close NaN [DONNÉES PARTIELLES], previous $11.60, **thèse MODIFIÉE** (downgrade ACHETER Réduit → ATTENDRE), RSI révisé à 41.77 retour zone baissière, scores agents dégradés (Catalyseur −1.5 pt, Valorisation −1.5 pt, Momentum −0.8 pt), fondamentaux intacts (forward P/E 10.37×, upside +50.8%), support $11.20 à +3.4%, anomalie options JSON récurrente, timing défavorable
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
 
 | Fichier | Date | Type | Verdict |
 |---------|------|------|---------|
+| [NU_2026-06-10_update.md](NU_2026-06-10_update.md) | 2026-06-10 | Update quotidienne (snapshot 10:00 UTC) | **ATTENDRE** — thèse **MODIFIÉE** (downgrade ACHETER Réduit → ATTENDRE), données techniques partielles (close NaN, ATR null, MM50 null), RSI révisé 45.41 → **41.77** retour zone baissière, scores agents dégradés (Global 68.0 → **54.8**, Ajusté 60.0 → **54.8**, Opportunité 6.8 → **5.5**), anomalie options JSON récurrente (max pain $20.00 aberrant → valeur opérationnelle $12.00 conservée), fondamentaux intacts (forward P/E 10.37×, upside +50.8% base $11.60), support $11.20 à +3.4%, SL/TP conservés **$10.52/$13.22**, timing défavorable |
 | [NU_2026-06-09_21-00_update.md](NU_2026-06-09_21-00_update.md) | 2026-06-09 | Update 21:00 UTC (close officiel) | **ACHETER (Réduit)** — thèse **MODIFIÉE** (upgrade ATTENDRE → ACHETER Réduit), rebond technique +2.41% à $11.88, RSI remontant 41.77 → **45.41**, momentum fortement amélioré 3.0 → **5.3/10**, score global ajusté bascule 54.2 → **60.0** (zone ACHENTER), volume faible 0.60×, rejet résistance $12.00 (high $12.035), fondamentaux intacts (forward P/E 10.37×, upside +47.2%), support $11.20 à +5.7%, SL/TP **$10.80/$13.50**, timing défavorable |
 | [NU_2026-06-09_13-00_update.md](NU_2026-06-09_13-00_update.md) | 2026-06-09 | Update 13:00 UTC (snapshot 13h) | ATTENDRE — thèse **CONFIRMÉE**, **stabilité totale** vs snapshot 10h (cours $11.60 inchangé, RSI 41.77 stable, volume 58.29M/0.82× confirme distribution vendeuse réelle), scores inchangés (Global 62.2, Ajusté 54.2, Opportunité 6.2, Momentum 3.0), **anomalie options JSON RÉSOLUE** (max pain $12.00 cohérent, put/call 1.00, call OI 50.0%), fondamentaux intacts, SL/TP $10.52/$13.22 |
 | [NU_2026-06-09_update.md](NU_2026-06-09_update.md) | 2026-06-09 | Update quotidienne (snapshot 10:00 UTC) | ATTENDRE — thèse **CONFIRMÉE**, **stabilité totale** vs close 08/06 (cours $11.60 inchangé, RSI 41.77 stable, volume 58.29M/0.82× confirme distribution vendeuse réelle), scores inchangés (Global 62.2, Ajusté 54.2, Opportunité 6.2, Momentum 3.0), anomalie options JSON récurrente documentée (max pain $20.00 aberrant → valeur opérationnelle $12.00 conservée), fondamentaux intacts, SL/TP $10.52/$13.22 |
@@ -53,4 +54,4 @@ Voir [REFRESH_LOG.md](REFRESH_LOG.md) pour l'historique des déclencheurs.
 
 ## 📝 Résumé de la Thèse
 
-NU est le leader néo-banque latino-américain (Brésil/Mexique/Colombie) avec 100M+ clients, des marges opérationnelles solides (24.4%), un bilan net cash (net debt/EBITDA −2.47×), et une valorisation forward attractive (P/E ~10.4×, upside consensus +47.2%). Le close officiel 21:00 UTC du 09/06 modifie la thèse : le cours rebondit à **$11.88** (+2.41% vs 13h), le RSI remonte à **45.41**, le momentum bondit à **5.3/10**, et le **score global ajusté progresse de 54.2 à 60.0**, basculant dans la zone **ACHETER (Réduit)**. Le volume à **0.60×** sur le rebond signale un manque de conviction — le high à **$12.035** a testé la résistance $12.00 sans la tenir en clôture. Le signal sectoriel reste **`NEUTRAL`** avec XLF top3 momentum **5.19** (amélioré). Les fondamentaux restent intacts (ROIC 16.3%, consensus $17.49). Le support critique $11.20 (52W low) est à +5.7%. Aucune news structurante sur NU. La recommandation passe à **ACHETER (Réduit)** avec timing défavorable et sizing réduit. SL **$10.80** / TP **$13.50**.
+NU est le leader néo-banque latino-américain (Brésil/Mexique/Colombie) avec 100M+ clients, des marges opérationnelles solides (24.4%), un bilan net cash (net debt/EBITDA −2.47×), et une valorisation forward attractive (P/E ~10.4×, upside consensus +50.8% sur base $11.60). Le snapshot 10h UTC du 10/06 modifie la thèse : le **close est indisponible (NaN)** [DONNÉES PARTIELLES], le previous_close reste à **$11.60** (invalidant le rebond after-hours à $11.88), le RSI retourne à **41.77** (zone baissière), et le **score global ajusté rétrograde de 60.0 à 54.8**, basculant dans la zone **ATTENDRE**. Les scores agents se dégradent (Catalyseur 5.0, Valorisation 6.5, Momentum 4.5). Le volume à **0.60×** confirme le manque de conviction. Le signal sectoriel reste **`NEUTRAL`** avec XLF top3. Les fondamentaux restent intacts (ROIC 16.3%, consensus $17.49). Le support critique $11.20 (52W low) est à +3.4%. Aucune news structurante sur NU. La recommandation rétrograde à **ATTENDRE** en raison des données partielles et de la dégradation technique. SL **$10.52** (conservé) / TP **$13.22** (conservé).
