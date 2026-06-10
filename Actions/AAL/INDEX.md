@@ -33,29 +33,27 @@
 | 2026-06-09 13:00 UTC | Mise a jour | [AAL_2026-06-09_update.md](./AAL_2026-06-09_update.md) | **Snapshot 13h UTC** : stabilité totale vs close 08/06 — cours $13.60 inchangé, RSI 62.2, ATR $0.63, volume 109.04M (+50.1%). **ANOMALIE OPTIONS RÉSOLUE** : Put/Call 1.57 (vs 1.92 08/06, −18.2%), Max Pain $13.00, Call OI 38.9% (+4.7 pts). Repositionnement haussier pré-market. Risque gamma J-3 atténué. Score agent **6.0/10** (officiel) / **6.2/10** (ajusté inst.), Global ajusté **~68.0/100**. These **ACHETER (Sizing Reduit) CONFIRMEE ET RENFORCEE**. SL $12.34, TP $15.49, R/R 1.5. |
 | 2026-06-09 17:00 UTC | Mise a jour | [AAL_2026-06-09_update.md](./AAL_2026-06-09_update.md) | **Snapshot 17h UTC (intraday 13h ET)** : nouvelle session US avec progression haussière — cours $13.725 (+0.92%), RSI 66.97 (+4.77 pts), ATR $0.66, MM50 $12.47, volume 81.52M (+9.6%). Options stables (Put/Call 1.57, Max Pain $13.00, Call OI 38.9%). High intraday $14.30 = test de résistance supérieur au rejet du 08/06 ($13.80). XLI RS20 vs SPY +0.23% (vs +0.03%). Score agent **6.0/10** (officiel) / **6.3/10** (ajusté inst.), Global ajusté **~69.0/100**. These **ACHETER (Sizing Reduit) CONFIRMEE, progression technique favorable**. SL $12.41, TP $15.71, R/R 1.5. |
 | 2026-06-09 21:00 UTC | Mise a jour | [AAL_2026-06-09_update_21h00.md](./AAL_2026-06-09_update_21h00.md) | **Snapshot 21h UTC (clôture officielle)** : cassure technique majeure — cours **$14.09 (+3.6% session, +2.66% vs 17h)**, RSI **69.26** (+2.29 pts), volume **149.70M** (+92.4%, 1.92x moyenne, record historique). **Support $14.00 RECUPERE** en close pour la premiere fois depuis le 02/06. Options stables (Put/Call 1.57, Max Pain $13.00, Call OI 38.9%) malgre le rally. XLI RS20 vs SPY **+0.62%** (vs +0.23%). Score agent **6.2/10** (officiel) / **6.4/10** (ajusté inst.), Global ajusté **~70.5/100**. These **ACHETER (Sizing Reduit) CONFIRMEE ET RENFORCEE, cassure technique majeure**. SL $12.77, TP $16.07, R/R 1.5. |
+| 2026-06-10 10:00 UTC | Mise a jour | [AAL_2026-06-10_update.md](./AAL_2026-06-10_update.md) | **Snapshot 10h UTC (pre-ouverture NY)** : cours **$13.60** (previous_close, [ANOMALIE DATA] vs $14.09 close officiel 09/06), RSI **66.11** (−3.15 pts). Short interest **11.39%** (−1.48 pt, −11.5%). Options corrompues (Max Pain $5.00 aberrant, Put/Call et Call OI null). ATR/MM50 indisponibles. Donnees sectorielles NaN. Score agent **5.0/10**, Global **50.3/100**. These **MODIFIEE : ATTENDRE** (downgrade de ACHETER Sizing Reduit) — attente confirmation cloture 10/06. SL $12.77, TP $16.07. |
 
 ---
 
 ## Thèse d'investissement courante
 
-**Recommandation :** ACHETER (Sizing Réduit)  
-**Prix cible :** $16.07 (cours + 3×ATR) / Réviser à $16.60 (consensus PT) si cassure de $14.38 confirmée sur volume > 100M  
-**Stop-loss :** $12.77 (cours − 2×ATR, confluence MM50 + ancien gap)  
-**Upside/Downside :** +14.1% / −9.4%  
-**Derniere mise a jour :** 2026-06-09 (snapshot 21h UTC, clôture officielle)
+**Recommandation :** ATTENDRE (downgrade de ACHETER Sizing Reduit)  
+**Prix cible :** $16.07 (dernier niveau fiable) / Réviser à $16.60 (consensus PT) si cassure de $14.38 confirmée sur volume > 100M  
+**Stop-loss :** $12.77 (dernier niveau ATR fiable du 09/06, confluence MM50 + ancien gap)  
+**Upside/Downside :** +18.2% / −6.1%  
+**Derniere mise a jour :** 2026-06-10 (snapshot 10h UTC, pré-ouverture session US)
 
 American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). Le rally du 20–27/05 a matérialise **+24.3%** ($12.06 → $14.99). Le repli post-rally s'est poursuivi jusqu'a **$13.50 (05/06)**. La session du 08/06 a ouvert a $13.49, grimpé a **$13.80**, puis reculé pour clôturer a **$13.60 (+0.74%)** sur un volume massif de **108.46M (+49.4% vs moyenne)**. La session du 09/06 a produit une **cassure technique majeure** : cours **$14.09 (+3.6%)** en clôture officielle, volume historique **149.70M (+92.4%, 1.92x moyenne)**, high **$14.38**. Le support **$14.00**, cassé depuis le 02/06, est **RECUPERE** en close pour la premiere fois en 6 séances.
 
-Le Forward P/E est a **6.32** (asymetrie intacte). Le RSI remonte a **69.26** (+2.29 pts vs 17h, a 0.74 pt de la zone surachat). La MM50 monte a **$12.48** (cours +13.0%). Le RS20 XLI vs SPY progresse a **+0.62%** (convergence sectorielle accelerée). Le score agent est a **6.2/10** (officiel) / **6.4/10** (ajustement institutionnel) et le score global ajuste a **66.5/100** (officiel) / **~70.5/100** (ajustement institutionnel), maintenant la these **ACHETER (Sizing Reduit) CONFIRMEE ET RENFORCEE**.
+Cependant, le snapshot **10h UTC du 10/06** (pré-ouverture NY) présente un **previous_close de $13.60**, soit **−3.5%** vs le close officiel $14.09 du 09/06. Cette anomalie data quality — soit un recul pre-market, soit un décalage Yahoo — invalide provisoirement la cassure de $14.00. Le RSI redescend a **66.11** (−3.15 pts), sortant de la zone de surachat. Le short interest chute significativement a **11.39%** (−1.48 pt, −11.5%), réduisant le fuel de squeeze. Les données options sont **corrompues** (Max Pain $5.00 aberrant, Put/Call et Call OI null). L'ATR, la MM50 et la MM200 sont **indisponibles** dans ce snapshot. Les données sectorielles (XLI) affichent toutes des **NaN**.
 
-**Donnees options (snapshot 21h UTC 09/06)** : Put/Call **1.57** (inchangé sur les 3 snapshots du jour), Max Pain **$13.00**, Call OI **38.9%** (inchangé sur les 3 snapshots). Le setup options est stable et favorable malgre le rally +3.6% et le volume historique — les flux n'ont pas profite de la cassure pour repositionner a la vente. L'expiration du 12/06 (dans 3 jours) reste un risque gamma, mais **très atténué** par la cassure de $14.00.
+Le Forward P/E reste a **6.32** (asymetrie intacte). Le consensus FMP est inchangé a **$16.60** (17 analystes). L'agent recommandation a downgradé a **ATTENDRE** avec un Score Opportunité de **5.0/10** (C:5.3 V:4.5 M:5.5) et un Score Global de **50.3/100**, sur la base de ces données partielles.
 
-**Sector rotation NEUTRAL, momentum fortement ameliore** : Signal **NEUTRAL** avec RS20 XLI vs SPY **+0.62%** (vs +0.23% le 17h). XLI return 20d **+0.32%**, momentum score **3.52** (vs 3.15). La sous-performance sectorielle a totalement disparu et le momentum s'accelere.
+**Verdict institutionnel :** La these est **MODIFIEE en ATTENDRE.** Trop d'incertitudes data quality (cours $13.60 anomal, options corrompues, ATR/MM indisponibles) empêchent de maintenir une recommandation ACHETER. **Seule une clôture officielle du 10/06 au-dessus de $14.00 sur volume > 80M permettrait de réactiver la thèse ACHETER (Sizing Réduit).** Si le cours clôture sous $13.20 : sortie anticipée partielle. Si sous $12.77 : invalidation complète. Le bilan reste extrêmement fragile (current ratio 0.50, tangible asset value negatif). AAdvantage (programme loyalty) reste le hidden asset (~$20-25B > market cap).
 
-**Verdict institutionnel :** La these tactique **ACHETER (Sizing Reduit) est CONFIRMEE ET RENFORCEE.** La cloture officielle du 09/06 confirme une **cassure technique majeure** : (1) recuperation du support $14.00 en close ($14.09) ; (2) volume historique 149.70M confirmant l'accumulation institutionnelle ; (3) RSI 69.26 momentum puissant ; (4) options stables malgre le rally. Le Forward P/E 6.32 reste attractif. Cependant, le **RSI 69.26 limite la marge de securite** (0.74 pt avant surachat). Le bilan reste extremement fragile (current ratio 0.50, tangible asset value negatif). Le sizing reduit est imperatif. **Un maintien au-dessus de $14.00 demain en close sur volume > 80M confirmerait la tendance.** Si le cours recule sous $14.00 en close demain, la cassure est suspecte et retour vers $13.20 probable. Le RSI approche 70 — ne pas ajouter a ce niveau. AAdvantage (programme loyalty) reste le hidden asset (~$20-25B > market cap).
-
-**✅ Donnees completes** — Cours, RSI, ATR, P/E, beta, consensus FMP, short interest, volume disponibles dans `data/2026-06-09.json` (snapshot 21h UTC).  
-**⚠️ Donnees partielles** — Accounting risk (M-Score, Z-Score, F-Score, Sloan) : fichier indisponible. Quant report insuffisant. MACD, MM200, IV Rank, insider trades detailles, 13F complets, ETF flows, dark pool, transcripts NLP, job postings.
+**⚠️ Donnees partielles majeures** — Snapshot 10h UTC pré-ouverture avec previous_close $13.60 [ANOMALIE] vs $14.09 close officiel 09/06. ATR, MM50, MM200 indisponibles. Options corrompues (Max Pain $5.00). Donnees sectorielles NaN. Accounting risk indisponible. Quant report insuffisant.
 
 ---
 
@@ -71,7 +69,7 @@ Le Forward P/E est a **6.32** (asymetrie intacte). Le RSI remonte a **69.26** (+
 
 | Date | Evenement |
 |------|-----------|
-| 2026-06-12 | Expiration options (Max Pain $13.00) — risque gamma J-4 |
+| 2026-06-12 | Expiration options (Max Pain indisponible — données corrompues) — risque gamma J-2 |
 | 2026-07-23 | Earnings Q2 FY2026 — Est EPS -$0.34 a $0.52, Rev $16.6B |
 | 2026-06-XX | Decision Fed — impact taux sur cout de la dette |
 
@@ -87,5 +85,5 @@ Voir [SUPPLY_CHAIN.md](./SUPPLY_CHAIN.md)
 
 - Analyse initiale : [AAL_2026-05-17_init.md](./AAL_2026-05-17_init.md)
 - Mise a jour 2026-05-18 : [AAL_2026-05-18_update.md](./AAL_2026-05-18_update.md)
-- Derniere mise a jour : [AAL_2026-06-09_update_21h00.md](./AAL_2026-06-09_update_21h00.md)
+- Derniere mise a jour : [AAL_2026-06-10_update.md](./AAL_2026-06-10_update.md)
 - Contexte court terme : [CONTEXT.md](./CONTEXT.md)
