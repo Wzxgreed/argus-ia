@@ -1,7 +1,7 @@
 # AXA — Index du Dossier
 
-> **Dernière mise à jour :** 2026-06-09 (snapshot 21h00 UTC)
-> **Statut :** 🟡 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`) + earnings J0 FMP glissant sans détails. SCORING STABLE. **MUTATION SECTORIELLE XLF POSITIVE** (return 20j +2.50%, return 60j +7.85%, rang 3e/11, momentum 5.19/10).
+> **Dernière mise à jour :** 2026-06-10 (snapshot 10h00 UTC)
+> **Statut :** 🟡 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`) + earnings J0 FMP glissant sans détails (13e jour consécutif). SCORING STABLE. **ANOMALIE JSON** dans `data/sector_rotation_2026-06-10.json` (NaN + momentum 10.0 uniforme) — dernier contexte sectoriel fiable : 09/06 21h (XLF rang 3e/11, momentum 5.19/10, RS 20j +2.81%).
 
 ---
 
