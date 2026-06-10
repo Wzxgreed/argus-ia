@@ -27,11 +27,13 @@ La thèse sur ASTS est **modifiée : ATTENDRE → SURVEILLER** — snapshot 10h 
 - Options expiry : **2026-06-12** (J+4) — max pain $120 au-dessus du spot (+29,1%), données JSON fiables (put/call 0,70, call OI 59,0%)
 
 ## Alertes actives
-- **VOLUME_NORMALISÉ** — volume 1,01×, participation institutionnelle de retour (signal positif, première séance normale depuis le 02/06)
-- **ATR_SPIKE (haut)** — ATR relatif 15,0% du cours, range intraday 17,4% ($85,50–$100,94)
-- **REJET_100** — test et rejet de la résistance psychologique $100 (high $100,94, close $88,71) — structure de séance baissière
-- **CLOSE_SUR_MM50** — cours exactement sur MM50 $88,70. Risque de rupture support immédiat
-- **Profil non rentable** — EPS estimé négatif, multiples extrêmes (P/B 12,73x Yahoo / 10,10x FMP, EV/Revenue 330x), aucune visibilité sur la rentabilité
-- **Secteur Communication Services (XLC)** — bottom 3 du ranking sectoriel (momentum score 0,0)
-- **Options J+3** — Max Pain $120 au-dessus du spot (+35,3%). Pinning gamma haussier théorique mais gap très large après rejet $100
-- **Divergence consensus creusée** — upside mécanique +6,59% ($88,71 vs PT $94,54), signal positif
+- **DONNÉES PARTIELLES** — close NaN, ATR14 null, MM50 null. Impossibilité de confirmer la tenue du support MM50 $88,70
+- **ANOMALIE OPTIONS JSON** — max pain $45 aberrant (valeur opérationnelle $120 conservée), put/call et call OI null
+- **VOLUME_NORMALISÉ** — volume 1,01×, participation institutionnelle maintenue (signal positif stable)
+- **ATR_SPIKE (haut)** — ATR relatif 15,0% du cours (dernier ATR connu $13,29), range intraday 17,4% le 09/06 ($85,50–$100,94)
+- **REJET_100** — test et rejet de la résistance psychologique $100 (high $100,94, close $88,71 le 09/06) — structure de séance baissière
+- **CLOSE_SUR_MM50** — cours exactement sur MM50 $88,70 le 09/06. Risque de rupture support non confirmé dans le snapshot 10h
+- **Profil non rentable** — EPS estimé négatif, multiples extrêmes (P/B 12,73x Yahoo / 10,10x FMP, EV/Revenue 318x), aucune visibilité sur la rentabilité
+- **Secteur Communication Services (XLC)** — bottom 3 du ranking sectoriel (signal UNKNOWN, données partielles)
+- **Options J+2** — Max Pain opérationnel $120 au-dessus du spot (+35,3% si spot ~$88,71). Pinning gamma haussier théorique mais gap très large après rejet $100
+- **Short Interest élevé** — 18,39% (+0,79 pt) — pas de squeeze setup mais pression vendeuse présente

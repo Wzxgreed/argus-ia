@@ -35,6 +35,7 @@
 | 2026-06-08 | Mise à jour post-pipeline (17h UTC) | [SPCX_2026-06-08_update_17h.md](./SPCX_2026-06-08_update_17h.md) | Thèse confirmée en ATTENDRE — stabilité totale vs 13h, quatorze snapshots consécutifs sans données fiables, conflit de symbole persistant, XLF return_20d légèrement amélioré +1.76%, Score Global 55.2/100 (inchangé) |
 | 2026-06-09 | Mise à jour post-pipeline (10h UTC) | [SPCX_2026-06-09_update.md](./SPCX_2026-06-09_update.md) | Thèse confirmée en SURVEILLER — stabilité totale vs 17h 08/06, quinze snapshots sans données fiables, reclassement mécanique ATTENDRE → SURVEILLER (Score Global 47.2/100), Score Valorisation 3.0/10 proche seuil disqualification |
 | 2026-06-09 | Mise à jour post-pipeline (close officiel 21h UTC) | [SPCX_2026-06-09_update.md](./SPCX_2026-06-09_update.md) | Thèse confirmée en SURVEILLER — stabilité totale vs 13h 09/06, dix-sept snapshots consécutifs sans données fiables, conflit de symbole stable, XLF momentum légèrement amélioré 5.19 (+2.5%), scoring inchangé (Score Global 47.2/100) |
+| 2026-06-10 | Mise à jour post-pipeline (10h UTC) | [SPCX_2026-06-10_update.md](./SPCX_2026-06-10_update.md) | Thèse confirmée en SURVEILLER — dix-huit snapshots sans données fiables, stabilité totale, conflit de symbole persistant, données sector rotation corrompues (NaN), Score Global 47.2/100 inchangé |
 
 ---
 
