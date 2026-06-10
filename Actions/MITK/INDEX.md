@@ -43,16 +43,14 @@
 - Expiration options : **2026-06-18** (15j)
 
 ## Alertes actives
-- 🟢 **[SESSION US CONFIRMÉE — 21h UTC]** Volume 1,481,772 = 1.24× moyenne 20j — liquidité réelle validée — 2026-06-09
-- 🟢 **[CASSURE MM50 CONFIRMÉE — MARGE CONFORTABLE]** Cours $15.49 > MM50 $14.87 (+4.2%) — signal technique intact — 2026-06-09
-- 🟡 **[RSI STABLE SOUS 60]** 58.37 — zone neutre favorable, pas de surachat — 2026-06-09
-- 🟡 **[VOLATILITÉ INTRADAY ÉLEVÉE]** Range $14.50–$15.96 (10.1%), ATR +7.7% à $0.98 — prudence sur les stops — 2026-06-09
-- 🟡 **[REJET DU HIGH $15.96]** Test du consensus PT $16.00 suivi d'un rejet — résistance technique active — 2026-06-09
-- 🟢 **[CONSENSUS PT SOUS LE SPOT]** $16.00 > $15.49 — upside théorique de +3.3% — 2026-06-09
-- 🟢 **[STRUCTURE OPTIONS HAUSSIÈRE CONFIRMÉE]** Max Pain $20.00, Put/Call 0.22, Call OI 81.7% — signal dérivé haussier stable — 2026-06-09
-- 🟡 **[DRAFT_refresh FAUX POSITIF — ARCHIVÉ]** Trigger ATR_SPIKE 6.33% généré par `detect_major_events` — session US normale, pas d'événement structurel — 2026-06-09
+- 🟡 **[ANOMALIE OPTIONS JSON RÉCURRENTE]** Max pain $2.50, put/call null, call OI null — régression vs correction du 9 juin — données dérivées non fiables — 2026-06-10
+- 🟡 **[DONNÉES TECHNIQUES PARTIELLES]** ATR, MM50, MM200 null dans `latest.json` — impossibilité de valider les niveaux techniques et de recalculer SL/TP — 2026-06-10
+- 🟡 **[SCORE MOMENTUM DÉGRADÉ]** 6.0/10 vs 7.0/10 précédemment — principal driver du passage ATTENDRE — 2026-06-10
+- 🟡 **[SHORT INTEREST EN LÉGÈRE HAUSSE]** 8.56% (+0.25 pt) — monitorer — 2026-06-10
+- 🟢 **[VOLUME STABLE]** 1,481,772 = 1.24× moyenne 20j — liquidité crédible maintenue — 2026-06-10
+- 🟢 **[RSI NEUTRE FAVORABLE]** 57.9 — zone neutre, pas de surachat — 2026-06-10
+- 🟢 **[CONSENSUS PT SOUS LE SPOT]** $16.00 > $15.40 — upside théorique de +3.9% — 2026-06-10
 - 🟡 **[ROIC FAIBLE]** 3.16% — monitorer l'efficacité du capital dans les prochains filings — 2026-05-18
 - 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($699.5M Yahoo vs $446.6M FMP), P/E, EV multiples — utiliser Yahoo comme primaire — persistant
-- 🟡 **[LIQUIDITÉ DÉRIVÉE FAIBLE]** Faible couverture strike — prudence sur le hedging — 2026-06-08
 - 🟡 **[BETA LÉGÈREMENT SUPÉRIEUR AU MARCHÉ]** 1.007 — sensibilité marché accrue — 2026-06-08
 - 🔴 **[PULLBACK −15.3% SANS CATALYSEUR IDENTIFIABLE]** Risque de continuation baissière si support MM50 cède — 2026-06-08
