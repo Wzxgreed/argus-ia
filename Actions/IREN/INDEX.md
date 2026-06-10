@@ -9,27 +9,27 @@
 
 ## Thèse Courante
 
-IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot pre-market du 2026-06-10 (10h UTC) révèle une **dégradation massive du scoring agent** : le Score Global chute de **61.8/100 à 44.3/100** (−17.5 pts), entraînant un changement de recommandation **ACHETER (Sizing Réduit) → SURVEILLER**.
+IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot 13h UTC du 2026-06-10 confirme la **stabilité totale des données brutes** et révèle une **détente options significative** vs le snapshot 10h, sans modifier le scoring agent dégradé.
 
-**🟡 Momentum technique neutre-haut :** Le RSI est révisé à **62.18** (zone neutre-haute, +6.16 pts vs close 09/06), rapprochant la zone de surachat (70). L'ATR 14j, la MM50 et la MM200 sont **indisponibles** dans `data/latest.json` — lecture technique incomplète.
+**🟡 Momentum technique neutre-haut :** Le RSI est à **62.18** (zone neutre-haute), inchangé vs snapshot 10h. L'ATR 14j, la MM50 et la MM200 sont **indisponibles** dans `data/latest.json` — lecture technique incomplète.
 
-**🟢 Consensus PT stable :** **$69.12 (26 analysts)** — upside depuis previous close $59.19 à **+16.8%** (vs +27.9% à $54.02). Le consensus reste ancré.
+**🟢 Consensus PT stable :** **$69.12 (26 analysts)** — upside depuis previous close $59.19 à **+16.8%**. Le consensus reste ancré.
 
-**🔴 Valorisation massivement dégradée par l'agent :** Score Valorisation **3.0/10** (vs 4.5). P/E TTM **70.16×**, P/B **6.91×**, EV/EBITDA **143.08×** (amélioration mécanique vs 155.63× mais toujours extrême).
+**🔴 Valorisation massivement dégradée par l'agent :** Score Valorisation **3.0/10**. P/E TTM **70.16×**, P/B **6.91×**, EV/EBITDA **143.08×** — multiples extrêmement élevés.
 
 **🔴 Forward P/E négatif :** **−57.47×** — profitabilité attendue éloignée. FCF négatif (yield −36%).
 
-**🔴 Catalyseur dégradé :** Score Catalyseur **5.3/10** (vs 6.8) — révision algorithmique majeure.
+**🔴 Catalyseur dégradé :** Score Catalyseur **5.3/10** — révision algorithmique majeure.
 
-**🔴 Short Interest en hausse :** **16.05%** (+1.33 pt vs 14.72%) — défiance accrue du marché, fuel squeeze renforcé mais non activé.
+**🔴 Short Interest élevé stable :** **16.05%** — défiance accrue du marché maintenue, fuel squeeze renforcé mais non activé.
 
-**🟢 Volume stable :** 56.48 M = **1.08× moyenne 20j** — inchangé vs close 09/06.
+**🟢 Volume stable :** 56.48 M = **1.08× moyenne 20j** — inchangé.
 
 **🔴 Volatilité extrême :** Beta **4.232**. Sizing réduit obligatoire (max 5% portefeuille) si position existante.
 
 **🔴 Corrélation BTC :** Corrélation 30j **0.82**, beta BTC **2.1** — le pivot IA n'est pas encore pricé comme découplage. Toute position IREN reste un pari implicite sur BTC.
 
-**⚠️ Défiance options persistante :** Put/call **2.22**, call OI **31.0%** (puts 69.0%). Max Pain **$33.00** (anomalie $20.00 ignorée). Le marché options anticipe une volatilité significative jusqu'à l'expiration du 2026-06-12.
+**🟡 Défiance options en détente :** Put/call **1.92** (vs 2.22 snapshot 10h), call OI **34.2%** (vs 31.0%). Max Pain **$50.00** (vs $33.00) — le marché options anticipe une volatilité moindre et un prix de gravitation plus proche du cours actuel. Signal technique indirect favorable.
 
 **⚠️ Données techniques partielles :** ATR, MM50, MM200 indisponibles dans `latest.json` — niveaux SL/TP basés sur dernier ATR connu ($6.06) avec réserve.
 
@@ -37,7 +37,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 
 **Score Opportunité : 4.4/10** (Catalyseur 5.3, Valorisation 3.0, Momentum 5.5)
 **Score Global ajusté : 44.3/100**
-**Action : SURVEILLER** — le scoring agent a massivement dégradé la valorisation et le catalyseur. Attendre clarification des données techniques (ATR, MM50) et stabilisation du score agent avant toute entrée. Le previous close $59.19 est la résistance immédiate. SL estimé $41.90 / TP estimé $72.20 (R/R 1.5, basé sur ATR antérieur).
+**Action : SURVEILLER** — scoring agent dégradé maintenu. La détente options (Max Pain $50, put/call 1.92) est un signal technique indirect favorable mais non suffisant pour upgrader sans données de cours live et clarification des indicateurs techniques (ATR, MM50). Le previous close $59.19 est la résistance immédiate. SL estimé $41.90 / TP estimé $72.20 (R/R 1.5, basé sur ATR antérieur).
 
 > **⚠️ Réserve earnings :** Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds (FY 2025 uniquement). Sizing réduit obligatoire (beta 4.232, ATR 11.22% historique). Surveiller BTC — seuil critique $75k. Si le cours casse $50.70 (dernier MM50 connu) sans rebond → passer en ÉVITER. Si le cours casse $48.75 (ancienne MM50) → stopper toute position. Si le cours casse $41.90 (SL estimé) → stopper la position.
 
@@ -84,6 +84,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 | 2026-06-09 | [IREN_2026-06-09_update.md](IREN_2026-06-09_update.md) (snapshot 17:00 UTC) | Mise à jour post-session | Snapshot 17:00 UTC — **correction −11.65%** ($59.19 → $52.295) · rejet massif du high $60.86 · range intraday 18.6% · RSI 54.23 · MM50 $50.67 testée (+3.2%) · multiples mécaniquement améliorés (P/E 67.86×, P/B 6.69×) · upside consensus +32.2% · options inchangées (put/call 2.22) · scores révisés (C 6.8, V 4.5, M 6.0) · Global 61.8/100 inchangé · Action **ACHETER (Sizing Réduit)** · SL/TP $40.18/$70.47 · Thèse **modifiée** — vigilance accrue |
 | 2026-06-09 | [IREN_2026-06-09_update_21h00.md](IREN_2026-06-09_update_21h00.md) (close officiel) | Close officiel post-session | Close officiel 21:00 UTC — **correction close $52.295 → $54.02 (+3.3%)** · volume révisé 56.48 M (1.08× moyenne) · RSI 56.02 · MM50 $50.70 (+6.6%) · multiples mécaniquement dégradés (P/E 70.16×, P/B 6.91×) · upside consensus +27.9% · options inchangées · Score Opportunité 5.7/10 inchangé · Global 61.8/100 inchangé · Action **ACHETER (Sizing Réduit)** · SL/TP $41.90/$72.20 · Thèse **confirmée** — lecture technique améliorée vs snapshot 17h |
 | 2026-06-10 | [IREN_2026-06-10_update.md](IREN_2026-06-10_update.md) (snapshot 10h UTC) | Mise à jour pre-market | Snapshot 10h UTC — **Score Global dégradé 61.8 → 44.3** (−17.5 pts) · Action **SURVEILLER** (downgrade depuis ACHETER) · RSI 62.18 (+6.16 pts) · Short Interest 16.05% (+1.33 pt) · ATR/MM50 indisponibles · EV/EBITDA 143.08× (amélioration mécanique) · anomalies options persistantes · Thèse **modifiée** |
+| 2026-06-10 | [IREN_2026-06-10_update.md](IREN_2026-06-10_update.md) (snapshot 13h UTC — révision) | Mise à jour intra-journalière | Snapshot 13h UTC — **données brutes stables**, **détente options majeure** (Max Pain $50.00 vs $33.00, put/call 1.92 vs 2.22, call OI 34.2% vs 31.0%) · Score Global **44.3/100** inchangé · Action **SURVEILLER** confirmée · Thèse **confirmée** |
 
 ---
 

@@ -19,10 +19,10 @@
 ---
 
 ## 📜 Historique des analyses
-- **Score global :** 37.5/100
-- **Prix cible :** $151.83
+- **Score global :** —/10
+- **Prix cible :** $—
 - **Stop-loss :** $124.58
-- **Statut thèse :** modifiée
+- **Statut thèse :** validée
 - **Horizon :** 1–3 mois
 
 ---
@@ -65,9 +65,9 @@
 ## 📊 Contexte technique (dernier snapshot)
 
 - **RSI 14j :** 81.3
-- **MM 50j :** null [DONNÉES PARTIELLES]
-- **MM 200j :** null [DONNÉES PARTIELLES]
-- **ATR 14j :** null [DONNÉES PARTIELLES]
+- **MM 50j :** —
+- **MM 200j :** —
+- **ATR 14j :** —
 - **Volume moy. 20j :** 2633352
 
 ---
@@ -77,7 +77,7 @@
 - **Date :** 2026-06-10
 - **Type :** update
 - **Fichier :** `A_2026-06-10_update.md`
-- **Conclusion :** Snapshot 10h UTC — [DONNÉES PARTIELLES] (close NaN, ATR/MM50 null) + anomalie options JSON récurrente. Cours indicateur $132.69 (divergence vs close 09/06 $135.48). RSI 81.3 (−1.36 pt). Score Global ajusté 37.5 (−15.8 pts) — passage ATTENDRE → SURVEILLER. Aucune action recommandée.
+- **Conclusion :** > **Date :** 2026-06-10 · Snapshot 10:00 UTC
 
 ---
 

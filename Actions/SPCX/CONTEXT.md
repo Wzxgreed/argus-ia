@@ -59,7 +59,7 @@
 - **Date :** 2026-06-10
 - **Type :** update
 - **Fichier :** `SPCX_2026-06-10_update.md`
-- **Conclusion :** Thèse confirmée en SURVEILLER — dix-huit snapshots consécutifs sans données fiables, stabilité totale vs close 21h UTC 09/06, conflit de symbole persistant, module sector rotation corrompu (NaN), Score Global 47.2/100 inchangé.
+- **Conclusion :** **Date :** 2026-06-10
 
 ---
 

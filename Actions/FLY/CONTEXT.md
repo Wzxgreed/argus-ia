@@ -7,8 +7,8 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Score global :** 46.8/100
+- **Recommandation :** —
+- **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
 - **Statut thèse :** modifiée
@@ -24,33 +24,23 @@
 
 ## 🚨 Alertes actives
 
-- **SHORT INTEREST ÉLEVÉ ET EN HAUSSE** — 12.12% (+2.34 pts vs 09/06, +23.9% relative). Pression vendeuse accrue, pas de setup squeeze.
-- **PIN RISK OPTIONS J-2** — Expiration 2026-06-12, max pain opérationnel $40.00 vs spot révisé $36.18 (−9.6%). Puts $35.00–$40.00 partiellement ITM.
-- **RÉVISION CLOSE MAJEURE** — Snapshot 10h UTC révise le close 09/06 à $36.18 (vs $33.445 précédemment rapporté). À confirmer en session NY.
-- **DONNÉES TECHNIQUES PARTIELLES** — ATR 14j, MM50 et MM200 null dans `latest.json`. Impossible de calibrer SL/TP.
-- **SCORES AGENTS DÉGRADÉS** — Score Catalyseur 5.0/10 (−1.5 pt), Score Valorisation 4.5/10 (−1.5 pt) vs 09/06.
-- **ANOMALIE DATA OPTIONS** — Max pain $19.00 aberrant dans `latest.json` (valeur opérationnelle conservée $40.00).
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **Earnings Q2 2026** — 2026-08-04 (55 jours) — Est EPS −$0.61 à −$0.45, Rev $0.1B
-- **Expiration options** — 2026-06-12 (J-2)
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
 - **RSI 14j :** 42.81
-- **MM 50j :** — (null)
-- **MM 200j :** — (null)
-- **ATR 14j :** — (null)
+- **MM 50j :** —
+- **MM 200j :** —
+- **ATR 14j :** —
 - **Volume moy. 20j :** 9181716
-- **Volume session (reporté) :** 6312138 (0.69×)
-- **Previous close (révisé 09/06) :** 36.18
-- **52W high :** 73.80
-- **52W low :** 16.00
 
 ---
 
@@ -59,7 +49,7 @@
 - **Date :** 2026-06-10
 - **Type :** update
 - **Fichier :** `FLY_2026-06-10_update.md`
-- **Conclusion :** Thèse modifiée — SURVEILLER (46.8). Le snapshot 10h UTC révise le close 09/06 à $36.18 (+8.18% vs $33.445 précédent), invalidant le gap baissier −7.56% et le rebond mécanique. Cependant, short interest grimpe à 12.12% (+23.9%) et les scores Catalyseur (−1.5 pt) et Valorisation (−1.5 pt) se dégradent. Données techniques partielles (ATR/MM50 null). Timing passe de Défavorable à Neutre. Pas de position recommandée.
+- **Conclusion :** > **Type :** `_update.md` — Snapshot 10h UTC, révision majeure du close 09/06, short interest en hausse, scores agents modifiés, thèse SURVEILLER confirmée avec nuance
 
 ---
 

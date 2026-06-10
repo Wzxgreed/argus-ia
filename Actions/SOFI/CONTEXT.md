@@ -21,7 +21,7 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 51.5/100
+- **Score global :** —/10
 - **Prix cible :** $19.56
 - **Stop-loss :** $14.46
 - **Statut thèse :** validée
@@ -37,38 +37,34 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ## 🚨 Alertes actives
 
-- Baisse — $14.46 (SL 2×ATR) — 🟢 Active
-- Hausse — $19.56 (prix cible) — 🟢 Active
-- Volume — >2× moy. 20j (>144.1M) — 🟢 Active
-- Short interest — >15.0% (niveau critique) — 🟡 Surveillance (actuel 14.71%)
-- Score Global — <50.0 (seuil SURVEILLER) — 🟡 Surveillance (actuel 51.5)
+- Baisse — $13.78 (SL 2×ATR) — 🟢 Active
+- Hausse — $18.88 (prix cible) — 🟢 Active
+- Volume — >2× moy. 20j (>140.7M) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- 2026-07-28 — Earnings Q2 FY2026 (48j restants, Est EPS $0.10–$0.11, Rev $1.1B)
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
 - **RSI 14j :** 58.52
-- **MM 50j :** — (données partielles, dernière valeur connue $16.78)
-- **MM 200j :** — (données partielles)
-- **ATR 14j :** — (données partielles, dernière valeur connue $1.02)
+- **MM 50j :** —
+- **MM 200j :** —
+- **ATR 14j :** —
 - **Volume moy. 20j :** 72059377
-- **Volume relatif :** 1.10×
-- **Short interest :** 14.71% (+1.03 pt vs 09/06)
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-10
-- **Type :** update quotidien
+- **Type :** update
 - **Fichier :** `SOFI_2026-06-10_update.md`
-- **Conclusion :** ATTENDRE confirmé — Stabilité des prix (+0.18%) mais scores agents en baisse (Score Global 51.5/100, −0.8 pt). Short interest en hausse significative à 14.71% (+1.03 pt). Timing passé à Neutre. Données techniques partielles (ATR, MM50 null). À 1.5 pt du seuil SURVEILLER.
+- **Conclusion :** **Date :** 2026-06-10 (snapshot 10:00 UTC — données partielles, pre-market/début de séance)
 
 ---
 

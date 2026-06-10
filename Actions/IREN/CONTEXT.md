@@ -10,8 +10,8 @@
 - **Recommandation :** SURVEILLER
 - **Score global :** 44.3/100
 - **Prix cible :** $69.12 (consensus FMP)
-- **Stop-loss :** $41.90 (estimé, dernier ATR connu $6.06)
-- **Statut thèse :** modifiée
+- **Stop-loss :** $41.90 (estimé, 2×ATR antérieur $6.06)
+- **Statut thèse :** confirmée
 - **Horizon :** —
 
 ---
@@ -41,22 +41,24 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 62.18 (zone neutre-haute, +6.16 pts vs close 09/06)
-- **MM 50j :** N/A (indisponible dans `latest.json`)
-- **MM 200j :** N/A (indisponible dans `latest.json`)
-- **ATR 14j :** N/A (indisponible dans `latest.json` — dernier connu $6.06)
+- **RSI 14j :** 62.18
+- **MM 50j :** —
+- **MM 200j :** —
+- **ATR 14j :** —
 - **Volume moy. 20j :** 52267212
-- **Previous close :** $59.19
-- **Short Interest :** 16.05% (+1.33 pt vs close 09/06)
+- **Max Pain :** $50.00 (exp 2026-06-12)
+- **Put/Call :** 1.92
+- **Call OI % :** 34.2%
+- **Short Interest :** 16.05%
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-10
-- **Type :** _update.md
+- **Date :** 2026-06-10 (snapshot 13h UTC — révision)
+- **Type :** update
 - **Fichier :** `IREN_2026-06-10_update.md`
-- **Conclusion :** Snapshot pre-market 10h UTC — Score Global dégradé de 61.8/100 à 44.3/100 (−17.5 pts), entraînant un changement de recommandation ACHETER (Sizing Réduit) → SURVEILLER. Le downgrade est piloté par une dégradation algorithmique de la Valorisation (4.5 → 3.0) et du Catalyseur (6.8 → 5.3). Le RSI remonte à 62.18 (+6.16 pts) en zone neutre-haute. Le Short Interest grimpe à 16.05% (+1.33 pt). Données techniques partielles (ATR, MM50, MM200 indisponibles). Aucune nouvelle fondamentale ni événement corporate. Attendre clarification données techniques et stabilisation scoring agent.
+- **Conclusion :** **Thèse : CONFIRMÉE — SURVEILLER** · Données brutes stables · Détente options majeure (Max Pain $50.00 vs $33.00, put/call 1.92 vs 2.22, call OI 34.2% vs 31.0%) · Score Global 44.3/100 inchangé · ATR/MM50/MM200 toujours indisponibles
 
 ---
 

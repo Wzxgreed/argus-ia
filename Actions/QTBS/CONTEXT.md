@@ -41,8 +41,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-10** · Placeholder earnings FMP J0 glissant (10/06) — non analysable faute de données
-- Prochain earnings / catalyseur : **à confirmer** dès reprise du data feed
+- **2026-06-10** · earnings · Earnings ...
 
 ---
 
@@ -61,7 +60,7 @@
 - **Date :** 2026-06-10
 - **Type :** update
 - **Fichier :** `QTBS_2026-06-10_update.md`
-- **Conclusion :** Data blackout confirmé snapshot 10h UTC — ATTENDRE (44e snapshot consécutif sans mutation), placeholder earnings J0 glissant au 10/06
+- **Conclusion :** > **Date :** 2026-06-10 (snapshot 10h UTC)
 
 ---
 
