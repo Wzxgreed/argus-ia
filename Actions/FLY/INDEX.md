@@ -47,8 +47,13 @@
 - ~~**DEUXIÈME GAP NON EXPLIQUÉ** — Deuxième gap haussier consécutif : +17.57% à $58.20 (2026-05-26 17:00 UTC) après +15.49% à $49.50 (2026-05-25/26). Cumul +35.8% en 2 sessions sans catalyst. Risque de gap fill élevé.~~ **EFFACÉ** — Gap fill matérialisé : cours retombé à $41.90 (-30.5% vs 27/05), rebond de clôture à $44.24.
 - ~~**RSI EXTRÊME** — RSI 14j 81.11 (snapshot 17:00 UTC). Surachat extrême, vulnérabilité à un retournement violent.~~ **RÉSOLU** — RSI 56.81 (snapshot 01/06 21h), normalisation complète.
 - ~~**ANOMALIE DATA OPTIONS** — Snapshot 01/06 10h : max pain $20.00 aberrant, put/call null, call OI null. [DONNÉES PARTIELLES] post-expiration 29/05.~~ **RÉSOLUE** — Snapshot 13h/17h/21h : max pain $42.00, put/call 0.83, call OI 54.6%, expiration 2026-06-05.
-- **SHORT INTEREST ÉLEVÉ** — 9.78% stable. Pression vendeuse persistante, pas de setup squeeze.
-- ~~**ANOMALIE DATA OPTIONS** — Snapshot 03/06 10h : max pain $20.00 aberrant dans latest.json (vs $41.00 opérationnel). Put/call et call OI null. [DONNÉES PARTIELLES] — valeurs opérationnelles conservées.~~ **RÉSOLUE** — Snapshot 08/06 21h UTC : max pain $40.00, put/call 1.08, call OI 48.1% restaurés.
-- ~~**PIN RISK OPTIONS** — Expiration 2026-06-05 dans 4 jours, max pain $42.00 vs spot $41.90. Spot légèrement sous le max pain — aimant mécanique vers $42.00 à surveiller.~~ **RÉSOLU** — Max pain opérationnel $41.00, spot $43.37 à +5.8% au-dessus. Risque de pin négatif quasi nul.
-- ~~**APPROCHE MM50** — Low $39.75 à seulement $1.59 de la MM50 ($37.34). Cassure = retour vers $35 et tendance haussière MT remise en cause.~~ **ATTÉNUÉ** — Support $39.75 tenu, clôture $43.37, MM50 $37.79 intacte.
-- **PIN RISK OPTIONS J-3** — Expiration 2026-06-12, max pain opérationnel $40.00 vs spot $33.445 (−16.4%). Puts $35.00–$40.00 massivement in-the-money. Surveillance du comportement autour de $35.00–$40.00. Anomalie data dans `latest.json` (max pain $19.00 aberrant) — valeurs opérationnelles conservées.
+- ~~**DEUXIÈME GAP NON EXPLIQUÉ**~~ **EFFACÉ** — Gap fill matérialisé.
+- ~~**RSI EXTRÊME**~~ **RÉSOLU** — RSI 42.81, normalisation complète.
+- ~~**ANOMALIE DATA OPTIONS**~~ **RÉSOLUE** — max pain $40.00 restauré.
+- **SHORT INTEREST ÉLEVÉ ET EN HAUSSE** — **12.12%** (+2.34 pts vs 09/06, +23.9% relative). Pression vendeuse accrue, pas de setup squeeze.
+- ~~**PIN RISK OPTIONS**~~ **RÉSOLU** — Max pain opérationnel $41.00, spot $43.37 à +5.8% au-dessus.
+- ~~**APPROCHE MM50**~~ **ATTÉNUÉ** — Support $39.75 tenu historiquement.
+- **PIN RISK OPTIONS J-2** — Expiration 2026-06-12, max pain opérationnel $40.00 vs spot révisé $36.18 (−9.6%). Puts $35.00–$40.00 partiellement in-the-money. Surveillance du comportement autour de $35.00–$40.00. Anomalie data dans `latest.json` (max pain $19.00 aberrant) — valeurs opérationnelles conservées.
+- **RÉVISION CLOSE MAJEURE** — Snapshot 10h UTC révise le close 09/06 à $36.18 (vs $33.445 précédemment rapporté), invalidant le gap baissier −7.56%. À confirmer en session NY.
+- **DONNÉES TECHNIQUES PARTIELLES** — ATR 14j, MM50 et MM200 null dans `latest.json`. Impossible de calibrer les niveaux SL/TP et de confirmer la structure technique.
+- **SCORES AGENTS DÉGRADÉS** — Score Catalyseur 5.0/10 (−1.5 pt), Score Valorisation 4.5/10 (−1.5 pt) vs 09/06. Dégradation de la perception fondamentale par l'agent malgré le close révisé.
