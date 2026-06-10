@@ -10,10 +10,10 @@
 - **Score global :** 55.2/100
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** 🔴 Bloqué data — pas de données de prix disponibles (confirmé close officiel 21h UTC, 43e snapshot consécutif sans mutation)
+- **Statut thèse :** 🔴 Bloqué data — pas de données de prix disponibles (confirmé snapshot 10h UTC, 44e snapshot consécutif sans mutation)
 - **Horizon :** Jusqu'à reprise du data feed
 
-**Synthèse (1 phrase) :** QTBS est en data blackout complet (No price history) depuis au moins le 20 mai 2026 ; le placeholder earnings J0 glissant reste figé au 09/06 entre snapshots 13h et 21h, confirmant son caractère automatique FMP — statut ATTENDRE maintenu après vérification close officiel 21h UTC (43e snapshot consécutif sans mutation).
+**Synthèse (1 phrase) :** QTBS est en data blackout complet (No price history) depuis au moins le 20 mai 2026 ; le placeholder earnings J0 glissant est passé au 10/06, confirmant son caractère automatique FMP — statut ATTENDRE maintenu après vérification snapshot 10h UTC (44e snapshot consécutif sans mutation).
 
 ---
 
@@ -37,6 +37,7 @@
 | 2026-06-08 | `QTBS_2026-06-08_update_17h.md` | Mise à jour quotidienne | Data blackout confirmé snapshot 17h UTC — ATTENDRE (40e snapshot consécutif sans mutation), upcoming_events absent |
 | 2026-06-09 | `QTBS_2026-06-09_update.md` | Mise à jour quotidienne | Data blackout confirmé snapshot 13h UTC — ATTENDRE (42e snapshot consécutif sans mutation), placeholder earnings J0 figé au 09/06 |
 | 2026-06-09 | `QTBS_2026-06-09_update_21h.md` | Mise à jour quotidienne | **Data blackout confirmé close officiel 21h UTC — ATTENDRE (43e snapshot consécutif sans mutation), placeholder earnings J0 figé au 09/06 (confirmation caractère automatique FMP)** |
+| 2026-06-10 | `QTBS_2026-06-10_update.md` | Mise à jour quotidienne | **Data blackout confirmé snapshot 10h UTC — ATTENDRE (44e snapshot consécutif sans mutation), placeholder earnings J0 glissant au 10/06** |
 
 ---
 
@@ -49,11 +50,10 @@
 
 ## 🔗 Liens rapides
 
-- [Mise à jour du jour (close 21h) → `QTBS_2026-06-09_update_21h.md`](QTBS_2026-06-09_update_21h.md)
-- [Mise à jour snapshot 13h (09/06) → `QTBS_2026-06-09_update.md`](QTBS_2026-06-09_update.md)
-- [Mise à jour snapshot 17h (08/06) → `QTBS_2026-06-08_update_17h.md`](QTBS_2026-06-08_update_17h.md)
+- [Mise à jour du jour (snapshot 10h) → `QTBS_2026-06-10_update.md`](QTBS_2026-06-10_update.md)
+- [Mise à jour précédente (close 21h 09/06) → `QTBS_2026-06-09_update_21h.md`](QTBS_2026-06-09_update_21h.md)
 - [Contexte mémoire → `CONTEXT.md`](CONTEXT.md)
 
 ---
 
-*Dernière mise à jour : 2026-06-09 (close officiel 21h UTC)*
+*Dernière mise à jour : 2026-06-10 (snapshot 10h UTC)*
