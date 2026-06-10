@@ -51,11 +51,11 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 58.52
-- **MM 50j :** —
+- **RSI 14j :** 53.53
+- **MM 50j :** 16.8
 - **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** 72059377
+- **ATR 14j :** 1.02
+- **Volume moy. 20j :** 70564007
 
 ---
 
@@ -64,14 +64,13 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 - **Date :** 2026-06-10
 - **Type :** update
 - **Fichier :** `SOFI_2026-06-10_update.md`
-- **Conclusion :** Snapshot 13h UTC — stabilité totale cours/RSI/volume, [RÉSOLU] anomalie options corrigée (Max Pain $17.00, Put/Call 0.48, Call OI 67.7%), scores inchangés ATTENDRE 51.5/100, short interest 14.71% stable.
+- **Conclusion :** **Date :** 2026-06-10 (snapshot 13:00 UTC — données partielles, options corrigées)
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- ATR_SPIKE (medium) : ATR relatif 5.13% (seuil 5.0%)
-- Le trigger ATR_SPIKE 5.88% est un **faux positif** : l'ATR est resté stable à **$0.97** entre le close 08/06 et le snapshot 09/06. Aucune expansion de volatilité n'est survenue.
+- **ATR_SPIKE** (medium) — ATR relatif 6.33% (seuil 5.0%)
 
 ---
 

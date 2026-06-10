@@ -36,26 +36,26 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 50.99
-- **MM 50j :** —
+- **RSI 14j :** 46.54
+- **MM 50j :** 140.36
 - **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** 40264510
+- **ATR 14j :** 7.52
+- **Volume moy. 20j :** 39016436
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-10
-- **Type :** update
-- **Fichier :** `PLTR_2026-06-10_update.md`
-- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-10T10:00:01Z, fetched_at 2026-06-10T10:00:09Z) + agents quant, geo, accounting, sector, social, FX, watchman, events
+- **Type :** full refresh
+- **Fichier :** `PLTR_2026-06-10_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-10
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **ATR_SPIKE** (medium) — ATR relatif 5.71% (seuil 5.0%)
 
 ---
 

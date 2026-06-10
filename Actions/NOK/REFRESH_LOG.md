@@ -2109,3 +2109,21 @@ Snapshot 2026-06-09 21:00 UTC. Cours $13.85 (−5.07% vs previous close), RSI 50
 Même conclusion que l'entrée précédente. DRAFT_refresh archivé.
 
 ---
+
+## 2026-06-10 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 8.30% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-10 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 8.39% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

@@ -1815,3 +1815,21 @@ Snapshot 17:00 UTC — Rebond +7.68% ($54.35 → $58.525) sur volume faible (0.4
 **Conclusion :** confirm — close officiel corrige le snapshot 17h. Cours $54.02 (vs $52.295), volume 56.48 M (1.08× moyenne), RSI 56.02, MM50 $50.70 (+6.6%). Le rebond du low $51.145 vers $54.02 et le volume supérieur à la moyenne invalident la lecture "distribution silencieuse" du snapshot 17h. Structure options inchangée (put/call 2.22). Scores inchangés 5.7/10, Global 61.8/100. Action ACHETER (Sizing Réduit) confirmée. Thèse confirmée — vigilance accrue maintenue sur rejet high $60.86. DRAFT_refresh complété et archivé. Fichier de référence : [IREN_2026-06-09_update_21h00.md](IREN_2026-06-09_update_21h00.md).
 
 ---
+
+## 2026-06-10 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 11.33% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-10 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 11.45% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

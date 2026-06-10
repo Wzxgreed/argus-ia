@@ -44,11 +44,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 41.77
-- **MM 50j :** —
+- **RSI 14j :** 39.83
+- **MM 50j :** 13.71
 - **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** 70521606
+- **ATR 14j :** 0.52
+- **Volume moy. 20j :** 69950871
 
 ---
 
