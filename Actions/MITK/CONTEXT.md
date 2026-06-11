@@ -36,20 +36,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 54.63
-- **MM 50j :** —
+- **RSI 14j :** 57.63
+- **MM 50j :** 14.93
 - **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** 1201491
+- **ATR 14j :** 0.98
+- **Volume moy. 20j :** 1201710
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-10
-- **Type :** update
-- **Fichier :** `MITK_2026-06-10_update.md`
-- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-10 10:00 UTC) + agents quant, geo, sector, social, FX, events, recommandation
+- **Date :** 2026-06-11
+- **Type :** full refresh
+- **Fichier :** `MITK_2026-06-11_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-11
 
 ---
 

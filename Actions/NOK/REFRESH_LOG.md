@@ -2154,3 +2154,21 @@ Même conclusion que l'entrée précédente. DRAFT_refresh archivé.
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-06-11 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 8.51% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-11 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 8.51% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

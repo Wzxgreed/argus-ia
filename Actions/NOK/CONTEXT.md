@@ -49,20 +49,20 @@ Snapshot 13h UTC (pré-ouverture NY, 9h locale) : previous_close **$14.59**, clo
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 51.16
-- **MM 50j :** —
+- **RSI 14j :** 48.94
+- **MM 50j :** 12.52
 - **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** 127087718
+- **ATR 14j :** 1.14
+- **Volume moy. 20j :** 127336420
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-10
-- **Type :** update
-- **Fichier :** `NOK_2026-06-10_13h_update.md`
-- **Conclusion :** > **Date :** 2026-06-10
+- **Date :** 2026-06-11
+- **Type :** full refresh
+- **Fichier :** `NOK_2026-06-11_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-11
 
 ---
 

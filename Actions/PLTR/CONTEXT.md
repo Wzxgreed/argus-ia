@@ -36,20 +36,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 46.02
-- **MM 50j :** —
+- **RSI 14j :** 44.71
+- **MM 50j :** 140.31
 - **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** 39787335
+- **ATR 14j :** 7.52
+- **Volume moy. 20j :** 39854870
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-10
+- **Date :** 2026-06-11
 - **Type :** full refresh
-- **Fichier :** `PLTR_2026-06-10_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-10
+- **Fichier :** `PLTR_2026-06-11_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-11
 
 ---
 

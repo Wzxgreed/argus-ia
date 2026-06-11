@@ -56,11 +56,11 @@ Le Forward P/E reste a **6.32** (asymetrie intacte). Le consensus FMP est inchan
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 63.01
-- **MM 50j :** —
+- **RSI 14j :** 54.65
+- **MM 50j :** 12.54
 - **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** 82174358
+- **ATR 14j :** 0.64
+- **Volume moy. 20j :** 82294425
 
 ---
 
