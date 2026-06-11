@@ -171,3 +171,21 @@
 **Conclusion :** CONFIRMED — Traité via `AAL_2026-05-27_update.md`. Mêmes conclusions.
 
 ---
+
+## 2026-06-11 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +9.13% overnight (seuil ±5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-11 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +9.17% overnight (seuil ±5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

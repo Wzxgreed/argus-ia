@@ -56,26 +56,26 @@ Le Forward P/E reste a **6.32** (asymetrie intacte). Le consensus FMP est inchan
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 50.16
-- **MM 50j :** 12.6
+- **RSI 14j :** 59.36
+- **MM 50j :** 12.62
 - **MM 200j :** —
-- **ATR 14j :** 0.6
-- **Volume moy. 20j :** 82494798
+- **ATR 14j :** 0.67
+- **Volume moy. 20j :** 87924974
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-10
-- **Type :** init
-- **Fichier :** `AAL_2026-06-10_update_13h00.md`
-- **Conclusion :** **Date :** 2026-06-10 (snapshot 13h UTC)
+- **Date :** 2026-06-11
+- **Type :** full refresh
+- **Fichier :** `AAL_2026-06-11_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-11
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **PRICE_GAP** (medium) — Gap +9.17% overnight (seuil ±5.0%)
 
 ---
 
