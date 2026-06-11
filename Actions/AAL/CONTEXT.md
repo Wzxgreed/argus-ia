@@ -1,4 +1,4 @@
-# CONTEXT — AAL — Dernière mise à jour : 2026-06-10
+# CONTEXT — AAL — Dernière mise à jour : 2026-06-11
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -56,11 +56,11 @@ Le Forward P/E reste a **6.32** (asymetrie intacte). Le consensus FMP est inchan
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 54.71
-- **MM 50j :** 12.54
+- **RSI 14j :** 63.01
+- **MM 50j :** —
 - **MM 200j :** —
-- **ATR 14j :** 0.64
-- **Volume moy. 20j :** 82099510
+- **ATR 14j :** —
+- **Volume moy. 20j :** 82174358
 
 ---
 

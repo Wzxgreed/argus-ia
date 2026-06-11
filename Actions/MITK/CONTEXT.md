@@ -1,4 +1,4 @@
-# CONTEXT — MITK — Dernière mise à jour : 2026-06-10
+# CONTEXT — MITK — Dernière mise à jour : 2026-06-11
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -36,11 +36,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 57.58
-- **MM 50j :** 14.93
+- **RSI 14j :** 54.63
+- **MM 50j :** —
 - **MM 200j :** —
-- **ATR 14j :** 0.98
-- **Volume moy. 20j :** 1190032
+- **ATR 14j :** —
+- **Volume moy. 20j :** 1201491
 
 ---
 
