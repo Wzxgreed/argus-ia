@@ -1,4 +1,4 @@
-# CONTEXT — FLY — Dernière mise à jour : 2026-06-11
+# CONTEXT — FLY — Dernière mise à jour : 2026-06-12
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -36,20 +36,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 46.62
+- **RSI 14j :** 46.55
 - **MM 50j :** 39.42
 - **MM 200j :** —
 - **ATR 14j :** 6.04
-- **Volume moy. 20j :** 9214216
+- **Volume moy. 20j :** 9289580
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-11
+- **Date :** 2026-06-12
 - **Type :** full refresh
-- **Fichier :** `FLY_2026-06-11_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-11
+- **Fichier :** `FLY_2026-06-12_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-12
 
 ---
 
