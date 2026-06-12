@@ -56,11 +56,11 @@ Le Forward P/E reste a **6.32** (asymetrie intacte). Le consensus FMP est inchan
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 59.4
-- **MM 50j :** 12.62
+- **RSI 14j :** 58.59
+- **MM 50j :** 12.69
 - **MM 200j :** —
-- **ATR 14j :** 0.67
-- **Volume moy. 20j :** 88196095
+- **ATR 14j :** 0.66
+- **Volume moy. 20j :** 87394962
 
 ---
 
@@ -75,7 +75,7 @@ Le Forward P/E reste a **6.32** (asymetrie intacte). Le consensus FMP est inchan
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +9.17% overnight (seuil ±5.0%)
+- Aucun trigger récent.
 
 ---
 

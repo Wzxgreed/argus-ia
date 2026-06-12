@@ -36,11 +36,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 56.41
-- **MM 50j :** 14.98
+- **RSI 14j :** 53.69
+- **MM 50j :** 15.04
 - **MM 200j :** —
 - **ATR 14j :** 0.93
-- **Volume moy. 20j :** 1177245
+- **Volume moy. 20j :** 1090340
 
 ---
 
@@ -55,7 +55,7 @@
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 5.69% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 5.62% (seuil 5.0%)
 
 ---
 
