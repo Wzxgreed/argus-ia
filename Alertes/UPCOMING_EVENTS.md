@@ -1,6 +1,6 @@
 # 🔭 Événements à venir — Watchlist Argus-IA
 
-> **Date :** 2026-06-12
+> **Date :** 2026-06-13
 > **Tickers scannés :** 29
 > **Événements détectés :** 29
 
@@ -10,14 +10,14 @@
 
 | Ticker | Type | Date | Jours | Détail | Source |
 |--------|------|------|-------|--------|--------|
-| SQ | earnings | 2026-06-12 | 0j | Earnings ... | fmp |
-| TEST | earnings | 2026-06-12 | 0j | Earnings ... | fmp |
-| FUBO | earnings | 2026-06-12 | 0j | Earnings ... | fmp |
-| AST | earnings | 2026-06-12 | 0j | Earnings ... | fmp |
-| AXA | earnings | 2026-06-12 | 0j | Earnings ... | fmp |
-| SPCX | earnings | 2026-06-12 | 0j | Earnings ... | fmp |
-| QTBS | earnings | 2026-06-12 | 0j | Earnings ... | fmp |
-| ASTSPACE | earnings | 2026-06-12 | 0j | Earnings ... | fmp |
+| SQ | earnings | 2026-06-15 | 2j | Earnings ... | fmp |
+| TEST | earnings | 2026-06-15 | 2j | Earnings ... | fmp |
+| FUBO | earnings | 2026-06-15 | 2j | Earnings ... | fmp |
+| AST | earnings | 2026-06-15 | 2j | Earnings ... | fmp |
+| AXA | earnings | 2026-06-15 | 2j | Earnings ... | fmp |
+| SPCX | earnings | 2026-06-15 | 2j | Earnings ... | fmp |
+| QTBS | earnings | 2026-06-15 | 2j | Earnings ... | fmp |
+| ASTSPACE | earnings | 2026-06-15 | 2j | Earnings ... | fmp |
 
 ---
 
@@ -33,7 +33,7 @@
 
 | Ticker | Type | Date | Jours | Détail | Source |
 |--------|------|------|-------|--------|--------|
-| MU | earnings | 2026-06-24 | 12j | Earnings date — Est EPS $7.53-$24.08, Rev $34.3B... | yfinance |
+| MU | earnings | 2026-06-24 | 11j | Earnings date — Est EPS $7.53-$24.08, Rev $34.3B... | yfinance |
 
 ---
 
