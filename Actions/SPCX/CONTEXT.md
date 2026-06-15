@@ -7,13 +7,13 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE (artefact mécanique — fondamentalement non-actionnable)
-**Prix cible :** N/A (données insuffisantes — cours $160.95 non fiable)
+- **Recommandation :** SURVEILLER (artefact mécanique — fondamentalement non-actionnable)
+**Prix cible :** N/A (données insuffisantes — cours $179.26 non fiable)
 **Stop-loss :** N/A
 **Upside :** —
-**Dernière mise à jour :** 2026-06-15 (snapshot 10h UTC)
+**Dernière mise à jour :** 2026-06-15 (snapshot 17h UTC)
 
-> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 10h UTC du 15/06 montre une **aggravation du conflit de symbole** par rapport au 10/06 : cours fictif **$160.95** (vs $135.00 le 10/06, +19.2%), open/high/low **$150.00 / $176.52 / $149.34**, volume **519,234,800** (identique à la moyenne 20j — suspect), secteur `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management`. De nouvelles métriques aberrantes sont apparues : market cap **$2.1T**, forward P/E **−1,788**, consensus **$177.50** avec **2 analysts** (non applicable à un ETF). L'Agent Recommandation reclasse mécaniquement **ATTENDRE** avec un Score Global Ajusté de **51.0/100** (Score Opportunité 5.1/10 : C:7.0 V:3.5 M:5.0), timing Neutre. Cette remontée de 47.2 à 51.0 est un **artefact algorithmique** : l'Agent interprète la présence de nouvelles métriques FMP (même aberrantes) comme une richesse de données. En réalité, la qualité des données s'est dégradée. Le module sector rotation semble avoir récupéré (signal NEUTRAL, XLF #2 momentum 6.73). Aucun catalyseur fondamental, news, options ni social. SL/TP non calculables (prix et ATR absents). Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + Score Momentum ≥ 6.0. Si le flux fiable ne revient pas sur les prochains snapshots → reclassement **ÉVITER**.
+> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 17h UTC du 15/06 montre une **aggravation du conflit de symbole** par rapport au snapshot 10h : cours fictif **$179.26** (vs $160.95 le 10h, +11.4%), open/high/low **$171.81 / $179.50 / $168.36**, volume **144,177,048** (chute de 519M mais reste astronomique), secteur `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management`. De nouvelles métriques aberrantes sont apparues : market cap **$2.35T** (fundamentals) et **$1.59T** (fmp_key_metrics), forward P/E **−1,992**, consensus **$177.50** avec **2 analysts** (non applicable à un ETF). L'Agent Recommandation reclasse mécaniquement **SURVEILLER** avec un Score Global Ajusté de **48.5/100** (Score Opportunité 4.8/10 : C:6.5 V:3.0 M:5.5), timing Neutre. Cette baisse de 51.0 à 48.5 est un **artefact algorithmique** mais dans le bon sens : l'Agent pénalise la valorisation face à des métriques FMP encore plus délirantes. En réalité, la qualité des données continue de s'effondrer. Le module sector rotation signale NEUTRAL (XLF #3 momentum 5.12). Aucun catalyseur fondamental, news, options ni social. SL/TP non calculables (prix et ATR absents). Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + Score Momentum ≥ 6.0. Si le flux fiable ne revient pas sur les prochains snapshots → reclassement **ÉVITER**.
 
 ---
 

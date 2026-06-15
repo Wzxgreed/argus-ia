@@ -11,10 +11,10 @@
 - **Score global :** 55.2/100
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** 🔴 Bloqué data — pas de données de prix disponibles (confirmé snapshot 10h UTC, 49e snapshot consécutif sans mutation)
+- **Statut thèse :** 🔴 Bloqué data — pas de données de prix disponibles (confirmé snapshot 17h UTC, 50e snapshot consécutif sans mutation)
 - **Horizon :** Jusqu'à reprise du data feed
 
-**Synthèse (1 phrase) :** QTBS reste en data blackout complet (No price history) depuis au moins le 20 mai 2026 ; le placeholder earnings J0 glissant est passé au 15/06, confirmant son caractère automatique FMP — statut ATTENDRE maintenu après vérification snapshot 10h UTC (49e snapshot consécutif sans mutation).
+**Synthèse (1 phrase) :** QTBS reste en data blackout complet (No price history) depuis au moins le 20 mai 2026 ; le placeholder earnings J0 glissant est resté figé au 15/06 entre 10h et 17h UTC — statut ATTENDRE maintenu après vérification snapshot 17h UTC (50e snapshot consécutif sans mutation). Nouveau détail FX exposure : 25% export, impact neutre (score 0.0).
 
 ---
 
