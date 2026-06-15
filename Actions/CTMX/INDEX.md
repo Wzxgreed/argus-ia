@@ -46,26 +46,27 @@
 
 ## Prochains événements
 
-- **2026-08-06** · earnings · Est EPS $−0.13 à $−0.07, Rev $0.0B (J+57)
+- **2026-08-06** · earnings · Est EPS $−0.13 à $−0.07, Rev $0.0B (J+52)
 - **Catalyseurs potentiels** · CX-2029 / CX-904 · Data readout / updates partenariats AbbVie/BMS
 
 ---
 
 ## Alertes actives
 
-- 🔴 Cours $2.94 — repli de −1.34% vs close officiel, support $2.90 fragile
-- 🔴 Low historique $2.815 (09/06) — ligne de défense clé
-- 🔴 RSI 23.08 — survente extrême sans confirmation de rebond significatif
-- 🟢 Short interest 14.97% — reflux des shorts (−1.26 pt), possible début de couverture
-- 🔴 Cours sous MM50 ($4.03 stale) avec écart estimé −26.6%
-- 🟡 Score Global Ajusté 54.2/100 — au-dessus du seuil institutionnel (50) mais en recul
+- 🟢 Cours $3.01 — rebond modeste +1.01%, données techniques restaurées
+- 🔴 Volume 0.60× — anémie critique, absence de conviction
+- 🔴 RSI 23.02 — survente extrême sans confirmation de rebond significatif
+- 🟢 Short interest 14.97% — stable, possible début de couverture
+- 🔴 Cours sous MM50 ($3.93) avec écart −23.4%
+- 🟡 Score Global Ajusté 52.5/100 — au-dessus du seuil institutionnel (50) mais en recul
 - 🟡 Recommandation ATTENDRE — zone de risque technique accru
 - 🟢 Options — structure légèrement haussière (max pain opérationnel $4.00, put/call 0.96, call OI 51.1%)
-- 🔴 Anomalie options JSON récurrente (4e occurrence) — valeurs opérationnelles conservées
-- [WARNING] Données techniques partielles — close NaN, ATR null, MM50 null
+- 🔴 Anomalie options JSON persistante (5e occurrence) — valeurs opérationnelles conservées
+- [WARNING] Données MM200 manquantes
 - [WARNING] Biotech pré-revenue — scoring standard peu fiable
-- [INFO] Earnings confirmé le 2026-08-06 (J+57) — Est EPS $−0.13 à $−0.07
-- [INFO] Sector rotation : anomalie structurelle persistante (>37 snapshots), données non exploitables
+- [INFO] Earnings confirmé le 2026-08-06 (J+52) — Est EPS $−0.13 à $−0.07
+- [INFO] Sector rotation : anomalie structurelle persistante (>42 snapshots), données non exploitables
+- [INFO] Expiration options ~3 jours (2026-06-18) — volatilité potentielle
 
 ---
 
@@ -75,4 +76,4 @@ L'ancien dossier `Actions/CYTOMX/` contient l'historique des analyses sous le sy
 
 ---
 
-*Dernière mise à jour : 2026-06-10 10:00 UTC*
+*Dernière mise à jour : 2026-06-15 10:00 UTC*
