@@ -1,4 +1,4 @@
-# CONTEXT — AAL — Dernière mise à jour : 2026-06-15 (13h UTC)
+# CONTEXT — AAL — Dernière mise à jour : 2026-06-15
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -31,7 +31,7 @@ L'agent recommandation a maintenu la thèse **ACHETER (Sizing Réduit)** avec un
 - **Score global :** —/10
 - **Prix cible :** $16.96
 - **Stop-loss :** $13.66
-- **Statut thèse :** validée
+- **Statut thèse :** invalide
 - **Horizon :** —
 
 ---
@@ -52,31 +52,26 @@ L'agent recommandation a maintenu la thèse **ACHETER (Sizing Réduit)** avec un
 
 ## 📅 Prochains événements
 
-- 2026-06-18 : Expiration options (J−3) — Max Pain $10.00, Put/Call 1.69 — risque gamma évaluable
-- 2026-07-23 : Earnings Q2 FY2026 — Est EPS −$0.34 à $0.52, Rev $16.6B
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 59.89
-- **MM 50j :** 12.7
+- **RSI 14j :** 56.75
+- **MM 50j :** 12.79
 - **MM 200j :** —
-- **ATR 14j :** 0.66
-- **Volume moy. 20j :** 92796920
-- **Options Max Pain :** 10.00
-- **Options Put/Call :** 1.69
-- **Options Call OI % :** 37.2
-- **Options Expiration :** 2026-06-18
+- **ATR 14j :** 0.65
+- **Volume moy. 20j :** 94045846
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-15
-- **Type :** update (snapshot 13h UTC — correction data quality options)
+- **Type :** update
 - **Fichier :** `AAL_2026-06-15_update.md`
-- **Conclusion :** Thèse ACHETER (Sizing Réduit) CONFIRMÉE. Options corrompues corrigées (Max Pain $10.00, Put/Call 1.69, Call OI 37.2%). Setup technique, fondamental et macro inchangés. Score Global 63.5/100.
+- **Conclusion :** **Date :** 2026-06-15 (snapshot 13h UTC)
 
 ---
 

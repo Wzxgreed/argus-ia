@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER (Sizing Réduit)
-- **Score global :** 61.8/100
-- **Prix cible :** $69.12 (consensus FMP)
-- **Stop-loss :** $47.23
-- **Statut thèse :** confirmée
-- **Horizon :** 1–3 mois
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
+- **Horizon :** —
 
 ---
 
@@ -41,27 +41,26 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 52.86
-- **MM 50j :** 52.06
+- **RSI 14j :** 51.68
+- **MM 50j :** 52.59
 - **MM 200j :** —
-- **ATR 14j :** 6.27
-- **Volume moy. 20j :** 49849040
+- **ATR 14j :** 6.18
+- **Volume moy. 20j :** 48333072
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-15
-- **Type :** update (révision post-pipeline)
-- **Fichier :** `IREN_2026-06-15_update.md`
-- **Conclusion :** Données brutes stables. Correction options majeure (Max Pain $40.00, put/call 1.62, call OI 38.1%). Scores inchangés 5.7/61.8. Action ACHETER (Sizing Réduit) confirmée. Vigilance expiration options 18/06.
+- **Type :** full refresh
+- **Fichier :** `IREN_2026-06-15_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-15
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +5.40% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 10.49% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 9.97% (seuil 5.0%)
 
 ---
 

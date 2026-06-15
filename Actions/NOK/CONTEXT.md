@@ -1,4 +1,4 @@
-# CONTEXT — NOK — Dernière mise à jour : 2026-06-15 13:00 UTC
+# CONTEXT — NOK — Dernière mise à jour : 2026-06-15
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -49,11 +49,11 @@ Snapshot 13h UTC : close **$14.80** (strictement inchangé vs 10h). RSI **46.61*
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 46.61
-- **MM 50j :** 12.77
+- **RSI 14j :** 39.91
+- **MM 50j :** 12.88
 - **MM 200j :** —
-- **ATR 14j :** 1.11
-- **Volume moy. 20j :** 123557475
+- **ATR 14j :** 1.08
+- **Volume moy. 20j :** 122106237
 
 ---
 
@@ -68,10 +68,7 @@ Snapshot 13h UTC : close **$14.80** (strictement inchangé vs 10h). RSI **46.61*
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +5.04% overnight (seuil ±5.0%) — archivé 13:00 UTC
-- **ATR_SPIKE** (medium) — ATR relatif 7.50% (seuil 5.0%) — archivé 13:00 UTC
-
-DRAFT_refresh du 2026-06-15 13:00 consolidé dans le snapshot 10:00 (données inchangées).
+- **ATR_SPIKE** (medium) — ATR relatif 7.29% (seuil 5.0%)
 
 ---
 

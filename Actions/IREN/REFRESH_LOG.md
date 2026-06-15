@@ -2207,3 +2207,21 @@ Snapshot 17:00 UTC — Rebond +7.68% ($54.35 → $58.525) sur volume faible (0.4
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-06-15 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10.05% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-15 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 9.97% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

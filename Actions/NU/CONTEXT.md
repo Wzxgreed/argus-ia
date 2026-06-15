@@ -44,11 +44,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 43.25
-- **MM 50j :** 13.61
+- **RSI 14j :** 44.29
+- **MM 50j :** 13.58
 - **MM 200j :** —
-- **ATR 14j :** 0.5
-- **Volume moy. 20j :** 68485750
+- **ATR 14j :** 0.51
+- **Volume moy. 20j :** 62733606
 
 ---
 
@@ -57,7 +57,7 @@
 - **Date :** 2026-06-15
 - **Type :** update
 - **Fichier :** `NU_2026-06-15_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (données techniques restaurées après 5 jours de données partielles, cours consolidé à $12
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité totale vs snapshot 10h, cours inchangé $12
 
 ---
 

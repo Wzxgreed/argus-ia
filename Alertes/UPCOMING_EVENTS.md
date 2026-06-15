@@ -12,7 +12,6 @@
 |--------|------|------|-------|--------|--------|
 | SQ | earnings | 2026-06-15 | 0j | Earnings ... | fmp |
 | TEST | earnings | 2026-06-15 | 0j | Earnings ... | fmp |
-| FUBO | earnings | 2026-06-15 | 0j | Earnings ... | fmp |
 | AST | earnings | 2026-06-15 | 0j | Earnings ... | fmp |
 | AXA | earnings | 2026-06-15 | 0j | Earnings ... | fmp |
 | SPCX | earnings | 2026-06-15 | 0j | Earnings ... | fmp |

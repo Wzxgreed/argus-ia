@@ -32,17 +32,17 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-15** · earnings · Earnings ...
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 50.56
-- **MM 50j :** 11.03
+- **RSI 14j :** 54.95
+- **MM 50j :** 11.04
 - **MM 200j :** —
 - **ATR 14j :** 0.85
-- **Volume moy. 20j :** 1284230
+- **Volume moy. 20j :** 1265161
 
 ---
 
@@ -57,8 +57,7 @@
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap -6.11% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 8.65% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 8.49% (seuil 5.0%)
 
 ---
 

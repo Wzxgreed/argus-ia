@@ -1,4 +1,4 @@
-# CONTEXT — PLTR — Dernière mise à jour : 2026-06-15 13h UTC
+# CONTEXT — PLTR — Dernière mise à jour : 2026-06-15
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Score global :** 42.5/100
-- **Prix cible :** $187.09 (consensus FMP 33 analystes)
-- **Stop-loss :** $112.81
-- **Statut thèse :** SURVEILLER — confirmée sans modification (stabilité totale vs snapshot 10h)
-- **Horizon :** 1–3 mois (jusqu'à earnings Q2 FY2026 le 2026-08-03)
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -24,46 +24,38 @@
 
 ## 🚨 Alertes actives
 
-- 🔴 **Cassure MM50** — Cours $127.99 sous MM50 $139.64 (snapshot 15/06 13h UTC) — invalidation retournement haussier persistante, cassure maintenue à -8.4%
-- Warning : `data/accounting_risk_latest.json` absent — Filtre Qualité non alimenté
-- 🟢 **Anomalie options JSON RÉSOLUE snapshot 15/06 13h UTC** — Max Pain $150.00 (cohérent), Put/Call 0.73, Call OI 57.8% valides. Pattern 10h UTC résolu.
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **Earnings Q2 FY2026 :** 2026-08-03 (49 jours, Est. EPS $0.32–$0.40, Rev $1.8B)
-- **Expiration options :** 2026-06-18 (3 jours)
+- Aucun événement à venir.
 
 ---
 
-## 📊 Contexte technique (dernier snapshot 13h UTC)
+## 📊 Contexte technique (dernier snapshot)
 
-- **Cours :** $127.99
-- **RSI 14j :** 43.54
-- **MM 50j :** 139.64
+- **RSI 14j :** 48.72
+- **MM 50j :** 139.36
 - **MM 200j :** —
-- **ATR 14j :** 7.59
-- **Volume moy. 20j :** 38,400,790
-- **Volume jour :** 35,378,000
-- **Max Pain :** $150.00 (résolu — cohérent)
-- **Put/Call :** 0.73 (résolu)
-- **Call OI % :** 57.8% (résolu, atténué vs 09/06)
+- **ATR 14j :** 7.69
+- **Volume moy. 20j :** 37787182
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-15 13h UTC
+- **Date :** 2026-06-15
 - **Type :** update
-- **Fichier :** `PLTR_2026-06-15_13-00_update.md`
-- **Conclusion :** Snapshot 13h UTC — stabilité totale vs 10h ($127.99, RSI 43.54, volume 35.38M). Anomalie options JSON résolue (Max Pain $150.00, Put/Call 0.73, Call OI 57.8%). Biais haussier options atténué vs 09/06 (−8.4 pp Call OI). Score Global 42.5/100 (=), timing Défavorable. Thèse SURVEILLER confirmée sans modification.
+- **Fichier :** `PLTR_2026-06-15_update.md`
+- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-15T10:00:02Z, fetched_at 2026-06-15T10:00:10Z) + agents quant, geo, accounting, sector, social, FX, watchman, events
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 5.93% (seuil 5.0%) — FAUX POSITIF (ATR réel $7.59 inchangé depuis le 10h UTC)
+- **ATR_SPIKE** (medium) — ATR relatif 5.76% (seuil 5.0%)
 
 ---
 
