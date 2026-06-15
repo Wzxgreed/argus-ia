@@ -42,7 +42,8 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-15** · earnings · Earnings ...
+- **2026-06-15** · Placeholder earnings FMP J0 glissant — non analysable faute de données
+- Prochain earnings / catalyseur : **à confirmer** dès reprise du data feed
 
 ---
 
@@ -59,9 +60,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-15
-- **Type :** preview
-- **Fichier :** `QTBS_2026-06-15_preview.md`
-- **Conclusion :** > **Date :** 2026-06-15
+- **Type :** update
+- **Fichier :** `QTBS_2026-06-15_update.md`
+- **Conclusion :** Data blackout confirmé snapshot 10h UTC — ATTENDRE (49e snapshot consécutif sans mutation), placeholder earnings J0 glissant au 15/06. Aucune donnée technique, fondamentale ou sentiment disponible. Score global inchangé 55.2/100. Aucun niveau SL/TP calculable.
 
 ---
 
