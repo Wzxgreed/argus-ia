@@ -1,11 +1,12 @@
 # RKLB
 
 ## Thèse courante
-**2026-06-15 (snapshot 17h UTC — pipeline officiel)** — SURVEILLER. Rebond technique +5.81% à $108.34 sur volume normalisé 0.72×, partiellement comblant le gap baissier du matin. Cours $108.34, RSI 32.53 (zone basse stable), ATR $12.04, MM50 $101.55 (spot +6.7% — tendance haussière structurelle réaffirmée). Score Global ajusté 47.0/100 (+10.0 pts vs 37.0 du matin), Score Opportunité 4.2/10. Consensus PT $90.83 (18 analysts). Filtre Qualité 3/6 inchangé. SL $84.26 / TP $144.46 (ATR $12.04). Options rétablies (Max Pain $120.00, Put/Call 0.74, Call OI 57.6%). Zone critique : support MM50 $101.55 / résistance $113.65 (close 08/06).
+**2026-06-15 (snapshot 21h UTC — pipeline officiel)** — SURVEILLER. Rebond technique consolidé +0.84% à $109.25 sur volume normalisé 1.03× (correction volumétrique majeure vs 0.72× à 17h), légitimant le rebond post-gap. Cours $109.25, RSI 33.14 (zone basse stable), ATR $12.04, MM50 $101.57 (spot +7.6% — tendance haussière structurelle réaffirmée). Score Global ajusté 47.0/100 (stable), Score Opportunité 4.2/10. Consensus PT $90.83 (18 analysts). Filtre Qualité 3/6 inchangé. SL $85.17 / TP $145.37 (ATR $12.04). Options stables (Max Pain $120.00, Put/Call 0.74, Call OI 57.6%). Zone critique : support MM50 $101.57 / résistance $113.65 (close 08/06).
 
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
+| 2026-06-15 | [RKLB_2026-06-15_update_21h.md](RKLB_2026-06-15_update_21h.md) | Snapshot 21h UTC — consolidation rebond +0.84% à $109.25, correction volumétrique majeure (1.03× vs 0.72× à 17h), score global ajusté 47.0/100 (stable), MM50 $101.57 (spot +7.6%), options stables, thèse SURVEILLER confirmée avec nuance améliorée |
 | 2026-06-15 | [RKLB_2026-06-15_update_17h.md](RKLB_2026-06-15_update_17h.md) | Snapshot 17h UTC — rebond +5.81% à $108.34, volume normalisé 0.72×, score global ajusté 47.0/100 (SURVEILLER, +10.0 pts), MM50 $101.55 (spot +6.7%), options rétablies, thèse modifiée de ÉVITER à SURVEILLER |
 | 2026-06-15 | [RKLB_2026-06-15_update.md](RKLB_2026-06-15_update.md) | Post-gap matin — gap baissier −10.79% sur volume 2.3× sans news, RSI 33.52, MM50 $100.74 (spot +1.6%), score global ajusté 37.0/100 (SURVEILLER/ÉVITER), consensus PT révisé $90.83 (+18 analysts), SL $78.03 / TP $138.93, thèse modifiée |
 | 2026-06-10 | [RKLB_2026-06-10_update.md](RKLB_2026-06-10_update.md) | Snapshot 10h UTC — données techniques partielles (close NaN, previous_close stale $113.65, ATR/MM50 null), [ANOMALIE OPTIONS JSON RÉCURRENTE] Put/Call 0.00 / Call OI 100% corrompus, RSI 42.93 (+2.28 pts), short interest 5.51% (−0.30 pt), score global ajusté 45.8/100 (SURVEILLER, +1.3 pt sur données incomplètes), thèse confirmée avec réserves |

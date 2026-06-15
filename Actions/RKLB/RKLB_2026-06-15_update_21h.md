@@ -1,0 +1,173 @@
+# RKLB — Mise à Jour Snapshot 21h UTC 2026-06-15
+
+> Source : `data/latest.json` (snapshot 21h UTC) | `data/recommandations_latest.json` | `data/upcoming_events_latest.json` | `data/sector_rotation_latest.json`
+
+---
+
+## 1. Résumé des Changements depuis le Snapshot 17h UTC
+
+| Métrique | Snapshot 17h | Snapshot 21h UTC | Variation |
+|---|---|---|---|
+| **Cours close** | $108,34 | **$109,25** | **+0,84 %** — continuation du rebond technique |
+| **RSI 14j** | 32,53 | **33,14** | **+0,61 pt** — stabilisation en zone basse |
+| **ATR 14j** | $12,04 | **$12,04** | Inchangé — volatilité stable |
+| **MM 50j** | $101,55 | **$101,57** | +$0,02 — spot +7,6 % au-dessus |
+| **Volume séance** | 19,86 M (0,72×) | **28,74 M** (1,03×) | **+44,7 %** — normalisation confirmée |
+| **Score Global ajusté** | 47,0/100 | **47,0/100** | Inchangé — zone SURVEILLER |
+| **Score Opportunité** | 4,2/10 | **4,2/10** | Inchangé |
+| **Score Catalyseur** | 4,3/10 | **4,3/10** | Inchangé |
+| **Score Valorisation** | 3,0/10 | **3,0/10** | Inchangé — plafonné FQ ≤3/6 |
+| **Score Momentum** | 6,0/10 | **6,0/10** | Inchangé |
+| **Forward P/E** | −14 904 | **−15 028** | Mécanique |
+| **Market Cap** | $67,70 Mds | **$68,26 Mds** | +0,8 % |
+| **FMP Consensus PT** | $90,83 (18 analysts) | **$90,83 (18 analysts)** | Inchangé |
+| **Divergence vs consensus** | +19,3 % | **+20,3 %** | Élargie mécaniquement par le rebond |
+| **Beta** | 2,499 | **2,499** | Inchangé |
+| **Earnings Q2 2026** | 52 jours | **52 jours** | — |
+
+**Verdict** : Le rebond technique s'est consolidé (+0,84 % supplémentaire à $109,25) avec une **correction volumétrique majeure** : le volume passe de 19,86 M (0,72×) à **28,74 M (1,03×)**. Cette révision invalide la lecture « volume effondré » du snapshot 17h — la participation de la séance était en réalité normale, pas un repli sans intérêt. Le score global reste stable à **47,0/100** (SURVEILLER).
+
+---
+
+## 2. Mise à Jour Technique
+
+| Indicateur | Valeur | Commentaire |
+|---|---|---|
+| **RSI 14j** | 33,14 | Zone basse stable. Légère remontée vs 32,53 mais toujours en terre neutre-bas. Pas de survente extrême (<30). |
+| **ATR 14j** | $12,04 | Volatilité inchangée. ATR relatif 11,0 % — élevée mais stable. |
+| **MM 50j** | $101,57 | Spot $109,25 = **+7,6 %** au-dessus. Support structurel confortablement réaffirmé. |
+| **MM 200j** | null | [DONNÉES MANQUANTES] |
+| **Volume 20j** | 28,0 M | Séance 21h : **28,74 M** — **1,03× moyenne**. Participation normale, correction du snapshot 17h sous-estimé. |
+| **Beta** | 2,499 | Amplification systématique extrême inchangée. |
+| **52W High / Low** | $151,00 / $25,60 | Spot à **−27,6 %** du 52W high (vs −28,3 % à 17h). |
+
+**Niveaux clés** (base ATR $12,04) :
+- Support immédiat : **$101,57** (MM50 — marge +7,6 %)
+- Support technique majeur : **$85,17** (spot − 2×ATR)
+- Support psychologique : **$90,00**
+- Résistance immédiate : **$110,78** (high du jour)
+- Résistance majeure : **$113,65** (close 08/06)
+- Objectif haussier : **$145,37** (spot + 3×ATR)
+
+**Verdict timing : Neutre à légèrement favorable** — La consolidation du rebond à $109,25 sur volume normalisé (1,03×) renforce la légitimité technique du rebond post-gap. La MM50 ($101,57) est un support solide avec +7,6 % de marge. Le RSI à 33,14 laisse de la place à un rebond si le sentiment global s'améliore. Cependant, sans catalyseur fondamental, la dynamique reste technique.
+
+---
+
+## 3. Mise à Jour Fondamentale
+
+Aucune news fondamentale majeure détectée entre 17h et 21h. `data/news_latest.json` vide pour RKLB. `data/events_latest.json` vide (0 événement corporate).
+
+| Métrique | Valeur | Variation vs 17h |
+|---|---|---|
+| Market Cap (Yahoo) | **$68,26 Mds** | +0,8 % |
+| Forward P/E | **−15 028** | Mécanique |
+| EV/Revenue | ~85× | Mécanique — inchangée |
+| P/B (Yahoo) | ~27,8× | Mécanique |
+| FMP Gross Margin | **34,43 %** | Inchangé |
+| FMP EV/EBITDA | **−352×** | Inchangé |
+| FMP Consensus PT | **$90,83 (18 analysts)** | Inchangé |
+
+**Filtre Qualité (6 critères) — inchangé** :
+
+| Critère | Évaluation | Justification |
+|---|---|---|
+| 1. Revenue CAGR 5 ans ≥ 20 % | ✅ Oui | Segment spatial / lanceurs en expansion. |
+| 2. Profit CAGR 5 ans ≥ 20 % | 🔴 Non | Forward P/E négatif ; pertes persistantes. |
+| 3. Assets/Liabilities > 1,0 | ✅ Oui | Current Ratio historique ~4,08. |
+| 4. FCF positif et croissant 5 ans | 🔴 Non | FCF yield négatif. |
+| 5. Avantage compétitif (moat) | ⚠️ Partiel | Positionnement unique, concurrence SpaceX/Blue Origin intense. |
+| 6. Industrie forte croissance (TAM ×5) | ✅ Oui | TAM spatial commercial en expansion. |
+
+**Score Qualité total : 3/6** → 🔴 **Hors périmètre institutionnel**. Score Valorisation plafonné à 5/10.
+
+**Divergence cours vs consensus** : Spot $109,25 vs PT $90,83 affiche une divergence de **+20,3 %**. Le rebond mécaniquement élargit l'écart vs consensus sell-side.
+
+---
+
+## 4. Mise à Jour Sentiment / Options / News
+
+| Signal | Valeur | Évolution vs 17h |
+|---|---|---|
+| **Consensus analystes (FMP)** | $90,83 (18 analysts) | Inchangé |
+| **Max Pain (Yahoo)** | $120,00 | Inchangé — cohérent vs spot |
+| **Put/Call ratio (Yahoo)** | 0,74 | Inchangé |
+| **Call OI % (Yahoo)** | 57,6 % | Inchangé |
+| **Short Interest** | — | Pas de donnée fraîche — dernier connu 5,51 % |
+| **News du jour** | Aucune | Vide |
+| **Social Sentiment** | 0 mentions, score 0/10 | Aucune activité retail |
+| **Sector Rotation (Industrials)** | Momentum 4,08/10 | Middling — pas de headwind sectoriel |
+
+- **Options stables** — Max Pain $120,00 cohérent. Put/Call 0,74 indique un léger penchant baissier mais mesuré. Call OI 57,6 % = préférence call modérée.
+- **Aucune news**, aucun insider trade, aucun événement corporate détecté.
+- **Social sentiment mort** — 0 mentions, pas de pump/dump.
+
+**Verdict Sentiment : Neutre** — L'absence de news continue de dominer. Les options stables ne montrent pas de panique. Le consensus inchangé à $90,83 suggère que le sell-side maintient sa vue malgré la volatilité intrajournalière.
+
+---
+
+## 5. Nouveau Scoring Global
+
+| Pilier | Score | Commentaire |
+|---|---|---|
+| **Catalyseur** | 4,3/10 | Aucune news. Earnings dans 52 j. Consensus PT stable. Sector rotation Industrials middling. |
+| **Valorisation** | 3,0/10 | Forward P/E négatif, EV/Rev ~85×, divergence consensus +20,3 %. Plafonné par FQ ≤3/6. |
+| **Momentum** | 6,0/10 | Rebond consolidé +0,84 % à $109,25, RSI 33,14 (zone basse), MM50 réaffirmée à +7,6 %. Tendance haussière structurelle intacte. |
+| **Score Opportunité** | **4,2/10** | Pondération Normal : C×35 % + V×40 % + M×25 % |
+| **Malus** | −0 pt | Aucun malus additionnel détecté dans `recommandations_latest.json`. |
+| **Score Global ajusté** | **47,0/100** | **SURVEILLER** — Seuil 35–49, stable. |
+
+**Comparaison avec le snapshot 17h** : Le scoring est **inchangé** à 47,0/100. Tous les piliers (Catalyseur, Valorisation, Momentum) sont stables. La seule évolution notable est la **correction volumétrique** (0,72× → 1,03×) qui renforce la légitimité technique du rebond sans modifier les scores agents.
+
+---
+
+## 6. Révision des Niveaux SL / TP
+
+| Paramètre | Valeur | Justification |
+|---|---|---|
+| **Prix de référence** | $109,25 (close 21h UTC 15/06) | — |
+| **Stop-loss** | $85,17 (−22,0 %) | 2×ATR ($12,04) — révisé à la hausse vs 17h |
+| **Take-profit** | $145,37 (+33,0 %) | 3×ATR ($12,04) — révisé à la hausse vs 17h |
+| **Ratio R/R** | **1,5 : 1** | Inchangé — inférieur au seuil 2:1 institutionnel |
+
+**Zone d'intérêt technique** :
+- **$101,57 (MM50)** : Support structurel réaffirmé. Marge de +7,6 % — cassure improbable sauf choc systémique.
+- **$90,00** : Support psychologique + zone d'accumulation si test.
+- **$110,78** : Résistance immédiate (high du jour). Dépassement = confirmation de la neutralisation du gap.
+- **$113,65** : Résistance majeure (close 08/06). Rebond au-dessus = retour à la tendance haussière pré-gap.
+
+---
+
+## 7. Calendrier & Événements à Venir
+
+| Événement | Date | Jours restants | Détail |
+|---|---|---|---|
+| **Earnings Q2 2026** | 2026-08-06 | **52 jours** | Est EPS : −$0,06 à −$0,02 ; Rev : $0,2 B |
+
+**Prochain catalyseur majeur** : Aucun avant earnings (août). Le rebond du 15/06 est de nature technique, non fondamentale.
+
+---
+
+## 8. Conclusion — Thèse Confirmée / Modifiée / Invalidée ?
+
+**Verdict : THÈSE CONFIRMÉE 🟡 SURVEILLER — SCORE GLOBAL 47,0/100**
+
+Le snapshot 21h UTC confirme la thèse de **SURVEILLER** établie à 17h, avec une **nuance légèrement améliorée** grâce à la correction volumétrique :
+
+1. 🟢 **Rebond technique consolidé** — +0,84 % supplémentaire à $109,25. Le gap baissier du matin (−10,79 %) n'a pas été totalement comblé (reste −3,9 % vs close 09/06 $113,65), mais la dynamique de panique est dissipée.
+2. 🟢 **Correction volumétrique majeure** — Volume révisé de 19,86 M (0,72×) à **28,74 M (1,03×)**. Cette normalisation invalide la lecture « repli sans intérêt » du snapshot 17h et renforce la légitimité du rebond technique.
+3. 🟢 **MM50 réaffirmée** — Spot $109,25 = +7,6 % au-dessus de la MM50 ($101,57). La tendance haussière structurelle n'est plus menacée.
+4. 🟡 **RSI bas mais stable** — 33,14 (+0,61 pt vs 17h). La zone <30 = survente n'a pas été atteinte. Cela limite l'asymétrie haussière à court terme.
+5. 🔴 **Valorisation inchangée** — Forward P/E −15 028, EV/Rev ~85×, divergence consensus +20,3 %. RKLB reste une action de croissance chère et non rentable.
+6. 🔴 **Filtre Qualité 3/6 inchangé** — Hors périmètre institutionnel. Pas d'amélioration fondamentale.
+7. ✅ **Options stables** — Max Pain $120,00 cohérent, Put/Call 0,74, Call OI 57,6 %. Pas de panique détectée.
+
+**Recommandation** : Maintenir **SURVEILLER** :
+- Si le cours **casse la MM50 ($101,57)** avec volume >1,0× → **ÉVITER**.
+- Si le cours **rebondit et clôture au-dessus de $113,65** (close 08/06) avec volume croissant → maintien **SURVEILLER** avec nuance positive.
+- La zone **$100–$105** reste le support critique à surveiller.
+
+Le ratio R/R 1,5:1 reste insuffisant pour un trade directionnel institutionnel, mais le setup technique est moins toxique que ce matin. Aucune nouvelle entrée n'est recommandée à ce stade.
+
+---
+
+*Rapport généré le 2026-06-15 — Snapshot 21h UTC — Données : `data/latest.json`, `data/recommandations_latest.json`, `data/upcoming_events_latest.json`, `data/sector_rotation_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`*
