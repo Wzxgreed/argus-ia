@@ -1,5 +1,19 @@
 # SOFI — Historique des Full Refreshes
 
+## 2026-06-15 — Full Refresh Trigger Detected (DRAFT archivé)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.51% (seuil 5.0%)
+
+**Conclusion :** CONFIRME — Faux positif. Le trigger ATR_SPIKE ne modifie pas la structure fondamentale.
+- L'ATR relatif 6.51% est un faux positif : l'ATR passe de $1.02 à $1.08 (+5.9%) entre le close 10/06 et le snapshot 15/06, expansion mécanique mineure sans événement structurant.
+- Aucun nouvel événement structurant ne modifie le moat, le TAM ou la qualité bénéfice. Le Filtre Qualité reste 4/6 (Quality Partielle).
+- Cours $16.58, RSI 55.69, MM50 $16.83, écart MM50 −1.49%. Volume 50.31M (0.69×) — retrait significatif.
+- Score Opportunité 6.0/10, Score Global ajusté 52.3/100 (ATTENDRE).
+- **Action :** DRAFT_refresh archivé (`SOFI_2026-06-15_DRAFT_refresh_ARCHIVED.md`). La mise à jour quotidienne `SOFI_2026-06-15_update.md` intègre le trigger et confirme la thèse ATTENDRE.
+
+---
+
 ## 2026-06-09 — Full Refresh Trigger Detected (DRAFT 21h UTC, archivé)
 
 **Triggers :**

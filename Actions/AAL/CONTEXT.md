@@ -7,30 +7,26 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE (downgrade de ACHETER Sizing Reduit)  
-**Prix cible :** $16.07 (dernier niveau fiable) / Réviser à $16.60 (consensus PT) si cassure de $14.38 confirmée sur volume > 100M  
-**Stop-loss :** $12.77 (dernier niveau ATR fiable du 09/06, confluence MM50 + ancien gap)  
-**Upside/Downside :** +18.2% / −6.1%  
-**Derniere mise a jour :** 2026-06-10 (snapshot 13h UTC)
+- **Recommandation :** ACHETER (Sizing Réduit) (réactivation vs ATTENDRE du 10/06)  
+**Prix cible :** $16.96 (calcul ATR-based) / Réviser à $17.50 si cassure de $15.50 sur volume > 100M  
+**Stop-loss :** $13.66 (cours − 2×ATR $0.66)  
+**Upside/Downside :** +13.2% / −8.8%  
+**Derniere mise a jour :** 2026-06-15 (snapshot 10h UTC)
 
-American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). Le rally du 20–27/05 a matérialise **+24.3%** ($12.06 → $14.99). Le repli post-rally s'est poursuivi jusqu'a **$13.50 (05/06)**. La session du 08/06 a ouvert a $13.49, grimpé a **$13.80**, puis reculé pour clôturer a **$13.60 (+0.74%)** sur un volume massif de **108.46M (+49.4% vs moyenne)**. La session du 09/06 a produit un volume historique **149.70M (+92.4%, 1.92x moyenne)** avec un high potentiel **$14.38** (snapshot 21h UTC) mais un **previous_close de $13.60** confirmé sur les snapshots 10h et 13h UTC du 10/06. Cette divergence persistante suggère que **$13.60 est le close officiel corrigé du 09/06** et que $14.09 était un close préliminaire erroné. Si confirmé, le support **$14.00** n'a **pas** été récupéré, et le pattern du 09/06 se rapproche d'un **rejet baissier / distribution** (high $14.38 → close $13.60) sur volume record.
+American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). Le rally du 20–27/05 a matérialise **+24.3%** ($12.06 → $14.99). Après un repli post-rally jusqu'a **$13.50 (05/06)** et une période d'incertitude data quality (10/06), le cours a rebondi de **$13.60 à $14.98 (+10.1%)** en 5 sessions sur volume massif. Le support **$14.00** est confirmé récupéré. Les données techniques sont **récupérées** : ATR **$0.66**, MM50 **$12.70**. Le RSI est à **59.89** (zone neutre favorable). Forward P/E **6.72**, consensus FMP **$16.60** (17 analystes). Short interest **11.39%** stable.
 
-Le snapshot **13h UTC du 10/06** corrige l'anomalie options du snapshot 10h : **Max Pain $13.00**, **Put/Call 1.47**, **Call OI 40.4%**. Cependant, ce setup révèle un **risque gamma baissier** : le cours $13.60 est **+$0.60 au-dessus du Max Pain $13.00**, créant une pression vers la baisse à 2 jours de l'expiration (12/06). Le RSI redescend a **66.11** (−3.15 pts), sortant de la zone de surachat. Le short interest chute significativement a **11.39%** (−1.48 pt, −11.5%), réduisant le fuel de squeeze. L'ATR, la MM50 et la MM200 restent **indisponibles**. Les données sectorielles (XLI) affichent toutes des **NaN**.
+L'agent recommandation a réactivé la thèse **ACHETER (Sizing Réduit)** avec Score Opportunité **5.9/10** (C:5.8 V:5.0 M:7.3) et Score Global ajusté **63.5/100**. Timing **Favorable**. Les données options restent corrompues (Max Pain $1.00 aberrant), empêchant l'évaluation du risque gamma J−3 (expiration 18/06) — sizing réduit justifié.
 
-Le Forward P/E reste a **6.32** (asymetrie intacte). Le consensus FMP est inchangé a **$16.60** (17 analystes). L'agent recommandation maintient **ATTENDRE** avec un Score Opportunité de **5.0/10** (C:5.3 V:4.5 M:5.5) et un Score Global de **50.3/100**.
-
-**Verdict institutionnel :** La these est **ATTENDRE CONFIRMÉE.** La correction des données options est positive mais révèle un risque gamma baissier (Max Pain $13.00). La divergence du previous_close ($13.60 vs $14.09 21h UTC) reste non résolue : si $13.60 est le vrai close du 09/06, le support $14.00 n'a pas été récupéré et le high $14.38 constitue un rejet baissier sur volume record. **Seule une clôture officielle du 10/06 au-dessus de $14.00 sur volume > 80M permettrait de réactiver la thèse ACHETER (Sizing Réduit).** Si le cours clôture sous $13.20 : sortie anticipée partielle. Si sous $12.77 : invalidation complète. Si sous $13.00 vendredi 12/06 : risque gamma matérialisé. Le bilan reste extrêmement fragile (current ratio 0.50, tangible asset value negatif). AAdvantage (programme loyalty) reste le hidden asset (~$20-25B > market cap).
-
-**⚠️ Donnees partielles majeures** — Divergence previous_close $13.60 (snapshots 10h/13h UTC) vs $14.09 (snapshot 21h UTC 09/06). ATR, MM50, MM200 indisponibles. Données sectorielles NaN. Accounting risk indisponible. Quant report insuffisant.
+**Verdict institutionnel :** Thèse **RÉACTIVÉE : ACHETER (Sizing Réduit).** Si cours < $14.00 : sortie partielle (50%). Si < $13.66 : SL déclenché. Si < $12.77 : invalidation complète. Si > $15.50 sur volume > 100M : TP révisable à $17.50.
 
 ---
 
 ## Actualites ayant impacte ce dossier
-- **Score global :** —/10
-- **Prix cible :** $16.07
-- **Stop-loss :** $12.77
-- **Statut thèse :** validée
-- **Horizon :** —
+- **Score global :** 63.5/100
+- **Prix cible :** $16.96
+- **Stop-loss :** $13.66
+- **Statut thèse :** réactivée
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -42,9 +38,9 @@ Le Forward P/E reste a **6.32** (asymetrie intacte). Le consensus FMP est inchan
 
 ## 🚨 Alertes actives
 
-- Baisse — $11.41 (SL 2×ATR) — 🟢 Active
-- Hausse — $14.00 (prix cible) — 🔴 Déclenchée (27/05)
-- Volume — >2× moy. 20j (>XXM) — 🟢 Active
+- Baisse — $13.66 (SL 2×ATR) — 🟢 Active
+- Hausse — $15.50 (extension TP) — 🟢 Active
+- Volume — >2× moy. 20j (>185M) — 🟢 Active
 
 ---
 
@@ -57,19 +53,24 @@ Le Forward P/E reste a **6.32** (asymetrie intacte). Le consensus FMP est inchan
 ## 📊 Contexte technique (dernier snapshot)
 
 - **RSI 14j :** 59.89
-- **MM 50j :** 12.7
+- **MM 50j :** 12.70
 - **MM 200j :** —
 - **ATR 14j :** 0.66
-- **Volume moy. 20j :** 92796920
+- **Volume moy. 20j :** 92,796,920
+- **Cours :** $14.98
+- **Previous close :** $14.65
+- **Volume session :** 153,312,100 (+65.2% vs moy. 20j)
+- **Short interest :** 11.39%
+- **Forward P/E :** 6.72
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-12
-- **Type :** full refresh
-- **Fichier :** `AAL_2026-06-12_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-12
+- **Date :** 2026-06-15
+- **Type :** update
+- **Fichier :** `AAL_2026-06-15_update.md`
+- **Conclusion :** Réactivation thèse ACHETER (Sizing Réduit). Données ATR/MM50 récupérées. Rally +10.1% en 5 séances ($13.60 → $14.98). Support $14.00 confirmé. RSI 59.89 (sortie surachat saine). Score agent 5.9/10, Global ajusté 63.5/100. SL $13.66, TP $16.96, R/R 1.5. Options corrompues (Max Pain $1.00). Earnings dans 38 jours.
 
 ---
 
