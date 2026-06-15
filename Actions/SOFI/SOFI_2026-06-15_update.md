@@ -1,40 +1,41 @@
 # SOFI (SoFi Technologies, Inc.) — Mise à jour quotidienne
 
-**Date :** 2026-06-15 (snapshot 17:00 UTC — close de session)
-**Type :** `_update.md` — Reclaim MM50, reclassement ATTENDRE → ACHETER (Réduit)
+**Date :** 2026-06-15 (snapshot 21:00 UTC — close final confirmé)
+**Type :** `_update.md` — Close final, correction volume majeure, DRAFT_refresh traité
 **Analyste :** Desk Argus-IA
 
 ---
 
 ## 1. Résumé des changements depuis l'analyse précédente
 
-| Métrique | `SOFI_2026-06-15_update.md` (13:00 UTC) | **Snapshot 2026-06-15 (17:00 UTC)** | **Δ** |
+| Métrique | `SOFI_2026-06-15_update.md` (17:00 UTC) | **Snapshot 2026-06-15 (21:00 UTC)** | **Δ** |
 |----------|-----------------------------------------|-------------------------------------|-------|
-| Cours close | $16.58 | **$17.13** | **+3.32%** |
-| RSI 14j | 55.69 | **56.66** | **+0.97 pt** |
-| ATR 14j | $1.08 | **$1.05** | **−$0.03** |
-| MM 50j | $16.83 | **$16.86** | **+$0.03** |
-| Écart MM50 | −1.49% | **+1.60%** | **Reclaim MM50** |
-| Volume | 50.31M (0.69×) | **42.31M (0.58×)** | **Retrait accru** |
+| Cours close | $17.13 | **$17.13** | **Inchangé** |
+| RSI 14j | 56.66 | **56.66** | **Inchangé** |
+| ATR 14j | $1.05 | **$1.05** | **Inchangé** |
+| MM 50j | $16.86 | **$16.86** | **Inchangé** |
+| Écart MM50 | +1.60% | **+1.60%** | **Reclaim maintenu** |
+| **Volume** | **42.31M (0.58×)** | **75.98M (1.03×)** | **🔴 CORRECTION MAJEURE** |
+| Volume vs moy. 20j | −42% | **+3%** | **Participation institutionnelle confirmée** |
 | Short interest | 14.71% | **14.71%** | **Stable** |
 | Max Pain | $1.00 [ALERTE] | **$1.00** | **[ALERTE PERSISTANTE]** |
 | Put/Call ratio | 0.42 | **0.42** | **Inchangé** |
 | Call OI % | 70.5% | **70.5%** | **Inchangé** |
-| **Score Opportunité** | **6.0/10** | **6.5/10** | **+0.5** |
+| **Score Opportunité** | **6.5/10** | **6.5/10** | **Inchangé** |
 | **Score Catalyseur** | **6.8/10** | **6.8/10** | **Inchangé** |
-| **Score Valorisation** | **6.0/10** | **5.5/10** | **−0.5** |
-| **Score Momentum** | **5.0/10** | **7.5/10** | **+2.5 pts** |
-| **Score Global ajusté** | **52.3/100** | **69.5/100** | **+17.2 pts** |
-| **Action** | **ATTENDRE** | **ACHETER (Réduit)** | **Reclassement** |
-| Timing | Défavorable | **Favorable** | **Reclaim MM50** |
+| **Score Valorisation** | **5.5/10** | **5.5/10** | **Inchangé** |
+| **Score Momentum** | **7.5/10** | **7.5/10** | **Inchangé** |
+| **Score Global ajusté** | **69.5/100** | **69.5/100** | **Inchangé** |
+| **Action** | **ACHETER (Réduit)** | **ACHETER (Réduit)** | **Confirmé** |
+| Timing | Favorable | **Favorable** | **Renforcé par volume** |
 
-**Verdict :** Le snapshot **17:00 UTC** (close de session) enregistre un **reclaim de la MM50** avec le cours à **$17.13** (+3.32% vs previous close $16.58). Le cours passe **au-dessus de la MM50 $16.86** pour la première fois depuis le gap down du 8 juin. Le **Score Momentum bondit de +2.5 pts à 7.5/10**, portant le **Score Global ajusté de 52.3 à 69.5/100** — franchissement du seuil **ACHETER (60–74)**. Le **Score Valorisation recule de 0.5 pt à 5.5/10** (mécanique : le cours monte réduit l'upside). Le **volume reste faible (0.58×, −42% vs moy. 20j)**, tempérant la conviction du signal. L'**ATR se compresse légèrement** ($1.05 vs $1.08), ce qui améliore mécaniquement le ratio R/R. Le DRAFT_refresh trigger **ATR_SPIKE 6.13%** est archivé comme **faux positif** — l'ATR n'a pas spike, il a compressé.
+**Verdict :** Le snapshot **21:00 UTC** (close final confirmé) confirme l'intégralité des données techniques du snapshot 17:00 UTC avec une **correction majeure sur le volume** : le volume final s'établit à **75.98M** (1.03× la moy. 20j = 74.04M), contre **42.31M (0.58×)** estimé à 17:00 UTC. Cette correction invalide la lecture « retrait significatif — manque de conviction institutionnelle » du snapshot 17h. Le **reclaim MM50** ($16.86) à $17.13 (+3.32%) est désormais validé sur un **volume légèrement supérieur à la moyenne**, ce qui renforce mécaniquement la fiabilité du signal technique. Le **DRAFT_refresh trigger ATR_SPIKE 6.13%** est confirmé comme **faux positif** — l'ATR est stable à $1.05 (compression, pas expansion). Tous les scores restent inchangés mais la **conviction du signal s'améliore qualitativement**.
 
 ---
 
 ## 2. Mise à jour technique
 
-| Indicateur | Valeur snapshot 17:00 UTC | Signal |
+| Indicateur | Valeur snapshot 21:00 UTC | Signal |
 |------------|---------------------------|--------|
 | RSI 14j | 56.66 | 🟡 Zone neutre haussière |
 | MM 50j | $16.86 | 🟢 Cours $17.13 = +1.60% au-dessus — reclaim validé |
@@ -42,11 +43,13 @@
 | ATR 14j | $1.05 | 🟢 Compression — améliore R/R |
 | Support clé | $17.01 (low 15/06) / $16.86 (MM50) | 🟢 Support immédiat = MM50 |
 | Résistance clé | $17.43 (high 15/06) / $17.00 (Max Pain historique) | 🟡 Resistance intraday testée |
-| Volume relatif | 0.58× | 🔴 Retrait significatif — manque de conviction |
+| Volume relatif | **1.03×** | 🟢 **Légèrement supérieur à la moyenne — conviction confirmée** |
 | Beta | 2.152 | ⚠️ Volatilité amplifiée |
 | Short interest | 14.71% | 🔴 Élevé — squeeze potentiel intact |
 
-**Analyse technique :** Le cours a gagné **+3.32%** en session pour clôturer à **$17.13**, au-dessus de la MM50 ($16.86) pour la première fois depuis le 5 juin. Le RSI à **56.66** reste en zone neutre haussière (pas de surachat). L'**ATR $1.05** est en légère compression, ce qui réduit la distance au SL et améliore le ratio risque/rendement.
+**Analyse technique :** Le cours clôture à **$17.13** (+3.32% vs veille), au-dessus de la MM50 ($16.86) pour la première fois depuis le 5 juin. Le RSI à **56.66** reste en zone neutre haussière (pas de surachat). L'**ATR $1.05** est en légère compression, ce qui réduit la distance au SL et maintient le ratio risque/rendement attractif.
+
+**Correction volume majeure :** Le snapshot 21:00 UTC enregistre un volume final de **75,978,585** actions, soit **1.03× la moyenne 20j (74,039,224)**. Cette donnée corrige radicalement la lecture du snapshot 17:00 UTC qui sous-estimait le volume à 42.31M (0.58×). Le reclaim MM50 est désormais accompagné d'une participation institutionnelle normale à légèrement supérieure à la moyenne, ce qui **renforce la fiabilité technique du signal**.
 
 **Options :**
 - Max Pain : **$1.00** — [ALERTE DATA QUALITY] persistante (historique $17.00 conservé)
@@ -62,7 +65,7 @@
 - Résistance intermédiaire : **$17.00** (Max Pain historique)
 - Résistance majeure : **$18.22** (high du 01/06, gap)
 
-**Verdict timing :** Favorable — reclaim MM50 validé en close. Tempéré par volume faible.
+**Verdict timing :** Favorable — reclaim MM50 validé en close **avec volume confirmé supérieur à la moyenne**.
 
 ---
 
@@ -105,7 +108,7 @@
 
 **Short interest :** Stable à **14.71%**. Le setup asymétrique squeeze/pression vendeuse est inchangé.
 
-**Options :** Inchangées depuis le snapshot 13h. Put/Call **0.42** et Call OI **70.5%** confirment le repositionnement haussier à très court terme. Max Pain **$1.00** aberrant persistant.
+**Options :** Inchangées depuis le snapshot 17h. Put/Call **0.42** et Call OI **70.5%** confirment le repositionnement haussier à très court terme. Max Pain **$1.00** aberrant persistant.
 
 **News** — Aucune news structurante détectée via les flux automatiques.
 
@@ -113,18 +116,18 @@
 
 ## 5. Scoring global révisé
 
-| Score | Snapshot 13:00 UTC (ATTENDRE) | **Snapshot 17:00 UTC (ACHETER)** | **Δ** |
-|-------|-------------------------------|----------------------------------|-------|
-| Score Opportunité | 6.0/10 | **6.5/10** | **+0.5** |
+| Score | Snapshot 17:00 UTC | **Snapshot 21:00 UTC** | **Δ** |
+|-------|--------------------|------------------------|-------|
+| Score Opportunité | 6.5/10 | **6.5/10** | **Inchangé** |
 | Score Catalyseur | 6.8/10 | **6.8/10** | **Inchangé** |
-| Score Valorisation | 6.0/10 | **5.5/10** | **−0.5** |
-| Score Momentum | 5.0/10 | **7.5/10** | **+2.5** |
-| Score Global Composite | 60.3/100 | **64.5/100** | **+4.2** |
-| Score Global ajusté | 52.3/100 | **69.5/100** | **+17.2** |
-| Action | ATTENDRE | **ACHETER (Réduit)** | **Reclassement** |
-| Timing | Défavorable | **Favorable** | **Reclaim MM50** |
-| Sizing | — | **Réduit** | |
-| Horizon | — | **1–3 mois** | |
+| Score Valorisation | 5.5/10 | **5.5/10** | **Inchangé** |
+| Score Momentum | 7.5/10 | **7.5/10** | **Inchangé** |
+| Score Global Composite | 64.5/100 | **64.5/100** | **Inchangé** |
+| Score Global ajusté | 69.5/100 | **69.5/100** | **Inchangé** |
+| Action | ACHETER (Réduit) | **ACHETER (Réduit)** | **Confirmé** |
+| Timing | Favorable | **Favorable** | **Renforcé** |
+| Sizing | Réduit | **Réduit** | **Inchangé** |
+| Horizon | 1–3 mois | **1–3 mois** | **Inchangé** |
 
 **Pondération régime :** Catalyseur 35% / Valorisation 40% / Momentum 25% (régime Unknown — pondération par défaut).
 
@@ -136,9 +139,9 @@
 - Malus quant : 0 (pas de signaux historiques)
 - Bonus event : 0 (pas d'événement corporate)
 - Timing technique : **+5.0** (cours au-dessus de MM50, reclaim)
-- Sector rotation : XLF #3 (momentum 5.12) — léger vent de poupe sectoriel
+- Sector rotation : XLF **#2** (momentum 4.69) — léger vent de poupe sectoriel confirmé
 
-**Analyse du scoring :** Le **Score Global ajusté bondit de 52.3 à 69.5/100**, franchissant le seuil **ACHETER (60–74)** avec sizing **Réduit**. Cette hausse de **+17.2 pts** est presque entièrement due au **Momentum (+2.5 pts)** et au **bonus timing technique** (reclaim MM50). Le Score Valorisation recule mécaniquement (−0.5 pt) car le cours a monté. Le Score Catalyseur reste stable à 6.8/10.
+**Analyse du scoring :** Les scores numériques restent **strictement inchangés** par rapport au snapshot 17:00 UTC. Cependant, la **conviction qualitative du signal s'améliore** grâce à la correction volume : le reclaim MM50, précédemment tempéré par un volume faible (0.58×), est désormais validé sur un volume légèrement supérieur à la moyenne (1.03×). Ce changement de contexte ne modifie pas les scores mécaniques mais **renforce la probabilité de tenue du reclaim**.
 
 **Règle de disqualification :** Aucun score individuel ≤ 2/10 — SOFI n'est pas exclu.
 
@@ -146,41 +149,41 @@
 
 ## 6. Niveaux révisés
 
-| Niveau | Snapshot 13:00 UTC | Snapshot 17:00 UTC | Calcul |
+| Niveau | Snapshot 17:00 UTC | Snapshot 21:00 UTC | Calcul |
 |--------|--------------------|--------------------|--------|
-| Prix d'entrée suggéré | — | **$17.13** | Entrée au close |
-| Stop-loss | $14.42 | **$15.03** | $17.13 − 2×ATR ($1.05) = $15.03 |
-| Take-profit | $19.82 | **$20.28** | $17.13 + 3×ATR ($1.05) = $20.28 |
-| Upside / Downside | +19.5% / −12.4% | **+18.4% / −12.3%** | — |
+| Prix d'entrée suggéré | $17.13 | **$17.13** | Entrée au close |
+| Stop-loss | $15.03 | **$15.03** | $17.13 − 2×ATR ($1.05) = $15.03 |
+| Take-profit | $20.28 | **$20.28** | $17.13 + 3×ATR ($1.05) = $20.28 |
+| Upside / Downside | +18.4% / −12.3% | **+18.4% / −12.3%** | — |
 | Ratio R/R | 1.50 | **1.50** | Stable (~1.5×) |
 
 **Scénarios pour confirmer le reclaim :**
 1. **Hold MM50 en close demain** — Cours au-dessus de $16.86 avec volume >0.8× → validation technique
 2. **Breakout $17.43** — Dépassement du high du 15/06 avec volume >1.0× → signal haussier fort
-3. **Volume normalisé** — Un retour au-dessus de 1.0× moy. 20j confirmerait la participation institutionnelle
+3. **Volume normalisé** — Un maintien au-dessus de 0.8× moy. 20j confirmerait la participation institutionnelle
 
 **Scénarios de vigilance (risque retour ATTENDRE) :**
 1. **Rejet sous MM50 $16.86** en close — invaliderait le reclaim et le signal d'achat
 2. **Cassure sous $16.23** (low 15/06) — ouvre le retour à $15.651
-3. **Volume persistant <0.6×** — manque de conviction, risque de faux breakout
-4. **Guidance cut ou news macro négative** (taux, prêts étudiants) — catalyseur baissier
+3. **Guidance cut ou news macro négative** (taux, prêts étudiants) — catalyseur baissier
 
 ---
 
 ## 7. Conclusion — Thèse confirmée, modifiée ou invalidée ?
 
-**🟡 THÈSE MODIFIÉE — Reclaim MM50 validé, reclassement ATTENDRE → ACHETER (Réduit).**
+**🟢 THÈSE CONFIRMÉE ET RENFORCÉE — Reclaim MM50 validé avec volume confirmé, ACHETER (Réduit) maintenu.**
 
-Le snapshot du **2026-06-15 à 17:00 UTC** (close de session) marque un **changement technique majeur** : le cours a **reclaimé la MM50** ($16.86) en clôturant à **$17.13** (+3.32%). Ce franchissement, attendu depuis le rebond du 8 juin, porte le **Score Global ajusté de 52.3 à 69.5/100** et déclenche un **reclassement en ACHETER (Réduit)**.
+Le snapshot du **2026-06-15 à 21:00 UTC** (close final confirmé) valide l'intégralité de l'analyse du snapshot 17:00 UTC avec une **correction majeure sur le volume** : le volume final de **75.98M (1.03×)** corrige radicalement la sous-estimation de 17h (42.31M, 0.58×). Le reclaim de la MM50 ($16.86) à **$17.13** (+3.32%) est désormais **accompagné d'une participation institutionnelle normale à légèrement supérieure à la moyenne**, ce qui renforce la fiabilité technique du signal.
 
 **Ce qui a changé :**
-- **Reclaim MM50** — Cours au-dessus de $16.86 (+1.60%) pour la première fois depuis le 5 juin
-- **Score Momentum +2.5 pts** — de 5.0 à 7.5/10 (haussier)
-- **Score Global +17.2 pts** — de 52.3 à 69.5/100 (ATTENDRE → ACHETER Réduit)
-- **Timing** — Défavorable → **Favorable**
-- **SL/TP révisés** — $15.03 / $20.28 (ATR $1.05)
+- **Volume corrigé** — de 42.31M (0.58×) à **75.98M (1.03×)** : retrait de la lecture « sans conviction » du snapshot 17h
+- **DRAFT_refresh ATR_SPIKE traité et archivé** — faux positif confirmé (ATR stable à $1.05, compression)
+- **XLF sector ranking corrigé** — #2 (momentum 4.69), pas #3
 
 **Ce qui est inchangé :**
+- Cours $17.13, RSI 56.66, ATR $1.05, MM50 $16.86 — tous identiques au snapshot 17h
+- Score Global ajusté **69.5/100** — ACHETER (Réduit) maintenu
+- Score Opportunité **6.5/10**, Catalyseur **6.8/10**, Valorisation **5.5/10**, Momentum **7.5/10**
 - Aucune news structurante, aucun événement corporate
 - Filtre Qualité **4/6** (Quality Partielle)
 - Short interest **14.71%** (setup squeeze intact)
@@ -190,13 +193,8 @@ Le snapshot du **2026-06-15 à 17:00 UTC** (close de session) marque un **change
 - [ALERTE DATA QUALITY] Max Pain $1.00 aberrant persistant
 - Earnings Q2 dans **43j** (28 juillet, EPS $0.10–$0.11, Rev $1.1B)
 
-**Ce qui tempère le signal :**
-- **Volume très faible (0.58×)** — retrait de 42% vs moy. 20j = manque de conviction institutionnelle. Le reclaim MM50 sur volume faible est moins fiable qu'un breakout sur volume >1.0×.
-- **XLF (Financials)** n'est plus #2 sector rotation mais **#3** (momentum 5.12), indiquant un léger reflux sectoriel.
-- **Filtre Qualité 4/6** — Quality Partielle limite le sizing à Réduit.
-
-**Action : ACHETER (Réduit) — Entrée suggérée $17.13, SL $15.03, TP $20.28, Ratio R/R 1.5×. Sizing réduit (Quality Partielle 4/6 + volume faible). Surveiller impérativement la tenue du cours au-dessus de la MM50 ($16.86) en close demain. Un rejet sous MM50 invaliderait le signal et justifierait un retour en ATTENDRE. Attention au short interest 14.71% qui crée un setup asymétrique squeeze/pression. [ALERTE DATA QUALITY] Max Pain $1.00 aberrant persistant — historique $17.00 conservé.**
+**Action : ACHETER (Réduit) — Entrée suggérée $17.13, SL $15.03, TP $20.28, Ratio R/R 1.5×. Sizing réduit (Quality Partielle 4/6). Le reclaim MM50 est désormais validé avec volume confirmé (1.03×), ce qui renforce la conviction du signal. Surveiller impérativement la tenue du cours au-dessus de la MM50 ($16.86) en close demain. Un rejet sous MM50 invaliderait le signal et justifierait un retour en ATTENDRE. Attention au short interest 14.71% qui crée un setup asymétrique squeeze/pression. [ALERTE DATA QUALITY] Max Pain $1.00 aberrant persistant — historique $17.00 conservé.**
 
 ---
 
-*Données sourcées : data/latest.json (2026-06-15T17:00:09+00:00), data/recommandations_latest.json, data/sector_rotation_latest.json, data/social_sentiment_latest.json, data/geo_risk_latest.json, data/upcoming_events_latest.json, data/events_latest.json, data/fx_exposure_latest.json, data/validation_report.txt.*
+*Données sourcées : data/latest.json (2026-06-15T21:00:09+00:00), data/recommandations_latest.json, data/sector_rotation_latest.json, data/social_sentiment_latest.json, data/geo_risk_latest.json, data/upcoming_events_latest.json, data/events_latest.json, data/fx_exposure_latest.json, data/validation_report.txt.*
