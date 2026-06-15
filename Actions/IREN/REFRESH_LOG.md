@@ -2,6 +2,18 @@
 
 ---
 
+## 2026-06-15 — Full Refresh Triggered (snapshot 10:00 UTC)
+
+**Triggers :**
+- price_gap (medium) : Gap +5.40% vs previous close $56.71 (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 10.49% (seuil 5.0%)
+
+**Conclusion :** modify favorablement — upgrade SURVEILLER → ACHETER (Sizing Réduit)
+
+Le DRAFT_refresh a été déclenché automatiquement à 10:00 UTC par PRICE_GAP et ATR_SPIKE sur le snapshot `data/2026-06-15.json`. Les données révèlent un upgrade algorithmique majeur : Score Global ajusté rehaussé de **44.3 à 61.8/100** (+17.5 pts), porté par une amélioration simultanée des trois axes (Catalyseur 6.3/10, Valorisation 4.0/10, Momentum 7.5/10). L'action passe de **SURVEILLER** à **ACHETER (Sizing Réduit)** avec timing **Favorable**. Les données techniques manquantes depuis le 2026-06-08 sont rétablies : ATR **$6.27**, MM50 **$52.06**. Le cours à **$59.77** se tient à +14.8% au-dessus de la MM50, confirmant la tendance haussière intermédiaire. Le RSI se normalise à **52.86** (neutre), favorable à l'entrée. Les multiples se dégradent mécaniquement (P/E 77.62×, EV/EBITDA 157.04×) sans nouvelle fondamentale. Les valeurs options du snapshot sont corrompues (Max Pain $100.00, put/call null) — les dernières valeurs fiables restent celles du 10/06. Aucune news Yahoo ni mention Reddit n'accompagne le mouvement, qui est purement technique/algorithmique. DRAFT_refresh archivé (`IREN_2026-06-15_DRAFT_refresh.md` → `_ARCHIVED_DRAFT_refresh_IREN_2026-06-15_DRAFT_refresh_archived.md`). Analyse complète sauvegardée dans `IREN_2026-06-15_update.md` (snapshot 10:00 UTC).
+
+---
+
 ## 2026-06-09 — Full Refresh Triggered (snapshot 17:00 UTC)
 
 **Triggers :**
@@ -2147,6 +2159,26 @@ Snapshot 17:00 UTC — Rebond +7.68% ($54.35 → $58.525) sur volume faible (0.4
 ---
 
 ## 2026-06-14 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +5.40% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 10.49% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-15 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +5.40% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 10.49% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-15 — Full Refresh Triggered
 
 **Triggers :**
 - price_gap (medium) : Gap +5.40% overnight (seuil ±5.0%)
