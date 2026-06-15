@@ -8,11 +8,11 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ATTENDRE
-- **Score Global :** 55.5/100 (ajusté 55.5)
-- **Score Opportunité :** 6.3/10 (C:6.5 V:8.0 M:3.5)
+- **Score Global :** 64.2/100 (ajusté 56.2)
+- **Score Opportunité :** 6.4/10 (C:6.5 V:8.0 M:3.8)
 - **Prix Cible :** $17.49 (consensus FMP, 12 analysts)
-- **Stop-Loss :** $11.19 (recalculé, ATR restauré $0.50)
-- **Statut Thèse :** Score ajusté 55.5 — snapshot 10h UTC 15/06 : close **$12.19** restauré après 5 jours de données partielles, previous $12.09, **thèse CONFIRMÉE** avec nuance positive, RSI remontant 41.77 → **43.25**, ATR **$0.50** et MM50 **$13.61** restaurés, scores agents Catalyseur +1.5 pt / Valorisation +1.5 pt / Momentum −1.0 pt, fondamentaux intacts (forward P/E 10.64×, upside +43.5%), support $11.20 à +8.8%, volume anémique 0.50×, anomalie options JSON persistante (max pain $3.00 aberrant → valeur opérationnelle $12.00), timing défavorable
+- **Stop-Loss :** $11.31 (recalculé, ATR $0.51)
+- **Statut Thèse :** Score ajusté 56.2 — snapshot 17h UTC 15/06 : close officiel US **$12.335** (+1.19% vs previous $12.19), **thèse CONFIRMÉE** avec nuance positive, rebond technique confirmé, high $12.63, structure options bullish confirmée sur 2 snapshots (put/call 0.42, call OI 70.3%), **divergence RSI prix/momentum** (RSI 41.72 malgré hausse), ATR **$0.51**, MM50 **$13.57**, scores agents Catalyseur stable 6.5 / Valorisation stable 8.0 / Momentum +0.3 pt à 3.8, fondamentaux intacts (forward P/E 10.77×, upside +41.8%), support $11.20 à +10.1%, volume anémique 0.47×, SL/TP recalculés **$11.31/$13.86**, timing défavorable
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
@@ -38,17 +38,18 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings Q2 2026 : 13 août 2026 (Est EPS $0.18-$0.27, Rev $5.4B)
+- Expiration options : 2026-06-18 (3 jours, max pain $15.00)
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 44.29
-- **MM 50j :** 13.58
+- **RSI 14j :** 41.72
+- **MM 50j :** 13.57
 - **MM 200j :** —
 - **ATR 14j :** 0.51
-- **Volume moy. 20j :** 62733606
+- **Volume moy. 20j :** 63017787
 
 ---
 
@@ -56,8 +57,8 @@
 
 - **Date :** 2026-06-15
 - **Type :** update
-- **Fichier :** `NU_2026-06-15_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité totale vs snapshot 10h, cours inchangé $12
+- **Fichier :** `NU_2026-06-15_17-00_update.md`
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (rebond technique +1.19% confirmé en clôture officielle US à $12.335, high $12.63, structure options bullish confirmée sur 2 snapshots consécutifs, divergence RSI prix/momentum RSI 41.72 malgré hausse, score global ajusté progresse 55.5 → 56.2 zone ATTENDRE maintenue, fondamentaux intacts forward P/E 10.77× upside +41.8%, volume anémique 0.47×, timing défavorable)**
 
 ---
 
