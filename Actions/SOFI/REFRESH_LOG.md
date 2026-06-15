@@ -1,5 +1,21 @@
 # SOFI — Historique des Full Refreshes
 
+## 2026-06-15 — Full Refresh Conclu (snapshot 17:00 UTC — reclaim MM50, DRAFT traité)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.13% (seuil 5.0%)
+
+**Conclusion :** MODIFIE — Le DRAFT_refresh est traité et archivé. Le vrai signal du jour est le **reclaim MM50** en close.
+- L'ATR relatif 6.13% est un **faux positif** : l'ATR est passé de $1.08 à **$1.05** (compression), pas d'expansion. Le trigger ATR_SPIKE est une anomalie mécanique.
+- Le snapshot `data/latest.json` (timestamp 2026-06-15T17:00:09+00:00) enregistre un **reclaim MM50** : cours $17.13 (+3.32% vs previous close $16.58), MM50 $16.86, écart +1.60%. Premier close au-dessus de la MM50 depuis le 5 juin.
+- Le **Score Momentum bondit à 7.5/10** (+2.5 pts) et le **Score Global ajusté à 69.5/100** (+17.2 pts), franchissant le seuil ACHETER (60–74). Recommandation : **ATTENDRE → ACHETER (Réduit)**.
+- Aucun nouvel événement structurant ne modifie le moat, le TAM ou la qualité bénéfice. Le Filtre Qualité reste 4/6 (Quality Partielle).
+- Volume **42.31M (0.58×)** — retrait significatif qui tempère la conviction du reclaim. Timing Favorable mais avec vigilance.
+- Options stables : Put/Call 0.42, Call OI 70.5%. Max Pain $1.00 aberrant persistant.
+- **Action :** DRAFT_refresh archivé (`SOFI_2026-06-15_DRAFT_refresh_ARCHIVED.md`). Pas de réécriture de `_init.md` requise — la structure fondamentale du 2026-05-17 reste valide, et la mise à jour `SOFI_2026-06-15_update.md` (snapshot 17:00 UTC) capture le reclaim MM50 et le reclassement.
+
+---
+
 ## 2026-06-15 — Full Refresh Trigger Detected (DRAFT archivé)
 
 **Triggers :**
