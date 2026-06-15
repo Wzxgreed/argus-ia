@@ -2,18 +2,18 @@
 
 ## Thèse courante
 
-**Verdict :** ATTENDRE
-**Date dernière analyse :** 2026-06-10 (snapshot 10:00 UTC)
-**Cours actuel :** NaN [DONNÉES PARTIELLES]
+**Verdict :** ACHETER (Réduit)
+**Date dernière analyse :** 2026-06-15 (snapshot 10:00 UTC)
+**Cours actuel :** $44.836
 **Score Qualité :** 0/6 (Hors périmètre)
-**Score Opportunité :** 5.8/10 (agent reco — données fondamentales absentes)
-**Score Momentum :** 6.0/10
-**Score Global :** 57.8/100 (57.8 ajusté)
-**Stop-loss :** null [DONNÉES MANQUANTES]
-**Take-profit :** null [DONNÉES MANQUANTES]
-**Ratio R/R :** —
+**Score Opportunité :** 6.1/10 (agent reco — données fondamentales absentes)
+**Score Momentum :** 7.3/10
+**Score Global :** 61.0/100 (66.0 ajusté)
+**Stop-loss :** $42.34
+**Take-profit :** $48.59
+**Ratio R/R :** 1.5
 
-TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie sur des fondamentaux. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Verdict dégradé : ATTENDRE** — snapshot 10h UTC du 2026-06-10 marqué par des données techniques partielles : cours close NaN, ATR14 null, MM50/200 null. Le RSI remonte à 57.17 (+6.69 pts vs 50.48 hier) mais l'absence de cours et de volatilité rend le signal technique non fiable. L'agent reco a mécaniquement dégradé le verdict de ACHETER (Réduit) à ATTENDRE (Score Global 57.8). Volume stable à 1,570 unités (0.64× moyenne 20j). **Points de vigilance :** données techniques partielles empêchant tout positionnement fiable ; earnings JOUR J (2026-06-10) persistant depuis 10+ jours — risque d'artefact calendrier FMP très élevé ; illiquidité extrême. Si retour des données avec cours confirmé sous MM50 sur volume > moyenne → maintien ATTENDRE voire SURVEILLER. Si cours confirmé au-dessus des mobiles avec volume > 1.0× avg → regradation possible ACHETER (Réduit).
+TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie sur des fondamentaux. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Verdict regradé : ACHETER (Réduit)** — snapshot 10h UTC du 2026-06-15 marqué par le rétablissement des données techniques (close $44.836, ATR14 $1.25, MM50 $43.6). Le cours se positionne au-dessus de la MM50 (+$1.24, +2.8%), validant le signal haussier suspendu depuis le 10 juin. Le RSI baisse à 47.08 (−10.09 pts vs 57.17 du 10/06), retour en zone neutre-basse suite au recalcul sur données complètes. Volume très contraint à 1,000 unités (0.41× moyenne 20j). **Points de vigilance :** illiquidité extrême rendant tout signal fragile ; earnings JOUR J (2026-06-15) persistant depuis 15+ jours — hypothèse artefact calendrier FMP confirmée ; RSI 47 indiquant un momentum qui ne s'accélère pas. Si cours conserve la MM50 sur volume > 0.5× avg → maintien ACHETER (Réduit). Si perte de MM50 sur volume > moyenne → dégradation ATTENDRE voire SURVEILLER.
 
 ---
 
@@ -60,6 +60,7 @@ TEST est un ticker de test / micro-cap sans données fondamentales exploitables 
 | TEST_2026-06-09_update.md | 2026-06-09 | Mise à jour 10:00 UTC — stabilité totale vs close 08/06 (cours $45.35 inchangé, RSI 54.61, volume 2,400 0.94× avg), earnings JOUR J non résolu, verdict **ACHETER (Réduit) confirmé** | **ACHETER (Réduit)** |
 | TEST_2026-06-09_update_21h.md | 2026-06-09 | Mise à jour 21:00 UTC — **rebond technique +2.10%** vs 17h ($42.97 → $43.87), RSI 50.48 (+3.38 pts), **reclaim MM50** ($43.67) avec écart +$0.20, volume 1,570 (0.64× avg), Score Global 44.8 → **64.0 ajusté**, Score Momentum 4.0 → **6.5**, verdict regradé **SURVEILLER → ACHETER (Réduit)** | **ACHETER (Réduit)** |
 | TEST_2026-06-10_update.md | 2026-06-10 | Mise à jour 10:00 UTC — données techniques partielles (close NaN, ATR/MM null), RSI 57.17 (+6.69 pts), volume stable 1,570, Score Global 59.0 → **57.8**, Score Momentum 6.5 → **6.0**, verdict dégradé **ACHETER (Réduit) → ATTENDRE** | **ATTENDRE** |
+| TEST_2026-06-15_update.md | 2026-06-15 | Mise à jour 10:00 UTC — données techniques rétablies (close $44.836, ATR $1.25, MM50 $43.6), RSI 47.08 (−10.09 pts, recalcul sur données complètes), volume effondré 1,000 (0.41× avg), Score Global 57.8 → **61.0** (66.0 ajusté), Score Momentum 6.0 → **7.3**, verdict regradé **ATTENDRE → ACHETER (Réduit)**, SL $42.34 / TP $48.59 | **ACHETER (Réduit)** |
 
 ---
 

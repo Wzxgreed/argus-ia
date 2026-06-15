@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
-- **Horizon :** —
+- **Recommandation :** ACHETER (Réduit)
+- **Score global :** 61.0/100 (66.0 ajusté)
+- **Prix cible :** $48.59
+- **Stop-loss :** $42.34
+- **Statut thèse :** Regradée — données techniques rétablies, cours au-dessus de MM50
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -25,6 +25,7 @@
 ## 🚨 Alertes actives
 
 - Aucune alerte active.
+- **Flag earnings JOUR J** : 2026-06-15 (source FMP, days_until = 0) — 15+ jours consécutifs, hypothèse artefact confirmée.
 
 ---
 
@@ -36,20 +37,22 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 47.08
-- **MM 50j :** 43.6
+- **Cours close :** $44.836 (+1.62% vs previous close $44.121)
+- **RSI 14j :** 47.08 (−10.09 pts vs 10/06, recalcul sur données complètes)
+- **MM 50j :** $43.6 (cours +2.8% au-dessus)
 - **MM 200j :** —
-- **ATR 14j :** 1.25
-- **Volume moy. 20j :** 2410
+- **ATR 14j :** $1.25
+- **Volume session :** 1,000 (0.41× moy. 20j de 2,410)
+- **Range 52 semaines :** $40.27–$57.74
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-15
-- **Type :** preview
-- **Fichier :** `TEST_2026-06-15_preview.md`
-- **Conclusion :** > **Date :** 2026-06-15
+- **Type :** update
+- **Fichier :** `TEST_2026-06-15_update.md`
+- **Conclusion :** Données techniques rétablies (close, ATR, MM50). Cours $44.836 au-dessus de MM50 ($43.6). RSI recalculé à 47.08 en baisse de 10 pts sur données complètes. Volume très faible (0.41× avg). Score Global remonté à 61.0 (66.0 ajusté), verdict regradé ATTENDRE → ACHETER (Réduit). SL $42.34 / TP $48.59, ratio R/R 1.5. Earnings JOUR J persistant (artefact FMP confirmé).
 
 ---
 
