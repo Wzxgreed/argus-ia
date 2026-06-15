@@ -53,8 +53,8 @@
 
 ## Agenda
 
-- **2026-06-10 (glissement)** · 🔴 **Earnings Q1 2026** — résultats **toujours non intégrés** dans le snapshot 10/06 (**24 jours après date prévue**). `upcoming_events_2026-06-10.json` affiche `"date": "2026-06-10"` avec `"days_until": 0`, mais le champ `"details": "Earnings "` est vide, et ce pattern est identique pour TEST, FUBO, AST, AXA, SPCX, QTBS, ASTSPACE (7 autres tickers), suggérant un placeholder FMP générique.
-- **Action opérationnelle urgente :** Vérifier date réelle de publication Q1 2026 via site IR Block / SEC EDGAR. Forcer re-fetch isolé de SQ (`scripts/fetch_prices.py --tickers SQ`) pour diagnostiquer l'échec spécifique du worker daemon. Surveiller la résolution de l'exclusion `quality_gate_2026-06-10.json`.
+- **2026-06-15 (glissement)** · 🔴 **Earnings Q1 2026** — résultats **toujours non intégrés** dans le snapshot 15/06 (**26 jours après date prévue**). `upcoming_events_2026-06-15.json` affiche `"date": "2026-06-15"` avec `"days_until": 0`, mais le champ `"details": "Earnings "` est vide, et ce pattern est identique pour TEST, FUBO, AST, AXA, SPCX, QTBS, ASTSPACE (7 autres tickers), suggérant un placeholder FMP générique.
+- **Action opérationnelle urgente :** Diagnostiquer la **panne systémique du worker daemon** (25/25 tickers excluded) — vérifier logs `yahoo_worker_daemon.py`. Vérifier date réelle de publication Q1 2026 via site IR Block / SEC EDGAR. Forcer re-fetch isolé de SQ (`scripts/fetch_prices.py --tickers SQ`) après résolution du daemon.
 - Post-earnings : réviser le Filtre Qualité, le scoring, et le timing technique dès disponibilité des données RSI/ATR/MM **non stale**
 - Vérifier résolution du stale price dans le prochain snapshot (risque de gap violent ±10–15% à réouverture)
 
@@ -62,15 +62,15 @@
 
 ## Alertes actives
 
-- 🔴 **Exclusion Quality Gate** — SQ est désormais **`excluded`** dans `quality_gate_2026-06-10.json` (CRITICAL stale_price_history : "close identique sur 4 jours consécutifs"). Première exclusion officielle documentée.
-- 🔴 **Stale Price aggravé** — cours figé ≥53 snapshots / ≥22 jours calendaires (2026-05-20 → 2026-06-10). SQ est le cas le plus ancien et le plus sévère de stale price dans le snapshot.
-- 🔴 **Data Pipeline Alert** — Earnings Q1 2026 non résolu après **24 jours calendaires** (date initiale 20/05). `upcoming_events_2026-06-10.json` affiche `days_until: 0` avec date 10/06 (glissement depuis 20/05), mais champ details vide (placeholder FMP générique).
-- 🔴 **Source FMP Fallback** — SQ est le **dernier ticker** du snapshot 10/06 avec `"fmp_fallback"` et `change_pct: null`.
+- 🔴 **Exclusion Quality Gate Systémique** — SQ reste **`excluded`** dans `quality_gate_2026-06-15.json` (CRITICAL stale_price_history : "close identique sur 4 jours consécutifs"). L'exclusion est désormais **systémique** (25/25 tickers), révélant une panne globale du pipeline. SQ conserve le record de durée de stale price.
+- 🔴 **Stale Price aggravé** — cours figé ≥58 snapshots / ≥26 jours calendaires (2026-05-20 → 2026-06-15). SQ est le cas le plus ancien et le plus sévère de stale price dans le snapshot.
+- 🔴 **Data Pipeline Alert** — Earnings Q1 2026 non résolu après **26 jours calendaires** (date initiale 20/05). `upcoming_events_2026-06-15.json` affiche `days_until: 0` avec date 15/06 (glissement depuis 20/05), mais champ details vide (placeholder FMP générique).
+- 🔴 **Source FMP Fallback** — SQ est le **dernier ticker** du snapshot 15/06 avec `"fmp_fallback"` et `change_pct: null`.
 - 🟡 **Consensus PT Figé** — Price target consensus **$85.67** (3 analystes) inchangé depuis le 27/05. Silence sell-side prolongé ; upside +2.6% quasi-insuffisant.
-- 🔴 **Pipeline Degradation** — `validation_report.txt` (10/06 09:07 UTC) affiche **5 [ERROR]** (VRT schema + AST/AXA/ASTSPACE/QTBS fetch) — seuil >2 franchi, stable vs 09/06.
-- 🟡 **Divergence Validation / Quality Gate** — `validation_report.txt` indique "0 excluded" alors que `quality_gate_2026-06-10.json` liste SQ comme `excluded`. Divergence persistante.
+- 🔴 **Pipeline Degradation** — `validation_report.txt` (15/06 09:07 UTC) affiche **5 [ERROR]** (VRT schema + AST/AXA/ASTSPACE/QTBS fetch) — seuil >2 franchi, stable vs 10/06.
+- 🟡 **Divergence Validation / Quality Gate** — `validation_report.txt` indique "0 excluded" alors que `quality_gate_2026-06-15.json` liste 25 tickers `excluded`. Divergence persistante et escalade systémique.
 - 🟡 **Rotation Sectorielle Neutralisée** — XLK (Technology) reste top3 sectoriel avec momentum score 10.0, mais le signal global reste **`NEUTRAL`** (crossovers vides, returns `NaN`). Vent favorable growth/tech atténué.
-- 🟡 **Divergence Market Cap FMP** — `fundamentals.market_cap` ($51.73B) vs `fmp_key_metrics.market_cap` ($35.03B) : écart ~47%. Anomalie source.
+- 🟡 **Divergence Market Cap FMP Réduite** — `fundamentals.market_cap` ($51.73B) vs `fmp_key_metrics.market_cap` ($54.29B) : écart **~4.8%** (amélioration vs ~47% au 10/06). Anomalie source persistante mais atténuée.
 - Aucune alerte de seuil de cours déclenchée
 
 ---
@@ -78,11 +78,11 @@
 ## Contexte macro & secteur
 
 - **Rotation sectorielle :** XLK (Technology) top3 sectoriel avec momentum score 10.0 — vent favorable pour SQ, **mais signal global `NEUTRAL`** (crossovers vides). Le signal `ROTATION_TO_CYCLICAL` détecté au snapshot 13h du 02/06 est **neutralisé** depuis le 17h du 02/06.
-- **Régime macro :** Normal (pondération 35/40/25) — `regime_macro` affiché `"Unknown"` dans `recommandations_2026-06-09.json` (dégradation vs 27/05)
+- **Régime macro :** Normal (pondération 35/40/25) — `regime_macro` affiché `"Unknown"` dans `recommandations_2026-06-15.json`
 - **Exposition :** Haute sensibilité taux, modérée DXY (25% export), corrélation crypto historique élevée
 - **FX Exposure :** Score 0.0, direction neutral (🟢)
-- **Geo Risk :** Non flaggué, score politique 2/10 (🟢)
+- **Geo Risk :** [FICHIER OBSOLÈTE 17/05] — pas de données SQ spécifiques
 
 ---
 
-*Dernière mise à jour : 2026-06-10 · Snapshot 10h00 UTC*
+*Dernière mise à jour : 2026-06-15 · Snapshot 10h00 UTC*
