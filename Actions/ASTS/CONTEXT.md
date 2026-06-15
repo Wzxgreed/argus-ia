@@ -7,40 +7,50 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** validée
+- **Recommandation :** SURVEILLER
+- **Score global :** 39,2/100
+- **Prix cible :** $94,54 (consensus)
+- **Stop-loss :** $61,97
+- **Statut thèse :** validée avec nuance améliorée
 - **Horizon :** —
 
 ---
 
 ## 📉 Erreurs de prédiction récentes
 
-- Aucune erreur enregistrée.
+- Snapshot 17h UTC a sous-estimé le volume (0,535× vs réel 0,855×) → corrigé à 21h UTC.
 
 ---
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- COURS_SOUS_MM50 : cours −1,8% sous MM50 $89,13
+- RSI_SURVENTE_APPROCHÉE : RSI 36,00 proche survente
+- VOLUME_CORRIGÉ : volume 0,855× = rebond consolidé (alerte positive)
+- ATR_SPIKE (haut) : ATR relatif 14,6% du cours ($12,80)
+- Profil non rentable
+- Secteur XLC bottom 3
+- Options J+3 : Max Pain $100 au-dessus du spot (+14,2%)
+- Short Interest élevé : 18,39%
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings : 2026-08-10 (J+56) — Est. EPS $-0,29 à $-0,17
+- Options expiry : 2026-06-18 (J+3) — max pain $100
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 36.02
+- **RSI 14j :** 36.00
 - **MM 50j :** 89.13
 - **MM 200j :** —
-- **ATR 14j :** 12.8
-- **Volume moy. 20j :** 27456579
+- **ATR 14j :** 12.80
+- **Volume moy. 20j :** 27555824
+- **Cours close :** 87.57
+- **Volume séance :** 23569691 (0,855×)
 
 ---
 
@@ -48,8 +58,8 @@
 
 - **Date :** 2026-06-15
 - **Type :** update
-- **Fichier :** `ASTS_2026-06-15_update.md`
-- **Conclusion :** **Thèse confirmée et aggravée : SURVEILLER — rupture technique majeure sous MM50 $89,23 sur volume explosion 2,00×, chute −15,53% à $82,41, RSI 40,50 proche survente, score global ajusté 35,5/100 (bas de zone SURVEILLER)
+- **Fichier :** `ASTS_2026-06-15_21-00_update.md`
+- **Conclusion :** Thèse SURVEILLER confirmée avec nuance améliorée — rebond technique consolidé à $87,57 sur volume corrigé 0,855× (légitimé), RSI 36,00 stabilisé proche survente, score global ajusté 39,2/100, anomalie options JSON résolue (max pain $100, call OI 69,7%).
 
 ---
 

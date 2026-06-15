@@ -23,6 +23,7 @@ La thèse sur ASTS est **SURVEILLER confirmée** — snapshot 17h UTC 2026-06-15
 | 2026-06-10 | [ASTS_2026-06-10_update.md](ASTS_2026-06-10_update.md) | Snapshot 10h UTC — données techniques partielles (close NaN, ATR/MM50 null), anomalie options JSON récurrente, downgrade mécanique ATTENDRE → SURVEILLER (Score Global 48,5/100, −10 pts), RSI 51,78 (+1,51 pt), volume 1,01× stable, thèse modifiée avec réserves
 | 2026-06-15 | [ASTS_2026-06-15_update.md](ASTS_2026-06-15_update.md) | Close matin — rupture technique majeure sous MM50 $89,23 sur volume explosion 2,00×, chute −15,53% à $82,41, RSI 40,50 proche survente, score global ajusté 35,5/100 (SURVEILLER), divergence consensus +14,69%, thèse SURVEILLER confirmée et aggravée |
 | 2026-06-15 | [ASTS_2026-06-15_17-00_update.md](ASTS_2026-06-15_17-00_update.md) | Snapshot 17h UTC — rebond technique +6,49% à $87,755 sur volume collapse 0,535×, RSI 36,10 dégradant malgré hausse, score global ajusté 39,2/100 (SURVEILLER), anomalie options JSON résolue (max pain $100, call OI 69,7%), thèse SURVEILLER confirmée |
+| 2026-06-15 | [ASTS_2026-06-15_21-00_update.md](ASTS_2026-06-15_21-00_update.md) | Snapshot 21h UTC — correction volumétrique majeure (0,535× → 0,855×), rebond consolidé et légitimé à $87,57, RSI 36,00 stabilisé, score global 39,2 SURVEILLER inchangé mais nuance améliorée, thèse SURVEILLER confirmée avec nuance positive |
 
 ## Agenda
 - Prochain earnings : **2026-08-10** (J+63) — Est. EPS $-0,29 à $-0,17, Revenus $0,0B
