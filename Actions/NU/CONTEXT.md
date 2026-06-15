@@ -8,11 +8,11 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ATTENDRE
-- **Score Global :** 54.8/100 (ajusté 54.8)
-- **Score Opportunité :** 5.5/10 (C:5.0 V:6.5 M:4.5)
+- **Score Global :** 55.5/100 (ajusté 55.5)
+- **Score Opportunité :** 6.3/10 (C:6.5 V:8.0 M:3.5)
 - **Prix Cible :** $17.49 (consensus FMP, 12 analysts)
-- **Stop-Loss :** $10.52 (conservé, ATR indisponible)
-- **Statut Thèse :** Score ajusté 54.8 — snapshot 10h UTC 10/06 : close NaN [DONNÉES PARTIELLES], previous $11.60, **thèse MODIFIÉE** (downgrade ACHETER Réduit → ATTENDRE), RSI révisé à 41.77 retour zone baissière, scores agents dégradés (Catalyseur −1.5 pt, Valorisation −1.5 pt, Momentum −0.8 pt), fondamentaux intacts (forward P/E 10.37×, upside +50.8%), support $11.20 à +3.4%, anomalie options JSON récurrente, timing défavorable
+- **Stop-Loss :** $11.19 (recalculé, ATR restauré $0.50)
+- **Statut Thèse :** Score ajusté 55.5 — snapshot 10h UTC 15/06 : close **$12.19** restauré après 5 jours de données partielles, previous $12.09, **thèse CONFIRMÉE** avec nuance positive, RSI remontant 41.77 → **43.25**, ATR **$0.50** et MM50 **$13.61** restaurés, scores agents Catalyseur +1.5 pt / Valorisation +1.5 pt / Momentum −1.0 pt, fondamentaux intacts (forward P/E 10.64×, upside +43.5%), support $11.20 à +8.8%, volume anémique 0.50×, anomalie options JSON persistante (max pain $3.00 aberrant → valeur opérationnelle $12.00), timing défavorable
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
@@ -54,10 +54,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-10
+- **Date :** 2026-06-15
 - **Type :** update
-- **Fichier :** `NU_2026-06-10_update.md`
-- **Conclusion :** **Thèse : MODIFIÉE — ATTENDRE (données techniques partielles close NaN/ATR null, RSI révisé à 41
+- **Fichier :** `NU_2026-06-15_update.md`
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE avec nuance positive (données techniques restaurées après 5 jours de données partielles, close $12.19 +0.83%, RSI remontant 43.25, ATR $0.50 et MM50 $13.61 restaurés, score global ajusté 54.8 → 55.5 zone ATTENDRE maintenue, volume anémique 0.50×, fondamentaux intacts, SL/TP recalculés $11.19/$13.69)**
 
 ---
 
