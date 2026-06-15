@@ -20,10 +20,11 @@
 ---
 
 ## Historique des fichiers
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $2.65
-- **Statut thèse :** —
+- **Score global ajusté :** 55.0/100
+- **Prix cible consensus :** $9.05 (11 analysts)
+- **Prix cible technique :** $3.52 (3×ATR)
+- **Stop-loss :** $2.67 (2×ATR)
+- **Statut thèse :** Non établie — profil spéculatif biotech pré-profit, Filtre Qualité 2/6
 - **Horizon :** 6–12 mois (dépendant des catalyseurs cliniques)
 
 ---
@@ -48,11 +49,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 26.74
-- **MM 50j :** 3.9
+- **RSI 14j :** 24.24
+- **MM 50j :** 3.90
 - **MM 200j :** —
 - **ATR 14j :** 0.17
-- **Volume moy. 20j :** 3260278
+- **Volume moy. 20j :** 3288757
 
 ---
 
@@ -61,7 +62,7 @@
 - **Date :** 2026-06-15
 - **Type :** update
 - **Fichier :** `CTMX_2026-06-15_update.md`
-- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — ATTENDRE (INCHANGÉE)**
+- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — ATTENDRE (INCHANGÉE)**. Close stable $3.01, RSI 24.24 survente extrême, volume anémie 0.37×, anomalie options JSON RÉSOLUE (structure très haussière put/call 0.14, call OI 87.8%), expiration demain, timing Défavorable.
 
 ---
 

@@ -1,4 +1,4 @@
-# CONTEXT — QTBS — Dernière mise à jour : 2026-06-15
+# CONTEXT — QTBS — Dernière mise à jour : 2026-06-15 (snapshot 17h UTC)
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -58,9 +58,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-15
-- **Type :** preview
-- **Fichier :** `QTBS_2026-06-15_preview.md`
-- **Conclusion :** > **Date :** 2026-06-15
+- **Type :** update
+- **Fichier :** `QTBS_2026-06-15_update_17h.md`
+- **Conclusion :** Data blackout confirmé snapshot 17h UTC — ATTENDRE (50e snapshot consécutif sans mutation). FX exposure 25% export ajoutée (impact neutre).
 
 ---
 
