@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $42.34
-- **Statut thèse :** —
-- **Horizon :** —
+- **Recommandation :** ACHETER (Réduit)
+- **Score global :** 60.0/100 (65.0 ajusté)
+- **Prix cible :** $49.05
+- **Stop-loss :** $42.80
+- **Statut thèse :** Confirmée avec vigilance
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -40,16 +40,20 @@
 - **MM 50j :** 43.7
 - **MM 200j :** —
 - **ATR 14j :** 1.25
-- **Volume moy. 20j :** 2330
+- **Volume session :** 844 (0.36× moy. 20j)
+- **Volume moy. 20j :** 2332
+- **Cours close :** $45.30
+- **Previous close :** $44.836
+- **52w range :** $40.27–$57.74
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-15
-- **Type :** preview
-- **Fichier :** `TEST_2026-06-15_preview.md`
-- **Conclusion :** > **Date :** 2026-06-15
+- **Type :** update
+- **Fichier :** `TEST_2026-06-15_update_17h00.md`
+- **Conclusion :** Cours +1.03% à $45.30, RSI 45.79 (−1.29 pt), volume effondré 844 (0.36× avg). Verdict ACHETER (Réduit) confirmé avec vigilance. SL/TP révisés $42.80/$49.05, ratio R/R 1.5. Points de vigilance : illiquidité aggravée, RSI recul malgré hausse du cours, absence totale de flux agents.
 
 ---
 
