@@ -36,11 +36,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 20.83
+- **RSI 14j :** 20.81
 - **MM 50j :** 39.47
 - **MM 200j :** —
 - **ATR 14j :** 5.4
-- **Volume moy. 20j :** 9544049
+- **Volume moy. 20j :** 9544631
 
 ---
 
@@ -48,8 +48,8 @@
 
 - **Date :** 2026-06-15
 - **Type :** update
-- **Fichier :** `FLY_2026-06-15_update.md`
-- **Conclusion :** > **Type :** `_update.md` — Snapshot 10h UTC, gap baissier -19.05%, donnees techniques restaurees (ATR, MM50), these SURVEILLER (45.0) confirmee avec intensite negative renforcee
+- **Fichier :** `FLY_2026-06-15_update_21h.md`
+- **Conclusion :** Snapshot 21h UTC — Cours stable $33.36 (+4.68% vs prior close, −1.14% vs 17h UTC), volume révisé à la hausse 7.07M (0.74x, +42.7% vs 17h), RSI survente extrême 20.81, thèse ATTENDRE (56.3) confirmée, timing Défavorable conservé.
 
 ---
 

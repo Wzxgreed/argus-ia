@@ -36,30 +36,31 @@
 | 2026-06-10 10:00 UTC | Mise a jour | [AAL_2026-06-10_update.md](./AAL_2026-06-10_update.md) | **Snapshot 10h UTC (pre-ouverture NY)** : cours **$13.60** (previous_close, [ANOMALIE DATA] vs $14.09 close officiel 09/06), RSI **66.11** (−3.15 pts). Short interest **11.39%** (−1.48 pt, −11.5%). Options corrompues (Max Pain $5.00 aberrant, Put/Call et Call OI null). ATR/MM50 indisponibles. Donnees sectorielles NaN. Score agent **5.0/10**, Global **50.3/100**. These **MODIFIEE : ATTENDRE** (downgrade de ACHETER Sizing Reduit) — attente confirmation cloture 10/06. SL $12.77, TP $16.07. |
 | 2026-06-10 13:00 UTC | Mise a jour | [AAL_2026-06-10_update_13h00.md](./AAL_2026-06-10_update_13h00.md) | **Snapshot 13h UTC** : cours **$13.60** confirme (divergence vs $14.09 21h UTC persistante). RSI **66.11** inchangé. Options **CORRIGEES** : Max Pain **$13.00**, Put/Call **1.47**, Call OI **40.4%**. Risque gamma baissier identifie (Max Pain $13.00 < cours $13.60). Short interest **11.39%** inchangé. ATR/MM50 indisponibles. Sectoriel NaN. Score agent **5.0/10**, Global **50.3/100**. These **ATTENDRE CONFIRMEE** — risque gamma J−2 et incertitude close du 09/06. SL $12.77, TP $16.07. |
 | 2026-06-15 17:00 UTC | Mise a jour | [AAL_2026-06-15_update.md](./AAL_2026-06-15_update.md) | **Snapshot 17h UTC — RALLY +3.64% ET NORMALISATION VOLUMETRIQUE** : Cours $15.53 (vs $14.98), RSI 56.42, ATR $0.65, MM50 $12.79, volume 88.99M (−6.7% vs moyenne). Normalisation volumetrique majeure vs 153.31M (+65%) au snapshot 13h. Rejet du high $15.90 ($15.525 close). Upside consensus reduit a +6.9% (vs +10.8%). Options inchangées (Max Pain $10.00, Put/Call 1.69). Score agent 5.5/10 (V:4.0 M:7.5), Global ajuste 60.0/100. These **ACHETER (Sizing Reduit) CONFIRMEE AVEC VIGILANCE**. SL $14.22, TP $17.48, R/R 1.5. Earnings dans 38 jours. Validation report : AAL OK. |
+| 2026-06-15 21:00 UTC | Mise a jour | [AAL_2026-06-15_update_21h00.md](./AAL_2026-06-15_update_21h00.md) | **Snapshot 21h UTC (Close Officielle) — CORRECTION VOLUMETRIQUE MASSIVE** : Volume révisé de 88.99M → 178.76M (+100.9%), record historique récent. Close officiel $15.46 (−0.4% vs 17h), RSI 55.88, ATR $0.65, MM50 $12.79. Volume +78.9% vs moyenne 20j = accumulation/distribution massive. Rejet du high $15.895 confirmé. Score agent révisé à 5.9/10 (C:5.8 V:5.0 M:7.5), Global ajuste 64.0/100. These **ACHETER (Sizing Reduit) CONFIRMEE AVEC VIGILANCE MAXIMALE**. SL $14.16, TP $17.41, R/R 1.5. Earnings dans 38 jours. |
 
 ---
 
 ## Thèse d'investissement courante
 
 **Recommandation :** ACHETER (Sizing Réduit) (réactivation vs ATTENDRE du 10/06)
-**Prix cible :** $17.48 (calcul ATR-based) / Réviser à $18.00 si cassure de $15.90 sur volume > 100M
-**Stop-loss :** $14.22 (cours − 2×ATR $0.65)
+**Prix cible :** $17.41 (calcul ATR-based) / Réviser à $18.00 si cassure de $15.90 sur volume > 100M
+**Stop-loss :** $14.16 (cours − 2×ATR $0.65)
 **Upside/Downside :** +12.6% / −8.4%
-**Derniere mise a jour :** 2026-06-15 (snapshot 17h UTC)
+**Derniere mise a jour :** 2026-06-15 (snapshot 21h UTC — Close Officielle)
 
-American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). Le rally du 20–27/05 a matérialise **+24.3%** ($12.06 → $14.99). Après un repli post-rally jusqu'a **$13.50 (05/06)** et une période d'incertitude data quality (10/06), le cours a rebondi de **$13.60 à $15.53 (+14.1%)** en 5 sessions. Le support **$14.00** est désormais confirmé comme récupéré (3 closes consécutifs au-dessus).
+American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). Le rally du 20–27/05 a matérialise **+24.3%** ($12.06 → $14.99). Après un repli post-rally jusqu'a **$13.50 (05/06)** et une période d'incertitude data quality (10/06), le cours a rebondi de **$13.60 à $15.46 (+13.7%)** en 5 sessions. Le support **$14.00** est désormais confirmé comme récupéré (3 closes consécutifs au-dessus).
 
-La session du 15/06 s'est ouverte à **$15.54** (gap haussier vs close $14.98), a atteint **$15.895** (rejet institutionnel), et clôturé à **$15.525 (+3.64%)** sur un volume de **88.99M (−6.7% vs moyenne 20j)** = **normalisation volumétrique majeure** par rapport aux 153.31M du snapshot 13h (+65.2%). Le rally est confirmé mais l'engorgement acheteur s'est dissipé.
+La session du 15/06 s'est ouverte à **$15.54** (gap haussier vs close $14.98), a atteint **$15.895** (rejet institutionnel), et clôturé à **$15.46 (+3.20%)** sur un volume de **178.76M (+78.9% vs moyenne 20j)** = **record historique récent** (dépasse le 149.70M du 09/06). Le snapshot 17h UTC rapportait un volume de 88.99M — cette valeur était **incomplète** (snapshot intraday). Le volume réel est presque le double de la moyenne 20j et représente une participation institutionnelle intense. Le close $15.46, loin du high $15.895, suggère que les vendeurs ont pris le dessus en fin de session (churn/distribution).
 
-Les données techniques sont **récupérées** : ATR **$0.65**, MM50 **$12.79** (cours +21.4% au-dessus). Le RSI est à **56.42** — zone neutre favorable. Le Forward P/E est remonté mécaniquement à **6.97** (vs 6.32 au 10/06) suite au rally. Le consensus FMP reste inchangé à **$16.60** (17 analystes) — upside réduit à **+6.9%**. Le short interest est stable à **11.39%** — fuel de squeeze intact.
+Les données techniques sont **récupérées** : ATR **$0.65**, MM50 **$12.79** (cours +20.9% au-dessus). Le RSI est à **55.88** — zone neutre favorable. Le Forward P/E est remonté mécaniquement à **6.94** (vs 6.32 au 10/06) suite au rally. Le consensus FMP reste inchangé à **$16.60** (17 analystes) — upside à **+7.4%**. Le short interest est stable à **11.39%** — fuel de squeeze intact.
 
-Les données options restent **inchangées** vs snapshot 13h : Max Pain **$10.00**, Put/Call **1.69**, Call OI **37.2%**. Le Max Pain $10.00 reste **$5.53 sous le spot** — probable artefact de calcul. Le risque gamma pour l'expiration du 18/06 (J−3) est stable.
+Les données options restent **inchangées** : Max Pain **$10.00**, Put/Call **1.69**, Call OI **37.2%**. Le Max Pain $10.00 reste **$5.46 sous le spot** — probable artefact de calcul. Le risque gamma pour l'expiration du 18/06 (J−3) est stable.
 
-L'agent recommandation a maintenu la thèse **ACHETER (Sizing Réduit)** avec un Score Opportunité de **5.5/10** (C:5.8 V:4.0 M:7.5) et un Score Global ajusté de **60.0/100** (vs 63.5 au snapshot 13h, vs 50.3/100 le 10/06). Le timing est jugé **Favorable**. Le validation report 2026-06-15 confirme AAL comme **OK**.
+L'agent recommandation a maintenu la thèse **ACHETER (Sizing Réduit)** avec un Score Opportunité de **5.9/10** (C:5.8 V:5.0 M:7.5) et un Score Global ajusté de **64.0/100** (vs 60.0 au snapshot 17h, vs 50.3/100 le 10/06). Le timing est jugé **Favorable**. Le validation report 2026-06-15 confirme AAL comme **OK**.
 
-**Verdict institutionnel :** La thèse est **ACHETER (Sizing Réduit) — CONFIRMÉE AVEC VIGILANCE ACCRUE.** Le rally +3.64% à $15.53 confirme le momentum haussier mais réduit mécaniquement l'upside à +6.9%. La normalisation volumétrique (88.99M, −6.7% vs moyenne) et le rejet du high $15.90 imposent une prudence accrue. Le support **$15.00** est désormais le niveau clé à tenir. **Si le cours clôture sous $15.00 : sortie anticipée partielle (50%). Si sous $14.22 : SL déclenché. Si sous $12.79 : invalidation complète.** Si le cours dépasse $15.90 sur volume > 100M : TP révisable à $18.00. Le bilan reste extrêmement fragile (current ratio 0.50, tangible asset value négatif, net debt/EBITDA 8.83x). AAdvantage (programme loyalty) reste le hidden asset (~$20-25B > market cap).
+**Verdict institutionnel :** La thèse est **ACHETER (Sizing Réduit) — CONFIRMÉE AVEC VIGILANCE MAXIMALE.** Le rally +3.20% à $15.46 confirme le momentum haussier. La correction volumétrique majeure (88.99M → 178.76M) invalide la lecture de "normalisation" du snapshot 17h. Le volume record est ambigu : accumulation en début de session ou churn institutionnel en fin de session. Le rejet du high $15.90 et le close dans le gap haussier imposent une prudence accrue. Le support **$15.00** est désormais le niveau clé à tenir. **Si le cours clôture sous $15.00 : sortie anticipée partielle (50%). Si sous $14.16 : SL déclenché. Si sous $12.79 : invalidation complète.** Si le cours dépasse $15.90 sur volume > 100M : TP révisable à $18.00. Le bilan reste extrêmement fragile (current ratio 0.50, tangible asset value négatif, net debt/EBITDA 8.83x). AAdvantage (programme loyalty) reste le hidden asset (~$20-25B > market cap).
 
-**⚠️ Données partielles** — Max Pain $10.00 éloigné du spot (possible artefact). MM200 indisponible. Accounting risk indisponible. Quant report insuffisant. Social sentiment sans données Reddit.
+**⚠️ Données partielles** — Max Pain $10.00 éloigné du spot (possible artefact). MM200 indisponible. Accounting risk indisponible. Quant report insuffisant. Social sentiment sans données Reddit. Volume snapshot 17h UTC incomplet (corrigé à 178.76M en close).
 
 ---
 
@@ -91,5 +92,5 @@ Voir [SUPPLY_CHAIN.md](./SUPPLY_CHAIN.md)
 
 - Analyse initiale : [AAL_2026-05-17_init.md](./AAL_2026-05-17_init.md)
 - Mise a jour 2026-05-18 : [AAL_2026-05-18_update.md](./AAL_2026-05-18_update.md)
-- Derniere mise a jour : [AAL_2026-06-15_update.md](./AAL_2026-06-15_update.md)
+- Derniere mise a jour : [AAL_2026-06-15_update_21h00.md](./AAL_2026-06-15_update_21h00.md)
 - Contexte court terme : [CONTEXT.md](./CONTEXT.md)

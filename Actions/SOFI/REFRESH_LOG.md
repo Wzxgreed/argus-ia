@@ -1,5 +1,19 @@
 # SOFI — Historique des Full Refreshes
 
+## 2026-06-15 — Full Refresh Conclu (snapshot 21:00 UTC — close final, DRAFT traité)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.13% (seuil 5.0%)
+
+**Conclusion :** CONFIRME — Faux positif. Le DRAFT_refresh 21h est traité et archivé.
+- L'ATR relatif 6.13% est un **faux positif** : l'ATR est stable à **$1.05** (compression), pas d'expansion. Même trigger que le DRAFT 17h, re-déclenché mécaniquement.
+- Le snapshot `data/latest.json` (timestamp 2026-06-15T21:00:09+00:00) confirme l'intégralité des données du snapshot 17h avec une **correction volume majeure** : volume final **75.98M (1.03×)** vs estimation 17h **42.31M (0.58×)**. Le reclaim MM50 à $17.13 (+3.32%) est désormais validé avec une participation institutionnelle légèrement supérieure à la moyenne.
+- Aucun nouvel événement structurant ne modifie le moat, le TAM ou la qualité bénéfice. Le Filtre Qualité reste 4/6 (Quality Partielle).
+- Score Opportunité 6.5/10, Score Global ajusté 69.5/100 (ACHETER Réduit) — inchangés. Conviction qualitative renforcée par le volume confirmé.
+- **Action :** DRAFT_refresh archivé (`SOFI_2026-06-15_DRAFT_refresh_ARCHIVED_3.md`). La mise à jour `SOFI_2026-06-15_update.md` (snapshot 21:00 UTC) intègre la correction volume et confirme la thèse ACHETER (Réduit) avec conviction renforcée.
+
+---
+
 ## 2026-06-15 — Full Refresh Conclu (snapshot 17:00 UTC — reclaim MM50, DRAFT traité)
 
 **Triggers :**
