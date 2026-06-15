@@ -3,7 +3,7 @@
 ## Thèse courante
 
 **Verdict :** ACHETER (Réduit)
-**Date dernière analyse :** 2026-06-15 (snapshot 10:00 UTC)
+**Date dernière analyse :** 2026-06-15 (snapshot 13:00 UTC)
 **Cours actuel :** $44.836
 **Score Qualité :** 0/6 (Hors périmètre)
 **Score Opportunité :** 6.1/10 (agent reco — données fondamentales absentes)
@@ -61,6 +61,7 @@ TEST est un ticker de test / micro-cap sans données fondamentales exploitables 
 | TEST_2026-06-09_update_21h.md | 2026-06-09 | Mise à jour 21:00 UTC — **rebond technique +2.10%** vs 17h ($42.97 → $43.87), RSI 50.48 (+3.38 pts), **reclaim MM50** ($43.67) avec écart +$0.20, volume 1,570 (0.64× avg), Score Global 44.8 → **64.0 ajusté**, Score Momentum 4.0 → **6.5**, verdict regradé **SURVEILLER → ACHETER (Réduit)** | **ACHETER (Réduit)** |
 | TEST_2026-06-10_update.md | 2026-06-10 | Mise à jour 10:00 UTC — données techniques partielles (close NaN, ATR/MM null), RSI 57.17 (+6.69 pts), volume stable 1,570, Score Global 59.0 → **57.8**, Score Momentum 6.5 → **6.0**, verdict dégradé **ACHETER (Réduit) → ATTENDRE** | **ATTENDRE** |
 | TEST_2026-06-15_update.md | 2026-06-15 | Mise à jour 10:00 UTC — données techniques rétablies (close $44.836, ATR $1.25, MM50 $43.6), RSI 47.08 (−10.09 pts, recalcul sur données complètes), volume effondré 1,000 (0.41× avg), Score Global 57.8 → **61.0** (66.0 ajusté), Score Momentum 6.0 → **7.3**, verdict regradé **ATTENDRE → ACHETER (Réduit)**, SL $42.34 / TP $48.59 | **ACHETER (Réduit)** |
+| TEST_2026-06-15_update_13h00.md | 2026-06-15 | Mise à jour 13:00 UTC — stabilité totale confirmée vs snapshot 10h (cours, RSI, ATR, MM50, volume inchangés), scores et verdict ACHETER (Réduit) maintenus | **ACHETER (Réduit)** |
 
 ---
 

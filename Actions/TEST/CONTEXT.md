@@ -47,8 +47,8 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-15
-- **Type :** preview
-- **Fichier :** `TEST_2026-06-15_preview.md`
+- **Type :** update
+- **Fichier :** `TEST_2026-06-15_update_13h00.md`
 - **Conclusion :** > **Date :** 2026-06-15
 
 ---
