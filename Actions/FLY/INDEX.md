@@ -1,11 +1,12 @@
 # FLY
 
 ## Thèse courante
-**SURVEILLER** (45.0) — Cours $31.87 (gap -19.05% vs prior close $39.37, −56.8% vs 52W high $73.80), volume session 14.54M (1.51× moy. 20j), RSI 32.85 **survente**, données techniques restaurées (ATR 6.09, MM50 39.47, cours -19.3% sous MM50). **Anomalie options PARTIELLEMENT RÉSOLUE** (put/call 0.27 et call OI 78.5% restaures — skew haussier extreme; max pain $65.00 reste aberrant vs spot). Fondamentaux inchangés et défavorables (Filtre Qualité 2/6, Forward P/E −24.75, EV/Revenue 24.9x). Score Opportunité 5.3/10 (C **6.5**, V **6.0**, M **2.5**), Score Global Ajusté **45.0**, timing **Défavorable**. Consensus PT **$43.77 +37.3% au-dessus du spot** (13 analysts, révisé à la hausse). Short Interest **12.12%**. **Pas de position recommandée — SURVEILLER.** Prochain catalyst : expiration options 2026-06-18 (J+3), earnings Q2 2026 le 2026-08-04 (50 jours).
+**ATTENDRE** (56.3) — Cours $33.745 (rebond intraday +5.88% vs 13h UTC $31.87, gap −13.8% vs prior close $39.37, −54.3% vs 52W high $73.80), volume session 4.96M (0.53× moy. 20j, **collapse**), RSI 21.5 **survente EXTRÊME**, ATR 5.4 en compression, MM50 39.48 (cours −14.5% sous MM50). **Anomalie options persistante** (max pain $65.00 aberrant, put/call 0.27, call OI 78.5%). Fondamentaux inchangés et défavorables (Filtre Qualité 2/6, Forward P/E −26.21, EV/Revenue 24.9x). Score Opportunité 5.9/10 (C **6.5**, V **6.0**, M **5.0**), Score Global Ajusté **56.3**, timing **Défavorable**. Consensus PT **$43.77 +29.7% au-dessus du spot** (13 analysts). Short Interest **12.12%**. **Pas de position recommandée — ATTENDRE.** Prochain catalyst : expiration options 2026-06-18 (J+3), earnings Q2 2026 le 2026-08-04 (50 jours).
 
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
+| 2026-06-15 | [FLY_2026-06-15_update_17h.md](FLY_2026-06-15_update_17h.md) | **Mise à jour 17:00 UTC** — Rebond +5.88% sur volume collapse (0.53x), RSI survente extrême 21.5, passage agent SURVEILLER (45.0) → **ATTENDRE (56.3)**. Thèse modifiée en intensité, timing Défavorable conservé. |
 | 2026-05-17 | [FLY_2026-05-17_init.md](FLY_2026-05-17_init.md) | Analyse initiale |
 | 2026-05-18 | [FLY_2026-05-18_update.md](FLY_2026-05-18_update.md) | Mise à jour quotidienne + consolidation FULL REFRESH — gap +8.71%, momentum renforcé, fondamentaux inchangés, thèse ATTENDRE confirmée |
 | 2026-05-19 | [_FLY_2026-05-19_update_17h.md](_FLY_2026-05-19_update_17h.md) | Mise à jour 17:00 UTC — snapshot partiel (volume sous-estimé), thèse ATTENDRE confirmée avec dégradation du momentum (archive) |

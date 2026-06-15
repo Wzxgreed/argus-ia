@@ -7,10 +7,10 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
+- **Recommandation :** ATTENDRE
+- **Score global :** 56.3/100
+- **Prix cible :** $49.95
+- **Stop-loss :** $22.94
 - **Statut thèse :** modifiée
 - **Horizon :** —
 
@@ -36,11 +36,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 21.46
+- **RSI 14j :** 21.5
 - **MM 50j :** 39.48
 - **MM 200j :** —
 - **ATR 14j :** 5.4
-- **Volume moy. 20j :** 9402963
+- **Volume moy. 20j :** 9438743
 
 ---
 
@@ -48,8 +48,8 @@
 
 - **Date :** 2026-06-15
 - **Type :** update
-- **Fichier :** `FLY_2026-06-15_update.md`
-- **Conclusion :** > **Type :** `_update.md` — Snapshot 10h UTC, gap baissier -19.05%, donnees techniques restaurees (ATR, MM50), these SURVEILLER (45.0) confirmee avec intensite negative renforcee
+- **Fichier :** `FLY_2026-06-15_update_17h.md`
+- **Conclusion :** > **Type :** `_update.md` — Snapshot 17h UTC, rebond intraday +5.88% sur volume collapse (0.53x), RSI survente extreme 21.5, passage agent SURVEILLER (45.0) → ATTENDRE (56.3). These modifiee en intensite, timing Defavorable conserve.
 
 ---
 
@@ -57,6 +57,8 @@
 
 - **PRICE_GAP** (medium) — Gap +5.88% overnight (seuil ±5.0%)
 - **ATR_SPIKE** (medium) — ATR relatif 16.00% (seuil 5.0%)
+- **INTRADAY_REBOUND** (medium) — Rebond +5.88% en séance sur volume collapse (0.53x moy. 20j), RSI 21.5 survente extrême
+- **SCORE_UPGRADE** (low) — Passage SURVEILLER (45.0) → ATTENDRE (56.3), Score Momentum 2.5 → 5.0 (+2.5 pts)
 
 ---
 
