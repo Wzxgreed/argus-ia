@@ -7,22 +7,22 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER · Direction Neutre
-**Score Global :** 52.5/100 (ajusté **37.5**)
-**Prix cible desk :** $151.83 (TP ATR-based, conservé) / $163.87 (consensus analystes)
-**Stop-loss :** $124.58 (conservé, non révisé — ATR null)
-**Horizon :** 1–3 mois
-**Statut thèse :** 🟡 **Modifiée** — snapshot 10h UTC du 10/06 : **[DONNÉES PARTIELLES]** (close NaN, ATR null, MM50 null) + **anomalie options JSON récurrente** ($190 / 0.02 / 97.8%). Cours indicateur **$132.69** (previous_close, divergence vs close 09/06 $135.48). RSI refluxe à **81.3** (−1.36 pt), surachat extrême persistant. Volume **1.50M (0.57× moy. 20j)** stable. Score Global ajusté **37.5** (−15.8 pts) — passage zone **SURVEILLER** (was ATTENDRE). Signal sectoriel **NEUTRAL** (données sectorielles NaN). Aucune entrée recommandée.
+- **Recommandation :** ACHETER · Direction Long
+- **Score Global :** 70.0/100 (ajusté **75.0**)
+- **Prix cible desk :** $145.92 (TP ATR-based) / $163.29 (consensus analystes)
+- **Stop-loss :** $119.12
+- **Horizon :** 1–3 mois
+- **Statut thèse :** 🟢 **Modifiée positivement** — snapshot 10h UTC du 15/06 : **[DONNÉES RÉTABLIES]** (close $129.84, ATR $5.36, MM50 $120.16) ; RSI normalisé **68.62** (sortie zone surachat extrême >80) ; volume recovery **2.29M (0.84× moy. 20j)** (+53% vs close 09/06). Score Global ajusté **75.0** (+21.7 pts vs 37.5) — passage zone **ACHETER Standard** (was SURVEILLER). Timing **Favorable**. **Anomalie options JSON persistante** (valeurs opérationnelles conservées $130/1.52/39.7%). Pinning options J+3 (expiration 18/06, max pain $130). Signal sectoriel **NEUTRE** (XLV #4).
 
-**Synthèse :** Agilent a confirmé sa qualité fondamentale par un beat/guidance-up Q2 2026 spectaculaire (gap +17.3%). Le Filtre Qualité 5/6 est maintenu, le consensus $163.87 laisse un upside **+23.5%** (si cours $132.69). Cependant, le snapshot 10h UTC du 10/06 présente des **données partielles** (close NaN, ATR null, MM50 null) et une **anomalie options JSON récurrente**. Le scoring agent a dégradé massivement l'action : Score Global ajusté **37.5/100** (−15.8 pts), recommandation **SURVEILLER** (was ATTENDRE). Le RSI à 81.3 reste dans la zone extrême, le momentum est baissier (4.0/10), et le catalyseur earnings s'érode (5.3/10). Le volume 0.57× moy. 20j fragilise la structure. La thèse fondamentale reste solide mais le **timing technique est défavorable** et le **scoring a dégradé** l'action en zone SURVEILLER. **Aucune action recommandée à ce stade.**
+**Synthèse :** Après 5 séances de données partielles / surachat extrême persistant, le snapshot du 15 juin marque un tournant technique majeur pour Agilent. RSI normalisé (68.62), données rétablies, volume en recovery. Le Filtre Qualité 5/6 est maintenu, consensus $163.29 = upside +25.7%. Scoring agent massivement upgradé : 37.5 → **75.0/100** (ACHETER Standard). Niveaux SL/TP recalculés sur données complètes : **$119.12 / $145.92** (R/R 1.5). Entrée possible au spot ($129.84) ou scale-in sur pullback $126–$128. Risque principal : pinning options J+3 autour de $130.
 
 ---
 
 ## 📜 Historique des analyses
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $124.58
-- **Statut thèse :** validée
+- **Score global :** 75.0/100
+- **Prix cible :** $145.92
+- **Stop-loss :** $119.12
+- **Statut thèse :** modifiée positivement
 - **Horizon :** 1–3 mois
 
 ---
@@ -58,7 +58,8 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **2026-06-18** · Expiration options (max pain opérationnel $130) · **J+3**
+- **2026-08-26** · Earnings Q3 2026 · Est EPS $1.43–$1.51, Rev $1.8B · J+72
 
 ---
 
@@ -74,10 +75,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-10
+- **Date :** 2026-06-15
 - **Type :** update
-- **Fichier :** `A_2026-06-10_update.md`
-- **Conclusion :** > **Date :** 2026-06-10 · Snapshot 10:00 UTC
+- **Fichier :** `A_2026-06-15_update.md`
+- **Conclusion :** 🟢 Thèse modifiée positivement — DONNÉES RÉTABLIES, RSI normalisé 68.62, volume recovery 2.29M, Score Global ajusté 75.0 (ACHETER Standard), SL/TP $119.12/$145.92. Pinning options J+3 à surveiller.
 
 ---
 
