@@ -9,7 +9,7 @@
 
 - **Recommandation :** ATTENDRE (Score Global 55.2/100)
 
-AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **aucune donnée de prix n'est disponible** dans le pipeline Argus-IA car le symbole "AXA" n'est pas reconnu par yfinance (instrument Euronext Paris, non coté US). L'analyse technique et fondamentale reste impossible.
+AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **aucune donnée de prix n'est disponible** dans le pipeline Argus-IA car le symbole "AXA" n'est pas reconnu par yfinance (instrument non coté US). L'analyse technique et fondamentale reste impossible.
 
 **Contexte sectoriel (dernier snapshot fiable : 2026-06-15 10h00 UTC) :** Le secteur Financials (XLF) affiche une **amélioration continue** depuis le 09/06 : return 20j **+4.00%** (+1.50 pp vs 09/06), return 60j **+9.48%** (+1.63 pp), RS 20j **+4.85%** (+2.04 pp), RS 60j **−2.97%** (+0.77 pp), momentum score **6.73/10** (+1.54 pt). Le rang sectoriel est au **2e/11** (+1 place vs 09/06). Le signal macro reste `UNKNOWN` (stable depuis le 02/06). Le fichier `data/sector_rotation_2026-06-15.json` est validé et exploitable.
 
@@ -34,14 +34,13 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 
 ## 🚨 Alertes actives
 
-- **[CRITICAL]** Pas de données de prix pour AXA — ticker probablement incorrect
-- **[WARNING]** Earnings J0 (2026-06-15) sans consensus ni résultats exploitables — pattern persistant depuis mi-mai (14e occurrence consécutive)
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir identifié (earnings J0 FMP glissant sans détails).
+- **2026-06-15** · earnings · Earnings ...
 
 ---
 
@@ -60,7 +59,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 - **Date :** 2026-06-15
 - **Type :** update
 - **Fichier :** `AXA_2026-06-15_update.md`
-- **Conclusion :** Données AXA toujours indisponibles. Récupération du fichier sectoriel : XLF en amélioration continue (RS 20j +4.85%, momentum 6.73/10, rang 2e/11). Thèse ATTENDRE confirmée à 55.2/100. Earnings J0 FMP glissant sans résolution (14e jour consécutif). Action immédiate : corriger le symbole dans config/watchlist.json.
+- **Conclusion :** > **Date :** 2026-06-15
 
 ---
 

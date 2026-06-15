@@ -22,8 +22,8 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ## Actualités ayant impacté ce dossier
 - **Score global :** —/10
-- **Prix cible :** $19.56
-- **Stop-loss :** $14.46
+- **Prix cible :** $19.82
+- **Stop-loss :** $14.42
 - **Statut thèse :** validée
 - **Horizon :** —
 
@@ -62,9 +62,9 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-15
-- **Type :** update
-- **Fichier :** `SOFI_2026-06-15_update.md`
-- **Conclusion :** Données techniques complètes (ATR $1.08, MM50 $16.83), scores révisés à la hausse (Catalyseur 6.8, Valorisation 6.0), Momentum en retrait (5.0), volume faible (0.69×). Thèse ATTENDRE confirmée, timing Défavorable (sous MM50). [ALERTE DATA QUALITY] Options corrompues.
+- **Type :** full refresh
+- **Fichier :** `SOFI_2026-06-15_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-15
 
 ---
 

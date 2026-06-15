@@ -57,7 +57,7 @@
 - **Date :** 2026-06-15
 - **Type :** update
 - **Fichier :** `NU_2026-06-15_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE avec nuance positive (données techniques restaurées après 5 jours de données partielles, close $12.19 +0.83%, RSI remontant 43.25, ATR $0.50 et MM50 $13.61 restaurés, score global ajusté 54.8 → 55.5 zone ATTENDRE maintenue, volume anémique 0.50×, fondamentaux intacts, SL/TP recalculés $11.19/$13.69)**
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (données techniques restaurées après 5 jours de données partielles, cours consolidé à $12
 
 ---
 

@@ -10,6 +10,18 @@ Snapshot 2026-06-15 10:00 UTC. Cours $14.80 (+5.04% vs previous close $14.09). R
 
 ---
 
+## 2026-06-15 13:00 UTC — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +5.04% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 7.50% (seuil 5.0%)
+
+**Conclusion :** ARCHIVÉ — Consolidé dans le snapshot 10:00 UTC
+
+Snapshot 2026-06-15 13:00 UTC. Données **strictement inchangées** vs snapshot 10:00 UTC (close $14.80, RSI 46.61, ATR $1.11, volume 117.7M 0.95×). Aucun événement corporate (`events_2026-06-15.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` reste un faux positit : la volatilité relative reflète le range intraday consolidé depuis le gap du 15/06, pas un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +37.0%. Score Opportunité 4.7/10. Score Global ajusté **51.8/100** — **ATTENDRE** confirmée. DRAFT_refresh du 13:00 archivé comme non matérialisé. Thèse inchangée.
+
+---
+
 # NOK — Historique des Full Refreshes
 
 ## 2026-05-17 — Full Refresh Triggered
@@ -2452,6 +2464,26 @@ Même conclusion que l'entrée précédente. DRAFT_refresh archivé.
 ---
 
 ## 2026-06-14 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +5.04% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 7.50% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-15 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +5.04% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 7.50% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-15 — Full Refresh Triggered
 
 **Triggers :**
 - price_gap (medium) : Gap +5.04% overnight (seuil ±5.0%)

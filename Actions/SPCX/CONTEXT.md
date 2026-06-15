@@ -18,9 +18,9 @@
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 51.0/100
-- **Prix cible :** N/A
-- **Stop-loss :** N/A
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
 - **Statut thèse :** validée
 - **Horizon :** —
 
@@ -51,7 +51,6 @@
 - **MM 200j :** —
 - **ATR 14j :** —
 - **Volume moy. 20j :** 519234800
-- **Cours close :** 160.95 (non fiable)
 
 ---
 
@@ -60,7 +59,7 @@
 - **Date :** 2026-06-15
 - **Type :** update
 - **Fichier :** `SPCX_2026-06-15_update.md`
-- **Conclusion :** Thèse confirmée en ATTENDRE (artefact mécanique) — conflit de symbole FMP aggravé (cours fictif $160.95 +19.2%, market cap $2.1T, forward P/E −1,788), scoring mécanique remonté 47.2→51.0/100, vingt-troisième snapshot sans données fiables
+- **Conclusion :** **Date :** 2026-06-15
 
 ---
 

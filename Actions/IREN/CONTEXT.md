@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER (Sizing Réduit)
-- **Score global :** 61.8/100
-- **Prix cible :** $69.12 (consensus FMP, 26 analysts)
-- **Stop-loss :** $47.23 (2×ATR)
-- **Statut thèse :** modifiée favorablement
-- **Horizon :** 1–3 mois
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
+- **Horizon :** —
 
 ---
 
@@ -35,7 +35,7 @@
 
 ## 📅 Prochains événements
 
-- Earnings Q2 2026 — 2026-08-27 (73 jours) — Est EPS −$0.51 à −$0.33, Rev $0.2B
+- Aucun événement à venir.
 
 ---
 
@@ -46,18 +46,15 @@
 - **MM 200j :** —
 - **ATR 14j :** 6.27
 - **Volume moy. 20j :** 49849040
-- **Close :** 59.77
-- **Previous close :** 56.71
-- **Change % :** +5.40%
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-15
-- **Type :** update post-FULL REFRESH
-- **Fichier :** `IREN_2026-06-15_update.md`
-- **Conclusion :** Upgrade algorithmique majeur SURVEILLER → ACHETER (Sizing Réduit). Score Global 61.8/100 (+17.5 pts). ATR $6.27 et MM50 $52.06 rétablis. RSI normalisé 52.86. Multiples mécaniquement dégradés (P/E 77.6×, EV/EBITDA 157×). Données options corrompues (Max Pain $100.00, put/call null). Thèse modifiée favorablement.
+- **Type :** full refresh
+- **Fichier :** `IREN_2026-06-15_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-15
 
 ---
 

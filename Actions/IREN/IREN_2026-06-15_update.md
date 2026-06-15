@@ -1,66 +1,66 @@
-# IREN — Mise à Jour (2026-06-15, snapshot 10:00 UTC)
+# IREN — Mise à Jour (2026-06-15, snapshot 13:00 UTC)
 
-> **Type :** `_update.md` — Mise à jour post-FULL REFRESH
-> **Référence précédente :** [IREN_2026-06-10_update.md](IREN_2026-06-10_update.md) (snapshot 13h UTC 10/06)
-> **Données source :** `data/latest.json` (fetched_at 2026-06-15T10:00:02 UTC), `data/recommandations_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`, `data/upcoming_events_latest.json`
-> **Triggers FULL REFRESH :** PRICE_GAP +5.40% (seuil ±5.0%), ATR_SPIKE 10.49% (seuil 5.0%)
+> **Type :** `_update.md` — Révision post-pipeline (correction données options)
+> **Référence précédente :** [IREN_2026-06-15_update.md](IREN_2026-06-15_update.md) (snapshot 10h UTC 15/06)
+> **Données source :** `data/latest.json` (fetched_at 2026-06-15T13:00:01 UTC), `data/recommandations_latest.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`, `data/upcoming_events_latest.json`
+> **Trigger :** PIPELINE_CORRECTION — données options rétablies post-anomalie snapshot 10h
 
 ---
 
-## Résumé des Changements (vs Snapshot 13h UTC 2026-06-10)
+## Résumé des Changements (vs Snapshot 10h UTC 2026-06-15)
 
-| Métrique | 2026-06-10 | 2026-06-15 | Δ |
-|----------|-----------|-----------|---|
-| **Cours close** | Indisponible (pre-market) | **$59.77** | — |
-| **Previous close** | $59.19 | **$56.71** | −$2.48 (−4.2%) |
-| **Change % session** | — | **+5.40%** | — |
-| **Volume** | 56.48 M | **45.35 M** | −11.13 M (−19.7%) |
-| **Volume vs 20j** | 108.1% | **91.0%** | −17.1 pts |
-| **RSI 14j** | 62.18 | **52.86** | −9.32 pts (normalisation) |
-| **ATR 14j** | N/A | **$6.27** | ✅ Disponible |
-| **MM 50j** | N/A | **$52.06** | ✅ Disponible |
+| Métrique | 10h UTC | 13h UTC | Δ |
+|----------|---------|---------|---|
+| **Cours close** | **$59.77** | **$59.77** | = |
+| **Previous close** | $56.71 | **$56.71** | = |
+| **Change % session** | **+5.40%** | **+5.40%** | = |
+| **Volume** | 45.35 M | **45.35 M** | = |
+| **Volume vs 20j** | 91.0% | **91.0%** | = |
+| **RSI 14j** | 52.86 | **52.86** | = |
+| **ATR 14j** | $6.27 | **$6.27** | = |
+| **MM 50j** | $52.06 | **$52.06** | = |
 | **MM 200j** | N/A | **N/A** | = — [DONNÉES MANQUANTES] |
 | **Short Interest** | 16.05% | **16.05%** | = |
 | **Consensus PT (FMP)** | $69.12 (26 analysts) | **$69.12 (26 analysts)** | = |
-| **P/E TTM** | 70.16× | **77.62×** | +7.46 pts (dégradation mécanique) |
-| **Forward P/E** | −57.47× | **−63.59×** | −6.12 pts (détérioration) |
-| **EV/EBITDA** | 143.08× | **157.04×** | +13.96 pts (dégradation mécanique) |
-| **EV/Revenue** | 27.81× | **30.53×** | +2.72 pts |
-| **P/B** | 6.91× | **7.65×** | +0.74 pt |
-| **Max Pain** | $50.00 (valeur fiable) | **$100.00** | **ANOMALIE** — [DONNÉES CORROMPUES] |
-| **Put/Call ratio** | 1.92 | **null** | **Indisponible** — [DONNÉES MANQUANTES] |
-| **Call OI %** | 34.2% | **0.0%** | **ANOMALIE** — [DONNÉES CORROMPUES] |
-| **Score Opportunité** | 4.4/10 | **5.7/10** | **+1.3 pt** |
-| **Score Catalyseur** | 5.3/10 | **6.3/10** | **+1.0 pt** |
-| **Score Valorisation** | 3.0/10 | **4.0/10** | **+1.0 pt** |
-| **Score Momentum** | 5.5/10 | **7.5/10** | **+2.0 pts** |
-| **Score Global ajusté** | 44.3/100 | **61.8/100** | **+17.5 pts** |
-| **Action recommandée** | **SURVEILLER** | **ACHETER (Sizing Réduit)** | **UPGRADE** |
+| **P/E TTM** | 77.62× | **77.62×** | = |
+| **Forward P/E** | −63.59× | **−63.59×** | = |
+| **EV/EBITDA** | 157.04× | **157.04×** | = |
+| **EV/Revenue** | 30.53× | **30.53×** | = |
+| **P/B** | 7.65× | **7.65×** | = |
+| **Max Pain** | $100.00 (anomalie) | **$40.00** | **✅ CORRECTION** — valeur fiable rétablie |
+| **Put/Call ratio** | null (anomalie) | **1.62** | **✅ CORRECTION** — valeur fiable rétablie |
+| **Call OI %** | 0.0% (anomalie) | **38.1%** | **✅ CORRECTION** — valeur fiable rétablie |
+| **Score Opportunité** | 5.7/10 | **5.7/10** | = |
+| **Score Catalyseur** | 6.3/10 | **6.3/10** | = |
+| **Score Valorisation** | 4.0/10 | **4.0/10** | = |
+| **Score Momentum** | 7.5/10 | **7.5/10** | = |
+| **Score Global ajusté** | 61.8/100 | **61.8/100** | = |
+| **Action recommandée** | **ACHETER (Sizing Réduit)** | **ACHETER (Sizing Réduit)** | = |
 
-**Mutation principale : Upgrade algorithmique majeur SURVEILLER → ACHETER.** Le snapshot du 2026-06-15 révèle une révision substantielle du scoring agent : Score Global ajusté rehaussé de **44.3 à 61.8/100** (+17.5 pts), porté par une amélioration simultanée des trois axes (Catalyseur +1.0, Valorisation +1.0, Momentum +2.0). Le Momentum technique bondit à **7.5/10** (vs 5.5), le Catalyseur à **6.3/10** (vs 5.3), et la Valorisation à **4.0/10** (vs 3.0). Cet upgrade coïncide avec le **gap +5.40%** et l'ATR spike de 10.49% qui ont déclenché le FULL REFRESH.
+**Mutation principale : Correction majeure des données options.** Le pipeline 13h UTC rétablit des valeurs options cohérentes après l'anomalie du snapshot 10h (Max Pain $100.00, put/call null, call OI 0.0%). Le Max Pain passe à **$40.00** (expiration 2026-06-18), le put/call à **1.62**, et le call OI à **38.1%**. Ces valeurs sont plausibles au regard de l'historique récent ($33.00–$52.00) et retirent l'incertitude technique du matin.
 
-**Mutation secondaire : Données techniques désormais complètes.** L'ATR 14j (**$6.27**) et la MM50 (**$52.06**) sont enfin disponibles dans `data/latest.json`, après plusieurs jours d'indisponibilité. Le cours à **$59.77** se situe à **+14.8%** au-dessus de la MM50, confirmant une tendance haussière intermédiaire. Le RSI se normalise à **52.86** (zone neutre) contre 62.18 (neutre-haute) précédemment, ce qui est favorable à l'entrée (moins de surachat).
+**Impact sur la thèse : Prudence accrue à court terme.** Le Max Pain à $40.00 est nettement inférieur au cours actuel ($59.77), écart de **+49.4%**. Cet écart élargi réduit le risque de pin vers le Max Pain à l'expiration du 18/06 (3 jours), mais indique que le marché options n'anticipe pas de retour sous $40 à très court terme. Le put/call **1.62** confirme une défiance atténuée mais persistante (vs 3.95 record 08/06, 1.92 10/06).
 
-**Mutation tertiaire : Anomalies options persistantes.** Le snapshot 10h UTC du 15/06 retourne des valeurs options incohérentes : Max Pain **$100.00** (vs $50.00 fiable), put/call **null**, call OI **0.0%**. Ces données sont considérées comme corrompues. Les dernières valeurs fiables restent : Max Pain **$50.00**, put/call **1.92**, call OI **34.2%** (snapshot 13h 10/06). Le spread option est donc stable mais non confirmé par le dernier snapshot.
-
-**Mutation quaternaire : Multiples mécaniquement dégradés.** Le rally +5.4% a poussé la valorisation à des niveaux encore plus élevés : P/E TTM **77.62×** (vs 70.16×), EV/EBITDA **157.04×** (vs 143.08×), Forward P/E **−63.59×** (vs −57.47×). Cette dégradation mécanique est cohérente avec la hausse de cours sans amélioration fondamentale mesurable dans les feeds.
+**Constat :** Les données brutes (cours, RSI, ATR, MM, volumes, multiples, scores agents) sont **strictement inchangées** vs snapshot 10h. Le scoring global reste **61.8/100**, action **ACHETER (Sizing Réduit)**. L'évolution est purement structurelle options.
 
 ---
 
 ## Mise à Jour Technique
 
+Données techniques inchangées vs snapshot 10h UTC.
+
 | Indicateur | Valeur | Commentaire |
 |------------|--------|-------------|
-| **RSI 14j** | 52.86 | Zone neutre, normalisation vs 62.18 (10/06). Moins de surachat, favorable à l'entrée |
-| **ATR 14j** | $6.27 | **Disponible** — volatilité journalière moyenne 10.49% du cours |
-| **MM 50j** | $52.06 | **Disponible** — cours à +14.8% au-dessus, tendance haussière intermédiaire confirmée |
+| **RSI 14j** | 52.86 | Zone neutre, favorable à l'entrée. Inchangé |
+| **ATR 14j** | $6.27 | Volatilité journalière moyenne 10.49% du cours. Inchangé |
+| **MM 50j** | $52.06 | Cours à +14.8% au-dessus, tendance haussière intermédiaire confirmée |
 | **MM 200j** | N/A | **Indisponible** dans `latest.json` — [DONNÉES MANQUANTES] |
 | **Volume 20j moy.** | 49.85 M | Volume session 45.35 M = **91.0%** moyenne — volume normal, pas de distribution |
 | **52-week high/low** | $76.87 / $9.52 | Close à **77.7%** du 52W high |
 | **Beta** | 4.232 | Volatilité systématique extrême inchangée |
 | **Open / High / Low** | $56.505 / $61.40 / $55.94 | Range intraday 9.6% — volatilité élevée mais contrôlée |
 
-**Niveaux clés (basés sur données réelles du 2026-06-15) :**
+**Niveaux clés (identiques au snapshot 10h) :**
 - Support immédiat : **$55.94** (low du 2026-06-15)
 - Support secondaire : **$56.71** (previous close du 14/06)
 - Support critique : **$52.06** (MM50) — cassure = révision en ATTENDRE
@@ -70,11 +70,11 @@
 - Résistance : **$66.60** (close 2026-06-02, ancien sommet)
 - Résistance majeure : **$69.12** (consensus PT FMP)
 - Résistance extrême : **$76.87** (52-week high)
-- Stop-loss (2×ATR) : **$47.23** (−21.0% vs close) — niveau fiable désormais
-- Take-profit (3×ATR) : **$78.58** (+31.5% vs close) — niveau fiable désormais
+- Stop-loss (2×ATR) : **$47.23** (−21.0% vs close)
+- Take-profit (3×ATR) : **$78.58** (+31.5% vs close)
 - Ratio R/R : **1.5 : 1**
 
-**Verdict timing : Favorable.** Après plusieurs jours d'indisponibilité, les données techniques sont rétablies. Le RSI à 52.86 est en zone neutre favorable (ni surachat ni survente). Le cours se tient nettement au-dessus de la MM50 ($52.06), confirmant une tendance haussière intermédiaire. Le volume est normal (91% moyenne), sans signe de distribution. Le range intraday 9.6% est élevé mais cohérent avec le beta 4.232. La normalisation du RSI (62.18 → 52.86) est un signal d'entrée favorable.
+**Verdict timing : Favorable.** Inchangé vs snapshot 10h. Le RSI à 52.86 reste en zone neutre favorable. Le cours se tient nettement au-dessus de la MM50 ($52.06), confirmant la tendance haussière intermédiaire. Le volume est normal (91% moyenne).
 
 ---
 
@@ -92,7 +92,7 @@
 | EV/Revenue | **30.53×** | 7.04× | **−77%** | Yahoo |
 | Short Interest | **16.05%** | N/A | — | Yahoo |
 
-> **Note :** Les écarts Yahoo vs FMP demeurent extrêmes. L'EV/EBITDA Yahoo **157.04×** et l'EV/Revenue **30.53×** se sont encore dégradés mécaniquement vs le snapshot 10/06 (143.08× / 27.81×) suite au rally +5.4%.
+> **Note :** Les écarts Yahoo vs FMP demeurent extrêmes. Multiples mécaniquement dégradés par le rally +5.4% sans amélioration fondamentale mesurable.
 
 **Filtre Qualité : 4/6 — ⚠️ Quality Partielle** (inchangé)
 - ❌ Forward P/E négatif (−63.59)
@@ -103,7 +103,7 @@
 - ⚠️ TAM / croissance industrie : pivot IA HPC en cours, TAM non quantifié dans FMP
 
 **Valorisation :**
-- P/E TTM Yahoo **77.62×** — rally mécanique, niveau extrêmement élevé
+- P/E TTM Yahoo **77.62×** — niveau extrêmement élevé
 - Forward P/E **−63.59×** — profitabilité attendue éloignée
 - EV/EBITDA Yahoo **157.04×** — extrême
 - **Close $59.77 vs Consensus PT $69.12** — upside **+15.6%**
@@ -115,18 +115,18 @@
 
 ## Mise à Jour Sentiment / Options / News
 
-| Signal | Valeur | Évolution vs 2026-06-10 |
-|--------|--------|-------------------------|
-| **Consensus PT (FMP)** | **$69.12 (26 analysts)** | = |
-| **Max Pain** | **$100.00** (exp 2026-06-18) | **ANOMALIE** — valeur fiable maintenue à **$50.00** |
-| **Put/Call ratio** | **null** | **Indisponible** — dernière valeur fiable **1.92** |
-| **Call OI %** | **0.0%** | **ANOMALIE** — dernière valeur fiable **34.2%** |
-| **Short Interest** | **16.05%** | = — défiance accrue stable |
-| **Social Sentiment** | Aucun buzz retail | = (0 mentions) |
-| **Event-Driven** | Aucun événement | = |
-| **News Yahoo** | Aucune | = |
-| **Geo Risk** | Score 3/10, flag "low" | = |
-| **FX Exposure** | 15% revenus CAD, Score 0/10 | = |
+| Signal | Valeur 13h UTC | Évolution vs 10h UTC | Évolution vs 10/06 |
+|--------|---------------|----------------------|------------------|
+| **Consensus PT (FMP)** | **$69.12 (26 analysts)** | = | = |
+| **Max Pain** | **$40.00** (exp 2026-06-18) | **✅ CORRECTION** (vs $100.00 anomalie) | **↓ $10.00** (vs $50.00) |
+| **Put/Call ratio** | **1.62** | **✅ CORRECTION** (vs null) | ↓ −0.30 (vs 1.92) — détente |
+| **Call OI %** | **38.1%** | **✅ CORRECTION** (vs 0.0%) | ↑ +3.9 pts (vs 34.2%) |
+| **Short Interest** | **16.05%** | = | = — défiance accrue stable |
+| **Social Sentiment** | Aucun buzz retail | = | = (0 mentions) |
+| **Event-Driven** | Aucun événement | = | = |
+| **News Yahoo** | Aucune | = | = |
+| **Geo Risk** | Score 3/10, flag "low" | = | = |
+| **FX Exposure** | 15% revenus CAD, Score 0/10 | = | = |
 
 **Agent Sector Rotation (2026-06-15) :**
 - Régime macro : **UNKNOWN** (VIX indisponible)
@@ -140,13 +140,17 @@
 - Verdict : Fortement corrélé — inchangé
 
 **Interprétation institutionnelle :**
-La structure options du snapshot 15/06 est **non fiable** (Max Pain $100.00, put/call null, call OI 0%). Ces valeurs sont manifestement corrompues et ne reflètent pas la réalité du marché. Les dernières valeurs fiables (snapshot 13h 10/06 : Max Pain $50.00, put/call 1.92, call OI 34.2%) suggèrent une défiance options atténuée mais persistante. Le short interest stable à **16.05%** maintient le fuel potentiel d'un squeeze, sans activation.
+La correction des données options retire l'incertitude technique du matin. Le pipeline 13h UTC confirme des valeurs plausibles et cohérentes avec l'historique récent. Cependant, le **Max Pain à $40.00** est un niveau significativement plus bas que les **$50.00–$52.00** observés début juin. Cette baisse peut refléter : (i) un rebalancing du open interest vers les strikes bas après le gap baissier du 08/06, (ii) une anticipation de volatilité post-expiration, ou (iii) une couverture accrue des positions short.
 
-L'absence totale de news Yahoo et de mentions Reddit (0 posts) indique un mouvement purement technique / algorithmique, sans catalyseur fondamental visible aujourd'hui.
+Le put/call à **1.62** reste élevé (défiance persistante), mais est en **nette détente** vs le record **3.95** du 08/06 et le **1.92** du 10/06. Le call OI à **38.1%** indique un intérêt call stable, en légère hausse vs le 34.2% du 10/06. La structure options ne suggère plus la panique observée début juin.
+
+**Risk spécifique expiration 18/06 :** Avec le cours à $59.77 et le Max Pain à $40.00, l'écart de +49.4% est trop large pour un pin risk classique vers le Max Pain. Toutefois, si le cours rejette **$61.40** sans volume d'ici vendredi, une compression volatilité vers les strikes denses historiques ($50.00–$52.00) reste possible.
+
+L'absence totale de news Yahoo et de mentions Reddit (0 posts) confirme un mouvement purement technique / algorithmique, sans catalyseur fondamental visible aujourd'hui.
 
 ---
 
-## Scoring Global (Agent Recommandation — 2026-06-15, snapshot 10h UTC)
+## Scoring Global (Agent Recommandation — 2026-06-15, snapshot 13h UTC)
 
 | Axe | Score | Pondération | Poids ajusté |
 |-----|-------|-------------|--------------|
@@ -169,7 +173,7 @@ Le Score Global ajusté de **61.8/100** reflète le Score Opportunité × 10, sa
 
 > **⚠️ Avertissements :**
 > 1. **Multiples extrêmes** — P/E 77.6×, EV/EBITDA 157×, Forward P/E −63.6×. Toute hausse est purement spéculative/momentum.
-> 2. **Données options corrompues** — Max Pain $100.00, put/call null, call OI 0% dans `latest.json`. Dernières valeurs fiables : Max Pain $50.00, put/call 1.92, call OI 34.2% (10/06).
+> 2. **Max Pain $40.00** — écart de +49.4% au-dessus du cours. Risque de volatilité anormale vers l'expiration 18/06 (3 jours). Niveau historiquement bas vs début juin.
 > 3. **Short Interest élevé stable** — 16.05% = défiance accrue du marché maintenue, fuel squeeze inactif.
 > 4. **Forward P/E négatif** : −63.59× — profitabilité attendue éloignée.
 > 5. **Corrélation BTC** : Beta 2.1, corrélation 0.82 — position IREN = pari implicite sur BTC. Seuil critique BTC ~$75k.
@@ -185,33 +189,22 @@ Le Score Global ajusté de **61.8/100** reflète le Score Opportunité × 10, sa
 
 ## Conclusion
 
-**Thèse : MODIFIÉE FAVORABLEMENT — UPGRADE SURVEILLER → ACHETER (Sizing Réduit).**
+**Thèse : CONFIRMÉE avec prudence accrue sur l'expiration options.**
 
-Le snapshot 10h UTC du 2026-06-15 apporte trois évolutions majeures par rapport au snapshot 13h du 2026-06-10 :
+Le snapshot 13h UTC confirme l'intégralité des données brutes du snapshot 10h (cours $59.77, RSI 52.86, ATR $6.27, MM50 $52.06, scores 5.7/61.8). La seule évolution majeure est la **correction structurelle des données options** : le pipeline a rétabli des valeurs fiables (Max Pain **$40.00**, put/call **1.62**, call OI **38.1%**). Ces valeurs retirent l'avertissement de données corrompues mais introduisent un niveau de Max Pain plus bas que prévu (baisse de $50.00 à $40.00 en 5 jours).
 
-1. **Données techniques rétablies.** L'ATR ($6.27) et la MM50 ($52.06) sont enfin disponibles, permettant de fixer des niveaux SL/TP fiables pour la première fois depuis le gap du 2026-06-08. Le cours à $59.77 se tient à +14.8% au-dessus de la MM50, confirmant une tendance haussière intermédiaire. Le RSI s'est normalisé à 52.86 (neutre), ce qui est favorable à l'entrée.
-
-2. **Upgrade algorithmique massif.** Le Score Global ajusté bondit de **44.3 à 61.8/100** (+17.5 pts), porté par une amélioration simultanée des trois axes de scoring. Le Momentum technique grimpe à 7.5/10 (+2.0 pts), le Catalyseur à 6.3/10 (+1.0 pt), et la Valorisation à 4.0/10 (+1.0 pt). L'action passe de **SURVEILLER** à **ACHETER (Sizing Réduit)** avec un timing déclaré **Favorable**.
-
-3. **Anomalies options persistantes.** Le snapshot retourne des valeurs options manifestement corrompues (Max Pain $100.00, put/call null, call OI 0%). Les dernières valeurs fiables (10/06) restent la référence : défiance atténuée mais persistante.
-
-**Différentiels clés vs snapshot 13:00 UTC 2026-06-10 :**
-1. **Cours** : $59.19 (previous close 09/06) → **$59.77** (+5.4% vs previous close $56.71 du 14/06). Le close officiel du 14/06 n'est pas documenté dans l'historique immédiat ; le previous close $56.71 suggère une consolidation intermédiaire.
-2. **Volume** : 56.48 M → **45.35 M** (−19.7%) — volume normalisé
-3. **RSI** : 62.18 → **52.86** (−9.32 pts) — normalisation favorable
-4. **ATR/MM50** : N/A → **$6.27 / $52.06** — ✅ rétablis
-5. **Multiples** : P/E 70.16× → **77.62×** (+7.46 pts), EV/EBITDA 143.08× → **157.04×** (+13.96 pts) — dégradation mécanique rally
-6. **Consensus PT** : $69.12 — inchangé, upside depuis close **+15.6%**
-7. **Short Interest** : 16.05% → **16.05%** — stable
-8. **Options** : Max Pain $50.00 / put/call 1.92 → **ANOMALIES** ($100.00 / null / 0.0%) — données corrompues
-9. **Scores** : Catalyseur 5.3→**6.3**, Valorisation 3.0→**4.0**, Momentum 5.5→**7.5**. Opportunité 4.4→**5.7**, Global 44.3→**61.8**
-10. **Action** : **SURVEILLER** → **ACHETER (Sizing Réduit)** — upgrade majeur
-11. **Aucune news** : Le mouvement est purement technique / algorithmique
+**Différentiels clés vs snapshot 10h UTC :**
+1. **Cours / Technique** : strictement inchangés
+2. **Options** : ANOMALIES ($100.00 / null / 0.0%) → **CORRECTION** ($40.00 / 1.62 / 38.1%)
+3. **Put/call** : valeur fiable rétablie à 1.62 — détente vs 1.92 (10/06) et 3.95 (08/06)
+4. **Call OI** : 38.1% — intérêt call stable, légère hausse vs 34.2% (10/06)
+5. **Max Pain** : $40.00 — baisse de $10.00 vs 10/06. Niveau à surveiller pour l'expiration 18/06
+6. **Scores / Action** : inchangés — **ACHETER (Sizing Réduit)**
 
 **Recommandation :**
-- **ACHETER (Sizing Réduit)** — Entrée possible à $59.77 avec SL $47.23 et TP $78.58 (R/R 1.5)
-- **Position existante** : Si un sizing réduit était ouvert, maintenir avec les nouveaux niveaux SL/TP
-- **Attendre** : Si le cours rejette $61.40 (high du 15/06) sans volume → attendre un retour sur MM50 ($52.06)
+- Maintenir **ACHETER (Sizing Réduit)** — Entrée possible à $59.77 avec SL $47.23 et TP $78.58 (R/R 1.5)
+- **Position existante** : Si un sizing réduit était ouvert, maintenir avec les niveaux SL/TP inchangés
+- **Attention expiration 18/06** : le Max Pain à $40.00 est un niveau bas. Si le cours rejette $61.40 sans volume d'ici vendredi, surveiller une compression vers $50.00–$52.00
 - Premier objectif haussier : **$61.40** (high du 15/06)
 - Deuxième objectif : **$66.60** (close 2026-06-02)
 - Troisième objectif : **$69.12** (consensus PT)
@@ -223,4 +216,4 @@ Le snapshot 10h UTC du 2026-06-15 apporte trois évolutions majeures par rapport
 
 ---
 
-*Rapport rédigé le 2026-06-15 — Données sources : `data/latest.json` (fetched_at 2026-06-15T10:00:02 UTC), `data/recommandations_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`, `data/upcoming_events_latest.json`.*
+*Rapport rédigé le 2026-06-15 — Données sources : `data/latest.json` (fetched_at 2026-06-15T13:00:01 UTC), `data/recommandations_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`, `data/upcoming_events_latest.json`.*

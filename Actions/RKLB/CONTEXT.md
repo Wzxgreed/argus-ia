@@ -7,10 +7,10 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ÉVITER (avec nuance technique — MM50 intacte)
-- **Score global :** 37.0/100
-- **Prix cible :** $138.93 (take-profit)
-- **Stop-loss :** $78.03
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
 - **Statut thèse :** modifiée
 - **Horizon :** —
 
@@ -24,12 +24,7 @@
 
 ## 🚨 Alertes actives
 
-- PRICE_GAP (high) : Gap −10.79% overnight (seuil ±5.0%)
-- ATR_SPIKE (medium) : ATR relatif 11.90% (seuil 5.0%)
-- RSI 33.52 : approche survente, dégradation −9.41 pts depuis 42.93
-- Volume 2.3× : distribution massive détectée
-- Cassure MM50 $100.74 : test en cours — si cassure → ÉVITER strict
-- Score Global 37.0/100 : sous seuil SURVEILLER, proche ÉVITER
+- Aucune alerte active.
 
 ---
 
@@ -52,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-15
-- **Type :** full refresh complété + update
+- **Type :** update
 - **Fichier :** `RKLB_2026-06-15_update.md`
-- **Conclusion :** Thèse modifiée — gap baissier −10.79% sans news fait passer le score global de 45.8 à 37.0/100 (SURVEILLER → ÉVITER avec nuance). MM50 $100.74 intacte mais spot à +1.6% seulement. Consensus PT révisé à la hausse $90.83 (+18 analysts). SL $78.03 / TP $138.93.
+- **Conclusion :** > Source : `data/recommandations_latest.json` | `RKLB_2026-06-15_DRAFT_refresh.md` (triggers PRICE_GAP −10.79%, ATR_SPIKE 11.90%) | Pipeline officiel
 
 ---
 

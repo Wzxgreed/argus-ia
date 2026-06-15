@@ -113,4 +113,4 @@ Voir [SUPPLY_CHAIN.md](SUPPLY_CHAIN.md) pour la cartographie fournisseurs/client
 
 ---
 
-*Dernière mise à jour : 2026-06-10 (snapshot 10:00 UTC)*
+*Dernière mise à jour : 2026-06-15 (snapshot 13:00 UTC)*
