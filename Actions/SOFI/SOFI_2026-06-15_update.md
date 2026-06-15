@@ -1,59 +1,57 @@
 # SOFI (SoFi Technologies, Inc.) — Mise à jour quotidienne
 
-**Date :** 2026-06-15 (snapshot 10:00 UTC)
-**Type :** `_update.md` — Données techniques complètes, scores révisés, volume en retrait, anomalie options
+**Date :** 2026-06-15 (snapshot 13:00 UTC)
+**Type :** `_update.md` — Données options partiellement restaurées, stabilité technique globale
 **Analyste :** Desk Argus-IA
 
 ---
 
 ## 1. Résumé des changements depuis l'analyse précédente
 
-| Métrique | `SOFI_2026-06-10_update.md` | **Snapshot 2026-06-15 (10:00 UTC)** | **Δ** |
-|----------|-----------------------------|-------------------------------------|-------|
-| Cours close | $16.50 | **$16.58** | **+0.48%** |
-| RSI 14j | 58.52 | **55.69** | **−2.83 pts** |
-| ATR 14j | null [DONNÉES PARTIELLES] ($1.02 hist.) | **1.08** | **Disponible — +5.9%** |
-| MM 50j | null [DONNÉES PARTIELLES] ($16.78 hist.) | **16.83** | **Disponible — +$0.05** |
-| Écart MM50 | −1.68% (estimé) | **−1.49%** | **Légèrement amélioré** |
-| Volume | 79.33M (1.10×) | **50.31M (0.69×)** | **−37% relatif — retrait significatif** |
+| Métrique | `SOFI_2026-06-15_update.md` (10:00 UTC) | **Snapshot 2026-06-15 (13:00 UTC)** | **Δ** |
+|----------|-----------------------------------------|-------------------------------------|-------|
+| Cours close | $16.58 | **$16.58** | **Inchangé** |
+| RSI 14j | 55.69 | **55.69** | **Inchangé** |
+| ATR 14j | 1.08 | **1.08** | **Inchangé** |
+| MM 50j | 16.83 | **16.83** | **Inchangé** |
+| Écart MM50 | −1.49% | **−1.49%** | **Inchangé** |
+| Volume | 50.31M (0.69×) | **50.31M (0.69×)** | **Inchangé** |
 | Short interest | 14.71% | **14.71%** | **Stable** |
-| Max Pain | $17.00 | **$1.00** | **[ALERTE DATA QUALITY] Anomalie JSON** |
-| Put/Call ratio | 0.48 | **null** | **[ALERTE DATA QUALITY]** |
-| Call OI % | 67.7% | **null** | **[ALERTE DATA QUALITY]** |
-| **Score Opportunité** | **5.2/10** | **6.0/10** | **+0.8 pt** |
-| **Score Catalyseur** | **5.3/10** | **6.8/10** | **+1.5 pt** |
-| **Score Valorisation** | **4.5/10** | **6.0/10** | **+1.5 pt** |
-| **Score Momentum** | **6.0/10** | **5.0/10** | **−1.0 pt** |
-| **Score Global ajusté** | **51.5/100** | **52.3/100** | **+0.8 pt** |
+| Max Pain | $1.00 [ALERTE] | **$1.00** | **[ALERTE PERSISTANTE]** |
+| Put/Call ratio | null [ALERTE] | **0.42** | **Rétabli — vs historique 0.48 (−0.06)** |
+| Call OI % | null [ALERTE] | **70.5%** | **Rétabli — vs historique 67.7% (+2.8 pts)** |
+| **Score Opportunité** | **6.0/10** | **6.0/10** | **Inchangé** |
+| **Score Catalyseur** | **6.8/10** | **6.8/10** | **Inchangé** |
+| **Score Valorisation** | **6.0/10** | **6.0/10** | **Inchangé** |
+| **Score Momentum** | **5.0/10** | **5.0/10** | **Inchangé** |
+| **Score Global ajusté** | **52.3/100** | **52.3/100** | **Inchangé** |
 | **Action** | **ATTENDRE** | **ATTENDRE** | **Inchangée** |
-| Timing | Neutre | **Défavorable** | **Sous MM50 confirmé** |
+| Timing | Défavorable | **Défavorable** | **Inchangé** |
 
-**Verdict :** Le snapshot du **2026-06-15** apporte un **rétablissement des données techniques** (ATR et MM50 désormais disponibles) et une **révision à la hausse des scores Catalyseur (+1.5 pt) et Valorisation (+1.5 pt)** par l'Agent Recommandation. Cependant, le **Score Momentum recule de −1.0 pt** et le **volume chute de −37%** relatif (0.69× vs 1.10×), indiquant un retrait de la conviction institutionnelle. Le cours reste sous la MM50 ($16.83) avec un écart de −1.49%. **Anomalie options** : Max Pain $1.00, Put/Call et Call OI null dans `data/latest.json` — valeurs historiques ($17.00 / 0.48 / 67.7%) conservées avec mention [DONNÉES PARTIELLES]. La thèse **ATTENDRE** est confirmée, le timing repassé en **Défavorable** (cours sous MM50).
+**Verdict :** Le snapshot **13:00 UTC** confirme une **stabilité mécanique totale** du cours ($16.58), des indicateurs techniques (RSI, ATR, MM50) et des scores agents par rapport au snapshot 10:00 UTC. Le seul changement matériel concerne les **données options**, partiellement rétablies dans `data/latest.json` : Put/Call **0.42** et Call OI **70.5%** sont désormais disponibles (vs `null` à 10h). Le Put/Call à **0.42** est légèrement inférieur à l'historique 0.48 (signal haussier marginal). Le Call OI à **70.5%** représente une hausse de **+2.8 pts** vs l'historique 67.7%, indiquant un **repositionnement haussier** sur les options à très court terme (expiration 2026-06-18). Le Max Pain reste aberrant à **$1.00** — [ALERTE DATA QUALITY] persistante. Le **Score Global 52.3/100** et la recommandation **ATTENDRE** sont maintenus.
 
 ---
 
 ## 2. Mise à jour technique
 
-| Indicateur | Valeur snapshot 2026-06-15 | Signal |
+| Indicateur | Valeur snapshot 13:00 UTC | Signal |
 |------------|---------------------------|--------|
-| RSI 14j | 55.69 | 🟡 Zone neutre — légèrement en retrait vs 58.52 |
+| RSI 14j | 55.69 | 🟡 Zone neutre — inchangée |
 | MM 50j | $16.83 | 🔴 Cours $16.58 = −1.49% sous MM50 — résistance proche |
 | MM 200j | null | ⚪ [DONNÉES PARTIELLES] |
-| ATR 14j | $1.08 | 🟢 Disponible — expansion mineure +5.9% vs $1.02 |
+| ATR 14j | $1.08 | 🟢 Stable — expansion mécanique mineure |
 | Support clé | $15.651 (low 09/06) / $16.23 (low 15/06) | 🟢 Support immédiat tenu |
 | Résistance clé | $16.83 (MM50) / $17.00 (Max Pain historique) | 🔴 MM50 = résistance immédiate |
 | Volume relatif | 0.69× | 🔴 Retrait significatif — manque de conviction |
 | Beta | 2.152 | ⚠️ Volatilité extrême amplifiée |
 | Short interest | 14.71% | 🔴 Élevé — squeeze potentiel intact |
 
-**Analyse technique :** Les données techniques sont désormais **complètes** après plusieurs snapshots partiels. Le RSI a reculé de −2.83 pts à **55.69** (zone neutre, légèrement moins favorable que le 58.52 précédent). La MM50 est établie à **$16.83** (vs estimation $16.78), confirmant que le cours est encore **−1.49% sous la moyenne**. L'ATR à **$1.08** représente une expansion mécanique de +5.9% — le trigger `ATR_SPIKE` détecté par le pipeline est un **faux positif** (pas d'événement structurant, seulement une volatilité légèrement plus élevée).
+**Analyse technique :** Aucun changement technique entre les snapshots 10:00 et 13:00 UTC. Le cours est stable à **$16.58** sur un volume en retrait (**0.69×**, −37% relatif). Le RSI **55.69** est en zone neutre. La MM50 à **$16.83** constitue la résistance immédiate. L'ATR **$1.08** est stable.
 
-Le **volume à 0.69×** est le signal technique le plus marquant du jour. Après des volumes soutenus autour de 1.10× sur les sessions précédentes, ce retrait de −37% relatif indique un **assèchement de la participation** — ni achat ni vente agressifs. C'est cohérent avec la stabilité du cours (+0.48%) et le retrait du RSI.
-
-**Options :** [ALERTE DATA QUALITY] Les données options dans `data/latest.json` sont à nouveau corrompues :
-- Max Pain : **$1.00** (aberrant — historique $17.00 conservé)
-- Put/Call : **null** (historique 0.48 conservé)
-- Call OI : **null** (historique 67.7% conservé)
+**Options (rétablissement partiel) :**
+- Max Pain : **$1.00** — [ALERTE DATA QUALITY] persistante (historique $17.00 conservé)
+- Put/Call : **0.42** — rétabli (vs `null` à 10h) ; légèrement inférieur à l'historique 0.48 = **sentiment légèrement plus haussier**
+- Call OI : **70.5%** — rétabli (vs `null` à 10h) ; **+2.8 pts** vs historique 67.7% = **repositionnement haussier**
 - Expiration prochaine : **2026-06-18** (3 jours ouvrés restants)
 
 **Niveaux (ATR = $1.08) :**
@@ -64,7 +62,7 @@ Le **volume à 0.69×** est le signal technique le plus marquant du jour. Après
 - Résistance intermédiaire : **$17.00** (Max Pain historique)
 - Résistance majeure : **$17.10** (high du 09/06)
 
-**Verdict timing :** Défavorable — cours sous MM50 confirmé ($16.58 vs $16.83), volume en retrait. Reclaim de la MM50 en close avec volume >1.0× nécessaire pour revenir Neutre/Favorable.
+**Verdict timing :** Défavorable — inchangé. Cours sous MM50 confirmé, volume faible.
 
 ---
 
@@ -96,18 +94,18 @@ Le **volume à 0.69×** est le signal technique le plus marquant du jour. Après
 | Métrique | Valeur | Signal |
 |----------|--------|--------|
 | Consensus PT (FMP) | $25.41 (27 analystes) | 🟢 Upside consensus +53.3% vs cours $16.58 |
-| Analystes actifs (1M) | 0 | 🟡 Aucune couverture récente (vs 1 précédemment) |
+| Analystes actifs (1M) | 0 | 🟡 Aucune couverture récente |
 | Analystes actifs (1T) | 10 | 🟡 Couverture stable |
 | **Short interest** | **14.71%** | 🔴 Élevé — squeeze potentiel renforcé |
-| **Max Pain** | **$1.00** [ALERTE] | 🟡 Données aberrantes — historique $17.00 conservé |
-| **Put/Call ratio** | **null** [ALERTE] | 🟡 Données manquantes — historique 0.48 conservé |
-| **Call OI %** | **null** [ALERTE] | 🟡 Données manquantes — historique 67.7% conservé |
+| **Max Pain** | **$1.00** [ALERTE] | 🔴 Données aberrantes — historique $17.00 conservé |
+| **Put/Call ratio** | **0.42** | 🟢 Rétabli — légèrement haussier vs historique 0.48 |
+| **Call OI %** | **70.5%** | 🟢 Rétabli — repositionnement haussier (+2.8 pts) |
 | Social sentiment | 0.0 / No data | ⚪ Pas de données Reddit |
 | Pump detected | false | 🟢 Aucun signal pump |
 
 **Short interest :** Stable à **14.71%**. Le setup asymétrique squeeze/pression vendeuse est inchangé.
 
-**Options :** [ALERTE DATA QUALITY] Les données options sont corrompues dans le snapshot 2026-06-15. Les valeurs historiques du 10/06 sont conservées : Max Pain **$17.00**, Put/Call **0.48**, Call OI **67.7%**.
+**Options :** [RÉSOLU PARTIELLEMENT] Les données options sont partiellement rétablies dans le snapshot 13:00 UTC. Put/Call **0.42** et Call OI **70.5%** sont désormais disponibles (vs `null` à 10h). Le repositionnement est **marginalement haussier** : Put/Call en baisse (−0.06 vs 0.48) et Call OI en hausse (+2.8 pts vs 67.7%). Le Max Pain à **$1.00** reste aberrant — valeur historique **$17.00** conservée avec mention [ALERTE].
 
 **News** — Aucune news structurante détectée via les flux automatiques.
 
@@ -115,20 +113,20 @@ Le **volume à 0.69×** est le signal technique le plus marquant du jour. Après
 
 ## 5. Scoring global révisé
 
-| Score | Snapshot 2026-06-10 (ATTENDRE) | **Snapshot 2026-06-15 (ATTENDRE)** | **Δ** |
-|-------|--------------------------------|-----------------------------------|-------|
-| Score Opportunité | 5.2/10 | **6.0/10** | **+0.8 pt** |
-| Score Catalyseur | 5.3/10 | **6.8/10** | **+1.5 pt** |
-| Score Valorisation | 4.5/10 | **6.0/10** | **+1.5 pt** |
-| Score Momentum | 6.0/10 | **5.0/10** | **−1.0 pt** |
-| Score Global Composite | 51.5/100 | **52.3/100** | **+0.8 pt** |
-| Score Global ajusté | 51.5/100 | **52.3/100** | **+0.8 pt** |
+| Score | Snapshot 10:00 UTC (ATTENDRE) | **Snapshot 13:00 UTC (ATTENDRE)** | **Δ** |
+|-------|-------------------------------|-----------------------------------|-------|
+| Score Opportunité | 6.0/10 | **6.0/10** | **Inchangé** |
+| Score Catalyseur | 6.8/10 | **6.8/10** | **Inchangé** |
+| Score Valorisation | 6.0/10 | **6.0/10** | **Inchangé** |
+| Score Momentum | 5.0/10 | **5.0/10** | **Inchangé** |
+| Score Global Composite | 60.3/100 | **60.3/100** | **Inchangé** |
+| Score Global ajusté | 52.3/100 | **52.3/100** | **Inchangé** |
 | Action | ATTENDRE | **ATTENDRE** | **Inchangée** |
-| Timing | Neutre | **Défavorable** | **Sous MM50** |
+| Timing | Défavorable | **Défavorable** | **Inchangé** |
 | Sizing | — | **—** | **—** |
 | Horizon | — | **—** | **—** |
 
-**Pondération régime :** Catalyseur 35% / Valorisation 40% / Momentum 25% (régime inconnu — pondération par défaut).
+**Pondération régime :** Catalyseur 35% / Valorisation 40% / Momentum 25% (régime Unknown — pondération par défaut).
 
 **Malus / Bonus appliqués (Score Global ajusté) :**
 - Malus accounting : 0 (fichier absent)
@@ -140,7 +138,7 @@ Le **volume à 0.69×** est le signal technique le plus marquant du jour. Après
 - Timing technique : **−5.0** (cours sous MM50)
 - Sector rotation : XLF #2 (momentum 6.73) — léger vent de poupe sectoriel
 
-**Analyse du scoring :** Le **Score Global ajusté 52.3/100** progresse de **+0.8 pt** vs le 2026-06-10. SOFI reste en zone **ATTENDRE** (50–59), désormais à **2.3 pt du seuil SURVEILLER** (<50) — légèrement plus de marge qu'auparavant (1.5 pt). La hausse des scores Catalyseur (+1.5) et Valorisation (+1.5) compense le recul du Momentum (−1.0). Le Score Valorisation à **6.0/10** sort de la zone de vigilance (était à 4.5/10), ce qui est positif. Cependant, le Score Momentum **5.0/10** est désormais exactement au seuil de neutralité — ni haussier ni baissier.
+**Analyse du scoring :** Le **Score Global ajusté 52.3/100** est strictement inchangé vs le snapshot 10:00 UTC. SOFI reste en zone **ATTENDRE** (50–59), à **2.3 pt du seuil SURVEILLER** (<50). Les scores individuels n'ont pas évolué car les données de prix et de fondamentaux sont identiques.
 
 **Règle de disqualification :** Aucun score individuel ≤ 2/10 — SOFI n'est pas exclu.
 
@@ -148,15 +146,15 @@ Le **volume à 0.69×** est le signal technique le plus marquant du jour. Après
 
 ## 6. Niveaux révisés
 
-| Niveau | Snapshot 2026-06-10 | Snapshot 2026-06-15 | Calcul |
-|--------|---------------------|---------------------|--------|
+| Niveau | Snapshot 10:00 UTC | Snapshot 13:00 UTC | Calcul |
+|--------|--------------------|--------------------|--------|
 | Prix d'entrée suggéré | — | **—** | Aucune entrée recommandée en ATTENDRE |
-| Stop-loss | $14.46 | **$14.42** | $16.58 − 2×ATR ($1.08) = $14.42 |
-| Take-profit | $19.56 | **$19.82** | $16.58 + 3×ATR ($1.08) = $19.82 |
-| Upside / Downside | +18.5% / −12.4% | **+19.5% / −12.4%** | — |
+| Stop-loss | $14.42 | **$14.42** | $16.58 − 2×ATR ($1.08) = $14.42 |
+| Take-profit | $19.82 | **$19.82** | $16.58 + 3×ATR ($1.08) = $19.82 |
+| Upside / Downside | +19.5% / −12.4% | **+19.5% / −12.4%** | — |
 | Ratio R/R | 1.50 | **1.50** | Stable (~1.5×) |
 
-**Note sur les niveaux :** L'ATR est désormais disponible à **$1.08** (vs historique $1.02). Les niveaux sont recalculés avec cette valeur actualisée. Le ratio R/R reste stable à **1.5×**. En zone ATTENDRE, **aucune entrée n'est recommandée**.
+**Note sur les niveaux :** Inchangés. En zone ATTENDRE, **aucune entrée n'est recommandée**.
 
 **Scénarios pour repasser en ACHETER :**
 1. **Reclaim MM50** — Cours au-dessus de $16.83 en close avec volume >1.0× → réactivation technique
@@ -174,32 +172,32 @@ Le **volume à 0.69×** est le signal technique le plus marquant du jour. Après
 
 ## 7. Conclusion — Thèse confirmée, modifiée ou invalidée ?
 
-**🟢 THÈSE CONFIRMÉE — Données techniques complètes, scores révisés à la hausse, volume en retrait, timing repassé Défavorable. SOFI à 2.3 pt du seuil SURVEILLER.**
+**🟢 THÈSE CONFIRMÉE — Stabilité mécanique totale, données options partiellement restaurées, repositionnement haussier marginal sur options. SOFI à 2.3 pt du seuil SURVEILLER.**
 
-Le snapshot du **2026-06-15** confirme une **stabilité mécanique** du cours à **$16.58** (vs $16.50) avec un **volume en retrait significatif** (0.69×). Les données techniques sont désormais **complètes** : ATR **$1.08**, MM50 **$16.83**. Le RSI a légèrement reculé à **55.69** (zone neutre). Le scoring de l'Agent Recommandation a été **révisé à la hausse** : Catalyseur **6.8/10** (+1.5), Valorisation **6.0/10** (+1.5), mais Momentum **5.0/10** (−1.0). Le Score Global ajusté progresse à **52.3/100** (+0.8 pt), toujours en zone **ATTENDRE**.
+Le snapshot du **2026-06-15 à 13:00 UTC** confirme l'**absence de changement** sur les données de cours, de technique et de fondamentaux par rapport au snapshot 10:00 UTC. Le cours reste à **$16.58**, le RSI à **55.69**, l'ATR à **$1.08** et la MM50 à **$16.83**. Le volume à **0.69×** demeure en retrait significatif.
 
 **Ce qui a changé :**
-- **[NOUVEAU] Données techniques complètes** — ATR $1.08 et MM50 $16.83 désormais disponibles (vs null précédemment)
-- **[RÉVISÉ] Scores agents** — Catalyseur 6.8 (+1.5), Valorisation 6.0 (+1.5), Momentum 5.0 (−1.0)
-- **[ALERTE] Données options** — Max Pain $1.00 aberrant (historique $17.00 conservé), Put/Call et Call OI null
-- **[SIGNAL] Volume en retrait** — 0.69× vs 1.10× (−37% relatif) = manque de conviction
+- **[RÉSOLU PARTIELLEMENT] Données options** — Put/Call **0.42** et Call OI **70.5%** désormais disponibles (vs `null` à 10h). Repositionnement **marginalement haussier** : Put/Call −0.06 vs historique, Call OI +2.8 pts vs historique.
+- **[ALERTE PERSISTANTE] Max Pain $1.00** — Valeur aberrante inchangée dans `data/latest.json`. Historique **$17.00** conservé.
 
 **Ce qui est inchangé :**
-- Cours stable autour de **$16.50–$16.58**
+- Cours stable à **$16.58**
+- Données techniques complètes (RSI, ATR, MM50)
 - Short interest **14.71%** (setup squeeze intact)
 - Forward P/E **21.25** attractif
 - Consensus PT **$25.41** (+53.3% upside)
 - Filtre Qualité **4/6** (Quality Partielle)
 - Aucune news structurante, aucun événement corporate
 - Earnings Q2 dans **43j** (28 juillet, EPS $0.10–$0.11, Rev $1.1B)
-- XLF (Financials) #2 sector rotation (momentum 6.73) — vent de poupe sectoriel
+- Score Global **52.3/100** (ATTENDRE), timing Défavorable
+- XLF (Financials) #2 sector rotation (momentum 6.73)
 
 **Ce qui maintient ATTENDRE :**
 - Score Global **52.3** — à **2.3 pt du seuil SURVEILLER** (<50)
 - Cours sous MM50 **$16.83** = timing Défavorable
 - Volume **0.69×** — retrait de participation, pas de conviction haussière
-- Score Momentum **5.0/10** — exactement au seuil de neutralité
-- [ALERTE DATA QUALITY] Données options corrompues — impossible d'évaluer le sentiment options en temps réel
+- Score Momentum **5.0/10** — seuil de neutralité
+- [ALERTE DATA QUALITY] Max Pain corrompu — impossible d'évaluer le pinning exact
 
 **Ce qui pourrait rebasculer vers ACHETER :**
 - Reclaim complet de la MM50 ($16.83) avec volume >1.0×
@@ -213,10 +211,10 @@ Le snapshot du **2026-06-15** confirme une **stabilité mécanique** du cours à
 - **Volume faible** — 0.69× = manque de conviction, risque de faux mouvements
 - **Filtre Qualité 4/6** — Quality Partielle, FCF négatif, ROE faible
 - **Beta 2.152** — exposition accrue aux mouvements macro
-- **Anomalie options JSON** — Max Pain $1.00 aberrant, données Put/Call et Call OI manquantes
+- **Anomalie Max Pain JSON** — persistante, valeur historique $17.00 conservée
 
-**Action : ATTENDRE — Aucune entrée recommandée — Surveiller de près la proximité avec le seuil SURVEILLER (<50). Attendre reclaim MM50 $16.83 en close avec volume >1.0× ou breakout $17.00 pour réactiver la thèse haussière. Surveiller le support $16.23 (low du jour). Si cassé, risque de retour à $15.651. Attention au short interest 14.71% qui crée un setup asymétrique squeeze/pression. [ALERTE DATA QUALITY] Données options corrompues dans latest.json — historiques conservés.**
+**Action : ATTENDRE — Aucune entrée recommandée — Surveiller de près la proximité avec le seuil SURVEILLER (<50). Attendre reclaim MM50 $16.83 en close avec volume >1.0× ou breakout $17.00 pour réactiver la thèse haussière. Surveiller le support $16.23 (low du jour). Si cassé, risque de retour à $15.651. Attention au short interest 14.71% qui crée un setup asymétrique squeeze/pression. [ALERTE DATA QUALITY] Max Pain $1.00 aberrant persistant — historique $17.00 conservé.**
 
 ---
 
-*Données sourcées : data/latest.json (2026-06-15T10:00:08+00:00), data/recommandations_latest.json, data/sector_rotation_latest.json, data/social_sentiment_latest.json, data/geo_risk_latest.json, data/upcoming_events_latest.json, data/events_latest.json, data/fx_exposure_latest.json.*
+*Données sourcées : data/latest.json (2026-06-15T13:00:08+00:00), data/recommandations_latest.json, data/sector_rotation_latest.json, data/social_sentiment_latest.json, data/geo_risk_latest.json, data/upcoming_events_latest.json, data/events_latest.json, data/fx_exposure_latest.json, data/validation_report.txt.*
