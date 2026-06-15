@@ -1,5 +1,15 @@
 # RKLB — Historique des Full Refreshes
 
+## 2026-06-15 — Full Refresh Complété
+
+**Triggers :**
+- price_gap (high) : Gap −10.79% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 11.90% (seuil 5.0%)
+
+**Conclusion :** THÈSE MODIFIÉE — gap baissier −10.79% sur volume 2.3× sans catalyseur identifié. Score Global 45.8 → 37.0/100 (SURVEILLER → ÉVITER avec nuance). Cours $102.39, RSI 33.52, ATR $12.18, MM50 $100.74 (spot +1.6% — tendance haussière intacte mais très fragilisée). Consensus PT révisé à la hausse $90.83 (+18 analysts, +$3.64). Filtre Qualité 3/6 inchangé. Pas de news fondamentale. SL $78.03 / TP $138.93. Fichiers générés : `RKLB_2026-06-15_update.md`. INDEX.md, CONTEXT.md mis à jour. DRAFT_refresh archivé (`_RKLB_2026-06-15_DRAFT_refresh.md`).
+
+---
+
 ## 2026-06-09 — DRAFT_refresh Archivé (Faux Positif)
 
 **Triggers :**
