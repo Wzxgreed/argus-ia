@@ -1,3 +1,15 @@
+## 2026-06-15 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +5.04% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 7.50% (seuil 5.0%)
+
+**Conclusion :** CONFIRMÉ — Faux positit technique
+
+Snapshot 2026-06-15 10:00 UTC. Cours $14.80 (+5.04% vs previous close $14.09). RSI 46.61, ATR $1.11 (7.50%), MM50 $12.77. Volume 117.7M (0.95× moyenne 20j). **Données techniques restaurées** (ATR et MM50 manquants depuis le 10/06). **Données options corrompues** (max pain $1.00 aberrant, put/call et call OI null). Aucun événement corporate (`events_2026-06-15.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `PRICE_GAP` reflète un rebond technique overnight sans catalyseur sur liquidité réduite. Le trigger `ATR_SPIKE` est un faux positit : la volatilité relative (7.50%) résulte du range intraday consolidé ($14.24–$15.07) suite à la restauration des données de session, pas d'un changement de régime. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +37.0%. Score Opportunité 4.7/10. Score Global ajusté **51.8/100** — **ATTENDRE** confirmée. DRAFT_refresh archivé. Thèse inchangée.
+
+---
+
 # NOK — Historique des Full Refreshes
 
 ## 2026-05-17 — Full Refresh Triggered
