@@ -1,5 +1,15 @@
 # FUBO — Historique des Full Refreshes
 
+## 2026-06-15 — Full Refresh Résolu (Snapshot 10:00 UTC)
+
+**Triggers :**
+- price_gap (medium) : Gap −6.11% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 8.65% (seuil 5.0%)
+
+**Conclusion :** Thèse MODIFIÉE (SURVEILLER). Snapshot 10:00 UTC du 2026-06-15 enregistre un gap down −6.11% à $9.83 (previous close $10.47) sur volume de liquidation 1.36× (1 745 900 vs moy. 20j 1 284 230). ATR spike à $0.85 (+16.4%), RSI retraité à 50.56 (−3.56 pts vs 09/06), spot sous MM50 ($11.03) à −10.9%. Données options JSON anomalie persistante (max pain $3.00 / call OI 0% aberrants) — valeurs opérationnelles conservées : max pain $13.00, put/call 0.23, call OI 81.0%, échéance repoussée J+3 (2026-06-18). Short interest 24.32% (−0.71 pp). Anomalie earnings Q1 persistante (~30 sessions `days_until: 0` sans résultats visibles). Score Qualité 1/6 confirmé (patrimoine net négatif −$398.9M, current ratio 0.84, debt/equity 2.43). Divergence Yahoo/FMP persistante ($289.4M vs ~$3.27B — ×11.3). Score Global ajusté analyste ~42.5/100 (SURVEILLER) : Catalyseur 3.5/10, Valorisation 5.0/10 (plafonné), Momentum 3.5/10. Pas de position longue recommandée. DRAFT_refresh.md archivé (`FUBO_2026-06-15_DRAFT_refresh.md` → `FUBO_2026-06-15_DRAFT_refresh_ARCHIVED.md`). Analyse update rédigée sous `FUBO_2026-06-15_update.md`. INDEX.md et CONTEXT.md mis à jour.
+
+---
+
 ## 2026-05-27 — Full Refresh Résolu (Snapshot 13:00 UTC)
 
 **Triggers :**

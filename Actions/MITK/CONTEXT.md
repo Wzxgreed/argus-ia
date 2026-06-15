@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
+- **Recommandation :** ACHETER (Sizing Réduit)
+- **Score global :** 64.0/100
+- **Prix cible :** $19.24
+- **Stop-loss :** $14.59
 - **Statut thèse :** validée
-- **Horizon :** —
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -24,13 +24,16 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🟡 **ANOMALIE OPTIONS JSON PERSISTANTE** — Max pain $2.50, put/call null, call OI null — 5 snapshots consécutifs sans correction
+- 🟡 **VOLUME EFFONDRE** — 605,000 = 0.54× moyenne 20j — rally peu crédible
+- 🟡 **CONSENSUS PT SOUS LE SPOT** — $16.00 < $16.45 — objectif moyen dépassé
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q3 FY2026** — 2026-08-06 (52 jours)
+- **Expiration options** — 2026-06-18 (3 jours)
 
 ---
 
@@ -47,15 +50,15 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-15
-- **Type :** full refresh
-- **Fichier :** `MITK_2026-06-15_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-15
+- **Type :** update
+- **Fichier :** `MITK_2026-06-15_update.md`
+- **Conclusion :** Thèse MODIFIÉE — ACHETER (Sizing Réduit) sur récupération technique (ATR $0.93, MM50 $15.04) et remontée du momentum (7.0/10). Cours $16.45 (+6.82% vs 10/06), RSI 52.97. Volume effondré (0.54×) et anomalie options persistante justifient le sizing Réduit. SL $14.59, TP $19.24, R/R 1.5.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 5.65% (seuil 5.0%)
+- Aucun trigger actif.
 
 ---
 

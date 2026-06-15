@@ -1,11 +1,12 @@
 # MITK
 
 ## Thèse courante
-**ATTENDRE** — Small-cap logiciel (Software-Application, $699.5M) avec Forward P/E attractif (12.76x) mais données techniques partielles et dégradation mécanique du momentum. Snapshot 10h UTC **$15.40** (previous_close, close NaN) sur volume stable (1.24× moyenne 20j, 1,481,772 vs moy. 1,191,173). RSI 57.9 (**zone neutre favorable**). **ATR, MM50 et MM200 null dans `latest.json`** — impossibilité de valider les niveaux de support/résistance et de recalculer les SL/TP. Score Global Ajusté **56.5/100** (catégorie ATTENDRE, fourchette 50–59). Composition du score : Catalyseur 5.0/10, Valorisation 6.0/10, Momentum 6.0/10 (−1.0 pt vs 21h 09/06). **Anomalie options JSON récurrente** : Max Pain $2.50 (aberrant), Put/Call null, Call OI null — régression vs correction du 9 juin. Consensus PT $16.00 **au-dessus du spot** — upside théorique de +3.9%. Short interest 8.56% (+0.25 pt). Signal macro **NEUTRAL**. Aucune entrée recommandée. SL maintenu $13.53 (dernier valide), TP $18.34 (base ATR $0.98), R/R 1.5. **Snapshot 10:00 UTC 10/06 : thèse MODIFIÉE — ATTENDRE sur données partielles et dégradation mécanique du momentum.**
+**ACHETER (Sizing Réduit)** — Small-cap logiciel (Software-Application, $742.9M) avec Forward P/E attractif (13.55x) et données techniques récupérées (ATR $0.93, MM50 $15.04). Snapshot 10h UTC **$16.45** sur volume effondré (0.54× moyenne 20j, 605,000 vs moy. 1,111,035). RSI 52.97 (**zone neutre favorable**). Cours **+9.4% au-dessus de la MM50** ($15.04) — tendance haussière de MT validée. Score Global Ajusté **64.0/100** (catégorie ACHETER Réduit, fourchette 60–74). Composition du score : Catalyseur 5.0/10, Valorisation 6.0/10, Momentum 7.0/10 (+1.0 pt vs 10/06). **Anomalie options JSON persistante** : Max Pain $2.50 (aberrant), Put/Call null, Call OI null — 5 snapshots consécutifs sans correction. Consensus PT $16.00 **sous le spot** — dépassé de +2.8%. Short interest 8.56% (stable). Signal macro **NEUTRAL**, sector rotation **XLK top rank** (momentum 10.0) — favorable. SL $14.59 (base ATR $0.93), TP $19.24, R/R 1.5. **Snapshot 10:00 UTC 15/06 : thèse MODIFIÉE — ACHETER (Sizing Réduit) sur récupération technique et remontée du momentum, avec prudence sur le volume faible.**
 
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
+| 2026-06-15 | [MITK_2026-06-15_update.md](MITK_2026-06-15_update.md) | **Snapshot 10:00 UTC — thèse MODIFIÉE : ACHETER (Sizing Réduit)**. Données techniques récupérées (ATR $0.93, MM50 $15.04), anomalie options JSON persistante (max pain $2.50, null put/call). Cours $16.45 (+6.82% vs 10/06), RSI 52.97, volume 0.54× (effondré). Score Global Ajusté **64.0/100** (+7.5 pts), Score Momentum **7.0/10** (+1.0 pt). Short interest 8.56% (stable). SL $14.59, TP $19.24 (base ATR $0.93), R/R 1.5. Action **ACHETER (Sizing Réduit)**, timing **Favorable** — réactivation haussière avec prudence sur volume |
 | 2026-06-10 | [MITK_2026-06-10_update.md](MITK_2026-06-10_update.md) | **Snapshot 10:00 UTC — thèse MODIFIÉE : ATTENDRE**. Données techniques partielles (ATR, MM50, MM200 null), anomalie options JSON récurrente (max pain $2.50, null put/call). Cours $15.40 (−0.58%), RSI 57.9, volume 1.24× inchangé. Score Global Ajusté **56.5/100** (−7.5 pts vs 21h 09/06), Score Momentum **6.0/10** (−1.0 pt). Short interest 8.56% (+0.25 pt). SL maintenu $13.53 (dernier valide), TP $18.34 (base ATR $0.98). Action **ATTENDRE** — aucune entrée recommandée en période de données partielles |
 | 2026-06-09 | [MITK_2026-06-09_update_21h.md](MITK_2026-06-09_update_21h.md) | **Snapshot 21:00 UTC — thèse CONFIRMÉE avec vigilance : ACHETER (Sizing Réduit)**. Session US réelle avec volume 1.24× moyenne, range intraday élevé $14.50–$15.96 (10.1%). Cours $15.49 (+0.58%), RSI 58.37, ATR $0.98 (+7.7%), MM50 $14.87 (+4.2%). Score Global Ajusté **64.0/100** (−1.2 pt vs 13h), Score Momentum **7.0/10** (−0.5 pt). Rejet du high $15.96 (test consensus PT $16.00). SL $13.53, TP $18.43, R/R 1.5. DRAFT_refresh faux positif archivé |
 | 2026-06-09 | [MITK_2026-06-09_update.md](MITK_2026-06-09_update.md) | **Snapshot 13:00 UTC — thèse CONFIRMÉE : ACHETER (Sizing Réduit)**. **Stabilité totale vs snapshot 10h UTC** — aucune mutation des données (cours $15.40, RSI 58.01, ATR $0.91, MM50 $14.82, volume 0.82× inchangés). **DRAFT_refresh faux positif archivé** (ATR_SPIKE 5.91% sans mutation réelle). **Anomalie options JSON RÉSOLUE** (max pain $20.00, put/call 0.22, call OI 81.7% — valeurs JSON validées pour la première fois depuis le 3 juin). Score Global Ajusté **65.2/100** inchangé. SL $13.58, TP $18.13, R/R 1.5. Action **ACHETER (Sizing Réduit)**, timing **Favorable** |
@@ -43,14 +44,13 @@
 - Expiration options : **2026-06-18** (15j)
 
 ## Alertes actives
-- 🟡 **[ANOMALIE OPTIONS JSON RÉCURRENTE]** Max pain $2.50, put/call null, call OI null — régression vs correction du 9 juin — données dérivées non fiables — 2026-06-10
-- 🟡 **[DONNÉES TECHNIQUES PARTIELLES]** ATR, MM50, MM200 null dans `latest.json` — impossibilité de valider les niveaux techniques et de recalculer SL/TP — 2026-06-10
-- 🟡 **[SCORE MOMENTUM DÉGRADÉ]** 6.0/10 vs 7.0/10 précédemment — principal driver du passage ATTENDRE — 2026-06-10
-- 🟡 **[SHORT INTEREST EN LÉGÈRE HAUSSE]** 8.56% (+0.25 pt) — monitorer — 2026-06-10
-- 🟢 **[VOLUME STABLE]** 1,481,772 = 1.24× moyenne 20j — liquidité crédible maintenue — 2026-06-10
-- 🟢 **[RSI NEUTRE FAVORABLE]** 57.9 — zone neutre, pas de surachat — 2026-06-10
-- 🟢 **[CONSENSUS PT SOUS LE SPOT]** $16.00 > $15.40 — upside théorique de +3.9% — 2026-06-10
+- 🟡 **[ANOMALIE OPTIONS JSON PERSISTANTE]** Max pain $2.50, put/call null, call OI null — 5 snapshots consécutifs sans correction — données dérivées non fiables — 2026-06-15
+- 🟡 **[VOLUME EFFONDRE]** 605,000 = 0.54× moyenne 20j — liquidité réduite de moitié, rally peu crédible — 2026-06-15
+- 🟡 **[CONSENSUS PT SOUS LE SPOT]** $16.00 < $16.45 — objectif moyen dépassé, absence de catalyseur analyste — 2026-06-15
 - 🟡 **[ROIC FAIBLE]** 3.16% — monitorer l'efficacité du capital dans les prochains filings — 2026-05-18
-- 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($699.5M Yahoo vs $446.6M FMP), P/E, EV multiples — utiliser Yahoo comme primaire — persistant
+- 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($742.9M Yahoo vs $446.6M FMP), P/E, EV multiples — utiliser Yahoo comme primaire — persistant
 - 🟡 **[BETA LÉGÈREMENT SUPÉRIEUR AU MARCHÉ]** 1.007 — sensibilité marché accrue — 2026-06-08
+- 🟢 **[DONNÉES TECHNIQUES RÉCUPÉRÉES]** ATR $0.93, MM50 $15.04 — validation des niveaux de support et recalcul SL/TP — 2026-06-15
+- 🟢 **[RSI NEUTRE FAVORABLE]** 52.97 — zone neutre, pas de surachat — 2026-06-15
+- 🟢 **[COURS AU-DESSUS DE MM50]** $16.45 vs $15.04 (+9.4%) — tendance haussière de MT validée — 2026-06-15
 - 🔴 **[PULLBACK −15.3% SANS CATALYSEUR IDENTIFIABLE]** Risque de continuation baissière si support MM50 cède — 2026-06-08
