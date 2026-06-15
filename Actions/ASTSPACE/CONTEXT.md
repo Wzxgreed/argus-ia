@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** validée
+- **Recommandation :** SURVEILLER (proxy ASTS)
+- **Score global :** 39,2/100
+- **Prix cible :** $94,54 (consensus 12 analysts)
+- **Stop-loss :** $61,97 (proxy ASTS, ATR-based)
+- **Statut thèse :** invalidée (ASTSPACE) / surveiller (ASTS proxy)
 - **Horizon :** —
 
 ---
@@ -36,11 +36,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** —
-- **MM 50j :** —
+- **RSI 14j :** 36,00 (proxy ASTS, survente stabilisée)
+- **MM 50j :** $89,13 (proxy ASTS, non conquise −1,75%)
 - **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** —
+- **ATR 14j :** $12,80 (proxy ASTS)
+- **Volume moy. 20j :** 27,56M (proxy ASTS, volume du jour 23,57M = 0,855×)
 
 ---
 
@@ -48,8 +48,8 @@
 
 - **Date :** 2026-06-15
 - **Type :** update
-- **Fichier :** `ASTSPACE_2026-06-15_update.md`
-- **Conclusion :** > **Proxy ASTS** : snapshot 10h UTC — gap down **−15,53%** à $82,41 sur volume liquidation **2,0×**, RSI retour survente **40,50** (−11,28 pts), cassure confirmée du MM50 **$89,23**, données technique
+- **Fichier :** `ASTSPACE_2026-06-15_21-00_update.md`
+- **Conclusion :** > **Proxy ASTS** : snapshot 21h UTC — rebond consolidé et légitimé **+6,26%** à $87,57 sur volume recovery **0,855×** (+61% vs 17h), RSI stabilisé **36,00** (−0,10 pt), gap vs MM50 **−1,75%** ($89,13), structure options haussière confirmée (max pain $100, call OI 69,7%). Score agent **39,2/100 (SURVEILLER)** inchangé, nuance technique améliorée. ASTSPACE officiel reste sans données (51+ snapshots).
 
 ---
 
