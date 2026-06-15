@@ -7,10 +7,10 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
+- **Recommandation :** SURVEILLER
+- **Score global :** 47.0/100
+- **Prix cible :** $144.46
+- **Stop-loss :** $84.26
 - **Statut thèse :** modifiée
 - **Horizon :** —
 
@@ -30,33 +30,33 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings Q2 2026 : 2026-08-06 (52 jours restants)
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 32.5
+- **RSI 14j :** 32.53
 - **MM 50j :** 101.55
 - **MM 200j :** —
-- **ATR 14j :** 12.03
-- **Volume moy. 20j :** 27354521
+- **ATR 14j :** 12.04
+- **Volume moy. 20j :** 27589750
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-15
-- **Type :** update
-- **Fichier :** `RKLB_2026-06-15_update.md`
-- **Conclusion :** > Source : `data/recommandations_latest.json` | `RKLB_2026-06-15_DRAFT_refresh.md` (triggers PRICE_GAP −10.79%, ATR_SPIKE 11.90%) | Pipeline officiel
+- **Type :** update_17h
+- **Fichier :** `RKLB_2026-06-15_update_17h.md`
+- **Conclusion :** > Snapshot 17h UTC — rebond +5.81% à $108.34 sur volume normalisé 0.72× partiellement comblant le gap baissier du matin. Score global remonte 37.0→47.0/100 (SURVEILLER). MM50 réaffirmée à +6.7% ($101.55). Options rétablies (Max Pain $120.00, Put/Call 0.74, Call OI 57.6%). Thèse modifiée de ÉVITER (matin) à SURVEILLER. Aucun catalyseur fondamental. Valorisation extrême inchangée (FQ 3/6).
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +5.81% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 11.11% (seuil 5.0%)
+- **PRICE_GAP** (medium) — Gap +5.81% intraday (seuil ±5.0%) — partiellement comblé depuis le gap baissier matinal
+- **ATR_SPIKE** (medium) — Volatilité intraday élevée persistante
 
 ---
 
