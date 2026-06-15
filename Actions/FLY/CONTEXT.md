@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
+- **Recommandation :** SURVEILLER
+- **Score global :** 45.0/100
+- **Prix cible :** $43.77 (consensus)
+- **Stop-loss :** $19.69
+- **Statut thèse :** confirmée avec intensité négative renforcée
 - **Horizon :** —
 
 ---
@@ -36,20 +36,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 32.85
-- **MM 50j :** 39.47
+- **RSI 14j :** 32.85 (survente)
+- **MM 50j :** 39.47 (cours -19.3% sous MM50)
 - **MM 200j :** —
 - **ATR 14j :** 6.09
-- **Volume moy. 20j :** 9603470
+- **Volume moy. 20j :** 9,603,470
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-15
-- **Type :** full refresh
-- **Fichier :** `FLY_2026-06-15_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-15
+- **Type :** update
+- **Fichier :** `FLY_2026-06-15_update.md`
+- **Conclusion :** Gap baissier -19.05% sans catalyst, RSI 32.85 survente, données MT restaurées (ATR 6.09, MM50 39.47), volume explosion 14.54M (1.51x). Thèse SURVEILLER (45.0) confirmée avec intensité négative renforcée, timing Défavorable.
 
 ---
 

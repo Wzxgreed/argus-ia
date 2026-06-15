@@ -2194,7 +2194,7 @@
 - price_gap (high) : Gap -19.05% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 19.11% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Modifiée en intensité négative renforcée — gap baissier -19.05% sans catalyst, RSI 32.85 survente, données MT restaurées (ATR 6.09, MM50 39.47), volume explosion 14.54M (1.51x). Agent SURVEILLER (45.0), timing Défavorable. Consensus révisé à la hausse $43.77 (13 analysts). Filtre Qualité 2/6 inchangé. DRAFT_refresh traité et archivé. Fichier : `FLY_2026-06-15_update.md`.
 
 ---
 
@@ -2204,6 +2204,6 @@
 - price_gap (high) : Gap -19.05% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 19.11% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Traitée dans l'entrée précédente. Données identiques. DRAFT_refresh archivé.
 
 ---

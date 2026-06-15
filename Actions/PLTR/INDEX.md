@@ -1,11 +1,12 @@
 # PLTR
 
 ## These courante
-| 2026-06-10 | [PLTR_2026-06-10_update.md](PLTR_2026-06-10_update.md) | Snapshot 10h UTC — **realignement mecanique** cours $136.47 (+3.33% vs close 21h $132.07), RSI 50.99 (+3.42 pts, retour zone neutre mediane), volume stable 38.48M (0.96x), short interest 3.23% (-0.08 pt), MM50/ATR indisponibles [DONNEES PARTIELLES], options anomalie JSON recurrente, Score Opportunite 4.6/10 (-0.7), Score Global ajuste 45.5/100 (+0.5 pt), these SURVEILLER **confirmee avec nuance neutre** | SURVEILLER — Score Opp. 4.6/10, cours $136.47, RSI 50.99, volume 38.48M (0.96x), realignement mecanique, donnees techniques partielles, these confirmee |
+| 2026-06-15 | [PLTR_2026-06-15_update.md](PLTR_2026-06-15_update.md) | Snapshot 10h UTC — **baisse significative** cours $127.99 (-6.22% vs snapshot 10/06), RSI 43.54 (-7.45 pts, zone neutre-basse), volume 35.38M (0.92x), short interest 3.23% stable, MM50 $139.64 disponible (cours -8.4% sous MM50), ATR $7.59 disponible, options anomalie JSON recurrente persistante, Score Opportunite 5.1/10 (+0.5), Score Global ajuste 42.5/100 (-3.0 pts), timing DEFAVORABLE, these SURVEILLER **confirmee avec nuance baissiere accrue** | SURVEILLER — Score Opp. 5.1/10, cours $127.99, RSI 43.54, volume 35.38M (0.92x), cassure MM50 creusee a -8.4%, ATR dispo, these confirmee avec nuance baissiere accrue |
 
 ## Historique
 | Date | Fichier | Type | Conclusion |
 |------|---------|------|------------|
+| 2026-06-15 | [PLTR_2026-06-15_update.md](PLTR_2026-06-15_update.md) | Snapshot 10h UTC — baisse significative -6.22% a $127.99, RSI 43.54 (-7.45 pts), MM50 $139.64 (cours -8.4% sous MM50), ATR $7.59 dispo, Score Global 42.5/100 (-3.0 pts), timing DEFAVORABLE, these SURVEILLER confirmee avec nuance baissiere accrue | SURVEILLER — Score Opp. 5.1/10, cours $127.99, RSI 43.54, volume 35.38M (0.92x), cassure MM50 creusee, these confirmee avec nuance baissiere accrue |
 | 2026-06-10 | [PLTR_2026-06-10_update.md](PLTR_2026-06-10_update.md) | Snapshot 10h UTC (pre-marche) — realignement mecanique cours $136.47 vs close 21h $132.07, RSI 50.99 (+3.42 pts), volume stable 38.48M (0.96x), MM50/ATR indisponibles, options anomalie JSON recurrente, Score Global 45.5/100, these SURVEILLER confirmee avec nuance neutre | SURVEILLER — Score Opp. 4.6/10, cours $136.47, RSI 50.99, volume 38.48M (0.96x), donnees partielles, these confirmee |
 | 2026-06-09 | [PLTR_2026-06-09_21-00_update.md](PLTR_2026-06-09_21-00_update.md) | Close officiel 21h UTC — rebound partiel +2.65% depuis 17h, volume normalise 0.95x, RSI 47.57, cassure MM50 persistante, Score Global 45.0/100, these SURVEILLER confirmee avec nuance baissiere attenuee | SURVEILLER — Score Opp. 5.3/10, cours $132.07, RSI 47.57, volume 38.48M (0.95x), rebound partiel, these confirmee |
 | 2026-05-17 | [PLTR_2026-05-17_init.md](PLTR_2026-05-17_init.md) | Analyse initiale | SURVEILLER — Score Opp. 3.0/10 |
@@ -37,10 +38,10 @@
 
 ## Agenda
 - **Prochain earnings :** 2026-08-03 (Q2 FY2026, Est. EPS $0.32-$0.40, Rev $1.8B)
-- **Expiration options :** 2026-06-12 (2 jours) — valeur valide Max Pain $150.00 (09/06 13h UTC)
+- **Expiration options :** 2026-06-18 (3 jours) — valeur valide Max Pain $150.00 (09/06 13h UTC, derniere valide connue)
 
 ## Alertes actives
-- 🔴 **Cassure MM50** — Cours $136.47 sous MM50 $140.68 (snapshot 09/06 13:00 UTC) — invalidation retournement haussier persistante
+- 🔴 **Cassure MM50** — Cours $127.99 sous MM50 $139.64 (snapshot 15/06 10h UTC) — invalidation retournement haussier persistante, cassure creusee a -8.4%
 - Warning : `data/accounting_risk_latest.json` absent — Filtre Qualite non alimente
 - Alerte technique RESOLUE : RSI 35.66 < 40 — retour en zone de survente depuis le 25/05 (resolu le 26/05 17:00 UTC, RSI 52.85)
 - Anomalie options JSON RESOLUE snapshot 26/05 13:00 UTC — Put/Call 0.55, Max Pain $140.00, Call OI 64.4% valides et coherents
@@ -49,16 +50,17 @@
 - Anomalie options JSON snapshot 03/06 10h UTC — Max Pain aberrant $50.00, Put/Call null, Call OI null (RESOLUE snapshot 03/06 13h UTC : Max Pain $160.00, Put/Call 0.48, Call OI 67.4%)
 - 🟡 **Anomalie options JSON snapshot 08/06 10h UTC** — Max Pain aberrant $50.00, Put/Call null, Call OI null — pattern recurrent 10h UTC. **RESOLUE snapshot 08/06 13h UTC** : Max Pain $150.00, Put/Call 0.54, Call OI 64.9% valides et coherents
 - 🟡 **Anomalie options JSON snapshot 09/06 10h UTC** — Max Pain aberrant $50.00, Put/Call null, Call OI null — pattern recurrent 10h UTC. **RESOLUE snapshot 09/06 13h UTC** : Max Pain $150.00, Put/Call 0.51, Call OI 66.2% valides et coherents, biais haussier legerement renforce
-- 🟡 **Anomalie options JSON snapshot 10/06 10h UTC** — Max Pain aberrant $50.00, Put/Call null, Call OI null — pattern recurrent 10h UTC persistant. Attendre resolution snapshot 13h UTC
+- 🟡 **Anomalie options JSON snapshot 10/06 10h UTC** — Max Pain aberrant $50.00, Put/Call null, Call OI null — pattern recurrent 10h UTC. **RESOLUE snapshot 10/06 13h UTC** : valeurs operationnelles conservees (Max Pain $150.00, Put/Call 0.51, Call OI 66.2%)
+- 🟡 **Anomalie options JSON snapshot 15/06 10h UTC** — Max Pain aberrant $42.00, Put/Call null, Call OI 0.0% — pattern recurrent 10h UTC persistant. Attendre resolution snapshot 13h UTC
 
 ## Contexte technique (dernier snapshot 10:00 UTC)
-- Cours : $136.47
-- RSI 14j : 50.99
-- MM 50j : [DONNEES PARTIELLES] — derniere valeur connue 140.46
+- Cours : $127.99
+- RSI 14j : 43.54
+- MM 50j : 139.64
 - MM 200j : —
-- ATR 14j : [DONNEES PARTIELLES] — derniere valeur connue 7.55
-- Volume moy. 20j : 40,264,510
-- Volume jour : 38,476,415
-- Max Pain : [DONNEES PARTIELLES] — anomalie JSON ($50.00 aberrant), derniere valeur valide 150.00
+- ATR 14j : 7.59
+- Volume moy. 20j : 38,400,790
+- Volume jour : 35,378,000
+- Max Pain : [DONNEES PARTIELLES] — anomalie JSON ($42.00 aberrant), derniere valeur valide 150.00
 - Put/Call : [DONNEES PARTIELLES] — anomalie JSON, derniere valeur valide 0.51
 - Call OI % : [DONNEES PARTIELLES] — anomalie JSON, derniere valeur valide 66.2%
