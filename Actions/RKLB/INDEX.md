@@ -40,15 +40,15 @@
 - Expiration options : **2026-06-12** (Max Pain JSON $65.00 aberrant — [NON OPÉRATIONNEL])
 
 ## Alertes actives
-- RSI 40.65 — neutre-bas, dégradation continue depuis début juin (70+ → 40.65)
-- Divergence consensus — spot +24.1% vs PT $87.19 (réduite mécaniquement mais persistante)
+- RSI 33.14 — neutre-bas, zone de survente proche (<30)
+- Divergence consensus — spot +20.3% vs PT $90.83 (élargie mécaniquement par le rebond)
 - Filtre Qualité 3/6 — hors périmètre institutionnel
-- Ratio R/R 1.5:1 — inférieur au seuil 2:1
-- Volume 0.87× — participation quasi-normale, nette hausse vs 13h
-- ATR $12.15 — volatilité en expansion confirmée
-- Distribution active confirmée : repli −4.77% en séance, clôture proche du bas de range
-- Support critique : $90–$98 (MM50 $98.04 + zone psychologique) — test imminent
-- Forward P/E −14887 — valorisation extrême
-- [ANOMALIE OPTIONS PERSISTANTE] Max Pain JSON $65.00 aberrant
-- [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $67.62 Mds vs FMP $37.02 Mds
+- Ratio R/R 1.5:1 — inférieur au seuil 2:1 institutionnel
+- Volume 1.03× — participation normale, correction volumétrique majeure vs snapshot 17h (0.72×)
+- ATR $12.04 — volatilité élevée mais stable
+- Support critique : $90–$102 (MM50 $101.57 + zone psychologique) — marge +7.6% confortable
+- Forward P/E −15028 — valorisation extrême, non rentable
+- [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $68.26 Mds vs FMP $37.02 Mds
 - Beta 2.499 — sensibilité systématique extrême
+- Gap baissier matin −10.79% partiellement comblé (−3.9% vs close 08/06 $113.65)
+- Rebond technique consolidé à $109.25 sans catalyseur fondamental identifié
