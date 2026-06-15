@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
-- **Horizon :** —
+- **Recommandation :** ACHETER (Sizing Réduit)
+- **Score global :** 61.8/100
+- **Prix cible :** $69.12 (consensus FMP)
+- **Stop-loss :** $47.23
+- **Statut thèse :** confirmée
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -52,9 +52,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-15
-- **Type :** full refresh
-- **Fichier :** `IREN_2026-06-15_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-15
+- **Type :** update (révision post-pipeline)
+- **Fichier :** `IREN_2026-06-15_update.md`
+- **Conclusion :** Données brutes stables. Correction options majeure (Max Pain $40.00, put/call 1.62, call OI 38.1%). Scores inchangés 5.7/61.8. Action ACHETER (Sizing Réduit) confirmée. Vigilance expiration options 18/06.
 
 ---
 
