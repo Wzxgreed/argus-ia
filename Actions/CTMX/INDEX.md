@@ -10,14 +10,14 @@
 ## Thèse courante
 
 **Recommandation :** ATTENDRE *(inchangée)*
-**Score global ajusté :** 54.2/100
+**Score global ajusté :** 52.5/100
 **Prix cible consensus :** $9.05 (11 analysts)
-**Prix cible technique :** $3.51 (3×ATR stale)
-**Stop-loss :** $2.56 (2×ATR stale)
+**Prix cible technique :** $3.55 (3×ATR)
+**Stop-loss :** $2.65 (2×ATR)
 **Statut :** Thèse non établie — profil spéculatif biotech pré-profit, Filtre Qualité 2/6
 **Horizon :** 6–12 mois (dépendant des catalyseurs cliniques)
 
-**Résumé :** CTMX est une biotech en phase clinique avancée (plateforme Probody) avec des partenariats de qualité (AbbVie, BMS, Amgen). Le snapshot 10h UTC du 2026-06-10 enregistre des **données techniques partielles** (close NaN, ATR null, MM50 null). Le **previous_close est à $2.94** (−1.34% vs close officiel $2.98 du 09/06). Le **RSI s'enfonce à 23.08** (−2.29 pts) en survente extrême, le niveau le plus bas observé depuis le début du suivi. Le **short interest baisse à 14.97%** (−1.26 pt) — premier reflux des shorts depuis le 2026-06-01. L'**anomalie JSON options persiste** (4e occurrence sur 5 snapshots). Le **Score Global Ajusté recule à 54.2/100** (−1.6 pt) et le **Score Opportunité à 4.9/10** (−1.0 pt). La recommandation reste **ATTENDRE**. Le timing est **upgradé à Favorable** (vs Défavorable) en raison du RSI 23.08 en survente extrême, mais ce signal technique isolé ne suffit pas à justifier une entrée en l'absence de catalyseur clinique confirmé et de reconstruction du support.
+**Résumé :** CTMX est une biotech en phase clinique avancée (plateforme Probody) avec des partenariats de qualité (AbbVie, BMS, Amgen). Le snapshot 10h UTC du 2026-06-15 marque la **restauration des données techniques** après 5 jours de données partielles. Le **close est à $3.01** (+1.01% vs previous close $2.98). Le **RSI reste à 23.02** (survente extrême stable). L'**ATR est à $0.18** et la **MM50 à $3.93** (écart −23.4%, légèrement amélioré). Le **volume s'effondre à 0.60×** moyenne 20j — signal d'anémie critique qui annule partiellement le signal technique favorable. Le **short interest est stable à 14.97%**. L'**anomalie JSON options persiste** (5e occurrence sur 6 snapshots). Le **Score Global Ajusté recule à 52.5/100** (−1.7 pt) et le **Score Opportunité à 4.8/10** (−0.1 pt). La recommandation reste **ATTENDRE**. Le timing reste **Favorable** en raison du RSI extrême, mais le volume effondré affaiblit ce signal.
 
 ---
 
@@ -40,6 +40,7 @@
 | 2026-06-09 | `CTMX_2026-06-09_update.md` | Mise à jour snapshot **13:00 UTC** | **Stabilité totale** vs snapshot 10h UTC (cours $2.94 inchangé, RSI 30.56 inchangé, volume 1.06× inchangé), **anomalie options JSON RÉSOLUE** (max pain $4.00 confirmé, put/call 0.96 rétabli, call OI 51.0% rétabli), support $2.90 testé (low $2.89) sans cassure, scores et recommandation **SURVEILLER** inchangés (Score Global Ajusté 47.5/100), SL/TP inchangés $2.56/$3.51, défavorable |
 | 2026-06-09 | `CTMX_2026-06-09_update.md` | Mise à jour snapshot **21:00 UTC** | **Rebond technique +1.36% à $2.98**, volume **1.32×** (+24% relatif), RSI **25.37** (−5.19 pts, survente extrême renforcée), support $2.90 **cassé temporairement** (low $2.815) puis recovery, Score Global Ajusté **55.8/100** (+8.3 pts), recommandation **ATTENDRE** (upgradée depuis SURVEILLER), SL/TP révisés $2.60/$3.55, défavorable |
 | 2026-06-10 | `CTMX_2026-06-10_update.md` | Mise à jour snapshot **10:00 UTC** | **Données techniques partielles** (close NaN, ATR null, MM50 null), previous_close **$2.94** (−1.34% vs close officiel), RSI **23.08** (−2.29 pts, survente extrême approfondie), short interest **14.97%** (−1.26 pt, reflux des shorts), anomalie options JSON **4e occurrence** (max pain $6.00 aberrant), Score Global Ajusté **54.2/100** (−1.6 pt), Score Opportunité **4.9/10** (−1.0 pt), recommandation **ATTENDRE** inchangée, timing **Favorable** (upgradé depuis Défavorable), SL/TP conservés $2.56/$3.51 (ATR stale) |
+| 2026-06-15 | `CTMX_2026-06-15_update.md` | Mise à jour snapshot **10:00 UTC** | **Données techniques restaurées** (close $3.01, ATR $0.18, MM50 $3.93), RSI **23.02** (stable, survente extrême), volume **0.60×** (anémie critique), short interest **14.97%** (stable), anomalie options JSON **5e occurrence**, Score Global Ajusté **52.5/100** (−1.7 pt), Score Opportunité **4.8/10** (−0.1 pt), recommandation **ATTENDRE** inchangée, timing **Favorable**, SL/TP recalculés **$2.65/$3.55** |
 
 ---
 

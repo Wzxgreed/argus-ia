@@ -36,18 +36,19 @@
 | 2026-06-09 | Mise à jour post-pipeline (10h UTC) | [SPCX_2026-06-09_update.md](./SPCX_2026-06-09_update.md) | Thèse confirmée en SURVEILLER — stabilité totale vs 17h 08/06, quinze snapshots sans données fiables, reclassement mécanique ATTENDRE → SURVEILLER (Score Global 47.2/100), Score Valorisation 3.0/10 proche seuil disqualification |
 | 2026-06-09 | Mise à jour post-pipeline (close officiel 21h UTC) | [SPCX_2026-06-09_update.md](./SPCX_2026-06-09_update.md) | Thèse confirmée en SURVEILLER — stabilité totale vs 13h 09/06, dix-sept snapshots consécutifs sans données fiables, conflit de symbole stable, XLF momentum légèrement amélioré 5.19 (+2.5%), scoring inchangé (Score Global 47.2/100) |
 | 2026-06-10 | Mise à jour post-pipeline (10h UTC) | [SPCX_2026-06-10_update.md](./SPCX_2026-06-10_update.md) | Thèse confirmée en SURVEILLER — dix-huit snapshots sans données fiables, stabilité totale, conflit de symbole persistant, données sector rotation corrompues (NaN), Score Global 47.2/100 inchangé |
+| 2026-06-15 | Mise à jour post-pipeline (10h UTC) | [SPCX_2026-06-15_update.md](./SPCX_2026-06-15_update.md) | Thèse confirmée en ATTENDRE — conflit de symbole aggravé (cours fictif $160.95 +19.2%, market cap $2.1T, forward P/E −1,788), scoring mécanique remonté 47.2→51.0/100 (artefact), vingt-troisième snapshot sans données fiables |
 
 ---
 
 ## Thèse d'investissement courante
 
-**Recommandation :** SURVEILLER (artefact mécanique — fondamentalement non-actionnable)
-**Prix cible :** N/A (données insuffisantes — cours $135.00 non fiable)
+**Recommandation :** ATTENDRE (artefact mécanique — fondamentalement non-actionnable)
+**Prix cible :** N/A (données insuffisantes — cours $160.95 non fiable)
 **Stop-loss :** N/A
 **Upside :** —
-**Dernière mise à jour :** 2026-06-10 (snapshot 10h UTC)
+**Dernière mise à jour :** 2026-06-15 (snapshot 10h UTC)
 
-> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 10h UTC du 10/06 confirme la **stabilité totale** par rapport au close officiel 21h UTC du 09/06 : cours **$135.00** avec open **$0.00**, high/low **$135.00**, volume **0**, secteur `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management` — indiquant que FMP renvoie toujours les données d'une autre entité. L'Agent Recommandation maintient le **SURVEILLER** avec un Score Global Ajusté de **47.2/100** (Score Opportunité 4.7/10 : C:6.5 V:3.0 M:5.0), timing Neutre. Ce reclassement est un artefact algorithmique déclenché par les ratios FMP aberrants (P/B 22.7, P/E −80, market cap $1,765B). Le module sector rotation est désormais **totalement corrompu** (returns NaN, momentum_score 10.0 uniforme sur 11 secteurs) — le signal NEUTRAL précédent n'est plus vérifiable. Aucun catalyseur fondamental, news, options ni social. SL/TP non calculables (prix et ATR absents). **Alerte :** Score Valorisation 3.0/10 proche du seuil de disqualification (≤ 2/10). Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + Score Momentum ≥ 6.0. Si le flux fiable ne revient pas sur les prochains snapshots → reclassement **ÉVITER**.
+> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 10h UTC du 15/06 montre une **aggravation du conflit de symbole** par rapport au 10/06 : cours fictif **$160.95** (vs $135.00 le 10/06, +19.2%), open/high/low **$150.00 / $176.52 / $149.34**, volume **519,234,800** (identique à la moyenne 20j — suspect), secteur `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management`. De nouvelles métriques aberrantes sont apparues : market cap **$2.1T**, forward P/E **−1,788**, consensus **$177.50** avec **2 analysts** (non applicable à un ETF). L'Agent Recommandation reclasse mécaniquement **ATTENDRE** avec un Score Global Ajusté de **51.0/100** (Score Opportunité 5.1/10 : C:7.0 V:3.5 M:5.0), timing Neutre. Cette remontée de 47.2 à 51.0 est un **artefact algorithmique** : l'Agent interprète la présence de nouvelles métriques FMP (même aberrantes) comme une richesse de données. En réalité, la qualité des données s'est dégradée. Le module sector rotation semble avoir récupéré (signal NEUTRAL, XLF #2 momentum 6.73). Aucun catalyseur fondamental, news, options ni social. SL/TP non calculables (prix et ATR absents). Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + Score Momentum ≥ 6.0. Si le flux fiable ne revient pas sur les prochains snapshots → reclassement **ÉVITER**.
 
 ---
 
