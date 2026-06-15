@@ -38,18 +38,17 @@
 
 ## 📅 Prochains événements
 
-- Earnings Q2 2026 : 13 août 2026 (Est EPS $0.18-$0.27, Rev $5.4B)
-- Expiration options : 2026-06-18 (3 jours, max pain $15.00)
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 41.72
-- **MM 50j :** 13.57
+- **RSI 14j :** 43.25
+- **MM 50j :** 13.58
 - **MM 200j :** —
 - **ATR 14j :** 0.51
-- **Volume moy. 20j :** 63017787
+- **Volume moy. 20j :** 64148027
 
 ---
 
@@ -58,7 +57,7 @@
 - **Date :** 2026-06-15
 - **Type :** update
 - **Fichier :** `NU_2026-06-15_17-00_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (rebond technique +1.19% confirmé en clôture officielle US à $12.335, high $12.63, structure options bullish confirmée sur 2 snapshots consécutifs, divergence RSI prix/momentum RSI 41.72 malgré hausse, score global ajusté progresse 55.5 → 56.2 zone ATTENDRE maintenue, fondamentaux intacts forward P/E 10.77× upside +41.8%, volume anémique 0.47×, timing défavorable)**
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (rebond technique +1
 
 ---
 

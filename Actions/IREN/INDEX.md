@@ -9,37 +9,37 @@
 
 ## Thèse Courante
 
-IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot 13h UTC du 2026-06-15 confirme l'**upgrade algorithmique** du matin : Score Global ajusté **61.8/100**, action **ACHETER (Sizing Réduit)**.
+IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot 21h UTC du 2026-06-15 révèle un **downgrade algorithmique** : Score Global ajusté **57.5/100**, action **ATTENDRE** (vs 61.8/100 ACHETER à 13h).
 
-**🟢 Momentum technique haussier :** Le RSI se normalise à **52.86** (zone neutre favorable). L'ATR 14j (**$6.27**) et la MM50 (**$52.06**) sont disponibles — le cours à **$59.77** se tient à **+14.8%** au-dessus de la MM50, confirmant la tendance haussière intermédiaire. Timing déclaré **Favorable**.
+**🟢 Momentum technique haussier intact mais affaibli :** Le RSI se normalise à **51.08** (zone neutre favorable). L'ATR 14j (**$6.18**) et la MM50 (**$52.58**) sont disponibles — le cours à **$60.85** se tient à **+15.7%** au-dessus de la MM50, confirmant la tendance haussière intermédiaire. Timing déclaré **Favorable**.
 
-**🟢 Consensus PT stable :** **$69.12 (26 analysts)** — upside depuis close $59.77 à **+15.6%**. Le consensus reste ancré.
+**🟢 Consensus PT stable :** **$69.12 (26 analysts)** — upside depuis close $60.85 à **+13.6%**. Le consensus reste ancré.
 
-**🟡 Valorisation mécaniquement dégradée :** Score Valorisation **4.0/10**. P/E TTM **77.62×**, P/B **7.65×**, EV/EBITDA **157.04×** — multiples extrêmement élevés, dégradés par le rally +5.4% sans amélioration fondamentale.
+**🔴 Valorisation mécaniquement dégradée :** Score Valorisation **3.5/10** (−0.5 pt vs 13h). P/E TTM **79.03×**, P/B **7.79×**, EV/EBITDA **157.04×** — multiples extrêmement élevés, dégradés par le rally +1.81% sans amélioration fondamentale.
 
-**🔴 Forward P/E négatif :** **−63.59×** — profitabilité attendue éloignée. FCF négatif (yield −36%).
+**🔴 Forward P/E négatif :** **−64.73×** — profitabilité attendue éloignée. FCF négatif (yield −36%).
 
-**🟢 Catalyseur :** Score Catalyseur **6.3/10** — révision algorithmique favorable.
+**🟡 Catalyseur :** Score Catalyseur **5.8/10** (−0.5 pt vs 13h) — absence de catalyseur nouveau, news nulles.
 
-**🔴 Short Interest élevé stable :** **16.05%** — défiance accrue du marché maintenue, fuel squeeze renforcé mais non activé.
+**🔴 Short Interest élevé stable :** **16.05%** — défiance accrue du marché maintenue, fuel squeeze inactif.
 
-**🟢 Volume normalisé :** 45.35 M = **91.0%** moyenne 20j — volume normal, pas de distribution.
+**🔴 Volume effondré :** 33.02 M = **67.3%** moyenne 20j — extension du rally sans participation, signal de fragilité.
 
-**🔴 Volatilité extrême :** Beta **4.232**. Sizing réduit obligatoire (max 5% portefeuille) si position existante.
+**🔴 Volatilité extrême :** Beta **4.232**. Sizing réduit obligatoire (max 5% portefeuille) si ré-entrée future.
 
 **🔴 Corrélation BTC :** Corrélation 30j **0.82**, beta BTC **2.1** — le pivot IA n'est pas encore pricé comme découplage. Toute position IREN reste un pari implicite sur BTC.
 
-**🟡 Défiance options atténuée mais persistante :** Le pipeline 13h UTC a corrigé les données options. Max Pain **$40.00** (expiration 2026-06-18), put/call **1.62**, call OI **38.1%**. Le Max Pain à $40.00 est en baisse de $10.00 vs le 10/06 ($50.00) — niveau bas à surveiller. Le put/call 1.62 confirme une nette détente vs le record 3.95 du 08/06, mais la défiance reste présente.
+**🟡 Défiance options atténuée mais persistante :** Max Pain **$40.00** (expiration 2026-06-18), put/call **1.62**, call OI **38.1%**. Structure inchangée vs 13h. Le put/call 1.62 confirme une nette détente vs le record 3.95 du 08/06, mais la défiance reste présente.
 
-**⚠️ Données techniques :** MM200 toujours indisponible. SL/TP fiables : SL **$47.23** (2×ATR), TP **$78.58** (3×ATR), ratio R/R **1.5**.
+**⚠️ Données techniques :** MM200 toujours indisponible. SL/TP révisés : SL **$48.49** (2×ATR), TP **$79.39** (3×ATR), ratio R/R **1.5**.
 
 **Earnings Q1 2026** : résultats toujours non intégrés dans les feeds Yahoo/FMP au 2026-06-15 (21 jours après le J0 annoncé). Prochain earnings Q2 2026 : **2026-08-27** (73 jours).
 
-**Score Opportunité : 5.7/10** (Catalyseur 6.3, Valorisation 4.0, Momentum 7.5)
-**Score Global ajusté : 61.8/100**
-**Action : ACHETER (Sizing Réduit)** — SL $47.23 / TP $78.58 (R/R 1.5).
+**Score Opportunité : 5.3/10** (Catalyseur 5.8, Valorisation 3.5, Momentum 7.3)
+**Score Global ajusté : 57.5/100**
+**Action : ATTENDRE** — Pas de nouvelle entrée. Positions existantes maintenues avec SL $48.49 / TP $79.39 (R/R 1.5).
 
-> **⚠️ Réserve earnings :** Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds (FY 2025 uniquement). Sizing réduit obligatoire (beta 4.232, ATR 10.49% historique). Surveiller BTC — seuil critique $75k. Si le cours casse $52.06 (MM50) sans rebond → passer en ATTENDRE. Si le cours casse $48.75 (ancienne MM50) → stopper toute position. Si le cours casse $47.23 (SL) → stopper la position.
+> **⚠️ Réserve earnings :** Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds (FY 2025 uniquement). Sizing réduit obligatoire si ré-entrée (beta 4.232, ATR 10.16% historique). Surveiller BTC — seuil critique $75k. Si le cours casse $52.58 (MM50) sans rebond → passer en SURVEILLER. Si le cours casse $48.75 (ancienne MM50) → stopper toute position. Si le cours casse $48.49 (SL) → stopper la position.
 
 ---
 
@@ -87,6 +87,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 | 2026-06-10 | [IREN_2026-06-10_update.md](IREN_2026-06-10_update.md) (snapshot 13h UTC — révision) | Mise à jour intra-journalière | Snapshot 13h UTC — **données brutes stables**, **détente options majeure** (Max Pain $50.00 vs $33.00, put/call 1.92 vs 2.22, call OI 34.2% vs 31.0%) · Score Global **44.3/100** inchangé · Action **SURVEILLER** confirmée · Thèse **confirmée** |
 | 2026-06-15 | [IREN_2026-06-15_update.md](IREN_2026-06-15_update.md) (snapshot 10h UTC) | Mise à jour post-FULL REFRESH | FULL REFRESH triggers (PRICE_GAP +5.40%, ATR_SPIKE 10.49%) · **Upgrade algorithmique majeur** : Score Global **61.8/100** (+17.5 pts), Opportunité **5.7/10** (+1.3 pt) · Action **ACHETER (Sizing Réduit)** · ATR $6.27 et MM50 $52.06 rétablis · RSI normalisé 52.86 · Multiples mécaniquement dégradés (P/E 77.6×, EV/EBITDA 157×) · Thèse **modifiée favorablement** |
 | 2026-06-15 | [IREN_2026-06-15_update.md](IREN_2026-06-15_update.md) (snapshot 13h UTC — révision post-pipeline) | Révision post-pipeline | Données brutes stables vs 10h UTC · **Correction options majeure** : Max Pain **$40.00** (vs $100.00 anomalie), put/call **1.62** (vs null), call OI **38.1%** (vs 0.0%) · Scores inchangés 5.7/61.8 · Action **ACHETER (Sizing Réduit)** confirmée · Thèse **confirmée** — vigilance expiration 18/06 |
+| 2026-06-15 | [IREN_2026-06-15_update_21h00.md](IREN_2026-06-15_update_21h00.md) (snapshot 21h UTC — close) | Mise à jour close | Cours $60.85 (+1.81%) · Volume effondré 67.3% · **Downgrade algorithmique** : Score Global **57.5/100** (−4.3 pts) · Action **ATTENDRE** (vs ACHETER) · SL/TP révisés $48.49/$79.39 · Thèse **modifiée** |
 
 ---
 
@@ -114,4 +115,4 @@ Voir [SUPPLY_CHAIN.md](SUPPLY_CHAIN.md) pour la cartographie fournisseurs/client
 
 ---
 
-*Dernière mise à jour : 2026-06-15 (snapshot 13:00 UTC)*
+*Dernière mise à jour : 2026-06-15 (snapshot 21:00 UTC)*

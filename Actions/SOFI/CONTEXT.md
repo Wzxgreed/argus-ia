@@ -21,11 +21,11 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 69.5/100
+- **Score global :** —/10
 - **Prix cible :** $20.28
 - **Stop-loss :** $15.03
-- **Statut thèse :** modifiée (reclaim MM50)
-- **Horizon :** 1–3 mois
+- **Statut thèse :** validée
+- **Horizon :** —
 
 ---
 
@@ -37,9 +37,9 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ## 🚨 Alertes actives
 
-- Baisse — $15.03 (SL 2×ATR) — 🟢 Active
-- Hausse — $20.28 (prix cible) — 🟢 Active
-- Volume — >2× moy. 20j (>144.7M) — 🟢 Active
+- Baisse — $13.78 (SL 2×ATR) — 🟢 Active
+- Hausse — $18.88 (prix cible) — 🟢 Active
+- Volume — >2× moy. 20j (>140.7M) — 🟢 Active
 
 ---
 
@@ -51,26 +51,26 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 56.66
+- **RSI 14j :** 56.55
 - **MM 50j :** 16.86
 - **MM 200j :** —
 - **ATR 14j :** 1.05
-- **Volume moy. 20j :** 72355559
+- **Volume moy. 20j :** 73778752
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-15
-- **Type :** update (snapshot 17:00 UTC)
-- **Fichier :** `SOFI_2026-06-15_update.md`
-- **Conclusion :** Reclaim MM50 validé — ATTENDRE → ACHETER (Réduit). Score Global 69.5/100.
+- **Type :** full refresh
+- **Fichier :** `SOFI_2026-06-15_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-15
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 6.13% (seuil 5.0%) — archivé faux positif
+- **ATR_SPIKE** (medium) — ATR relatif 6.13% (seuil 5.0%)
 
 ---
 

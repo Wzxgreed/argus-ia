@@ -47,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-15
-- **Type :** update
-- **Fichier :** `SQ_2026-06-15_update.md`
-- **Conclusion :** **ATTENDRE** — Snapshot 17h00 UTC. Aucune mutation vs 13h00. Cours $83.46 figé ≥59 snapshots / ≥26 jours. Stale price persistant, source `fmp_fallback` seule du snapshot. Score Opportunité 5.4/10, Global Ajusté ~54.0. Consensus figé $85.67 (3 analystes). Earnings J=0 glissant ≥59 snapshots. Zero news, zero social. Exclure du périmètre long actif jusqu'à résolution données live.
+- **Type :** init
+- **Fichier :** `SQ_2026-06-15_update_13h00.md`
+- **Conclusion :** > **Trigger :** Snapshot pipeline 13:00 UTC — mid-session US
 
 ---
 

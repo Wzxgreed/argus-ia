@@ -58,18 +58,17 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-18** · Expiration options (max pain $130) · J+3
-- **2026-08-26** · Earnings Q3 2026 · Est EPS $1.43–$1.51, Rev $1.8B · J+72
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 68.84
-- **MM 50j :** 120.45
+- **RSI 14j :** 69.05
+- **MM 50j :** 120.46
 - **MM 200j :** —
-- **ATR 14j :** 5.37
-- **Volume moy. 20j :** 2668018
+- **ATR 14j :** 5.38
+- **Volume moy. 20j :** 2694804
 
 ---
 
@@ -78,7 +77,7 @@
 - **Date :** 2026-06-15
 - **Type :** update
 - **Fichier :** `A_2026-06-15_update.md`
-- **Conclusion :** > **Date :** 2026-06-15 · Snapshot 17:00 UTC (close officiel US) · Cours $130.25 (+0.31%) · Volume collapse extrême 479K (0.18×) · RSI 68.84 stable · Anomalie options JSON résolue · Score Global ajusté 75.0/100 inchangé · Recommandation ACHETER Standard maintenue avec prudence accrue due au volume · SL/TP recalculés $119.51/$146.36 · Pinning options J+3 · Timing Favorable avec réserve volume
+- **Conclusion :** > **Date :** 2026-06-15 · Snapshot 17:00 UTC (close officiel US)
 
 ---
 

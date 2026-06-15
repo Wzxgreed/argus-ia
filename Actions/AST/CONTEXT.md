@@ -1,62 +1,62 @@
-# CONTEXT — AST — Derniere mise a jour : 2026-06-15
+# CONTEXT — AST — Dernière mise à jour : 2026-06-15
 
-> Ce fichier est la **memoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
-> Mise a jour automatique par `agents/update_context/agent.py` a chaque passage du pipeline.
+> Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
+> Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
 
 ---
 
-## Cible These active
+## 🎯 Thèse active
 
 - **Recommandation :** —
 - **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut these :** —
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
 
-## Erreurs de prediction recentes
+## 📉 Erreurs de prédiction récentes
 
-- Aucune erreur enregistree.
+- Aucune erreur enregistrée.
 
 ---
 
-## Alertes actives
+## 🚨 Alertes actives
 
 - Aucune alerte active.
 
 ---
 
-## Prochains evenements
+## 📅 Prochains événements
 
 - **2026-06-15** · earnings · Earnings ...
 
 ---
 
-## Contexte technique (dernier snapshot 17h UTC)
+## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 36.10 (survente aggravee)
-- **MM 50j :** $89.14 (cours sous MM50 -1.5%)
+- **RSI 14j :** —
+- **MM 50j :** —
 - **MM 200j :** —
-- **ATR 14j :** $12.73
-- **Volume moy. 20j :** 27.10M (volume seance 14.50M = 0.53x)
+- **ATR 14j :** —
+- **Volume moy. 20j :** —
 
 ---
 
-## Resume derniere analyse
+## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-15
-- **Type :** update
-- **Fichier :** `AST_2026-06-15_update.md`
-- **Conclusion :** AST anomalie structurelle persistante (>43 snapshots). ASTS proxy : rebond +6.49% a $87.76 sur volume collapse extreme 0.53x. RSI 36.10 (survente aggravee). Cours sous MM50 -1.5%. Anomalie options JSON RESOLUE (max pain $100.0, put/call 0.44, call OI 69.7%). Score agent maintient SURVEILLER 39.2/100 (proche EVITER). Timing Defavorable. Supports $83.99 / $82.41 / $80.00-$81.50. Resistances $89.14 (MM50) / $97.56.
+- **Type :** preview
+- **Fichier :** `AST_2026-06-15_preview.md`
+- **Conclusion :** > **Date :** 2026-06-15
 
 ---
 
-## Triggers detectes (full refresh)
+## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger recent.
+- Aucun trigger récent.
 
 ---
 
-*Genere automatiquement — ne pas editer manuellement.*
+*Généré automatiquement — ne pas éditer manuellement.*
