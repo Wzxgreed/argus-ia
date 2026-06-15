@@ -12,12 +12,12 @@
 **Recommandation :** ATTENDRE *(inchangée)*
 **Score global ajusté :** 55.0/100
 **Prix cible consensus :** $9.05 (11 analysts)
-**Prix cible technique :** $3.52 (3×ATR)
-**Stop-loss :** $2.67 (2×ATR)
+**Prix cible technique :** $3.58 (3×ATR)
+**Stop-loss :** $2.68 (2×ATR)
 **Statut :** Thèse non établie — profil spéculatif biotech pré-profit, Filtre Qualité 2/6
 **Horizon :** 6–12 mois (dépendant des catalyseurs cliniques)
 
-**Résumé :** CTMX est une biotech en phase clinique avancée (plateforme Probody) avec des partenariats de qualité (AbbVie, BMS, Amgen). Le snapshot 17h UTC du 2026-06-15 enregistre un **close stable à $3.01** (+0.00%) avec des données techniques mixtes. Le **RSI remonte légèrement à 24.24** (+1.22 pts) mais reste en survente extrême. L'**ATR se contracte à $0.17** et la **MM50 glisse à $3.90** (écart −22.8%). Le **volume s'effondre à 0.37×** moyenne 20j — **anémie critique aggravée**. L'**anomalie JSON options est RÉSOLUE**, révélant une **structure très haussière** (put/call 0.14, call OI 87.8%, max pain $4.00) avec expiration demain (2026-06-18) — pin risk haussier vers $4.00. Le **Score Global Ajusté reste à 55.0/100** et le **Score Opportunité à 5.8/10**. La recommandation reste **ATTENDRE**. Le timing est **Défavorable** (dégradé depuis Favorable) en raison du volume effondré et du glissement baissier de la MM50.
+**Résumé :** CTMX est une biotech en phase clinique avancée (plateforme Probody) avec des partenariats de qualité (AbbVie, BMS, Amgen). Le snapshot 21h UTC du 2026-06-15 enregistre un **close à $3.04** (+1.0% vs 17h UTC) avec des données techniques **améliorées**. Le **RSI remonte à 25.93** (+1.69 pts) mais reste en survente extrême. L'**ATR se dilate légèrement à $0.18** et la **MM50 est stable à $3.90** (écart −22.1%). Le **volume rebondit fortement à 0.87×** moyenne 20j — **retour à la normale** après l'anémie critique de 0.37× observée au snapshot 17h UTC. La **structure options reste très haussière** (put/call 0.14, call OI 87.8%, max pain $4.00) avec expiration demain (2026-06-18) — pin risk haussier maintenant soutenu par un volume réel. Le **Score Global Ajusté reste à 55.0/100** et le **Score Opportunité à 5.8/10**. La recommandation reste **ATTENDRE**. Le timing reste **Défavorable** (inchangé) en raison de la position sous MM50 et de la tendance baissière persistante.
 
 ---
 
@@ -42,6 +42,7 @@
 | 2026-06-10 | `CTMX_2026-06-10_update.md` | Mise à jour snapshot **10:00 UTC** | **Données techniques partielles** (close NaN, ATR null, MM50 null), previous_close **$2.94** (−1.34% vs close officiel), RSI **23.08** (−2.29 pts, survente extrême approfondie), short interest **14.97%** (−1.26 pt, reflux des shorts), anomalie options JSON **4e occurrence** (max pain $6.00 aberrant), Score Global Ajusté **54.2/100** (−1.6 pt), Score Opportunité **4.9/10** (−1.0 pt), recommandation **ATTENDRE** inchangée, timing **Favorable** (upgradé depuis Défavorable), SL/TP conservés $2.56/$3.51 (ATR stale) |
 | 2026-06-15 | `CTMX_2026-06-15_update.md` | Mise à jour snapshot **10:00 UTC** | **Données techniques restaurées** (close $3.01, ATR $0.18, MM50 $3.93), RSI **23.02** (stable, survente extrême), volume **0.60×** (anémie critique), short interest **14.97%** (stable), anomalie options JSON **5e occurrence**, Score Global Ajusté **52.5/100** (−1.7 pt), Score Opportunité **4.8/10** (−0.1 pt), recommandation **ATTENDRE** inchangée, timing **Favorable**, SL/TP recalculés **$2.65/$3.55** |
 | 2026-06-15 | `CTMX_2026-06-15_update.md` | Mise à jour snapshot **17:00 UTC** | **Close stable $3.01** (+0.00%), RSI **24.24** (+1.22 pts, survente extrême), volume **0.37×** (anémie critique aggravée), MM50 **$3.90** (glissement baissier), **anomalie options JSON RÉSOLUE** (max pain $4.00, put/call 0.14, call OI 87.8% — structure très haussière), expiration demain, Score Global Ajusté **55.0/100** (stable), Score Opportunité **5.8/10** (stable), recommandation **ATTENDRE** inchangée, timing **Défavorable** (dégradé), SL/TP **$2.67/$3.52** |
+| 2026-06-15 | `CTMX_2026-06-15_update.md` | Mise à jour snapshot **21:00 UTC** | **Close $3.04** (+1.0% vs 17h), RSI **25.93** (+1.69 pts, survente extrême persistante), volume **0.87×** (normalisation — retour au-dessus moyenne), MM50 **$3.90** (stable), options très haussières inchangées (max pain $4.00, put/call 0.14, call OI 87.8%), expiration demain, Score Global Ajusté **55.0/100** (stable), Score Opportunité **5.8/10** (stable), recommandation **ATTENDRE** inchangée, timing **Défavorable** (inchangé), SL/TP **$2.68/$3.58** |
 
 ---
 
@@ -54,11 +55,11 @@
 
 ## Alertes actives
 
-- 🟢 Cours $3.01 — stable, high $3.13 (+4.0% intraday)
-- 🔴 Volume 0.37× — anémie critique aggravée, absence de conviction totale
-- 🔴 RSI 24.24 — survente extrême persistante
+- 🟢 Cours $3.04 — +1.0% vs 17h, high $3.13 (+5.3% intraday max), low $2.98 (support testé et tenu)
+- 🟡 Volume 0.87× — normalisation, retour au-dessus de la moyenne
+- 🔴 RSI 25.93 — survente extrême persistante
 - 🟢 Short interest 14.97% — stable, potentiel short squeeze si catalyseur
-- 🔴 Cours sous MM50 ($3.90) avec écart −22.8%
+- 🔴 Cours sous MM50 ($3.90) avec écart −22.1%
 - 🟡 Score Global Ajusté 55.0/100 — au-dessus du seuil institutionnel (50) mais stable
 - 🟡 Recommandation ATTENDRE — zone de risque technique accru
 - 🟢 Options — **structure très haussière** (max pain $4.00, put/call 0.14, call OI 87.8%), expiration demain
@@ -66,7 +67,7 @@
 - [WARNING] Données MM200 manquantes
 - [WARNING] Biotech pré-revenue — scoring standard peu fiable
 - [INFO] Earnings confirmé le 2026-08-06 (J+52) — Est EPS $−0.13 à $−0.07
-- [INFO] Sector rotation : XLV momentum 3.11 (rang 6e/11), données exploitables
+- [INFO] Sector rotation : XLV momentum 2.95 (rang 6e/11), données exploitables
 - [INFO] Expiration options **demain** (2026-06-18) — volatilité potentielle, pin risk vers $4.00
 
 ---
@@ -77,4 +78,4 @@ L'ancien dossier `Actions/CYTOMX/` contient l'historique des analyses sous le sy
 
 ---
 
-*Dernière mise à jour : 2026-06-15 17:00 UTC*
+*Dernière mise à jour : 2026-06-15 21:00 UTC*
