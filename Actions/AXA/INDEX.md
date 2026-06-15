@@ -1,7 +1,7 @@
 # AXA — Index du Dossier
 
-> **Dernière mise à jour :** 2026-06-15 (snapshot 17h00 UTC)
-> **Statut :** 🟡 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`) + earnings J0 FMP glissant sans détails (14e jour consécutif). SCORING STABLE. **DIVERGENCE SECTORIELLE** : `data/sector_rotation_2026-06-15.json` lu à 17h place XLF au rang 3e/11 (momentum 5.12/10, RS 20j +3.13%), ce qui est moins favorable que les chiffres du snapshot 10h (rang 2e/11, momentum 6.73/10, RS 20j +4.85%).
+> **Dernière mise à jour :** 2026-06-15 (snapshot 21h00 UTC)
+> **Statut :** 🟡 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`) + earnings J0 FMP glissant sans détails (15e jour consécutif). SCORING STABLE. **MUTATION SECTORIELLE MÉCANIQUE** : `data/sector_rotation_2026-06-15.json` réécrit à 21h place XLF au rang 2e/11 (momentum 4.69/10, RS 20j +2.70%) — retour au rang 2e mécanique (dégradation relative d'autres secteurs), pas organique, vs 3e/11 à 17h (momentum 5.12/10, RS 20j +3.13%).
 
 ---
 
@@ -11,7 +11,7 @@
 
 AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **aucune donnée de prix n'est disponible** dans le pipeline Argus-IA car le symbole "AXA" n'est pas reconnu par yfinance (instrument non coté US). L'analyse technique et fondamentale reste impossible.
 
-**Contexte sectoriel (dernier snapshot fiable : 2026-06-15 17h00 UTC) :** Le secteur Financials (XLF) affiche des métriques **en divergence** vs le snapshot 10h. Le fichier `data/sector_rotation_2026-06-15.json` lu à 17h place XLF au rang **3e/11** (vs 2e/11 à 10h), avec un momentum score de **5.12/10** (vs 6.73/10 à 10h), RS 20j **+3.13%** (vs +4.85% à 10h) et RS 60j **−4.38%** (vs −2.97% à 10h). Le signal macro reste `UNKNOWN` (stable depuis le 02/06). Cette divergence modère l'interprétation du vent de queue sectoriel sans invalider la thèse.
+**Contexte sectoriel (dernier snapshot fiable : 2026-06-15 21h00 UTC) :** Le secteur Financials (XLF) affiche une **mutation mécanique** entre 17h et 21h. Le fichier `data/sector_rotation_2026-06-15.json` réécrit à 21h place XLF au rang **2e/11** (vs 3e/11 à 17h), mais avec un momentum score de **4.69/10** (vs 5.12/10 à 17h), RS 20j **+2.70%** (vs +3.13% à 17h) et RS 60j **−4.82%** (vs −4.38% à 17h). Le retour au rang 2e est mécanique (dégradation relative d'autres secteurs), pas organique. Le signal macro reste `UNKNOWN` (stable depuis le 02/06). Cette divergence modère l'interprétation du vent de queue sectoriel sans invalider la thèse.
 
 **Action immédiate :** corriger le symbole dans `config/watchlist.json` (`CS.PA` ou `AXAHY`), mettre à jour le secteur (Financials / Insurance) et relancer le fetch.
 
@@ -55,6 +55,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 | `AXA_2026-06-10_update.md` | 2026-06-10 | Mise à jour quotidienne (snapshot 10h00 UTC) | Données manquantes persistantes (4 tickers KO sur 29) ; **anomalie JSON majeure** dans `data/sector_rotation_2026-06-10.json` (NaN + momentum 10.0 uniforme pour tous les secteurs) — dernier contexte fiable : 09/06 21h (XLF rang 3e/11, momentum 5.19/10, RS 20j +2.81%) ; signal macro `NEUTRAL` inchangé ; earnings J0 FMP (2026-06-10) sans détails exploitables — **13e jour consécutif** |
 | `AXA_2026-06-15_update.md` | 2026-06-15 | Mise à jour quotidienne (snapshot 10h00 UTC) | Données manquantes persistantes (4 tickers KO sur 29) ; **récupération du fichier sectoriel** (XLF rang 2e/11, momentum 6.73/10, RS 20j +4.85%) — amélioration continue vs 09/06 ; signal macro `UNKNOWN` stable ; earnings J0 FMP (2026-06-15) sans détails exploitables — **14e jour consécutif** |
 | `AXA_2026-06-15_update_17h.md` | 2026-06-15 | Mise à jour quotidienne (snapshot 17h00 UTC) | Données manquantes persistantes (4 tickers KO sur 29) ; **divergence sectorielle XLF** détectée entre snapshot 10h et JSON 17h (rang 3e/11 vs 2e/11, momentum 5.12 vs 6.73, RS 20j +3.13% vs +4.85%) ; signal macro `UNKNOWN` stable ; earnings J0 FMP (2026-06-15) sans détails exploitables — **14e jour consécutif** |
+| `AXA_2026-06-15_update_21h.md` | 2026-06-15 | Mise à jour quotidienne (snapshot 21h00 UTC) | Données manquantes persistantes (4 tickers KO sur 29) ; **mutation sectorielle mécanique XLF** entre 17h et 21h (rang 2e/11 vs 3e/11, momentum 4.69 vs 5.12, RS 20j +2.70% vs +3.13%) — retour au rang 2e mécanique, pas organique ; signal macro `UNKNOWN` stable ; earnings J0 FMP (2026-06-15) sans détails exploitables — **15e jour consécutif** |
 
 ---
 
@@ -90,6 +91,8 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 | 2026-06-09 (10h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
 | 2026-06-10 (10h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
 | 2026-06-15 (10h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
+| 2026-06-15 (17h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
+| 2026-06-15 (21h00) | 5.5/10 (C:6.5 V:5.0 M:5.0) | 55.2/100 | ATTENDRE | Neutre |
 
 ---
 
@@ -104,8 +107,8 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 ## ⚠️ Alertes actives
 
 - **[CRITICAL]** Pas de données de prix pour AXA — ticker probablement incorrect
-- **[WARNING]** Earnings J0 (2026-06-15) sans consensus ni résultats exploitables — pattern persistant depuis mi-mai (14e occurrence consécutive)
-- **[INFO]** Contexte sectoriel XLF **en amélioration continue** vs 09/06 : return 20j +4.00% (+1.50 pp), return 60j +9.48% (+1.63 pp), rang **2e/11** (+1 place) ; RS 20j +4.85% (+2.04 pp), RS 60j −2.97% (+0.77 pp), momentum **6.73/10** (+1.54 pt) ; signal macro `UNKNOWN` stable
+- **[WARNING]** Earnings J0 (2026-06-15) sans consensus ni résultats exploitables — pattern persistant depuis mi-mai (15e occurrence consécutive)
+- **[INFO]** Contexte sectoriel XLF **en mutation mécanique** entre 17h et 21h : rang **2e/11** (récupération vs 3e/11 à 17h) mais momentum **4.69/10** (−0.43 pt vs 17h), RS 20j **+2.70%** (−43 bp vs 17h), RS 60j **−4.82%** (−44 bp vs 17h) ; retour au rang 2e mécanique (dégradation relative d'autres secteurs), pas organique ; signal macro `UNKNOWN` stable
 
 ---
 

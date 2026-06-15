@@ -38,6 +38,7 @@
 | 2026-06-10 | Mise à jour post-pipeline (10h UTC) | [SPCX_2026-06-10_update.md](./SPCX_2026-06-10_update.md) | Thèse confirmée en SURVEILLER — dix-huit snapshots sans données fiables, stabilité totale, conflit de symbole persistant, données sector rotation corrompues (NaN), Score Global 47.2/100 inchangé |
 | 2026-06-15 | Mise à jour post-pipeline (10h UTC) | [SPCX_2026-06-15_update.md](./SPCX_2026-06-15_update.md) | Thèse confirmée en ATTENDRE — conflit de symbole aggravé (cours fictif $160.95 +19.2%, market cap $2.1T, forward P/E −1,788), scoring mécanique remonté 47.2→51.0/100 (artefact), vingt-troisième snapshot sans données fiables |
 | 2026-06-15 | Mise à jour post-pipeline (17h UTC) | [SPCX_2026-06-15_update_17h.md](./SPCX_2026-06-15_update_17h.md) | Thèse confirmée en SURVEILLER — conflit de symbole encore aggravé (cours fictif $179.26 +11.4%, forward P/E −1,992, market cap $2.35T), scoring mécanique ajusté à la baisse 51.0→48.5/100, reclassement ATTENDRE → SURVEILLER, vingt-quatrième snapshot sans données fiables |
+| 2026-06-15 | Mise à jour post-pipeline (21h UTC) | [SPCX_2026-06-15_update_21h.md](./SPCX_2026-06-15_update_21h.md) | Thèse confirmée en SURVEILLER — conflit de symbole encore aggravé (cours fictif $192.50 +7.4%, forward P/E −2,139, market cap $2.52T), scoring mécanique ajusté à la baisse 48.5→45.0/100, maintien SURVEILLER, vingt-cinquième snapshot sans données fiables, données options passées à null |
 
 ---
 
