@@ -1,4 +1,4 @@
-# CONTEXT — AXA — Dernière mise à jour : 2026-06-15
+# CONTEXT — AXA — Dernière mise à jour : 2026-06-15 (snapshot 17h00 UTC)
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -11,7 +11,7 @@
 
 AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **aucune donnée de prix n'est disponible** dans le pipeline Argus-IA car le symbole "AXA" n'est pas reconnu par yfinance (instrument non coté US). L'analyse technique et fondamentale reste impossible.
 
-**Contexte sectoriel (dernier snapshot fiable : 2026-06-15 10h00 UTC) :** Le secteur Financials (XLF) affiche une **amélioration continue** depuis le 09/06 : return 20j **+4.00%** (+1.50 pp vs 09/06), return 60j **+9.48%** (+1.63 pp), RS 20j **+4.85%** (+2.04 pp), RS 60j **−2.97%** (+0.77 pp), momentum score **6.73/10** (+1.54 pt). Le rang sectoriel est au **2e/11** (+1 place vs 09/06). Le signal macro reste `UNKNOWN` (stable depuis le 02/06). Le fichier `data/sector_rotation_2026-06-15.json` est validé et exploitable.
+**Contexte sectoriel (dernier snapshot fiable : 2026-06-15 17h00 UTC) :** Le secteur Financials (XLF) affiche une **divergence** entre le snapshot 10h et le JSON 17h : rang **3e/11** (vs 2e/11 à 10h), momentum score **5.12/10** (vs 6.73/10 à 10h), RS 20j **+3.13%** (vs +4.85% à 10h), RS 60j **−4.38%** (vs −2.97% à 10h). Le signal macro reste `UNKNOWN` (stable depuis le 02/06). Cette divergence modère l'interprétation du vent de queue sectoriel sans invalider la thèse.
 
 **Action immédiate :** corriger le symbole dans `config/watchlist.json` (`CS.PA` ou `AXAHY`), mettre à jour le secteur (Financials / Insurance) et relancer le fetch.
 
@@ -58,8 +58,8 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 
 - **Date :** 2026-06-15
 - **Type :** update
-- **Fichier :** `AXA_2026-06-15_update.md`
-- **Conclusion :** > **Date :** 2026-06-15
+- **Fichier :** `AXA_2026-06-15_update_17h.md`
+- **Conclusion :** Thèse ATTENDRE confirmée — données AXA toujours manquantes (4 tickers KO sur 29). Divergence sectorielle XLF détectée entre snapshot 10h et JSON 17h (rang 3e/11 vs 2e/11, momentum 5.12 vs 6.73, RS 20j +3.13% vs +4.85%). Signal macro `UNKNOWN` stable. Earnings J0 FMP glissant sans détails — 14e jour consécutif.
 
 ---
 

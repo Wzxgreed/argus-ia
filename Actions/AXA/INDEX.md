@@ -1,7 +1,7 @@
 # AXA — Index du Dossier
 
-> **Dernière mise à jour :** 2026-06-15 (snapshot 10h00 UTC)
-> **Statut :** 🟡 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`) + earnings J0 FMP glissant sans détails (14e jour consécutif). SCORING STABLE. **RÉCUPÉRATION** du fichier sectoriel : `data/sector_rotation_2026-06-15.json` valide (XLF rang 2e/11, momentum 6.73/10, RS 20j +4.85%) — amélioration continue vs 09/06.
+> **Dernière mise à jour :** 2026-06-15 (snapshot 17h00 UTC)
+> **Statut :** 🟡 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`) + earnings J0 FMP glissant sans détails (14e jour consécutif). SCORING STABLE. **DIVERGENCE SECTORIELLE** : `data/sector_rotation_2026-06-15.json` lu à 17h place XLF au rang 3e/11 (momentum 5.12/10, RS 20j +3.13%), ce qui est moins favorable que les chiffres du snapshot 10h (rang 2e/11, momentum 6.73/10, RS 20j +4.85%).
 
 ---
 
@@ -11,7 +11,7 @@
 
 AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **aucune donnée de prix n'est disponible** dans le pipeline Argus-IA car le symbole "AXA" n'est pas reconnu par yfinance (instrument non coté US). L'analyse technique et fondamentale reste impossible.
 
-**Contexte sectoriel (dernier snapshot fiable : 2026-06-15 10h00 UTC) :** Le secteur Financials (XLF) affiche une **amélioration continue** depuis le 09/06 : return 20j **+4.00%** (+1.50 pp vs 09/06), return 60j **+9.48%** (+1.63 pp), RS 20j **+4.85%** (+2.04 pp), RS 60j **−2.97%** (+0.77 pp), momentum score **6.73/10** (+1.54 pt). Le rang sectoriel est au **2e/11** (+1 place vs 09/06). Le signal macro reste `UNKNOWN` (stable depuis le 02/06). Le fichier `data/sector_rotation_2026-06-15.json` est validé et exploitable.
+**Contexte sectoriel (dernier snapshot fiable : 2026-06-15 17h00 UTC) :** Le secteur Financials (XLF) affiche des métriques **en divergence** vs le snapshot 10h. Le fichier `data/sector_rotation_2026-06-15.json` lu à 17h place XLF au rang **3e/11** (vs 2e/11 à 10h), avec un momentum score de **5.12/10** (vs 6.73/10 à 10h), RS 20j **+3.13%** (vs +4.85% à 10h) et RS 60j **−4.38%** (vs −2.97% à 10h). Le signal macro reste `UNKNOWN` (stable depuis le 02/06). Cette divergence modère l'interprétation du vent de queue sectoriel sans invalider la thèse.
 
 **Action immédiate :** corriger le symbole dans `config/watchlist.json` (`CS.PA` ou `AXAHY`), mettre à jour le secteur (Financials / Insurance) et relancer le fetch.
 
@@ -54,6 +54,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 | `AXA_2026-06-09_update.md` | 2026-06-09 | Mise à jour quotidienne (snapshot 10h00 UTC) | **Stabilité globale** vs close 08/06 — données manquantes persistantes (4 tickers KO sur 29) ; contexte sectoriel XLF légèrement dégradé (return 20j +1.42% vs +1.76%, return 60j +6.98% vs +7.33%, recul au rang 4e/11), RS et momentum stables ; signal macro `NEUTRAL` inchangé ; earnings J0 FMP (2026-06-09) sans détails exploitables — **12e jour consécutif** |
 | `AXA_2026-06-10_update.md` | 2026-06-10 | Mise à jour quotidienne (snapshot 10h00 UTC) | Données manquantes persistantes (4 tickers KO sur 29) ; **anomalie JSON majeure** dans `data/sector_rotation_2026-06-10.json` (NaN + momentum 10.0 uniforme pour tous les secteurs) — dernier contexte fiable : 09/06 21h (XLF rang 3e/11, momentum 5.19/10, RS 20j +2.81%) ; signal macro `NEUTRAL` inchangé ; earnings J0 FMP (2026-06-10) sans détails exploitables — **13e jour consécutif** |
 | `AXA_2026-06-15_update.md` | 2026-06-15 | Mise à jour quotidienne (snapshot 10h00 UTC) | Données manquantes persistantes (4 tickers KO sur 29) ; **récupération du fichier sectoriel** (XLF rang 2e/11, momentum 6.73/10, RS 20j +4.85%) — amélioration continue vs 09/06 ; signal macro `UNKNOWN` stable ; earnings J0 FMP (2026-06-15) sans détails exploitables — **14e jour consécutif** |
+| `AXA_2026-06-15_update_17h.md` | 2026-06-15 | Mise à jour quotidienne (snapshot 17h00 UTC) | Données manquantes persistantes (4 tickers KO sur 29) ; **divergence sectorielle XLF** détectée entre snapshot 10h et JSON 17h (rang 3e/11 vs 2e/11, momentum 5.12 vs 6.73, RS 20j +3.13% vs +4.85%) ; signal macro `UNKNOWN` stable ; earnings J0 FMP (2026-06-15) sans détails exploitables — **14e jour consécutif** |
 
 ---
 

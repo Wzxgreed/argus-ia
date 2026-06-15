@@ -1,7 +1,7 @@
 # ASTS
 
 ## Thèse courante
-La thèse sur ASTS est **SURVEILLER confirmée et aggravée** — close 2026-06-15. Rupture technique majeure sous MM50 $89,23 sur volume explosion **2,00×**, chute **−15,53%** à **$82,41**, RSI **40,50** (proche survente, −9,77 pt depuis le 09/06), ATR **$13,80** (16,7% du cours). Score global ajusté **35,5/100** (SURVEILLER, bas de fourchette), down de −23 pts vs le close 09/06 (58,5 ATTENDRE). Divergence consensus **+14,69%** upside mécanique ($94,54 vs $82,41) mais contexte technique dégradé. Profil fondamental spéculatif extrême inchangé (EV/Revenue 296× Yahoo, P/B 11,83×, Forward P/E −401,61, non rentable). Signal sectoriel **NEUTRAL** avec XLC bottom 3 persistant (momentum score 0,0). Timing **Défavorable**. Options **anomalie JSON persistante** : max pain **$28 aberrant** (valeur opérationnelle $120 conservée), put/call 0,00, call OI 100%. Verdict global : **ne pas entrer long**. Objectif baissier si rupture sous $80 : $75–$70. Zone de résistance immédiate : $89–$92 (MM50 + close 10/06). Volatilité extrême persistante.
+La thèse sur ASTS est **SURVEILLER confirmée** — snapshot 17h UTC 2026-06-15. Rebond technique **+6,49%** à **$87,755** vs close matin $82,41 sur volume collapse **0,535×** (pas de conviction), RSI **36,10** (proche survente, −4,40 pt vs le matin, dégradation malgré la hausse du cours), ATR **$12,73** (14,5% du cours). Score global ajusté **39,2/100** (SURVEILLER, bas de fourchette). Cours **−1,5% sous MM50 $89,14** (gap réduit vs −7,6% matin). Divergence consensus **+7,73%** upside mécanique ($94,54 vs $87,755). Profil fondamental spéculatif extrême inchangé (EV/Revenue 296× Yahoo, P/B 12,59×, Forward P/E −427,49, non rentable). Signal sectoriel **NEUTRAL** avec XLC bottom 3 persistant (momentum score 0,0). Timing **Défavorable**. Options **anomalie JSON RÉSOLUE** : max pain **$100** (cohérent), put/call **0,44**, call OI **69,7%** — structure haussière confirmée mais non validée par le volume. Verdict global : **ne pas entrer long**. Objectif baissier si repli sous $82,41 : $75–$80. Zone de résistance immédiate : $89,14 (MM50) ; $92,06 (close 10/06). Volatilité élevée persistante.
 
 ## Historique
 | Date | Fichier | Type |
@@ -28,13 +28,12 @@ La thèse sur ASTS est **SURVEILLER confirmée et aggravée** — close 2026-06-
 - Options expiry : **2026-06-12** (J+4) — max pain $120 au-dessus du spot (+29,1%), données JSON fiables (put/call 0,70, call OI 59,0%)
 
 ## Alertes actives
-- **DONNÉES PARTIELLES** — close NaN, ATR14 null, MM50 null. Impossibilité de confirmer la tenue du support MM50 $88,70
-- **ANOMALIE OPTIONS JSON** — max pain $45 aberrant (valeur opérationnelle $120 conservée), put/call et call OI null
-- **VOLUME_NORMALISÉ** — volume 1,01×, participation institutionnelle maintenue (signal positif stable)
-- **ATR_SPIKE (haut)** — ATR relatif 15,0% du cours (dernier ATR connu $13,29), range intraday 17,4% le 09/06 ($85,50–$100,94)
+- **COURS_SOUS_MM50** — cours −1,5% sous MM50 $89,14 — résistance dynamique non conquise
+- **VOLUME_COLLAPSE** — volume 0,535× sur rebond +6,49% — pas de validation institutionnelle
+- **RSI_DÉGRADANT** — RSI 36,10 en baisse malgré rebond — faiblesse interne
+- **ATR_SPIKE (haut)** — ATR relatif 14,5% du cours ($12,73)
 - **REJET_100** — test et rejet de la résistance psychologique $100 (high $100,94, close $88,71 le 09/06) — structure de séance baissière
-- **CLOSE_SUR_MM50** — cours exactement sur MM50 $88,70 le 09/06. Risque de rupture support non confirmé dans le snapshot 10h
-- **Profil non rentable** — EPS estimé négatif, multiples extrêmes (P/B 12,73x Yahoo / 10,10x FMP, EV/Revenue 318x), aucune visibilité sur la rentabilité
-- **Secteur Communication Services (XLC)** — bottom 3 du ranking sectoriel (signal UNKNOWN, données partielles)
-- **Options J+2** — Max Pain opérationnel $120 au-dessus du spot (+35,3% si spot ~$88,71). Pinning gamma haussier théorique mais gap très large après rejet $100
-- **Short Interest élevé** — 18,39% (+0,79 pt) — pas de squeeze setup mais pression vendeuse présente
+- **Profil non rentable** — EPS estimé négatif, multiples extrêmes (P/B 12,59x Yahoo / 10,10x FMP, EV/Revenue 296x), aucune visibilité sur la rentabilité
+- **Secteur Communication Services (XLC)** — bottom 3 du ranking sectoriel (momentum score 0,0)
+- **Options J+3** — Max Pain $100 au-dessus du spot (+13,9%). Pinning gamma haussier théorique mais volume collapse limitant
+- **Short Interest élevé** — 18,39% — pas de squeeze setup mais pression vendeuse présente

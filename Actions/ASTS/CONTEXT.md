@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
+- **Recommandation :** SURVEILLER
+- **Score global :** 39,2/100
+- **Prix cible :** $94,54 (consensus)
+- **Stop-loss :** $62,29
+- **Statut thèse :** confirmée
 - **Horizon :** —
 
 ---
@@ -24,23 +24,32 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- **COURS_SOUS_MM50** : cours −1,5% sous MM50 $89,14 — résistance dynamique non conquise
+- **VOLUME_COLLAPSE** : volume 0,535× sur rebond +6,49% — pas de validation institutionnelle
+- **RSI_DÉGRADANT** : RSI 36,10 en baisse malgré rebond — faiblesse interne
+- **ATR_SPIKE (haut)** : ATR relatif 14,5% du cours ($12,73)
+- **REJET_100** : test et rejet de $100,94 le 09/06 — structure baissière
+- **Profil non rentable** : EPS estimé négatif, multiples extrêmes
+- **Secteur XLC bottom 3** : faiblesse sectorielle persistante
+- **Options J+3** : Max Pain $100 au-dessus du spot (+13,9%), pinning gamma haussier théorique
+- **Short Interest élevé** : 18,39%
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings : **2026-08-10** (J+56) — Est. EPS $−0,29 à $−0,17, Revenus $0,0B
+- Options expiry : **2026-06-18** (J+3) — max pain $100
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 35.14
-- **MM 50j :** 89.1
+- **RSI 14j :** 36.10
+- **MM 50j :** 89.14
 - **MM 200j :** —
-- **ATR 14j :** 12.66
-- **Volume moy. 20j :** 26955391
+- **ATR 14j :** 12.73
+- **Volume moy. 20j :** 27102134
 
 ---
 
@@ -48,8 +57,8 @@
 
 - **Date :** 2026-06-15
 - **Type :** update
-- **Fichier :** `ASTS_2026-06-15_update.md`
-- **Conclusion :** **Thèse confirmée et aggravée : SURVEILLER — rupture technique majeure sous MM50 $89,23 sur volume explosion 2,00×, chute −15,53% à $82,41, RSI 40,50 proche survente, score global ajusté 35,5/100 (bas de zone SURVEILLER)
+- **Fichier :** `ASTS_2026-06-15_17-00_update.md`
+- **Conclusion :** **Thèse SURVEILLER confirmée — rebond technique +6,49% à $87,755 sur volume collapse 0,535× (pas de conviction), RSI 36,10 proche survente malgré hausse, score global ajusté 39,2/100, anomalie options JSON résolue (max pain $100, call OI 69,7%). Ne pas entrer long sans break au-dessus de $92 sur volume >0,8×.**
 
 ---
 
