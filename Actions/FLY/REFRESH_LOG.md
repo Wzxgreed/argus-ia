@@ -1,5 +1,15 @@
 # FLY — Historique des Full Refreshes
 
+## 2026-06-15 — Full Refresh Triggered (snapshot 13h UTC)
+
+**Triggers :**
+- price_gap (high) : Gap -19.05% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 19.11% (seuil 5.0%)
+
+**Conclusion :** Traitee dans `FLY_2026-06-15_update.md` (10h UTC) et `FLY_2026-06-15_update_13h.md` (13h UTC) — gap deja traite a 10h UTC. DRAFT_refresh genere a 13h UTC (redondant avec 10h UTC) traite via update 13h UTC. Anomalie options partiellement resolue entre 10h et 13h UTC (put/call 0.27, call OI 78.5% restaures; max pain $65.00 aberrant persistant). These SURVEILLER (45.0) confirmee. DRAFT_refresh archive `_FLY_2026-06-15_DRAFT_refresh_13h.md`.
+
+---
+
 ## 2026-06-08 — Full Refresh Triggered (snapshot 13h UTC)
 
 **Triggers :**

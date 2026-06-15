@@ -1,7 +1,7 @@
 # FLY
 
 ## Thèse courante
-**SURVEILLER** (45.0) — Cours $31.87 (gap -19.05% vs prior close $39.37, −56.8% vs 52W high $73.80), volume session 14.54M (1.51× moy. 20j), RSI 32.85 **survente**, données techniques restaurées (ATR 6.09, MM50 39.47, cours -19.3% sous MM50). **Anomalie options RÉCURRENTE** (max pain $20.00 aberrant, put/call null, call OI null). Fondamentaux inchangés et défavorables (Filtre Qualité 2/6, Forward P/E −24.75, EV/Revenue 24.9x). Score Opportunité 5.3/10 (C **6.5**, V **6.0**, M **2.5**), Score Global Ajusté **45.0**, timing **Défavorable**. Consensus PT **$43.77 +37.3% au-dessus du spot** (13 analysts, révisé à la hausse). Short Interest **12.12%**. **Pas de position recommandée — SURVEILLER.** Prochain catalyst : expiration options 2026-06-18 (J+3), earnings Q2 2026 le 2026-08-04 (50 jours).
+**SURVEILLER** (45.0) — Cours $31.87 (gap -19.05% vs prior close $39.37, −56.8% vs 52W high $73.80), volume session 14.54M (1.51× moy. 20j), RSI 32.85 **survente**, données techniques restaurées (ATR 6.09, MM50 39.47, cours -19.3% sous MM50). **Anomalie options PARTIELLEMENT RÉSOLUE** (put/call 0.27 et call OI 78.5% restaures — skew haussier extreme; max pain $65.00 reste aberrant vs spot). Fondamentaux inchangés et défavorables (Filtre Qualité 2/6, Forward P/E −24.75, EV/Revenue 24.9x). Score Opportunité 5.3/10 (C **6.5**, V **6.0**, M **2.5**), Score Global Ajusté **45.0**, timing **Défavorable**. Consensus PT **$43.77 +37.3% au-dessus du spot** (13 analysts, révisé à la hausse). Short Interest **12.12%**. **Pas de position recommandée — SURVEILLER.** Prochain catalyst : expiration options 2026-06-18 (J+3), earnings Q2 2026 le 2026-08-04 (50 jours).
 
 ## Historique
 | Date | Fichier | Type |
@@ -34,6 +34,7 @@
 | 2026-06-08 | [FLY_2026-06-08_init.md](FLY_2026-06-08_init.md) | **Full Refresh** — Réécriture complète post-triggers (gap -12.65%, ATR spike 16.98%). Filtre Qualité 2/6 confirmé, TAM/peers qualitatifs, macro défavorable. Thèse SURVEILLER (45.0) confirmée. |
 | 2026-06-09 | [FLY_2026-06-09_update.md](FLY_2026-06-09_update.md) | **Close officiel 21h UTC** — rebond partiel +2.22% en fin de séance à $33.445 (vs low $31.91), volume session 6.31M (0.69×), RSI 40.32, cassure MM50 −14.3%. Scores inchangés. Agent **SURVEILLER (45.0) confirmé**. Thèse défavorable confirmée, rebond mécanique sans catalyst. |
 | 2026-06-10 | [FLY_2026-06-10_update_13h.md](FLY_2026-06-10_update_13h.md) | **Snapshot 13h UTC** — Stabilité totale vs 10h UTC, **anomalie options RÉSOLUE** (max pain $40.00 confirmé, put/call 0.93, call OI 51.8%), scores et fondamentaux inchangés. Thèse **SURVEILLER (46.8) confirmée**. |
+| 2026-06-15 | [FLY_2026-06-15_update_13h.md](FLY_2026-06-15_update_13h.md) | **Snapshot 13h UTC** — Stabilité totale vs 10h UTC. **Mutation options** : anomalie partiellement résolue (put/call 0.27, call OI 78.5% restaures — skew haussier extreme; max pain $65.00 aberrant persistant). Données cours/fundamentaux/scores inchangées. Thèse **SURVEILLER (45.0) confirmée**, timing Défavorable. |
 | 2026-06-15 | [FLY_2026-06-15_update.md](FLY_2026-06-15_update.md) | **Gap baissier -19.05%**, RSI 32.85 survente, données MT restaurées (ATR 6.09, MM50 39.47), volume explosion 14.54M (1.51x). Consensus révisé à la hausse $43.77 (13 analysts). Thèse **SURVEILLER (45.0) confirmée avec intensité négative renforcée**, timing Défavorable. |
 | 2026-06-10 | [FLY_2026-06-10_update.md](FLY_2026-06-10_update.md) | **Snapshot 10h UTC** — Révision majeure du close 09/06 à $36.18 (+8.18% vs 33.445 précédent), short interest +23.9% à 12.12%, scores Catalyseur/Valorisation dégradés (−1.5 pt chacun), thèse **SURVEILLER (46.8) modifiée** — révision invalide le gap baissier, prudence maintenue. |
 | 2026-06-09 | [FLY_2026-06-09_update_13h.md](FLY_2026-06-09_update_13h.md) | **Mise à jour 13:00 UTC** — Stabilité confirmée vs 10h UTC. **Anomalie options RÉSOLUE** (max pain $40.00 confirmé, put/call 1.00, call OI 50.0%). Scores et fondamentaux inchangés. Agent **SURVEILLER (43.8) confirmé**. Thèse défavorable confirmée. |
@@ -43,7 +44,8 @@
 - Prochain earnings : **2026-08-04** (Q2 2026) — Est EPS -$0.47 à -$0.45, Rev $0.1B (55 jours)
 - ~~Expiration options : **2026-05-29** (passée)~~
 - ~~Expiration options : **2026-06-05** (passée)~~
-- Expiration options : **2026-06-12** (J-2) — max pain opérationnel $40.00 vs spot révisé $36.18
+- ~~Expiration options : **2026-06-12** (passée)~~
+- Expiration options : **2026-06-18** (J+3) — max pain aberrant $65.00, put/call 0.27, call OI 78.5%
 
 ## Alertes actives
 - ~~**DEUXIÈME GAP NON EXPLIQUÉ** — Deuxième gap haussier consécutif : +17.57% à $58.20 (2026-05-26 17:00 UTC) après +15.49% à $49.50 (2026-05-25/26). Cumul +35.8% en 2 sessions sans catalyst. Risque de gap fill élevé.~~ **EFFACÉ** — Gap fill matérialisé : cours retombé à $41.90 (-30.5% vs 27/05), rebond de clôture à $44.24.
