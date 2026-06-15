@@ -9,19 +9,19 @@
 
 - **Recommandation :** ACHETER · Direction Long
 **Score Global :** 70.0/100 (ajusté **75.0**)
-**Prix cible desk :** $145.92 (TP ATR-based) / $163.29 (consensus analystes)
-**Stop-loss :** $119.12
+**Prix cible desk :** $146.36 (TP ATR-based) / $163.29 (consensus analystes)
+**Stop-loss :** $119.51
 **Horizon :** 1–3 mois
-**Statut thèse :** 🟢 **Modifiée positivement** — snapshot 10h UTC du 15/06 : **[DONNÉES RÉTABLIES]** (close $129.84, ATR $5.36, MM50 $120.16) ; RSI normalisé à **68.62** (sortie zone surachat extrême >80, −14.04 pts vs close 09/06) ; volume recovery **2.29M (0.84× moy. 20j)** (+53% vs close 09/06). Score Global ajusté **75.0** (+21.7 pts vs 53.3) — passage zone **ACHETER Standard** (was SURVEILLER). Timing **Favorable**. **Anomalie options JSON persistante** (max pain $190 / 0.02 / 97.8% aberrants → valeurs opérationnelles conservées $130/1.52/39.7%). Pinning options J+3 (expiration 18/06, max pain $130). Signal sectoriel **NEUTRE** (XLV #4, momentum score 5.46).
+**Statut thèse :** 🟢 **Confirmée avec prudence accrue** — snapshot 17h UTC du 15/06 : close officiel US **$130.25** (+0.31% vs snapshot 13h), données techniques quasi-stables (RSI 68.84, ATR $5.37, MM50 $120.45). **Volume collapse extrême** : 479K (0.18× moy. 20j) vs 2.29M au snapshot 13h — participation quasi nulle, marché déserté. Anomalie options JSON reste résolue (max pain $130, put/call 1.52, call OI 39.7%). Pinning options J+3 (expiration 18/06, max pain $130). Signal sectoriel **NEUTRE À FAIBLE** (XLV #6, momentum score 3.11).
 
-**Synthèse :** Agilent a confirmé sa qualité fondamentale par un beat/guidance-up Q2 2026 spectaculaire (gap +17.3%). Après 5 séances de correction/consolidation post-gap et de données partielles, le snapshot du 15 juin marque un **tournant technique majeur** : RSI normalisé (68.62), données rétablies, volume en recovery. Le Filtre Qualité 5/6 est maintenu, le consensus $163.29 laisse un upside **+25.7%**. Le scoring agent a massivement upgradé l'action : Score Global ajusté **75.0/100** (was 37.5), recommandation **ACHETER Standard** (was SURVEILLER). Les niveaux SL/TP sont recalculés sur données complètes ($119.12 / $145.92, R/R 1.5). **Entrée possible au spot ($129.84) ou en scale-in sur pullback vers $126–$128.** Risque principal : pinning options J+3 autour de $130.
+**Synthèse :** Agilent a confirmé sa qualité fondamentale par un beat/guidance-up Q2 2026 spectaculaire (gap +17.3%). Après 5 séances de correction/consolidation post-gap, le snapshot du 15 juin marque un **tournant technique majeur** : données rétablies, RSI normalisé (68.84), structure saine. Cependant, le **volume collapse extrême à 479K (0.18×)** signalé au snapshot 17h UTC transforme le setup en un marché déserté où tout signal technique est à prendre avec prudence. Le Filtre Qualité 5/6 est maintenu, le consensus $163.29 laisse un upside **+25.3%**. Le scoring agent maintient l'action en zone **ACHETER Standard** (Score Global ajusté 75.0). Les niveaux SL/TP sont recalculés sur données 17h UTC ($119.51 / $146.36, R/R 1.5). **Entrée possible au spot ($130.25) UNIQUEMENT si le volume normalise >1.0× moy. 20j ; privilégier le scale-in sur pullback vers $126–$128.** Risques principaux : (1) pinning options J+3 autour de $130, (2) volume anormalement faible signalant absence d'institutionnels.
 
 ---
 
 ## 📜 Historique des analyses
 - **Score global :** —/10
 - **Prix cible :** $—
-- **Stop-loss :** $119.12
+- **Stop-loss :** $119.51
 - **Statut thèse :** modifiée
 - **Horizon :** 1–3 mois
 
@@ -58,17 +58,18 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **2026-06-18** · Expiration options (max pain $130) · J+3
+- **2026-08-26** · Earnings Q3 2026 · Est EPS $1.43–$1.51, Rev $1.8B · J+72
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 69.46
-- **MM 50j :** 120.47
+- **RSI 14j :** 68.84
+- **MM 50j :** 120.45
 - **MM 200j :** —
 - **ATR 14j :** 5.37
-- **Volume moy. 20j :** 2662117
+- **Volume moy. 20j :** 2668018
 
 ---
 
@@ -77,7 +78,7 @@
 - **Date :** 2026-06-15
 - **Type :** update
 - **Fichier :** `A_2026-06-15_update.md`
-- **Conclusion :** > **Date :** 2026-06-15 · Snapshot 13:00 UTC
+- **Conclusion :** > **Date :** 2026-06-15 · Snapshot 17:00 UTC (close officiel US) · Cours $130.25 (+0.31%) · Volume collapse extrême 479K (0.18×) · RSI 68.84 stable · Anomalie options JSON résolue · Score Global ajusté 75.0/100 inchangé · Recommandation ACHETER Standard maintenue avec prudence accrue due au volume · SL/TP recalculés $119.51/$146.36 · Pinning options J+3 · Timing Favorable avec réserve volume
 
 ---
 
