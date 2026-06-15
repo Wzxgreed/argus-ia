@@ -46,18 +46,15 @@ Thèse d'investissement : FUBO est un titre spéculatif du secteur Communication
 | 2026-06-09 | [FUBO_2026-06-09_update.md](FUBO_2026-06-09_update.md) | Mise à jour **close officielle 21:00 UTC** — micro-progression +0.31% à $9.73, volume retraité 0.65× (760k vs 904k à 13h), RSI 54.12 (+1.69 pt), agent légèrement downgradé 60.5/100 (−0.7 pt, Momentum 5.0/10 −0.3 pt), structure options haussière inchangée (max pain $13.00 / put/call 0.23 / call OI 81.0%), anomalie earnings Q1 persistante (24 sessions), thèse **ATTENDRE CONFIRMÉE** (~58.5/100) |
 
 ## Agenda
-- **Earnings Q1 2026 :** anomalie calendrier persistante — `upcoming_events_latest.json` (2026-06-09) place l'earnings au **2026-06-09** (jour J, `days_until: 0`). Aucun résultat (EPS, revenue, guidance) n'est visible dans `data/latest.json` au snapshot 15/06. [ANOMALIE PERSISTANTE — ~30 SESSIONS]
-- Échéance options : **2026-06-18** (J+3 — max pain opérationnel $13.00, put/call 0.23, call OI 81.0%)
-- Prochaine échéance earnings Q2 : ~août 2026
+- **Earnings Q2 2026** — `upcoming_events_latest.json` (2026-06-15) place l'earnings au **2026-08-06** (52 jours, Est EPS $-0.32-$0.07, Rev $1.5B). L'anomalie Q1 (~30 sessions jour J) semble résolue par avancement du calendrier. *[Confirmer publication Q1]*
+- Échéance options : **2026-06-18** (J+3 — max pain $11.00, put/call 0.46, call OI 68.4%)
 
 ## Alertes actives
-- **Gap Down −6.11%** — Seuil ±5.0% franchi, volume liquidation 1.36× — 2026-06-15
-- **ATR_SPIKE** (medium) — ATR relatif 8.65% (seuil 5.0%), persistant — 2026-06-15
-- **Structure Options Haussière (valeurs opérationnelles)** — Max pain $13.00, put/call 0.23, call OI 81.0%, spot à −24.4% sous max pain → aimant haussier mécanique vers $13.00 à échéance J+3 (2026-06-18) — 2026-06-15
-- **Short Squeeze Setup (latent)** — short interest 24.32% + call OI dominant 81.0% + put/call 0.23 = risque de squeeze technique si catalyseur positif — 2026-06-15
-- **Données Options JSON Anomalie** — max pain $3.00 / call OI 0% aberrants dans `latest.json` (valeurs opérationnelles conservées) — 2026-06-15
-- **Earnings Q1 2026 en attente** — anomalie calendrier : `upcoming_events_latest.json` place l'earnings au **2026-06-09** (jour J, `days_until: 0`), mais aucun résultat visible — [ANOMALIE PERSISTANTE — ~30 SESSIONS]
-- **Divergence Yahoo/FMP Market Cap** — ×11.3 d'écart entre sources ($289.4M vs ~$3.27B)
-- **Sector Rotation XLC Bottom 3** — malus sectoriel maintenu (dernière lecture 2026-06-09)
+- **Gap Down −6.11% / Rebound +1.82%** — Gap down matinal franchi, puis rebound à $10.01 sur volume faible 0.55× — 2026-06-15
+- **ATR_SPIKE** (medium) — ATR relatif 8.49% (seuil 5.0%), persistant — 2026-06-15
+- **Structure Options Haussière** — Max pain $11.00, put/call 0.46, call OI 68.4%, spot à −9.1% sous max pain — 2026-06-15
+- **Short Squeeze Setup (latent)** — short interest 24.32% + call OI dominant 68.4% + put/call 0.46 = risque de squeeze technique si catalyseur positif — 2026-06-15
+- **Divergence Yahoo/FMP Market Cap** — ×11.3 d'écart entre sources ($294.6M vs ~$3.27B)
+- **Sector Rotation XLC Bottom 3** — malus sectoriel maintenu (dernière lecture 2026-06-15)
 - **Qualité dégradée** — Score Qualité 1/6, patrimoine net négatif, FCF négatif
-- **Downgrade Thèse** — ATTENDRE (~58.5/100) → SURVEILLER (~42.5/100) — 2026-06-15
+- **Upgrade Thèse** — SURVEILLER (~42.5/100) → ATTENDRE (56.0/100) — 2026-06-15
