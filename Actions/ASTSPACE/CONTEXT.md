@@ -11,7 +11,7 @@
 - **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** validée
+- **Statut thèse :** invalidée
 - **Horizon :** —
 
 ---
@@ -30,7 +30,9 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-16** · earnings · Earnings ...
+- **2026-06-16** · earnings · Earnings ... (placeholder glissant)
+- **2026-08-10** · earnings · ASTS earnings (proxy) — Est EPS $−0,29 à $−0,17
+- **2026-06-18** · options expiry · ASTS nearest expiry — max pain $100
 
 ---
 
@@ -42,14 +44,21 @@
 - **ATR 14j :** —
 - **Volume moy. 20j :** —
 
+> **Proxy ASTS (snapshot 17h UTC 2026-06-16) :**
+> - Cours **$83,09** — rupture −5,12% vs snapshot 10h ($87,57)
+> - RSI **28,73** — survente aggravée
+> - MM 50j **$88,90** — cours −6,53% sous la moyenne
+> - ATR 14j **$12,40**
+> - Volume **11,35M** (0,42× moy. 26,89M) — effondrement
+
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-16
 - **Type :** update
-- **Fichier :** `ASTSPACE_2026-06-16_update.md`
-- **Conclusion :** > **Proxy ASTS** : snapshot 10h UTC — stabilité mécanique pré-ouverture US à **$87,57** (identique au close 21h UTC 15/06), volume confirmé **0,87×** (23,92M vs moy. 27,57M, +1,5% vs snapshot 21h), RS
+- **Fichier :** `ASTSPACE_2026-06-16_17-00_update.md`
+- **Conclusion :** Proxy ASTS rupture technique confirmée −5,12% à $83,09 sur volume collapse 0,42×, RSI survente aggravée 28,73, gap MM50 creusé −6,53%. Score agent ASTS 43,0/100 (SURVEILLER, +3,8 pts mécanique). ASTSPACE officiel 53+ snapshots sans données.
 
 ---
 

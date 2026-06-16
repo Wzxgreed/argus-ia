@@ -10,14 +10,14 @@
 ## Thèse courante
 
 **Recommandation :** ATTENDRE *(inchangée)*
-**Score global ajusté :** 55.0/100
+**Score global ajusté :** 55.8/100
 **Prix cible consensus :** $9.05 (11 analysts)
-**Prix cible technique :** $3.58 (3×ATR)
-**Stop-loss :** $2.68 (2×ATR)
+**Prix cible technique :** $3.44 (3×ATR)
+**Stop-loss :** $2.59 (2×ATR)
 **Statut :** Thèse non établie — profil spéculatif biotech pré-profit, Filtre Qualité 2/6
 **Horizon :** 6–12 mois (dépendant des catalyseurs cliniques)
 
-**Résumé :** CTMX est une biotech en phase clinique avancée (plateforme Probody) avec des partenariats de qualité (AbbVie, BMS, Amgen). Le snapshot 21h UTC du 2026-06-15 enregistre un **close à $3.04** (+1.0% vs 17h UTC) avec des données techniques **améliorées**. Le **RSI remonte à 25.93** (+1.69 pts) mais reste en survente extrême. L'**ATR se dilate légèrement à $0.18** et la **MM50 est stable à $3.90** (écart −22.1%). Le **volume rebondit fortement à 0.87×** moyenne 20j — **retour à la normale** après l'anémie critique de 0.37× observée au snapshot 17h UTC. La **structure options reste très haussière** (put/call 0.14, call OI 87.8%, max pain $4.00) avec expiration demain (2026-06-18) — pin risk haussier maintenant soutenu par un volume réel. Le **Score Global Ajusté reste à 55.0/100** et le **Score Opportunité à 5.8/10**. La recommandation reste **ATTENDRE**. Le timing reste **Défavorable** (inchangé) en raison de la position sous MM50 et de la tendance baissière persistante.
+**Résumé :** CTMX est une biotech en phase clinique avancée (plateforme Probody) avec des partenariats de qualité (AbbVie, BMS, Amgen). Le snapshot 17h UTC du 2026-06-16 enregistre un **close à $2.93** (−3.62% vs snapshot 10h UTC) avec des données techniques **dégradées**. Le **RSI s'effondre à 17.16** (−8.77 pts), atteignant une **survente extrême historique**. L'**ATR se rétracte à $0.17** et la **MM50 glisse à $3.87** (écart −24.3%). Le **volume retombe à 0.73×** moyenne 20j — retour à l'anémie. Le **support $2.98 est cassé** (low $2.865) — distribution vendeuse en session US. La **structure options reste très haussière** (put/call 0.14, call OI 87.8%, max pain $4.00) avec expiration demain (2026-06-18) — pin risk haussier en conflit avec le momentum baissier. Le **Score Global Ajusté remonte marginalement à 55.8/100** (+0.8 pt) et le **Score Opportunité à 5.9/10** (+0.1 pt, valorisation ↑, momentum ↓). La recommandation reste **ATTENDRE**. Le timing reste **Défavorable** (renforcé par le break de support).
 
 ---
 
@@ -44,6 +44,7 @@
 | 2026-06-15 | `CTMX_2026-06-15_update.md` | Mise à jour snapshot **17:00 UTC** | **Close stable $3.01** (+0.00%), RSI **24.24** (+1.22 pts, survente extrême), volume **0.37×** (anémie critique aggravée), MM50 **$3.90** (glissement baissier), **anomalie options JSON RÉSOLUE** (max pain $4.00, put/call 0.14, call OI 87.8% — structure très haussière), expiration demain, Score Global Ajusté **55.0/100** (stable), Score Opportunité **5.8/10** (stable), recommandation **ATTENDRE** inchangée, timing **Défavorable** (dégradé), SL/TP **$2.67/$3.52** |
 | 2026-06-15 | `CTMX_2026-06-15_update.md` | Mise à jour snapshot **21:00 UTC** | **Close $3.04** (+1.0% vs 17h), RSI **25.93** (+1.69 pts, survente extrême persistante), volume **0.87×** (normalisation — retour au-dessus moyenne), MM50 **$3.90** (stable), options très haussières inchangées (max pain $4.00, put/call 0.14, call OI 87.8%), expiration demain, Score Global Ajusté **55.0/100** (stable), Score Opportunité **5.8/10** (stable), recommandation **ATTENDRE** inchangée, timing **Défavorable** (inchangé), SL/TP **$2.68/$3.58** |
 | 2026-06-16 | `CTMX_2026-06-16_update.md` | Mise à jour snapshot **10:00 UTC** | **Stabilité mécanique totale** vs snapshot 21h UTC 15/06 (données identiques close 21h UTC 15/06), cours $3.04 inchangé, RSI 25.93 inchangé, ATR $0.18 inchangé, MM50 $3.90 stable, volume 0.87× inchangé, **anomalie options JSON 6e occurrence traitée** (max pain $6.00 aberrant → $4.00 conservé, put/call 0.0 aberrant → 0.14 conservé, call OI 100.0% aberrant → 87.8% conservé), **DRAFT_refresh classé faux positif** (ATR_SPIKE sans mutation), Score Global Ajusté **55.0/100** confirmé sans modification, SL $2.68 / TP $3.58 maintenus, ATTENDRE confirmée |
+| 2026-06-16 | `CTMX_2026-06-16_update.md` | Mise à jour snapshot **17:00 UTC** | **Distribution baissière −3.62% à $2.93**, RSI **17.16** (−8.77 pts, survente extrême historique), volume **0.73×** (anémie revenant), MM50 **$3.87** (glissement baissier, écart −24.3%), **support $2.98 cassé** (low $2.865), options très haussières inchangées et **données propres** (pas d'anomalie JSON), Score Global Ajusté **55.8/100** (+0.8 pt), Score Opportunité **5.9/10** (+0.1 pt, C:6.5 V:6.5 M:4.0), Score Valorisation **6.5/10** (+0.5 pt), Score Momentum **4.0/10** (−0.5 pt), recommandation **ATTENDRE** inchangée, timing **Défavorable** renforcé, SL/TP révisés **$2.59/$3.44** |
 
 ---
 
@@ -56,20 +57,20 @@
 
 ## Alertes actives
 
-- 🟢 Cours $3.04 — +1.0% vs 17h, high $3.13 (+5.3% intraday max), low $2.98 (support testé et tenu)
-- 🟡 Volume 0.87× — normalisation, retour au-dessus de la moyenne
-- 🔴 RSI 25.93 — survente extrême persistante
+- 🔴 Cours $2.93 — −3.62% vs 10h UTC, high $3.05, low $2.865 (support $2.98 cassé)
+- 🔴 Volume 0.73× — retour à l'anémie, pas de conviction achat ni vente
+- 🔴 RSI 17.16 — survente extrême historique, épuisement vendeur potentiel
+- 🔴 Support $2.98 **CASSÉ** — nouveau support $2.86 (low du jour)
 - 🟢 Short interest 14.97% — stable, potentiel short squeeze si catalyseur
-- 🔴 Cours sous MM50 ($3.90) avec écart −22.1%
-- 🟡 Score Global Ajusté 55.0/100 — au-dessus du seuil institutionnel (50) mais stable
+- 🔴 Cours sous MM50 ($3.87) avec écart −24.3%
+- 🟡 Score Global Ajusté 55.8/100 — au-dessus du seuil institutionnel (50), +0.8 pt
 - 🟡 Recommandation ATTENDRE — zone de risque technique accru
 - 🟢 Options — **structure très haussière** (max pain $4.00, put/call 0.14, call OI 87.8%), expiration demain
-- 🟢 Anomalie options JSON **RÉSOLUE** — données fiables rétablies
 - [WARNING] Données MM200 manquantes
 - [WARNING] Biotech pré-revenue — scoring standard peu fiable
-- [INFO] Earnings confirmé le 2026-08-06 (J+52) — Est EPS $−0.13 à $−0.07
-- [INFO] Sector rotation : XLV momentum 2.95 (rang 6e/11), données exploitables
-- [INFO] Expiration options **demain** (2026-06-18) — volatilité potentielle, pin risk vers $4.00
+- [INFO] Earnings confirmé le 2026-08-06 (J+51) — Est EPS $−0.13 à $−0.07
+- [INFO] Sector rotation : XLV momentum 3.55 (rang 6e/11), données exploitables
+- [INFO] Expiration options **demain** (2026-06-18) — volatilité potentielle, pin risk vers $4.00 vs spot $2.93
 
 ---
 
