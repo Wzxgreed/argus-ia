@@ -1,5 +1,14 @@
 # PLTR — Historique des Full Refreshes
 
+## 2026-06-16 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +5.25% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 5.72% (seuil 5.0%)
+
+**Conclusion :** FAUX POSITIF — Les triggers correspondent au mouvement de +5.25% du 15/06 (close $127.99 → $134.71) déjà analysé dans PLTR_2026-06-15_21-00_update.md. Le snapshot 16/06 10h UTC est un snapshot pré-marché avec stabilité mécanique totale (cours, RSI, MM50, ATR inchangés). Le DRAFT_refresh est archivé. Thèse SURVEILLER confirmée sans modification.
+
+---
 
 ## 2026-05-28 — Full Refresh Triggered
 

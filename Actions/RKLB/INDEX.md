@@ -1,10 +1,12 @@
 # RKLB
 
 ## Thèse courante
-**2026-06-15 (snapshot 21h UTC — pipeline officiel)** — SURVEILLER. Rebond technique consolidé +0.84% à $109.25 sur volume normalisé 1.03× (correction volumétrique majeure vs 0.72× à 17h), légitimant le rebond post-gap. Cours $109.25, RSI 33.14 (zone basse stable), ATR $12.04, MM50 $101.57 (spot +7.6% — tendance haussière structurelle réaffirmée). Score Global ajusté 47.0/100 (stable), Score Opportunité 4.2/10. Consensus PT $90.83 (18 analysts). Filtre Qualité 3/6 inchangé. SL $85.17 / TP $145.37 (ATR $12.04). Options stables (Max Pain $120.00, Put/Call 0.74, Call OI 57.6%). Zone critique : support MM50 $101.57 / résistance $113.65 (close 08/06).
+**2026-06-16 (snapshot 10h UTC — pipeline officiel)** — SURVEILLER. Stabilité totale des données brutes et du scoring vs snapshot 21h UTC 15/06. Cours $109.25 inchangé, RSI 33.14, ATR $12.04, MM50 $101.57 (spot +7.6%). Score Global ajusté 47.0/100 (stable), Score Opportunité 4.2/10. Consensus PT $90.83 (18 analysts). Filtre Qualité 3/6 inchangé. SL $85.17 / TP $145.37 (ATR $12.04). [ANOMALIE OPTIONS JSON RÉCURRENTRE] dans snapshot 10h UTC (Max Pain $35.00 aberrant, Put/Call null, Call OI null) — données opérationnelles du 21h UTC 15/06 conservées (Max Pain $120.00, Put/Call 0.74, Call OI 57.6%). DRAFT_refresh du 16/06 archivé comme artefact de détection pré-ouverture (triggers PRICE_GAP +6.70% et ATR_SPIKE 11.02% déjà traités le 15/06). Zone critique : support MM50 $101.57 / résistance $113.65 (close 08/06).
 
 ## Historique
 | Date | Fichier | Type |
+|------|---------|------|
+| 2026-06-16 | [RKLB_2026-06-16_update.md](RKLB_2026-06-16_update.md) | Snapshot 10h UTC — stabilité totale des données brutes et du scoring vs 21h UTC 15/06, [ANOMALIE OPTIONS JSON RÉCURRENTRE] Max Pain $35.00/Put/Call null/Call OI null, DRAFT_refresh archivé comme artefact pré-ouverture, thèse SURVEILLER confirmée |
 |------|---------|------|
 | 2026-06-15 | [RKLB_2026-06-15_update_21h.md](RKLB_2026-06-15_update_21h.md) | Snapshot 21h UTC — consolidation rebond +0.84% à $109.25, correction volumétrique majeure (1.03× vs 0.72× à 17h), score global ajusté 47.0/100 (stable), MM50 $101.57 (spot +7.6%), options stables, thèse SURVEILLER confirmée avec nuance améliorée |
 | 2026-06-15 | [RKLB_2026-06-15_update_17h.md](RKLB_2026-06-15_update_17h.md) | Snapshot 17h UTC — rebond +5.81% à $108.34, volume normalisé 0.72×, score global ajusté 47.0/100 (SURVEILLER, +10.0 pts), MM50 $101.55 (spot +6.7%), options rétablies, thèse modifiée de ÉVITER à SURVEILLER |
