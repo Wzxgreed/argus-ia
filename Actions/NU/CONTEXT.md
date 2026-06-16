@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score Global :** 64.2/100 (ajusté 56.2)
-- **Score Opportunité :** 6.4/10 (C:6.5 V:8.0 M:3.8)
+- **Recommandation :** ACHETER (Réduit)
+- **Score Global :** 68.0/100 (ajusté 60.0)
+- **Score Opportunité :** 6.8/10 (C:6.5 V:8.0 M:5.3)
 - **Prix Cible :** $17.49 (consensus FMP, 12 analysts)
-- **Stop-Loss :** $11.41 (ATR $0.51)
-- **Statut Thèse :** Score ajusté 56.2 — snapshot 10h UTC 16/06 : **stabilité mécanique totale** vs close US 15/06 ($12.43, +1.97%), volume confirmé 63.81M (0.99×), RSI 43.11 stable, **anomalie options JSON récurrente traitée** (max pain 1.00 aberrant → valeur opérationnelle $15.00 conservée), scores agents inchangés (Catalyseur 6.5 / Valorisation 8.0 / Momentum 3.8), fondamentaux intacts (forward P/E 10.79×, upside +40.7%), support $11.20 à +11.0%, gap MM50 stable **−8.5%**, SL/TP **$11.41/$13.96** maintenus, timing défavorable
+- **Stop-Loss :** $11.69 (ATR $0.51)
+- **Statut Thèse :** Score ajusté 60.0 — snapshot 17h UTC 16/06 : **rebond technique confirmé** en séance US (+2.21% à $12.705, cumul +4.2% sur 2 jours), **volume effondré 0.43×** (alerte conviction), RSI remontant 43.11 → **46.14**, score momentum révisé à la hausse 3.8 → **5.3/10**, score global ajusté bascule 56.2 → **60.0** (zone ACHETER Réduit atteinte), gap MM50 réduit −8.5% → **−6.2%**, structure options bullish stable (max pain $15.00, put/call 0.42, call OI 70.4%), fondamentaux intacts (forward P/E 11.03×, upside +37.6%), support $11.20 à +13.4%, SL/TP **$11.69/$14.23** révisés, timing défavorable maintenu
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
@@ -44,11 +44,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 45.1
+- **RSI 14j :** 46.14
 - **MM 50j :** 13.54
 - **MM 200j :** —
 - **ATR 14j :** 0.51
-- **Volume moy. 20j :** 62258646
+- **Volume moy. 20j :** 62517133
 
 ---
 
@@ -56,8 +56,8 @@
 
 - **Date :** 2026-06-16
 - **Type :** update
-- **Fichier :** `NU_2026-06-16_13-00_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité mécanique totale pré-ouverture US sur deux snapshots 10h et 13h, données brutes identiques au close 15/06 $12
+- **Fichier :** `NU_2026-06-16_17-00_update.md`
+- **Conclusion :** **Thèse : MODIFIÉE — ACHETER (Réduit) (rebond technique confirmé en séance US +2.21% à $12.705, RSI remontant 46.14, score momentum révisé 5.3/10, score global ajusté bascule 60.0 zone ACHENTER Réduit, gap MM50 réduit −6.2%, options bullish stables, ALERTE volume effondré 0.43×)**
 
 ---
 
