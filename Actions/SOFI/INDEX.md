@@ -38,6 +38,7 @@
 | 2026-06-15 | Mise à jour quotidienne (snapshot 13:00 UTC — stabilité mécanique, données options partiellement restaurées) | [SOFI_2026-06-15_update.md](./SOFI_2026-06-15_update.md) | Snapshot 13h UTC : cours $16.58 stable, RSI 55.69, ATR $1.08, MM50 $16.83. Volume 0.69× (retrait −37%). [RÉSOLU PARTIELLEMENT] Options Put/Call 0.42 et Call OI 70.5% rétablis (vs null à 10h) — repositionnement haussier marginal. Max Pain $1.00 aberrant persistant. Scores inchangés : Opportunité 6.0/10, Catalyseur 6.8/10, Valorisation 6.0/10, Momentum 5.0/10. Score Global 52.3/100 (ATTENDRE). Timing Défavorable (sous MM50). SL $14.42, TP $19.82. Thèse confirmée. |
 | 2026-06-15 | Mise à jour quotidienne (snapshot 17:00 UTC — close de session, reclaim MM50, reclassement ATTENDRE → ACHETER Réduit) | [SOFI_2026-06-15_update.md](./SOFI_2026-06-15_update.md) | Close $17.13 (+3.32% vs previous close $16.58), reclaim MM50 $16.86 (+1.60%). RSI 56.66, ATR $1.05 (compression). Score Global ajusté 69.5/100 (ACHETER Réduit). Score Momentum 7.5/10 (+2.5 pts). SL $15.03, TP $20.28. Volume 0.58× faible — manque de conviction institutionnelle. Max Pain $1.00 aberrant persistant. Timing Favorable. Thèse modifiée. |
 | 2026-06-15 | Mise à jour quotidienne (snapshot 21:00 UTC — close final confirmé, correction volume, DRAFT_refresh traité) | [SOFI_2026-06-15_update.md](./SOFI_2026-06-15_update.md) | Close final $17.13 (inchangé vs 17h). Volume corrigé de 42.31M (0.58×) à **75.98M (1.03×)** — reclaim MM50 validé avec conviction institutionnelle. DRAFT_refresh trigger ATR_SPIKE archivé comme faux positif. Scores inchangés 69.5/100 (ACHETER Réduit). SL $15.03, TP $20.28. Thèse confirmée et renforcée. |
+| 2026-06-16 | Mise à jour quotidienne (snapshot 10:00 UTC — pré-ouverture US, stabilité mécanique, DRAFT_refresh archivé) | [SOFI_2026-06-16_update.md](./SOFI_2026-06-16_update.md) | Données pré-ouverture identiques au close 15/06. Cours $17.13, RSI 56.66, ATR $1.05, MM50 $16.86 — tous inchangés. Volume ajusté 76.40M (1.03×). DRAFT_refresh ATR_SPIKE 6.13% archivé comme faux positif (même que 15/06). Options partielles (Put/Call et Call OI null) — valeurs 15/06 conservées. Score Global 69.5/100 (ACHETER Réduit) inchangé. SL $15.03, TP $20.28. Thèse confirmée. |
 
 ---
 
@@ -47,7 +48,7 @@
 **Prix cible :** $20.28 (cours + 3×ATR)
 **Stop-loss :** $15.03 (cours − 2×ATR)
 **Upside/Downside :** +18.4% / −12.3%
-**Dernière mise à jour :** 2026-06-15 (snapshot 21:00 UTC — close final confirmé, correction volume majeure, DRAFT_refresh traité)
+**Dernière mise à jour :** 2026-06-16 (snapshot 10:00 UTC — pré-ouverture US, stabilité mécanique, DRAFT_refresh archivé faux positif)
 
 SoFi est une fintech-banque hybride avec un écosystème complet (lending + banking + investing) et une marque forte chez les millennials. Le charter bancaire 2022 crée une barrière réglementaire modérée vs les fintechs non-banques. Le snapshot du **2026-06-15 à 21h UTC** (close final confirmé) valide le **reclaim de la MM50** avec le cours à **$17.13** (+3.32% vs previous close $16.58). Le cours reste **au-dessus de la MM50 $16.86** (+1.60%). Le **Score Global ajusté reste à 69.5/100**, dans la fourchette **ACHETER (60–74)** avec sizing **Réduit**. Le **Score Momentum reste à 7.5/10** (haussier), tandis que le **Score Valorisation reste à 5.5/10**. 
 

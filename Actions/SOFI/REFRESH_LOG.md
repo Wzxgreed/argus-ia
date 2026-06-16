@@ -1,5 +1,20 @@
 # SOFI — Historique des Full Refreshes
 
+## 2026-06-16 — Full Refresh Conclu (snapshot 10:00 UTC — pré-ouverture US, DRAFT archivé faux positif)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.13% (seuil 5.0%)
+
+**Conclusion :** CONFIRME — Faux positif. Même trigger que le 2026-06-15. Le DRAFT_refresh 16/06 est archivé.
+- L'ATR relatif 6.13% est un **faux positif** : l'ATR est stable à **$1.05** (compression), pas d'expansion. Même anomalie mécanique que les DRAFTs des 2026-06-15.
+- Le snapshot `data/latest.json` (timestamp 2026-06-16T10:00:08+00:00) confirme la **stabilité totale** des données vs le close 2026-06-15 21:00 UTC : cours $17.13, RSI 56.66, ATR $1.05, MM50 $16.86, volume 76.40M (1.03×) — ajustement mécanique mineur vs 75.98M.
+- Aucun nouvel événement structurant ne modifie le moat, le TAM ou la qualité bénéfice. Le Filtre Qualité reste 4/6 (Quality Partielle).
+- Données options partielles dans `data/latest.json` (Put/Call et Call OI `null`) — valeurs du 15/06 conservées : Max Pain $17.00, Put/Call 0.42, Call OI 70.5%. Max Pain aberrant $1.00 persistant.
+- Score Opportunité 6.5/10, Score Global ajusté 69.5/100 (ACHETER Réduit) — inchangés. Timing Favorable maintenu.
+- **Action :** DRAFT_refresh archivé (`SOFI_2026-06-16_DRAFT_refresh_ARCHIVED.md`). Pas de réécriture de `_init.md` requise — la structure fondamentale du 2026-05-17 reste valide, et la mise à jour `SOFI_2026-06-16_update.md` capture la stabilité mécanique pré-ouverture.
+
+---
+
 ## 2026-06-15 — Full Refresh Conclu (snapshot 21:00 UTC — close final, DRAFT traité)
 
 **Triggers :**
