@@ -24,13 +24,16 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🔴 **Cassure MM50** — Cours $134.71 sous MM50 $139.36 (snapshot 16/06 13h UTC) — invalidation retournement haussier persistante, écart −3.3%
+- ✅ **Anomalie options JSON RÉSOLUE** — Snapshot 16/06 13h UTC : valeurs cohérentes restaurées (Max Pain $140.00, Put/Call 0.68, Call OI 59.5%)
+- 🟡 **Accounting risk non quantifié** — `data/accounting_risk_latest.json` indisponible
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q2 FY2026 :** 2026-08-03 (48 jours) — Est. EPS $0.32–$0.40, Rev $1.8B
+- **Expiration options :** 2026-06-18 (2 jours) — Max Pain $140.00
 
 ---
 
@@ -47,16 +50,16 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-16
-- **Type :** full refresh
-- **Fichier :** `_PLTR_2026-06-16_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-16
+- **Type :** update
+- **Fichier :** `PLTR_2026-06-16_13-00_update.md`
+- **Conclusion :** Stabilité mécanique totale vs snapshot 10h UTC. Anomalie options JSON RESOLUE (Max Pain $140.00, Put/Call 0.68, Call OI 59.5%). Thèse SURVEILLER confirmée sans modification.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +5.25% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 5.72% (seuil 5.0%)
+- **PRICE_GAP** (medium) — Gap +5.25% overnight (seuil ±5.0%) — résolu, cours stable $134.71
+- **ATR_SPIKE** (medium) — ATR relatif 5.72% (seuil 5.0%) — faux positif archive, ATR stable $7.70
 
 ---
 

@@ -1,7 +1,7 @@
 # PLTR
 
 ## These courante
-| 2026-06-16 | [PLTR_2026-06-16_update.md](PLTR_2026-06-16_update.md) | Snapshot 10h UTC (pre-marche) — **stabilite mecanique totale** vs close 15/06 : cours $134.71 (=), RSI 48.74 (=), volume revise a 41.56M (1.07x), ecart MM50 -3.3% (=), anomalie options JSON detectee et traitee (Max Pain $42.00 aberrant → valeurs 15/06 conservees $150.00/0.73/57.8%), Score Opportunite 5.6/10 (=), Score Global 55.5/100 (=), Score Global ajuste 47.5/100 (=), timing DEFAVORABLE, these SURVEILLER **confirmee sans modification** | SURVEILLER — Score Opp. 5.6/10, cours $134.71, RSI 48.74, volume 41.56M (1.07x), stabilite mecanique pre-ouverture, these confirmee sans modification |
+| 2026-06-16 | [PLTR_2026-06-16_13-00_update.md](PLTR_2026-06-16_13-00_update.md) | Snapshot 13h UTC (pre-marche) — **stabilite mecanique totale** vs snapshot 10h UTC : cours $134.71 (=), RSI 48.74 (=), volume 41.56M (1.07x), ecart MM50 -3.3% (=), **anomalie options JSON RESOLUE** (Max Pain $42.00 aberrant → valeurs coherentes restaurees $140.00/0.68/59.5%), Score Opportunite 5.6/10 (=), Score Global 55.5/100 (=), Score Global ajuste 47.5/100 (=), timing DEFAVORABLE, these SURVEILLER **confirmee sans modification** | SURVEILLER — Score Opp. 5.6/10, cours $134.71, RSI 48.74, volume 41.56M (1.07x), anomalie options JSON resolue, biais haussier options legerement renforce, these confirmee sans modification |
 
 ## Historique
 | Date | Fichier | Type | Conclusion |
@@ -57,9 +57,9 @@
 - Anomalie options JSON RESOLUE snapshot 09/06 13h UTC — Max Pain $150.00, Put/Call 0.51, Call OI 66.2% valides et coherents, biais haussier legerement renforce
 - Anomalie options JSON RESOLUE snapshot 10/06 13h UTC — valeurs operationnelles conservees (Max Pain $150.00, Put/Call 0.51, Call OI 66.2%)
 - Anomalie options JSON RESOLUE snapshot 15/06 13h UTC — Max Pain aberrant $42.00, Put/Call null, Call OI 0.0% → RÉSOLU : Max Pain $150.00, Put/Call 0.73, Call OI 57.8% valides et cohérents
-- 🟡 **Anomalie options JSON détectée snapshot 16/06 10h UTC** — Max Pain $42.00 aberrant, Put/Call null, Call OI 0.0%. Valeurs opérationnelles du 15/06 conservées ($150.00 / 0.73 / 57.8%).
+- ✅ **Anomalie options JSON RÉSOLUE snapshot 16/06 13h UTC** — Max Pain $42.00 aberrant → valeurs cohérentes restaurées ($140.00 / 0.68 / 59.5%). Biais haussier options légèrement renforcé.
 
-## Contexte technique (dernier snapshot 10:00 UTC)
+## Contexte technique (dernier snapshot 13:00 UTC)
 - Cours : $134.71
 - RSI 14j : 48.74
 - MM 50j : 139.36
@@ -67,6 +67,6 @@
 - ATR 14j : 7.70
 - Volume moy. 20j : 38,847,185
 - Volume jour : 41,557,600
-- Max Pain : $150.00 — structure stable (biais haussier modéré)
-- Put/Call : 0.73 — stable
-- Call OI % : 57.8% — stable
+- Max Pain : $140.00 — structure réparée (biais haussier modéré renforcé)
+- Put/Call : 0.68 — biais haussier légèrement renforcé
+- Call OI % : 59.5% — biais haussier légèrement renforcé

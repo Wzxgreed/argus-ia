@@ -1,5 +1,21 @@
 # SOFI — Historique des Full Refreshes
 
+## 2026-06-16 — Full Refresh Conclu (snapshot 13:00 UTC — pré-ouverture US, DRAFT archivé faux positif 2e occurrence)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.13% (seuil 5.0%)
+
+**Conclusion :** CONFIRME — Faux positif. Même trigger que les snapshots 2026-06-15 et 2026-06-16 10h.
+- L'ATR relatif 6.13% est un **faux positif** : l'ATR est stable à **$1.05** (compression), pas d'expansion. Même anomalie mécanique que les DRAFTs des 2026-06-15 et 2026-06-16 10h.
+- Le snapshot `data/latest.json` (timestamp 2026-06-16T13:00:09+00:00) confirme la **stabilité totale** des données vs le snapshot 10:00 UTC : cours $17.13, RSI 56.66, ATR $1.05, MM50 $16.86, volume 76.40M (1.03×).
+- Aucun nouvel événement structurant ne modifie le moat, le TAM ou la qualité bénéfice. Le Filtre Qualité reste 4/6 (Quality Partielle).
+- Données options restaurées dans `data/latest.json` (Put/Call 0.41, Call OI 70.9%) — repositionnement haussier légèrement renforcé. Max Pain $1.00 aberrant persistant.
+- Forward P/E Yahoo révisé mécaniquement de 21.95 à **20.98** (−4.4%), Debt/Equity FMP de 0.173 à **0.184** (+6.4%) — pas d'impact qualitatif.
+- Score Opportunité 6.5/10, Score Global ajusté 69.5/100 (ACHETER Réduit) — inchangés. Timing Favorable maintenu.
+- **Action :** DRAFT_refresh archivé (`SOFI_2026-06-16_DRAFT_refresh_ARCHIVED_2.md`). Pas de réécriture de `_init.md` requise — la structure fondamentale du 2026-05-17 reste valide, et la mise à jour `SOFI_2026-06-16_update.md` (snapshot 13:00 UTC) capture la stabilité mécanique pré-ouverture avec données options restaurées.
+
+---
+
 ## 2026-06-16 — Full Refresh Conclu (snapshot 10:00 UTC — pré-ouverture US, DRAFT archivé faux positif)
 
 **Triggers :**
