@@ -6,6 +6,7 @@
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
+| 2026-06-16 | [FLY_2026-06-16_update.md](FLY_2026-06-16_update.md) | **Mise à jour 10:00 UTC (pré-market)** — Close NaN, previous close officiel $31.87, RSI survente extrême aggravée 18.0, scores dégradés (C 5.0 ↓, V 4.5 ↓, Opp 4.9 ↓), Score Global Ajusté **54.2** (−2.1 pts), timing modifié **Favorable** sur mean reversion, anomalie options mutée ($20.00). Thèse **ATTENDRE confirmée avec intensité négative renforcée**. |
 | 2026-06-15 | [FLY_2026-06-15_update_21h.md](FLY_2026-06-15_update_21h.md) | **Mise à jour 21:00 UTC (close)** — Cours stable $33.36 (−1.14% vs 17h, +4.68% vs prior close), volume révisé à la hausse 7.07M (0.74x, +42.7% vs 17h), RSI survente extrême 20.81, thèse **ATTENDRE (56.3) confirmée**, timing Défavorable conservé. |
 | 2026-06-15 | [FLY_2026-06-15_update_17h.md](FLY_2026-06-15_update_17h.md) | **Mise à jour 17:00 UTC** — Rebond +5.88% sur volume collapse (0.53x), RSI survente extrême 21.5, passage agent SURVEILLER (45.0) → **ATTENDRE (56.3)**. Thèse modifiée en intensité, timing Défavorable conservé. |
 | 2026-05-17 | [FLY_2026-05-17_init.md](FLY_2026-05-17_init.md) | Analyse initiale |
@@ -43,11 +44,11 @@
 | 2026-06-09 | [FLY_2026-06-09_update_17h.md](FLY_2026-06-09_update_17h.md) | **Mise à jour 17:00 UTC** — **Gap baissier −9.56%** en séance à $32.72, range intraday 16.8%, RSI 39.71 proche survente, cassure MM50 amplifiée (−15.9%). Score Momentum **2.5/10**. Agent **SURVEILLER (45.0)** — thèse défavorable confirmée et renforcée. DRAFT_refresh archivé. |
 
 ## Agenda
-- Prochain earnings : **2026-08-04** (Q2 2026) — Est EPS -$0.47 à -$0.45, Rev $0.1B (55 jours)
+- Prochain earnings : **2026-08-04** (Q2 2026) — Est EPS -$0.47 à -$0.45, Rev $0.1B (49 jours)
 - ~~Expiration options : **2026-05-29** (passée)~~
 - ~~Expiration options : **2026-06-05** (passée)~~
 - ~~Expiration options : **2026-06-12** (passée)~~
-- Expiration options : **2026-06-18** (J+3) — max pain aberrant $65.00, put/call 0.27, call OI 78.5%
+- Expiration options : **2026-06-18** (J+2) — max pain aberrant $20.00, put/call null, call OI null [ANOMALIE DATA]
 
 ## Alertes actives
 - ~~**DEUXIÈME GAP NON EXPLIQUÉ** — Deuxième gap haussier consécutif : +17.57% à $58.20 (2026-05-26 17:00 UTC) après +15.49% à $49.50 (2026-05-25/26). Cumul +35.8% en 2 sessions sans catalyst. Risque de gap fill élevé.~~ **EFFACÉ** — Gap fill matérialisé : cours retombé à $41.90 (-30.5% vs 27/05), rebond de clôture à $44.24.
@@ -56,10 +57,11 @@
 - ~~**DEUXIÈME GAP NON EXPLIQUÉ**~~ **EFFACÉ** — Gap fill matérialisé.
 - ~~**RSI EXTRÊME**~~ **RÉSOLU** — RSI 42.81, normalisation complète.
 - ~~**ANOMALIE DATA OPTIONS**~~ **RÉSOLUE** — max pain $40.00 restauré.
-- **SHORT INTEREST ÉLEVÉ ET EN HAUSSE** — **12.12%** (+2.34 pts vs 09/06, +23.9% relative). Pression vendeuse accrue, pas de setup squeeze.
+- **SHORT INTEREST ÉLEVÉ** — **12.12%** — pression vendeuse accrue, pas de setup squeeze.
 - ~~**PIN RISK OPTIONS**~~ **RÉSOLU** — Max pain opérationnel $41.00, spot $43.37 à +5.8% au-dessus.
 - ~~**APPROCHE MM50**~~ **ATTÉNUÉ** — Support $39.75 tenu historiquement.
-- **PIN RISK OPTIONS J-2** — Expiration 2026-06-12, max pain confirmé $40.00 vs spot $36.18 (−9.6%). Puts $35.00–$40.00 partiellement in-the-money. Surveillance du comportement autour de $35.00–$40.00.
+- ~~**PIN RISK OPTIONS J-2**~~ **RÉSOLU** — Expiration 2026-06-12 passée, puts $35.00–$40.00 expirés sans événement majeur.
 - ~~**RÉVISION CLOSE MAJEURE**~~ **CONFIRMÉE** — Snapshot 13h UTC confirme le close 09/06 à $36.18 (stable vs 10h UTC), invalidant le gap baissier −7.56%.
 - **DONNÉES TECHNIQUES PARTIELLES** — ATR 14j, MM50 et MM200 null dans `latest.json`. Impossible de calibrer les niveaux SL/TP et de confirmer la structure technique.
-- **SCORES AGENTS DÉGRADÉS** — Score Catalyseur 5.0/10 (−1.5 pt), Score Valorisation 4.5/10 (−1.5 pt) vs 09/06. Dégradation de la perception fondamentale par l'agent malgré le close révisé.
+- **ANOMALIE OPTIONS MUTÉE** — Snapshot 16/06 : max pain $20.00 aberrant (mutation depuis $65.00 à 15/06), put/call null, call OI null. Structure options totalement illisible.
+- **SCORES AGENTS DÉGRADÉS** — Score Catalyseur 5.0/10 (−1.5 pt), Score Valorisation 4.5/10 (−1.5 pt), Score Global Ajusté 54.2 (−2.1 pts) vs 15/06. Dégradation de la perception fondamentale par l'agent malgré la survente extrême.
