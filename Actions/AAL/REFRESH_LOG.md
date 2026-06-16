@@ -240,6 +240,6 @@
 **Triggers :**
 - price_gap (medium) : Gap +5.92% overnight (seuil ±5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** MODIFIED — Traité via `AAL_2026-06-16_update_17h00.md`. La thèse passe de ATTENDRE — SUSPENDUE (données NaN) à **ATTENDRE — BIAIS HAUSSIER RÉACTIVÉ**. Les données de cours ont été restaurées (close $15.87, high $16.19, RSI 59.08, ATR $0.67, MM50 $12.80). Le rally +5.92% et le test du 52W high ($16.50) confirment une force technique réelle. Le gap +5.92% est mécaniquement expliqué par la récupération des données Yahoo Finance après une corruption matinale, mais le mouvement intraday ($15.60 → $16.19 → $15.87) est cohérent avec un setup haussier contrôlé (volume 70M, −26% vs moyenne). Le Filtre Qualité (0–1/6) et le bilan stressé restent inchangés. Le Forward P/E remonte à 7.12, réduisant l'attractif valorisation (upside consensus +4.0%). Score agent 5.1/10, Global 56.3/100, Timing Favorable. SL $14.53, TP $17.88, R/R 1.5. Pas de réactivation vers ACHETER car Score Global < 60.
 
 ---
