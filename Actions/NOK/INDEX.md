@@ -48,6 +48,7 @@
 | 2026-06-15 | Update (17:00 UTC) | [NOK_2026-06-15_17h_update.md](./NOK_2026-06-15_17h_update.md) | Stabilité cours ($14.815, +0.10%) mais RSI chute à 40.77, volume 95.6M (0.78x). Score Momentum 5.5/10 (-2.0 pts). Score Global ajusté 46.8/100 — **SURVEILLER** (rétrogradation depuis ATTENDRE). SL/TP révisés $12.66/$18.06. Pin risk $14.00 (dans 3 jours). Pas de position. |
 | 2026-06-15 | Update (21:00 UTC) | [NOK_2026-06-15_21h_update.md](./NOK_2026-06-15_21h_update.md) | Stabilité parfaite cours/technique ($14.82, RSI 40.81, ATR $1.08). Volume révisé à 121.8M (0.98×) — normalisation post-session invalidant le signal de désengagement 17h. Score Global 46.8 — **SURVEILLER** confirmé. SL/TP inchangés. Pas de position. |
 | 2026-06-16 | Update (10:00 UTC) | [NOK_2026-06-16_update.md](./NOK_2026-06-16_update.md) | Stabilité totale cours/technique ($14.82, RSI 40.81, ATR $1.08). Volume 130.7M (1.05×). Données options corrompues — valeurs opérationnelles $14.00/0.46/68.6% conservées. DRAFT_refresh ATR_SPIKE archivé (trigger stale). Score Global 46.8 — **SURVEILLER** confirmé. SL/TP inchangés. Pas de position. |
+| 2026-06-16 | Update (17:00 UTC) | [NOK_2026-06-16_17h_update.md](./NOK_2026-06-16_17h_update.md) | **Données options restaurées** dans `latest.json` (max pain $14.00, put/call 0.47, call OI 68.1%). Stabilité parfaite cours/technique/volume ($14.82, RSI 40.81, ATR $1.08, 130.7M 1.05×). Expiration demain (06-18). Pin risk +5.9% vs max pain. Score Global 46.8 — **SURVEILLER** confirmé. SL/TP inchangés. Pas de position. |
 
 ---
 
@@ -55,12 +56,12 @@
 
 **Recommandation :** SURVEILLER — Pas de position
 **Prix cible :** $10.8 (consensus 7 analystes FMP)
-**Stop-loss :** $12.66 (basé sur cours $14.82 et ATR $1.08 du 16/06 10h UTC)
-**Take-profit :** $18.06 (basé sur cours $14.82 et ATR $1.08 du 16/06 10h UTC)
+**Stop-loss :** $12.66 (basé sur cours $14.82 et ATR $1.08 du 16/06 17h UTC)
+**Take-profit :** $18.06 (basé sur cours $14.82 et ATR $1.08 du 16/06 17h UTC)
 **Upside/Downside :** −27.1% / −14.5% (basés sur cours $14.82)
-**Dernière mise à jour :** 2026-06-16 10:00 UTC
+**Dernière mise à jour :** 2026-06-16 17:00 UTC
 
-Snapshot 10h UTC : close **$14.82** (strictement inchangé vs 15/06 21h). RSI **40.81**, volume **130.7M** (1.05× moyenne 20j), ATR **$1.08**, MM50 **$12.89**. Données options corrompues dans `latest.json` — valeurs opérationnelles conservées : max pain **$14.00**, put/call **0.46**, call OI **68.6%**, expiration **2026-06-18** (dans 2 jours). Pin risk modéré : cours +5.9% au-dessus du max pain. Consensus FMP **$10.8** (7 analysts). Premium consensus **+37.2%**. Quality hors périmètre (2.5/6). Divergence Yahoo/FMP persistante. XLC bottom 3. `recommandations_2026-06-16.json` : Score Global ajusté **46.8/100** — **SURVEILLER** (C:4.0 V:3.5 M:5.5). Volume légèrement au-dessus de la moyenne (1.05×) — nuance constructive marginale mais non significative. DRAFT_refresh ATR_SPIKE archivé (trigger stale). Pas de position.
+Snapshot 17h UTC : close **$14.82** (strictement inchangé vs 10h). RSI **40.81**, volume **130.7M** (1.05× moyenne 20j), ATR **$1.08**, MM50 **$12.89**. **Données options restaurées** dans `latest.json` : max pain **$14.00**, put/call **0.47**, call OI **68.1%**, expiration **2026-06-18** (**demain**). Pin risk modéré : cours +5.9% au-dessus du max pain. Consensus FMP **$10.8** (7 analysts). Premium consensus **+37.2%**. Quality hors périmètre (2.5/6). Divergence Yahoo/FMP persistante. XLC bottom 3. `recommandations_2026-06-16.json` : Score Global ajusté **46.8/100** — **SURVEILLER** (C:4.0 V:3.5 M:5.5). Volume légèrement au-dessus de la moyenne (1.05×) — nuance constructive marginale mais non significative. DRAFT_refresh ATR_SPIKE archivé (trigger stale). Pas de position.
 
 ---
 

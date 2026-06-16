@@ -28,11 +28,11 @@ L'agent recommandation a **downgradé** la thèse en **ATTENDRE** avec un Score 
 ---
 
 ## Actualites ayant impacte ce dossier
-- **Score global :** 51.5/100
-- **Prix cible :** Suspendu
-- **Stop-loss :** Suspendu
-- **Statut thèse :** ATTENDRE (downgrade de ACHETER Sizing Réduit)
-- **Horizon :** — (suspendu)
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** invalide
+- **Horizon :** —
 
 ---
 
@@ -44,9 +44,9 @@ L'agent recommandation a **downgradé** la thèse en **ATTENDRE** avec un Score 
 
 ## 🚨 Alertes actives
 
-- Baisse — $11.41 (ancien SL 2×ATR) — 🟢 Active (obsolète — SL suspendu)
+- Baisse — $11.41 (SL 2×ATR) — 🟢 Active
 - Hausse — $14.00 (prix cible) — 🔴 Déclenchée (27/05)
-- Volume — >2× moy. 20j (>199M) — 🟡 Suspecte (données stale)
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
@@ -59,11 +59,10 @@ L'agent recommandation a **downgradé** la thèse en **ATTENDRE** avec un Score 
 ## 📊 Contexte technique (dernier snapshot)
 
 - **RSI 14j :** 51.38
-- **MM 50j :** null [DONNÉES MANQUANTES]
-- **MM 200j :** null [DONNÉES MANQUANTES]
-- **ATR 14j :** null [DONNÉES MANQUANTES]
+- **MM 50j :** —
+- **MM 200j :** —
+- **ATR 14j :** —
 - **Volume moy. 20j :** 99869710
-- **Previous close :** $14.98 (cours NaN)
 
 ---
 
@@ -72,7 +71,7 @@ L'agent recommandation a **downgradé** la thèse en **ATTENDRE** avec un Score 
 - **Date :** 2026-06-16
 - **Type :** update
 - **Fichier :** `AAL_2026-06-16_update.md`
-- **Conclusion :** **ATTENDRE** — Données techniques partielles (cours NaN, options corrompues, ATR/MM50 nulls), downgrade de ACHETER (Sizing Réduit). Score Global 51.5/100, Score Opportunité 5.2/10. Positionnement suspendu en attendant récupération données.
+- **Conclusion :** **Date :** 2026-06-16 (snapshot 10h UTC, pré-ouverture NY)
 
 ---
 

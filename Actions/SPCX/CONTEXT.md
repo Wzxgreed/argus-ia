@@ -18,7 +18,7 @@
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 47.2/100
+- **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
 - **Statut thèse :** validée
@@ -46,13 +46,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** — (données absentes)
-- **MM 50j :** — (données absentes)
-- **MM 200j :** — (données absentes)
-- **ATR 14j :** — (données absentes)
-- **Volume moy. 20j :** 381,508,987
-- **Volume jour :** 243,783,175 (figé sur deux snapshots)
-- **Cours close :** NaN (perte totale du flux prix)
+- **RSI 14j :** —
+- **MM 50j :** —
+- **MM 200j :** —
+- **ATR 14j :** —
+- **Volume moy. 20j :** 381508987
 
 ---
 
@@ -61,7 +59,7 @@
 - **Date :** 2026-06-16
 - **Type :** update
 - **Fichier :** `SPCX_2026-06-16_update.md`
-- **Conclusion :** Thèse confirmée en SURVEILLER — conflit de symbole persistant, prix passé de $192.50 fictif à NaN (perte totale du flux Yahoo), volume figé 243M, scoring mécanique remonté 45.0→47.2/100 (artefact), sector rotation corrompu (NaN massifs), vingt-sixième snapshot sans données fiables.
+- **Conclusion :** **Date :** 2026-06-16
 
 ---
 

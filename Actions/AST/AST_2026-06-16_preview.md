@@ -1,29 +1,33 @@
-# AST — Preview Earnings (placeholder glissant)
+# AST — Preview Événement (earnings)
 
 > **Date :** 2026-06-16
-> **Evenement :** Earnings (placeholder FMP)
-> **Date prevue :** 2026-06-16 (J=0 glissant depuis 25/05, >22 jours de glissement non resolu)
+> **Événement :** Earnings 
+> **Date prévue :** 2026-06-16 (0j)
 > **Source :** fmp
 
 ---
 
-## Statut du placeholder
+## Prédictions (à compléter avant l'événement)
 
-Le placeholder FMP signale un earnings AST le 2026-06-16 avec `days_until: 0`. Cependant :
-- AST n'a **aucune donnee de cours** dans les snapshots depuis >44 sessions consecutives (`No price history`).
-- Il est **impossible de correler** un resultat earnings sans historique de prix.
-- Le placeholder est **glissant** : la date J=0 n'a pas avance depuis le 25/05 (22+ jours de decalage non resolu).
-- **Conclusion :** ce n'est pas un earnings verifiable. Il s'agit vraisemblablement d'une erreur de mapping FMP liee au ticker fantome AST.
-
----
-
-## Note sur le proxy ASTS
-
-ASTS (AST SpaceMobile — NASDAQ), probable doublon d'AST, a ses propres earnings programmes le **2026-08-10** (Q2 2026, 55 jours). Aucun earnings n'est attendu pour ASTS le 16/06.
+| Métrique | Prédiction | Consensus | Surprise attendue |
+|----------|-----------|-----------|-------------------|
+| Revenue  | $XX.XB    | $XX.XB    | [beat/miss/in-line] |
+| EPS      | $X.XX     | $X.XX     | [beat/miss/in-line] |
+| Guidance | [raise/lower/maintain] | — | — |
+| GM       | XX.X%     | XX.X%     | — |
 
 ---
 
-## References
+## Scénarios post-événement
 
-- `data/upcoming_events_latest.json` (2026-06-16) — AST: earnings 2026-06-16 (J=0 glissant)
-- `data/latest.json` (2026-06-16) — AST: error "No price history" ; ASTS: close $87.57
+| Scénario | Probabilité | Impact cours | Action |
+|----------|------------|--------------|--------|
+| Beat + guidance up | 30% | +8-12% | Renforcer / acheter |
+| In-line | 45% | +1-3% | Hold |
+| Miss / guidance down | 25% | -8-15% | Réviser stop-loss |
+
+---
+
+## ⚡ Règle
+Sauvegarder les prédictions ci-dessus dans `Actions/SUIVI_EARNINGS_PREDICTIONS.md`.
+Après l'événement, comparer prédictions vs réalité dans ce fichier.

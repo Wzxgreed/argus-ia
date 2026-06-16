@@ -7,10 +7,10 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 54.2/100
-- **Prix cible :** $43.77 (consensus 13 analysts)
-- **Stop-loss :** $— (ATR null — impossible de calibrer)
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
 - **Statut thèse :** modifiée
 - **Horizon :** —
 
@@ -24,28 +24,23 @@
 
 ## 🚨 Alertes actives
 
-- **ANOMALIE DATA OPTIONS** — Snapshot 16/06 : max pain $20.00 aberrant, put/call null, call OI null. [ANOMALIE DATA] persistante.
-- **DONNÉES TECHNIQUES PARTIELLES** — ATR 14j, MM50 et MM200 null dans `latest.json`. Impossible de calibrer les niveaux SL/TP et de confirmer la structure technique.
-- **SCORES AGENTS DÉGRADÉS** — Score Catalyseur 5.0/10 (−1.5 pt), Score Valorisation 4.5/10 (−1.5 pt) vs 15/06. Dégradation de la perception fondamentale par l'agent.
-- **SHORT INTEREST ÉLEVÉ** — **12.12%** — pression vendeuse accrue.
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- Earnings Q2 2026 : **2026-08-04** (49 jours) — Est EPS −$0.61 à −$0.45, Rev $0.1B
-- Expiration options : **2026-06-18** (J+2) — anomalie persistante
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
 - **RSI 14j :** 18.0
-- **MM 50j :** null
-- **MM 200j :** null
-- **ATR 14j :** null
+- **MM 50j :** —
+- **MM 200j :** —
+- **ATR 14j :** —
 - **Volume moy. 20j :** 9544631
-- **Volume session :** 7074939 (0.74x)
 
 ---
 
@@ -54,7 +49,7 @@
 - **Date :** 2026-06-16
 - **Type :** update
 - **Fichier :** `FLY_2026-06-16_update.md`
-- **Conclusion :** Snapshot pré-market 10h UTC : close NaN, previous close officiel $31.87, RSI 18.0 survente extrême aggravée, scores agents dégradés (Catalyseur −1.5 pt, Valorisation −1.5 pt, Global −2.1 pts à 54.2), timing modifié Favorable sur mean reversion technique. Données techniques partielles (ATR/MM50 null), anomalie options mutée ($20.00). Thèse ATTENDRE (54.2) confirmée avec intensité négative renforcée.
+- **Conclusion :** > **Type :** `_update.md` — Snapshot pré-market, données techniques partielles, scores dégradés, thèse ATTENDRE (54.2) confirmée avec nuance négative
 
 ---
 

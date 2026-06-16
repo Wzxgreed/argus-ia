@@ -9,7 +9,7 @@
 
 ## Thèse Courante
 
-IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot 21h UTC du 2026-06-15 révèle un **downgrade algorithmique** : Score Global ajusté **57.5/100**, action **ATTENDRE** (vs 61.8/100 ACHETER à 13h).
+IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot 13h UTC du 2026-06-16 confirme le statut **ATTENDRE** : Score Global ajusté **57.5/100** (vs 61.8/100 ACHETER le 08/06). Structure options corrigée (Max Pain **$35.00**, put/call **1.44**, call OI **41.0%**).
 
 **🟢 Momentum technique haussier intact mais affaibli :** Le RSI se normalise à **51.08** (zone neutre favorable). L'ATR 14j (**$6.18**) et la MM50 (**$52.58**) sont disponibles — le cours à **$60.85** se tient à **+15.7%** au-dessus de la MM50, confirmant la tendance haussière intermédiaire. Timing déclaré **Favorable**.
 
@@ -29,7 +29,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 
 **🔴 Corrélation BTC :** Corrélation 30j **0.82**, beta BTC **2.1** — le pivot IA n'est pas encore pricé comme découplage. Toute position IREN reste un pari implicite sur BTC.
 
-**🟡 Défiance options atténuée mais persistante :** Max Pain **$40.00** (expiration 2026-06-18), put/call **1.62**, call OI **38.1%**. Structure inchangée vs 13h. Le put/call 1.62 confirme une nette détente vs le record 3.95 du 08/06, mais la défiance reste présente.
+**🟡 Défiance options persistante — structure corrigée :** Max Pain **$35.00** (expiration 2026-06-18), put/call **1.44**, call OI **41.0%**. Le put/call 1.44 confirme une détente vs le record 3.95 du 08/06 et vs 1.62 du 15/06, mais les puts restent majoritaires (59.0% OI). La défiance est atténuée mais structurale.
 
 **⚠️ Données techniques :** MM200 toujours indisponible. SL/TP révisés : SL **$48.49** (2×ATR), TP **$79.39** (3×ATR), ratio R/R **1.5**.
 
@@ -89,6 +89,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 | 2026-06-15 | [IREN_2026-06-15_update.md](IREN_2026-06-15_update.md) (snapshot 13h UTC — révision post-pipeline) | Révision post-pipeline | Données brutes stables vs 10h UTC · **Correction options majeure** : Max Pain **$40.00** (vs $100.00 anomalie), put/call **1.62** (vs null), call OI **38.1%** (vs 0.0%) · Scores inchangés 5.7/61.8 · Action **ACHETER (Sizing Réduit)** confirmée · Thèse **confirmée** — vigilance expiration 18/06 |
 | 2026-06-15 | [IREN_2026-06-15_update_21h00.md](IREN_2026-06-15_update_21h00.md) (snapshot 21h UTC — close) | Mise à jour close | Cours $60.85 (+1.81%) · Volume effondré 67.3% · **Downgrade algorithmique** : Score Global **57.5/100** (−4.3 pts) · Action **ATTENDRE** (vs ACHETER) · SL/TP révisés $48.49/$79.39 · Thèse **modifiée** |
 | 2026-06-16 | [IREN_2026-06-16_update.md](IREN_2026-06-16_update.md) (snapshot 10h UTC) | Mise à jour post-pipeline | **Stabilité totale** vs close 15/06 · cours $60.85 (=) · données brutes inchangées · **anomalies options** (Max Pain $100.00, put/call null, call OI 0.0%) — structure du 15/06 conservée comme référence · DRAFT_refresh traité et archivé · Score Global **57.5/100** inchangé · Action **ATTENDRE** confirmée · Thèse **confirmée** |
+| 2026-06-16 | [IREN_2026-06-16_update_13h00.md](IREN_2026-06-16_update_13h00.md) (snapshot 13h UTC) | Mise à jour post-pipeline | **Stabilité totale** des données brutes vs 10h UTC · **correction options majeure** : Max Pain **$35.00** (vs $100.00 anomalie), put/call **1.44** (vs null), call OI **41.0%** (vs 0.0%) — nouvelle structure valide · Scores inchangés 5.3/10 · Global **57.5/100** · Action **ATTENDRE** confirmée · Thèse **confirmée** |
 
 ---
 
@@ -116,4 +117,4 @@ Voir [SUPPLY_CHAIN.md](SUPPLY_CHAIN.md) pour la cartographie fournisseurs/client
 
 ---
 
-*Dernière mise à jour : 2026-06-15 (snapshot 21:00 UTC)*
+*Dernière mise à jour : 2026-06-16 (snapshot 13:00 UTC)*

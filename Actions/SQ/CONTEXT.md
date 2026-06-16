@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 54.0/100
-- **Prix cible :** $85.67 (consensus, upside +2.6%)
-- **Stop-loss :** $— (indisponible — cours stale + ATR manquant)
-- **Statut thèse :** invalide (données brutes stale ≥27 jours)
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -24,30 +24,23 @@
 
 ## 🚨 Alertes actives
 
-- 🔴 **Stale Price CRITICAL** — cours $83.46 figé ≥61 snapshots / ≥27 jours calendaires (source `fmp_fallback`)
-- 🔴 **Earnings Q1 2026 Non Résolu** — placeholder glissant ≥61 snapshots, date actuelle 2026-06-16 (J=0), détails vides
-- 🟡 **Consensus PT Figé** — $85.67 (3 analystes) inchangé depuis le 27/05
-- 🟡 **Bloc Technical Vide** — RSI/ATR/MM50/MM200 indisponibles depuis le 17/05
-- 🟢 **Récupération Pipeline Partielle** — Agents reco/social/fx/events ont produit des sorties ce matin (16/06) vs échec hier soir (15/06 21h)
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-06-16** · earnings · Earnings Q1 2026 (placeholder FMP, non confirmé)
+- **2026-06-16** · earnings · Earnings ...
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** — (données manquantes)
-- **MM 50j :** — (données manquantes)
-- **MM 200j :** — (données manquantes)
-- **ATR 14j :** — (données manquantes)
-- **Volume moy. 20j :** — (données manquantes)
-- **Volume du jour :** 1,142,032 (très faible)
-- **Cours :** $83.46 (figé)
-- **Previous close :** $82.99 (divergence source FMP)
+- **RSI 14j :** —
+- **MM 50j :** —
+- **MM 200j :** —
+- **ATR 14j :** —
+- **Volume moy. 20j :** —
 
 ---
 
@@ -56,7 +49,7 @@
 - **Date :** 2026-06-16
 - **Type :** update
 - **Fichier :** `SQ_2026-06-16_update.md`
-- **Conclusion :** ATTENDRE — Qualité 3/6 hors périmètre, stale price ≥61 snapshots / ≥27 jours, earnings placeholder glissant, consensus figé $85.67 (3 analystes), signal sectoriel NEUTRAL. Récupération pipeline partielle : reco revenue à 54.0/100 (ATTENDRE), agents social/fx/events exécutés. Aucune mutation des données brutes SQ vs snapshot 21h00 15/06. Risque de gap violent ±10–15% à la réouverture d'un cours live.
+- **Conclusion :** > **Trigger :** Snapshot pipeline 10:00 UTC — pré-session US
 
 ---
 

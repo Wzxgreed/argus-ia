@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 54.0/100
+- **Recommandation :** —
+- **Score global :** —/10
 - **Prix cible :** $—
-- **Stop-loss :** Suspendu (données indisponibles)
-- **Statut thèse :** Modifiée — dégradation
+- **Stop-loss :** $—
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -24,37 +24,32 @@
 
 ## 🚨 Alertes actives
 
-- Données techniques corrompues : close NaN, ATR null, MM50 null (snapshot 10h UTC 2026-06-16)
-- Earnings JOUR J persistant (artefact FMP depuis 16+ jours)
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- 2026-06-16 · earnings · Earnings JOUR J (artefact FMP)
+- **2026-06-16** · earnings · Earnings ...
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
 - **RSI 14j :** 43.91
-- **MM 50j :** null
-- **MM 200j :** null
-- **ATR 14j :** null
+- **MM 50j :** —
+- **MM 200j :** —
+- **ATR 14j :** —
 - **Volume moy. 20j :** 2354
-- **Volume session :** 1294 (0.55× avg)
-- **Previous close :** 44.836
-- **52w high :** 57.74
-- **52w low :** 40.27
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-16
-- **Type :** update
-- **Fichier :** `TEST_2026-06-16_update.md`
-- **Conclusion :** Verdict dégradé de ACHETER (Réduit) à ATTENDRE. Perte des données techniques (close NaN, ATR null, MM50 null), RSI en recul à 43.91 (−2.42 pts), Score Momentum effondré 7.3→4.5. SL/TP suspendus. Surveiller la rétablissement des données.
+- **Type :** preview
+- **Fichier :** `TEST_2026-06-16_preview.md`
+- **Conclusion :** > **Date :** 2026-06-16
 
 ---
 

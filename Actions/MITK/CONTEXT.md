@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER (Sizing Réduit)
-- **Score global :** 64.0/100
-- **Prix cible :** $19.21
-- **Stop-loss :** $14.81
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
 - **Statut thèse :** validée
-- **Horizon :** 1–3 mois
+- **Horizon :** —
 
 ---
 
@@ -24,19 +24,13 @@
 
 ## 🚨 Alertes actives
 
-- 🟡 Volume réduit — 601,400 = 0.56× moyenne 20j
-- 🟡 Consensus PT sous le spot — $16.00 < $16.57 (+3.6%)
-- 🟡 ROIC faible — 3.16%
-- 🟡 Divergence Yahoo/FMP persistante
-- 🟡 Anomalie options JSON récurrente (max pain $2.50 aberrant → opérationnel $20.00)
-- 🔴 Pullback −15.3% sans catalyseur identifiable — risque si MM50 $15.09 cède
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- Earnings Q3 FY2026 : 2026-08-06 (51 jours)
-- Expiration options : 2026-06-18 (2 jours)
+- Aucun événement à venir.
 
 ---
 
@@ -47,17 +41,21 @@
 - **MM 200j :** —
 - **ATR 14j :** 0.88
 - **Volume moy. 20j :** 1075145
-- **Cours close :** 16.57
-- **52w high/low :** 17.97 / 8.53
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-16
-- **Type :** update post-pipeline 10:00 UTC
-- **Fichier :** `MITK_2026-06-16_update.md`
-- **Conclusion :** Thèse CONFIRMÉE — stabilité quasi-totale vs snapshot 21h UTC 15/06. Aucune mutation technique, fondamentale ou sentimentale. DRAFT_refresh du 16/06 classé faux positif (ATR_SPIKE 5.31% sans mutation réelle de l'ATR). Action ACHETER (Sizing Réduit) maintenue sur Score Global Ajusté 64.0/100.
+- **Type :** full refresh
+- **Fichier :** `MITK_2026-06-16_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-16
+
+---
+
+## 🔄 Triggers détectés (full refresh)
+
+- **ATR_SPIKE** (medium) — ATR relatif 5.31% (seuil 5.0%)
 
 ---
 

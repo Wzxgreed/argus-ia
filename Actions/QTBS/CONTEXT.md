@@ -41,7 +41,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-16** · earnings · Earnings (placeholder J0 glissant, non vérifiable)
+- **2026-06-16** · earnings · Earnings ...
 
 ---
 
@@ -58,9 +58,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-16
-- **Type :** _update.md
-- **Fichier :** `QTBS_2026-06-16_update.md`
-- **Conclusion :** 🔴 Bloqué data — ATTENDRE (52e snapshot consécutif sans mutation, placeholder earnings J0 glissant au 16/06)
+- **Type :** preview
+- **Fichier :** `QTBS_2026-06-16_preview.md`
+- **Conclusion :** > **Date :** 2026-06-16
 
 ---
 

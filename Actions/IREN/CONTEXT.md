@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 57.5/100
-- **Prix cible :** $69.12 (consensus FMP)
-- **Stop-loss :** $48.49
-- **Statut thèse :** confirmée
-- **Horizon :** 1–3 mois
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
+- **Horizon :** —
 
 ---
 
@@ -35,7 +35,7 @@
 
 ## 📅 Prochains événements
 
-- Earnings Q2 2026 — 2026-08-27 — ⏳ 72 jours
+- Aucun événement à venir.
 
 ---
 
@@ -53,14 +53,14 @@
 
 - **Date :** 2026-06-16
 - **Type :** update
-- **Fichier :** `IREN_2026-06-16_update.md`
-- **Conclusion :** Stabilité totale des données brutes et du scoring vs snapshot 21h UTC 15/06. Thèse ATTENDRE 57.5/100 confirmée. Anomalies options détectées (Max Pain $100.00, put/call null) — structure du 15/06 conservée comme référence.
+- **Fichier :** `IREN_2026-06-16_update_13h00.md`
+- **Conclusion :** **Thèse CONFIRMÉE — statut ATTENDRE inchangé, structure options corrigée (Max Pain $35.00, put/call 1.44, call OI 41.0%)
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun nouveau trigger. DRAFT_refresh du 2026-06-16 traité et archivé (données inchangées vs 15/06).
+- **ATR_SPIKE** (medium) — ATR relatif 10.16% (seuil 5.0%)
 
 ---
 
