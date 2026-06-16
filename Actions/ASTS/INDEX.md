@@ -1,7 +1,7 @@
 # ASTS
 
 ## Thèse courante
-La thèse sur ASTS est **SURVEILLER confirmée** — snapshot 17h UTC 2026-06-15. Rebond technique **+6,49%** à **$87,755** vs close matin $82,41 sur volume collapse **0,535×** (pas de conviction), RSI **36,10** (proche survente, −4,40 pt vs le matin, dégradation malgré la hausse du cours), ATR **$12,73** (14,5% du cours). Score global ajusté **39,2/100** (SURVEILLER, bas de fourchette). Cours **−1,5% sous MM50 $89,14** (gap réduit vs −7,6% matin). Divergence consensus **+7,73%** upside mécanique ($94,54 vs $87,755). Profil fondamental spéculatif extrême inchangé (EV/Revenue 296× Yahoo, P/B 12,59×, Forward P/E −427,49, non rentable). Signal sectoriel **NEUTRAL** avec XLC bottom 3 persistant (momentum score 0,0). Timing **Défavorable**. Options **anomalie JSON RÉSOLUE** : max pain **$100** (cohérent), put/call **0,44**, call OI **69,7%** — structure haussière confirmée mais non validée par le volume. Verdict global : **ne pas entrer long**. Objectif baissier si repli sous $82,41 : $75–$80. Zone de résistance immédiate : $89,14 (MM50) ; $92,06 (close 10/06). Volatilité élevée persistante.
+La thèse sur ASTS est **SURVEILLER confirmée** — pré-ouverture 2026-06-16. Stabilité mécanique totale vs snapshot 21h UTC 15/06 : cours **$87,57** inchangé, RSI **36,00** stable proche survente, volume **0,867×** (légèrement révisé +0,35M vs 15/06), cours **−1,8% sous MM50 $89,13**. Score global ajusté **39,2/100** (SURVEILLER, bas de fourchette). Divergence consensus **+7,97%** upside mécanique ($94,54 vs $87,57). Profil fondamental spéculatif extrème inchangé (EV/Revenue FMP 355,7×, P/B 12,57× Yahoo, Forward P/E −426,75, non rentable). Signal sectoriel **NEUTRAL** avec XLC bottom 3 persistant. Timing **Défavorable**. Options **anomalie JSON RÉCURRENTE TRAITÉE** : valeurs brutes aberrantes (max pain $28,0, put/call 0,00, call OI 100%) → valeur opérationnelle **$100,00 / 0,44 / 69,7%** conservée. DRAFT_refresh déclenché par PRICE_GAP +6,26% et ATR_SPIKE 14,62% classé **FAUX POSITIF** (close 15/06 déjà intégré). Verdict global : **ne pas entrer long**. Objectif baissier si repli sous $82,41 : $75–$80. Zone de résistance immédiate : $89,13 (MM50) ; $89,76 (high 15/06) ; $92,06 (close 10/06). Volatilité élevée persistante.
 
 ## Historique
 | Date | Fichier | Type |
@@ -24,18 +24,20 @@ La thèse sur ASTS est **SURVEILLER confirmée** — snapshot 17h UTC 2026-06-15
 | 2026-06-15 | [ASTS_2026-06-15_update.md](ASTS_2026-06-15_update.md) | Close matin — rupture technique majeure sous MM50 $89,23 sur volume explosion 2,00×, chute −15,53% à $82,41, RSI 40,50 proche survente, score global ajusté 35,5/100 (SURVEILLER), divergence consensus +14,69%, thèse SURVEILLER confirmée et aggravée |
 | 2026-06-15 | [ASTS_2026-06-15_17-00_update.md](ASTS_2026-06-15_17-00_update.md) | Snapshot 17h UTC — rebond technique +6,49% à $87,755 sur volume collapse 0,535×, RSI 36,10 dégradant malgré hausse, score global ajusté 39,2/100 (SURVEILLER), anomalie options JSON résolue (max pain $100, call OI 69,7%), thèse SURVEILLER confirmée |
 | 2026-06-15 | [ASTS_2026-06-15_21-00_update.md](ASTS_2026-06-15_21-00_update.md) | Snapshot 21h UTC — correction volumétrique majeure (0,535× → 0,855×), rebond consolidé et légitimé à $87,57, RSI 36,00 stabilisé, score global 39,2 SURVEILLER inchangé mais nuance améliorée, thèse SURVEILLER confirmée avec nuance positive |
+| 2026-06-16 | [ASTS_2026-06-16_update.md](ASTS_2026-06-16_update.md) | Pré-ouverture — stabilité mécanique totale vs snapshot 21h UTC 15/06, données identiques, volume révisé 23,92M (0,867×), anomalie options JSON récurrente traitée (max pain $28 aberrant → $100 conservé), DRAFT_refresh classé faux positif, score global 39,2 SURVEILLER confirmé sans modification |
 
 ## Agenda
 - Prochain earnings : **2026-08-10** (J+63) — Est. EPS $-0,29 à $-0,17, Revenus $0,0B
 - Options expiry : **2026-06-12** (J+4) — max pain $120 au-dessus du spot (+29,1%), données JSON fiables (put/call 0,70, call OI 59,0%)
 
 ## Alertes actives
-- **COURS_SOUS_MM50** — cours −1,5% sous MM50 $89,14 — résistance dynamique non conquise
-- **VOLUME_COLLAPSE** — volume 0,535× sur rebond +6,49% — pas de validation institutionnelle
-- **RSI_DÉGRADANT** — RSI 36,10 en baisse malgré rebond — faiblesse interne
-- **ATR_SPIKE (haut)** — ATR relatif 14,5% du cours ($12,73)
+- **COURS_SOUS_MM50** — cours −1,8% sous MM50 $89,13 — résistance dynamique non conquise
+- **VOLUME_CONSOLIDÉ** — volume 0,867× sur rebond +6,26% — rebond consolidé et légitimé (alerte positive)
+- **RSI_SURVENTE_APPROCHÉE** — RSI 36,00 proche survente — faiblesse interne persistante
+- **ATR_SPIKE (haut)** — ATR relatif 14,6% du cours ($12,80)
 - **REJET_100** — test et rejet de la résistance psychologique $100 (high $100,94, close $88,71 le 09/06) — structure de séance baissière
-- **Profil non rentable** — EPS estimé négatif, multiples extrêmes (P/B 12,59x Yahoo / 10,10x FMP, EV/Revenue 296x), aucune visibilité sur la rentabilité
-- **Secteur Communication Services (XLC)** — bottom 3 du ranking sectoriel (momentum score 0,0)
-- **Options J+3** — Max Pain $100 au-dessus du spot (+13,9%). Pinning gamma haussier théorique mais volume collapse limitant
+- **Profil non rentable** — EPS estimé négatif, multiples extrêmes (P/B 12,57× Yahoo / 10,10× FMP, EV/Revenue FMP 355,7×), aucune visibilité sur la rentabilité
+- **Secteur Communication Services (XLC)** — bottom 3 du ranking sectoriel (RS20d −3,35%)
+- **Options J+2** — Max Pain opérationnel $100 au-dessus du spot (+14,2%). Pinning gamma haussier théorique
 - **Short Interest élevé** — 18,39% — pas de squeeze setup mais pression vendeuse présente
+- **DRAFT_refresh Faux Positif** — triggers PRICE_GAP et ATR_SPIKE du 16/06 reflètent le close 15/06 déjà intégré

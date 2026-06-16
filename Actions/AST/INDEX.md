@@ -5,13 +5,13 @@
 > **Secteur :** Non spécifié
 > **Exchange :** NASDAQ
 > **Priorité :** Medium
-> **Dernière mise à jour :** 2026-06-15 (snapshot 21h UTC)
+> **Dernière mise à jour :** 2026-06-16 (snapshot 10h UTC, pre-ouverture US)
 
 ---
 
 ## Thèse courante
 
-**Statut :** DONNEES MANQUANTES PERSISTANTES — anomalie structurelle confirmee (>43 snapshots) / **ASTS proxy SURVEILLER** (snapshot 15/06 21h UTC) / RSI **36.0** (survente stable) / rebond **+6.26%** a **$87.57** sur **volume corrige 0.86x** (23.57M vs 27.56M moy. 20j) — **rebond valide** / short interest **18.39%** (stable) / cours consensus **-7.96%** (base $87.57) / **agent maintient ASTS SURVEILLER 39.2/100 (proche EVITER, timing Defavorable)** / cours sous MM50 **-1.5%** ($89.13) / low intraday 15/06 **$83.99** / high intraday 15/06 **$89.76** / signal sectoriel NEUTRAL (XLK top 10.0, XLC bottom 0.0) / options stables (max pain $100.0 coherent, put/call 0.44 haussier, call OI 69.7%) / echeance 06-18 dans **3j** (theta decay risque) / earnings placeholder glissant J=0 a **21+ jours**
+**Statut :** DONNEES MANQUANTES PERSISTANTES — anomalie structurelle confirmee (>44 snapshots) / **ASTS proxy SURVEILLER** (snapshot 16/06 10h UTC, pre-ouverture — mecaniquement identique au close 15/06) / RSI **36.0** (survente stable) / rebond **+6.26%** a **$87.57** sur **volume corrige 0.87x** (23.92M vs 27.57M moy. 20j) — **rebond valide** / short interest **18.39%** (stable) / cours consensus **-7.96%** (base $87.57) / **agent maintient ASTS SURVEILLER 39.2/100 (proche EVITER, timing Defavorable)** / cours sous MM50 **-1.5%** ($89.13) / low intraday 15/06 **$83.99** / high intraday 15/06 **$89.76** / signal sectoriel NEUTRAL (XLK top 10.0, XLC bottom 0.0) / options operationnelles stables (max pain $100.0 coherent, put/call 0.44 haussier, call OI 69.7%) — **anomalie JSON recurrente traitee** (max pain $28.0, put/call 0.0, call OI 100.0% aberrants) / echeance 06-18 dans **2j** (theta decay risque) / earnings placeholder glissant J=0 a **22+ jours**
 
 - Aucune donnee de cours disponible dans les snapshots (`No price history`) — confirme stable sur **>43 snapshots consecutifs** (18/05 -> 15/06)
 - Aucune analyse initiale (`_init.md`) n'a ete produite
