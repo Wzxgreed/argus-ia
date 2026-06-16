@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 53.0/100
-- **Prix cible :** $69.12 (consensus FMP)
-- **Stop-loss :** $48.73
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
 - **Statut thèse :** modifiée
-- **Horizon :** 1–3 mois
+- **Horizon :** —
 
 ---
 
@@ -41,11 +41,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 41.06
-- **MM 50j :** 53.09
+- **RSI 14j :** 39.86
+- **MM 50j :** 53.06
 - **MM 200j :** —
-- **ATR 14j :** 5.80
-- **Volume moy. 20j :** 47757503
+- **ATR 14j :** 5.81
+- **Volume moy. 20j :** 48370118
 
 ---
 
@@ -53,14 +53,14 @@
 
 - **Date :** 2026-06-16
 - **Type :** update
-- **Fichier :** `IREN_2026-06-16_update_17h00.md`
-- **Conclusion :** **Thèse : MODIFIÉE — statut ATTENDRE maintenu sur dégradation du momentum (RSI 41.06, Score Global 53.0/100). Données brutes révisées par Yahoo.**
+- **Fichier :** `IREN_2026-06-16_update.md`
+- **Conclusion :** **Thèse : CONFIRMÉE — statut ATTENDRE inchangé sur stabilité totale des données
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 9.61% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 9.82% (seuil 5.0%)
 
 ---
 

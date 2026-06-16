@@ -8,10 +8,10 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ACHETER (Réduit)
-- **Prix cible :** $21.21 (cours + 3×ATR)
-- **Stop-loss :** $15.86 (cours − 2×ATR)
-- **Upside/Downside :** +17.8% / −11.9%
-- **Dernière mise à jour :** 2026-06-16 (snapshot 17:00 UTC — close final confirmé, gap +5.07%, reclaim MM50 renforcé)
+**Prix cible :** $21.21 (cours + 3×ATR)
+**Stop-loss :** $15.86 (cours − 2×ATR)
+**Upside/Downside :** +17.8% / −11.9%
+**Dernière mise à jour :** 2026-06-16 (snapshot 17:00 UTC — close final confirmé, gap +5.07%, reclaim MM50 renforcé)
 
 SoFi est une fintech-banque hybride avec un écosystème complet (lending + banking + investing) et une marque forte chez les millennials. Le charter bancaire 2022 crée une barrière réglementaire modérée vs les fintechs non-banques. Le snapshot du **2026-06-16 à 17h UTC** (close final confirmé) enregistre un **gap haussier de +5.07% à $18.00** par rapport au close du 15/06 ($17.13). Le cours reste **au-dessus de la MM50 $16.89** avec un écart confortable de **+6.54%**. Le **Score Global ajusté reste à 69.5/100**, dans la fourchette **ACHETER (60–74)** avec sizing **Réduit**. Le **Score Momentum reste à 7.5/10** (haussier), tandis que le **Score Valorisation reste à 5.5/10**.
 
@@ -25,11 +25,11 @@ Le short interest reste élevé à **14.71%** — niveau critique qui crée un *
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 69.5/100
+- **Score global :** —/10
 - **Prix cible :** $21.21
 - **Stop-loss :** $15.86
-- **Statut thèse :** validée et renforcée
-- **Horizon :** 1–3 mois
+- **Statut thèse :** validée
+- **Horizon :** —
 
 ---
 
@@ -41,8 +41,8 @@ Le short interest reste élevé à **14.71%** — niveau critique qui crée un *
 
 ## 🚨 Alertes actives
 
-- Baisse — $15.86 (SL 2×ATR) — 🟢 Active
-- Hausse — $21.21 (prix cible) — 🟢 Active
+- Baisse — $13.78 (SL 2×ATR) — 🟢 Active
+- Hausse — $18.88 (prix cible) — 🟢 Active
 - Volume — >2× moy. 20j (>140.7M) — 🟢 Active
 
 ---
@@ -55,27 +55,26 @@ Le short interest reste élevé à **14.71%** — niveau critique qui crée un *
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 59.82
+- **RSI 14j :** 58.47
 - **MM 50j :** 16.89
 - **MM 200j :** —
 - **ATR 14j :** 1.07
-- **Volume moy. 20j :** 73497003
+- **Volume moy. 20j :** 75809204
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-16
-- **Type :** update
-- **Fichier :** `SOFI_2026-06-16_update.md`
-- **Conclusion :** Gap +5.07% confirme et renforce la thèse ACHETER (Réduit). Reclaim MM50 solide (+6.54%). Vigilance sur volume faible 0.76×.
+- **Type :** full refresh
+- **Fichier :** `SOFI_2026-06-16_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-16
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +5.07% (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 5.94% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 6.04% (seuil 5.0%)
 
 ---
 

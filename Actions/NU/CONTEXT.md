@@ -44,11 +44,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 46.14
-- **MM 50j :** 13.54
+- **RSI 14j :** 46.4
+- **MM 50j :** 13.55
 - **MM 200j :** —
 - **ATR 14j :** 0.51
-- **Volume moy. 20j :** 62517133
+- **Volume moy. 20j :** 63486991
 
 ---
 
@@ -56,8 +56,8 @@
 
 - **Date :** 2026-06-16
 - **Type :** update
-- **Fichier :** `NU_2026-06-16_17-00_update.md`
-- **Conclusion :** **Thèse : MODIFIÉE — ACHETER (Réduit) (rebond technique confirmé en séance US +2.21% à $12.705, RSI remontant 46.14, score momentum révisé 5.3/10, score global ajusté bascule 60.0 zone ACHENTER Réduit, gap MM50 réduit −6.2%, options bullish stables, ALERTE volume effondré 0.43×)**
+- **Fichier :** `NU_2026-06-16_13-00_update.md`
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité mécanique totale pré-ouverture US sur deux snapshots 10h et 13h, données brutes identiques au close 15/06 $12
 
 ---
 

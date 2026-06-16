@@ -11,7 +11,7 @@
 **Score global ajusté :** 55.8/100
 **Prix cible consensus :** $9.05 (11 analysts)
 **Prix cible technique :** $3.44 (3×ATR)
-**Stop-loss :** $2.59
+**Stop-loss :** $2.59 (2×ATR)
 **Statut :** Thèse non établie — profil spéculatif biotech pré-profit, Filtre Qualité 2/6
 **Horizon :** 6–12 mois (dépendant des catalyseurs cliniques)
 
@@ -52,16 +52,16 @@
 - **MM 50j :** 3.87
 - **MM 200j :** —
 - **ATR 14j :** 0.17
-- **Volume moy. 20j :** 3340312
+- **Volume moy. 20j :** 3490604
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-16
-- **Type :** update
-- **Fichier :** `CTMX_2026-06-16_update.md`
-- **Conclusion :** Distribution baissière −3.62% à $2.93, RSI 17.16 survente historique, support $2.98 cassé, volume anémique 0.73×. Options très haussières inchangées (expiration demain). Score Global Ajusté 55.8/100 (+0.8 pt), ATTENDRE inchangée, timing Défavorable renforcé. SL $2.59 / TP $3.44.
+- **Type :** full refresh
+- **Fichier :** `CTMX_2026-06-16_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-16
 
 ---
 

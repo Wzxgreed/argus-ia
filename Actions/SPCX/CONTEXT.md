@@ -18,10 +18,10 @@
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 20.0/100
-- **Prix cible :** N/A
-- **Stop-loss :** N/A
-- **Statut thèse :** invalidée
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** validée
 - **Horizon :** —
 
 ---
@@ -40,7 +40,7 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement réel (ETF thématique)
+- **2026-06-16** · earnings · Earnings ...
 
 ---
 
@@ -50,10 +50,7 @@
 - **MM 50j :** —
 - **MM 200j :** —
 - **ATR 14j :** —
-- **Volume moy. 20j :** 371725794
-- **Prix fictif FMP :** $216.94
-- **Faux market cap :** $2.84T
-- **Forward P/E fictif :** −2,412
+- **Volume moy. 20j :** 360627617
 
 ---
 
@@ -61,8 +58,8 @@
 
 - **Date :** 2026-06-16
 - **Type :** update
-- **Fichier :** `SPCX_2026-06-16_update_17h.md`
-- **Conclusion :** Thèse invalidée — reclassement mécanique SURVEILLER → ÉVITER (Score Global 20.0/100), conflit de symbole mutagène (prix NaN → fictif $216.94), données totalement non fiables sur vingt-huit snapshots consécutifs
+- **Fichier :** `SPCX_2026-06-16_update.md`
+- **Conclusion :** **Date :** 2026-06-16
 
 ---
 

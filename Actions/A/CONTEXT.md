@@ -12,7 +12,7 @@
 **Prix cible desk :** $146.00 (TP ATR-based) / $163.29 (consensus analystes)
 **Stop-loss :** $118.90 (2×ATR)
 **Horizon :** 1–3 mois
-**Statut thèse :** 🟡 **Modifiée avec avertissement** — snapshot 17h UTC du 16/06 : **[DONNÉES COMPLÈTES RÉTABLIES]** (close $129.735, ATR $5.42, MM50 $120.44). RSI **68.34** (zone neutre-haussière). **[UPGRADE MAJEUR]** : Score Global ajusté **75.0/100** (was 56.3) — passage **ATTENDRE → ACHETER Standard** sur données complètes et scoring agent revu à la hausse (C:6.8 V:7.5 M:6.5). **[ALERTE TECHNIQUE MAJEURE] Volume collapse récurrent** : 516K (0.19× moy. 20j), deuxième séance sous 0.20× en 3 jours. **[ANOMALIE OPTIONS JSON RÉSOLUE]** : max pain normalisé $130.0, put/call 1.52, call OI 39.6%. Pinning options J+2 (expiration 18/06, max pain $130). Sector rotation : Healthcare (XLV) #6 (momentum 3.55), hors top 3.
+**Statut thèse :** 🟡 **Modifiée** — snapshot 17h UTC du 16/06 : **[DONNÉES COMPLÈTES RÉTABLIES]** (close $129.735, ATR $5.42, MM50 $120.44). RSI **68.34** (zone neutre-haussière). **[UPGRADE MAJEUR]** : Score Global ajusté **75.0/100** (was 56.3) — passage **ATTENDRE → ACHETER Standard** sur données complètes et scoring agent revu à la hausse (C:6.8 V:7.5 M:6.5). **[ALERTE TECHNIQUE MAJEURE] Volume collapse récurrent** : 516K (0.19× moy. 20j), deuxième séance sous 0.20× en 3 jours. **[ANOMALIE OPTIONS JSON RÉSOLUE]** : max pain normalisé $130.0, put/call 1.52, call OI 39.6%. Pinning options J+2 (expiration 18/06, max pain $130). Sector rotation : Healthcare (XLV) #6 (momentum 3.55), hors top 3 — pas de vent de poupe sectoriel.
 
 **Synthèse :** Agilent est en phase de consolidation post-gap avec les données techniques pleinement rétablies. Le **upgrade du scoring agent de 56.3 à 75.0** (ATTENDRE → ACHETER Standard) reflète la résolution des données partielles et la normalisation des options. Les fondamentaux restent solides : Filtre Qualité 5/6 maintenu, consensus $163.29 laissant un upside **+25.8%**. Le RSI **68.34** reste dans la zone neutre-haussière, au-dessus de la MM50 (+7.7%). Cependant, le **volume collapse récurrent** (516K, 0.19×) constitue un avertissement technique majeur non capturé par le scoring agent. Le desk recommande d'appliquer le scoring avec prudence : réduire le sizing ou attendre une normalisation du volume (>0.5× moy. 20j) avant exécution. Risques principaux : (1) pinning options J+2 autour de $130 avec close à $0.27, (2) volume quasi-nul invalidant toute conviction de breakout, (3) rotation sectorielle défavorable (XLV #6).
 
@@ -21,7 +21,7 @@
 ## 📜 Historique des analyses
 - **Score global :** —/10
 - **Prix cible :** $—
-- **Stop-loss :** $119.83
+- **Stop-loss :** $118.90
 - **Statut thèse :** modifiée
 - **Horizon :** 1–3 mois
 
@@ -66,11 +66,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 68.34
-- **MM 50j :** 120.44
+- **RSI 14j :** 64.84
+- **MM 50j :** 120.73
 - **MM 200j :** —
-- **ATR 14j :** 5.42
-- **Volume moy. 20j :** 2669869
+- **ATR 14j :** 5.4
+- **Volume moy. 20j :** 2723625
 
 ---
 
@@ -79,7 +79,7 @@
 - **Date :** 2026-06-16
 - **Type :** update
 - **Fichier :** `A_2026-06-16_update.md`
-- **Conclusion :** > **Date :** 2026-06-16 · Snapshot 17:00 UTC (close officiel US + post-close) · Données complètes rétablies, scoring agent upgradé 75.0/100 (ACHETER Standard), volume collapse récurrent 516K (0.19×) — avertissement technique majeur
+- **Conclusion :** > **Date :** 2026-06-16 · Snapshot 17:00 UTC (close officiel US + post-close)
 
 ---
 

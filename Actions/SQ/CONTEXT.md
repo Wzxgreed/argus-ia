@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 54.0/100
-- **Prix cible :** $85.67 (consensus)
-- **Stop-loss :** —
-- **Statut thèse :** ATTENDRE
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -24,11 +24,7 @@
 
 ## 🚨 Alertes actives
 
-- 🔴 **Stale Price aggravé** — cours figé ≥62 snapshots / ≥27 jours calendaires (2026-05-20 → 2026-06-16). SQ est le cas le plus ancien et le plus sévère de stale price dans le snapshot.
-- 🔴 **Data Pipeline Alert** — Earnings Q1 2026 non résolu après **27 jours calendaires** (date initiale 20/05). `upcoming_events_2026-06-16.json` affiche `days_until: 0` avec date 16/06 (placeholder FMP générique).
-- 🔴 **Source FMP Fallback** — SQ est le **dernier ticker** du snapshot 16/06 avec `"fmp_fallback"` et `change_pct: null`.
-- 🟡 **Consensus PT Figé** — Price target consensus **$85.67** (3 analystes) inchangé depuis le 27/05. Silence sell-side prolongé.
-- 🟡 **Pipeline Degradation** — `validation_report.txt` (16/06) affiche **5 [ERROR]** — seuil >2 franchi, stable vs 10h00.
+- Aucune alerte active.
 
 ---
 
@@ -40,11 +36,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** N/A (bloc technical vide depuis 17/05)
-- **MM 50j :** N/A
-- **MM 200j :** N/A
-- **ATR 14j :** N/A
-- **Volume moy. 20j :** N/A
+- **RSI 14j :** —
+- **MM 50j :** —
+- **MM 200j :** —
+- **ATR 14j :** —
+- **Volume moy. 20j :** —
 
 ---
 
@@ -52,15 +48,14 @@
 
 - **Date :** 2026-06-16
 - **Type :** update
-- **Fichier :** `SQ_2026-06-16_update_17h00.md`
-- **Conclusion :** > **Trigger :** Snapshot pipeline 17:00 UTC — post-session US. Zero mutation données brutes SQ vs snapshot 10h00.
+- **Fichier :** `SQ_2026-06-16_update.md`
+- **Conclusion :** > **Trigger :** Snapshot pipeline 10:00 UTC — pré-session US
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **Stale price ≥62 snapshots** — record historique du ticker, persistant depuis 20/05.
-- **Earnings placeholder glissant** — date initiale 20/05, glissée au 16/06, ≥62 snapshots sans résolution.
+- Aucun trigger récent.
 
 ---
 

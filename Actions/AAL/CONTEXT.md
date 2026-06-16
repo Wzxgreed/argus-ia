@@ -7,13 +7,13 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE — BIAIS HAUSSIER RÉACTIVÉ
-- **Prix cible :** Suspendu — attente cassure 52W high $16.50
-- **Stop-loss :** $14.53 (2×ATR $0.67)
-- **Take-profit :** $17.88 (3×ATR $0.67)
-- **Ratio R/R :** 1.5
-- **Upside/Downside :** +4.0% (consensus $16.51) / −8.4% (SL)
-- **Derniere mise a jour :** 2026-06-16 (snapshot 17h UTC)
+- **Recommandation :** ATTENDRE — BIAIS HAUSSIER RÉACTIVÉ (downgrade de ACHETER Sizing Réduit le 10/06, puis ATTENDRE — SUSPENDUE le 16/06 10h, maintenant ATTENDRE avec biais haussier)
+**Prix cible :** Suspendu — attente cassure 52W high $16.50 ou réévaluation post-earnings
+**Stop-loss :** $14.53 (2×ATR $0.67)
+**Take-profit :** $17.88 (3×ATR $0.67)
+**Ratio R/R :** 1.5
+**Upside/Downside :** +4.0% (consensus $16.51) / −8.4% (SL)
+**Derniere mise a jour :** 2026-06-16 (snapshot 17h UTC)
 
 American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). Le rally du 20–27/05 a matérialise **+24.3%** ($12.06 → $14.99). Après un repli post-rally jusqu'a **$13.50 (05/06)** et une période d'incertitude data quality (10/06), le cours avait rebondi de **$13.60 à $15.46 (+13.7%)** en 5 sessions. Le support **$14.00** avait été confirmé comme récupéré (3 closes consécutifs au-dessus).
 
@@ -40,7 +40,7 @@ L'agent recommandation maintient **ATTENDRE** avec un Score Opportunité de **5.
 ## Actualites ayant impacte ce dossier
 - **Score global :** —/10
 - **Prix cible :** $—
-- **Stop-loss :** $—
+- **Stop-loss :** $14.53
 - **Statut thèse :** invalide
 - **Horizon :** —
 
@@ -54,33 +54,25 @@ L'agent recommandation maintient **ATTENDRE** avec un Score Opportunité de **5.
 
 ## 🚨 Alertes actives
 
-- Baisse — $14.53 (SL 2×ATR) — 🟢 Active
-- Hausse — $16.50 (52W high) — 🟡 Proche — High du jour $16.19 à 1.9%
-- Volume — >2× moy. 20j (>188M) — 🟢 Non déclenchée (70.02M)
+- Baisse — $11.41 (SL 2×ATR) — 🟢 Active
+- Hausse — $14.00 (prix cible) — 🔴 Déclenchée (27/05)
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- 2026-06-17 : Expiration options (J−0) — Max Pain $10.00, Put/Call 1.69 — risque gamma inopérant (spot $15.87 >> Max Pain)
-- 2026-07-23 : Earnings Q2 FY2026 — Est EPS −$0.34 à $0.52, Rev $16.6B — 37 jours
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **Cours close :** 15.87
-- **Open :** 15.60
-- **High :** 16.19
-- **Low :** 15.58
-- **RSI 14j :** 59.08
-- **MM 50j :** 12.80
+- **RSI 14j :** 57.24
+- **MM 50j :** 12.89
 - **MM 200j :** —
-- **ATR 14j :** 0.67
-- **Volume session :** 70017481
-- **Volume moy. 20j :** 94432354
-- **52W high :** 16.50
-- **52W low :** 10.09
+- **ATR 14j :** 0.66
+- **Volume moy. 20j :** 103535112
 
 ---
 
@@ -88,14 +80,14 @@ L'agent recommandation maintient **ATTENDRE** avec un Score Opportunité de **5.
 
 - **Date :** 2026-06-16
 - **Type :** update
-- **Fichier :** `AAL_2026-06-16_update_17h00.md`
-- **Conclusion :** **Date :** 2026-06-16 (snapshot 17h UTC) — Données restaurées, rally +5.92%, test du 52W high, thèse ATTENDRE — BIAIS HAUSSIER RÉACTIVÉ
+- **Fichier :** `AAL_2026-06-16_update.md`
+- **Conclusion :** **Date :** 2026-06-16 (snapshot 10h UTC, pré-ouverture NY)
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +5.92% overnight (seuil ±5.0%)
+- Aucun trigger récent.
 
 ---
 

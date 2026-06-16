@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER (proxy ASTS)
-- **Score global :** 43.0/100
-- **Prix cible :** $94.54 (consensus FMP, 12 analysts)
-- **Stop-loss :** $58.29 (2xATR $12.40)
-- **Statut thèse :** Anomalie structurelle AST persistante (>44 snapshots) — ASTS proxy degrade, distribution sur volume collapse
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -24,35 +24,32 @@
 
 ## 🚨 Alertes actives
 
-- [ALERTE] AST : aucune donnee de cours depuis >44 snapshots — exclusion recommandee
-- [ALERTE] ASTS : volume collapse 0.42x, RSI 28.73 survente aggravee, cours -6.5% sous MM50 — biais baissier renforce
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-06-18** · options expiration · Theta decay imminent, max pain $100.0
-- **2026-08-10** · earnings · ASTS Q2 2026 — Est EPS -$0.29 a -$0.17, Rev $0.0B (54 jours)
+- **2026-06-16** · earnings · Earnings ...
 
 ---
 
-## 📊 Contexte technique (dernier snapshot 2026-06-16 17h UTC)
+## 📊 Contexte technique (dernier snapshot)
 
-- **Cours ASTS :** $83.09 (-5.12%)
-- **RSI 14j :** 28.73 (survente aggravee)
-- **MM 50j :** $88.90 (cours -6.5% sous MM50)
+- **RSI 14j :** —
+- **MM 50j :** —
 - **MM 200j :** —
-- **ATR 14j :** $12.40
-- **Volume moy. 20j :** 26.89M (seance 11.35M = 0.42x)
+- **ATR 14j :** —
+- **Volume moy. 20j :** —
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-16
-- **Type :** update (post-session US 17h UTC)
-- **Fichier :** `AST_2026-06-16_update.md`
-- **Conclusion :** Deterioration technique nette sur ASTS : -5.12% a $83.09 sur volume collapse 0.42x, RSI 28.73 survente aggravee, ecart MM50 elargi a -6.5%. Anomalie options JSON RESOLUE (max pain $100.0 natif). AST reste en erreur structurelle >44 snapshots. Action SURVEILLER maintenue (43.0/100), proche EVITER. Ne pas entrer avant test reussi MM50 avec volume.
+- **Type :** preview
+- **Fichier :** `AST_2026-06-16_preview.md`
+- **Conclusion :** > **Date :** 2026-06-16
 
 ---
 

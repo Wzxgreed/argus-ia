@@ -1,4 +1,4 @@
-# CONTEXT — QTBS — Dernière mise à jour : 2026-06-16 (snapshot 17h UTC)
+# CONTEXT — QTBS — Dernière mise à jour : 2026-06-16
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -19,9 +19,11 @@
 ---
 
 ## 📜 Historique des fichiers
-
-- **Dernier update :** `QTBS_2026-06-16_update_17h.md`
-- **Avant-dernier :** `QTBS_2026-06-16_update.md`
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** Jusqu'à reprise du data feed
 
 ---
 
@@ -39,7 +41,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-16** · earnings · Placeholder FMP J0 figé (non analysable)
+- **2026-06-16** · earnings · Earnings ...
 
 ---
 
@@ -56,9 +58,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-16
-- **Type :** update (snapshot 17h UTC)
+- **Type :** init
 - **Fichier :** `QTBS_2026-06-16_update_17h.md`
-- **Conclusion :** Data blackout confirmé — 53e snapshot consécutif sans mutation. Score 55.2 ATTENDRE. Aucun signal nouveau. Earnings placeholder J0 figé au 16/06. News Yahoo `[]`.
+- **Conclusion :** > **Date :** 2026-06-16 (snapshot 17h UTC)
 
 ---
 

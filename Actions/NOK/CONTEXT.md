@@ -19,7 +19,7 @@ Snapshot post-17h UTC : close **$13.855** (chute −6.51% vs snapshot 17h). RSI 
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 44.2/100
+- **Score global :** —/10
 - **Prix cible :** $10.8
 - **Stop-loss :** $11.70
 - **Statut thèse :** validée
@@ -35,7 +35,7 @@ Snapshot post-17h UTC : close **$13.855** (chute −6.51% vs snapshot 17h). RSI 
 
 ## 🚨 Alertes actives
 
-- Baisse — $11.70 (SL 2×ATR) — 🟢 Active
+- Baisse — $12.03 (SL 2×ATR) — 🟢 Active
 - Hausse — $9.26 (consensus) — 🔴 Déjà au-dessus
 - Volume — >2× moy. 20j (>249M) — 🟢 Active
 
@@ -49,11 +49,11 @@ Snapshot post-17h UTC : close **$13.855** (chute −6.51% vs snapshot 17h). RSI 
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 39.98
+- **RSI 14j :** 40.38
 - **MM 50j :** 12.99
 - **MM 200j :** —
-- **ATR 14j :** 1.08
-- **Volume moy. 20j :** 124131683
+- **ATR 14j :** 1.09
+- **Volume moy. 20j :** 125955929
 
 ---
 
@@ -61,14 +61,14 @@ Snapshot post-17h UTC : close **$13.855** (chute −6.51% vs snapshot 17h). RSI 
 
 - **Date :** 2026-06-16
 - **Type :** update
-- **Fichier :** `NOK_2026-06-16_21h_update.md`
-- **Conclusion :** La thèse SURVEILLER est confirmée et renforcée par la chute de −6.51% à $13.855. Break du support $14.27, RSI 39.98, volume effondré 0.66×. Score Global dégradé 44.2/100. Pas de position.
+- **Fichier :** `NOK_2026-06-16_17h_update.md`
+- **Conclusion :** > **Date :** 2026-06-16
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap -6.51% (seuil ±5.0%) — DÉCLENCHÉ
+- **PRICE_GAP** (medium) — Gap -5.67% overnight (seuil ±5.0%)
 - **ATR_SPIKE** (medium) — ATR relatif 7.80% (seuil 5.0%)
 
 ---
