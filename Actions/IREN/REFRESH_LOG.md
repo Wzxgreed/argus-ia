@@ -2,6 +2,17 @@
 
 ---
 
+## 2026-06-16 — Full Refresh Déclenché (snapshot 17:00 UTC)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 9.61% (seuil 5.0%)
+
+**Conclusion :** modify — dégradation du momentum et révision des données brutes
+
+Le DRAFT_refresh a été déclenché automatiquement à 17:00 UTC par ATR_SPIKE sur le snapshot `data/latest.json` (fetched_at 2026-06-16T17:00:07 UTC). Les données brutes ont été **révisées par Yahoo Finance** : open corrigé à **$59.99** (−$2.33 vs $62.32 à 13h), high à **$62.02** (−$1.15), low à **$59.05** (−$1.29), previous_close corrigé à **$60.85** (vs $59.77 erroné à 13h). Le cours à **$60.335** représente un repli de **−0.85%** vs le close corrigé du 15/06. Le RSI a chuté de **51.08 à 41.06** (−10.02 pts), signalant une accélération de la pression vendeuse intra-session. Le Score Momentum est dégradé de **7.3 à 5.5/10** (−1.8 pt), entraînant une baisse du Score Global ajusté de **57.5 à 53.0/100** (−4.5 pts). L'action reste **ATTENDRE**. La structure options reste inchangée et cohérente (Max Pain $35.00, put/call 1.44, call OI 41.0%). Volume très faible (16.82 M = 35.2% moyenne 20j à 17h UTC, session en cours). DRAFT_refresh complété et archivé (`IREN_2026-06-16_DRAFT_refresh.md` → `_ARCHIVED_DRAFT_refresh_IREN_2026-06-16_17h00.md`). Fichier de référence : [IREN_2026-06-16_update_17h00.md](IREN_2026-06-16_update_17h00.md).
+
+---
+
 ## 2026-06-16 — Full Refresh Complété
 
 **Triggers :**

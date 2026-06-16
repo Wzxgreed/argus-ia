@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
+- **Recommandation :** ATTENDRE
+- **Score global :** 53.0/100
+- **Prix cible :** $69.12 (consensus FMP)
+- **Stop-loss :** $48.73
 - **Statut thèse :** modifiée
-- **Horizon :** —
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -41,11 +41,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 41.11
+- **RSI 14j :** 41.06
 - **MM 50j :** 53.09
 - **MM 200j :** —
-- **ATR 14j :** 5.8
-- **Volume moy. 20j :** 47646883
+- **ATR 14j :** 5.80
+- **Volume moy. 20j :** 47757503
 
 ---
 
@@ -53,8 +53,8 @@
 
 - **Date :** 2026-06-16
 - **Type :** update
-- **Fichier :** `IREN_2026-06-16_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — statut ATTENDRE inchangé sur stabilité totale des données
+- **Fichier :** `IREN_2026-06-16_update_17h00.md`
+- **Conclusion :** **Thèse : MODIFIÉE — statut ATTENDRE maintenu sur dégradation du momentum (RSI 41.06, Score Global 53.0/100). Données brutes révisées par Yahoo.**
 
 ---
 
