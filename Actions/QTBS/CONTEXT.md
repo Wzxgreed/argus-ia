@@ -1,4 +1,4 @@
-# CONTEXT — QTBS — Dernière mise à jour : 2026-06-16
+# CONTEXT — QTBS — Dernière mise à jour : 2026-06-16 (snapshot 17h UTC)
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -11,19 +11,17 @@
 - **Score global :** 55.2/100
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** 🔴 Bloqué data — pas de données de prix disponibles (confirmé snapshot 10h UTC, 52e snapshot consécutif sans mutation)
+- **Statut thèse :** 🔴 Bloqué data — pas de données de prix disponibles (confirmé snapshot 17h UTC, 53e snapshot consécutif sans mutation)
 - **Horizon :** Jusqu'à reprise du data feed
 
-**Synthèse (1 phrase) :** QTBS reste en data blackout complet (No price history) depuis au moins le 20 mai 2026 ; le placeholder earnings J0 glissant est passé du 15/06 au 16/06 — statut ATTENDRE maintenu après vérification snapshot 10h UTC (52e snapshot consécutif sans mutation, aucun signal nouveau). FX exposure inchangée : 25% export, impact neutre (score 0.0).
+**Synthèse (1 phrase) :** QTBS reste en data blackout complet (No price history) depuis au moins le 20 mai 2026 ; le placeholder earnings J0 glissant est figé au 16/06 entre snapshots 10h et 17h — statut ATTENDRE maintenu après vérification snapshot 17h UTC (53e snapshot consécutif sans mutation, aucun signal nouveau). FX exposure inchangée : 25% export, impact neutre (score 0.0). News Yahoo : `[]`.
 
 ---
 
 ## 📜 Historique des fichiers
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
-- **Horizon :** Jusqu'à reprise du data feed
+
+- **Dernier update :** `QTBS_2026-06-16_update_17h.md`
+- **Avant-dernier :** `QTBS_2026-06-16_update.md`
 
 ---
 
@@ -41,7 +39,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-16** · earnings · Earnings ...
+- **2026-06-16** · earnings · Placeholder FMP J0 figé (non analysable)
 
 ---
 
@@ -58,9 +56,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-16
-- **Type :** preview
-- **Fichier :** `QTBS_2026-06-16_preview.md`
-- **Conclusion :** > **Date :** 2026-06-16
+- **Type :** update (snapshot 17h UTC)
+- **Fichier :** `QTBS_2026-06-16_update_17h.md`
+- **Conclusion :** Data blackout confirmé — 53e snapshot consécutif sans mutation. Score 55.2 ATTENDRE. Aucun signal nouveau. Earnings placeholder J0 figé au 16/06. News Yahoo `[]`.
 
 ---
 

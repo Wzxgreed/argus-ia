@@ -39,19 +39,19 @@
 | 2026-06-15 | Mise à jour post-pipeline (10h UTC) | [SPCX_2026-06-15_update.md](./SPCX_2026-06-15_update.md) | Thèse confirmée en ATTENDRE — conflit de symbole aggravé (cours fictif $160.95 +19.2%, market cap $2.1T, forward P/E −1,788), scoring mécanique remonté 47.2→51.0/100 (artefact), vingt-troisième snapshot sans données fiables |
 | 2026-06-15 | Mise à jour post-pipeline (17h UTC) | [SPCX_2026-06-15_update_17h.md](./SPCX_2026-06-15_update_17h.md) | Thèse confirmée en SURVEILLER — conflit de symbole encore aggravé (cours fictif $179.26 +11.4%, forward P/E −1,992, market cap $2.35T), scoring mécanique ajusté à la baisse 51.0→48.5/100, reclassement ATTENDRE → SURVEILLER, vingt-quatrième snapshot sans données fiables |
 | 2026-06-15 | Mise à jour post-pipeline (21h UTC) | [SPCX_2026-06-15_update_21h.md](./SPCX_2026-06-15_update_21h.md) | Thèse confirmée en SURVEILLER — conflit de symbole encore aggravé (cours fictif $192.50 +7.4%, forward P/E −2,139, market cap $2.52T), scoring mécanique ajusté à la baisse 48.5→45.0/100, maintien SURVEILLER, vingt-cinquième snapshot sans données fiables, données options passées à null |
-| 2026-06-16 | Mise à jour post-pipeline (10h UTC) | [SPCX_2026-06-16_update.md](./SPCX_2026-06-16_update.md) | Thèse confirmée en SURVEILLER — conflit de symbole persistant, prix passé de $192.50 fictif à NaN (perte totale du flux Yahoo), volume figé 243M, scoring mécanique remonté 45.0→47.2/100 (artefact), sector rotation corrompu (NaN massifs), vingt-sixième snapshot sans données fiables |
+| 2026-06-16 | Mise à jour post-pipeline (17h UTC) | [SPCX_2026-06-16_update_17h.md](./SPCX_2026-06-16_update_17h.md) | Thèse invalidée — reclassement mécanique SURVEILLER → ÉVITER (Score Global 20.0/100), conflit de symbole mutagène : nouveau prix fictif $216.94 (+34.78%), faux market cap $2.84T, vingt-huitième snapshot sans données fiables |
 
 ---
 
 ## Thèse d'investissement courante
 
-**Recommandation :** SURVEILLER (artefact mécanique — fondamentalement non-actionnable)
-**Prix cible :** N/A (données insuffisantes — cours NaN)
+**Recommandation :** ÉVITER (artefact mécanique — fondamentalement non-actionnable)
+**Prix cible :** N/A (données insuffisantes — cours fictif)
 **Stop-loss :** N/A
 **Upside :** —
-**Dernière mise à jour :** 2026-06-16 (snapshot 10h UTC)
+**Dernière mise à jour :** 2026-06-16 (snapshot 17h UTC)
 
-> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 10h UTC du 16/06 confirme le **conflit de symbole persistant** avec une aggravation technique : le cours fictif **$192.50** a disparu au profit d'un **NaN** (perte totale du flux de prix Yahoo), tandis que le volume reste figé à **243,783,175** unités (identique au snapshot 21h 15/06). Le secteur reste `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management`. Les métriques aberrantes sont inchangées : market cap **$2.52T**, forward P/E **−2,139**, consensus **$177.50** avec **2 analysts** (non applicable à un ETF). L'Agent Recommandation maintient **SURVEILLER** avec un Score Global Ajusté de **47.2/100** (Score Opportunité 4.7/10 : C:6.5 V:3.0 M:5.0), timing Neutre. Cette remontée de 45.0 à 47.2 est un **artefact algorithmique** non fondé sur une amélioration des données — le prix est désormais totalement absent. Le module sector rotation est devenu inutilisable (NaN massifs sur 9/11 secteurs, momentum figé à 10.0). Aucun catalyseur fondamental, news, options ni social. SL/TP non calculables (prix et ATR absents). Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + Score Momentum ≥ 6.0. Si le flux fiable ne revient pas sur les prochains snapshots → reclassement **ÉVITER**.
+> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 17h UTC du 16/06 marque une **aggravation structurelle majeure** du conflit de symbole FMP : après deux snapshots de prix NaN (10h et 13h UTC), FMP a renvoyé un **nouveau cours fictif $216.94** (+34.78% vs previous close $160.95), accompagné d'un faux market cap de **$2.84T** et d'un forward P/E de **−2,412**. L'Agent Recommandation a **basculé en ÉVITER** avec un Score Global de **20.0/100** (Score Opportunité 2.0/10 : C:5.5 V:2.0 M:5.5), timing Neutre. Le Score Valorisation à **2.0/10** atteint exactement le seuil de disqualification (≤ 2/10). Le secteur reste `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management`. Le module sector rotation est rétabli (NEUTRAL, 11/11 secteurs OK, XLF momentum_score 6.68). Aucun catalyseur fondamental, news, options ni social. SL/TP non calculables (prix et ATR absents). Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + Score Momentum ≥ 6.0. Si le flux fiable ne revient pas ou si le prix continue de muter (NaN ↔ valeurs fictives) → maintien **ÉVITER**.
 
 ---
 
@@ -68,6 +68,7 @@
 | 2026-06-02 | Stabilité totale sur 6 snapshots, données absentes persistantes | 🔴 Élevé | [SPCX_2026-06-02_update.md](./SPCX_2026-06-02_update.md) |
 | 2026-06-08 | Conflit de symbole FMP détecté : cours $135.00, OHLC $0.00, sector Aerospace | 🔴 Élevé | [SPCX_2026-06-08_update.md](./SPCX_2026-06-08_update.md) |
 | 2026-06-08 | Snapshot 17h UTC — stabilité totale, quatorze snapshots sans données fiables | 🔴 Élevé | [SPCX_2026-06-08_update_17h.md](./SPCX_2026-06-08_update_17h.md) |
+| 2026-06-16 | Snapshot 17h UTC — reclassement mécanique SURVEILLER → ÉVITER, Score Global 20.0, faux prix $216.94 | 🔴 Élevé | [SPCX_2026-06-16_update_17h.md](./SPCX_2026-06-16_update_17h.md) |
 | 2026-06-09 | Snapshot 10h UTC — reclassement mécanique ATTENDRE → SURVEILLER, Score Global 47.2 | 🔴 Élevé | [SPCX_2026-06-09_update.md](./SPCX_2026-06-09_update.md) |
 
 ---

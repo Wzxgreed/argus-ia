@@ -7,21 +7,21 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER (artefact mécanique — fondamentalement non-actionnable)
-**Prix cible :** N/A (données insuffisantes — cours NaN)
+- **Recommandation :** ÉVITER (artefact mécanique — fondamentalement non-actionnable)
+**Prix cible :** N/A (données insuffisantes — cours fictif)
 **Stop-loss :** N/A
 **Upside :** —
-**Dernière mise à jour :** 2026-06-16 (snapshot 10h UTC)
+**Dernière mise à jour :** 2026-06-16 (snapshot 17h UTC)
 
-> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 10h UTC du 16/06 confirme le **conflit de symbole persistant** avec une aggravation technique : le cours fictif **$192.50** a disparu au profit d'un **NaN** (perte totale du flux de prix Yahoo), tandis que le volume reste figé à **243,783,175** unités (identique au snapshot 21h 15/06). Le secteur reste `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management`. Les métriques aberrantes sont inchangées : market cap **$2.52T**, forward P/E **−2,139**, consensus **$177.50** avec **2 analysts** (non applicable à un ETF). L'Agent Recommandation maintient **SURVEILLER** avec un Score Global Ajusté de **47.2/100** (Score Opportunité 4.7/10 : C:6.5 V:3.0 M:5.0), timing Neutre. Cette remontée de 45.0 à 47.2 est un **artefact algorithmique** non fondé sur une amélioration des données — le prix est désormais totalement absent. Le module sector rotation est devenu inutilisable (NaN massifs sur 9/11 secteurs, momentum figé à 10.0). Aucun catalyseur fondamental, news, options ni social. SL/TP non calculables (prix et ATR absents). Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + Score Momentum ≥ 6.0. Si le flux fiable ne revient pas sur les prochains snapshots → reclassement **ÉVITER**.
+> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 17h UTC du 16/06 marque une **aggravation structurelle majeure** du conflit de symbole FMP : après deux snapshots de prix NaN (10h et 13h UTC), FMP a renvoyé un **nouveau cours fictif $216.94** (+34.78% vs previous close $160.95), accompagné d'un faux market cap de **$2.84T** et d'un forward P/E de **−2,412**. L'Agent Recommandation a **basculé en ÉVITER** avec un Score Global de **20.0/100** (Score Opportunité 2.0/10 : C:5.5 V:2.0 M:5.5), timing Neutre. Le Score Valorisation à **2.0/10** atteint exactement le seuil de disqualification (≤ 2/10). Le secteur reste `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management`. Le module sector rotation est rétabli (NEUTRAL, 11/11 secteurs OK, XLF momentum_score 6.68). Aucun catalyseur fondamental, news, options ni social. SL/TP non calculables (prix et ATR absents). Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + Score Momentum ≥ 6.0. Si le flux fiable ne revient pas ou si le prix continue de muter (NaN ↔ valeurs fictives) → maintien **ÉVITER**.
 
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** validée
+- **Score global :** 20.0/100
+- **Prix cible :** N/A
+- **Stop-loss :** N/A
+- **Statut thèse :** invalidée
 - **Horizon :** —
 
 ---
@@ -40,7 +40,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-16** · earnings · Earnings ...
+- Aucun événement réel (ETF thématique)
 
 ---
 
@@ -50,7 +50,10 @@
 - **MM 50j :** —
 - **MM 200j :** —
 - **ATR 14j :** —
-- **Volume moy. 20j :** 358080660
+- **Volume moy. 20j :** 371725794
+- **Prix fictif FMP :** $216.94
+- **Faux market cap :** $2.84T
+- **Forward P/E fictif :** −2,412
 
 ---
 
@@ -58,8 +61,8 @@
 
 - **Date :** 2026-06-16
 - **Type :** update
-- **Fichier :** `SPCX_2026-06-16_update.md`
-- **Conclusion :** **Date :** 2026-06-16
+- **Fichier :** `SPCX_2026-06-16_update_17h.md`
+- **Conclusion :** Thèse invalidée — reclassement mécanique SURVEILLER → ÉVITER (Score Global 20.0/100), conflit de symbole mutagène (prix NaN → fictif $216.94), données totalement non fiables sur vingt-huit snapshots consécutifs
 
 ---
 
