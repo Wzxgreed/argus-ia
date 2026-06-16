@@ -11,9 +11,7 @@
 
 AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **aucune donnée de prix n'est disponible** dans le pipeline Argus-IA car le symbole "AXA" n'est pas reconnu par yfinance (instrument non coté US). L'analyse technique et fondamentale reste impossible.
 
-**Contexte sectoriel (dernier snapshot fiable : 2026-06-15 21h00 UTC) :** Le secteur Financials (XLF) affichait une **mutation mécanique** entre 17h et 21h du 15/06. Le fichier `data/sector_rotation_2026-06-15.json` réécrit à 21h plaçait XLF au rang **2e/11** (vs 3e/11 à 17h), mais avec un momentum score de **4.69/10** (vs 5.12/10 à 17h), RS 20j **+2.70%** (vs +3.13% à 17h) et RS 60j **−4.82%** (vs −4.38% à 17h). Le retour au rang 2e était mécanique (dégradation relative d'autres secteurs), pas organique. Le signal macro reste `UNKNOWN` (stable depuis le 02/06).
-
-**Anomalie JSON sectorielle récurrente (16/06) :** Le fichier `data/sector_rotation_2026-06-16.json` présente la même anomalie technique que le 10/06 (NaN + momentum 10.0 uniforme pour tous les secteurs) et est classé inexploitable. Le dernier contexte sectoriel fiable reste donc le snapshot 21h du 15/06.
+**Contexte sectoriel (snapshot 17h du 16/06 — fichier réparé) :** Le fichier `data/sector_rotation_2026-06-16.json` est récupéré et exploitable à 17h. XLF (Financials) au rang **2e/11**, momentum **6.68/10**, RS 20j **+4.64%**, RS 60j **−2.76%**. C'est une **amélioration nette** vs le close du 15/06 (momentum +1.99 pt, RS 20j +1.94 pp, RS 60j +2.06 pp), qualitativement organique. Le signal macro reste `UNKNOWN` (stable depuis le 02/06).
 
 **Action immédiate :** corriger le symbole dans `config/watchlist.json` (`CS.PA` ou `AXAHY`), mettre à jour le secteur (Financials / Insurance) et relancer le fetch.
 
@@ -36,13 +34,13 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- **[INFO]** Fichier sectoriel réparé à 17h : `data/sector_rotation_2026-06-16.json` exploitable — XLF rang 2e/11, momentum 6.68/10, RS 20j +4.64%, RS 60j −2.76%.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-06-16** · earnings · Earnings ...
+- **2026-06-16** · earnings · Earnings J0 FMP sans détails exploitables (18e jour consécutif)
 
 ---
 
@@ -59,9 +57,9 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-16
-- **Type :** preview
-- **Fichier :** `AXA_2026-06-16_preview.md`
-- **Conclusion :** > **Date :** 2026-06-16
+- **Type :** _update.md
+- **Fichier :** `AXA_2026-06-16_update_17h.md`
+- **Conclusion :** Données AXA toujours KO (18e snapshot consécutif). Fichier sectoriel XLF réparé à 17h avec amélioration nette du momentum (+1.99 pt) et de la force relative (+1.94 pp à 20j, +2.06 pp à 60j). Thèse ATTENDRE confirmée, scoring stable 55.2/100. Action : corriger le symbole.
 
 ---
 
