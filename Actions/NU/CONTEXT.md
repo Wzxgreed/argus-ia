@@ -1,4 +1,4 @@
-# CONTEXT — NU — Dernière mise à jour : 2026-06-15
+# CONTEXT — NU — Dernière mise à jour : 2026-06-16
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -48,7 +48,7 @@
 - **MM 50j :** 13.58
 - **MM 200j :** —
 - **ATR 14j :** 0.51
-- **Volume moy. 20j :** 64648821
+- **Volume moy. 20j :** 64734520
 
 ---
 
@@ -56,8 +56,8 @@
 
 - **Date :** 2026-06-15
 - **Type :** update
-- **Fichier :** `NU_2026-06-15_21-00_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE avec nuance nettement améliorée (rebond technique +1.97% consolidé et légitimé par correction volumétrique majeure 0.47× → 0.96×, divergence RSI prix/momentum RÉSOLUE RSI 43.11, structure options bullish confirmée sur 3 snapshots consécutifs, score global ajusté stable 56.2 zone ATTENDRE maintenue, fondamentaux intacts forward P/E 10.85× upside +40.7%, gap MM50 réduit à −8.5%, SL/TP $11.41/$13.96)**
+- **Fichier :** `NU_2026-06-15_17-00_update.md`
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (rebond technique +1
 
 ---
 

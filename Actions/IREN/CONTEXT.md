@@ -1,4 +1,4 @@
-# CONTEXT — IREN — Dernière mise à jour : 2026-06-15
+# CONTEXT — IREN — Dernière mise à jour : 2026-06-16
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -8,17 +8,17 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ATTENDRE
-- **Score global :** 5.3/10 (ajusté 57.5/100)
-- **Prix cible :** $69.12
+- **Score global :** 57.5/100
+- **Prix cible :** $69.12 (consensus FMP)
 - **Stop-loss :** $48.49
-- **Statut thèse :** modifiée
+- **Statut thèse :** confirmée
 - **Horizon :** 1–3 mois
 
 ---
 
 ## 📉 Erreurs de prédiction récentes
 
-- Aucune erreur enregistrée.
+- **2026-05-17** · earnings · Miss / Imprécis · Ligne:  | 2026-05-17 | IREN | `_init.md` | ATTENDRE | $65.86
 
 ---
 
@@ -30,13 +30,12 @@
 - IREN — Vérification — $61.20
 - IREN — **⚠️ Volume DÉCLENCHÉ** — $55.15 (close)
 - IREN — **⚠️ Baisse INTRADAY** — $52.36 (low)
-- IREN — **⚠️ Downgrade Score** — Global 61.8→57.5 (snapshot 21h)
 
 ---
 
 ## 📅 Prochains événements
 
-- Earnings Q2 2026 — 2026-08-27 (73 jours)
+- Earnings Q2 2026 — 2026-08-27 — ⏳ 72 jours
 
 ---
 
@@ -46,25 +45,22 @@
 - **MM 50j :** 52.58
 - **MM 200j :** —
 - **ATR 14j :** 6.18
-- **Volume moy. 20j :** 49065410
-- **Volume session :** 33019016 (67.3% moyenne)
-- **Cours close :** 60.85
-- **Previous close :** 59.77
+- **Volume moy. 20j :** 49068260
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-15
+- **Date :** 2026-06-16
 - **Type :** update
-- **Fichier :** `IREN_2026-06-15_update_21h00.md`
-- **Conclusion :** Downgrade algorithmique majeur : Score Global 61.8→57.5/100, action ACHETER (Sizing Réduit)→ATTENDRE. Cours +1.81% à $60.85 mais volume effondré à 67.3% moyenne. Multiples mécaniquement dégradés (P/E 79.0×, Forward P/E −64.7×). SL/TP révisés $48.49/$79.39 (R/R 1.5). Thèse modifiée — pas de nouvelle entrée, positions existantes maintenues avec vigilance.
+- **Fichier :** `IREN_2026-06-16_update.md`
+- **Conclusion :** Stabilité totale des données brutes et du scoring vs snapshot 21h UTC 15/06. Thèse ATTENDRE 57.5/100 confirmée. Anomalies options détectées (Max Pain $100.00, put/call null) — structure du 15/06 conservée comme référence.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 10.16% (seuil 5.0%)
+- Aucun nouveau trigger. DRAFT_refresh du 2026-06-16 traité et archivé (données inchangées vs 15/06).
 
 ---
 

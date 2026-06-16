@@ -1,4 +1,4 @@
-# CONTEXT — SPCX — Dernière mise à jour : 2026-06-15
+# CONTEXT — SPCX — Dernière mise à jour : 2026-06-16
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -18,9 +18,9 @@
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 45.0/100
-- **Prix cible :** N/A
-- **Stop-loss :** N/A
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
 - **Statut thèse :** validée
 - **Horizon :** —
 
@@ -40,7 +40,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-15** · earnings · Earnings ... (artefact FMP, ignoré)
+- **2026-06-16** · earnings · Earnings ...
 
 ---
 
@@ -50,16 +50,16 @@
 - **MM 50j :** —
 - **MM 200j :** —
 - **ATR 14j :** —
-- **Volume moy. 20j :** 381,508,987
+- **Volume moy. 20j :** 381508987
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-15
-- **Type :** update
-- **Fichier :** `SPCX_2026-06-15_update_21h.md`
-- **Conclusion :** Thèse confirmée en SURVEILLER — conflit de symbole aggravé (cours fictif $192.50, forward P/E −2,139, market cap $2.52T), Score Global 45.0/100, vingt-cinquième snapshot sans données fiables, données options passées à null.
+- **Date :** 2026-06-16
+- **Type :** preview
+- **Fichier :** `SPCX_2026-06-16_preview.md`
+- **Conclusion :** > **Date :** 2026-06-16
 
 ---
 

@@ -1,4 +1,4 @@
-# CONTEXT — CTMX — Dernière mise à jour : 2026-06-15
+# CONTEXT — CTMX — Dernière mise à jour : 2026-06-16
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -20,10 +20,10 @@
 ---
 
 ## Historique des fichiers
-- **Score global :** 55.0/100
-- **Prix cible :** $9.05
+- **Score global :** —/10
+- **Prix cible :** $—
 - **Stop-loss :** $2.68
-- **Statut thèse :** Thèse non établie — profil spéculatif biotech pré-profit, Filtre Qualité 2/6
+- **Statut thèse :** —
 - **Horizon :** 6–12 mois (dépendant des catalyseurs cliniques)
 
 ---
@@ -36,26 +36,13 @@
 
 ## 🚨 Alertes actives
 
-- 🟢 Cours $3.04 — +1.0% vs 17h, high $3.13, low $2.98 (support testé et tenu)
-- 🟡 Volume 0.87× — normalisation, retour au-dessus de la moyenne
-- 🔴 RSI 25.93 — survente extrême persistante
-- 🟢 Short interest 14.97% — stable, potentiel short squeeze si catalyseur
-- 🔴 Cours sous MM50 ($3.90) avec écart −22.1%
-- 🟡 Score Global Ajusté 55.0/100 — au-dessus du seuil institutionnel (50) mais stable
-- 🟡 Recommandation ATTENDRE — zone de risque technique accru
-- 🟢 Options — structure très haussière (max pain $4.00, put/call 0.14, call OI 87.8%), expiration demain
-- [WARNING] Données MM200 manquantes
-- [WARNING] Biotech pré-revenue — scoring standard peu fiable
-- [INFO] Earnings confirmé le 2026-08-06 (J+52) — Est EPS $−0.13 à $−0.07
-- [INFO] Expiration options demain (2026-06-18) — volatilité potentielle, pin risk vers $4.00
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-08-06** · earnings · Est EPS $−0.13 à $−0.07, Rev $0.0B (J+52)
-- **Catalyseurs potentiels** · CX-2029 / CX-904 · Data readout / updates partenariats AbbVie/BMS
-- **Expiration options** · 2026-06-18 · pin risk haussier vers $4.00
+- Aucun événement à venir.
 
 ---
 
@@ -65,21 +52,22 @@
 - **MM 50j :** 3.9
 - **MM 200j :** —
 - **ATR 14j :** 0.18
-- **Volume moy. 20j :** 3374233
+- **Volume moy. 20j :** 3374235
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-15
-- **Type :** update
-- **Fichier :** `CTMX_2026-06-15_update.md`
-- **Conclusion :** **Thèse : NON ÉTABLIE — PROFIL SPÉCULATIF BIOTECH — ATTENDRE (INCHANGÉE)**. Close $3.04 (+1.0% vs 17h UTC), volume normalisé 0.87×, RSI 25.93 (survente extrême), structure options très haussière inchangée (max pain $4.00, expiration demain), Score Global Ajusté 55.0/100 stable. Timing Défavorable (inchangé) en raison de la position sous MM50 et de la tendance baissière persistante.
+- **Date :** 2026-06-16
+- **Type :** full refresh
+- **Fichier :** `CTMX_2026-06-16_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-16
+
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **ATR_SPIKE** (medium) — ATR relatif 5.92% (seuil 5.0%)
 
 ---
 

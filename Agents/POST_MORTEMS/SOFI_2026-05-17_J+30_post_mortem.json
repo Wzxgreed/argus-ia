@@ -1,0 +1,14 @@
+{
+  "ticker": "SOFI",
+  "date_signal": "2026-05-17",
+  "date_post_mortem": "2026-06-16",
+  "score": "—",
+  "type": "Prix cible",
+  "horizon": "J+30",
+  "entry_price": 15.61,
+  "exit_price": 17.13,
+  "return_pct": 0.0973734785393978,
+  "verdict": "❌ Miss",
+  "rule_extracted": "Si prix cible rate avec une erreur > 20% → revérifier le Filtre Qualité et les hypothèses de DCF avant prochaine émission de PT sur ce ticker.",
+  "confidence": "faible"
+}

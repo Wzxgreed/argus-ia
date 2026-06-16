@@ -5,6 +5,12 @@ Ce fichier contient les **règles actives** issues des erreurs passées. Elles s
 ---
 
 ## Règles actives issues des erreurs
+### Règle auto — 2026-06-16
+- **Règle :** Si prix cible rate avec une erreur > 20% → revérifier le Filtre Qualité et les hypothèses de DCF avant prochaine émission de PT sur ce ticker.
+- **Source :** Post-mortem prix cible IREN 2026-05-17
+- **Confiance :** moyenne
+- **Commentaire :** Extrait automatiquement par `learn_from_errors.py`. À réévaluer après 3 mois ou 10 signaux supplémentaires.
+
 
 > Les règles ci-dessous sont extraites automatiquement par `learn_from_errors.py` lors de chaque post-mortem. Elles s'appliquent à TOUTES les analyses futures.
 

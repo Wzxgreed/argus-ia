@@ -1,4 +1,4 @@
-# CONTEXT — A — Dernière mise à jour : 2026-06-15
+# CONTEXT — A — Dernière mise à jour : 2026-06-16
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -29,7 +29,9 @@
 
 ## 📉 Erreurs de prédiction récentes
 
-- Aucune erreur enregistrée.
+- **2026-05-17** · earnings · Miss / Imprécis · Ligne:  | 2026-05-17 | IREN | `_init.md` | ATTENDRE | $65.86
+- **2026-05-17** · earnings · Miss / Imprécis · Ligne:  | 2026-05-17 | SOFI | `_init.md` | ATTENDRE | $19.51
+- **2026-05-17** · earnings · Miss / Imprécis · Ligne:  | 2026-05-17 | AAL | `_init.md` | SURVEILLER | $14.00
 
 ---
 
@@ -58,17 +60,16 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-18** · Expiration options (max pain opérationnel $130) · **J+3**
-- **2026-08-26** · Earnings Q3 2026 · Est EPS $1.43–$1.51, Rev $1.8B · J+72
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 69.11
-- **MM 50j :** 120.46
+- **RSI 14j :** 68.52
+- **MM 50j :** —
 - **MM 200j :** —
-- **ATR 14j :** 5.38
+- **ATR 14j :** —
 - **Volume moy. 20j :** 2720549
 
 ---
@@ -78,7 +79,7 @@
 - **Date :** 2026-06-15
 - **Type :** update
 - **Fichier :** `A_2026-06-15_update.md`
-- **Conclusion :** 🟢 Thèse confirmée avec prudence atténuée — snapshot 21h UTC : close $130.59 (+0.58%), volume recovery majeur 1.53M (0.56×), RSI 69.11, SL/TP $119.83/$146.73, Score Global ajusté 75.0 — ACHETER Standard maintenu.
+- **Conclusion :** > **Date :** 2026-06-15 · Snapshot 21:00 UTC (close officiel US + post-close)
 
 ---
 

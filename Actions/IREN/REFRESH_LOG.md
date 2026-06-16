@@ -2,6 +2,17 @@
 
 ---
 
+## 2026-06-16 — Full Refresh Complété
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10.16% (seuil 5.0%)
+
+**Conclusion :** confirm — faux positif (trigger hérité du 2026-06-15)
+
+Le DRAFT_refresh a été déclenché automatiquement à 10:00 UTC par ATR_SPIKE sur le snapshot `data/2026-06-16.json`. Les données brutes sont **strictement identiques** au snapshot 21h UTC du 2026-06-15 (cours $60.85, RSI 51.08, ATR $6.18, MM50 $52.58, volume 33.08 M, scores 5.3/10 et 57.5/100). Aucun nouvel événement majeur n'a eu lieu. Le marché est fermé ou les données pre-market n'ont pas évolué. **Anomalie options détectée** : Max Pain $100.00, put/call null, call OI 0.0% — structure incohérente qui remplace la structure fiable du 15/06 (Max Pain $40.00, put/call 1.62, call OI 38.1%). La structure du 15/06 est conservée comme référence opérationnelle. Thèse confirmée : **ATTENDRE** (Score Global 57.5/100). DRAFT_refresh complété et archivé (`IREN_2026-06-16_DRAFT_refresh.md` → `_ARCHIVED_DRAFT_refresh_IREN_2026-06-16.md`). Fichier de référence : [IREN_2026-06-16_update.md](IREN_2026-06-16_update.md).
+
+---
+
 ## 2026-06-15 — Full Refresh Triggered (snapshot 10:00 UTC)
 
 **Triggers :**
@@ -2236,6 +2247,24 @@ Snapshot 17:00 UTC — Rebond +7.68% ($54.35 → $58.525) sur volume faible (0.4
 ---
 
 ## 2026-06-15 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10.16% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-16 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10.16% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-16 — Full Refresh Triggered
 
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.16% (seuil 5.0%)

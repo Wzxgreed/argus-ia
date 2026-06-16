@@ -42,11 +42,11 @@ Ce fichier recense **tous les prix cibles émis** dans les fichiers `_init.md` e
 
 | Date analyse | Ticker | Type fichier | Reco | Prix cible | Cours à l'analyse | Upside/Down | J+30 | J+90 | J+180 | Verdict final | Post-mortem |
 |-------------|--------|-------------|------|-----------|------------------|-------------|------|------|-------|--------------|-------------|
-| 2026-05-17 | IREN | `_init.md` | ATTENDRE | $65.86 | $52.94 | +24.4% | 2026-06-16 | 2026-08-15 | 2026-11-13 | ⏳ En cours | — |
-| 2026-05-17 | VRT | `_init.md` | SURVEILLER | $400.00 | $370.94 | +7.8% | 2026-06-16 | 2026-08-15 | 2026-11-13 | ⏳ En cours | — |
-| 2026-05-17 | NOK | `_init.md` | SURVEILLER | $9.26 | $13.95 | −33.6% | 2026-06-16 | 2026-08-15 | 2026-11-13 | ⏳ En cours | — |
-| 2026-05-17 | SOFI | `_init.md` | ATTENDRE | $19.51 | $15.61 | +24.9% | 2026-06-16 | 2026-08-15 | 2026-11-13 | ⏳ En cours | — |
-| 2026-05-17 | AAL | `_init.md` | SURVEILLER | $14.00 | $12.31 | +13.7% | 2026-06-16 | 2026-08-15 | 2026-11-13 | ⏳ En cours | — |
+| 2026-05-17 | IREN | `_init.md` | ATTENDRE | $65.86 | $52.94 | +24.4% | ❌ Miss | 2026-08-15 | 2026-11-13 | ❌ Miss | — |
+| 2026-05-17 | VRT | `_init.md` | SURVEILLER | $400.00 | $370.94 | +7.8% | ❌ Miss | 2026-08-15 | 2026-11-13 | ❌ Miss | — |
+| 2026-05-17 | NOK | `_init.md` | SURVEILLER | $9.26 | $13.95 | −33.6% | ❌ Miss | 2026-08-15 | 2026-11-13 | ❌ Miss | — |
+| 2026-05-17 | SOFI | `_init.md` | ATTENDRE | $19.51 | $15.61 | +24.9% | ❌ Miss | 2026-08-15 | 2026-11-13 | ❌ Miss | — |
+| 2026-05-17 | AAL | `_init.md` | SURVEILLER | $14.00 | $12.31 | +13.7% | ❌ Miss | 2026-08-15 | 2026-11-13 | ❌ Miss | — |
 | 2026-05-26 | CTMX | `_init.md` | ATTENDRE | $9.05 | $3.60 | +151.4% | 2026-06-25 | 2026-08-24 | 2026-11-22 | ⏳ En cours | — |
 
 ---
