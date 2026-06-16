@@ -11,7 +11,7 @@
 - **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** validée
+- **Statut thèse :** invalidée
 - **Horizon :** —
 
 ---
@@ -30,26 +30,30 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-16** · earnings · Earnings ...
+- **2026-06-16** · earnings · Earnings placeholder glissant (FMP, non résolu)
+- **2026-08-10** · earnings · ASTS earnings J+55 (yfinance)
+- **2026-06-18** · options · Expiry ASTS J+2
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** —
-- **MM 50j :** —
+- **Cours proxy ASTS :** $87,57
+- **RSI 14j :** 36,00
+- **MM 50j :** $89,13
 - **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** —
+- **ATR 14j :** $12,80
+- **Volume moy. 20j :** 27,57M
+- **Volume relatif :** 0,87×
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-16
-- **Type :** preview
-- **Fichier :** `ASTSPACE_2026-06-16_preview.md`
-- **Conclusion :** > **Date :** 2026-06-16
+- **Type :** update
+- **Fichier :** `ASTSPACE_2026-06-16_update.md`
+- **Conclusion :** Stabilité mécanique pré-ouverture US proxy ASTS à $87,57 (identique close 21h 15/06). Anomalie options JSON récurrente (3e occurrence, max pain $28 aberrant → $100 conservé). ASTSPACE officiel 52+ snapshots sans données. Score SURVEILLER 39,2/100 inchangé. Thèse INVALIDÉE par absence de données persistante.
 
 ---
 
