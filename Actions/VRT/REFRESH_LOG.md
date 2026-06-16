@@ -2101,7 +2101,7 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.84% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** DRAFT_refresh du 16 juin traité comme **artefact algorithmique**. L'ATR_SPIKE 5.84% est un trigger **persistant depuis le 18 mai 2026** (volatilité résiduelle post-correction), pas un nouvel événement structurant. Les données du snapshot 10:00 UTC sont strictement identiques à la close officielle du 15/06 : cours $311.93, RSI 44.81 (vs 44.77), MM50 $318.51 (vs $318.57), volume 5.34M (vs 5.31M). Aucun gap, aucune news, aucun événement corporate. L'anomalie options (max pain $90, put/call 15.95, call OI 5.9%) est un artefact récurrent de l'expiration J+2 (2026-06-18) en pré-marché — valeurs confirmées du 15/06 conservées. Le Score Global Ajusté passe marginalement de 26.5 à **27.0/100** (+0.5 pt mécanique), sans changer la recommandation **ÉVITER**. Thèse **MODIFIÉE INCHANGÉE**. DRAFT archivé. Voir [VRT_2026-06-16_update.md](./VRT_2026-06-16_update.md).
 
 ---
 
@@ -2110,6 +2110,6 @@
 **Triggers :**
 - atr_spike (medium) : ATR relatif 5.84% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** Résolu — fusionné avec le traitement du DRAFT du 16 juin (même trigger persistant, snapshot pré-marché identique). DRAFT archivé. Voir [VRT_2026-06-16_update.md](./VRT_2026-06-16_update.md).
 
 ---

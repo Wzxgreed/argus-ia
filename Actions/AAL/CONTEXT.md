@@ -7,34 +7,32 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER (Sizing Réduit) (réactivation vs ATTENDRE du 10/06)
-**Prix cible :** $17.41 (calcul ATR-based) / Réviser à $18.00 si cassure de $15.90 sur volume > 100M
-**Stop-loss :** $14.16 (cours − 2×ATR $0.65)
-**Upside/Downside :** +12.6% / −8.4%
-**Derniere mise a jour :** 2026-06-15 (snapshot 21h UTC — Close Officielle)
+- **Recommandation :** ATTENDRE (downgrade de ACHETER Sizing Réduit)
+**Prix cible :** Suspendu — attente récupération données de cours
+**Stop-loss :** Suspendu — niveaux précédents ($14.16 / $17.41) obsolètes sans ATR confirmé
+**Upside/Downside :** Indisponible — cours NaN
+**Derniere mise a jour :** 2026-06-16 (snapshot 10h UTC)
 
-American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). Le rally du 20–27/05 a matérialise **+24.3%** ($12.06 → $14.99). Après un repli post-rally jusqu'a **$13.50 (05/06)** et une période d'incertitude data quality (10/06), le cours a rebondi de **$13.60 à $15.46 (+13.7%)** en 5 sessions. Le support **$14.00** est désormais confirmé comme récupéré (3 closes consécutifs au-dessus).
+American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). Le rally du 20–27/05 a matérialise **+24.3%** ($12.06 → $14.99). Après un repli post-rally jusqu'a **$13.50 (05/06)** et une période d'incertitude data quality (10/06), le cours avait rebondi de **$13.60 à $15.46 (+13.7%)** en 5 sessions. Le support **$14.00** avait été confirmé comme récupéré (3 closes consécutifs au-dessus).
 
-La session du 15/06 s'est ouverte à **$15.54** (gap haussier vs close $14.98), a atteint **$15.895** (rejet institutionnel), et clôturé à **$15.46 (+3.20%)** sur un volume de **178.76M (+78.9% vs moyenne 20j)** = **record historique récent** (dépasse le 149.70M du 09/06). Le snapshot 17h UTC rapportait un volume de 88.99M — cette valeur était **incomplète** (snapshot intraday). Le volume réel est presque le double de la moyenne 20j et représente une participation institutionnelle intense. Le close $15.46, loin du high $15.895, suggère que les vendeurs ont pris le dessus en fin de session (churn/distribution).
+La session du 15/06 s'est ouverte à **$15.54** (gap haussier vs close $14.98), a atteint **$15.895** (rejet institutionnel), et clôturé à **$15.46 (+3.20%)** sur un volume record de **178.76M (+78.9% vs moyenne 20j)**.
 
-Les données techniques sont **récupérées** : ATR **$0.65**, MM50 **$12.79** (cours +20.9% au-dessus). Le RSI est à **55.88** — zone neutre favorable. Le Forward P/E est remonté mécaniquement à **6.94** (vs 6.32 au 10/06) suite au rally. Le consensus FMP reste inchangé à **$16.60** (17 analystes) — upside à **+7.4%**. Le short interest est stable à **11.39%** — fuel de squeeze intact.
+Au snapshot 10h UTC du 16/06, les données de cours sont **toutes NaN** dans `data/latest.json`. Seul `previous_close` ($14.98) est disponible, impliquant un repli de **−3.1%** vs le close officiel du 15/06 ($15.46). Le RSI est en détente à **51.38** (−4.5 pts). L'ATR 14j et la MM50 sont passés à **null**. Le volume affiché (178.76M) est **identique à celui du 15/06** — probablement stale. Les données options sont **corrompues** (Max Pain $1.00 aberrant vs $10.00 hier, Put/Call et Call OI nulls).
 
-Les données options restent **inchangées** : Max Pain **$10.00**, Put/Call **1.69**, Call OI **37.2%**. Le Max Pain $10.00 reste **$5.46 sous le spot** — probable artefact de calcul. Le risque gamma pour l'expiration du 18/06 (J−3) est stable.
+L'agent recommandation a **downgradé** la thèse en **ATTENDRE** avec un Score Opportunité de **5.2/10** (C:5.3 V:4.5 M:6.0) et un Score Global ajusté de **51.5/100** (vs 64.0/100 au snapshot 21h du 15/06). Le timing est jugé **Neutre**. Le consensus FMP reste inchangé à **$16.60** (17 analystes). Le short interest est stable à **11.39%**. Le Forward P/E est à **6.94**.
 
-L'agent recommandation a maintenu la thèse **ACHETER (Sizing Réduit)** avec un Score Opportunité de **5.9/10** (C:5.8 V:5.0 M:7.5) et un Score Global ajusté de **64.0/100** (vs 60.0 au snapshot 17h, vs 50.3/100 le 10/06). Le timing est jugé **Favorable**. Le validation report 2026-06-15 confirme AAL comme **OK**.
+**Verdict institutionnel :** La thèse est **ATTENDRE — SUSPENDUE.** L'absence de données de cours fiables, la corruption des données options, et la disparition de l'ATR/MM50 rendent tout positionnement irrationnel. Le repli implied de −3.1% et la baisse du RSI indiquent une consolidation technique post-rally. Si les données sont récupérées et que le cours tient au-dessus de $14.50, une réactivation de la thèse ACHETER (Sizing Réduit) est possible. Si le cours est confirmé sous $14.50 : passage à **SURVEILLER**. Le bilan reste extrêmement fragile (current ratio 0.50, tangible asset value négatif, net debt/EBITDA 8.83x). AAdvantage (programme loyalty) reste le hidden asset (~$20-25B > market cap).
 
-**Verdict institutionnel :** La thèse est **ACHETER (Sizing Réduit) — CONFIRMÉE AVEC VIGILANCE MAXIMALE.** Le rally +3.20% à $15.46 confirme le momentum haussier. La correction volumétrique majeure (88.99M → 178.76M) invalide la lecture de "normalisation" du snapshot 17h. Le volume record est ambigu : accumulation en début de session ou churn institutionnel en fin de session. Le rejet du high $15.90 et le close dans le gap haussier imposent une prudence accrue. Le support **$15.00** est désormais le niveau clé à tenir. **Si le cours clôture sous $15.00 : sortie anticipée partielle (50%). Si sous $14.16 : SL déclenché. Si sous $12.79 : invalidation complète.** Si le cours dépasse $15.90 sur volume > 100M : TP révisable à $18.00. Le bilan reste extrêmement fragile (current ratio 0.50, tangible asset value négatif, net debt/EBITDA 8.83x). AAdvantage (programme loyalty) reste le hidden asset (~$20-25B > market cap).
-
-**⚠️ Données partielles** — Max Pain $10.00 éloigné du spot (possible artefact). MM200 indisponible. Accounting risk indisponible. Quant report insuffisant. Social sentiment sans données Reddit. Volume snapshot 17h UTC incomplet (corrigé à 178.76M en close).
+**⚠️ Données partielles** — Cours NaN (open/high/low/close), ATR null, MM50 null, MM200 indisponible. Options corrompues (Max Pain $1.00 aberrant, Put/Call et Call OI nulls). Volume suspect (identique au 15/06). Sector rotation NaN généralisé. Accounting risk indisponible. Quant report insuffisant. Social sentiment sans données Reddit.
 
 ---
 
 ## Actualites ayant impacte ce dossier
-- **Score global :** —/10
-- **Prix cible :** $17.41
-- **Stop-loss :** $14.16
-- **Statut thèse :** invalide
-- **Horizon :** —
+- **Score global :** 51.5/100
+- **Prix cible :** Suspendu
+- **Stop-loss :** Suspendu
+- **Statut thèse :** ATTENDRE (downgrade de ACHETER Sizing Réduit)
+- **Horizon :** — (suspendu)
 
 ---
 
@@ -46,9 +44,9 @@ L'agent recommandation a maintenu la thèse **ACHETER (Sizing Réduit)** avec un
 
 ## 🚨 Alertes actives
 
-- Baisse — $11.41 (SL 2×ATR) — 🟢 Active
+- Baisse — $11.41 (ancien SL 2×ATR) — 🟢 Active (obsolète — SL suspendu)
 - Hausse — $14.00 (prix cible) — 🔴 Déclenchée (27/05)
-- Volume — >2× moy. 20j (>XXM) — 🟢 Active
+- Volume — >2× moy. 20j (>199M) — 🟡 Suspecte (données stale)
 
 ---
 
@@ -61,19 +59,20 @@ L'agent recommandation a maintenu la thèse **ACHETER (Sizing Réduit)** avec un
 ## 📊 Contexte technique (dernier snapshot)
 
 - **RSI 14j :** 51.38
-- **MM 50j :** —
-- **MM 200j :** —
-- **ATR 14j :** —
+- **MM 50j :** null [DONNÉES MANQUANTES]
+- **MM 200j :** null [DONNÉES MANQUANTES]
+- **ATR 14j :** null [DONNÉES MANQUANTES]
 - **Volume moy. 20j :** 99869710
+- **Previous close :** $14.98 (cours NaN)
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-15
+- **Date :** 2026-06-16
 - **Type :** update
-- **Fichier :** `AAL_2026-06-15_update.md`
-- **Conclusion :** **Date :** 2026-06-15 (snapshot 17h UTC)
+- **Fichier :** `AAL_2026-06-16_update.md`
+- **Conclusion :** **ATTENDRE** — Données techniques partielles (cours NaN, options corrompues, ATR/MM50 nulls), downgrade de ACHETER (Sizing Réduit). Score Global 51.5/100, Score Opportunité 5.2/10. Positionnement suspendu en attendant récupération données.
 
 ---
 

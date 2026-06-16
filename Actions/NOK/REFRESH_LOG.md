@@ -1,3 +1,14 @@
+## 2026-06-16 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 7.29% (seuil 5.0%)
+
+**Conclusion :** ARCHIVÉ — Trigger stale, consolidé dans le snapshot 15/06 21h UTC
+
+Snapshot 2026-06-16 10:00 UTC. Données **strictement inchangées** vs snapshot 15/06 21h UTC (close $14.82, RSI 40.81, ATR $1.08, volume 130.7M 1.05×). Aucun événement corporate (`events_2026-06-16.json` vide), aucune news structurante, aucun mouvement options/insiders. Le trigger `ATR_SPIKE` est un **faux positit stale** : l'ATR relatif 7.29% était déjà présent au snapshot 15/06 21h UTC et n'a pas évolué. Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +37.2%. Score Opportunité 4.2/10. Score Global ajusté **46.8/100** — **SURVEILLER** confirmé. DRAFT_refresh archivé. Thèse inchangée.
+
+---
+
 ## 2026-06-15 — Full Refresh Triggered
 
 **Triggers :**
