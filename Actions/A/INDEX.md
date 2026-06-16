@@ -1,22 +1,22 @@
 # A — Agilent Technologies · Index du dossier
 
 > **Secteur :** Healthcare — Diagnostics & Research
-> **Capitalisation :** $36.79B
-> **Cours actuel :** $130.59 (2026-06-15 · snapshot 21:00 UTC)
+> **Capitalisation :** $36.88B
+> **Cours actuel :** [DONNÉES PARTIELLES] — previous_close $129.84 (2026-06-16 · snapshot 10:00 UTC)
 > **Consensus PT :** $163.29 (24 analystes, +7 le mois dernier)
 
 ---
 
 ## 🎯 Thèse courante
 
-**Recommandation :** ACHETER · Direction Long
-**Score Global :** 70.0/100 (ajusté **75.0**)
-**Prix cible desk :** $146.73 (TP ATR-based) / $163.29 (consensus analystes)
-**Stop-loss :** $119.83
+**Recommandation :** ATTENDRE · Direction Neutre
+**Score Global :** 56.3/100 (ajusté **56.3**)
+**Prix cible desk :** $146.73 (TP ATR-based historique) / $163.29 (consensus analystes)
+**Stop-loss :** $119.83 (conservé, ATR indisponible)
 **Horizon :** 1–3 mois
-**Statut thèse :** 🟢 **Confirmée avec prudence atténuée** — snapshot 21h UTC du 15/06 : close officiel US **$130.59** (+0.58% vs previous close, +0.26% vs snapshot 17h), données techniques quasi-stables (RSI 69.11, ATR $5.38, MM50 $120.46). **[VOLUME RECOVERY MAJEURE]** : volume révisé de 479K (0.18×) à **1.53M (0.56× moy. 20j)** (+219% vs snapshot 17h) — participation partiellement rétablie en post-close, alerte "marché déserté" levée. Anomalie options JSON stable et résolue (max pain $130, put/call 1.52, call OI 39.7%). Pinning options J+3 (expiration 18/06, max pain $130). Signal sectoriel **NEUTRE À FAIBLE** (XLV #6, momentum score 2.95).
+**Statut thèse :** 🟡 **Modifiée** — snapshot 10h UTC du 16/06 : **[DONNÉES PARTIELLES]** (close NaN, ATR null, MM50 null), previous_close **$129.84** (−0.57% vs $130.59). RSI stable **68.52** (zone neutre-haussière). Volume inchangé **1.53M (0.56×)**. **[DOWNGRADE MAJEUR]** : Score Global ajusté **56.3/100** (was 75.0) — passage **ACHETER Standard → ATTENDRE** sur données partielles et scoring agent revu à la baisse (C:5.3 V:6.0 M:5.5). **[ANOMALIE OPTIONS JSON RÉCURRENTÉE]** : max pain $190 aberrant — valeurs 15/06 conservées ($130 / 1.52 / 39.7%). Pinning options J+2 (expiration 18/06, max pain $130). Module sector_rotation en état **UNKNOWN** (données NaN).
 
-**Synthèse :** Agilent a confirmé sa qualité fondamentale par un beat/guidance-up Q2 2026 spectaculaire (gap +17.3%). Après 5 séances de correction/consolidation post-gap, le snapshot 21h UTC du 15 juin confirme et améliore la lecture du snapshot 17h. Le **volume recovery majeur à 1.53M (0.56×)** élimine la principale anomalie du snapshot 17h (479K, 0.18×) et transforme le setup d'un "marché déserté" en un signal partiellement rétabli. Le RSI reste normalisé à **69.11** (zone neutre-haussière), la MM50 à **$120.46** (+8.4%) offre un support solide. Le Filtre Qualité 5/6 est maintenu, le consensus $163.29 laisse un upside **+25.0%**. Le scoring agent maintient l'action en zone **ACHETER Standard** (Score Global ajusté 75.0). Les niveaux SL/TP sont recalculés sur données 21h UTC ($119.83 / $146.73, R/R 1.5). **Entrée possible au spot ($130.59) avec prudence atténuée — privilégier le scale-in sur pullback vers $126–$128 si le volume ne normalise pas >1.0×.** Risques principaux : (1) pinning options J+3 autour de $130, (2) volume encore sous moyenne 20j, limitant la conviction d'un breakout.
+**Synthèse :** Agilent est en phase de consolidation post-gap avec des données techniques partielles ce matin. Le **downgrade du scoring agent de 75.0 à 56.3** (ACHETER → ATTENDRE) reflète principalement l'absence de données complètes (close NaN, ATR null, MM50 null) et un ajustement des pondérations agents. Les fondamentaux restent solides : Filtre Qualité 5/6 maintenu, consensus $163.29 laissant un upside **+25.8%** sur previous_close. Le RSI **68.52** reste dans la zone neutre-haussière. Cependant, l'impossibilité de recalculer les niveaux SL/TP et l'absence de close empêchent toute entrée avec conviction. **Recommandation ATTENDRE** jusqu'à récupération des données complètes (snapshot 13h/17h/21h UTC). Risques principaux : (1) pinning options J+2 autour de $130 avec previous_close à $0.16, (2) données partielles empêchant l'évaluation technique complète, (3) volume stagnant sous moyenne 20j.
 
 ---
 
@@ -51,6 +51,7 @@
 | 2026-06-10 | `A_2026-06-10_update.md` | Mise à jour 10h UTC | 🟡 **Thèse modifiée** — **[DONNÉES PARTIELLES]** : close NaN, ATR null, MM50 null ; anomalie options JSON récurrente ($190 / 0.02 / 97.8%). Cours indicateur $132.69 (divergence vs close 09/06 $135.48). RSI 81.3. Score Global 52.5 (ajusté **37.5**, −15.8 pts) — passage **ATTENDRE → SURVEILLER**. SL/TP conservés $124.58/$151.83. |
 | 2026-06-15 | `A_2026-06-15_update.md` | Mise à jour 10h UTC | 🟢 **Thèse modifiée positivement** — **[DONNÉES RÉTABLIES]** : close $129.84, ATR $5.36, MM50 $120.16. RSI normalisé **68.62** (−14.04 pts vs 09/06). Volume recovery **2.29M (0.84×)** (+53%). Score Global ajusté **75.0** (+21.7 pts) — passage **SURVEILLER → ACHETER Standard**. SL/TP **$119.12/$145.92**. Timing Favorable. |
 | 2026-06-15 | `A_2026-06-15_update.md` | Mise à jour 21h UTC (close officiel + post-close) | 🟢 **Thèse confirmée avec prudence atténuée** — micro-hausse complémentaire +0.26% à **$130.59** (+0.58% vs close veille). **[VOLUME RECOVERY MAJEURE]** : 1.53M (0.56×) vs 479K au snapshot 17h (+219%). Données techniques quasi-stables (RSI 69.11, ATR $5.38, MM50 $120.46). Anomalie options JSON stable et résolue. Score Global ajusté **75.0** inchangé — **ACHETER Standard maintenu**. SL/TP recalculés **$119.83/$146.73**. |
+| 2026-06-16 | `A_2026-06-16_update.md` | Mise à jour 10h UTC (pré-ouverture) | 🟡 **Thèse modifiée** — **[DONNÉES PARTIELLES]** : close NaN, ATR null, MM50 null. Previous_close **$129.84** (−0.57%). RSI stable 68.52. **[DOWNGRADE MAJEUR]** : Score Global ajusté **56.3** (−18.7 pts) — passage **ACHETER Standard → ATTENDRE**. **[ANOMALIE OPTIONS JSON RÉCURRENTÉE]** : max pain $190 aberrant — valeurs 15/06 conservées. |
 
 ---
 
@@ -64,8 +65,8 @@
 
 ## 🔗 Liens rapides
 
-- [Dernière mise à jour](A_2026-06-15_update.md)
-- [Mise à jour précédente](A_2026-06-10_update.md)
+- [Dernière mise à jour](A_2026-06-16_update.md)
+- [Mise à jour précédente](A_2026-06-15_update.md)
 - [Dernier preview earnings](A_2026-05-28_preview.md)
 - [CONTEXT.md](CONTEXT.md) — Mémoire court terme
 

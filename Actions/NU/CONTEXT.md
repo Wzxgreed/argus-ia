@@ -38,7 +38,8 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Expiration options :** 2026-06-18 (2 jours, max pain $15.00)
+- **Earnings Q2 2026 :** 13 août 2026 (58 jours, Est EPS $0.18–$0.27, Rev $5.4B)
 
 ---
 
@@ -48,16 +49,16 @@
 - **MM 50j :** 13.58
 - **MM 200j :** —
 - **ATR 14j :** 0.51
-- **Volume moy. 20j :** 64734520
+- **Volume moy. 20j :** 64,780,750 (0.99×)
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-15
+- **Date :** 2026-06-16
 - **Type :** update
-- **Fichier :** `NU_2026-06-15_17-00_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (rebond technique +1
+- **Fichier :** `NU_2026-06-16_update.md`
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité mécanique totale pre-ouverture US, cours $12.43 inchangé vs close 15/06, volume confirmé 63.81M 0.99×, anomalie options JSON récurrente traitée max pain $15.00 conservé, score ajusté stable 56.2, SL/TP $11.41/$13.96 maintenus)**
 
 ---
 
