@@ -1,7 +1,7 @@
 # AXA — Index du Dossier
 
-> **Dernière mise à jour :** 2026-06-16 (snapshot 13h00 UTC)
-> **Statut :** 🟡 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`) + earnings J0 FMP glissant sans détails (17e jour consécutif). SCORING STABLE. **ANOMALIE JSON SECTORIELLE PERSISTANTE** : `data/sector_rotation_2026-06-16.json` présente NaN + momentum 10.0 uniforme pour tous les secteurs sur les deux snapshots du jour (10h + 13h) — fichier classé inexploitable. Dernier contexte sectoriel fiable : 15/06 21h (XLF rang 2e/11 mécanique, momentum 4.69/10, RS 20j +2.70%).
+> **Dernière mise à jour :** 2026-06-16 (snapshot 17h00 UTC)
+> **Statut :** 🟡 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`) + earnings J0 FMP glissant sans détails (18e jour consécutif). SCORING STABLE. **FICHIER SECTORIEL RÉPARÉ À 17H** : `data/sector_rotation_2026-06-16.json` récupéré et exploitable — XLF rang 2e/11, momentum 6.68/10 (vs 4.69 à 21h 15/06), RS 20j +4.64% (vs +2.70%), RS 60j −2.76% (vs −4.82%). Amélioration sectorielle nette.
 
 ---
 
@@ -11,9 +11,7 @@
 
 AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **aucune donnée de prix n'est disponible** dans le pipeline Argus-IA car le symbole "AXA" n'est pas reconnu par yfinance (instrument non coté US). L'analyse technique et fondamentale reste impossible.
 
-**Contexte sectoriel (dernier snapshot fiable : 2026-06-15 21h00 UTC) :** Le secteur Financials (XLF) affichait une **mutation mécanique** entre 17h et 21h du 15/06. Le fichier `data/sector_rotation_2026-06-15.json` réécrit à 21h plaçait XLF au rang **2e/11** (vs 3e/11 à 17h), mais avec un momentum score de **4.69/10** (vs 5.12/10 à 17h), RS 20j **+2.70%** (vs +3.13% à 17h) et RS 60j **−4.82%** (vs −4.38% à 17h). Le retour au rang 2e était mécanique (dégradation relative d'autres secteurs), pas organique. Le signal macro reste `UNKNOWN` (stable depuis le 02/06).
-
-**Anomalie JSON sectorielle récurrente (16/06) :** Le fichier `data/sector_rotation_2026-06-16.json` présente la même anomalie technique que le 10/06 (NaN + momentum 10.0 uniforme pour tous les secteurs) et est classé inexploitable. Le dernier contexte sectoriel fiable reste donc le snapshot 21h du 15/06.
+**Contexte sectoriel (snapshot 17h du 16/06 — fichier réparé) :** Le fichier `data/sector_rotation_2026-06-16.json` est récupéré et exploitable à 17h. XLF (Financials) au rang **2e/11**, momentum **6.68/10**, RS 20j **+4.64%**, RS 60j **−2.76%**. C'est une **amélioration nette** vs le close du 15/06 (momentum +1.99 pt, RS 20j +1.94 pp, RS 60j +2.06 pp), qualitativement organique. Le signal macro reste `UNKNOWN` (stable depuis le 02/06).
 
 **Action immédiate :** corriger le symbole dans `config/watchlist.json` (`CS.PA` ou `AXAHY`), mettre à jour le secteur (Financials / Insurance) et relancer le fetch.
 
@@ -60,6 +58,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 | `AXA_2026-06-15_update_21h.md` | 2026-06-15 | Mise à jour quotidienne (snapshot 21h00 UTC) | Données manquantes persistantes (4 tickers KO sur 29) ; **mutation sectorielle mécanique XLF** entre 17h et 21h (rang 2e/11 vs 3e/11, momentum 4.69 vs 5.12, RS 20j +2.70% vs +3.13%) — retour au rang 2e mécanique, pas organique ; signal macro `UNKNOWN` stable ; earnings J0 FMP (2026-06-15) sans détails exploitables — **15e jour consécutif** |
 | `AXA_2026-06-16_update.md` | 2026-06-16 | Mise à jour quotidienne (snapshot 10h00 UTC) | Données manquantes persistantes (4 tickers KO sur 29) ; **anomalie JSON sectorielle récurrente** dans `data/sector_rotation_2026-06-16.json` (NaN + momentum 10.0 uniforme — déjà observé le 10/06) — fichier classé inexploitable ; signal macro `UNKNOWN` stable ; earnings J0 FMP (2026-06-16) sans détails exploitables — **16e jour consécutif** |
 | `AXA_2026-06-16_update_13h.md` | 2026-06-16 | Mise à jour quotidienne (snapshot 13h00 UTC) | **Stabilité totale** vs snapshot 10h — données manquantes persistantes (4 tickers KO sur 29) ; **anomalie JSON sectorielle persistante** identique au snapshot 10h (NaN + momentum 10.0 uniforme) — fichier classé inexploitable ; signal macro `UNKNOWN` stable ; earnings J0 FMP (2026-06-16) sans détails exploitables — **17e jour consécutif** |
+| `AXA_2026-06-16_update_17h.md` | 2026-06-16 | Mise à jour quotidienne (snapshot 17h00 UTC) | Données manquantes persistantes (4 tickers KO sur 29) ; **fichier sectoriel réparé à 17h** — XLF rang 2e/11, momentum 6.68/10 (+1.99 pt vs 15/06 21h), RS 20j +4.64% (+1.94 pp), RS 60j −2.76% (+2.06 pp) ; amélioration sectorielle nette ; signal macro `UNKNOWN` stable ; earnings J0 FMP (2026-06-16) sans détails exploitables — **18e jour consécutif** |
 
 ---
 
