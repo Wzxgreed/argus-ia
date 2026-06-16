@@ -11,7 +11,7 @@
 **Prix cible :** $20.28 (cours + 3×ATR)
 **Stop-loss :** $15.03 (cours − 2×ATR)
 **Upside/Downside :** +18.4% / −12.3%
-**Dernière mise à jour :** 2026-06-16 (snapshot 13:00 UTC — pré-ouverture US, stabilité mécanique, DRAFT_refresh faux positif archivé)
+**Dernière mise à jour :** 2026-06-16 (snapshot 10:00 UTC — pré-ouverture US, stabilité mécanique, DRAFT_refresh archivé faux positif)
 
 SoFi est une fintech-banque hybride avec un écosystème complet (lending + banking + investing) et une marque forte chez les millennials. Le charter bancaire 2022 crée une barrière réglementaire modérée vs les fintechs non-banques. Le snapshot du **2026-06-15 à 21h UTC** (close final confirmé) valide le **reclaim de la MM50** avec le cours à **$17.13** (+3.32% vs previous close $16.58). Le cours reste **au-dessus de la MM50 $16.86** (+1.60%). Le **Score Global ajusté reste à 69.5/100**, dans la fourchette **ACHETER (60–74)** avec sizing **Réduit**. Le **Score Momentum reste à 7.5/10** (haussier), tandis que le **Score Valorisation reste à 5.5/10**. 
 
@@ -53,11 +53,11 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 56.66
-- **MM 50j :** 16.86
+- **RSI 14j :** 57.45
+- **MM 50j :** 16.88
 - **MM 200j :** —
 - **ATR 14j :** 1.05
-- **Volume moy. 20j :** 74060425
+- **Volume moy. 20j :** 72525446
 
 ---
 
@@ -72,7 +72,8 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 6.13% (seuil 5.0%)
+- **PRICE_GAP** (medium) — Gap +5.07% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 5.94% (seuil 5.0%)
 
 ---
 

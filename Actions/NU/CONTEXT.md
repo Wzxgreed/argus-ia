@@ -44,11 +44,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 43.11
-- **MM 50j :** 13.58
+- **RSI 14j :** 45.1
+- **MM 50j :** 13.54
 - **MM 200j :** —
 - **ATR 14j :** 0.51
-- **Volume moy. 20j :** 64734520
+- **Volume moy. 20j :** 62258646
 
 ---
 
@@ -56,8 +56,8 @@
 
 - **Date :** 2026-06-16
 - **Type :** update
-- **Fichier :** `NU_2026-06-16_update.md`
-- **Conclusion :** **These : CONFIRMEe — ATTENDRE (stabilite mecanique totale pre-ouverture US, donnees brutes identiques au close 15/06 $12
+- **Fichier :** `NU_2026-06-16_13-00_update.md`
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité mécanique totale pré-ouverture US sur deux snapshots 10h et 13h, données brutes identiques au close 15/06 $12
 
 ---
 

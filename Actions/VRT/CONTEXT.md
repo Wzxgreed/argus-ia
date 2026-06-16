@@ -17,11 +17,11 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 27.0/100
+- **Score global :** —/10
 - **Prix cible :** $380
-- **Stop-loss :** $275.51
+- **Stop-loss :** $—
 - **Statut thèse :** validée
-- **Horizon :** 1–3 mois
+- **Horizon :** —
 
 ---
 
@@ -47,26 +47,26 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 44.81
-- **MM 50j :** 318.51
+- **RSI 14j :** 45.19
+- **MM 50j :** 319.51
 - **MM 200j :** —
-- **ATR 14j :** 18.21
-- **Volume moy. 20j :** 6233545
+- **ATR 14j :** 17.93
+- **Volume moy. 20j :** 5907616
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-16
-- **Type :** update
-- **Fichier :** `VRT_2026-06-16_update.md`
-- **Conclusion :** Snapshot 13:00 UTC strictement identique au snapshot 10:00 UTC en données de marché (même cours $311.93, même RSI 44.81, même ATR $18.21, même MM50 $318.51, même volume 5.34M). Anomalie options pré-marché résolue (max pain $220, put/call 1.28, call OI 43.8% vs artefact $90/15.95/5.9% à 10:00 UTC). Put/call légèrement amélioré vs close 15/06 (−5.9%). Fichiers agents désormais disponibles (`recommandations` confirme 27.0/100 ÉVITER, `fx_exposure` neutre, `social_sentiment` 0 posts, `events` vide, `upcoming_events` earnings 43j, `sector_rotation` CORROMPU — NaN massifs). Thèse CONFIRMÉE INCHANGÉE — pas de nouvel événement structurant.
+- **Type :** full refresh
+- **Fichier :** `_VRT_2026-06-16_DRAFT_refresh_archive.md`
+- **Conclusion :** > **Date :** 2026-06-16
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 5.84% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 5.88% (seuil 5.0%)
 
 ---
 

@@ -58,11 +58,11 @@ L'agent recommandation a **downgradé** la thèse en **ATTENDRE** avec un Score 
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 51.38
-- **MM 50j :** —
+- **RSI 14j :** 59.18
+- **MM 50j :** 12.8
 - **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** 99869710
+- **ATR 14j :** 0.67
+- **Volume moy. 20j :** 93542059
 
 ---
 
@@ -77,7 +77,7 @@ L'agent recommandation a **downgradé** la thèse en **ATTENDRE** avec un Score 
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **PRICE_GAP** (medium) — Gap +5.92% overnight (seuil ±5.0%)
 
 ---
 

@@ -41,11 +41,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 51.08
-- **MM 50j :** 52.58
+- **RSI 14j :** 41.11
+- **MM 50j :** 53.09
 - **MM 200j :** —
-- **ATR 14j :** 6.18
-- **Volume moy. 20j :** 49068260
+- **ATR 14j :** 5.8
+- **Volume moy. 20j :** 47646883
 
 ---
 
@@ -53,14 +53,14 @@
 
 - **Date :** 2026-06-16
 - **Type :** update
-- **Fichier :** `IREN_2026-06-16_update_13h00.md`
-- **Conclusion :** **Thèse CONFIRMÉE — statut ATTENDRE inchangé, structure options corrigée (Max Pain $35.00, put/call 1.44, call OI 41.0%)
+- **Fichier :** `IREN_2026-06-16_update.md`
+- **Conclusion :** **Thèse : CONFIRMÉE — statut ATTENDRE inchangé sur stabilité totale des données
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 10.16% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 9.61% (seuil 5.0%)
 
 ---
 
