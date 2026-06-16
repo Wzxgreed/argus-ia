@@ -2,18 +2,18 @@
 
 ## Thèse courante
 
-**Verdict :** ATTENDRE
-**Date dernière analyse :** 2026-06-16 (snapshot 10:00 UTC)
-**Cours actuel :** NaN (previous close $44.836)
+**Verdict :** ACHETER (Réduit)
+**Date dernière analyse :** 2026-06-16 (snapshot 17:00 UTC)
+**Cours actuel :** $44.836 (previous close $44.121, +1.62% session)
 **Score Qualité :** 0/6 (Hors périmètre)
-**Score Opportunité :** 5.4/10
-**Score Momentum :** 4.5/10
-**Score Global :** 54.0/100 (54.0 ajusté)
-**Stop-loss :** Suspendu (données indisponibles)
-**Take-profit :** Suspendu (données indisponibles)
-**Ratio R/R :** —
+**Score Opportunité :** 6.1/10
+**Score Momentum :** 7.3/10
+**Score Global :** 61.0/100 (66.0 ajusté)
+**Stop-loss :** $42.34
+**Take-profit :** $48.59
+**Ratio R/R :** 1.5
 
-TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie sur des fondamentaux. **Verdict dégradé : ATTENDRE** — snapshot 10h UTC du 2026-06-16. Le cours close est indisponible (NaN), le RSI recule à 43.91 (−2.42 pts vs clôture précédente), et l'ATR ainsi que la MM50 ont été perdus (null). Le pipeline recalcule un Score Global de 54.0/100, sous le seuil de 60. Le Score Momentum s'effondre de 7.3 à 4.5 (−2.8 pts), entraînant la dégradation du verdict. **Points de vigilance :** données techniques corrompues (close NaN, ATR null, MM50 null) — probablement lié à la faible liquidité ou à un problème de source ; illiquidité persistante (volume 1,294, 0.55× avg) ; earnings JOUR J (2026-06-16) persistant depuis 16+ jours — hypothèse artefact calendrier FMP confirmée. Si données rétablies (close, ATR, MM50) + RSI > 45 sur volume > 0.6× avg → réévaluation possible vers ACHETER (Réduit). Si close NaN persiste → maintien ATTENDRE, risque de glissement vers SURVEILLER.
+TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie sur des fondamentaux. **Verdict regradé : ACHETER (Réduit)** — snapshot 17h UTC du 2026-06-16. Les données techniques corrompues du snapshot 10h ont été intégralement rétablies : close $44.836 (+1.62% vs previous close $44.121), RSI remonté à 47.08 (+3.17 pts), MM50 $43.6 et ATR $1.25 de retour. Le pipeline recalcule un Score Global de 61.0/100 (66.0 ajusté), au-dessus du seuil de 60. Le Score Momentum rebondit de 4.5 à 7.3 (+2.8 pts), entraînant la regradation du verdict de ATTENDRE à ACHETER (Réduit). SL/TP réactivés à $42.34/$48.59 (ratio 1.5). **Points de vigilance :** illiquidité renforcée (volume 1,000, 0.41× avg) — le plus faible des 3 derniers snapshots ; earnings JOUR J (2026-06-16) persistant depuis 16+ jours — hypothèse artefact calendrier FMP confirmée ; MM200 toujours indisponible. Si volume remonte > 0.6× avg → maintien ACHETER (Réduit). Si données à nouveau corrompues → retour ATTENDRE immédiat.
 
 ---
 
@@ -65,6 +65,7 @@ TEST est un ticker de test / micro-cap sans données fondamentales exploitables 
 | TEST_2026-06-15_update_17h00.md | 2026-06-15 | Mise à jour 17:00 UTC — cours +1.03% à $45.30, RSI 45.79 (−1.29 pt), volume effondré 844 (0.36× avg), SL/TP révisés $42.80/$49.05, verdict **ACHETER (Réduit) confirmé avec vigilance** | **ACHETER (Réduit)** |
 | TEST_2026-06-15_update_21h00.md | 2026-06-15 | Mise à jour 21:00 UTC — clôture officielle $45.4403 (+0.31% vs 17h), RSI 46.33 (+0.54 pt), volume 1,294 (0.55× avg), pipeline recalcule scores rétablis 61.0/100 (66.0 ajusté), SL/TP $42.94/$49.19, verdict **ACHETER (Réduit) confirmé avec vigilance** | **ACHETER (Réduit)** |
 | TEST_2026-06-16_update.md | 2026-06-16 | Mise à jour 10:00 UTC — données techniques dégradées (close NaN, ATR null, MM50 null), RSI 43.91 (−2.42 pts), volume stable 1,294, Score Global 61.0→54.0 (−7.0 pts), Score Momentum 7.3→4.5 (−2.8 pts), verdict dégradé **ACHETER (Réduit) → ATTENDRE**, SL/TP suspendus | **ATTENDRE** |
+| TEST_2026-06-16_update_17h00.md | 2026-06-16 | Mise à jour 17:00 UTC — données techniques rétablies (close $44.836 +1.62%, ATR $1.25, MM50 $43.6), RSI 47.08 (+3.17 pts), volume effondré 1,000 (0.41× avg), Score Global 54.0→61.0 (+7.0 pts), Score Momentum 4.5→7.3 (+2.8 pts), verdict regradé **ATTENDRE → ACHETER (Réduit)**, SL/TP $42.34/$48.59 | **ACHETER (Réduit)** |
 
 ---
 

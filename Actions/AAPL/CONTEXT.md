@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
-- **Horizon :** —
+- **Recommandation :** ATTENDRE
+- **Score global :** 58.0/100 (Score Opportunité 5.3/10)
+- **Prix cible :** $295.96 (consensus FMP)
+- **Stop-loss :** $283.60 (2×ATR)
+- **Statut thèse :** confirmée avec nuance mixte
+- **Horizon :** 1–3 mois (earnings 2026-07-30)
 
 ---
 
@@ -24,23 +24,26 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- Volume effondré 0.35× — rebond sans conviction institutionnelle
+- Pinning gamma demain (expiration 2026-06-17) autour de max pain $300.00
+- Cours au-dessus du consensus FMP ($295.96) — upside négatif
+- Structure options en détente (P/C 0.64, Call OI 61.1%)
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q3 FY2026 :** 2026-07-30 (44 jours) — Est EPS $1.83–$1.99, Rev $109.0B
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 41.97
-- **MM 50j :** 286.21
+- **RSI 14j :** 43.01
+- **MM 50j :** 286.24
 - **MM 200j :** —
-- **ATR 14j :** 7.83
-- **Volume moy. 20j :** 48398701
+- **ATR 14j :** 7.91
+- **Volume moy. 20j :** 48586415
 
 ---
 
@@ -48,8 +51,8 @@
 
 - **Date :** 2026-06-16
 - **Type :** update
-- **Fichier :** `AAPL_2026-06-16_update.md`
-- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-16 10:00 UTC, pré-ouverture US) + agents quant, geo, quality
+- **Fichier :** `AAPL_2026-06-16_update_17h.md`
+- **Conclusion :** Rebond +2.85% validé à $299.42, RSI sorti de survente (43.01), données techniques restaurées (ATR $7.91, MM50 $286.24), options normalisées (max pain $300.00), mais volume effondré 0.35× et consensus sous le cours (−1.2% upside). Recommandation ATTENDRE 58.0/100 Favorable maintenue.
 
 ---
 
