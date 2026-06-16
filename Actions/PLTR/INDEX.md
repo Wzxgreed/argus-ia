@@ -1,6 +1,12 @@
 # PLTR
 
 ## These courante
+| 2026-06-16 | [PLTR_2026-06-16_update.md](PLTR_2026-06-16_update.md) | Snapshot 10h UTC (pre-marche) — **stabilite mecanique totale** vs close 15/06 : cours $134.71 (=), RSI 48.74 (=), volume revise a 41.56M (1.07x), ecart MM50 -3.3% (=), anomalie options JSON detectee et traitee (Max Pain $42.00 aberrant → valeurs 15/06 conservees $150.00/0.73/57.8%), Score Opportunite 5.6/10 (=), Score Global 55.5/100 (=), Score Global ajuste 47.5/100 (=), timing DEFAVORABLE, these SURVEILLER **confirmee sans modification** | SURVEILLER — Score Opp. 5.6/10, cours $134.71, RSI 48.74, volume 41.56M (1.07x), stabilite mecanique pre-ouverture, these confirmee sans modification |
+
+## Historique
+| Date | Fichier | Type | Conclusion |
+|------|---------|------|------------|
+| 2026-06-16 | [PLTR_2026-06-16_update.md](PLTR_2026-06-16_update.md) | Snapshot 10h UTC (pre-marche) — stabilite mecanique totale vs close 15/06 : cours $134.71 (=), RSI 48.74 (=), volume revise a 41.56M (1.07x), ecart MM50 -3.3% (=), anomalie options JSON detectee et traitee (Max Pain $42.00 aberrant → valeurs 15/06 conservees $150.00/0.73/57.8%), Score Opportunite 5.6/10 (=), Score Global 55.5/100 (=), Score Global ajuste 47.5/100 (=), timing DEFAVORABLE, these SURVEILLER confirmee sans modification | SURVEILLER — Score Opp. 5.6/10, cours $134.71, RSI 48.74, volume 41.56M (1.07x), stabilite mecanique pre-ouverture, these confirmee sans modification |
 | 2026-06-15 | [PLTR_2026-06-15_21-00_update.md](PLTR_2026-06-15_21-00_update.md) | Snapshot 21h UTC (close officielle) — **rebond technique confirme et legitime** : close +5.25% a $134.71, RSI 48.74 (+0.7 pt vs 17h), volume normalise 37.28M (0.965x), ecart MM50 reduit a -3.3%, alerte volume 17h RESOLUE, Score Opportunite 5.6/10 (=), Score Global 55.5/100 (=), Score Global ajuste 47.5/100 (=), timing DEFAVORABLE, these SURVEILLER **confirmee avec nuance technique nettement amelioree** | SURVEILLER — Score Opp. 5.6/10, cours $134.71, RSI 48.74, volume 37.28M (0.965x), rebond legitime sur volume normalise, these confirmee avec nuance nettement amelioree |
 
 ## Historique
