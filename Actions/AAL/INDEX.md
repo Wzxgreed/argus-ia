@@ -38,28 +38,40 @@
 | 2026-06-15 17:00 UTC | Mise a jour | [AAL_2026-06-15_update.md](./AAL_2026-06-15_update.md) | **Snapshot 17h UTC — RALLY +3.64% ET NORMALISATION VOLUMETRIQUE** : Cours $15.53 (vs $14.98), RSI 56.42, ATR $0.65, MM50 $12.79, volume 88.99M (−6.7% vs moyenne). Normalisation volumetrique majeure vs 153.31M (+65%) au snapshot 13h. Rejet du high $15.90 ($15.525 close). Upside consensus reduit a +6.9% (vs +10.8%). Options inchangées (Max Pain $10.00, Put/Call 1.69). Score agent 5.5/10 (V:4.0 M:7.5), Global ajuste 60.0/100. These **ACHETER (Sizing Reduit) CONFIRMEE AVEC VIGILANCE**. SL $14.22, TP $17.48, R/R 1.5. Earnings dans 38 jours. Validation report : AAL OK. |
 | 2026-06-15 21:00 UTC | Mise a jour | [AAL_2026-06-15_update_21h00.md](./AAL_2026-06-15_update_21h00.md) | **Snapshot 21h UTC (Close Officielle) — CORRECTION VOLUMETRIQUE MASSIVE** : Volume révisé de 88.99M → 178.76M (+100.9%), record historique récent. Close officiel $15.46 (−0.4% vs 17h), RSI 55.88, ATR $0.65, MM50 $12.79. Volume +78.9% vs moyenne 20j = accumulation/distribution massive. Rejet du high $15.895 confirmé. Score agent révisé à 5.9/10 (C:5.8 V:5.0 M:7.5), Global ajuste 64.0/100. These **ACHETER (Sizing Reduit) CONFIRMEE AVEC VIGILANCE MAXIMALE**. SL $14.16, TP $17.41, R/R 1.5. Earnings dans 38 jours. |
 | 2026-06-16 10:00 UTC | Mise a jour | [AAL_2026-06-16_update.md](./AAL_2026-06-16_update.md) | **Snapshot 10h UTC — DOWNGRADE ATTENDRE** : Données cours NaN (previous_close $14.98, -3.1% implied vs $15.46). RSI 51.38 (-4.5 pts). Options corrompues (Max Pain $1.00 aberrant, Put/Call null). ATR et MM50 nulls. Volume 178.76M identique au 15/06 = stale suspect. Score agent **5.2/10**, Global **51.5/100**. These **ATTENDRE** — positionnement suspendu en attendant recuperation donnees. SL/TP suspendus. Earnings dans 37 jours. |
+| 2026-06-16 13:00 UTC | Mise a jour | [AAL_2026-06-16_update_13h00.md](./AAL_2026-06-16_update_13h00.md) | **Snapshot 13h UTC** : Données cours toujours NaN. Options RESTAURÉES (Max Pain $10.00, Put/Call 1.69). Consensus FMP $16.51 (18 analystes). Score agent 5.2/10, Global 51.5/100. These ATTENDRE — SUSPENDUE maintenue. Aucun changement matériel. |
+| 2026-06-16 17:00 UTC | Mise a jour | [AAL_2026-06-16_update_17h00.md](./AAL_2026-06-16_update_17h00.md) | **Snapshot 17h UTC — RÉCUPÉRATION COMPLÈTE + RALLY +5.92%** : Données cours restaurées (close $15.87, high $16.19). RSI 59.08 (+7.70 pts). ATR $0.67, MM50 $12.80. Volume normalisé 70.02M. Test du 52W high ($16.50) à 1.9%. Score agent 5.1/10, Global 56.3/100, Timing Favorable. These **ATTENDRE — BIAIS HAUSSIER RÉACTIVÉ**. SL $14.53, TP $17.88, R/R 1.5. Upgrade technique majeur mais Score Global < 60 = pas d'achat. |
 
 ---
 
 ## Thèse d'investissement courante
 
-**Recommandation :** ATTENDRE (downgrade de ACHETER Sizing Réduit)
-**Prix cible :** Suspendu — attente récupération données de cours
-**Stop-loss :** Suspendu — niveaux précédents ($14.16 / $17.41) obsolètes sans ATR confirmé
-**Upside/Downside :** Indisponible — cours NaN
-**Derniere mise a jour :** 2026-06-16 (snapshot 10h UTC)
+**Recommandation :** ATTENDRE — BIAIS HAUSSIER RÉACTIVÉ (downgrade de ACHETER Sizing Réduit le 10/06, puis ATTENDRE — SUSPENDUE le 16/06 10h, maintenant ATTENDRE avec biais haussier)
+**Prix cible :** Suspendu — attente cassure 52W high $16.50 ou réévaluation post-earnings
+**Stop-loss :** $14.53 (2×ATR $0.67)
+**Take-profit :** $17.88 (3×ATR $0.67)
+**Ratio R/R :** 1.5
+**Upside/Downside :** +4.0% (consensus $16.51) / −8.4% (SL)
+**Derniere mise a jour :** 2026-06-16 (snapshot 17h UTC)
 
 American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). Le rally du 20–27/05 a matérialise **+24.3%** ($12.06 → $14.99). Après un repli post-rally jusqu'a **$13.50 (05/06)** et une période d'incertitude data quality (10/06), le cours avait rebondi de **$13.60 à $15.46 (+13.7%)** en 5 sessions. Le support **$14.00** avait été confirmé comme récupéré (3 closes consécutifs au-dessus).
 
 La session du 15/06 s'est ouverte à **$15.54** (gap haussier vs close $14.98), a atteint **$15.895** (rejet institutionnel), et clôturé à **$15.46 (+3.20%)** sur un volume record de **178.76M (+78.9% vs moyenne 20j)**.
 
-Au snapshot 10h UTC du 16/06, les données de cours sont **toutes NaN** dans `data/latest.json`. Seul `previous_close` ($14.98) est disponible, impliquant un repli de **−3.1%** vs le close officiel du 15/06 ($15.46). Le RSI est en détente à **51.38** (−4.5 pts). L'ATR 14j et la MM50 sont passés à **null**. Le volume affiché (178.76M) est **identique à celui du 15/06** — probablement stale. Les données options sont **corrompues** (Max Pain $1.00 aberrant vs $10.00 hier, Put/Call et Call OI nulls).
+Au snapshot 17h UTC du 16/06, les données ont été **entièrement restaurées**. Le cours a clôturé à **$15.87 (+5.92% vs previous close $14.98)** avec un open à $15.60 (gap haussier de +4.14%), un high à **$16.19** (test du 52W high $16.50 à 1.9%), et un low à $15.58. Le RSI remonte à **59.08** (+7.70 pts vs 13h). L'ATR est à **$0.67** et la MM50 à **$12.80** (cours +24.0% au-dessus). Le volume est normalisé à **70.02M** (−25.9% vs moyenne 20j) = rally contrôlé sans euphorie.
 
-L'agent recommandation a **downgradé** la thèse en **ATTENDRE** avec un Score Opportunité de **5.2/10** (C:5.3 V:4.5 M:6.0) et un Score Global ajusté de **51.5/100** (vs 64.0/100 au snapshot 21h du 15/06). Le timing est jugé **Neutre**. Le consensus FMP reste inchangé à **$16.60** (17 analystes). Le short interest est stable à **11.39%**. Le Forward P/E est à **6.94**.
+L'agent recommandation maintient **ATTENDRE** avec un Score Opportunité de **5.1/10** (C:5.3 V:3.5 M:7.5) et un Score Global ajusté de **56.3/100** (+4.8 pts vs 13h). Le timing est passé à **Favorable**. Le consensus FMP est **$16.51** (18 analystes). Le short interest est stable à **11.39%**. Le Forward P/E est remonté à **7.12** (vs 6.94). Le Filtre Qualité reste 0–1/6.
 
-**Verdict institutionnel :** La thèse est **ATTENDRE — SUSPENDUE.** L'absence de données de cours fiables, la corruption des données options, et la disparition de l'ATR/MM50 rendent tout positionnement irrationnel. Le repli implied de −3.1% et la baisse du RSI indiquent une consolidation technique post-rally. Si les données sont récupérées et que le cours tient au-dessus de $14.50, une réactivation de la thèse ACHETER (Sizing Réduit) est possible. Si le cours est confirmé sous $14.50 : passage à **SURVEILLER**. Le bilan reste extrêmement fragile (current ratio 0.50, tangible asset value négatif, net debt/EBITDA 8.83x). AAdvantage (programme loyalty) reste le hidden asset (~$20-25B > market cap).
+**Verdict institutionnel :** La thèse est **ATTENDRE — BIAIS HAUSSIER RÉACTIVÉ.** Les données de cours sont revenues, le setup technique est favorable (RSI 59, au-dessus MM50, gap tenu, test du 52W high), et le timing est Favorable. Cependant, le Score Global ajusté 56.3/100 reste sous le seuil d'achat (60). La valorisation s'est mécaniquement dégradée avec le rally (Forward P/E 7.12, upside consensus réduit à +4.0%). Le bilan reste extrêmement fragile (current ratio 0.50, tangible asset value négatif, net debt/EBITDA 8.83x). AAdvantage (programme loyalty) reste le hidden asset (~$20-25B > market cap).
 
-**⚠️ Données partielles** — Cours NaN (open/high/low/close), ATR null, MM50 null, MM200 indisponible. Options corrompues (Max Pain $1.00 aberrant, Put/Call et Call OI nulls). Volume suspect (identique au 15/06). Sector rotation NaN généralisé. Accounting risk indisponible. Quant report insuffisant. Social sentiment sans données Reddit.
+**Conditions de réactivation vers ACHETER (Sizing Réduit) :**
+- Cours > $16.50 (cassure 52W high) sur volume > 95M
+- Score Global ajusté ≥ 60
+
+**Conditions de dégradation vers SURVEILLER :**
+- Repli sous $15.00 (gap fill)
+- Repli sous $14.50 (support majeur cassé)
+
+**⚠️ Données partielles** — MM200 indisponible. Accounting risk indisponible. Quant report insuffisant. Social sentiment sans données Reddit. Transcripts NLP, insider trades détaillés, 13F complets, ETF flows, dark pool non disponibles.
 
 ---
 

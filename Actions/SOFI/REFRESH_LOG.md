@@ -1,5 +1,22 @@
 # SOFI — Historique des Full Refreshes
 
+## 2026-06-16 — Full Refresh Conclu (snapshot 17:00 UTC — close final confirmé, gap +5.07% réel, DRAFT traité)
+
+**Triggers :**
+- price_gap (medium) : Gap +5.07% vs previous close $17.13 (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 5.94% (seuil 5.0%)
+
+**Conclusion :** CONFIRME — Le gap haussier +5.07% confirme et renforce la thèse ACHETER (Réduit). L'ATR relatif 5.94% est un trigger mécanique (ATR absolu stable $1.07, expansion minime +$0.02).
+- Le snapshot `data/latest.json` (timestamp 2026-06-16T17:00:09+00:00) enregistre un **gap haussier réel de +5.07% à $18.00**. Le reclaim MM50 est renforcé avec un écart de **+6.54%** (MM50 $16.89).
+- Le volume s'établit à **55.67M (0.76× la moy. 20j)** — retrait institutionnel majeur vs 76.40M (1.03×) au snapshot 13h. Facteur de vigilance principal.
+- Aucun nouvel événement structurant ne modifie le moat, le TAM ou la qualité bénéfice. Le Filtre Qualité reste 4/6 (Quality Partielle).
+- Données options stables (Put/Call 0.41, Call OI 70.9%). Max Pain $1.00 aberrant persistant.
+- Forward P/E Yahoo révisé mécaniquement de 20.98 à **22.04** (+5.1%), P/E LTM 38.07 à **39.99** (+5.0%), P/B 2.03 à **2.13** (+4.9%) — révisions strictement liées à la hausse de cours.
+- Score Opportunité 6.5/10, Score Global ajusté 69.5/100 (ACHETER Réduit) — inchangés. Timing Favorable maintenu.
+- **Action :** DRAFT_refresh archivé (`SOFI_2026-06-16_DRAFT_refresh_ARCHIVED_3.md`). Pas de réécriture de `_init.md` requise — la structure fondamentale du 2026-05-17 reste valide. La mise à jour `SOFI_2026-06-16_update.md` (snapshot 17:00 UTC) capture le gap +5.07%, le reclaim renforcé et la vigilance volume.
+
+---
+
 ## 2026-06-16 — Full Refresh Conclu (snapshot 13:00 UTC — pré-ouverture US, DRAFT archivé faux positif 2e occurrence)
 
 **Triggers :**

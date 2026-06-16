@@ -8,26 +8,28 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ACHETER (Réduit)
-**Prix cible :** $20.28 (cours + 3×ATR)
-**Stop-loss :** $15.03 (cours − 2×ATR)
-**Upside/Downside :** +18.4% / −12.3%
-**Dernière mise à jour :** 2026-06-16 (snapshot 10:00 UTC — pré-ouverture US, stabilité mécanique, DRAFT_refresh archivé faux positif)
+- **Prix cible :** $21.21 (cours + 3×ATR)
+- **Stop-loss :** $15.86 (cours − 2×ATR)
+- **Upside/Downside :** +17.8% / −11.9%
+- **Dernière mise à jour :** 2026-06-16 (snapshot 17:00 UTC — close final confirmé, gap +5.07%, reclaim MM50 renforcé)
 
-SoFi est une fintech-banque hybride avec un écosystème complet (lending + banking + investing) et une marque forte chez les millennials. Le charter bancaire 2022 crée une barrière réglementaire modérée vs les fintechs non-banques. Le snapshot du **2026-06-15 à 21h UTC** (close final confirmé) valide le **reclaim de la MM50** avec le cours à **$17.13** (+3.32% vs previous close $16.58). Le cours reste **au-dessus de la MM50 $16.86** (+1.60%). Le **Score Global ajusté reste à 69.5/100**, dans la fourchette **ACHETER (60–74)** avec sizing **Réduit**. Le **Score Momentum reste à 7.5/10** (haussier), tandis que le **Score Valorisation reste à 5.5/10**. 
+SoFi est une fintech-banque hybride avec un écosystème complet (lending + banking + investing) et une marque forte chez les millennials. Le charter bancaire 2022 crée une barrière réglementaire modérée vs les fintechs non-banques. Le snapshot du **2026-06-16 à 17h UTC** (close final confirmé) enregistre un **gap haussier de +5.07% à $18.00** par rapport au close du 15/06 ($17.13). Le cours reste **au-dessus de la MM50 $16.89** avec un écart confortable de **+6.54%**. Le **Score Global ajusté reste à 69.5/100**, dans la fourchette **ACHETER (60–74)** avec sizing **Réduit**. Le **Score Momentum reste à 7.5/10** (haussier), tandis que le **Score Valorisation reste à 5.5/10**.
 
-**Correction majeure :** Le volume final s'établit à **75.98M (1.03× la moy. 20j)**, corrigeant radicalement la sous-estimation du snapshot 17h (42.31M, 0.58×). Le reclaim MM50 est désormais **validé avec une participation institutionnelle légèrement supérieure à la moyenne**, ce qui renforce la fiabilité technique du signal. Le short interest reste élevé à **14.71%** — niveau critique qui crée un **setup asymétrique squeeze/pression vendeuse**. Les données options sont stables : Put/Call **0.42** et Call OI **70.5%** confirment le repositionnement haussier à très court terme. [ALERTE DATA QUALITY] Le Max Pain à **$1.00** reste aberrant — valeur historique **$17.00** conservée. La dépendance aux taux d'intérêt et l'exposition aux prêts étudiants créent des risques macro majeurs. Le Forward P/E **21.95** reste mécaniquement attractif. Le consensus PT **$25.41** (+48.3% upside) est inchangé. Le Filtre Qualité **4/6** (Quality Partielle) n'est pas remis en cause. Earnings Q2 dans **43j** (28 juillet, estimates EPS $0.10–$0.11, Rev $1.1B). XLF (Financials) **#2** sector rotation (momentum 4.69) — vent de poupe sectoriel confirmé. ⚠️ Reclaim MM50 validé avec volume confirmé (1.03×). Entrée suggérée $17.13, SL $15.03, TP $20.28, Ratio R/R 1.5×. Surveiller impérativement la tenue du cours au-dessus de MM50 $16.86 en close demain. Un rejet sous MM50 invaliderait le signal et justifierait un retour en ATTENDRE. Attention au short interest 14.71% qui crée un setup asymétrique squeeze/pression.
-**Score Opportunité 6.5/10. Score Global 69.5/100. ACHETER (Réduit) — Sizing réduit, reclaim validé avec volume confirmé.**
+**Point de vigilance majeur :** Le volume s'établit à **55.67M (0.76× la moy. 20j)**, en retrait de **−27%** vs le snapshot 13h (76.40M, 1.03×). Le gap +5.07% s'effectue sur une **participation institutionnelle inférieure à la moyenne**, tempérant la conviction du signal. Ce profil est compatible avec un **short covering** partiel (short interest 14.71% inchangé) ou un achat spéculatif pré-expiration options (2026-06-18, 2 jours ouvrés restants). Le reclaim MM50 est **renforcé** mais la faiblesse du volume exige un suivi au-dessus de **$17.43** avec volume >0.9× demain pour confirmer la durabilité.
 
-**Données complètes** — Cours, RSI, P/E, beta, ATR, MM50 disponibles dans `data/latest.json` (snapshot 2026-06-15T17:00 UTC). Options : Put/Call 0.42, Call OI 70.5% stables. [ALERTE DATA QUALITY] Max Pain $1.00 aberrant persistant — historique $17.00 conservé. Expiration prochaine 2026-06-18 (3 jours ouvrés).
+Le short interest reste élevé à **14.71%** — niveau critique qui crée un **setup asymétrique squeeze/pression vendeuse**. Les données options sont stables : Put/Call **0.41** et Call OI **70.9%** confirment le repositionnement haussier à très court terme. [ALERTE DATA QUALITY] Le Max Pain à **$1.00** reste aberrant — valeur historique **$17.00** conservée. La dépendance aux taux d'intérêt et l'exposition aux prêts étudiants créent des risques macro majeurs. Le Forward P/E **22.04** reste mécaniquement attractif. Le consensus PT **$25.41** (+41.2% upside vs $18.00) est inchangé. Le Filtre Qualité **4/6** (Quality Partielle) n'est pas remis en cause. Earnings Q2 dans **42j** (28 juillet, estimates EPS $0.10–$0.11, Rev $1.1B). XLF (Financials) **#2** sector rotation (momentum 4.69) — vent de poupe sectoriel confirmé. ⚠️ Reclaim MM50 renforcé (+6.54%) mais volume faible 0.76×. Entrée suggérée $18.00, SL $15.86, TP $21.21, Ratio R/R 1.5×. Un retour sous $17.43 ou un volume persistantment faible demain justifierait une réduction du sizing ou un passage en ATTENDRE. Attention au short interest 14.71% qui crée un setup asymétrique squeeze/pression.
+**Score Opportunité 6.5/10. Score Global 69.5/100. ACHETER (Réduit) — Sizing réduit, reclaim renforcé mais volume sous moyenne.**
+
+**Données complètes** — Cours, RSI, P/E, beta, ATR, MM50 disponibles dans `data/latest.json` (snapshot 2026-06-16T17:00 UTC). Options : Put/Call 0.41, Call OI 70.9% stables. [ALERTE DATA QUALITY] Max Pain $1.00 aberrant persistant — historique $17.00 conservé. Expiration prochaine 2026-06-18 (2 jours ouvrés).
 
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** —/10
-- **Prix cible :** $20.28
-- **Stop-loss :** $15.03
-- **Statut thèse :** validée
-- **Horizon :** —
+- **Score global :** 69.5/100
+- **Prix cible :** $21.21
+- **Stop-loss :** $15.86
+- **Statut thèse :** validée et renforcée
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -39,8 +41,8 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ## 🚨 Alertes actives
 
-- Baisse — $13.78 (SL 2×ATR) — 🟢 Active
-- Hausse — $18.88 (prix cible) — 🟢 Active
+- Baisse — $15.86 (SL 2×ATR) — 🟢 Active
+- Hausse — $21.21 (prix cible) — 🟢 Active
 - Volume — >2× moy. 20j (>140.7M) — 🟢 Active
 
 ---
@@ -53,26 +55,26 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 57.45
-- **MM 50j :** 16.88
+- **RSI 14j :** 59.82
+- **MM 50j :** 16.89
 - **MM 200j :** —
-- **ATR 14j :** 1.05
-- **Volume moy. 20j :** 72525446
+- **ATR 14j :** 1.07
+- **Volume moy. 20j :** 73497003
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-16
-- **Type :** full refresh
-- **Fichier :** `SOFI_2026-06-16_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-16
+- **Type :** update
+- **Fichier :** `SOFI_2026-06-16_update.md`
+- **Conclusion :** Gap +5.07% confirme et renforce la thèse ACHETER (Réduit). Reclaim MM50 solide (+6.54%). Vigilance sur volume faible 0.76×.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +5.07% overnight (seuil ±5.0%)
+- **PRICE_GAP** (medium) — Gap +5.07% (seuil ±5.0%)
 - **ATR_SPIKE** (medium) — ATR relatif 5.94% (seuil 5.0%)
 
 ---
