@@ -2,18 +2,18 @@
 
 ## Thèse courante
 
-**Verdict :** ACHETER (Réduit)
-**Date dernière analyse :** 2026-06-15 (snapshot 21:00 UTC)
-**Cours actuel :** $45.4403
+**Verdict :** ATTENDRE
+**Date dernière analyse :** 2026-06-16 (snapshot 10:00 UTC)
+**Cours actuel :** NaN (previous close $44.836)
 **Score Qualité :** 0/6 (Hors périmètre)
-**Score Opportunité :** 6.1/10
-**Score Momentum :** 7.3/10
-**Score Global :** 61.0/100 (66.0 ajusté)
-**Stop-loss :** $42.94
-**Take-profit :** $49.19
-**Ratio R/R :** 1.5
+**Score Opportunité :** 5.4/10
+**Score Momentum :** 4.5/10
+**Score Global :** 54.0/100 (54.0 ajusté)
+**Stop-loss :** Suspendu (données indisponibles)
+**Take-profit :** Suspendu (données indisponibles)
+**Ratio R/R :** —
 
-TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie sur des fondamentaux. Le titre est suivi uniquement pour la cohérence des flux de données techniques. **Verdict maintenu : ACHETER (Réduit)** — snapshot 21h UTC du 2026-06-15. Clôture officielle à $45.4403 (+0.31% vs 17h, +1.35% vs previous close), RSI 46.33 (+0.54 pt vs 17h), volume 1,294 (+53.3% vs 17h, 0.55× avg 20j). Le recalcul pipeline à 21h UTC rétablit les scores à leur niveau 10h/13h (Score Global 61.0/100, Score Global Ajusté 66.0/100), invalidant la dégradation manuelle de 17h. Le cours reste au-dessus de la MM50 (+$1.74, +4.0%). **Points de vigilance :** illiquidité persistante (volume toujours sous la moyenne) ; earnings JOUR J (2026-06-15) persistant depuis 15+ jours — hypothèse artefact calendrier FMP confirmée ; range intraday très étroit ($0.239) indiquant un marché désengagé. Si cours conserve la MM50 sur volume > 0.6× avg → maintien ACHETER (Réduit). Si perte de MM50 sur volume > moyenne → dégradation ATTENDRE voire SURVEILLER.
+TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie sur des fondamentaux. **Verdict dégradé : ATTENDRE** — snapshot 10h UTC du 2026-06-16. Le cours close est indisponible (NaN), le RSI recule à 43.91 (−2.42 pts vs clôture précédente), et l'ATR ainsi que la MM50 ont été perdus (null). Le pipeline recalcule un Score Global de 54.0/100, sous le seuil de 60. Le Score Momentum s'effondre de 7.3 à 4.5 (−2.8 pts), entraînant la dégradation du verdict. **Points de vigilance :** données techniques corrompues (close NaN, ATR null, MM50 null) — probablement lié à la faible liquidité ou à un problème de source ; illiquidité persistante (volume 1,294, 0.55× avg) ; earnings JOUR J (2026-06-16) persistant depuis 16+ jours — hypothèse artefact calendrier FMP confirmée. Si données rétablies (close, ATR, MM50) + RSI > 45 sur volume > 0.6× avg → réévaluation possible vers ACHETER (Réduit). Si close NaN persiste → maintien ATTENDRE, risque de glissement vers SURVEILLER.
 
 ---
 
@@ -64,6 +64,7 @@ TEST est un ticker de test / micro-cap sans données fondamentales exploitables 
 | TEST_2026-06-15_update_13h00.md | 2026-06-15 | Mise à jour 13:00 UTC — stabilité totale confirmée vs snapshot 10h (cours, RSI, ATR, MM50, volume inchangés), scores et verdict ACHETER (Réduit) maintenus | **ACHETER (Réduit)** |
 | TEST_2026-06-15_update_17h00.md | 2026-06-15 | Mise à jour 17:00 UTC — cours +1.03% à $45.30, RSI 45.79 (−1.29 pt), volume effondré 844 (0.36× avg), SL/TP révisés $42.80/$49.05, verdict **ACHETER (Réduit) confirmé avec vigilance** | **ACHETER (Réduit)** |
 | TEST_2026-06-15_update_21h00.md | 2026-06-15 | Mise à jour 21:00 UTC — clôture officielle $45.4403 (+0.31% vs 17h), RSI 46.33 (+0.54 pt), volume 1,294 (0.55× avg), pipeline recalcule scores rétablis 61.0/100 (66.0 ajusté), SL/TP $42.94/$49.19, verdict **ACHETER (Réduit) confirmé avec vigilance** | **ACHETER (Réduit)** |
+| TEST_2026-06-16_update.md | 2026-06-16 | Mise à jour 10:00 UTC — données techniques dégradées (close NaN, ATR null, MM50 null), RSI 43.91 (−2.42 pts), volume stable 1,294, Score Global 61.0→54.0 (−7.0 pts), Score Momentum 7.3→4.5 (−2.8 pts), verdict dégradé **ACHETER (Réduit) → ATTENDRE**, SL/TP suspendus | **ATTENDRE** |
 
 ---
 
