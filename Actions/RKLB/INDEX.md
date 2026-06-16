@@ -7,7 +7,6 @@
 | Date | Fichier | Type |
 |------|---------|------|
 | 2026-06-16 | [RKLB_2026-06-16_update.md](RKLB_2026-06-16_update.md) | Snapshot 10h UTC — stabilité totale des données brutes et du scoring vs 21h UTC 15/06, [ANOMALIE OPTIONS JSON RÉCURRENTRE] Max Pain $35.00/Put/Call null/Call OI null, DRAFT_refresh archivé comme artefact pré-ouverture, thèse SURVEILLER confirmée |
-|------|---------|------|
 | 2026-06-15 | [RKLB_2026-06-15_update_21h.md](RKLB_2026-06-15_update_21h.md) | Snapshot 21h UTC — consolidation rebond +0.84% à $109.25, correction volumétrique majeure (1.03× vs 0.72× à 17h), score global ajusté 47.0/100 (stable), MM50 $101.57 (spot +7.6%), options stables, thèse SURVEILLER confirmée avec nuance améliorée |
 | 2026-06-15 | [RKLB_2026-06-15_update_17h.md](RKLB_2026-06-15_update_17h.md) | Snapshot 17h UTC — rebond +5.81% à $108.34, volume normalisé 0.72×, score global ajusté 47.0/100 (SURVEILLER, +10.0 pts), MM50 $101.55 (spot +6.7%), options rétablies, thèse modifiée de ÉVITER à SURVEILLER |
 | 2026-06-15 | [RKLB_2026-06-15_update.md](RKLB_2026-06-15_update.md) | Post-gap matin — gap baissier −10.79% sur volume 2.3× sans news, RSI 33.52, MM50 $100.74 (spot +1.6%), score global ajusté 37.0/100 (SURVEILLER/ÉVITER), consensus PT révisé $90.83 (+18 analysts), SL $78.03 / TP $138.93, thèse modifiée |

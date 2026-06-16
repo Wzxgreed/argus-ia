@@ -1,5 +1,15 @@
 # RKLB — Historique des Full Refreshes
 
+## 2026-06-16 — DRAFT_refresh Archivé (Artéfact Pré-Ouverture)
+
+**Triggers :**
+- price_gap (medium) : Gap +6.70% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 11.02% (seuil 5.0%)
+
+**Conclusion :** ARTÉFACT PRÉ-OUVERTURE — DRAFT_refresh détecté et archivé. Les triggers correspondent au gap du 15/06 matin déjà traité dans `RKLB_2026-06-15_update.md` et `RKLB_2026-06-15_update_17h.md`. Données brutes stables vs snapshot 21h UTC 15/06 (close $109.25, RSI 33.14, ATR $12.04, MM50 $101.57). Score Global 47.0/100 (SURVEILLER, inchangé). [ANOMALIE OPTIONS JSON RÉCURRENTRE] dans snapshot 10h UTC 16/06 (Max Pain $35.00 / Put/Call null / Call OI null) — données opérationnelles du 21h UTC 15/06 conservées (Max Pain $120.00, Put/Call 0.74, Call OI 57.6%). Thèse SURVEILLER confirmée. Fichiers : `RKLB_2026-06-16_update.md`. INDEX.md, CONTEXT.md mis à jour. DRAFT_refresh archivé (`_RKLB_2026-06-16_DRAFT_refresh.md`).
+
+---
+
 ## 2026-06-15 — Full Refresh Complété
 
 **Triggers :**
