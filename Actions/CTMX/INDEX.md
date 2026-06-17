@@ -1,23 +1,23 @@
-# CTMX — Dossier de suivi (migré depuis CYTOMX)
+# CTMX — Dossier de suivi (migre depuis CYTOMX)
 
-> **Société :** CytomX Therapeutics, Inc.
+> **Societe :** CytomX Therapeutics, Inc.
 > **Secteur :** Healthcare / Biotechnology — Probody therapeutics
 > **Exchange :** NASDAQ
-> **Date de création du dossier :** 2026-05-26 (migration depuis CYTOMX)
+> **Date de creation du dossier :** 2026-05-26 (migration depuis CYTOMX)
 
 ---
 
-## Thèse courante
+## These courante
 
-**Recommandation :** ATTENDRE *(inchangée)*
-**Score global ajusté :** 55.8/100
+**Recommandation :** SURVEILLER *(degradee depuis ATTENDRE le 2026-06-17)*
+**Score global ajuste :** 49.5/100
 **Prix cible consensus :** $9.05 (11 analysts)
-**Prix cible technique :** $3.44 (3×ATR)
-**Stop-loss :** $2.59 (2×ATR)
-**Statut :** Thèse non établie — profil spéculatif biotech pré-profit, Filtre Qualité 2/6
-**Horizon :** 6–12 mois (dépendant des catalyseurs cliniques)
+**Prix cible technique :** $3.44 (3xATR)
+**Stop-loss :** $2.59 (2xATR)
+**Statut :** These non etablie — profil speculatif biotech pre-profit, Filtre Qualite 2/6
+**Horizon :** 6–12 mois (dependant des catalyseurs cliniques)
 
-**Résumé :** CTMX est une biotech en phase clinique avancée (plateforme Probody) avec des partenariats de qualité (AbbVie, BMS, Amgen). Le snapshot 17h UTC du 2026-06-16 enregistre un **close à $2.93** (−3.62% vs snapshot 10h UTC) avec des données techniques **dégradées**. Le **RSI s'effondre à 17.16** (−8.77 pts), atteignant une **survente extrême historique**. L'**ATR se rétracte à $0.17** et la **MM50 glisse à $3.87** (écart −24.3%). Le **volume retombe à 0.73×** moyenne 20j — retour à l'anémie. Le **support $2.98 est cassé** (low $2.865) — distribution vendeuse en session US. La **structure options reste très haussière** (put/call 0.14, call OI 87.8%, max pain $4.00) avec expiration demain (2026-06-18) — pin risk haussier en conflit avec le momentum baissier. Le **Score Global Ajusté remonte marginalement à 55.8/100** (+0.8 pt) et le **Score Opportunité à 5.9/10** (+0.1 pt, valorisation ↑, momentum ↓). La recommandation reste **ATTENDRE**. Le timing reste **Défavorable** (renforcé par le break de support).
+**Resume :** CTMX est une biotech en phase clinique avancee (plateforme Probody) avec des partenariats de qualite (AbbVie, BMS, Amgen). Le snapshot 10h UTC du 2026-06-17 enregistre une **stabilite mecanique des prix** ($2.93 inchange, RSI 17.16 inchange, ATR $0.17 inchange) mais une **explosion de volume a 2.82x moyenne 20j** (10.57M) — revision post-close du 16/06 signalant une activite massive liee a l'expiration options d'aujourd'hui (2026-06-18). L'agent Recommandation a **degrade CTMX de ATTENDRE a SURVEILLER** avec **Score Global Ajuste 49.5/100** (−6.3 pts, sous le seuil institutionnel de 50). La degradation est mecanique (momentum 3.5/10, −0.5 pt sur break de support). La structure options reste tres haussiere (put/call 0.14, call OI 87.8%, max pain $4.00) avec expiration aujourd'hui. Le timing reste **Defavorable**.
 
 ---
 
@@ -25,59 +25,61 @@
 
 | Date | Fichier | Type | Conclusion |
 |------|---------|------|------------|
-| 2026-05-26 | `CTMX_2026-05-26_init.md` | Analyse initiale | Migration depuis CYTOMX, premier snapshot valide, ATTENDRE, Score Global 48.2/100, Filtre Qualité 2/6 |
-| 2026-05-26 | `CTMX_2026-05-26_update.md` | Mise à jour snapshot 21h | Cours $3.69, RSI 31.43, volume 0.82×, SURVEILLER, Score Global 47.5/100, earnings confirmé J+72 |
-| 2026-05-27 | `CTMX_2026-05-27_update.md` | Mise à jour snapshot 17:00 UTC | Mutation haussière +4.61% à $3.86, RSI 38.46, volume effondré 0.33×, scores révisés à la hausse (Score Global Ajusté 48.8/100, +1.3 pt), SL/TP révisés $3.46/$4.46, SURVEILLER confirmé |
-| 2026-06-01 | `CTMX_2026-06-01_update.md` | Mise à jour snapshot 17:00 UTC | Distribution accélérée −2.08% à $3.525 (low $3.375), volume 1.38× (au-dessus moyenne 20j), RSI 35.24 (survente extrême maintenue), MM50 $4.19 (écart −15.9%), short interest 16.23% stable, options stables, scores inchangés (Score Global Ajusté 47.5/100), SL/TP révisés $3.17/$4.07, SURVEILLER confirmé avec nuance technique dégradée par le volume vendeur |
-| 2026-06-01 | `CTMX_2026-06-01_update.md` | Mise à jour snapshot **21:00 UTC** | Accélération baissière −4.17% à $3.45 (low $3.375), volume **2.05×** (distribution massive en clôture), RSI **33.06** (survente extrême renforcée), MM50 $4.18 (écart −17.5%), scores révisés à la baisse (**Score Global Ajusté 40.0/100**, −7.5 pts ; Score Momentum **2.5/10**, −1.0 pt), SL/TP révisés **$3.09/$3.99**, SURVEILLER confirmée, timing défavorable |
-| 2026-06-02 | `CTMX_2026-06-02_update.md` | Mise à jour snapshot 13:00 UTC | **Stabilité totale** cours/technique vs clôture 2026-06-01 (marché non ouvert), cours $3.45 stable, RSI 33.06 stable, volume 2.05× stable, options légèrement dégradées (put/call 1.0 vs 0.92, call OI 49.9% vs 52.2%) — rebalancing pré-expiration, scores inchangés (**Score Global Ajusté 40.0/100**), SL/TP inchangés $3.09/$3.99, SURVEILLER confirmée, timing défavorable |
-| 2026-06-02 | `CTMX_2026-06-02_update.md` | Mise à jour snapshot **21:00 UTC** | Stabilité technique en clôture officielle $3.16 (+0.16% vs 17h), volume corrigé **1.45×** (invalidation épuisement vendeur), RSI 25.68 stable, scores inchangés (Score Global Ajusté 52.5/100), SL/TP inchangés $2.78/$3.73, ATTENDRE confirmée, timing défavorable |
-| 2026-06-03 | `CTMX_2026-06-03_update.md` | Mise à jour snapshot **10:00 UTC** | Stabilité totale vs clôture 02/06 (cours $3.16 inchangé, RSI 25.68 inchangé, volume 1.45× inchangé), anomalie options JSON détectée et traitée (max pain $1.00 aberrant → valeur opérationnelle $4.00 conservée, put/call et call OI passés à null → valeurs opérationnelles 1.0 et 49.9% conservées), scores inchangés (Score Global Ajusté 52.5/100), SL/TP inchangés $2.78/$3.73, ATTENDRE confirmée, timing défavorable |
-| 2026-06-08 | `CTMX_2026-06-08_update.md` | Mise à jour snapshot **10:00 UTC** | **Nouvelle accélération baissière** −5.06% à $3.00 (low $2.98), support $3.14 cassé, RSI 29.53 (+3.85 pts), volume 0.98× (retour sous moyenne), MM50 $4.09 (écart −26.6%), anomalie options JSON persistante, scores inchangés (Score Global Ajusté 52.5/100), SL/TP révisés à la baisse $2.62/$3.57, ATTENDRE confirmée, timing défavorable |
-| 2026-06-08 | `CTMX_2026-06-08_update.md` | Mise à jour snapshot **13:00 UTC** | **Stabilité totale** vs snapshot 10h UTC (cours $3.00 inchangé, RSI 29.53 inchangé, volume 0.98× inchangé), **anomalie options JSON RÉSOLUE** (max pain $4.00 confirmé, put/call 0.96 rétabli, call OI 51.0% rétabli), structure options légèrement plus haussière, scores inchangés (Score Global Ajusté 52.5/100), SL/TP inchangés $2.62/$3.57, ATTENDRE confirmée, défavorable |
-| 2026-06-08 | `CTMX_2026-06-08_update.md` | Mise à jour snapshot **17:00 UTC** | **Dégradation technique modérée** −2.0% à $2.94, volume **effondré à 0.55×** (pas de conviction), **support $2.98 cassé** (low $2.90), RSI 30.56 (+1.03 pt, survente maintenue), MM50 $4.06 (écart −27.6%), Score Global Ajusté **47.5/100** (−5.0 pts), recommandation **SURVEILLER** (dégradée depuis ATTENDRE), SL/TP révisés $2.56/$3.51, défavorable |
-| 2026-06-09 | `CTMX_2026-06-09_update.md` | Mise à jour snapshot **10:00 UTC** | **Stabilité totale** cours/technique vs close 08/06 ($2.94 inchangé, RSI 30.56 inchangé), volume **doublé à 1.06×** (retour au-dessus moyenne 20j — signal mitigé), support $2.90 **testé** (low $2.89) mais non cassé, anomalie options JSON détectée et traitée (3e occurrence), XLV momentum **5.02** (+0.33 pt), scores et recommandation **SURVEILLER** inchangés (Score Global Ajusté 47.5/100), SL/TP inchangés $2.56/$3.51, défavorable |
-| 2026-06-09 | `CTMX_2026-06-09_update.md` | Mise à jour snapshot **13:00 UTC** | **Stabilité totale** vs snapshot 10h UTC (cours $2.94 inchangé, RSI 30.56 inchangé, volume 1.06× inchangé), **anomalie options JSON RÉSOLUE** (max pain $4.00 confirmé, put/call 0.96 rétabli, call OI 51.0% rétabli), support $2.90 testé (low $2.89) sans cassure, scores et recommandation **SURVEILLER** inchangés (Score Global Ajusté 47.5/100), SL/TP inchangés $2.56/$3.51, défavorable |
-| 2026-06-09 | `CTMX_2026-06-09_update.md` | Mise à jour snapshot **21:00 UTC** | **Rebond technique +1.36% à $2.98**, volume **1.32×** (+24% relatif), RSI **25.37** (−5.19 pts, survente extrême renforcée), support $2.90 **cassé temporairement** (low $2.815) puis recovery, Score Global Ajusté **55.8/100** (+8.3 pts), recommandation **ATTENDRE** (upgradée depuis SURVEILLER), SL/TP révisés $2.60/$3.55, défavorable |
-| 2026-06-10 | `CTMX_2026-06-10_update.md` | Mise à jour snapshot **10:00 UTC** | **Données techniques partielles** (close NaN, ATR null, MM50 null), previous_close **$2.94** (−1.34% vs close officiel), RSI **23.08** (−2.29 pts, survente extrême approfondie), short interest **14.97%** (−1.26 pt, reflux des shorts), anomalie options JSON **4e occurrence** (max pain $6.00 aberrant), Score Global Ajusté **54.2/100** (−1.6 pt), Score Opportunité **4.9/10** (−1.0 pt), recommandation **ATTENDRE** inchangée, timing **Favorable** (upgradé depuis Défavorable), SL/TP conservés $2.56/$3.51 (ATR stale) |
-| 2026-06-15 | `CTMX_2026-06-15_update.md` | Mise à jour snapshot **10:00 UTC** | **Données techniques restaurées** (close $3.01, ATR $0.18, MM50 $3.93), RSI **23.02** (stable, survente extrême), volume **0.60×** (anémie critique), short interest **14.97%** (stable), anomalie options JSON **5e occurrence**, Score Global Ajusté **52.5/100** (−1.7 pt), Score Opportunité **4.8/10** (−0.1 pt), recommandation **ATTENDRE** inchangée, timing **Favorable**, SL/TP recalculés **$2.65/$3.55** |
-| 2026-06-15 | `CTMX_2026-06-15_update.md` | Mise à jour snapshot **17:00 UTC** | **Close stable $3.01** (+0.00%), RSI **24.24** (+1.22 pts, survente extrême), volume **0.37×** (anémie critique aggravée), MM50 **$3.90** (glissement baissier), **anomalie options JSON RÉSOLUE** (max pain $4.00, put/call 0.14, call OI 87.8% — structure très haussière), expiration demain, Score Global Ajusté **55.0/100** (stable), Score Opportunité **5.8/10** (stable), recommandation **ATTENDRE** inchangée, timing **Défavorable** (dégradé), SL/TP **$2.67/$3.52** |
-| 2026-06-15 | `CTMX_2026-06-15_update.md` | Mise à jour snapshot **21:00 UTC** | **Close $3.04** (+1.0% vs 17h), RSI **25.93** (+1.69 pts, survente extrême persistante), volume **0.87×** (normalisation — retour au-dessus moyenne), MM50 **$3.90** (stable), options très haussières inchangées (max pain $4.00, put/call 0.14, call OI 87.8%), expiration demain, Score Global Ajusté **55.0/100** (stable), Score Opportunité **5.8/10** (stable), recommandation **ATTENDRE** inchangée, timing **Défavorable** (inchangé), SL/TP **$2.68/$3.58** |
-| 2026-06-16 | `CTMX_2026-06-16_update.md` | Mise à jour snapshot **10:00 UTC** | **Stabilité mécanique totale** vs snapshot 21h UTC 15/06 (données identiques close 21h UTC 15/06), cours $3.04 inchangé, RSI 25.93 inchangé, ATR $0.18 inchangé, MM50 $3.90 stable, volume 0.87× inchangé, **anomalie options JSON 6e occurrence traitée** (max pain $6.00 aberrant → $4.00 conservé, put/call 0.0 aberrant → 0.14 conservé, call OI 100.0% aberrant → 87.8% conservé), **DRAFT_refresh classé faux positif** (ATR_SPIKE sans mutation), Score Global Ajusté **55.0/100** confirmé sans modification, SL $2.68 / TP $3.58 maintenus, ATTENDRE confirmée |
-| 2026-06-16 | `CTMX_2026-06-16_update.md` | Mise à jour snapshot **17:00 UTC** | **Distribution baissière −3.62% à $2.93**, RSI **17.16** (−8.77 pts, survente extrême historique), volume **0.73×** (anémie revenant), MM50 **$3.87** (glissement baissier, écart −24.3%), **support $2.98 cassé** (low $2.865), options très haussières inchangées et **données propres** (pas d'anomalie JSON), Score Global Ajusté **55.8/100** (+0.8 pt), Score Opportunité **5.9/10** (+0.1 pt, C:6.5 V:6.5 M:4.0), Score Valorisation **6.5/10** (+0.5 pt), Score Momentum **4.0/10** (−0.5 pt), recommandation **ATTENDRE** inchangée, timing **Défavorable** renforcé, SL/TP révisés **$2.59/$3.44** |
+| 2026-05-26 | `CTMX_2026-05-26_init.md` | Analyse initiale | Migration depuis CYTOMX, premier snapshot valide, ATTENDRE, Score Global 48.2/100, Filtre Qualite 2/6 |
+| 2026-05-26 | `CTMX_2026-05-26_update.md` | Mise a jour snapshot 21h | Cours $3.69, RSI 31.43, volume 0.82x, SURVEILLER, Score Global 47.5/100, earnings confirme J+72 |
+| 2026-05-27 | `CTMX_2026-05-27_update.md` | Mise a jour snapshot 17:00 UTC | Mutation haussiere +4.61% a $3.86, RSI 38.46, volume effondre 0.33x, scores revises a la hausse (Score Global Ajuste 48.8/100, +1.3 pt), SL/TP revises $3.46/$4.46, SURVEILLER confirme |
+| 2026-06-01 | `CTMX_2026-06-01_update.md` | Mise a jour snapshot 17:00 UTC | Distribution acceleree −2.08% a $3.525 (low $3.375), volume 1.38x (au-dessus moyenne 20j), RSI 35.24 (survente extreme maintenue), MM50 $4.19 (ecart −15.9%), short interest 16.23% stable, options stables, scores inchanges (Score Global Ajuste 47.5/100), SL/TP revises $3.17/$4.07, SURVEILLER confirme avec nuance technique degradee par le volume vendeur |
+| 2026-06-01 | `CTMX_2026-06-01_update.md` | Mise a jour snapshot **21:00 UTC** | Acceleration baissiere −4.17% a $3.45 (low $3.375), volume **2.05x** (distribution massive en cloture), RSI **33.06** (survente extreme renforcee), MM50 $4.18 (ecart −17.5%), scores revises a la baisse (**Score Global Ajuste 40.0/100**, −7.5 pts ; Score Momentum **2.5/10**, −1.0 pt), SL/TP revises **$3.09/$3.99**, SURVEILLER confirme, timing defavorable |
+| 2026-06-02 | `CTMX_2026-06-02_update.md` | Mise a jour snapshot 13:00 UTC | **Stabilite totale** cours/technique vs cloture 2026-06-01 (marche non ouvert), cours $3.45 stable, RSI 33.06 stable, volume 2.05x stable, options legerement degradees (put/call 1.0 vs 0.92, call OI 49.9% vs 52.2%) — rebalancing pre-expiration, scores inchanges (**Score Global Ajuste 40.0/100**), SL/TP inchanges $3.09/$3.99, SURVEILLER confirme, timing defavorable |
+| 2026-06-02 | `CTMX_2026-06-02_update.md` | Mise a jour snapshot **21:00 UTC** | Stabilite technique en cloture officielle $3.16 (+0.16% vs 17h), volume corrige **1.45x** (invalidation epuisement vendeur), RSI 25.68 stable, scores inchanges (Score Global Ajuste 52.5/100), SL/TP inchanges $2.78/$3.73, ATTENDRE confirme, timing defavorable |
+| 2026-06-03 | `CTMX_2026-06-03_update.md` | Mise a jour snapshot **10:00 UTC** | Stabilite totale vs cloture 02/06 (cours $3.16 inchange, RSI 25.68 inchange, volume 1.45x inchange), anomalie options JSON detectee et traitee (max pain $1.00 aberrant → valeur operationnelle $4.00 conservee, put/call et call OI passes a null → valeurs operationnelles 1.0 et 49.9% conservees), scores inchanges (Score Global Ajuste 52.5/100), SL/TP inchanges $2.78/$3.73, ATTENDRE confirme, timing defavorable |
+| 2026-06-08 | `CTMX_2026-06-08_update.md` | Mise a jour snapshot **10:00 UTC** | **Nouvelle acceleration baissiere** −5.06% a $3.00 (low $2.98), support $3.14 casse, RSI 29.53 (+3.85 pts), volume 0.98x (retour sous moyenne), MM50 $4.09 (ecart −26.6%), anomalie options JSON persistante, scores inchanges (Score Global Ajuste 52.5/100), SL/TP revises a la baisse $2.62/$3.57, ATTENDRE confirme, timing defavorable |
+| 2026-06-08 | `CTMX_2026-06-08_update.md` | Mise a jour snapshot **13:00 UTC** | **Stabilite totale** vs snapshot 10h UTC (cours $3.00 inchange, RSI 29.53 inchange, volume 0.98x inchange), **anomalie options JSON RESOLUE** (max pain $4.00 confirme, put/call 0.96 retabli, call OI 51.0% retabli), structure options legerement plus haussiere, scores inchanges (Score Global Ajuste 52.5/100), SL/TP inchanges $2.62/$3.57, ATTENDRE confirme, defavorable |
+| 2026-06-08 | `CTMX_2026-06-08_update.md` | Mise a jour snapshot **17:00 UTC** | **Degradation technique moderee** −2.0% a $2.94, volume **effondre a 0.55x** (pas de conviction), **support $2.98 casse** (low $2.90), RSI 30.56 (+1.03 pt, survente maintenue), MM50 $4.06 (ecart −27.6%), Score Global Ajuste **47.5/100** (−5.0 pts), recommandation **SURVEILLER** (degradee depuis ATTENDRE), SL/TP revises $2.56/$3.51, defavorable |
+| 2026-06-09 | `CTMX_2026-06-09_update.md` | Mise a jour snapshot **10:00 UTC** | **Stabilite totale** cours/technique vs close 08/06 ($2.94 inchange, RSI 30.56 inchange), volume **double a 1.06x** (retour au-dessus moyenne 20j — signal mitige), support $2.90 **teste** (low $2.89) mais non casse, anomalie options JSON detectee et traitee (3e occurrence), XLV momentum **5.02** (+0.33 pt), scores et recommandation **SURVEILLER** inchanges (Score Global Ajuste 47.5/100), SL/TP inchanges $2.56/$3.51, defavorable |
+| 2026-06-09 | `CTMX_2026-06-09_update.md` | Mise a jour snapshot **13:00 UTC** | **Stabilite totale** vs snapshot 10h UTC (cours $2.94 inchange, RSI 30.56 inchange, volume 1.06x inchange), **anomalie options JSON RESOLUE** (max pain $4.00 confirme, put/call 0.96 retabli, call OI 51.0% retabli), support $2.90 teste (low $2.89) sans cassure, scores et recommandation **SURVEILLER** inchanges (Score Global Ajuste 47.5/100), SL/TP inchanges $2.56/$3.51, defavorable |
+| 2026-06-09 | `CTMX_2026-06-09_update.md` | Mise a jour snapshot **21:00 UTC** | **Rebond technique +1.36% a $2.98**, volume **1.32x** (+24% relatif), RSI **25.37** (−5.19 pts, survente extreme renforcee), support $2.90 **casse temporairement** (low $2.815) puis recovery, Score Global Ajuste **55.8/100** (+8.3 pts), recommandation **ATTENDRE** (upgradee depuis SURVEILLER), SL/TP revises $2.60/$3.55, defavorable |
+| 2026-06-10 | `CTMX_2026-06-10_update.md` | Mise a jour snapshot **10:00 UTC** | **Donnees techniques partielles** (close NaN, ATR null, MM50 null), previous_close **$2.94** (−1.34% vs close officiel), RSI **23.08** (−2.29 pts, survente extreme approfondie), short interest **14.97%** (−1.26 pt, reflux des shorts), anomalie options JSON **4e occurrence** (max pain $6.00 aberrant), Score Global Ajuste **54.2/100** (−1.6 pt), Score Opportunite **4.9/10** (−1.0 pt), recommandation **ATTENDRE** inchangée, timing **Favorable** (upgradé depuis Defavorable), SL/TP conserves $2.56/$3.51 (ATR stale) |
+| 2026-06-15 | `CTMX_2026-06-15_update.md` | Mise a jour snapshot **10:00 UTC** | **Donnees techniques restaurees** (close $3.01, ATR $0.18, MM50 $3.93), RSI **23.02** (stable, survente extreme), volume **0.60x** (anemie critique), short interest **14.97%** (stable), anomalie options JSON **5e occurrence**, Score Global Ajuste **52.5/100** (−1.7 pt), Score Opportunite **4.8/10** (−0.1 pt), recommandation **ATTENDRE** inchangée, timing **Favorable**, SL/TP recalcules **$2.65/$3.55** |
+| 2026-06-15 | `CTMX_2026-06-15_update.md` | Mise a jour snapshot **17:00 UTC** | **Close stable $3.01** (+0.00%), RSI **24.24** (+1.22 pts, survente extreme), volume **0.37x** (anemie critique aggravee), MM50 **$3.90** (glissement baissier), **anomalie options JSON RESOLUE** (max pain $4.00, put/call 0.14, call OI 87.8% — structure tres haussiere), expiration demain, Score Global Ajuste **55.0/100** (stable), Score Opportunite **5.8/10** (stable), recommandation **ATTENDRE** inchangée, timing **Defavorable** (degrade), SL/TP **$2.67/$3.52** |
+| 2026-06-15 | `CTMX_2026-06-15_update.md` | Mise a jour snapshot **21:00 UTC** | **Close $3.04** (+1.0% vs 17h), RSI **25.93** (+1.69 pts, survente extreme persistante), volume **0.87x** (normalisation — retour au-dessus moyenne), MM50 **$3.90** (stable), options tres haussieres inchangées (max pain $4.00, put/call 0.14, call OI 87.8%), expiration demain, Score Global Ajuste **55.0/100** (stable), Score Opportunite **5.8/10** (stable), recommandation **ATTENDRE** inchangée, timing **Defavorable** (inchangé), SL/TP **$2.68/$3.58** |
+| 2026-06-16 | `CTMX_2026-06-16_update.md` | Mise a jour snapshot **10:00 UTC** | **Stabilite mecanique totale** vs snapshot 21h UTC 15/06 (donnees identiques close 21h UTC 15/06), cours $3.04 inchange, RSI 25.93 inchange, ATR $0.18 inchange, MM50 $3.90 stable, volume 0.87x inchange, **anomalie options JSON 6e occurrence traitee** (max pain $6.00 aberrant → $4.00 conserve, put/call 0.0 aberrant → 0.14 conserve, call OI 100.0% aberrant → 87.8% conserve), **DRAFT_refresh classe faux positif** (ATR_SPIKE sans mutation), Score Global Ajuste **55.0/100** confirme sans modification, SL $2.68 / TP $3.58 maintenus, ATTENDRE confirme |
+| 2026-06-16 | `CTMX_2026-06-16_update.md` | Mise a jour snapshot **17:00 UTC** | **Distribution baissiere −3.62% a $2.93**, RSI **17.16** (−8.77 pts, survente extreme historique), volume **0.73x** (anemie revenant), MM50 **$3.87** (glissement baissier, ecart −24.3%), **support $2.98 casse** (low $2.865), options tres haussieres inchangées et **donnees propres** (pas d'anomalie JSON), Score Global Ajuste **55.8/100** (+0.8 pt), Score Opportunite **5.9/10** (+0.1 pt, C:6.5 V:6.5 M:4.0), Score Valorisation **6.5/10** (+0.5 pt), Score Momentum **4.0/10** (−0.5 pt), recommandation **ATTENDRE** inchangée, timing **Defavorable** renforce, SL/TP revises **$2.59/$3.44** |
+| 2026-06-17 | `CTMX_2026-06-17_update.md` | Mise a jour snapshot **10:00 UTC** | **Stabilite mecanique cours/RSI/ATR** ($2.93/17.16/$0.17 inchanges) mais **volume explosion 2.82x** (10.57M — revision post-close 16/06), anomalie options JSON **7e occurrence traitee** (valeurs operationnelles conservees), expiration **aujourd'hui** (2026-06-18), **recommandation degradee SURVEILLER** (depuis ATTENDRE), Score Global Ajuste **49.5/100** (−6.3 pts, sous seuil 50), Score Momentum **3.5/10** (−0.5 pt), DRAFT_refresh **faux positif confirme**, SL/TP conserves $2.59/$3.44 |
 
 ---
 
-## Prochains événements
+## Prochains evenements
 
-- **2026-08-06** · earnings · Est EPS $−0.13 à $−0.07, Rev $0.0B (J+52)
+- **2026-06-18** · expiration options · J+0 (aujourd'hui) — pin risk haussier vers $4.00
+- **2026-08-06** · earnings · Est EPS $−0.13 a $−0.07, Rev $0.0B (J+50)
 - **Catalyseurs potentiels** · CX-2029 / CX-904 · Data readout / updates partenariats AbbVie/BMS
 
 ---
 
 ## Alertes actives
 
-- 🔴 Cours $2.93 — −3.62% vs 10h UTC, high $3.05, low $2.865 (support $2.98 cassé)
-- 🔴 Volume 0.73× — retour à l'anémie, pas de conviction achat ni vente
-- 🔴 RSI 17.16 — survente extrême historique, épuisement vendeur potentiel
-- 🔴 Support $2.98 **CASSÉ** — nouveau support $2.86 (low du jour)
-- 🟢 Short interest 14.97% — stable, potentiel short squeeze si catalyseur
-- 🔴 Cours sous MM50 ($3.87) avec écart −24.3%
-- 🟡 Score Global Ajusté 55.8/100 — au-dessus du seuil institutionnel (50), +0.8 pt
-- 🟡 Recommandation ATTENDRE — zone de risque technique accru
-- 🟢 Options — **structure très haussière** (max pain $4.00, put/call 0.14, call OI 87.8%), expiration demain
-- [WARNING] Données MM200 manquantes
-- [WARNING] Biotech pré-revenue — scoring standard peu fiable
-- [INFO] Earnings confirmé le 2026-08-06 (J+51) — Est EPS $−0.13 à $−0.07
-- [INFO] Sector rotation : XLV momentum 3.55 (rang 6e/11), données exploitables
-- [INFO] Expiration options **demain** (2026-06-18) — volatilité potentielle, pin risk vers $4.00 vs spot $2.93
+- :red_circle: Cours $2.93 — close stable mais support $2.98 casse le 16/06 (low $2.865)
+- :red_circle: Volume **2.82x** — explosion massive, settlement options probable
+- :red_circle: RSI 17.16 — survente extreme historique, epuisement vendeur potentiel
+- :red_circle: Support $2.98 **CASSE** le 16/06 — nouveau support $2.86 (low du 16/06)
+- :green_circle: Short interest 14.97% — stable, potentiel short squeeze si catalyseur
+- :red_circle: Cours sous MM50 ($3.87) avec ecart −24.3%
+- :red_circle: Score Global Ajuste 49.5/100 — **sous le seuil institutionnel (50)**
+- :red_circle: Recommandation SURVEILLER — degradee depuis ATTENDRE
+- :green_circle: Options — **structure tres haussiere** (max pain $4.00, put/call 0.14, call OI 87.8%), expiration **aujourd'hui** (2026-06-18)
+- [WARNING] Donnees MM200 manquantes
+- [WARNING] Biotech pre-revenue — scoring standard peu fiable
+- [INFO] Earnings confirme le 2026-08-06 (J+50) — Est EPS $−0.13 a $−0.07
+- [INFO] Sector rotation : XLV momentum 3.02 (rang 6e/11), donnees exploitables
+- [INFO] Expiration options **aujourd'hui** (2026-06-18) — volatilite potentielle, pin risk vers $4.00 vs spot $2.93
 
 ---
 
-## Référence — Dossier historique
+## Reference — Dossier historique
 
-L'ancien dossier `Actions/CYTOMX/` contient l'historique des analyses sous le symbole erroné (9 snapshots sans données, 2026-05-18 au 2026-05-26).
+L'ancien dossier `Actions/CYTOMX/` contient l'historique des analyses sous le symbole errone (9 snapshots sans donnees, 2026-05-18 au 2026-05-26).
 
 ---
 
-*Dernière mise à jour : 2026-06-15 21:00 UTC*
+*Derniere mise a jour : 2026-06-17 10:00 UTC*
