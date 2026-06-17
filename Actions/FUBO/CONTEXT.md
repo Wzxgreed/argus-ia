@@ -7,7 +7,7 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE — pas d'entrée en l'état. La session volatile avec volume en explosion est un signal de déséquilibre, pas de direction. Le profil fondamental reste trop dégradé pour justifier une exposition longue sans confirmation technique et sans catalyseur. L'échéance options J+1 (2026-06-18) pourrait générer du pinning autour de $11.00 si le spot remonte, mais la probabilité est faible à une journée de l'échéance avec un spot à −15.5%.
+- **Recommandation :** ATTENDRE — pas d'entrée en l'état. La stabilité technique et la résolution de l'anomalie options sont des signaux positifs marginaux, mais ils ne compensent pas l'absence de momentum et le profil fondamental dégradé. L'échéance options J+1 (2026-06-18) pourrait générer du pinning autour de $11.00 si le spot remonte, mais la probabilité est faible à une journée de l'échéance avec un spot à −15.5%.
 
 ## Historique
 - **Score global :** —/10
@@ -50,7 +50,7 @@
 
 - **Date :** 2026-06-17
 - **Type :** update
-- **Fichier :** `FUBO_2026-06-17_update.md`
+- **Fichier :** `FUBO_2026-06-17_update_13h.md`
 - **Conclusion :** > **Ticker :** FUBO | **Secteur :** Communication Services / Broadcasting
 
 ---

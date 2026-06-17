@@ -12,7 +12,7 @@
 - **Score Opportunité :** 6.8/10 (C:6.5 V:8.0 M:5.3)
 - **Prix Cible :** $17.49 (consensus FMP, 12 analysts)
 - **Stop-Loss :** $11.70 (ATR $0.51)
-- **Statut Thèse :** Score ajusté 60.0 — snapshot 10h UTC 17/06 : **stabilité mécanique quasi-totale** vs close 16/06 ($12.705 → $12.72 +0.12%), **alerte volume effondré RÉSOLUE** (0.43× → **0.93×**), RSI stable **46.34**, score momentum stable **5.3/10**, score global ajusté maintenu **60.0** (zone ACHETER Réduit), gap MM50 **−6.1%**, structure options bullish conservée (max pain opérationnel $15.00, put/call 0.42, call OI 70.4%), fondamentaux intacts (forward P/E 11.04×, upside +37.5%), support $11.20 à +13.6%, SL/TP **$11.70/$14.25** révisés, timing défavorable maintenu, expiration options 18/06 aujourd'hui
+- **Statut Thèse :** Score ajusté 60.0 — snapshot 13h UTC 17/06 : **stabilité mécanique totale** vs snapshot 10h ($12.72 → $12.72 0%), **anomalie options JSON DÉFINITIVEMENT RÉSOLUE** (max pain $19.00 aberrant → **$13.00** cohérent, put/call 0.00 → **0.39**, call OI 100% → **72.0%**), RSI stable **46.34**, score momentum stable **5.3/10**, score global ajusté maintenu **60.0** (zone ACHETER Réduit), gap MM50 **−6.1%**, structure options bullish confirmée (max pain $13.00, put/call 0.39, call OI 72.0%), fondamentaux intacts (forward P/E 11.04×, upside +37.5%), support $11.20 à +13.6%, SL/TP **$11.70/$14.25** maintenus, timing défavorable maintenu, expiration options 18/06 demain
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
@@ -56,8 +56,8 @@
 
 - **Date :** 2026-06-17
 - **Type :** update
-- **Fichier :** `NU_2026-06-17_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ACHETER (Réduit) (stabilité mécanique quasi-totale vs close 16/06 $12
+- **Fichier :** `NU_2026-06-17_13-00_update.md`
+- **Conclusion :** **Thèse : CONFIRMÉE — ACHETER (Réduit) (stabilité mécanique totale vs snapshot 10h $12.72 → $12.72 0%, anomalie options JSON résolue max pain $13.00 put/call 0.39 call OI 72.0%, RSI stable 46.34, score momentum stable 5.3/10, score global ajusté maintenu 60.0 zone ACHETER Réduit, gap MM50 −6.1%, fondamentaux intacts forward P/E 11.04× upside +37.5%, support $11.20 à +13.6%, SL/TP maintenus $11.70/$14.25, timing défavorable maintenu, expiration options 18/06 demain)
 
 ---
 
