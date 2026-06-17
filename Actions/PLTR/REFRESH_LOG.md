@@ -1,5 +1,14 @@
 # PLTR — Historique des Full Refreshes
 
+## 2026-06-17 (10h UTC) — Full Refresh Triggered (Faux Positif)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.79% (seuil 5.0%)
+
+**Conclusion :** FAUX POSITIF — L'ATR réel est stable ($7.71 = inchangé vs snapshot 16/06 17h UTC). Le trigger est généré par une anomalie de calcul du module DRAFT. DRAFT_refresh archivé (`_ARCHIVED_PLTR_2026-06-17_DRAFT_refresh.md`). Thèse SURVEILLER confirmée avec nuance technique améliorée dans `PLTR_2026-06-17_update.md`.
+
+---
+
 ## 2026-06-16 (17h UTC) — Full Refresh Triggered (Faux Positif)
 
 **Triggers :**

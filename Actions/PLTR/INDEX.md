@@ -6,6 +6,7 @@
 ## Historique
 | Date | Fichier | Type | Conclusion |
 |------|---------|------|------------|
+| 2026-06-17 | [PLTR_2026-06-17_update.md](PLTR_2026-06-17_update.md) | Snapshot 10h UTC — **amelioration technique nette** vs close 16/06 : cours $133.25 (+1.70%), RSI 50.51 (+1.51 pt, franchissement zone 50), volume recovery 30.31M (0.78x, +78.7% vs collapse 16/06), ecart MM50 reduit a -4.19% (vs -5.75%), consensus FMP inchangé $187.47 (34 analystes), options anomalie JSON detectee et traitee (valeurs operationnelles conservees $140.00/0.68/59.5%), Score Opportunite calcule 5.6/10 (+0.2), Score Global calcule 56.0/100 (+1.7), Score Global ajuste calcule 48.0/100 (+1.7), timing DEFAVORABLE, these SURVEILLER **confirmee avec nuance technique amelioree** | SURVEILLER — Score Opp. 5.6/10, cours $133.25, RSI 50.51, volume 30.31M (0.78x, recovery), ecart MM50 reduit a -4.19%, these confirmee avec nuance technique amelioree |
 | 2026-06-16 | [PLTR_2026-06-16_17-00_update.md](PLTR_2026-06-16_17-00_update.md) | Snapshot 17h UTC (post-seance) — **deterioration technique nette** vs snapshot 13h UTC : cours -2.74% a $131.02, RSI 49.00 (+0.26 pt), volume collapse 16.96M (0.45x), ecart MM50 creuse a -5.75%, consensus FMP revise a la hausse $187.47 (34 analystes), options stables ($140.00/0.68/59.5%), Score Opportunite 5.4/10 (-0.2), Score Global 54.3/100 (-1.2), Score Global ajuste 46.3/100 (-1.2), timing DEFAVORABLE, these SURVEILLER **confirmee avec nuance baissiere accrue** | SURVEILLER — Score Opp. 5.4/10, cours $131.02, RSI 49.00, volume 16.96M (0.45x, collapse), cassure MM50 creusee, these confirmee avec nuance baissiere accrue |
 | 2026-06-16 | [PLTR_2026-06-16_update.md](PLTR_2026-06-16_update.md) | Snapshot 10h UTC (pre-marche) — stabilite mecanique totale vs close 15/06 : cours $134.71 (=), RSI 48.74 (=), volume revise a 41.56M (1.07x), ecart MM50 -3.3% (=), anomalie options JSON detectee et traitee (Max Pain $42.00 aberrant → valeurs 15/06 conservees $150.00/0.73/57.8%), Score Opportunite 5.6/10 (=), Score Global 55.5/100 (=), Score Global ajuste 47.5/100 (=), timing DEFAVORABLE, these SURVEILLER confirmee sans modification | SURVEILLER — Score Opp. 5.6/10, cours $134.71, RSI 48.74, volume 41.56M (1.07x), stabilite mecanique pre-ouverture, these confirmee sans modification |
 | 2026-06-15 | [PLTR_2026-06-15_21-00_update.md](PLTR_2026-06-15_21-00_update.md) | Snapshot 21h UTC (close officielle) — **rebond technique confirme et legitime** : close +5.25% a $134.71, RSI 48.74 (+0.7 pt vs 17h), volume normalise 37.28M (0.965x), ecart MM50 reduit a -3.3%, alerte volume 17h RESOLUE, Score Opportunite 5.6/10 (=), Score Global 55.5/100 (=), Score Global ajuste 47.5/100 (=), timing DEFAVORABLE, these SURVEILLER **confirmee avec nuance technique nettement amelioree** | SURVEILLER — Score Opp. 5.6/10, cours $134.71, RSI 48.74, volume 37.28M (0.965x), rebond legitime sur volume normalise, these confirmee avec nuance nettement amelioree |
@@ -60,14 +61,14 @@
 - Anomalie options JSON RESOLUE snapshot 15/06 13h UTC — Max Pain aberrant $42.00, Put/Call null, Call OI 0.0% → RÉSOLU : Max Pain $150.00, Put/Call 0.73, Call OI 57.8% valides et cohérents
 - ✅ **Anomalie options JSON RÉSOLUE snapshot 16/06 13h UTC** — Max Pain $42.00 aberrant → valeurs cohérentes restaurées ($140.00 / 0.68 / 59.5%). Biais haussier options légèrement renforcé.
 
-## Contexte technique (dernier snapshot 13:00 UTC)
-- Cours : $134.71
-- RSI 14j : 48.74
-- MM 50j : 139.36
+## Contexte technique (dernier snapshot 10h UTC)
+- Cours : $133.25
+- RSI 14j : 50.51
+- MM 50j : 139.07
 - MM 200j : —
-- ATR 14j : 7.70
-- Volume moy. 20j : 38,847,185
-- Volume jour : 41,557,600
-- Max Pain : $140.00 — structure réparée (biais haussier modéré renforcé)
-- Put/Call : 0.68 — biais haussier légèrement renforcé
-- Call OI % : 59.5% — biais haussier légèrement renforcé
+- ATR 14j : 7.71
+- Volume moy. 20j : 38,770,520
+- Volume jour : 30,310,700
+- Max Pain : $140.00 — valeurs opérationnelles conservées (anomalie JSON 17/06 traitée)
+- Put/Call : 0.68 — biais haussier modéré inchangé
+- Call OI % : 59.5% — biais haussier inchangé
