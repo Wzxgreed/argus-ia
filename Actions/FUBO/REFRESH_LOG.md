@@ -1,5 +1,15 @@
 # FUBO — Historique des Full Refreshes
 
+## 2026-06-17 — Full Refresh Résolu (Snapshot 13h UTC)
+
+**Triggers :**
+- price_gap (medium) : Gap −6.45% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 9.27% (seuil 5.0%)
+
+**Conclusion :** Thèse CONFIRMÉE (ATTENDRE). Snapshot 13h UTC confirme la **stabilité totale** vs snapshot 10h UTC : close $9.28 inchangé, RSI 46.1 inchangé, volume 1.86M (1.37× moy. 20j) inchangé, ATR $0.86 inchangé. **Anomalie options JSON RÉSOLUE** : max pain $11.00 cohérent (vs $3.00 aberrant à 10h), put/call 0.45, call OI 69.0% — structure haussière validée après 17 jours d'incohérences. Valeurs opérationnelles conservées à 10h ($11.00 / 0.43 / 70.0%) confirmées par le JSON 13h avec marge d'erreur négligeable. Scoring agent stable ATTENDRE 54.8/100, timing Défavorable. Écart sous MM50 ($10.98) −15.5% inchangé. Short interest 24.32% stable. Prochain earnings 2026-08-06 (50 jours). Malus sectoriel XLC Bottom 3 confirmé (momentum score 0.0). DRAFT_refresh.md archivé (`FUBO_2026-06-17_DRAFT_refresh.md` → `FUBO_2026-06-17_DRAFT_refresh_ARCHIVED.md`). Analyse update rédigée sous `FUBO_2026-06-17_update_13h.md`. Pas de position longue recommandée.
+
+---
+
 ## 2026-06-15 — Full Refresh Résolu (Snapshot 10:00 UTC)
 
 **Triggers :**
