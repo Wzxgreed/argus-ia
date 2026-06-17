@@ -50,6 +50,7 @@
 | 2026-06-16 | Update (10:00 UTC) | [NOK_2026-06-16_update.md](./NOK_2026-06-16_update.md) | Stabilité totale cours/technique ($14.82, RSI 40.81, ATR $1.08). Volume 130.7M (1.05×). Données options corrompues — valeurs opérationnelles $14.00/0.46/68.6% conservées. DRAFT_refresh ATR_SPIKE archivé (trigger stale). Score Global 46.8 — **SURVEILLER** confirmé. SL/TP inchangés. Pas de position. |
 | 2026-06-16 | Update (17:00 UTC) | [NOK_2026-06-16_17h_update.md](./NOK_2026-06-16_17h_update.md) | **Données options restaurées** dans `latest.json` (max pain $14.00, put/call 0.47, call OI 68.1%). Stabilité parfaite cours/technique/volume ($14.82, RSI 40.81, ATR $1.08, 130.7M 1.05×). Expiration demain (06-18). Pin risk +5.9% vs max pain. Score Global 46.8 — **SURVEILLER** confirmé. SL/TP inchangés. Pas de position. |
 | 2026-06-16 | Update (post-17:00 UTC) | [NOK_2026-06-16_21h_update.md](./NOK_2026-06-16_21h_update.md) | **Chute −6.51%** à $13.855, break support $14.27, volume effondré 81.6M (0.66×). RSI 39.98. Inversion pin risk : cours −1.0% sous max pain $14.00. Score Global dégradé 44.2/100 — **SURVEILLER** renforcé. SL/TP révisés $11.70/$17.09. Pas de position. |
+| 2026-06-17 | Update (10:00 UTC) | [NOK_2026-06-17_update.md](./NOK_2026-06-17_update.md) | Léger rebond technique +0.90% à $13.98, volume normalisé 123.7M (0.98×), RSI 40.53, low $13.75. Options corrompues (valeurs opérationnelles $14.00 conservées). Score Global 44.2 — **SURVEILLER** confirmé. SL/TP révisés $11.80/$17.25. Pas de position. |
 
 ---
 
@@ -57,12 +58,12 @@
 
 **Recommandation :** SURVEILLER — Pas de position
 **Prix cible :** $10.8 (consensus 7 analystes FMP)
-**Stop-loss :** $11.70 (basé sur cours $13.855 et ATR $1.08 du snapshot actuel)
-**Take-profit :** $17.09 (basé sur cours $13.855 et ATR $1.08 du snapshot actuel)
-**Upside/Downside :** −22.1% / −15.5% (basés sur cours $13.855)
-**Dernière mise à jour :** 2026-06-16 21:00 UTC
+**Stop-loss :** $11.80 (basé sur cours $13.98 et ATR $1.09 du snapshot actuel)
+**Take-profit :** $17.25 (basé sur cours $13.98 et ATR $1.09 du snapshot actuel)
+**Upside/Downside :** −22.7% / −15.6% (basés sur cours $13.98)
+**Dernière mise à jour :** 2026-06-17 10:00 UTC
 
-Snapshot post-17h UTC : close **$13.855** (chute −6.51% vs snapshot 17h). RSI **39.98**, volume **81.6M** (0.66× moyenne 20j), ATR **$1.08**, MM50 **$12.99**. **Données options inchangées** : max pain **$14.00**, put/call **0.47**, call OI **68.1%**, expiration **2026-06-18** (**demain**). Inversion du pin risk : cours **−1.0% sous le max pain**. Consensus FMP **$10.8** (7 analysts). Premium consensus **+28.3%**. Quality hors périmètre (2.5/6). Divergence Yahoo/FMP persistante. XLC bottom 3. `recommandations_2026-06-16.json` : Score Global ajusté **44.2/100** — **SURVEILLER** (C:4.0 V:3.5 M:4.5). Volume significativement sous la moyenne (0.66×) — absence d'acheteurs. Pas de position.
+Snapshot 10h UTC : close **$13.98** (rebond +0.90% vs close 21h 16/06, gap baissier −5.67% vs previous close). RSI **40.53**, volume **123.7M** (0.98× moyenne 20j), ATR **$1.09**, MM50 **$12.99**. **Données options corrompues** dans `latest.json` — valeurs opérationnelles conservées : max pain **$14.00**, put/call **0.47**, call OI **68.1%**, expiration **2026-06-18** (**demain**). Cours quasi-aligné sur le max pain (−0.14%). Consensus FMP **$10.8** (7 analysts). Premium consensus **+28.7%**. Quality hors périmètre (2.5/6). Divergence Yahoo/FMP persistante. XLC bottom 3 (momentum score 0.0). `recommandations_2026-06-17.json` : scoring NOK indisponible — scores du 16/06 reportés (**44.2/100 — SURVEILLER**, C:4.0 V:3.5 M:4.5). Volume normalisé à la moyenne (0.98×) — invalidation du signal de désengagement du snapshot 21h. Pas de position.
 
 ---
 
@@ -78,4 +79,4 @@ Snapshot post-17h UTC : close **$13.855** (chute −6.51% vs snapshot 17h). RSI 
 
 | Date | Événement |
 |------|-----------|
-| 2026-07-23 | Earnings Q2 FY2026 (dans 45 jours) — Est EPS $0.06–$0.08, Rev $4.8B |
+| 2026-07-23 | Earnings Q2 FY2026 (dans 36 jours) — Est EPS $0.06–$0.08, Rev $4.8B |
