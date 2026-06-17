@@ -1,5 +1,14 @@
 # RKLB — Historique des Full Refreshes
 
+## 2026-06-17 — DRAFT_refresh Archivé (Faux Positif ATR_SPIKE)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10.45% (seuil 5.0%)
+
+**Conclusion :** FAUX POSITIF — DRAFT_refresh détecté à 17h UTC et archivé. Le trigger ATR_SPIKE 10.45% est un artefact de détection identique au snapshot 13h. L'ATR est stable ($11.40 vs $11.55 à 13h). Aucun nouvel événement structurant. Rebond technique +4.24% à $109.07 sur volume effondré 0.50×. RSI 30.62, MM50 $103.16. Thèse SURVEILLER confirmée (Score Global 47.0/100). Options cohérentes stables (Max Pain $115.00, Put/Call 0.58, Call OI 63.3%). Fichiers : `RKLB_2026-06-17_update_17h.md`. INDEX.md, CONTEXT.md mis à jour. DRAFT_refresh archivé (`_RKLB_2026-06-17_DRAFT_refresh.md`).
+
+---
+
 ## 2026-06-16 — DRAFT_refresh Archivé (Artéfact Pré-Ouverture)
 
 **Triggers :**
