@@ -3,17 +3,17 @@
 ## Thèse courante
 
 **Verdict :** ACHETER (Réduit)
-**Date dernière analyse :** 2026-06-17 (snapshot 13:00 UTC)
-**Cours actuel :** $44.76 (previous close $45.228, −1.03% session)
+**Date dernière analyse :** 2026-06-17 (snapshot 17:00 UTC)
+**Cours actuel :** $44.33 (previous close $44.76, −0.96% session)
 **Score Qualité :** 0/6 (Hors périmètre)
 **Score Opportunité :** 5.7/10
 **Score Momentum :** 5.5/10
 **Score Global :** 56.5/100 (61.5 ajusté)
-**Stop-loss :** $42.30
-**Take-profit :** $48.45
+**Stop-loss :** $41.85
+**Take-profit :** $48.05
 **Ratio R/R :** 1.5
 
-TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie sur des fondamentaux. **Verdict maintenu : ACHETER (Réduit)** — snapshot 13h UTC du 2026-06-17. Stabilité totale confirmée entre les snapshots 10h et 13h UTC : cours $44.76 inchangé, RSI 42.39 inchangé, volume 900 inchangé, ATR $1.23 inchangé. Le pipeline maintient le Score Global de 56.5/100 (61.5 ajusté) et le verdict **ACHETER (Réduit)**. SL/TP maintenus à $42.30/$48.45 (ratio 1.5). **Points de vigilance :** illiquidité structurelle maintenue au plus bas historique (volume 900, moyenne 20j à 1,690) ; RSI au voisinage de 40, risque de franchissement baissier ; earnings JOUR J (2026-06-17) persistant depuis 17+ jours — artefact calendrier FMP ; MM200 toujours indisponible. Si RSI repasse sous 40 → regradation ATTENDRE immédiate. Si volume remonte > 0.6× avg → maintien ACHETER (Réduit).
+TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie sur des fondamentaux. **Verdict maintenu : ACHETER (Réduit)** — snapshot 17h UTC du 2026-06-17. Mutation technique détectée vs 13h UTC : cours $44.76 → $44.33 (−0.96%), RSI 42.39 → 40.29 (−2.10 pts, à 0.29 pt de la zone 40), volume 900 → 2,347 (+161%, passage à 1.40× la moyenne 20j pour la première fois depuis le 2 juin), MM50 $43.6 → $43.71 (+$0.11, marge de sécurité rétrécie à +1.4%). Le pipeline maintient le Score Global de 56.5/100 (61.5 ajusté) et le verdict **ACHETER (Réduit)**. SL/TP révisés à $41.85/$48.05 (ratio 1.5) sur close $44.33 et ATR $1.24. **Points de vigilance accrus :** RSI au seuil critique 40, risque de franchissement baissier ; pic de volume sur séance baissière, possible réactivation vendeuse ; marge sur MM50 rétrécie à +1.4% ; illiquidité structurelle historique toujours présente ; earnings JOUR J (2026-06-17) persistant depuis 18+ jours — artefact calendrier FMP ; MM200 toujours indisponible. Si RSI repasse sous 40 → regradation ATTENDRE immédiate. Si volume reste > 1.0× avg sur prochaine baisse → confirmation pression vendeuse, sizing à très réduit.
 
 ---
 
@@ -68,6 +68,7 @@ TEST est un ticker de test / micro-cap sans données fondamentales exploitables 
 | TEST_2026-06-16_update_17h00.md | 2026-06-16 | Mise à jour 17:00 UTC — données techniques rétablies (close $44.836 +1.62%, ATR $1.25, MM50 $43.6), RSI 47.08 (+3.17 pts), volume effondré 1,000 (0.41× avg), Score Global 54.0→61.0 (+7.0 pts), Score Momentum 4.5→7.3 (+2.8 pts), verdict regradé **ATTENDRE → ACHETER (Réduit)**, SL/TP $42.34/$48.59 | **ACHETER (Réduit)** |
 | TEST_2026-06-17_update.md | 2026-06-17 | Mise à jour 10:00 UTC — cours −1.03% à $44.76, previous close révisé $45.228, RSI 42.39 (−4.69 pts), ATR $1.23, volume 900 (0.53× avg, moyenne 20j effondrée à 1,690), Score Global 61.0→56.5 (−4.5 pts), Score Momentum 7.3→5.5 (−1.8 pts), verdict **ACHETER (Réduit) maintenu avec vigilance**, SL/TP $42.30/$48.45 | **ACHETER (Réduit)** |
 | TEST_2026-06-17_update_13h00.md | 2026-06-17 | Mise à jour 13:00 UTC — stabilité totale confirmée vs snapshot 10h (cours $44.76 inchangé, RSI 42.39, ATR $1.23, volume 900, MM50 $43.6), scores et verdict **ACHETER (Réduit) maintenus**, SL/TP $42.30/$48.45 inchangés, earnings JOUR J non résolu | **ACHETER (Réduit)** |
+| **TEST_2026-06-17_update_17h00.md** | **2026-06-17** | **Mise à jour 17:00 UTC — mutation technique : cours −0.96% à $44.33, RSI 40.29 (−2.10 pts, à 0.29 pt de la zone 40), volume explosion +161% à 2,347 (1.40× avg), MM50 $43.71 (+$0.11, marge rétrécie à +1.4%), scores et verdict ACHETER (Réduit) maintenus, SL/TP révisés $41.85/$48.05, vigilance accrue** | **ACHETER (Réduit)** |
 
 ---
 
