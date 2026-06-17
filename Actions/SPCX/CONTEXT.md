@@ -50,16 +50,16 @@
 - **MM 50j :** —
 - **MM 200j :** —
 - **ATR 14j :** —
-- **Volume moy. 20j :** 365870233
+- **Volume moy. 20j :** 305625794
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-17
-- **Type :** update
-- **Fichier :** `SPCX_2026-06-17_update_13h.md`
-- **Conclusion :** Stabilité mécanique totale vs 10h (cours $201.80, volume 322.1M, market cap $2.66T inchangés). Résolution de l'anomalie validation report (`WARNING volume is 0` disparu). Mutation majeure options : max_pain 25.0 → 210.0 (alignement sur entité étrangère), put/call ratio 0.66, call OI 60.3%. Scoring inchangé ÉVITER 20.0/100. Thèse invalidée maintenue.
+- **Type :** preview
+- **Fichier :** `SPCX_2026-06-17_preview.md`
+- **Conclusion :** > **Date :** 2026-06-17
 
 ---
 

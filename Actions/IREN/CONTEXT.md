@@ -1,4 +1,4 @@
-# CONTEXT — IREN — Dernière mise à jour : 2026-06-17 (snapshot 13h UTC)
+# CONTEXT — IREN — Dernière mise à jour : 2026-06-17
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
-- **Horizon :** —
+- **Recommandation :** ATTENDRE
+- **Score global :** 56.8/100
+- **Prix cible :** $69.12
+- **Stop-loss :** $48.08
+- **Statut thèse :** confirmée
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -41,11 +41,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 39.96
-- **MM 50j :** 53.06
+- **RSI 14j :** 42.9
+- **MM 50j :** 53.52
 - **MM 200j :** —
-- **ATR 14j :** 5.81
-- **Volume moy. 20j :** 48522230
+- **ATR 14j :** 5.73
+- **Volume moy. 20j :** 47284400
 
 ---
 
@@ -53,14 +53,14 @@
 
 - **Date :** 2026-06-17
 - **Type :** update
-- **Fichier :** `IREN_2026-06-17_update_13h00.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — statut ATTENDRE maintenu, stabilité totale des données brutes, correction anomalie options (Max Pain $35.00, put/call 1.38, call OI 42.1%)
+- **Fichier :** `IREN_2026-06-17_update.md`
+- **Conclusion :** **Thèse : CONFIRMÉE — statut ATTENDRE maintenu, stabilisation post-session avec RSI sous zone 40
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 9.82% (seuil 5.0%) — **FAUX POSITIF** : données inchangées vs snapshot 10h UTC, DRAFT_refresh archivé
+- **ATR_SPIKE** (medium) — ATR relatif 9.62% (seuil 5.0%)
 
 ---
 

@@ -44,11 +44,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 46.34
-- **MM 50j :** 13.55
+- **RSI 14j :** 53.1
+- **MM 50j :** 13.53
 - **MM 200j :** —
-- **ATR 14j :** 0.51
-- **Volume moy. 20j :** 64145500
+- **ATR 14j :** 0.54
+- **Volume moy. 20j :** 63457001
 
 ---
 
@@ -57,13 +57,13 @@
 - **Date :** 2026-06-17
 - **Type :** update
 - **Fichier :** `NU_2026-06-17_13-00_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ACHETER (Réduit) (stabilité mécanique totale vs snapshot 10h $12.72 → $12.72 0%, anomalie options JSON résolue max pain $13.00 put/call 0.39 call OI 72.0%, RSI stable 46.34, score momentum stable 5.3/10, score global ajusté maintenu 60.0 zone ACHETER Réduit, gap MM50 −6.1%, fondamentaux intacts forward P/E 11.04× upside +37.5%, support $11.20 à +13.6%, SL/TP maintenus $11.70/$14.25, timing défavorable maintenu, expiration options 18/06 demain)
+- **Conclusion :** **Thèse : CONFIRMÉE — ACHETER (Réduit) (stabilité mécanique totale vs snapshot 10h $12
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **PRICE_GAP** (medium) — Gap +5.00% overnight (seuil ±5.0%)
 
 ---
 

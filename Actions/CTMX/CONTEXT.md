@@ -15,7 +15,7 @@
 **Statut :** These non etablie — profil speculatif biotech pre-profit, Filtre Qualite 2/6
 **Horizon :** 6–12 mois (dependant des catalyseurs cliniques)
 
-**Resume :** CTMX est une biotech en phase clinique avancee (plateforme Probody) avec des partenariats de qualite (AbbVie, BMS, Amgen). Le snapshot **13h UTC** du 2026-06-17 confirme la **stabilite mecanique totale** vs 10h UTC (donnees identiques). **Resolution de l'anomalie options JSON** : le JSON 13h UTC affiche desormais des valeurs propres (max pain $4.00, put/call 0.14, call OI 87.8%) sans necessite de correction manuelle. L'agent Recommandation maintient **SURVEILLER** avec **Score Global Ajuste 49.5/100** (sous seuil 50). La structure options reste tres haussiere avec expiration **demain** (2026-06-18). Le timing reste **Defavorable**.
+**Resume :** CTMX est une biotech en phase clinique avancee (plateforme Probody) avec des partenariats de qualite (AbbVie, BMS, Amgen). Le snapshot **13h UTC** du 2026-06-17 confirme la **stabilite mecanique totale** vs 10h UTC ($2.93 inchange, RSI 17.16 inchange, ATR $0.17 inchange, volume 2.82x inchange). **Resolution de l'anomalie options JSON** : le JSON 13h UTC affiche desormais des valeurs propres (max pain $4.00, put/call 0.14, call OI 87.8%) sans necessite de correction manuelle. L'agent Recommandation maintient **SURVEILLER** avec **Score Global Ajuste 49.5/100** (sous seuil 50). La structure options reste tres haussiere avec expiration **demain** (2026-06-18). Le timing reste **Defavorable**.
 
 ---
 
@@ -48,13 +48,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 17.16
-- **MM 50j :** 3.87
+- **RSI 14j :** 26.01
+- **MM 50j :** 3.85
 - **MM 200j :** —
 - **ATR 14j :** 0.17
-- **Volume moy. 20j :** 3746670
-- **Volume rel. :** 2.82x
-- **Options JSON :** Propre (max pain $4.00, put/call 0.14, call OI 87.8%)
+- **Volume moy. 20j :** 3486214
 
 ---
 
@@ -63,7 +61,7 @@
 - **Date :** 2026-06-17
 - **Type :** update
 - **Fichier :** `CTMX_2026-06-17_update.md`
-- **Conclusion :** Stabilite mecanique totale 10h→13h. Anomalie options JSON RESOLUE. Recommandation SURVEILLER (Score Global Ajuste 49.5/100) inchangée. Expiration options demain (2026-06-18).
+- **Conclusion :** > **Societe :** CytomX Therapeutics, Inc.
 
 ---
 

@@ -55,11 +55,11 @@ Le short interest reste élevé à **14.71%** — niveau critique qui crée un *
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 58.54
-- **MM 50j :** 16.89
+- **RSI 14j :** 58.51
+- **MM 50j :** 16.93
 - **MM 200j :** —
-- **ATR 14j :** 1.07
-- **Volume moy. 20j :** 75990395
+- **ATR 14j :** 1.04
+- **Volume moy. 20j :** 75150403
 
 ---
 
@@ -74,7 +74,7 @@ Le short interest reste élevé à **14.71%** — niveau critique qui crée un *
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 6.04% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 5.62% (seuil 5.0%)
 
 ---
 

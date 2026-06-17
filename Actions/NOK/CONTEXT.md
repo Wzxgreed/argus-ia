@@ -19,7 +19,7 @@ Snapshot 13h UTC : close **$13.98** (strictement inchangé vs 10h, gap baissier 
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 44.2/100 — SURVEILLER
+- **Score global :** —/10
 - **Prix cible :** $10.8
 - **Stop-loss :** $11.80
 - **Statut thèse :** validée
@@ -49,26 +49,26 @@ Snapshot 13h UTC : close **$13.98** (strictement inchangé vs 10h, gap baissier 
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 40.53
-- **MM 50j :** 12.99
+- **RSI 14j :** 42.66
+- **MM 50j :** 13.09
 - **MM 200j :** —
-- **ATR 14j :** 1.09
-- **Volume moy. 20j :** 126263065
+- **ATR 14j :** 1.08
+- **Volume moy. 20j :** 124987900
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-17
-- **Type :** update
-- **Fichier :** `NOK_2026-06-17_13h_update.md`
-- **Conclusion :** Stabilité totale prix/volume/technique vs snapshot 10h. Données options restaurées dans `latest.json` (max pain $14.00, put/call 0.46, call OI 68.3%). Pin risk quasi nul. Score Global 44.2 — SURVEILLER confirmé. Pas de position.
+- **Type :** full refresh
+- **Fichier :** `NOK_2026-06-17_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-17
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger actif au snapshot 13h UTC.
+- **ATR_SPIKE** (medium) — ATR relatif 7.70% (seuil 5.0%)
 
 ---
 

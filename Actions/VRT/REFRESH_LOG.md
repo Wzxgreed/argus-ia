@@ -1,5 +1,15 @@
 # VRT — Historique des Full Refreshes
 
+## 2026-06-17 — Full Refresh Triggered
+
+**Triggers :**
+- PRICE_GAP (medium) : Gap +7.49% overnight (seuil ±5.0%)
+- ATR_SPIKE (medium) : ATR relatif 5.90% (seuil 5.0%)
+
+**Conclusion :** Thèse **MODIFIÉE** — upgrade **ÉVITER → SURVEILLER** (+24.3 pts). Le cours a bondi de $299.60 à $322.03 (+7.49%), porté par un probable short-covering / gamma squeeze pré-expiration (2026-06-18). Le RSI remonte de 41.81 à 52.83 (retour au-dessus de 50). Le franchissement de la MM50 ($320.52, +0.47%) invalide partiellement la rupture baissière. Cependant, le volume en effondrement (2.58M, 0.45×) sur un gap de cette ampleur est atypique et non confirmatoire. Le score Momentum explose de 3.0 à **7.5/10** (+4.5 pts), propulsant le Score Global Ajusté à **48.8/100** (SURVEILLER). Les fondamentaux restent inchangés (Quality Compounder 6/6, ROIC 18.5%). La valorisation reste extrême (P/E 80.9, consensus PT 20.4% sous cours). Timing inversé Défavorable → **Favorable**. DRAFT archivé. Voir [VRT_2026-06-17_update.md](./VRT_2026-06-17_update.md).
+
+---
+
 ## 2026-06-08 — Full Refresh Triggered
 
 **Triggers :**
@@ -2199,6 +2209,26 @@
 
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.11% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-17 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +6.63% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 5.89% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-17 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +7.49% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 5.90% (seuil 5.0%)
 
 **Conclusion :** [À compléter après analyse LLM]
 

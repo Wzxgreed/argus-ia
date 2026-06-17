@@ -7,7 +7,7 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE — BIAIS HAUSSIER MAINTENU (downgrade de ACHETER Sizing Réduit le 10/06, puis ATTENDRE — SUSPENDUE le 16/06 10h, ATTENDRE — BIAIS HAUSSIER RÉACTIVÉ le 16/06 17h, maintenant ATTENDRE avec biais haussier consolidé et options restaurées)
+- **Recommandation :** ATTENDRE — BIAIS HAUSSIER MAINTENU (downgrade de ACHETER Sizing Réduit le 10/06, puis ATTENDRE — SUSPENDUE le 16/06 10h, ATTENDRE — BIAIS HAUSSIER RÉACTIVÉ le 16/06 17h, maintenant ATTENDRE avec biais haussier consolidé)
 **Prix cible :** Suspendu — attente cassure 52W high $16.50 ou réévaluation post-earnings
 **Stop-loss :** $14.39 (2×ATR $0.66)
 **Take-profit :** $17.69 (3×ATR $0.66)
@@ -21,9 +21,9 @@ La session du 15/06 s'est ouverte à **$15.54** (gap haussier vs close $14.98), 
 
 La session du 16/06 a ouvert à **$15.60** (gap haussier vs close $15.46), a atteint **$16.19** (test du 52W high $16.50 à 1.9%), et clôturé officiellement à **$15.46** (vrai close, vs intraday $15.87 à 13h ET). Le RSI était à **59.08** et l'ATR à **$0.67**.
 
-Au snapshot 10h UTC du 17/06, le cours a clôturé à **$15.71 (+1.62% vs previous close $15.46)** avec un open à $15.59, un high à **$16.19** (identique au high du 16/06 = double top), et un low à $15.57. Le RSI se détend à **57.36** (−1.72 pts). L'ATR est à **$0.66** et la MM50 à **$12.89** (cours +21.9% au-dessus). Le volume est massif à **134.47M (+29.6% vs moyenne 20j)** = bataille institutionnelle à la résistance 52W.
+Au snapshot 10h UTC du 17/06, le cours a clôturé à **$15.71 (+1.62% vs previous close $15.46)** avec un open à $15.59, un high à **$16.19** (identique au high du 16/06 = double top), et un low à $15.57. Le RSI se détend à **57.36** (−1.72 pts). L'ATR est à **$0.66** et la MM50 à **$12.89** (cours +21.9% au-dessus). Le volume est massif à **134.47M (+29.6% vs moyenne 20j)** = bataille institutionnelle à la résistance 52W. Les données options étaient **corrompues** (Max Pain $1.00 aberrant, Put/Call null).
 
-Au snapshot 13h UTC du 17/06, les données de cours, volumes et indicateurs techniques sont **strictement identiques** au snapshot 10h UTC. L'évolution matérielle est la **correction data quality des options** : Max Pain **$10.00** (restauré depuis $1.00 aberrant), Put/Call **1.69**, Call OI **37.2%**. Le risque gamma J−1 (expiration 2026-06-18) est désormais **évaluable et inopérant** (spot $15.71 >> Max Pain $10.00).
+Au snapshot 13h UTC du 17/06, les données de cours, volumes et indicateurs techniques sont **strictement identiques** au snapshot 10h UTC. L'évolution matérielle est la **correction data quality des options** : Max Pain **$10.00** (restauré depuis $1.00 aberrant), Put/Call **1.69**, Call OI **37.2%**. Le risque gamma J−1 (expiration 2026-06-18) est désormais **évaluable et inopérant** (spot $15.71 >> Max Pain $10.00). L'agent recommandation maintient **ATTENDRE** avec Score Opportunité **5.5/10** et Score Global ajusté **59.5/100** — à 0.5 pt du seuil ACHETER.
 
 L'agent recommandation maintient **ATTENDRE** avec un Score Opportunité de **5.5/10** (C:5.8 V:4.0 M:7.3) et un Score Global ajusté de **59.5/100** (+3.2 pts vs 16/06). Le timing reste **Favorable**. Le consensus FMP est **$16.51** (18 analystes). Le short interest est stable à **11.39%**. Le Forward P/E est à **7.05**. Le Filtre Qualité reste 0–1/6. XLI (Industriels) est dans le **top3 sector rotation**.
 
@@ -37,7 +37,7 @@ L'agent recommandation maintient **ATTENDRE** avec un Score Opportunité de **5.
 - Repli sous $15.00 (gap fill)
 - Repli sous $14.39 (SL cassé)
 
-**⚠️ Données partielles** — MM200 indisponible. Accounting risk indisponible. Quant report insuffisant. Social sentiment sans données Reddit. Transcripts NLP, insider trades détaillés, 13F complets, ETF flows, dark pool non disponibles. Options restaurées dans le snapshot 13h UTC (Max Pain $10.00, Put/Call 1.69, Call OI 37.2%).
+**⚠️ Données partielles** — MM200 indisponible. Accounting risk indisponible. Quant report insuffisant. Social sentiment sans données Reddit. Transcripts NLP, insider trades détaillés, 13F complets, ETF flows, dark pool non disponibles. Options corrompues dans ce snapshot.
 
 ---
 
@@ -72,20 +72,20 @@ L'agent recommandation maintient **ATTENDRE** avec un Score Opportunité de **5.
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 57.36
-- **MM 50j :** 12.89
+- **RSI 14j :** 61.49
+- **MM 50j :** 12.99
 - **MM 200j :** —
-- **ATR 14j :** 0.66
-- **Volume moy. 20j :** 103710185
+- **ATR 14j :** 0.64
+- **Volume moy. 20j :** 102476425
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-17
-- **Type :** update
+- **Type :** init
 - **Fichier :** `AAL_2026-06-17_update_13h00.md`
-- **Conclusion :** Correction data quality options — Max Pain $10.00, Put/Call 1.69, Call OI 37.2% restaurés. Risque gamma J−1 réévalué (inopérant). Thèse ATTENDRE — BIAIS HAUSSIER MAINTENU confirmée.
+- **Conclusion :** **Date :** 2026-06-17 (snapshot 13h UTC, pré-ouverture NY / correction data quality)
 
 ---
 

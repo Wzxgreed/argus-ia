@@ -13,7 +13,7 @@
 - **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** modifiée
+- **Statut thèse :** validée
 - **Horizon :** —
 
 ---
@@ -38,27 +38,26 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 46.1
-- **MM 50j :** 10.98
+- **RSI 14j :** 41.97
+- **MM 50j :** 10.91
 - **MM 200j :** —
-- **ATR 14j :** 0.86
-- **Volume moy. 20j :** 1360245
+- **ATR 14j :** 0.83
+- **Volume moy. 20j :** 1329594
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-17
-- **Type :** update
-- **Fichier :** `FUBO_2026-06-17_update_13h.md`
-- **Conclusion :** > **Ticker :** FUBO | **Secteur :** Communication Services / Broadcasting
+- **Type :** full refresh
+- **Fichier :** `FUBO_2026-06-17_DRAFT_refresh_ARCHIVED.md`
+- **Conclusion :** > **Date :** 2026-06-17
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap -6.45% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 9.27% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 8.89% (seuil 5.0%)
 
 ---
 
