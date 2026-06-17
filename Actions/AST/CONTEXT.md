@@ -1,4 +1,4 @@
-# CONTEXT — AST — Dernière mise à jour : 2026-06-17
+# CONTEXT — AST — Dernière mise à jour : 2026-06-17 (snapshot 13h UTC)
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -48,8 +48,8 @@
 
 - **Date :** 2026-06-17
 - **Type :** update
-- **Fichier :** `AST_2026-06-17_update.md`
-- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-17T10:00:01Z) | `data/recommandations_latest.json` | `data/validation_report.txt`
+- **Fichier :** `AST_2026-06-17_update_13h.md`
+- **Conclusion :** Stabilité mécanique TOTALE ASTS vs snapshot 10h (close $82.25, RSI 28.51, volume 0.73x inchangés). **Anomalie options JSON RÉSOLUE** (max pain $100.0, P/C 0.46, Call OI 68.3% — valeurs aberrantes du snapshot 10h corrigées). AST reste sans données (>45 snapshots). Thèse SURVEILLER maintenue (~43.0/100). Échéance options 06-18 dans 1j.
 
 ---
 
