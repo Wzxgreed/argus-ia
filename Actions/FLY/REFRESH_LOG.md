@@ -2371,3 +2371,21 @@
 **Conclusion :** Trigger ATR_SPIKE reconnu comme faux positif : l'ATR a en fait baissé de 5.13 à 4.62 entre 13h et 17h UTC (−9.9%). Le seuil relatif 14.31% était hérité du snapshot 13h et n'a pas été recalibré sur la baisse réelle de volatilité. DRAFT_refresh archivé sous `_FLY_2026-06-17_DRAFT_refresh.md`. Thèse ATTENDRE confirmée sans modification dans `FLY_2026-06-17_update_17h.md`.
 
 ---
+
+## 2026-06-17 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 14.89% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-17 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 14.90% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

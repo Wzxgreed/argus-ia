@@ -44,26 +44,26 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 53.1
-- **MM 50j :** 13.53
+- **RSI 14j :** 47.76
+- **MM 50j :** 13.52
 - **MM 200j :** —
-- **ATR 14j :** 0.54
-- **Volume moy. 20j :** 63457001
+- **ATR 14j :** 0.55
+- **Volume moy. 20j :** 65964062
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-17
-- **Type :** update
-- **Fichier :** `NU_2026-06-17_13-00_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ACHETER (Réduit) (stabilité mécanique totale vs snapshot 10h $12
+- **Type :** full refresh
+- **Fichier :** `NU_2026-06-17_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-17
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +5.00% overnight (seuil ±5.0%)
+- Aucun trigger récent.
 
 ---
 

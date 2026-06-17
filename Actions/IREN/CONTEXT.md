@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 56.8/100
-- **Prix cible :** $69.12
-- **Stop-loss :** $48.08
-- **Statut thèse :** confirmée
-- **Horizon :** 1–3 mois
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
+- **Horizon :** —
 
 ---
 
@@ -41,11 +41,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 44.32
-- **MM 50j :** 53.54
+- **RSI 14j :** 42.64
+- **MM 50j :** 53.51
 - **MM 200j :** —
-- **ATR 14j :** 5.73
-- **Volume moy. 20j :** 47428073
+- **ATR 14j :** 5.78
+- **Volume moy. 20j :** 48277937
 
 ---
 
@@ -53,14 +53,14 @@
 
 - **Date :** 2026-06-17
 - **Type :** update
-- **Fichier :** `IREN_2026-06-17_update_17h00.md`
-- **Conclusion :** **Thèse CONFIRMÉE — statut ATTENDRE maintenu. Stabilité mécanique totale vs 13h UTC. Cours $59.54 (+0.61%), volume effondré 33.1% de la moyenne 20j, RSI remonte à 44.32 (zone 40 levée). Options cohérentes et stables (Max Pain $35.00, put/call 1.38). Scores inchangés 5.2/10 et 56.8/100. SL/TP révisés $48.08/$76.73.
+- **Fichier :** `IREN_2026-06-17_update.md`
+- **Conclusion :** **Thèse : CONFIRMÉE — statut ATTENDRE maintenu, stabilisation post-session avec RSI sous zone 40
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 9.62% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 9.95% (seuil 5.0%)
 
 ---
 

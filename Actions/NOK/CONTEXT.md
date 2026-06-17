@@ -14,12 +14,12 @@
 **Upside/Downside :** −23.0% / −15.4% (basés sur cours $14.035)
 **Dernière mise à jour :** 2026-06-17 17:00 UTC
 
-Snapshot 17h UTC : close **$14.035** (correction previous close à $13.98, invalidation gap baissier). RSI **42.79**, volume **62.5M** (0.50× moyenne 20j), ATR **$1.08**, MM50 **$13.09**. Options stables : max pain **$14.00**, put/call **0.46**, call OI **68.3%**, expiration **2026-06-18** (demain). Cours +0.25% au-dessus du max pain. Consensus FMP **$10.8**. Premium **+30.0%**. Quality hors périmètre (2.5/6). Divergence Yahoo/FMP persistante. XLC bottom 3 (momentum score 0.0). `recommandations_2026-06-17.json` : Score Global ajusté **46.8/100 — SURVEILLER** (C:4.0 V:3.5 M:5.5). Pas de position.
+Snapshot 17h UTC : close **$14.035** (+$0.055 vs 13h, +0.39% vs previous close corrigé $13.98). **Correction majeure** du previous close ($14.82 → $13.98), invalidant le récit du gap baissier −5.67%. RSI **42.79** (+2.26 pts), volume **62.5M** (0.50× moyenne 20j, −49.5% vs 13h), ATR **$1.08**, MM50 **$13.09**. Options **stables** : max pain **$14.00**, put/call **0.46**, call OI **68.3%**, expiration **2026-06-18** (**demain**). Cours légèrement au-dessus du max pain (+0.25%). Consensus FMP **$10.8** (7 analysts). Premium consensus **+30.0%**. Quality hors périmètre (2.5/6). Divergence Yahoo/FMP persistante. XLC bottom 3 (momentum score 0.0). `recommandations_2026-06-17.json` : Score Global ajusté **46.8/100 — SURVEILLER** (C:4.0 V:3.5 M:5.5). Pas de position.
 
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 46.8/100
+- **Score global :** —/10
 - **Prix cible :** $10.8
 - **Stop-loss :** $11.88
 - **Statut thèse :** validée
@@ -35,40 +35,40 @@ Snapshot 17h UTC : close **$14.035** (correction previous close à $13.98, inval
 
 ## 🚨 Alertes actives
 
-- Baisse — $11.88 (SL 2×ATR) — 🟢 Active
+- Baisse — $12.03 (SL 2×ATR) — 🟢 Active
 - Hausse — $9.26 (consensus) — 🔴 Déjà au-dessus
-- Volume — >2× moy. 20j (>250M) — 🟢 Active
+- Volume — >2× moy. 20j (>249M) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- 2026-07-23 — Earnings Q2 FY2026 (dans 36 jours) — Est EPS $0.06–$0.08, Rev $4.8B
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 42.79
+- **RSI 14j :** 41.62
 - **MM 50j :** 13.09
 - **MM 200j :** —
 - **ATR 14j :** 1.08
-- **Volume moy. 20j :** 125259217
+- **Volume moy. 20j :** 126983041
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-17
-- **Type :** Update (17:00 UTC)
-- **Fichier :** `NOK_2026-06-17_17h_update.md`
-- **Conclusion :** Correction previous close ($13.98 vs $14.82), invalidation gap baissier. Cours $14.035 (+0.39%). RSI 42.79. Volume effondré 0.50×. Score Global 46.8 — SURVEILLER. SL/TP révisés $11.88/$17.28. Pas de position.
+- **Type :** full refresh
+- **Fichier :** `NOK_2026-06-17_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-17
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 7.70% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 7.81% (seuil 5.0%)
 
 ---
 
