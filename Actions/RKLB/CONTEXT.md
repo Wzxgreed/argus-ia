@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
+- **Recommandation :** ATTENDRE
+- **Score global :** 52.0/100
+- **Prix cible :** $90.83 (consensus FMP 18 analysts)
+- **Stop-loss :** $81.53
 - **Statut thèse :** modifiée
-- **Horizon :** —
+- **Horizon :** — (earnings Q2 2026 le 2026-08-06, 50 jours)
 
 ---
 
@@ -24,19 +24,28 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- RSI 26.80 — survente technique confirmée (<30)
+- Divergence consensus — spot +15.2% vs PT $90.83
+- Filtre Qualité 3/6 — hors périmètre institutionnel
+- Ratio R/R 1.5:1 — inférieur au seuil 2:1 institutionnel
+- [ANOMALIE OPTIONS JSON PERSISTANTE] Max Pain $35.00 / Put/Call null / Call OI null — données opérationnelles 21h UTC 15/06 conservées
+- [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $65.37 Mds vs FMP $37.02 Mds
+- Beta 2.499 — sensibilité systématique extrême
+- Proximité critique MM50 — spot $104.63 vs MM50 $102.31 = +2.3%
+- Forward P/E −14392 — valorisation extrême, non rentable
+- DRAFT_refresh 2026-06-17 validé (trigger ATR_SPIKE 11.04%)
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q2 2026** : 2026-08-06 (50 jours restants) — Est EPS −$0.06 à −$0.02, Rev $0.2B
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 26.8
+- **RSI 14j :** 26.80
 - **MM 50j :** 102.31
 - **MM 200j :** —
 - **ATR 14j :** 11.55
@@ -47,15 +56,15 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-17
-- **Type :** full refresh
-- **Fichier :** `RKLB_2026-06-17_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-17
+- **Type :** update
+- **Fichier :** `RKLB_2026-06-17_update.md`
+- **Conclusion :** Repli −4.23% à $104.63 de nature technique, RSI survente 26.80 confirmée, MM50 sous tension (+2.3%), volume normalisé 1.00×. Thèse modifiée ATTENDRE 52.0/100 avec alerte structurelle sur proximité MM50. Pas de nouvelle entrée recommandée.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 11.04% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 11.04% (seuil 5.0%) — validé par le repli du 16/06
 
 ---
 
