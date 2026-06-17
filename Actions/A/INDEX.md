@@ -2,21 +2,21 @@
 
 > **Secteur :** Healthcare — Diagnostics & Research
 > **Capitalisation :** $36.88B
-> **Cours actuel :** $129.735 (2026-06-16 · snapshot 17:00 UTC)
+> **Cours actuel :** $128.34 (2026-06-17 · snapshot 10:00 UTC)
 > **Consensus PT :** $163.29 (24 analystes, +7 le mois dernier)
 
 ---
 
 ## 🎯 Thèse courante
 
-**Recommandation :** ACHETER · Direction Long · **Standard avec prudence**
+**Recommandation :** ACHETER · Direction Long · **Standard**
 **Score Global :** 70.0/100 (ajusté **75.0**)
-**Prix cible desk :** $146.00 (TP ATR-based) / $163.29 (consensus analystes)
-**Stop-loss :** $118.90 (2×ATR)
+**Prix cible desk :** $144.54 (TP ATR-based) / $163.29 (consensus analystes)
+**Stop-loss :** $117.54 (2×ATR)
 **Horizon :** 1–3 mois
-**Statut thèse :** 🟡 **Modifiée** — snapshot 17h UTC du 16/06 : **[DONNÉES COMPLÈTES RÉTABLIES]** (close $129.735, ATR $5.42, MM50 $120.44). RSI **68.34** (zone neutre-haussière). **[UPGRADE MAJEUR]** : Score Global ajusté **75.0/100** (was 56.3) — passage **ATTENDRE → ACHETER Standard** sur données complètes et scoring agent revu à la hausse (C:6.8 V:7.5 M:6.5). **[ALERTE TECHNIQUE MAJEURE] Volume collapse récurrent** : 516K (0.19× moy. 20j), deuxième séance sous 0.20× en 3 jours. **[ANOMALIE OPTIONS JSON RÉSOLUE]** : max pain normalisé $130.0, put/call 1.52, call OI 39.6%. Pinning options J+2 (expiration 18/06, max pain $130). Sector rotation : Healthcare (XLV) #6 (momentum 3.55), hors top 3 — pas de vent de poupe sectoriel.
+**Statut thèse :** 🟢 **Confirmée avec prudence atténuée** — snapshot 10h UTC du 17/06 : **[VOLUME RECOVERY MAJEUR]** (2.35M, 0.85× moy. 20j) vs 516K (0.19×) au snapshot 17h 16/06 — avertissement volume levé. Cours **$128.34** (−1.72% vs previous close $130.59) en consolidation saine post-gap. RSI **64.85** (normalisation −3.49 pts vs 16/06). **[STABLE]** Score Global ajusté **75.0/100** inchangé — **ACHETER Standard maintenu** (C:6.8 V:7.5 M:6.5). **[ANOMALIE OPTIONS JSON RÉCURRENTÉE]** au snapshot 10h : valeurs aberrantes (max pain $190) — valeurs opérationnelles 16/06 conservées ($130.0 / 1.52 / 39.6%). Pinning options J+1 (expiration 18/06). Sector rotation : Healthcare (XLV) #6 (momentum 3.02), hors top 3.
 
-**Synthèse :** Agilent est en phase de consolidation post-gap avec les données techniques pleinement rétablies. Le **upgrade du scoring agent de 56.3 à 75.0** (ATTENDRE → ACHETER Standard) reflète la résolution des données partielles et la normalisation des options. Les fondamentaux restent solides : Filtre Qualité 5/6 maintenu, consensus $163.29 laissant un upside **+25.8%**. Le RSI **68.34** reste dans la zone neutre-haussière, au-dessus de la MM50 (+7.7%). Cependant, le **volume collapse récurrent** (516K, 0.19×) constitue un avertissement technique majeur non capturé par le scoring agent. Le desk recommande d'appliquer le scoring avec prudence : réduire le sizing ou attendre une normalisation du volume (>0.5× moy. 20j) avant exécution. Risques principaux : (1) pinning options J+2 autour de $130 avec close à $0.27, (2) volume quasi-nul invalidant toute conviction de breakout, (3) rotation sectorielle défavorable (XLV #6).
+**Synthèse :** Agilent est en phase de consolidation post-gap avec le volume institutionnel **rétabli** à 0.85× moy. 20j. Le scoring agent reste à **75.0/100 (ACHETER Standard)**. Le pullback de −1.72% à $128.34 est sain dans le range $126–$132. Le RSI normalisé à **64.85** offre un profil d'entrée amélioré vs hier (68.34). Les fondamentaux restent solides : Filtre Qualité 5/6 maintenu, consensus $163.29 laissant un upside **+27.2%**. Le forward P/E 19.43× est attractif pour un Quality Compounder. L'anomalie options JSON récurrente au snapshot 10h est traitée en conservant les valeurs validées du 16/06. Risques principaux : (1) pinning options J+1 autour de $130 (close à $1.66), (2) rotation sectorielle défavorable (XLV #6), (3) instabilité récurrente du flux options Yahoo.
 
 ---
 

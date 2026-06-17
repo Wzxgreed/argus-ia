@@ -11,8 +11,8 @@
 - **Score Global :** 68.0/100 (ajusté 60.0)
 - **Score Opportunité :** 6.8/10 (C:6.5 V:8.0 M:5.3)
 - **Prix Cible :** $17.49 (consensus FMP, 12 analysts)
-- **Stop-Loss :** $11.69 (ATR $0.51)
-- **Statut Thèse :** Score ajusté 60.0 — snapshot 17h UTC 16/06 : **rebond technique confirmé** en séance US (+2.21% à $12.705, cumul +4.2% sur 2 jours), **volume effondré 0.43×** (alerte conviction), RSI remontant 43.11 → **46.14**, score momentum révisé à la hausse 3.8 → **5.3/10**, score global ajusté bascule 56.2 → **60.0** (zone ACHETER Réduit atteinte), gap MM50 réduit −8.5% → **−6.2%**, structure options bullish stable (max pain $15.00, put/call 0.42, call OI 70.4%), fondamentaux intacts (forward P/E 11.03×, upside +37.6%), support $11.20 à +13.4%, SL/TP **$11.69/$14.23** révisés, timing défavorable maintenu
+- **Stop-Loss :** $11.70 (ATR $0.51)
+- **Statut Thèse :** Score ajusté 60.0 — snapshot 10h UTC 17/06 : **stabilité mécanique quasi-totale** vs close 16/06 ($12.705 → $12.72 +0.12%), **alerte volume effondré RÉSOLUE** (0.43× → **0.93×**), RSI stable **46.34**, score momentum stable **5.3/10**, score global ajusté maintenu **60.0** (zone ACHETER Réduit), gap MM50 **−6.1%**, structure options bullish conservée (max pain opérationnel $15.00, put/call 0.42, call OI 70.4%), fondamentaux intacts (forward P/E 11.04×, upside +37.5%), support $11.20 à +13.6%, SL/TP **$11.70/$14.25** révisés, timing défavorable maintenu, expiration options 18/06 aujourd'hui
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
@@ -32,13 +32,15 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- **Options expiration imminente** : 2026-06-18 (aujourd'hui), structure bullish conservée (max pain opérationnel $15.00)
+- **Anomalie options JSON** : snapshot 17/06 10h UTC — max pain $19.00 aberrant, put/call 0.00, call OI 100% (valeur opérationnelle conservée $15.00/0.42/70.4%)
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q2 2026 :** 13 août 2026 (Est EPS $0.18–$0.27, Rev $5.4B, 57 jours)
+- **Expiration Options :** 2026-06-18 (aujourd'hui)
 
 ---
 
@@ -54,10 +56,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-16
+- **Date :** 2026-06-17
 - **Type :** update
-- **Fichier :** `NU_2026-06-16_13-00_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité mécanique totale pré-ouverture US sur deux snapshots 10h et 13h, données brutes identiques au close 15/06 $12
+- **Fichier :** `NU_2026-06-17_update.md`
+- **Conclusion :** **Thèse : CONFIRMÉE — ACHETER (Réduit)** (stabilité mécanique quasi-totale vs close 16/06, alerte volume RÉSOLUE 0.43× → 0.93×, RSI stable 46.34, scores inchangés Global 68.0/Ajusté 60.0/Opportunité 6.8, fondamentaux intacts, gap MM50 −6.1%, SL/TP $11.70/$14.25, expiration options 18/06 aujourd'hui)
 
 ---
 
