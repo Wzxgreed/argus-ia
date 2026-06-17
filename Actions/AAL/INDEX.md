@@ -109,5 +109,5 @@ Voir [SUPPLY_CHAIN.md](./SUPPLY_CHAIN.md)
 
 - Analyse initiale : [AAL_2026-05-17_init.md](./AAL_2026-05-17_init.md)
 - Mise a jour 2026-05-18 : [AAL_2026-05-18_update.md](./AAL_2026-05-18_update.md)
-- Derniere mise a jour : [AAL_2026-06-15_update_21h00.md](./AAL_2026-06-15_update_21h00.md)
+- Derniere mise a jour : [AAL_2026-06-17_update_13h00.md](./AAL_2026-06-17_update_13h00.md)
 - Contexte court terme : [CONTEXT.md](./CONTEXT.md)
