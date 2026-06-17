@@ -53,6 +53,7 @@
 | 2026-06-15 | `A_2026-06-15_update.md` | Mise à jour 21h UTC (close officiel + post-close) | 🟢 **Thèse confirmée avec prudence atténuée** — micro-hausse complémentaire +0.26% à **$130.59** (+0.58% vs close veille). **[VOLUME RECOVERY MAJEURE]** : 1.53M (0.56×) vs 479K au snapshot 17h (+219%). Données techniques quasi-stables (RSI 69.11, ATR $5.38, MM50 $120.46). Anomalie options JSON stable et résolue. Score Global ajusté **75.0** inchangé — **ACHETER Standard maintenu**. SL/TP recalculés **$119.83/$146.73**. |
 | 2026-06-16 | `A_2026-06-16_update.md` | Mise à jour 10h UTC (pré-ouverture) | 🟡 **Thèse modifiée** — **[DONNÉES PARTIELLES]** : close NaN, ATR null, MM50 null. Previous_close **$129.84** (−0.57%). RSI stable 68.52. **[DOWNGRADE MAJEUR]** : Score Global ajusté **56.3** (−18.7 pts) — passage **ACHETER Standard → ATTENDRE**. **[ANOMALIE OPTIONS JSON RÉCURRENTÉE]** : max pain $190 aberrant — valeurs 15/06 conservées. |
 | 2026-06-16 | `A_2026-06-16_update.md` | Mise à jour 17h UTC (close officiel) | 🟡 **Thèse modifiée avec avertissement** — **[DONNÉES COMPLÈTES RÉTABLIES]** : close $129.735, ATR $5.42, MM50 $120.44. **[UPGRADE MAJEUR]** : Score Global ajusté **75.0** (+18.7 pts) — passage **ATTENDRE → ACHETER Standard**. **[ALERTE VOLUME COLLAPSE RÉCURRENT]** : 516K (0.19×), deuxième séance sous 0.20× en 3 jours. Anomalie options JSON résolue. |
+| 2026-06-17 | `A_2026-06-17_update.md` | Mise à jour 10h UTC | 🟢 **Thèse confirmée avec prudence atténuée** — **[VOLUME RECOVERY MAJEUR]** : 2.35M (0.85×) vs 516K (0.19×) au 16/06 — avertissement levé. Cours $128.34 (−1.72%), RSI normalisé 64.85. Score Global 75.0 inchangé (ACHETER Standard). Anomalie options JSON récurrente traitée. |
 
 ---
 
@@ -60,14 +61,14 @@
 
 - **2026-05-27** · Earnings Q2 2026 · Résultats publiés · Gap +17.3% confirmé · 🟢 Beat/guidance-up inféré
 - **2026-06-18** · Expiration options (max pain opérationnel $130) · **J+3**
-- **2026-08-26** · Earnings Q3 2026 · Est EPS $1.43–$1.51, Rev $1.8B · J+72
+- **2026-08-26** · Earnings Q3 2026 · Est EPS $1.43–$1.51, Rev $1.8B · J+70
 
 ---
 
 ## 🔗 Liens rapides
 
-- [Dernière mise à jour](A_2026-06-16_update.md)
-- [Mise à jour précédente](A_2026-06-15_update.md)
+- [Dernière mise à jour](A_2026-06-17_update.md)
+- [Mise à jour précédente](A_2026-06-16_update.md)
 - [Dernier preview earnings](A_2026-05-28_preview.md)
 - [CONTEXT.md](CONTEXT.md) — Mémoire court terme
 
