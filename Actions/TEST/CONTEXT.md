@@ -48,8 +48,8 @@
 
 - **Date :** 2026-06-17
 - **Type :** update
-- **Fichier :** `TEST_2026-06-17_update.md`
-- **Conclusion :** > **Date :** 2026-06-17
+- **Fichier :** `TEST_2026-06-17_update_13h00.md`
+- **Conclusion :** Stabilité totale confirmée entre 10h et 13h UTC — cours, RSI, ATR, volumes inchangés. Verdict ACHETER (Réduit) maintenu (Score Global 56.5/100, 61.5 ajusté). SL/TP $42.30/$48.45. Vigilance sur RSI voisin de 40 et illiquidité structurelle.
 
 ---
 

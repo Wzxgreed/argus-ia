@@ -3,7 +3,7 @@
 ## Thèse courante
 
 **Verdict :** ACHETER (Réduit)
-**Date dernière analyse :** 2026-06-17 (snapshot 10:00 UTC)
+**Date dernière analyse :** 2026-06-17 (snapshot 13:00 UTC)
 **Cours actuel :** $44.76 (previous close $45.228, −1.03% session)
 **Score Qualité :** 0/6 (Hors périmètre)
 **Score Opportunité :** 5.7/10
@@ -13,7 +13,7 @@
 **Take-profit :** $48.45
 **Ratio R/R :** 1.5
 
-TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie sur des fondamentaux. **Verdict maintenu : ACHETER (Réduit)** — snapshot 10h UTC du 2026-06-17. Le cours recule de −1.03% vs le previous close révisé à $45.228 (données Yahoo actualisées — le snapshot 17h du 16/06 sous-estimait le niveau de clôture officielle). Le RSI chute de 4.69 pts à 42.39, revenant au voisinage de la zone 40. Le pipeline recalcule un Score Global de 56.5/100 (61.5 ajusté), en retrait de 4.5 pts vs le snapshot précédent. Le verdict **ACHETER (Réduit)** est maintenu de justesse grâce au score ajusté (61.5) au-dessus du seuil de 60. SL/TP révisés à $42.30/$48.45 (ratio 1.5). **Points de vigilance :** illiquidité structurelle aggravée (volume 900, moyenne 20j effondrée à 1,690 — plus bas historique) ; RSI au voisinage de 40, risque de franchissement baissier ; earnings JOUR J (2026-06-17) persistant depuis 17+ jours — artefact calendrier FMP ; MM200 toujours indisponible. Si RSI repasse sous 40 → regradation ATTENDRE immédiate. Si volume remonte > 0.6× avg → maintien ACHETER (Réduit).
+TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie sur des fondamentaux. **Verdict maintenu : ACHETER (Réduit)** — snapshot 13h UTC du 2026-06-17. Stabilité totale confirmée entre les snapshots 10h et 13h UTC : cours $44.76 inchangé, RSI 42.39 inchangé, volume 900 inchangé, ATR $1.23 inchangé. Le pipeline maintient le Score Global de 56.5/100 (61.5 ajusté) et le verdict **ACHETER (Réduit)**. SL/TP maintenus à $42.30/$48.45 (ratio 1.5). **Points de vigilance :** illiquidité structurelle maintenue au plus bas historique (volume 900, moyenne 20j à 1,690) ; RSI au voisinage de 40, risque de franchissement baissier ; earnings JOUR J (2026-06-17) persistant depuis 17+ jours — artefact calendrier FMP ; MM200 toujours indisponible. Si RSI repasse sous 40 → regradation ATTENDRE immédiate. Si volume remonte > 0.6× avg → maintien ACHETER (Réduit).
 
 ---
 
@@ -67,6 +67,7 @@ TEST est un ticker de test / micro-cap sans données fondamentales exploitables 
 | TEST_2026-06-16_update.md | 2026-06-16 | Mise à jour 10:00 UTC — données techniques dégradées (close NaN, ATR null, MM50 null), RSI 43.91 (−2.42 pts), volume stable 1,294, Score Global 61.0→54.0 (−7.0 pts), Score Momentum 7.3→4.5 (−2.8 pts), verdict dégradé **ACHETER (Réduit) → ATTENDRE**, SL/TP suspendus | **ATTENDRE** |
 | TEST_2026-06-16_update_17h00.md | 2026-06-16 | Mise à jour 17:00 UTC — données techniques rétablies (close $44.836 +1.62%, ATR $1.25, MM50 $43.6), RSI 47.08 (+3.17 pts), volume effondré 1,000 (0.41× avg), Score Global 54.0→61.0 (+7.0 pts), Score Momentum 4.5→7.3 (+2.8 pts), verdict regradé **ATTENDRE → ACHETER (Réduit)**, SL/TP $42.34/$48.59 | **ACHETER (Réduit)** |
 | TEST_2026-06-17_update.md | 2026-06-17 | Mise à jour 10:00 UTC — cours −1.03% à $44.76, previous close révisé $45.228, RSI 42.39 (−4.69 pts), ATR $1.23, volume 900 (0.53× avg, moyenne 20j effondrée à 1,690), Score Global 61.0→56.5 (−4.5 pts), Score Momentum 7.3→5.5 (−1.8 pts), verdict **ACHETER (Réduit) maintenu avec vigilance**, SL/TP $42.30/$48.45 | **ACHETER (Réduit)** |
+| TEST_2026-06-17_update_13h00.md | 2026-06-17 | Mise à jour 13:00 UTC — stabilité totale confirmée vs snapshot 10h (cours $44.76 inchangé, RSI 42.39, ATR $1.23, volume 900, MM50 $43.6), scores et verdict **ACHETER (Réduit) maintenus**, SL/TP $42.30/$48.45 inchangés, earnings JOUR J non résolu | **ACHETER (Réduit)** |
 
 ---
 
