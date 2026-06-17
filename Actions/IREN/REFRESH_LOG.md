@@ -2343,7 +2343,11 @@ Snapshot 17:00 UTC — Rebond +7.68% ($54.35 → $58.525) sur volume faible (0.4
 **Triggers :**
 - atr_spike (medium) : ATR relatif 9.82% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** confirm — faux positif (trigger hérité du snapshot 10h UTC, données brutes strictement identiques)
+
+Le DRAFT_refresh a été déclenché automatiquement à 13:00 UTC par ATR_SPIKE sur le snapshot `data/latest.json` (fetched_at 2026-06-17T13:00:07 UTC). Les données brutes sont **strictement identiques** au snapshot 10h UTC du 2026-06-17 (cours $59.18, RSI 39.96, ATR $5.81, MM50 $53.06, volume 32.00 M, scores 5.2/10 et 56.8/100). Aucun nouvel événement majeur n'a eu lieu. **Correction anomalie options** : Max Pain rétabli à **$35.00** (vs $5.00 aberrant à 10h), put/call **1.38** (vs null), call OI **42.1%** (vs 0.0%). La structure options est désormais cohérente et fiable dans `latest.json`. Thèse confirmée : **ATTENDRE** (Score Global 56.8/100). DRAFT_refresh complété et archivé (`IREN_2026-06-17_DRAFT_refresh.md` → `_ARCHIVED_DRAFT_refresh_IREN_2026-06-17_13h00.md`). Fichier de référence : [IREN_2026-06-17_update_13h00.md](IREN_2026-06-17_update_13h00.md).
+
+> **Note :** Si cette entrée apparaît en duplicata, il s'agit de ré-exécutions du pipeline sur le même trigger.
 
 ---
 
@@ -2352,6 +2356,36 @@ Snapshot 17:00 UTC — Rebond +7.68% ($54.35 → $58.525) sur volume faible (0.4
 **Triggers :**
 - atr_spike (medium) : ATR relatif 9.82% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** confirm — faux positif (trigger hérité du snapshot 10h UTC, données brutes strictement identiques)
+
+Le DRAFT_refresh a été déclenché automatiquement à 13:00 UTC par ATR_SPIKE sur le snapshot `data/latest.json` (fetched_at 2026-06-17T13:00:07 UTC). Les données brutes sont **strictement identiques** au snapshot 10h UTC du 2026-06-17 (cours $59.18, RSI 39.96, ATR $5.81, MM50 $53.06, volume 32.00 M, scores 5.2/10 et 56.8/100). Aucun nouvel événement majeur n'a eu lieu. **Correction anomalie options** : Max Pain rétabli à **$35.00** (vs $5.00 aberrant à 10h), put/call **1.38** (vs null), call OI **42.1%** (vs 0.0%). La structure options est désormais cohérente et fiable dans `latest.json`. Thèse confirmée : **ATTENDRE** (Score Global 56.8/100). DRAFT_refresh complété et archivé (`IREN_2026-06-17_DRAFT_refresh.md` → `_ARCHIVED_DRAFT_refresh_IREN_2026-06-17_13h00.md`). Fichier de référence : [IREN_2026-06-17_update_13h00.md](IREN_2026-06-17_update_13h00.md).
+
+> **Note :** Si cette entrée apparaît en duplicata, il s'agit de ré-exécutions du pipeline sur le même trigger.
+
+---
+
+## 2026-06-17 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 9.82% (seuil 5.0%)
+
+**Conclusion :** confirm — faux positif (trigger hérité du snapshot 10h UTC, données brutes strictement identiques)
+
+Le DRAFT_refresh a été déclenché automatiquement à 13:00 UTC par ATR_SPIKE sur le snapshot `data/latest.json` (fetched_at 2026-06-17T13:00:07 UTC). Les données brutes sont **strictement identiques** au snapshot 10h UTC du 2026-06-17 (cours $59.18, RSI 39.96, ATR $5.81, MM50 $53.06, volume 32.00 M, scores 5.2/10 et 56.8/100). Aucun nouvel événement majeur n'a eu lieu. **Correction anomalie options** : Max Pain rétabli à **$35.00** (vs $5.00 aberrant à 10h), put/call **1.38** (vs null), call OI **42.1%** (vs 0.0%). La structure options est désormais cohérente et fiable dans `latest.json`. Thèse confirmée : **ATTENDRE** (Score Global 56.8/100). DRAFT_refresh complété et archivé (`IREN_2026-06-17_DRAFT_refresh.md` → `_ARCHIVED_DRAFT_refresh_IREN_2026-06-17_13h00.md`). Fichier de référence : [IREN_2026-06-17_update_13h00.md](IREN_2026-06-17_update_13h00.md).
+
+> **Note :** Si cette entrée apparaît en duplicata, il s'agit de ré-exécutions du pipeline sur le même trigger.
+
+---
+
+## 2026-06-17 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 9.82% (seuil 5.0%)
+
+**Conclusion :** confirm — faux positif (trigger hérité du snapshot 10h UTC, données brutes strictement identiques)
+
+Le DRAFT_refresh a été déclenché automatiquement à 13:00 UTC par ATR_SPIKE sur le snapshot `data/latest.json` (fetched_at 2026-06-17T13:00:07 UTC). Les données brutes sont **strictement identiques** au snapshot 10h UTC du 2026-06-17 (cours $59.18, RSI 39.96, ATR $5.81, MM50 $53.06, volume 32.00 M, scores 5.2/10 et 56.8/100). Aucun nouvel événement majeur n'a eu lieu. **Correction anomalie options** : Max Pain rétabli à **$35.00** (vs $5.00 aberrant à 10h), put/call **1.38** (vs null), call OI **42.1%** (vs 0.0%). La structure options est désormais cohérente et fiable dans `latest.json`. Thèse confirmée : **ATTENDRE** (Score Global 56.8/100). DRAFT_refresh complété et archivé (`IREN_2026-06-17_DRAFT_refresh.md` → `_ARCHIVED_DRAFT_refresh_IREN_2026-06-17_13h00.md`). Fichier de référence : [IREN_2026-06-17_update_13h00.md](IREN_2026-06-17_update_13h00.md).
+
+> **Note :** Si cette entrée apparaît en duplicata, il s'agit de ré-exécutions du pipeline sur le même trigger.
 
 ---

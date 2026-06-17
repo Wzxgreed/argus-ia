@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER (Réduit)
-- **Score global :** 5.7/10
-- **Prix cible :** $48.45
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
 - **Stop-loss :** $42.30
-- **Statut thèse :** Confirmée avec vigilance
-- **Horizon :** 1–3 mois
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -49,7 +49,7 @@
 - **Date :** 2026-06-17
 - **Type :** update
 - **Fichier :** `TEST_2026-06-17_update.md`
-- **Conclusion :** Thèse confirmée avec vigilance. Verdict ACHETER (Réduit) maintenu de justesse (Score Global Ajusté 61.5/100). Cours −1.03% à $44.76, RSI 42.39 (−4.69 pts), volume 900 sur moyenne 20j effondrée à 1,690. Risque de regradation ATTENDRE si RSI passe sous 40.
+- **Conclusion :** > **Date :** 2026-06-17
 
 ---
 

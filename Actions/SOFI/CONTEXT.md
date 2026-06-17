@@ -26,8 +26,8 @@ Le short interest reste élevé à **14.71%** — niveau critique qui crée un *
 
 ## Actualités ayant impacté ce dossier
 - **Score global :** —/10
-- **Prix cible :** $21.21
-- **Stop-loss :** $15.86
+- **Prix cible :** $20.92
+- **Stop-loss :** $15.57
 - **Statut thèse :** validée
 - **Horizon :** —
 
@@ -41,8 +41,8 @@ Le short interest reste élevé à **14.71%** — niveau critique qui crée un *
 
 ## 🚨 Alertes actives
 
-- Baisse — $15.57 (SL 2×ATR) — 🟢 Active
-- Hausse — $20.92 (prix cible) — 🟢 Active
+- Baisse — $13.78 (SL 2×ATR) — 🟢 Active
+- Hausse — $18.88 (prix cible) — 🟢 Active
 - Volume — >2× moy. 20j (>140.7M) — 🟢 Active
 
 ---
@@ -66,15 +66,15 @@ Le short interest reste élevé à **14.71%** — niveau critique qui crée un *
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-17
-- **Type :** update
-- **Fichier :** `SOFI_2026-06-17_update.md`
-- **Conclusion :** 🟢 THÈSE CONFIRMÉE — Consolidation saine post-gap sur volume confirmatoire 1.38×. Pullback −1.61% à $17.71, reclaim MM50 intact (+4.85%). Score Global 69.5/100 (ACHETER Réduit). DRAFT_refresh trigger ATR_SPIKE 6.04% archivé comme faux positif (ATR absolu stable $1.07).
+- **Type :** full refresh
+- **Fichier :** `SOFI_2026-06-17_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-17
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 6.04% (seuil 5.0%) — **Archivé faux positif (ATR absolu stable $1.07)**
+- **ATR_SPIKE** (medium) — ATR relatif 6.04% (seuil 5.0%)
 
 ---
 

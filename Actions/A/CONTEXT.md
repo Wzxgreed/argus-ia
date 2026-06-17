@@ -22,7 +22,7 @@
 - **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $117.54
-- **Statut thèse :** confirmée avec prudence atténuée
+- **Statut thèse :** validée
 - **Horizon :** 1–3 mois
 
 ---
@@ -60,7 +60,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-08-26** · Earnings Q3 2026 · Est EPS $1.43–$1.51, Rev $1.8B · J+70
+- Aucun événement à venir.
 
 ---
 
@@ -69,7 +69,7 @@
 - **RSI 14j :** 64.85
 - **MM 50j :** 120.73
 - **MM 200j :** —
-- **ATR 14j :** 5.40
+- **ATR 14j :** 5.4
 - **Volume moy. 20j :** 2754035
 
 ---
@@ -79,7 +79,7 @@
 - **Date :** 2026-06-17
 - **Type :** update
 - **Fichier :** `A_2026-06-17_update.md`
-- **Conclusion :** 🟢 Thèse confirmée avec prudence atténuée — volume recovery majeur (0.85×), RSI normalisé 64.85, Score Global 75.0 inchangé (ACHETER Standard).
+- **Conclusion :** > **Date :** 2026-06-17 · Snapshot 10:00 UTC (pré-ouverture US)
 
 ---
 

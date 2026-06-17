@@ -42,7 +42,7 @@ L'agent recommandation maintient **ATTENDRE** avec un Score Opportunité de **5.
 ## Actualites ayant impacte ce dossier
 - **Score global :** —/10
 - **Prix cible :** $—
-- **Stop-loss :** $14.53
+- **Stop-loss :** $14.39
 - **Statut thèse :** invalide
 - **Horizon :** —
 
@@ -56,16 +56,15 @@ L'agent recommandation maintient **ATTENDRE** avec un Score Opportunité de **5.
 
 ## 🚨 Alertes actives
 
-- Baisse — $14.39 (SL 2×ATR) — 🟢 Active
-- Hausse — $16.50 (cassure 52W high) — 🟡 Approche (high $16.19 ×2)
-- Volume — >2× moy. 20j (>207M) — 🟢 Active
+- Baisse — $11.41 (SL 2×ATR) — 🟢 Active
+- Hausse — $14.00 (prix cible) — 🔴 Déclenchée (27/05)
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- Earnings Q2 FY2026 — 2026-07-23 (36 jours)
-- Expiration options — 2026-06-18 (J−1)
+- Aucun événement à venir.
 
 ---
 
@@ -84,7 +83,7 @@ L'agent recommandation maintient **ATTENDRE** avec un Score Opportunité de **5.
 - **Date :** 2026-06-17
 - **Type :** update
 - **Fichier :** `AAL_2026-06-17_update.md`
-- **Conclusion :** ATTENDRE — BIAIS HAUSSIER MAINTENU. Consolidation saine au pied du 52W high ($16.50). Score Global 59.5/100 à 0.5 pt du seuil ACHETER. Double top $16.19 sur volume massif 134.47M = bataille institutionnelle. Options corrompues. SL $14.39, TP $17.69, R/R 1.5.
+- **Conclusion :** **Date :** 2026-06-17 (snapshot 10h UTC, pré-ouverture NY)
 
 ---
 

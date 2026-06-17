@@ -1,4 +1,4 @@
-# CONTEXT — SPCX — Dernière mise à jour : 2026-06-17 (snapshot 10h UTC)
+# CONTEXT — SPCX — Dernière mise à jour : 2026-06-17
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -57,9 +57,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-17
-- **Type :** update
-- **Fichier :** `SPCX_2026-06-17_update.md`
-- **Conclusion :** Thèse invalidée — maintien ÉVITER 20.0/100. Conflit de symbole FMP chronique : prix fictif $201.80, volume fictif 322M (+43.6%), nouvelle anomalie options max_pain 25.0, validation report incohérent (`volume is 0` vs 322M). Aucune donnée technique fiable. Non-actionnable.
+- **Type :** preview
+- **Fichier :** `SPCX_2026-06-17_preview.md`
+- **Conclusion :** > **Date :** 2026-06-17
 
 ---
 

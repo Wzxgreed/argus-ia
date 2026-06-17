@@ -32,15 +32,13 @@
 
 ## 🚨 Alertes actives
 
-- **Options expiration imminente** : 2026-06-18 (aujourd'hui), structure bullish conservée (max pain opérationnel $15.00)
-- **Anomalie options JSON** : snapshot 17/06 10h UTC — max pain $19.00 aberrant, put/call 0.00, call OI 100% (valeur opérationnelle conservée $15.00/0.42/70.4%)
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **Earnings Q2 2026 :** 13 août 2026 (Est EPS $0.18–$0.27, Rev $5.4B, 57 jours)
-- **Expiration Options :** 2026-06-18 (aujourd'hui)
+- Aucun événement à venir.
 
 ---
 
@@ -59,7 +57,7 @@
 - **Date :** 2026-06-17
 - **Type :** update
 - **Fichier :** `NU_2026-06-17_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ACHETER (Réduit)** (stabilité mécanique quasi-totale vs close 16/06, alerte volume RÉSOLUE 0.43× → 0.93×, RSI stable 46.34, scores inchangés Global 68.0/Ajusté 60.0/Opportunité 6.8, fondamentaux intacts, gap MM50 −6.1%, SL/TP $11.70/$14.25, expiration options 18/06 aujourd'hui)
+- **Conclusion :** **Thèse : CONFIRMÉE — ACHETER (Réduit) (stabilité mécanique quasi-totale vs close 16/06 $12
 
 ---
 

@@ -58,9 +58,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-17
-- **Type :** update
-- **Fichier :** `QTBS_2026-06-17_update.md`
-- **Conclusion :** Data blackout confirmé snapshot 10h UTC — ATTENDRE (54e snapshot consécutif sans mutation), placeholder earnings J0 glissant au 17/06, news Yahoo `[]`, aucun signal nouveau
+- **Type :** preview
+- **Fichier :** `QTBS_2026-06-17_preview.md`
+- **Conclusion :** > **Date :** 2026-06-17
 
 ---
 
