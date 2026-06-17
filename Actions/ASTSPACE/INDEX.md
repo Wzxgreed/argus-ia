@@ -1,37 +1,37 @@
 # INDEX — ASTSPACE (AST SpaceMobile)
 
-> Dernière mise à jour : 2026-06-17 (snapshot 10h UTC)
+> Dernière mise à jour : 2026-06-17 (snapshot 13h UTC)
 
 ---
 
 ## 🎯 Thèse courante
 
-**Thèse :** 🔴 **INVALIDÉE PAR L'ABSENCE DE DONNÉES — PROXY ASTS EN SURVEILLER 43,0/100, NOUVEAU GAP DOWN −6,08% À $82,25 VS CLOSE 16/06, RSI SURVENTE EXTRÊME 28,51 (STABLE), GAP VS MM50 CREUSÉ À −7,46%, ANOMALIE OPTIONS JSON RÉCURRENTE (MAX PAIN $18 ABERRANT + VALEURS NULL), 54+ SNAPSHOTS SANS DONNÉES FIABLES POUR ASTSPACE**
+**Thèse :** 🔴 **INVALIDÉE PAR L'ABSENCE DE DONNÉES — PROXY ASTS EN SURVEILLER 43,0/100, STABILITÉ MÉCANIQUE TOTALE À $82,25, RSI SURVENTE EXTRÊME 28,51 (STABLE), GAP VS MM50 −7,46% (STABLE), ANOMALIE OPTIONS JSON RÉSOLUE (MAX PAIN $100 + PUT/CALL 0,46 + CALL OI 68,3% RESTAURÉS), 55+ SNAPSHOTS SANS DONNÉES FIABLES POUR ASTSPACE**
 
-ASTSPACE n'est pas évaluable en l'état. Le ticker est probablement un **doublon erroné d'ASTS** (AST SpaceMobile — NASDAQ). Aucune donnée de marché n'est disponible depuis **54+ snapshots consécutifs** (erreur Yahoo : *No price history*). Le scoring agent ASTSPACE (55,2/100, ATTENDRE) est un placeholder algorithmique sans fondement. Toute exposition space / telecom satellite doit être redirigée vers **ASTS**, ticker validé avec données complètes.
+ASTSPACE n'est pas évaluable en l'état. Le ticker est probablement un **doublon erroné d'ASTS** (AST SpaceMobile — NASDAQ). Aucune donnée de marché n'est disponible depuis **55+ snapshots consécutifs** (erreur Yahoo : *No price history*). Le scoring agent ASTSPACE (55,2/100, ATTENDRE) est un placeholder algorithmique sans fondement. Toute exposition space / telecom satellite doit être redirigée vers **ASTS**, ticker validé avec données complètes.
 
-**Proxy ASTS (snapshot 10h UTC 17/06) :**
-- Cours **$82,25** — **gap down −6,08%** vs close officiel 16/06 ($87,57), stabilité mécanique −1,01% vs snapshot 17h 16/06 ($83,09)
+**Proxy ASTS (snapshot 13h UTC 17/06) :**
+- Cours **$82,25** — **stabilité mécanique totale** vs snapshot 10h (0%), gap down −6,08% vs close officiel 16/06 ($87,57)
 - Open $85,70 → high $89,60 → low $82,11 → close $82,25
-- RSI **28,51** — **survente extrême stable** (−0,22 pt vs snapshot 17h)
+- RSI **28,51** — **survente extrême stable**
 - ATR 14j **$12,40** — inchangé
-- MM 50j **$88,88** — cours **−7,46% sous** la moyenne (gap creusé)
-- Volume **20,04M** (0,733× moy. 27,32M) — **recovery +76,6%** vs snapshot 17h mais −16,3% vs snapshot 10h 16/06
+- MM 50j **$88,88** — cours **−7,46% sous** la moyenne (stable)
+- Volume **20,04M** (0,733× moy. 27,32M) — stable
 - Score agent ASTS **43,0/100 (SURVEILLER)** — inchangé
-- Divergence consensus **−13,0%** ($82,25 vs PT $94,54) — creusée
-- EV/Revenue **295,70×** — compression mécanique
-- P/B **11,81×** — compression mécanique
+- Divergence consensus **−13,0%** ($82,25 vs PT $94,54) — stable
+- EV/Revenue **295,70×** — stable
+- P/B **11,81×** — stable
 - Short Interest **18,39%** — stable
-- **Structure options indisponible** : anomalie JSON récurrente (max pain $18 aberrant, put/call et call OI null) — 4e occurrence depuis le 09/06
+- **Structure options restaurée** : max pain $100,00 (cohérent), put/call 0,46, call OI 68,3% — 5e occurrence d'anomalie depuis le 09/06 désormais résolue
 - Timing **Défavorable**
 - Signal sectoriel **NEUTRAL** (artefact NaN) — XLC bottom 3 persistant
 
 **Recommandation opérationnelle :**
 - Supprimer ASTSPACE de `config/watchlist.json` ou le marquer `excluded`
 - Ne pas engager de capital
-- Surveiller ASTS avec prudence accrue (SURVEILLER 43,0/100) — détérioration technique confirmée sur 3 sessions
+- Surveiller ASTS avec prudence accrue (SURVEILLER 43,0/100) — résolution options JSON = léger positif mécanique, mais tendance baissière technique inchangée
 - Supports immédiats : $82,11 (low 16/06 et 17/06) ; $82,41 (close 15/06 matin) ; $80,00 (psychologique) ; $75,00 (gap précédent)
-- Résistance immédiate : MM50 $88,88 ; $89,60 (high 16/06 et 17/06) ; $92,06 (close 10/06) ; $97,56 (previous close avant gap down) ; $100,00 (ancien max pain options)
+- Résistance immédiate : MM50 $88,88 ; $89,60 (high 16/06 et 17/06) ; $92,06 (close 10/06) ; $97,56 (previous close avant gap down) ; $100,00 (max pain options restauré)
 - Attendre un rebond au-dessus de MM50 $88,88 sur volume >1,0× avant toute révision positive
 - Si close < $82,11 sur volume maintenu (>0,5×) → révision vers ÉVITER probable
 - Si close < $80,00 (psychologique) sur volume >0,5× → ÉVITER confirmé
@@ -64,6 +64,7 @@ ASTSPACE n'est pas évaluable en l'état. Le ticker est probablement un **doublo
 | 2026-06-16 | `ASTSPACE_2026-06-16_update.md` | Update 10h UTC (snapshot) | **Stabilité mécanique proxy ASTS $87,57 (identique close 21h 15/06), volume 0,87× stable, RSI 36,00 inchangé, anomalie options JSON récurrente (max pain $28 aberrant — 3e occurrence, valeurs opérationnelles $100 / 0,44 / 69,7% conservées), score SURVEILLER 39,2/100 inchangé. Anomalie structurelle ASTSPACE inchangée (52+ snapshots sans données).** |
 | 2026-06-16 | `ASTSPACE_2026-06-16_17-00_update.md` | Update 17h UTC (snapshot) | **Rupture technique proxy ASTS −5,12% à $83,09 sur volume collapse 0,42× (−52,6%), RSI survente aggravée 28,73 (−7,27 pts), gap vs MM50 creusé −6,53% ($88,90), divergence consensus creusée −12,2%, score SURVEILLER 43,0/100 (+3,8 pts mécanique), structure options stable (max pain $100 / 0,45 / 69,0%). Anomalie structurelle ASTSPACE inchangée (53+ snapshots sans données).** |
 | 2026-06-17 | `ASTSPACE_2026-06-17_update.md` | Update 10h UTC (snapshot) | **Stabilité mécanique proxy ASTS $82,25 (−1,01% vs snapshot 17h 16/06, −6,08% vs close 16/06), volume recovery 0,733× (+76,6% vs 17h), RSI survente extrême 28,51 stable, gap vs MM50 creusé −7,46% ($88,88), score SURVEILLER 43,0/100 inchangé, anomalie options JSON récurrente (max pain $18 aberrant + put/call/call OI null — 4e occurrence). Anomalie structurelle ASTSPACE inchangée (54+ snapshots sans données).** |
+| 2026-06-17 | `ASTSPACE_2026-06-17_13-00_update.md` | Update 13h UTC (snapshot) | **Stabilité mécanique totale proxy ASTS $82,25 (0% vs 10h), RSI 28,51 stable, gap MM50 −7,46% stable, score SURVEILLER 43,0/100 inchangé, anomalie options JSON RÉSOLUE (max pain $100 cohérent, put/call 0,46, call OI 68,3% restaurés). Anomalie structurelle ASTSPACE inchangée (55+ snapshots sans données).** |
 
 ---
 
@@ -71,7 +72,7 @@ ASTSPACE n'est pas évaluable en l'état. Le ticker est probablement un **doublo
 
 - **Earnings ASTSPACE (FMP)** : 2026-06-17 — **placeholder glissant non résolu** (glissement >19j depuis le 29/05), résultats non intégrés au pipeline
 - **Earnings ASTS (yfinance)** : 2026-08-10 (J+54) — Est. EPS $−0,29 à $−0,17, Revenues $0,0B
-- **Options expiry ASTS** : 2026-06-18 (J+1) — données options indisponibles aujourd'hui (anomalie JSON), pinning gamma incertain
+- **Options expiry ASTS** : 2026-06-18 (J+1) — données options restaurées (max pain $100, put/call 0,46, call OI 68,3%), pinning gamma incertain
 
 ---
 
