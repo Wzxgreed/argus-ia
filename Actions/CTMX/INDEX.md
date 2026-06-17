@@ -17,7 +17,7 @@
 **Statut :** These non etablie — profil speculatif biotech pre-profit, Filtre Qualite 2/6
 **Horizon :** 6–12 mois (dependant des catalyseurs cliniques)
 
-**Resume :** CTMX est une biotech en phase clinique avancee (plateforme Probody) avec des partenariats de qualite (AbbVie, BMS, Amgen). Le snapshot 10h UTC du 2026-06-17 enregistre une **stabilite mecanique des prix** ($2.93 inchange, RSI 17.16 inchange, ATR $0.17 inchange) mais une **explosion de volume a 2.82x moyenne 20j** (10.57M) — revision post-close du 16/06 signalant une activite massive liee a l'expiration options d'aujourd'hui (2026-06-18). L'agent Recommandation a **degrade CTMX de ATTENDRE a SURVEILLER** avec **Score Global Ajuste 49.5/100** (−6.3 pts, sous le seuil institutionnel de 50). La degradation est mecanique (momentum 3.5/10, −0.5 pt sur break de support). La structure options reste tres haussiere (put/call 0.14, call OI 87.8%, max pain $4.00) avec expiration aujourd'hui. Le timing reste **Defavorable**.
+**Resume :** CTMX est une biotech en phase clinique avancee (plateforme Probody) avec des partenariats de qualite (AbbVie, BMS, Amgen). Le snapshot **13h UTC** du 2026-06-17 confirme la **stabilite mecanique totale** vs 10h UTC ($2.93 inchange, RSI 17.16 inchange, ATR $0.17 inchange, volume 2.82x inchange). **Resolution de l'anomalie options JSON** : le JSON 13h UTC affiche desormais des valeurs propres (max pain $4.00, put/call 0.14, call OI 87.8%) sans necessite de correction manuelle. L'agent Recommandation maintient **SURVEILLER** avec **Score Global Ajuste 49.5/100** (sous seuil 50). La structure options reste tres haussiere avec expiration **demain** (2026-06-18). Le timing reste **Defavorable**.
 
 ---
 
@@ -46,6 +46,7 @@
 | 2026-06-16 | `CTMX_2026-06-16_update.md` | Mise a jour snapshot **10:00 UTC** | **Stabilite mecanique totale** vs snapshot 21h UTC 15/06 (donnees identiques close 21h UTC 15/06), cours $3.04 inchange, RSI 25.93 inchange, ATR $0.18 inchange, MM50 $3.90 stable, volume 0.87x inchange, **anomalie options JSON 6e occurrence traitee** (max pain $6.00 aberrant → $4.00 conserve, put/call 0.0 aberrant → 0.14 conserve, call OI 100.0% aberrant → 87.8% conserve), **DRAFT_refresh classe faux positif** (ATR_SPIKE sans mutation), Score Global Ajuste **55.0/100** confirme sans modification, SL $2.68 / TP $3.58 maintenus, ATTENDRE confirme |
 | 2026-06-16 | `CTMX_2026-06-16_update.md` | Mise a jour snapshot **17:00 UTC** | **Distribution baissiere −3.62% a $2.93**, RSI **17.16** (−8.77 pts, survente extreme historique), volume **0.73x** (anemie revenant), MM50 **$3.87** (glissement baissier, ecart −24.3%), **support $2.98 casse** (low $2.865), options tres haussieres inchangées et **donnees propres** (pas d'anomalie JSON), Score Global Ajuste **55.8/100** (+0.8 pt), Score Opportunite **5.9/10** (+0.1 pt, C:6.5 V:6.5 M:4.0), Score Valorisation **6.5/10** (+0.5 pt), Score Momentum **4.0/10** (−0.5 pt), recommandation **ATTENDRE** inchangée, timing **Defavorable** renforce, SL/TP revises **$2.59/$3.44** |
 | 2026-06-17 | `CTMX_2026-06-17_update.md` | Mise a jour snapshot **10:00 UTC** | **Stabilite mecanique cours/RSI/ATR** ($2.93/17.16/$0.17 inchanges) mais **volume explosion 2.82x** (10.57M — revision post-close 16/06), anomalie options JSON **7e occurrence traitee** (valeurs operationnelles conservees), expiration **aujourd'hui** (2026-06-18), **recommandation degradee SURVEILLER** (depuis ATTENDRE), Score Global Ajuste **49.5/100** (−6.3 pts, sous seuil 50), Score Momentum **3.5/10** (−0.5 pt), DRAFT_refresh **faux positif confirme**, SL/TP conserves $2.59/$3.44 |
+| 2026-06-17 | `CTMX_2026-06-17_update.md` | Mise a jour snapshot **13:00 UTC** | **Stabilite mecanique totale** vs 10h UTC (donnees identiques), **anomalie options JSON RESOLUE** (7e occurrence closee — valeurs propres confirmées), structure options tres haussiere intacte, recommandation **SURVEILLER** et Score Global Ajuste **49.5/100** inchanges, SL/TP conserves $2.59/$3.44, expiration demain (2026-06-18) |
 
 ---
 
@@ -82,4 +83,4 @@ L'ancien dossier `Actions/CYTOMX/` contient l'historique des analyses sous le sy
 
 ---
 
-*Derniere mise a jour : 2026-06-17 10:00 UTC*
+*Derniere mise a jour : 2026-06-17 13:00 UTC*

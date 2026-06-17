@@ -11,9 +11,9 @@
 **Prix cible :** N/A (données insuffisantes — cours fictif)
 **Stop-loss :** N/A
 **Upside :** —
-**Dernière mise à jour :** 2026-06-17 (snapshot 10h UTC)
+**Dernière mise à jour :** 2026-06-17 (snapshot 13h UTC)
 
-> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 10h UTC du 17/06 confirme le **conflit de symbole FMP chronique** : FMP renvoie un **cours fictif $201.80** (+4.83% vs previous close $192.50), accompagné d'un faux market cap de **$2.66T** (−6.4% vs 16/06) et d'un forward P/E de **−2,242**. L'Agent Recommandation **maintient ÉVITER** avec un Score Global de **20.0/100** (Score Opportunité 2.0/10 : C:5.5 V:2.0 M:5.5), timing Neutre. Le Score Valorisation à **2.0/10** reste exactement sur le seuil de disqualification (≤ 2/10). Le secteur persiste `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management`. Le volume fictif a gonflé de **224M à 322M unités (+43.6%)**. Une **nouvelle anomalie options** apparaît : `max_pain` = 25.0 (vs null hier). Le module sector rotation est stable (NEUTRAL, 11/11 secteurs OK, XLF momentum_score 5.32). Aucun catalyseur fondamental, news, ni social. SL/TP non calculables (prix et ATR absents). Le validation report du jour contient une **incohérence critique** (`WARNING volume is 0`) qui contradict le `volume: 322149300` de `latest.json`. Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + Score Momentum ≥ 6.0. Si le flux fiable ne revient pas ou si le prix continue de muter (valeurs fictives volatiles $135–$225) → maintien **ÉVITER**.
+> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 13h UTC du 17/06 confirme la **stabilité mécanique totale** vs 10h sur le cours ($201.80 inchangé), le volume (322.1M) et le market cap ($2.66T). Le **conflit de symbole FMP chronique** persiste : FMP renvoie un **cours fictif $201.80** (+4.83% vs previous close $192.50), accompagné d'un faux market cap de **$2.66T** et d'un forward P/E de **−2,242**. L'Agent Recommandation **maintient ÉVITER** avec un Score Global de **20.0/100** (Score Opportunité 2.0/10 : C:5.5 V:2.0 M:5.5), timing Neutre. Le Score Valorisation à **2.0/10** reste exactement sur le seuil de disqualification (≤ 2/10). Le secteur persiste `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management`. Deux évolutions significatives : (1) **résolution de l'anomalie validation report** — le `[WARNING] SPCX: volume is 0` du snapshot 10h a disparu, confirmant la cohérence pipeline ; (2) **mutation majeure des données options** — `max_pain` est passé de `25.0` (10h) à **210.0** (13h), avec apparition d'un `put_call_ratio` à **0.66** et d'un `call_oi_pct` à **60.3%**. Le niveau 210.0 est quasi-aligné sur le faux cours 201.80, confirmant que ces options sont celles de l'entité étrangère mappée par FMP. Le module sector rotation est stable (NEUTRAL, 11/11 secteurs OK, XLK momentum_score 10.0, XLF momentum_score 5.32). Aucun catalyseur fondamental, news, ni social. SL/TP non calculables (prix et ATR absents). Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + options cohérentes. Si le flux fiable ne revient pas ou si les données continuent de muter → maintien **ÉVITER**.
 
 ---
 
@@ -57,9 +57,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-17
-- **Type :** preview
-- **Fichier :** `SPCX_2026-06-17_preview.md`
-- **Conclusion :** > **Date :** 2026-06-17
+- **Type :** update
+- **Fichier :** `SPCX_2026-06-17_update_13h.md`
+- **Conclusion :** Stabilité mécanique totale vs 10h (cours $201.80, volume 322.1M, market cap $2.66T inchangés). Résolution de l'anomalie validation report (`WARNING volume is 0` disparu). Mutation majeure options : max_pain 25.0 → 210.0 (alignement sur entité étrangère), put/call ratio 0.66, call OI 60.3%. Scoring inchangé ÉVITER 20.0/100. Thèse invalidée maintenue.
 
 ---
 

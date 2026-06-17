@@ -15,7 +15,7 @@
 **Statut :** These non etablie — profil speculatif biotech pre-profit, Filtre Qualite 2/6
 **Horizon :** 6–12 mois (dependant des catalyseurs cliniques)
 
-**Resume :** CTMX est une biotech en phase clinique avancee (plateforme Probody) avec des partenariats de qualite (AbbVie, BMS, Amgen). Le snapshot 10h UTC du 2026-06-17 enregistre une **stabilite mecanique des prix** ($2.93 inchange, RSI 17.16 inchange, ATR $0.17 inchange) mais une **explosion de volume a 2.82x moyenne 20j** (10.57M) — revision post-close du 16/06 signalant une activite massive liee a l'expiration options d'aujourd'hui (2026-06-18). L'agent Recommandation a **degrade CTMX de ATTENDRE a SURVEILLER** avec **Score Global Ajuste 49.5/100** (−6.3 pts, sous le seuil institutionnel de 50). La degradation est mecanique (momentum 3.5/10, −0.5 pt sur break de support). La structure options reste tres haussiere (put/call 0.14, call OI 87.8%, max pain $4.00) avec expiration aujourd'hui. Le timing reste **Defavorable**.
+**Resume :** CTMX est une biotech en phase clinique avancee (plateforme Probody) avec des partenariats de qualite (AbbVie, BMS, Amgen). Le snapshot **13h UTC** du 2026-06-17 confirme la **stabilite mecanique totale** vs 10h UTC (donnees identiques). **Resolution de l'anomalie options JSON** : le JSON 13h UTC affiche desormais des valeurs propres (max pain $4.00, put/call 0.14, call OI 87.8%) sans necessite de correction manuelle. L'agent Recommandation maintient **SURVEILLER** avec **Score Global Ajuste 49.5/100** (sous seuil 50). La structure options reste tres haussiere avec expiration **demain** (2026-06-18). Le timing reste **Defavorable**.
 
 ---
 
@@ -53,6 +53,8 @@
 - **MM 200j :** —
 - **ATR 14j :** 0.17
 - **Volume moy. 20j :** 3746670
+- **Volume rel. :** 2.82x
+- **Options JSON :** Propre (max pain $4.00, put/call 0.14, call OI 87.8%)
 
 ---
 
@@ -61,7 +63,7 @@
 - **Date :** 2026-06-17
 - **Type :** update
 - **Fichier :** `CTMX_2026-06-17_update.md`
-- **Conclusion :** > **Societe :** CytomX Therapeutics, Inc.
+- **Conclusion :** Stabilite mecanique totale 10h→13h. Anomalie options JSON RESOLUE. Recommandation SURVEILLER (Score Global Ajuste 49.5/100) inchangée. Expiration options demain (2026-06-18).
 
 ---
 
