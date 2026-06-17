@@ -9,19 +9,19 @@
 
 - **Recommandation :** SURVEILLER — Pas de position
 **Prix cible :** $10.8 (consensus 7 analystes FMP)
-**Stop-loss :** $11.80 (basé sur cours $13.98 et ATR $1.09 du snapshot actuel)
-**Take-profit :** $17.25 (basé sur cours $13.98 et ATR $1.09 du snapshot actuel)
-**Upside/Downside :** −22.7% / −15.6% (basés sur cours $13.98)
-**Dernière mise à jour :** 2026-06-17 13:00 UTC
+**Stop-loss :** $11.88 (basé sur cours $14.035 et ATR $1.08 du snapshot actuel)
+**Take-profit :** $17.28 (basé sur cours $14.035 et ATR $1.08 du snapshot actuel)
+**Upside/Downside :** −23.0% / −15.4% (basés sur cours $14.035)
+**Dernière mise à jour :** 2026-06-17 17:00 UTC
 
-Snapshot 13h UTC : close **$13.98** (strictement inchangé vs 10h, gap baissier −5.67% vs previous close). RSI **40.53**, volume **123.7M** (0.98× moyenne 20j), ATR **$1.09**, MM50 **$12.99**. **Données options restaurées et confirmées** dans `latest.json` : max pain **$14.00**, put/call **0.46**, call OI **68.3%**, expiration **2026-06-18** (**demain**). Cours quasi-aligné sur le max pain (−0.14%). Consensus FMP **$10.8** (7 analysts). Premium consensus **+28.7%**. Quality hors périmètre (2.5/6). Divergence Yahoo/FMP persistante. XLC bottom 3 (momentum score 0.0). `recommandations_2026-06-17.json` : Score Global ajusté **44.2/100 — SURVEILLER** (C:4.0 V:3.5 M:4.5). Volume normalisé à la moyenne (0.98×). Pas de position.
+Snapshot 17h UTC : close **$14.035** (correction previous close à $13.98, invalidation gap baissier). RSI **42.79**, volume **62.5M** (0.50× moyenne 20j), ATR **$1.08**, MM50 **$13.09**. Options stables : max pain **$14.00**, put/call **0.46**, call OI **68.3%**, expiration **2026-06-18** (demain). Cours +0.25% au-dessus du max pain. Consensus FMP **$10.8**. Premium **+30.0%**. Quality hors périmètre (2.5/6). Divergence Yahoo/FMP persistante. XLC bottom 3 (momentum score 0.0). `recommandations_2026-06-17.json` : Score Global ajusté **46.8/100 — SURVEILLER** (C:4.0 V:3.5 M:5.5). Pas de position.
 
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** —/10
+- **Score global :** 46.8/100
 - **Prix cible :** $10.8
-- **Stop-loss :** $11.80
+- **Stop-loss :** $11.88
 - **Statut thèse :** validée
 - **Horizon :** —
 

@@ -41,11 +41,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 42.9
-- **MM 50j :** 53.52
+- **RSI 14j :** 44.32
+- **MM 50j :** 53.54
 - **MM 200j :** —
 - **ATR 14j :** 5.73
-- **Volume moy. 20j :** 47284400
+- **Volume moy. 20j :** 47428073
 
 ---
 
@@ -53,8 +53,8 @@
 
 - **Date :** 2026-06-17
 - **Type :** update
-- **Fichier :** `IREN_2026-06-17_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — statut ATTENDRE maintenu, stabilisation post-session avec RSI sous zone 40
+- **Fichier :** `IREN_2026-06-17_update_17h00.md`
+- **Conclusion :** **Thèse CONFIRMÉE — statut ATTENDRE maintenu. Stabilité mécanique totale vs 13h UTC. Cours $59.54 (+0.61%), volume effondré 33.1% de la moyenne 20j, RSI remonte à 44.32 (zone 40 levée). Options cohérentes et stables (Max Pain $35.00, put/call 1.38). Scores inchangés 5.2/10 et 56.8/100. SL/TP révisés $48.08/$76.73.
 
 ---
 

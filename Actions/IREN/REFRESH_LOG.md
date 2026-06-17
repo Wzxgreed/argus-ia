@@ -2,6 +2,17 @@
 
 ---
 
+## 2026-06-17 — Full Refresh Déclenché (snapshot 17:00 UTC)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 9.62% (seuil 5.0%)
+
+**Conclusion :** confirm — faux positif (même trigger ATR_SPIKE hérité, ATR en léger repli)
+
+Le DRAFT_refresh a été déclenché automatiquement à 17:00 UTC par ATR_SPIKE sur le snapshot `data/latest.json` (fetched_at 2026-06-17T17:00:07 UTC). Les données brutes montrent une **stabilité mécanique totale** par rapport au snapshot 13h UTC : cours **$59.54** (+0.61%), ATR **$5.73** (−$0.08 vs 13h), MM50 **$53.54** (+$0.48), options stables (Max Pain $35.00, put/call 1.38, call OI 42.1%). Le seul mouvement significatif est l'**effondrement du volume** à **15.69 M** (33.1% de la moyenne 20j vs 65.9% à 13h), interprété comme un désengagement institutionnel ou une attitude d'attente pré-expiration du 18/06. Le RSI remonte à **44.32** (+4.36 pts), sortant de la zone 40. Les scores sont **strictement identiques** au snapshot 13h (Opportunité 5.2/10, Global 56.8/100). L'action reste **ATTENDRE**. Le trigger ATR_SPIKE est un **faux positif** (même configuration héritée du pipeline, ATR en repli). DRAFT_refresh complété et archivé (`IREN_2026-06-17_DRAFT_refresh.md` → `_ARCHIVED_DRAFT_refresh_IREN_2026-06-17_17h00.md`). Fichier de référence : [IREN_2026-06-17_update_17h00.md](IREN_2026-06-17_update_17h00.md).
+
+---
+
 ## 2026-06-16 — Full Refresh Déclenché (snapshot 17:00 UTC)
 
 **Triggers :**
