@@ -41,6 +41,7 @@
 | 2026-06-16 13:00 UTC | Mise a jour | [AAL_2026-06-16_update_13h00.md](./AAL_2026-06-16_update_13h00.md) | **Snapshot 13h UTC** : Données cours toujours NaN. Options RESTAURÉES (Max Pain $10.00, Put/Call 1.69). Consensus FMP $16.51 (18 analystes). Score agent 5.2/10, Global 51.5/100. These ATTENDRE — SUSPENDUE maintenue. Aucun changement matériel. |
 | 2026-06-16 17:00 UTC | Mise a jour | [AAL_2026-06-16_update_17h00.md](./AAL_2026-06-16_update_17h00.md) | **Snapshot 17h UTC — RÉCUPÉRATION COMPLÈTE + RALLY +5.92%** : Données cours restaurées (close $15.87, high $16.19). RSI 59.08 (+7.70 pts). ATR $0.67, MM50 $12.80. Volume normalisé 70.02M. Test du 52W high ($16.50) à 1.9%. Score agent 5.1/10, Global 56.3/100, Timing Favorable. These **ATTENDRE — BIAIS HAUSSIER RÉACTIVÉ**. SL $14.53, TP $17.88, R/R 1.5. Upgrade technique majeur mais Score Global < 60 = pas d'achat.
 | 2026-06-17 10:00 UTC | Mise a jour | [AAL_2026-06-17_update.md](./AAL_2026-06-17_update.md) | Consolidation au pied du 52W high, volume massif 134.47M (+29.6% vs moyenne) sur double top $16.19. RSI détente 57.36 (−1.72 pts). Options corrompues (Max Pain $1.00 aberrant). Score agent 5.5/10 (+0.4), Global 59.5/100 (+3.2) — à 0.5 pt du seuil ACHETER. XLI top3 sector rotation. These **ATTENDRE — BIAIS HAUSSIER MAINTENU**. SL $14.39, TP $17.69, R/R 1.5. |
+| 2026-06-17 13:00 UTC | Mise a jour | [AAL_2026-06-17_update_13h00.md](./AAL_2026-06-17_update_13h00.md) | Correction data quality options — Max Pain $10.00, Put/Call 1.69, Call OI 37.2% restaurés. Risque gamma J−1 réévalué (inopérant). Cours, volumes et scores inchangés vs snapshot 10h. These **ATTENDRE — BIAIS HAUSSIER MAINTENU** confirmée. |
 
 ---
 
@@ -52,7 +53,7 @@
 **Take-profit :** $17.69 (3×ATR $0.66)
 **Ratio R/R :** 1.5
 **Upside/Downside :** +5.1% (consensus $16.51) / −8.4% (SL)
-**Derniere mise a jour :** 2026-06-17 (snapshot 10h UTC)
+**Derniere mise a jour :** 2026-06-17 (snapshot 13h UTC, correction data quality options)
 
 American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). Le rally du 20–27/05 a matérialise **+24.3%** ($12.06 → $14.99). Après un repli post-rally jusqu'a **$13.50 (05/06)** et une période d'incertitude data quality (10/06), le cours avait rebondi de **$13.60 à $15.46 (+13.7%)** en 5 sessions. Le support **$14.00** avait été confirmé comme récupéré (3 closes consécutifs au-dessus).
 
@@ -60,7 +61,9 @@ La session du 15/06 s'est ouverte à **$15.54** (gap haussier vs close $14.98), 
 
 La session du 16/06 a ouvert à **$15.60** (gap haussier vs close $15.46), a atteint **$16.19** (test du 52W high $16.50 à 1.9%), et clôturé officiellement à **$15.46** (vrai close, vs intraday $15.87 à 13h ET). Le RSI était à **59.08** et l'ATR à **$0.67**.
 
-Au snapshot 10h UTC du 17/06, le cours a clôturé à **$15.71 (+1.62% vs previous close $15.46)** avec un open à $15.59, un high à **$16.19** (identique au high du 16/06 = double top), et un low à $15.57. Le RSI se détend à **57.36** (−1.72 pts). L'ATR est à **$0.66** et la MM50 à **$12.89** (cours +21.9% au-dessus). Le volume est massif à **134.47M (+29.6% vs moyenne 20j)** = bataille institutionnelle à la résistance 52W. Les données options sont **corrompues** (Max Pain $1.00 aberrant, Put/Call null).
+Au snapshot 10h UTC du 17/06, le cours a clôturé à **$15.71 (+1.62% vs previous close $15.46)** avec un open à $15.59, un high à **$16.19** (identique au high du 16/06 = double top), et un low à $15.57. Le RSI se détend à **57.36** (−1.72 pts). L'ATR est à **$0.66** et la MM50 à **$12.89** (cours +21.9% au-dessus). Le volume est massif à **134.47M (+29.6% vs moyenne 20j)** = bataille institutionnelle à la résistance 52W. Les données options étaient **corrompues** (Max Pain $1.00 aberrant, Put/Call null).
+
+Au snapshot 13h UTC du 17/06, les données de cours, volumes et indicateurs techniques sont **strictement identiques** au snapshot 10h UTC. L'évolution matérielle est la **correction data quality des options** : Max Pain **$10.00** (restauré depuis $1.00 aberrant), Put/Call **1.69**, Call OI **37.2%**. Le risque gamma J−1 (expiration 2026-06-18) est désormais **évaluable et inopérant** (spot $15.71 >> Max Pain $10.00). L'agent recommandation maintient **ATTENDRE** avec Score Opportunité **5.5/10** et Score Global ajusté **59.5/100** — à 0.5 pt du seuil ACHETER.
 
 L'agent recommandation maintient **ATTENDRE** avec un Score Opportunité de **5.5/10** (C:5.8 V:4.0 M:7.3) et un Score Global ajusté de **59.5/100** (+3.2 pts vs 16/06). Le timing reste **Favorable**. Le consensus FMP est **$16.51** (18 analystes). Le short interest est stable à **11.39%**. Le Forward P/E est à **7.05**. Le Filtre Qualité reste 0–1/6. XLI (Industriels) est dans le **top3 sector rotation**.
 
