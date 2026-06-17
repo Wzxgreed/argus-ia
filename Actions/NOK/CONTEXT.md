@@ -35,34 +35,34 @@ Snapshot 17h UTC : close **$14.035** (correction previous close à $13.98, inval
 
 ## 🚨 Alertes actives
 
-- Baisse — $12.03 (SL 2×ATR) — 🟢 Active
+- Baisse — $11.88 (SL 2×ATR) — 🟢 Active
 - Hausse — $9.26 (consensus) — 🔴 Déjà au-dessus
-- Volume — >2× moy. 20j (>249M) — 🟢 Active
+- Volume — >2× moy. 20j (>250M) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- 2026-07-23 — Earnings Q2 FY2026 (dans 36 jours) — Est EPS $0.06–$0.08, Rev $4.8B
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 42.66
+- **RSI 14j :** 42.79
 - **MM 50j :** 13.09
 - **MM 200j :** —
 - **ATR 14j :** 1.08
-- **Volume moy. 20j :** 124987900
+- **Volume moy. 20j :** 125259217
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-17
-- **Type :** full refresh
-- **Fichier :** `NOK_2026-06-17_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-17
+- **Type :** Update (17:00 UTC)
+- **Fichier :** `NOK_2026-06-17_17h_update.md`
+- **Conclusion :** Correction previous close ($13.98 vs $14.82), invalidation gap baissier. Cours $14.035 (+0.39%). RSI 42.79. Volume effondré 0.50×. Score Global 46.8 — SURVEILLER. SL/TP révisés $11.88/$17.28. Pas de position.
 
 ---
 

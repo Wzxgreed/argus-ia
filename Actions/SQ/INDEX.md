@@ -2,9 +2,9 @@
 
 ## Thèse courante
 
-**ATTENDRE** (2026-06-17 · snapshot 13h00 UTC) — Qualité opérationnelle classée **hors périmètre (3/6)** après injection FMP FY 2025-12-31 : bilan structurellement négatif (tangible asset value −$32.5B, current ratio −0.18), rentabilité GAAP inexistante (ROIC −12.8%, net margin ~0%), et dilution SBC à 5% des revenus. La valorisation reflète cette dégradation (EV/EBITDA 29.6x, P/S 2.24x) sans marge de sécurité. Le timing est bloqué par l'**anomalie de données critique** : **cours figé $83.46 sur ≥64 snapshots consécutifs couvrant ≥28 jours calendaires** (20/05 → 17/06), **source persistante `fmp_fallback`**, et **earnings placeholder glissant depuis ≥64 snapshots** (date initialement prévue 20/05, glissée au 17/06). Le consensus sell-side est **figé à $85.67** (3 analystes, upside +2.6%) — silence institutionnel complet depuis le 27/05. Le validation report du 17/06 affiche **5 [ERROR]** et `0 excluded by quality gate`.
+**ATTENDRE** (2026-06-17 · snapshot 17h00 UTC) — Qualité opérationnelle classée **hors périmètre (3/6)** après injection FMP FY 2025-12-31 : bilan structurellement négatif (tangible asset value −$32.5B, current ratio −0.18), rentabilité GAAP inexistante (ROIC −12.8%, net margin ~0%), et dilution SBC à 5% des revenus. La valorisation reflète cette dégradation (EV/EBITDA 29.6x, P/S 2.24x) sans marge de sécurité. Le timing est bloqué par l'**anomalie de données critique** : **cours figé $83.46 sur ≥65 snapshots consécutifs couvrant ≥28 jours calendaires** (20/05 → 17/06), **source persistante `fmp_fallback`**, et **earnings placeholder glissant depuis ≥65 snapshots** (date initialement prévue 20/05, glissée au 17/06). Le consensus sell-side est **figé à $85.67** (3 analystes, upside +2.6%) — silence institutionnel complet depuis le 27/05. Le validation report du 17/06 affiche **5 [ERROR]** et `0 excluded by quality gate`.
 
-**🟢 Pipeline stable ce 17/06 :** Les agents recommandation, social, fx, events et sector rotation ont produit des sorties stables. SQ est présent dans `recommandations_2026-06-17.json` à **54.0/100** (ATTENDRE) avec Score Opportunité **5.4/10** (C:6.5 V:5.0 M:4.5). Les données brutes SQ restent **totalement inchangées** entre les snapshots 10h00 et 13h00 17/06 (cours, volumes, fondamentaux, news — zero mutation). Le signal sectoriel reste **`NEUTRAL`** (`data:sector_rotation_2026-06-17.json`, XLK top3 mais crossovers vides). **Aucune mutation détectée entre les snapshots 10h00 et 13h00 17/06.**
+**🟢 Pipeline stable ce 17/06 :** Les agents recommandation, social, fx, events et sector rotation ont produit des sorties stables. SQ est présent dans `recommandations_2026-06-17.json` à **54.0/100** (ATTENDRE) avec Score Opportunité **5.4/10** (C:6.5 V:5.0 M:4.5). Les données brutes SQ restent **totalement inchangées** entre les snapshots 10h00, 13h00 et 17h00 17/06 (cours, volumes, fondamentaux, news — zero mutation sur les trois snapshots). Le signal sectoriel reste **`NEUTRAL`** (`data:sector_rotation_2026-06-17.json`, XLK top3 mais crossovers vides). **Aucune mutation détectée entre les snapshots 13h00 et 17h00 17/06.**
 
 ---
 
@@ -94,4 +94,4 @@
 
 ---
 
-*Dernière mise à jour : 2026-06-17 · Snapshot 13h00 UTC*
+*Dernière mise à jour : 2026-06-17 · Snapshot 17h00 UTC*
