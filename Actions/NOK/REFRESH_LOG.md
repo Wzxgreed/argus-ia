@@ -2635,3 +2635,23 @@ Même conclusion que l'entrée précédente. DRAFT_refresh archivé.
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-06-17 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -5.67% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 7.80% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-17 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -5.67% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 7.80% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
