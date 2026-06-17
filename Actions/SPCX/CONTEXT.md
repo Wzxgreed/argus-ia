@@ -1,4 +1,4 @@
-# CONTEXT — SPCX — Dernière mise à jour : 2026-06-17
+# CONTEXT — SPCX — Dernière mise à jour : 2026-06-17 (snapshot 10h UTC)
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -11,9 +11,9 @@
 **Prix cible :** N/A (données insuffisantes — cours fictif)
 **Stop-loss :** N/A
 **Upside :** —
-**Dernière mise à jour :** 2026-06-16 (snapshot 17h UTC)
+**Dernière mise à jour :** 2026-06-17 (snapshot 10h UTC)
 
-> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 17h UTC du 16/06 marque une **aggravation structurelle majeure** du conflit de symbole FMP : après deux snapshots de prix NaN (10h et 13h UTC), FMP a renvoyé un **nouveau cours fictif $216.94** (+34.78% vs previous close $160.95), accompagné d'un faux market cap de **$2.84T** et d'un forward P/E de **−2,412**. L'Agent Recommandation a **basculé en ÉVITER** avec un Score Global de **20.0/100** (Score Opportunité 2.0/10 : C:5.5 V:2.0 M:5.5), timing Neutre. Le Score Valorisation à **2.0/10** atteint exactement le seuil de disqualification (≤ 2/10). Le secteur reste `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management`. Le module sector rotation est rétabli (NEUTRAL, 11/11 secteurs OK, XLF momentum_score 6.68). Aucun catalyseur fondamental, news, options ni social. SL/TP non calculables (prix et ATR absents). Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + Score Momentum ≥ 6.0. Si le flux fiable ne revient pas ou si le prix continue de muter (NaN ↔ valeurs fictives) → maintien **ÉVITER**.
+> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 10h UTC du 17/06 confirme le **conflit de symbole FMP chronique** : FMP renvoie un **cours fictif $201.80** (+4.83% vs previous close $192.50), accompagné d'un faux market cap de **$2.66T** (−6.4% vs 16/06) et d'un forward P/E de **−2,242**. L'Agent Recommandation **maintient ÉVITER** avec un Score Global de **20.0/100** (Score Opportunité 2.0/10 : C:5.5 V:2.0 M:5.5), timing Neutre. Le Score Valorisation à **2.0/10** reste exactement sur le seuil de disqualification (≤ 2/10). Le secteur persiste `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management`. Le volume fictif a gonflé de **224M à 322M unités (+43.6%)**. Une **nouvelle anomalie options** apparaît : `max_pain` = 25.0 (vs null hier). Le module sector rotation est stable (NEUTRAL, 11/11 secteurs OK, XLF momentum_score 5.32). Aucun catalyseur fondamental, news, ni social. SL/TP non calculables (prix et ATR absents). Le validation report du jour contient une **incohérence critique** (`WARNING volume is 0`) qui contradict le `volume: 322149300` de `latest.json`. Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + Score Momentum ≥ 6.0. Si le flux fiable ne revient pas ou si le prix continue de muter (valeurs fictives volatiles $135–$225) → maintien **ÉVITER**.
 
 ---
 
@@ -50,16 +50,16 @@
 - **MM 50j :** —
 - **MM 200j :** —
 - **ATR 14j :** —
-- **Volume moy. 20j :** 258487133
+- **Volume moy. 20j :** 365870233
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-17
-- **Type :** preview
-- **Fichier :** `SPCX_2026-06-17_preview.md`
-- **Conclusion :** > **Date :** 2026-06-17
+- **Type :** update
+- **Fichier :** `SPCX_2026-06-17_update.md`
+- **Conclusion :** Thèse invalidée — maintien ÉVITER 20.0/100. Conflit de symbole FMP chronique : prix fictif $201.80, volume fictif 322M (+43.6%), nouvelle anomalie options max_pain 25.0, validation report incohérent (`volume is 0` vs 322M). Aucune donnée technique fiable. Non-actionnable.
 
 ---
 

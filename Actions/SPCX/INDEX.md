@@ -70,6 +70,7 @@
 | 2026-06-08 | Conflit de symbole FMP détecté : cours $135.00, OHLC $0.00, sector Aerospace | 🔴 Élevé | [SPCX_2026-06-08_update.md](./SPCX_2026-06-08_update.md) |
 | 2026-06-08 | Snapshot 17h UTC — stabilité totale, quatorze snapshots sans données fiables | 🔴 Élevé | [SPCX_2026-06-08_update_17h.md](./SPCX_2026-06-08_update_17h.md) |
 | 2026-06-16 | Snapshot 17h UTC — reclassement mécanique SURVEILLER → ÉVITER, Score Global 20.0, faux prix $216.94 | 🔴 Élevé | [SPCX_2026-06-16_update_17h.md](./SPCX_2026-06-16_update_17h.md) |
+| 2026-06-17 | Snapshot 10h UTC — maintien ÉVITER 20.0/100, conflit de symbole chronique, faux prix $201.80, volume fictif +43.6% | 🔴 Élevé | [SPCX_2026-06-17_update.md](./SPCX_2026-06-17_update.md) |
 | 2026-06-09 | Snapshot 10h UTC — reclassement mécanique ATTENDRE → SURVEILLER, Score Global 47.2 | 🔴 Élevé | [SPCX_2026-06-09_update.md](./SPCX_2026-06-09_update.md) |
 
 ---
