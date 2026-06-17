@@ -1,7 +1,7 @@
 # PLTR
 
 ## These courante
-| 2026-06-16 | [PLTR_2026-06-16_17-00_update.md](PLTR_2026-06-16_17-00_update.md) | Snapshot 17h UTC (post-seance) — **deterioration technique nette** vs snapshot 13h UTC : cours $131.02 (-2.74%), RSI 49.00 (+0.26 pt), volume collapse 16.96M (0.45x), ecart MM50 creuse a -5.75% (vs -3.3%), consensus FMP revise a la hausse $187.47 (34 analystes), options stables ($140.00/0.68/59.5%), Score Opportunite 5.4/10 (-0.2), Score Global 54.3/100 (-1.2), Score Global ajuste 46.3/100 (-1.2), timing DEFAVORABLE, these SURVEILLER **confirmee avec nuance baissiere accrue** | SURVEILLER — Score Opp. 5.4/10, cours $131.02, RSI 49.00, volume 16.96M (0.45x, collapse), cassure MM50 creusee a -5.75%, consensus FMP $187.47 (+43.1% upside), these confirmee avec nuance baissiere accrue |
+| 2026-06-17 | [PLTR_2026-06-17_update.md](PLTR_2026-06-17_update.md) | Snapshot 10h UTC — **amelioration technique nette** vs close 16/06 : cours $133.25 (+1.70%), RSI 50.51 (+1.51 pt, franchissement zone 50), volume recovery 30.31M (0.78x, +78.7% vs collapse 16/06), ecart MM50 reduit a -4.19% (vs -5.75%), consensus FMP inchangé $187.47 (34 analystes), options anomalie JSON detectee et traitee (valeurs operationnelles conservees $140.00/0.68/59.5%), Score Opportunite calcule 5.6/10 (+0.2), Score Global calcule 56.0/100 (+1.7), Score Global ajuste calcule 48.0/100 (+1.7), timing DEFAVORABLE, these SURVEILLER **confirmee avec nuance technique amelioree** | SURVEILLER — Score Opp. 5.6/10, cours $133.25, RSI 50.51, volume 30.31M (0.78x, recovery), ecart MM50 reduit a -4.19%, these confirmee avec nuance technique amelioree |
 
 ## Historique
 | Date | Fichier | Type | Conclusion |

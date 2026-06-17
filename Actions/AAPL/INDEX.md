@@ -2,7 +2,7 @@
 
 ## Thèse courante
 
-Apple est une entreprise de qualité institutionnelle exceptionnelle (Filtre Qualité 6/6), dotée d'un fossé structurel inégalé et d'une transition services/IA porteuse. Le snapshot 2026-06-16 17:00 UTC (post-session US) confirme un **rebond technique de +2.85%** lors de la séance du 16/06, portant le close à **$299.42** et invalidant le close dégradé du 15/06 ($291.13). Le RSI **sort de la survente** (**34.49 → 43.01**, +8.52 pts). Les données techniques sont **entièrement restaurées** : ATR **$7.91**, MM50 **$286.24**, max pain **$300.00** (anomalie JSON résolue). **Consensus FMP inchangé** à **$295.96** (61 analystes), upside **−1.2%** vs $299.42 (micro-signal négatif : cours au-dessus du consensus). Short Interest stable à **1.06%**. Scores agents officiels : Score Opportunité **5.3/10**, Score Global **53.0/100**, Score Global ajusté **58.0/100**, recommandation **ATTENDRE**, timing **Favorable**. Verdict : **ATTENDRE avec nuance mixte** — le rebond est validé en prix et RSI mais invalidé en volume (effondrement à **0.35×** = 16.89M vs 48.59M moyenne). La structure options s'est légèrement détériorée (P/C 0.48 → 0.64, Call OI 67.6% → 61.1%). Le max pain $300.00 à +0.19% du spot implique un **pinning gamma probable** à l'échéance du 17/06 (demain). Surveillance du support **$286.24** (MM50), du SL **$283.60** (2×ATR), de la résistance **$317.40** (52W high) et du consensus **$295.96** (micro-support inversé).
+Apple est une entreprise de qualité institutionnelle exceptionnelle (Filtre Qualité 6/6), dotée d'un fossé structurel inégalé et d'une transition services/IA porteuse. Le snapshot 2026-06-17 10:00 UTC (pré-ouverture US) révèle une **révision de close Yahoo** du 16/06 de **$299.42 → $296.42** (−1.0%), atténuant partiellement le rebond technique précédent. Le cours actuel est **$299.24** (+0.95% vs revised close). Le RSI est légèrement détendu à **40.49** (hors survente). Le volume se normalise à **0.79×** (39.83M vs 50.30M moyenne), invalidant l'effondrement extrême du 16/06 (0.35×). Les données techniques restent intactes : ATR **$7.88**, MM50 **$286.99** (support dynamique en hausse). **Consensus FMP inchangé** à **$295.96** (61 analystes), upside **−1.1%** vs $299.24 (micro-signal négatif persistant). Short Interest stable à **1.06%**. Scores agents officiels : Score Opportunité **5.2/10**, Score Global **52.3/100**, Score Global ajusté **57.3/100**, recommandation **ATTENDRE**, timing **Favorable**. Verdict : **ATTENDRE avec nuance mixte** — volume récupéré (signal positif) mais révision de close négative et anomalie options JSON persistante (max pain $230.00 aberrant, P/C et Call OI null). Surveillance du support **$286.99** (MM50), du SL **$283.48** (2×ATR), de la résistance **$317.40** (52W high), du max pain opérationnel **$300.00** (expiration 2026-06-17) et du consensus **$295.96**.
 
 ## Historique
 | Date | Fichier | Type |
@@ -39,17 +39,18 @@ Apple est une entreprise de qualité institutionnelle exceptionnelle (Filtre Qua
 | 2026-06-15 | [AAPL_2026-06-15_update_21h.md](AAPL_2026-06-15_update_21h.md) | Mise à jour snapshot final 21:00 UTC (close officielle) — **correction volumétrique massive** (18.58M/0.38× → 45.30M/0.91×), rebond technique validé, cours $296.42 (légère consolidation vs 17h), RSI 40.19 stable, structure options haussière intacte post-expiration JOUR J, scores inchangés ATTENDRE 58.0/100 Favorable. Thèse **confirmée avec nuance nettement améliorée** |
 | 2026-06-16 | [AAPL_2026-06-16_update.md](AAPL_2026-06-16_update.md) | Mise à jour snapshot 10:00 UTC (pré-ouverture) — **divergence majeure close** : Yahoo actualise close 15/06 à $291.13 (vs $296.42 mid-session), RSI **retour survente 34.49**, données techniques partielles (ATR/MM50 null), anomalie options JSON ($230.00 aberrant), upside consensus redevient +1.7%. Thèse **confirmée avec nuance technique dégradée** |
 | 2026-06-16 | [AAPL_2026-06-16_update_17h.md](AAPL_2026-06-16_update_17h.md) | Mise à jour snapshot 17:00 UTC (post-session) — **rebond +2.85%** validé à $299.42, RSI **sortie survente 43.01** (+8.52 pts), données techniques **restaurées** (ATR $7.91, MM50 $286.24), options **normalisées** ($300.00 / 0.64 / 61.1%), volume **effondré 0.35×** (fragilité), upside **−1.2%** (consensus sous cours). Scores inchangés ATTENDRE 58.0/100 Favorable. Thèse **confirmée avec nuance mixte** |
+| 2026-06-17 | [AAPL_2026-06-17_update.md](AAPL_2026-06-17_update.md) | Mise à jour snapshot 10:00 UTC — **révision close 16/06** $299.42 → **$296.42** (−1.0%), cours $299.24 (+0.95%), RSI **40.49** (hors survente), volume **récupéré 0.79×** (invalidation effondrement), MM50 **$286.99** (+$0.75), anomalie options **persistante** ($230.00 aberrant), scores **ATTENDRE 57.3/100** Favorable (−0.7 pt). Thèse **confirmée avec nuance mixte** |
 
 ## Agenda
 - **Prochain earnings :** 2026-07-30 (45 jours) — Est EPS $1.83–$1.99, Rev $109.0B
 
 ## Alertes actives
-- 🟡 **Alerte technique :** RSI 43.01 sorti de survente — confirmation du rebond si RSI franchit 50 avec volume > 0.8×
-- 🔴 **Alerte volume :** Volume effondré 16.89M (0.35×) — rebond de +2.85% sans conviction institutionnelle = fragilité
-- 🟡 **Alerte options gamma :** Max pain $300.00 (vs spot $299.42 = +0.19%), expiration 2026-06-17 (demain) — pinning gamma très probable
-- 🔴 **Alerte valorisation :** Cours $299.42 > Consensus FMP $295.96 (−1.2% upside) — cours au-dessus de la cible moyenne
-- 🟡 **Alerte technique :** Support MM50 $286.24 — cassure sur volume > 50M = invalidation tendance haussière
-- 🟢 **Alerte options JSON :** Anomalie RÉSOLUE — max pain $300.00, P/C 0.64, Call OI 61.1% cohérents
+- 🟡 **Alerte technique :** RSI 40.49 hors survente — confirmation du rebond si RSI franchit 45 avec volume > 0.8×
+- 🟢 **Alerte volume :** Volume récupéré 39.83M (0.79×) — invalidation de l'effondrement 0.35×, normalisation
+- 🟡 **Alerte options gamma :** Max pain opérationnel $300.00 (vs spot $299.24 = +0.25%), expiration 2026-06-17 (aujourd'hui) — pinning gamma possible
+- 🔴 **Alerte valorisation :** Cours $299.24 > Consensus FMP $295.96 (−1.1% upside) — cours au-dessus de la cible moyenne
+- 🟡 **Alerte technique :** Support MM50 $286.99 — cassure sur volume > 50M = invalidation tendance haussière
+- 🔴 **Alerte options JSON :** Anomalie PERSISTANTE — max pain $230.00 aberrant, P/C et Call OI null depuis 2 snapshots
 - 🟢 **Alerte sector rotation :** XLK top performer (momentum 10.0/10) — contexte sectoriel favorable
-- 🟡 **Alerte scoring :** Score Opportunité 5.3/10, Score Global ajusté 58.0/100, recommandation ATTENDRE, timing Favorable
-- 🟡 **Alerte structure options :** P/C 0.64 et Call OI 61.1% en détente vs 15/06 (0.48 / 67.6%) — prise de bénéfices post-rebond
+- 🟡 **Alerte scoring :** Score Opportunité 5.2/10, Score Global ajusté 57.3/100, recommandation ATTENDRE, timing Favorable
+- 🟡 **Alerte révision close :** Close 16/06 révisé $296.42 (−1.0% vs $299.42) — atténuation du rebond
