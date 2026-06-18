@@ -1,4 +1,4 @@
-# CONTEXT — ASTS — Dernière mise à jour : 2026-06-17
+# CONTEXT — ASTS — Dernière mise à jour : 2026-06-18
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -40,7 +40,7 @@
 - **MM 50j :** 88.74
 - **MM 200j :** —
 - **ATR 14j :** 12.03
-- **Volume moy. 20j :** 27542722
+- **Volume moy. 20j :** 27763165
 
 ---
 

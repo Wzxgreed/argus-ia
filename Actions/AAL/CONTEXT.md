@@ -1,4 +1,4 @@
-# CONTEXT — AAL — Dernière mise à jour : 2026-06-17
+# CONTEXT — AAL — Dernière mise à jour : 2026-06-18
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -64,11 +64,11 @@ Les scores de l'agent recommandation ont été **dégradés** par rapport au sna
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 57.09
+- **RSI 14j :** 57.14
 - **MM 50j :** 12.98
 - **MM 200j :** —
 - **ATR 14j :** 0.66
-- **Volume moy. 20j :** 106683377
+- **Volume moy. 20j :** 106840060
 
 ---
 

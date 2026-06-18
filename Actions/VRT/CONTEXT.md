@@ -1,4 +1,4 @@
-# CONTEXT — VRT — Dernière mise à jour : 2026-06-17
+# CONTEXT — VRT — Dernière mise à jour : 2026-06-18
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -47,20 +47,20 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 51.63
-- **MM 50j :** 320.45
+- **RSI 14j :** 51.28
+- **MM 50j :** 320.43
 - **MM 200j :** —
 - **ATR 14j :** 19.5
-- **Volume moy. 20j :** 5872736
+- **Volume moy. 20j :** 5914740
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-17
+- **Date :** 2026-06-18
 - **Type :** full refresh
-- **Fichier :** `VRT_2026-06-17_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-17
+- **Fichier :** `VRT_2026-06-18_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-18
 
 ---
 
