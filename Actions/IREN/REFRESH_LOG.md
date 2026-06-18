@@ -2472,3 +2472,21 @@ Le DRAFT_refresh a été déclenché automatiquement à 13:00 UTC par ATR_SPIKE 
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-06-18 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 9.48% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-18 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 9.54% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

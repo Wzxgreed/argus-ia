@@ -49,11 +49,11 @@ Snapshot 17h UTC : close **$14.035** (+$0.055 vs 13h, +0.39% vs previous close c
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 41.7
-- **MM 50j :** 13.09
+- **RSI 14j :** 42.72
+- **MM 50j :** 13.17
 - **MM 200j :** —
-- **ATR 14j :** 1.08
-- **Volume moy. 20j :** 127297390
+- **ATR 14j :** 1.07
+- **Volume moy. 20j :** 126138022
 
 ---
 
@@ -68,7 +68,7 @@ Snapshot 17h UTC : close **$14.035** (+$0.055 vs 13h, +0.39% vs previous close c
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 7.81% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 7.98% (seuil 5.0%)
 
 ---
 
