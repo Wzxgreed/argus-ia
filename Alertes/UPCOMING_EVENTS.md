@@ -24,7 +24,7 @@
 
 | Ticker | Type | Date | Jours | Détail | Source |
 |--------|------|------|-------|--------|--------|
-| MU | earnings | 2026-06-24 | 5j | Earnings date — Est EPS $7.53-$24.08, Rev $34.5B... | yfinance |
+| MU | earnings | 2026-06-24 | 5j | Earnings date — Est EPS $7.53-$26.00, Rev $35.0B... | yfinance |
 
 ---
 
