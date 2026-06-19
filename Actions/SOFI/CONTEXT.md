@@ -55,28 +55,26 @@ Le short interest reste élevé à **14.71%** — niveau critique qui crée un *
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 44.49
-- **MM 50j :** —
+- **RSI 14j :** 48.0
+- **MM 50j :** 16.94
 - **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** 80713883
+- **ATR 14j :** 1.01
+- **Volume moy. 20j :** 80795830
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-18
+- **Date :** 2026-06-19
 - **Type :** full refresh
-- **Fichier :** `SOFI_2026-06-18_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-18
+- **Fichier :** `SOFI_2026-06-19_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-19
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- L'ATR relatif 6.13% est un **faux positif** : l'ATR est passé de $1.08 à **$1.05** (compression), pas d'expansion. Le trigger ATR_SPIKE est une anomalie mécanique.
-- ATR_SPIKE (medium) : ATR relatif 5.13% (seuil 5.0%)
-- Le trigger ATR_SPIKE 5.88% est un **faux positif** : l'ATR est resté stable à **$0.97** entre le close 08/06 et le snapshot 09/06. Aucune expansion de volatilité n'est survenue.
+- **ATR_SPIKE** (medium) — ATR relatif 5.64% (seuil 5.0%)
 
 ---
 

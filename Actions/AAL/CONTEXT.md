@@ -64,11 +64,11 @@ Les scores de l'agent recommandation ont été **dégradés** par rapport au sna
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 57.25
-- **MM 50j :** —
+- **RSI 14j :** 61.34
+- **MM 50j :** 13.07
 - **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** 108841505
+- **ATR 14j :** 0.68
+- **Volume moy. 20j :** 108887230
 
 ---
 

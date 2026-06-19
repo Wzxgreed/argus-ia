@@ -36,26 +36,26 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 24.69
-- **MM 50j :** —
+- **RSI 14j :** 23.69
+- **MM 50j :** 138.43
 - **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** 39842549
+- **ATR 14j :** 6.69
+- **Volume moy. 20j :** 40102670
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-18
+- **Date :** 2026-06-19
 - **Type :** full refresh
-- **Fichier :** `PLTR_2026-06-18_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-18
+- **Fichier :** `PLTR_2026-06-19_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-19
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **ATR_SPIKE** (medium) — ATR relatif 5.21% (seuil 5.0%)
 
 ---
 
