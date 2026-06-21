@@ -46,10 +46,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-17
-- **Type :** update
-- **Fichier :** `ASTS_2026-06-17_13-00_update.md`
-- **Conclusion :** **Thèse confirmée sans changement majeur : SURVEILLER — snapshot 13h UTC $82,25 strictement identique au snapshot 10h, RSI stable en survente 28,51, score global ajusté 43,0/100 (SURVEILLER), anomalie options JSON résolue (max pain $100,00, put/call 0,46, call OI 68,3% restaurés)
+- **Date :** 2026-06-21
+- **Type :** full refresh
+- **Fichier :** `ASTS_2026-06-21_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-21
 
 ---
 
