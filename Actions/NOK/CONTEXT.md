@@ -12,9 +12,9 @@
 **Stop-loss :** $11.33 (basé sur cours $13.49 et ATR $1.08 du snapshot actuel)
 **Take-profit :** $16.73 (basé sur cours $13.49 et ATR $1.08 du snapshot actuel)
 **Upside/Downside :** −20.0% / −16.0% (basés sur cours $13.49)
-**Dernière mise à jour :** 2026-06-22 10:00 UTC
+**Dernière mise à jour :** 2026-06-22 13:00 UTC
 
-Snapshot 10h UTC : close **$13.49** (−$0.545 vs 17/06 17h, −2.46% vs previous close $13.83). **Correction de −3.88%** sur 5 séances, low étendu **$13.29**. RSI **42.18** (−0.61 pt), volume **126.8M** (0.98× moyenne 20j, +102.9% vs 17/06), ATR **$1.08**, MM50 **$13.17** (+$0.08). Options **corrompues** dans `latest.json` (max pain $3.00 aberrant) — valeurs opérationnelles du 17/06 conservées ($14.00 / 0.46 / 68.3%), expiration **2026-06-26** (dans 4 jours). Cours **−3.6% sous le max pain** (vs +0.25% précédemment). Pin risk modéré. Consensus FMP **$10.8** (7 analysts). Premium consensus **+24.9%**. Quality hors périmètre (2.5/6). Divergence Yahoo/FMP persistante (P/E 84.3 vs 50.1, market cap $75.3B vs $29.8B). XLC bottom 3 (momentum score 0.0). `recommandations_2026-06-22.json` : Score Global ajusté **46.8/100 — SURVEILLER** (C:4.0 V:3.5 M:5.5). Pas de position.
+Snapshot 13h UTC : close **$13.49** (−2.46% vs previous close $13.83). Low étendu **$13.29**. RSI **42.18**, volume **126.8M** (0.98× moyenne 20j), ATR **$1.08**, MM50 **$13.17**. Options **restaurées** dans `latest.json` : max pain confirmé **$14.00**, put/call **1.03** (vs 0.46 opérationnel du 17/06), call OI **49.3%** (vs 68.3%) — structure quasi-neutre, pin risk haussier atténué. Expiration **2026-06-26** (dans 4 jours). Cours **−3.6% sous le max pain**. Consensus FMP **$10.8** (7 analysts). Premium consensus **+24.9%**. Quality hors périmètre (2.5/6). Divergence Yahoo/FMP persistante (P/E 84.3 vs 50.1, market cap $75.3B vs $29.8B). XLC bottom 3 (momentum score 0.0). `recommandations_2026-06-22.json` : Score Global ajusté **46.8/100 — SURVEILLER** (C:4.0 V:3.5 M:5.5). Pas de position.
 
 ---
 
@@ -60,9 +60,9 @@ Snapshot 10h UTC : close **$13.49** (−$0.545 vs 17/06 17h, −2.46% vs previou
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-22
-- **Type :** full refresh
-- **Fichier :** `NOK_2026-06-22_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-22
+- **Type :** update
+- **Fichier :** `NOK_2026-06-22_update.md`
+- **Conclusion :** Données options restaurées (max pain $14.00, put/call 1.03, call OI 49.3%). Structure quasi-neutre, pin risk haussier atténué. Thèse SURVEILLER confirmée (Score Global 46.8).
 
 ---
 
