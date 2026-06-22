@@ -1,11 +1,12 @@
 # FLY
 
 ## Thèse courante
-**ATTENDRE** (56.3) — Cours $32.30 (+4.35% vs prior close $30.95), volume session 2.78M (**0.30× moy. 20j**), RSI 27.48 **survente EXTRÊME persistante atténuée**, ATR 4.62, MM50 39.33. **Données options stables** (snapshot 17h UTC) : max pain **$65.00** (aberrant), put/call **0.25**, call OI **79.7%** — skew haussier extrême. Fondamentaux inchangés et défavorables (Filtre Qualité 2/6, Forward P/E −25.08, EV/Revenue 24.1x). Score Opportunité **5.9/10** (C **6.5** stable, V **6.0** stable, M **5.0** ↑+1.5 pt), Score Global Ajusté **56.3** (+3.8 pts), timing **Défavorable**. SL **$23.05**, TP **$46.16**, R/R 1.5. Consensus PT **$43.77 +35.5% au-dessus du spot** (13 analysts). Short Interest **12.12%**. **Pas de position recommandée — ATTENDRE.** Rebond technique +4.35% sur volume effondré (suspect short covering / gamma squeeze pré-expiration). Prochain catalyst : expiration options 2026-06-18 (demain), earnings Q2 2026 le 2026-08-04 (47 jours).
+**ATTENDRE** (55.0) — Cours $30.95 (−0.64% vs prior close $31.15, −4.18% vs close 17/06 $32.30), volume session 13.33M (**1.36× moy. 20j**), RSI 27.2 **survente EXTRÊME persistante**, ATR 4.46, MM50 39.16. **Données options anomales** (snapshot 10h UTC) : max pain **$18.00** (aberrant), put/call **null**, call OI **null** — données non fiables; référence implicite 17/06 : max pain $65.00, put/call 0.25, call OI 79.7%. Fondamentaux inchangés et défavorables (Filtre Qualité 2/6, Forward P/E −24.04, EV/Revenue 24.1x). Score Opportunité **5.8/10** (C **6.5** stable, V **6.0** stable, M **4.5** ↓−0.5 pt), Score Global Ajusté **55.0** (−1.3 pt), timing **Défavorable**. SL **$22.03**, TP **$44.33**, R/R 1.5. Consensus PT **$43.77 +41.4% au-dessus du spot** (13 analysts). Short Interest **12.12%**. **Pas de position recommandée — ATTENDRE.** Baisse −4.18% sur volume en expansion (+380% vs 17/06) = distribution potentielle, invalidation du rebond technique suspect du 17/06 (volume effondré 0.30×). [ANOMALIE SCORING] Score Valorisation 6.0/10 incohérent avec règle Filtre Qualité (≤3/6 → plafond 5/10). Prochain catalyst : earnings Q2 2026 le 2026-08-04 (43 jours).
 
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
+| 2026-06-22 | [FLY_2026-06-22_update.md](FLY_2026-06-22_update.md) | **Mise à jour 10h UTC** — Baisse −4.18% à $30.95 sur volume explosion 13.33M (1.36×, +380% vs 17/06), RSI survente extrême persistante 27.2, ATR 4.46 (−3.5%). Scores dégradés (M 4.5 ↓−0.5 pt, Opp 5.8 ↓−0.1 pt), Score Global Ajusté **55.0** (−1.3 pt), timing **Défavorable**. SL/TP recalés $22.03/$44.33. [ANOMALIE DATA] DRAFT_refresh archivé (faux trigger ATR — ATR a diminué, pas augmenté). Données options anomales (max pain $18.00 aberrant). Thèse **ATTENDRE confirmée**, intensité négative renforcée par volume en expansion = distribution potentielle. |
 | 2026-06-17 | [FLY_2026-06-17_update_17h.md](FLY_2026-06-17_update_17h.md) | **Mise à jour 17h UTC** — Rebond +4.35% à $32.30 sur volume effondré 2.78M (0.30×, −64.8% vs 13h), RSI survente extrême atténuée 27.48 (+7.1 pts), ATR 4.62 (−9.9%). Scores améliorés (M 5.0 ↑+1.5 pt, Opp 5.9 ↑+0.3 pt), Score Global Ajusté **56.3** (+3.8 pts), timing **Défavorable**. SL/TP recalés $23.05/$46.16. [ANOMALIE DATA RÉSOLUE] `previous_close` $30.95 réel. Thèse **ATTENDRE confirmée**, intensité négative atténuée mais non convaincue. DRAFT_refresh archivé (faux trigger ATR). |
 | 2026-06-17 | [FLY_2026-06-17_update_13h.md](FLY_2026-06-17_update_13h.md) | **Mise à jour 13h UTC** — Données de cours/volume/technique strictement identiques au snapshot 10h (stabilité totale). **Mutation options résolue** : max pain $65.00 (vs $18.00 à 10h), put/call 0.25 et call OI 79.7% restaurés — skew haussier extrême. Scores inchangés (C 6.5, V 6.0, M 3.5), Score Global Ajusté **52.5**, timing **Défavorable**. SL/TP inchangés $20.69/$46.34. Thèse **ATTENDRE confirmée**, pas de changement matériel. |
 | 2026-06-17 | [FLY_2026-06-17_update.md](FLY_2026-06-17_update.md) | **Mise à jour 10h UTC** — Cours $30.95 stable vs close 16/06 (−0.32%), volume en hausse +75.5% à 7.89M (0.83×), RSI survente extrême 20.4, ATR 5.13. Scores dégradés (M 3.5 ↓−1.0 pt), Score Global Ajusté **52.5** (−2.5 pts), timing **Défavorable**. [ANOMALIE DATA] `previous_close` $33.36 (close 15/06) utilisé vs $31.05 close 16/06. Anomalie options mutée (max pain $18.00 aberrant, données null). SL/TP $20.69/$46.34. Thèse **ATTENDRE confirmée**, intensité négative stable. |
@@ -48,11 +49,11 @@
 | 2026-06-09 | [FLY_2026-06-09_update_17h.md](FLY_2026-06-09_update_17h.md) | **Mise à jour 17:00 UTC** — **Gap baissier −9.56%** en séance à $32.72, range intraday 16.8%, RSI 39.71 proche survente, cassure MM50 amplifiée (−15.9%). Score Momentum **2.5/10**. Agent **SURVEILLER (45.0)** — thèse défavorable confirmée et renforcée. DRAFT_refresh archivé. |
 
 ## Agenda
-- Prochain earnings : **2026-08-04** (Q2 2026) — Est EPS -$0.47 à -$0.45, Rev $0.1B (49 jours)
+- Prochain earnings : **2026-08-04** (Q2 2026) — Est EPS -$0.61 à -$0.45, Rev $0.1B (43 jours)
 - ~~Expiration options : **2026-05-29** (passée)~~
 - ~~Expiration options : **2026-06-05** (passée)~~
 - ~~Expiration options : **2026-06-12** (passée)~~
-- Expiration options : **2026-06-18** (J+2) — max pain aberrant $20.00, put/call null, call OI null [ANOMALIE DATA]
+- ~~Expiration options : **2026-06-18** (passée)~~
 
 ## Alertes actives
 - ~~**DEUXIÈME GAP NON EXPLIQUÉ** — Deuxième gap haussier consécutif : +17.57% à $58.20 (2026-05-26 17:00 UTC) après +15.49% à $49.50 (2026-05-25/26). Cumul +35.8% en 2 sessions sans catalyst. Risque de gap fill élevé.~~ **EFFACÉ** — Gap fill matérialisé : cours retombé à $41.90 (-30.5% vs 27/05), rebond de clôture à $44.24.
@@ -69,6 +70,7 @@
 - ~~**ANOMALIE OPTIONS MUTÉE**~~ **RÉSOLUE** — Snapshot 13h UTC : données options restaurées (max pain $65.00, put/call 0.25, call OI 79.7%). Max pain reste aberrant vs spot $30.95, mais structure skew lisible (skew haussier extrême).
 - ~~**SCORES AGENTS DÉGRADÉS**~~ **RÉVISÉS** — Snapshot 17h UTC : Score Catalyseur 6.5/10 (+1.5 pt), Score Valorisation 6.0/10 (+1.5 pt), Score Global Ajusté 55.0 (+0.8 pt). Révision à la hausse sur restauration data, pas sur amélioration fondamentale.
 - **SHORT INTEREST ÉLEVÉ** — **12.12%** — pression vendeuse accrue, pas de setup squeeze.
-- **VOLUME EFFONDREMENT** — **0.48x moy. 20j** (4.49M vs 9.42M moyenne) — participation institutionnelle en chute libre, manque de conviction acheteuse malgré survente extrême.
-- **TEST SUPPORT $30.00** — **Low intraday $30.33** (snapshot 17h UTC) — support psychologique testé à 2.3% du cours actuel. Cassure en clôture sous $30.00 = ouverture vers $28.00–$26.00.
+- ~~**VOLUME EFFONDREMENT**~~ **→ VOLUME EXPLOSION** — **1.36× moy. 20j** (13.33M vs 9.83M) — participation en expansion, potentielle distribution. Contraste brutal avec le 17/06 (0.30×).
+- **TEST SUPPORT $28.00** — **Low intraday $28.83** (snapshot 10h UTC) — support psychologique $30.00 cassé en intraday. Cassure en clôture sous $28.00 = ouverture vers $26.00–$25.00.
 - **MM200 INDISPONIBLE** — Tendance long terme non observable.
+- **ANOMALIE SCORING** — Score Valorisation 6.0/10 de l'agent Recommandation incohérent avec règle Filtre Qualité (≤3/6 → plafond 5/10). Score Opportunité ajusté manuel ~5.5/10, Global Ajusté ~52.5.
