@@ -48,17 +48,17 @@
 | 2026-05-17 | [MITK_2026-05-17_claude.md](MITK_2026-05-17_claude.md) | Analyse approfondie (LLM) |
 
 ## Agenda
-- Prochain earnings : **2026-08-06** (51j) — Est EPS $0.24–$0.34, Rev ~$0.1B
-- Expiration options : **2026-06-18** (2j)
+- Prochain earnings : **2026-08-06** (45j) — Est EPS $0.24–$0.34, Rev ~$0.1B
+- Expiration options : **2026-07-17** (25j)
 
 ## Alertes actives
-- 🟡 **[VOLUME SOUS MOYENNE]** 729,600 = 0.68× moyenne 20j — récupération vs 0.26× hier mais liquidité encore réduite, mouvement +3% peu crédible — **2026-06-17**
-- 🟡 **[CONSENSUS PT SOUS LE SPOT]** $16.00 < $17.07 — objectif moyen dépassé de +6.7%, absence de catalyseur analyste pour extension — 2026-06-17
-- 🟡 **[ANOMALIE OPTIONS JSON RÉGRESSION]** Max pain JSON retourne $2.50 aberrant (put/call null, call OI null) — valeurs opérationnelles $20.00 / 0.20 / 83.4% conservées mais alerte réactivée — 2026-06-17
-- 🟡 **[PROXIMITÉ 52W HIGH]** Cours $17.07 vs 52W high $17.97 (écart 5.0%) — résistance psychologique et technique majeure imminente — 2026-06-17
+- 🟡 **[VOLUME HAUSSE SIGNIFICATIVE]** 1,770,600 = 1.61× moyenne 20j — explosion de liquidité après 5j sous 0.8×, mais sans catalyseur ni cassure du 52W high — à monitorer — **2026-06-22**
+- 🟡 **[CONSENSUS PT SOUS LE SPOT]** $16.00 < $17.26 — objectif moyen dépassé de +7.9%, absence de catalyseur analyste pour extension — 2026-06-22
+- 🟡 **[ANOMALIE OPTIONS JSON PERSISTANTE]** Max pain JSON $7.50 aberrant (put/call null, call OI 0.0%) — 9e occurrence depuis le 3 juin, valeurs opérationnelles $20.00 / 0.20 / 83.4% conservées — 2026-06-22
+- 🟡 **[PROXIMITÉ 52W HIGH]** Cours $17.26 vs 52W high $17.97 (écart 4.0%) — résistance psychologique et technique majeure imminente — 2026-06-22
 - 🟡 **[ROIC FAIBLE]** 3.16% — monitorer l'efficacité du capital dans les prochains filings — 2026-05-18
-- 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($770.9M Yahoo vs $446.6M FMP), P/E, EV multiples — utiliser Yahoo comme primaire — persistant
+- 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($779.2M Yahoo vs $446.6M FMP), P/E, EV multiples — utiliser Yahoo comme primaire — persistant
 - 🟡 **[BETA LÉGÈREMENT SUPÉRIEUR AU MARCHÉ]** 1.007 — sensibilité marché accrue — 2026-06-08
-- 🟡 **[CATALYSEUR DOWNGRADE]** 4.0/10 — absence de news, de upgrades, ou d'événements structurants — 2026-06-17
-- 🟢 **[RSI NEUTRE FAVORABLE]** 49.08 — zone neutre, remontée médiane, pas de surachat — 2026-06-17
-- 🟢 **[COURS AU-DESSUS DE MM50]** $17.07 vs $15.16 (+12.6%) — tendance haussière de MT validée — 2026-06-17
+- 🟡 **[CATALYSEUR DOWNGRADE]** 4.0/10 — absence de news, de upgrades, ou d'événements structurants — 2026-06-22
+- 🟢 **[RSI NEUTRE FAVORABLE]** 50.62 — zone neutre, juste au-dessus de la médiane, pas de surachat — 2026-06-22
+- 🟢 **[COURS AU-DESSUS DE MM50]** $17.26 vs $15.29 (+12.9%) — tendance haussière de MT validée — 2026-06-22
