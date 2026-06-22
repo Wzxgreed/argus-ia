@@ -1,5 +1,15 @@
 # RKLB — Historique des Full Refreshes
 
+## 2026-06-22 — Full Refresh Complété (Snapshot 21h UTC)
+
+**Triggers :**
+- price_gap (medium) : Gap −6,48 % (seuil ±5,0 %)
+- atr_spike (medium) : ATR relatif 10,22 % (seuil 5,0 %)
+
+**Conclusion :** THÈSE CONFIRMÉE ET RENFORCÉE — gap baissier −6,48 % à $100,29 sur volume révisé 0,92× (27,54M vs moy 20j 29,89M). **CASSURE MM50** ($104,58) confirmée — spot −4,1 % sous le support dynamique. RSI 36,44 (survente étendue stable). Score Global **29,3/100 (ÉVITER)** stable. Score Momentum **2,5/10** (effondrement). La révision volumétrique majeure (0,60× → 0,92×) invalide l'hypothèse « dérive sans acheteurs » du snapshot 17h UTC = **distribution institutionnelle active confirmée**. Consensus PT inchangé $90,83 (18 analysts). Filtre Qualité 3/6 inchangé. SL révisé $79,79 / TP $131,04. Zone critique : $90–$95 (support majeur) et $104,58 (résistance MM50). Si reclaim MM50 avec volume >1,0× → reconsidérer SURVEILLER. Pattern distribution sur volume quasi-normal = vendeurs actifs confirmés. Fichiers : `RKLB_2026-06-22_update_21h.md` + `RKLB_2026-06-22_init.md`. INDEX.md, CONTEXT.md mis à jour. DRAFT_refresh archivé (`_RKLB_2026-06-22_DRAFT_refresh_21h.md`).
+
+---
+
 ## 2026-06-22 — Full Refresh Complété (Snapshot 17h UTC)
 
 **Triggers :**

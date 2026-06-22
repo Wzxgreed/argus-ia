@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
+- **Recommandation :** ÉVITER
+- **Score global :** 29.3/100
+- **Prix cible :** $90.83 (consensus 18 analysts)
+- **Stop-loss :** $79.79
 - **Statut thèse :** modifiée
-- **Horizon :** —
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -24,32 +24,38 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- RSI 36.44 — survente étendue (<40)
+- Cassure MM50 — spot $100.29 sous MM50 $104.58 (−4.1%)
+- Volume 0.92× sur baisse −6.48% — distribution institutionnelle active (vendeurs présents)
+- Pin risk expiration 26/06 — Max Pain $69.00 vs spot +45.3%
+- Score Global 29.3/100 (ÉVITER)
+- Filtre Qualité 3/6 — hors périmètre institutionnel
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings Q2 2026 : 2026-08-06 (45 jours)
+- Expiration options : 2026-06-26 (4 jours)
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 36.43
+- **RSI 14j :** 36.44
 - **MM 50j :** 104.58
 - **MM 200j :** —
 - **ATR 14j :** 10.25
-- **Volume moy. 20j :** 29702929
+- **Volume moy. 20j :** 29888760
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-22
-- **Type :** update
-- **Fichier :** `RKLB_2026-06-22_update.md`
-- **Conclusion :** > Source : `data/latest.json` (snapshot 13h UTC) | `data/recommandations_latest.json` | `data/sector_rotation_latest.json` | `data/upcoming_events_latest.json` | `data/events_latest.json` | `data/geo_
+- **Type :** update_21h
+- **Fichier :** `RKLB_2026-06-22_update_21h.md`
+- **Conclusion :** ÉVITER confirmé. Gap baissier −6.48% à $100.29 sur volume révisé 0.92× (27.54M). Révision volumétrique invalide hypothèse « dérive sans acheteurs » = distribution active confirmée. Cassure MM50 ($104.58) confirmée. Score Global stable 29.3/100. SL $79.79 / TP $131.04.
 
 ---
 
