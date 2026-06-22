@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
+- **Recommandation :** ATTENDRE
+- **Score global :** 57.2/100
+- **Prix cible :** $20.05 (base ATR 3×)
+- **Stop-loss :** $15.40
 - **Statut thèse :** validée
-- **Horizon :** —
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -24,13 +24,20 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🟡 VOLUME HAUSSE SIGNIFICATIVE — 1.61× moyenne 20j (1,770,600) sans catalyseur
+- 🟡 CONSENSUS PT SOUS LE SPOT — $16.00 < $17.26 (+7.9%)
+- 🟡 PROXIMITÉ 52W HIGH — $17.97 à 4.0%
+- 🟡 ANOMALIE OPTIONS JSON PERSISTANTE — max pain $7.50 aberrant (9e occurrence)
+- 🟡 CATALYSEUR DOWNGRADE — 4.0/10, aucun événement structurant
+- 🟢 RSI NEUTRE FAVORABLE — 50.62
+- 🟢 COURS AU-DESSUS DE MM50 — $17.26 vs $15.29 (+12.9%)
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings Q3 FY2026 : **2026-08-06** (45j) — Est EPS $0.24–$0.34, Rev ~$0.1B
+- Expiration options : **2026-07-17** (25j)
 
 ---
 
@@ -47,15 +54,15 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-22
-- **Type :** full refresh
-- **Fichier :** `MITK_2026-06-22_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-22
+- **Type :** update
+- **Fichier :** `MITK_2026-06-22_update.md`
+- **Conclusion :** Thèse ATTENDRE confirmée. Volume en explosion à 1.61× sans catalyseur. 8e faux positif ATR_SPIKE. Cours $17.26 sous 52W high $17.97 (4.0%). Score Global 57.2/100. SL $15.40, TP $20.05, R/R 1.5.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 5.39% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 5.39% (seuil 5.0%) — **FAUX POSITIF**
 
 ---
 

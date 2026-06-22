@@ -1,5 +1,21 @@
 # MITK — Historique des Full Refreshes
 
+## 2026-06-22 — Full Refresh FAUX POSITIF (Snapshot 10:00 UTC)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.39% (seuil 5.0%)
+
+**Conclusion :** FAUX POSITIF — 8e occurrence algorithmique en 15 jours. Le snapshot 10:00 UTC 22/06 : close $17.26 (+2.31% vs previous close $16.87, +1.1% vs snapshot 17/06 10h), RSI 50.62 (+1.54 pt), ATR $0.93 (+$0.04, stable), MM50 $15.29 (+$0.13), volume 1,770,600 (1.61× moyenne 20j, +142.7% vs 729,600 à 17/06). Le ratio ATR relatif 5.39% est structurellement identique aux snapshots précédents — le dépassement du seuil fixe à 5.0% est un artefact sur un small-cap volatile. Aucune mutation structurelle, aucune news majeure, aucun événement corporate. Le volume élevé est notable mais n'est accompagné d'aucun catalyseur. **Thèse précédente (ATTENDRE, Score Global 57.8/100) confirmée inchangée (Score Global 57.2/100).** SL révisé $15.40, TP $20.05, R/R 1.5.
+
+**Fichiers produits :**
+- `Actions/MITK/MITK_2026-06-22_update.md` — Mise à jour snapshot 10h UTC
+- `Actions/MITK/INDEX.md` — Thèse courante révisée (ATTENDRE)
+- `Actions/MITK/CONTEXT.md` — Mémoire court terme mise à jour
+
+**DRAFT archivé :** `MITK_2026-06-22_DRAFT_refresh.md` → `_MITK_2026-06-22_DRAFT_refresh.md` (archive)
+
+---
+
 ## 2026-06-17 — Full Refresh FAUX POSITIF (Snapshot 10:00 UTC)
 
 **Triggers :**

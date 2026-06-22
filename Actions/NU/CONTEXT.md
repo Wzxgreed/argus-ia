@@ -7,19 +7,19 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER (Réduit)
-- **Score Global :** 68.0/100 (ajusté 60.0)
-- **Score Opportunité :** 6.8/10 (C:6.5 V:8.0 M:5.3)
+- **Recommandation :** ATTENDRE
+- **Score Global :** 67.2/100 (ajusté 59.2)
+- **Score Opportunité :** 6.7/10 (C:6.5 V:8.0 M:5.0)
 - **Prix Cible :** $17.49 (consensus FMP, 12 analysts)
-- **Stop-Loss :** $11.70 (ATR $0.51)
-- **Statut Thèse :** Score ajusté 60.0 — snapshot 13h UTC 17/06 : **stabilité mécanique totale** vs snapshot 10h ($12.72 → $12.72 0%), **anomalie options JSON DÉFINITIVEMENT RÉSOLUE** (max pain $19.00 aberrant → **$13.00** cohérent, put/call 0.00 → **0.39**, call OI 100% → **72.0%**), RSI stable **46.34**, score momentum stable **5.3/10**, score global ajusté maintenu **60.0** (zone ACHETER Réduit), gap MM50 **−6.1%**, structure options bullish confirmée (max pain $13.00, put/call 0.39, call OI 72.0%), fondamentaux intacts (forward P/E 11.04×, upside +37.5%), support $11.20 à +13.6%, SL/TP **$11.70/$14.25** maintenus, timing défavorable maintenu, expiration options 18/06 demain
+- **Stop-Loss :** $11.59 (ATR $0.56)
+- **Statut Thèse :** Score ajusté 59.2 — snapshot 10h UTC 22/06 : **downgrade mécanique** ACHETER (Réduit) → **ATTENDRE** par franchissement de seuil (Score Global Ajusté 60.0 → **59.2**, −0.8 pt), stabilité quasi-totale vs close 17/06 ($12.72 → $12.71 −0.08%), RSI **45.31** (−1.03 pt), volume normalisé **1.00×** (vs 0.93×), anomalie options JSON récurrente (max pain $20.00 aberrant → valeur opérationnelle ~$13.00 conservée), gap MM50 **−5.7%**, fondamentaux intacts (forward P/E 11.03×, upside +37.6%), support $11.20 à +13.5%, SL/TP **$11.59/$14.39**, timing défavorable maintenu, expiration options 26/06 dans 4 jours
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** validée
+- **Score global :** 67.2/100 (ajusté 59.2)
+- **Prix cible :** $17.49
+- **Stop-loss :** $11.59
+- **Statut thèse :** confirmée avec downgrade mécanique
 - **Horizon :** 1–3 mois
 
 ---
@@ -38,7 +38,8 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q2 2026 :** 13 août 2026 (Est EPS $0.18–$0.27, Rev $5.4B)
+- **Expiration Options :** 2026-06-26 (4 jours, max pain opérationnel ~$13.00)
 
 ---
 
@@ -54,10 +55,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-17
-- **Type :** full refresh
-- **Fichier :** `NU_2026-06-17_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-17
+- **Date :** 2026-06-22
+- **Type :** update quotidienne
+- **Fichier :** `NU_2026-06-22_update.md`
+- **Conclusion :** Downgrade mécanique ATTENDRE (Score Global Ajusté 60.0 → 59.2) — fondamentaux intacts, cours quasi-stable ($12.71), volume normalisé 1.00×, RSI 45.31, gap MM50 −5.7%, anomalie options JSON récurrente traitée, SL/TP $11.59/$14.39
 
 ---
 
