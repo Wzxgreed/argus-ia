@@ -2,18 +2,19 @@
 
 ## 🎯 Thèse Courante
 
-- **Recommandation :** ATTENDRE
-- **Score Global :** 67.2/100 (ajusté 59.2)
-- **Score Opportunité :** 6.7/10 (C:6.5 V:8.0 M:5.0)
+- **Recommandation :** ACHETER (Réduit)
+- **Score Global :** 68.0/100 (ajusté 60.0)
+- **Score Opportunité :** 6.8/10 (C:6.5 V:8.0 M:5.3)
 - **Prix Cible :** $17.49 (consensus FMP, 12 analysts)
-- **Stop-Loss :** $11.59 (ATR $0.56)
-- **Statut Thèse :** Score ajusté 59.2 — snapshot 10h UTC 22/06 : **downgrade mécanique** ACHETER (Réduit) → **ATTENDRE** par franchissement de seuil (Score Global Ajusté 60.0 → **59.2**, −0.8 pt), stabilité quasi-totale vs close 17/06 ($12.72 → $12.71 −0.08%), RSI **45.31** (−1.03 pt), volume normalisé **1.00×** (vs 0.93×), structure options pivotée (max pain $14.00, put/call 0.58, call OI 63.3%, moins bullish vs cycle précédent), gap MM50 **−5.7%**, fondamentaux intacts (forward P/E 11.03×, upside +37.6%), support $11.20 à +13.5%, SL/TP **$11.59/$14.39**, timing défavorable maintenu, expiration options 26/06 dans 4 jours
+- **Stop-Loss :** $11.71 (ATR $0.57)
+- **Statut Thèse :** Score ajusté 60.0 — snapshot 17h UTC 22/06 : **re-upgrade mécanique** ATTENDRE → **ACHETER (Réduit)** par franchissement de seuil (Score Global Ajusté 59.2 → **60.0**, +0.8 pt), cours **$12.845** (+1.06% vs close 10h $12.71), RSI **48.38** (+3.07 pts), volume anémique **0.30×** (19.5M à mi-session), structure options stable (max pain $14.00, put/call 0.58, call OI 63.3%), gap MM50 **−4.4%** (vs −5.7%), fondamentaux intacts (forward P/E 11.15×, upside +36.1%), support $11.20 à +14.7%, SL/TP **$11.71/$14.55**, timing défavorable maintenu, expiration options 26/06 dans 4 jours
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
 
 | Fichier | Date | Type | Verdict |
 |---------|------|------|---------|
+| [NU_2026-06-22_update_17h.md](NU_2026-06-22_update_17h.md) | 2026-06-22 | Update 17:00 UTC (snapshot en cours de session) | **ACHETER (Réduit)** — thèse **CONFIRMÉE avec re-upgrade mécanique**, mutation technique positive (cours +1.06% à $12.845, RSI 48.38 +3.07 pts), **re-upgrade ATTENDRE → ACHETER (Réduit)** (Score Global Ajusté 59.2 → **60.0**, +0.8 pt), volume anémique **0.30×** (19.5M à mi-session), fondamentaux intacts (forward P/E 11.15×, upside +36.1%), gap MM50 **−4.4%**, structure options stable (max pain $14.00, put/call 0.58, call OI 63.3%), SL/TP **$11.71/$14.55**, timing défavorable |
 | [NU_2026-06-22_update.md](NU_2026-06-22_update.md) | 2026-06-22 | Update 10:00 UTC (snapshot matinal) | **ATTENDRE** — thèse **CONFIRMÉE avec downgrade mécanique**, stabilité quasi-totale vs close 17/06 ($12.72 → $12.71 −0.08%), **downgrade ACHETER (Réduit) → ATTENDRE** (Score Global Ajusté 60.0 → **59.2**, −0.8 pt), RSI 45.31 (−1.03 pt), volume normalisé **1.00×**, fondamentaux intacts (forward P/E 11.03×, upside +37.6%), gap MM50 **−5.7%**, structure options pivotée (max pain $14.00, put/call 0.58, call OI 63.3%, moins bullish), SL/TP révisés **$11.59/$14.39**, timing défavorable, expiration options 26/06 dans 4 jours |
 | [NU_2026-06-17_13-00_update.md](NU_2026-06-17_13-00_update.md) | 2026-06-17 | Update 13:00 UTC (snapshot pré-ouverture) | **ACHETER (Réduit)** — thèse **CONFIRMÉE**, stabilité mécanique totale vs snapshot 10h ($12.72 0%), **anomalie options JSON RÉSOLUE** (max pain $19.00 → **$13.00**, put/call 0.00 → **0.39**, call OI 100% → **72.0%**), RSI stable 46.34, scores inchangés (Global 68.0, Ajusté **60.0**, Opportunité 6.8), fondamentaux intacts (forward P/E 11.04×, upside +37.5%), gap MM50 **−6.1%**, SL/TP maintenus **$11.70/$14.25**, timing défavorable, expiration options 18/06 demain |
 | [NU_2026-06-17_update.md](NU_2026-06-17_update.md) | 2026-06-17 | Update 10:00 UTC (snapshot matinal) | **ACHETER (Réduit)** — thèse **CONFIRMÉE**, stabilité mécanique quasi-totale vs close 16/06 ($12.72 +0.12%), **alerte volume RÉSOLUE** (0.43× → **0.93×**), RSI stable 46.34, scores inchangés (Global 68.0, Ajusté **60.0**, Opportunité 6.8), fondamentaux intacts (forward P/E 11.04×, upside +37.5%), gap MM50 **−6.1%**, SL/TP révisés **$11.70/$14.25**, anomalie options JSON traitée (max pain opérationnel $15.00 conservé), timing défavorable, expiration options 18/06 aujourd'hui |
