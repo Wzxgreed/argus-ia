@@ -1,20 +1,20 @@
 # MU — Micron Technology
 
 > **Secteur :** Technology / Semiconductors
-> **Dernière mise à jour :** 2026-06-22 (snapshot 17h UTC)
-> **Statut :** ⚠️ Thèse en construction — ATTENDRE (renforcé)
+> **Dernière mise à jour :** 2026-06-22 (close officiel 21h UTC)
+> **Statut :** ⚠️ Thèse en construction — ATTENDRE (intensité négative levée)
 
 ---
 
 ## 🎯 Thèse courante
 
 **Recommandation :** ATTENDRE
-**Score Global :** 56.1/100
-**Prix cible :** $530.16 (consensus 91 analysts) vs cours $1191.24
-**Stop-loss :** $1008.68 (2×ATR)
+**Score Global :** 56.5/100
+**Prix cible :** $530.16 (consensus 91 analysts) vs cours $1211.38
+**Stop-loss :** $1027.54 (2×ATR)
 **Horizon :** Post-earnings (2026-06-24)
 
-**Synthèse :** MU a atteint un nouveau 52-week high à $1204.50 lors du snapshot 17h UTC, portant le gain de la séance à environ +14.2% cumulé. Cependant, ce mouvement s'est effectué sur un **volume collapse à 0.54× la moyenne 20j**, signalant un manque de conviction institutionnelle. Le Forward P/E est remonté à 9.97 et la divergence cours vs consensus analystes s'aggrave à **−55.5%** ($1191.24 vs $530.16). Le put/call ratio corrigé à 2.38 traduit une prudence modérée pré-earnings. Les résultats du 2026-06-24 seront le verdict. Attendre le passage de l'événement avant toute décision.
+**Synthèse :** MU a atteint un nouveau 52-week high à $1213.56 lors du close officiel 21h UTC, portant le gain de la séance à +6.82%. La révision volumétrique à 47.96M (0.88× la moyenne 20j) invalide l'hypothèse de volume collapse du snapshot 17h. Le mouvement s'est donc construit sur une participation institutionnelle proche de la normale. Le Forward P/E est remonté à 10.03 et la divergence cours vs consensus analystes s'aggrave marginalement à **−56.2%** ($1211.38 vs $530.16). Le put/call ratio corrigé à 2.38 traduit une prudence modérée pré-earnings. Les résultats du 2026-06-24 seront le verdict. Attendre le passage de l'événement avant toute décision.
 
 ---
 
@@ -22,6 +22,7 @@
 
 | Date | Fichier | Type | Conclusion |
 |------|---------|------|------------|
+| 2026-06-22 | `MU_2026-06-22_update.md` | Update (21h) | Volume révisé 0.88× invalide hypothèse collapse — thèse ATTENDRE, intensité négative levée |
 | 2026-06-22 | `MU_2026-06-22_update.md` | Update (17h) | Volume collapse sur nouveau high — thèse ATTENDRE renforcée |
 | 2026-06-22 | `MU_2026-06-22_update.md` | Update (13h) | Anomalie options résolue — thèse ATTENDRE confirmée |
 | 2026-06-22 | `MU_2026-06-22_update.md` | Update (10h) | Thèse en construction — ATTENDRE |
@@ -52,6 +53,7 @@
 
 | Date | Score Opp. | Catalyseur | Valorisation | Momentum | Action |
 |------|------------|------------|--------------|----------|--------|
+| 2026-06-22 (21h) | 5.1/10 | 5.8/10 | 3.0/10 | 7.5/10 | ATTENDRE |
 | 2026-06-22 (17h) | 5.1/10 | 5.8/10 | 3.0/10 | 7.5/10 | ATTENDRE |
 | 2026-06-22 (13h) | 5.1/10 | 5.8/10 | 3.0/10 | 7.5/10 | ATTENDRE |
 | 2026-06-22 (10h) | 5.1/10 | 5.8/10 | 3.0/10 | 7.5/10 | ATTENDRE |

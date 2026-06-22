@@ -7,40 +7,56 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
+- **Recommandation :** SURVEILLER
+- **Score global :** 43,0/100
+- **Prix cible :** $104,30
+- **Stop-loss :** $52,45
+- **Statut thèse :** aggravée
 - **Horizon :** —
 
 ---
 
 ## 📉 Erreurs de prédiction récentes
 
-- Aucune erreur enregistrée.
+- Snapshot 17h UTC 22/06 : hypothèse "volume collapse = épuisement vendeur" **invalidée** par le snapshot 21h UTC (volume recovery 0,983× avec cours en baisse = distribution active).
 
 ---
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- **TRIPLE_GAP_DOWN** : total −14,30% en une séance ($85,43 → $73,19)
+- **PIVOT_CASSE** : low $72,59 < pivot $80,00
+- **COURS_SOUS_MM50 aggravé** : −16,8% sous MM50 $88,05
+- **RSI_SURVENTE** : RSI 32,85 < 35
+- **VOLUME_DISTRIBUTION** : volume recovery 0,983× mais cours en baisse — distribution active
+- **ATR_SPIKE (haut)** : ATR relatif 14,2% ($10,37)
+- **Profil non rentable** : EPS négatif, multiples extrêmes
+- **Secteur XLC bottom 3** : momentum_score 0,0
+- **Options J+4** : Max Pain $100 à +36,6%, put/call 0,70
+- **Short Interest élevé** : 18,39%
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings :** 2026-08-10 (J+49) — Est. EPS $−0,29 à $−0,17, Rev $0,0B
+- **Options expiry :** 2026-06-26 (J+4) — max pain $100
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 32.84
+- **RSI 14j :** 32.85
 - **MM 50j :** 88.05
 - **MM 200j :** —
 - **ATR 14j :** 10.37
-- **Volume moy. 20j :** 28363313
+- **Volume moy. 20j :** 28512971
+- **Volume snapshot :** 28024133 (0,983×)
+- **Cours :** 73.19
+- **Previous close :** 80.66
+- **Low :** 72.59
+- **52W high :** 133.86
+- **52W low :** 36.08
 
 ---
 
@@ -48,15 +64,15 @@
 
 - **Date :** 2026-06-22
 - **Type :** update
-- **Fichier :** `ASTS_2026-06-22_17-00_update.md`
-- **Conclusion :** **Thèse SURVEILLER aggravée : le double gap down intraday ($85,43→$80,66→$74,11, total −13,25%) confirme la cassure du pivot $80 et creuse l'écart à la MM50 à −15,9%
+- **Fichier :** `ASTS_2026-06-22_21-00_update.md`
+- **Conclusion :** **Thèse SURVEILLER aggravée : triple gap down intrasession ($85,43→$73,19, −14,30%), low $72,59 cassure confirmée pivot $80. Révision volumétrique majeure invalide hypothèse épuisement vendeur — distribution active confirmée.**
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap -9.26% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 14.17% (seuil 5.0%)
+- **PRICE_GAP** (high) — Gap −9.26% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (high) — ATR relatif 14.17% (seuil 5.0%)
 
 ---
 

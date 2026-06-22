@@ -71,12 +71,12 @@
 
 ---
 
-## 2026-06-22 — Full Refresh Triggered
+## 2026-06-22 — Full Refresh Triggered (close officiel 21h UTC)
 
 **Triggers :**
 - price_gap (medium) : Gap +6.82% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.59% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** CONFIRME — Volume révisé à 47.96M (0.88× moyenne 20j) invalide l'hypothèse de volume collapse du snapshot 17h. Le mouvement de +6.82% s'est construit sur une participation institutionnelle normale. Nouveau 52W high à $1213.56. Divergence cours vs consensus analystes à −56.2% ($1211.38 vs $530.16). Earnings dans 2 jours (2026-06-24). Score Global révisé ~56.5/100 → ATTENDRE (intensité négative levée).
 
 ---
