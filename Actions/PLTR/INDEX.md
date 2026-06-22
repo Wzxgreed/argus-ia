@@ -1,7 +1,7 @@
 # PLTR
 
 ## These courante
-| 2026-06-22 17h UTC | [PLTR_2026-06-22_17-00_update.md](PLTR_2026-06-22_17-00_update.md) | Snapshot 17h UTC — **effondrement technique majeur** vs 13h UTC : cours −5.94% a $120.84, RSI plonge a **15.0** (survente extreme), volume collapse a **30.28M (0.75x)**, ecart MM50 creuse a **−12.59%**, cours a **+0.9% du 52W low** ($119.76), options inchangées (Max Pain $130.00, Put/Call 0.47, Call OI 68.1%), scores agents revises a la baisse (Score Opportunite **5.1/10**, Global ajuste **47.5/100**), consensus FMP inchange $187.47 (34 analystes), timing DEFAVORABLE, these **INVALIDEE** — downgrade **ATTENDRE → SURVEILLER** | SURVEILLER — Score Opp. 5.1/10, cours $120.84, RSI 15.0, volume 30.28M (0.75x), ecart MM50 −12.59%, a 0.9% du 52W low, these invalidee |
+| 2026-06-22 21h UTC | [PLTR_2026-06-22_21-00_update.md](PLTR_2026-06-22_21-00_update.md) | Snapshot 21h UTC (close officielle) — **nouveau 52W low** a **$119.20**, cours $119.50 (−6.98% vs previous close, −1.11% vs 17h UTC), RSI **14.65** (survente extreme historique), volume **explose a 56.05M (1.34x)** — invalidation totale de l'hypothese "desert acheteur" du snapshot 17h UTC, ecart MM50 creuse a **−13.61%**, options inchangées (Max Pain $130.00, Put/Call 0.47, Call OI 68.1%), scores agents inchanges (Score Opportunite **5.1/10**, Global ajuste **47.5/100**), consensus FMP inchange $187.47 (34 analystes), timing DEFAVORABLE, these **INVALIDEE** — SURVEILLER maintenu | SURVEILLER — Score Opp. 5.1/10, cours $119.50, RSI 14.65, volume 56.05M (1.34x), ecart MM50 −13.61%, a 0.25% du nouveau 52W low $119.20, these invalidee |
 
 ## Historique
 | Date | Fichier | Type | Conclusion |
