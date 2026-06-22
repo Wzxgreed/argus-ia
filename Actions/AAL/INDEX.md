@@ -44,34 +44,36 @@
 | 2026-06-17 13:00 UTC | Mise a jour | [AAL_2026-06-17_update_13h00.md](./AAL_2026-06-17_update_13h00.md) | Correction data quality options — Max Pain $10.00, Put/Call 1.69, Call OI 37.2% restaurés. Risque gamma J−1 réévalué (inopérant). Cours, volumes et scores inchangés vs snapshot 10h. These **ATTENDRE — BIAIS HAUSSIER MAINTENU** confirmée. |
 | 2026-06-17 17:00 UTC | Mise a jour | [AAL_2026-06-17_update_17h00.md](./AAL_2026-06-17_update_17h00.md) | Snapshot 17h UTC — session +0.8% à $15.835 sur volume normalisé 62.19M (0.60× avg). RSI 61.34 (+3.98 pts). High $16.055 < $16.19 précédent = baisse des sommets. Scores dégradés : Score Opp 4.9/10 (−0.6), Global 53.8/100 (−5.7). Upside consensus +4.2%. These **ATTENDRE — BIAIS HAUSSIER ATTÉNUÉ**. SL $14.56, TP $17.76, R/R 1.5. |
 | 2026-06-22 13:00 UTC | Mise a jour | [AAL_2026-06-22_update.md](./AAL_2026-06-22_update.md) | Snapshot 13h UTC — rally +3.7% à $15.99 sur volume en expansion 126.28M (1.16× avg). RSI 61.34 inchangé. High $16.07 > $16.055 = remontée des sommets invalidant la fatigue. Scores améliorés : Score Opp 5.0/10 (+0.1), Global 55.0/100 (+1.2). Upside consensus +3.3%. ✅ Correction data quality options : Max Pain $13.50 (vs $5.00 aberrant 10h), Put/Call 1.74, Call OI 36.6%. Gamma landscape modifié — influence mécanique non négligeable. These **ATTENDRE — BIAIS HAUSSIER LÉGÈREMENT RENFORCÉ**. SL $14.63, TP $18.03, R/R 1.5. |
+| 2026-06-22 17:00 UTC | Mise a jour | [AAL_2026-06-22_update_17h00.md](./AAL_2026-06-22_update_17h00.md) | Snapshot 17h UTC — NOUVEAU 52W HIGH $16.5899, close $16.545 (+3.47% session, +7.2% vs 17/06), RSI 67.77 (+6.43), volume normalisé 99.32M (0.916× moyenne). Cassure 52W high non validée par volume (< 120M seuil Argus-IA). Consensus négatif −0.2%. These **ATTENDRE — BIAIS HAUSSIER TECHNIQUE RENFORCÉ MAIS NON CONFIRMÉ**. SL $15.19, TP $18.59, R/R 1.5. |
 
 ---
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE — BIAIS HAUSSIER LÉGÈREMENT RENFORCÉ (snapshot 13h UTC : rally +3.7% sur volume 1.16× moyenne, remontée des highs $16.055 → $16.07, scores améliorés Global 55.0/100, options corrigées Max Pain $13.50)
-- **Prix cible :** Suspendu — attente cassure 52W high $16.50 sur volume > 120M confirmé en close ou réévaluation post-earnings
-- **Stop-loss :** $14.63 (2×ATR $0.68)
-- **Take-profit :** $18.03 (3×ATR $0.68)
+- **Recommandation :** ATTENDRE — BIAIS HAUSSIER TECHNIQUE RENFORCÉ MAIS NON CONFIRMÉ (snapshot 17h UTC : nouveau 52W high $16.5899, close $16.545 sur volume 0.916× moyenne, RSI 67.77, consensus négatif, scores inchangés 55.0/100)
+- **Prix cible :** Suspendu — attente cassure confirmée au-dessus de $16.60 sur volume > 120M en close ou réévaluation post-earnings
+- **Stop-loss :** $15.19 (2×ATR $0.68)
+- **Take-profit :** $18.59 (3×ATR $0.68)
 - **Ratio R/R :** 1.5
-- **Upside/Downside :** +3.3% (consensus $16.51) / −8.5% (SL)
-- **Derniere mise a jour :** 2026-06-22 (snapshot 13h UTC, data options corrigée)
+- **Upside/Downside :** −0.2% (consensus $16.51) / −8.2% (SL)
+- **Derniere mise a jour :** 2026-06-22 (snapshot 17h UTC, close officiel)
 
-American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). La session du 22/06 a clôturé à **$15.99 (+3.7%)** sur un volume en **expansion de 126.28M (1.16× moyenne 20j)**, vs 62.19M (0.60× moyenne) au snapshot précédent du 17/06. Le high du jour **$16.07** dépasse le high précédent **$16.055** = invalidation du signal de fatigue haussière. Le RSI est resté **inchangé à 61.34** malgré +3.7% = pas de surachat aggravé. Le cours se positionne à **3.1% du 52W high $16.50**.
+American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). La session officielle du 22/06 a clôturé à **$16.545 (+3.47%)** sur un volume **normalisé de 99.323M (0.916× moyenne 20j)**. Le **nouveau 52W high $16.5899** a été établi en intraday, cassant l'ancien plafond $16.50. Cependant, la cassure s'opère sur un volume **sous la moyenne** = non confirmation institutionnelle selon les critères Argus-IA. Le RSI a grimpé à **67.77** (+6.43 pts), approchant la zone de surachat (70). Le consensus analystes **$16.51 est désormais sous le cours** = upside mécanique négatif (−0.2%).
 
-Les scores de l'agent recommandation ont été **légèrement améliorés** : Score Opportunité **5.0/10** (was 4.9), Score Global ajusté **55.0/100** (was 53.8) — écart réduit par rapport au seuil d'achat (60). L'upside consensus s'est réduit mécaniquement à **+3.3%** (vs +4.2%) car le cours a monté plus vite que le consensus. Le Forward P/E est à **7.18**. Le short interest reste stable à **11.39%**. Le Filtre Qualité reste 0–1/6. XLI (Industriels) est dans le **top3 sector rotation** (#2, momentum_score 6.25).
+Les scores de l'agent recommandation sont **inchangés** : Score Opportunité **5.0/10**, Score Global ajusté **55.0/100** — écart de 5.0 pts par rapport au seuil d'achat (60). Le Forward P/E est remonté mécaniquement à **7.42**. Le short interest reste stable à **11.39%**. Le Filtre Qualité reste 0–1/6. Aucun analyste n'a relevé son PT malgré la hausse de +7.2% en 5 séances = le consensus institutionnel ne valide pas la cassure.
 
-**✅ Correction data quality :** Le snapshot 10h UTC affichait des options corrompues (Max Pain $5.00 aberrant). Le pipeline 13h UTC a restauré des données cohérentes : Max Pain **$13.50**, Put/Call **1.74**, Call OI **36.6%**, expiration 2026-06-26. Le Max Pain remonté à $13.50 réduit l'écart spot/Max Pain à **+18.4%** (vs +59.9% avec l'ancien Max Pain $10.00) = l'influence gamma mécanique devient **non négligeable**. Surveillance accrue si repli sous $15.00 avant expiration vendredi.
+**✅ Correction data quality maintenue :** Les données options restent cohérentes : Max Pain **$13.50**, Put/Call **1.74**, Call OI **36.6%**, expiration 2026-06-26. L'écart spot/Max Pain est de **+22.6%** ($16.545 vs $13.50). Le risque de pin vers le Max Pain reste faible mais actif — surveillance si repli sous $15.00 avant expiration vendredi.
 
-**Verdict institutionnel :** La thèse est **ATTENDRE — BIAIS HAUSSIER LÉGÈREMENT RENFORCÉ.** La consolidation reste saine (cours au-dessus MM50, gap tenu), et l'expansion volumétrique + la remontée des sommets indiquent un retour de conviction institutionnelle. Cependant, le Score Global 55.0/100 reste sous le seuil d'achat. La valorisation reste faible (upside +3.3%). Le bilan reste extrêmement fragile (current ratio 0.50, tangible asset value négatif, net debt/EBITDA 8.83x). Le 52W high n'est pas encore cassé. Le gamma landscape modifié (Max Pain $13.50) ajoute une variable de surveillance technique.
+**Verdict institutionnel :** La thèse est **ATTENDRE — BIAIS HAUSSIER TECHNIQUE RENFORCÉ MAIS NON CONFIRMÉ.** La cassure du 52W high est un signal structurel positif, mais le volume insuffisant (99.32M < 108.41M moyenne, et < 120M seuil Argus-IA) et le consensus négatif limitent la conviction. Le RSI 67.77 approche le surachat, réduisant la marge de progression. Le Score Global 55.0/100 reste sous le seuil d'achat. Le bilan reste extrêmement fragile (current ratio 0.50, tangible asset value négatif, net debt/EBITDA 8.83x). Le rejet en close ($16.545 < $16.5899 high) indique une prise de bénéfices légère en fin de session.
 
 **Conditions de réactivation vers ACHETER (Sizing Réduit) :**
-- Cours > $16.50 (cassure 52W high) sur volume > 120M confirmé en close
+- Cours > $16.60 sur volume > 120M confirmé en close
 - Score Global ajusté ≥ 60
 
 **Conditions de dégradation vers SURVEILLER :**
+- RSI dépasse 70 et repli sous $16.00 (correction technique)
 - Repli sous $15.46 (close du 16/06)
-- Repli sous $14.63 (SL cassé)
+- Repli sous $15.19 (SL cassé)
 - Repli sous $15.00 avant expiration 26/06 (risque gamma vers Max Pain $13.50)
 
 **⚠️ Données partielles** — MM200 indisponible. Accounting risk indisponible. Quant report insuffisant. Social sentiment sans données Reddit. Transcripts NLP, insider trades détaillés, 13F complets, ETF flows, dark pool non disponibles.
@@ -106,5 +108,5 @@ Voir [SUPPLY_CHAIN.md](./SUPPLY_CHAIN.md)
 
 - Analyse initiale : [AAL_2026-05-17_init.md](./AAL_2026-05-17_init.md)
 - Mise a jour 2026-05-18 : [AAL_2026-05-18_update.md](./AAL_2026-05-18_update.md)
-- Derniere mise a jour : [AAL_2026-06-22_update.md](./AAL_2026-06-22_update.md)
+- Derniere mise a jour : [AAL_2026-06-22_update_17h00.md](./AAL_2026-06-22_update_17h00.md)
 - Contexte court terme : [CONTEXT.md](./CONTEXT.md)
