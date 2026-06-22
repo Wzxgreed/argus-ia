@@ -9,12 +9,12 @@
 
 - **Recommandation :** ACHETER · Direction Long · **Réduit**
 **Score Global :** 67.5/100 (ajusté **72.5**)
-**Prix cible desk :** $138.37 (TP ATR-based) / $163.29 (consensus analystes)
-**Stop-loss :** $119.12 (2×ATR)
+**Prix cible desk :** $138.04 (TP ATR-based) / $163.29 (consensus analystes)
+**Stop-loss :** $118.79 (2×ATR)
 **Horizon :** 1–3 mois
-**Statut thèse :** 🟡 **Confirmée avec prudence atténuée — volume collapse de 88%, distribution stoppée** — snapshot 17h UTC du 22/06 : **[STABLE]** Cours $126.82 (−0.19% vs 13h). **[ALERTE]** Volume **495K (0.18×)** vs 4.33M (1.56×) au snapshot 13h — **collapse de 88.6%** interprété comme une pause de la distribution institutionnelle. **[STABLE]** RSI 34.16 (−1.3 pt), ATR $3.85 (−$0.14), MM50 $121.37 (+$0.23). **[STABLE]** Options normalisées : max pain **$135.0**, put/call **0.49**, call OI **67.3%**. **[AMÉLIORATION]** Sector rotation : Healthcare (XLV) remonte au **#6** (momentum 1.34) vs #7 (0.75). **[STABLE]** Score Global ajusté **72.5/100** (−0.8 pt) — **ACHETER Réduit maintenu**.
+**Statut thèse :** 🟡 **Confirmée avec prudence atténuée — volume normalisé, hypothèse collapse invalidée** — close officiel 21h UTC du 22/06 : **[STABLE]** Cours $126.49 (−0.45% vs previous close, −0.26% vs snapshot 17h). **[CORRECTION]** Volume officiel **2.19M (0.79×)** vs 495K (0.18×) au snapshot 17h — **hypothèse volume collapse de 88% invalidée**, il s'agissait d'un snapshot partiel. **[STABLE]** RSI 33.78 (−0.38 pt), ATR $3.85 (stable), MM50 $121.36 (−$0.01). **[STABLE]** Options normalisées : max pain **$135.0**, put/call **0.49**, call OI **67.3%**. **[STABLE]** Sector rotation : Healthcare (XLV) au **#6** (momentum 1.08). **[STABLE]** Score Global ajusté **72.5/100** — **ACHETER Réduit maintenu**.
 
-**Synthèse :** Agilent clôture le 22/06 en consolidation post-gap ($124–$132) à **$126.82** (−0.19%). Le signal dominant de la séance est le **volume collapse de 88%** entre le snapshot 13h (4.33M, 1.56×) et le close officiel (495K, 0.18×). Cette absence de volume, combinée à une stabilité de cours, suggère une **interruption de la distribution institutionnelle** plutôt qu'une accélération baissière. Le RSI à **34.16** se rapproche de la zone 30 (survente), l'ATR compressé à **$3.85** confirme la consolidation, et la MM50 montante à **$121.37** reste le support technique clé. Les fondamentaux sont inchangés et solides : Filtre Qualité 5/6 maintenu, consensus $163.29 laissant un upside **+28.8%**, forward P/E 19.20× attractif. Les options restent normalisées (max pain $135.0, put/call 0.49, call OI 67.3%). L'entrée au spot $126.82 reste possible avec **sizing Réduit**. Risques principaux : (1) volume collapse extrême (0.18×) — risque d'illiquidité et d'amplification du prochain mouvement, (2) RSI 34.16 proche de 30 — risque de rebond technique ou d'accélération baissière, (3) rotation sectorielle défavorable mais en amélioration marginale (XLV #6, momentum 1.34), (4) earnings Q3 le 2026-08-26 (J+65).
+**Synthèse :** Agilent clôture le 22/06 en consolidation post-gap ($124–$132) à **$126.49** (−0.45%). La donnée majeure de cette session est la **correction volumétrique** : le snapshot 17h affichait un volume de 495K (0.18×), générant une fausse alerte de "volume collapse". Le close officiel révèle un volume réel de **2.19M (0.79×)**, ce qui invalide cette hypothèse et ramène l'analyse à une lecture standard : consolidation sur volume normal, sans distribution institutionnelle majeure ni accumulation anormale. Le RSI à **33.78** se rapproche de la zone 30 (survente), l'ATR compressé à **$3.85** confirme la consolidation, et la MM50 montante à **$121.36** reste le support technique clé. Les fondamentaux sont inchangés et solides : Filtre Qualité 5/6 maintenu, consensus $163.29 laissant un upside **+29.1%**, forward P/E 19.15× attractif. Les options restent normalisées (max pain $135.0, put/call 0.49, call OI 67.3%). L'entrée au spot $126.49 reste possible avec **sizing Réduit**. Risques principaux : (1) RSI 33.78 proche de 30 — risque de rebond technique ou d'accélération baissière, (2) rotation sectorielle défavorable (XLV #6, momentum 1.08), (3) earnings Q3 le 2026-08-26 (J+65).
 
 ---
 
@@ -66,11 +66,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 33.74
+- **RSI 14j :** 33.78
 - **MM 50j :** 121.36
 - **MM 200j :** —
 - **ATR 14j :** 3.85
-- **Volume moy. 20j :** 2729881
+- **Volume moy. 20j :** 2774743
 
 ---
 
@@ -79,7 +79,7 @@
 - **Date :** 2026-06-22
 - **Type :** update
 - **Fichier :** `A_2026-06-22_update.md`
-- **Conclusion :** > **Date :** 2026-06-22 · Snapshot 13:00 UTC (pré-ouverture US)
+- **Conclusion :** 🟡 Thèse confirmée avec prudence atténuée — hypothèse volume collapse invalidée. Cours $126.49 (−0.45%), volume officiel 2.19M (0.79×) corrige le snapshot partiel 17h (495K). RSI 33.78, ATR $3.85, MM50 $121.36. Score 72.5/100 ACHETER Réduit.
 
 ---
 

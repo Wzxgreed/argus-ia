@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER (Réduit)
-- **Score Global :** 68.0/100 (ajusté 60.0)
-- **Score Opportunité :** 6.8/10 (C:6.5 V:8.0 M:5.3)
+- **Recommandation :** ATTENDRE
+- **Score Global :** 67.2/100 (ajusté 59.2)
+- **Score Opportunité :** 6.7/10 (C:6.5 V:8.0 M:5.0)
 - **Prix Cible :** $17.49 (consensus FMP, 12 analysts)
-- **Stop-Loss :** $11.71 (ATR $0.57)
-- **Statut Thèse :** Score ajusté 60.0 — snapshot 17h UTC 22/06 : **re-upgrade mécanique** ATTENDRE → **ACHETER (Réduit)** par franchissement de seuil (Score Global Ajusté 59.2 → **60.0**, +0.8 pt), cours **$12.845** (+1.06% vs close 10h $12.71), RSI **48.38** (+3.07 pts), volume anémique **0.30×** (19.5M à mi-session), structure options stable (max pain $14.00, put/call 0.58, call OI 63.3%), gap MM50 **−4.4%** (vs −5.7%), fondamentaux intacts (forward P/E 11.15×, upside +36.1%), support $11.20 à +14.7%, SL/TP **$11.71/$14.55**, timing défavorable maintenu, expiration options 26/06 dans 4 jours
+- **Stop-Loss :** $11.65 (ATR $0.57)
+- **Statut Thèse :** Score ajusté 59.2 — snapshot 21h UTC 22/06 (close officielle US) : **downgrade mécanique de retour** ACHETER (Réduit) → **ATTENDRE** par franchissement de seuil (Score Global Ajusté 60.0 → **59.2**, −0.8 pt), cours **$12.79** (+0.63% vs previous close $12.71), RSI **47.74** (−0.64 pt), volume faible **0.56×** (36.51M), structure options stable (max pain $14.00, put/call 0.58, call OI 63.3%), gap MM50 **−4.9%**, fondamentaux intacts (forward P/E 11.10×, upside +36.7%), support $11.20 à +14.2%, SL/TP **$11.65/$14.50**, timing défavorable maintenu, expiration options 26/06 dans 4 jours
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
@@ -44,20 +44,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 47.86
+- **RSI 14j :** 47.74
 - **MM 50j :** 13.44
 - **MM 200j :** —
 - **ATR 14j :** 0.57
-- **Volume moy. 20j :** 64953562
+- **Volume moy. 20j :** 65029975
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-22
-- **Type :** init
-- **Fichier :** `NU_2026-06-22_update_17h.md`
-- **Conclusion :** **Thèse : CONFIRMÉE avec RE-UPGRADE MÉCANIQUE — ACHETER (Réduit) (mutation technique positive vs snapshot 10h, cours +1
+- **Type :** update
+- **Fichier :** `NU_2026-06-22_update_21h.md`
+- **Conclusion :** **Thèse : CONFIRMÉE avec DOWNGRADE MÉCANIQUE DE RETOUR — ATTENDRE (invalidation du re-upgrade de 17h, cours stable en clôture officielle $12.79 +0.63% vs $12.71, RSI 47.74, volume faible 0.56× 36.51M, gap MM50 −4.9%, fondamentaux intacts forward P/E 11.10× upside +36.7%, structure options stable max pain $14.00 put/call 0.58 call OI 63.3%, SL/TP révisés $11.65/$14.50, timing défavorable maintenu)**
 
 ---
 
