@@ -59,13 +59,12 @@ Thèse d'investissement : FUBO est un titre spéculatif du secteur Communication
 - Échéance options : **2026-06-18** (J+1 — max pain $11.00, put/call 0.43, call OI 70.0%)
 
 ## Alertes actives
-- **Anomalie Options JSON RÉSOLUE** — snapshot 17h UTC confirme max pain $11.00 / put/call 0.45 / call OI 69.0% cohérents sur deux lectures consécutives (13h + 17h). Résolution définitive après 17 jours d'incohérences — 2026-06-17
-- **Volume Effondré** — 510k (0.38× moy. 20j), après explosion matinale 1.86M (1.37×) — absence de conviction en après-midi — 2026-06-17
-- **Liquidation Intraday** — low matinal $8.915 (−10.2% vs open), low après-midi $9.11 — supports S1/S2 testés et tenus — 2026-06-17
-- **ATR_SPIKE** (medium) — ATR relatif 8.89% (seuil 5.0%), persistant — 2026-06-17
-- **Structure Options Haussière** — max pain $11.00, put/call 0.45, call OI 69.0%, spot à −14.4% sous max pain — 2026-06-17
-- **Short Squeeze Setup (latent)** — short interest 24.32% + call OI dominant 69.0% + put/call 0.45 = risque de squeeze technique si catalyseur positif — 2026-06-17
-- **Divergence Yahoo/FMP Market Cap** — ×3.2 d'écart entre sources ($274.8M Yahoo vs $879.7M FMP) — 2026-06-17
-- **Sector Rotation XLC Bottom 3** — malus sectoriel confirmé (momentum score 0.0, `data/sector_rotation_latest.json`) — 2026-06-17
+- **Anomalie Options JSON RÉSOLUE — PIVOT STRUCTUREL** — snapshot 13h UTC corrige l'incohérence 10h ($7.50/null/0.0%) avec des valeurs cohérentes mais **moins favorables** : max pain **$9.00** (vs $11.00 réf. opérationnelle), put/call **0.66** (vs 0.45), call OI **60.3%** (vs 69.0%). Le spot ($9.22) passe de −16.2% sous max pain à +2.4% au-dessus — pinning neutre / légèrement baissier. Structure options moins haussière confirmée — 2026-06-22
+- **Volume Récupéré** — 1.71M (1.20× moy. 20j), stable vs 10h — liquidité présente mais sans conviction de close — 2026-06-22
+- **ATR_SPIKE** (medium) — ATR relatif 9.44% (seuil 5.0%), persistant — 2026-06-22
+- **Structure Options Neutre / Légèrement Baissière** — max pain $9.00, put/call 0.66, call OI 60.3%, spot +2.4% au-dessus du max pain — élimination du catalyseur technique latent (pinning haussier vers $11.00) — 2026-06-22
+- **Short Squeeze Setup (latent, atténué)** — short interest 24.32% + call OI 60.3% + put/call 0.66 = risque de squeeze réduit vs configuration précédente (69.0% / 0.45) — 2026-06-22
+- **Divergence Yahoo/FMP Market Cap** — ×12.0 d'écart entre sources ($271.4M Yahoo vs $3,268.5M FMP) — anomalie data persistante — 2026-06-22
+- **Sector Rotation XLC Bottom 3** — malus sectoriel confirmé (momentum score 0.0, `data/sector_rotation_latest.json`) — 2026-06-22
 - **Qualité dégradée** — Score Qualité 1/6, patrimoine net négatif, FCF négatif
-- **Downgrade Thèse** — ATTENDRE 54.8/100 → ATTENDRE 53.5/100 (−1.3 pt, Momentum −0.5 pt à 3.5/10) — 2026-06-17
+- **Stabilité Scoring** — ATTENDRE 52.8/100 inchangé vs 10h (Catalyseur 6.5, Valorisation 7.0, Momentum 4.0) — 2026-06-22

@@ -1,5 +1,14 @@
 # RKLB — Historique des Full Refreshes
 
+## 2026-06-22 — DRAFT_refresh Archivé (Faux Positif ATR_SPIKE)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10,33 % (seuil 5,0 %)
+
+**Conclusion :** FAUX POSITIF — DRAFT_refresh détecté et archivé. L'ATR relatif 10,33 % est structurel depuis le repli du 1er juin. Aucun nouvel événement structurant. Données identiques au snapshot 10h UTC 22/06 (close $107,24, RSI 31,05, ATR $11,08, MM50 $103,91). [ANOMALIE OPTIONS JSON RÉSOLUE] Max Pain $69,00, Put/Call 0,88, Call OI 53,2 % rétablis (vs $45,00/null/null corrompus ce matin). Thèse SURVEILLER confirmée (Score Global 39,5/100). Fichiers : `RKLB_2026-06-22_update.md` + `RKLB_2026-06-22_init.md`. INDEX.md, CONTEXT.md mis à jour. DRAFT_refresh archivé (`_RKLB_2026-06-22_DRAFT_refresh.md`).
+
+---
+
 ## 2026-06-17 — DRAFT_refresh Archivé (Faux Positif ATR_SPIKE)
 
 **Triggers :**

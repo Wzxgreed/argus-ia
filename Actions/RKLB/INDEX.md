@@ -1,61 +1,62 @@
 # RKLB
 
 ## Thèse courante
-**2026-06-22 (snapshot 10h UTC)** — SURVEILLER. Stabilité prix −0.69% à $107.24 sur explosion volumétrique historique 2.34× (70.33M vs moy 20j 30.05M). RSI 31.05 (survente étendue stable). MM50 remonte à $103.91 (spot +3.2%, marge compressée). [ANOMALIE OPTIONS JSON RÉCURRENTRE] Max Pain $45.00 corrompu, Put/Call null, Call OI null — non opérationnel. Score Global 39.5/100 (SURVEILLER, −7.5 pts), Score Opportunité 4.0/10. Consensus PT $90.83 (18 analysts). Filtre Qualité 3/6 inchangé. SL $85.08 / TP $140.48. Zone critique : $100–$103.91 (support MM50). Si cassure MM50 avec volume >1.0× → ÉVITER. Si rebond + reclaim $113.65 → upgrade ATTENDRE. Pattern volume-price divergence = distribution institutionnelle suspecte.
+**2026-06-22 (snapshot 13h UTC)** — SURVEILLER. Stabilité prix −0,69 % à $107,24 sur explosion volumétrique historique 2,34× (70,33M vs moy 20j 30,05M). RSI 31,05 (survente étendue stable). MM50 remonte à $103,91 (spot +3,2 %, marge compressée). [ANOMALIE OPTIONS JSON RÉSOLUE] Max Pain $69,00, Put/Call 0,88, Call OI 53,2 % rétablis (vs données corrompues ce matin). Pin risk baissier J+4 (expiration 26/06) : spot +55,4 % au-dessus du max pain. Score Global 39,5/100 (SURVEILLER), Score Opportunité 4,0/10. Consensus PT $90,83 (18 analysts). Filtre Qualité 3/6 inchangé. SL $85,08 / TP $140,48. Zone critique : $100–$103,91 (support MM50). Si cassure MM50 avec volume >1,0× → ÉVITER. Si rebond + reclaim $113,65 → upgrade ATTENDRE. Pattern volume-price divergence = distribution institutionnelle suspecte. DRAFT_refresh ATR_SPIKE archivé faux positif.
 
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
-| 2026-06-22 | [RKLB_2026-06-22_update.md](RKLB_2026-06-22_update.md) | Snapshot 10h UTC — stabilité prix −0.69% sur explosion volumétrique 2.34× (70.33M), RSI 31.05, MM50 $103.91 (marge +3.2%, compressée), Score Global 39.5/100 SURVEILLER (−7.5 pts), [ANOMALIE OPTIONS] Max Pain $45.00 corrompu, pattern volume-price divergence = distribution suspecte, thèse SURVEILLER confirmée avec alerte technique |
-| 2026-06-17 | [RKLB_2026-06-17_update_17h.md](RKLB_2026-06-17_update_17h.md) | Snapshot 17h UTC — rebond +4.24% à $109.07 sur volume effondré 0.50×, RSI sort de survente stricte 30.62, MM50 $103.16 (marge +5.7%), Score Global 47.0/100 SURVEILLER, options cohérentes stables, DRAFT_refresh 17h archivé faux positif ATR_SPIKE, thèse SURVEILLER confirmée |
-| 2026-06-17 | [RKLB_2026-06-17_update_13h.md](RKLB_2026-06-17_update_13h.md) | Snapshot 13h UTC — stabilité mécanique totale vs 10h, [ANOMALIE OPTIONS JSON RÉSOLUE] Max Pain $115.00 / Put/Call 0.58 / Call OI 63.3% restaurés, skew haussier modéré révélé, pin risk J+1 +9.9% vs spot, Score Global 52.0/100 ATTENDRE inchangé, DRAFT_refresh 13h archivé artefact duplicate, thèse confirmée |
-| 2026-06-17 | [RKLB_2026-06-17_update.md](RKLB_2026-06-17_update.md) | Snapshot 10h UTC — repli −4.23% à $104.63, RSI survente 26.80 confirmée, MM50 $102.31 (marge critique +2.3%), volume normalisé 1.00×, Score Global 42.0/100 (ajusté 52.0/100) ATTENDRE, [ANOMALIE OPTIONS JSON PERSISTANTE], DRAFT_refresh ATR_SPIKE validé, thèse modifiée avec alerte structurelle sur proximité MM50 |
-| 2026-06-16 | [RKLB_2026-06-16_update_17h.md](RKLB_2026-06-16_update_17h.md) | Snapshot 17h UTC — repli -2.96% à $106.02, RSI survente 27.19 (franchi <30), volume effondré 0.60×, ATR compressé $11.55, MM50 $102.34 (marge +3.6%), Score Global 43.3/100 (ajusté 53.3/100) ATTENDRE, thèse modifiée avec nuance technique améliorée (survente + volume faible = pas de panique) mais alerte structurelle sur proximité MM50 |
-| 2026-06-16 | [RKLB_2026-06-16_update_13h.md](RKLB_2026-06-16_update_13h.md) | Snapshot 13h UTC — stabilité mécanique totale vs 10h UTC 16/06, [ANOMALIE OPTIONS JSON PARTIELLEMENT RÉSOLUE] Put/Call 0.67 et Call OI 59.8% rétablis (Max Pain $65.00 reste aberrant), données opérationnelles 21h UTC 15/06 conservées, thèse SURVEILLER confirmée |
-| 2026-06-16 | [RKLB_2026-06-16_update.md](RKLB_2026-06-16_update.md) | Snapshot 10h UTC — stabilité totale des données brutes et du scoring vs 21h UTC 15/06, [ANOMALIE OPTIONS JSON RÉCURRENTRE] Max Pain $35.00/Put/Call null/Call OI null, DRAFT_refresh archivé comme artefact pré-ouverture, thèse SURVEILLER confirmée |
-| 2026-06-15 | [RKLB_2026-06-15_update_21h.md](RKLB_2026-06-15_update_21h.md) | Snapshot 21h UTC — consolidation rebond +0.84% à $109.25, correction volumétrique majeure (1.03× vs 0.72× à 17h), score global ajusté 47.0/100 (stable), MM50 $101.57 (spot +7.6%), options stables, thèse SURVEILLER confirmée avec nuance améliorée |
-| 2026-06-15 | [RKLB_2026-06-15_update_17h.md](RKLB_2026-06-15_update_17h.md) | Snapshot 17h UTC — rebond +5.81% à $108.34, volume normalisé 0.72×, score global ajusté 47.0/100 (SURVEILLER, +10.0 pts), MM50 $101.55 (spot +6.7%), options rétablies, thèse modifiée de ÉVITER à SURVEILLER |
-| 2026-06-15 | [RKLB_2026-06-15_update.md](RKLB_2026-06-15_update.md) | Post-gap matin — gap baissier −10.79% sur volume 2.3× sans news, RSI 33.52, MM50 $100.74 (spot +1.6%), score global ajusté 37.0/100 (SURVEILLER/ÉVITER), consensus PT révisé $90.83 (+18 analysts), SL $78.03 / TP $138.93, thèse modifiée |
-| 2026-06-10 | [RKLB_2026-06-10_update.md](RKLB_2026-06-10_update.md) | Snapshot 10h UTC — données techniques partielles (close NaN, previous_close stale $113.65, ATR/MM50 null), [ANOMALIE OPTIONS JSON RÉCURRENTE] Put/Call 0.00 / Call OI 100% corrompus, RSI 42.93 (+2.28 pts), short interest 5.51% (−0.30 pt), score global ajusté 45.8/100 (SURVEILLER, +1.3 pt sur données incomplètes), thèse confirmée avec réserves |
-| 2026-06-09 | [RKLB_2026-06-09_update_21h.md](RKLB_2026-06-09_update_21h.md) | Close officiel 21h UTC — repli −4.77% à $108.23 sur volume 0.87× (+75.3% vs 13h), [DRAFT_refresh VALIDÉ] trigger ATR_SPIKE 11.23% confirmé (vrai événement technique vs faux positif 13h), RSI 40.65, ATR $12.15, MM50 $98.04, score global ajusté 44.5/100 (SURVEILLER, −2.5 pts), thèse modifiée — distribution technique confirmée |
-| 2026-06-09 | [RKLB_2026-06-09_update.md](RKLB_2026-06-09_update.md) | Snapshot 13h UTC — stabilité totale ($113.65 inchangé), [ANOMALIE OPTIONS JSON PARTIELLEMENT RÉSOLUE] Max Pain $65.00 / Put/Call 0.79 / Call OI 55.8% rétablis, [DRAFT_refresh ARCHIVÉ FAUX POSITIF] trigger ATR_SPIKE 10.52% invalide (ATR stable $11.96), score global ajusté 47.0/100 (SURVEILLER, inchangé), thèse confirmée |
-| 2026-06-09 | [RKLB_2026-06-09_update.md](RKLB_2026-06-09_update.md) | Snapshot matin 10h UTC — stabilité totale vs close 21h 08/06, [ANOMALIE OPTIONS JSON RÉCURRENTE], score global ajusté 47.0/100 (SURVEILLER, inchangé), thèse confirmée |
-| 2026-06-08 | [RKLB_2026-06-08_update_21h.md](RKLB_2026-06-08_update_21h.md) | Close officiel 21h UTC — $113.65 (+3.24% vs veille), volume révisé à la hausse 13.36M (0.47×), score global ajusté 47.0/100 (SURVEILLER), thèse confirmée |
-| 2026-06-08 | [RKLB_2026-06-08_update_17h.md](RKLB_2026-06-08_update_17h.md) | Snapshot 17h UTC — rebond technique +3.73% à $114.19 sur volume effondré 0.30×, score global ajusté 47.0/100, thèse confirmée |
-| 2026-06-08 | [RKLB_2026-06-08_update.md](RKLB_2026-06-08_update.md) | Snapshot 13h UTC — stabilité totale, anomalie options partiellement résolue, score global 43.3/100 |
-| 2026-06-03 | [RKLB_2026-06-03_update.md](RKLB_2026-06-03_update.md) | Snapshot 10h UTC — stabilité totale, scores inchangés SURVEILLER 49.5/100 |
-| 2026-06-02 | [RKLB_2026-06-02_update.md](RKLB_2026-06-02_update.md) | Snapshot 21:00 UTC — close officiel $123.32 (+0.76%), score global inchangé 49.5/100 |
-| 2026-06-02 | [RKLB_2026-06-02_update.md](RKLB_2026-06-02_update.md) | Snapshot 17:00 UTC — rebond +0.69% à $123.23 sur volume effondré, score global révisé 49.5/100 |
-| 2026-06-01 | [RKLB_2026-06-01_update.md](RKLB_2026-06-01_update.md) | Snapshot 21:00 UTC — close officiel $122.39 (−14.70%), score global 47.0/100 — thèse modifiée |
-| 2026-06-01 | [RKLB_2026-06-01_update.md](RKLB_2026-06-01_update.md) | Snapshot 17:00 UTC — repli –13.99% à $123.41, thèse modifiée de ÉVITER à SURVEILLER |
-| 2026-06-01 | [RKLB_2026-06-01_update.md](RKLB_2026-06-01_update.md) | Snapshot 13:00 UTC — repli -3.07% à $143.48, thèse ÉVITER confirmée et renforcée |
-| 2026-05-27 | [RKLB_2026-05-27_update.md](RKLB_2026-05-27_update.md) | Snapshot 17:00 UTC — gap haussier +4.28% à $149.33, nouveau 52W high, thèse ÉVITER confirmée |
+| 2026-06-22 | [RKLB_2026-06-22_update.md](RKLB_2026-06-22_update.md) | Snapshot 13h UTC — stabilité prix −0,69 % sur explosion volumétrique 2,34× (70,33M), RSI 31,05, MM50 $103,91 (marge +3,2 %), [ANOMALIE OPTIONS RÉSOLUE] Max Pain $69,00 / Put/Call 0,88 / Call OI 53,2 %, pin risk baissier J+4, Score Global 39,5/100 SURVEILLER, DRAFT_refresh archivé faux positif, thèse SURVEILLER confirmée |
+| 2026-06-22 | [RKLB_2026-06-22_init.md](RKLB_2026-06-22_init.md) | Full Refresh complété — trigger ATR_SPIKE archivé faux positif, thèse SURVEILLER confirmée, options corrigées |
+| 2026-06-17 | [RKLB_2026-06-17_update_17h.md](RKLB_2026-06-17_update_17h.md) | Snapshot 17h UTC — rebond +4,24 % à $109,07 sur volume effondré 0,50×, RSI sort de survente stricte 30,62, MM50 $103,16 (marge +5,7 %), Score Global 47,0/100 SURVEILLER, options cohérentes stables, DRAFT_refresh 17h archivé faux positif ATR_SPIKE, thèse SURVEILLER confirmée |
+| 2026-06-17 | [RKLB_2026-06-17_update_13h.md](RKLB_2026-06-17_update_13h.md) | Snapshot 13h UTC — stabilité mécanique totale vs 10h, [ANOMALIE OPTIONS JSON RÉSOLUE] Max Pain $115,00 / Put/Call 0,58 / Call OI 63,3 % restaurés, skew haussier modéré révélé, pin risk J+1 +9,9 % vs spot, Score Global 52,0/100 ATTENDRE inchangé, DRAFT_refresh 13h archivé artefact duplicate, thèse confirmée |
+| 2026-06-17 | [RKLB_2026-06-17_update.md](RKLB_2026-06-17_update.md) | Snapshot 10h UTC — repli −4,23 % à $104,63, RSI survente 26,80 confirmée, MM50 $102,31 (marge critique +2,3 %), volume normalisé 1,00×, Score Global 42,0/100 (ajusté 52,0/100) ATTENDRE, [ANOMALIE OPTIONS JSON PERSISTANTE], DRAFT_refresh ATR_SPIKE validé, thèse modifiée avec alerte structurelle sur proximité MM50 |
+| 2026-06-16 | [RKLB_2026-06-16_update_17h.md](RKLB_2026-06-16_update_17h.md) | Snapshot 17h UTC — repli -2,96 % à $106,02, RSI survente 27,19 (franchi <30), volume effondré 0,60×, ATR compressé $11,55, MM50 $102,34 (marge +3,6 %), Score Global 43,3/100 (ajusté 53,3/100) ATTENDRE, thèse modifiée avec nuance technique améliorée (survente + volume faible = pas de panique) mais alerte structurelle sur proximité MM50 |
+| 2026-06-16 | [RKLB_2026-06-16_update_13h.md](RKLB_2026-06-16_update_13h.md) | Snapshot 13h UTC — stabilité mécanique totale vs 10h UTC 16/06, [ANOMALIE OPTIONS JSON PARTIELLEMENT RÉSOLUE] Put/Call 0,67 et Call OI 59,8 % rétablis (Max Pain $65,00 reste aberrant), données opérationnelles 21h UTC 15/06 conservées, thèse SURVEILLER confirmée |
+| 2026-06-16 | [RKLB_2026-06-16_update.md](RKLB_2026-06-16_update.md) | Snapshot 10h UTC — stabilité totale des données brutes et du scoring vs 21h UTC 15/06, [ANOMALIE OPTIONS JSON RÉCURRENTRE] Max Pain $35,00/Put/Call null/Call OI null, DRAFT_refresh archivé comme artefact pré-ouverture, thèse SURVEILLER confirmée |
+| 2026-06-15 | [RKLB_2026-06-15_update_21h.md](RKLB_2026-06-15_update_21h.md) | Snapshot 21h UTC — consolidation rebond +0,84 % à $109,25, correction volumétrique majeure (1,03× vs 0,72× à 17h), score global ajusté 47,0/100 (stable), MM50 $101,57 (spot +7,6 %), options stables, thèse SURVEILLER confirmée avec nuance améliorée |
+| 2026-06-15 | [RKLB_2026-06-15_update_17h.md](RKLB_2026-06-15_update_17h.md) | Snapshot 17h UTC — rebond +5,81 % à $108,34, volume normalisé 0,72×, score global ajusté 47,0/100 (SURVEILLER, +10,0 pts), MM50 $101,55 (spot +6,7 %), options rétablies, thèse modifiée de ÉVITER à SURVEILLER |
+| 2026-06-15 | [RKLB_2026-06-15_update.md](RKLB_2026-06-15_update.md) | Post-gap matin — gap baissier −10,79 % sur volume 2,3× sans news, RSI 33,52, MM50 $100,74 (spot +1,6 %), score global ajusté 37,0/100 (SURVEILLER/ÉVITER), consensus PT révisé $90,83 (+18 analysts), SL $78,03 / TP $138,93, thèse modifiée |
+| 2026-06-10 | [RKLB_2026-06-10_update.md](RKLB_2026-06-10_update.md) | Snapshot 10h UTC — données techniques partielles (close NaN, previous_close stale $113,65, ATR/MM50 null), [ANOMALIE OPTIONS JSON RÉCURRENTE] Put/Call 0,00 / Call OI 100 % corrompus, RSI 42,93 (+2,28 pts), short interest 5,51 % (−0,30 pt), score global ajusté 45,8/100 (SURVEILLER, +1,3 pt sur données incomplètes), thèse confirmée avec réserves |
+| 2026-06-09 | [RKLB_2026-06-09_update_21h.md](RKLB_2026-06-09_update_21h.md) | Close officiel 21h UTC — repli −4,77 % à $108,23 sur volume 0,87× (+75,3 % vs 13h), [DRAFT_refresh VALIDÉ] trigger ATR_SPIKE 11,23 % confirmé (vrai événement technique vs faux positif 13h), RSI 40,65, ATR $12,15, MM50 $98,04, score global ajusté 44,5/100 (SURVEILLER, −2,5 pts), thèse modifiée — distribution technique confirmée |
+| 2026-06-09 | [RKLB_2026-06-09_update.md](RKLB_2026-06-09_update.md) | Snapshot 13h UTC — stabilité totale ($113,65 inchangé), [ANOMALIE OPTIONS JSON PARTIELLEMENT RÉSOLUE] Max Pain $65,00 / Put/Call 0,79 / Call OI 55,8 % rétablis, [DRAFT_refresh ARCHIVÉ FAUX POSITIF] trigger ATR_SPIKE 10,52 % invalide (ATR stable $11,96), score global ajusté 47,0/100 (SURVEILLER, inchangé), thèse confirmée |
+| 2026-06-09 | [RKLB_2026-06-09_update.md](RKLB_2026-06-09_update.md) | Snapshot matin 10h UTC — stabilité totale vs close 21h 08/06, [ANOMALIE OPTIONS JSON RÉCURRENTE], score global ajusté 47,0/100 (SURVEILLER, inchangé), thèse confirmée |
+| 2026-06-08 | [RKLB_2026-06-08_update_21h.md](RKLB_2026-06-08_update_21h.md) | Close officiel 21h UTC — $113,65 (+3,24 % vs veille), volume révisé à la hausse 13,36M (0,47×), score global ajusté 47,0/100 (SURVEILLER), thèse confirmée |
+| 2026-06-08 | [RKLB_2026-06-08_update_17h.md](RKLB_2026-06-08_update_17h.md) | Snapshot 17h UTC — rebond technique +3,73 % à $114,19 sur volume effondré 0,30×, score global ajusté 47,0/100, thèse confirmée |
+| 2026-06-08 | [RKLB_2026-06-08_update.md](RKLB_2026-06-08_update.md) | Snapshot 13h UTC — stabilité totale, anomalie options partiellement résolue, score global 43,3/100 |
+| 2026-06-03 | [RKLB_2026-06-03_update.md](RKLB_2026-06-03_update.md) | Snapshot 10h UTC — stabilité totale, scores inchangés SURVEILLER 49,5/100 |
+| 2026-06-02 | [RKLB_2026-06-02_update.md](RKLB_2026-06-02_update.md) | Snapshot 21:00 UTC — close officiel $123,32 (+0,76 %), score global inchangé 49,5/100 |
+| 2026-06-02 | [RKLB_2026-06-02_update.md](RKLB_2026-06-02_update.md) | Snapshot 17:00 UTC — rebond +0,69 % à $123,23 sur volume effondré, score global révisé 49,5/100 |
+| 2026-06-01 | [RKLB_2026-06-01_update.md](RKLB_2026-06-01_update.md) | Snapshot 21:00 UTC — close officiel $122,39 (−14,70 %), score global 47,0/100 — thèse modifiée |
+| 2026-06-01 | [RKLB_2026-06-01_update.md](RKLB_2026-06-01_update.md) | Snapshot 17:00 UTC — repli –13,99 % à $123,41, thèse modifiée de ÉVITER à SURVEILLER |
+| 2026-06-01 | [RKLB_2026-06-01_update.md](RKLB_2026-06-01_update.md) | Snapshot 13:00 UTC — repli -3,07 % à $143,48, thèse ÉVITER confirmée et renforcée |
+| 2026-05-27 | [RKLB_2026-05-27_update.md](RKLB_2026-05-27_update.md) | Snapshot 17:00 UTC — gap haussier +4,28 % à $149,33, nouveau 52W high, thèse ÉVITER confirmée |
 | 2026-05-27 | [RKLB_2026-05-27_update.md](RKLB_2026-05-27_update.md) | Snapshot 13:00 UTC — stabilité, mutation options significative, thèse ÉVITER confirmée |
-| 2026-05-26 | [RKLB_2026-05-26_update.md](RKLB_2026-05-26_update.md) | Snapshot 21:00 UTC — close officiel $143.20 (+5.48% vs veille), volume 1.11×, thèse ÉVITER confirmée |
-| 2026-05-26 | [RKLB_2026-05-26_update.md](RKLB_2026-05-26_update.md) | Snapshot 17:00 UTC — gap haussier +5.33% à $142.99, nouveau 52W high, thèse ÉVITER confirmée |
+| 2026-05-26 | [RKLB_2026-05-26_update.md](RKLB_2026-05-26_update.md) | Snapshot 21:00 UTC — close officiel $143,20 (+5,48 % vs veille), volume 1,11×, thèse ÉVITER confirmée |
+| 2026-05-26 | [RKLB_2026-05-26_update.md](RKLB_2026-05-26_update.md) | Snapshot 17:00 UTC — gap haussier +5,33 % à $142,99, nouveau 52W high, thèse ÉVITER confirmée |
 | 2026-05-26 | [RKLB_2026-05-26_init.md](RKLB_2026-05-26_init.md) | Full Refresh — triggers stales, thèse ÉVITER confirmée |
 | 2026-05-25 | [RKLB_2026-05-25_update.md](RKLB_2026-05-25_update.md) | Close officiel 21h UTC — stabilité totale, thèse ÉVITER confirmée |
-| 2026-05-25 | [RKLB_2026-05-25_update.md](RKLB_2026-05-25_update.md) | Snapshot 17:00 UTC — gap +8.22%, nouveau 52W high, thèse ÉVITER confirmée |
+| 2026-05-25 | [RKLB_2026-05-25_update.md](RKLB_2026-05-25_update.md) | Snapshot 17:00 UTC — gap +8,22 %, nouveau 52W high, thèse ÉVITER confirmée |
 | 2026-05-20 | [RKLB_2026-05-20_update.md](RKLB_2026-05-20_update.md) | Snapshot 13:00 UTC — anomalie options résolue, thèse ÉVITER confirmée |
-| 2026-05-19 | [RKLB_2026-05-19_init.md](RKLB_2026-05-19_init.md) | Full Refresh — ATR_SPIKE 8.71%, thèse ÉVITER confirmée |
-| 2026-05-19 | [RKLB_2026-05-19_update.md](RKLB_2026-05-19_update.md) | Close officiel 21h UTC — $127.31, rebond +1.76% fin séance |
+| 2026-05-19 | [RKLB_2026-05-19_init.md](RKLB_2026-05-19_init.md) | Full Refresh — ATR_SPIKE 8,71 %, thèse ÉVITER confirmée |
+| 2026-05-19 | [RKLB_2026-05-19_update.md](RKLB_2026-05-19_update.md) | Close officiel 21h UTC — $127,31, rebond +1,76 % fin séance |
 | 2026-05-18 | [RKLB_2026-05-18_init.md](RKLB_2026-05-18_init.md) | Full Refresh (init, 09:02 UTC) |
 | 2026-05-17 | [RKLB_2026-05-17_claude.md](RKLB_2026-05-17_claude.md) | Analyse approfondie (LLM) |
 
 ## Agenda
-- Prochain earnings : **2026-08-06** (Q2 2026, Est EPS –$0.06 à –$0.02)
-- Expiration options : **2026-06-12** (Max Pain JSON $65.00 aberrant — [NON OPÉRATIONNEL])
+- Prochain earnings : **2026-08-06** (Q2 2026, Est EPS –$0,15 à –$0,02)
+- Expiration options : **2026-06-26** (Max Pain $69,00 — pin risk baissier spot +55,4 %)
 
 ## Alertes actives
-- RSI 33.14 — neutre-bas, zone de survente proche (<30)
-- Divergence consensus — spot +20.3% vs PT $90.83 (élargie mécaniquement par le rebond)
+- RSI 31,05 — survente étendue, zone <40
+- Divergence consensus — spot +18,0 % vs PT $90,83
 - Filtre Qualité 3/6 — hors périmètre institutionnel
-- Ratio R/R 1.5:1 — inférieur au seuil 2:1 institutionnel
-- Volume 1.03× — participation normale, correction volumétrique majeure vs snapshot 17h (0.72×)
-- ATR $12.04 — volatilité élevée mais stable
-- Support critique : $90–$102 (MM50 $101.57 + zone psychologique) — marge +7.6% confortable
-- Forward P/E −15028 — valorisation extrême, non rentable
-- [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $68.26 Mds vs FMP $37.02 Mds
-- Beta 2.499 — sensibilité systématique extrême
-- Gap baissier matin −10.79% partiellement comblé (−3.9% vs close 08/06 $113.65)
-- Rebond technique consolidé à $109.25 sans catalyseur fondamental identifié
+- Ratio R/R 1,5:1 — inférieur au seuil 2:1 institutionnel
+- Volume 2,34× — explosion volumétrique sur stabilité prix (distribution suspecte)
+- ATR $11,08 — volatilité élevée mais stable
+- Support critique : $100–$103,91 (MM50 $103,91 + zone psychologique) — marge +3,2 % réduite
+- Forward P/E −6 104 — valorisation extrême, non rentable
+- [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $67,01 Mds vs FMP $37,02 Mds
+- Beta 2,499 — sensibilité systématique extrême
+- Pin risk expiration 26/06 — Max Pain $69,00 vs spot $107,24 (écart +55,4 %)
+- Pattern volume-price divergence = distribution institutionnelle suspecte
