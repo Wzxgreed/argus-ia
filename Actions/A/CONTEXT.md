@@ -1,4 +1,4 @@
-# CONTEXT — A — Dernière mise à jour : 2026-06-22
+# CONTEXT — A — Dernière mise à jour : 2026-06-22 (snapshot 10h UTC)
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -7,14 +7,14 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER · Direction Long · **Standard**
-**Score Global :** 70.0/100 (ajusté **75.0**)
-**Prix cible desk :** $144.54 (TP ATR-based) / $163.29 (consensus analystes)
-**Stop-loss :** $117.54 (2×ATR)
+- **Recommandation :** ACHETER · Direction Long · **Réduit**
+**Score Global :** 68.3/100 (ajusté **73.3**)
+**Prix cible desk :** $139.03 (TP ATR-based) / $163.29 (consensus analystes)
+**Stop-loss :** $119.08 (2×ATR)
 **Horizon :** 1–3 mois
-**Statut thèse :** 🟢 **Confirmée avec prudence atténuée — anomalie options JSON résolue** — snapshot 13h UTC du 17/06 : **[STABILITÉ MÉCANIQUE TOTALE]** vs snapshot 10h (cours $128.34, RSI 64.85, volume 2.35M inchangés). **[RÉSOLU]** Anomalie options JSON : valeurs normalisées confirmées (max pain $130.0, put/call 1.51, call OI 39.8%) vs aberrations 10h ($190 / 0.02 / 98.1%). Pinning options J+1 (expiration 18/06) inchangé à $1.66 du max pain. Sector rotation : Healthcare (XLV) #6 (momentum 3.02), hors top 3.
+**Statut thèse :** 🟡 **Modifiée avec prudence — mutation technique majeure** — snapshot 10h UTC du 22/06 : **[MUTATION RSI]** chute de 64.85 à **35.46** (−29.4 pts), franchissement seuil 40. **[MUTATION VOLUME]** spike à **4.33M (1.56× moy. 20j)** (+84% vs 17/06) — distribution active. **[RÉVISION]** Score Global ajusté **73.3/100** (−1.7 pt), sizing abaissé **Standard → Réduit**. **[ANOMALIE]** Options JSON récurrente sur nouveau cycle 17/07 (max pain $60.0 aberrant). **[DÉGRADATION]** Sector rotation : Healthcare (XLV) chute au **#7** (momentum 0.75) vs #6 (3.02).
 
-**Synthèse :** Agilent est en phase de consolidation post-gap avec le volume institutionnel **rétabli** à 0.85× moy. 20j. Le scoring agent reste à **75.0/100 (ACHETER Standard)**. Le pullback de −1.72% à $128.34 est sain dans le range $126–$132. Le RSI normalisé à **64.85** offre un profil d'entrée favorable. Les fondamentaux restent solides : Filtre Qualité 5/6 maintenu, consensus $163.29 laissant un upside **+27.2%**. Le forward P/E 19.43× est attractif pour un Quality Compounder. **[RÉSOLU]** L'anomalie options JSON récurrente est résolue au snapshot 13h UTC : valeurs normalisées confirmées ($130.0 / 1.51 / 39.8%). Risques principaux : (1) pinning options J+1 autour de $130 (close à $1.66), (2) rotation sectorielle défavorable (XLV #6), (3) earnings Q3 le 2026-08-26 (J+70).
+**Synthèse :** Agilent reste en consolidation post-gap ($124–$132) mais la structure technique s'est dégradée sur 5 séances. Le scoring agent est abaissé à **73.3/100 (ACHETER Réduit)**. Le RSI à **35.46** est en zone neutre-oversold, le volume spike à **1.56×** traduit une distribution institutionnelle active, et l'ATR se compresse à **$3.99** (−26.1%). La MM50 montante à **$121.14** reste le support technique clé. Les fondamentaux sont inchangés et solides : Filtre Qualité 5/6 maintenu, consensus $163.29 laissant un upside **+28.5%**, forward P/E 19.23× attractif. L'entrée au spot $127.06 reste possible mais avec **sizing Réduit** et prudence accrue. Risques principaux : (1) distribution active sous le masque de la consolidation, (2) RSI oversold proche de 30 — risque d'accélération baissière, (3) rotation sectorielle défavorable (XLV #7, momentum 0.75), (4) anomalie options JSON récurrente, (5) earnings Q3 le 2026-08-26 (J+65).
 
 ---
 
@@ -71,15 +71,19 @@
 - **MM 200j :** —
 - **ATR 14j :** 3.99
 - **Volume moy. 20j :** 2786240
+- **Volume session :** 4334300 (1.56×)
+- **Cours :** 127.06
+- **Previous close :** 124.33
+- **Change % :** +2.2%
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-17
+- **Date :** 2026-06-22
 - **Type :** update
-- **Fichier :** `A_2026-06-17_update.md`
-- **Conclusion :** > **Date :** 2026-06-17 · Snapshot 13:00 UTC (pré-ouverture US)
+- **Fichier :** `A_2026-06-22_update.md`
+- **Conclusion :** 🟡 **Thèse modifiée avec prudence — mutation technique majeure** : RSI 35.46 (−29.4 pts vs 17/06), volume spike 4.33M (1.56×, +84%), ATR $3.99 (−26.1%). Score Global ajusté **73.3/100** (−1.7 pt) — **ACHETER Réduit** (sizing abaissé Standard → Réduit). Anomalie options JSON récurrente sur cycle 17/07. XLV chute au #7 (momentum 0.75).
 
 ---
 
