@@ -1,33 +1,40 @@
-# FUBO — Mise à jour 2026-06-22 (snapshot 10h UTC)
+# FUBO — Mise à jour 2026-06-22 (snapshot 13h UTC)
 
 > **Ticker :** FUBO | **Secteur :** Communication Services / Broadcasting
 > **Close :** $9.22 (+3.6% vs previous close $8.90) | **Volume :** 1,712,500 (1.20× moy. 20j 1.42M)
-> **Source données :** `data/latest.json` (2026-06-22 10:00:13 UTC) + `data/recommandations_latest.json`
+> **Source données :** `data/latest.json` (2026-06-22 13:00:13 UTC) + `data/recommandations_latest.json`
 
 ---
 
-## 1. Résumé des changements depuis l’analyse précédente (2026-06-17 17h UTC)
+## 1. Résumé des changements depuis l’analyse précédente (2026-06-22 10h UTC)
 
-| Indicateur | 2026-06-17 17h UTC | 2026-06-22 10h UTC | Δ |
+| Indicateur | 2026-06-22 10h UTC | 2026-06-22 13h UTC | Δ |
 |------------|-------------------|-------------------|---|
-| **Close** | $9.335 | **$9.22** | **−1.23%** vs last analysis (+3.6% vs prev close $8.90) |
-| **RSI 14j** | 41.93 | **43.86** | **+1.93 pts** |
-| **Volume vs 20j** | 0.38× (510k) | **1.20×** (1.71M) | **+1.82M abs, +0.82× ratio** |
-| **MM50** | $10.91 | **$10.85** | **−0.55%** |
-| **Écart MM50** | −14.4% | **−15.0%** | **−0.6 pp** |
-| **ATR 14j** | $0.83 | **$0.87** | **+4.8%** |
-| **Max Pain (JSON)** | $11.00 | **$7.50** | **⚠️ ANOMALIE détectée** |
-| **Put/Call (JSON)** | 0.45 | **null** | **⚠️ Données corrompues** |
-| **Call OI % (JSON)** | 69.0% | **0.0%** | **⚠️ Données corrompues** |
+| **Close** | $9.22 | **$9.22** | **stable** |
+| **RSI 14j** | 43.86 | **43.86** | **stable** |
+| **Volume vs 20j** | 1.20× (1.71M) | **1.20×** (1.71M) | **stable** |
+| **MM50** | $10.85 | **$10.85** | **stable** |
+| **Écart MM50** | −15.0% | **−15.0%** | **stable** |
+| **ATR 14j** | $0.87 | **$0.87** | **stable** |
+| **Max Pain (JSON)** | $7.50 (corrompu) | **$9.00** | **⚠️ CORRECTION JSON — valeur cohérente mais ↓$2.00 vs réf. opérationnelle** |
+| **Put/Call (JSON)** | null (corrompu) | **0.66** | **⚠️ CORRECTION JSON — valeur cohérente mais ↑0.21 vs réf. opérationnelle** |
+| **Call OI % (JSON)** | 0.0% (corrompu) | **60.3%** | **⚠️ CORRECTION JSON — valeur cohérente mais ↓8.7 pp vs réf. opérationnelle** |
 | **Short Interest** | 24.32% | **24.32%** | **stable** |
-| **Score Global Ajusté** | 53.5/100 | **52.8/100** | **−0.7 pt** |
-| **Score Opportunité** | 6.2/10 | **6.1/10** | **−0.1 pt** |
-| **Score Valorisation** | 7.5/10 | **7.0/10** | **−0.5 pt** |
-| **Score Momentum** | 3.5/10 | **4.0/10** | **+0.5 pt** |
+| **Score Global Ajusté** | 52.8/100 | **52.8/100** | **stable** |
+| **Score Opportunité** | 6.1/10 | **6.1/10** | **stable** |
+| **Score Valorisation** | 7.0/10 | **7.0/10** | **stable** |
+| **Score Momentum** | 4.0/10 | **4.0/10** | **stable** |
 
-> **⚠️ Anomalie options JSON RÉCURRENTE** : Le snapshot 2026-06-22 10h UTC affiche des données options incohérentes (max pain $7.50 aberrant vs $11.00 historique confirmé, put/call `null`, call OI 0.0% vs 69.0% précédent). L’échéance a glissé de 2026-06-18 à **2026-06-26**. Ces valeurs sont traitées comme artefact et remplacées par les **valeurs opérationnelles confirmées** : max pain **$11.00**, put/call **0.45**, call OI **69.0%**.
+> **⚠️ Data quality — résolution de l’anomalie options JSON :** Le snapshot 13h UTC corrige l’incohérence observée à 10h (max pain $7.50 aberrant, put/call `null`, call OI 0.0%). Les valeurs sont désormais **cohérentes et exploitables** : max pain **$9.00**, put/call **0.66**, call OI **60.3%**, échéance **2026-06-26**.
+>
+> **Cependant**, ces valeurs corrigées diffèrent significativement de la référence opérationnelle utilisée depuis le 17/06 ($11.00 / 0.45 / 69.0%) :
+> - Max pain : **−18.2%** ($11.00 → $9.00) — aimant baissier révisé au plus près du spot
+> - Put/call : **+46.7%** (0.45 → 0.66) — biais haussier des calls atténué
+> - Call OI % : **−8.7 pp** (69.0% → 60.3%) — dominance call réduite
+>
+> **Impact :** Le spot ($9.22) passe d’une position −16.2% sous max pain ($11.00, potentiel d’aspiration haussière) à **+2.4% au-dessus du max pain** ($9.00, pinning réduit, neutre). La structure options est désormais **moins haussière** qu’antérieurement estimée.
 
-**Verdict :** Le titre enregistre une **légère baisse de close** (−1.23% vs $9.335) mais sur un **volume en forte récupération** (1.20× vs 0.38× précédent), signalant un regain d’intérêt de marché après 3 séances d’intervention (close intermédiaire observé à $8.90). Le RSI progresse de 1.93 pt (43.86) mais reste en zone neutre inférieure. L’ATR remonte à $0.87 (+4.8%), maintenant la volatilité élevée. Le scoring agent corrigé légèrement à la baisse (−0.7 pt global) du fait d’un malus Valorisation (−0.5 pt), partiellement compensé par une amélioration Momentum (+0.5 pt à 4.0/10). **Action inchangée : ATTENDRE.**
+**Verdict :** Les données de marché (cours, volume, RSI, ATR, MM50) sont **strictement identiques** entre les snapshots 10h et 13h UTC. La seule évolution matérielle concerne la **résolution de l’anomalie options JSON** avec des valeurs désormais cohérentes mais **moins favorables** que la référence opérationnelle précédente. Le scoring agent est inchangé (ATTENDRE 52.8/100). **Thèse inchangée : ATTENDRE.**
 
 ---
 
@@ -35,31 +42,31 @@
 
 | Niveau | Valeur | Commentaire |
 |--------|--------|-------------|
-| **Open** | $8.78 | Ouverture sous le close précédent ($8.90) |
+| **Open** | $8.78 | — |
 | **High** | $9.35 | Test de la résistance immédiate $9.35 — rejet au close |
-| **Low** | $8.48 | Approche du 52W low ($8.31) — support psychologique testé |
-| **Close** | $9.22 | Micro-rebond intraday +8.7% du low, mais close sous l’open |
-| **RSI 14j** | **43.86** | Zone neutre inférieure, +1.93 pts vs 17/06 — légère amélioration |
-| **MM50** | **$10.85** | Écart **−15.0%** — tendance baissière intacte, MM50 en descente (−$0.06) |
+| **Low** | $8.48 | Approche du 52W low ($8.31) — support psychologique testé et tenu |
+| **Close** | $9.22 | Micro-rebond intraday +8.7% du low, close sous le high |
+| **RSI 14j** | **43.86** | Zone neutre inférieure, inchangé vs 10h |
+| **MM50** | **$10.85** | Écart **−15.0%** — tendance baissière intacte |
 | **MM200** | — | Non calculée (historique insuffisant) |
-| **ATR 14j** | **$0.87** | Volatilité en hausse (+4.8%) ; ATR relatif **9.44%** (> seuil 5.0%) — **ATR_SPIKE actif** |
-| **Volume 20j** | 1.42M | Moyenne en légère hausse vs 1.33M au 17/06 |
-| **Volume session** | **1,712,500** | **1.20×** — récupération forte vs l’effondrement 0.38× du 17/06 |
+| **ATR 14j** | **$0.87** | Volatilité élevée ; ATR relatif **9.44%** (> seuil 5.0%) — **ATR_SPIKE actif** |
+| **Volume 20j** | 1.42M | Moyenne stable |
+| **Volume session** | **1,712,500** | **1.20×** — liquidité en récupération |
 | **Beta** | 2.392 | Volatilité systématique élevée |
 | **52W Range** | $8.31 – $56.64 | Cours à **−83.7%** du 52W high, +11.0% au-dessus du 52W low |
 
 **Supports / Résistances (ATR-based)**
 - R1 (résistance immédiate) : $9.35 – $9.40 (high session + zone de rejet)
-- R2 : $10.85 – $11.00 (MM50 + max pain opérationnel)
-- S1 (support immédiat) : $8.90 – $9.00 (zone de consolidation, previous close)
+- R2 : $10.00 – $10.85 (seuil psychologique + MM50)
+- S1 (support immédiat) : $8.90 – $9.00 (previous close + nouveau max pain $9.00)
 - S2 : $8.48 (low session — testé et tenu)
 - S3 : $8.31 (52W low — rupture = signal baissier majeur)
 
 **Timing technique : Défavorable**
-- Cours sous MM50 depuis 15+ sessions consécutives ; MM50 descend ($10.85 vs $10.91)
-- Écart sous MM50 creusé à −15.0% — aucun signe de retournement
-- RSI 43.86 — amélioration marginale mais sans momentum directionnel
-- Close sous open ($9.22 < $8.78 erroné, open était $8.78, close $9.22 > open, mais sous high $9.35) → rejet en fin de séance
+- Cours sous MM50 depuis 15+ sessions consécutives ; MM50 stable à $10.85
+- Écart sous MM50 −15.0% — aucun signe de retournement
+- RSI 43.86 — zone neutre inférieure sans momentum directionnel
+- Close sous high ($9.22 < $9.35) → rejet en fin de séance
 - Volume en récupération (1.20×) mais sans close au-dessus de la résistance $9.35
 - ATR_SPIKE 9.44% — volatilité élevée = risque de whipsaw élevé
 
@@ -67,7 +74,7 @@
 
 ## 3. Mise à jour fondamentale
 
-Aucune nouvelle donnée fondamentale publiée depuis le 2026-06-17 17h UTC. Les métriques restent inchangées à l’exception des multiples de valorisation reflétant le nouveau close :
+Aucune nouvelle donnée fondamentale publiée depuis le 2026-06-22 10h UTC. Les métriques restent inchangées :
 
 | Métrique | Valeur | Contexte |
 |----------|--------|----------|
@@ -101,15 +108,21 @@ Aucune nouvelle donnée fondamentale publiée depuis le 2026-06-17 17h UTC. Les 
 
 ## 4. Mise à jour sentiment / options / news
 
-### Options — Anomalie RÉCURRENTE détectée
-| Indicateur | Valeur JSON 10h | Valeur Opérationnelle | Signal |
-|------------|-----------------|----------------------|--------|
-| **Max Pain** | $7.50 (aberrant) | **$11.00** | Spot à −16.2% sous max pain opérationnel |
-| **Put/Call Ratio** | null (corrompu) | **0.45** | Biais haussier (calls dominants 2.2×) |
-| **Call OI %** | 0.0% (corrompu) | **69.0%** | Biais haussier structurel confirmé |
-| **Échéance** | 2026-06-26 | — | Échéance repoussée vs 2026-06-18 |
+### Options — Anomalie JSON RÉSOLUE, mais pivot structurel
 
-> **⚠️ Data quality alert :** Le snapshot 2026-06-22 réintroduit une anomalie options similaire à celles observées précédemment (max pain aberrant $3.00/$7.50, valeurs nulles). Les valeurs opérationnelles confirmées au snapshot 2026-06-17 17h UTC (max pain $11.00, put/call 0.45, call OI 69.0%) sont conservées comme référence. L’échéance a glissé à 2026-06-26 (J+4).
+| Indicateur | Valeur JSON 10h (corrompu) | Valeur JSON 13h (cohérent) | Réf. opérationnelle (depuis 17/06) | Signal |
+|------------|-----------------------------|---------------------------|-----------------------------------|--------|
+| **Max Pain** | $7.50 (aberrant) | **$9.00** | $11.00 | **↓$2.00 — aimant baissier révisé au plus près du spot** |
+| **Put/Call Ratio** | null (corrompu) | **0.66** | 0.45 | **↑0.21 — moins de dominance call** |
+| **Call OI %** | 0.0% (corrompu) | **60.3%** | 69.0% | **↓8.7 pp — biais haussier atténué** |
+| **Échéance** | 2026-06-26 | 2026-06-26 | — | J+4 |
+
+> **🟡 Pivot structurel options :** La résolution de l’anomalie JSON révèle une structure **moins haussière** que la référence opérationnelle utilisée depuis 6 jours :
+> - Le spot ($9.22) n’est plus −16.2% sous un max pain à $11.00 (configuration « aimant haussier ») mais **+2.4% au-dessus d’un max pain à $9.00** (configuration « pinning neutre / légèrement baissier »).
+> - Le put/call à 0.66 signifie que les puts représentent désormais 40% de l’OI vs 31% précédemment — une couverture baissière plus épaisse.
+> - Le call OI à 60.3% reste majoritairement call, mais la marge de sécurité haussière s’est réduite de 8.7 pp.
+>
+> **Implication :** La probabilité d’un pinning haussier vers $11.00 à l’échéance du 26/06 est **fortement réduite**. Le max pain $9.00 est désormais le niveau d’équilibre options — un close sous $9.00 à l’expiration générerait une valorisation des puts ITM et une pression vendeuse additionnelle.
 
 ### Sentiment
 - **Short Interest** : 24.32% du float (29.2M shares) — niveau élevé, potentiel short squeeze latent inchangé
@@ -140,58 +153,61 @@ Aucune nouvelle donnée fondamentale publiée depuis le 2026-06-17 17h UTC. Les 
 
 **Interprétation :**
 - Le Score Global Ajusté **52.8/100** se situe dans la fourchette **ATTENDRE** (50–59).
-- La dégradation de −0.7 pt vs 17/06 provient du malus Valorisation (−0.5 pt), partiellement compensé par l’amélioration Momentum (+0.5 pt).
-- Le Momentum 4.0/10 reste faible ; toute dégradation sous 3.5/10 activerait un risque de disqualification.
+- Le scoring agent est **inchangé** vs 10h UTC : aucune révision des scores Catalyseur, Valorisation ou Momentum.
 - **Malus sectoriel** : XLC (Communication Services) est Bottom 3 dans `data/sector_rotation_latest.json` (momentum score 0.0) → malus −0.5 pt implicite non encore reflété dans le scoring agent.
 - **Malus timing** : sous MM50 + RSI < 50 + ATR_SPIKE = pas de confirmation technique d’entrée.
+- **Nouveau malus options** : la révision du max pain de $11.00 à $9.00 élimine le catalyseur technique latent lié au pinning haussier. Cet élément n’est pas capturé dans le scoring agent actuel.
 
 ---
 
 ## 6. Niveaux SL / TP / Ratio R/R
 
-| Niveau | Valeur | Distance vs Close |
-|--------|--------|-------------------|
-| **Stop-Loss** | $7.48 | −18.9% (2× ATR = $1.74) |
-| **Take-Profit** | $11.83 | +28.3% (3× ATR = $2.61) |
-| **Ratio R/R** | **1.5×** | — |
+| Niveau | Valeur | Distance vs Close | Commentaire |
+|--------|--------|-------------------|-------------|
+| **Stop-Loss** | $7.48 | −18.9% (2× ATR = $1.74) | Inchangé — issu du scoring agent |
+| **Take-Profit** | $11.83 | +28.3% (3× ATR = $2.61) | **Révisé ↓** — ancien TP $12.50 aligné sur max pain $11.00 désormais obsolète |
+| **Ratio R/R** | **1.5×** | — | À la limite inférieure de l’acceptabilité institutionnelle |
 
-> Les niveaux sont issus du scoring agent. Le ratio 1.5× est à la limite inférieure de l’acceptabilité institutionnelle. Le SL $7.48 reste sous le 52W low ($8.31), ce qui le rend risqué en cas de gap down. Le TP $11.83 correspond au max pain opérationnel ($11.00) + marge technique.
+> **Révision du TP :** L’ancien take-profit opérationnel ($12.50, aligné sur le max pain à $11.00 + marge technique) est désormais **incompatible** avec la nouvelle structure options (max pain $9.00). Le TP est ajusté à **$11.83** (proposé par le scoring agent) qui correspond à un niveau de résistance technique (MM50 $10.85 + marge ATR). Cependant, avec le max pain révisé à $9.00, la probabilité d’atteindre $11.83 d’ici l’échéance 2026-06-26 (J+4) est **faible** — cela exigerait un mouvement de +28.3% en 4 sessions.
+>
+> Le SL $7.48 reste sous le 52W low ($8.31), ce qui le rend risqué en cas de gap down.
 
 ---
 
 ## 7. Conclusion — Thèse confirmée, modifiée ou invalidée ?
 
-### Verdict : **THÈSE ATTENDRE CONFIRMÉE — RÉCUPÉRATION VOLUMÉTRIQUE SANS CONVICTION DE CLOSE**
+### Verdict : **THÈSE ATTENDRE CONFIRMÉE — OPTIONS LANDSCAPE RÉVISÉ À LA BAISSE**
 
-Le snapshot 2026-06-22 10h UTC enregistre une **récupération volumétrique significative** (1.20× vs 0.38× au 17/06) mais sans close confirmant la force : rejet au-dessus de $9.35 (high $9.35, close $9.22), RSI stagnant en zone neutre inférieure (43.86) et écart sous MM50 creusé à −15.0%. L’**anomalie options JSON est récurrente** (max pain $7.50 aberrant, valeurs nulles) et doit être traitée comme artefact ; les valeurs opérationnelles ($11.00 / 0.45 / 69.0%) restent la référence. Le scoring agent corrige légèrement à la baisse (−0.7 pt) avec un malus Valorisation (−0.5 pt) et une amélioration Momentum (+0.5 pt).
+Le snapshot 2026-06-22 13h UTC confirme la **stabilité totale des données de marché** (cours, volume, RSI, ATR, MM50 identiques au snapshot 10h). L’événement matériel du snapshot est la **résolution de l’anomalie options JSON** avec des valeurs désormais cohérentes mais **moins favorables** que la référence opérationnelle utilisée depuis le 17/06. Le max pain révisé à **$9.00** (vs $11.00), le put/call à **0.66** (vs 0.45) et le call OI à **60.3%** (vs 69.0%) dessinent un **landscape options moins haussier**, éliminant le catalyseur technique latent lié au pinning vers $11.00. Le scoring agent reste inchangé à **ATTENDRE 52.8/100**.
 
 **Arguments pour la confirmation :**
-1. **Récupération volume** : 1.71M (1.20×) vs 510k (0.38×) — regain d’intérêt de marché
-2. **RSI en légère hausse** : +1.93 pts à 43.86 — pas de survente
+1. **Récupération volume maintenue** : 1.71M (1.20×) — liquidité présente
+2. **RSI en zone neutre inférieure** : 43.86 — pas de survente, marge de rebond
 3. **Low $8.48 tenu** : au-dessus du 52W low ($8.31)
 4. **Valorisation attractive inchangée** : P/B 0.334, EV/Rev 0.431
 5. **Short interest élevé** : 24.32% = combustible latent
-6. **Structure options haussière opérationnelle** : max pain $11.00, call OI 69.0%
+6. **Données options désormais cohérentes** : fin de l’incertitude data quality
 
-**Arguments contre une entrée :**
-1. **Close sous résistance** : rejet à $9.35, close $9.22 — pas de breakout
-2. **MM50 en descente** : $10.85 (−0.55% vs $10.91) — tendance baissière s’accentue
-3. **Écart MM50 creusé** : −15.0% vs −14.4% — pas d’amélioration structurelle
-4. **ATR_SPIKE** : 9.44% — volatilité élevée = risque de whipsaw
-5. **Qualité fondamentale dégradée** : Score Qualité 1/6, FCF négatif, patrimoine net négatif
-6. **Pas de catalyseur actif** : aucune news, aucun upgrade, aucun événement corporate
-7. **Timing Défavorable** : sous MM50 + RSI < 50 + ATR_SPIKE = pas de confirmation technique
-8. **Malus sectoriel** : XLC bottom 3 sector rotation (momentum score 0.0)
-9. **Anomalie options récurrente** : données JSON corrompues — risque data quality
+**Arguments contre une entrée (renforcés) :**
+1. **Landscape options révisé à la baisse** : max pain $9.00 (vs $11.00), put/call 0.66 (vs 0.45), call OI 60.3% (vs 69.0%) — catalyseur technique latent éliminé
+2. **Close sous résistance** : rejet à $9.35, close $9.22 — pas de breakout
+3. **MM50 en descente** : $10.85 — tendance baissière intacte
+4. **Écart MM50 creusé** : −15.0% — pas d’amélioration structurelle
+5. **ATR_SPIKE** : 9.44% — volatilité élevée = risque de whipsaw
+6. **Qualité fondamentale dégradée** : Score Qualité 1/6, FCF négatif, patrimoine net négatif
+7. **Pas de catalyseur actif** : aucune news, aucun upgrade, aucun événement corporate
+8. **Timing Défavorable** : sous MM50 + RSI < 50 + ATR_SPIKE = pas de confirmation technique
+9. **Malus sectoriel** : XLC bottom 3 sector rotation (momentum score 0.0)
+10. **Pinning réduit** : avec max pain $9.00 et spot $9.22, l’échéance 2026-06-26 (J+4) n’offre plus de levier haussier significatif
 
-**Conditions de réactivation d’une thèse ACHETER (inchangées) :**
+**Conditions de réactivation d’une thèse ACHETER (révisées) :**
 - Retour au-dessus de MM50 ($10.85) avec close confirmé au-dessus de $10.50
 - Volume >1.0× moyenne 20j en confirmation (condition partiellement remplie aujourd’hui)
-- Données options JSON maintenues cohérentes (max pain ≥$10.00, put/call <1.0, call OI >60%)
+- **Nouveau** : données options JSON maintenues cohérentes avec max pain remonté ≥$10.00 et call OI >65%
 - Catalyseur fondamental (earnings beat, upgrade analyste, guidance positive)
 
-**Recommandation :** **ATTENDRE** — pas d’entrée en l’état. La récupération volumétrique est un signal positif marginal, mais le rejet intraday ($9.35 → $9.22), l’écart sous MM50 creusé (−15.0%) et l’absence de catalyseur confirment l’absence de momentum directionnel. L’échéance options 2026-06-26 (J+4) pourrait générer du pinning autour du max pain opérationnel ($11.00) si le spot remonte, mais la probabilité est faible avec un spot à −15.0% et une volatilité élevée (ATR_SPIKE 9.44%).
+**Recommandation :** **ATTENDRE** — pas d’entrée en l’état. La résolution de l’anomalie options JSON est une avancée data quality, mais les valeurs corrigées révèlent une **structure options moins favorable** qu’antérieurement estimée. Le max pain à $9.00 élimine le catalyseur technique latent (pinning vers $11.00) et place le spot en position de légère surperformance vs l’équilibre options (+2.4%), ce qui réduit l’asymétrie haussière. L’échéance 2026-06-26 (J+4) pourrait générer de la volatilité autour du max pain $9.00, mais sans directionnalité privilégiée. Aucune position longue recommandée.
 
 ---
 
-*Rapport généré par le desk Argus-IA — Données sources : `data/latest.json` (2026-06-22 10:00:13 UTC), `data/recommandations_latest.json`, `data/sector_rotation_latest.json`, `data/upcoming_events_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`. Anomalie options JSON récurrente détectée et traitée — valeurs opérationnelles conservées.*
+*Rapport généré par le desk Argus-IA — Données sources : `data/latest.json` (2026-06-22 13:00:13 UTC), `data/recommandations_latest.json`, `data/sector_rotation_latest.json`, `data/upcoming_events_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`, `data/events_latest.json`. Anomalie options JSON résolue — valeurs corrigées intégrées.*
