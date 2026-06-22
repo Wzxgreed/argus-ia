@@ -1,7 +1,7 @@
 # ASTS
 
 ## Thèse courante
-La thèse sur ASTS est **SURVEILLER aggravée** — close 2026-06-22, snapshot 13h UTC. Cours **$80,66** gap down **−5,58%** vs previous close $85,43, test et violation intraday du pivot **$80,00** (low $77,12), rejet partiel au close (+4,6% du low). RSI **32,75** en survente atténuée (+4,24 pt vs 17/06), volume en expansion **1,117×** (31,68M). **Anomalie options JSON RÉSOLUE** : max pain **$100,00**, put/call **0,70**, call OI **58,9%** (vs valeurs corrompues du snapshot matinal). Score global ajusté **39,2/100 (SURVEILLER)** vs 43,0 précédent. Score Momentum dégradé à **2,5/10**. Divergence consensus **+17,2%** upside mécanique ($94,54 vs $80,66). Profil fondamental spéculatif extrême inchangé (EV/Revenue FMP 355,7×, P/B 11,58× Yahoo, Forward P/E −393,08, non rentable). Signal sectoriel **NEUTRAL** avec XLC bottom 3 persistant (momentum 0,0) malgré XLK top 1. Timing **Défavorable**. Verdict global : **ne pas entrer long**. Objectif baissier si cassure confirmée $80 au close : $72–$75. Zone de résistance immédiate : $85,43 (previous close) ; $85,70 (high 22/06) ; $88,42 (MM50). Volatilité élevée mais ATR en retrait ($10,66 vs $12,40). **Pivot absolu : $80** — close au-dessus = consolidation possible ; close sous = risque d'accélération baissière majeure. Le positionnement options s'est viré plus bearish (put/call 0,70 vs 0,46 du 17/06, call OI 58,9% vs 68,3%), confirmant la fragilité technique. Prochaine étape : surveillance impérative de la tenue de $80 au close des prochaines sessions.
+La thèse sur ASTS est **SURVEILLER aggravée** — close 2026-06-22, snapshot 17h UTC. Cours **$74,11** : **deuxième gap down intraday −8,12%** vs previous close $80,66 (snapshot 13h), low **$73,61** nouveau plus bas significatif, cassure confirmée du pivot $80. Cumul session : **−13,25%** depuis le vrai previous close $85,43. RSI **33,18** en survente atténuée, **volume collapse majeur 0,584×** (16,30M). Options inchangées : max pain **$100,00**, put/call **0,70**, call OI **58,9%**. Score global ajusté **43,0/100 (SURVEILLER)** (JSON). Score Momentum **2,5/10**. Divergence consensus **+27,6%** upside mécanique ($94,54 vs $74,11). Profil fondamental spéculatif extrême (EV/Revenue FMP 355,7×, P/B 10,64× Yahoo, Forward P/E −361,16, non rentable). Signal sectoriel **NEUTRAL** avec XLC bottom 3 persistant (momentum 0,0). Timing **Défavorable**. Verdict global : **ne pas entrer long**. Objectif baissier si cassure $73,61 confirmée : $65–$70. Zone de résistance immédiate : $80,66 (previous close 13h) ; $85,43 (vrai previous close) ; $88,07 (MM50). Volatilité élevée (ATR relatif 13,9%). **Pivot absolu : $73,61** — close au-dessus de $75 = consolidation possible ; close sous $73,61 = risque d'accélération baissière majeure. Le double gap down intraday sur volume expansion puis collapse est un signal rare : épuisement vendeur possible, mais configuration extrêmement fragile. Prochaine étape : surveillance impérative de la tenue de $73,61 au close des prochaines sessions.
 
 ## Historique
 | Date | Fichier | Type |
@@ -28,22 +28,22 @@ La thèse sur ASTS est **SURVEILLER aggravée** — close 2026-06-22, snapshot 1
 | 2026-06-16 | [ASTS_2026-06-16_17-00_update.md](ASTS_2026-06-16_17-00_update.md) | **Close 17h UTC** — rupture technique confirmée, cours −5,12% à $83,09 sur volume collapse 0,422×, RSI en survente 28,73, cassure support $82,11 < $83,99 du 15/06, score global JSON 43,0 SURVEILLER, thèse aggravée |
 | 2026-06-17 | [ASTS_2026-06-17_update.md](ASTS_2026-06-17_update.md) | Snapshot 10h UTC — stabilité mécanique vs close 16/06 (cours $82,25 −1,01%, RSI 28,51 stable survente, volume recovery 0,733×, anomalies données : previous_close erroné, options JSON corrompues, scores inchangés 43,0 SURVEILLER), thèse confirmée sans changement majeur |
 | 2026-06-17 | [ASTS_2026-06-17_13-00_update.md](ASTS_2026-06-17_13-00_update.md) | Snapshot 13h UTC — stabilité mécanique totale vs 10h UTC (cours/volume/RSI inchangés), résolution anomalie options JSON (max pain $100,00, P/C 0,46, call OI 68,3% restaurés), scores 43,0 SURVEILLER inchangés, thèse confirmée sans changement majeur |
-| 2026-06-22 | [ASTS_2026-06-22_update.md](ASTS_2026-06-22_update.md) | Close 2026-06-22 — gap down −5,58% à $80,66, test et violation intraday du pivot $80 (low $77,12), rejet partiel au close, volume expansion 1,117×, RSI 32,75 survente atténuée, score global ajusté 39,2 SURVEILLER (bas de fourchette), thèse SURVEILLER aggravée |
+| 2026-06-22 | [ASTS_2026-06-22_update.md](ASTS_2026-06-22_update.md) | Snapshot 13h UTC — gap down −5,58% à $80,66, test et violation intraday du pivot $80 (low $77,12), rejet partiel au close, volume expansion 1,117×, RSI 32,75 survente atténuée, score global ajusté 39,2 SURVEILLER (bas de fourchette), thèse SURVEILLER aggravée |
+| 2026-06-22 | [ASTS_2026-06-22_17-00_update.md](ASTS_2026-06-22_17-00_update.md) | Snapshot 17h UTC — deuxième gap down intraday −8,12% à $74,11, low $73,61 cassure confirmée $80, volume collapse 0,584×, RSI 33,18, cumul session −13,25%, score global 43,0 SURVEILLER, thèse SURVEILLER aggravée — double gap down sans précédent |
 
 ## Agenda
 - Prochain earnings : **2026-08-10** (J+49) — Est. EPS $-0,29 à $-0,17, Revenus $0,0B
 - Options expiry : **2026-06-26** (J+4) — max pain opérationnel $100 au-dessus du spot (+23,9%). Anomalie options JSON récurrente (max pain $45 aberrant, put/call null, call OI null). Valeurs opérationnelles conservées : max pain $100,00, put/call 0,46, call OI 68,3%
 
 ## Alertes actives
-- **GAP_DOWN** — gap −5,58% overnight ($85,43 → $80,66) — ouverture agressive sous le previous close, pression vendeuse structurée
-- **PIVOT_TEST** — low $77,12 < pivot $80,00 — cassure intraday du niveau clé, rejet partiel au close ($80,66)
-- **COURS_SOUS_MM50 aggravé** — cours −8,8% sous MM50 $88,42 — résistance dynamique très lointaine, écart mécaniquement creusé
-- **RSI_SURVENTE atténuée** — RSI 32,75 < 35 — survente technique atténuée mais faiblesse interne persistante
-- **VOLUME_BAISSE** — volume 1,117× en expansion à la baisse — liquidité de retour mais direction négative
-- **ATR_SPIKE (haut)** — ATR relatif 13,2% du cours ($10,66)
+- **DOUBLE_GAP_DOWN** — deux gaps baissiers dans la même journée : $85,43 → $80,66 (−5,58%) puis $80,66 → $74,11 (−8,12%), total −13,25% — configuration extrêmement fragile
+- **PIVOT_CASSE** — low $73,61 < pivot $80,00 — cassure confirmée du niveau clé, pas de rejet significatif au close ($74,11)
+- **COURS_SOUS_MM50 aggravé** — cours −15,9% sous MM50 $88,07 — écart extrême, résistance dynamique très lointaine
+- **RSI_SURVENTE** — RSI 33,18 < 35 — survente technique atténuée mais faiblesse persistante
+- **VOLUME_COLLAPSE** — volume 0,584× en effondrement (16,30M vs avg 27,93M) — liquidité qui s'évapore après le volume expansion du snapshot 13h
+- **ATR_SPIKE (haut)** — ATR relatif 13,9% du cours ($10,30)
 - **REJET_100** — test et rejet de la résistance psychologique $100 (high $100,94, close $88,71 le 09/06) — structure de séance baissière persistante
-- **Profil non rentable** — EPS estimé négatif, multiples extrêmes (P/B 11,58× Yahoo / 10,10× FMP, EV/Revenue FMP 355,7×), aucune visibilité sur la rentabilité
+- **Profil non rentable** — EPS estimé négatif, multiples extrêmes (P/B 10,64× Yahoo / 10,10× FMP, EV/Revenue FMP 355,7×), aucune visibilité sur la rentabilité
 - **Secteur Communication Services (XLC)** — bottom 3 du ranking sectoriel (momentum_score 0,0)
-- **Options J+4** — Max Pain opérationnel $100 au-dessus du spot (+23,9%). Anomalie options JSON récurrente (max pain $45 aberrant, put/call null, call OI null). Pinning gamma improbable sous $85
+- **Options J+4** — Max Pain opérationnel $100 au-dessus du spot (+34,9%). Put/call 0,70 stable, call OI 58,9%. Pinning gamma très improbable sous $80
 - **Short Interest élevé** — 18,39% — pas de squeeze setup mais pression vendeuse présente
-- **ANOMALIE_DONNÉES** — options JSON corrompues (max pain $45 aberrant, put/call null, call OI null). Valeurs opérationnelles conservées : max pain $100, put/call 0,46, call OI 68,3%
