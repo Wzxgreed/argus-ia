@@ -12,9 +12,9 @@
 **Prix cible desk :** $139.03 (TP ATR-based) / $163.29 (consensus analystes)
 **Stop-loss :** $119.08 (2×ATR)
 **Horizon :** 1–3 mois
-**Statut thèse :** 🟡 **Modifiée avec prudence — mutation technique majeure** — snapshot 10h UTC du 22/06 : **[MUTATION RSI]** chute de 64.85 à **35.46** (−29.4 pts), franchissement seuil 40. **[MUTATION VOLUME]** spike à **4.33M (1.56× moy. 20j)** (+84% vs 17/06) — distribution active. **[RÉVISION]** Score Global ajusté **73.3/100** (−1.7 pt), sizing abaissé **Standard → Réduit**. **[ANOMALIE]** Options JSON récurrente sur nouveau cycle 17/07 (max pain $60.0 aberrant). **[DÉGRADATION]** Sector rotation : Healthcare (XLV) chute au **#7** (momentum 0.75) vs #6 (3.02).
+**Statut thèse :** 🟢 **Confirmée — stabilité totale, anomalie options résolue** — snapshot 13h UTC du 22/06 : **[STABLE]** Cours, RSI, volume, ATR, MM50 et fondamentaux strictement identiques au snapshot 10h. **[RÉSOLU]** Anomalie options JSON sur cycle 17/07 : max pain **$135.0** (cohérent vs $60.0 aberrant), put/call **0.49**, call OI **67.3%** — valeurs normalisées. **[STABLE]** Score Global ajusté **73.3/100** inchangé — **ACHETER Réduit maintenu**. **[STABLE]** Sector rotation : Healthcare (XLV) **#7** (momentum 0.75).
 
-**Synthèse :** Agilent reste en consolidation post-gap ($124–$132) mais la structure technique s'est dégradée sur 5 séances. Le scoring agent est abaissé à **73.3/100 (ACHETER Réduit)**. Le RSI à **35.46** est en zone neutre-oversold, le volume spike à **1.56×** traduit une distribution institutionnelle active, et l'ATR se compresse à **$3.99** (−26.1%). La MM50 montante à **$121.14** reste le support technique clé. Les fondamentaux sont inchangés et solides : Filtre Qualité 5/6 maintenu, consensus $163.29 laissant un upside **+28.5%**, forward P/E 19.23× attractif. L'entrée au spot $127.06 reste possible mais avec **sizing Réduit** et prudence accrue. Risques principaux : (1) distribution active sous le masque de la consolidation, (2) RSI oversold proche de 30 — risque d'accélération baissière, (3) rotation sectorielle défavorable (XLV #7, momentum 0.75), (4) anomalie options JSON récurrente, (5) earnings Q3 le 2026-08-26 (J+65).
+**Synthèse :** Agilent reste en consolidation post-gap ($124–$132) avec une structure technique inchangée entre les snapshots 10h et 13h UTC. Le scoring agent est maintenu à **73.3/100 (ACHETER Réduit)**. Le RSI à **35.46** est stable en zone neutre-oversold, le volume spike à **1.56×** confirme une distribution institutionnelle active, et l'ATR reste compressé à **$3.99**. La MM50 montante à **$121.14** reste le support technique clé. Les fondamentaux sont inchangés et solides : Filtre Qualité 5/6 maintenu, consensus $163.29 laissant un upside **+28.5%**, forward P/E 19.23× attractif. La résolution de l'anomalie options JSON élimine une incertitude opérationnelle : le max pain $135.0 est cohérent avec la résistance $130–$135, et le put/call 0.49 indique un biais haussier modéré. L'entrée au spot $127.06 reste possible avec **sizing Réduit**. Risques principaux : (1) distribution active sous le masque de la consolidation, (2) RSI oversold proche de 30 — risque d'accélération baissière, (3) rotation sectorielle défavorable (XLV #7, momentum 0.75), (4) earnings Q3 le 2026-08-26 (J+65).
 
 ---
 
@@ -79,7 +79,7 @@
 - **Date :** 2026-06-22
 - **Type :** update
 - **Fichier :** `A_2026-06-22_update.md`
-- **Conclusion :** > **Date :** 2026-06-22 · Snapshot 10:00 UTC (pré-ouverture US)
+- **Conclusion :** 🟢 **Thèse confirmée — stabilité totale, anomalie options résolue** — snapshot 13h UTC : Cours, RSI, volume, ATR, MM50 inchangés vs 10h. Anomalie options JSON résolue (max pain $135.0, put/call 0.49, call OI 67.3%). Score Global ajusté 73.3/100 inchangé — ACHETER Réduit maintenu.
 
 ---
 
