@@ -47,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-22
-- **Type :** preview
-- **Fichier :** `SQ_2026-06-22_preview.md`
-- **Conclusion :** > **Date :** 2026-06-22
+- **Type :** update
+- **Fichier :** `SQ_2026-06-22_update_17h00.md`
+- **Conclusion :** ATTENDRE — Qualité 3/6, stale price ≥67 snapshots / ≥29 jours, earnings placeholder glissant ≥67 snapshots, consensus PT figé $85.67 (3 analystes), signal sectoriel NEUTRAL stable, source fmp_fallback persistante, divergence market cap FMP ~4.8% stable, zero mutation données brutes SQ vs snapshot 13h00 UTC 22/06, pipeline stable : reco 54.0/100 inchangée, validation 5 [ERROR] (identique 13h00)
 
 ---
 
