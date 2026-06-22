@@ -9,15 +9,15 @@
 
 ## These courante
 
-**Recommandation :** ATTENDRE *(upgradee depuis SURVEILLER au snapshot 17h UTC)*
-**Score global ajuste :** 55.0/100
+**Recommandation :** SURVEILLER *(degradee depuis ATTENDRE au snapshot 21h UTC)*
+**Score global ajuste :** 48.8/100
 **Prix cible consensus :** $9.05 (11 analysts)
-**Prix cible technique :** $3.47 (3xATR)
-**Stop-loss :** $2.62 (2xATR)
+**Prix cible technique :** $3.55 (3xATR)
+**Stop-loss :** $2.70 (2xATR)
 **Statut :** These non etablie — profil speculatif biotech pre-profit, Filtre Qualite 2/6
 **Horizon :** 6–12 mois (dependant des catalyseurs cliniques)
 
-**Resume :** CTMX est une biotech en phase clinique avancee (plateforme Probody) avec des partenariats de qualite (AbbVie, BMS, Amgen). Le snapshot **17h UTC** du **2026-06-22** confirme la **stabilite mecanique post-expiration** : cours **$2.965** (+0.51% vs previous close $2.95), RSI **26.57** (+4.35 pts vs 13h, survente extreme attenuee), ATR **$0.17** (-$0.01), volume **1.67M (0.41x)** — **anemie critique** post-expiration (correction des donnees 13h erronees a 9.73M). **Pivot structurel baissier sur les options** stable : put/call **8.91**, call OI **10.1%**, max pain **$4.00**. L'expiration du 2026-06-18 est passee sans materialisation du pin risk haussier. Nouvelle expiration au **2026-07-17**. L'agent Recommandation **upgradede en ATTENDRE** avec **Score Global Ajuste 55.0/100** (+6.2 pts, franchissement du seuil 50). Le timing reste **Defavorable**.
+**Resume :** CTMX est une biotech en phase clinique avancee (plateforme Probody) avec des partenariats de qualite (AbbVie, BMS, Amgen). Le snapshot **21h UTC** du **2026-06-22** confirme la **cloture officielle** a **$3.04** (+3.05% vs previous close $2.95), RSI **31.53** (+4.96 pts vs 17h, survente extreme attenuee), ATR **$0.17** (stable), volume **3.74M (0.90x)** — **normalisation complete** post-expiration (vs anemie 0.41x a 17h). **Pivot structurel baissier sur les options** stable : put/call **8.91**, call OI **10.1%**, max pain **$4.00**. L'expiration du 2026-06-18 est passee sans materialisation du pin risk haussier. Nouvelle expiration au **2026-07-17**. L'agent Recommandation **downgrade en SURVEILLER** avec **Score Global Ajuste 48.8/100** (-6.2 pts vs 55.0/100 au 17h, malus sectoriel accru a -8.0 pts). Le timing reste **Defavorable**.
 
 ---
 
@@ -49,6 +49,7 @@
 | 2026-06-17 | `CTMX_2026-06-17_update.md` | Mise a jour snapshot **13:00 UTC** | **Stabilite mecanique totale** vs 10h UTC (donnees identiques), **anomalie options JSON RESOLUE** (7e occurrence closee — valeurs propres confirmees), structure options tres haussiere intacte, recommandation **SURVEILLER** et Score Global Ajuste **49.5/100** inchanges, SL/TP conserves $2.59/$3.44, expiration demain (2026-06-18) |
 | 2026-06-22 | `CTMX_2026-06-22_update.md` | Mise a jour **post-expiration** | **Stabilite mecanique maintenue** : cours $2.95 (+0.68%), RSI 22.22 (+5.06 pts), ATR $0.18 (+$0.01), volume 2.40x (-0.42x relatif, normalisation). **Pivot structurel baissier sur les options** : put/call **8.91** (vs 0.14), call OI **10.1%** (vs 87.8%), max pain stable **$4.00** — donnees propres. Expiration repoussee **2026-07-17**. Pin risk 2026-06-18 **non materialise**. Recommandation **SURVEILLER** inchangée, Score Global Ajuste **48.8/100** (-0.7 pt), SL/TP recalcules **$2.59/$3.49** |
 | 2026-06-22 | `CTMX_2026-06-22_update.md` | Mise a jour snapshot **17:00 UTC** | **Stabilite mecanique confirmee** : cours $2.965 (+0.51%), RSI **26.57** (+4.35 pts), ATR **$0.17** (-$0.01), volume **CORRECTION** a 1.67M (0.41x) — anemie critique post-expiration. Range retreci (low $2.95). Options pivot baissier **stable** (put/call 8.91, call OI 10.1%). **Recommandation upgradee ATTENDRE** (depuis SURVEILLER), Score Global Ajuste **55.0/100** (+6.2 pts, franchissement seuil 50), Score Opportunite **5.8/10** (C:6.5 V:6.0 M:4.5), timing **Defavorable**, SL/TP revises **$2.62/$3.47** |
+| 2026-06-22 | `CTMX_2026-06-22_update.md` | Mise a jour snapshot **21:00 UTC** | **Cloture officielle** $3.04 (+3.05% vs previous close $2.95), RSI **31.53** (+4.96 pts), ATR **$0.17** (stable), volume **3.74M (0.90x)** — normalisation complete post-expiration. Options pivot baissier **stable**. **Recommandation degradee SURVEILLER** (depuis ATTENDRE), Score Global Ajuste **48.8/100** (-6.2 pts, malus sectoriel accru -8.0 pts), Score Opportunite **5.7/10** (C:6.5 V:6.0 M:4.0), timing **Defavorable**, SL/TP revises **$2.70/$3.55** |
 
 ---
 
@@ -62,21 +63,21 @@
 
 ## Alertes actives
 
-- :yellow_circle: Cours $2.965 — micro-rebond +0.51% mais sous MM50 ($3.79, ecart -21.8%)
-- :red_circle: Volume **0.41x** — anemie critique post-expiration (CORRECTION : 9.73M a 13h etait errone)
-- :red_circle: RSI 26.57 — survente extreme persistante mais attenuée
-- :green_circle: Support $2.86 **NON TESTE** (low $2.95, +$0.09 vs 16/06)
+- :yellow_circle: Cours $3.04 — micro-rebond +3.05% mais sous MM50 ($3.80, ecart -20.0%)
+- :green_circle: Volume **0.90x** — normalisation complete post-expiration
+- :red_circle: RSI 31.53 — survente persistante mais attenuée
+- :green_circle: Support $2.86 **NON TESTE** (low $2.95)
 - :green_circle: Short interest 14.97% — stable, potentiel short squeeze si catalyseur
-- :red_circle: Cours sous MM50 ($3.79) avec ecart -21.8%
-- :green_circle: Score Global Ajuste **55.0/100** — **au-dessus du seuil institutionnel (50)** (upgrade)
-- :green_circle: Recommandation **ATTENDRE** — upgradee depuis SURVEILLER au snapshot 17h
+- :red_circle: Cours sous MM50 ($3.80) avec ecart -20.0%
+- :red_circle: Score Global Ajuste **48.8/100** — **sous le seuil institutionnel (50)** (downgrade)
+- :red_circle: Recommandation **SURVEILLER** — degradee depuis ATTENDRE au snapshot 21h
 - :red_circle: Options — **PIVOT STRUCTUREL BAISSIER** (put/call 8.91, call OI 10.1%, max pain $4.00)
 - :red_circle: Hypothese pin risk haussier **INVALIDEE**
 - :yellow_circle: Expiration options **2026-07-17** — nouvelle expiration avec structure baissiere
 - [WARNING] Donnees MM200 manquantes
 - [WARNING] Biotech pre-revenue — scoring standard peu fiable
 - [INFO] Earnings confirme le 2026-08-06 (J+45) — Est EPS $-0.13 a $-0.07
-- [INFO] Pin risk 2026-06-18 **non materialise** — le cours n'a pas rebondi vers $4.00
+- [INFO] Normalisation du volume post-expiration confirmee (0.90x vs 0.41x a 17h)
 
 ---
 
