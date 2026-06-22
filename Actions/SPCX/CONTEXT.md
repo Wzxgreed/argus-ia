@@ -18,7 +18,7 @@
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 56.0/100
+- **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
 - **Statut thèse :** validée
@@ -50,22 +50,22 @@
 - **MM 50j :** —
 - **MM 200j :** —
 - **ATR 14j :** —
-- **Volume moy. 20j :** 255453835
+- **Volume moy. 20j :** 267722746
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-22
-- **Type :** update
+- **Type :** full refresh
 - **Fichier :** `SPCX_2026-06-22_update_17h.md`
-- **Conclusion :** Thèse confirmée en ATTENDRE avec nuance de dégradation — faux prix $165.845 (−10.35%), faux volume collapse −67.7%, forward P/E muté 843.29, options/float/consensus stabilisés, Score Global 56.0/100
+- **Conclusion :** **Date :** 2026-06-22
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (high) — Gap -10.35% overnight (seuil ±5.0%)
+- **PRICE_GAP** (high) — Gap -16.43% overnight (seuil ±5.0%)
 
 ---
 

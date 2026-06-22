@@ -1,4 +1,4 @@
-# CONTEXT — NU — Dernière mise à jour : 2026-06-22 17h UTC
+# CONTEXT — NU — Dernière mise à jour : 2026-06-22
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -38,37 +38,26 @@
 
 ## 📅 Prochains événements
 
-- **Earnings Q2 2026 :** 13 août 2026 (Est EPS $0.18–$0.27, Rev $5.4B) — dans 52 jours
-- **Expiration Options :** 2026-06-26 (dans 4 jours, max pain $14.00)
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 48.38
+- **RSI 14j :** 47.86
 - **MM 50j :** 13.44
 - **MM 200j :** —
 - **ATR 14j :** 0.57
-- **Volume moy. 20j :** 64180147
+- **Volume moy. 20j :** 64953562
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-22 17h UTC
-- **Type :** update
+- **Date :** 2026-06-22
+- **Type :** init
 - **Fichier :** `NU_2026-06-22_update_17h.md`
-- **Conclusion :** Thèse CONFIRMÉE avec RE-UPGRADE MÉCANIQUE — ACHETER (Réduit). Mutation technique positive (cours +1.06% à $12.845, RSI 48.38 +3.07 pts, gap MM50 réduit à −4.4%). Re-upgrade mécanique Score Global Ajusté 59.2 → 60.0. Volume anémique 0.30× (19.5M à mi-session) — faible conviction. Structure options stable (max pain $14.00, put/call 0.58, call OI 63.3%). Fondamentaux intacts (forward P/E 11.15×, upside +36.1%). Timing défavorable maintenu. SL $11.71 / TP $14.55.
-
----
-
-## 🔄 Triggers détectés (full refresh)
-
-- Aucun trigger récent.
-
----
-
-*Généré automatiquement — ne pas éditer manuellement.*
+- **Conclusion :** **Thèse : CONFIRMÉE avec RE-UPGRADE MÉCANIQUE — ACHETER (Réduit) (mutation technique positive vs snapshot 10h, cours +1
 
 ---
 

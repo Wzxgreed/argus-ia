@@ -40,8 +40,8 @@ Les scores de l'agent recommandation sont **inchangés** : Score Opportunité **
 ## Actualites ayant impacte ce dossier
 - **Score global :** —/10
 - **Prix cible :** $—
-- **Stop-loss :** $14.63
-- **Statut thèse :** invalide
+- **Stop-loss :** $15.19
+- **Statut thèse :** validée
 - **Horizon :** —
 
 ---
@@ -68,11 +68,11 @@ Les scores de l'agent recommandation sont **inchangés** : Score Opportunité **
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 67.77
-- **MM 50j :** 13.17
+- **RSI 14j :** 65.07
+- **MM 50j :** 13.16
 - **MM 200j :** —
 - **ATR 14j :** 0.68
-- **Volume moy. 20j :** 108413223
+- **Volume moy. 20j :** 112172904
 
 ---
 
@@ -80,8 +80,8 @@ Les scores de l'agent recommandation sont **inchangés** : Score Opportunité **
 
 - **Date :** 2026-06-22
 - **Type :** update
-- **Fichier :** `AAL_2026-06-22_update_17h00.md`
-- **Conclusion :** **Date :** 2026-06-22 (snapshot 17h UTC, close officiel)
+- **Fichier :** `AAL_2026-06-22_update.md`
+- **Conclusion :** **Date :** 2026-06-22 (snapshot 13h UTC, data options corrigée post-pipeline)
 
 ---
 

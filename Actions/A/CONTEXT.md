@@ -21,7 +21,7 @@
 ## 📜 Historique des analyses
 - **Score global :** —/10
 - **Prix cible :** $—
-- **Stop-loss :** $119.08
+- **Stop-loss :** $119.12
 - **Statut thèse :** modifiée
 - **Horizon :** 1–3 mois
 
@@ -66,11 +66,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 34.16
-- **MM 50j :** 121.37
+- **RSI 14j :** 33.74
+- **MM 50j :** 121.36
 - **MM 200j :** —
 - **ATR 14j :** 3.85
-- **Volume moy. 20j :** 2690185
+- **Volume moy. 20j :** 2729881
 
 ---
 
@@ -78,8 +78,8 @@
 
 - **Date :** 2026-06-22
 - **Type :** update
-- **Fichier :** `A_2026-06-22_update_17h.md`
-- **Conclusion :** 🟡 Thèse confirmée avec prudence atténuée — volume collapse de 88% (495K vs 4.33M), distribution institutionnelle interrompue. Cours stable à $126.82 (−0.19%). RSI 34.16, ATR $3.85, MM50 $121.37. Score Global ajusté 72.5/100 (ACHETER Réduit). Options normalisées (max pain $135.0, put/call 0.49). XLV remonte au #6 (momentum 1.34).
+- **Fichier :** `A_2026-06-22_update.md`
+- **Conclusion :** > **Date :** 2026-06-22 · Snapshot 13:00 UTC (pré-ouverture US)
 
 ---
 

@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE (vigilance accrue)
+- **Recommandation :** ATTENDRE (nuance haussière accrue)
 **Prix cible :** $380–$400 (technique, consensus $267.57)
-**Upside/Downside :** +8.6% à +14.3% / −11.6% (SL engine)
-**Dernière mise à jour :** 2026-06-22 (Snapshot 17:00 UTC — données post-séance, cours de référence **$349.93** [+5.07% séance, +16.8% vs low 17/06], RSI **58.40** [approche zone 60], volume **3.44M (0.58×)** [effondrement participation, rally non confirmé], ATR **$20.25** [ATR_SPIKE 5.79%], MM50 **$322.72** [+8.4% au-dessus], options **put/call 2.77** [73.5% puts, call OI 26.5%, max pain $245, expiration 26/06 J+4], sector rotation XLI **#2** [momentum 7.41/10], FX exposure **45% EUR/CNY** [Score FX Impact 0.0, 🟢], social sentiment **0 mentions**, consensus PT **$267.57** [47 analysts, 30.7% sous cours], Score Global Ajusté **49.0/100** [ATTENDRE] — thèse **MODIFIÉE**, rally confirmé mais sur volume suspect, risque d'épuisement acheteur / short-covering)
+**Upside/Downside :** +6.2% à +11.7% / −11.6% (SL engine)
+**Dernière mise à jour :** 2026-06-22 (Snapshot 21:00 UTC — close officiel **$357.96** [+7.48% séance, +19.5% vs low 17/06], RSI **60.41** [franchissement zone 60], volume **7.24M (1.19×)** [accumulation confirmée, invalidation hypothèse volume suspect], ATR **$20.83** [ATR_SPIKE 5.82%], MM50 **$322.88** [+10.9% au-dessus], options **put/call 2.77** [73.5% puts, call OI 26.5%, max pain $245, expiration 26/06 J+4], sector rotation XLI **#2** [momentum 7.27/10, −0.14 pts], FX exposure **45% EUR/CNY** [Score FX Impact 0.0, 🟢], social sentiment **0 mentions**, consensus PT **$267.57** [47 analysts, 33.8% sous cours], Score Global Ajusté **50.0/100** [ATTENDRE, moteur 47.5 SURVEILLER] — thèse **MODIFIÉE**, rally confirmé sur volume standard, risque profit-taking en approche 52W high)
 
-Vertiv est le leader mondial du refroidissement data centers, bénéficiant directement de l'explosion de l'IA (GPU consomment 5–10× plus d'énergie). Quality Compounder 6/6 avec marges en expansion, ROIC 18.5%, ROCE 24.3%, net debt/EBITDA 0.78×. Le cours enregistre un **nouveau rally de +5.07%** à $349.93 (high intraday $350.46), portant le rally total à **+16.8% depuis le low du 17/06** ($299.60). Le RSI monte à **58.40** (approche zone 60, pas de surachat) et le cours s'écarte à **+8.4% au-dessus de la MM50** ($322.72). Le volume a **effondré à 0.58×** (3.44M vs moy. 5.89M), ce qui **réintroduit le risque de short-covering / mouvement non soutenu** et invalide partiellement la confirmation haussière du snapshot 13:00 UTC (1.21×). Le high intraday $350.46 avec close $349.93 suggère un **rejet en zone de résistance**. Les options affichent un sentiment **bearish mesuré stable** (put/call 2.77, 73.5% puts, call OI 26.5%, max pain $245) — prudence contrarienne sans panique. Le secteur Industrials (XLI) est **#2** du ranking avec momentum **7.41/10**. L'**ATR_SPIKE persiste** à 5.79% ($20.25), signalant une volatilité élevée. La valorisation s'est encore détériorée : P/E 87.5, Forward P/E 39.5, P/B 34.0. Le consensus PT $267.57 est désormais **30.7% sous le cours**. Timing **Favorable** d'après le moteur mais **atténué par le volume**. **Pas de position longue recommandée à ce stade.** Si clôture au-dessus de **$350** avec volume >1.0× + catalyseur externe → upgrade ACHETER (réduit). Si clôture sous **$335** avec volume >0.8× → downgrade SURVEILLER (épuisement acheteur). Si retombe sous $322.72 (MM50) avec volume >0.6× → retour ÉVITER. Prochain earnings 2026-07-29 (37 jours).
+Vertiv est le leader mondial du refroidissement data centers, bénéficiant directement de l'explosion de l'IA (GPU consomment 5–10× plus d'énergie). Quality Compounder 6/6 avec marges en expansion, ROIC 18.5%, ROCE 24.3%, net debt/EBITDA 0.78×. Le cours enregistre un **close officiel de +7.48%** à $357.96 (high intraday $358.54), portant le rally total à **+19.5% depuis le low du 17/06** ($299.60). Le RSI monte à **60.41** (franchissement zone 60, pas de surachat) et le cours s'écarte à **+10.9% au-dessus de la MM50** ($322.88). Le volume final est de **1.19×** (7.24M vs moy. 6.08M), ce qui **confirme une accumulation réelle et invalide l'hypothèse d'épuisement acheteur** du snapshot 17h. Le **dépassement de $350 en close** est un signal technique haussier. Les options affichent un sentiment **bearish mesuré stable** (put/call 2.77, 73.5% puts, call OI 26.5%, max pain $245) — prudence contrarienne sans panique. Le secteur Industrials (XLI) est **#2** du ranking avec momentum **7.27/10** (légère consolidation). L'**ATR_SPIKE persiste** à 5.82% ($20.83), signalant une volatilité élevée. La valorisation s'est encore détériorée : P/E 89.5, Forward P/E 40.4, P/B 34.7. Le consensus PT $267.57 est désormais **33.8% sous le cours**. Timing **Favorable** d'après le moteur. **Pas de position longue recommandée à ce stade.** Si clôture au-dessus de **$360** avec volume >1.0× + catalyseur externe → upgrade ACHETER (réduit). Si clôture sous **$350** avec volume >0.8× → downgrade SURVEILLER (profit-taking). Si retombe sous $322.88 (MM50) avec volume >0.6× → retour ÉVITER. Prochain earnings 2026-07-29 (37 jours).
 
 ---
 
@@ -47,27 +47,33 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 58.40
-- **MM 50j :** 322.72
+- **RSI 14j :** 60.41
+- **MM 50j :** 322.88
 - **MM 200j :** —
-- **ATR 14j :** 20.25
-- **Volume moy. 20j :** 5889277
+- **ATR 14j :** 20.83
+- **Volume moy. 20j :** 6079250
+- **Volume séance :** 7239517 (1.19×)
+- **Cours close :** 357.96 (+7.48%)
+- **High intraday :** 358.54
+- **52W high :** 379.935
+- **Support clé :** 350.00 / 338.24 / 322.88 (MM50)
+- **Résistance clé :** 358.54 / 379.935 (52W high) / 400.00
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-22
-- **Type :** update post-séance
+- **Type :** update (close officiel 21:00 UTC)
 - **Fichier :** `VRT_2026-06-22_update.md`
-- **Conclusion :** Thèse MODIFIÉE — rally +5.07% confirmé mais sur volume effondré (0.58×), réintroduisant le risque d'épuisement acheteur / short-covering. ATTENDRE maintenu avec vigilance accrue.
+- **Conclusion :** Rally confirmé sur volume standard (1.19×), invalidation hypothèse volume suspect. Dépassement $350 en close. RSI 60.41. Score Global Ajusté 50.0/100 (ATTENDRE). Thèse MODIFIÉE — nuance haussière accrue mais valorisation extrême et absence de catalyseur externe empêchent l'upgrade vers ACHETER.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +5.07% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 5.79% (seuil 5.0%)
+- **PRICE_GAP** (medium) — Gap +7.48% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 5.82% (seuil 5.0%)
 
 ---
 

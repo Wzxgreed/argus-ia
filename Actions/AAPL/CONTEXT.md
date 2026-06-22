@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 57.3/100
-- **Prix cible :** $296.27 (consensus FMP 62 analystes)
-- **Stop-loss :** $283.97 (2×ATR)
-- **Statut thèse :** confirmée avec nuance mixte
-- **Horizon :** 1–3 mois (earnings 2026-07-30)
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
+- **Horizon :** —
 
 ---
 
@@ -24,32 +24,23 @@
 
 ## 🚨 Alertes actives
 
-- RSI 44.8 en zone neutre favorable (sortie survente approche)
-- Volume révisé 17.45M (0.34×) — effondrement à confirmer
-- Pinning gamma baissier accru : max pain $290.00 vs spot $300.01 (−3.4%)
-- Cours au-dessus consensus (−1.3% upside)
-- Break intraday $300.00 (high $302.42) — à confirmer sur volume
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **Earnings Q3 FY2026 :** 2026-07-30 (38 jours) — Est EPS $1.83–$1.99, Rev $109.0B
-- **Expiration options :** 2026-06-22 (jour J)
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 44.8
-- **MM 50j :** 289.43
+- **RSI 14j :** 42.29
+- **MM 50j :** 289.37
 - **MM 200j :** —
-- **ATR 14j :** 8.02
-- **Volume moy. 20j :** 51434174
-- **Cours actuel :** 300.01
-- **Previous close :** 298.01
-- **High intraday :** 302.42
-- **Low intraday :** 297.34
+- **ATR 14j :** 8.06
+- **Volume moy. 20j :** 52056412
 
 ---
 
@@ -58,7 +49,7 @@
 - **Date :** 2026-06-22
 - **Type :** update
 - **Fichier :** `AAPL_2026-06-22_update.md`
-- **Conclusion :** Cours remonté $298.01 → $300.01 (+0.67%), RSI remonté 39.07 → 44.8 (sortie zone survente), break intraday $302.42, volume révisé 0.34× (effondrement à confirmer), upside consensus dégradé −1.3%, pinning gamma baissier accru (+3.4% vs max pain), SL/TP révisés $283.97/$324.07, scores ATTENDRE 57.3/100 Favorable inchangés. Thèse confirmée avec nuance mixte.
+- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-22 17:00 UTC, post-ouverture US) + agents recommandations, sector rotation, FX, quant, geo, social
 
 ---
 

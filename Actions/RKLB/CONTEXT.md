@@ -7,10 +7,10 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ÉVITER
-- **Score global :** 29.3/100
-- **Prix cible :** $90.83
-- **Stop-loss :** $79.11
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
 - **Statut thèse :** modifiée
 - **Horizon :** —
 
@@ -24,45 +24,39 @@
 
 ## 🚨 Alertes actives
 
-- CASSURE MM50 : spot $99.61 sous MM50 $104.56 (support devenu résistance)
-- Score Global 29.3/100 (ÉVITER) — seuil critique
-- Momentum effondré 2.5/10
-- Pin risk options expiration 2026-06-26 (Max Pain $69.00)
-- Forward P/E négatif (-5671) — non rentable
-- Filtre Qualité 3/6 — hors périmètre institutionnel
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- Earnings Q2 2026 : 2026-08-06 (45 jours)
-- Expiration options : 2026-06-26 (4 jours, Max Pain $69.00)
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 36.14
-- **MM 50j :** 104.56
+- **RSI 14j :** 36.43
+- **MM 50j :** 104.58
 - **MM 200j :** —
 - **ATR 14j :** 10.25
-- **Volume moy. 20j :** 29290937
+- **Volume moy. 20j :** 29702929
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-22
-- **Type :** update_17h
-- **Fichier :** `RKLB_2026-06-22_update_17h.md`
-- **Conclusion :** Gap baissier -7.11% à $99.61, cassure MM50 ($104.56), downgrade ÉVITER 29.3/100, momentum effondré 2.5/10. Thèse modifiée de SURVEILLER à ÉVITER. DRAFT_refresh PRICE_GAP + ATR_SPIKE validé vrai événement.
+- **Type :** update
+- **Fichier :** `RKLB_2026-06-22_update.md`
+- **Conclusion :** > Source : `data/latest.json` (snapshot 13h UTC) | `data/recommandations_latest.json` | `data/sector_rotation_latest.json` | `data/upcoming_events_latest.json` | `data/events_latest.json` | `data/geo_
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap -7.11% (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 10.29% (seuil 5.0%)
+- **PRICE_GAP** (medium) — Gap -6.48% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 10.22% (seuil 5.0%)
 
 ---
 

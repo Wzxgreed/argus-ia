@@ -55,6 +55,7 @@
 | 2026-06-17 | Update (17:00 UTC) | [NOK_2026-06-17_17h_update.md](./NOK_2026-06-17_17h_update.md) | Correction previous close ($13.98 vs $14.82), invalidation gap baissier. Cours $14.035 (+0.39%). RSI 42.79. Volume effondré 0.50×. Score Global 46.8 — **SURVEILLER**. SL/TP révisés $11.88/$17.28. Pas de position. |
 | 2026-06-22 | Update (13:00 UTC) | [NOK_2026-06-22_update.md](./NOK_2026-06-22_update.md) | Cours stable $13.49. Données options restaurées et révisées : max pain confirmé $14.00, put/call 1.03 (vs 0.46), call OI 49.3% (vs 68.3%). Structure quasi-neutre, pin risk haussier atténué. Score Global 46.8 — **SURVEILLER** confirmé. SL/TP inchangés $11.33/$16.73. Pas de position. |
 | 2026-06-22 | Update (17:00 UTC) | [NOK_2026-06-22_17h_update.md](./NOK_2026-06-22_17h_update.md) | Rebond technique **+4.56%** ($13.49 → $14.105) sur volume très faible (77.1M, ~0.60×). Données techniques (RSI, ATR, MM50) et options **manquantes** (source `fmp_fallback`). Score Global ajusté **43.2/100 — SURVEILLER** (−3.6 pts). SL/TP **stale** $11.33/$16.73 [non révisables sans ATR]. Pas de position. |
+| 2026-06-22 | Update (21:00 UTC) | [NOK_2026-06-22_21h_update.md](./NOK_2026-06-22_21h_update.md) | Rebond confirmé **+6.97%** ($13.49 → $14.43). Données techniques et options **restaurées** (RSI 38.85, ATR $1.04, MM50 $13.27, max pain $14.00). Volume révisé à la hausse 116.2M (0.878×). **Divergence RSI/prix** détectée (RSI −3.33 pts malgré cours +6.97%). Score Global ajusté **48.0/100 — SURVEILLER** (+4.8 pts). SL/TP révisés **$12.35/$17.55**. Pas de position. |
 
 ---
 
@@ -62,12 +63,12 @@
 
 **Recommandation :** SURVEILLER — Pas de position
 **Prix cible :** $10.8 (consensus 7 analystes FMP)
-**Stop-loss :** $11.33 [STALE — basé sur ATR $1.08 et cours $13.49 du snapshot 13h]
-**Take-profit :** $16.73 [STALE — même base]
-**Upside/Downside :** −23.4% / −19.7% (basés sur cours $14.105)
-**Dernière mise à jour :** 2026-06-22 17:00 UTC
+**Stop-loss :** $12.35 (cours − 2×ATR $1.04)
+**Take-profit :** $17.55 (cours + 3×ATR $1.04)
+**Upside/Downside :** −25.2% / −14.4% (basés sur cours $14.43)
+**Dernière mise à jour :** 2026-06-22 21:00 UTC
 
-Snapshot 17h UTC : close **$14.105** (+4.56% vs close 13h $13.49). Low **$13.80**, high **$14.27**. Volume **77.1M** (~0.60× moyenne 20j — participation très faible). **Données techniques manquantes** (RSI, ATR, MM50 absents — source `fmp_fallback`). **Données options manquantes** (`{}` dans `latest.json`). Consensus FMP **$10.8** (7 analysts). Premium consensus **+30.6%**. Quality hors périmètre (2.5/6). Divergence Yahoo/FMP non observable sur ce snapshot (source FMP uniquement). XLC bottom 3 (momentum score 0.0). `recommandations_2026-06-22.json` : Score Global ajusté **43.2/100 — SURVEILLER** (C:4.0 V:4.5 M:4.5). Pas de position. Aucun événement corporate, aucune news structurante.
+Snapshot 21h UTC : close **$14.43** (+6.97% vs previous close $13.49). Low **$13.80**, high **$14.56**. Volume **116.2M** (0.878× moyenne 20j — participation modérée, révision +50.7% vs snapshot 17h). **Données techniques restaurées** : RSI 38.85 (divergence baissière vs cours — −3.33 pts vs snapshot 13h), ATR $1.04, MM50 $13.27 (cours +8.7% au-dessus). **Données options restaurées** : max pain $14.00, put/call 1.03 (quasi-neutre), call OI 49.3% (quasi-neutre), expiration 2026-06-26 (dans 4 jours). Consensus FMP **$10.8** (7 analysts). Premium consensus **+33.6%**. Quality hors périmètre (2.5/6). Divergence Yahoo/FMP persistante et majeure (Market Cap $80.6B vs $29.8B, P/E 90.19 vs 50.06). XLC bottom 3 (momentum score 0.0). `recommandations_2026-06-22.json` : Score Global ajusté **48.0/100 — SURVEILLER** (C:4.0 V:3.5 M:6.0). Pas de position. Aucun événement corporate, aucune news structurante.
 
 ---
 
