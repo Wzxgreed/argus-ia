@@ -47,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-22
-- **Type :** preview
-- **Fichier :** `TEST_2026-06-22_preview.md`
-- **Conclusion :** > **Date :** 2026-06-22
+- **Type :** update
+- **Fichier :** `TEST_2026-06-22_update_13h00.md`
+- **Conclusion :** Stabilité totale confirmée vs snapshot 10h UTC — cours, RSI, volume, MM50, ATR et scores inchangés. Verdict ACHETER (Réduit) maintenu, timing Favorable, SL/TP $41.67/$48.32. Earnings JOUR J non résolu.
 
 ---
 
