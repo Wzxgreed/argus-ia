@@ -10,10 +10,10 @@
 - **Score global :** 55.2/100
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** 🔴 Bloqué data — pas de données de prix disponibles (confirmé snapshot 13h UTC 17/06, 55e snapshot consécutif sans mutation)
+- **Statut thèse :** 🔴 Bloqué data — pas de données de prix disponibles (confirmé snapshot 10h UTC 22/06, plus de 55 snapshots consécutifs sans mutation)
 - **Horizon :** Jusqu'à reprise du data feed
 
-**Synthèse (1 phrase) :** QTBS reste en data blackout complet (No price history) depuis au moins le 20 mai 2026 ; le placeholder earnings J0 est figé au 17/06 — statut ATTENDRE maintenu après vérification snapshot 13h UTC (55e snapshot consécutif sans mutation, aucun signal nouveau). FX exposure inchangée : 25% export, impact neutre (score 0.0). News Yahoo : `[]`. Contexte sectoriel XLF inchangé (rang 4e/11, momentum 5.32/10).
+**Synthèse (1 phrase) :** QTBS reste en data blackout complet (No price history) depuis au moins le 20 mai 2026 ; le placeholder earnings J0 a glissé au 22/06 — statut ATTENDRE maintenu après vérification snapshot 10h UTC (plus de 55 snapshots consécutifs sans mutation, aucun signal nouveau). FX exposure inchangée : 25% export, impact neutre (score 0.0). News Yahoo : `[]`. Contexte sectoriel XLF inchangé (rang 3e/11, momentum 4.25/10).
 
 ---
 
@@ -45,23 +45,24 @@
 | 2026-06-16 | `QTBS_2026-06-16_update_17h.md` | Mise à jour quotidienne | **Data blackout confirmé snapshot 17h UTC — ATTENDRE (53e snapshot consécutif sans mutation), placeholder earnings J0 figé au 16/06, news Yahoo `[]`, aucun signal nouveau** |
 | 2026-06-17 | `QTBS_2026-06-17_update.md` | Mise à jour quotidienne | Data blackout confirmé snapshot 10h UTC — ATTENDRE (54e snapshot consécutif sans mutation), placeholder earnings J0 glissant au 17/06, news Yahoo `[]`, aucun signal nouveau |
 | 2026-06-17 | `QTBS_2026-06-17_update_13h.md` | Mise à jour quotidienne | **Data blackout confirmé snapshot 13h UTC — ATTENDRE (55e snapshot consécutif sans mutation), placeholder earnings J0 figé au 17/06, news Yahoo `[]`, aucun signal nouveau, contexte sectoriel XLF inchangé** |
+| 2026-06-22 | `QTBS_2026-06-22_update.md` | Mise à jour quotidienne | **Data blackout confirmé snapshot 10h UTC — ATTENDRE (plus de 55 snapshots consécutifs sans mutation), placeholder earnings J0 glissant au 22/06, news Yahoo `[]`, aucun signal nouveau, contexte sectoriel XLF inchangé** |
 
 ---
 
 ## 📅 Agenda des prochains événements
 
-- **2026-06-17** · Placeholder earnings FMP J0 glissant (17/06) — non analysable faute de données
+- **2026-06-22** · Placeholder earnings FMP J0 glissant (22/06) — non analysable faute de données
 - Prochain earnings / catalyseur : **à confirmer** dès reprise du data feed
 
 ---
 
 ## 🔗 Liens rapides
 
-- [Mise à jour du jour (snapshot 13h) → `QTBS_2026-06-17_update_13h.md`](QTBS_2026-06-17_update_13h.md)
+- [Mise à jour du jour (snapshot 10h) → `QTBS_2026-06-22_update.md`](QTBS_2026-06-22_update.md)
+- [Mise à jour précédente (snapshot 13h 17/06) → `QTBS_2026-06-17_update_13h.md`](QTBS_2026-06-17_update_13h.md)
 - [Mise à jour précédente (snapshot 10h 17/06) → `QTBS_2026-06-17_update.md`](QTBS_2026-06-17_update.md)
-- [Mise à jour précédente (snapshot 17h 16/06) → `QTBS_2026-06-16_update_17h.md`](QTBS_2026-06-16_update_17h.md)
 - [Contexte mémoire → `CONTEXT.md`](CONTEXT.md)
 
 ---
 
-*Dernière mise à jour : 2026-06-17 (snapshot 13h UTC)*
+*Dernière mise à jour : 2026-06-22 (snapshot 10h UTC)*
