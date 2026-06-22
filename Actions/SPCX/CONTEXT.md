@@ -11,9 +11,9 @@
 **Prix cible :** N/A (données insuffisantes — cours fictif)
 **Stop-loss :** N/A
 **Upside :** —
-**Dernière mise à jour :** 2026-06-22 (snapshot 10h UTC)
+**Dernière mise à jour :** 2026-06-22 (snapshot 13h UTC)
 
-> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 10h UTC du 22/06 marque un **reclassement mécanique majeur** de l'Agent Recommandation : **ÉVITER 20.0/100 → ATTENDRE 57.2/100**, porté par un saut du Score Catalyseur (+2.5 pt à 8.0/10) et du Score Valorisation (+2.5 pt à 4.5/10). Cependant, le **conflit de symbole FMP chronique persiste** : FMP renvoie un **cours fictif $185.00** (−3.56% vs previous close $191.82), accompagné d'un faux market cap de **$2.44T** et d'un forward P/E muté à **711.54** (was −2,242). Le secteur persiste `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management`. Les métriques techniques (RSI, ATR, MM50) restent toutes nulles. **Mutations fondamentales majeures détectées** : (1) **float FMP** chute de 90.4% (2.92B → 281.2M) ; (2) **consensus analystes** mute (PT $177.50 → $251.50, +41.7%, 2 → 4 analysts) ; (3) **données options** mutent (`max_pain` 210.0 → 162.5, disparition du put/call ratio et du call OI). Le volume fictif a reculé de −15.5% à 272.1M. Le module sector rotation reste stable (NEUTRAL, 11/11 secteurs OK, XLK momentum_score 10.0, XLF momentum_score 4.25). Aucun catalyseur fondamental, news, ni social. SL/TP non calculables (prix et ATR absents). Le reclassement en ATTENDRE est **non actionnable en pratique** tant que la qualité data ne s'améliore pas. Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + métriques stables. Si le flux fiable ne revient pas ou si les mutations FMP continuent → retour possible en **ÉVITER**.
+> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 13h UTC du 22/06 confirme le **maintien en ATTENDRE 57.2/100** avec un Score Opportunité stable à 5.7/10 (C:8.0 V:4.5 M:4.5). Le **conflit de symbole FMP chronique persiste** : FMP renvoie un **cours fictif stable $185.00** (−3.56% vs previous close $191.82), accompagné d'un faux market cap de **$2.44T** et d'un forward P/E **711.54**. Le secteur persiste `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management`. Les métriques techniques (RSI, ATR, MM50) restent toutes nulles. **Stabilisation partielle des mutations fondamentales** : float FMP stable à 281.2M (inchangé vs 10h), consensus analystes stable (PT $251.50, 4 analysts). **Nouvelle mutation options** : `max_pain` 162.5 → 180.0 (+17.5), `put_call_ratio` réapparu à 0.83 (was null), `call_oi_pct` réapparu à 54.8% (was null). Le volume fictif stable à 272.1M. Le module sector rotation reste stable (NEUTRAL, 11/11 secteurs OK, XLK momentum_score 10.0, XLF momentum_score 4.25). Aucun catalyseur fondamental, news, ni social. SL/TP non calculables (prix et ATR absents). Le maintien en ATTENDRE est **non actionnable en pratique** tant que la qualité data ne s'améliore pas. Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + métriques stables. Si le flux fiable ne revient pas ou si les mutations FMP continuent → retour possible en **ÉVITER**.
 
 ---
 
@@ -57,8 +57,8 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-22
-- **Type :** preview
-- **Fichier :** `SPCX_2026-06-22_preview.md`
+- **Type :** update
+- **Fichier :** `SPCX_2026-06-22_update_13h.md`
 - **Conclusion :** > **Date :** 2026-06-22
 
 ---

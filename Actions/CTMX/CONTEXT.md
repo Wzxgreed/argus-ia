@@ -15,7 +15,7 @@
 **Statut :** These non etablie — profil speculatif biotech pre-profit, Filtre Qualite 2/6
 **Horizon :** 6–12 mois (dependant des catalyseurs cliniques)
 
-**Resume :** CTMX est une biotech en phase clinique avancee (plateforme Probody) avec des partenariats de qualite (AbbVie, BMS, Amgen). Le snapshot du **2026-06-22** confirme la **stabilite mecanique post-expiration** : cours $2.95 (+0.68% vs $2.93), RSI 22.22 (+5.06 pts, survente extreme persistante mais attenuée), ATR $0.18 (+$0.01), volume 9.73M (2.40x, normalisation post-expiration). **8e anomalie options JSON detectee** (max pain $1.00 aberrant, put/call null, call OI null) — valeurs operationnelles conservees. L'expiration du 2026-06-18 est passee sans materialisation du pin risk haussier. Nouvelle expiration au **2026-07-17**. L'agent Recommandation maintient **SURVEILLER** avec **Score Global Ajuste 48.8/100** (sous seuil 50). Le timing reste **Defavorable**.
+**Resume :** CTMX est une biotech en phase clinique avancee (plateforme Probody) avec des partenariats de qualite (AbbVie, BMS, Amgen). Le snapshot du **2026-06-22** confirme la **stabilite mecanique post-expiration** : cours $2.95 (+0.68% vs $2.93), RSI 22.22 (+5.06 pts, survente extreme persistante mais attenuée), ATR $0.18 (+$0.01), volume 9.73M (2.40x, normalisation post-expiration). **Pivot structurel baissier sur les options** detecte : put/call **8.91** (vs 0.14), call OI **10.1%** (vs 87.8%), max pain stable **$4.00** — donnees propres, pas d'anomalie JSON. L'expiration du 2026-06-18 est passee sans materialisation du pin risk haussier. Nouvelle expiration au **2026-07-17**. L'agent Recommandation maintient **SURVEILLER** avec **Score Global Ajuste 48.8/100** (sous seuil 50). Le timing reste **Defavorable**.
 
 ---
 

@@ -1,6 +1,6 @@
-# ASTS — Mise à Jour 2026-06-22
+# ASTS — Mise à Jour 2026-06-22 (Snapshot 13h UTC — Options Résolues)
 
-> **Close $80,66** : gap down **−5,58%** vs previous close $85,43, test du pivot **$80,00** (low $77,12), RSI **32,75** en survente atténuée (+4,24 pt vs 28,51 du 17/06), volume en expansion **1,117×** (31,68M vs moy. 20j 28,35M). **Anomalies options JSON récurrentes** : max pain $45,00 aberrant, put/call et call OI `null` — valeurs opérationnelles conservées : max pain **$100,00**, put/call **0,46**, call OI **68,3%** (dernières données fiables 17/06). Score global ajusté **39,2/100 (SURVEILLER)** vs 43,0 précédent. Score Opportunité **4,7/10**. Score Momentum dégradé à **2,5/10**. Thèse **SURVEILLER aggravée** — le pivot $80 a été testé et violé intraday. La configuration est désormais plus fragile.
+> **Close $80,66** : gap down **−5,58%** vs previous close $85,43, test du pivot **$80,00** (low $77,12), RSI **32,75** en survente atténuée (+4,24 pt vs 28,51 du 17/06), volume en expansion **1,117×** (31,68M vs moy. 20j 28,35M). **Anomalie options JSON RÉSOLUE** : max pain **$100,00**, put/call **0,70**, call OI **58,9%** (vs valeurs corrompues du snapshot matinal). Score global ajusté **39,2/100 (SURVEILLER)** vs 43,0 précédent. Score Momentum dégradé à **2,5/10**. Thèse **SURVEILLER aggravée** — le pivot $80 a été testé et violé intraday. La configuration est désormais plus fragile.
 
 ---
 
@@ -16,13 +16,16 @@
 | Cours vs MM50 | **−7,5%** | **−8,8%** | **−1,3 pt** 🔴 |
 | **Volume rel.** | **0,733×** (20,04M) | **1,117×** (31,68M) | **+0,384× (+52,4%)** 🔴 |
 | Volume absolu | 20,04M | **31,68M** | **+11,64M (+58,1%)** 🔴 |
-| Market Cap | $31,92B | **$31,31B** | **−$0,61B (−1,9%)** 🔴 |
+| Market Cap (Yahoo) | $31,92B | **$31,31B** | **−$0,61B (−1,9%)** 🔴 |
 | Forward P/E | −400,83 | **−393,08** | **+7,75** 🟡 |
 | EV/Revenue (Yahoo) | 295,70× | **290,11×** | **−5,59×** 🟢 |
 | P/B (Yahoo) | 11,81× | **11,58×** | **−0,23×** 🟢 |
 | Consensus PT | $94,54 | **$94,54** | **—** 🟢 |
 | Divergence consensus | +14,9% | **+17,2%** | **+2,3 pt** 🟡 |
 | Short Interest | 18,39% | **18,39%** | **—** 🟢 |
+| **Options Max Pain** | **$100,00** (résolu 17/06) | **$100,00** (résolu 22/06) | **—** 🟢 |
+| **Options Put/Call** | **0,46** | **0,70** | **+0,24 pt** 🔴 |
+| **Options Call OI %** | **68,3%** | **58,9%** | **−9,4 pt** 🔴 |
 | **Score Global ajusté (JSON)** | **43,0 (SURVEILLER)** | **39,2 (SURVEILLER)** | **−3,8 pts** 🔴 |
 | **Score Opportunité** | **4,6/10** | **4,7/10** | **+0,1 pt** 🟡 |
 | **Score Momentum** | **3,5/10** | **2,5/10** | **−1,0 pt** 🔴 |
@@ -30,6 +33,22 @@
 | **Score Valorisation** | **4,5/10** | **5,0/10** | **+0,5 pt** 🟡 |
 
 **Verdict :** la session du 2026-06-22 apporte une **mutation technique significative** : gap down −5,58% à l'ouverture ($85,30 → open, $77,12 low), volume en expansion 1,117×, et test du pivot clé **$80,00** avec violation intraday ($77,12). Le close à $80,66 (+4,6% du low) est un **rejet partiel** de la cassure, mais la configuration est désormais plus fragile. Le score global ajusté recule de 43,0 à 39,2 (SURVEILLER, bas de fourchette). Le score Momentum s'est dégradé de 3,5 à 2,5/10, confirmant la faiblesse structurelle. RSI en survente atténuée (32,75 vs 28,51) — léger répit mais pas de signal de retournement.
+
+**Signal important :** l'anomalie options JSON est **résolue** dans le snapshot 13h UTC 2026-06-22. Les valeurs opérationnelles sont désormais directement issues du JSON : max pain $100,00, put/call 0,70, call OI 58,9%. Le put/call ratio a grimpé de 0,46 à 0,70 (+52%) et le call OI a reculé de 68,3% à 58,9% (−9,4 pt), signalant un **virage plus bearish du positionnement options** par rapport au 17/06. Cette évolution cohère avec le gap down et le test du pivot $80.
+
+---
+
+## Anomalies de Données — Résolution Options
+
+1. **Options JSON RÉSOLUES** : le snapshot 13h UTC 2026-06-22 restaure des données options cohérentes pour ASTS :
+   - Max Pain : **$100,00** (coherent avec l'historique récent)
+   - Put/Call Ratio : **0,70** (vs `null` corrompu au snapshot matinal)
+   - Call OI % : **58,9%** (vs `null` corrompu au snapshot matinal)
+   - Nearest expiry : **2026-06-26** (J+4)
+   
+   **Lecture :** le positionnement options s'est dégradé par rapport au 17/06. Le put/call 0,70 est supérieur au 0,46 précédent (plus de puts relativement aux calls), et le call OI 58,9% est inférieur au 68,3% précédent. Cela traduit une **couverture baissière accrue** par les opérateurs options, cohérente avec le gap down −5,58% et le test du pivot $80.
+
+2. Aucune autre anomalie de données détectée dans `data/latest.json` pour ASTS.
 
 ---
 
@@ -45,7 +64,7 @@
 - **52W low :** $36,08
 - **Range intraday :** $77,12–$85,70 (**amplitude 11,1%**) — séance volatile avec test du pivot $80
 - **Supports clés :** $80,00 (psychologique, **pivot clé**, close juste au-dessus) ; $77,12 (low du 22/06, **support immédiat**) ; $75,00 (support structurel majeur) ; $70,00 (zone de congestion avril 2026)
-- **Résistances clés :** $85,43 (previous close) ; $85,70 (high du 22/06) ; $88,42 (MM50) ; $92,06 (close 09/06) ; $100,00 (psychologique + max pain opérationnel)
+- **Résistances clés :** $85,43 (previous close) ; $85,70 (high du 22/06) ; $88,42 (MM50) ; $92,06 (close 09/06) ; $100,00 (psychologique + max pain)
 - **Timing verdict :** **Défavorable** — cours sous MM50 avec écart accru (−8,8%), gap down sur volume expansion, test et rejet partiel du pivot $80. Aucun signal de retournement haussier
 - **Score Momentum :** 2,5/10 — **dégradation** (JSON recommandations). Momentum baissier renforcé
 
@@ -55,7 +74,7 @@
 
 Aucun nouveau résultat comptable ni guidance. Mutation **exclusivement technique** (gap down + test pivot).
 
-- **Market Cap :** $31,31B — **−$0,61B** vs close 17/06
+- **Market Cap :** $31,31B (Yahoo) / $25,32B (FMP) — divergence significative entre sources. La valorisation Yahoo fait foi pour le cours actuel
 - **Forward P/E :** −393,08 (profil non rentable, légère amélioration mécanique vs −400,83)
 - **EV/EBITDA :** −77,88
 - **EV/Revenue :** **290,11× (Yahoo)** / **355,70× (FMP annual)** — mécaniquement réduit par la baisse du cours (Yahoo), inchangé FMP
@@ -72,12 +91,12 @@ Aucun nouveau résultat comptable ni guidance. Mutation **exclusivement techniqu
 ## Mise à Jour Sentiment / Options / News
 
 - **Consensus analystes :** inchangé à $94,54. Divergence consensus **+17,2% upside** (mécanique)
-- **Options :**
-  - **Max Pain :** **$45,00** (JSON) — **anomalie aberrante récurrente**. Valeur opérationnelle conservée : **$100,00** (dernière donnée fiable 17/06). Cours $80,66 reste **−19,3% sous le Max Pain opérationnel**
-  - **Put/Call Ratio :** **`null`** (JSON corrompu). Valeur opérationnelle conservée : **0,46**
-  - **Call OI % :** **`null`** (JSON corrompu). Valeur opérationnelle conservée : **68,3%**
+- **Options (JSON résolu 13h UTC) :**
+  - **Max Pain :** **$100,00** — cohérent avec l'historique récent. Cours $80,66 reste **−19,3% sous le Max Pain**
+  - **Put/Call Ratio :** **0,70** — **dégradation vs 0,46 du 17/06** (+52% relatif). Plus de puts relativement aux calls, signalant une couverture baissière accrue
+  - **Call OI % :** **58,9%** — **recul vs 68,3% du 17/06** (−9,4 pt). Le skew call se réduit, cohérent avec la pression vendeuse du jour
   - Nearest expiry : **2026-06-26** (J+4)
-  - **Lecture :** le décrochage du cours sous $85 renforce l'écart au max pain. Les calls OTM $85+ subiront une dépréciation rapide si le cours reste sous $85 à l'expiration. Le pinning vers $100 est hautement improbable à court terme
+  - **Lecture :** le positionnement options s'est viré plus défensif/baissier par rapport au 17/06. Le décrochage du cours sous $85 renforce l'écart au max pain. Les calls OTM $85+ subiront une dépréciation rapide si le cours reste sous $85 à l'expiration. Le pinning vers $100 est hautement improbable à court terme
 - **Social Sentiment :** 0 mention Reddit ; Score 0,0/10 (no data) ; Pump detected : False — stable
 - **Event-Driven :** aucun événement corporate détecté pour ASTS (`events_2026-06-22.json` vide)
 - **Géopolitique :** ASTS non flaggé (`geo_risk_latest.json` — pas de données récentes pertinentes)
@@ -87,15 +106,15 @@ Aucun nouveau résultat comptable ni guidance. Mutation **exclusivement techniqu
 **Catalyseurs à venir :**
 - Prochain earnings : **2026-08-10** (J+49) — Est. EPS $−0,29 à $−0,17, Revenus $0,0B
 - Aucun preview auto-généré (earnings > 3j)
-- **Expiration options 2026-06-26 (J+4)** — max pain opérationnel $100 au-dessus du spot (+23,9%). La probabilité de pinning gamma s'éloigne avec le cours sous $85
+- **Expiration options 2026-06-26 (J+4)** — max pain $100 au-dessus du spot (+23,9%). La probabilité de pinning gamma s'éloigne avec le cours sous $85. Le put/call 0,70 et le call OI 58,9% reflètent un positionnement plus défensif que la semaine dernière
 
 ---
 
-## Scoring Global — Close 2026-06-22
+## Scoring Global — Close 2026-06-22 (Snapshot 13h UTC, Options Résolues)
 
 | Axe | Score | Pondération | Commentaire |
 |-----|-------|-------------|-------------|
-| Catalyseur | 6,0/10 | 35% | Aucun catalyseur imminent, earnings dans 49j. Structure options historiquement haussière (call OI 68,3%, put/call 0,46) mais données corrompues aujourd'hui |
+| Catalyseur | 6,0/10 | 35% | Aucun catalyseur imminent, earnings dans 49j. Structure options historiquement haussière (call OI 58,9%) mais en dégradation vs 68,3% du 17/06. Put/call 0,70 = couverture baissière accrue |
 | Valorisation | 5,0/10 | 40% | Multiples spéculatifs extrêmes persistants (EV/Revenue FMP 355,7×). Consensus offre un upside mécanique +17,2% mais fondamentaux non rentables |
 | Momentum | 2,5/10 | 25% | RSI 32,75 en survente atténuée, cours −8,8% sous MM50, volume expansion 1,117× à la baisse. Configuration baissière renforcée |
 | **Score Opportunité** | **4,7/10** | | |
@@ -106,7 +125,7 @@ Aucun nouveau résultat comptable ni guidance. Mutation **exclusivement techniqu
 - Malus **VOLUME_BAISSE** : volume 1,117× en expansion à la baisse — liquidité de retour mais direction négative
 - Malus **GAP_DOWN** : gap −5,58% overnight — ouverture sous le previous close, pression vendeuse agressive
 - Malus **PIVOT_TEST** : low $77,12 < pivot $80,00 — cassure intraday du niveau clé, rejet partiel au close
-- Bonus **ANOMALIE_OPTIONS_STABLE** (historique) : max pain $100 cohérent, put/call 0,46, call OI 68,3% — signal options fiable mais de moins en moins pertinent avec le cours sous $85
+- Malus **OPTIONS_BEARISH_SHIFT** : put/call 0,70 (+52% vs 0,46 du 17/06), call OI 58,9% (−9,4 pt vs 68,3%) — positionnement options viré plus défensif/baissier
 - Malus sectoriel (XLC bottom 3, momentum 0,0) : −0,5 pt — faiblesse sectorielle persistante
 - Aucun malus comptable (`accounting_risk_latest.json` absent)
 - Aucun malus géopolitique
@@ -132,7 +151,7 @@ Aucun nouveau résultat comptable ni guidance. Mutation **exclusivement techniqu
 - Le consensus analystes ($94,54) est **+$13,88 au-dessus du cours** — upside consensus mécanique +17,2%
 - **Zone d'intérêt potentielle :** $77–$80 (test du low du 22/06 + support psychologique $80)
 - **Résistance immédiate :** $85,43 (previous close) ; $85,70 (high 22/06) ; $88,42 (MM50)
-- **Alerte options J+4 :** Max Pain opérationnel $100 au-dessus du spot (+23,9%). Pinning gamma théoriquement possible mais très improbable sous $85
+- **Alerte options J+4 :** Max Pain $100 au-dessus du spot (+23,9%). Put/call 0,70 et call OI 58,9% = positionnement plus défensif. Pinning gamma théoriquement possible mais très improbable sous $85
 - **Alerte volume :** 1,117× = liquidité de retour mais à la baisse. Tout rebond sera contesté si le volume reste directionnellement vendeur
 
 ---
@@ -151,7 +170,7 @@ La session du 2026-06-22 apporte une **mutation technique significative** par ra
 6. **Score global ajusté dégradé** : 43,0 → 39,2 (−3,8 pts) — proche du seuil inférieur de la fourchette SURVEILLER
 7. **Score Momentum dégradé** : 3,5 → 2,5/10 — momentum baissier renforcé
 8. **Divergence consensus mécanique** : +14,9% → +17,2% (uniquement due à la baisse du cours)
-9. **Anomalies options récurrentes** : max pain JSON $45,00 aberrant — valeurs opérationnelles conservées
+9. **Options JSON résolues** : max pain $100,00, put/call 0,70, call OI 58,9% — mais le positionnement s'est viré plus bearish vs le 17/06 (put/call +52%, call OI −9,4 pt)
 10. **MM50 s'éloigne** : cours désormais −8,8% sous MM50 $88,42 (vs −7,5%)
 
 **Alertes actives :**
@@ -163,11 +182,11 @@ La session du 2026-06-22 apporte une **mutation technique significative** par ra
 - **ATR_SPIKE (haut)** : ATR relatif 13,2% du cours ($10,66)
 - **Profil non rentable** — EPS estimé négatif, multiples extrêmes (P/B 11,58× Yahoo / 10,10× FMP, EV/Revenue FMP 355,7×)
 - **Secteur Communication Services (XLC)** — bottom 3 du ranking sectoriel (momentum_score 0,0)
-- **Options J+4** — Max Pain opérationnel $100 à +23,9%, pinning gamma improbable sous $85
+- **Options J+4** — Max Pain $100 à +23,9%, put/call 0,70 = couverture baissière accrue, pinning gamma improbable sous $85
 - **Short Interest élevé** — 18,39%, pas de squeeze setup mais pression vendeuse présente
-- **Anomalies données** — options JSON corrompues (max pain $45, put/call null, call OI null)
+- **OPTIONS_BEARISH_SHIFT** — put/call 0,70 (+52% vs 17/06), call OI 58,9% (−9,4 pt) = positionnement options plus défensif
 
-**Verdict opérationnel :** la configuration s'est **aggravée** vs le 17/06. Le pivot $80 a été testé et violé intraday. Le rejet au close ($80,66) est un signal mitigé : soit les acheteurs défendent $80, soit c'est un "dead cat bounce" avant une cassure confirmée. Le volume en expansion à la baisse (1,117×) est le signal le plus inquiétant — il indique une participation vendeuse structurée.
+**Verdict opérationnel :** la configuration s'est **aggravée** vs le 17/06. Le pivot $80 a été testé et violé intraday. Le rejet au close ($80,66) est un signal mitigé : soit les acheteurs défendent $80, soit c'est un "dead cat bounce" avant une cassure confirmée. Le volume en expansion à la baisse (1,117×) est le signal le plus inquiétant — il indique une participation vendeuse structurée. L'évolution du positionnement options (put/call 0,70, call OI 58,9%) confirme que les opérateurs se couvrent à la baisse, ce qui renforce la fragilité technique.
 
 **Scénarios à court terme :**
 - **Optimiste (15%)** : défense de $80 confirmée, rebond technique vers $85–$88 sur volume >1,0× dans les 2–3 prochains jours
@@ -180,11 +199,11 @@ La session du 2026-06-22 apporte une **mutation technique significative** par ra
 - Si close < $80 sur volume >0,8× → réviser vers **ÉVITER** avec objectif $72–$75
 - Si rebond au-dessus de $85 sur volume >1,0× → réviser vers ATTENDRE avec objectif $88–$92
 - Si rebond au-dessus de $85 sur volume <0,8× → **ne pas suivre**, absence de conviction
-- Monitoring comportement options J+4 (expiration 2026-06-26) — les calls $85+ sont menacés
+- Monitoring comportement options J+4 (expiration 2026-06-26) — les calls $85+ sont menacés ; le put/call 0,70 indique une couverture baissière structurée
 - Attendre un catalyseur fondamental (earnings le 2026-08-10) ou technique (breakout confirmé au-dessus de $92 sur volume >0,8×) avant toute entrée
 - **Ne pas entrer long sans confirmation au-dessus de $88 sur volume >0,6×**
 - Le niveau $80 reste le **pivot absolu** : close au-dessus = consolidation possible ; close sous = risque d'accélération baissière majeure
 
 ---
 
-*Généré par le système Argus-IA — Close 2026-06-22 (cours $80,66, RSI 32,75, volume 1,117×, score global 39,2 SURVEILLER, divergence consensus +17,2%, cours −8,8% sous MM50 $88,42, gap down −5,58%, low $77,12 < pivot $80, anomalies options : max pain JSON $45 aberrant)*
+*Généré par le système Argus-IA — Close 2026-06-22, snapshot 13h UTC (cours $80,66, RSI 32,75, volume 1,117×, score global 39,2 SURVEILLER, divergence consensus +17,2%, cours −8,8% sous MM50 $88,42, gap down −5,58%, low $77,12 < pivot $80, options résolues : max pain $100,00, put/call 0,70, call OI 58,9%)*
