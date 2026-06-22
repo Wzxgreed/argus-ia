@@ -1,4 +1,4 @@
-# CONTEXT — NOK — Dernière mise à jour : 2026-06-21
+# CONTEXT — NOK — Dernière mise à jour : 2026-06-22
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -8,20 +8,20 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** SURVEILLER — Pas de position
-**Prix cible :** $10.8 (consensus 7 analystes FMP)
-**Stop-loss :** $11.88 (basé sur cours $14.035 et ATR $1.08 du snapshot actuel)
-**Take-profit :** $17.28 (basé sur cours $14.035 et ATR $1.08 du snapshot actuel)
-**Upside/Downside :** −23.0% / −15.4% (basés sur cours $14.035)
-**Dernière mise à jour :** 2026-06-17 17:00 UTC
+- **Prix cible :** $10.8 (consensus 7 analystes FMP)
+- **Stop-loss :** $11.33 (basé sur cours $13.49 et ATR $1.08 du snapshot actuel)
+- **Take-profit :** $16.73 (basé sur cours $13.49 et ATR $1.08 du snapshot actuel)
+- **Upside/Downside :** −20.0% / −16.0% (basés sur cours $13.49)
+- **Dernière mise à jour :** 2026-06-22 10:00 UTC
 
-Snapshot 17h UTC : close **$14.035** (+$0.055 vs 13h, +0.39% vs previous close corrigé $13.98). **Correction majeure** du previous close ($14.82 → $13.98), invalidant le récit du gap baissier −5.67%. RSI **42.79** (+2.26 pts), volume **62.5M** (0.50× moyenne 20j, −49.5% vs 13h), ATR **$1.08**, MM50 **$13.09**. Options **stables** : max pain **$14.00**, put/call **0.46**, call OI **68.3%**, expiration **2026-06-18** (**demain**). Cours légèrement au-dessus du max pain (+0.25%). Consensus FMP **$10.8** (7 analysts). Premium consensus **+30.0%**. Quality hors périmètre (2.5/6). Divergence Yahoo/FMP persistante. XLC bottom 3 (momentum score 0.0). `recommandations_2026-06-17.json` : Score Global ajusté **46.8/100 — SURVEILLER** (C:4.0 V:3.5 M:5.5). Pas de position.
+Snapshot 10h UTC : close **$13.49** (−$0.545 vs 17/06 17h, −2.46% vs previous close $13.83). **Correction de −3.88%** sur 5 séances, low étendu **$13.29**. RSI **42.18** (−0.61 pt), volume **126.8M** (0.98× moyenne 20j, +102.9% vs 17/06), ATR **$1.08**, MM50 **$13.17** (+$0.08). Options **corrompues** dans `latest.json` (max pain $3.00 aberrant) — valeurs opérationnelles du 17/06 conservées ($14.00 / 0.46 / 68.3%), expiration **2026-06-26** (dans 4 jours). Cours **−3.6% sous le max pain**. Pin risk modéré. Consensus FMP **$10.8** (7 analysts). Premium consensus **+24.9%**. Quality hors périmètre (2.5/6). Divergence Yahoo/FMP persistante. XLC bottom 3 (momentum score 0.0). `recommandations_2026-06-22.json` : Score Global ajusté **46.8/100 — SURVEILLER** (C:4.0 V:3.5 M:5.5). Pas de position.
 
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** —/10
+- **Score global :** 46.8/100 — SURVEILLER
 - **Prix cible :** $10.8
-- **Stop-loss :** $11.88
+- **Stop-loss :** $11.33
 - **Statut thèse :** validée
 - **Horizon :** —
 
@@ -43,7 +43,7 @@ Snapshot 17h UTC : close **$14.035** (+$0.055 vs 13h, +0.39% vs previous close c
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **2026-07-23** — Earnings Q2 FY2026 (dans 31 jours) — Est EPS $0.06–$0.08, Rev $4.8B
 
 ---
 
@@ -59,16 +59,10 @@ Snapshot 17h UTC : close **$14.035** (+$0.055 vs 13h, +0.39% vs previous close c
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-21
-- **Type :** full refresh
-- **Fichier :** `NOK_2026-06-21_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-21
-
----
-
-## 🔄 Triggers détectés (full refresh)
-
-- **ATR_SPIKE** (medium) — ATR relatif 8.01% (seuil 5.0%)
+- **Date :** 2026-06-22
+- **Type :** update
+- **Fichier :** `NOK_2026-06-22_update.md`
+- **Conclusion :** Thèse SURVEILLER confirmée. Correction −3.88% sur 5 séances à $13.49, low étendu $13.29, volume normalisé 0.98×. RSI stable 42.18. Options corrompues (max pain $3.00 aberrant). Score Global 46.8/100 inchangé. SL/TP révisés $11.33/$16.73. Pas de position.
 
 ---
 
