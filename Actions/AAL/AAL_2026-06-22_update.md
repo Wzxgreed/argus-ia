@@ -1,19 +1,21 @@
-# AAL — Mise à Jour 2026-06-22
+# AAL — Mise à Jour 2026-06-22 (Snapshot 13h UTC, Data Options Corrigée)
 
-**Date :** 2026-06-22 (snapshot 10h UTC, pre-session NY)
+**Date :** 2026-06-22 (snapshot 13h UTC, data options corrigée post-pipeline)
 **Ticker :** AAL (NASDAQ)
-**Type :** Mise à jour — snapshot quotidien, comparaison vs analyse précédente 2026-06-17 17h UTC
+**Type :** Mise à jour — correction data quality options + réévaluation gamma
 **Cours :** $15.99 (close) · Open $15.85 · High $16.07 · Low $15.77 · Previous close $15.42
 **Volume :** 126.28M (1.16× moyenne 20j = 108.89M)
 **Change vs prior close :** +3.70%
 
 > **Session du 22/06 :** Rally de **+3.70%** sur un volume en **expansion** de 126.28M (1.16× moyenne 20j), vs 62.19M (0.60× moyenne) au snapshot précédent du 17/06. Le high du jour **$16.07** dépasse le high précédent **$16.055** = invalidation du signal de fatigue haussière. Le cours se positionne à **3.1% du 52W high $16.50**. RSI 61.34 **inchangé** malgré la hausse = pas de surachat aggravé.
+>
+> **⚠️ Correction data quality majeure :** Le snapshot 10h UTC du 22/06 affichait des données options corrompues (Max Pain $5.00, Put/Call null, Call OI 0.0%). Le pipeline 13h UTC a restauré des données options **cohérentes** : Max Pain **$13.50**, Put/Call **1.74**, Call OI **36.6%**, expiration 2026-06-26. Cette correction modifie substantiellement l'analyse gamma (voir section Options).
 
 ---
 
 ## Résumé des Changements depuis l'Analyse Précédente (2026-06-17 17h UTC)
 
-| Indicateur | 2026-06-17 17h UTC | 2026-06-22 10h UTC | Δ vs Prior |
+| Indicateur | 2026-06-17 17h UTC | 2026-06-22 13h UTC | Δ vs Prior |
 |-----------|-------------------|-------------------|------------|
 | Cours close | **$15.835** | **$15.99** | **+$0.155 (+0.98% vs 17/06 close, +3.70% vs 22/06 prior close)** |
 | RSI 14j | **61.34** | **61.34** | **Inchangé** |
@@ -31,8 +33,12 @@
 | Score Opportunité | **4.9/10** | **5.0/10** | **🟢 +0.1 pt** |
 | Score Global ajusté | **53.8/100** | **55.0/100** | **🟢 +1.2 pts** |
 | Timing | **Favorable** | **Favorable** | **Inchangé** |
+| **Options Max Pain** | **$10.00** | **$13.50** | **🔴 +$3.50 (+35.0%) — gamma landscape modifié** |
+| **Options Put/Call** | **1.69** | **1.74** | **🔴 +0.05 (+3.0%) — légèrement plus baissier** |
+| **Options Call OI** | **37.2%** | **36.6%** | **🔴 −0.6 pt — haussiers minoritaires** |
+| Options Expiration | **2026-06-18** | **2026-06-26** | **Nouvelle expiration J+4** |
 
-**Verdict institutionnel :** Évolution **techniquement favorable** — le rally +3.7% s'accompagne d'une **expansion volumétrique** (1.16× moyenne) qui invalide l'hypothèse de fatigue haussière du 17/06. La remontée des sommets ($16.055 → $16.07) et le maintien du RSI à 61.34 sont des signaux positifs. Cependant, le Score Global ajusté **55.0/100** reste à **5.0 pts du seuil d'achat** (60), et l'upside consensus s'est réduit à **+3.3%** (mécanique, cours monté). Pas d'upgrade vers ACHETER.
+**Verdict institutionnel :** Évolution **techniquement favorable** — le rally +3.7% s'accompagne d'une **expansion volumétrique** (1.16× moyenne) qui invalide l'hypothèse de fatigue haussière du 17/06. La remontée des sommets ($16.055 → $16.07) et le maintien du RSI à 61.34 sont des signaux positifs. Le Score Global ajusté **55.0/100** reste à **5.0 pts du seuil d'achat** (60). La correction data quality options révèle un **Max Pain remonté à $13.50** (vs $10.00 précédemment), réduisant l'écart spot/Max Pain de +59.9% à +18.4% = l'influence gamma mécanique devient **non négligeable** pour la première fois depuis mai. Pas d'upgrade vers ACHETER.
 
 ---
 
@@ -64,20 +70,21 @@
 
 ---
 
-## Mise à Jour Options — [ANOMALIE DATA]
+## Mise à Jour Options — ✅ CORRECTION DATA QUALITY
 
-| Métrique | Snapshot 17h UTC 17/06 | Snapshot 10h UTC 22/06 | Interprétation |
-|----------|------------------------|------------------------|----------------|
-| Max Pain | **$10.00** | **$5.00** | 🔴 **ANOMALIE** — $5.00 aberrant pour un spot $15.99 |
-| Put/Call ratio | **1.69** | **null** | 🔴 **ANOMALIE** — données corrompues |
-| Call OI % | **37.2%** | **0.0%** | 🔴 **ANOMALIE** — 0.0% impossible |
-| Expiration | **2026-06-18** | **2026-06-26** | 🟢 Nouvelle expiration |
+| Métrique | Snapshot 17h UTC 17/06 | Snapshot 13h UTC 22/06 (corrigé) | Interprétation |
+|----------|------------------------|----------------------------------|----------------|
+| Max Pain | **$10.00** | **$13.50** | 🔴 **+35.0%** — gamma landscape modifié, influence mécanique non négligeable |
+| Put/Call ratio | **1.69** | **1.74** | 🟡 Légère détérioration du positionnement haussier (+3.0%) |
+| Call OI % | **37.2%** | **36.6%** | 🟡 Haussiers minoritaires, stable |
+| Expiration | **2026-06-18** | **2026-06-26** | 🟢 Nouvelle expiration J+4 |
 
-**Analyse options :**
-- **⚠️ Anomalie data quality majeure** dans `data/latest.json` (2026-06-22) : Max Pain $5.00, Put/Call null, Call OI 0.0% sont incohérents avec un spot $15.99. Ces valeurs sont rejetées.
-- **Dernières données fiables** (2026-06-17 17h UTC) : Max Pain $10.00, Put/Call 1.69, Call OI 37.2%. Le spot $15.99 reste à **+$5.99 (+59.9%)** au-dessus du Max Pain $10.00. L'influence gamma mécanique demeure **nulle**.
-- Le Put/Call 1.69 (données fiables) confirme un positionnement baissier stable dans les options. Le rally +3.7% du jour n'a pas modifié ce positionnement = le marché options anticipe toujours un retournement ou une consolidation.
-- **Verdict options : NEUTRE.** Le positionnement baissier crée un potentiel de short squeeze (short interest 11.39% + options baissières) si un catalyseur déclenche une cassure de $16.50, mais les données options actuelles sont corrompues et doivent être ignorées.
+**Analyse options (données corrigées) :**
+- **Max Pain $13.50 :** Le spot $15.99 est désormais à **+$2.49 (+18.4%)** au-dessus du Max Pain. Contrairement à l'écart de +59.9% observé avec l'ancien Max Pain $10.00, cet écart de +18.4% est **suffisamment proche** pour que l'influence gamma mécanique devienne **non négligeable**. En particulier, une approche du Max Pain $13.50 créerait une pression d'achat gamma (market makers couverts en delta positif au-dessus du Max Pain), mais le spot reste au-dessus = pas de pin risk immédiat.
+- **Put/Call 1.74 :** Légèrement supérieur au 1.69 du 17/06, confirmant un positionnement **baissier stable à légèrement renforcé** dans les options. Le rally +3.7% du jour n'a pas fait basculer le positionnement = le marché options anticipe toujours un retournement ou une consolidation.
+- **Call OI 36.6% :** Stable vs 37.2% — les haussiers restent minoritaires dans le positionnement options.
+- **Expiration J+4 (2026-06-26) :** L'expiration hebdomadaire est proche. Avec un Max Pain $13.50 et un spot $15.99, le risque de pin vers le Max Pain est **faible** (écart 18.4%), mais **non nul** pour la première fois depuis plusieurs semaines. Si le cours repliait sous $15.00 d'ici vendredi, la pression gamma mécanique s'intensifierait.
+- **Verdict options : NEUTRE LÉGÈREMENT BAISSIER.** Le positionnement baissier crée un potentiel de short squeeze (short interest 11.39% + options baissières) si un catalyseur déclenche une cassure de $16.50, mais le Max Pain remonté à $13.50 réduit la marge de sécurité gamma. Surveillance accrue si repli sous $15.00 avant expiration vendredi.
 
 ---
 
@@ -146,7 +153,7 @@
 
 ## Score Opportunité Révisé — 🟢 LÉGÈREMENT AMÉLIORÉ
 
-| Axe | 2026-06-17 17h UTC /10 | 2026-06-22 10h UTC /10 | Δ | Justification |
+| Axe | 2026-06-17 17h UTC /10 | 2026-06-22 13h UTC /10 | Δ | Justification |
 |-----|------------------------|------------------------|---|---------------|
 | Catalyseur | 5.3 | **5.3** | **Inchangé** | Consensus stable, earnings J−31, XLI top3, volume en expansion = catalyseur technique réactivé. |
 | Valorisation | 3.5 | **3.5** | **Inchangé** | Forward P/E 7.18 inchangé. Filtre Qualité 0–1/6 inchangé. Upside consensus +3.3% < +5%. |
@@ -164,14 +171,14 @@
 
 ## Niveaux SL / TP — Révisés
 
-| | 2026-06-17 17h UTC | 2026-06-22 10h UTC | Justification |
+| | 2026-06-17 17h UTC | 2026-06-22 13h UTC | Justification |
 |---|----------------------|----------------------|---------------|
 | Entrée suggérée | $15.835 | **$15.99** | Cours actualisé |
 | Stop-Loss | $14.56 | **$14.63** | Cours $15.99 − 2×ATR $0.68 = $14.63 |
 | Take-Profit | $17.76 | **$18.03** | Cours $15.99 + 3×ATR $0.68 = $18.03 |
 | Ratio R/R | 1.5 | **1.5** | Inchangé |
 
-**Note institutionnelle :** Le ratio R/R de 1.5 est standard. Le TP $18.03 représente un upside de +12.8% vs consensus $16.51 = +3.3%. L'écart se creuse entre l'objectif technique et le consensus, ce qui augmente le risque de retournement avant d'atteindre le TP.
+**Note institutionnelle :** Le ratio R/R de 1.5 est standard. Le TP $18.03 représente un upside de +12.8% vs consensus $16.51 = +3.3%. L'écart se creuse entre l'objectif technique et le consensus, ce qui augmente le risque de retournement avant d'atteindre le TP. Le Max Pain options $13.50 est désormais un niveau de surveillance gamma — un repli sous $15.00 avant expiration 26/06 activerait une pression mécanique vers $13.50.
 
 ---
 
@@ -179,12 +186,14 @@
 
 **Verdict : CONFIRMÉE — Thèse ATTENDRE — BIAIS HAUSSIER LÉGÈREMENT RENFORCÉ.**
 
-Entre le snapshot 17h UTC du 17/06 et le snapshot 10h UTC du 22/06, la session du 22/06 a matérialisé un rally de **+3.7%** sur un volume en **expansion** (1.16× moyenne), invalidant l'hypothèse de fatigue haussière du 17/06. Le high du jour **$16.07** dépasse le high précédent **$16.055** = signal de **force haussière**. Le RSI 61.34 **inchangé** malgré la hausse est un signal technique favorable (pas de surachat aggravé). Le Score Global ajusté a progressé de **53.8 à 55.0/100** (+1.2 pts), mais reste à **5.0 pts du seuil d'achat** (60).
+Entre le snapshot 17h UTC du 17/06 et le snapshot 13h UTC du 22/06, la session du 22/06 a matérialisé un rally de **+3.7%** sur un volume en **expansion** (1.16× moyenne), invalidant l'hypothèse de fatigue haussière du 17/06. Le high du jour **$16.07** dépasse le high précédent **$16.055** = signal de **force haussière**. Le RSI 61.34 **inchangé** malgré la hausse est un signal technique favorable (pas de surachat aggravé). Le Score Global ajusté a progressé de **53.8 à 55.0/100** (+1.2 pts), mais reste à **5.0 pts du seuil d'achat** (60).
+
+**Correction data quality majeure :** Les données options du snapshot 10h UTC 22/06 étaient corrompues (Max Pain $5.00 aberrant). Le pipeline 13h UTC a restauré des données cohérentes : Max Pain **$13.50**, Put/Call **1.74**, Call OI **36.6%**. Cette correction modifie l'analyse gamma : l'écart spot/Max Pain passe de +59.9% (inopérant) à +18.4% (non négligeable). Le Max Pain $13.50 devient un **niveau de surveillance** — un repli sous $15.00 avant expiration 26/06 activerait une pression gamma mécanique.
 
 **Impact sur la thèse :**
 - **Maintien technique haussier renforcé :** Cours au-dessus MM50 (+22.4%), gap tenu, volume en expansion, sommets remontés.
 - **Pas de réactivation :** Le Score Global ajusté 55.0/100 reste < 60. La probabilité d'upgrade à court terme existe mais nécessite une cassure de $16.50 sur volume confirmé.
-- **Options corrompues :** Les données options du 22/06 sont aberrantes (Max Pain $5.00, Call OI 0.0%) et doivent être ignorées. Les dernières données fiables (17/06) montrent un positionnement baissier stable (Put/Call 1.69).
+- **Options corrigées :** Le positionnement baissier persiste (Put/Call 1.74) avec un Max Pain remonté à $13.50. Le risque gamma est désormais **actif** — surveillance si repli sous $15.00 avant expiration 26/06.
 - **Force haussière :** Volume 1.16× moyenne sur session haussière + sommets remontés = le marché retrouve de la conviction institutionnelle.
 
 ### Ce qui a changé (22/06 vs 17/06) :
@@ -196,6 +205,8 @@ Entre le snapshot 17h UTC du 17/06 et le snapshot 10h UTC du 22/06, la session d
 6. **🟡 RSI :** 61.34 → **61.34** = inchangé malgré +3.7% = pas de surachat aggravé.
 7. **🔴 Upside consensus :** +4.2% → **+3.3%** (mécanique, cours monté — moins attractif).
 8. **🔴 ATR :** $0.64 → **$0.68** = volatilité en expansion.
+9. **🔴 Options Max Pain :** $10.00 → **$13.50** (+35.0%) = gamma landscape modifié, influence mécanique non négligeable.
+10. **🔴 Options Put/Call :** 1.69 → **1.74** = positionnement légèrement plus baissier.
 
 ### Ce qui est inchangé (22/06 vs 17/06) :
 1. **🟢 Consensus :** $16.51 (18 analystes).
@@ -203,8 +214,7 @@ Entre le snapshot 17h UTC du 17/06 et le snapshot 10h UTC du 22/06, la session d
 3. **🟢 XLI top3 :** Industriels dans le top3 sector rotation.
 4. **🔴 Filtre Qualité :** 0–1/6 — hors périmètre qualité.
 5. **🔴 Bilan fragile :** current ratio 0.50, tangible asset value négatif, net debt/EBITDA 8.83x.
-6. **🔴 Options fiables :** Max Pain $10.00, Put/Call 1.69, Call OI 37.2% (données 17/06).
-7. **🔴 Forward P/E :** 7.18 (stable).
+6. **🔴 Forward P/E :** 7.18 (stable).
 
 ### Ce qui limite la thèse :
 1. 🔴 Score Global 55.0/100 < 60 = pas de recommandation d'achat.
@@ -212,7 +222,7 @@ Entre le snapshot 17h UTC du 17/06 et le snapshot 10h UTC du 22/06, la session d
 3. 🔴 Filtre Qualité 0–1/6 = hors périmètre qualité.
 4. 🔴 Bilan extrêmement fragile = risque de value trap.
 5. 🔴 Earnings binaire dans 31 jours.
-6. 🔴 Options corrompues dans latest.json = incertitude sur le positionnement options actuel.
+6. 🔴 Max Pain options $13.50 — un repli sous $15.00 activerait une pression gamma mécanique vers $13.50 avant expiration 26/06.
 
 ### Positionnement Argus-IA (révisé)
 - **Action : ATTENDRE — BIAIS HAUSSIER LÉGÈREMENT RENFORCÉ**
@@ -222,13 +232,14 @@ Entre le snapshot 17h UTC du 17/06 et le snapshot 10h UTC du 22/06, la session d
 - **Catalyseur clé moyen terme :** Earnings 2026-07-23
 - **Si cours > $16.50 confirmé sur volume > 120M :** Upgrade possible vers ACHETER (Sizing Réduit)
 - **Si Score Global ajusté ≥ 60 :** Upgrade possible vers ACHETER (Sizing Réduit)
+- **Si repli sous $15.00 avant expiration 26/06 :** Risque gamma élevé — surveillance accrue, possible dégradation vers SURVEILLER
 - **Si repli sous $15.46 :** Retour à SURVEILLER
 - **Si repli sous $14.63 (SL) :** Passage à ÉVITER / stop technique
 
 ---
 
 ## [ANOMALIES]
-- **Anomalie data quality options majeure** dans `data/latest.json` (2026-06-22) : Max Pain $5.00 aberrant (vs spot $15.99), Put/Call null, Call OI 0.0%. Ces valeurs sont rejetées. Dernières données fiables : 2026-06-17 17h UTC (Max Pain $10.00, Put/Call 1.69, Call OI 37.2%).
+- **Aucune anomalie nouvelle.** La correction data quality options du pipeline 13h UTC a résolu l'anomalie du snapshot 10h UTC (Max Pain $5.00 aberrant, Put/Call null, Call OI 0.0%). Les données options corrigées (Max Pain $13.50, Put/Call 1.74, Call OI 36.6%) sont cohérentes avec l'historique et utilisables pour l'analyse.
 
 ## [DONNÉES PARTIELLES]
 - MM200, MACD — indisponibles.
@@ -239,7 +250,7 @@ Entre le snapshot 17h UTC du 17/06 et le snapshot 10h UTC du 22/06, la session d
 ---
 
 ## Références
-- `data/latest.json` (snapshot 10:00 UTC 2026-06-22) — Close $15.99, Open $15.85, High $16.07, Low $15.77, RSI 61.34, ATR $0.68, MM50 $13.07, volume 126.28M (1.16× moyenne), short interest 11.39%, consensus FMP $16.51 (18 analysts), Forward P/E 7.18, options (Max Pain $5.00 [ANOMALIE], Put/Call null, Call OI 0.0%, expiration 2026-06-26)
+- `data/latest.json` (snapshot 13:00 UTC 2026-06-22) — Close $15.99, Open $15.85, High $16.07, Low $15.77, RSI 61.34, ATR $0.68, MM50 $13.07, volume 126.28M (1.16× moyenne), short interest 11.39%, consensus FMP $16.51 (18 analysts), Forward P/E 7.18, options (Max Pain $13.50, Put/Call 1.74, Call OI 36.6%, expiration 2026-06-26)
 - `data/recommandations_2026-06-22.json` — Score Opportunité 5.0/10 (C:5.3 V:3.5 M:7.0), Score Global 55.0/100, Recommandation ATTENDRE, Timing Favorable, prix $15.99, SL $14.63, TP $18.03
 - `data/sector_rotation_2026-06-22.json` — XLI return_20d +6.0%, rs_20d +5.0%, momentum_score 6.25, signal TOP3
 - `data/fx_exposure_2026-06-22.json` — AAL FX Score 0.0, direction neutral, divergence aligned
