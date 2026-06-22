@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 54.0/100
-- **Prix cible :** $85.67 (consensus figé, 3 analystes)
-- **Stop-loss :** — (attendre résolution données live)
-- **Statut thèse :** Confirmée — aucune mutation détectée vs 17/06
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -24,39 +24,32 @@
 
 ## 🚨 Alertes actives
 
-- 🔴 **Stale Price** — cours figé ≥66 snapshots / ≥29 jours calendaires (20/05 → 22/06)
-- 🔴 **Data Pipeline Alert** — Earnings Q1 2026 non résolu après 29 jours (placeholder J=0 glissant)
-- 🔴 **Source FMP Fallback** — seul ticker du snapshot 22/06 avec `source: "fmp_fallback"`
-- 🟡 **Consensus PT Figé** — $85.67 (3 analystes) inchangé depuis 27/05
-- 🟡 **Divergence Validation / Quality Gate** — 0 excluded vs exclusion historique SQ
-- 🟡 **Divergence Market Cap FMP** — $51.73B vs $54.29B (~4.8%)
-- 🟡 **Rotation Sectorielle Neutralisée** — XLK top3 mais signal `NEUTRAL`
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-06-22** · earnings · Earnings Q1 2026 (placeholder J=0, non résolu)
+- **2026-06-22** · earnings · Earnings ...
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** N/A (bloc `technical` vide depuis 17/05)
-- **MM 50j :** N/A
-- **MM 200j :** N/A
-- **ATR 14j :** N/A
-- **Volume moy. 20j :** N/A
-- **Cours affiché :** $83.46 (⚠️ stale ≥29 jours)
+- **RSI 14j :** —
+- **MM 50j :** —
+- **MM 200j :** —
+- **ATR 14j :** —
+- **Volume moy. 20j :** —
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-22
-- **Type :** update
-- **Fichier :** `SQ_2026-06-22_update.md`
-- **Conclusion :** ATTENDRE — Qualité 3/6 (hors périmètre), stale price ≥66 snapshots / ≥29 jours, earnings placeholder glissant, consensus figé $85.67, signal sectoriel NEUTRAL stable, source `fmp_fallback` persistante, zero mutation données brutes vs 17/06, pipeline stable (reco 54.0/100 inchangée)
+- **Type :** preview
+- **Fichier :** `SQ_2026-06-22_preview.md`
+- **Conclusion :** > **Date :** 2026-06-22
 
 ---
 

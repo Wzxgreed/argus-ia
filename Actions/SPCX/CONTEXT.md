@@ -50,22 +50,22 @@
 - **MM 50j :** —
 - **MM 200j :** —
 - **ATR 14j :** —
-- **Volume moy. 20j :** 288941860
+- **Volume moy. 20j :** 253254377
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-22
-- **Type :** update
-- **Fichier :** `SPCX_2026-06-22_update_13h.md`
+- **Type :** preview
+- **Fichier :** `SPCX_2026-06-22_preview.md`
 - **Conclusion :** > **Date :** 2026-06-22
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **PRICE_GAP** (high) — Gap -10.35% overnight (seuil ±5.0%)
 
 ---
 

@@ -66,11 +66,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 35.46
-- **MM 50j :** 121.14
+- **RSI 14j :** 33.94
+- **MM 50j :** 121.37
 - **MM 200j :** —
-- **ATR 14j :** 3.99
-- **Volume moy. 20j :** 2786240
+- **ATR 14j :** 3.85
+- **Volume moy. 20j :** 2685005
 
 ---
 
@@ -79,7 +79,7 @@
 - **Date :** 2026-06-22
 - **Type :** update
 - **Fichier :** `A_2026-06-22_update.md`
-- **Conclusion :** 🟢 **Thèse confirmée — stabilité totale, anomalie options résolue** — snapshot 13h UTC : Cours, RSI, volume, ATR, MM50 inchangés vs 10h. Anomalie options JSON résolue (max pain $135.0, put/call 0.49, call OI 67.3%). Score Global ajusté 73.3/100 inchangé — ACHETER Réduit maintenu.
+- **Conclusion :** > **Date :** 2026-06-22 · Snapshot 13:00 UTC (pré-ouverture US)
 
 ---
 

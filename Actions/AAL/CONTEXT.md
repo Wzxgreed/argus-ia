@@ -67,11 +67,11 @@ Les scores de l'agent recommandation ont été **légèrement améliorés** : Sc
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 61.34
-- **MM 50j :** 13.07
+- **RSI 14j :** 67.35
+- **MM 50j :** 13.17
 - **MM 200j :** —
 - **ATR 14j :** 0.68
-- **Volume moy. 20j :** 108887230
+- **Volume moy. 20j :** 106537973
 
 ---
 
@@ -80,7 +80,7 @@ Les scores de l'agent recommandation ont été **légèrement améliorés** : Sc
 - **Date :** 2026-06-22
 - **Type :** update
 - **Fichier :** `AAL_2026-06-22_update.md`
-- **Conclusion :** **Date :** 2026-06-22 (snapshot 10h UTC, pre-session NY)
+- **Conclusion :** **Date :** 2026-06-22 (snapshot 13h UTC, data options corrigée post-pipeline)
 
 ---
 

@@ -1538,3 +1538,22 @@
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-06-22 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.42% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-22 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -5.94% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 5.61% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

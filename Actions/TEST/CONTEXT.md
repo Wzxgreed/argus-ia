@@ -36,20 +36,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 42.39
-- **MM 50j :** 43.81
+- **RSI 14j :** 51.74
+- **MM 50j :** 43.94
 - **MM 200j :** —
-- **ATR 14j :** 1.33
-- **Volume moy. 20j :** 1685
+- **ATR 14j :** 1.28
+- **Volume moy. 20j :** 1794
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-22
-- **Type :** update
-- **Fichier :** `TEST_2026-06-22_update_13h00.md`
-- **Conclusion :** Stabilité totale confirmée vs snapshot 10h UTC — cours, RSI, volume, MM50, ATR et scores inchangés. Verdict ACHETER (Réduit) maintenu, timing Favorable, SL/TP $41.67/$48.32. Earnings JOUR J non résolu.
+- **Type :** preview
+- **Fichier :** `TEST_2026-06-22_preview.md`
+- **Conclusion :** > **Date :** 2026-06-22
 
 ---
 

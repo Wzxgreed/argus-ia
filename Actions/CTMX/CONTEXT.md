@@ -23,7 +23,7 @@
 - **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $2.59
-- **Statut thèse :** —
+- **Statut thèse :** invalide
 - **Horizon :** 6–12 mois (dependant des catalyseurs cliniques)
 
 ---
@@ -48,11 +48,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 22.22
-- **MM 50j :** 3.82
+- **RSI 14j :** 29.63
+- **MM 50j :** 3.8
 - **MM 200j :** —
-- **ATR 14j :** 0.18
-- **Volume moy. 20j :** 4054085
+- **ATR 14j :** 0.17
+- **Volume moy. 20j :** 4027314
 
 ---
 
