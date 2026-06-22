@@ -64,6 +64,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 | `AXA_2026-06-22_update.md` | 2026-06-22 | Mise à jour quotidienne (snapshot 10h00 UTC) | Données manquantes persistantes (4 tickers KO sur 29) — 24e snapshot consécutif ; fichier sectoriel exploitable — XLF rang 3e/11 (vs 4e/11) par effet mécanique, momentum 4.25/10 (vs 5.32/10), RS 20j +2.70% (vs +3.46%), RS 60j −5.91% (vs −4.38%) ; dégradation sous-jacente sectorielle ; signal macro `UNKNOWN` stable ; earnings J0 FMP (2026-06-22) sans détails exploitables — 24e jour consécutif ; 5 jours sans update intermédiaire |
 | `AXA_2026-06-22_update_13h.md` | 2026-06-22 | Mise à jour quotidienne (snapshot 13h00 UTC) | **Stabilité totale inter-snapshot** — données manquantes persistantes (4 tickers KO sur 29) — 25e snapshot consécutif ; fichier sectoriel strictement inchangé (XLF rang 3e/11, momentum 4.25/10, RS 20j +2.70%, RS 60j −5.91%) ; signal macro `UNKNOWN` stable ; earnings J0 FMP (2026-06-22) sans détails exploitables — 25e jour consécutif ; aucune mutation détectée entre 10h et 13h |
 | `AXA_2026-06-22_update_17h.md` | 2026-06-22 | Mise à jour quotidienne (snapshot 17h00 UTC) | Données manquantes persistantes (4 tickers KO sur 29) — 26e snapshot consécutif ; **mutation sectorielle XLF positive** détectée entre 13h et 17h (momentum 4.25 → 5.15, RS 20j +2.70% → +3.40%, RS 60j −5.91% → −4.71%, return 20j +3.94%) ; amélioration organique ; signal macro `UNKNOWN` stable ; earnings J0 FMP (2026-06-22) sans détails exploitables — 26e jour consécutif |
+| `AXA_2026-06-22_update_21h.md` | 2026-06-22 | Mise à jour quotidienne (snapshot 21h00 UTC) | Données manquantes persistantes (4 tickers KO sur 29) — 27e snapshot consécutif ; **micro-dégradation marginale** du contexte sectoriel XLF entre 17h et 21h (momentum 5.15 → 5.08, RS 20j +3.40% → +3.33%, RS 60j −4.71% → −4.79%, return 20j +3.94% → +3.81%) interprétée comme bruit de clôture sans signification directionnelle ; rang 3e/11 conservé ; signal macro `UNKNOWN` stable ; earnings J0 FMP (2026-06-22) sans détails exploitables — 27e jour consécutif |
 
 ---
 
@@ -122,8 +123,8 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 ## ⚠️ Alertes actives
 
 - **[CRITICAL]** Pas de données de prix pour AXA — ticker probablement incorrect
-- **[WARNING]** Earnings J0 (2026-06-22) sans consensus ni résultats exploitables — pattern persistant depuis mi-mai (26e occurrence consécutive)
-- **[INFO]** **Fichier sectoriel exploitable** : `data/sector_rotation_2026-06-22.json` valide — XLF rang 3e/11 (stable), momentum 5.15/10, RS 20j +3.40%, RS 60j −4.71%. **Amélioration organique** détectée entre 13h et 17h (momentum +0.90 pt, RS 20j +0.70 pp, RS 60j +1.20 pp). Signal macro `UNKNOWN` stable
+- **[WARNING]** Earnings J0 (2026-06-22) sans consensus ni résultats exploitables — pattern persistant depuis mi-mai (27e occurrence consécutive)
+- **[INFO]** **Fichier sectoriel exploitable** : `data/sector_rotation_2026-06-22.json` valide — XLF rang 3e/11 (stable), momentum 5.08/10, RS 20j +3.33%, RS 60j −4.79%. **Micro-dégradation marginale** détectée entre 17h et 21h (momentum −0.07 pt, RS 20j −0.07 pp, RS 60j −0.08 pp) interprétée comme bruit de clôture sans signification directionnelle. Signal macro `UNKNOWN` stable
 
 ---
 
