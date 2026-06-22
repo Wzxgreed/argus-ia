@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** validée
+- **Recommandation :** SURVEILLER (proxy ASTS)
+- **Score global :** 43,0/100
+- **Prix cible :** $94,54 (consensus 12 analysts)
+- **Stop-loss :** $53,51 (proxy ASTS, 2×ATR)
+- **Statut thèse :** invalidée (ASTSPACE) / aggravée (proxy ASTS)
 - **Horizon :** —
 
 ---
@@ -36,11 +36,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** —
-- **MM 50j :** —
+- **RSI 14j :** 33,18 (proxy ASTS, survente)
+- **MM 50j :** $88,07 (proxy ASTS, gap −15,85%)
 - **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** —
+- **ATR 14j :** $10,30 (proxy ASTS)
+- **Volume moy. 20j :** 27,93M (proxy ASTS, jour 0,584×)
 
 ---
 
@@ -48,8 +48,8 @@
 
 - **Date :** 2026-06-22
 - **Type :** update
-- **Fichier :** `ASTSPACE_2026-06-22_update.md`
-- **Conclusion :** > **Proxy ASTS** : snapshot 13h UTC 2026-06-22 — **stabilité totale des données de cotation** par rapport au snapshot 10h. Cours **$80,66** (inchangé), volume **31,68M** (inchangé), RSI **32,75** (inc
+- **Fichier :** `ASTSPACE_2026-06-22_17-00_update.md`
+- **Conclusion :** **Proxy ASTS** : snapshot 17h UTC 2026-06-22 — **double gap down intraday −13,25% à $74,11**, cassure confirmée pivot $80, volume collapse 0,584×, RSI survente 33,18, gap MM50 −15,85%, divergence consensus −21,6%, P/B compression 10,64×. Score SURVEILLER 43,0/100 inchangé mécaniquement mais thèse aggravée. Anomalie structurelle ASTSPACE inchangée (62 snapshots sans données).
 
 ---
 

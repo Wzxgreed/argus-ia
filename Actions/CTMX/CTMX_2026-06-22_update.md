@@ -202,6 +202,195 @@ La session du 2026-06-22 confirme la **stabilite mecanique** post-expiration : c
 
 ---
 
-*Rapport genere automatiquement — snapshot 2026-06-22 13:00 UTC.*
+## Mise a Jour Snapshot 17h UTC
+
+> **Date :** 2026-06-22
+> **Snapshot :** 17:00 UTC
+> **Source :** `data/latest.json` (fetched_at 2026-06-22T17:00:52 UTC)
+
+---
+
+### Resume Executif — Snapshot 17h
+
+**Stabilite mecanique confirmee** en cloture partielle (17h UTC / 13h ET). Le cours se maintient a **$2.965** (+0.51% vs previous close $2.95), le **RSI remonte a 26.57** (+4.35 pts vs 13h, survente extreme persistante mais attenuee), l'**ATR recule a $0.17** (-$0.01) et le **volume s'effondre a 1.67M (0.41x moyenne 20j)** — **anemie critique** post-expiration.
+
+**CORRECTION DE DONNEES** : le volume rapporte a 13h UTC (9.73M, 2.40x) est **invalide** — les donnees `latest.json` 17h UTC confirment un volume reel de **1.67M** (0.41x), en ligne avec le profil d'anemie post-expiration. La normalisation complete du settlement options du 2026-06-18 est desormais etablie.
+
+**Upgrade mecanique de la recommandation** : l'agent Recommandation (`data/recommandations_latest.json`) releve CTMX en **ATTENDRE** avec **Score Global Ajuste 55.0/100** (+6.2 pts vs 48.8/100 a 13h), Score Opportunite **5.8/10** (C:6.5 V:6.0 M:4.5). Le timing reste **Defavorable**. L'upgrade est mecanique (amélioration du momentum technique) mais ne constitue pas un signal d'achat.
+
+---
+
+### Changements depuis le Snapshot 13h UTC
+
+#### 1. Technique — Micro-rebond confirme, volume anemie critique
+
+| Indicateur | 2026-06-22 13h UTC | 2026-06-22 17h UTC | Signal |
+|---|---|---|---|
+| Cours close | **$2.95** | **$2.965** | **+0.51%** vs previous close |
+| Previous close | $2.96 | **$2.95** | — |
+| Open / High / Low | 3.02 / 3.07 / 2.89 | **2.98 / 3.065 / 2.95** | Range reduit |
+| Volume | 9,732,400 | **1,669,458** | **CORRECTION** — anemie critique 0.41x |
+| Volume rel. 20j | 2.40x (errone) | **0.41x** | **ANEMIE CRITIQUE** post-expiration |
+| RSI 14j | 22.22 | **26.57** | **+4.35 pts** — survente extreme persistante |
+| ATR 14j | $0.18 | **$0.17** | **-$0.01** — volatilite en recul |
+| MM 50j | $3.82 | **$3.79** | Glissement baissier, ecart **-21.8%** |
+| Short Interest | 14.97% | **14.97%** | **Stable** |
+| 52W High / Low | $8.21 / $1.72 | **$8.21 / $1.72** | — |
+
+**Verdict technique :** Le cours a gagne +0.51% en seconde partie de seance, portant le RSI de 22.22 a 26.57. La survente extreme persiste mais s'attenue mecaniquement. Le range du jour s'est retreci (low $2.95 vs $2.89 a 13h), signal d'epuisement vendeur. **Le volume a 0.41x est l'element le plus significatif** : l'activite post-expiration s'est completement dissipee, confirmant que le settlement options du 18/06 etait le principal moteur de volume des derniers jours. L'absence de volume a ces niveaux de prix est un signal mitige — ni distribution active, ni accumulation convaincue. Le cours reste sous MM50 ($3.79, ecart -21.8%). Le timing reste **Defavorable**.
+
+#### 2. Options — Pivot baissier stable
+
+| Indicateur | 2026-06-22 13h UTC | 2026-06-22 17h UTC | Signal |
+|---|---|---|---|
+| Max Pain | $4.00 | **$4.00** | **Stable** |
+| Put/Call Ratio | 8.91 | **8.91** | **Stable** — ultra-baissier |
+| Call OI % | 10.1% | **10.1%** | **Stable** — domination puts |
+| Expiration proche | 2026-07-17 | **2026-07-17** | Inchangee |
+
+**Verdict options :** Aucune mutation de la structure optionnelle entre 13h et 17h. Le pivot baissier (put/call 8.91, call OI 10.1%) reste intact. Avec seulement 0.41x de volume, l'impact du hedging des market makers est negligeable en seconde partie de seance.
+
+#### 3. Fondamental — Aucun changement
+
+Donnees FMP FY2025 inchangées. Pas de nouveau filing SEC, pas de guidance update, pas de nouvelles collaborations annoncees depuis le snapshot 13h.
+
+| Metrique | Valeur | Statut |
+|----------|--------|--------|
+| Market Cap (Yahoo) | **$645.5M** | Stable (+$3.3M vs $642.2M a 13h) |
+| Market Cap (FMP) | $587.6M | — |
+| Forward P/E | -6.11 | Pertes attendues |
+| Short Interest | **14.97%** | Stable |
+| Current Ratio | 3.09 | Tresorerie confortable |
+| Cash / Working Capital | $97.3M / $97.3M | Runway ~2–3 ans |
+| Filtre Qualite | **2/6** | Hors perimetre (inchange) |
+
+**Consensus Analystes (FMP) :**
+- Price target moyen : **$9.05** (+205% upside vs $2.965)
+- Nombre d'analystes : **11** (0 ce mois, 2 ce trimestre)
+
+#### 4. Sentiment / News / Social
+
+| Indicateur | 2026-06-22 13h | 2026-06-22 17h | Signal |
+|---|---|---|---|
+| News pipeline | Aucune | **Aucune** | — |
+| Social Sentiment | 0/10 | **0/10** | Aucun interet retail |
+| Pump detection | Non | **Non** | — |
+
+**Verdict sentiment :** Neutre a baissier. Aucune news, aucun interet retail. Le consensus analystes reste le seul soutien haussier structurel (PT +205%).
+
+---
+
+### Contexte Sectoriel & Macro (Actualise 17h UTC)
+
+| Facteur | Impact | Detail |
+|---------|--------|--------|
+| **XLV (Healthcare)** | Defensif sous-performant | `data/sector_rotation_2026-06-22.json` : regime UNKNOWN, XLV momentum_score **1.34** (rang 6e/11), return_20d +1.61% vs SPY +0.54% — surperformance relative marginale. |
+| **Biotech specifique** | Risque eleve | Sous-secteur biotech early-stage reste penalise. |
+| **Rotation sectorielle** | `NEUTRAL` | Signal macro du jour : top3 = XLK / XLI / XLF, bottom3 = XLP / XLY / XLC. Healthcare neutre. |
+| **DXY / FX** | Neutre | `data/fx_exposure_2026-06-22.json` : CTMX exposure ~55% EUR/CNY, FX Impact Score **0.0** — aucun headwind/tailwind. |
+| **Geo risk** | Non flagge | `data/geo_risk_latest.json` (2026-05-17) : CTMX non present. |
+| **Accounting risk** | Scan indisponible | `data/accounting_risk_latest.json` absent. |
+| **Event-driven** | Aucun | `data/events_2026-06-22.json` : 0 evenement corporate detecte pour CTMX. |
+| **Earnings** | J+45 | Earnings confirme le **2026-08-06** (Est EPS $-0.13 a $-0.07, Rev $0.0B). |
+| **Quant** | Calibration en cours | `data/quant_report_latest.json` (2026-05-17) : 0 signaux, p-value null. |
+| **Social Sentiment** | Aucun | `data/social_sentiment_2026-06-22.json` : CTMX 0 mentions, sentiment 0/10. |
+| **Upcoming Events** | J+45 | `data/upcoming_events_2026-06-22.json` : earnings **2026-08-06** (J+45). |
+| **Validation** | OK | `data/validation_report.txt` (2026-06-22) : 0 CRITICAL, CTMX non concerne. |
+
+---
+
+### Scoring Global (Agents) — Actualise 17h UTC
+
+| Axe | Score | Pondération Regime Normal | Contribution | Justification |
+|-----|-------|---------------------------|------------|---------------|
+| Catalyseur | **6.5/10** | 35% | 2.28 | Pipeline Probody + partenariats. Aucun catalyseur immediat. Volume anemie post-expiration. |
+| Valorisation | **6.0/10** | 40% | 2.40 | Biotech pre-profit, PT consensus +205% offre upside asymetrique. Plafonne par Filtre Qualite 2/6. |
+| Momentum | **4.5/10** | 25% | 1.13 | RSI 26.57 survente extreme persistante mais attenuee. Volume 0.41x anemie critique. Cours sous MM50 ($3.79, ecart -21.8%). |
+| **Score Opportunite** | **5.8/10** | — | — | **+0.1 pt** vs 13h UTC (5.7/10) — upgrade momentum |
+| **Malus** | | | -3.0 | Biotech pre-revenue + pertes (Filtre Qualite <= 3/6) |
+| **Bonus** | | | +0.0 | Aucun bonus detecte |
+| **Score Global** | **58.0/100** | | | **+1.2 pt** vs 13h UTC (56.8/100) |
+| **Score Global Ajuste** | **55.0/100** | | | **+6.2 pt** vs 13h UTC (48.8/100) — **franchissement du seuil 50** |
+
+**Action recommandee :** **ATTENDRE** *(upgrade depuis SURVEILLER au snapshot 13h)*
+**Timing :** Defavorable *(inchangé)*
+**Sizing :** — (pas de position recommandee)
+
+**Note de fiabilite :** Score Global Ajuste 55.0/100 — franchissement du seuil institutionnel (50). L'upgrade est **mecanique** (amélioration RSI + volume normalise) et non fondamentale. La structure optionnelle baissiere (put/call 8.91) et le profil biotech pre-revenue imposent la prudence. Le volume anemie 0.41x elimine le risque de distribution active mais ne confirme pas non plus une accumulation.
+
+---
+
+### Revision des Niveaux SL / TP (Actualise 17h)
+
+Revision mecanique sur base ATR $0.17 et close $2.965.
+
+| Niveau | Valeur | Methode |
+|--------|--------|---------|
+| Prix de reference | **$2.965** | Close 2026-06-22 17h UTC |
+| Stop-loss suggere | **$2.62** | Cours ref - 2xATR ($2.965 - $0.34) — aligne avec JSON agent |
+| Take-profit technique | **$3.47** | Cours ref + 3xATR ($2.965 + $0.51) — aligne avec JSON agent |
+| Take-profit consensus | **$9.05** | Price target moyen analystes |
+| Ratio R/R (technique) | **1.5** | $0.51 / $0.34 |
+| Ratio R/R (consensus) | **17.9** | $6.085 / $0.34 |
+
+**Attention :** Le ratio R/R consensus reste trompeur pour une biotech pre-revenue. Le risque de gap-down en cas d'echec clinique peut depasser 50%. Le support $2.86 (low du 16/06) n'a pas ete teste aujourd'hui (low $2.95). Si le cours cloture au-dessus de $3.00 avec volume > 1.0x moyenne, cela confirmerait un rebond technique. Un retour sous $2.86 avec volume > 1.0x activerait la degradation vers EVITER.
+
+---
+
+### Conclusion — Snapshot 17h UTC
+
+**These : NON ETABLIE — PROFIL SPECULATIF BIOTECH — ATTENDRE (upgrade depuis SURVEILLER)**
+
+La session du 2026-06-22 en cloture partielle (17h UTC) confirme la **stabilite mecanique** post-expiration avec un **micro-rebond** confirme : cours $2.965 (+0.51% vs previous close $2.95), RSI 26.57 (+4.35 pts, survente extreme attenuee), ATR $0.17 (-$0.01), volume **1.67M (0.41x)** — anemie critique post-expiration. Le range du jour s'est retreci (low $2.95 vs $2.89 a 13h), confirmant l'epuisement vendeur.
+
+**Le principal developpement est la correction du volume** : les donnees 13h UTC (9.73M) etaient erronees ; le volume reel est de 1.67M (0.41x), ce qui est une anemie critique typique post-expiration options. Cette normalisation complete du settlement elimine le bruit technique des derniers jours.
+
+**La recommandation est relevee en ATTENDRE** avec **Score Global Ajuste 55.0/100** (+6.2 pts, franchissement du seuil 50). L'upgrade est mecanique (amélioration RSI, ATR en recul) et non catalysee par un evenement fondamental. La structure optionnelle reste ultra-baissiere (put/call 8.91, call OI 10.1%). Aucune mutation fondamentale n'est detectee.
+
+**Ce qui a change depuis le snapshot 13h UTC :**
+- :green_circle: Cours : **$2.965** (+0.51% vs previous close $2.95)
+- :green_circle: RSI : **26.57** (+4.35 pts, survente extreme attenuee)
+- :green_circle: ATR : **$0.17** (-$0.01 — volatilite en recul)
+- :red_circle: Volume : **1.67M (0.41x)** — **CORRECTION** : anemie critique post-expiration (vs 9.73M errone a 13h)
+- :green_circle: Range : **Low $2.95** (+$0.06 vs low $2.89 a 13h) — epuisement vendeur
+- :yellow_circle: MM50 : **$3.79** (glissement baissier, ecart -21.8%)
+- :yellow_circle: Options : **PIVOT BAISSIER STABLE** (put/call 8.91, call OI 10.1%, max pain $4.00)
+- :green_circle: Recommandation : **ATTENDRE** (upgrade depuis SURVEILLER)
+- :green_circle: Score Global Ajuste : **55.0/100** (+6.2 pts, franchissement seuil 50)
+- :yellow_circle: SL/TP : **$2.62 / $3.47** (recalcules sur ATR $0.17)
+- :yellow_circle: Timing : **Defavorable** (inchangé)
+- :x: Aucune news majeure
+- :x: Structure optionnelle baissiere persistante
+
+**Conditions de passage a ACHETER (upgrade) :**
+1. Cloture au-dessus de $3.20 avec volume > 1.0x moyenne (recapture MM50)
+2. Retournement de la structure options vers put/call < 1.0 avec call OI > 60%
+3. Catalyseur fondamental (data readout, annonce partenariat majeur)
+4. Volume normalisant entre 0.8x et 1.5x sans cassure de $2.86
+
+**Conditions de passage a EVITER (degradation) :**
+1. Retour sous $2.86 avec volume > 1.0x moyenne (support casse)
+2. Echec clinique majeur (stop essai)
+3. Dilution capitale > 20% sans catalyseur
+4. Maintien de la structure optionnelle baissiere (put/call > 5.0) jusqu'a l'expiration 2026-07-17
+
+**Alertes actives :**
+- :yellow_circle: Cours $2.965 — micro-rebond +0.51% mais sous MM50 ($3.79, ecart -21.8%)
+- :red_circle: Volume **0.41x** — anemie critique post-expiration
+- :red_circle: RSI 26.57 — survente extreme persistante
+- :green_circle: Support $2.86 **NON TESTE** (low $2.95, +$0.09)
+- :green_circle: Short interest 14.97% — stable, potentiel short squeeze si catalyseur
+- :red_circle: Cours sous MM50 ($3.79) avec ecart -21.8%
+- :yellow_circle: Score Global Ajuste 55.0/100 — **au-dessus du seuil 50** (upgrade ATTENDRE)
+- :red_circle: Options — **PIVOT STRUCTUREL BAISSIER** (put/call 8.91, call OI 10.1%, max pain $4.00)
+- :yellow_circle: Expiration options **2026-07-17** — J+25 avec structure baissiere
+- [WARNING] Donnees MM200 manquantes
+- [WARNING] Biotech pre-revenue — scoring standard peu fiable
+- [INFO] Earnings confirme le 2026-08-06 (J+45) — Est EPS $-0.13 a $-0.07
+- [CORRECTION] Volume 13h UTC revise de 9.73M a 1.67M
+
+---
+
+*Rapport genere automatiquement — snapshots 2026-06-22 13:00 UTC et 17:00 UTC.*
 *Analyse precedente : `CTMX_2026-06-17_update.md` (snapshot 13h UTC) — close $2.93, SURVEILLER, structure options ultra-haussiere.*
 *Correction : Toute analyse precedente du 2026-06-22 mentionnant une "anomalie JSON" sur les options est invalidee par les donnees `latest.json` 13h UTC qui confirment un pivot structurel baissier propre.*
