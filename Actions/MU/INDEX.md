@@ -1,8 +1,8 @@
 # MU — Micron Technology
 
 > **Secteur :** Technology / Semiconductors
-> **Dernière mise à jour :** 2026-06-22 (snapshot 13h UTC)
-> **Statut :** ⚠️ Thèse en construction — ATTENDRE
+> **Dernière mise à jour :** 2026-06-22 (snapshot 17h UTC)
+> **Statut :** ⚠️ Thèse en construction — ATTENDRE (renforcé)
 
 ---
 
@@ -10,11 +10,11 @@
 
 **Recommandation :** ATTENDRE
 **Score Global :** 56.1/100
-**Prix cible :** $518.83 (consensus 90 analysts) vs cours $1133.99
-**Stop-loss :** $950.65 (2×ATR)
+**Prix cible :** $530.16 (consensus 91 analysts) vs cours $1191.24
+**Stop-loss :** $1008.68 (2×ATR)
 **Horizon :** Post-earnings (2026-06-24)
 
-**Synthèse :** MU affiche un momentum technique puissant (+8.7% gap, RSI 59.35, cours > MM50) et une valorisation forward attractive (P/E NTM 9.49). Cependant, une divergence extrême existe entre le cours ($1133.99) et le consensus analystes ($518.83, −54%). Le snapshot 13h UTC a résolu une anomalie options JSON : le put/call ratio passe de 209.5 (erroné) à 2.38 (crédible), et le max pain de $240 à $650. Le marché options est désormais interprété comme "prudemment défensif" plutôt que "panique hedging". Les earnings du 2026-06-24 seront le verdict. Attendre le passage de l'événement avant toute décision.
+**Synthèse :** MU a atteint un nouveau 52-week high à $1204.50 lors du snapshot 17h UTC, portant le gain de la séance à environ +14.2% cumulé. Cependant, ce mouvement s'est effectué sur un **volume collapse à 0.54× la moyenne 20j**, signalant un manque de conviction institutionnelle. Le Forward P/E est remonté à 9.97 et la divergence cours vs consensus analystes s'aggrave à **−55.5%** ($1191.24 vs $530.16). Le put/call ratio corrigé à 2.38 traduit une prudence modérée pré-earnings. Les résultats du 2026-06-24 seront le verdict. Attendre le passage de l'événement avant toute décision.
 
 ---
 
@@ -22,10 +22,11 @@
 
 | Date | Fichier | Type | Conclusion |
 |------|---------|------|------------|
+| 2026-06-22 | `MU_2026-06-22_update.md` | Update (17h) | Volume collapse sur nouveau high — thèse ATTENDRE renforcée |
 | 2026-06-22 | `MU_2026-06-22_update.md` | Update (13h) | Anomalie options résolue — thèse ATTENDRE confirmée |
 | 2026-06-22 | `MU_2026-06-22_update.md` | Update (10h) | Thèse en construction — ATTENDRE |
 | 2026-06-22 | `MU_2026-06-22_preview.md` | Preview | Earnings J+2, scénarios en attente |
-| 2026-06-22 | `MU_2026-06-22_DRAFT_refresh.md` | DRAFT (archive) | Triggers price gap + ATR spike |
+| 2026-06-22 | `MU_2026-06-22_DRAFT_refresh.md` | DRAFT (archive) | Triggers price gap + ATR spike — traités dans update 17h |
 | 2026-06-21 | `MU_2026-06-21_DRAFT_refresh.md` | DRAFT (archive) | Triggers price gap + ATR spike |
 
 ---
@@ -39,9 +40,10 @@
 
 ## ⚡ Alertes actives
 
-- **PRICE_GAP** (medium) — Gap +8.70% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 8.08% (seuil 5.0%)
+- **PRICE_GAP** (medium) — Gap cumulé ~+14.2% sur la séance (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 7.66% (seuil 5.0%)
 - **EARNINGS_PROXIMITY** (high) — Earnings dans 2 jours
+- **VOLUME_COLLAPSE** (medium) — Volume 0.54× moyenne 20j sur nouveau 52W high
 - **OPTIONS_ANOMALY_RESOLVED** (info) — Anomalie JSON 10h corrigée à 13h (put/call 209.5 → 2.38, max pain $240 → $650)
 
 ---
@@ -50,9 +52,10 @@
 
 | Date | Score Opp. | Catalyseur | Valorisation | Momentum | Action |
 |------|------------|------------|--------------|----------|--------|
+| 2026-06-22 (17h) | 5.1/10 | 5.8/10 | 3.0/10 | 7.5/10 | ATTENDRE |
 | 2026-06-22 (13h) | 5.1/10 | 5.8/10 | 3.0/10 | 7.5/10 | ATTENDRE |
 | 2026-06-22 (10h) | 5.1/10 | 5.8/10 | 3.0/10 | 7.5/10 | ATTENDRE |
 
 ---
 
-*Index généré automatiquement. Dernière mise à jour : 2026-06-22 (snapshot 13h UTC).*
+*Index généré automatiquement. Dernière mise à jour : 2026-06-22 (snapshot 17h UTC).*
