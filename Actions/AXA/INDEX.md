@@ -1,7 +1,7 @@
 # AXA — Index du Dossier
 
-> **Dernière mise à jour :** 2026-06-22 (snapshot 17h UTC)
-> **Statut :** 🟡 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`) + earnings J0 FMP glissant sans détails (26e jour consécutif). **SCORING STABLE** : Score Opportunité 5.5/10, Score Global 55.2/100, Recommandation ATTENDRE. **CONTEXTE SECTORIEL XLF EN AMÉLIORATION ORGANIQUE** : rang 3e/11 (stable), momentum 5.15/10 (vs 4.25/10 à 13h), RS 20j +3.40% (vs +2.70%), RS 60j −4.71% (vs −5.91%). Signal macro `UNKNOWN` stable. **MUTATION POSITIVE** détectée entre 13h et 17h sur le contexte sectoriel (momentum +0.90 pt, RS 20j +0.70 pp, RS 60j +1.20 pp).
+> **Dernière mise à jour :** 2026-06-22 (snapshot 21h UTC)
+> **Statut :** 🟡 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`) + earnings J0 FMP glissant sans détails (27e jour consécutif). **SCORING STABLE** : Score Opportunité 5.5/10, Score Global 55.2/100, Recommandation ATTENDRE. **CONTEXTE SECTORIEL XLF STABLE À MARGE** : rang 3e/11 (stable), momentum 5.08/10 (vs 5.15/10 à 17h), RS 20j +3.33% (vs +3.40%), RS 60j −4.79% (vs −4.71%). Signal macro `UNKNOWN` stable. Micro-dégradation marginale détectée entre 17h et 21h (momentum −0.07 pt, RS 20j −0.07 pp, RS 60j −0.08 pp) interprétée comme bruit de clôture sans signification directionnelle.
 
 ---
 
@@ -11,7 +11,7 @@
 
 AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **aucune donnée de prix n'est disponible** dans le pipeline Argus-IA car le symbole "AXA" n'est pas reconnu par yfinance (instrument non coté US). L'analyse technique et fondamentale reste impossible.
 
-**Contexte sectoriel (snapshot 17h du 22/06 — fichier exploitable) :** Le fichier `data/sector_rotation_2026-06-22.json` est valide ce soir (11/11 secteurs OK, aucune anomalie NaN). XLF (Financials) au rang **3e/11** (stable vs 13h), momentum **5.15/10** (vs 4.25/10 à 13h), RS 20j **+3.40%** (vs +2.70%), RS 60j **−4.71%** (vs −5.91%). L'amélioration est **organique** (return 20j +3.94%) et portée par la performance propre du secteur, pas par effet mécanique. C'est un **vent arrière théorique marginalement positif** pour un assureur. Le signal macro reste `UNKNOWN` (stable depuis le 02/06).
+**Contexte sectoriel (snapshot 21h du 22/06 — fichier exploitable) :** Le fichier `data/sector_rotation_2026-06-22.json` est valide ce soir (11/11 secteurs OK, aucune anomalie NaN). XLF (Financials) au rang **3e/11** (stable vs 17h), momentum **5.08/10** (vs 5.15/10 à 17h), RS 20j **+3.33%** (vs +3.40%), RS 60j **−4.79%** (vs −4.71%). La micro-dégradation est **marginale** (momentum −0.07 pt, RS 20j −0.07 pp, RS 60j −0.08 pp, return 20j −0.13 pp) et interprétée comme un bruit de clôture sans signification directionnelle. Le secteur Financials reste dans le top 3, ce qui constitue un vent arrière théorique stable pour un assureur. Le signal macro reste `UNKNOWN` (stable depuis le 02/06).
 
 **Action immédiate :** corriger le symbole dans `config/watchlist.json` (`CS.PA` ou `AXAHY`), mettre à jour le secteur (Financials / Insurance) et relancer le fetch.
 

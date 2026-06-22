@@ -36,11 +36,16 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** —
-- **MM 50j :** —
+**AST :** donnees indisponibles (No price history >51 snapshots consecutifs)
+
+**ASTS (proxy) :**
+- **Cours close :** $73.19 (previous $80.66, -9.26%)
+- **RSI 14j :** 32.85 (survente)
+- **MM 50j :** $88.05 (cours sous MM50 -16.9%)
 - **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** —
+- **ATR 14j :** $10.37
+- **Volume seance :** 28.02M (0.98x moy. 20j)
+- **Short interest :** 18.39%
 
 ---
 
@@ -48,8 +53,8 @@
 
 - **Date :** 2026-06-22
 - **Type :** init
-- **Fichier :** `AST_2026-06-22_update_13h.md`
-- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-22T13:00:02Z) | `data/recommandations_latest.json` | `data/validation_report.txt`
+- **Fichier :** `AST_2026-06-22_update_21h.md`
+- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-22T21:00:02Z) | `data/recommandations_latest.json` | `data/validation_report.txt`
 
 ---
 
