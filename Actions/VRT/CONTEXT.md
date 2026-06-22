@@ -33,9 +33,10 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 
 ## 🚨 Alertes actives
 
-- Baisse — $335.22 — 🟢 Active
+- Baisse — $350.00 (support principal) — 🟢 Active
+- Baisse — $335.22 (support secondaire) — 🟢 Active
 - Hausse — $400.00 — 🟢 Active
-- Volume — >2× moy. 20j (>11.5M) — 🟢 Active
+- Volume — >2× moy. 20j (>12.2M) — 🟢 Active
 
 ---
 
