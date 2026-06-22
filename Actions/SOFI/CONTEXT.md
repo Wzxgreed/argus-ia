@@ -80,7 +80,7 @@ Le short interest reste élevé à **14.71%** — setup asymétrique squeeze/pre
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 5.64% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 5.64% (seuil 5.0%) — **archivé faux positif** (même motif que 15–17/06, ATR absolu stable $1.01)
 
 ---
 
