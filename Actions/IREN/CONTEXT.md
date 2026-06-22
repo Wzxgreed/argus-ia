@@ -11,7 +11,7 @@
 - **Score global :** 61.8/100
 - **Prix cible :** $69.48
 - **Stop-loss :** $48.46
-- **Statut thèse :** modifiée favorablement
+- **Statut thèse :** modifiée favorablement avec vigilance
 - **Horizon :** 1–3 mois
 
 ---
@@ -35,7 +35,7 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings Q2 2026 — 2026-08-27 (66 jours) — Est EPS −$0.51 à −$0.33, Rev $0.2B
 
 ---
 
@@ -54,13 +54,13 @@
 - **Date :** 2026-06-22
 - **Type :** update
 - **Fichier :** `IREN_2026-06-22_update.md`
-- **Conclusion :** Volume institutionnel de retour (+151%). Upgrade ATTENDRE → ACHETER (Sizing Réduit). Score Global 61.8/100. Timing favorable. Anomalie options détectée (structure du 17/06 conservée comme référence).
+- **Conclusion :** Upgrade ATTENDRE → ACHETER (Sizing Réduit). Volume institutionnel de retour (+151%). Défiance options record révélée (put/call 4.99, puts 83.3% OI). Thèse modifiée favorablement avec vigilance accrue.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 9.59% (seuil 5.0%) — faux positif, stable vs 9.62% du 17/06
+- **ATR_SPIKE** (medium) — ATR relatif 9.59% (seuil 5.0%)
 
 ---
 

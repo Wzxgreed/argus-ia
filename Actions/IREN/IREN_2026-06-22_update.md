@@ -1,17 +1,17 @@
 # IREN — Mise à Jour (2026-06-22)
 
-> **Type :** `_update.md` — Révision post-pipeline (snapshot 10:00 UTC)
+> **Type :** `_update.md` — Révision post-pipeline (snapshot 13:00 UTC)
 > **Référence précédente :** [IREN_2026-06-17_update_17h00.md](IREN_2026-06-17_update_17h00.md) (snapshot 17h UTC 2026-06-17)
-> **Données source :** `data/latest.json` (fetched_at 2026-06-22T10:00:01 UTC), `data/recommandations_latest.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`, `data/upcoming_events_latest.json`, `data/events_latest.json`, `data/crypto_correlation_latest.json`
-> **Trigger :** Pipeline matin 2026-06-22 — snapshot post-week-end
+> **Données source :** `data/latest.json` (fetched_at 2026-06-22T13:00:02 UTC), `data/recommandations_latest.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`, `data/upcoming_events_latest.json`, `data/events_latest.json`, `data/crypto_correlation_latest.json`
+> **Trigger :** Pipeline matin 2026-06-22 — snapshot 13h UTC (correction post-10h)
 > **Validation :** [WARNING] IREN — Quality Partielle 4/6; Forward PE négatif; FCF négatif. >2 [ERROR] globaux (tickers tiers) — IREN non impacté directement.
 
 ---
 
 ## Résumé des Changements (vs Snapshot 17h UTC 2026-06-17)
 
-| Métrique | 17h UTC 17/06 | 22/06 | Δ |
-|----------|---------------|-------|---|
+| Métrique | 17h UTC 17/06 | 22/06 (13h UTC) | Δ |
+|----------|---------------|-----------------|---|
 | **Cours close** | **$59.54** | **$59.96** | **+0.71%** |
 | **Previous close** | $59.18 | $58.11 | — |
 | **Open** | $58.97 | **$61.275** | **+$2.30** |
@@ -24,9 +24,9 @@
 | **MM 50j** | $53.54 | **$53.97** | **+$0.43** |
 | **P/E TTM** | 77.32× | **77.87×** | **+0.55×** (mécanique) |
 | **Forward P/E** | −63.34× | **−63.79×** | **−0.45×** (mécanique) |
-| **Max Pain** | $35.00 | **$20.00** | **ANOMALIE** |
-| **Put/Call ratio** | 1.38 | **null** | **ANOMALIE** |
-| **Call OI %** | 42.1% | **null** | **ANOMALIE** |
+| **Max Pain** | $35.00 | **$40.00** | **+$5.00** |
+| **Put/Call ratio** | 1.38 | **4.99** | **+3.61** (défiance record) |
+| **Call OI %** | 42.1% | **16.7%** | **−25.4 pp** (puts 83.3%) |
 | **Consensus PT** | $69.12 (26 analysts) | **$69.48 (27 analysts)** | **+$0.36 (+1 analyste)** |
 | **Score Catalyseur** | 6.3/10 | **6.3/10** | **=** |
 | **Score Valorisation** | 4.0/10 | **4.0/10** | **=** |
@@ -35,15 +35,15 @@
 | **Score Global ajusté** | 56.8/100 | **61.8/100** | **+5.0 pts** |
 | **Action recommandée** | **ATTENDRE** | **ACHETER (Sizing Réduit)** | **UPGRADE** |
 
-**Verdict global : RECONVICTION INSTITUTIONNELLE — RETOUR DU VOLUME ET UPGRADE ALGORITHMIQUE EN ACHETER (Sizing Réduit).**
+**Verdict global : RECONVICTION INSTITUTIONNELLE AVEC VIGILANCE OPTIONS RECORD — UPGRADE ATTENDRE → ACHETER (Sizing Réduit), VOLUME DE RETOUR, MAIS DÉFIANCE OPTIONS ATTEINT UN NIVEAU HISTORIQUE.**
 
-Le snapshot du 2026-06-22 (après week-end) apporte deux événements structurels majeurs :
+Le snapshot du 2026-06-22 (13h UTC) apporte trois événements structurels majeurs :
 
 1. **Retour massif du volume** : de **15.69 M (33.1%)** à **39.39 M (81.7%)**, soit une multiplication par **2.5×** de la participation. Cette recapture du volume institutionnel valide le rebond technique et conforte la liquidité du titre.
 
 2. **Upgrade algorithmique ATTENDRE → ACHETER** : le Score Momentum bondit de **5.5 à 7.5/10** (+2.0 pts), portant le Score Opportunité à **5.7/10** et le Score Global ajusté à **61.8/100**. L'action passe en **ACHETER (Sizing Réduit)** avec timing **Favorable**.
 
-Toutes les autres métriques fondamentales (Catalyseur 6.3, Valorisation 4.0) sont inchangées. La structure options dans `latest.json` présente une **anomalie** (Max Pain $20.00, put/call null, call OI null) — les dernières valeurs fiables restent celles du 2026-06-17 (Max Pain $35.00, put/call 1.38, call OI 42.1%).
+3. **Corréction structure options majeure (13h UTC)** : le snapshot 10h UTC présentait une anomalie (Max Pain $20.00, put/call null, call OI null). Le snapshot 13h UTC corrige avec une structure **extrême** : Max Pain **$40.00**, put/call **4.99**, call OI **16.7%** (puts **83.3%** de l'open interest). Cette défiance options record dépasse largement les niveaux historiques observés sur IREN (record précédent : put/call 3.95 le 2026-06-08).
 
 ---
 
@@ -109,18 +109,18 @@ Toutes les autres métriques fondamentales (Catalyseur 6.3, Valorisation 4.0) so
 
 > **[WARNING]** — Quality Partielle 4/6, Forward PE négatif, FCF négatif, multiples extrêmes.
 > **[DONNÉES MANQUANTES]** — `data/accounting_risk_latest.json` inexistant.
-> **[ANOMALIE OPTIONS]** — Max Pain $20.00, put/call null, call OI null dans `latest.json`. Dernières valeurs fiables : Max Pain $35.00, put/call 1.38, call OI 42.1% (2026-06-17).
+> **[ANOMALIE OPTIONS RÉSOLUE]** — Le snapshot 13h UTC corrige l'anomalie du 10h UTC (Max Pain $20.00/null/null) avec une structure extrême : Max Pain $40.00, put/call 4.99, call OI 16.7%.
 
 ---
 
 ## Mise à Jour Sentiment / Options / News
 
-| Signal | Valeur 22/06 | Évolution vs 17/06 | Commentaire |
-|--------|-------------|---------------------|-------------|
+| Signal | Valeur 22/06 (13h UTC) | Évolution vs 17/06 | Commentaire |
+|--------|------------------------|---------------------|-------------|
 | **Consensus PT (FMP)** | **$69.48 (27 analysts)** | +$0.36 (+1 analyste) | Consensus légèrement révisé à la hausse |
-| **Max Pain** | **$20.00** | ANOMALIE | Valeur aberrante — structure du 17/06 conservée ($35.00) |
-| **Put/Call ratio** | **null** | ANOMALIE | Valeur manquante — dernière fiable 1.38 |
-| **Call OI %** | **null** | ANOMALIE | Valeur manquante — dernière fiable 42.1% |
+| **Max Pain** | **$40.00** | +$5.00 vs $35.00 | Corrigé (vs anomalie $20.00 en 10h UTC) |
+| **Put/Call ratio** | **4.99** | **+3.61** vs 1.38 | **Défiance record** — puts dominent 83.3% OI |
+| **Call OI %** | **16.7%** | **−25.4 pp** vs 42.1% | **Défiance record** — plus bas historique |
 | **Short Interest** | **16.05%** | = | Défiance accrue stable |
 | **Social Sentiment** | Aucun buzz retail | = | 0 mentions — alerte EXTREME_BEARISH automatique (artefact score 0.0) |
 | **Event-Driven** | Aucun événement | = | Aucun événement corporate détecté |
@@ -142,7 +142,9 @@ Toutes les autres métriques fondamentales (Catalyseur 6.3, Valorisation 4.0) so
 - Verdict : Fortement corrélé — pivot IA non encore pricé comme découplage
 
 **Interprétation institutionnelle :**
-L'absence totale de news Yahoo, de mentions Reddit et d'événements corporates confirme un mouvement purement technique / algorithmique. Cependant, le **retour du volume à 81.7%** de la moyenne 20j invalide la lecture de "désengagement institutionnel" du 17/06. La participation est revenue, ce qui conforte l'upgrade algorithmique en ACHETER.
+L'absence totale de news Yahoo, de mentions Reddit et d'événements corporates confirme un mouvement purement technique / algorithmique. Le **retour du volume à 81.7%** de la moyenne 20j invalide la lecture de "désengagement institutionnel" du 17/06.
+
+Cependant, la **structure options révisée (13h UTC) révèle une défiance record** : put/call **4.99** et call OI **16.7%** (puts **83.3%** de l'OI). Ce niveau dépasse le record précédent observé sur IREN (put/call 3.95, puts 79.8% le 2026-06-08). Cette défiance massive contraste avec l'upgrade algorithmique en ACHETER et constitue un **signal de divergence institutionnel** : les acheteurs au comptant (volume haussier) coexistent avec une protection options extrême (puts majoritaires).
 
 L'alerte `EXTREME_BEARISH` dans `social_sentiment_latest.json` est un **artefact algorithmique** (sentiment_score 0.0 sur 0 mentions) — à ignorer en l'absence de données Reddit collectées.
 
@@ -180,9 +182,9 @@ Score Global ajusté **61.8/100** — upgrade de +5.0 pts vs le 2026-06-17 (56.8
 > 8. **MM200 indisponible** — tendance long terme non évaluable.
 > 9. **Accounting risk** : `data/accounting_risk_latest.json` inexistant — pas de scan M-Score/Z-Score/F-Score disponible.
 > 10. **Quant report stale** : `data/quant_report_latest.json` daté 2026-05-17 — pas de signaux historiques (p-value 1.0, insuffisant).
-> 11. **Anomalie options** : Max Pain $20.00, put/call null, call OI null — utiliser la structure du 2026-06-17 ($35.00/1.38/42.1%) comme référence.
+> 11. **Défiance options record** : put/call 4.99, puts 83.3% OI — signal contradictoire avec l'upgrade algorithmique. Interprétation : acheteurs comptant vs protection massive en options.
 > 12. **Trigger ATR_SPIKE du 22/06** : ATR relatif 9.59% — faux positif (stable vs 9.62% du 17/06). Aucun nouvel événement majeur.
-> 13. Si le cours casse **$53.97** (MM50) sans rebond → **passer en ATTENDRE**.
+> 13. Si le cours casse **$53.97** (MM50) sans rebond → **passer en ATTENDRE** et réduire la position.
 > 14. Si le cours casse **$48.75** (ancienne MM50) → **stopper toute position existante**.
 > 15. Si le cours casse **$48.46** (SL 2×ATR) → **stopper la position**.
 
@@ -190,15 +192,15 @@ Score Global ajusté **61.8/100** — upgrade de +5.0 pts vs le 2026-06-17 (56.8
 
 ## Conclusion
 
-**Thèse : MODIFIÉE FAVORABLEMENT — statut UPGRADE ATTENDRE → ACHETER (Sizing Réduit), volume institutionnel de retour et momentum confirmé.**
+**Thèse : MODIFIÉE FAVORABLEMENT AVEC VIGILANCE ACCRUE — statut UPGRADE ATTENDRE → ACHETER (Sizing Réduit), volume institutionnel de retour et momentum confirmé, MAIS défiance options record à surveiller.**
 
-Le snapshot du 2026-06-22 apporte deux événements structurels majeurs :
+Le snapshot du 2026-06-22 (13h UTC) apporte trois événements structurels majeurs :
 
 1. **Reconviction volume institutionnel** : le volume de session bondit de **15.69 M (33.1%)** à **39.39 M (81.7%)**, soit une multiplication par 2.5×. Ce retour massif de la participation invalide la lecture de "désertification des échanges" du 2026-06-17 et conforte la liquidité sous-jacente au titre.
 
 2. **Upgrade algorithmique en ACHETER** : le Score Momentum passe de **5.5 à 7.5/10** (+2.0 pts), portant le Score Global ajusté de **56.8 à 61.8/100** (+5.0 pts). L'action passe de **ATTENDRE** à **ACHETER (Sizing Réduit)** avec timing **Favorable**.
 
-Toutes les autres métriques — options (hors anomalie), fondamentaux, consensus, short interest, geo risk, FX — sont **strictement stables** vs le snapshot 17h UTC du 17/06. Le P/E TTM continue de se dégrader mécaniquement (77.32× → 77.87×) sans nouvelle fondamentale.
+3. **Défiance options record révélée** : la correction du snapshot 13h UTC expose une structure options extrême (put/call **4.99**, puts **83.3%** OI) jamais observée sur IREN. Ce signal contradictoire avec l'upgrade algorithmique suggère une coexistence entre acheteurs au comptant (volume haussier) et une protection options massive (défiance record). Cette divergence institutionnelle renforce le caractère risqué de la position et justifie le **Sizing Réduit obligatoire**.
 
 **Différentiels clés vs snapshot 17h UTC 17/06 :**
 1. **Cours** : $59.54 → **$59.96** (+0.71%)
@@ -206,14 +208,14 @@ Toutes les autres métriques — options (hors anomalie), fondamentaux, consensu
 3. **RSI** : 44.32 → **45.71** (+1.39 pts, zone neutre favorable)
 4. **ATR** : $5.73 → **$5.75** (+$0.02, stable)
 5. **MM50** : $53.54 → **$53.97** (+$0.43)
-6. **Options** : Max Pain $35.00/1.38/42.1% → **$20.00/null/null** (ANOMALIE — structure du 17/06 conservée)
+6. **Options** : Max Pain $35.00/1.38/42.1% → **$40.00/4.99/16.7%** (défiance record — puts 83.3% OI)
 7. **Consensus PT** : $69.12 (26) → **$69.48 (27)** (+$0.36, +1 analyste)
 8. **Scores** : Opportunité 5.2→**5.7** (+0.5 pt), Global ajusté 56.8→**61.8** (+5.0 pts)
 9. **Action** : ATTENDRE → **ACHETER (Sizing Réduit)** (UPGRADE)
 10. **SL/TP** : $48.08/$76.73 → **$48.46/$77.21** (révision ATR)
 
 **Recommandation :**
-- **Nouvelle position** : **ACHETER (Sizing Réduit)** à $59.96 — timing favorable, volume rétabli, RSI neutre, cours au-dessus de MM50. Sizing réduit obligatoire (beta 4.232, ATR 9.59%).
+- **Nouvelle position** : **ACHETER (Sizing Réduit)** à $59.96 — timing favorable, volume rétabli, RSI neutre, cours au-dessus de MM50. Sizing réduit obligatoire (beta 4.232, ATR 9.59%, défiance options record).
 - **Position existante** : Maintenir avec les niveaux SL $48.46 / TP $77.21 (R/R 1.5).
 - Premier objectif haussier : **$61.53** (high du jour)
 - Deuxième objectif : **$63.17** (high du 15/06)
@@ -222,8 +224,8 @@ Toutes les autres métriques — options (hors anomalie), fondamentaux, consensu
 - Si rupture sous **$48.75** (ancienne MM50) → **stopper toute position**
 - Si rupture sous **$48.46** (SL 2×ATR) → **stopper la position**
 
-> **⚠️ Réserve earnings :** Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds (28 jours après le J0 annoncé). Toute position IREN est soumise à un risque de publication surprise élevé. Prochain earnings Q2 2026 : **2026-08-27** (66 jours). Sizing réduit obligatoire (beta 4.232, ATR 9.59% historique). Surveiller BTC — seuil critique $75k. [DONNÉES PARTIELLES] — Quality Partielle 4/6, Forward PE négatif, FCF négatif.
+> **⚠️ Réserve earnings :** Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds (28 jours après le J0 annoncé). Toute position IREN est soumise à un risque de publication surprise élevé. Prochain earnings Q2 2026 : **2026-08-27** (66 jours). Sizing réduit obligatoire (beta 4.232, ATR 9.59% historique, défiance options record). Surveiller BTC — seuil critique $75k. [DONNÉES PARTIELLES] — Quality Partielle 4/6, Forward PE négatif, FCF négatif.
 
 ---
 
-*Rapport rédigé le 2026-06-22 — Données sources : `data/latest.json` (fetched_at 2026-06-22T10:00:01 UTC), `data/recommandations_latest.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`, `data/upcoming_events_latest.json`, `data/events_latest.json`, `data/crypto_correlation_latest.json`.*
+*Rapport rédigé le 2026-06-22 — Données sources : `data/latest.json` (fetched_at 2026-06-22T13:00:02 UTC), `data/recommandations_latest.json`, `data/quant_report_latest.json`, `data/geo_risk_latest.json`, `data/sector_rotation_latest.json`, `data/social_sentiment_latest.json`, `data/fx_exposure_latest.json`, `data/upcoming_events_latest.json`, `data/events_latest.json`, `data/crypto_correlation_latest.json`.*

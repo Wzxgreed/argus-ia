@@ -41,7 +41,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-22** · earnings · Placeholder earnings FMP J0 glissant (22/06) — non analysable faute de données
+- **2026-06-22** · earnings · Earnings ...
 
 ---
 
@@ -58,9 +58,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-22
-- **Type :** update
-- **Fichier :** `QTBS_2026-06-22_update.md`
-- **Conclusion :** Data blackout confirmé snapshot 10h UTC — ATTENDRE (plus de 55 snapshots consécutifs sans mutation), placeholder earnings J0 glissant au 22/06, news Yahoo `[]`, aucun signal nouveau, contexte sectoriel XLF inchangé.
+- **Type :** preview
+- **Fichier :** `QTBS_2026-06-22_preview.md`
+- **Conclusion :** > **Date :** 2026-06-22
 
 ---
 

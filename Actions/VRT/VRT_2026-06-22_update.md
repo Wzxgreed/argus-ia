@@ -3,7 +3,7 @@
 > **Date :** 2026-06-22
 > **Cours de référence :** $333.05 (+4.87%)
 > **Fichier précédent :** [VRT_2026-06-17_update.md](./VRT_2026-06-17_update.md) (close $322.03, RSI 52.83, Score Global 48.8/100 SURVEILLER)
-> **Statut thèse :** MODIFIÉE — upgrade conditionnel SURVEILLER → ATTENDRE
+> **Statut thèse :** MODIFIÉE — upgrade conditionnel SURVEILLER → ATTENDRE maintenu
 
 ---
 
@@ -21,9 +21,9 @@
 | Forward P/E | 36.4 | 37.63 | +3.4% |
 | EV/EBITDA (Yahoo) | — | 54.0 | — |
 | EV/EBITDA (FMP) | — | 29.73 | — |
-| Put/Call ratio | 1.30 | 0.00 | **Artefact expiration J+4** |
-| Call OI % | 43.6% | 100.0% | **Artefact expiration J+4** |
-| Max pain | $220.0 | $175.0 | — |
+| Put/Call ratio | 1.30 | **2.77** | **+113% — sentiment options bearish mesuré** |
+| Call OI % | 43.6% | **26.5%** | **−17.1 pts — puts dominent** |
+| Max pain | $220.0 | **$245.0** | **+$25** |
 | Score Global Ajusté | 48.8/100 | 48.8/100 | Stable |
 | Recommandation moteur | SURVEILLER | SURVEILLER | Stable |
 
@@ -32,8 +32,13 @@
 - **Volume normalisé** à 1.21× (7.26M vs moy. 5.98M) — correction majeure de l'anomalie du 17/06 (0.45×). La participation est désormais standard, invalidant l'hypothèse de short-covering isolé.
 - **RSI 55.83** — consolidation au-dessus de 50, zone neutre légèrement haussière. Pas de surachat.
 - **ATR_SPIKE persistant** à 6.04% ($20.11 / $333.05) — volatilité élevée maintenue, frein au scoring.
-- **Options** : put/call 0.0 et call OI 100% sont des artefacts liés à l'expiration du 26/06 (J+4). Données non interprétables. Max pain $175 vs cours $333 — écart massif confirmant l'artefact.
-- **Consensus analystes** : PT moyen $267.57 (47 analysts, 4 actifs récemment). Le cours est désormais **+24.5% au-dessus du consensus** (vs +20.4% au 17/06).
+- **Options** : put/call **2.77** (73.5% puts), call OI **26.5%**, max pain **$245.0** — sentiment options **bearish mesuré**, non extrême. Expiration 26/06 (J+4) à surveiller.
+- **Consensus analystes** : PT moyen $267.57 (47 analysts, 1 actif récemment). Le cours est désormais **+24.5% au-dessus du consensus** (vs +20.4% au 17/06).
+- **Sector rotation** : XLI (Industrials) **#2** des secteurs SPY avec momentum score **6.25/10** — soutien sectoriel.
+- **FX exposure** : exposition 45% EUR/CNY, **Score FX Impact 0.0** (🟢) — pas de headwind/tailwind change détecté.
+- **Social sentiment** : **0 mentions** Reddit — aucun buzz retail, pas de pump/dump.
+- **Events corporate** : **0 événement** détecté dans `data/events_latest.json`.
+- **Prochain earnings** : **2026-07-29** (37 jours) — Est EPS $1.38–$1.59, Rev $3.4B.
 
 ---
 
@@ -98,7 +103,7 @@
 | Assets/Liabilities > 1.0 | ✅ Oui | Current ratio 1.55× |
 | FCF positif et croissant 5 ans | ✅ Oui | FCF yield 3.06% |
 | Avantage compétitif (moat) | ✅ Oui | Leader refroidissement DC, parts de marché dominantes |
-| Industrie forte croissance (TAM ×5) | ✅ Oui | TAM refroidissement IA en explosion |
+| Industrie en forte croissance (TAM ×5) | ✅ Oui | TAM refroidissement IA en explosion |
 | **Score Qualité total** | **6/6** | **Quality Compounder** |
 
 **Observations :**
@@ -106,7 +111,9 @@
 - La valorisation reste le frein principal : P/E 83, Forward P/E 38, P/B 32. Le consensus PT $267.57 est 24.5% sous le cours.
 - Les marges (GM 34.4%, OM 18.5%, NM 13.0%) et la rentabilité (ROIC 18.5%, ROCE 24.3%) restent solides.
 - La dette est maîtrisée (net debt/EBITDA 0.78×, interest coverage 22×).
-- [DONNÉES MANQUANTES] : `data/accounting_risk_latest.json` absent — pas de scan M-Score / Z-Score / F-Score / Sloan Ratio disponible.
+- **[DONNÉES MANQUANTES]** : `data/accounting_risk_latest.json` absent — pas de scan M-Score / Z-Score / F-Score / Sloan Ratio disponible.
+- **[DONNÉES MANQUANTES]** : `data/quant_report_latest.json` obsolète (2026-05-17) — pas de métriques de risque institutionnelles à jour.
+- **[DONNÉES MANQUANTES]** : `data/geo_risk_latest.json` obsolète (2026-05-17) — pas de score politique à jour pour VRT.
 
 ---
 
@@ -115,18 +122,21 @@
 | Signal | Valeur | Commentaire |
 |--------|--------|-------------|
 | Consensus PT (FMP) | $267.57 (47 analysts) | 24.5% sous cours — divergence haussière |
-| Put/Call ratio | 0.00 | **ARTEFACT expiration 26/06** — non interprétable |
-| Call OI % | 100.0% | **ARTEFACT expiration 26/06** — non interprétable |
-| Max pain | $175.0 | Écart massif vs cours = artefact confirmé |
+| Put/Call ratio | 2.77 | Bearish mesuré (73.5% puts) — non extrême |
+| Call OI % | 26.5% | Puts dominent mais pas de panique |
+| Max pain | $245.0 | Sous le cours de 26.4% — expiration J+4 à surveiller |
 | Expiration prochaine | 2026-06-26 | J+4 — risque volatilité expiration |
 | Social sentiment | 0 mentions | Aucune mention Reddit détectée |
 | Pump detection | Non | — |
+| Sector rotation (XLI) | #2 / momentum 6.25 | Industriels outperform — soutien sectoriel |
+| FX exposure | 45% EUR/CNY | Score FX Impact 0.0 (🟢) — pas d'impact change détecté |
 
 **Observations :**
-- Le sentiment options du 17/06 (put/call 1.30, call OI 43.6%) était mesuré-bearish. Les données actuelles sont **inutilisables** à J+4 de l'expiration.
+- Le sentiment options est **bearish mesuré** (put/call 2.77, 73.5% puts) mais loin des extrêmes vus en mai (put/call >3.0). Cela reflète une prudence contrarienne : le marché options parie à la baisse malgré le rally, ce qui peut alimenter un squeeze si les résultats déçoivent les bears.
 - Aucune news structurante détectée dans `data/events_latest.json` (0 événement corporate).
 - Aucun signal de pump/dump sur les réseaux sociaux.
-- Le short interest 3.73% est modéré — pas de setup short squeeze.
+- Le short interest 3.73% est modéré — pas de setup short squeeze pur.
+- Le secteur Industrials (XLI) est **#2** du ranking sectoriel avec un momentum score 6.25/10, ce qui soutient VRT par l'effet de cohorte.
 
 ---
 
@@ -154,13 +164,13 @@ Le moteur maintient SURVEILLER (48.8/100). Cependant, les **conditions d'upgrade
 | Sous MM50 + volume >0.6× | $321.47 / 0.6× | +3.6% au-dessus | ✅ Non activée |
 | Sous $308.11 | $308.11 | +8.1% au-dessus | ✅ Non activée |
 
-**Verdict desk :** La condition d'upgrade vers **ATTENDRE** est remplie (clôture > $324 avec volume >0.8×). Le rally post-gap du 17/06 est **confirmé** par un volume normalisé, invalidant l'hypothèse de short-covering isolé. Le RSI 55.83 et le maintien au-dessus de la MM50 renforcent la configuration technique.
+**Verdict desk :** La condition d'upgrade vers **ATTENDRE** est remplie (clôture > $324 avec volume >0.8×). Le rally post-gap du 17/06 est **confirmé** par un volume normalisé, invalidant l'hypothèse de short-covering isolé. Le RSI 55.83 et le maintien au-dessus de la MM50 renforcent la configuration technique. Le soutien sectoriel XLI #2 et l'absence de headwind FX renforcent la thèse.
 
 Cependant, le plafond de score reste la **valorisation extrême** (2.5/10) et le **consensus 24.5% sous le cours**. L'absence de catalyseur externe (news, guidance, contrat) limite l'upgrade à ATTENDRE et interdit tout signal d'accumulation.
 
 | Score révisé desk | Valeur |
 |-------------------|--------|
-| Score Opportunité | 4.6/10 (+0.2 pt — confirmation volume) |
+| Score Opportunité | 4.6/10 (+0.2 pt — confirmation volume + soutien sectoriel) |
 | Score Catalyseur | 4.3/10 (stable — pas de catalyseur nouveau) |
 | Score Valorisation | 2.5/10 (stable — plafond) |
 | Score Momentum | 7.5/10 (stable) |
@@ -187,7 +197,7 @@ Cependant, le plafond de score reste la **valorisation extrême** (2.5/10) et le
 
 ## 7. Conclusion — Thèse confirmée, modifiée ou invalidée ?
 
-**Verdict : THÈSE MODIFIÉE — upgrade conditionnel SURVEILLER → ATTENDRE**
+**Verdict : THÈSE MODIFIÉE — upgrade conditionnel SURVEILLER → ATTENDRE maintenu**
 
 La thèse de fond reste inchangée : VRT est un **Quality Compounder 6/6** bénéficiant du boom de l'IA infrastructure, avec des fondamentaux solides (ROIC 18.5%, net debt/EBITDA 0.78×) mais une **valorisation extrême** qui plafonne le score.
 
@@ -196,13 +206,15 @@ La thèse de fond reste inchangée : VRT est un **Quality Compounder 6/6** bén�
 2. **Le RSI consolide au-dessus de 50** (55.83) — sortie de survente confirmée, pas de surachat.
 3. **Le cours tient au-dessus de la MM50** (+3.6%) — tendance haussière court terme intacte.
 4. **L'ATR_SPIKE persiste** (6.04%) — volatilité élevée, prudence requise.
-5. **Aucun catalyseur externe** n'est apparu — le mouvement est purement technique.
+5. **Options corrigées** : put/call 2.77 (bearish mesuré), loin des artefacts précédents. Max pain $245.
+6. **Soutien sectoriel** : XLI #2 du ranking avec momentum 6.25/10.
+7. **Aucun catalyseur externe** n'est apparu — le mouvement reste purement technique.
 
 **Ce qui n'a pas changé :**
 - Valorisation extrême (P/E 83, Forward P/E 38, consensus 24.5% sous cours).
 - Aucun événement corporate (M&A, buyback, guidance, contrat).
 - Score Valorisation plafonné à 2.5/10.
-- Options inutilisables (artefact expiration 26/06).
+- Aucun buzz retail (0 mentions Reddit).
 
 **Scénarios forward :**
 
@@ -231,4 +243,4 @@ La thèse de fond reste inchangée : VRT est un **Quality Compounder 6/6** bén�
 
 ---
 
-*Rapport généré par le desk Argus-IA — données source : `data/latest.json` (2026-06-22), `data/recommandations_latest.json`, `data/sector_rotation_latest.json`, `data/fx_exposure_latest.json`, `data/upcoming_events_latest.json`. [DONNÉES MANQUANTES] : `data/accounting_risk_latest.json` absent, `data/quant_report_latest.json` obsolète (2026-05-17).*
+*Rapport généré par le desk Argus-IA — données source : `data/latest.json` (2026-06-22 13:00 UTC), `data/recommandations_latest.json`, `data/sector_rotation_latest.json`, `data/fx_exposure_latest.json`, `data/social_sentiment_latest.json`, `data/upcoming_events_latest.json`, `data/events_latest.json`. [DONNÉES MANQUANTES] : `data/accounting_risk_latest.json` absent, `data/quant_report_latest.json` obsolète (2026-05-17), `data/geo_risk_latest.json` obsolète (2026-05-17).*

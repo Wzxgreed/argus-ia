@@ -36,10 +36,10 @@ Les scores de l'agent recommandation ont été **légèrement améliorés** : Sc
 ---
 
 ## Actualites ayant impacte ce dossier
-- **Score global :** 55.0/100
-- **Prix cible :** $— (suspendu)
+- **Score global :** —/10
+- **Prix cible :** $—
 - **Stop-loss :** $14.63
-- **Statut thèse :** valide (ATTENDRE — BIAIS HAUSSIER LÉGÈREMENT RENFORCÉ)
+- **Statut thèse :** invalide
 - **Horizon :** —
 
 ---
@@ -52,15 +52,15 @@ Les scores de l'agent recommandation ont été **légèrement améliorés** : Sc
 
 ## 🚨 Alertes actives
 
-- Baisse — $14.63 (SL 2×ATR) — 🟢 Active
-- Hausse — $16.50 (cassure 52W high) — 🟢 Active
-- Volume — >2× moy. 20j (>217M) — 🟢 Active
+- Baisse — $11.41 (SL 2×ATR) — 🟢 Active
+- Hausse — $14.00 (prix cible) — 🔴 Déclenchée (27/05)
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- 2026-07-23 — Earnings Q2 FY2026 — Est EPS -$0.34 a $0.52, Rev $16.6B
+- Aucun événement à venir.
 
 ---
 
@@ -79,7 +79,7 @@ Les scores de l'agent recommandation ont été **légèrement améliorés** : Sc
 - **Date :** 2026-06-22
 - **Type :** update
 - **Fichier :** `AAL_2026-06-22_update.md`
-- **Conclusion :** ATTENDRE — BIAIS HAUSSIER LÉGÈREMENT RENFORCÉ. Rally +3.7% sur volume 1.16× moyenne. High $16.07 > $16.055 = invalidation fatigue haussière. RSI 61.34 inchangé. Score Global 55.0/100 (+1.2 pts). Upside consensus +3.3%. SL $14.63, TP $18.03, R/R 1.5. Earnings dans 31 jours.
+- **Conclusion :** **Date :** 2026-06-22 (snapshot 10h UTC, pre-session NY)
 
 ---
 

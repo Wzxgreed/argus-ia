@@ -1,4 +1,4 @@
-# CONTEXT — A — Dernière mise à jour : 2026-06-22 (snapshot 10h UTC)
+# CONTEXT — A — Dernière mise à jour : 2026-06-22
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -21,7 +21,7 @@
 ## 📜 Historique des analyses
 - **Score global :** —/10
 - **Prix cible :** $—
-- **Stop-loss :** $117.54
+- **Stop-loss :** $119.08
 - **Statut thèse :** modifiée
 - **Horizon :** 1–3 mois
 
@@ -71,10 +71,6 @@
 - **MM 200j :** —
 - **ATR 14j :** 3.99
 - **Volume moy. 20j :** 2786240
-- **Volume session :** 4334300 (1.56×)
-- **Cours :** 127.06
-- **Previous close :** 124.33
-- **Change % :** +2.2%
 
 ---
 
@@ -83,7 +79,7 @@
 - **Date :** 2026-06-22
 - **Type :** update
 - **Fichier :** `A_2026-06-22_update.md`
-- **Conclusion :** 🟡 **Thèse modifiée avec prudence — mutation technique majeure** : RSI 35.46 (−29.4 pts vs 17/06), volume spike 4.33M (1.56×, +84%), ATR $3.99 (−26.1%). Score Global ajusté **73.3/100** (−1.7 pt) — **ACHETER Réduit** (sizing abaissé Standard → Réduit). Anomalie options JSON récurrente sur cycle 17/07. XLV chute au #7 (momentum 0.75).
+- **Conclusion :** > **Date :** 2026-06-22 · Snapshot 10:00 UTC (pré-ouverture US)
 
 ---
 

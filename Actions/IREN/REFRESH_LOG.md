@@ -2699,3 +2699,21 @@ Le DRAFT_refresh a été déclenché automatiquement à 13:00 UTC par ATR_SPIKE 
 **Conclusion :** confirm — faux positif (ATR stable vs 9.62% du 2026-06-17, volume institutionnel de retour massif)
 
 Le DRAFT_refresh a été déclenché automatiquement à 10:00 UTC par ATR_SPIKE sur le snapshot `data/latest.json` (fetched_at 2026-06-22T10:00:01 UTC). Les données brutes montrent un **retour massif du volume institutionnel** : 39.39 M (81.7% moyenne 20j) vs 15.69 M (33.1%) le 2026-06-17, soit +151%. Le cours à **$59.96** se tient à +11.1% au-dessus de la MM50 ($53.97). Le RSI est à **45.71** (zone neutre favorable). L'ATR est stable à **$5.75** (ATR relatif 9.59% vs 9.62% précédent) — le trigger est un faux positif sur une volatilité historique déjà intégrée. **Upgrade algorithmique majeur** : Score Global ajusté rehaussé de **56.8 à 61.8/100** (+5.0 pts), porté par le Score Momentum qui bondit de **5.5 à 7.5/10** (+2.0 pts). L'action passe de **ATTENDRE** à **ACHETER (Sizing Réduit)** avec timing **Favorable**. Anomalie options détectée : Max Pain $20.00, put/call null, call OI null — structure incohérente qui remplace la structure fiable du 17/06 (Max Pain $35.00, put/call 1.38, call OI 42.1%). La structure du 17/06 est conservée comme référence opérationnelle. Aucune news Yahoo ni mention Reddit n'accompagne le mouvement. Thèse modifiée favorablement : **ACHETER (Sizing Réduit)** (Score Global 61.8/100). DRAFT_refresh complété et archivé (`IREN_2026-06-22_DRAFT_refresh.md` → `_ARCHIVED_DRAFT_refresh_IREN_2026-06-22_DRAFT_refresh_archived.md`). Fichier de référence : [IREN_2026-06-22_update.md](IREN_2026-06-22_update.md).
+
+## 2026-06-22 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 9.59% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-22 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 9.59% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

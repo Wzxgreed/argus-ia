@@ -8,10 +8,20 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ATTENDRE
-- **Score global :** 56.1/100
-- **Prix cible :** $518.83 (consensus 90 analysts)
-- **Stop-loss :** $950.65 (2×ATR)
-- **Statut thèse :** ⚠️ En construction — attente verdict earnings
+**Score Global :** 56.1/100
+**Prix cible :** $518.83 (consensus 90 analysts) vs cours $1133.99
+**Stop-loss :** $950.65 (2×ATR)
+**Horizon :** Post-earnings (2026-06-24)
+
+**Synthèse :** MU affiche un momentum technique puissant (+8.7% gap, RSI 59.35, cours > MM50) et une valorisation forward attractive (P/E NTM 9.49). Cependant, une divergence extrême existe entre le cours ($1133.99) et le consensus analystes ($518.83, −54%). Le marché options est très défensif (put/call 209.5, max pain $240). Les earnings du 2026-06-24 seront le verdict. Attendre le passage de l'événement avant toute décision.
+
+---
+
+## 📜 Historique des fichiers
+- **Score global :** —/10
+- **Prix cible :** $518.83
+- **Stop-loss :** $950.65
+- **Statut thèse :** —
 - **Horizon :** Post-earnings (2026-06-24)
 
 ---
@@ -24,28 +34,23 @@
 
 ## 🚨 Alertes actives
 
-- **PRICE_GAP** (medium) — Gap +8.70% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 8.08% (seuil 5.0%)
-- **EARNINGS_PROXIMITY** (high) — Earnings dans 2 jours (2026-06-24)
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-06-24** · earnings · Earnings date — Est EPS $7.53–$26.00, Rev $35.0B
+- **2026-06-24** · earnings · Earnings date — Est EPS $7.53-$26.00, Rev $35.0B...
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
 - **RSI 14j :** 59.35
-- **MM 50j :** 732.80
+- **MM 50j :** 732.8
 - **MM 200j :** —
 - **ATR 14j :** 91.67
-- **Volume moy. 20j :** 54,443,120
-- **Volume jour :** 64,642,500 (1.2× moyenne)
-- **52-week high :** 1149.43
-- **52-week low :** 103.38
+- **Volume moy. 20j :** 54443120
 
 ---
 
@@ -54,7 +59,7 @@
 - **Date :** 2026-06-22
 - **Type :** update
 - **Fichier :** `MU_2026-06-22_update.md`
-- **Conclusion :** Thèse en construction — ATTENDRE. Divergence extrême cours ($1133.99) vs consensus ($518.83, −54%). Marché options très défensif (put/call 209.5, max pain $240). Earnings J+2 avec fourchette EPS très large. Attendre le verdict post-earnings.
+- **Conclusion :** > **Date :** 2026-06-22
 
 ---
 

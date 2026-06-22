@@ -25,11 +25,11 @@ Le short interest reste élevé à **14.71%** — setup asymétrique squeeze/pre
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 69.0/100
+- **Score global :** —/10
 - **Prix cible :** $20.94
 - **Stop-loss :** $15.89
-- **Statut thèse :** confirmée avec vigilance
-- **Horizon :** 1–3 mois
+- **Statut thèse :** validée
+- **Horizon :** —
 
 ---
 
@@ -49,38 +49,32 @@ Le short interest reste élevé à **14.71%** — setup asymétrique squeeze/pre
 
 ## 📅 Prochains événements
 
-- **2026-07-28** · Earnings Q2 FY2026 (36j) — Est EPS $0.10–$0.11, Rev $1.1B
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **Cours close :** $17.91
-- **Change % :** +2.81%
-- **Volume jour :** 80,961,100 (1.0× moy. 20j)
 - **RSI 14j :** 48.0
 - **MM 50j :** 16.94
 - **MM 200j :** —
 - **ATR 14j :** 1.01
 - **Volume moy. 20j :** 80795830
-- **Beta :** 2.152
-- **Forward P/E :** 21.94
-- **Short interest :** 14.71%
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-22
-- **Type :** update
-- **Fichier :** `SOFI_2026-06-22_update.md`
-- **Conclusion :** Thèse confirmée avec vigilance. Consolidation technique saine (RSI 48.0, ATR $1.01, volume 1.0×). Reclaim MM50 renforcé (+5.72%). Score Global 69.0/100 (ACHETER Réduit). SL $15.89, TP $20.94. Earnings Q2 dans 36j.
+- **Type :** full refresh
+- **Fichier :** `SOFI_2026-06-22_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-22
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 5.64% (seuil 5.0%) — **archivé faux positif** (même motif que 15–17/06, ATR absolu stable $1.01)
+- **ATR_SPIKE** (medium) — ATR relatif 5.64% (seuil 5.0%)
 
 ---
 

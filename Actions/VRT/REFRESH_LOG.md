@@ -1,5 +1,14 @@
 # VRT — Historique des Full Refreshes
 
+## 2026-06-22 — Full Refresh Triggered
+
+**Triggers :**
+- **ATR_SPIKE** (medium) — ATR relatif 6.04% (seuil 5.0%)
+
+**Conclusion :** Thèse **MODIFIÉE INCHANGÉE** — ATR_SPIKE persistant depuis le 18/05 (volatilité résiduelle post-correction), pas un nouvel événement structurant. Cours $333.05 (+4.87% séance, +3.42% vs 17/06). RSI 55.83 (consolidation au-dessus 50). Volume normalisé 1.21× (7.26M) — invalidation hypothèse short-covering. MM50 $321.47 défendue (+3.6%). Options corrigées : put/call **2.77** (73.5% puts), call OI **26.5%**, max pain **$245** — sentiment bearish mesuré, non extrême. Sector rotation XLI **#2** (momentum 6.25/10). FX exposure 45% EUR/CNY, Score FX Impact 0.0 (🟢). Social sentiment 0 mentions. 0 événement corporate. Score Global Ajusté **50.0/100** (ATTENDRE, upgrade conditionnel SURVEILLER → ATTENDRE maintenu). Fondamentaux intacts (Quality Compounder 6/6, ROIC 18.5%, ROCE 24.3%). Valorisation extrême persistante (P/E 83, consensus 24.5% sous cours). DRAFT archivé. Voir [VRT_2026-06-22_update.md](./VRT_2026-06-22_update.md).
+
+---
+
 ## 2026-06-17 — Full Refresh Triggered
 
 **Triggers :**
@@ -2486,6 +2495,24 @@
 ---
 
 ## 2026-06-21 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.04% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-22 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 6.04% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-22 — Full Refresh Triggered
 
 **Triggers :**
 - atr_spike (medium) : ATR relatif 6.04% (seuil 5.0%)

@@ -21,7 +21,7 @@
 - **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** modifiée mécaniquement
+- **Statut thèse :** validée
 - **Horizon :** —
 
 ---
@@ -40,7 +40,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-22** · earnings · Earnings (artefact FMP — ignoré)
+- **2026-06-22** · earnings · Earnings ...
 
 ---
 
@@ -57,9 +57,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-22
-- **Type :** update
-- **Fichier :** `SPCX_2026-06-22_update.md`
-- **Conclusion :** Reclassement mécanique ÉVITER → ATTENDRE (Score Global 57.2/100), mais conflit de symbole chronique persistant, données totalement non fiables, mutations fondamentales majeures (float −90.4%, consensus +41.7%, forward P/E 711.54), setup non-actionnable en pratique
+- **Type :** preview
+- **Fichier :** `SPCX_2026-06-22_preview.md`
+- **Conclusion :** > **Date :** 2026-06-22
 
 ---
 

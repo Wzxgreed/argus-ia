@@ -11,7 +11,7 @@
 - **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** invalidée
+- **Statut thèse :** validée
 - **Horizon :** —
 
 ---
@@ -24,8 +24,7 @@
 
 ## 🚨 Alertes actives
 
-- `No price history` — 60+ snapshots consécutifs
-- Proxy ASTS : cassure support $82,11, expansion volume baissière 1,117×, anomalie options JSON de retour (max pain $45 aberrant)
+- Aucune alerte active.
 
 ---
 
@@ -43,8 +42,6 @@
 - **ATR 14j :** —
 - **Volume moy. 20j :** —
 
-*Proxy ASTS : RSI 32,75 | MM50 $88,42 | ATR $10,66 | Volume 31,68M (1,117×)*
-
 ---
 
 ## 📝 Résumé dernière analyse
@@ -52,7 +49,7 @@
 - **Date :** 2026-06-22
 - **Type :** update
 - **Fichier :** `ASTSPACE_2026-06-22_update.md`
-- **Conclusion :** Thèse invalidée par absence de données. Proxy ASTS en SURVEILLER 39,2/100 (−3,8 pts), cassure support $82,11, expansion volume baissière 1,117×, anomalie options JSON de retour.
+- **Conclusion :** > **Proxy ASTS** : snapshot 10h UTC 2026-06-22 — **cours $80,66 (−5,58% vs previous close $85,43, −1,93% vs snapshot 17/06 $82,25)**. Volume **31,68M (1,117× moy. 28,35M)** — première expansion au-des
 
 ---
 

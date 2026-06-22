@@ -16,10 +16,10 @@
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
-- **Score global :** 67.2/100 (ajusté 59.2)
-- **Prix cible :** $17.49
-- **Stop-loss :** $11.59
-- **Statut thèse :** confirmée avec downgrade mécanique
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** validée
 - **Horizon :** 1–3 mois
 
 ---
@@ -38,8 +38,7 @@
 
 ## 📅 Prochains événements
 
-- **Earnings Q2 2026 :** 13 août 2026 (Est EPS $0.18–$0.27, Rev $5.4B)
-- **Expiration Options :** 2026-06-26 (4 jours, max pain opérationnel ~$13.00)
+- Aucun événement à venir.
 
 ---
 
@@ -56,9 +55,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-22
-- **Type :** update quotidienne
+- **Type :** update
 - **Fichier :** `NU_2026-06-22_update.md`
-- **Conclusion :** Downgrade mécanique ATTENDRE (Score Global Ajusté 60.0 → 59.2) — fondamentaux intacts, cours quasi-stable ($12.71), volume normalisé 1.00×, RSI 45.31, gap MM50 −5.7%, anomalie options JSON récurrente traitée, SL/TP $11.59/$14.39
+- **Conclusion :** **Thèse : CONFIRMÉE avec DOWNGRADE MÉCANIQUE — ATTENDRE (stabilité quasi-totale vs close 17/06 $12
 
 ---
 

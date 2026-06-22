@@ -7,14 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 50.0/100
-- **Score opportunité :** 5.3/10 (C:6.8 V:4.5 M:4.5)
-- **Prix cible :** $187.47 (consensus FMP)
-- **Stop-loss :** $115.09
-- **Take-profit :** $148.54
-- **Statut thèse :** Modifiée — passage SURVEILLER → ATTENDRE
-- **Horizon :** 1–3 mois (jusqu'à earnings Q2 FY2026 le 03/08)
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -26,19 +24,13 @@
 
 ## 🚨 Alertes actives
 
-- 🔴 **Cassure MM50** — Cours $128.47 sous MM50 $138.43 (snapshot 22/06 10h UTC) — écart creusé à -7.19%
-- 🔴 **RSI survente profonde** — RSI 23.69 < 30, première depuis début suivi
-- 🔴 **Volume explosion sur baisse** — 55.34M (1.38× moyenne) sur cours -4.74% = capitulation/liquidation
-- 🟡 **Proximité 52W low** — Cours $128.47 à 4.7% du 52W low $122.68
-- 🟡 **Anomalie options JSON** — `max_pain: 50.0` aberrant, valeurs opérationnelles conservées ($140.00/0.67/59.8%)
-- 🟡 **DRAFT_refresh faux positif ATR_SPIKE** — Trigger ATR relatif 5.21% (seuil 5.0%), ATR réel en compression ($6.69 vs $7.20)
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **Earnings Q2 FY2026** : 2026-08-03 (42 jours) — Est. EPS $0.33–$0.40, Rev $1.8B
-- **Expiration options** : 2026-06-26 (4 jours) — Max Pain opérationnel $140.00
+- Aucun événement à venir.
 
 ---
 
@@ -57,13 +49,13 @@
 - **Date :** 2026-06-22
 - **Type :** update
 - **Fichier :** `PLTR_2026-06-22_update.md`
-- **Conclusion :** Détérioration technique majeure — cours -4.74% à $128.47, RSI survente profonde 23.69, volume explosion 55.34M (1.38×), écart MM50 creusé à -7.19%. Fondamentaux inchangés. Scores révisés à la hausse (Global ajusté 50.0/100), franchissement seuil ATTENDRE. Capitulation/liquidation probable autour du 52W low.
+- **Conclusion :** > **Source :** `data/2026-06-22.json` (snapshot 2026-06-22T10:00:01Z) + agents quant, geo, accounting, sector, social, FX, watchman, events
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 5.21% (seuil 5.0%) → **FAUX POSITIF** : ATR réel $6.69 en compression (-7.1% vs $7.20), pas en spike
+- **ATR_SPIKE** (medium) — ATR relatif 5.21% (seuil 5.0%)
 
 ---
 
