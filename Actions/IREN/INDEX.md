@@ -9,37 +9,37 @@
 
 ## Thèse Courante
 
-IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot 17h UTC du 2026-06-17 confirme le statut **ATTENDRE** : Score Global ajusté **56.8/100** (strictement inchangé vs 13h UTC). Consolidation légèrement positive à **$59.54** (+0.61%) avec RSI **44.32** (remontée au-dessus de la zone 40). **Volume effondré** à **15.69 M** (33.1% moyenne 20j). Structure options **cohérente et stable** (Max Pain **$35.00**, put/call **1.38**, call OI **42.1%**).
+IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot du 2026-06-22 confirme l'**upgrade en ACHETER (Sizing Réduit)** : Score Global ajusté **61.8/100** (+5.0 pts vs 17/06). Cours à **$59.96** (+0.71% vs 17/06) avec RSI **45.71** (zone neutre favorable). **Volume institutionnel de retour** à **39.39 M** (81.7% moyenne 20j, +151% vs 17/06). Structure options **anomale dans `latest.json`** (Max Pain **$20.00**, put/call null, call OI null) — dernières valeurs fiables du 2026-06-17 conservées comme référence (Max Pain **$35.00**, put/call **1.38**, call OI **42.1%**).
 
-**🟡 Momentum technique stabilisé :** Le RSI à **44.32** est ressorti de la zone neutre inférieure proche de la survente. L'ATR 14j (**$5.73**) et la MM50 (**$53.54**) sont disponibles — le cours à **$59.54** se tient à **+11.1%** au-dessus de la MM50, tendance haussière intermédiaire maintenue. Timing déclaré **Neutre**.
+**🟢 Momentum technique haussier :** Le RSI à **45.71** est dans la zone neutre favorable. L'ATR 14j (**$5.75**) et la MM50 (**$53.97**) sont disponibles — le cours à **$59.96** se tient à **+11.1%** au-dessus de la MM50, tendance haussière intermédiaire maintenue. Timing déclaré **Favorable**.
 
-**🟢 Consensus PT stable :** **$69.12 (26 analysts)** — upside depuis close $59.54 à **+16.1%**. Le consensus reste ancré.
+**🟢 Consensus PT révisé à la hausse :** **$69.48 (27 analysts)** — upside depuis close $59.96 à **+15.9%**. Le consensus gagne un analyste et se renforce.
 
-**🔴 Valorisation mécaniquement dégradée :** Score Valorisation **4.0/10** (=). P/E TTM **77.32×**, P/B **7.62×**, EV/EBITDA **155.61×** — multiples extrêmement élevés, légèrement gonflés par la hausse du cours.
+**🔴 Valorisation mécaniquement dégradée :** Score Valorisation **4.0/10** (=). P/E TTM **77.87×**, P/B **7.67×**, EV/EBITDA **157.50×** — multiples extrêmement élevés, mécaniquement gonflés par la hausse du cours.
 
-**🔴 Forward P/E négatif :** **−63.34×** — profitabilité attendue éloignée. FCF négatif (yield −36%).
+**🔴 Forward P/E négatif :** **−63.79×** — profitabilité attendue éloignée. FCF négatif (yield −36%).
 
-**🟡 Catalyseur :** Score Catalyseur **6.3/10** (=) — absence de catalyseur nouveau, news nulles. Scores strictement identiques au snapshot 13h.
+**🟡 Catalyseur :** Score Catalyseur **6.3/10** (=) — absence de catalyseur nouveau, news nulles.
 
 **🔴 Short Interest élevé stable :** **16.05%** — défiance accrue du marché maintenue, fuel squeeze inactif.
 
-**🔴 Volume très faible :** 15.69 M = **33.1%** moyenne 20j — collapse de −32.8 pp vs 13h. Participation institutionnelle quasi absente ou attitude d'attente pré-expiration.
+**🟡 Volume récupéré :** 39.39 M = **81.7%** moyenne 20j — retour institutionnel massif après l'effondrement du 17/06 (33.1%).
 
-**🔴 Volatilité extrême :** Beta **4.232**. Sizing réduit obligatoire (max 5% portefeuille) si ré-entrée future.
+**🔴 Volatilité extrême :** Beta **4.232**. Sizing réduit obligatoire (max 5% portefeuille).
 
 **🔴 Corrélation BTC :** Corrélation 30j **0.82**, beta BTC **2.1** — le pivot IA n'est pas encore pricé comme découplage. Toute position IREN reste un pari implicite sur BTC.
 
-**🟡 Défiance options persistante :** Max Pain **$35.00** (expiration 2026-06-18, dans 1 jour), put/call **1.38**, call OI **42.1%**. Les puts restent majoritaires (57.9% OI). La défiance est stable.
+**🟡 Défiance options persistante :** Dernière structure fiable : Max Pain **$35.00**, put/call **1.38**, call OI **42.1%**. Les puts restent majoritaires (57.9% OI). La défiance est stable.
 
-**⚠️ Données techniques :** MM200 toujours indisponible. SL/TP révisés : SL **$48.08** (2×ATR), TP **$76.73** (3×ATR), ratio R/R **1.5**.
+**⚠️ Données techniques :** MM200 toujours indisponible. SL/TP révisés : SL **$48.46** (2×ATR), TP **$77.21** (3×ATR), ratio R/R **1.5**.
 
-**Earnings Q1 2026** : résultats toujours non intégrés dans les feeds Yahoo/FMP au 2026-06-17 (23 jours après le J0 annoncé). Prochain earnings Q2 2026 : **2026-08-27** (71 jours).
+**Earnings Q1 2026** : résultats toujours non intégrés dans les feeds Yahoo/FMP au 2026-06-22 (28 jours après le J0 annoncé). Prochain earnings Q2 2026 : **2026-08-27** (66 jours).
 
-**Score Opportunité : 5.2/10** (Catalyseur 6.3, Valorisation 4.0, Momentum 5.5)
-**Score Global ajusté : 56.8/100**
-**Action : ATTENDRE** — Pas de nouvelle entrée. Positions existantes maintenues avec SL $48.08 / TP $76.73 (R/R 1.5).
+**Score Opportunité : 5.7/10** (Catalyseur 6.3, Valorisation 4.0, Momentum 7.5)
+**Score Global ajusté : 61.8/100**
+**Action : ACHETER (Sizing Réduit)** — Timing favorable, volume rétabli, RSI neutre, cours au-dessus de MM50. SL $48.46 / TP $77.21 (R/R 1.5).
 
-> **⚠️ Réserve earnings :** Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds (FY 2025 uniquement). Sizing réduit obligatoire si ré-entrée (beta 4.232, ATR 9.62% historique). Surveiller BTC — seuil critique $75k. Si le cours casse $53.54 (MM50) sans rebond → passer en SURVEILLER. Si le cours casse $48.75 (ancienne MM50) → stopper toute position. Si le cours casse $48.08 (SL) → stopper la position.
+> **⚠️ Réserve earnings :** Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds (FY 2025 uniquement). Sizing réduit obligatoire (beta 4.232, ATR 9.59% historique). Surveiller BTC — seuil critique $75k. Si le cours casse $53.97 (MM50) sans rebond → passer en ATTENDRE. Si le cours casse $48.75 (ancienne MM50) → stopper toute position. Si le cours casse $48.46 (SL) → stopper la position.
 
 ---
 
@@ -94,6 +94,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 | 2026-06-17 | [IREN_2026-06-17_update.md](IREN_2026-06-17_update.md) (snapshot 10h UTC) | Mise à jour post-pipeline | Consolidation baissière **$59.18 (−2.74%)** · RSI **39.96** (franchissement zone 40) · Volume 32.0 M (65.9%) · **Anomalie options** (Max Pain $5.00/null/0.0% = artefact) · Scores révisés à la hausse : Opportunité **5.2/10** (+0.4 pt), Global ajusté **56.8/100** (+3.8 pts) · Action **ATTENDRE** confirmée · Thèse **confirmée** |
 | 2026-06-17 | [IREN_2026-06-17_update_13h00.md](IREN_2026-06-17_update_13h00.md) (snapshot 13h UTC) | Révision post-pipeline | **Stabilité totale** des données brutes vs 10h UTC · **correction options majeure** : Max Pain **$35.00** (vs $5.00 anomalie), put/call **1.38** (vs null), call OI **42.1%** (vs 0.0%) — structure cohérente rétablie · Scores inchangés 5.2/10 · Global **56.8/100** · Action **ATTENDRE** confirmée · Thèse **confirmée** · DRAFT_refresh archivé (faux positif ATR_SPIKE) |
 | 2026-06-17 | [IREN_2026-06-17_update_17h00.md](IREN_2026-06-17_update_17h00.md) (snapshot 17h UTC) | Révision post-pipeline | **Stabilité mécanique totale** vs 13h UTC · cours **$59.54** (+0.61%) · **volume effondré** 15.69 M (33.1% vs 65.9% à 13h) · RSI **44.32** (+4.36 pts, zone 40 levée) · ATR $5.73 · MM50 $53.54 · Options stables (Max Pain $35.00, put/call 1.38, call OI 42.1%) · Scores inchangés 5.2/10 · Global **56.8/100** · SL/TP révisés $48.08/$76.73 · Action **ATTENDRE** confirmée · Thèse **confirmée** · DRAFT_refresh 17h archivé (faux positif ATR_SPIKE hérité) |
+| 2026-06-22 | [IREN_2026-06-22_update.md](IREN_2026-06-22_update.md) (snapshot 10h UTC) | Mise à jour post-week-end | **Volume institutionnel de retour** (+151% : 15.69 M → 39.39 M, 33.1% → 81.7%) · **Upgrade ATTENDRE → ACHETER (Sizing Réduit)** · Score Global **61.8/100** (+5.0 pts) · RSI 45.71 · ATR $5.75 · MM50 $53.97 · Consensus PT $69.48 (+1 analyste) · Anomalie options (Max Pain $20.00/null/null) · Thèse **modifiée favorablement** · DRAFT_refresh 22/06 archivé (faux positif ATR_SPIKE 9.59%) |
 
 ---
 

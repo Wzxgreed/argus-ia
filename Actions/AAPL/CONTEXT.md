@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
-- **Horizon :** —
+- **Recommandation :** ATTENDRE
+- **Score global :** 57.3/100
+- **Prix cible :** $322.49 (TP 3×ATR)
+- **Stop-loss :** $281.69 (2×ATR)
+- **Statut thèse :** confirmée avec nuance mixte
+- **Horizon :** 1–3 mois (jusqu'à earnings Q3 FY2026 le 2026-07-30)
 
 ---
 
@@ -24,13 +24,19 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🟡 RSI 39.07 approche survente — confirmation du rebond si RSI franchit 45 avec volume > 0.8×
+- 🟡 Volume explosif 85.96M (1.63×) — divergence prix/volume, surveiller résolution sur 2–3 séances
+- 🟡 Options gamma : max pain opérationnel $305.00 (expiration 2026-06-22)
+- 🔴 Cours $298.01 > Consensus FMP $295.96 (−0.7% upside)
+- 🟡 Support MM50 $288.63 — cassure sur volume > 55M = invalidation tendance haussière
+- 🔴 Anomalie options JSON récurrente (max pain $225.00 aberrant)
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q3 FY2026 :** 2026-07-30 (38 jours) — Est EPS $1.83–$1.99, Rev $109.0B
+- **Expiration options :** 2026-06-22 (aujourd'hui)
 
 ---
 
@@ -41,15 +47,17 @@
 - **MM 200j :** —
 - **ATR 14j :** 8.16
 - **Volume moy. 20j :** 52709745
+- **Volume dernier jour :** 85962200 (1.63×)
+- **Short Interest :** 1.06%
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-17
-- **Type :** init
-- **Fichier :** `AAPL_2026-06-17_update_13h.md`
-- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-17 13:00 UTC, mid-session US) + agents recommandations, sector rotation, FX, quant, geo, social
+- **Date :** 2026-06-22
+- **Type :** update
+- **Fichier :** `AAPL_2026-06-22_update.md`
+- **Conclusion :** Divergence volume/prix majeure (volume 1.63× sur mouvement +0.7%), RSI détendu 39.07, ATR expansion $8.16, MM50 hausse $288.63, anomalie options JSON réapparue ($225.00 aberrant). Scores ATTENDRE 57.3/100 Favorable inchangés. Thèse confirmée avec nuance mixte.
 
 ---
 

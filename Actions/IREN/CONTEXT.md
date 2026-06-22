@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
-- **Horizon :** —
+- **Recommandation :** ACHETER (Sizing Réduit)
+- **Score global :** 61.8/100
+- **Prix cible :** $69.48
+- **Stop-loss :** $48.46
+- **Statut thèse :** modifiée favorablement
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -52,15 +52,15 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-22
-- **Type :** full refresh
-- **Fichier :** `IREN_2026-06-22_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-22
+- **Type :** update
+- **Fichier :** `IREN_2026-06-22_update.md`
+- **Conclusion :** Volume institutionnel de retour (+151%). Upgrade ATTENDRE → ACHETER (Sizing Réduit). Score Global 61.8/100. Timing favorable. Anomalie options détectée (structure du 17/06 conservée comme référence).
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 9.59% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 9.59% (seuil 5.0%) — faux positif, stable vs 9.62% du 17/06
 
 ---
 
