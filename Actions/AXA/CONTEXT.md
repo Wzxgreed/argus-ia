@@ -11,7 +11,7 @@
 
 AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **aucune donnée de prix n'est disponible** dans le pipeline Argus-IA car le symbole "AXA" n'est pas reconnu par yfinance (instrument non coté US). L'analyse technique et fondamentale reste impossible.
 
-**Contexte sectoriel (snapshot 13h du 17/06 — fichier exploitable) :** Le fichier `data/sector_rotation_2026-06-17.json` est valide ce matin et strictement inchangé entre 10h et 13h (11/11 secteurs OK, aucune anomalie NaN). XLF (Financials) au rang **4e/11**, momentum **5.32/10**, RS 20j **+3.46%**, RS 60j **−4.38%**. C'est une **légère dégradation** vs le close du 16/06 (momentum −1.36 pt, RS 20j −1.18 pp, RS 60j −1.62 pp) mais **stabilité totale mécanique** en séance. XLF reste hors du top 3 (XLK, XLB, XLI). Le signal macro reste `UNKNOWN` (stable depuis le 02/06).
+**Contexte sectoriel (snapshot 10h du 22/06 — fichier exploitable) :** Le fichier `data/sector_rotation_2026-06-22.json` est valide ce matin (11/11 secteurs OK, aucune anomalie NaN). XLF (Financials) au rang **3e/11** (vs 4e/11 le 17/06) par effet mécanique, momentum **4.25/10** (vs 5.32/10), RS 20j **+2.70%** (vs +3.46%), RS 60j **−5.91%** (vs −4.38%). Le rang remonte car d'autres secteurs ont sous-performé davantage, mais le momentum propre de XLF se dégrade. C'est une **dégradation sous-jacente** marginalement négative pour un assureur. Le signal macro reste `UNKNOWN` (stable depuis le 02/06).
 
 **Action immédiate :** corriger le symbole dans `config/watchlist.json` (`CS.PA` ou `AXAHY`), mettre à jour le secteur (Financials / Insurance) et relancer le fetch.
 
@@ -57,9 +57,9 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-22
-- **Type :** preview
-- **Fichier :** `AXA_2026-06-22_preview.md`
-- **Conclusion :** > **Date :** 2026-06-22
+- **Type :** update
+- **Fichier :** `AXA_2026-06-22_update.md`
+- **Conclusion :** Thèse ATTENDRE confirmée. Données AXA toujours manquantes (24e snapshot consécutif). Contexte sectoriel XLF en dégradation sous-jacente (momentum 4.25/10 vs 5.32/10, RS 60j −5.91% vs −4.38%). Earnings J0 FMP glissant sans détails (24e occurrence consécutive). Action immédiate : corriger le symbole (`CS.PA` ou `AXAHY`).
 
 ---
 
