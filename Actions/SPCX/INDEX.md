@@ -44,6 +44,7 @@
 | 2026-06-17 | Mise à jour post-pipeline (13h UTC) | [SPCX_2026-06-17_update_13h.md](./SPCX_2026-06-17_update_13h.md) | Thèse invalidée — stabilité mécanique totale vs 10h, mutation options majeure (max_pain 210.0, put/call 0.66, call OI 60.3%), résolution WARNING validation report, vingt-neuvième snapshot sans données fiables |
 | 2026-06-22 | Mise à jour post-pipeline (10h UTC) | [SPCX_2026-06-22_update.md](./SPCX_2026-06-22_update.md) | Thèse modifiée mécaniquement — reclassement agent ÉVITER 20.0 → ATTENDRE 57.2, conflit symbole persistant, mutations fondamentales majeures (float −90.4%, consensus +41.7%, forward P/E 711.54), trente-quatrième snapshot sans données fiables |
 | 2026-06-22 | Mise à jour post-pipeline (13h UTC) | [SPCX_2026-06-22_update_13h.md](./SPCX_2026-06-22_update_13h.md) | Thèse confirmée en ATTENDRE — Score Global stable 57.2/100, stabilisation partielle des mutations FMP (float, consensus), nouvelle mutation options (max_pain 162.5 → 180.0) | 🔴 Élevé |
+| 2026-06-22 | Mise à jour post-pipeline (17h UTC) | [SPCX_2026-06-22_update_17h.md](./SPCX_2026-06-22_update_17h.md) | Thèse confirmée en ATTENDRE avec nuance de dégradation — faux prix $165.845 (−10.35%), faux volume collapse −67.7%, forward P/E muté 843.29, options/float/consensus stabilisés, Score Global 56.0/100 | 🔴 Élevé |
 
 ---
 
@@ -77,6 +78,7 @@
 | 2026-06-17 | Snapshot 13h UTC — stabilité mécanique totale, mutation options majeure (max_pain 210.0), résolution WARNING validation report | 🔴 Élevé | [SPCX_2026-06-17_update_13h.md](./SPCX_2026-06-17_update_13h.md) |
 | 2026-06-22 | Snapshot 10h UTC — reclassement mécanique ÉVITER 20.0 → ATTENDRE 57.2, mutations fondamentales majeures (float −90.4%, consensus +41.7%, forward P/E 711.54) | 🔴 Élevé | [SPCX_2026-06-22_update.md](./SPCX_2026-06-22_update.md) |
 | 2026-06-22 | Snapshot 13h UTC — maintien ATTENDRE 57.2/100, stabilisation mutations FMP, nouvelle mutation options (max_pain 162.5 → 180.0) | 🔴 Élevé | [SPCX_2026-06-22_update_13h.md](./SPCX_2026-06-22_update_13h.md) |
+| 2026-06-22 | Snapshot 17h UTC — faux prix $165.845 (−10.35%), faux volume collapse −67.7%, forward P/E muté 843.29, options/float/consensus stabilisés, Score Global 56.0/100 | 🔴 Élevé | [SPCX_2026-06-22_update_17h.md](./SPCX_2026-06-22_update_17h.md) |
 | 2026-06-09 | Snapshot 10h UTC — reclassement mécanique ATTENDRE → SURVEILLER, Score Global 47.2 | 🔴 Élevé | [SPCX_2026-06-09_update.md](./SPCX_2026-06-09_update.md) |
 
 ---
