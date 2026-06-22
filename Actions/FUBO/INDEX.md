@@ -61,12 +61,14 @@ Thèse d'investissement : FUBO est un titre spéculatif du secteur Communication
 - Échéance options : **2026-06-26** (J+4 — max pain $9.00, put/call 0.66, call OI 60.3%)
 
 ## Alertes actives
-- **Anomalie Options JSON RÉSOLUE — PIVOT STRUCTUREL** — snapshot 13h UTC corrige l'incohérence 10h ($7.50/null/0.0%) avec des valeurs cohérentes mais **moins favorables** : max pain **$9.00** (vs $11.00 réf. opérationnelle), put/call **0.66** (vs 0.45), call OI **60.3%** (vs 69.0%). Le spot ($9.22) passe de −16.2% sous max pain à +2.4% au-dessus — pinning neutre / légèrement baissier. Structure options moins haussière confirmée — 2026-06-22
-- **Volume Récupéré** — 1.71M (1.20× moy. 20j), stable vs 10h — liquidité présente mais sans conviction de close — 2026-06-22
-- **ATR_SPIKE** (medium) — ATR relatif 9.44% (seuil 5.0%), persistant — 2026-06-22
-- **Structure Options Neutre / Légèrement Baissière** — max pain $9.00, put/call 0.66, call OI 60.3%, spot +2.4% au-dessus du max pain — élimination du catalyseur technique latent (pinning haussier vers $11.00) — 2026-06-22
+- **Close sous Low Intraday** — $8.82 < $8.805 (low 17h) — aucun soutien en fin de séance, signal de faiblesse — 2026-06-22
+- **52W Low sous Pression** — cours à $0.51 du 52W low ($8.31) — rupture = signal baissier majeur, gap risk — 2026-06-22
+- **Spot sous Max Pain à J+4** — $8.82 < $9.00 — exposition gamma vendeuse, pinning baissier — 2026-06-22
+- **Anomalie Options JSON RÉSOLUE — PIVOT STRUCTUREL** — snapshot 13h UTC corrige l'incohérence 10h ($7.50/null/0.0%) avec des valeurs cohérentes mais **moins favorables** : max pain **$9.00** (vs $11.00 réf. opérationnelle), put/call **0.66** (vs 0.45), call OI **60.3%** (vs 69.0%). Structure options moins haussière confirmée — 2026-06-22
+- **Volume de Close Mécanique** — 1.14M (0.79×) — récupération au close mais sous moyenne 20j, pas de conviction institutionnelle — 2026-06-22
+- **ATR_SPIKE** (medium) — ATR relatif 9.19% (seuil 5.0%), persistant — 2026-06-22
 - **Short Squeeze Setup (latent, atténué)** — short interest 24.32% + call OI 60.3% + put/call 0.66 = risque de squeeze réduit vs configuration précédente (69.0% / 0.45) — 2026-06-22
-- **Divergence Yahoo/FMP Market Cap** — ×12.0 d'écart entre sources ($271.4M Yahoo vs $3,268.5M FMP) — anomalie data persistante — 2026-06-22
+- **Divergence Yahoo/FMP Market Cap** — ×12.6 d'écart entre sources ($259.6M Yahoo vs $3,268.5M FMP) — anomalie data persistante — 2026-06-22
 - **Sector Rotation XLC Bottom 3** — malus sectoriel confirmé (momentum score 0.0, `data/sector_rotation_latest.json`) — 2026-06-22
 - **Qualité dégradée** — Score Qualité 1/6, patrimoine net négatif, FCF négatif
-- **Stabilité Scoring** — ATTENDRE 52.8/100 inchangé vs 10h (Catalyseur 6.5, Valorisation 7.0, Momentum 4.0) — 2026-06-22
+- **Scoring Agent Corrigé** — ATTENDRE 57.8/100 (Momentum 4.0/10) — correction de l'upgrade mécanique de 17h (59.0/100)
