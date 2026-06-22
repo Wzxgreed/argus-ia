@@ -7,13 +7,13 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ÉVITER (artefact mécanique — fondamentalement non-actionnable)
+- **Recommandation :** ATTENDRE (artefact mécanique — reclassement agent non fondé sur amélioration data quality)
 **Prix cible :** N/A (données insuffisantes — cours fictif)
 **Stop-loss :** N/A
 **Upside :** —
-**Dernière mise à jour :** 2026-06-17 (snapshot 13h UTC)
+**Dernière mise à jour :** 2026-06-22 (snapshot 10h UTC)
 
-> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 13h UTC du 17/06 confirme la **stabilité mécanique totale** vs 10h sur le cours ($201.80 inchangé), le volume (322.1M) et le market cap ($2.66T). Le **conflit de symbole FMP chronique** persiste : FMP renvoie un **cours fictif $201.80** (+4.83% vs previous close $192.50), accompagné d'un faux market cap de **$2.66T** et d'un forward P/E de **−2,242**. L'Agent Recommandation **maintient ÉVITER** avec un Score Global de **20.0/100** (Score Opportunité 2.0/10 : C:5.5 V:2.0 M:5.5), timing Neutre. Le Score Valorisation à **2.0/10** reste exactement sur le seuil de disqualification (≤ 2/10). Le secteur persiste `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management`. Deux évolutions significatives : (1) **résolution de l'anomalie validation report** — le `[WARNING] SPCX: volume is 0` du snapshot 10h a disparu, confirmant la cohérence pipeline ; (2) **mutation majeure des données options** — `max_pain` est passé de `25.0` (10h) à **210.0** (13h), avec apparition d'un `put_call_ratio` à **0.66** et d'un `call_oi_pct` à **60.3%**. Le niveau 210.0 est quasi-aligné sur le faux cours 201.80, confirmant que ces options sont celles de l'entité étrangère mappée par FMP. Le module sector rotation est stable (NEUTRAL, 11/11 secteurs OK, XLK momentum_score 10.0, XLF momentum_score 5.32). Aucun catalyseur fondamental, news, ni social. SL/TP non calculables (prix et ATR absents). Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + options cohérentes. Si le flux fiable ne revient pas ou si les données continuent de muter → maintien **ÉVITER**.
+> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 10h UTC du 22/06 marque un **reclassement mécanique majeur** de l'Agent Recommandation : **ÉVITER 20.0/100 → ATTENDRE 57.2/100**, porté par un saut du Score Catalyseur (+2.5 pt à 8.0/10) et du Score Valorisation (+2.5 pt à 4.5/10). Cependant, le **conflit de symbole FMP chronique persiste** : FMP renvoie un **cours fictif $185.00** (−3.56% vs previous close $191.82), accompagné d'un faux market cap de **$2.44T** et d'un forward P/E muté à **711.54** (was −2,242). Le secteur persiste `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management`. Les métriques techniques (RSI, ATR, MM50) restent toutes nulles. **Mutations fondamentales majeures détectées** : (1) **float FMP** chute de 90.4% (2.92B → 281.2M) ; (2) **consensus analystes** mute (PT $177.50 → $251.50, +41.7%, 2 → 4 analysts) ; (3) **données options** mutent (`max_pain` 210.0 → 162.5, disparition du put/call ratio et du call OI). Le volume fictif a reculé de −15.5% à 272.1M. Le module sector rotation reste stable (NEUTRAL, 11/11 secteurs OK, XLK momentum_score 10.0, XLF momentum_score 4.25). Aucun catalyseur fondamental, news, ni social. SL/TP non calculables (prix et ATR absents). Le reclassement en ATTENDRE est **non actionnable en pratique** tant que la qualité data ne s'améliore pas. Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + métriques stables. Si le flux fiable ne revient pas ou si les mutations FMP continuent → retour possible en **ÉVITER**.
 
 ---
 
@@ -21,7 +21,7 @@
 - **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** validée
+- **Statut thèse :** modifiée mécaniquement
 - **Horizon :** —
 
 ---
@@ -40,7 +40,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-22** · earnings · Earnings ...
+- **2026-06-22** · earnings · Earnings (artefact FMP — ignoré)
 
 ---
 
@@ -57,9 +57,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-22
-- **Type :** preview
-- **Fichier :** `SPCX_2026-06-22_preview.md`
-- **Conclusion :** > **Date :** 2026-06-22
+- **Type :** update
+- **Fichier :** `SPCX_2026-06-22_update.md`
+- **Conclusion :** Reclassement mécanique ÉVITER → ATTENDRE (Score Global 57.2/100), mais conflit de symbole chronique persistant, données totalement non fiables, mutations fondamentales majeures (float −90.4%, consensus +41.7%, forward P/E 711.54), setup non-actionnable en pratique
 
 ---
 
