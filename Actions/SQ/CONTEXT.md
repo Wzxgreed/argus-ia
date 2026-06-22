@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** —
-- **Horizon :** —
+- **Recommandation :** ATTENDRE
+- **Score global :** 54.0/100
+- **Prix cible :** $85.67 (consensus, upside +2.6%)
+- **Stop-loss :** — (suspendu — stale price ≥29 jours)
+- **Statut thèse :** Confirmée — aucune mutation détectée vs 17/06
+- **Horizon :** — (bloqué par anomalie données)
 
 ---
 
@@ -24,32 +24,37 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🔴 **Stale Price** — cours figé $83.46 sur ≥66 snapshots / ≥29 jours calendaires (20/05 → 22/06)
+- 🔴 **Data Pipeline Alert** — Earnings Q1 2026 non résolu après 29 jours, placeholder FMP glissant
+- 🔴 **Source FMP Fallback** — SQ est le seul ticker du snapshot 22/06 avec `fmp_fallback` et `change_pct: null`
+- 🟡 **Consensus PT Figé** — $85.67 (3 analystes) inchangé depuis 27/05
+- 🟡 **Divergence Market Cap FMP** — $51.73B vs $54.29B (~4.8%)
+- 🟡 **Rotation Sectorielle Neutralisée** — XLK top3 mais signal global `NEUTRAL`
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-06-22** · earnings · Earnings ...
+- **2026-06-22** · earnings · Earnings placeholder FMP (J=0 glissant, non résolu)
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** —
-- **MM 50j :** —
-- **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** —
+- **RSI 14j :** N/A (bloc `technical` vide depuis 17/05)
+- **MM 50j :** N/A
+- **MM 200j :** N/A
+- **ATR 14j :** N/A
+- **Volume moy. 20j :** N/A
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-22
-- **Type :** preview
-- **Fichier :** `SQ_2026-06-22_preview.md`
-- **Conclusion :** > **Date :** 2026-06-22
+- **Type :** update
+- **Fichier :** `SQ_2026-06-22_update.md`
+- **Conclusion :** ATTENDRE — Qualité 3/6 (hors périmètre), stale price ≥66 snapshots / ≥29 jours, earnings placeholder glissant, consensus figé, pipeline stable, zero mutation vs 17/06
 
 ---
 
