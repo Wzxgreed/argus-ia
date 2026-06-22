@@ -1,11 +1,12 @@
 # RKLB
 
 ## Thèse courante
-**2026-06-22 (snapshot 13h UTC)** — SURVEILLER. Stabilité prix −0,69 % à $107,24 sur explosion volumétrique historique 2,34× (70,33M vs moy 20j 30,05M). RSI 31,05 (survente étendue stable). MM50 remonte à $103,91 (spot +3,2 %, marge compressée). [ANOMALIE OPTIONS JSON RÉSOLUE] Max Pain $69,00, Put/Call 0,88, Call OI 53,2 % rétablis (vs données corrompues ce matin). Pin risk baissier J+4 (expiration 26/06) : spot +55,4 % au-dessus du max pain. Score Global 39,5/100 (SURVEILLER), Score Opportunité 4,0/10. Consensus PT $90,83 (18 analysts). Filtre Qualité 3/6 inchangé. SL $85,08 / TP $140,48. Zone critique : $100–$103,91 (support MM50). Si cassure MM50 avec volume >1,0× → ÉVITER. Si rebond + reclaim $113,65 → upgrade ATTENDRE. Pattern volume-price divergence = distribution institutionnelle suspecte. DRAFT_refresh ATR_SPIKE archivé faux positif.
+**2026-06-22 (snapshot 17h UTC)** — ÉVITER. Gap baissier −7,11 % à $99,61 sur volume normalisé 0,60× (17,64M vs moy 20j 29,39M). RSI 36,14 (sortie de survente stricte <30, reste <40). **CASSURE MM50** ($104,56) — spot −4,7 % sous le support dynamique, transformé en résistance. Max Pain $69,00, Put/Call 0,88, Call OI 53,2 % stables. Pin risk baissier J+4 (expiration 26/06) : spot +44,4 % au-dessus du max pain. Score Global **29,3/100 (ÉVITER)**, Score Opportunité 3,7/10, Score Momentum **2,5/10** (effondrement). Consensus PT $90,83 (18 analysts). Filtre Qualité 3/6 inchangé. SL $79,11 / TP $130,36. Zone critique : $90–$95 (support majeur) et $104,56 (résistance MM50). Si reclaim MM50 avec volume >1,0× → reconsidérer SURVEILLER. Pattern dérive structurelle sans acheteurs = distribution confirmée. DRAFT_refresh PRICE_GAP −7,11 % + ATR_SPIKE 10,29 % **validé vrai événement technique**.
 
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
+| 2026-06-22 | [RKLB_2026-06-22_update_17h.md](RKLB_2026-06-22_update_17h.md) | Snapshot 17h UTC — gap baissier −7,11 % à $99,61 sur volume normalisé 0,60× (17,64M), **CASSURE MM50** ($104,56), RSI 36,14, downgrade Score Global 39,5 → **29,3/100 ÉVITER**, Momentum 5,0 → **2,5/10**, SL/TP révisés $79,11 / $130,36, DRAFT_refresh PRICE_GAP + ATR_SPIKE **validé vrai événement**, thèse modifiée de SURVEILLER à ÉVITER |
 | 2026-06-22 | [RKLB_2026-06-22_update.md](RKLB_2026-06-22_update.md) | Snapshot 13h UTC — stabilité prix −0,69 % sur explosion volumétrique 2,34× (70,33M), RSI 31,05, MM50 $103,91 (marge +3,2 %), [ANOMALIE OPTIONS RÉSOLUE] Max Pain $69,00 / Put/Call 0,88 / Call OI 53,2 %, pin risk baissier J+4, Score Global 39,5/100 SURVEILLER, DRAFT_refresh archivé faux positif, thèse SURVEILLER confirmée |
 | 2026-06-22 | [RKLB_2026-06-22_init.md](RKLB_2026-06-22_init.md) | Full Refresh complété — trigger ATR_SPIKE archivé faux positif, thèse SURVEILLER confirmée, options corrigées |
 | 2026-06-17 | [RKLB_2026-06-17_update_17h.md](RKLB_2026-06-17_update_17h.md) | Snapshot 17h UTC — rebond +4,24 % à $109,07 sur volume effondré 0,50×, RSI sort de survente stricte 30,62, MM50 $103,16 (marge +5,7 %), Score Global 47,0/100 SURVEILLER, options cohérentes stables, DRAFT_refresh 17h archivé faux positif ATR_SPIKE, thèse SURVEILLER confirmée |
@@ -48,15 +49,16 @@
 - Expiration options : **2026-06-26** (Max Pain $69,00 — pin risk baissier spot +55,4 %)
 
 ## Alertes actives
-- RSI 31,05 — survente étendue, zone <40
-- Divergence consensus — spot +18,0 % vs PT $90,83
+- RSI 36,14 — survente étendue, zone <40 (sortie de zone stricte <30)
+- Divergence consensus — spot +9,7 % vs PT $90,83 (convergence en cours)
 - Filtre Qualité 3/6 — hors périmètre institutionnel
 - Ratio R/R 1,5:1 — inférieur au seuil 2:1 institutionnel
-- Volume 2,34× — explosion volumétrique sur stabilité prix (distribution suspecte)
-- ATR $11,08 — volatilité élevée mais stable
-- Support critique : $100–$103,91 (MM50 $103,91 + zone psychologique) — marge +3,2 % réduite
-- Forward P/E −6 104 — valorisation extrême, non rentable
-- [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $67,01 Mds vs FMP $37,02 Mds
+- Volume 0,60× — absence d'acheteurs sur repli −7,11 % (dérive structurelle)
+- ATR $10,25 — volatilité en compression
+- **CASSURE MM50** — spot $99,61 sous MM50 $104,56 (−4,7 %) : support devenu résistance
+- Forward P/E −5 671 — valorisation extrême, non rentable
+- [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $62,26 Mds vs FMP $37,02 Mds
 - Beta 2,499 — sensibilité systématique extrême
-- Pin risk expiration 26/06 — Max Pain $69,00 vs spot $107,24 (écart +55,4 %)
-- Pattern volume-price divergence = distribution institutionnelle suspecte
+- Pin risk expiration 26/06 — Max Pain $69,00 vs spot $99,61 (écart +44,4 %)
+- Pattern dérive sans volume = distribution institutionnelle confirmée
+- **DOWNGRADE SCORING** : SURVEILLER 39,5/100 → ÉVITER 29,3/100
