@@ -45,35 +45,36 @@
 | 2026-06-17 17:00 UTC | Mise a jour | [AAL_2026-06-17_update_17h00.md](./AAL_2026-06-17_update_17h00.md) | Snapshot 17h UTC — session +0.8% à $15.835 sur volume normalisé 62.19M (0.60× avg). RSI 61.34 (+3.98 pts). High $16.055 < $16.19 précédent = baisse des sommets. Scores dégradés : Score Opp 4.9/10 (−0.6), Global 53.8/100 (−5.7). Upside consensus +4.2%. These **ATTENDRE — BIAIS HAUSSIER ATTÉNUÉ**. SL $14.56, TP $17.76, R/R 1.5. |
 | 2026-06-22 13:00 UTC | Mise a jour | [AAL_2026-06-22_update.md](./AAL_2026-06-22_update.md) | Snapshot 13h UTC — rally +3.7% à $15.99 sur volume en expansion 126.28M (1.16× avg). RSI 61.34 inchangé. High $16.07 > $16.055 = remontée des sommets invalidant la fatigue. Scores améliorés : Score Opp 5.0/10 (+0.1), Global 55.0/100 (+1.2). Upside consensus +3.3%. ✅ Correction data quality options : Max Pain $13.50 (vs $5.00 aberrant 10h), Put/Call 1.74, Call OI 36.6%. Gamma landscape modifié — influence mécanique non négligeable. These **ATTENDRE — BIAIS HAUSSIER LÉGÈREMENT RENFORCÉ**. SL $14.63, TP $18.03, R/R 1.5. |
 | 2026-06-22 17:00 UTC | Mise a jour | [AAL_2026-06-22_update_17h00.md](./AAL_2026-06-22_update_17h00.md) | Snapshot 17h UTC — NOUVEAU 52W HIGH $16.5899, close $16.545 (+3.47% session, +7.2% vs 17/06), RSI 67.77 (+6.43), volume normalisé 99.32M (0.916× moyenne). Cassure 52W high non validée par volume (< 120M seuil Argus-IA). Consensus négatif −0.2%. These **ATTENDRE — BIAIS HAUSSIER TECHNIQUE RENFORCÉ MAIS NON CONFIRMÉ**. SL $15.19, TP $18.59, R/R 1.5. |
+| 2026-06-22 21:00 UTC | Mise a jour | [AAL_2026-06-22_update_21h00.md](./AAL_2026-06-22_update_21h00.md) | Snapshot 21h UTC (close officiel) — rejet massif du 52W high, close $16.08 (−2.81% vs 17h, +0.56% vs prior), RSI 65.16 (−2.61), volume record révisé 177.37M (1.58× moyenne) = distribution institutionnelle post-sommet. Score Global 53.8/100 (−1.2). Upside consensus +2.7% (mécanique). These **ATTENDRE — DISTRIBUTION INSTITUTIONNELLE POST-52W HIGH**. SL $14.72, TP $18.12, R/R 1.5. |
 
 ---
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE — BIAIS HAUSSIER TECHNIQUE RENFORCÉ MAIS NON CONFIRMÉ (snapshot 17h UTC : nouveau 52W high $16.5899, close $16.545 sur volume 0.916× moyenne, RSI 67.77, consensus négatif, scores inchangés 55.0/100)
-- **Prix cible :** Suspendu — attente cassure confirmée au-dessus de $16.60 sur volume > 120M en close ou réévaluation post-earnings
-- **Stop-loss :** $15.19 (2×ATR $0.68)
-- **Take-profit :** $18.59 (3×ATR $0.68)
+- **Recommandation :** ATTENDRE — DISTRIBUTION INSTITUTIONNELLE POST-52W HIGH (snapshot 21h UTC : close $16.08 sur volume record 177.37M = 1.58× moyenne, RSI 65.16, rejet du 52W high $16.5899, Score Global 53.8/100)
+- **Prix cible :** Suspendu — attente cassure confirmée au-dessus de $16.60 sur volume > 120M en close ET close > $16.60, ou réévaluation post-earnings
+- **Stop-loss :** $14.72 (2×ATR $0.68)
+- **Take-profit :** $18.12 (3×ATR $0.68)
 - **Ratio R/R :** 1.5
-- **Upside/Downside :** −0.2% (consensus $16.51) / −8.2% (SL)
-- **Derniere mise a jour :** 2026-06-22 (snapshot 17h UTC, close officiel)
+- **Upside/Downside :** +2.7% (consensus $16.51) / −8.5% (SL)
+- **Derniere mise a jour :** 2026-06-22 (snapshot 21h UTC, close officiel NY)
 
-American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). La session officielle du 22/06 a clôturé à **$16.545 (+3.47%)** sur un volume **normalisé de 99.323M (0.916× moyenne 20j)**. Le **nouveau 52W high $16.5899** a été établi en intraday, cassant l'ancien plafond $16.50. Cependant, la cassure s'opère sur un volume **sous la moyenne** = non confirmation institutionnelle selon les critères Argus-IA. Le RSI a grimpé à **67.77** (+6.43 pts), approchant la zone de surachat (70). Le consensus analystes **$16.51 est désormais sous le cours** = upside mécanique négatif (−0.2%).
+American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). La session officielle du 22/06 a clôturé à **$16.08 (+0.56% vs prior close)** après avoir établi un **nouveau 52W high $16.5899** en intraday. Le volume total atteint **177.37M (1.58× moyenne 20j)** — un record historique récent. Cependant, ce volume record s'accompagne d'un **close sous le 52W high** ($16.08 vs $16.5899) = **distribution institutionnelle** (vente au sommet) selon l'interprétation Argus-IA. Le RSI est redescendu à **65.16** (−2.61 pts vs 17h), sortant partiellement de la zone de surachat proximale. Le consensus analystes **$16.51** est à nouveau **au-dessus du cours** = upside mécanique positif (+2.7%).
 
-Les scores de l'agent recommandation sont **inchangés** : Score Opportunité **5.0/10**, Score Global ajusté **55.0/100** — écart de 5.0 pts par rapport au seuil d'achat (60). Le Forward P/E est remonté mécaniquement à **7.42**. Le short interest reste stable à **11.39%**. Le Filtre Qualité reste 0–1/6. Aucun analyste n'a relevé son PT malgré la hausse de +7.2% en 5 séances = le consensus institutionnel ne valide pas la cassure.
+Les scores de l'agent recommandation sont **légèrement dégradés** : Score Opportunité **4.9/10** (−0.1), Score Global ajusté **53.8/100** (−1.2) — écart de 6.2 pts par rapport au seuil d'achat (60). Le Forward P/E est redescendu mécaniquement à **7.22** (−2.7%). Le short interest reste stable à **11.39%**. Le Filtre Qualité reste 0–1/6. Aucun analyste n'a relevé son PT malgré le test du 52W high = le consensus institutionnel ne valide pas le niveau.
 
-**✅ Correction data quality maintenue :** Les données options restent cohérentes : Max Pain **$13.50**, Put/Call **1.74**, Call OI **36.6%**, expiration 2026-06-26. L'écart spot/Max Pain est de **+22.6%** ($16.545 vs $13.50). Le risque de pin vers le Max Pain reste faible mais actif — surveillance si repli sous $15.00 avant expiration vendredi.
+**✅ Correction data quality :** Les données options restent cohérentes : Max Pain **$13.50**, Put/Call **1.74**, Call OI **36.6%**, expiration 2026-06-26. L'écart spot/Max Pain est de **+19.1%** ($16.08 vs $13.50). Le risque de pin vers le Max Pain reste faible à moyen — surveillance si repli sous $15.00 avant expiration vendredi.
 
-**Verdict institutionnel :** La thèse est **ATTENDRE — BIAIS HAUSSIER TECHNIQUE RENFORCÉ MAIS NON CONFIRMÉ.** La cassure du 52W high est un signal structurel positif, mais le volume insuffisant (99.32M < 108.41M moyenne, et < 120M seuil Argus-IA) et le consensus négatif limitent la conviction. Le RSI 67.77 approche le surachat, réduisant la marge de progression. Le Score Global 55.0/100 reste sous le seuil d'achat. Le bilan reste extrêmement fragile (current ratio 0.50, tangible asset value négatif, net debt/EBITDA 8.83x). Le rejet en close ($16.545 < $16.5899 high) indique une prise de bénéfices légère en fin de session.
+**Verdict institutionnel :** La thèse est **ATTENDRE — DISTRIBUTION INSTITUTIONNELLE POST-52W HIGH.** Le test du 52W high ($16.5899) suivi d'un close sous le sommet ($16.08) sur un volume record (177.37M) est un signal classique de distribution institutionnelle. Le Score Global 53.8/100 reste sous le seuil d'achat. Le bilan reste extrêmement fragile (current ratio 0.50, tangible asset value négatif, net debt/EBITDA 8.83x). Le secteur Industriels (XLI) reste #2 sector rotation (momentum 7.27) = facteur de soutien macro. Le RSI 65.16 laisse une marge de progression, mais la résistance à $16.50 s'impose comme un plafond technique majeur.
 
 **Conditions de réactivation vers ACHETER (Sizing Réduit) :**
-- Cours > $16.60 sur volume > 120M confirmé en close
+- Cours > $16.60 sur volume > 120M confirmé en close ET close > $16.60
 - Score Global ajusté ≥ 60
 
 **Conditions de dégradation vers SURVEILLER :**
-- RSI dépasse 70 et repli sous $16.00 (correction technique)
+- Repli sous $15.83 (low du jour)
 - Repli sous $15.46 (close du 16/06)
-- Repli sous $15.19 (SL cassé)
+- Repli sous $14.72 (SL cassé)
 - Repli sous $15.00 avant expiration 26/06 (risque gamma vers Max Pain $13.50)
 
 **⚠️ Données partielles** — MM200 indisponible. Accounting risk indisponible. Quant report insuffisant. Social sentiment sans données Reddit. Transcripts NLP, insider trades détaillés, 13F complets, ETF flows, dark pool non disponibles.
@@ -108,5 +109,5 @@ Voir [SUPPLY_CHAIN.md](./SUPPLY_CHAIN.md)
 
 - Analyse initiale : [AAL_2026-05-17_init.md](./AAL_2026-05-17_init.md)
 - Mise a jour 2026-05-18 : [AAL_2026-05-18_update.md](./AAL_2026-05-18_update.md)
-- Derniere mise a jour : [AAL_2026-06-22_update_17h00.md](./AAL_2026-06-22_update_17h00.md)
+- Derniere mise a jour : [AAL_2026-06-22_update_21h00.md](./AAL_2026-06-22_update_21h00.md)
 - Contexte court terme : [CONTEXT.md](./CONTEXT.md)

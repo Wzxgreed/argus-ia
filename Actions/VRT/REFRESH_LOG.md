@@ -1,5 +1,15 @@
 # VRT — Historique des Full Refreshes
 
+## 2026-06-22 — Full Refresh Triggered (Close Officiel 21:00 UTC)
+
+**Triggers :**
+- **PRICE_GAP** (medium) — Gap +7.48% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 5.82% (seuil 5.0%)
+
+**Conclusion :** Thèse **MODIFIÉE** — rally confirmé sur volume standard, invalidation hypothèse volume suspect. Close officiel $357.96 (+7.48% séance, +19.5% vs low 17/06). RSI 60.41 (franchissement zone 60). Volume final 7.24M (1.19×) — accumulation confirmée, invalidation hypothèse short-covering du snapshot 17h. MM50 $322.88 défendue (+10.9%). Dépassement $350 en close — signal technique haussier. Options inchangées (put/call 2.77, max pain $245). Sector rotation XLI **#2** (momentum 7.27/10). FX exposure 45% EUR/CNY, Score 0.0 (🟢). Social sentiment 0 mentions. 0 événement corporate. Score Global Ajusté **50.0/100** (ATTENDRE, moteur 47.5 SURVEILLER). Fondamentaux intacts (Quality Compounder 6/6, ROIC 18.5%, ROCE 24.3%). Valorisation extrême persistante (P/E 89.5, consensus 33.8% sous cours). DRAFT archivé. Voir [VRT_2026-06-22_update.md](./VRT_2026-06-22_update.md) et [VRT_2026-06-22_init.md](./VRT_2026-06-22_init.md).
+
+---
+
 ## 2026-06-22 — Full Refresh Triggered
 
 **Triggers :**
