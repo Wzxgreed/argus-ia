@@ -12,7 +12,7 @@
 - **Score Opportunité :** 6.7/10 (C:6.5 V:8.0 M:5.0)
 - **Prix Cible :** $17.49 (consensus FMP, 12 analysts)
 - **Stop-Loss :** $11.65 (ATR $0.57)
-- **Statut Thèse :** Score ajusté 59.2 — snapshot 21h UTC 22/06 (close officielle US) : **downgrade mécanique de retour** ACHETER (Réduit) → **ATTENDRE** par franchissement de seuil (Score Global Ajusté 60.0 → **59.2**, −0.8 pt), cours **$12.79** (+0.63% vs previous close $12.71), RSI **47.74** (−0.64 pt), volume faible **0.56×** (36.51M), structure options stable (max pain $14.00, put/call 0.58, call OI 63.3%), gap MM50 **−4.9%**, fondamentaux intacts (forward P/E 11.10×, upside +36.7%), support $11.20 à +14.2%, SL/TP **$11.65/$14.50**, timing défavorable maintenu, expiration options 26/06 dans 4 jours
+- **Statut Thèse :** Score ajusté 59.2 — snapshot 10h UTC 23/06 (pre-market US) : **stabilité mécanique totale** vs close 21h 22/06, cours **$12.79** inchangé, RSI **47.74** stable, volume révisé **0.63×** (40.82M vs 36.51M), **anomalie options JSON récurrente détectée et traitée** (max pain $20.00 aberrant → valeur opérationnelle **$14.00** conservée, put/call **0.58**, call OI **63.3%**), gap MM50 **−4.9%**, fondamentaux intacts (forward P/E 11.10×, upside +36.7%), support $11.20 à +14.2%, SL/TP **$11.65/$14.50**, timing défavorable maintenu, expiration options 26/06 dans 3 jours
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
@@ -49,15 +49,16 @@
 - **MM 200j :** —
 - **ATR 14j :** 0.57
 - **Volume moy. 20j :** 65245235
+- **Volume dernière session :** 40815500 (0.63×)
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-22
-- **Type :** init
-- **Fichier :** `NU_2026-06-22_update_17h.md`
-- **Conclusion :** **Thèse : CONFIRMÉE avec RE-UPGRADE MÉCANIQUE — ACHETER (Réduit) (mutation technique positive vs snapshot 10h, cours +1
+- **Date :** 2026-06-23
+- **Type :** update
+- **Fichier :** `NU_2026-06-23_update.md`
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité mécanique totale vs close 21h 22/06, cours $12.79 inchangé, RSI 47.74 stable, volume révisé 40.82M 0.63×, anomalie options JSON traitée, fondamentaux intacts, SL/TP $11.65/$14.50, timing défavorable maintenu)**
 
 ---
 
