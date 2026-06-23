@@ -47,16 +47,17 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** full refresh
-- **Fichier :** `_ASTS_2026-06-23_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-23
+- **Type :** update
+- **Fichier :** `ASTS_2026-06-23_update.md`
+- **Conclusion :** Snapshot 13h UTC — stabilité mécanique totale vs 10h UTC, anomalie options JSON résolue (max pain $100,00, put/call 0,69, call OI 59,3%), scores inchangés 43,0/100 SURVEILLER, thèse SURVEILLER confirmée
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap -9.26% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 14.17% (seuil 5.0%)
+- **PRICE_GAP** (medium) — Gap -9.26% overnight (seuil ±5.0%) — close 22/06 déjà intégré
+- **ATR_SPIKE** (medium) — ATR relatif 14.17% (seuil 5.0%) — close 22/06 déjà intégré
+- **OPTIONS_ANOMALY_RESOLVED** (low) — Valeurs options JSON résolues au snapshot 13h UTC (max pain $100,00, put/call 0,69, call OI 59,3%)
 
 ---
 
