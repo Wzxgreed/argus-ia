@@ -12,7 +12,7 @@
 - **Score Opportunité :** 6.7/10 (C:6.5 V:8.0 M:5.0)
 - **Prix Cible :** $17.49 (consensus FMP, 12 analysts)
 - **Stop-Loss :** $11.65 (ATR $0.57)
-- **Statut Thèse :** Score ajusté 59.2 — snapshot 10h UTC 23/06 (pre-market US) : **stabilité mécanique totale** vs close 21h 22/06, cours **$12.79** inchangé, RSI **47.74** stable, volume révisé **0.63×** (40.82M vs 36.51M), **anomalie options JSON récurrente détectée et traitée** (max pain $20.00 aberrant → valeur opérationnelle **$14.00** conservée, put/call **0.58**, call OI **63.3%**), gap MM50 **−4.9%**, fondamentaux intacts (forward P/E 11.10×, upside +36.7%), support $11.20 à +14.2%, SL/TP **$11.65/$14.50**, timing défavorable maintenu, expiration options 26/06 dans 3 jours
+- **Statut Thèse :** Score ajusté 59.2 — snapshot 13h UTC 23/06 (pre-market US) : **stabilité mécanique totale** vs snapshot 10h 23/06, cours **$12.79** inchangé, RSI **47.74** stable, volume **0.63×** (40.82M), **anomalie options JSON RÉSOLUE** (données cohérentes : max pain **$14.00**, put/call **0.56**, call OI **64.0%**), gap MM50 **−4.9%**, fondamentaux intacts (forward P/E 11.10×, upside +36.7%), support $11.20 à +14.2%, SL/TP **$11.65/$14.50**, timing défavorable maintenu, expiration options 26/06 dans 3 jours
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
@@ -56,8 +56,8 @@
 
 - **Date :** 2026-06-23
 - **Type :** update
-- **Fichier :** `NU_2026-06-23_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité mécanique totale vs close 21h 22/06, cours $12
+- **Fichier :** `NU_2026-06-23_update_13h.md`
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité mécanique totale vs snapshot 10h 23/06, cours $12.79 inchangé, RSI 47.74 stable, volume 40.82M 0.63×, anomalie options JSON RÉSOLUE — données cohérentes max pain $14.00 put/call 0.56 call OI 64.0%, fondamentaux intacts forward P/E 11.10× upside +36.7%, gap MM50 −4.9%, SL/TP $11.65/$14.50, timing défavorable maintenu)**
 
 ---
 
