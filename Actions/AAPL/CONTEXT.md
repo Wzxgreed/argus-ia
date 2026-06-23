@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** modifiée
-- **Horizon :** —
+- **Recommandation :** ATTENDRE
+- **Score global :** 57.3/100
+- **Prix cible :** $321.22 (TP) / $280.87 (SL)
+- **Stop-loss :** $280.87
+- **Statut thèse :** confirmée
+- **Horizon :** 1–3 mois (earnings 2026-07-30)
 
 ---
 
@@ -24,23 +24,28 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🟡 Anomalie options JSON récurrente (max pain $225.00 aberrant → valeurs opérationnelles $290.00/0.80/55.6% conservées)
+- 🔴 Rejet du break $300.00 intraday 22/06 — résistance psychologique active
+- 🟡 Pinning gamma baissier modéré post-expiration (spot +2.4% vs max pain opérationnel $290.00)
+- 🟡 Valorisation étirée (P/E 36.0x, Forward P/E 30.9x) — compression multiple possible si guidance décevante 2026-07-30
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q3 FY2026 :** 2026-07-30 (37 jours) — Est EPS $1.83–$1.99, Rev $109.0B
+- **Expiration options hebdomadaire :** 2026-06-24 (demain)
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 42.19
-- **MM 50j :** 289.37
-- **MM 200j :** —
-- **ATR 14j :** 8.07
+- **RSI 14j :** 42.19 (zone neutre favorable, stable)
+- **MM 50j :** 289.37 (support dynamique, marge +$7.64)
+- **MM 200j :** — [DONNÉES MANQUANTES]
+- **ATR 14j :** 8.07 (volatilité contenue)
 - **Volume moy. 20j :** 52802130
+- **Volume jour :** 44.81M (0.85× moyenne, normalisation complète)
 
 ---
 
