@@ -47,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** update
+- **Type :** init
 - **Fichier :** `AST_2026-06-23_update_13h.md`
-- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-23T13:00:01Z) | AST: error "No price history" (>52 snapshots) ; ASTS proxy: stabilité mécanique totale à $73.19 (RSI 32.85, sous MM50 -16.9%), anomalie options JSON résolue (max pain $100.0, put/call 0.69, call OI 59.3%), score SURVEILLER 43.0/100 maintenu — thèse confirmée.
+- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-23T13:00:01Z) | `data/recommandations_latest.json` | `data/validation_report.txt`
 
 ---
 

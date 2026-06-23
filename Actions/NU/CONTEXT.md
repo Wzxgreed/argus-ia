@@ -44,20 +44,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 47.74
-- **MM 50j :** 13.44
+- **RSI 14j :** 59.19
+- **MM 50j :** 13.39
 - **MM 200j :** —
-- **ATR 14j :** 0.57
-- **Volume moy. 20j :** 65245235
+- **ATR 14j :** 0.48
+- **Volume moy. 20j :** 63421698
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** update
+- **Type :** init
 - **Fichier :** `NU_2026-06-23_update_13h.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité mécanique totale vs snapshot 10h 23/06, cours $12.79 inchangé, RSI 47.74 stable, volume 40.82M 0.63×, anomalie options JSON RÉSOLUE — données cohérentes max pain $14.00 put/call 0.56 call OI 64.0%, fondamentaux intacts forward P/E 11.10× upside +36.7%, gap MM50 −4.9%, SL/TP $11.65/$14.50, timing défavorable maintenu)**
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité mécanique totale vs snapshot 10h 23/06, cours $12
 
 ---
 

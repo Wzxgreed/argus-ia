@@ -7,20 +7,20 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE (nuance haussière accrue)
-**Prix cible :** $380–$400 (technique, consensus $267.57)
-**Upside/Downside :** +6.2% à +11.7% / −11.6% (SL engine)
-**Dernière mise à jour :** 2026-06-23 (Snapshot 13:00 UTC — close **$357.96** [stable vs 22/06], RSI **60.41** [franchissement zone 60], volume **7.27M (1.19×)** [accumulation confirmée], ATR **$20.83** [ATR_SPIKE 5.82%], MM50 **$322.88** [+10.9% au-dessus], options **put/call 2.38** [70.5% puts, call OI 29.5%, max pain $245, expiration 26/06 J+3 — révision post-pipeline −14.1% vs 10h], sector rotation XLI **#2** [momentum 7.54/10, stable], FX exposure **45% EUR/CNY** [Score FX Impact 0.0, 🟢], social sentiment **0 mentions**, consensus PT **$267.57** [47 analysts, 33.8% sous cours], Score Global Ajusté **50.0/100** [ATTENDRE, moteur 47.5 SURVEILLER] — thèse **CONFIRMÉE**, options légèrement moins bearish, pas de nouvelle séance)
+- **Recommandation :** SURVEILLER (gap down −9.14%, retour sous $350, test MM50)
+**Prix cible :** $340–$360 (technique, consensus $267.57)
+**Upside/Downside :** +4.5% à +10.7% / −14.3% (SL engine) / −3.2% (desk SL $315)
+**Dernière mise à jour :** 2026-06-23 (Snapshot 17:00 UTC — close **$325.255** [−9.14% vs close 22/06], RSI **47.56** [neutre, −12.85 pts], volume **5.95M (0.97×)** [standard, profit-taking], ATR **$22.13** [ATR_SPIKE 6.80%], MM50 **$323.49** [+0.54% au-dessus, support critique], options **put/call 2.38** [70.5% puts, call OI 29.5%, max pain $245, expiration 26/06 J+3], sector rotation XLI **#2** [momentum 7.13/10, −0.41 pts], FX exposure **45% EUR/CNY** [Score FX Impact 0.0, 🟢], social sentiment **0 mentions**, consensus PT **$267.57** [47 analysts, 21.8% sous cours], Score Global Ajusté **45.0/100** [SURVEILLER, desk aligné sur moteur] — thèse **MODIFIÉE**, downgrade ATTENDRE → SURVEILLER)
 
-Vertiv est le leader mondial du refroidissement data centers, bénéficiant directement de l'explosion de l'IA (GPU consomment 5–10× plus d'énergie). Quality Compounder 6/6 avec marges en expansion, ROIC 18.5%, ROCE 24.3%, net debt/EBITDA 0.78×. Le cours enregistre un **close officiel de +7.48%** à $357.96 (high intraday $358.54), portant le rally total à **+19.5% depuis le low du 17/06** ($299.60). Le RSI monte à **60.41** (franchissement zone 60, pas de surachat) et le cours s'écarte à **+10.9% au-dessus de la MM50** ($322.88). Le volume final est de **1.19×** (7.27M vs moy. 6.08M), ce qui **confirme une accumulation réelle et invalide l'hypothèse d'épuisement acheteur** du snapshot 17h. Le **dépassement de $350 en close** est un signal technique haussier. Les options affichent un sentiment **bearish mesuré légèrement atténué** (put/call 2.38, 70.5% puts, call OI 29.5%, max pain $245) — prudence contrarienne sans panique. Le secteur Industrials (XLI) est **#2** du ranking avec momentum **7.54/10** (stable). L'**ATR_SPIKE persiste** à 5.82% ($20.83), signalant une volatilité élevée. La valorisation s'est encore détériorée : P/E 90.2, Forward P/E 40.4, P/B 34.7. Le consensus PT $267.57 est désormais **33.8% sous le cours**. Timing **Favorable** d'après le moteur. **Pas de position longue recommandée à ce stade.** Si clôture au-dessus de **$360** avec volume >1.0× + catalyseur externe → upgrade ACHETER (réduit). Si clôture sous **$350** avec volume >0.8× → downgrade SURVEILLER (profit-taking). Si retombe sous $322.88 (MM50) avec volume >0.6× → retour ÉVITER. Prochain earnings 2026-07-29 (36 jours).
+Vertiv est le leader mondial du refroidissement data centers, bénéficiant directement de l'explosion de l'IA (GPU consomment 5–10× plus d'énergie). Quality Compounder 6/6 avec marges en expansion, ROIC 18.5%, ROCE 24.3%, net debt/EBITDA 0.78×. La séance du 23/06 a enregistré un **gap down de −9.14%** ($357.96 → $325.25), invalidant le franchissement haussier au-dessus de $350 du 22/06. Le low intraday à **$317.94** a **testé la zone sous la MM50** ($323.49) mais le close à $325.25 est resté juste au-dessus (+0.54%). Le RSI retombe à **47.56** (neutre), sorti de la zone haussière 60+. Le volume est **standard (0.97×)**, ce qui suggère un **profit-taking mécanique** après le rally de +19.5% depuis le 17/06 plutôt qu'une distribution panique institutionnelle. Cependant, le **rejet intraday** (open $337.96, high $337.97) montre une **absence totale de conviction acheteuse**. Les options restent **bearish mesuré** (put/call 2.38, 70.5% puts, max pain $245) — prudence contrarienne sans panique. Le secteur Industrials (XLI) est **#2** du ranking avec momentum **7.13/10** (soutien stable mais moins vigoureux). L'**ATR_SPIKE persiste** à 6.80% ($22.13), signalant une volatilité élevée. La valorisation s'est mécaniquement améliorée avec la baisse (P/E 81.9, Forward P/E 36.7) mais reste extrême. Le consensus PT $267.57 est **21.8% sous le cours**. Timing **Neutre** (downgrade depuis Favorable). **Pas de position longue recommandée à ce stade.** Si clôture au-dessus de **$338** avec volume >1.0× → retour ATTENDRE. Si clôture sous **MM50 ($323.49)** avec volume >0.8× → downgrade ÉVITER. Prochain earnings 2026-07-29 (36 jours).
 
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** —/10
-- **Prix cible :** $380
-- **Stop-loss :** $—
-- **Statut thèse :** validée
+- **Score global :** 45.0/100
+- **Prix cible :** $340–$360
+- **Stop-loss :** $315.00 (desk) / $281.00 (engine)
+- **Statut thèse :** MODIFIÉE (downgrade ATTENDRE → SURVEILLER)
 - **Horizon :** —
 
 ---
@@ -33,9 +33,10 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 
 ## 🚨 Alertes actives
 
-- Baisse — $335.22 — 🟢 Active
+- Baisse — $335.22 — 🔴 **DÉCLENCHÉE** (cours $325.25, déclenchement 23/06)
 - Hausse — $400.00 — 🟢 Active
 - Volume — >2× moy. 20j (>11.5M) — 🟢 Active
+- MM50 — Clôture sous $323.49 — 🟢 Active (surveillance immédiate)
 
 ---
 
@@ -47,11 +48,11 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 60.41
-- **MM 50j :** 322.88
+- **RSI 14j :** 47.56
+- **MM 50j :** 323.49
 - **MM 200j :** —
-- **ATR 14j :** 20.83
-- **Volume moy. 20j :** 6080745
+- **ATR 14j :** 22.13
+- **Volume moy. 20j :** 6138054
 
 ---
 
@@ -60,14 +61,15 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 - **Date :** 2026-06-23
 - **Type :** update
 - **Fichier :** `VRT_2026-06-23_update.md`
-- **Conclusion :** Snapshot post-pipeline 13:00 UTC confirme stabilité totale vs 10:00 UTC. Options révisées (put/call 2.38 vs 2.77, call OI 29.5% vs 26.5%). Thèse CONFIRMÉE — ATTENDRE maintenu (50.0/100).
+- **Conclusion :** Gap down −9.14% invalide la rupture haussière au-dessus de $350. RSI 47.56 (neutre). Test de la MM50 ($323.49) avec low $317.94. Volume standard 0.97× (profit-taking mécanique). Downgrade desk ATTENDRE → SURVEILLER (45.0/100). Alerte baisse $335.22 déclenchée.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +7.48% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 5.82% (seuil 5.0%)
+- **PRICE_GAP** (high) — Gap -9.14% séance 23/06 (seuil ±5.0%) — déclencheur majeur
+- **ATR_SPIKE** (medium) — ATR relatif 6.80% (seuil 5.0%)
+- **MM50_TEST** (high) — Low $317.94 sous MM50 $323.49, close $325.25 (+0.54%)
 
 ---
 

@@ -9,37 +9,56 @@
 
 ## Thèse Courante
 
-IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot du 2026-06-23 (13h UTC, données close 22/06 finalisées + correction options) confirme l'**action ATTENDRE** : Score Global ajusté **54.3/100**. Cours à **$56.87** (−5.15% session) avec RSI **40.17** (stable à la limite de la zone 40). **Volume finalisé à 34.93 M** (73.6% moyenne 20j) — participation normale. Structure options **défiance record en légère détente** : Max Pain **$40.00**, put/call **3.67** (vs 4.99 réf. 22/06), call OI **21.4%** (vs 16.7% réf. 22/06) — anomalie du snapshot 10h UTC résolue dans `latest.json`.
+IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot du 2026-06-23 (17h UTC, première session de trading réelle depuis close 22/06) apporte un **upgrade algorithmique contre-intuitif** : Score Global ajusté **60.5/100**. Cours à **$55.485** (−2.44% session) avec RSI **37.12** (approche zone survente <30). **Volume effondré à 19.42 M** (41.7% moyenne 20j) — participation très faible. Structure options **stable** : Max Pain **$40.00**, put/call **3.67**, call OI **21.4%** — défiance record inchangée, pas d'accélération de panique options.
 
-**🔴 Momentum technique cassé :** Le RSI à **40.17** est stable à la limite de la zone 40. L'ATR 14j (**$5.66**) et la MM50 (**$54.37**) sont disponibles — le cours à **$56.87** se tient à **+4.6%** au-dessus de la MM50. Timing déclaré **Favorable** (artefact RSI 40 — zone de rebond possible, mais faiblesse confirmée). Close proche du low ($56.87 vs low $56.30) = absence de rebond en fin de session.
+**🟢 Upgrade algorithmique contre-intuitif :** L'Agent Recommandation a upgradé l'action de **ATTENDRE (54.3/100)** à **ACHETER (Sizing Réduit, 60.5/100)**. Les trois axes montent simultanément (Catalyseur +0.5 pt → 6.8/10, Valorisation +0.5 pt → 4.5/10, Momentum +1.0 pt → 5.5/10) malgré la baisse du cours. Mécanisme : RSI proche survente (37.12) interprété comme timing favorable, et la baisse du cours améliore mécaniquement le ratio R/R (upside consensus passe de +22.2% à +25.2%).
 
-**🟢 Consensus PT inchangé :** **$69.48 (27 analysts)** — upside depuis close $56.87 à **+22.2%**.
+**🔴 Faiblesse technique structurelle confirmée :** Open à **$53.405** (−12.0% gap down vs close précédent), low **$52.76** a cassé la MM50 (**$54.69**) de −3.6% en intraday avant recovery partielle à $55.485 (+5.2% du low). Cette dynamique V-shaped est techniquement favorable, mais le volume très faible (41.7%) enlève toute conviction. Le cours ne se tient qu'à **+1.4%** au-dessus de la MM50 — marge critique.
 
-**🔴 Valorisation mécaniquement améliorée mais toujours extrême :** Score Valorisation **4.0/10** (=). P/E TTM **73.86×**, P/B **7.28×**, EV/EBITDA **150.00×** — multiples toujours extrêmes.
+**🟢 Consensus PT inchangé :** **$69.48 (27 analysts)** — upside depuis close $55.485 à **+25.2%**.
 
-**🔴 Forward P/E négatif :** **−60.50×** — profitabilité attendue éloignée. FCF négatif (yield −36%).
+**🔴 Valorisation mécaniquement améliorée mais toujours extrême :** Score Valorisation **4.5/10** (+0.5 pt). P/E TTM **72.04×** (−1.82×), P/B **7.10×**, EV/EBITDA **150.00×** — multiples toujours extrêmes.
 
-**🟡 Catalyseur :** Score Catalyseur **6.3/10** (=) — absence de catalyseur nouveau, news nulles.
+**🔴 Forward P/E négatif :** **−59.01×** (amélioration marginale vs −60.50×) — profitabilité attendue éloignée. FCF négatif (yield −36%).
+
+**🟡 Catalyseur :** Score Catalyseur **6.8/10** (+0.5 pt) — absence de catalyseur nouveau, news nulles.
 
 **🔴 Short Interest élevé stable :** **16.05%** — défiance accrue du marché maintenue, fuel squeeze inactif.
 
-**🟡 Volume normalisé :** 34.93 M = **73.6%** moyenne 20j — participation standard. La baisse de −5.15% s'est faite sur une pression vendeuse réelle, pas sur un vide de liquidité.
+**🔴 Volume effondré :** 19.42 M = **41.7%** moyenne 20j — participation très faible. Un mouvement de −2.44% sur volume très faible = absence de conviction vendeuse institutionnelle, mais aussi absence d'achat soutenu. La baisse est « silencieuse ».
 
-**🔴 Volatilité extrême :** Beta **4.232**. Sizing réduit obligatoire si reconviction (max 5% portefeuille).
+**🔴 Volatilité extrême :** Beta **4.232**. Sizing réduit obligatoire (max 5% portefeuille).
 
-**🔴 Corrélation BTC (hypothèse) :** Dernier snapshot 2026-05-17 : corrélation 30j **0.82**, beta BTC **2.1** — le pivot IA n'est pas encore pricé comme découplage. Toute position IREN reste un pari implicite sur BTC.
+**🔴 Corrélation BTC (hypothèse) :** Dernier snapshot 2026-05-17 : corrélation 30j **0.82**, beta BTC **2.1** — le pivot IA n'est pas encore pricé comme découplage. Toute position IREN reste un pari implicite sur BTC. Seuil critique BTC ~$75k.
 
-**🟡 Défiance options record en légère détente :** put/call **3.67** (vs 4.99 réf. 22/06), puts **78.6%** OI — la défiance reste élevée mais s'atténue marginalement (−26.5% sur le ratio put/call, +4.7 pp sur le call OI).
+**🔴 Défiance options record stable :** put/call **3.67**, puts **78.6%** OI — défiance record maintenue, signal contradictoire.
 
-**⚠️ Données techniques :** MM200 toujours indisponible. SL/TP révisés : SL **$45.55** (2×ATR), TP **$73.85** (3×ATR), ratio R/R **1.5**.
+**⚠️ Données techniques :** MM200 toujours indisponible. SL/TP révisés : SL **$44.24** (2×ATR), TP **$72.34** (3×ATR), ratio R/R **1.5**.
 
 **Earnings Q1 2026** : résultats toujours non intégrés dans les feeds Yahoo/FMP au 2026-06-23 (29 jours après le J0 annoncé). Prochain earnings Q2 2026 : **2026-08-27** (65 jours).
 
-**Score Opportunité : 4.9/10** (Catalyseur 6.3, Valorisation 4.0, Momentum 4.5)
-**Score Global ajusté : 54.3/100**
-**Action : ATTENDRE** — La pression vendeuse de −5.15% est confirmée sur volume normal. Attendre consolidation au-dessus de MM50.
+**Score Opportunité : 5.6/10** (Catalyseur 6.8, Valorisation 4.5, Momentum 5.5)
+**Score Global ajusté : 60.5/100**
+**Action : ACHETER (Sizing Réduit)** — Upgrade algorithmique contre-intuitif. RSI proche survente (37.12) créé un timing favorable, mais le volume effondré et la cassure intraday de la MM50 imposent une taille réduite et une vigilance accrue.
 
-> **⚠️ Réserve earnings :** Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds (FY 2025 uniquement). Sizing réduit obligatoire si reconviction (beta 4.232, ATR 9.95% historique, défiance options record). Surveiller BTC — seuil critique $75k. Si le cours casse $54.37 (MM50) sans rebond → passer en SURVEILLER. Si le cours casse $53.97 (ancienne MM50) → stopper toute position. Si le cours casse $45.55 (SL) → stopper la position.
+> **⚠️ Avertissements :**
+> 1. **Upgrade algorithmique contre-intuitif** — Les scores montent malgré la baisse de −2.44% et le RSI qui descend. L'algorithme valorise le « timing » (RSI proche survente) mais ignore le volume.
+> 2. **Volume effondré** — 41.7% de la moyenne 20j = participation institutionnelle très faible. Pas de distribution massive, mais pas d'accumulation non plus.
+> 3. **Cassure de la MM50 en intraday** — Low $52.76 a cassé la MM50 ($54.69) de −3.6%. Reprise en clôture, mais fragilité confirmée.
+> 4. **RSI 37.12** — proche de la survente (<30), mais pas encore dedans. Zone de rebond possible, pas garantie.
+> 5. **Multiples extrêmes** — P/E 72.0×, EV/EBITDA ~150×, Forward P/E −59.0×.
+> 6. **Short Interest élevé stable** — 16.05% = défiance accrue du marché maintenue, fuel squeeze inactif.
+> 7. **Forward P/E négatif** : −59.01× — profitabilité attendue éloignée.
+> 8. **Corrélation BTC** : Hypothèse beta 2.1, corrélation 0.82 (dernier dispo 2026-05-17) — position IREN reste un pari implicite sur BTC.
+> 9. **Réserve earnings Q1 2026** : résultats toujours non intégrés dans les feeds (FY 2025 uniquement). Prochain earnings Q2 2026 : **2026-08-27** (65 jours).
+> 10. **MM200 indisponible** — tendance long terme non évaluable.
+> 11. **Accounting risk** : `data/accounting_risk_latest.json` inexistant — pas de scan M-Score/Z-Score/F-Score disponible.
+> 12. **Quant report stale** : `data/quant_report_latest.json` daté 2026-05-17 — pas de signaux historiques (p-value 1.0, insuffisant).
+> 13. **Défiance options record** : put/call 3.67, puts 78.6% OI — signal contradictoire maintenu.
+> 14. **Gap down sévère** : Open $53.405 = −12.0% vs open précédent $60.68. La recovery partielle n'a pas comblé le gap.
+> 15. Si le cours casse **$54.69** (MM50) en clôture sans rebond → **passer en ATTENDRE** et réduire la position.
+> 16. Si le cours casse **$52.30** (low du 09/06) → **stopper toute position existante**.
+> 17. Si le cours casse **$44.24** (SL 2×ATR) → **stopper la position**.
 
 ---
 
@@ -99,6 +118,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 | 2026-06-22 | [IREN_2026-06-22_update_21h00.md](IREN_2026-06-22_update_21h00.md) (snapshot 21h UTC) | Mise à jour close final | **CORRECTION DES DONNÉES** · Cours **$56.87** (−0.12% vs 17h UTC) · Volume révisé **34.48 M** (+65% vs 17h UTC, 72.7% moyenne) — participation normale, invalide la lecture distribution · Low **$56.30** (nouveau low) · RSI **40.17** (stable) · Scores inchangés **4.9/54.3** · Action **ATTENDRE** confirmée · SL/TP révisés $45.55/$73.85 · Thèse **confirmée ATTENDRE** — pression vendeuse réelle sur volume standard |
 | 2026-06-23 | [IREN_2026-06-23_update.md](IREN_2026-06-23_update.md) (snapshot 10h UTC) | Mise à jour pré-ouverture | **STABILITÉ TOTALE** vs close 22/06 · cours **$56.87** (=) · volume 34.93 M (73.6% moyenne) · RSI **40.17** (=) · **Anomalie options** (Max Pain $20.00/null/null vs structure fiable $40.00/4.99/16.7%) · DRAFT_refresh du 23/06 archivé (faux positif) · Scores inchangés **4.9/54.3** · Action **ATTENDRE** confirmée · Thèse **confirmée** |
 | 2026-06-23 | [IREN_2026-06-23_update_13h00.md](IREN_2026-06-23_update_13h00.md) (snapshot 13h UTC) | Révision post-pipeline | **STABILITÉ TOTALE** des données brutes vs 10h UTC · **correction options majeure** : Max Pain **$40.00** (vs $20.00 anomalie), put/call **3.67** (vs null), call OI **21.4%** (vs null) — structure cohérente rétablie avec **détente marginale** vs référence 22/06 (put/call 4.99 → 3.67, call OI 16.7% → 21.4%) · DRAFT_refresh 13h archivé (faux positif) · Scores inchangés **4.9/54.3** · Action **ATTENDRE** confirmée · Thèse **confirmée** |
+| 2026-06-23 | [IREN_2026-06-23_update.md](IREN_2026-06-23_update.md) (snapshot 17h UTC) | Mise à jour post-session | **Nouvelle session réelle** · Cours **$55.485** (−2.44%) · Open **$53.405** (−12.0% gap down) · Low **$52.76** (cassure MM50 $54.69 de −3.6%) · Recovery à $55.485 (+5.2% du low) · Volume **effondré 19.42 M** (41.7% moyenne) · RSI **37.12** (approche survente) · **Upgrade algorithmique majeur** : Score Global **60.5/100** (+6.2 pts), Opportunité **5.6/10** (+0.7 pt) · Action **ACHETER (Sizing Réduit)** (vs ATTENDRE) · SL/TP révisés **$44.24/$72.34** · Thèse **modifiée** — upgrade contre-intuitif avec vigilance accrue |
 
 ---
 

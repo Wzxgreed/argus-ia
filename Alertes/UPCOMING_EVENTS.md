@@ -12,7 +12,7 @@
 |--------|------|------|-------|--------|--------|
 | SQ | earnings | 2026-06-23 | 0j | Earnings ... | fmp |
 | TEST | earnings | 2026-06-23 | 0j | Earnings ... | fmp |
-| MU | earnings | 2026-06-24 | 1j | Earnings date — Est EPS $7.53-$26.00, Rev $35.0B... | yfinance |
+| MU | earnings | 2026-06-24 | 1j | Earnings date — Est EPS $7.53-$26.00, Rev $35.3B... | yfinance |
 | AST | earnings | 2026-06-23 | 0j | Earnings ... | fmp |
 | AXA | earnings | 2026-06-23 | 0j | Earnings ... | fmp |
 | SPCX | earnings | 2026-06-23 | 0j | Earnings ... | fmp |
@@ -34,7 +34,7 @@
 | Ticker | Type | Date | Jours | Détail | Source |
 |--------|------|------|-------|--------|--------|
 | NOK | earnings | 2026-07-23 | 30j | Earnings date — Est EPS $0.06-$0.08, Rev $4.8B... | yfinance |
-| AAL | earnings | 2026-07-23 | 30j | Earnings date — Est EPS $-0.34-$0.52, Rev $16.6B... | yfinance |
+| AAL | earnings | 2026-07-23 | 30j | Earnings date — Est EPS $-0.34-$0.17, Rev $16.7B... | yfinance |
 
 ---
 

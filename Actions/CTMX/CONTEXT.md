@@ -36,13 +36,7 @@
 
 ## 🚨 Alertes actives
 
-- :yellow_circle: Structure options baissiere attenuee (put/call 2.87, call OI 25.8%) — amelioration vs snapshot 10h UTC
-- :yellow_circle: Cours $3.04 stable sous MM50 ($3.80, ecart -20.0%)
-- :green_circle: Volume **0.91x** — normalise post-expiration
-- :red_circle: RSI 31.53 — survente persistante
-- :green_circle: Support $2.86 **NON TESTE** (low $2.95)
-- :red_circle: Score Global Ajuste **48.8/100** — sous le seuil institutionnel (50)
-- :red_circle: Recommandation **SURVEILLER** — degradee depuis ATTENDRE
+- Aucune alerte active.
 
 ---
 
@@ -54,11 +48,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 31.53
-- **MM 50j :** 3.8
+- **RSI 14j :** 49.73
+- **MM 50j :** 3.77
 - **MM 200j :** —
-- **ATR 14j :** 0.17
-- **Volume moy. 20j :** 4163245
+- **ATR 14j :** 0.16
+- **Volume moy. 20j :** 4113571
 
 ---
 

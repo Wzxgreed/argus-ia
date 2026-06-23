@@ -1,35 +1,35 @@
-# NOK — Mise à jour quotidienne (Snapshot 10:00 UTC)
+# NOK — Mise à jour quotidienne (Snapshot 17:00 UTC)
 
 > **Date :** 2026-06-23
-> **Type :** Update — snapshot pré-ouverture NY (rollover close 22/06)
-> **Fichier précédent :** [NOK_2026-06-22_21h_update.md](./NOK_2026-06-22_21h_update.md)
+> **Type :** Update — snapshot post-ouverture NY (données options stables, mutation technique majeure)
+> **Fichier précédent :** [NOK_2026-06-23_13h_update.md](./NOK_2026-06-23_13h_update.md)
 
 ---
 
 ## 1. Résumé des changements
 
-| Métrique | Snapshot 21:00 UTC 22/06 (précédent) | Snapshot actuel 10:00 UTC 23/06 | Δ |
+| Métrique | Snapshot 13:00 UTC 23/06 (précédent) | Snapshot actuel 17:00 UTC 23/06 | Δ |
 |----------|--------------------------------------|---------------------------------|---|
-| **Close** | **$14.43** | **$14.43** | **Inchangé** (rollover) |
-| **Previous close** | $13.49 | **$13.49** | Inchangé |
-| **Open** | $13.84 | **$13.84** | Inchangé |
-| **High** | $14.56 | **$14.56** | Inchangé |
-| **Low** | $13.80 | **$13.80** | Inchangé |
-| **RSI 14j** | **38.85** | **38.85** | Inchangé |
-| **ATR 14j** | **$1.04** | **$1.04** | Inchangé |
-| **MM 50j** | **$13.27** | **$13.27** | Inchangé |
-| **Volume session** | 116.2M | **117.1M** | **+0.9M (+0.8%)** |
-| **Volume vs moy. 20j** | 0.878× | **0.885×** | **Normalisation marginale** |
-| **Options max pain** | **$14.00** | **$3.00** | 🔴 **CORROMPU dans `latest.json`** |
-| **Put/Call ratio** | **1.03** | **null** | 🔴 **CORROMPU** |
-| **Call OI %** | **49.3%** | **null** | 🔴 **CORROMPU** |
-| **Score Global ajusté** | 48.0 — SURVEILLER | **48.0 — SURVEILLER** | Inchangé |
-| **Score Opportunité** | 4.3/10 | **4.3/10** | Inchangé |
-| **Score Momentum** | 6.0/10 | **6.0/10** | Inchangé |
+| **Close** | **$14.43** | **$13.75** | **−4.71%** |
+| **Previous close** | $13.49 | **$14.43** | Révisé (rollover) |
+| **Open** | $13.84 | **$13.46** | −2.74% |
+| **High** | $14.56 | **$13.89** | −4.60% |
+| **Low** | $13.80 | **$13.22** | −4.20% |
+| **RSI 14j** | **38.85** | **31.19** | **−7.66 pts** |
+| **ATR 14j** | **$1.04** | **$1.06** | +1.9% |
+| **MM 50j** | **$13.27** | **$13.35** | +0.6% |
+| **Volume session** | 117.1M | **62.3M** | **−46.8%** |
+| **Volume vs moy. 20j** | 0.885× | **0.483×** | **Effondrement** |
+| **Options max pain** | **$14.00** | **$14.00** | Inchangé |
+| **Put/Call ratio** | **0.96** | **0.96** | Inchangé |
+| **Call OI %** | **51.0%** | **51.0%** | Inchangé |
+| **Score Global ajusté** | 48.0 — SURVEILLER | **45.5 — SURVEILLER** | **−2.5 pts** |
+| **Score Opportunité** | 4.3/10 | **4.0/10** | −0.3 pt |
+| **Score Momentum** | 6.0/10 | **5.0/10** | **−1.0 pt** |
 | **Score Valorisation** | 3.5/10 | **3.5/10** | Inchangé |
 | **Score Catalyseur** | 4.0/10 | **4.0/10** | Inchangé |
 
-**Verdict :** Le snapshot 10:00 UTC du 23/06 est un **rollover strict** du close 22/06 21h UTC. Aucune donnée prix, technique ou fondamentale n'a évolué. Le DRAFT_refresh déclenché automatiquement (`PRICE_GAP +6.97%`, `ATR_SPIKE 7.21%`) est un **faux positit stale** — les triggers datent du rebond du 22/06 et n'ont pas matérialisé de nouvelles données. Les données options sont à nouveau **corrompues** dans `latest.json` (max pain $3.00 aberrant vs $14.00 opérationnel au 22/06).
+**Verdict :** Le snapshot 17:00 UTC du 23/06 marque une **mutation technique majeure** : correction de −4.71% avec un volume effondré à 0.48× la moyenne, RSI en chute libre vers la zone de survente (31.19), et révision du Score Global ajusté de **48.0 à 45.5** (SURVEILLER). Les données options restent stables (max pain $14.00, structure quasi-neutre).
 
 ---
 
@@ -37,33 +37,33 @@
 
 | Métrique | Valeur | Source | Commentaire |
 |----------|--------|--------|-------------|
-| Previous close | **$13.49** | `data/latest.json` | Rollover |
-| Open | **$13.84** | `data/latest.json` | +2.6% vs previous close |
-| High | **$14.56** | `data/latest.json` | Inchangé |
-| Low | **$13.80** | `data/latest.json` | Support $13.80 tenu |
-| Close | **$14.43** | `data/latest.json` | +6.97% vs previous close |
-| Volume | **117,137,500** | `data/latest.json` | +0.8% vs snapshot 21h |
-| Volume vs moy. 20j | **0.885×** | Calcul (132.4M) | Participation modérée |
-| RSI 14j | **38.85** | `data/latest.json` | Divergence baissière persistante vs prix |
-| ATR 14j | **$1.04** | `data/latest.json` | Stable |
-| MM 50j | **$13.27** | `data/latest.json` | Cours +8.7% au-dessus |
+| Previous close | **$14.43** | `data/latest.json` | Révisé (rollover close 22/06) |
+| Open | **$13.46** | `data/latest.json` | Gap baissier −6.7% vs previous close |
+| High | **$13.89** | `data/latest.json` | Résistance intraday |
+| Low | **$13.22** | `data/latest.json` | Test du support gap 08/06 |
+| Close | **$13.75** | `data/latest.json` | −4.71% vs previous close $14.43 |
+| Volume | **62,332,370** | `data/latest.json` | Effondrement −46.8% vs 13h |
+| Volume vs moy. 20j | **0.483×** | Calcul (129.1M) | Participation très faible |
+| RSI 14j | **31.19** | `data/latest.json` | 🔴 Proche zone survente (< 30) |
+| ATR 14j | **$1.06** | `data/latest.json` | Stable |
+| MM 50j | **$13.35** | `data/latest.json` | Cours +3.0% au-dessus |
 | MM 200j | **null** | `data/latest.json` | [DONNÉES MANQUANTES] |
 | Golden Cross | **Non** | `data/latest.json` | — |
-| 52w high / low | **$17.45 / $4.00** | `data/latest.json` | Cours à −17.3% du 52w high |
+| 52w high / low | **$17.45 / $4.00** | `data/latest.json` | Cours à −21.2% du 52w high |
 
-**Niveaux clés (inchangés) :**
-- Support immédiat : **$13.80** (low de la session)
-- Support intermédiaire : **$13.49** (previous close)
-- Support structurel : **$13.27** (MM50)
+**Niveaux clés (révisés) :**
+- Support immédiat : **$13.22** (low de la session)
+- Support intermédiaire : **$13.35** (MM50)
 - Support gap : **$12.99** (base gap 08/06)
-- Résistance technique : **$14.56** (high de la session)
-- Résistance structurelle : **$14.82** (close 16/06)
-- Résistance majeure : **$15.47** (close 25/05)
-- Stop-loss ATR (2×) : **$12.35** (cours − 2×ATR $1.04)
-- Take-profit ATR (3×) : **$17.55** (cours + 3×ATR $1.04)
+- Support structurel : **$12.35** (SL 2×ATR)
+- Résistance technique : **$13.89** (high de la session)
+- Résistance structurelle : **$14.43** (previous close)
+- Résistance majeure : **$14.56** (high précédent), **$14.82** (close 16/06)
+- Stop-loss ATR (2×) : **$11.63** (cours − 2×ATR $1.06)
+- Take-profit ATR (3×) : **$16.93** (cours + 3×ATR $1.06)
 - Ratio R/R : **1.5×**
 
-**Verdict timing :** **Neutre à légèrement défavorable.** La divergence RSI/prix persiste (RSI 38.85 malgré cours $14.43). Le cours reste au-dessus de la MM50 ($13.27) mais le momentum interne est faible. Aucune nouvelle donnée technique depuis le snapshot 21h du 22/06.
+**Verdict timing :** **Défavorable.** Le RSI 31.19 est en chute libre et approche la zone de survente (< 30). Le cours reste au-dessus de la MM50 ($13.35) de justesse (+3.0%). Le volume effondré (0.48×) invalide tout signal de soutien institutionnel. La divergence RSI/prix s'est amplifiée (RSI −7.66 pts malgré correction −4.71%).
 
 ---
 
@@ -73,13 +73,13 @@ Inchangé en structure. Filtre Qualité hors périmètre (2.5/6).
 
 | Métrique | Valeur | Source |
 |----------|--------|--------|
-| Market Cap (Yahoo) | **$80.6B** | `data/latest.json` |
+| Market Cap (Yahoo) | **$76.8B** | `data/latest.json` |
 | Market Cap (FMP) | **$29.8B** | `data/latest.json` |
-| P/E (Yahoo) | **90.19** | `data/latest.json` |
+| P/E (Yahoo) | **85.94** | `data/latest.json` |
 | P/E (FMP) | **50.06** | `data/latest.json` |
-| Forward P/E | **29.64** | `data/latest.json` |
+| Forward P/E | **28.25** | `data/latest.json` |
 | EV/EBITDA (FMP) | **13.13** | `data/latest.json` |
-| P/B (Yahoo) | **3.33** | `data/latest.json` |
+| P/B (Yahoo) | **3.17** | `data/latest.json` |
 | P/B (FMP) | **1.42** | `data/latest.json` |
 | Dividend Yield (Yahoo) | **1.14%** | `data/latest.json` |
 | Gross Margin | **43.5%** | FMP Stable API |
@@ -92,9 +92,9 @@ Inchangé en structure. Filtre Qualité hors périmètre (2.5/6).
 
 **Filtre Qualité :** 2.5/6 — 🔴 Hors périmètre (inchangé).
 
-**Premium consensus :** Cours $14.43 vs consensus $10.8 = **+33.6%** (inchangé).
+**Premium consensus :** Cours $13.75 vs consensus $10.8 = **+27.3%** (vs +33.6% à 13h).
 
-**Divergence Yahoo/FMP persistante :** Market Cap $80.6B vs $29.8B (+170%), P/E 90.19 vs 50.06 (+80%). Non résolue. Source primaire : FMP.
+**Divergence Yahoo/FMP persistante :** Market Cap $76.8B vs $29.8B (+158%), P/E 85.94 vs 50.06 (+72%). Non résolue. Source primaire : FMP.
 
 ---
 
@@ -102,14 +102,14 @@ Inchangé en structure. Filtre Qualité hors périmètre (2.5/6).
 
 | Signal | Valeur | Source | Commentaire |
 |--------|--------|--------|-------------|
-| Consensus analystes (FMP) | **$10.8** (7 analysts) | FMP Stable API | Inchangé — premium +33.6% |
-| Max pain options | **$3.00** | `data/latest.json` | 🔴 **CORROMPU** — conservé $14.00 opérationnel |
-| Put/Call ratio | **null** | `data/latest.json` | 🔴 **CORROMPU** — conservé 1.03 opérationnel |
-| Call OI % | **null** | `data/latest.json` | 🔴 **CORROMPU** — conservé 49.3% opérationnel |
+| Consensus analystes (FMP) | **$10.8** (7 analysts) | FMP Stable API | Inchangé — premium +27.3% |
+| Max pain options | **$14.00** | `data/latest.json` | Stable |
+| Put/Call ratio | **0.96** | `data/latest.json` | Quasi-neutre |
+| Call OI % | **51.0%** | `data/latest.json` | Quasi-neutre |
 | Expiration nearest | **2026-06-26** | `data/latest.json` | Dans **3 jours** |
 | Social sentiment (Reddit) | 0 mentions / No data | `social_sentiment_2026-06-23.json` | Aucune mention, aucun pump |
 
-**Structure options (valeurs opérationnelles conservées du 22/06) :** max pain $14.00, put/call 1.03 (quasi-neutre), call OI 49.3% (quasi-neutre). Le cours $14.43 reste **+3.07% au-dessus du max pain**. Avec expiration dans 3 jours et structure quasi-neutre, le pin risk est **modéré**.
+**Structure options :** max pain $14.00, put/call 0.96 (quasi-neutre), call OI 51.0% (quasi-neutre). Le cours $13.75 est maintenant **−1.79% sous le max pain**. Avec expiration dans 3 jours et structure quasi-neutre, le pin risk s'est inversé : pression vers $14.00 plutôt qu'attraction.
 
 **News / Événements :**
 - `events_2026-06-23.json` : **0 événement** corporate pour NOK
@@ -122,9 +122,9 @@ Inchangé en structure. Filtre Qualité hors périmètre (2.5/6).
 ## 5. Bloc Macro & Sectoriel
 
 - **Régime macro :** UNKNOWN (`recommandations_2026-06-23.json`)
-- **Sectoriel :** Technology / Communication Equipment. Le secteur **XLC** (Communication Services) reste en **bottom 3** du sector rotation (`sector_rotation_2026-06-23.json` : return 20j −7.72%, return 60j −3.86%, momentum score 0.0). Malus structurel persistant.
+- **Sectoriel :** Technology / Communication Equipment. Le secteur **XLC** (Communication Services) reste en **bottom 3** du sector rotation (`sector_rotation_2026-06-23.json` : return 20j −6.60%, return 60j −0.89%, momentum score 0.0). Malus structurel persistant.
 - **Exposition FX :** `fx_exposure_2026-06-23.json` : NOK — exposure 25%, direction export, primary currency USD. Impact revenus/EPS estimé 0%. Divergence aligned. Flag 🟢. Contexte neutre.
-- **Géopolitique :** Aucun événement politique détecté pour NOK (`geo_risk_2026-05-17.json` : 0 ticker flagged, 0 événement — fichier non mis à jour).
+- **Géopolitique :** Aucun événement politique détecté pour NOK (`geo_risk_latest.json` : 0 ticker flagged, 0 événement — fichier non mis à jour).
 - **Quant :** Insuffisant (`quant_report_latest.json` : 0 signaux historiques, p-value 1.0)
 - **Accounting :** Fichier absent (`accounting_risk_latest.json`) — pas de donnée M-Score/Z-Score disponible.
 - **Social sentiment :** No data (`social_sentiment_2026-06-23.json` : 0 mentions, sentiment 0.0, pump_detected false). Alertes système "EXTREME_BEARISH" sur tous les tickers = artefact (0 mentions).
@@ -133,34 +133,37 @@ Inchangé en structure. Filtre Qualité hors périmètre (2.5/6).
 
 ## 6. Nouveau Scoring Global
 
-**Source :** `data/recommandations_2026-06-23.json` — scoring NOK inchangé.
+**Source :** `data/recommandations_2026-06-23.json` — scoring NOK révisé.
 
 | Score | Valeur | Commentaire |
 |-------|--------|-------------|
-| **Score Opportunité** | **4.3/10** | C:4.0 V:3.5 M:6.0 |
+| **Score Opportunité** | **4.0/10** | C:4.0 V:3.5 M:5.0 |
 | **Score Catalyseur** | 4.0/10 | 🔴 Faible — aucun catalyseur identifié |
-| **Score Valorisation** | 3.5/10 | 🔴 Défavorable — P/E 50.1 (FMP), premium consensus +33.6% |
-| **Score Momentum** | 6.0/10 | 🟡 Neutre — cours au-dessus de MM50 mais divergence RSI/prix |
-| **Score Global ajusté** | **48.0/100** | **SURVEILLER** (seuil 35–49) — limite supérieure |
-| **Timing technique** | Favorable | Cours au-dessus de MM50, mais divergence RSI baissière |
+| **Score Valorisation** | 3.5/10 | 🔴 Défavorable — P/E 50.1 (FMP), premium consensus +27.3% |
+| **Score Momentum** | 5.0/10 | 🟡 Neutre — RSI en chute, cours au-dessus de MM50 de justesse |
+| **Score Global ajusté** | **45.5/100** | **SURVEILLER** (seuil 35–49) — milieu de fourchette |
+| **Timing technique** | Défavorable | RSI 31.19 proche survente, volume effondré |
 
 **Évolution du scoring :**
-- Snapshot 21h UTC 22/06 : Score Global **48.0** — **SURVEILLER** (C:4.0 V:3.5 M:6.0)
-- Snapshot 10h UTC 23/06 : Score Global **48.0** — **SURVEILLER** (C:4.0 V:3.5 M:6.0)
+- Snapshot 13h UTC 23/06 : Score Global **48.0** — **SURVEILLER** (C:4.0 V:3.5 M:6.0)
+- Snapshot 17h UTC 23/06 : Score Global **45.5** — **SURVEILLER** (C:4.0 V:3.5 M:5.0)
 
-Aucun changement de scoring — le rollover de clôture ne produit pas de mutation technique ou fondamentale.
+**Explication de la dégradation :**
+- Score Momentum : 6.0 → 5.0 (−1.0 pt) : correction −4.71% + RSI en chute vers 30 + volume effondré
+- Score Opportunité : 4.3 → 4.0 (−0.3 pt) : ajustement mécanique post-baisse
+- Le Score Global ajusté recule de 2.5 pts mais reste dans la fourchette SURVEILLER (35–49).
 
 ---
 
 ## 7. Révision des Niveaux SL / TP / Sizing
 
-| Niveau | Valeur précédente (21h UTC 22/06) | Valeur actuelle | Justification |
+| Niveau | Valeur précédente (13h UTC 23/06) | Valeur actuelle | Justification |
 |--------|-----------------------------------|-----------------|---------------|
 | **Prix cible** | $10.8 (consensus) | **$10.8** | Inchangé — 7 analystes FMP |
-| **Stop-loss** | $12.35 | **$12.35** | Cours − 2×ATR $1.04 = $12.35 |
-| **Take-profit** | $17.55 | **$17.55** | Cours + 3×ATR $1.04 = $17.55 |
-| **Upside / Downside** | −25.2% / −14.4% | **−25.2% / −14.4%** | Cours $14.43 vs consensus $10.8 / SL $12.35 |
-| **Ratio R/R** | 1.5× | **1.5×** | Inchangé |
+| **Stop-loss** | $12.35 | **$11.63** | Cours − 2×ATR $1.06 = $11.63 |
+| **Take-profit** | $17.55 | **$16.93** | Cours + 3×ATR $1.06 = $16.93 |
+| **Upside / Downside** | −25.2% / −14.4% | **−21.5% / −15.4%** | Cours $13.75 vs consensus $10.8 / SL $11.63 |
+| **Ratio R/R** | 1.5× | **1.5×** | Inchangé (ATR stable) |
 | **Sizing** | — | **—** | Pas de position |
 
 ---
@@ -169,54 +172,54 @@ Aucun changement de scoring — le rollover de clôture ne produit pas de mutati
 
 | Scénario | Probabilité | Impact cours | Description |
 |----------|-------------|--------------|-------------|
-| **Optimiste** | 10% | Test $14.82–$15.00 | Résolution de la divergence RSI/prix avec RSI > 45 et volume > 1.0× moyenne. Test résistance $14.82 puis $15.00. Nécessite catalyseur (news 5G, upgrade). |
-| **Central** | 60% | Range $13.80–$14.56 | Consolidation autour du rebond. Volume 0.885× indique participation modérée. Divergence RSI/prix suggère épuisement du mouvement. Attente données de session pour valider. Support $13.80 / résistance $14.56. Max pain $14.00 aimant modéré à J−3 expiration. |
-| **Pessimiste** | 30% | Retour vers $13.49 puis $13.27 | Divergence RSI/prix confirmée : rebond s'épuise. Retour au previous close $13.49. Si cassure sous $13.49, objectif $13.27 (MM50) puis $12.99 (base gap 08/06). Risque pin vers max pain $14.00 à expiration 26/06. |
+| **Optimiste** | 10% | Rebound vers $14.00–$14.20 | RSI rebondit depuis la zone 30 avec volume > 0.8×. Test du max pain $14.00. Nécessite absence de vente programmée. |
+| **Central** | 55% | Range $13.22–$13.89 | Consolidation autour de la MM50 ($13.35). Volume très faible (0.48×) = marché en attente. Test du support $13.22 puis rebout possible. Pin risk inversé vers $14.00 à expiration 26/06. |
+| **Pessimiste** | 35% | Cassure sous $13.22 vers $12.99 | RSI franchit 30 et confirme la survente. Cassure du low $13.22 puis objectif $12.99 (base gap 08/06). Si $12.99 cède, objectif $12.35 (SL 2×ATR). Volume faible = pas de soutien institutionnel visible. |
 
 ---
 
-## 9. Conclusion — Thèse confirmée, DRAFT_refresh archivé
+## 9. Conclusion — Thèse modifiée
 
-**Verdict :** La thèse **SURVEILLER** est **confirmée sans modification de recommandation**. Le DRAFT_refresh du 23/06 est archivé comme **faux positit stale**.
+**Verdict :** La thèse **SURVEILLER** est **confirmée avec dégradation technique**.
 
 **Ce qui a changé :**
-- **Aucun changement de données prix/technique/fondamentale** — rollover strict du close 22/06 21h UTC
-- **Volume :** Révision marginale +0.8% (116.2M → 117.1M, 0.885× moyenne 20j)
-- **Données options :** 🔴 **Corrompues** dans `latest.json` (max pain $3.00, put/call null, call OI null) — valeurs opérationnelles du 22/06 conservées ($14.00 / 1.03 / 49.3%)
-- **DRAFT_refresh traité :** triggers `PRICE_GAP +6.97%` et `ATR_SPIKE 7.21%` sont stale — ils reflètent le rebond du 22/06, pas un nouvel événement
+- **Cours :** $14.43 → **$13.75** (−4.71%) — correction significative
+- **RSI :** 38.85 → **31.19** — approche de la zone de survente (< 30), signal d'avertissement
+- **Volume :** 117.1M → **62.3M** (0.48×) — effondrement de la participation, absence de soutien
+- **Score Global :** 48.0 → **45.5** — SURVEILLER maintenu mais dégradation du Momentum
+- **SL/TP :** $12.35/$17.55 → **$11.63/$16.93** — révision mécanique post-baisse
+- **Pin risk :** Inversé — cours $13.75 est maintenant **−1.79% sous le max pain $14.00** (vs +3.07% au-dessus à 13h)
 
 **Ce qui n'a pas changé :**
-- Close $14.43, RSI 38.85, ATR $1.04, MM50 $13.27
 - Consensus analystes **$10.8** (7 analysts)
 - Filtre Qualité hors périmètre (2.5/6)
 - Bilan solide (net cash, D/E 0.25) mais rentabilité anémique (ROIC 1.9%, operating margin 3.9%)
-- Divergence Yahoo/FMP persistante (Market Cap $80.6B vs $29.8B, P/E 90.19 vs 50.06)
+- Divergence Yahoo/FMP persistante (Market Cap $76.8B vs $29.8B, P/E 85.94 vs 50.06)
 - XLC bottom 3 du sector rotation (momentum score 0.0)
 - Aucun catalyseur fondamental, aucune news structurante, aucun événement corporate
 - Exposition FX neutre (flag 🟢), géopolitique neutre, social sentiment nul
-- Score Global ajusté **48.0/100** — SURVEILLER
-- SL/TP **$12.35 / $17.55**, ratio R/R **1.5×**
+- Score Global ajusté **45.5/100** — SURVEILLER
 
-**Recommandation révisée :** **SURVEILLER** — Pas de position. Les conditions d'entrée restent inchangées et non remplies :
-- Résolution de la divergence RSI/prix (RSI > 45)
-- Volume de confirmation > 1.0× moyenne 20j
-- Cours au-dessus de $14.56 avec RSI > 45
+**Recommandation révisée :** **SURVEILLER** — Pas de position. Les conditions d'entrée restent non remplies et se sont dégradées :
+- RSI doit rebondir au-dessus de 35 avec volume > 0.8× moyenne
+- Cours doit se maintenir au-dessus de $13.35 (MM50)
+- Résolution de la divergence RSI/prix
 - Apparition d'un catalyseur sectoriel
 - Score Global ajusté > 50/100
 
 **Risque immédiat :**
-1. **Divergence RSI/prix persistante** — signal d'avertissement classique d'épuisement
-2. **Expiration options dans 3 jours** (2026-06-26) avec max pain **$14.00**. Close $14.43 = +3.07% au-dessus — pin risk modéré
-3. **Volume sous moyenne** (0.885×) — participation inférieure à la normale
-4. **Données options corrompues** dans `latest.json` — surveillance requise à chaque snapshot
+1. **RSI 31.19** — proche de la zone de survente (< 30), signal d'avertissement classique
+2. **Volume effondré** (0.48×) — participation institutionnelle quasi nulle
+3. **Expiration options dans 3 jours** (2026-06-26) avec max pain **$14.00**. Cours $13.75 = −1.79% sous le max pain — pin risk inversé
+4. **Support MM50 $13.35** testé de justesse (+3.0%) — cassure = signal baissier
 
-**Prochain point de contrôle :** Snapshot 13:00 UTC du 23/06 pour vérifier :
-- Tenue du support $13.80 et volume de session
-- Évolution du RSI — confirmation ou invalidation de la divergence
-- Restauration des données options dans `latest.json`
+**Prochain point de contrôle :** Snapshot 21:00 UTC du 23/06 pour vérifier :
+- Tenue du support $13.22 et volume de clôture
+- Évolution du RSI — confirmation de la survente ou rebond
+- Stabilité des données options
 
 Earnings Q2 FY2026 le **2026-07-23** (dans 30 jours) — Est EPS $0.06–$0.08, Rev $4.8B.
 
 ---
 
-*Généré automatiquement — données sourcées exclusivement depuis `data/latest.json` (snapshot 2026-06-23 10:00 UTC), `data/recommandations_2026-06-23.json`, `data/sector_rotation_2026-06-23.json`, `data/fx_exposure_2026-06-23.json`, `data/social_sentiment_2026-06-23.json`, `data/upcoming_events_2026-06-23.json`, `data/events_2026-06-23.json`, `data/geo_risk_latest.json`, `data/quant_report_latest.json`, et fichiers JSON agents.*
+*Généré automatiquement — données sourcées exclusivement depuis `data/latest.json` (snapshot 2026-06-23 17:00 UTC), `data/recommandations_2026-06-23.json`, `data/sector_rotation_2026-06-23.json`, `data/fx_exposure_2026-06-23.json`, `data/social_sentiment_2026-06-23.json`, `data/upcoming_events_2026-06-23.json`, `data/events_2026-06-23.json`, `data/geo_risk_latest.json`, `data/quant_report_latest.json`, et fichiers JSON agents.*

@@ -1,7 +1,7 @@
 # MU — Preview Événement (earnings)
 
 > **Date :** 2026-06-23
-> **Événement :** Earnings date — Est EPS $7.53-$26.00, Rev $35.0B
+> **Événement :** Earnings date — Est EPS $7.53-$26.00, Rev $35.3B
 > **Date prévue :** 2026-06-24 (1j)
 > **Source :** yfinance
 

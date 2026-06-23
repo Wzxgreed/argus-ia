@@ -66,11 +66,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 33.78
-- **MM 50j :** 121.36
+- **RSI 14j :** 36.57
+- **MM 50j :** 121.61
 - **MM 200j :** —
-- **ATR 14j :** 3.86
-- **Volume moy. 20j :** 2774755
+- **ATR 14j :** 3.71
+- **Volume moy. 20j :** 2690427
 
 ---
 
@@ -79,7 +79,7 @@
 - **Date :** 2026-06-23
 - **Type :** update
 - **Fichier :** `A_2026-06-23_update.md`
-- **Conclusion :** > **Date :** 2026-06-23 · Snapshot 10:00 UTC
+- **Conclusion :** > **Date :** 2026-06-23 · Snapshot 13:00 UTC
 
 ---
 

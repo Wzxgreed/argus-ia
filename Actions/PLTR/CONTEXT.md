@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Score global :** 47.5/100
-- **Prix cible :** $139.96 (TP suggéré)
-- **Stop-loss :** $105.86
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
 - **Statut thèse :** invalide
-- **Horizon :** 1–3 mois (earnings Q2 FY2026 le 03/08)
+- **Horizon :** —
 
 ---
 
@@ -24,45 +24,38 @@
 
 ## 🚨 Alertes actives
 
-- 🔴 **Cassure MM50** — Cours $119.50 sous MM50 $138.21 (écart −13.61%) — invalidation retournement haussier persistante
-- 🔴 **Survente extrême** — RSI 14.65 (niveau historique) — risque capitulation
-- 🔴 **52W low testé** — Cours à +0.25% du plus bas annuel $119.20 — support critique
-- 🟡 **Volume élevé sur baisse** — 56.65M = 1.36× moyenne 20j — distribution ou capitulation
-- 🟡 **Divergence options/cours** — Call OI 67.6% / Put/Call 0.48 vs cours en chute — le marché options price un rebond non confirmé
-- 🟡 **Expiration options proche** — 2026-06-26 (3 jours), Max Pain $130.00 éloigné du cours
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **Earnings Q2 FY2026 :** 2026-08-03 (41 jours) — Est. EPS $0.33–$0.40, Rev $1.8B
-- **Expiration options :** 2026-06-26 (3 jours) — Max Pain $130.00
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 14.65
-- **MM 50j :** 138.21
+- **RSI 14j :** 16.93
+- **MM 50j :** 138.03
 - **MM 200j :** —
-- **ATR 14j :** 6.82
-- **Volume moy. 20j :** 41719435
+- **ATR 14j :** 6.26
+- **Volume moy. 20j :** 41327358
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-23 13h UTC
-- **Type :** update
-- **Fichier :** `PLTR_2026-06-23_13-00_update.md`
-- **Conclusion :** Stabilité mécanique totale vs snapshot 10h UTC. Anomalie options JSON résolue (Max Pain $130.00 valide). Thèse INVALIDÉE — SURVEILLER maintenu. Cours $119.50, RSI 14.65 (survente extrême), écart MM50 −13.61%, à 0.25% du 52W low.
+- **Date :** 2026-06-23
+- **Type :** full refresh
+- **Fichier :** `PLTR_2026-06-23_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-23
 
 ---
 
-## 🔄 Triggers détectés
+## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap -6.98% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 5.71% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 5.26% (seuil 5.0%)
 
 ---
 

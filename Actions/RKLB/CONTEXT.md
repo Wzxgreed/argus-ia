@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ÉVITER
-- **Score global :** 29,3/100
-- **Prix cible :** $131,04 (TP officiel)
-- **Stop-loss :** $79,79
-- **Statut thèse :** confirmée
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
 - **Horizon :** —
 
 ---
@@ -24,49 +24,38 @@
 
 ## 🚨 Alertes actives
 
-- CASSURE MM50 — spot $100,29 sous MM50 $104,58 (−4,1 %)
-- RSI 36,44 — survente étendue (<40)
-- Filtre Qualité 3/6 — hors périmètre institutionnel
-- Forward P/E −5 708 — valorisation extrême
-- Pin risk expiration 26/06 — Max Pain $69,00 vs spot $100,29 (écart +45,3 %)
-- Anomalie Market Cap Yahoo $62,66 Mds vs FMP $37,02 Mds
-- [RÉSOLU] Anomalie options JSON — Max Pain $69,00 valide dans latest.json
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- Expiration options : 2026-06-26 (J+3)
-- Earnings Q2 2026 : 2026-08-06 (44 jours)
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 36.44
-- **MM 50j :** 104.58
+- **RSI 14j :** 34.76
+- **MM 50j :** 105.18
 - **MM 200j :** —
-- **ATR 14j :** 10.25
-- **Volume moy. 20j :** 29894455
-- **Volume séance :** 27658400 (0.92×)
-- **Cours close :** 100.29
-- **Change :** −6.48 %
+- **ATR 14j :** 10.23
+- **Volume moy. 20j :** 28753292
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** update
-- **Fichier :** `RKLB_2026-06-23_update.md`
-- **Conclusion :** Stabilité mécanique totale vs snapshot 10h UTC. Anomalie options JSON résolue (Max Pain $69,00 valide, Put/Call 0,91, Call OI 52,4 %). Thèse ÉVITER confirmée — Score Global 29,3/100 inchangé. CASSURE MM50 persistante. Aucun signal de retournement.
+- **Type :** full refresh
+- **Fichier :** `RKLB_2026-06-23_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-23
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap -6.48% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 10.22% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 10.49% (seuil 5.0%)
 
 ---
 

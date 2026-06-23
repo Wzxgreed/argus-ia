@@ -40,7 +40,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-23** · earnings · Earnings (artefact FMP pour ETF, à ignorer)
+- **2026-06-23** · earnings · Earnings ...
 
 ---
 
@@ -50,7 +50,7 @@
 - **MM 50j :** —
 - **MM 200j :** —
 - **ATR 14j :** —
-- **Volume moy. 20j :** 268629350
+- **Volume moy. 20j :** 244192224
 
 ---
 
@@ -65,7 +65,7 @@
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (high) — Gap -16.43% overnight (seuil ±5.0%)
+- **PRICE_GAP** (medium) — Gap +5.59% overnight (seuil ±5.0%)
 
 ---
 

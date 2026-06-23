@@ -9,12 +9,12 @@
 
 - **Recommandation :** SURVEILLER — Pas de position
 **Prix cible :** $10.8 (consensus 7 analystes FMP)
-**Stop-loss :** $12.35 (cours − 2×ATR $1.04)
-**Take-profit :** $17.55 (cours + 3×ATR $1.04)
-**Upside/Downside :** −25.2% / −14.4% (basés sur cours $14.43)
-**Dernière mise à jour :** 2026-06-23 13:00 UTC
+**Stop-loss :** $11.63 (cours − 2×ATR $1.06)
+**Take-profit :** $16.93 (cours + 3×ATR $1.06)
+**Upside/Downside :** −21.5% / −15.4% (basés sur cours $13.75)
+**Dernière mise à jour :** 2026-06-23 17:00 UTC
 
-Snapshot 13h UTC : **Rollover strict** du close 22/06 21h UTC pour les données prix, volume et technique. Close **$14.43** (+6.97% vs previous close $13.49). Low **$13.80**, high **$14.56**. Volume **117.1M** (0.885× moyenne 20j — participation modérée). **Données techniques inchangées** : RSI 38.85 (divergence baissière persistante vs cours), ATR $1.04, MM50 $13.27 (cours +8.7% au-dessus). **Données options restaurées** dans `latest.json` : max pain **$14.00**, put/call **0.96** (quasi-neutre), call OI **51.0%** (quasi-neutre), expiration 2026-06-26 (dans 3 jours). Consensus FMP **$10.8** (7 analysts). Premium consensus **+33.6%**. Quality hors périmètre (2.5/6). Divergence Yahoo/FMP persistante et majeure (Market Cap $80.6B vs $29.8B, P/E 90.19 vs 50.06). XLC bottom 3 (momentum score 0.0). `recommandations_2026-06-23.json` : Score Global ajusté **48.0/100 — SURVEILLER** (C:4.0 V:3.5 M:6.0). Pas de position. Aucun événement corporate, aucune news structurante.
+Snapshot 17h UTC : **Correction −4.71%** ($14.43 → $13.75). Open $13.46, high $13.89, low $13.22. Volume **62.3M** (0.483× moyenne 20j — effondrement de la participation). **RSI 31.19** (proche zone survente < 30, −7.66 pts vs 13h). ATR **$1.06**, MM50 **$13.35** (cours +3.0% au-dessus, test de justesse). **Données options stables** : max pain **$14.00**, put/call **0.96** (quasi-neutre), call OI **51.0%** (quasi-neutre), expiration 2026-06-26 (dans 3 jours). Cours **−1.79% sous le max pain** (pin risk inversé vs +3.07% à 13h). Consensus FMP **$10.8** (7 analysts). Premium consensus **+27.3%** (vs +33.6% à 13h). Quality hors périmètre (2.5/6). Divergence Yahoo/FMP persistante (Market Cap $76.8B vs $29.8B, P/E 85.94 vs 50.06). XLC bottom 3 (momentum score 0.0). `recommandations_2026-06-23.json` : Score Global ajusté **45.5/100 — SURVEILLER** (C:4.0 V:3.5 M:5.0). Score Momentum dégradé 6.0→5.0. Pas de position. Aucun événement corporate, aucune news structurante.
 
 ---
 
@@ -49,27 +49,26 @@ Snapshot 13h UTC : **Rollover strict** du close 22/06 21h UTC pour les données 
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 38.85
-- **MM 50j :** 13.27
+- **RSI 14j :** 30.95
+- **MM 50j :** 13.35
 - **MM 200j :** —
-- **ATR 14j :** 1.04
-- **Volume moy. 20j :** 132359220
+- **ATR 14j :** 1.06
+- **Volume moy. 20j :** 128589770
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** update
-- **Fichier :** `NOK_2026-06-23_13h_update.md`
-- **Conclusion :** Rollover strict prix/technique/volume. Données options restaurées (max pain $14.00, put/call 0.96, call OI 51.0%). Score Global 48.0 SURVEILLER inchangé. Pas de position.
+- **Type :** full refresh
+- **Fichier :** `_NOK_2026-06-23_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-23
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +6.97% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 7.21% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 7.71% (seuil 5.0%)
 
 ---
 

@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 52.5/100
-- **Prix cible :** $41.62
-- **Stop-loss :** $20.52
-- **Statut thèse :** confirmée
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** validée
 - **Horizon :** —
 
 ---
@@ -24,44 +24,38 @@
 
 ## 🚨 Alertes actives
 
-- **ANOMALIE SCORING** — Score Valorisation 6.0/10 de l'agent Recommandation incohérent avec règle Filtre Qualité (≤3/6 → plafond 5/10). Score Opportunité ajusté manuel ~5.4/10, Global Ajusté ~50.0.
-- **SHORT INTEREST ÉLEVÉ** — 12.12% — pression vendeuse accrue, pas de setup squeeze.
-- **MM200 INDISPONIBLE** — Tendance long terme non observable.
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- Earnings Q2 2026 : **2026-08-04** (42 jours) — Est EPS −$0.61 à −$0.45, Rev $0.1B
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 27.41
-- **MM 50j :** 38.99
+- **RSI 14j :** 27.64
+- **MM 50j :** 38.81
 - **MM 200j :** —
-- **ATR 14j :** 4.22
-- **Volume moy. 20j :** 9918505
-- **Volume session :** 6217000 (0.63×)
-- **Cours :** $28.96
-- **Previous close :** $30.95
-- **Change :** −6.43%
+- **ATR 14j :** 4.1
+- **Volume moy. 20j :** 9592557
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** update
+- **Type :** init
 - **Fichier :** `FLY_2026-06-23_update_13h.md`
-- **Conclusion :** Stabilité totale vs snapshot 10h UTC. Anomalie data options résolue (max pain $50.00, put/call 0.36, call OI 73.8% validés). Thèse ATTENDRE confirmée, intensité négative stable. Pas de position recommandée.
+- **Conclusion :** > **Date :** 2026-06-23
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger actif — DRAFT_refresh du 23/06 archivé (faux trigger carry-over close 22/06).
+- **ATR_SPIKE** (medium) — ATR relatif 14.55% (seuil 5.0%)
 
 ---
 

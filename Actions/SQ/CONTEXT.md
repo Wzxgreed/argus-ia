@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 54.0/100
-- **Prix cible :** $85.67 (consensus figé)
-- **Stop-loss :** —
-- **Statut thèse :** Confirmée — anomalie de données structurelle persistante
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -24,13 +24,7 @@
 
 ## 🚨 Alertes actives
 
-- 🔴 **Stale Price** — cours figé ≥70 snapshots / ≥30 jours calendaires (2026-05-20 → 2026-06-23)
-- 🔴 **Data Pipeline Alert** — Earnings Q1 2026 non résolu après 30 jours calendaires (placeholder glissant J=0)
-- 🔴 **Source FMP Fallback** — SQ est le seul ticker du snapshot avec `source: fmp_fallback` et `change_pct: null`
-- 🟡 **Consensus PT Figé** — $85.67 (3 analystes) inchangé depuis 27/05 (27 jours)
-- 🟡 **Rotation Sectorielle Neutralisée** — XLK top3 mais signal global `NEUTRAL`
-- 🟡 **Divergence Market Cap FMP** — $51.73B vs $54.29B (~4.8%)
-- 🟢 **FX Exposure** — Score 0.0, direction neutral
+- Aucune alerte active.
 
 ---
 
@@ -54,8 +48,8 @@
 
 - **Date :** 2026-06-23
 - **Type :** update
-- **Fichier :** `SQ_2026-06-23_update_13h00.md`
-- **Conclusion :** Stabilité mécanique totale vs snapshot 10h00 UTC — aucune mutation détectée. Cours $83.46 figé ≥70 snapshots. Score Global 54.0/100 ATTENDRE maintenu. Thèse confirmée.
+- **Fichier :** `SQ_2026-06-23_update.md`
+- **Conclusion :** > **Trigger :** Snapshot pipeline 10:00 UTC — matinée US pré-session
 
 ---
 

@@ -58,9 +58,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-n- **Type :** update_13h
-- **Fichier :** `QTBS_2026-06-23_update_13h.md`
-- **Conclusion :** Stabilité mécanique totale vs snapshot 10h UTC — data blackout persistant (60e snapshot consécutif sans mutation), ATTENDRE maintenu.
+- **Type :** update
+- **Fichier :** `QTBS_2026-06-23_update.md`
+- **Conclusion :** > **Date :** 2026-06-23
 
 ---
 

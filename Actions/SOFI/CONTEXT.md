@@ -61,26 +61,26 @@ Le short interest reste élevé à **14.71%** — setup asymétrique squeeze/pre
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 40.98
-- **MM 50j :** 16.96
+- **RSI 14j :** 48.69
+- **MM 50j :** 16.98
 - **MM 200j :** —
-- **ATR 14j :** 1.0
-- **Volume moy. 20j :** 82114745
+- **ATR 14j :** 0.99
+- **Volume moy. 20j :** 81025916
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** update
-- **Fichier :** `SOFI_2026-06-23_update_13h00.md`
-- **Conclusion :** Snapshot 13h — stabilité mécanique totale, correction options JSON, thèse confirmée. Aucun nouveau close depuis 22/06.
+- **Type :** full refresh
+- **Fichier :** `SOFI_2026-06-23_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-23
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 5.85% (seuil 5.0%) — **archivé faux positif** (ATR absolu stable à $1.00, même motif que 15–17/06 et 22/06)
+- **ATR_SPIKE** (medium) — ATR relatif 5.66% (seuil 5.0%)
 
 ---
 

@@ -62,17 +62,17 @@ Les scores de l'agent recommandation sont **inchangés** : Score Opportunité **
 
 ## 📅 Prochains événements
 
-- **2026-07-23** · earnings · Earnings date — Est EPS $-0.34-$0.52, Rev $16.6B...
+- **2026-07-23** · earnings · Earnings date — Est EPS $-0.34-$0.17, Rev $16.7B...
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 65.16
-- **MM 50j :** 13.16
+- **RSI 14j :** 71.3
+- **MM 50j :** 13.26
 - **MM 200j :** —
 - **ATR 14j :** 0.68
-- **Volume moy. 20j :** 112324750
+- **Volume moy. 20j :** 110349474
 
 ---
 
@@ -81,7 +81,7 @@ Les scores de l'agent recommandation sont **inchangés** : Score Opportunité **
 - **Date :** 2026-06-23
 - **Type :** update
 - **Fichier :** `AAL_2026-06-23_update.md`
-- **Conclusion :** **Date :** 2026-06-23 (snapshot 13h UTC, correction anomalie data quality options : Max Pain $13.50 restauré, Put/Call 1.56, Call OI 39.0%. Thèse ATTENDRE — DISTRIBUTION INSTITUTIONNELLE POST-52W HIGH confirmée. Score Global 53.8/100.)
+- **Conclusion :** **Date :** 2026-06-23 (snapshot 13h UTC, close officiel NY 16h ET du 22/06)
 
 ---
 
