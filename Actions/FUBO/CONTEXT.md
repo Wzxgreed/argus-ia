@@ -7,7 +7,7 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE — pas d’entrée en l’état. La configuration technique, fondamentale et sectorielle est **strictement inchangée** vs le close officiel du 22/06. La survente technique (RSI 27.72) est un élément d’intérêt mais le **cours à $0.51 du 52W low ($8.31)** et l’**absence de volume** éliminent toute crédibilité à un rebond durable. Le titre reste un spéculatif fondamental dégradé (Qualité 1/6) sans catalyseur observable, sous exposition gamma vendeuse à J+3. Aucune position longue recommandée. Surveillance renforcée si rupture du 52W low.
+- **Recommandation :** ATTENDRE — pas d’entrée en l’état. La configuration technique s’est **détériorée** vs le snapshot 13h UTC : cours plus bas ($8.63), volume collapse (0.42×), scoring agent downgrade (51.5/100). La survente technique (RSI 30.81) est un élément d’intérêt mais le **cours à $0.32 du 52W low ($8.31)** et l’**absence de volume** éliminent toute crédibilité à un rebond durable. Le titre reste un spéculatif fondamental dégradé (Qualité 1/6) sans catalyseur observable, sous exposition gamma vendeuse à J+3 avec écart max pain creusé. Aucune position longue recommandée. **Surveillance renforcée** si rupture du 52W low.
 
 ## Historique
 - **Score global :** —/10
@@ -38,20 +38,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 30.88
+- **RSI 14j :** 30.81
 - **MM 50j :** 10.72
 - **MM 200j :** —
 - **ATR 14j :** 0.77
-- **Volume moy. 20j :** 1405025
+- **Volume moy. 20j :** 1409681
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** full refresh
-- **Fichier :** `FUBO_2026-06-23_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-23
+- **Type :** update
+- **Fichier :** `FUBO_2026-06-23_update.md`
+- **Conclusion :** Thèse ATTENDRE confirmée et dégradée — détérioration technique (close $8.63, volume collapse 0.42×), scoring agent downgrade 51.5/100
 
 ---
 

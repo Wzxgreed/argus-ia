@@ -1,11 +1,12 @@
 # MITK
 
 ## Thèse courante
-**ATTENDRE** — Small-cap logiciel (Software-Application, $781.7M) avec Forward P/E attractif (14.26x) mais cours à proximité du 52W high ($17.97 à 3.8%). Snapshot 13h UTC **$17.31** sur volume **1,138,000 (1.06× moyenne 20j)** — stabilité mécanique totale vs 10h UTC. Cours **+12.8% au-dessus de la MM50** ($15.35) — tendance haussière de MT intacte. Score Global Ajusté **56.5/100** (catégorie ATTENDRE, fourchette 50–59, au centre). Composition du score : Catalyseur 4.0/10 (stable), Valorisation 5.0/10 (stable), Momentum **7.0/10** (stable). Structure options validée par source primaire : Max Pain $17.50 (cohérent avec spot), Put/Call 0.05, Call OI 95.2% (**anomalie JSON Yahoo RÉSOLUE au snapshot 13h UTC**). Consensus PT $16.00 **sous le spot de +8.1%** — dépassé. Short interest 8.56% (stable). Signal macro **NEUTRAL**, sector rotation **XLK top rank** (momentum 10.0, +7.23% vs SPY sur 20j) — favorable. SL $15.45 (base ATR $0.93), TP $20.10, R/R 1.5. **DRAFT_refresh 23/06 classé faux positif algorithmique (9e occurrence). Snapshot 13:00 UTC 23/06 : thèse CONFIRMÉE — ATTENDRE maintenu, stabilité mécanique totale, anomalie options JSON résolue.**
+**ATTENDRE** — Small-cap logiciel (Software-Application, $799.5M) avec Forward P/E attractif (14.58x) mais cours à proximité du 52W high ($17.97 à 1.5%). Snapshot 17h UTC **$17.705** sur volume **450,980 (0.44× moyenne 20j)** — **alerte volume collapse** sur mouvement haussier +2.28%. Cours **+14.7% au-dessus de la MM50** ($15.43) — tendance haussière de MT intacte mais fragilisée par le volume. Score Global Ajusté **57.2/100** (catégorie ATTENDRE, fourchette 50–59, au centre). Composition du score : Catalyseur 4.0/10 (stable), Valorisation 5.0/10 (stable), Momentum **7.3/10** (+0.3 pt). Structure options validée par source primaire : Max Pain $17.50 (aligné avec spot), Put/Call 0.05, Call OI 95.2%. Consensus PT $16.00 **sous le spot de +10.7%** — dépassé, couverture insuffisante. Short interest 8.56% (stable). Signal macro **NEUTRAL**, sector rotation **XLK top rank** (momentum 10.0, +3.15% vs SPY sur 20j) — favorable mais ralenti vs matinée. SL $15.82 (base ATR $0.94), TP $20.52, R/R 1.5. **Snapshot 17h UTC 23/06 : thèse CONFIRMÉE AVEC ALERTE — ATTENDRE maintenu, vigilance accrue sur volume collapse, mouvement +2.28% non crédible sans conviction institutionnelle.**
 
 ## Historique
 | Date | Fichier | Type |
 |------|---------|------|
+| 2026-06-23 | [MITK_2026-06-23_update_17h.md](MITK_2026-06-23_update_17h.md) | **Snapshot 17:00 UTC — thèse CONFIRMÉE AVEC ALERTE : ATTENDRE, vigilance volume collapse**. Cours $17.705 (+2.28% vs 13h), RSI 51.15 (+5.98 pts, franchissement médiane), ATR $0.94 (+$0.01), MM50 $15.43 (+$0.08). Volume **0.44×** (450,980, −60.4% vs 13h) — **alerte collapse**. Score Global Ajusté **57.2/100** (+0.7 pt), Score Momentum **7.3/10** (+0.3 pt). Consensus PT $16.00 sous spot dépassé +10.7%. SL $15.82, TP $20.52, R/R 1.5. Action **ATTENDRE** — mouvement haussier non crédible sur volume faible, proximité 52W high ($17.97, 1.5%) |
 | 2026-06-23 | [MITK_2026-06-23_update_13h.md](MITK_2026-06-23_update_13h.md) | **Snapshot 13:00 UTC — thèse CONFIRMÉE : ATTENDRE, stabilité mécanique totale, anomalie options JSON RÉSOLUE**. Cours $17.31 (inchangé vs 10h), RSI 45.17 (inchangé), ATR $0.93 (inchangé), MM50 $15.35 (inchangé). Volume **1.06×** (1,138,000, inchangé). **Anomalie options JSON Yahoo RÉSOLUE** (max pain $17.50, put/call 0.05, call OI 95.2% validés par source primaire). Score Global Ajusté **56.5/100** (inchangé), Score Momentum **7.0/10** (inchangé). Consensus PT $16.00 sous spot dépassé +8.1%. SL $15.45, TP $20.10, R/R 1.5. Action **ATTENDRE** — stabilité totale, résolution data quality |
 | 2026-06-23 | [MITK_2026-06-23_update.md](MITK_2026-06-23_update.md) | **Snapshot 10:00 UTC — thèse CONFIRMÉE : ATTENDRE, stabilité mécanique totale**. Cours $17.31 (inchangé vs close 22/06), RSI 45.17 (inchangé), ATR $0.93 (inchangé), MM50 $15.35 (inchangé). Volume **1.06×** (1,138,000, +15.3% vs close 22/06) — premier passage au-dessus de la moyenne 20j depuis le 22/06 10h, signal d'absorption. **Anomalie options JSON persistante** (max pain $7.50 aberrant → valeurs opérationnelles $17.50/0.05/95.2% conservées). Score Global Ajusté **56.5/100** (inchangé), Score Momentum **7.0/10** (inchangé). Consensus PT $16.00 sous spot dépassé +8.1%. SL $15.45, TP $20.10, R/R 1.5. **DRAFT_refresh 23/06 classé faux positif algorithmique (9e occurrence)**. Action **ATTENDRE** — stabilité totale, volume légèrement haussier |
 | 2026-06-22 | [MITK_2026-06-22_update_21h.md](MITK_2026-06-22_update_21h.md) | **Close officiel 21:00 UTC — thèse CONFIRMÉE : ATTENDRE, intensité négative levée**. Cours $17.31 (+0.41% vs 17h, +0.29% vs previous close), RSI 45.17 (+0.63 pt), ATR $0.93 (inchangé), MM50 $15.35 (inchangé). Volume révisé **0.92×** (987,044, +154% vs 17h) — invalide l'hypothèse volume collapse. **Anomalie options JSON stable** (max pain $17.50, put/call 0.05, call OI 95.2%). Score Global Ajusté **56.5/100** (+3.7 pts), Score Momentum récupéré **7.0/10** (+1.5 pt). Consensus PT $16.00 sous spot dépassé +8.1%. SL $15.45, TP $20.10, R/R 1.5. Action **ATTENDRE** — volume révisé quasi-normal, séance de consolidation saine |
@@ -53,16 +54,17 @@
 | 2026-05-17 | [MITK_2026-05-17_claude.md](MITK_2026-05-17_claude.md) | Analyse approfondie (LLM) |
 
 ## Agenda
-- Prochain earnings : **2026-08-06** (45j) — Est EPS $0.24–$0.34, Rev ~$0.1B
-- Expiration options : **2026-07-17** (25j)
+- Prochain earnings : **2026-08-06** (44j) — Est EPS $0.24–$0.34, Rev ~$0.1B
+- Expiration options : **2026-07-17** (24j)
 
 ## Alertes actives
-- 🟡 **[VOLUME MATINAL ÉLEVÉ RÉSOLU]** 1,770,600 = 1.61× moyenne 20j en début de séance, mais volume total 987K (0.92×) — pas de suivi haussier crédible — **2026-06-22**
-- 🟡 **[CONSENSUS PT SOUS LE SPOT]** $16.00 < $17.31 — objectif moyen dépassé de +8.1%, absence de catalyseur analyste pour extension — 2026-06-22
-- 🟡 **[PROXIMITÉ 52W HIGH]** Cours $17.31 vs 52W high $17.97 (écart 3.8%) — résistance psychologique et technique majeure imminente — 2026-06-22
+- 🔴 **[VOLUME COLLAPSE]** 450,980 = 0.44× moyenne 20j — gain de +2.28% sur volume réduit de moitié, manque de conviction institutionnelle, risque de distribution au 52W high — **2026-06-23**
+- 🟡 **[CONSENSUS PT SOUS LE SPOT]** $16.00 < $17.705 — objectif moyen dépassé de +10.7%, absence de catalyseur analyste pour extension — 2026-06-23
+- 🟡 **[PROXIMITÉ 52W HIGH]** Cours $17.705 vs 52W high $17.97 (écart 1.5%) — résistance psychologique et technique majeure imminente — 2026-06-23
 - 🟡 **[ROIC FAIBLE]** 3.16% — monitorer l'efficacité du capital dans les prochains filings — 2026-05-18
-- 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($781.7M Yahoo vs données FMP divergentes), P/E, EV multiples — utiliser Yahoo comme primaire — persistant
+- 🟡 **[DIVERGENCE YAHOO/FMP]** Market cap ($799.5M Yahoo vs données FMP divergentes), P/E, EV multiples — utiliser Yahoo comme primaire — persistant
 - 🟡 **[BETA LÉGÈREMENT SUPÉRIEUR AU MARCHÉ]** 1.007 — sensibilité marché accrue — 2026-06-08
-- 🟡 **[CATALYSEUR DOWNGRADE]** 4.0/10 — absence de news, de upgrades, ou d'événements structurants — 2026-06-22
-- 🟢 **[RSI NEUTRE FAVORABLE]** 45.17 — zone neutre, juste au-dessus de la médiane, pas de surachat — 2026-06-22
-- 🟢 **[COURS AU-DESSUS DE MM50]** $17.31 vs $15.35 (+12.8%) — tendance haussière de MT validée — 2026-06-22
+- 🟡 **[CATALYSEUR DOWNGRADE]** 4.0/10 — absence de news, de upgrades, ou d'événements structurants — 2026-06-23
+- 🟢 **[RSI NEUTRE FAVORABLE]** 51.15 — franchissement médiane 50, momentum haussier en formation — 2026-06-23
+- 🟢 **[COURS AU-DESSUS DE MM50]** $17.705 vs $15.43 (+14.7%) — tendance haussière de MT intacte — 2026-06-23
+- 🟢 **[STRUCTURE OPTIONS HAUSSIÈRE]** Max pain $17.50, put/call 0.05, call OI 95.2% — alignement haussier validé — 2026-06-23

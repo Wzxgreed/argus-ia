@@ -1,5 +1,14 @@
 # FUBO — Historique des Full Refreshes
 
+## 2026-06-23 — Full Refresh Archivé (Snapshot 17h UTC)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 8.92% (seuil 5.0%)
+
+**Conclusion :** Thèse CONFIRMÉE (ATTENDRE) — DÉGRADÉE. Le snapshot 17h UTC confirme la détérioration technique amorcée hier : close $8.63 (−2.18% vs previous close $8.82), volume collapse 0.42× (587k), RSI 30.81 (survente persistante), écart sous MM50 ($10.72) creusé à −19.5%. Scoring agent downgrade : Score Global Ajusté 51.5/100 (vs 57.8 à 13h), Momentum 3.5/10 (vs 4.0). Structure options inchangée (max pain $9.00, put/call 0.66, call OI 60.3%) mais écart spot/max pain creusé (−4.1%). Distance au 52W low ($8.31) réduite à $0.32 (3.9%). Pas de nouvelles données fondamentales ni événements corporate. DRAFT_refresh.md archivé (`FUBO_2026-06-23_DRAFT_refresh.md` → `_DRAFT_refresh_2026-06-23_ARCHIVED.md`). Analyse update rédigée sous `FUBO_2026-06-23_update.md`. INDEX.md et CONTEXT.md mis à jour. Pas de position longue recommandée.
+
+---
+
 ## 2026-06-17 — Full Refresh Résolu (Snapshot 13h UTC)
 
 **Triggers :**
