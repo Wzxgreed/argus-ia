@@ -61,14 +61,14 @@ Snapshot 17h UTC : **Correction −4.71%** ($14.43 → $13.75). Open $13.46, hig
 
 - **Date :** 2026-06-23
 - **Type :** full refresh
-- **Fichier :** `_NOK_2026-06-23_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-23
+- **Fichier :** `_NOK_2026-06-23_DRAFT_refresh.md` → archivé
+- **Conclusion :** MODIFIÉ — Correction −4.71%, RSI 31.19, volume effondré 0.48×. Thèse SURVEILLER confirmée avec dégradation technique. Score Global 45.5/100. SL/TP révisés $11.63/$16.93.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 7.71% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 7.71% (seuil 5.0%) — **TRAITÉ ET ARCHIVÉ**
 
 ---
 

@@ -1,3 +1,14 @@
+## 2026-06-23 — Full Refresh Triggered (17:00 UTC)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 7.71% (seuil 5.0%)
+
+**Conclusion :** MODIFIÉ — Correction −4.71% avec volume effondré, RSI en chute vers 30
+
+Snapshot 2026-06-23 17:00 UTC. **Mutation technique majeure** : correction **−4.71%** (close $13.75 vs $14.43 à 13h). Open $13.46, high $13.89, low $13.22. Volume **62.3M** (0.483× moyenne 20j — effondrement de −46.8%). RSI **31.19** (−7.66 pts, proche zone survente < 30). ATR **$1.06**, MM50 **$13.35** (cours +3.0% au-dessus). Données options **stables** : max pain $14.00, put/call 0.96, call OI 51.0%. Pin risk **inversé** : cours −1.79% sous le max pain (vs +3.07% à 13h). Filtre Qualité recalculé : **2.5/6** (hors périmètre — inchangé). Premium vs consensus $10.8 révisé à **+27.3%**. Score Opportunité **4.0/10** (C:4.0 V:3.5 M:5.0). Score Global ajusté **45.5/100** — **SURVEILLER** (dégradation de 48.0). SL/TP révisés **$11.63/$16.93**. Timing technique désormais **défavorable**. Thèse modifiée : posture défensive renforcée. DRAFT_refresh traité → archivé.
+
+---
+
 ## 2026-06-23 — Full Refresh Triggered
 
 **Triggers :**
