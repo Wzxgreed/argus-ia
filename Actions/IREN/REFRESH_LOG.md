@@ -2,6 +2,18 @@
 
 ---
 
+## 2026-06-23 — Full Refresh Complété (snapshot 10:00 UTC)
+
+**Triggers :**
+- price_gap (medium) : Gap -5.15% overnight (seuil ±5.0%) — **faux positif**
+- atr_spike (medium) : ATR relatif 9.95% (seuil 5.0%) — **faux positif**
+
+**Conclusion :** confirm — faux positif (triggers hérités du close 2026-06-22, données brutes strictement identiques)
+
+Le DRAFT_refresh a été déclenché automatiquement à 10:00 UTC par PRICE_GAP et ATR_SPIKE sur le snapshot `data/latest.json` (fetched_at 2026-06-23T10:00:01 UTC). Les données brutes sont **strictement identiques** au snapshot 21h UTC du 2026-06-22 (cours $56.87, RSI 40.17, ATR $5.66, MM50 $54.37, volume 34.93 M, scores 4.9/10 et 54.3/100). Aucun nouvel événement majeur n'a eu lieu. **Anomalie options détectée** : Max Pain $20.00, put/call null, call OI 0.0% — structure incohérente qui remplace la structure fiable du 22/06 (Max Pain $40.00, put/call 4.99, call OI 16.7%). La structure du 22/06 est conservée comme référence opérationnelle. Thèse confirmée : **ATTENDRE** (Score Global 54.3/100). DRAFT_refresh complété et archivé (`IREN_2026-06-23_DRAFT_refresh.md` → `_ARCHIVED_DRAFT_refresh_IREN_2026-06-23_DRAFT_refresh_archived.md`). Fichier de référence : [IREN_2026-06-23_update.md](IREN_2026-06-23_update.md).
+
+---
+
 ## 2026-06-17 — Full Refresh Déclenché (snapshot 17:00 UTC)
 
 **Triggers :**

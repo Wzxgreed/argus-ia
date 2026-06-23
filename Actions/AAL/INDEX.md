@@ -46,26 +46,27 @@
 | 2026-06-22 13:00 UTC | Mise a jour | [AAL_2026-06-22_update.md](./AAL_2026-06-22_update.md) | Snapshot 13h UTC — rally +3.7% à $15.99 sur volume en expansion 126.28M (1.16× avg). RSI 61.34 inchangé. High $16.07 > $16.055 = remontée des sommets invalidant la fatigue. Scores améliorés : Score Opp 5.0/10 (+0.1), Global 55.0/100 (+1.2). Upside consensus +3.3%. ✅ Correction data quality options : Max Pain $13.50 (vs $5.00 aberrant 10h), Put/Call 1.74, Call OI 36.6%. Gamma landscape modifié — influence mécanique non négligeable. These **ATTENDRE — BIAIS HAUSSIER LÉGÈREMENT RENFORCÉ**. SL $14.63, TP $18.03, R/R 1.5. |
 | 2026-06-22 17:00 UTC | Mise a jour | [AAL_2026-06-22_update_17h00.md](./AAL_2026-06-22_update_17h00.md) | Snapshot 17h UTC — NOUVEAU 52W HIGH $16.5899, close $16.545 (+3.47% session, +7.2% vs 17/06), RSI 67.77 (+6.43), volume normalisé 99.32M (0.916× moyenne). Cassure 52W high non validée par volume (< 120M seuil Argus-IA). Consensus négatif −0.2%. These **ATTENDRE — BIAIS HAUSSIER TECHNIQUE RENFORCÉ MAIS NON CONFIRMÉ**. SL $15.19, TP $18.59, R/R 1.5. |
 | 2026-06-22 21:00 UTC | Mise a jour | [AAL_2026-06-22_update_21h00.md](./AAL_2026-06-22_update_21h00.md) | Snapshot 21h UTC (close officiel) — rejet massif du 52W high, close $16.08 (−2.81% vs 17h, +0.56% vs prior), RSI 65.16 (−2.61), volume record révisé 177.37M (1.58× moyenne) = distribution institutionnelle post-sommet. Score Global 53.8/100 (−1.2). Upside consensus +2.7% (mécanique). These **ATTENDRE — DISTRIBUTION INSTITUTIONNELLE POST-52W HIGH**. SL $14.72, TP $18.12, R/R 1.5. |
+| 2026-06-23 10:00 UTC | Mise a jour | [AAL_2026-06-23_update.md](./AAL_2026-06-23_update.md) | Snapshot matinal confirmant stabilité post-distribution. Cours $16.08 inchangé, RSI 65.16, volume 177.55M (1.58×). Options corrompues (anomalie data quality). XLI momentum 7.54 (+0.27). Score 53.8/100 ATTENDRE confirmé. SL $14.72, TP $18.12. |
 
 ---
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE — DISTRIBUTION INSTITUTIONNELLE POST-52W HIGH (snapshot 21h UTC : close $16.08 sur volume record 177.37M = 1.58× moyenne, RSI 65.16, rejet du 52W high $16.5899, Score Global 53.8/100)
+- **Recommandation :** ATTENDRE — DISTRIBUTION INSTITUTIONNELLE POST-52W HIGH (snapshot 10h UTC 23/06 : close $16.08 sur volume record 177.55M = 1.58× moyenne, RSI 65.16, rejet du 52W high $16.59, Score Global 53.8/100)
 - **Prix cible :** Suspendu — attente cassure confirmée au-dessus de $16.60 sur volume > 120M en close ET close > $16.60, ou réévaluation post-earnings
 - **Stop-loss :** $14.72 (2×ATR $0.68)
 - **Take-profit :** $18.12 (3×ATR $0.68)
 - **Ratio R/R :** 1.5
 - **Upside/Downside :** +2.7% (consensus $16.51) / −8.5% (SL)
-- **Derniere mise a jour :** 2026-06-22 (snapshot 21h UTC, close officiel NY)
+- **Derniere mise a jour :** 2026-06-23 (snapshot 10h UTC, confirmant close officiel NY 22/06)
 
-American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). La session officielle du 22/06 a clôturé à **$16.08 (+0.56% vs prior close)** après avoir établi un **nouveau 52W high $16.5899** en intraday. Le volume total atteint **177.37M (1.58× moyenne 20j)** — un record historique récent. Cependant, ce volume record s'accompagne d'un **close sous le 52W high** ($16.08 vs $16.5899) = **distribution institutionnelle** (vente au sommet) selon l'interprétation Argus-IA. Le RSI est redescendu à **65.16** (−2.61 pts vs 17h), sortant partiellement de la zone de surachat proximale. Le consensus analystes **$16.51** est à nouveau **au-dessus du cours** = upside mécanique positif (+2.7%).
+American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). Le snapshot matinal du 23/06 confirme le close officiel du 22/06 à **$16.08 (+0.56% vs prior close)** après avoir établi un **nouveau 52W high $16.59** en intraday. Le volume total atteint **177.55M (1.58× moyenne 20j)** — un record historique récent confirmé. Cependant, ce volume record s'accompagne d'un **close sous le 52W high** ($16.08 vs $16.59) = **distribution institutionnelle** (vente au sommet) selon l'interprétation Argus-IA. Le RSI reste à **65.16**, sortant partiellement de la zone de surachat proximale. Le consensus analystes **$16.51** est à nouveau **au-dessus du cours** = upside mécanique positif (+2.7%).
 
-Les scores de l'agent recommandation sont **légèrement dégradés** : Score Opportunité **4.9/10** (−0.1), Score Global ajusté **53.8/100** (−1.2) — écart de 6.2 pts par rapport au seuil d'achat (60). Le Forward P/E est redescendu mécaniquement à **7.22** (−2.7%). Le short interest reste stable à **11.39%**. Le Filtre Qualité reste 0–1/6. Aucun analyste n'a relevé son PT malgré le test du 52W high = le consensus institutionnel ne valide pas le niveau.
+Les scores de l'agent recommandation sont **inchangés** : Score Opportunité **4.9/10**, Score Global ajusté **53.8/100** — écart de 6.2 pts par rapport au seuil d'achat (60). Le Forward P/E reste à **7.22**. Le short interest reste stable à **11.39%**. Le Filtre Qualité reste 0–1/6. Aucun analyste n'a relevé son PT malgré le test du 52W high = le consensus institutionnel ne valide pas le niveau.
 
-**✅ Correction data quality :** Les données options restent cohérentes : Max Pain **$13.50**, Put/Call **1.74**, Call OI **36.6%**, expiration 2026-06-26. L'écart spot/Max Pain est de **+19.1%** ($16.08 vs $13.50). Le risque de pin vers le Max Pain reste faible à moyen — surveillance si repli sous $15.00 avant expiration vendredi.
+**🔴 Anomalie data quality :** Le snapshot 10h UTC 23/06 présente des données options corrompues (Max Pain $5.00 aberrant, Put/Call null, Call OI 0.0%). Ce pattern récurrent est ignoré. Les valeurs opérationnelles du snapshot 21h UTC 22/06 sont conservées : Max Pain **$13.50**, Put/Call **1.74**, Call OI **36.6%**, expiration 2026-06-26. L'écart spot/Max Pain est de **+19.1%** ($16.08 vs $13.50). Le risque de pin vers le Max Pain reste faible à moyen — surveillance si repli sous $15.00 avant expiration vendredi.
 
-**Verdict institutionnel :** La thèse est **ATTENDRE — DISTRIBUTION INSTITUTIONNELLE POST-52W HIGH.** Le test du 52W high ($16.5899) suivi d'un close sous le sommet ($16.08) sur un volume record (177.37M) est un signal classique de distribution institutionnelle. Le Score Global 53.8/100 reste sous le seuil d'achat. Le bilan reste extrêmement fragile (current ratio 0.50, tangible asset value négatif, net debt/EBITDA 8.83x). Le secteur Industriels (XLI) reste #2 sector rotation (momentum 7.27) = facteur de soutien macro. Le RSI 65.16 laisse une marge de progression, mais la résistance à $16.50 s'impose comme un plafond technique majeur.
+**Verdict institutionnel :** La thèse est **ATTENDRE — DISTRIBUTION INSTITUTIONNELLE POST-52W HIGH.** Le test du 52W high ($16.59) suivi d'un close sous le sommet ($16.08) sur un volume record (177.55M) est un signal classique de distribution institutionnelle. Le Score Global 53.8/100 reste sous le seuil d'achat. Le bilan reste extrêmement fragile (current ratio 0.50, tangible asset value négatif, net debt/EBITDA 8.83x). Le secteur Industriels (XLI) reste #2 sector rotation (momentum 7.54) = facteur de soutien macro légèrement renforcé. Le RSI 65.16 laisse une marge de progression, mais la résistance à $16.50 s'impose comme un plafond technique majeur.
 
 **Conditions de réactivation vers ACHETER (Sizing Réduit) :**
 - Cours > $16.60 sur volume > 120M confirmé en close ET close > $16.60
@@ -109,5 +110,5 @@ Voir [SUPPLY_CHAIN.md](./SUPPLY_CHAIN.md)
 
 - Analyse initiale : [AAL_2026-05-17_init.md](./AAL_2026-05-17_init.md)
 - Mise a jour 2026-05-18 : [AAL_2026-05-18_update.md](./AAL_2026-05-18_update.md)
-- Derniere mise a jour : [AAL_2026-06-22_update_21h00.md](./AAL_2026-06-22_update_21h00.md)
+- Derniere mise a jour : [AAL_2026-06-23_update.md](./AAL_2026-06-23_update.md)
 - Contexte court terme : [CONTEXT.md](./CONTEXT.md)

@@ -97,6 +97,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 | 2026-06-22 | [IREN_2026-06-22_update.md](IREN_2026-06-22_update.md) (snapshot 13h UTC) | Mise à jour post-week-end | **Volume institutionnel de retour** (+151% : 15.69 M → 39.39 M, 33.1% → 81.7%) · **Upgrade algorithmique majeur** : Score Global **61.8/100** (+5.0 pts), Opportunité **5.7/10** (+0.5 pt) · Action **ACHETER (Sizing Réduit)** · RSI normalisé 45.71 · ATR $5.75 · MM50 $53.97 · Consensus PT $69.48 (+1 analyste) · **Structure options corrigée (13h UTC) : défiance record** (Max Pain $40.00, put/call 4.99, puts 83.3% OI) · Thèse **modifiée favorablement avec vigilance** · DRAFT_refresh 22/06 archivé (faux positif ATR_SPIKE 9.59%) |
 | 2026-06-22 | [IREN_2026-06-22_update_17h00.md](IREN_2026-06-22_update_17h00.md) (snapshot 17h UTC) | Mise à jour post-session | **INVALIDATION DE L'UPGRADE MATINAL** · Cours **$56.94** (−5.04% vs 13h UTC) · Volume **effondré 47%** (39.39 M → 20.88 M, 81.7% → 44.7%) · RSI **40.24** (franchissement zone 40 vers le bas) · **Downgrade ACHETER → ATTENDRE** · Score Global **54.3/100** (−7.5 pts) · Score Momentum **4.5/10** (−3.0 pts) · Pattern distribution institutionnelle détecté · SL/TP révisés $45.68/$73.83 · Thèse **invalidée** |
 | 2026-06-22 | [IREN_2026-06-22_update_21h00.md](IREN_2026-06-22_update_21h00.md) (snapshot 21h UTC) | Mise à jour close final | **CORRECTION DES DONNÉES** · Cours **$56.87** (−0.12% vs 17h UTC) · Volume révisé **34.48 M** (+65% vs 17h UTC, 72.7% moyenne) — participation normale, invalide la lecture distribution · Low **$56.30** (nouveau low) · RSI **40.17** (stable) · Scores inchangés **4.9/54.3** · Action **ATTENDRE** confirmée · SL/TP révisés $45.55/$73.85 · Thèse **confirmée ATTENDRE** — pression vendeuse réelle sur volume standard |
+| 2026-06-23 | [IREN_2026-06-23_update.md](IREN_2026-06-23_update.md) (snapshot 10h UTC) | Mise à jour pré-ouverture | **STABILITÉ TOTALE** vs close 22/06 · cours **$56.87** (=) · volume 34.93 M (73.6% moyenne) · RSI **40.17** (=) · **Anomalie options** (Max Pain $20.00/null/null vs structure fiable $40.00/4.99/16.7%) · DRAFT_refresh du 23/06 archivé (faux positif) · Scores inchangés **4.9/54.3** · Action **ATTENDRE** confirmée · Thèse **confirmée** |
 
 ---
 
@@ -124,4 +125,4 @@ Voir [SUPPLY_CHAIN.md](SUPPLY_CHAIN.md) pour la cartographie fournisseurs/client
 
 ---
 
-*Dernière mise à jour : 2026-06-22 (snapshot 21:00 UTC)*
+*Dernière mise à jour : 2026-06-23 (snapshot 10:00 UTC)*
