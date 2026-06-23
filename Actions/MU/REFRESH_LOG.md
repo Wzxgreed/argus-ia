@@ -121,12 +121,12 @@
 
 ---
 
-## 2026-06-23 — Full Refresh Triggered
+## 2026-06-23 — Full Refresh Triggered (snapshot 17h UTC)
 
 **Triggers :**
-- price_gap (high) : Gap -10.92% overnight (seuil ±5.0%)
-- atr_spike (medium) : ATR relatif 9.16% (seuil 5.0%)
+- price_gap (high) : Gap -10.92% intraday (seuil ±5.0%)
+- atr_spike (high) : ATR relatif 9.16% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** MODIFIE — Le repli de −10.92% à $1079.08 sur volume collapse 0.61× modifie la thèse sans l'invalider. Le RSI redescend à 50.76 (zone neutre saine), l'ATR grimpe à $98.85, et le cours reste +41.6% au-dessus de la MM50 ($761.77). La tendance haussière structurelle est intacte. Score Global ajusté reculé de 56.1 à 52.3 (−3.8 pts), porté par le momentum (7.5 → 6.0). La divergence cours vs consensus reste extrême à −50.6% ($1079.08 vs $534.44). Earnings dans moins de 24h (2026-06-24). Pas de full refresh requis — traité dans `MU_2026-06-23_update.md`. DRAFT archivé sous `_MU_2026-06-23_DRAFT_refresh_17h.md`.
 
 ---
