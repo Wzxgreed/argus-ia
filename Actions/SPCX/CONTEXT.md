@@ -11,9 +11,9 @@
 **Prix cible :** N/A (données insuffisances — cours fictif)
 **Stop-loss :** N/A
 **Upside :** —
-**Dernière mise à jour :** 2026-06-22 (close officiel 21h UTC)
+**Dernière mise à jour :** 2026-06-23 (snapshot 10h UTC)
 
-> SPCX est un ETF thématique SPAC/post-IPO. Le close officiel 21h UTC du 22/06 confirme le **maintien en ATTENDRE 56.0/100** avec un Score Opportunité stable à 5.6/10 (C:8.0 V:4.5 M:4.0). Le **conflit de symbole FMP chronique persiste** : FMP renvoie un **nouveau cours fictif $154.60** (−16.43% vs previous close $185.00, −6.78% vs close 17h $165.845), accompagné d'un faux market cap de **$2.04T** et d'un forward P/E contracté mécaniquement à **786.09** (was 843.29). Le secteur persiste `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management`. Les métriques techniques (RSI, ATR, MM50) restent toutes nulles. **Stabilisation confirmée des mutations fondamentales sur trois snapshots consécutifs** : float FMP stable à 281.2M (inchangé depuis 13h), consensus analystes stable (PT $251.50, 4 analysts), options stables (`max_pain` 180.0, `put_call_ratio` 0.83, `call_oi_pct` 54.8%). Le **faux volume rebondit de +88.2%** à 165.55M (vs 88.0M au 17h). Le module sector rotation reste stable (NEUTRAL, 11/11 secteurs OK, XLK momentum_score 10.0, XLF momentum_score **5.08**). Aucun catalyseur fondamental, news, ni social. SL/TP non calculables (prix et ATR absents). Le maintien en ATTENDRE est **non actionnable en pratique** tant que la qualité data ne s'améliore pas. Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + métriques stables. Si le flux fiable ne revient pas ou si les mutations FMP reprennent → retour possible en **ÉVITER**.
+> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 10h UTC du 23/06 confirme le **maintien en ATTENDRE 56.0/100** avec un Score Opportunité stable à 5.6/10 (C:8.0 V:4.5 M:4.0). Le **conflit de symbole FMP chronique persiste** : FMP renvoie un **cours fictif $154.60** stable (−16.43% vs previous close $185.00), accompagné d'un faux market cap de **$2.04T** et d'un forward P/E **786.09**. Le secteur persiste `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management`. Les métriques techniques (RSI, ATR, MM50) restent toutes nulles. **Stabilisation confirmée du float et du consensus sur quatre snapshots consécutifs** : float FMP stable à 281.2M (inchangé depuis 13h 22/06), consensus analystes stable (PT $251.50, 4 analysts). Cependant, la **mutation inverse des options** rompt la tendance de stabilisation : `max_pain` retombe de 180.0 à **162.5**, et le `put_call_ratio` (0.83) ainsi que le `call_oi_pct` (54.8%) **disparaissent** (passés à `null`). Le **faux volume reste stable** à ~167M unités (0.62× moyenne 20j). Le module sector rotation reste stable (NEUTRAL, 11/11 secteurs OK, XLK momentum_score 10.0, XLF momentum_score **5.45**). Aucun catalyseur fondamental, news, ni social. SL/TP non calculables (prix et ATR absents). Le maintien en ATTENDRE est **non actionnable en pratique** tant que la qualité data ne s'améliore pas. Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + métriques stables. Si les mutations FMP reprennent sur les champs stables (float, consensus) → retour possible en **ÉVITER**.
 
 ---
 
@@ -57,15 +57,15 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** full refresh
-- **Fichier :** `SPCX_2026-06-23_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-23
+- **Type :** update post-pipeline
+- **Fichier :** `SPCX_2026-06-23_update.md`
+- **Conclusion :** Thèse confirmée en ATTENDRE avec nuance de stabilisation partielle — faux prix $154.60 stable, float/consensus stables sur 4 snapshots consécutifs, mais mutation inverse options (max_pain 162.5, put/call et call OI à null). Score Global stable 56.0/100. DRAFT_refresh classé faux positif algorithmique.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (high) — Gap -16.43% overnight (seuil ±5.0%)
+- **PRICE_GAP** (high) — Gap -16.43% overnight (seuil ±5.0%) — Faux positif algorithmique, archivé
 
 ---
 

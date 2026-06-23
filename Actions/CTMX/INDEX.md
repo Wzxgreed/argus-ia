@@ -9,15 +9,15 @@
 
 ## These courante
 
-**Recommandation :** SURVEILLER *(degradee depuis ATTENDRE au snapshot 21h UTC)*
-**Score global ajuste :** 48.8/100
+**Recommandation :** SURVEILLER *(degradee depuis ATTENDRE au snapshot 21h UTC 2026-06-22)*
+**Score global ajuste :** 48.8/100 *(inchangé)*
 **Prix cible consensus :** $9.05 (11 analysts)
 **Prix cible technique :** $3.55 (3xATR)
 **Stop-loss :** $2.70 (2xATR)
 **Statut :** These non etablie — profil speculatif biotech pre-profit, Filtre Qualite 2/6
 **Horizon :** 6–12 mois (dependant des catalyseurs cliniques)
 
-**Resume :** CTMX est une biotech en phase clinique avancee (plateforme Probody) avec des partenariats de qualite (AbbVie, BMS, Amgen). Le snapshot **21h UTC** du **2026-06-22** confirme la **cloture officielle** a **$3.04** (+3.05% vs previous close $2.95), RSI **31.53** (+4.96 pts vs 17h, survente extreme attenuee), ATR **$0.17** (stable), volume **3.74M (0.90x)** — **normalisation complete** post-expiration (vs anemie 0.41x a 17h). **Pivot structurel baissier sur les options** stable : put/call **8.91**, call OI **10.1%**, max pain **$4.00**. L'expiration du 2026-06-18 est passee sans materialisation du pin risk haussier. Nouvelle expiration au **2026-07-17**. L'agent Recommandation **downgrade en SURVEILLER** avec **Score Global Ajuste 48.8/100** (-6.2 pts vs 55.0/100 au 17h, malus sectoriel accru a -8.0 pts). Le timing reste **Defavorable**.
+**Resume :** CTMX est une biotech en phase clinique avancee (plateforme Probody) avec des partenariats de qualite (AbbVie, BMS, Amgen). Le snapshot **10h UTC** du **2026-06-23** confirme la **stabilite mecanique totale** vs cloture 2026-06-22 : cours **$3.04** (inchangé), RSI **31.53** (survente persistante attenuee), ATR **$0.17** (stable), volume **3.78M (0.91x)** — normalisation confirmee post-expiration. **Anomalie options JSON recurrente detectee et traitee** (max_pain $1.00 aberrant → valeur operationnelle $4.00 conservee, put/call et call OI `null` → valeurs operationnelles 8.91 et 10.1% conservees). La structure reste **ultra-baissiere** (put/call 8.91, call OI 10.1%, max pain $4.00). L'expiration du **2026-07-17** (J+24) reste le prochain catalyseur technique. Aucune mutation fondamentale n'est detectee. L'agent Recommandation maintient **SURVEILLER** avec **Score Global Ajuste 48.8/100** (sous seuil 50). Le timing reste **Defavorable**.
 
 ---
 
