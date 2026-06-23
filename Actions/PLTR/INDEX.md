@@ -1,11 +1,12 @@
 # PLTR
 
 ## These courante
-| 2026-06-23 13h UTC | [PLTR_2026-06-23_13-00_update.md](PLTR_2026-06-23_13-00_update.md) | Snapshot 13h UTC — **stabilite mecanique totale** vs 10h UTC : cours $119.50 (=), RSI **14.65** (=), volume **56.65M** (=). **Anomalie options JSON RESOLUE** (max_pain $130.00 valide, Put/Call 0.48, Call OI 67.6%). XLK top1 sector rotation (momentum 10.0/10) — bonus sectoriel non realise. Scores agents inchanges (Score Opportunite **5.1/10**, Global ajuste **47.5/100**), consensus FMP $187.47 (34 analystes), timing DEFAVORABLE, these **INVALIDEE** — SURVEILLER maintenu | SURVEILLER — Score Opp. 5.1/10, cours $119.50, RSI 14.65, volume 56.65M (1.36×), ecart MM50 −13.61%, a 0.25% du 52W low $119.20, these invalidee |
+| 2026-06-23 17h UTC | [PLTR_2026-06-23_17-00_update.md](PLTR_2026-06-23_17-00_update.md) | Snapshot 17h UTC — **fatigue vendeuse detectee** vs 13h UTC : cours $118.97 (−0.44%), RSI **16.97** (+2.32 pts), volume **collapse a 22.13M (0.53x)** (−61%). **Nouveau 52W low $117.94** teste (low 23/06) mais recovery a $118.97. ATR compresse $6.26 (−8.2%). Scores agents revises a la hausse (Score Opportunite **5.3/10**, Global ajuste **50.0/100**), consensus FMP $187.47 (34 analystes), timing DEFAVORABLE, these **INVALIDEE avec inflexion** — **upgrade SURVEILLER → ATTENDRE** | ATTENDRE — Score Opp. 5.3/10, cours $118.97, RSI 16.97, volume 22.13M (0.53x), ecart MM50 −13.80%, nouveau 52W low $117.94, these invalidee avec inflexion technique |
 
 ## Historique
 | Date | Fichier | Type | Conclusion |
 |------|---------|------|------------|
+| 2026-06-23 17h UTC | [PLTR_2026-06-23_17-00_update.md](PLTR_2026-06-23_17-00_update.md) | Snapshot 17h UTC — **fatigue vendeuse detectee** vs 13h UTC : cours $118.97 (−0.44%), RSI **16.97** (+2.32 pts), volume **collapse a 22.13M (0.53x)** (−61%). **Nouveau 52W low $117.94** teste (low 23/06) mais recovery a $118.97. ATR compresse $6.26 (−8.2%). Scores agents revises a la hausse (Score Opportunite **5.3/10**, Global ajuste **50.0/100**), consensus FMP $187.47 (34 analystes), timing DEFAVORABLE, these **INVALIDEE avec inflexion** — **upgrade SURVEILLER → ATTENDRE** | ATTENDRE — Score Opp. 5.3/10, cours $118.97, RSI 16.97, volume 22.13M (0.53x), ecart MM50 −13.80%, nouveau 52W low $117.94, these invalidee avec inflexion technique |
 | 2026-06-23 13h UTC | [PLTR_2026-06-23_13-00_update.md](PLTR_2026-06-23_13-00_update.md) | Snapshot 13h UTC — **stabilite mecanique totale** vs 10h UTC : cours $119.50 (=), RSI **14.65** (=), volume **56.65M** (=). **Anomalie options JSON RESOLUE** (max_pain $130.00 valide, Put/Call 0.48, Call OI 67.6%). XLK top1 sector rotation (momentum 10.0/10) — bonus sectoriel non realise. Scores agents inchanges (Score Opportunite **5.1/10**, Global ajuste **47.5/100**), consensus FMP $187.47 (34 analystes), timing DEFAVORABLE, these **INVALIDEE** — SURVEILLER maintenu | SURVEILLER — Score Opp. 5.1/10, cours $119.50, RSI 14.65, volume 56.65M (1.36×), ecart MM50 −13.61%, a 0.25% du 52W low $119.20, these invalidee |
 | 2026-06-23 10h UTC | [PLTR_2026-06-23_update.md](PLTR_2026-06-23_update.md) | Snapshot 10h UTC (pre-marché) — **stabilite mecanique totale** vs close 22/06 : cours $119.50 (=), RSI **14.65** (=), volume **56.65M** (+1.1%, 1.36×), ecart MM50 **−13.61%** (=), 52W low **$119.20** maintenu. Anomalie options JSON detectee et traitee (max_pain $50.00 aberrant → valeurs operationnelles conservees $130.00/0.47/68.1%). XLK top1 sector rotation (momentum 10.0/10) — bonus sectoriel non realise. Scores agents inchanges (Score Opportunite **5.1/10**, Global ajuste **47.5/100**), consensus FMP $187.47 (34 analystes), timing DEFAVORABLE, these **INVALIDEE** — SURVEILLER maintenu | SURVEILLER — Score Opp. 5.1/10, cours $119.50, RSI 14.65, volume 56.65M (1.36×), ecart MM50 −13.61%, a 0.25% du 52W low $119.20, these invalidee |
 | 2026-06-22 21h UTC | [PLTR_2026-06-22_21-00_update.md](PLTR_2026-06-22_21-00_update.md) | Snapshot 21h UTC (close officielle) — **nouveau 52W low** a **$119.20**, cours $119.50 (−6.98% vs previous close, −1.11% vs 17h UTC), RSI **14.65** (survente extreme historique), volume **explose a 56.05M (1.34x)** — invalidation totale de l'hypothese "desert acheteur" du snapshot 17h UTC, ecart MM50 creuse a **−13.61%**, options inchangées (Max Pain $130.00, Put/Call 0.47, Call OI 68.1%), scores agents inchanges (Score Opportunite **5.1/10**, Global ajuste **47.5/100**), consensus FMP inchange $187.47 (34 analystes), timing DEFAVORABLE, these **INVALIDEE** — SURVEILLER maintenu | SURVEILLER — Score Opp. 5.1/10, cours $119.50, RSI 14.65, volume 56.05M (1.34x), ecart MM50 −13.61%, a 0.25% du nouveau 52W low $119.20, these invalidee |
@@ -53,15 +54,17 @@
 | 2026-06-09 | [PLTR_2026-06-09_17-00_update.md](PLTR_2026-06-09_17-00_update.md) | Mise a jour snapshot 17:00 UTC (close) — **deterioration technique nette** : cours -5.72% a $128.67, RSI 45.23 (-5.85 pts), ATR $7.55 (+5.7%), volume effondre 20.64M (0.52x), cassure MM50 creusee a -8.4%, Score Global ajuste 43.8/100 (-2.5 pts), these SURVEILLER **confirmee avec nuance baissiere accrue** | SURVEILLER — Score Opp. 5.2/10, cours $128.67, RSI 45.23, volume 20.64M (0.52x), deterioration technique, cassure MM50 creusee, these confirmee avec nuance baissiere accrue |
 
 ## Agenda
-- **Prochain earnings :** 2026-08-03 (Q2 FY2026, Est. EPS $0.32-$0.40, Rev $1.8B) — 47 jours
-- **Expiration options :** 2026-06-18 (1 jour) — valeur valide Max Pain $140.00 (17/06 17h UTC)
+- **Prochain earnings :** 2026-08-03 (Q2 FY2026, Est. EPS $0.33-$0.40, Rev $1.8B) — 41 jours
+- **Expiration options :** 2026-06-26 (3 jours) — valeur valide Max Pain $130.00 (23/06 17h UTC)
 
 ## Alertes actives
-- 🔴 **Cassure MM50** — Cours $134.86 sous MM50 $138.76 (snapshot 17/06 17h UTC) — invalidation retournement haussier persistante, écart réduit à -2.81%
-- 🔴 **Volume collapse** — Volume 16.61M = 0.44× moyenne 20j — retour sous la moyenne, absence d'acheteurs
-- 🟡 **RSI retour sous zone 50** — RSI 43.31 (vs 50.51 au snapshot 10h) — momentum haussier absent
-- 🟡 **Anomalie RSI inter-snapshot** — RSI passe de 50.51 (10h) à 43.31 (17h) malgré cours en hausse — possible recalcul série historique. Surveillance recommandée.
-- 🟡 **Alerte volume RÉSOLUE (15/06)** — Volume 17h 0.61× (23.18M) → close final 0.965× (37.28M). Le rebond est légitimé par la normalisation du volume en fin de session.
+- 🔴 **Cassure MM50** — Cours $118.97 sous MM50 $138.03 (snapshot 23/06 17h UTC) — invalidation retournement haussier persistante, ecart **−13.80%**
+- 🔴 **Nouveau 52W low** — Low $117.94 teste et depasse en seance (23/06) — support annuel casse, recovery a $118.97
+- 🔴 **Volume collapse** — Volume 22.13M = 0.53× moyenne 20j (−61% vs snapshot 13h) — selling exhaustion / absence d'acheteurs
+- 🔴 **RSI survente extreme** — RSI 16.97 — niveau historique de survente, legere amelioration (+2.32 pts vs 13h)
+- 🟡 **ATR compression** — ATR $6.26 (−8.2% vs $6.82 snapshot 13h) — volatilite en retrait = consolidation potentielle
+- 🟡 **Divergence options/cours** — Max Pain $130.00 (+9.3%) vs cours $118.97 — marche options anticipe rebond non realise
+- 🟡 **Alerte volume RESOLUE (15/06)** — Volume 17h 0.61× (23.18M) → close final 0.965× (37.28M). Le rebond est legitime par la normalisation du volume en fin de session.
 - Warning : `data/accounting_risk_latest.json` absent — Filtre Qualite non alimente
 - Alerte technique RESOLUE : RSI 35.66 < 40 — retour en zone de survente depuis le 25/05 (resolu le 26/05 17:00 UTC, RSI 52.85)
 - Anomalie options JSON RESOLUE snapshot 26/05 13:00 UTC — Put/Call 0.55, Max Pain $140.00, Call OI 64.4% valides et coherents
@@ -77,13 +80,14 @@
 - ✅ **Options JSON valides snapshot 17/06 17h UTC** — Max Pain $140.00, Put/Call 0.67, Call OI 59.8% cohérents
 
 ## Contexte technique (dernier snapshot 17h UTC)
-- Cours : $134.86
-- RSI 14j : 43.31
-- MM 50j : 138.76
+- Cours : $118.97
+- RSI 14j : 16.97
+- MM 50j : 138.03
 - MM 200j : —
-- ATR 14j : 7.20
-- Volume moy. 20j : 38,112,357
-- Volume jour : 16,614,047
-- Max Pain : $140.00 — valeurs JSON valides
-- Put/Call : 0.67 — biais haussier modéré stable
-- Call OI % : 59.8% — biais haussier stable
+- ATR 14j : 6.26
+- Volume moy. 20j : 41,446,906
+- Volume jour : 22,127,439 (0.53×)
+- 52W low : $117.94 (nouveau)
+- Max Pain : $130.00 — valeurs JSON valides
+- Put/Call : 0.48 — biais haussier stable
+- Call OI % : 67.6% — biais haussier stable
