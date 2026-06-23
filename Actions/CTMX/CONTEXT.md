@@ -15,7 +15,7 @@
 **Statut :** These non etablie — profil speculatif biotech pre-profit, Filtre Qualite 2/6
 **Horizon :** 6–12 mois (dependant des catalyseurs cliniques)
 
-**Resume :** CTMX est une biotech en phase clinique avancee (plateforme Probody) avec des partenariats de qualite (AbbVie, BMS, Amgen). Le snapshot **10h UTC** du **2026-06-23** confirme la **stabilite mecanique totale** vs cloture 2026-06-22 : cours **$3.04** (inchangé), RSI **31.53** (survente persistante attenuee), ATR **$0.17** (stable), volume **3.78M (0.91x)** — normalisation confirmee post-expiration. **Anomalie options JSON recurrente detectee et traitee** (max_pain $1.00 aberrant → valeur operationnelle $4.00 conservee, put/call et call OI `null` → valeurs operationnelles 8.91 et 10.1% conservees). La structure reste **ultra-baissiere** (put/call 8.91, call OI 10.1%, max pain $4.00). L'expiration du **2026-07-17** (J+24) reste le prochain catalyseur technique. Aucune mutation fondamentale n'est detectee. L'agent Recommandation maintient **SURVEILLER** avec **Score Global Ajuste 48.8/100** (sous seuil 50). Le timing reste **Defavorable**.
+**Resume :** CTMX est une biotech en phase clinique avancee (plateforme Probody) avec des partenariats de qualite (AbbVie, BMS, Amgen). Le snapshot **13h UTC** du **2026-06-23** confirme la **stabilite mecanique totale** vs snapshot 10h UTC : cours **$3.04** (inchangé), RSI **31.53** (survente persistante attenuee), ATR **$0.17** (stable), volume **3.78M (0.91x)** — normalisation confirmee post-expiration. **Anomalie options JSON RESOLUE** — les valeurs propres du snapshot 13h UTC confirment put/call **2.87** (vs 8.91 valeur operationnelle conservee au snapshot 10h) et call OI **25.8%** (vs 10.1%). La structure est desormais **baissiere moderee** (vs ultra-baissiere). L'expiration du **2026-07-17** (J+24) reste le prochain catalyseur technique. Aucune mutation fondamentale n'est detectee. L'agent Recommandation maintient **SURVEILLER** avec **Score Global Ajuste 48.8/100** (sous seuil 50). Le timing reste **Defavorable**.
 
 ---
 
@@ -36,7 +36,13 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- :yellow_circle: Structure options baissiere attenuee (put/call 2.87, call OI 25.8%) — amelioration vs snapshot 10h UTC
+- :yellow_circle: Cours $3.04 stable sous MM50 ($3.80, ecart -20.0%)
+- :green_circle: Volume **0.91x** — normalise post-expiration
+- :red_circle: RSI 31.53 — survente persistante
+- :green_circle: Support $2.86 **NON TESTE** (low $2.95)
+- :red_circle: Score Global Ajuste **48.8/100** — sous le seuil institutionnel (50)
+- :red_circle: Recommandation **SURVEILLER** — degradee depuis ATTENDRE
 
 ---
 

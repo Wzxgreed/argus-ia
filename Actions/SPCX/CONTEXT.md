@@ -11,9 +11,9 @@
 **Prix cible :** N/A (données insuffisances — cours fictif)
 **Stop-loss :** N/A
 **Upside :** —
-**Dernière mise à jour :** 2026-06-23 (snapshot 10h UTC)
+**Dernière mise à jour :** 2026-06-23 (snapshot 13h UTC)
 
-> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 10h UTC du 23/06 confirme le **maintien en ATTENDRE 56.0/100** avec un Score Opportunité stable à 5.6/10 (C:8.0 V:4.5 M:4.0). Le **conflit de symbole FMP chronique persiste** : FMP renvoie un **cours fictif $154.60** stable (−16.43% vs previous close $185.00), accompagné d'un faux market cap de **$2.04T** et d'un forward P/E **786.09**. Le secteur persiste `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management`. Les métriques techniques (RSI, ATR, MM50) restent toutes nulles. **Stabilisation confirmée du float et du consensus sur quatre snapshots consécutifs** : float FMP stable à 281.2M (inchangé depuis 13h 22/06), consensus analystes stable (PT $251.50, 4 analysts). Cependant, la **mutation inverse des options** rompt la tendance de stabilisation : `max_pain` retombe de 180.0 à **162.5**, et le `put_call_ratio` (0.83) ainsi que le `call_oi_pct` (54.8%) **disparaissent** (passés à `null`). Le **faux volume reste stable** à ~167M unités (0.62× moyenne 20j). Le module sector rotation reste stable (NEUTRAL, 11/11 secteurs OK, XLK momentum_score 10.0, XLF momentum_score **5.45**). Aucun catalyseur fondamental, news, ni social. SL/TP non calculables (prix et ATR absents). Le maintien en ATTENDRE est **non actionnable en pratique** tant que la qualité data ne s'améliore pas. Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + métriques stables. Si les mutations FMP reprennent sur les champs stables (float, consensus) → retour possible en **ÉVITER**.
+> SPCX est un ETF thématique SPAC/post-IPO. Le snapshot 13h UTC du 23/06 confirme le **maintien en ATTENDRE 56.0/100** avec un Score Opportunité stable à 5.6/10 (C:8.0 V:4.5 M:4.0). Le **conflit de symbole FMP chronique persiste** : FMP renvoie un **cours fictif $154.60** stable (−16.43% vs previous close $185.00), accompagné d'un faux market cap de **$2.04T** et d'un forward P/E **786.09**. Le secteur persiste `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management`. Les métriques techniques (RSI, ATR, MM50) restent toutes nulles. Le **float FMP** (281.2M) reste **inchangé pour un cinquième snapshot consécutif** (13h → 17h → 21h 22/06 → 10h → 13h 23/06), ce qui est la séquence de stabilité la plus longue observée. Cependant, la **stabilité du consensus sur quatre snapshots est rompue** : le `price_target_avg` baisse de $251.50 à **$235.2** (−6.5%) et le `num_analysts` passe de 4 à **5**. Les **options** ont également muté à l'inverse : `max_pain` remonte de 162.5 à **180.0**, `put_call_ratio` réapparaît à **0.36**, et `call_oi_pct` réapparaît à **73.5%** (vs 54.8% au snapshot 21h 22/06). Le **faux volume reste stable** à ~167M unités (0.62× moyenne 20j). Le module sector rotation reste stable (NEUTRAL, 11/11 secteurs OK, XLK momentum_score 10.0, XLF momentum_score **5.45**). Aucun catalyseur fondamental, news, ni social. SL/TP non calculables (prix et ATR absents). Le maintien en ATTENDRE est **non actionnable en pratique** tant que la qualité data ne s'améliore pas. Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + métriques stables. Si les mutations FMP reprennent sur le float (dernier champ stable) → **ÉVITER** pour cause de data quality irréparable.
 
 ---
 
@@ -40,7 +40,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-23** · earnings · Earnings ...
+- **2026-06-23** · earnings · Earnings (artefact FMP pour ETF, à ignorer)
 
 ---
 
