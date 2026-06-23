@@ -2,7 +2,7 @@
 
 > **Secteur :** Healthcare — Diagnostics & Research
 > **Capitalisation :** $35.72B
-> **Cours actuel :** $126.49 (2026-06-23 · snapshot 13h UTC)
+> **Cours actuel :** $127.43 (2026-06-23 · snapshot 17h UTC)
 > **Consensus PT :** $163.29 (24 analystes, +7 le mois dernier, +8 le trimestre)
 
 ---
