@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
+- **Recommandation :** ACHETER (Réduit)
+- **Score global :** 61.5/100 (71.5 ajusté)
+- **Prix cible :** $48.54
 - **Stop-loss :** $42.14
-- **Statut thèse :** —
-- **Horizon :** —
+- **Statut thèse :** Confirmée
+- **Horizon :** 1–3 mois
 
 ---
 
@@ -30,7 +30,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-23** · earnings · Earnings ...
+- **2026-06-23** · earnings · Earnings (artefact FMP, J+1 imminent)
 
 ---
 
@@ -47,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** preview
-- **Fichier :** `TEST_2026-06-23_preview.md`
-- **Conclusion :** > **Date :** 2026-06-23
+- **Type :** update
+- **Fichier :** `TEST_2026-06-23_update_13h00.md`
+- **Conclusion :** Stabilité mécanique totale vs snapshot 10h UTC — cours $44.704 inchangé, RSI 50.07, volume 3,700 (2.04× avg), scores strictement identiques (Score Global 61.5/100, 71.5 ajusté), verdict ACHETER (Réduit) maintenu. Illiquidité extrême confirmée (aucune transaction sur 3h). Earnings JOUR J persistant (J+1 imminent).
 
 ---
 
