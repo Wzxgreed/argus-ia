@@ -1,3 +1,15 @@
+## 2026-06-23 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +6.97% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 7.21% (seuil 5.0%)
+
+**Conclusion :** ARCHIVÉ — Triggers stale, consolidés dans le snapshot 22/06 21h UTC
+
+Snapshot 2026-06-23 10:00 UTC. **Rollover strict** du close 22/06 21h UTC. Données **strictement inchangées** (close $14.43, RSI 38.85, ATR $1.04, MM50 $13.27, volume 117.1M 0.885×). Aucun événement corporate (`events_2026-06-23.json` vide), aucune news structurante, aucun mouvement options/insiders. Les triggers `PRICE_GAP` et `ATR_SPIKE` sont des **faux positifs stale** : le gap +6.97% et l'ATR relatif 7.21% datent du rebond du 22/06 et n'ont pas généré de nouvelles données. **Données options corrompues** dans `latest.json` (max pain $3.00 aberrant, put/call et call OI null) — valeurs opérationnelles du 22/06 conservées ($14.00 / 1.03 / 49.3%). Filtre Qualité inchangé (2.5/6 hors périmètre). Premium vs consensus $10.8 stable à +33.6%. Score Opportunité 4.3/10. Score Global ajusté **48.0/100** — **SURVEILLER** confirmé. DRAFT_refresh archivé. Thèse inchangée.
+
+---
+
 ## 2026-06-16 — Full Refresh Triggered
 
 **Triggers :**
@@ -3002,6 +3014,26 @@ Même conclusion que l'entrée précédente. DRAFT_refresh archivé.
 ---
 
 ## 2026-06-22 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +6.97% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 7.21% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-23 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +6.97% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 7.21% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-23 — Full Refresh Triggered
 
 **Triggers :**
 - price_gap (medium) : Gap +6.97% overnight (seuil ±5.0%)

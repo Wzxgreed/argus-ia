@@ -9,13 +9,13 @@
 
 ## Thèse Courante
 
-IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot final du 2026-06-22 (21h UTC) confirme l'**action ATTENDRE** : Score Global ajusté **54.3/100**. Cours à **$56.87** (−5.15% session) avec RSI **40.17** (stable à la limite de la zone 40). **Volume finalisé à 34.48 M** (72.7% moyenne 20j) — participation normale, invalidant la lecture "distribution institutionnelle" du snapshot 17h UTC. Structure options **défiance record maintenue** : Max Pain **$40.00**, put/call **4.99**, call OI **16.7%** (puts **83.3%** OI).
+IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infrastructure HPC/IA** de référence. Le contrat **$3.4B avec NVIDIA** reste le catalyseur structurant. Le snapshot du 2026-06-23 (10h UTC, données close 22/06 finalisées) confirme l'**action ATTENDRE** : Score Global ajusté **54.3/100**. Cours à **$56.87** (−5.15% session) avec RSI **40.17** (stable à la limite de la zone 40). **Volume finalisé à 34.93 M** (73.6% moyenne 20j) — participation normale. Structure options **défiance record maintenue** : Max Pain **$40.00**, put/call **4.99**, call OI **16.7%** (puts **83.3%** OI) — [ANOMALIE] `latest.json` retourne Max Pain $20.00/null/null ; structure fiable du 22/06 21h UTC conservée.
 
 **🔴 Momentum technique cassé :** Le RSI à **40.17** est stable à la limite de la zone 40. L'ATR 14j (**$5.66**) et la MM50 (**$54.37**) sont disponibles — le cours à **$56.87** se tient à **+4.6%** au-dessus de la MM50. Timing déclaré **Favorable** (artefact RSI 40 — zone de rebond possible, mais faiblesse confirmée). Close proche du low ($56.87 vs low $56.30) = absence de rebond en fin de session.
 
-**🟢 Consensus PT inchangé :** **$69.48 (27 analysts)** — upside depuis close $56.87 à **+22.2%** (mécaniquement amélioré par la baisse du cours).
+**🟢 Consensus PT inchangé :** **$69.48 (27 analysts)** — upside depuis close $56.87 à **+22.2%**.
 
-**🔴 Valorisation mécaniquement améliorée mais toujours extrême :** Score Valorisation **4.0/10** (=). P/E TTM **73.86×**, P/B **7.28×**, EV/EBITDA **157.50×** — multiples toujours extrêmes.
+**🔴 Valorisation mécaniquement améliorée mais toujours extrême :** Score Valorisation **4.0/10** (=). P/E TTM **73.86×**, P/B **7.28×**, EV/EBITDA **150.00×** — multiples toujours extrêmes.
 
 **🔴 Forward P/E négatif :** **−60.50×** — profitabilité attendue éloignée. FCF négatif (yield −36%).
 
@@ -23,7 +23,7 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 
 **🔴 Short Interest élevé stable :** **16.05%** — défiance accrue du marché maintenue, fuel squeeze inactif.
 
-**🟡 Volume normalisé :** 34.48 M = **72.7%** moyenne 20j — participation standard. La baisse de −5.15% s'est faite sur une pression vendeuse réelle, pas sur un vide de liquidité.
+**🟡 Volume normalisé :** 34.93 M = **73.6%** moyenne 20j — participation standard. La baisse de −5.15% s'est faite sur une pression vendeuse réelle, pas sur un vide de liquidité.
 
 **🔴 Volatilité extrême :** Beta **4.232**. Sizing réduit obligatoire si reconviction (max 5% portefeuille).
 
@@ -33,11 +33,11 @@ IREN est en plein pivot stratégique : du **Bitcoin mining pur** vers l'**infras
 
 **⚠️ Données techniques :** MM200 toujours indisponible. SL/TP révisés : SL **$45.55** (2×ATR), TP **$73.85** (3×ATR), ratio R/R **1.5**.
 
-**Earnings Q1 2026** : résultats toujours non intégrés dans les feeds Yahoo/FMP au 2026-06-22 (28 jours après le J0 annoncé). Prochain earnings Q2 2026 : **2026-08-27** (66 jours).
+**Earnings Q1 2026** : résultats toujours non intégrés dans les feeds Yahoo/FMP au 2026-06-23 (29 jours après le J0 annoncé). Prochain earnings Q2 2026 : **2026-08-27** (65 jours).
 
 **Score Opportunité : 4.9/10** (Catalyseur 6.3, Valorisation 4.0, Momentum 4.5)
 **Score Global ajusté : 54.3/100**
-**Action : ATTENDRE** — Corrigé depuis le snapshot 13h UTC (ACHETER Sizing Réduit). La pression vendeuse de −5.15% est confirmée sur volume normal. Attendre consolidation au-dessus de MM50.
+**Action : ATTENDRE** — La pression vendeuse de −5.15% est confirmée sur volume normal. Attendre consolidation au-dessus de MM50.
 
 > **⚠️ Réserve earnings :** Les résultats Q1 2026 ne sont toujours pas intégrés dans les feeds (FY 2025 uniquement). Sizing réduit obligatoire si reconviction (beta 4.232, ATR 9.95% historique, défiance options record). Surveiller BTC — seuil critique $75k. Si le cours casse $54.37 (MM50) sans rebond → passer en SURVEILLER. Si le cours casse $53.97 (ancienne MM50) → stopper toute position. Si le cours casse $45.55 (SL) → stopper la position.
 

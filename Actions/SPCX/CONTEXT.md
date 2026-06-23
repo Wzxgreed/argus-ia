@@ -1,4 +1,4 @@
-# CONTEXT — SPCX — Dernière mise à jour : 2026-06-22
+# CONTEXT — SPCX — Dernière mise à jour : 2026-06-23
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -8,19 +8,19 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ATTENDRE (artefact mécanique — maintien agent non fondé sur amélioration data quality)
-- **Prix cible :** N/A (données insuffisantes — cours fictif)
-- **Stop-loss :** N/A
-- **Upside :** —
-- **Dernière mise à jour :** 2026-06-22 (close officiel 21h UTC)
+**Prix cible :** N/A (données insuffisances — cours fictif)
+**Stop-loss :** N/A
+**Upside :** —
+**Dernière mise à jour :** 2026-06-22 (close officiel 21h UTC)
 
-> SPCX est un ETF thématique SPAC/post-IPO. Le close officiel 21h UTC du 22/06 confirme le **maintien en ATTENDRE 56.0/100** avec un Score Opportunité stable à 5.6/10 (C:8.0 V:4.5 M:4.0). Le **conflit de symbole FMP chronique persiste** : FMP renvoie un **nouveau cours fictif $154.60** (−16.43% vs previous close $185.00), accompagné d'un faux market cap de **$2.04T** et d'un forward P/E contracté mécaniquement à **786.09**. Le secteur persiste `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management`. Les métriques techniques (RSI, ATR, MM50) restent toutes nulles. **Stabilisation confirmée des mutations fondamentales sur trois snapshots consécutifs** : float FMP stable à 281.2M, consensus analystes stable (PT $251.50, 4 analysts), options stables (`max_pain` 180.0, `put_call_ratio` 0.83, `call_oi_pct` 54.8%). Le **faux volume rebondit de +88.2%** à 165.55M. Le module sector rotation reste stable (NEUTRAL, 11/11 secteurs OK, XLK momentum_score 10.0, XLF momentum_score **5.08**). Aucun catalyseur fondamental, news, ni social. SL/TP non calculables (prix et ATR absents). Le maintien en ATTENDRE est **non actionnable en pratique** tant que la qualité data ne s'améliore pas. Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + métriques stables.
+> SPCX est un ETF thématique SPAC/post-IPO. Le close officiel 21h UTC du 22/06 confirme le **maintien en ATTENDRE 56.0/100** avec un Score Opportunité stable à 5.6/10 (C:8.0 V:4.5 M:4.0). Le **conflit de symbole FMP chronique persiste** : FMP renvoie un **nouveau cours fictif $154.60** (−16.43% vs previous close $185.00, −6.78% vs close 17h $165.845), accompagné d'un faux market cap de **$2.04T** et d'un forward P/E contracté mécaniquement à **786.09** (was 843.29). Le secteur persiste `Industrials` / `Aerospace & Defense` au lieu de `Financial Services` / `Asset Management`. Les métriques techniques (RSI, ATR, MM50) restent toutes nulles. **Stabilisation confirmée des mutations fondamentales sur trois snapshots consécutifs** : float FMP stable à 281.2M (inchangé depuis 13h), consensus analystes stable (PT $251.50, 4 analysts), options stables (`max_pain` 180.0, `put_call_ratio` 0.83, `call_oi_pct` 54.8%). Le **faux volume rebondit de +88.2%** à 165.55M (vs 88.0M au 17h). Le module sector rotation reste stable (NEUTRAL, 11/11 secteurs OK, XLK momentum_score 10.0, XLF momentum_score **5.08**). Aucun catalyseur fondamental, news, ni social. SL/TP non calculables (prix et ATR absents). Le maintien en ATTENDRE est **non actionnable en pratique** tant que la qualité data ne s'améliore pas. Rétablissement possible si retour d'une source de prix fiable avec sector correct (`Financial Services`) + volume >1 000 + métriques stables. Si le flux fiable ne revient pas ou si les mutations FMP reprennent → retour possible en **ÉVITER**.
 
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 56.0/100
-- **Prix cible :** N/A
-- **Stop-loss :** N/A
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
 - **Statut thèse :** validée
 - **Horizon :** —
 
@@ -40,8 +40,7 @@
 
 ## 📅 Prochains événements
 
-- Aucun — ETF thématique, pas de calendrier earnings au sens classique
-- Faux événement FMP `earnings` 2026-06-22 ignoré (artefact)
+- **2026-06-23** · earnings · Earnings ...
 
 ---
 
@@ -51,22 +50,22 @@
 - **MM 50j :** —
 - **MM 200j :** —
 - **ATR 14j :** —
-- **Volume moy. 20j :** 268377099
+- **Volume moy. 20j :** 268629350
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-22
-- **Type :** update (close officiel 21h UTC)
-- **Fichier :** `SPCX_2026-06-22_update_21h.md`
-- **Conclusion :** Thèse confirmée en ATTENDRE avec nuance de stabilisation — Score Global stable 56.0/100, faux prix $154.60 (−16.43%), mutations FMP stabilisées sur 3 snapshots consécutifs (options/float/consensus), setup non-actionnable en pratique.
+- **Date :** 2026-06-23
+- **Type :** full refresh
+- **Fichier :** `SPCX_2026-06-23_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-23
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (high) — Gap -16.43% overnight/seance (seuil ±5.0%) — déclenchement mécanique sur faux prix, DRAFT archivé comme artefact
+- **PRICE_GAP** (high) — Gap -16.43% overnight (seuil ±5.0%)
 
 ---
 

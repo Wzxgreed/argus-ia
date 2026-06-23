@@ -1,4 +1,4 @@
-# CONTEXT — MITK — Dernière mise à jour : 2026-06-22
+# CONTEXT — MITK — Dernière mise à jour : 2026-06-23
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -24,12 +24,7 @@
 
 ## 🚨 Alertes actives
 
-- 🟡 Volume matinal élevé résolu (total 0.92×)
-- 🟡 Consensus PT $16.00 sous spot dépassé +8.1%
-- 🟡 Proximité 52W high (3.8%)
-- 🟡 Catalyseur faible (4.0/10)
-- 🟢 RSI neutre favorable (45.17)
-- 🟢 Cours au-dessus de MM50 (+12.8%)
+- Aucune alerte active.
 
 ---
 
@@ -45,16 +40,16 @@
 - **MM 50j :** 15.35
 - **MM 200j :** —
 - **ATR 14j :** 0.93
-- **Volume moy. 20j :** 1055036
+- **Volume moy. 20j :** 1076910
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-22
-- **Type :** update
-- **Fichier :** `MITK_2026-06-22_update_21h.md`
-- **Conclusion :** Close officiel 21h UTC — thèse CONFIRMÉE : ATTENDRE maintenu, intensité négative levée. Cours $17.31 (+0.29% vs previous close), RSI 45.17, volume 987K (0.92× moyenne 20j). Score Global Ajusté 56.5/100 (+3.7 pts vs 17h), Momentum 7.0/10 (+1.5 pt). SL $15.45, TP $20.10, R/R 1.5.
+- **Date :** 2026-06-23
+- **Type :** full refresh
+- **Fichier :** `MITK_2026-06-23_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-23
 
 ---
 

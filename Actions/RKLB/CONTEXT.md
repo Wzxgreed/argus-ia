@@ -1,4 +1,4 @@
-# CONTEXT — RKLB — Dernière mise à jour : 2026-06-22
+# CONTEXT — RKLB — Dernière mise à jour : 2026-06-23
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ÉVITER
-- **Score global :** 29.3/100
-- **Prix cible :** $90.83 (consensus 18 analysts)
-- **Stop-loss :** $79.79
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
 - **Statut thèse :** modifiée
-- **Horizon :** 1–3 mois
+- **Horizon :** —
 
 ---
 
@@ -24,19 +24,13 @@
 
 ## 🚨 Alertes actives
 
-- RSI 36.44 — survente étendue (<40)
-- Cassure MM50 — spot $100.29 sous MM50 $104.58 (−4.1%)
-- Volume 0.92× sur baisse −6.48% — distribution institutionnelle active (vendeurs présents)
-- Pin risk expiration 26/06 — Max Pain $69.00 vs spot +45.3%
-- Score Global 29.3/100 (ÉVITER)
-- Filtre Qualité 3/6 — hors périmètre institutionnel
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- Earnings Q2 2026 : 2026-08-06 (45 jours)
-- Expiration options : 2026-06-26 (4 jours)
+- Aucun événement à venir.
 
 ---
 
@@ -46,16 +40,16 @@
 - **MM 50j :** 104.58
 - **MM 200j :** —
 - **ATR 14j :** 10.25
-- **Volume moy. 20j :** 29888760
+- **Volume moy. 20j :** 29894455
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-22
-- **Type :** update_21h
-- **Fichier :** `RKLB_2026-06-22_update_21h.md`
-- **Conclusion :** ÉVITER confirmé. Gap baissier −6.48% à $100.29 sur volume révisé 0.92× (27.54M). Révision volumétrique invalide hypothèse « dérive sans acheteurs » = distribution active confirmée. Cassure MM50 ($104.58) confirmée. Score Global stable 29.3/100. SL $79.79 / TP $131.04.
+- **Date :** 2026-06-23
+- **Type :** full refresh
+- **Fichier :** `RKLB_2026-06-23_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-23
 
 ---
 

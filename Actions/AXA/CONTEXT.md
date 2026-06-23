@@ -1,4 +1,4 @@
-# CONTEXT — AXA — Dernière mise à jour : 2026-06-22 (snapshot 21h UTC)
+# CONTEXT — AXA — Dernière mise à jour : 2026-06-23
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -40,7 +40,7 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 
 ## 📅 Prochains événements
 
-- **2026-06-22** · earnings · Earnings ...
+- **2026-06-23** · earnings · Earnings ...
 
 ---
 
@@ -56,10 +56,10 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-22
-- **Type :** update
-- **Fichier :** `AXA_2026-06-22_update_21h.md`
-- **Conclusion :** Thèse ATTENDRE confirmée — données AXA toujours manquantes (27e snapshot consécutif), contexte sectoriel XLF stable à marge (rang 3e/11 conservé, micro-dégradation marginale interprétée comme bruit de clôture), earnings J0 FMP sans détails exploitables (27e occurrence consécutive).
+- **Date :** 2026-06-23
+- **Type :** preview
+- **Fichier :** `AXA_2026-06-23_preview.md`
+- **Conclusion :** > **Date :** 2026-06-23
 
 ---
 

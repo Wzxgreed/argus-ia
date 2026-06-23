@@ -1,4 +1,4 @@
-# CONTEXT — AAL — Dernière mise à jour : 2026-06-22
+# CONTEXT — AAL — Dernière mise à jour : 2026-06-23
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -38,7 +38,7 @@ Les scores de l'agent recommandation sont **légèrement dégradés** : Score Op
 ---
 
 ## Actualites ayant impacte ce dossier
-- **Score global :** 53.8/100
+- **Score global :** —/10
 - **Prix cible :** $—
 - **Stop-loss :** $14.72
 - **Statut thèse :** validée
@@ -56,13 +56,13 @@ Les scores de l'agent recommandation sont **légèrement dégradés** : Score Op
 
 - Baisse — $11.41 (SL 2×ATR) — 🟢 Active
 - Hausse — $14.00 (prix cible) — 🔴 Déclenchée (27/05)
-- Volume — >2× moy. 20j (>XXM) — 🔴 Déclenchée (22/06 — volume record 177.37M)
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **2026-07-23** · earnings · Earnings date — Est EPS $-0.34-$0.52, Rev $16.6B...
 
 ---
 
@@ -72,7 +72,7 @@ Les scores de l'agent recommandation sont **légèrement dégradés** : Score Op
 - **MM 50j :** 13.16
 - **MM 200j :** —
 - **ATR 14j :** 0.68
-- **Volume moy. 20j :** 112315468
+- **Volume moy. 20j :** 112324750
 
 ---
 
@@ -80,8 +80,8 @@ Les scores de l'agent recommandation sont **légèrement dégradés** : Score Op
 
 - **Date :** 2026-06-22
 - **Type :** update
-- **Fichier :** `AAL_2026-06-22_update_21h00.md`
-- **Conclusion :** Distribution institutionnelle post-52W high — volume record 177.37M (1.58× avg) sur rejet du sommet $16.5899 → close $16.08. Score Global 53.8/100. Thèse ATTENDRE confirmée et renforcée.
+- **Fichier :** `AAL_2026-06-22_update.md`
+- **Conclusion :** **Date :** 2026-06-22 (snapshot 13h UTC, data options corrigée post-pipeline)
 
 ---
 

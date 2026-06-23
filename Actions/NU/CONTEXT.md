@@ -1,4 +1,4 @@
-# CONTEXT — NU — Dernière mise à jour : 2026-06-22
+# CONTEXT — NU — Dernière mise à jour : 2026-06-23
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -48,16 +48,16 @@
 - **MM 50j :** 13.44
 - **MM 200j :** —
 - **ATR 14j :** 0.57
-- **Volume moy. 20j :** 65029975
+- **Volume moy. 20j :** 65245235
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-22
-- **Type :** update
-- **Fichier :** `NU_2026-06-22_update_21h.md`
-- **Conclusion :** **Thèse : CONFIRMÉE avec DOWNGRADE MÉCANIQUE DE RETOUR — ATTENDRE (invalidation du re-upgrade de 17h, cours stable en clôture officielle $12.79 +0.63% vs $12.71, RSI 47.74, volume faible 0.56× 36.51M, gap MM50 −4.9%, fondamentaux intacts forward P/E 11.10× upside +36.7%, structure options stable max pain $14.00 put/call 0.58 call OI 63.3%, SL/TP révisés $11.65/$14.50, timing défavorable maintenu)**
+- **Type :** init
+- **Fichier :** `NU_2026-06-22_update_17h.md`
+- **Conclusion :** **Thèse : CONFIRMÉE avec RE-UPGRADE MÉCANIQUE — ACHETER (Réduit) (mutation technique positive vs snapshot 10h, cours +1
 
 ---
 

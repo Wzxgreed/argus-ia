@@ -1,4 +1,4 @@
-# CONTEXT — AST — Dernière mise à jour : 2026-06-22
+# CONTEXT — AST — Dernière mise à jour : 2026-06-23
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -30,31 +30,26 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-22** · earnings · Earnings ...
+- **2026-06-23** · earnings · Earnings ...
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-**AST :** donnees indisponibles (No price history >51 snapshots consecutifs)
-
-**ASTS (proxy) :**
-- **Cours close :** $73.19 (previous $80.66, -9.26%)
-- **RSI 14j :** 32.85 (survente)
-- **MM 50j :** $88.05 (cours sous MM50 -16.9%)
+- **RSI 14j :** —
+- **MM 50j :** —
 - **MM 200j :** —
-- **ATR 14j :** $10.37
-- **Volume seance :** 28.02M (0.98x moy. 20j)
-- **Short interest :** 18.39%
+- **ATR 14j :** —
+- **Volume moy. 20j :** —
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-22
-- **Type :** init
-- **Fichier :** `AST_2026-06-22_update_21h.md`
-- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-22T21:00:02Z) | `data/recommandations_latest.json` | `data/validation_report.txt`
+- **Date :** 2026-06-23
+- **Type :** preview
+- **Fichier :** `AST_2026-06-23_preview.md`
+- **Conclusion :** > **Date :** 2026-06-23
 
 ---
 

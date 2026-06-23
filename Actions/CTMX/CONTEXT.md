@@ -1,4 +1,4 @@
-# CONTEXT — CTMX — Dernière mise à jour : 2026-06-22
+# CONTEXT — CTMX — Dernière mise à jour : 2026-06-23
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -20,8 +20,8 @@
 ---
 
 ## Historique des fichiers
-- **Score global :** 48.8/100
-- **Prix cible :** $3.55
+- **Score global :** —/10
+- **Prix cible :** $—
 - **Stop-loss :** $2.70
 - **Statut thèse :** invalide
 - **Horizon :** 6–12 mois (dependant des catalyseurs cliniques)
@@ -52,7 +52,7 @@
 - **MM 50j :** 3.8
 - **MM 200j :** —
 - **ATR 14j :** 0.17
-- **Volume moy. 20j :** 4161303
+- **Volume moy. 20j :** 4163245
 
 ---
 
@@ -61,7 +61,7 @@
 - **Date :** 2026-06-22
 - **Type :** update
 - **Fichier :** `CTMX_2026-06-22_update.md`
-- **Conclusion :** Cloture officielle $3.04 (+3.05%), RSI 31.53, volume normalise 0.90x. Recommandation SURVEILLER (degradee depuis ATTENDRE), Score Global Ajuste 48.8/100 (-6.2 pts, malus sectoriel accru). Structure options baissiere persistante. Timing Defavorable.
+- **Conclusion :** > **Societe :** CytomX Therapeutics, Inc.
 
 ---
 

@@ -1,4 +1,4 @@
-# CONTEXT — A — Dernière mise à jour : 2026-06-22
+# CONTEXT — A — Dernière mise à jour : 2026-06-23
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -21,8 +21,8 @@
 ## 📜 Historique des analyses
 - **Score global :** —/10
 - **Prix cible :** $—
-- **Stop-loss :** $119.12
-- **Statut thèse :** modifiée
+- **Stop-loss :** $118.79
+- **Statut thèse :** validée
 - **Horizon :** 1–3 mois
 
 ---
@@ -69,8 +69,8 @@
 - **RSI 14j :** 33.78
 - **MM 50j :** 121.36
 - **MM 200j :** —
-- **ATR 14j :** 3.85
-- **Volume moy. 20j :** 2774743
+- **ATR 14j :** 3.86
+- **Volume moy. 20j :** 2774755
 
 ---
 
@@ -79,7 +79,7 @@
 - **Date :** 2026-06-22
 - **Type :** update
 - **Fichier :** `A_2026-06-22_update.md`
-- **Conclusion :** 🟡 Thèse confirmée avec prudence atténuée — hypothèse volume collapse invalidée. Cours $126.49 (−0.45%), volume officiel 2.19M (0.79×) corrige le snapshot partiel 17h (495K). RSI 33.78, ATR $3.85, MM50 $121.36. Score 72.5/100 ACHETER Réduit.
+- **Conclusion :** > **Date :** 2026-06-22 · Close officiel 21:00 UTC
 
 ---
 

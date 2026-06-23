@@ -1,4 +1,4 @@
-# CONTEXT — SOFI — Dernière mise à jour : 2026-06-22
+# CONTEXT — SOFI — Dernière mise à jour : 2026-06-23
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -22,12 +22,12 @@ SoFi est une fintech-banque hybride avec un écosystème complet (lending + bank
 Le repositionnement options reste haussier : Max Pain **$18.00** (pinning possible expiration 26/06), Put/Call **0.51**, Call OI **66.4%**. Le short interest reste élevé à **14.71%** — setup asymétrique squeeze/pression vendeuse intact. La dépendance aux taux d'intérêt et l'exposition aux prêts étudiants créent des risques macro structurels. Le Forward P/E **20.94** reste mécaniquement attractif. Le consensus PT **$25.41** (+48.6% upside vs $17.10) est inchangé. Le Filtre Qualité **4/6** (Quality Partielle) n'est pas remis en cause. Earnings Q2 dans **36j** (28 juillet, estimates EPS $0.10–$0.11, Rev $1.1B). XLF (Financials) momentum **5.08/10** (#3/11 sector rotation) — vent de poupe sectoriel modéré, stable. ⚠️ Reclaim MM50 très rétréci (+0.83%) — un close sous MM50 invaliderait le breakout. Entrée suggérée $17.10, SL $15.10, TP $20.10, Ratio R/R 1.5×.
 **Score Opportunité 5.8/10. Score Global 63.3/100. ACHETER (Réduit) — Thèse confirmée, vigilance volume levée.**
 
-**Données complètes** — Cours, RSI, P/E, beta, ATR, MM50 disponibles dans `data/latest.json` (snapshot 2026-06-22T21:00 UTC). DRAFT_refresh 22/06 archivé faux positif ATR_SPIKE (même motif que 15–17/06).
+**Données complètes** — Cours, RSI, P/E, beta, ATR, MM50 disponibles dans `data/latest.json` (snapshot 2026-06-22T17:00 UTC). DRAFT_refresh 22/06 archivé faux positif ATR_SPIKE (même motif que 15–17/06).
 
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 63.3/100
+- **Score global :** —/10
 - **Prix cible :** $20.10
 - **Stop-loss :** $15.10
 - **Statut thèse :** validée
@@ -43,15 +43,15 @@ Le repositionnement options reste haussier : Max Pain **$18.00** (pinning possib
 
 ## 🚨 Alertes actives
 
-- Baisse — $15.10 (SL 2×ATR) — 🟢 Active
-- Hausse — $20.10 (prix cible) — 🟢 Active
-- Volume — >2× moy. 20j (>164.1M) — 🟢 Active
+- Baisse — $13.78 (SL 2×ATR) — 🟢 Active
+- Hausse — $18.88 (prix cible) — 🟢 Active
+- Volume — >2× moy. 20j (>140.7M) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- 2026-07-28 | Earnings Q2 FY2026 (36j)
+- Aucun événement à venir.
 
 ---
 
@@ -61,16 +61,16 @@ Le repositionnement options reste haussier : Max Pain **$18.00** (pinning possib
 - **MM 50j :** 16.96
 - **MM 200j :** —
 - **ATR 14j :** 1.0
-- **Volume moy. 20j :** 82047188
+- **Volume moy. 20j :** 82114745
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-22
+- **Date :** 2026-06-23
 - **Type :** full refresh
-- **Fichier :** `SOFI_2026-06-22_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-22
+- **Fichier :** `SOFI_2026-06-23_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-23
 
 ---
 
