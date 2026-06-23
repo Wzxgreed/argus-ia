@@ -99,4 +99,4 @@
 
 ---
 
-*Dernière mise à jour : 2026-06-22 · Snapshot 17h00 UTC*
+*Dernière mise à jour : 2026-06-23 · Snapshot 10h00 UTC*
