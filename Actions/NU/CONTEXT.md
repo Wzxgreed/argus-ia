@@ -44,20 +44,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 59.19
-- **MM 50j :** 13.39
+- **RSI 14j :** 59.44
+- **MM 50j :** 13.4
 - **MM 200j :** —
 - **ATR 14j :** 0.48
-- **Volume moy. 20j :** 63526898
+- **Volume moy. 20j :** 64003488
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** update
+- **Type :** init
 - **Fichier :** `NU_2026-06-23_update_17h.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (mutation technique mitigée : cours $12.585 en repli −1.60%, RSI explosion +11.45 pts à 59.19, volume pathologique 0.24× 15.27M, gap MM50 aggravé −6.0%, ATR contracté $0.48, fondamentaux intacts forward P/E 10.92× upside +38.9%, SL/TP $11.62/$14.03)**
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (mutation technique mitigée : cours $12
 
 ---
 

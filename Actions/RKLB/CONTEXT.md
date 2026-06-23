@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ÉVITER
-- **Score global :** 31,8/100
-- **Prix cible :** $128,20
-- **Stop-loss :** $77,05
-- **Statut thèse :** confirmée avec nuance technique modifiée
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** validée
 - **Horizon :** —
 
 ---
@@ -24,44 +24,38 @@
 
 ## 🚨 Alertes actives
 
-- Cours $97,51 — repli −2,77% vs previous close $100,29
-- Volume effondré 0,41× (11,92M) — dérive sans acheteurs
-- Cassure MM50 aggravée : spot −7,3% sous MM50 $105,17
-- RSI 34,51 — survente étendue, proche seuil stricte <30
-- Score Global 31,8/100 (ÉVITER)
-- Pin risk expiration 26/06 (J+3) : Max Pain $69,00 vs spot $97,51
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- Expiration options : 2026-06-26 (J+3)
-- Earnings Q2 2026 : 2026-08-06 (44 jours, Est EPS −$0,15 à −$0,02)
+- Aucun événement à venir.
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 34.51
-- **MM 50j :** 105.17
+- **RSI 14j :** 33.54
+- **MM 50j :** 105.12
 - **MM 200j :** —
-- **ATR 14j :** 10.23
-- **Volume moy. 20j :** 28841909
+- **ATR 14j :** 10.31
+- **Volume moy. 20j :** 29181258
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** update
+- **Type :** init
 - **Fichier :** `RKLB_2026-06-23_update_17h.md`
-- **Conclusion :** Thèse ÉVITER confirmée avec nuance technique modifiée. Repli −2,77% à $97,51 sur volume effondré 0,41× (11,92M vs moyenne 28,84M) : thèse « distribution active » du snapshot 13h invalidée → « dérive sans acheteurs ». Cassure MM50 aggravée (−7,3% sous $105,17). RSI 34,51 proche survente stricte. Score Global 31,8/100 (ÉVITER). SL $77,05 / TP $128,20.
+- **Conclusion :** > Source : `data/latest.json` (snapshot 17h UTC) | `data/recommandations_latest.json` | `data/sector_rotation_latest.json` | `data/upcoming_events_latest.json` | `data/events_latest.json` | `data/geo_
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun nouveau trigger — DRAFT_refresh du 23/06 archivé (stale/doublon du gap 22/06)
+- Aucun trigger récent.
 
 ---
 

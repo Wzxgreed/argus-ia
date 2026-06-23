@@ -21,7 +21,7 @@ Snapshot 17h UTC : **Correction −4.71%** ($14.43 → $13.75). Open $13.46, hig
 ## Actualités ayant impacté ce dossier
 - **Score global :** —/10
 - **Prix cible :** $10.8
-- **Stop-loss :** $12.35
+- **Stop-loss :** $11.63
 - **Statut thèse :** validée
 - **Horizon :** —
 
@@ -49,11 +49,11 @@ Snapshot 17h UTC : **Correction −4.71%** ($14.43 → $13.75). Open $13.46, hig
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 30.95
+- **RSI 14j :** 31.04
 - **MM 50j :** 13.35
 - **MM 200j :** —
 - **ATR 14j :** 1.06
-- **Volume moy. 20j :** 128589770
+- **Volume moy. 20j :** 129951847
 
 ---
 
@@ -61,14 +61,15 @@ Snapshot 17h UTC : **Correction −4.71%** ($14.43 → $13.75). Open $13.46, hig
 
 - **Date :** 2026-06-23
 - **Type :** full refresh
-- **Fichier :** `_NOK_2026-06-23_DRAFT_refresh.md` → archivé
-- **Conclusion :** MODIFIÉ — Correction −4.71%, RSI 31.19, volume effondré 0.48×. Thèse SURVEILLER confirmée avec dégradation technique. Score Global 45.5/100. SL/TP révisés $11.63/$16.93.
+- **Fichier :** `_NOK_2026-06-23_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-23
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 7.71% (seuil 5.0%) — **TRAITÉ ET ARCHIVÉ**
+- **PRICE_GAP** (medium) — Gap -5.06% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 7.74% (seuil 5.0%)
 
 ---
 

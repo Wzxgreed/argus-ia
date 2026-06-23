@@ -17,10 +17,10 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 45.0/100
-- **Prix cible :** $340–$360
-- **Stop-loss :** $315.00 (desk) / $281.00 (engine)
-- **Statut thèse :** MODIFIÉE (downgrade ATTENDRE → SURVEILLER)
+- **Score global :** —/10
+- **Prix cible :** $340
+- **Stop-loss :** $—
+- **Statut thèse :** validée
 - **Horizon :** —
 
 ---
@@ -33,10 +33,9 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 
 ## 🚨 Alertes actives
 
-- Baisse — $335.22 — 🔴 **DÉCLENCHÉE** (cours $325.25, déclenchement 23/06)
+- Baisse — $335.22 — 🟢 Active
 - Hausse — $400.00 — 🟢 Active
 - Volume — >2× moy. 20j (>11.5M) — 🟢 Active
-- MM50 — Clôture sous $323.49 — 🟢 Active (surveillance immédiate)
 
 ---
 
@@ -48,11 +47,11 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 47.56
-- **MM 50j :** 323.49
+- **RSI 14j :** 45.91
+- **MM 50j :** 323.35
 - **MM 200j :** —
-- **ATR 14j :** 22.13
-- **Volume moy. 20j :** 6138054
+- **ATR 14j :** 22.24
+- **Volume moy. 20j :** 6302831
 
 ---
 
@@ -61,15 +60,14 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 - **Date :** 2026-06-23
 - **Type :** update
 - **Fichier :** `VRT_2026-06-23_update.md`
-- **Conclusion :** Gap down −9.14% invalide la rupture haussière au-dessus de $350. RSI 47.56 (neutre). Test de la MM50 ($323.49) avec low $317.94. Volume standard 0.97× (profit-taking mécanique). Downgrade desk ATTENDRE → SURVEILLER (45.0/100). Alerte baisse $335.22 déclenchée.
+- **Conclusion :** > **Date :** 2026-06-23
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (high) — Gap -9.14% séance 23/06 (seuil ±5.0%) — déclencheur majeur
-- **ATR_SPIKE** (medium) — ATR relatif 6.80% (seuil 5.0%)
-- **MM50_TEST** (high) — Low $317.94 sous MM50 $323.49, close $325.25 (+0.54%)
+- **PRICE_GAP** (high) — Gap -11.07% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 6.99% (seuil 5.0%)
 
 ---
 

@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 55.0/100
-- **Prix cible :** $40.57
-- **Stop-loss :** $20.02
-- **Statut thèse :** validée
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
 - **Horizon :** —
 
 ---
@@ -36,26 +36,27 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 27.53
-- **MM 50j :** 38.81
+- **RSI 14j :** 26.73
+- **MM 50j :** 38.79
 - **MM 200j :** —
-- **ATR 14j :** 4.11
-- **Volume moy. 20j :** 9616939
+- **ATR 14j :** 4.16
+- **Volume moy. 20j :** 9713367
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** update
-- **Fichier :** `FLY_2026-06-23_update_17h.md`
-- **Conclusion :** Thèse ATTENDRE confirmée — baisse mécanique −2.49% à $28.24 sur volume effondré 0.30×, sans catalyst ni nouveau low. Score Global Ajusté 55.0 (+2.5 pts), timing Défavorable. DRAFT_refresh archivé (faux trigger ATR_SPIKE).
+- **Type :** init
+- **Fichier :** `FLY_2026-06-23_update_13h.md`
+- **Conclusion :** > **Date :** 2026-06-23
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 14.55% (seuil 5.0%)
+- **PRICE_GAP** (medium) — Gap -6.04% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 15.29% (seuil 5.0%)
 
 ---
 

@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 57.3/100
-- **Prix cible :** $322.54
-- **Stop-loss :** $283.19
-- **Statut thèse :** confirmée avec vigilance accrue
-- **Horizon :** 1–3 mois
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
+- **Horizon :** —
 
 ---
 
@@ -24,11 +24,7 @@
 
 ## 🚨 Alertes actives
 
-- 🟢 RSI 34.52 proche survente — surveillance franchissement <35 ou remontée >40
-- 🔴 Volume collapse 0.37× — invalidation de la progression +0.65%
-- 🟡 Structure options modérément baissière (P/C 1.18, Call OI 45.9%) — J-1 expiration 24/06
-- 🟡 Support MM50 $290.14 — cassure = invalidation tendance haussière
-- 🟡 Rejet résistance $300.00 (high intraday $301.64) — niveau psycho actif
+- Aucune alerte active.
 
 ---
 
@@ -40,20 +36,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 34.52
-- **MM 50j :** 290.14
+- **RSI 14j :** 30.53
+- **MM 50j :** 290.05
 - **MM 200j :** —
-- **ATR 14j :** 7.87
-- **Volume moy. 20j :** 51584098
+- **ATR 14j :** 7.92
+- **Volume moy. 20j :** 52461761
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** update
+- **Type :** init
 - **Fichier :** `AAPL_2026-06-23_update_17h.md`
-- **Conclusion :** ATTENDRE confirmé — progression mécanique +0.65% sans conviction (volume collapse 0.37×, RSI −7.67 pts à 34.52 proche survente). Divergence prix/RSI = alerte technique. MM50 remonté à $290.14 préserve structure haussière. Options modérément baissière inchangée (P/C 1.18, Call OI 45.9%). SL/TP révisés $283.19/$322.54 (R/R 1.5). Timing Favorable maintenu avec vigilance accrue.
+- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-23 17:00 UTC) + agents recommandations, sector rotation, FX, quant, geo, social
 
 ---
 

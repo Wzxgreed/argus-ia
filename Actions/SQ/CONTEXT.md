@@ -1,4 +1,4 @@
-# CONTEXT — SQ — Dernière mise à jour : 2026-06-23 · Snapshot 17h00 UTC
+# CONTEXT — SQ — Dernière mise à jour : 2026-06-23
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -47,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** update
+- **Type :** init
 - **Fichier :** `SQ_2026-06-23_update_17h00.md`
-- **Conclusion :** **ATTENDRE** — Aucune mutation détectée vs snapshot 13h00 UTC. Cours $83.46 figé ≥71 snapshots / ≥34 jours. Score Global Ajusté 54.0/100 (C:6.5 V:5.0 M:4.5). Qualité 3/6 hors périmètre. Stale price structurel + earnings placeholder J=0 non résolu. Positionnement interdit.
+- **Conclusion :** > **Trigger :** Snapshot pipeline 17:00 UTC — post-session US
 
 ---
 

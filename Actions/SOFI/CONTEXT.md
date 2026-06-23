@@ -1,4 +1,4 @@
-# CONTEXT — SOFI — Dernière mise à jour : 2026-06-23 17h00 UTC
+# CONTEXT — SOFI — Dernière mise à jour : 2026-06-23
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -29,7 +29,7 @@ Le short interest reste élevé à **14.71%** — setup asymétrique squeeze/pre
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 69.0/100
+- **Score global :** —/10
 - **Prix cible :** $20.45
 - **Stop-loss :** $15.50
 - **Statut thèse :** validée
@@ -45,9 +45,9 @@ Le short interest reste élevé à **14.71%** — setup asymétrique squeeze/pre
 
 ## 🚨 Alertes actives
 
-- Baisse — $15.50 (SL 2×ATR) — 🟢 Active
-- Hausse — $20.45 (prix cible) — 🟢 Active
-- Volume — >2× moy. 20j (>163.2M) — 🟢 Active
+- Baisse — $13.78 (SL 2×ATR) — 🟢 Active
+- Hausse — $18.88 (prix cible) — 🟢 Active
+- Volume — >2× moy. 20j (>140.7M) — 🟢 Active
 
 ---
 
@@ -59,26 +59,26 @@ Le short interest reste élevé à **14.71%** — setup asymétrique squeeze/pre
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 48.32
+- **RSI 14j :** 46.98
 - **MM 50j :** 16.98
 - **MM 200j :** —
 - **ATR 14j :** 0.99
-- **Volume moy. 20j :** 81598227
+- **Volume moy. 20j :** 83489095
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** update snapshot 17h00 UTC
-- **Fichier :** `SOFI_2026-06-23_update_17h00.md`
-- **Conclusion :** Nouveau close $17.48 (+2.22%), RSI 48.32 (+7.34 pts), reclaim MM50 renforcé (+2.94% écart). Score Global ajusté 69.0/100 (+5.7 pts), Momentum 7.3/10 (+2.3 pts). **[ALERTE]** Volume 0.59×, sous seuil critique 0.7× — hausse sans conviction institutionnelle. Timing Favorable avec vigilance. Thèse confirmée.
+- **Type :** full refresh
+- **Fichier :** `SOFI_2026-06-23_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-23
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger détecté sur ce snapshot.
+- **ATR_SPIKE** (medium) — ATR relatif 5.73% (seuil 5.0%)
 
 ---
 

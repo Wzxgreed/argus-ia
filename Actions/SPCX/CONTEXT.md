@@ -50,7 +50,7 @@
 - **MM 50j :** —
 - **MM 200j :** —
 - **ATR 14j :** —
-- **Volume moy. 20j :** 244192224
+- **Volume moy. 20j :** 251975557
 
 ---
 
@@ -65,7 +65,7 @@
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +5.59% overnight (seuil ±5.0%)
+- Aucun trigger récent.
 
 ---
 

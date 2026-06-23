@@ -40,10 +40,10 @@ Les scores de l'agent recommandation sont **dégradés** : Score Opportunité **
 ---
 
 ## Actualites ayant impacte ce dossier
-- **Score global :** 35.8/100
-- **Prix cible :** $18.30
+- **Score global :** —/10
+- **Prix cible :** $—
 - **Stop-loss :** $14.91
-- **Statut thèse :** modifiée (downgrade ATTENDRE → SURVEILLER)
+- **Statut thèse :** validée
 - **Horizon :** —
 
 ---
@@ -56,9 +56,9 @@ Les scores de l'agent recommandation sont **dégradés** : Score Opportunité **
 
 ## 🚨 Alertes actives
 
-- Baisse — $14.91 (SL 2×ATR) — 🟢 Active
-- Hausse — $16.60 (cassure confirmée) — 🟢 Active
-- Volume — >2× moy. 20j (>223M) — 🟢 Active
+- Baisse — $11.41 (SL 2×ATR) — 🟢 Active
+- Hausse — $14.00 (prix cible) — 🔴 Déclenchée (27/05)
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
@@ -70,11 +70,11 @@ Les scores de l'agent recommandation sont **dégradés** : Score Opportunité **
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 71.17
+- **RSI 14j :** 70.47
 - **MM 50j :** 13.26
 - **MM 200j :** —
 - **ATR 14j :** 0.68
-- **Volume moy. 20j :** 111636347
+- **Volume moy. 20j :** 115473408
 
 ---
 
@@ -83,7 +83,7 @@ Les scores de l'agent recommandation sont **dégradés** : Score Opportunité **
 - **Date :** 2026-06-23
 - **Type :** update
 - **Fichier :** `AAL_2026-06-23_update.md`
-- **Conclusion :** Snapshot 17h UTC — session US du 23/06 : cours $16.265 (+1.15%), RSI 71.17 (surachat), volume 85.52M (0.77×) = normalisation massive post-distribution. Score Global ajusté 35.8/100 = downgrade ATTENDRE → SURVEILLER. Timing Défavorable.
+- **Conclusion :** **Date :** 2026-06-23 (snapshot 17h UTC, session US du 23/06)
 
 ---
 

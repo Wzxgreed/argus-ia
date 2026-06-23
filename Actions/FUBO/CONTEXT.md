@@ -38,26 +38,26 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 30.81
+- **RSI 14j :** 31.11
 - **MM 50j :** 10.72
 - **MM 200j :** —
 - **ATR 14j :** 0.77
-- **Volume moy. 20j :** 1409681
+- **Volume moy. 20j :** 1426540
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** update
-- **Fichier :** `FUBO_2026-06-23_update.md`
-- **Conclusion :** Thèse ATTENDRE confirmée et dégradée — détérioration technique (close $8.63, volume collapse 0.42×), scoring agent downgrade 51.5/100
+- **Type :** full refresh
+- **Fichier :** `FUBO_2026-06-23_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-23
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 8.92% (seuil 5.0%)
+- Aucun trigger récent.
 
 ---
 

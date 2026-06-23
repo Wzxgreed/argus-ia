@@ -12,7 +12,7 @@
 **Prix cible desk :** $138.56 (TP ATR-based) / $163.29 (consensus analystes)
 **Stop-loss :** $120.01 (2×ATR)
 **Horizon :** 1–3 mois
-**Statut thèse :** 🟡 **Confirmée avec prudence atténuée — rebond technique sur illiquidité extrême** — snapshot 17h UTC du 23/06 : **[REBOND]** Cours $127.43 (+0.74% vs close 22/06). **[ALERTE]** Volume **425K (0.16×)** — collapse de 81% vs close 22/06, illiquidité majeure. **[AMÉLIORATION]** RSI **36.98** (+3.2 pts vs 33.78), sortie partielle de la zone oversold. **[STABLE]** Options : max_pain $135.0, put/call 0.44, call OI 69.6%. **[STABLE]** Score Global ajusté **72.5/100** — **ACHETER Réduit maintenu**.
+**Statut thèse :** 🟡 **Confirmée avec prudence atténuée — rebond technique sur illiquidité extrême** — snapshot 17h UTC du 23/06 : **[REBOND]** Cours $127.43 (+0.74% vs close 22/06). **[ALERTE]** Volume **425K (0.16×)** — collapse de 81% vs close 22/06, illiquidité extrême. **[AMÉLIORATION]** RSI **36.98** (+3.2 pts vs 33.78), sortie partielle de la zone oversold. **[STABLE]** Options : max_pain $135.0, put/call 0.44, call OI 69.6%. **[STABLE]** Score Global ajusté **72.5/100** — **ACHETER Réduit maintenu**.
 
 **Synthèse :** Agilent affiche un **rebond technique de +0.74% à $127.43** au snapshot 17h UTC du 23/06, mais sur un **volume effondré à 425K (0.16×)** — le niveau le plus bas observé depuis plusieurs séances. Ce rebond s'explique davantage par un manque de vendeurs que par un regain d'acheteurs. Le RSI remonte à **36.98** (+3.2 pts), sortant partiellement de la zone oversold approfondie. L'ATR compresse à **$3.71** (−$0.15) et la MM50 monte à **$121.61** (+$0.25). Les options restent cohérentes (max pain $135.0, put/call 0.44, call OI 69.6%). Les fondamentaux sont inchangés et solides : Filtre Qualité 5/6 maintenu, consensus $163.29 laissant un upside **+28.1%**, forward P/E 19.29× attractif. Le scoring agent est **inchangé à 72.5/100 (ACHETER Réduit)**. L'entrée au spot $127.43 reste possible avec **sizing Réduit**, mais l'entrée optimale reste un retracement vers la MM50 ($121.61). Risques principaux : (1) volume collapse 0.16× — illiquidité extrême pouvant amplifier les mouvements, (2) RSI 36.98 proche de 30 — rebond technique fragile sans confirmation volume, (3) earnings Q3 le 2026-08-26 (J+64).
 
@@ -21,7 +21,7 @@
 ## 📜 Historique des analyses
 - **Score global :** —/10
 - **Prix cible :** $—
-- **Stop-loss :** $118.77
+- **Stop-loss :** $120.01
 - **Statut thèse :** validée
 - **Horizon :** 1–3 mois
 
@@ -66,11 +66,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 36.98
-- **MM 50j :** 121.61
+- **RSI 14j :** 35.92
+- **MM 50j :** 121.6
 - **MM 200j :** —
 - **ATR 14j :** 3.71
-- **Volume moy. 20j :** 2694229
+- **Volume moy. 20j :** 2719855
 
 ---
 
@@ -79,7 +79,7 @@
 - **Date :** 2026-06-23
 - **Type :** update
 - **Fichier :** `A_2026-06-23_update.md`
-- **Conclusion :** > **Date :** 2026-06-23 · Snapshot 13:00 UTC
+- **Conclusion :** > **Date :** 2026-06-23 · Snapshot 17:00 UTC
 
 ---
 

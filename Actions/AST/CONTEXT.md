@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER (proxy ASTS)
-- **Score global :** 43.0/100
-- **Prix cible :** $105.76 (proxy ASTS, 3xATR)
-- **Stop-loss :** $56.41 (proxy ASTS, 2xATR)
-- **Statut thèse :** DONNEES MANQUANTES PERSISTANTES — AST probable doublon erroné d'ASTS
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -34,22 +34,22 @@
 
 ---
 
-## 📊 Contexte technique (dernier snapshot — proxy ASTS 17h UTC 23/06)
+## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 25.31 (survente extrême aggravée)
-- **MM 50j :** $87.68
+- **RSI 14j :** —
+- **MM 50j :** —
 - **MM 200j :** —
-- **ATR 14j :** $9.87
-- **Volume moy. 20j :** 27.60M (séance 12.10M, 0.44x — collapse)
+- **ATR 14j :** —
+- **Volume moy. 20j :** —
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** update
+- **Type :** init
 - **Fichier :** `AST_2026-06-23_update_17h.md`
-- **Conclusion :** AST reste sans données (>52 snapshots). ASTS proxy : rebond +4.04% à $76.15 sur volume collapse 0.44x (12.10M), RSI 25.31 (survente extrême aggravée), MM50 $87.68 (cours sous -13.2%). Thèse SURVEILLER 43.0/100 confirmée — rebond interprété comme short covering / rebalancing delta sans conviction. Supports $71.66 / $70-72 / $68-70. Résistances $77.79 / $80.66 / $87.68. Échéance options 06-26 dans 3j.
+- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-23T17:00:02Z) | `data/recommandations_latest.json` | `data/validation_report.txt`
 
 ---
 
