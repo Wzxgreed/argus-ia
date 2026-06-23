@@ -47,6 +47,7 @@
 | 2026-06-22 | Mise à jour post-pipeline (17h UTC) | [SPCX_2026-06-22_update_17h.md](./SPCX_2026-06-22_update_17h.md) | Thèse confirmée en ATTENDRE avec nuance de dégradation — faux prix $165.845 (−10.35%), faux volume collapse −67.7%, forward P/E muté 843.29, options/float/consensus stabilisés, Score Global 56.0/100 | 🔴 Élevé |
 | 2026-06-22 | Mise à jour post-pipeline (close officiel 21h UTC) | [SPCX_2026-06-22_update_21h.md](./SPCX_2026-06-22_update_21h.md) | Thèse confirmée en ATTENDRE avec nuance de stabilisation — faux prix $154.60 (−16.43%), faux volume rebond +88.2%, forward P/E contracté 786.09, mutations FMP stables sur 3 snapshots consécutifs, Score Global 56.0/100 | 🔴 Élevé |
 | 2026-06-23 | Mise à jour post-pipeline (13h UTC) | [SPCX_2026-06-23_update.md](./SPCX_2026-06-23_update.md) | Thèse confirmée en ATTENDRE avec nuance négative — faux prix $154.60 stable, float stable sur 5 snapshots, mais rupture stabilité consensus (PT $251.50 → $235.2, analysts 4 → 5) et mutation inverse options (max_pain 180.0, put/call 0.36, call OI 73.5%), Score Global 56.0/100 | 🔴 Élevé |
+| 2026-06-23 | Mise à jour post-pipeline (17h UTC) | [SPCX_2026-06-23_update_17h.md](./SPCX_2026-06-23_update_17h.md) | Thèse confirmée en ATTENDRE avec nuance mixte — faux prix muté $163.24 (+5.59%), Score Global remonté mécaniquement à 59.8/100 (+3.8 pts), stabilisation partielle confirmée (float 6 snapshots, consensus 2 snapshots, options 2 snapshots) | 🔴 Élevé |
 
 ---
 
