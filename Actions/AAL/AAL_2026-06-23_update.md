@@ -1,19 +1,19 @@
-# AAL — Mise à Jour 2026-06-23 (Snapshot 10h UTC)
+# AAL — Mise à Jour 2026-06-23 (Snapshot 13h UTC)
 
-**Date :** 2026-06-23 (snapshot 10h UTC, close officiel NY 16h ET du 22/06)
+**Date :** 2026-06-23 (snapshot 13h UTC, close officiel NY 16h ET du 22/06)
 **Ticker :** AAL (NASDAQ)
-**Type :** Mise à jour — stabilité post-distribution, thèse ATTENDRE confirmée
+**Type :** Mise à jour — correction anomalie data quality options, thèse ATTENDRE confirmée
 **Cours :** $16.08 (close) · Open $15.92 · High $16.59 · Low $15.83 · Previous close $15.99
 **Volume :** 177.55M (**1.58× moyenne 20j = 112.32M**)
 **Change vs prior close :** +0.56%
 
-> **Session du 22/06 (close officiel 21h UTC) — reprise snapshot matinal :** Le snapshot 10h UTC du 23/06 reflète le close officiel NY du 22/06 à **$16.08 (+0.56% vs prior close $15.99)**. Les données techniques sont quasi-identiques au snapshot 21h UTC du 22/06. La configuration de **distribution institutionnelle post-52W high** ($16.5899 high / $16.08 close sur volume record 177.55M) reste le cadre dominant. L'absence de nouvelle session US entre le snapshot 21h UTC et 10h UTC signifie que ce rapport est une **confirmation de stabilité** avec correction d'anomalie data quality.
+> **Session du 22/06 (close officiel) — snapshot 13h UTC :** Le snapshot 13h UTC confirme le close officiel NY du 22/06 à **$16.08 (+0.56% vs prior close $15.99)** avec une **correction majeure des données options** par rapport au snapshot 10h UTC. Toutes les métriques techniques et fondamentales sont identiques au snapshot 10h UTC ; la seule différence significative est la restauration des données options (Max Pain, Put/Call ratio, Call OI) qui étaient corrompues au snapshot 10h UTC. Ce rapport remplace et corrige l'analyse du snapshot 10h UTC.
 
 ---
 
 ## Résumé des Changements depuis l'Analyse Précédente (2026-06-22 21h UTC)
 
-| Indicateur | 2026-06-22 21h UTC | 2026-06-23 10h UTC | Δ vs Prior |
+| Indicateur | 2026-06-22 21h UTC | 2026-06-23 13h UTC | Δ vs Prior |
 |-----------|-------------------|-------------------|------------|
 | Cours close | **$16.08** | **$16.08** | **Inchangé** |
 | RSI 14j | **65.16** | **65.16** | **Inchangé** |
@@ -26,16 +26,17 @@
 | Upside consensus | **+2.7%** | **+2.7%** | **Inchangé** |
 | 52W high | **$16.5899** | **$16.59** | **Inchangé (arrondi)** |
 | Short Interest | **11.39%** | **11.39%** | **Inchangé** |
-| Options Max Pain | **$13.50** | **$5.00 [ANOMALIE]** | **🔴 Corrompue — données opérationnelles conservées** |
-| Options Put/Call | **1.74** | **null [ANOMALIE]** | **🔴 Corrompue — données opérationnelles conservées** |
-| Options Call OI | **36.6%** | **0.0% [ANOMALIE]** | **🔴 Corrompue — données opérationnelles conservées** |
+| Options Max Pain | **$13.50** | **$13.50** | **🟢 RESTAURÉ (vs $5.00 aberrant à 10h UTC)** |
+| Options Put/Call | **1.74** | **1.56** | **🟢 −0.18 (moins baissier)** |
+| Options Call OI | **36.6%** | **39.0%** | **🟢 +2.4 pts (plus haussier)** |
+| Expiration options | **2026-06-26** | **2026-06-26** | **🟡 J+3 (vendredi)** |
 | Earnings Q2 (jours) | **31** | **30** | **🟡 −1 jour** |
 | Score Global ajusté | **53.8/100** | **53.8/100** | **Inchangé** |
 | Score Opportunité | **4.9/10** | **4.9/10** | **Inchangé** |
 | Timing | **Favorable** | **Favorable** | **Inchangé** |
 | XLI momentum score | **7.27** | **7.54** | **🟢 +0.27 pts** |
 
-**Verdict institutionnel :** Évolution **stable**. Le snapshot matinal du 23/06 confirme le close officiel du 22/06 sans nouvelle session. Le Score Global ajusté **53.8/100** est inchangé et reste à **6.2 pts du seuil d'achat** (60). Le secteur Industriels (XLI) gagne légèrement en momentum (7.54 vs 7.27) = facteur de soutien macro marginal. **Pas d'upgrade vers ACHETER. Thèse ATTENDRE confirmée.**
+**Verdict institutionnel :** Évolution **stable avec correction data quality**. Le snapshot 13h UTC confirme le close officiel du 22/06 sans nouvelle session. Les données options corrompues du snapshot 10h UTC sont **restaurées** : Max Pain $13.50, Put/Call 1.56, Call OI 39.0%. Le repositionnement options est **légèrement moins baissier** que prévu (Put/Call −0.18, Call OI +2.4 pts), mais cela ne modifie pas la thèse globale. Le Score Global ajusté **53.8/100** est inchangé et reste à **6.2 pts du seuil d'achat** (60). **Pas d'upgrade vers ACHETER. Thèse ATTENDRE confirmée.**
 
 ---
 
@@ -67,22 +68,23 @@
 
 ---
 
-## Mise à Jour Options — 🔴 ANOMALIE DATA QUALITY
+## Mise à Jour Options — 🟢 CORRECTION DATA QUALITY + REPOSITIONNEMENT
 
-| Métrique | Snapshot 21h UTC 22/06 | Snapshot 10h UTC 23/06 | Interprétation |
+| Métrique | Snapshot 21h UTC 22/06 | Snapshot 13h UTC 23/06 | Interprétation |
 |----------|------------------------|------------------------|----------------|
-| Max Pain | **$13.50** | **$5.00** | 🔴 **ANOMALIE** — valeur .00 aberrante, non opérationnelle |
-| Put/Call ratio | **1.74** | **null** | 🔴 **ANOMALIE** — données corrompues |
-| Call OI % | **36.6%** | **0.0%** | 🔴 **ANOMALIE** — valeur aberrante |
-| Expiration | **2026-06-26** | **2026-06-26** | 🟢 J+3 (vendredi) |
+| Max Pain | **$13.50** | **$13.50** | 🟢 **RESTAURÉ** — valeur opérationnelle confirmée (vs $5.00 aberrant à 10h UTC) |
+| Put/Call ratio | **1.74** | **1.56** | 🟢 **Amélioration haussière** — positionnement moins baissier (−0.18) |
+| Call OI % | **36.6%** | **39.0%** | 🟢 **Hausse** — intérêt haussier en augmentation (+2.4 pts) |
+| Expiration | **2026-06-26** | **2026-06-26** | 🟡 J+3 (vendredi) |
 
-**Analyse options (données opérationnelles conservées) :**
-- **Max Pain $13.50 :** Le spot $16.08 reste à **+$2.58 (+19.1%)** au-dessus du Max Pain. L'écart est confortable.
-- **Put/Call 1.74 :** Le positionnement baissier persiste. Le marché options anticipe une consolidation ou un retournement.
-- **Expiration J+3 (2026-06-26) :** Avec un Max Pain $13.50 et un spot $16.08, le risque de pin est faible à moyen. Surveillance si repli sous $15.00 d'ici vendredi.
-- **Verdict options : NEUTRE LÉGÈREMENT BAISSIER.** Le positionnement baissier persiste malgré le test du 52W high. Le potentiel de short squeeze (short interest 11.39% + options baissières) reste intact si un catalyseur déclenche une cassure confirmée au-dessus de $16.60 en close.
+**Analyse options (données restaurées et révisées) :**
+- **Max Pain $13.50 :** Le spot $16.08 reste à **+$2.58 (+19.1%)** au-dessus du Max Pain. L'écart est confortable et inchangé.
+- **Put/Call 1.56 :** Le repositionnement est **moins baissier** que le snapshot 21h UTC (1.74 → 1.56, −0.18). Cela indique que le marché options a légèrement réduit son anticipation baissière entre le close du 22/06 et le snapshot 13h UTC du 23/06. Cependant, le ratio reste >1.0 = positionnement net baissier persistant.
+- **Call OI 39.0% :** Hausse de 36.6% à 39.0% (+2.4 pts) = augmentation de l'intérêt ouvert haussier. C'est cohérent avec la baisse du Put/Call.
+- **Expiration J+3 (2026-06-26) :** Avec un Max Pain $13.50 et un spot $16.08, le risque de pin est faible à moyen. Le repositionnement haussier réduit légèrement le risque de consolidation baissière avant expiration.
+- **Verdict options : NEUTRE LÉGÈREMENT BAISSIER → NEUTRE.** Le repositionnement options est moins baissier, mais le positionnement net reste défensif. Le potentiel de short squeeze (short interest 11.39% + options baissières atténuées) reste intact si un catalyseur déclenche une cassure confirmée au-dessus de $16.60 en close.
 
-> **Note data quality :** Les données options du snapshot 10h UTC sont corrompues (Max Pain $5.00, Put/Call null, Call OI 0.0%). Ce pattern récurrent (valeur .00 + nulls) a été documenté dans les analyses précédentes (2026-06-10, 2026-06-02). Les valeurs opérationnelles du snapshot 21h UTC 22/06 sont conservées pour l'analyse.
+> **Note data quality :** Le snapshot 10h UTC du 23/06 retournait des données options corrompues (Max Pain $5.00 aberrant, Put/Call null, Call OI 0.0%). Le snapshot 13h UTC corrige cette anomalie avec des valeurs cohérentes et opérationnelles. Le Put/Call 1.56 est une valeur actualisée (vs 1.74 au snapshot 21h UTC), indiquant un repositionnement réel du marché options entre les deux snapshots.
 
 ---
 
@@ -151,7 +153,7 @@
 
 ## Score Opportunité Révisé — 🟡 INCHANGÉ
 
-| Axe | 2026-06-22 21h UTC /10 | 2026-06-23 10h UTC /10 | Δ | Justification |
+| Axe | 2026-06-22 21h UTC /10 | 2026-06-23 13h UTC /10 | Δ | Justification |
 |-----|------------------------|------------------------|---|---------------|
 | Catalyseur | 5.3 | **5.3** | **Inchangé** | Aucun catalyseur nouveau. Distribution post-52W high inchangée. |
 | Valorisation | 3.5 | **3.5** | **Inchangé** | Forward P/E 7.22 stable. Upside consensus +2.7% stable. |
@@ -165,13 +167,13 @@
 - **Recommandation agent : ATTENDRE**
 - **Recommandation institutionnelle Argus-IA : ATTENDRE — DISTRIBUTION INSTITUTIONNELLE POST-52W HIGH**
 
-> **Note institutionnelle :** Le Score Global reste inchangé à 53.8/100. L'amélioration marginale du momentum sectoriel XLI (7.54 vs 7.27) est insuffisante pour modifier le scoring. Le principal facteur limitant reste la valorisation (3.5/10) et le signal de distribution technique post-52W high.
+> **Note institutionnelle :** Le Score Global reste inchangé à 53.8/100. L'amélioration marginale du momentum sectoriel XLI (7.54 vs 7.27) et le repositionnement options légèrement moins baissier (Put/Call 1.56 vs 1.74) sont insuffisants pour modifier le scoring. Le principal facteur limitant reste la valorisation (3.5/10) et le signal de distribution technique post-52W high.
 
 ---
 
 ## Niveaux SL / TP — Inchangés
 
-| | 2026-06-22 21h UTC | 2026-06-23 10h UTC | Justification |
+| | 2026-06-22 21h UTC | 2026-06-23 13h UTC | Justification |
 |---|----------------------|----------------------|---------------|
 | Entrée suggérée | $16.08 | **$16.08** | Cours inchangé |
 | Stop-Loss | $14.72 | **$14.72** | Cours $16.08 − 2×ATR $0.68 = $14.72 |
@@ -186,7 +188,7 @@
 
 **Verdict : CONFIRMÉE — Thèse ATTENDRE — DISTRIBUTION INSTITUTIONNELLE POST-52W HIGH.**
 
-Le snapshot matinal du 23/06 confirme le close officiel du 22/06 à **$16.08** sans nouvelle session US intermédiaire. La configuration technique reste identique :
+Le snapshot 13h UTC du 23/06 confirme le close officiel du 22/06 à **$16.08** et corrige l'anomalie data quality des options observée au snapshot 10h UTC. La configuration technique reste identique :
 - **52W high testé et rejeté** : $16.5899 high / $16.08 close = écart de 3.1%
 - **Volume record confirmé** : 177.55M (1.58× moyenne) = distribution institutionnelle
 - **Score Global inchangé** : 53.8/100 < 60 = pas de recommandation d'achat
@@ -196,34 +198,36 @@ Le snapshot matinal du 23/06 confirme le close officiel du 22/06 à **$16.08** s
 - **Pas de réactivation :** Le Score Global ajusté 53.8/100 reste < 60. La probabilité d'upgrade à court terme s'éloigne.
 - **RSI 65.16 :** Stable. Marge au surachat préservée.
 - **Consensus positif mécanique inchangé :** L'upside consensus reste à +2.7%, mais aucun analyste n'a relevé son PT = le marché institutionnel ne valide pas le niveau.
-- **Options corrompues :** Le snapshot 10h UTC présente une anomalie data quality (Max Pain $5.00, Put/Call null, Call OI 0.0%). Les valeurs opérationnelles du 22/06 (Max Pain $13.50, Put/Call 1.74, Call OI 36.6%) sont conservées. Le positionnement baissier persiste.
+- **Options corrigées et légèrement moins baissières :** Le snapshot 13h UTC corrige l'anomalie data quality (Max Pain $5.00 aberrant → $13.50 restauré, Put/Call null → 1.56, Call OI 0.0% → 39.0%). Le repositionnement options est légèrement moins baissier (Put/Call 1.74 → 1.56, Call OI 36.6% → 39.0%) = signal marginalement positif, mais insuffisant pour modifier la thèse.
 - **Sectoriel favorable légèrement renforcé :** XLI (Industriels) reste #2 sector rotation avec momentum 7.54 (+0.27 pt) = facteur de soutien macro marginal.
 
-### Ce qui a changé (23/06 vs 22/06 21h) :
-1. **🟢 XLI momentum :** 7.27 → **7.54** (+0.27 pt) — soutien macro marginal.
-2. **🟢 XLI RS20 vs SPY :** +6.13% → **+6.39%** (+0.26 pt) — surperformance sectorielle légèrement renforcée.
-3. **🟡 Earnings :** 31 jours → **30 jours** — fenêtre binaire se rétrécit.
-4. **🔴 Options :** Données corrompues (Max Pain $5.00 aberrant, Put/Call null, Call OI 0.0%) — anomalie data quality à ignorer, valeurs opérationnelles conservées.
+### Ce qui a changé (23/06 13h UTC vs 22/06 21h UTC) :
+1. **🟢 Options corrigées :** Max Pain $5.00 aberrant → **$13.50** (restauré)
+2. **🟢 Options Put/Call :** 1.74 → **1.56** (−0.18) = repositionnement moins baissier
+3. **🟢 Options Call OI :** 36.6% → **39.0%** (+2.4 pts) = hausse de l'intérêt haussier
+4. **🟢 XLI momentum :** 7.27 → **7.54** (+0.27 pt) — soutien macro marginal
+5. **🟢 XLI RS20 vs SPY :** +6.13% → **+6.39%** (+0.26 pt) — surperformance sectorielle légèrement renforcée
+6. **🟡 Earnings :** 31 jours → **30 jours** — fenêtre binaire se rétrécit
 
-### Ce qui est inchangé (23/06 vs 22/06 21h) :
-1. **🟢 Cours :** $16.08 stable.
-2. **🟢 RSI :** 65.16 stable.
-3. **🟢 ATR :** $0.68 stable.
-4. **🟢 Volume :** 177.55M (1.58× moyenne) stable.
-5. **🟢 Consensus PT :** $16.51 (18 analystes) — stable.
-6. **🟢 Short interest :** 11.39% — squeeze fuel intact.
-7. **🔴 Filtre Qualité :** 0–1/6 — hors périmètre qualité.
-8. **🔴 Bilan fragile :** current ratio 0.50, tangible asset value négatif, net debt/EBITDA 8.83x.
-9. **🔴 Score Global :** 53.8/100 — sous seuil d'achat.
+### Ce qui est inchangé (23/06 13h UTC vs 22/06 21h UTC) :
+1. **🟢 Cours :** $16.08 stable
+2. **🟢 RSI :** 65.16 stable
+3. **🟢 ATR :** $0.68 stable
+4. **🟢 Volume :** 177.55M (1.58× moyenne) stable
+5. **🟢 Consensus PT :** $16.51 (18 analystes) — stable
+6. **🟢 Short interest :** 11.39% — squeeze fuel intact
+7. **🔴 Filtre Qualité :** 0–1/6 — hors périmètre qualité
+8. **🔴 Bilan fragile :** current ratio 0.50, tangible asset value négatif, net debt/EBITDA 8.83x
+9. **🔴 Score Global :** 53.8/100 — sous seuil d'achat
 
 ### Ce qui limite la thèse :
-1. 🔴 Score Global 53.8/100 < 60 = pas de recommandation d'achat.
-2. 🔴 Distribution institutionnelle post-52W high = risque de correction à court terme.
-3. 🔴 Close sous le 52W high = cassure non validée.
-4. 🔴 Filtre Qualité 0–1/6 = hors périmètre qualité.
-5. 🔴 Bilan extrêmement fragile = risque de value trap.
-6. 🔴 Earnings binaire dans 30 jours.
-7. 🔴 Max Pain options $13.50 — un repli sous $15.00 activerait une pression gamma mécanique vers $13.50 avant expiration 26/06.
+1. 🔴 Score Global 53.8/100 < 60 = pas de recommandation d'achat
+2. 🔴 Distribution institutionnelle post-52W high = risque de correction à court terme
+3. 🔴 Close sous le 52W high = cassure non validée
+4. 🔴 Filtre Qualité 0–1/6 = hors périmètre qualité
+5. 🔴 Bilan extrêmement fragile = risque de value trap
+6. 🔴 Earnings binaire dans 30 jours
+7. 🔴 Max Pain options $13.50 — un repli sous $15.00 activerait une pression gamma mécanique vers $13.50 avant expiration 26/06
 
 ### Positionnement Argus-IA (révisé)
 - **Action : ATTENDRE — DISTRIBUTION INSTITUTIONNELLE POST-52W HIGH**
@@ -241,19 +245,18 @@ Le snapshot matinal du 23/06 confirme le close officiel du 22/06 à **$16.08** s
 ---
 
 ## [ANOMALIES]
-- **🔴 Anomalie data quality options :** Le snapshot 10h UTC 23/06 retourne des données options corrompues : Max Pain $5.00 (valeur .00 aberrante), Put/Call null, Call OI 0.0%. Ce pattern a été observé précédemment (2026-06-10, 2026-06-02). Les valeurs opérationnelles du snapshot 21h UTC 22/06 (Max Pain $13.50, Put/Call 1.74, Call OI 36.6%) sont conservées pour l'analyse.
-- **Note data quality :** Le snapshot 10h UTC est un snapshot pre-market / early morning reflétant le close officiel du 22/06. Aucune nouvelle session US n'a eu lieu entre le snapshot 21h UTC et 10h UTC.
+- **🟢 RÉSOLUE — Anomalie data quality options :** Le snapshot 10h UTC 23/06 retournait des données options corrompues (Max Pain $5.00 aberrant, Put/Call null, Call OI 0.0%). Le snapshot 13h UTC corrige cette anomalie avec des valeurs cohérentes : Max Pain $13.50, Put/Call 1.56, Call OI 39.0%. Le repositionnement options réel (Put/Call 1.74 → 1.56, Call OI 36.6% → 39.0%) indique un léger adoucissement du positionnement baissier entre le close du 22/06 et le snapshot 13h UTC du 23/06.
 
 ## [DONNÉES PARTIELLES]
-- MM200, MACD — indisponibles.
-- Données quantitatives significatives (p-value, Sharpe) — insuffisantes.
-- Accounting risk (M-Score, Z-Score, F-Score, Sloan) — fichier indisponible pour AAL.
-- Transcripts NLP, insider trades détaillés, 13F complets, ETF flows, dark pool.
+- MM200, MACD — indisponibles
+- Données quantitatives significatives (p-value, Sharpe) — insuffisantes
+- Accounting risk (M-Score, Z-Score, F-Score, Sloan) — fichier indisponible pour AAL
+- Transcripts NLP, insider trades détaillés, 13F complets, ETF flows, dark pool
 
 ---
 
 ## Références
-- `data/latest.json` (snapshot 10:00 UTC 2026-06-23) — Close $16.08, Open $15.92, High $16.59, Low $15.83, RSI 65.16, ATR $0.68, MM50 $13.16, volume 177.55M (1.58× moyenne), short interest 11.39%, consensus FMP $16.51 (18 analysts), Forward P/E 7.22, options corrompues (Max Pain $5.00 aberrant, Put/Call null, Call OI 0.0%)
+- `data/latest.json` (snapshot 13:00 UTC 2026-06-23) — Close $16.08, Open $15.92, High $16.59, Low $15.83, RSI 65.16, ATR $0.68, MM50 $13.16, volume 177.55M (1.58× moyenne), short interest 11.39%, consensus FMP $16.51 (18 analysts), Forward P/E 7.22, options (Max Pain $13.50, Put/Call 1.56, Call OI 39.0%, expiration 2026-06-26)
 - `data/recommandations_latest.json` — Score Opportunité 4.9/10 (C:5.3 V:3.5 M:6.5), Score Global 53.8/100, Recommandation ATTENDRE, Timing Favorable, prix $16.08, SL $14.72, TP $18.12
 - `data/fx_exposure_latest.json` — AAL FX Score 0.0, direction neutral, divergence aligned
 - `data/upcoming_events_latest.json` — Earnings AAL 2026-07-23 (30 jours)
