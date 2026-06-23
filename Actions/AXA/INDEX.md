@@ -1,7 +1,7 @@
 # AXA — Index du Dossier
 
-> **Dernière mise à jour :** 2026-06-23 (snapshot 10h UTC)
-> **Statut :** 🟡 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`) + earnings J0 FMP glissant sans détails (28e jour consécutif). **SCORING STABLE** : Score Opportunité 5.5/10, Score Global 55.2/100, Recommandation ATTENDRE. **CONTEXTE SECTORIEL XLF EN AMÉLIORATION ORGANIQUE** : rang 3e/11 (stable), momentum 5.45/10 (vs 5.08/10 hier soir), RS 20j +3.69% (vs +3.33%), RS 60j −4.41% (vs −4.79%), return 20j +4.17% (vs +3.81%). Signal macro `UNKNOWN` stable. Amélioration organique confirmée sur les quatre métriques sectorielles — vent arrière théorique marginalement positif pour un assureur.
+> **Dernière mise à jour :** 2026-06-23 (snapshot 13h UTC)
+> **Statut :** 🟡 DONNÉES MANQUANTES — ticker à corriger (`CS.PA` ou `AXAHY`) + earnings J0 FMP glissant sans détails (28e jour consécutif). **SCORING STABLE** : Score Opportunité 5.5/10, Score Global 55.2/100, Recommandation ATTENDRE. **STABILITÉ TOTALE INTER-SNAPSHOT** (10h → 13h) : contexte sectoriel XLF strictement inchangé (rang 3e/11, momentum 5.45/10, RS 20j +3.69%, RS 60j −4.41%, return 20j +4.17%). Signal macro `UNKNOWN` stable. Vent arrière théorique marginalement positif pour un assureur confirmé.
 
 ---
 
