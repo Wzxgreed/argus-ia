@@ -1,5 +1,14 @@
 # FLY — Historique des Full Refreshes
 
+## 2026-06-23 — Full Refresh Triggered (snapshot 17h UTC)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 14.55% (seuil 5.0%) — FAUX TRIGGER (ATR absolu a diminué 4.22 → 4.11, ATR relatif stable ~14.6%)
+
+**Conclusion :** Traité dans `FLY_2026-06-23_update_17h.md` — pas de full refresh nécessaire (pas de changement fondamental, pas d'événement majeur). Thèse ATTENDRE confirmée avec intensité négative stable. Cours $28.24 (−2.49% vs 13h), volume collapse 0.30×, pas de nouveau low ($27.95 > $27.62). Score Global Ajusté **55.0** (+2.5 pts). SL/TP recalés $20.02/$40.57. DRAFT_refresh archivé `_FLY_2026-06-23_DRAFT_refresh.md`.
+
+---
+
 ## 2026-06-22 — Full Refresh Triggered (snapshot 17h UTC)
 
 **Triggers :**
