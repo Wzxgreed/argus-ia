@@ -53,16 +53,16 @@
 - Expiration options : **2026-06-26** (Max Pain $69,00 — pin risk baissier spot +45,3 %)
 
 ## Alertes actives
-- RSI 36,44 — survente étendue, zone <40
-- Divergence consensus — spot +10,4 % vs PT $90,83
+- RSI 34,51 — survente étendue, zone <40, proche seuil stricte <30
+- Divergence consensus — spot +7,3 % vs PT $90,83 (réduite vs +10,4 %)
 - Filtre Qualité 3/6 — hors périmètre institutionnel
 - Ratio R/R 1,5:1 — inférieur au seuil 2:1 institutionnel
-- Volume 0,92× — distribution sur volume quasi-normal (vendeurs actifs confirmés)
-- ATR $10,25 — volatilité élevée structurelle
-- **CASSURE MM50** — spot $100,29 sous MM50 $104,58 (−4,1 %) : support devenu résistance
-- Forward P/E −5 708 — valorisation extrême, non rentable
-- [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $62,66 Mds vs FMP $37,02 Mds
+- Volume 0,41× — **effondrement volumétrique** (11,92 M vs moyenne 28,84 M), dérive sans acheteurs
+- ATR $10,23 — volatilité élevée structurelle
+- **CASSURE MM50 AGGRAVÉE** — spot $97,51 sous MM50 $105,17 (−7,3 %) : support devenu résistance, écart qui se creuse
+- Forward P/E −5 549,8 — valorisation extrême, non rentable
+- [ANOMALIE DONNÉES PERSISTANTE] Market Cap Yahoo $60,93 Mds vs FMP $37,02 Mds
 - Beta 2,499 — sensibilité systématique extrême
-- Pin risk expiration 26/06 — Max Pain $69,00 vs spot $100,29 (écart +45,3 %)
-- Pattern distribution sur volume quasi-normal = vendeurs actifs confirmés
-- **SCORING ÉVITER** : Score Global 29,3/100
+- Pin risk expiration 26/06 — Max Pain $69,00 vs spot $97,51 (écart +41,3 %)
+- Pattern dérive sans acheteurs sur volume effondré = liquidité réduite, pas de distribution active
+- **SCORING ÉVITER** : Score Global 31,8/100
