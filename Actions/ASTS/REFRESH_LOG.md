@@ -237,3 +237,23 @@
 **Conclusion :** invalidate (faux positif algorithmique) — Le DRAFT_refresh est déclenché par les données du close 2026-06-22 déjà intégrées dans `ASTS_2026-06-22_21-00_update.md`. Le snapshot 10h UTC 2026-06-23 reproduit mécaniquement le close 21h UTC ($73,19, RSI 32,85, ATR $10,37, volume 0,991×). Aucun nouvel événement, aucune news, aucun changement de données. La thèse SURVEILLER (43,0/100) est confirmée sans modification. Anomalie options JSON récurrente traitée (max pain $45 aberrant → valeur opérationnelle $100 conservée).
 
 ---
+
+## 2026-06-23 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -9.26% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 14.17% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-23 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -9.26% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 14.17% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

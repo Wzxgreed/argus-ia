@@ -60,7 +60,7 @@
 - **Date :** 2026-06-23
 - **Type :** update
 - **Fichier :** `QTBS_2026-06-23_update.md`
-- **Conclusion :** Data blackout confirmé snapshot 10h UTC — ATTENDRE (59e snapshot consécutif sans mutation), placeholder earnings J0 glissant au 23/06 (29e occurrence), news Yahoo `[]`, aucun signal nouveau, contexte sectoriel XLF en amélioration organique (momentum 5.45/10 +0.37 pt)
+- **Conclusion :** > **Date :** 2026-06-23
 
 ---
 

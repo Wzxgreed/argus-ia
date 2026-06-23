@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 54.0/100
-- **Prix cible :** $85.67 (consensus figé)
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
 - **Stop-loss :** $—
-- **Statut thèse :** Confirmée
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -24,28 +24,23 @@
 
 ## 🚨 Alertes actives
 
-- 🔴 Stale price ≥69 snapshots / ≥30 jours calendaires ($83.46 figé depuis 20/05)
-- 🔴 Earnings Q1 2026 placeholder glissant J=0 (date 23/06, details vide)
-- 🔴 Source `fmp_fallback` persistante — seul ticker du snapshot
-- 🟡 Consensus PT figé $85.67 (3 analystes) depuis 27/05
-- 🟡 Divergence Market Cap FMP ~4.8% ($51.73B vs $54.29B)
-- 🟡 Bloc `technical` vide — RSI/ATR/MM indisponibles depuis 17/05
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-06-23** · earnings · Earnings placeholder glissant J=0 (details vide — data pipeline alert)
+- **2026-06-23** · earnings · Earnings ...
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** N/A (bloc `technical` vide)
-- **MM 50j :** N/A (bloc `technical` vide)
-- **MM 200j :** N/A (bloc `technical` vide)
-- **ATR 14j :** N/A (bloc `technical` vide)
-- **Volume moy. 20j :** N/A (bloc `technical` vide)
+- **RSI 14j :** —
+- **MM 50j :** —
+- **MM 200j :** —
+- **ATR 14j :** —
+- **Volume moy. 20j :** —
 
 ---
 
@@ -54,7 +49,7 @@
 - **Date :** 2026-06-23
 - **Type :** update
 - **Fichier :** `SQ_2026-06-23_update.md`
-- **Conclusion :** **ATTENDRE** — Aucune mutation détectée vs snapshot 21h00 UTC 22/06. Cours figé $83.46 ≥69 snapshots / ≥30 jours. Qualité 3/6 hors périmètre. Score Global Ajusté 54.0/100 inchangé. Consensus $85.67 figé. Earnings placeholder glissant J=0 non résolu. Exclure du périmètre long actif.
+- **Conclusion :** > **Trigger :** Snapshot pipeline 10:00 UTC — matinée US pré-session
 
 ---
 

@@ -1,40 +1,40 @@
-# VRT — Mise à jour Snapshot Pré-Marché (10:00 UTC)
+# VRT — Mise à jour Snapshot Post-Pipeline (13:00 UTC)
 
 > **Date :** 2026-06-23
 > **Cours de référence :** $357.96 (+7.48%)
-> **Fichier précédent :** [VRT_2026-06-22_update.md](./VRT_2026-06-22_update.md) (close officiel 21:00 UTC, $357.96, RSI 60.41, volume 1.19×)
-> **Statut thèse :** CONFIRMÉE — snapshot pré-marché sans nouvelle séance, données techniques inchangées, léger renforcement sectoriel
+> **Fichier précédent :** [VRT_2026-06-23_update.md](./VRT_2026-06-23_update.md) (snapshot 10:00 UTC)
+> **Statut thèse :** CONFIRMÉE — pas de nouvelle séance, données options révisées à la marge, thèse inchangée
 
 ---
 
-## 1. Résumé des changements depuis l'analyse précédente (22/06 21:00 UTC)
+## 1. Résumé des changements depuis l'analyse précédente (23/06 10:00 UTC)
 
-| Métrique | 2026-06-22 21:00 UTC | 2026-06-23 10:00 UTC | Δ |
+| Métrique | 2026-06-23 10:00 UTC | 2026-06-23 13:00 UTC | Δ |
 |----------|----------------------|----------------------|---|
 | Cours close | **$357.96** | **$357.96** | **Stable** |
 | RSI 14j | 60.41 | **60.41** | Stable |
 | ATR 14j | $20.83 | $20.83 | Stable |
 | MM 50j | $322.88 | $322.88 | Stable |
-| Volume vs 20j | 1.19× (7.24M) | 1.19× (7.27M) | Stable |
+| Volume vs 20j | 1.19× (7.27M) | 1.19× (7.27M) | Stable |
 | Change % séance | +7.48% | +7.48% | Stable |
-| P/E TTM | 89.49 | 89.49 | Stable |
+| P/E TTM | 89.49 | **90.17** | +0.68 (arrondi/source) |
 | Forward P/E | 40.44 | 40.44 | Stable |
-| Put/Call ratio | 2.77 | 2.77 | Stable |
-| Call OI % | 26.5% | 26.5% | Stable |
+| Put/Call ratio | 2.77 | **2.38** | **−14.1%** |
+| Call OI % | 26.5% | **29.5%** | **+3.0 pp** |
 | Max pain | $245.0 | $245.0 | Stable |
 | Consensus PT (FMP) | $267.57 | $267.57 | Stable — écart +33.8% |
-| Sector rotation XLI | #2 / momentum 7.27 | **#2 / momentum 7.54** | **+0.27 pts** |
+| Sector rotation XLI | #2 / momentum 7.54 | #2 / momentum 7.54 | Stable |
 | FX exposure | 45% EUR/CNY, Score 0.0 | 45% EUR/CNY, Score 0.0 | Stable |
 | Social sentiment | 0 mentions | 0 mentions | Stable |
 | Events corporate | 0 | 0 | Stable |
-| Prochain earnings | 2026-07-29 (37 jours) | 2026-07-29 (36 jours) | −1 jour |
-| Score Global Ajusté | 50.0/100 (ATTENDRE) | **47.5/100 (SURVEILLER)** | −2.5 pts (moteur) |
+| Prochain earnings | 2026-07-29 (36 jours) | 2026-07-29 (36 jours) | Stable |
+| Score Global Ajusté | 47.5/100 (SURVEILLER) | **47.5/100 (SURVEILLER)** | Stable (moteur) |
 | Recommandation moteur | SURVEILLER | **SURVEILLER** | Stable |
 
 **Faits marquants :**
-- **Snapshot pré-marché 10:00 UTC strictement identique au close officiel 22/06 21:00 UTC.** Aucune nouvelle séance US n'a eu lieu entre les deux snapshots. Les données techniques, fondamentales et options sont inchangées.
-- **Sector rotation XLI momentum amélioré** : 7.54/10 (+0.27 pts vs 7.27/10 au snapshot 22/06). Le secteur Industriels confirme sa position #2 du ranking avec un momentum légèrement renforcé, soutenant la thèse haussière technique.
-- **Options inchangées** : put/call 2.77, call OI 26.5%, max pain $245.0, expiration 26/06 (J+3). Sentiment options bearish mesuré stable.
+- **Snapshot post-pipeline 13:00 UTC strictement identique au close 22/06 sur les prix/volumes.** Aucune nouvelle séance US n'a eu lieu entre les deux snapshots.
+- **Révision options post-pipeline :** put/call revu de **2.77 à 2.38** (−14.1%), call OI de **26.5% à 29.5%** (+3.0 pp). Le sentiment options reste bearish mesuré mais s'est légèrement atténué. Cette révision est cohérente avec un rafraîchissement des données de chaînes d'options post-pipeline.
+- **P/E TTM légèrement révisé à la hausse** (90.17 vs 89.49) — différence d'arrondi/source Yahoo vs FMP, sans impact analytique.
 - **Aucun événement corporate** détecté dans `data/events_latest.json`.
 - **[DONNÉES MANQUANTES]** : `data/accounting_risk_latest.json` absent — pas de scan M-Score / Z-Score / F-Score / Sloan Ratio.
 - **[DONNÉES MANQUANTES]** : `data/quant_report_latest.json` obsolète (2026-05-17) — pas de métriques de risque institutionnelles à jour.
@@ -73,11 +73,11 @@
 | Métrique | Valeur | Source |
 |----------|--------|--------|
 | Market Cap | $137.5B | Yahoo Finance |
-| P/E (TTM) | 89.49 | Yahoo Finance |
+| P/E (TTM) | 90.17 | Yahoo Finance |
 | Forward P/E | 40.44 | Yahoo Finance |
-| EV/EBITDA | 54.00 | Yahoo Finance |
+| EV/EBITDA | 58.02 | Yahoo Finance |
 | EV/EBITDA (FMP) | 29.73 | FMP Stable API (FY2025) |
-| EV/Revenue | 11.87 | Yahoo Finance |
+| EV/Revenue | 12.75 | Yahoo Finance |
 | P/B | 34.74 | Yahoo Finance |
 | P/B (FMP) | 15.69 | FMP Stable API |
 | Beta | 2.037 | Yahoo Finance |
@@ -106,7 +106,7 @@
 
 **Observations :**
 - Les fondamentaux sont **strictement inchangés**. Quality Compounder 6/6 maintenu.
-- La valorisation reste extrême : P/E 89.5, Forward P/E 40.4, P/B 34.7. Le consensus PT $267.57 est **33.8% sous le cours**.
+- La valorisation reste extrême : P/E 90.2, Forward P/E 40.4, P/B 34.7. Le consensus PT $267.57 est **33.8% sous le cours**.
 - Les marges et la rentabilité restent solides (ROIC 18.5%, ROCE 24.3%).
 - La dette est maîtrisée (net debt/EBITDA 0.78×, interest coverage 22×).
 
@@ -117,28 +117,28 @@
 | Signal | Valeur | Commentaire |
 |--------|--------|-------------|
 | Consensus PT (FMP) | $267.57 (47 analysts) | 33.8% sous cours — divergence haussière extrême |
-| Put/Call ratio | 2.77 | Bearish mesuré (73.5% puts) — stable |
-| Call OI % | 26.5% | Puts dominent — stable |
+| Put/Call ratio | 2.38 | Bearish mesuré (70.5% puts) — **légèrement atténué vs 10h (−14.1%)** |
+| Call OI % | 29.5% | Puts dominent mais hausse +3.0 pp vs 10h |
 | Max pain | $245.0 | Sous le cours de 31.6% — expiration J+3 à surveiller |
 | Expiration prochaine | 2026-06-26 | J+3 — risque volatilité expiration |
 | Social sentiment | 0 mentions | Aucune mention Reddit détectée |
 | Pump detection | Non | — |
-| Sector rotation (XLI) | #2 / momentum 7.54 | Industriels outperform — soutien sectoriel légèrement renforcé (+0.27 pts) |
+| Sector rotation (XLI) | #2 / momentum 7.54 | Industriels outperform — soutien sectoriel stable |
 | FX exposure | 45% EUR/CNY | Score FX Impact 0.0 (🟢) — pas d'impact change détecté |
 | Events corporate | 0 événement | Aucun catalyseur externe |
 
 **Observations :**
-- Le sentiment options est **bearish mesuré stable** (put/call 2.77, 73.5% puts). Le marché options continue de parier à la baisse malgré le rally de +19.5% depuis le low 17/06. Cette divergence contrarienne est à monitorer.
+- Le sentiment options est **bearish mesuré légèrement atténué** (put/call 2.38, 70.5% puts, vs 2.77/73.5% à 10h). Cette révision post-pipeline réduit la divergence contrarienne sans l'annuler.
 - Aucune news structurante détectée. Le mouvement reste purement technique / macro (soutien sectoriel XLI).
 - Le short interest 3.73% est modéré — pas de setup short squeeze pur.
-- Le momentum sectoriel XLI s'est légèrement amélioré (7.54/10 vs 7.27/10), renforçant le soutien technique au titre.
+- Le momentum sectoriel XLI est stable à 7.54/10 (#2).
 
 ---
 
 ## 5. Scoring global révisé
 
-**Données du moteur recommandations (Snapshot 10:00 UTC) :**
-| Score | Valeur | Δ vs 22/06 21:00 UTC |
+**Données du moteur recommandations (Snapshot 13:00 UTC) :**
+| Score | Valeur | Δ vs 23/06 10:00 UTC |
 |-------|--------|----------------------|
 | Score Opportunité | 4.3/10 | Stable |
 | Score Catalyseur | 4.3/10 | Stable |
@@ -152,25 +152,26 @@
 
 Le moteur est resté SURVEILLER (47.5/100). Les conditions d'upgrade internes définies au close 22/06 restent **partiellement remplies** :
 
-| Condition | Seuil | Statut 23/06 10:00 UTC | Verdict |
+| Condition | Seuil | Statut 23/06 13:00 UTC | Verdict |
 |-----------|-------|------------------------|---------|
 | Clôture > $350 + volume >1.0× | $350 / 1.0× | **$357.96 / 1.19×** | ✅ **REMPLIE** |
 | Catalyseur externe confirmé | Contrat/guidance/M&A | Aucun | 🔴 Non remplie |
 | Forward P/E < 35 ou PT révisé | < 35 | 40.44 | 🔴 Non remplie |
 | Sector rotation XLI maintenu | Top 3 | **#2 / 7.54** | ✅ **REMPLIE** |
+| Options put/call < 2.0 | < 2.0 | 2.38 | 🟡 Proche mais non atteint |
 
-**Verdict desk :** Le snapshot pré-marché du 23/06 n'apporte **aucune donnée nouvelle** par rapport au close 22/06. La thèse reste inchangée : le rally de +7.48% est confirmé sur volume standard (1.19×), le secteur Industriels (XLI) maintient sa position #2 avec un momentum légèrement amélioré (7.54/10), mais la **valorisation extrême** (P/E 89.5, Forward P/E 40.4, consensus 33.8% sous cours) et l'**absence de catalyseur externe** empêchent tout upgrade vers ACHETER. Le risque principal reste le profit-taking en approche du 52-week high ($379.94, −5.8%).
+**Verdict desk :** Le snapshot post-pipeline 13:00 UTC confirme la **stabilité totale** des données de prix/volume vs 10:00 UTC. La seule évolution notable est la **révision options** (put/call 2.38 vs 2.77, call OI 29.5% vs 26.5%), qui atténue légèrement le sentiment bearish mesuré sans l'annuler. La thèse reste inchangée : le rally de +7.48% est confirmé sur volume standard (1.19×), le secteur Industriels (XLI) maintient sa position #2 avec momentum 7.54/10, mais la **valorisation extrême** (P/E 90.2, Forward P/E 40.4, consensus 33.8% sous cours) et l'**absence de catalyseur externe** empêchent tout upgrade vers ACHETER. Le risque principal reste le profit-taking en approche du 52-week high ($379.94, −5.8%).
 
 | Score révisé desk | Valeur |
 |-------------------|--------|
-| Score Opportunité | 4.6/10 (stable — volume confirmé, sectoriel renforcé) |
+| Score Opportunité | 4.6/10 (stable — volume confirmé, options légèrement moins bearish) |
 | Score Catalyseur | 4.3/10 (stable — pas de catalyseur nouveau) |
 | Score Valorisation | 2.5/10 (stable — plafond) |
 | Score Momentum | 7.0/10 (stable) |
 | **Score Global Ajusté desk** | **50.0/100** |
 | **Recommandation desk** | **ATTENDRE** (maintenu, nuance haussière stable) |
 
-> ⚠️ **Note importante :** Le moteur est SURVEILLER (47.5) tandis que le desk maintient ATTENDRE (50.0). L'écart reflète la divergence d'interprétation sur le volume confirmé et le momentum sectoriel. Le desk maintient ATTENDRE car le franchissement de $350 avec volume >1.0× est un signal positif, mais la valorisation et l'absence de catalyseur externe justifient de ne pas passer à ACHETER.
+> ⚠️ **Note importante :** Le moteur est SURVEILLER (47.5) tandis que le desk maintient ATTENDRE (50.0). L'écart reflète la divergence d'interprétation sur le volume confirmé et le momentum sectoriel. Le desk maintient ATTENDRE car le franchissement de $350 avec volume >1.0× est un signal positif, mais la valorisation et l'absence de catalyseur externe justifient de ne pas passer à ACHETER. La révision options (−14.1% sur put/call) est un signal secondaire favorable mais insuffisant pour upgrader.
 
 ---
 
@@ -193,14 +194,14 @@ Le moteur est resté SURVEILLER (47.5/100). Les conditions d'upgrade internes d�
 
 ## 7. Conclusion — Thèse confirmée, modifiée ou invalidée ?
 
-**Verdict : THÈSE CONFIRMÉE — snapshot pré-marché sans nouvelle séance, données techniques inchangées, léger renforcement sectoriel**
+**Verdict : THÈSE CONFIRMÉE — snapshot post-pipeline sans nouvelle séance, données options révisées à la marge, thèse inchangée**
 
 La thèse de fond reste inchangée : VRT est un **Quality Compounder 6/6** bénéficiant du boom de l'IA infrastructure, avec des fondamentaux solides (ROIC 18.5%, net debt/EBITDA 0.78×) mais une **valorisation extrême** qui plafonne le score.
 
-**Ce qui n'a pas changé depuis le close 22/06 21:00 UTC :**
+**Ce qui n'a pas changé depuis le snapshot 10:00 UTC 23/06 :**
 1. **Toutes les données techniques** : cours $357.96, RSI 60.41, ATR $20.83, MM50 $322.88, volume 1.19×.
-2. **Toutes les données fondamentales** : P/E 89.5, Forward P/E 40.4, marges, ROIC, dette — inchangés.
-3. **Options** : put/call 2.77, call OI 26.5%, max pain $245 — inchangés.
+2. **Toutes les données fondamentales** : P/E 90.2, Forward P/E 40.4, marges, ROIC, dette — inchangés.
+3. **Max pain** : $245 — inchangé.
 4. **Consensus** : PT $267.57, écart +33.8% — inchangé.
 5. **FX exposure** : Score 0.0 (🟢) — inchangé.
 6. **Social sentiment** : 0 mentions — inchangé.
@@ -208,8 +209,9 @@ La thèse de fond reste inchangée : VRT est un **Quality Compounder 6/6** bén�
 8. **Score Global Ajusté desk** : 50.0/100 (ATTENDRE) — inchangé.
 
 **Ce qui a légèrement changé :**
-1. **Sector rotation XLI** : momentum amélioré de 7.27 à **7.54/10** (+0.27 pts) — renforcement du soutien sectoriel.
-2. **Prochain earnings** : 36 jours (vs 37 jours) — compte à rebours.
+1. **Options put/call** : **2.38 vs 2.77** (−14.1%) — atténuation du bearish mesuré.
+2. **Call OI** : **29.5% vs 26.5%** (+3.0 pp) — léger renforcement du camp call.
+3. **P/E TTM** : **90.17 vs 89.49** (+0.68) — différence d'arrondi/source, sans impact.
 
 **Scénarios forward (inchangés) :**
 
@@ -235,9 +237,10 @@ La thèse de fond reste inchangée : VRT est un **Quality Compounder 6/6** bén�
 - Clôture > $360 avec volume >1.0×
 - Catalyseur externe confirmé (contrat, guidance raise, M&A)
 - Forward P/E < 35 ou consensus PT révisé à la hausse
+- Put/call < 2.0 en confirmation
 
 **Prochain événement :** Earnings Q2 FY2026 le **2026-07-29** (36 jours) — Est EPS $1.38–$1.59, Rev $3.4B. Ce sera le catalyseur décisif.
 
 ---
 
-*Rapport généré par le desk Argus-IA — données source : `data/latest.json` (2026-06-23 10:00 UTC), `data/recommandations_latest.json`, `data/sector_rotation_latest.json`, `data/fx_exposure_latest.json`, `data/social_sentiment_latest.json`, `data/upcoming_events_latest.json`, `data/events_latest.json`, `data/geo_risk_latest.json`. [DONNÉES MANQUANTES] : `data/accounting_risk_latest.json` absent, `data/quant_report_latest.json` obsolète (2026-05-17).*
+*Rapport généré par le desk Argus-IA — données source : `data/latest.json` (2026-06-23 13:00 UTC), `data/recommandations_latest.json`, `data/sector_rotation_latest.json`, `data/fx_exposure_latest.json`, `data/social_sentiment_latest.json`, `data/upcoming_events_latest.json`, `data/events_latest.json`. [DONNÉES MANQUANTES] : `data/accounting_risk_latest.json` absent, `data/quant_report_latest.json` obsolète (2026-05-17).*

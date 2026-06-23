@@ -57,15 +57,15 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** update post-pipeline
+- **Type :** update
 - **Fichier :** `SPCX_2026-06-23_update.md`
-- **Conclusion :** Thèse confirmée en ATTENDRE avec nuance de stabilisation partielle — faux prix $154.60 stable, float/consensus stables sur 4 snapshots consécutifs, mais mutation inverse options (max_pain 162.5, put/call et call OI à null). Score Global stable 56.0/100. DRAFT_refresh classé faux positif algorithmique.
+- **Conclusion :** **Date :** 2026-06-23
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (high) — Gap -16.43% overnight (seuil ±5.0%) — Faux positif algorithmique, archivé
+- **PRICE_GAP** (high) — Gap -16.43% overnight (seuil ±5.0%)
 
 ---
 

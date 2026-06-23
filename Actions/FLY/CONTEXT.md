@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE
-- **Score global :** 52.5/100
-- **Prix cible :** $43.77 (consensus 13 analysts) / TP $41.62
-- **Stop-loss :** $20.52
-- **Statut thèse :** confirmée
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** modifiée
 - **Horizon :** —
 
 ---
@@ -24,16 +24,13 @@
 
 ## 🚨 Alertes actives
 
-- **[ANOMALIE DATA]** `data/latest.json` snapshot 10h UTC 23/06 : max pain $18.00 aberrant, put/call null, call OI null — valeurs opérationnelles du 22/06 conservées ($50.00/0.35/74.0%)
-- **[ANOMALIE SCORING]** Score Valorisation 6.0/10 incohérent avec règle Filtre Qualité (≤3/6 → plafond 5/10). Score Opportunité ajusté manuel ~5.4/10, Global Ajusté ~50.0
-- **[DRAFT_refresh archivé]** Faux trigger PRICE_GAP −6.43% / ATR_SPIKE (carry-over close 22/06) — traité dans `FLY_2026-06-23_update.md`
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **Earnings Q2 2026** — 2026-08-04 (42 jours) — Est EPS −$0.61 à −$0.45, Rev $0.1B
-- **Expiration options** — 2026-06-26 (J-3) — max pain $50.00, spot −42.1%, calls OTM $35–$40 à risque d'expiration sans valeur
+- Aucun événement à venir.
 
 ---
 
@@ -50,16 +47,16 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** update
-- **Fichier :** `FLY_2026-06-23_update.md`
-- **Conclusion :** Thèse ATTENDRE confirmée — stabilité totale vs close officiel 22/06 (cours $28.96, volume 6.22M 0.63×, RSI 27.41, ATR 4.22, MM50 38.99 inchangés). [ANOMALIE DATA] Options corrompues dans `latest.json` (max pain $18.00 aberrant) — valeurs opérationnelles du 22/06 conservées. DRAFT_refresh déclenché par faux trigger (carry-over close 22/06) — archivé. Scores inchangés (Opp 5.6, Global 52.5), timing Défavorable. SL/TP $20.52/$41.62. Pas de position recommandée.
+- **Type :** full refresh
+- **Fichier :** `FLY_2026-06-23_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-23
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap −6.43% vs prior close $30.95 (seuil ±5.0%) — **FAUX TRIGGER** : carry-over du close 22/06, pas de nouveau mouvement overnight
-- **ATR_SPIKE** (medium) — ATR relatif 14.57% (seuil 5.0%) — **FAUX TRIGGER** : ATR stable à 4.22 vs close 22/06
+- **PRICE_GAP** (medium) — Gap -6.43% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 14.57% (seuil 5.0%)
 
 ---
 

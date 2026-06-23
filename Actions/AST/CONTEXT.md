@@ -47,9 +47,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** preview
-- **Fichier :** `AST_2026-06-23_preview.md`
-- **Conclusion :** > **Date :** 2026-06-23
+- **Type :** update
+- **Fichier :** `AST_2026-06-23_update.md`
+- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-23T10:00:01Z) | `data/recommandations_latest.json` | `data/validation_report.txt`
 
 ---
 

@@ -70,15 +70,15 @@ Le repositionnement options reste haussier : Max Pain **$18.00** (pinning possib
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** update
-- **Fichier :** `SOFI_2026-06-23_update.md`
-- **Conclusion :** Snapshot matinal — stabilité totale des prix/volumes/technique. XLF momentum amélioré +0.37 pt. DRAFT_refresh ATR_SPIKE archivé faux positif. Thèse ACHETER Réduit confirmée.
+- **Type :** full refresh
+- **Fichier :** `SOFI_2026-06-23_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-23
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 5.85% (seuil 5.0%) — **archivé faux positif** (ATR absolu stable $1.00)
+- **ATR_SPIKE** (medium) — ATR relatif 5.85% (seuil 5.0%)
 
 ---
 

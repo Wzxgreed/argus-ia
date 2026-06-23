@@ -2680,3 +2680,21 @@
 **Conclusion :** Voir entrée précédente — traitée dans `FUBO_2026-06-23_update.md`.
 
 ---
+
+## 2026-06-23 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 9.18% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-23 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 9.18% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

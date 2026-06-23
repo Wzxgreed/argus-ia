@@ -15,7 +15,7 @@
 - **Upside/Downside :** +2.7% (consensus $16.51) / −8.5% (SL)
 - **Derniere mise a jour :** 2026-06-23 (snapshot 10h UTC, confirmant close officiel NY 22/06)
 
-American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). Le snapshot matinal du 23/06 confirme le close officiel du 22/06 à **$16.08 (+0.56% vs prior close)** après avoir établi un **nouveau 52W high $16.59** en intraday. Le volume total atteint **177.55M (1.58× moyenne 20j)** — un record historique récent confirmé. Cependant, ce volume record s'accompagne d'un **close sous le 52W high** ($16.08 vs $16.59) = **distribution institutionnelle** (vente au sommet) selon l'interprétation Argus-IA. Le RSI reste à **65.16**. Le consensus analystes **$16.51** est à nouveau **au-dessus du cours** = upside mécanique positif (+2.7%).
+American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). Le snapshot matinal du 23/06 confirme le close officiel du 22/06 à **$16.08 (+0.56% vs prior close)** après avoir établi un **nouveau 52W high $16.59** en intraday. Le volume total atteint **177.55M (1.58× moyenne 20j)** — un record historique récent confirmé. Cependant, ce volume record s'accompagne d'un **close sous le 52W high** ($16.08 vs $16.59) = **distribution institutionnelle** (vente au sommet) selon l'interprétation Argus-IA. Le RSI reste à **65.16**, sortant partiellement de la zone de surachat proximale. Le consensus analystes **$16.51** est à nouveau **au-dessus du cours** = upside mécanique positif (+2.7%).
 
 Les scores de l'agent recommandation sont **inchangés** : Score Opportunité **4.9/10**, Score Global ajusté **53.8/100** — écart de 6.2 pts par rapport au seuil d'achat (60). Le Forward P/E reste à **7.22**. Le short interest reste stable à **11.39%**. Le Filtre Qualité reste 0–1/6. Aucun analyste n'a relevé son PT malgré le test du 52W high = le consensus institutionnel ne valide pas le niveau.
 
@@ -28,7 +28,7 @@ Les scores de l'agent recommandation sont **inchangés** : Score Opportunité **
 - Score Global ajusté ≥ 60
 
 **Conditions de dégradation vers SURVEILLER :**
-- Repli sous $15.83 (low du 22/06)
+- Repli sous $15.83 (low du jour)
 - Repli sous $15.46 (close du 16/06)
 - Repli sous $14.72 (SL cassé)
 - Repli sous $15.00 avant expiration 26/06 (risque gamma vers Max Pain $13.50)
@@ -62,7 +62,6 @@ Les scores de l'agent recommandation sont **inchangés** : Score Opportunité **
 
 ## 📅 Prochains événements
 
-- **2026-06-26** · expiration options · Expiration options (J+3) — Max Pain $13.50, Put/Call 1.74 — risque gamma actif si repli sous $15.00 (spot $16.08 à +19.1% du Max Pain)
 - **2026-07-23** · earnings · Earnings date — Est EPS $-0.34-$0.52, Rev $16.6B...
 
 ---
@@ -82,7 +81,7 @@ Les scores de l'agent recommandation sont **inchangés** : Score Opportunité **
 - **Date :** 2026-06-23
 - **Type :** update
 - **Fichier :** `AAL_2026-06-23_update.md`
-- **Conclusion :** **Date :** 2026-06-23 (snapshot 10h UTC, stabilité post-distribution confirmée)
+- **Conclusion :** **Date :** 2026-06-23 (snapshot 10h UTC, close officiel NY 16h ET du 22/06)
 
 ---
 

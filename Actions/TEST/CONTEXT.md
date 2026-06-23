@@ -7,12 +7,12 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER (Réduit)
-- **Score global :** 71.5/100 (ajusté) / 61.5/100 (brut)
-- **Prix cible :** $48.54
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
 - **Stop-loss :** $42.14
-- **Statut thèse :** Confirmée — stabilité technique totale vs snapshot précédent
-- **Horizon :** 1–3 mois
+- **Statut thèse :** —
+- **Horizon :** —
 
 ---
 
@@ -30,7 +30,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-23** · earnings · Earnings (artefact FMP persistant, J+1 imminent)
+- **2026-06-23** · earnings · Earnings ...
 
 ---
 
@@ -41,19 +41,15 @@
 - **MM 200j :** —
 - **ATR 14j :** 1.28
 - **Volume moy. 20j :** 1815
-- **Volume session :** 3700 (2.04× avg)
-- **Cours close :** 44.704
-- **Previous close :** 44.334
-- **Change session :** +0.83%
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** update
-- **Fichier :** `TEST_2026-06-23_update.md`
-- **Conclusion :** Stabilité technique totale vs snapshot 21h UTC 22/06. Cours $44.704 (+0.001%), RSI 50.07 (+0.01 pt), volume 3,700 (2.04× avg), MM50 $43.93 (marge +1.76%), ATR $1.28. Scores strictement identiques au snapshot précédent (Score Global 61.5/100, 71.5 ajusté ; Score Momentum 7.5). Verdict ACHETER (Réduit) maintenu, SL/TP $42.14/$48.54, ratio R/R 1.5. Aucune transaction détectée sur 13h (illiquidité extrême confirmée). Earnings JOUR J persistant (artefact FMP).
+- **Type :** preview
+- **Fichier :** `TEST_2026-06-23_preview.md`
+- **Conclusion :** > **Date :** 2026-06-23
 
 ---
 

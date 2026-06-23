@@ -14,7 +14,7 @@
 **Horizon :** 1–3 mois
 **Statut thèse :** 🟢 **Confirmée — stabilité mécanique totale** — snapshot 10h UTC du 23/06 : **[STABLE]** Cours $126.49 (identique au close 22/06). **[STABLE]** Volume 2.19M (0.79×) quasi identique au close 22/06. **[STABLE]** RSI 33.78, ATR $3.86 (+$0.01), MM50 $121.36 inchangés. **[ANOMALIE OPTIONS JSON RÉCURRENTÉE]** : max_pain $60.0 aberrant → valeurs opérationnelles 22/06 conservées ($135.0 / 0.49 / 67.3%). **[STABLE]** Sector rotation : Healthcare (XLV) au **#6** (momentum 1.53, +0.45 pt vs 22/06). **[STABLE]** Score Global ajusté **72.5/100** — **ACHETER Réduit maintenu**.
 
-**Synthèse :** Agilent affiche une **stabilité mécanique totale** au snapshot 10h UTC du 23/06 vs le close officiel du 22/06. Le cours à **$126.49** est inchangé, le volume à **2.19M (0.79×)** est quasi identique, le RSI à **33.78** est stable, l'ATR à **$3.86** n'a varié que de +$0.01, et la MM50 à **$121.36** est strictement inchangée. Cette absence de mutation confirme la phase de consolidation post-gap ($124–$132) sans distribution institutionnelle ni accumulation anormale. La seule alerte est une **anomalie options JSON récurrente** (max_pain $60.0 aberrant) — les valeurs opérationnelles du 22/06 ($135.0 / 0.49 / 67.3%) sont conservées et cohérentes. Les fondamentaux sont inchangés et solides : Filtre Qualité 5/6 maintenu, consensus $163.29 laissant un upside **+29.1%**, forward P/E 19.15× attractif. Le secteur Healthcare (XLV) au #6 montre une légère amélioration de momentum (+0.45 pt à 1.53). L'entrée au spot $126.49 reste possible avec **sizing Réduit**. Risques principaux : (1) RSI 33.78 proche de 30 — risque de rebond technique ou d'accélération baissière si $125.57 est fracturé, (2) rotation sectorielle défavorable (XLV #6), (3) earnings Q3 le 2026-08-26 (J+64).
+**Synthèse :** Agilent affiche une **stabilité mécanique totale** au snapshot 10h UTC du 23/06 vs le close officiel du 22/06. Le cours à **$126.49** est inchangé, le volume à **2.19M (0.79×)** est quasi identique, le RSI à **33.78** est stable, l'ATR à **$3.86** n'a varié que de +$0.01, et la MM50 à **$121.36** est strictement inchangée. Cette absence de mutation confirme la phase de consolidation post-gap ($124–$132) sans distribution institutionnelle ni accumulation anormale. La seule alerte est une **anomalie options JSON récurrente** (max_pain $60.0 aberrant) — les valeurs opérationnelles du 22/06 ($135.0 / 0.49 / 67.3%) sont conservées. Les fondamentaux sont inchangés et solides : Filtre Qualité 5/6 maintenu, consensus $163.29 laissant un upside **+29.1%**, forward P/E 19.15× attractif. Le secteur Healthcare (XLV) au #6 montre une légère amélioration de momentum (+0.45 pt à 1.53). L'entrée au spot $126.49 reste possible avec **sizing Réduit**. Risques principaux : (1) RSI 33.78 proche de 30 — risque de rebond technique ou d'accélération baissière si $125.57 est fracturé, (2) rotation sectorielle défavorable (XLV #6), (3) earnings Q3 le 2026-08-26 (J+64).
 
 ---
 
@@ -79,7 +79,7 @@
 - **Date :** 2026-06-23
 - **Type :** update
 - **Fichier :** `A_2026-06-23_update.md`
-- **Conclusion :** 🟢 Thèse confirmée — stabilité mécanique totale vs close 22/06. Cours $126.49 inchangé, volume 2.19M quasi identique, RSI 33.78 stable, ATR $3.86 (+$0.01), MM50 $121.36 inchangée. Anomalie options JSON récurrente (max_pain $60.0 aberrant → valeurs 22/06 conservées). Sector rotation XLV #6 momentum 1.53 (+0.45 pt). Score Global ajusté 72.5/100 ACHETER Réduit maintenu.
+- **Conclusion :** > **Date :** 2026-06-23 · Snapshot 10:00 UTC
 
 ---
 

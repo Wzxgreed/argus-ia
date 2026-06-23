@@ -49,7 +49,6 @@
 - **MM 200j :** —
 - **ATR 14j :** 0.57
 - **Volume moy. 20j :** 65245235
-- **Volume dernière session :** 40815500 (0.63×)
 
 ---
 
@@ -58,7 +57,7 @@
 - **Date :** 2026-06-23
 - **Type :** update
 - **Fichier :** `NU_2026-06-23_update.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité mécanique totale vs close 21h 22/06, cours $12.79 inchangé, RSI 47.74 stable, volume révisé 40.82M 0.63×, anomalie options JSON traitée, fondamentaux intacts, SL/TP $11.65/$14.50, timing défavorable maintenu)**
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité mécanique totale vs close 21h 22/06, cours $12
 
 ---
 
