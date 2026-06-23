@@ -58,20 +58,27 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
+- **Cours close :** $3.04
 - **RSI 14j :** 31.53
-- **MM 50j :** 3.8
+- **MM 50j :** 3.80
 - **MM 200j :** —
 - **ATR 14j :** 0.17
+- **Volume :** 3.78M (0.91x moy. 20j)
 - **Volume moy. 20j :** 4163245
+- **Short interest :** 14.97%
+- **Max pain (operationnel) :** $4.00
+- **Put/Call (operationnel) :** 8.91
+- **Call OI % (operationnel) :** 10.1%
+- **Expiration proche :** 2026-07-17
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-22
+- **Date :** 2026-06-23
 - **Type :** update
-- **Fichier :** `CTMX_2026-06-22_update.md`
-- **Conclusion :** > **Societe :** CytomX Therapeutics, Inc.
+- **Fichier :** `CTMX_2026-06-23_update.md`
+- **Conclusion :** Stabilite mecanique totale vs cloture 22/06. Anomalie options JSON recurrente traitee (valeurs operationnelles conservees). Structure baissiere persistante. Recommandation SURVEILLER et Score Global Ajuste 48.8/100 inchanges. Timing Defavorable.
 
 ---
 
@@ -81,4 +88,5 @@
 
 ---
 
+*Dernière mise a jour : 2026-06-23*
 *Généré automatiquement — ne pas éditer manuellement.*
