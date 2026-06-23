@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $42.14
-- **Statut thèse :** —
+- **Recommandation :** SURVEILLER
+- **Score global :** 50.2/100
+- **Prix cible :** $46.73
+- **Stop-loss :** $39.88
+- **Statut thèse :** Invalidée
 - **Horizon :** —
 
 ---
@@ -36,20 +36,20 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 50.07
-- **MM 50j :** 43.93
+- **RSI 14j :** 40.11
+- **MM 50j :** 44.00
 - **MM 200j :** —
-- **ATR 14j :** 1.28
-- **Volume moy. 20j :** 1815
+- **ATR 14j :** 1.37
+- **Volume moy. 20j :** 1823
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** preview
-- **Fichier :** `TEST_2026-06-23_preview.md`
-- **Conclusion :** > **Date :** 2026-06-23
+- **Type :** update
+- **Fichier :** `TEST_2026-06-23_update_17h00.md`
+- **Conclusion :** Mutation technique majeure : cours −4.66% à $42.62, RSI 40.11 (−9.96 pts), volume effondré 677 (0.37× avg), cours repassé sous MM50 $44.00 (−3.14%). Score Global 61.5→50.2 (−11.3 pts, 71.5→42.2 ajusté), Score Momentum 7.5→3.0 (−4.5 pts). Verdict dégradé ACHETER (Réduit) → SURVEILLER, timing Défavorable. Thèse invalidée.
 
 ---
 
