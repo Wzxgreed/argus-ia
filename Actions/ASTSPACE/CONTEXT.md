@@ -48,8 +48,8 @@
 
 - **Date :** 2026-06-23
 - **Type :** update
-- **Fichier :** `ASTSPACE_2026-06-23_update.md`
-- **Conclusion :** > **Proxy ASTS** : snapshot 10h UTC 2026-06-23 — **stabilité mécanique totale vs close officiel 22/06**. Cours **$73,19** (identique au snapshot 21h 22/06, −9,26% vs previous close $80,66), volume nor
+- **Fichier :** `ASTSPACE_2026-06-23_13-00_update.md`
+- **Conclusion :** > **Proxy ASTS** : snapshot 13h UTC 2026-06-23 — **stabilité mécanique totale vs snapshot 10h**. Cours **$73,19** (inchangé, −9,26% vs previous close $80,66), volume stable 0,991×. **Anomalie options JSON RÉSOLUE** : max pain $100,00 cohérent, put/call 0,69, call OI 59,3%. Score SURVEILLER 43,0/100 inchangé. Anomalie structurelle ASTSPACE persistante (65 snapshots sans données).
 
 ---
 
