@@ -1,5 +1,15 @@
 # RKLB — Historique des Full Refreshes
 
+## 2026-06-23 — DRAFT_refresh Archivé (Stale / Doublon)
+
+**Triggers :**
+- price_gap (medium) : Gap −6,48 % (seuil ±5,0 %)
+- atr_spike (medium) : ATR relatif 10,22 % (seuil 5,0 %)
+
+**Conclusion :** STALE / DOUBLON — DRAFT_refresh détecté à 13h UTC du 23/06 et archivé. Les triggers correspondent au gap baissier du 22/06 déjà intégralement traité dans `RKLB_2026-06-22_update_21h.md` et `RKLB_2026-06-22_init.md` (snapshot 21h UTC 22/06 : close $100,29, RSI 36,44, ATR $10,25, MM50 $104,58, volume 0,92×). Aucun nouvel événement structurant. Stabilité mécanique totale vs snapshot 10h UTC 23/06. [ANOMALIE OPTIONS JSON RÉSOLUE] Max Pain $69,00, Put/Call 0,91, Call OI 52,4 % restaurés dans `latest.json` (vs $45,00/null/null corrompus sur les snapshots précédents). Thèse ÉVITER confirmée (Score Global 29,3/100). Fichiers : `RKLB_2026-06-23_update.md`. INDEX.md, CONTEXT.md mis à jour. DRAFT_refresh archivé (`_RKLB_2026-06-23_DRAFT_refresh.md`).
+
+---
+
 ## 2026-06-22 — Full Refresh Complété (Snapshot 21h UTC)
 
 **Triggers :**
