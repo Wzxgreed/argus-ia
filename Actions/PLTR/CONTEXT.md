@@ -35,7 +35,8 @@
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- **Earnings Q2 FY2026 :** 2026-08-03 (41 jours) — Est. EPS $0.33–$0.40, Rev $1.8B
+- **Expiration options :** 2026-06-26 (3 jours) — Max Pain $130.00
 
 ---
 
