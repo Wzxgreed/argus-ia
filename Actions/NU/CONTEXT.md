@@ -12,7 +12,7 @@
 - **Score Opportunité :** 6.7/10 (C:6.5 V:8.0 M:5.0)
 - **Prix Cible :** $17.49 (consensus FMP, 12 analysts)
 - **Stop-Loss :** $11.65 (ATR $0.57)
-- **Statut Thèse :** Score ajusté 59.2 — snapshot 13h UTC 23/06 (pre-market US) : **stabilité mécanique totale** vs snapshot 10h 23/06, cours **$12.79** inchangé, RSI **47.74** stable, volume **0.63×** (40.82M), **anomalie options JSON RÉSOLUE** (données cohérentes : max pain **$14.00**, put/call **0.56**, call OI **64.0%**), gap MM50 **−4.9%**, fondamentaux intacts (forward P/E 11.10×, upside +36.7%), support $11.20 à +14.2%, SL/TP **$11.65/$14.50**, timing défavorable maintenu, expiration options 26/06 dans 3 jours
+- **Statut Thèse :** Score ajusté 59.2 — snapshot 17h UTC 23/06 (séance US en cours) : **mutation technique mitigée**, cours **$12.585** en repli −1.60% vs snapshot 13h, RSI en explosion **+11.45 pts à 59.19**, volume pathologique **0.24×** (15.27M), gap MM50 aggravé **−6.0%**, ATR contracté **$0.48**, structure options stable (max pain **$14.00**, put/call **0.56**, call OI **64.0%**), fondamentaux intacts (forward P/E 10.92×, upside +38.9%), support $11.20 à +12.4%, SL/TP **$11.62/$14.03**, timing défavorable aggravé, expiration options 26/06 dans 3 jours
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
@@ -48,16 +48,16 @@
 - **MM 50j :** 13.39
 - **MM 200j :** —
 - **ATR 14j :** 0.48
-- **Volume moy. 20j :** 63421698
+- **Volume moy. 20j :** 63526898
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** init
-- **Fichier :** `NU_2026-06-23_update_13h.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (stabilité mécanique totale vs snapshot 10h 23/06, cours $12
+- **Type :** update
+- **Fichier :** `NU_2026-06-23_update_17h.md`
+- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (mutation technique mitigée : cours $12.585 en repli −1.60%, RSI explosion +11.45 pts à 59.19, volume pathologique 0.24× 15.27M, gap MM50 aggravé −6.0%, ATR contracté $0.48, fondamentaux intacts forward P/E 10.92× upside +38.9%, SL/TP $11.62/$14.03)**
 
 ---
 
