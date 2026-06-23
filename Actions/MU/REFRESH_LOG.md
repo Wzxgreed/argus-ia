@@ -81,22 +81,12 @@
 
 ---
 
-## 2026-06-23 — Full Refresh Triggered
+## 2026-06-23 — Full Refresh Triggered (faux positif algorithmique)
 
 **Triggers :**
 - price_gap (medium) : Gap +6.82% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 7.59% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
-
----
-
-## 2026-06-23 — Full Refresh Triggered
-
-**Triggers :**
-- price_gap (medium) : Gap +6.82% overnight (seuil ±5.0%)
-- atr_spike (medium) : ATR relatif 7.59% (seuil 5.0%)
-
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** ARCHIVÉ — Faux positif algorithmique. Ces triggers sont identiques à ceux du 2026-06-22 21h UTC déjà traités dans `MU_2026-06-22_update.md`. Aucune nouvelle donnée ne justifie un full refresh. La thèse ATTENDRE 56.5/100 reste stable. Volume normalisé 0.96×. Anomalie options JSON traitée (max pain $270 → $650 conservé). Earnings J+1 demain (2026-06-24). DRAFT archivé sous `_MU_2026-06-23_DRAFT_refresh.md`.
 
 ---

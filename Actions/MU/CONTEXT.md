@@ -8,21 +8,19 @@
 ## 🎯 Thèse active
 
 - **Recommandation :** ATTENDRE
-**Score Global :** 56.5/100
-**Prix cible :** $530.16 (consensus 91 analysts) vs cours $1211.38
-**Stop-loss :** $1027.54 (2×ATR)
-**Horizon :** Post-earnings (2026-06-24)
+- **Score Global :** 56.5/100
+- **Prix cible :** $530.16 (consensus 91 analysts) vs cours $1211.38
+- **Stop-loss :** $1027.54 (2×ATR)
+- **Horizon :** Post-earnings (2026-06-24)
 
-**Synthèse :** MU a atteint un nouveau 52-week high à $1213.56 lors du close officiel 21h UTC, portant le gain de la séance à +6.82%. La révision volumétrique à 47.96M (0.88× la moyenne 20j) invalide l'hypothèse de volume collapse du snapshot 17h. Le mouvement s'est donc construit sur une participation institutionnelle proche de la normale. Le Forward P/E est remonté à 10.03 et la divergence cours vs consensus analystes s'aggrave marginalement à **−56.2%** ($1211.38 vs $530.16). Le put/call ratio corrigé à 2.38 traduit une prudence modérée pré-earnings. Les résultats du 2026-06-24 seront le verdict. Attendre le passage de l'événement avant toute décision.
+**Synthèse :** Stabilité mécanique totale vs close 22/06. Volume normalisé 0.96× (révision favorable). Anomalie options JSON traitée (valeurs opérationnelles conservées). Divergence cours vs consensus −56.2%. Earnings J+1 demain (2026-06-24). Pas de nouvelle donnée fondamentale depuis le close 21h du 22/06.
 
 ---
 
 ## 📜 Historique des fichiers
-- **Score global :** —/10
-- **Prix cible :** $530.16
-- **Stop-loss :** $1027.54
-- **Statut thèse :** invalide
-- **Horizon :** Post-earnings (2026-06-24)
+- **Dernier fichier :** `MU_2026-06-23_update.md`
+- **Type :** Update
+- **Conclusion :** Stabilité mécanique totale, volume normalisé, anomalie options JSON traitée, thèse ATTENDRE stable
 
 ---
 
@@ -34,39 +32,42 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- **EARNINGS_PROXIMITY** (high) — Earnings dans 1 jour (2026-06-24)
+- **OPTIONS_ANOMALY_JSON** (medium) — Valeurs aberrantes détectées le 23/06, valeurs opérationnelles conservées
+- **PRICE_GAP** (medium) — Gap +6.82% séance du 22/06
+- **ATR_SPIKE** (medium) — ATR relatif 7.59%
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-06-24** · earnings · Earnings date — Est EPS $7.53-$26.00, Rev $35.0B...
+- **2026-06-24** · earnings · Earnings Q3 FY2026 — Est EPS $7.53-$26.00, Rev $35.0B
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
 - **RSI 14j :** 59.94
-- **MM 50j :** 748.6
+- **MM 50j :** 748.60
 - **MM 200j :** —
 - **ATR 14j :** 91.92
-- **Volume moy. 20j :** 54948670
+- **Volume moy. 20j :** 54,948,670
+- **Volume dernier snapshot :** 52,572,500 (0.96×)
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-23
-- **Type :** preview
-- **Fichier :** `MU_2026-06-23_preview.md`
-- **Conclusion :** > **Date :** 2026-06-23
+- **Type :** update
+- **Fichier :** `MU_2026-06-23_update.md`
+- **Conclusion :** Stabilité mécanique totale vs close 22/06. Volume normalisé 0.96×. Anomalie options JSON traitée. Scores inchangés. Thèse ATTENDRE confirmée. Earnings J+1 demain.
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +6.82% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 7.59% (seuil 5.0%)
+- **2026-06-23 DRAFT_refresh** — Faux positif algorithmique (triggers identiques au 22/06 déjà traités dans `MU_2026-06-22_update.md`). Archivé, pas de full refresh requis.
 
 ---
 
