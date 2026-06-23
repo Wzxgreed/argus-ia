@@ -1,8 +1,8 @@
 # A — Agilent Technologies · Index du dossier
 
 > **Secteur :** Healthcare — Diagnostics & Research
-> **Capitalisation :** $36.88B
-> **Cours actuel :** $126.49 (2026-06-22 · close officiel 21h UTC)
+> **Capitalisation :** $35.72B
+> **Cours actuel :** $126.49 (2026-06-23 · snapshot 10h UTC)
 > **Consensus PT :** $163.29 (24 analystes, +7 le mois dernier, +8 le trimestre)
 
 ---
@@ -11,12 +11,12 @@
 
 **Recommandation :** ACHETER · Direction Long · **Réduit**
 **Score Global :** 67.5/100 (ajusté **72.5**)
-**Prix cible desk :** $138.04 (TP ATR-based) / $163.29 (consensus analystes)
-**Stop-loss :** $118.79 (2×ATR)
+**Prix cible desk :** $138.07 (TP ATR-based) / $163.29 (consensus analystes)
+**Stop-loss :** $118.77 (2×ATR)
 **Horizon :** 1–3 mois
-**Statut thèse :** 🟡 **Confirmée avec prudence atténuée — volume normalisé, hypothèse collapse invalidée** — close officiel 21h UTC du 22/06 : **[STABLE]** Cours $126.49 (−0.45% vs previous close, −0.26% vs snapshot 17h). **[CORRECTION]** Volume officiel **2.19M (0.79×)** vs 495K (0.18×) au snapshot 17h — **hypothèse volume collapse de 88% invalidée**, il s'agissait d'un snapshot partiel. **[STABLE]** RSI 33.78 (−0.38 pt), ATR $3.85 (stable), MM50 $121.36 (−$0.01). **[STABLE]** Options normalisées : max pain **$135.0**, put/call **0.49**, call OI **67.3%**. **[STABLE]** Sector rotation : Healthcare (XLV) au **#6** (momentum 1.08). **[STABLE]** Score Global ajusté **72.5/100** — **ACHETER Réduit maintenu**.
+**Statut thèse :** 🟢 **Confirmée — stabilité mécanique totale** — snapshot 10h UTC du 23/06 : **[STABLE]** Cours $126.49 (identique au close 22/06). **[STABLE]** Volume 2.19M (0.79×) quasi identique au close 22/06. **[STABLE]** RSI 33.78, ATR $3.86 (+$0.01), MM50 $121.36 inchangés. **[ANOMALIE OPTIONS JSON RÉCURRENTÉE]** : max_pain $60.0 aberrant → valeurs opérationnelles 22/06 conservées ($135.0 / 0.49 / 67.3%). **[STABLE]** Sector rotation : Healthcare (XLV) au **#6** (momentum 1.53, +0.45 pt vs 22/06). **[STABLE]** Score Global ajusté **72.5/100** — **ACHETER Réduit maintenu**.
 
-**Synthèse :** Agilent clôture le 22/06 en consolidation post-gap ($124–$132) à **$126.49** (−0.45%). La donnée majeure de cette session est la **correction volumétrique** : le snapshot 17h affichait un volume de 495K (0.18×), générant une fausse alerte de "volume collapse". Le close officiel révèle un volume réel de **2.19M (0.79×)**, ce qui invalide cette hypothèse et ramène l'analyse à une lecture standard : consolidation sur volume normal, sans distribution institutionnelle majeure ni accumulation anormale. Le RSI à **33.78** se rapproche de la zone 30 (survente), l'ATR compressé à **$3.85** confirme la consolidation, et la MM50 montante à **$121.36** reste le support technique clé. Les fondamentaux sont inchangés et solides : Filtre Qualité 5/6 maintenu, consensus $163.29 laissant un upside **+29.1%**, forward P/E 19.15× attractif. Les options restent normalisées (max pain $135.0, put/call 0.49, call OI 67.3%). L'entrée au spot $126.49 reste possible avec **sizing Réduit**. Risques principaux : (1) RSI 33.78 proche de 30 — risque de rebond technique ou d'accélération baissière, (2) rotation sectorielle défavorable (XLV #6, momentum 1.08), (3) earnings Q3 le 2026-08-26 (J+65).
+**Synthèse :** Agilent affiche une **stabilité mécanique totale** au snapshot 10h UTC du 23/06 vs le close officiel du 22/06. Le cours à **$126.49** est inchangé, le volume à **2.19M (0.79×)** est quasi identique, le RSI à **33.78** est stable, l'ATR à **$3.86** n'a varié que de +$0.01, et la MM50 à **$121.36** est strictement inchangée. Cette absence de mutation confirme la phase de consolidation post-gap ($124–$132) sans distribution institutionnelle ni accumulation anormale. La seule alerte est une **anomalie options JSON récurrente** (max_pain $60.0 aberrant) — les valeurs opérationnelles du 22/06 ($135.0 / 0.49 / 67.3%) sont conservées. Les fondamentaux sont inchangés et solides : Filtre Qualité 5/6 maintenu, consensus $163.29 laissant un upside **+29.1%**, forward P/E 19.15× attractif. Le secteur Healthcare (XLV) au #6 montre une légère amélioration de momentum (+0.45 pt à 1.53). L'entrée au spot $126.49 reste possible avec **sizing Réduit**. Risques principaux : (1) RSI 33.78 proche de 30 — risque de rebond technique ou d'accélération baissière si $125.57 est fracturé, (2) rotation sectorielle défavorable (XLV #6), (3) earnings Q3 le 2026-08-26 (J+64).
 
 ---
 
@@ -58,6 +58,7 @@
 | 2026-06-22 | `A_2026-06-22_update.md` | Mise à jour 13h UTC | 🟢 **Thèse confirmée — stabilité totale, anomalie options résolue** : Cours, RSI, volume, ATR, MM50 inchangés vs 10h. **[RÉSOLU]** Anomalie options JSON : max pain $135.0 (cohérent), put/call 0.49, call OI 67.3%. Score Global ajusté **73.3/100** inchangé — **ACHETER Réduit maintenu**. |
 | 2026-06-22 | `A_2026-06-22_update_17h.md` | Mise à jour 17h UTC (snapshot partiel) | 🟡 **Thèse confirmée avec prudence atténuée — volume collapse de 88%** : Cours $126.82 stable (−0.19%), volume effondré à 495K (0.18×) vs 4.33M (1.56×) au snapshot 13h. RSI 34.16 (−1.3 pt), ATR $3.85, MM50 $121.37. Options stables (max pain $135.0). XLV remonte au #6 (momentum 1.34). Score Global ajusté **72.5/100** (−0.8 pt) — **ACHETER Réduit maintenu**. |
 | 2026-06-22 | `A_2026-06-22_update.md` | Mise à jour 21h UTC (close officiel) | 🟡 **Thèse confirmée avec prudence atténuée — hypothèse volume collapse invalidée** : Cours $126.49 (−0.45% vs previous close, −0.26% vs 17h). **[CORRECTION]** Volume officiel **2.19M (0.79×)** vs 495K (0.18×) au snapshot 17h — snapshot partiel corrigé. RSI 33.78 (−0.38 pt), ATR $3.85, MM50 $121.36. Options stables. XLV #6 (momentum 1.08). Score Global ajusté **72.5/100** inchangé — **ACHETER Réduit maintenu**. |
+| 2026-06-23 | `A_2026-06-23_update.md` | Mise à jour 10h UTC | 🟢 **Thèse confirmée — stabilité mécanique totale** : Cours $126.49 (identique au close 22/06), volume 2.19M (0.79×) quasi identique, RSI 33.78, ATR $3.86 (+$0.01), MM50 $121.36 inchangés. **[ANOMALIE OPTIONS JSON RÉCURRENTÉE]** : max_pain $60.0 aberrant → valeurs 22/06 conservées ($135.0 / 0.49 / 67.3%). XLV #6 (momentum 1.53, +0.45 pt). Score Global ajusté **72.5/100** inchangé — **ACHETER Réduit maintenu**. |
 
 ---
 
@@ -71,8 +72,8 @@
 
 ## 🔗 Liens rapides
 
-- [Dernière mise à jour](A_2026-06-22_update.md)
-- [Mise à jour précédente](A_2026-06-22_update_17h.md)
+- [Dernière mise à jour](A_2026-06-23_update.md)
+- [Mise à jour précédente](A_2026-06-22_update.md)
 - [Dernier preview earnings](A_2026-05-28_preview.md)
 - [CONTEXT.md](CONTEXT.md) — Mémoire court terme
 
