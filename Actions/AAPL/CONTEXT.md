@@ -51,10 +51,10 @@
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-22
+- **Date :** 2026-06-23
 - **Type :** update
-- **Fichier :** `AAPL_2026-06-22_update.md`
-- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-22 17:00 UTC, post-ouverture US) + agents recommandations, sector rotation, FX, quant, geo, social
+- **Fichier :** `AAPL_2026-06-23_update.md`
+- **Conclusion :** Stabilité mécanique totale vs close 22/06. Cours $297.01 inchangé, RSI 42.19 stable, volume normalisé 44.81M (0.85×). Anomalie options JSON récurrente (max pain $225.00 aberrant → valeurs opérationnelles $290.00/0.80/55.6% conservées). Scores ATTENDRE 57.3/100 Favorable inchangés. Thèse confirmée — aucun nouvel élément directionnel.
 
 ---
 
