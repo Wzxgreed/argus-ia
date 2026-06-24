@@ -2892,3 +2892,22 @@ Le DRAFT_refresh a été déclenché automatiquement à 10:00 UTC par ATR_SPIKE 
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-06-24 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10.46% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-24 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -6.46% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 10.63% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

@@ -70,26 +70,26 @@ Les scores de l'agent recommandation sont **dégradés** : Score Opportunité **
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 70.5
-- **MM 50j :** 13.26
+- **RSI 14j :** 80.08
+- **MM 50j :** 13.38
 - **MM 200j :** —
-- **ATR 14j :** 0.68
-- **Volume moy. 20j :** 115683275
+- **ATR 14j :** 0.73
+- **Volume moy. 20j :** 113891438
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-23
-- **Type :** update
-- **Fichier :** `AAL_2026-06-23_update.md`
-- **Conclusion :** **Date :** 2026-06-23 (snapshot 17h UTC, session US du 23/06)
+- **Date :** 2026-06-24
+- **Type :** full refresh
+- **Fichier :** `AAL_2026-06-24_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-24
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **PRICE_GAP** (medium) — Gap +7.47% overnight (seuil ±5.0%)
 
 ---
 
