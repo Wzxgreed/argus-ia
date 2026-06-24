@@ -1,4 +1,4 @@
-# CONTEXT — MITK — Dernière mise à jour : 2026-06-23
+# CONTEXT — MITK — Dernière mise à jour : 2026-06-24
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -40,22 +40,22 @@
 - **MM 50j :** 15.43
 - **MM 200j :** —
 - **ATR 14j :** 0.94
-- **Volume moy. 20j :** 1031163
+- **Volume moy. 20j :** 1039485
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-23
-- **Type :** init
-- **Fichier :** `MITK_2026-06-23_update_17h.md`
-- **Conclusion :** > **Desk :** Argus-IA | Ticker : MITK (NASDAQ) | Secteur : Technology / Software — Application
+- **Date :** 2026-06-24
+- **Type :** full refresh
+- **Fichier :** `MITK_2026-06-24_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-24
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **ATR_SPIKE** (medium) — ATR relatif 5.43% (seuil 5.0%)
 
 ---
 

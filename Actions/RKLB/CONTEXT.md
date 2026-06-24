@@ -1,4 +1,4 @@
-# CONTEXT — RKLB — Dernière mise à jour : 2026-06-23
+# CONTEXT — RKLB — Dernière mise à jour : 2026-06-24
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -36,26 +36,27 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 33.54
+- **RSI 14j :** 33.55
 - **MM 50j :** 105.12
 - **MM 200j :** —
 - **ATR 14j :** 10.31
-- **Volume moy. 20j :** 29181258
+- **Volume moy. 20j :** 29363015
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-23
-- **Type :** init
-- **Fichier :** `RKLB_2026-06-23_update_17h.md`
-- **Conclusion :** > Source : `data/latest.json` (snapshot 17h UTC) | `data/recommandations_latest.json` | `data/sector_rotation_latest.json` | `data/upcoming_events_latest.json` | `data/events_latest.json` | `data/geo_
+- **Date :** 2026-06-24
+- **Type :** full refresh
+- **Fichier :** `RKLB_2026-06-24_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-24
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **PRICE_GAP** (medium) — Gap -5.16% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 10.84% (seuil 5.0%)
 
 ---
 
