@@ -36,26 +36,26 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 32.69
-- **MM 50j :** 290.73
+- **RSI 14j :** 23.91
+- **MM 50j :** 291.12
 - **MM 200j :** —
-- **ATR 14j :** 7.85
-- **Volume moy. 20j :** 53466600
+- **ATR 14j :** 8.76
+- **Volume moy. 20j :** 52782590
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-23
-- **Type :** init
-- **Fichier :** `AAPL_2026-06-23_update_17h.md`
-- **Conclusion :** > **Source :** `data/latest.json` (snapshot 2026-06-23 17:00 UTC) + agents recommandations, sector rotation, FX, quant, geo, social
+- **Date :** 2026-06-25
+- **Type :** full refresh
+- **Fichier :** `AAPL_2026-06-25_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-25
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **PRICE_GAP** (medium) — Gap -6.12% overnight (seuil ±5.0%)
 
 ---
 

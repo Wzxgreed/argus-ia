@@ -70,11 +70,11 @@ Les scores de l'agent recommandation sont **dégradés** : Score Opportunité **
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 80.57
-- **MM 50j :** 13.39
+- **RSI 14j :** 84.5
+- **MM 50j :** 13.49
 - **MM 200j :** —
 - **ATR 14j :** 0.74
-- **Volume moy. 20j :** 120548505
+- **Volume moy. 20j :** 120000915
 
 ---
 
@@ -89,7 +89,7 @@ Les scores de l'agent recommandation sont **dégradés** : Score Opportunité **
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +8.05% overnight (seuil ±5.0%)
+- Aucun trigger récent.
 
 ---
 
