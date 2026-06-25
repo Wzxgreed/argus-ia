@@ -49,11 +49,11 @@ Snapshot 17h UTC : **Correction −4.71%** ($14.43 → $13.75). Open $13.46, hig
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 33.29
+- **RSI 14j :** 33.74
 - **MM 50j :** 13.49
 - **MM 200j :** —
 - **ATR 14j :** 1.0
-- **Volume moy. 20j :** 121284684
+- **Volume moy. 20j :** 122644326
 
 ---
 

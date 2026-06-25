@@ -33,7 +33,7 @@
 | Ticker | Type | Date | Jours | Détail | Source |
 |--------|------|------|-------|--------|--------|
 | NOK | earnings | 2026-07-23 | 28j | Earnings date — Est EPS $0.06-$0.08, Rev $4.8B... | yfinance |
-| AAL | earnings | 2026-07-23 | 28j | Earnings date — Est EPS $-0.34-$0.17, Rev $16.7B... | yfinance |
+| AAL | earnings | 2026-07-23 | 28j | Earnings date — Est EPS $-0.34-$0.19, Rev $16.7B... | yfinance |
 
 ---
 

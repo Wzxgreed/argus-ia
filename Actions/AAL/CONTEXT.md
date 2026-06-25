@@ -64,17 +64,17 @@ Les scores de l'agent recommandation sont **dégradés** : Score Opportunité **
 
 ## 📅 Prochains événements
 
-- **2026-07-23** · earnings · Earnings date — Est EPS $-0.34-$0.17, Rev $16.7B...
+- **2026-07-23** · earnings · Earnings date — Est EPS $-0.34-$0.19, Rev $16.7B...
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 84.5
+- **RSI 14j :** 84.47
 - **MM 50j :** 13.49
 - **MM 200j :** —
-- **ATR 14j :** 0.74
-- **Volume moy. 20j :** 120000915
+- **ATR 14j :** 0.75
+- **Volume moy. 20j :** 126108131
 
 ---
 
