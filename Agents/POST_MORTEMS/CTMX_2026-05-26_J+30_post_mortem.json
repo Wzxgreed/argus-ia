@@ -1,0 +1,14 @@
+{
+  "ticker": "CTMX",
+  "date_signal": "2026-05-26",
+  "date_post_mortem": "2026-06-25",
+  "score": "—",
+  "type": "Prix cible",
+  "horizon": "J+30",
+  "entry_price": 3.6,
+  "exit_price": 3.32,
+  "return_pct": -0.07777777777777785,
+  "verdict": "❌ Miss",
+  "rule_extracted": "Si prix cible rate avec une erreur > 20% → revérifier le Filtre Qualité et les hypothèses de DCF avant prochaine émission de PT sur ce ticker.",
+  "confidence": "faible"
+}

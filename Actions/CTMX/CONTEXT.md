@@ -1,4 +1,4 @@
-# CONTEXT — CTMX — Dernière mise à jour : 2026-06-24
+# CONTEXT — CTMX — Dernière mise à jour : 2026-06-25
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -30,7 +30,7 @@
 
 ## 📉 Erreurs de prédiction récentes
 
-- Aucune erreur enregistrée.
+- **2026-05-26** · earnings · Miss / Imprécis · Ligne:  | 2026-05-26 | CTMX | `_init.md` | ATTENDRE | $9.05
 
 ---
 
@@ -52,7 +52,7 @@
 - **MM 50j :** 3.75
 - **MM 200j :** —
 - **ATR 14j :** 0.17
-- **Volume moy. 20j :** 4348965
+- **Volume moy. 20j :** 4369335
 
 ---
 

@@ -47,7 +47,7 @@ Ce fichier recense **tous les prix cibles émis** dans les fichiers `_init.md` e
 | 2026-05-17 | NOK | `_init.md` | SURVEILLER | $9.26 | $13.95 | −33.6% | ❌ Miss | 2026-08-15 | 2026-11-13 | ❌ Miss | — |
 | 2026-05-17 | SOFI | `_init.md` | ATTENDRE | $19.51 | $15.61 | +24.9% | ❌ Miss | 2026-08-15 | 2026-11-13 | ❌ Miss | — |
 | 2026-05-17 | AAL | `_init.md` | SURVEILLER | $14.00 | $12.31 | +13.7% | ❌ Miss | 2026-08-15 | 2026-11-13 | ❌ Miss | — |
-| 2026-05-26 | CTMX | `_init.md` | ATTENDRE | $9.05 | $3.60 | +151.4% | 2026-06-25 | 2026-08-24 | 2026-11-22 | ⏳ En cours | — |
+| 2026-05-26 | CTMX | `_init.md` | ATTENDRE | $9.05 | $3.60 | +151.4% | ❌ Miss | 2026-08-24 | 2026-11-22 | ❌ Miss | — |
 
 ---
 

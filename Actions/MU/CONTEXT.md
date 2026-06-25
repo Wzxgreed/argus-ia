@@ -1,4 +1,4 @@
-# CONTEXT — MU — Dernière mise à jour : 2026-06-24
+# CONTEXT — MU — Dernière mise à jour : 2026-06-25
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -40,26 +40,26 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-24** · earnings · Earnings date — Est EPS $7.53-$26.00, Rev $35.3B...
+- **2026-06-25** · earnings · Earnings ...
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 48.36
-- **MM 50j :** 773.62
+- **RSI 14j :** 48.45
+- **MM 50j :** 773.66
 - **MM 200j :** —
 - **ATR 14j :** 102.99
-- **Volume moy. 20j :** 54797806
+- **Volume moy. 20j :** 55696470
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-24
+- **Date :** 2026-06-25
 - **Type :** full refresh
-- **Fichier :** `MU_2026-06-24_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-24
+- **Fichier :** `MU_2026-06-25_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-25
 
 ---
 

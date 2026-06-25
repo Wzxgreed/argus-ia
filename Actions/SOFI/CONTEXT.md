@@ -1,4 +1,4 @@
-# CONTEXT — SOFI — Dernière mise à jour : 2026-06-24
+# CONTEXT — SOFI — Dernière mise à jour : 2026-06-25
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -59,20 +59,20 @@ Le short interest reste élevé à **14.71%** — setup asymétrique squeeze/pre
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 54.8
+- **RSI 14j :** 54.84
 - **MM 50j :** 16.98
 - **MM 200j :** —
 - **ATR 14j :** 1.0
-- **Volume moy. 20j :** 85475276
+- **Volume moy. 20j :** 85641420
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-24
+- **Date :** 2026-06-25
 - **Type :** full refresh
-- **Fichier :** `SOFI_2026-06-24_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-24
+- **Fichier :** `SOFI_2026-06-25_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-25
 
 ---
 

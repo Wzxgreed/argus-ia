@@ -1,4 +1,4 @@
-# CONTEXT — A — Dernière mise à jour : 2026-06-24
+# CONTEXT — A — Dernière mise à jour : 2026-06-25
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -32,6 +32,7 @@
 - **2026-05-17** · earnings · Miss / Imprécis · Ligne:  | 2026-05-17 | IREN | `_init.md` | ATTENDRE | $65.86
 - **2026-05-17** · earnings · Miss / Imprécis · Ligne:  | 2026-05-17 | SOFI | `_init.md` | ATTENDRE | $19.51
 - **2026-05-17** · earnings · Miss / Imprécis · Ligne:  | 2026-05-17 | AAL | `_init.md` | SURVEILLER | $14.00
+- **2026-05-26** · earnings · Miss / Imprécis · Ligne:  | 2026-05-26 | CTMX | `_init.md` | ATTENDRE | $9.05
 
 ---
 
@@ -66,11 +67,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 40.28
-- **MM 50j :** 121.87
+- **RSI 14j :** 40.73
+- **MM 50j :** 121.88
 - **MM 200j :** —
 - **ATR 14j :** 3.76
-- **Volume moy. 20j :** 2712082
+- **Volume moy. 20j :** 2763765
 
 ---
 
