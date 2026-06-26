@@ -59,11 +59,11 @@ Le short interest reste élevé à **14.71%** — setup asymétrique squeeze/pre
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 51.24
-- **MM 50j :** 16.97
+- **RSI 14j :** 66.64
+- **MM 50j :** 16.95
 - **MM 200j :** —
-- **ATR 14j :** 1.0
-- **Volume moy. 20j :** 86761335
+- **ATR 14j :** 0.97
+- **Volume moy. 20j :** 84800896
 
 ---
 
@@ -78,7 +78,7 @@ Le short interest reste élevé à **14.71%** — setup asymétrique squeeze/pre
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 5.78% (seuil 5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 5.45% (seuil 5.0%)
 
 ---
 

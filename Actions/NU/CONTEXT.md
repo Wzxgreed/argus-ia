@@ -44,26 +44,26 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 55.82
-- **MM 50j :** 13.29
+- **RSI 14j :** 67.75
+- **MM 50j :** 13.25
 - **MM 200j :** —
-- **ATR 14j :** 0.44
-- **Volume moy. 20j :** 63583050
+- **ATR 14j :** 0.46
+- **Volume moy. 20j :** 62734155
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-23
-- **Type :** init
-- **Fichier :** `NU_2026-06-23_update_17h.md`
-- **Conclusion :** **Thèse : CONFIRMÉE — ATTENDRE (mutation technique mitigée : cours $12
+- **Date :** 2026-06-26
+- **Type :** full refresh
+- **Fichier :** `NU_2026-06-26_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-26
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **PRICE_GAP** (medium) — Gap +6.38% overnight (seuil ±5.0%)
 
 ---
 
