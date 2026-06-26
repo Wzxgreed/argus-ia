@@ -1,6 +1,6 @@
 # 📊 Performance Paper Trading — Argus-IA
 
-> **Date :** 2026-06-25
+> **Date :** 2026-06-26
 > **Capital initial :** $100,000.00
 > **Capital actuel :** $100,000.00
 > **P&L total :** $0.00 (0.00%)
