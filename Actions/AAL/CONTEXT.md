@@ -70,11 +70,11 @@ Les scores de l'agent recommandation sont **dégradés** : Score Opportunité **
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 84.74
+- **RSI 14j :** 84.8
 - **MM 50j :** 13.61
 - **MM 200j :** —
 - **ATR 14j :** 0.76
-- **Volume moy. 20j :** 125934740
+- **Volume moy. 20j :** 130562543
 
 ---
 

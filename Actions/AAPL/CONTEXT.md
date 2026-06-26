@@ -36,11 +36,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 26.61
-- **MM 50j :** 291.28
+- **RSI 14j :** 33.96
+- **MM 50j :** 291.42
 - **MM 200j :** —
-- **ATR 14j :** 8.83
-- **Volume moy. 20j :** 55613074
+- **ATR 14j :** 9.22
+- **Volume moy. 20j :** 58573977
 
 ---
 
@@ -55,7 +55,7 @@
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **VOLUME_SURGE** (medium) — Volume 3.9× moyenne 20j (261,244,321 vs 66,956,926)
 
 ---
 

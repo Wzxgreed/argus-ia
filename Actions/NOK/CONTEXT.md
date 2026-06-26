@@ -49,11 +49,11 @@ Snapshot 17h UTC : **Correction −4.71%** ($14.43 → $13.75). Open $13.46, hig
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 40.0
+- **RSI 14j :** 39.94
 - **MM 50j :** 13.55
 - **MM 200j :** —
-- **ATR 14j :** 0.89
-- **Volume moy. 20j :** 120036243
+- **ATR 14j :** 0.9
+- **Volume moy. 20j :** 122980160
 
 ---
 
@@ -68,8 +68,8 @@ Snapshot 17h UTC : **Correction −4.71%** ($14.43 → $13.75). Open $13.46, hig
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap -7.47% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 6.88% (seuil 5.0%)
+- **PRICE_GAP** (medium) — Gap -6.94% overnight (seuil ±5.0%)
+- **ATR_SPIKE** (medium) — ATR relatif 6.92% (seuil 5.0%)
 
 ---
 
