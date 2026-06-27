@@ -1,4 +1,4 @@
-# CONTEXT — SOFI — Dernière mise à jour : 2026-06-26
+# CONTEXT — SOFI — Dernière mise à jour : 2026-06-27
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -59,11 +59,11 @@ Le short interest reste élevé à **14.71%** — setup asymétrique squeeze/pre
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 66.94
-- **MM 50j :** 16.95
+- **RSI 14j :** 62.88
+- **MM 50j :** —
 - **MM 200j :** —
-- **ATR 14j :** 0.97
-- **Volume moy. 20j :** 87346088
+- **ATR 14j :** —
+- **Volume moy. 20j :** 87691712
 
 ---
 
@@ -78,7 +78,9 @@ Le short interest reste élevé à **14.71%** — setup asymétrique squeeze/pre
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **ATR_SPIKE** (medium) — ATR relatif 5.43% (seuil 5.0%)
+- L'ATR relatif 6.13% est un **faux positif** : l'ATR est passé de $1.08 à **$1.05** (compression), pas d'expansion. Le trigger ATR_SPIKE est une anomalie mécanique.
+- ATR_SPIKE (medium) : ATR relatif 5.13% (seuil 5.0%)
+- Le trigger ATR_SPIKE 5.88% est un **faux positif** : l'ATR est resté stable à **$0.97** entre le close 08/06 et le snapshot 09/06. Aucune expansion de volatilité n'est survenue.
 
 ---
 

@@ -1,6 +1,6 @@
 # 🔭 Événements à venir — Watchlist Argus-IA
 
-> **Date :** 2026-06-26
+> **Date :** 2026-06-27
 > **Tickers scannés :** 29
 > **Événements détectés :** 29
 
@@ -10,13 +10,13 @@
 
 | Ticker | Type | Date | Jours | Détail | Source |
 |--------|------|------|-------|--------|--------|
-| SQ | earnings | 2026-06-26 | 0j | Earnings ... | fmp |
-| TEST | earnings | 2026-06-26 | 0j | Earnings ... | fmp |
-| AST | earnings | 2026-06-26 | 0j | Earnings ... | fmp |
-| AXA | earnings | 2026-06-26 | 0j | Earnings ... | fmp |
-| SPCX | earnings | 2026-06-26 | 0j | Earnings ... | fmp |
-| QTBS | earnings | 2026-06-26 | 0j | Earnings ... | fmp |
-| ASTSPACE | earnings | 2026-06-26 | 0j | Earnings ... | fmp |
+| SQ | earnings | 2026-06-29 | 2j | Earnings ... | fmp |
+| TEST | earnings | 2026-06-29 | 2j | Earnings ... | fmp |
+| AST | earnings | 2026-06-29 | 2j | Earnings ... | fmp |
+| AXA | earnings | 2026-06-29 | 2j | Earnings ... | fmp |
+| SPCX | earnings | 2026-06-29 | 2j | Earnings ... | fmp |
+| QTBS | earnings | 2026-06-29 | 2j | Earnings ... | fmp |
+| ASTSPACE | earnings | 2026-06-29 | 2j | Earnings ... | fmp |
 
 ---
 
@@ -32,8 +32,8 @@
 
 | Ticker | Type | Date | Jours | Détail | Source |
 |--------|------|------|-------|--------|--------|
-| NOK | earnings | 2026-07-23 | 27j | Earnings date — Est EPS $0.06-$0.08, Rev $4.8B... | yfinance |
-| AAL | earnings | 2026-07-23 | 27j | Earnings date — Est EPS $-0.34-$0.19, Rev $16.7B... | yfinance |
+| NOK | earnings | 2026-07-23 | 26j | Earnings date — Est EPS $0.06-$0.08, Rev $4.8B... | yfinance |
+| AAL | earnings | 2026-07-23 | 26j | Earnings date — Est EPS $-0.34-$0.19, Rev $16.7B... | yfinance |
 
 ---
 
