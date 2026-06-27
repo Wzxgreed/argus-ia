@@ -74,7 +74,7 @@ Les scores de l'agent recommandation sont **dégradés** : Score Opportunité **
 - **MM 50j :** —
 - **MM 200j :** —
 - **ATR 14j :** —
-- **Volume moy. 20j :** 131245244
+- **Volume moy. 20j :** 131242759
 
 ---
 
