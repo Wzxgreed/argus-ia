@@ -53,7 +53,7 @@ Snapshot 17h UTC : **Correction −4.71%** ($14.43 → $13.75). Open $13.46, hig
 - **MM 50j :** —
 - **MM 200j :** —
 - **ATR 14j :** —
-- **Volume moy. 20j :** 124128992
+- **Volume moy. 20j :** 124116537
 
 ---
 

@@ -40,7 +40,7 @@
 - **MM 50j :** —
 - **MM 200j :** —
 - **ATR 14j :** —
-- **Volume moy. 20j :** 66968926
+- **Volume moy. 20j :** 66956926
 
 ---
 
@@ -55,7 +55,7 @@
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **VOLUME_SURGE** (medium) — Volume 3.9× moyenne 20j (261,244,321 vs 66,968,926)
+- **VOLUME_SURGE** (medium) — Volume 3.9× moyenne 20j (261,244,321 vs 66,956,926)
 
 ---
 
