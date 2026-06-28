@@ -1,4 +1,4 @@
-# CONTEXT — VRT — Dernière mise à jour : 2026-06-27
+# CONTEXT — VRT — Dernière mise à jour : 2026-06-28
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -47,30 +47,28 @@ Vertiv est le leader mondial du refroidissement data centers, bénéficiant dire
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 57.3
-- **MM 50j :** —
+- **RSI 14j :** 50.9
+- **MM 50j :** 324.04
 - **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** 6490422
+- **ATR 14j :** 21.71
+- **Volume moy. 20j :** 7214525
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-26
+- **Date :** 2026-06-28
 - **Type :** full refresh
-- **Fichier :** `VRT_2026-06-26_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-26
+- **Fichier :** `VRT_2026-06-28_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-28
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **PRICE_GAP** (medium) — Gap +7.48% overnight (seuil ±5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 5.82% (seuil 5.0%)
-- **ATR_SPIKE** (medium) — ATR relatif 6.04% (seuil 5.0%)
-- PRICE_GAP (medium) : Gap +7.49% overnight (seuil ±5.0%)
-- ATR_SPIKE (medium) : ATR relatif 5.90% (seuil 5.0%)
+- **PRICE_GAP** (medium) — Gap -6.64% overnight (seuil ±5.0%)
+- **VOLUME_SURGE** (medium) — Volume 3.0× moyenne 20j (21,974,500 vs 7,214,525)
+- **ATR_SPIKE** (medium) — ATR relatif 7.14% (seuil 5.0%)
 
 ---
 

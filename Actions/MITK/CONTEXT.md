@@ -1,4 +1,4 @@
-# CONTEXT — MITK — Dernière mise à jour : 2026-06-27
+# CONTEXT — MITK — Dernière mise à jour : 2026-06-28
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -36,26 +36,27 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 93.67
-- **MM 50j :** —
+- **RSI 14j :** 95.83
+- **MM 50j :** 15.64
 - **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** 1132842
+- **ATR 14j :** 0.95
+- **Volume moy. 20j :** 1175350
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-27
+- **Date :** 2026-06-28
 - **Type :** full refresh
-- **Fichier :** `MITK_2026-06-27_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-27
+- **Fichier :** `MITK_2026-06-28_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-28
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **VOLUME_SURGE** (medium) — Volume 3.1× moyenne 20j (3,467,950 vs 1,132,842)
+- **PRICE_GAP** (medium) — Gap +9.29% overnight (seuil ±5.0%)
+- **VOLUME_SURGE** (medium) — Volume 3.7× moyenne 20j (4,318,100 vs 1,175,350)
 
 ---
 

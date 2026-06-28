@@ -1,4 +1,4 @@
-# CONTEXT — NU — Dernière mise à jour : 2026-06-27
+# CONTEXT — NU — Dernière mise à jour : 2026-06-28
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -44,26 +44,26 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 58.84
-- **MM 50j :** —
+- **RSI 14j :** 67.24
+- **MM 50j :** 13.24
 - **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** 63904720
+- **ATR 14j :** 0.47
+- **Volume moy. 20j :** 64424685
 
 ---
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-26
+- **Date :** 2026-06-28
 - **Type :** full refresh
-- **Fichier :** `NU_2026-06-26_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-26
+- **Fichier :** `NU_2026-06-28_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-28
 
 ---
 
 ## 🔄 Triggers détectés (full refresh)
 
-- Aucun trigger récent.
+- **PRICE_GAP** (medium) — Gap +5.70% overnight (seuil ±5.0%)
 
 ---
 

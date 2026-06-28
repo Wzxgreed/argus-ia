@@ -1,4 +1,4 @@
-# CONTEXT — CTMX — Dernière mise à jour : 2026-06-27
+# CONTEXT — CTMX — Dernière mise à jour : 2026-06-28
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -48,11 +48,11 @@
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 65.52
-- **MM 50j :** —
+- **RSI 14j :** 70.0
+- **MM 50j :** 3.7
 - **MM 200j :** —
-- **ATR 14j :** —
-- **Volume moy. 20j :** 5222827
+- **ATR 14j :** 0.17
+- **Volume moy. 20j :** 5604835
 
 ---
 
@@ -67,7 +67,7 @@
 
 ## 🔄 Triggers détectés (full refresh)
 
-- **VOLUME_SURGE** (medium) — Volume 4.1× moyenne 20j (21,253,945 vs 5,222,827)
+- Aucun trigger récent.
 
 ---
 
