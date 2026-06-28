@@ -198,3 +198,21 @@
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-06-28 — Full Refresh Triggered
+
+**Triggers :**
+- volume_surge (medium) : Volume 3.9× moyenne 20j (261,693,600 vs 66,979,390)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-28 — Full Refresh Triggered
+
+**Triggers :**
+- volume_surge (medium) : Volume 3.9× moyenne 20j (261,693,600 vs 66,979,390)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

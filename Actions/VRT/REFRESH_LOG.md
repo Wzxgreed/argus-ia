@@ -2944,3 +2944,25 @@
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-06-28 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -6.64% overnight (seuil ±5.0%)
+- volume_surge (medium) : Volume 3.0× moyenne 20j (21,974,500 vs 7,214,525)
+- atr_spike (medium) : ATR relatif 7.14% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-28 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -6.64% overnight (seuil ±5.0%)
+- volume_surge (medium) : Volume 3.0× moyenne 20j (21,974,500 vs 7,214,525)
+- atr_spike (medium) : ATR relatif 7.14% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
