@@ -90,4 +90,4 @@ Snapshot 13h UTC : **Gap −6.94%** ($13.98 → $13.01). Open $13.44, high $13.4
 
 | Date | Événement |
 |------|-----------|
-| 2026-07-23 | Earnings Q2 FY2026 (dans 36 jours) — Est EPS $0.06–$0.08, Rev $4.8B |
+| 2026-07-23 | Earnings Q2 FY2026 (dans 24 jours) — Est EPS $0.06–$0.08, Rev $4.8B |
