@@ -1,14 +1,14 @@
-# NOK — Mise à jour quotidienne (Snapshot 10:00 UTC)
+# NOK — Mise à jour quotidienne (Snapshot 13:00 UTC)
 
 > **Date :** 2026-06-29
-> **Type :** Update — snapshot post-gap overnight + mutation technique majeure
+> **Type :** Update — snapshot post-gap + données options restaurées
 > **Fichier précédent :** [NOK_2026-06-23_update.md](./NOK_2026-06-23_update.md)
 
 ---
 
 ## 1. Résumé des changements
 
-| Métrique | Snapshot 17:00 UTC 23/06 (précédent) | Snapshot actuel 10:00 UTC 29/06 | Δ |
+| Métrique | Snapshot 17:00 UTC 23/06 (précédent) | Snapshot actuel 13:00 UTC 29/06 | Δ |
 |----------|--------------------------------------|---------------------------------|---|
 | **Close** | **$13.75** | **$13.01** | **−5.38%** |
 | **Previous close** | $14.43 | **$13.98** | −3.12% |
@@ -20,16 +20,16 @@
 | **MM 50j** | **$13.35** | **$13.55** | +$0.20 |
 | **Volume session** | 62.3M | **142.6M** | **+128.8%** |
 | **Volume vs moy. 20j** | 0.483× | **1.15×** | **Explosion** |
-| **Options max pain** | **$14.00** | **$1.00** | 🔴 **Corrompu** |
-| **Put/Call ratio** | **0.96** | **null** | Données manquantes |
-| **Call OI %** | **51.0%** | **null** | Données manquantes |
+| **Options max pain** | **$14.00** | **$14.00** | ✅ Restauré |
+| **Put/Call ratio** | **0.96** | **0.55** | ↓ Call-biased |
+| **Call OI %** | **51.0%** | **64.6%** | **+13.6 pts** |
 | **Score Global ajusté** | 45.5 — SURVEILLER | **26.2 — ÉVITER** | **−19.3 pts** |
 | **Score Opportunité** | 4.0/10 | **3.4/10** | −0.6 pt |
 | **Score Momentum** | 5.0/10 | **2.5/10** | **−2.5 pts** |
 | **Score Valorisation** | 3.5/10 | **3.5/10** | Inchangé |
 | **Score Catalyseur** | 4.0/10 | **4.0/10** | Inchangé |
 
-**Verdict :** Le snapshot du 29/06 marque une **dégradation majeure** avec un gap baissier de −6.94% et une rétrogradation du Score Global ajusté de **45.5 à 26.2** (SURVEILLER → **ÉVITER**). La participation a explosé (1.15× la moyenne) contrairement au volume effondré du 23/06. Le RSI remonte malgré la baisse (+9.12 pts à 40.31), créant une divergence haussière technique. Cependant, le cours casse sous la MM50 ($13.55) et le Score Momentum s'effondre à 2.5/10.
+**Verdict :** Le snapshot du 29/06 confirme une **dégradation majeure** avec un gap baissier de −6.94% et une rétrogradation du Score Global ajusté de **45.5 à 26.2** (SURVEILLER → **ÉVITER**). La participation a explosé (1.15× la moyenne) contrairement au volume effondré du 23/06. Le RSI remonte malgré la baisse (+9.12 pts à 40.31), créant une divergence haussière technique. Cependant, le cours casse sous la MM50 ($13.55) et le Score Momentum s'effondre à 2.5/10. Les **données options sont restaurées** dans `latest.json` : max pain $14.00, put/call 0.55, call OI 64.6% — structure call-dominated malgré la baisse du cours.
 
 ---
 
@@ -62,7 +62,7 @@
 - Take-profit ATR (3×) : **$15.71** (cours + 3×ATR $0.90)
 - Ratio R/R : **1.5×**
 
-**Verdict timing :** **Défavorable.** Le RSI 40.31 affiche une divergence haussière positive (remonte de 9.12 pts alors que le prix baisse de 5.38%), ce qui est un signal technique constructif. Cependant, la cassure sous la MM50 ($13.55) avec un volume élevé (1.15×) l'emporte : le momentum est clairement baissier. Le fait que le high de la session égale l'open ($13.44) sans aucun rebond intraday confirme la faiblesse structurelle.
+**Verdict timing :** **Défavorable.** Le RSI 40.31 affiche une divergence haussière positive (remonte de 9.12 pts alors que le prix baisse de 5.38%), ce qui est un signal technique constructif. Cependant, la cassure sous la MM50 ($13.55) avec un volume élevé (1.15×) l'emporte : le momentum est clairement baissier. Le fait que le high de la session égale l'open ($13.44) sans aucun rebond intraday confirme la faiblesse structurelle. Les options restaurées montrent une structure call-dominated (64.6%) malgré la baisse — possible accumulation contrarienne ou couverture de shorts.
 
 ---
 
@@ -103,17 +103,17 @@ Inchangé en structure. Filtre Qualité hors périmètre (2.5/6).
 | Signal | Valeur | Source | Commentaire |
 |--------|--------|--------|-------------|
 | Consensus analystes (FMP) | **$10.8** (7 analysts) | FMP Stable API | Inchangé — premium +20.5% |
-| Max pain options | **$1.00** | `data/latest.json` | 🔴 **Données corrompues** — aberrant |
-| Put/Call ratio | **null** | `data/latest.json` | Données manquantes |
-| Call OI % | **null** | `data/latest.json` | Données manquantes |
+| Max pain options | **$14.00** | `data/latest.json` | ✅ **Restauré** (vs $1.00 aberrant au snapshot 10h) |
+| Put/Call ratio | **0.55** | `data/latest.json` | Call-biased (0.55 < 1.0) |
+| Call OI % | **64.6%** | `data/latest.json` | Structure call-dominated — bullish bias options |
 | Expiration nearest | **2026-07-02** | `data/latest.json` | Dans **3 jours** |
 | Social sentiment (Reddit) | 0 mentions / No data | `social_sentiment_2026-06-29.json` | Aucune mention, aucun pump |
 
-**Structure options :** Données corrompues dans `latest.json` (max pain $1.00 aberrant, put/call et call OI null). Valeurs opérationnelles du 23/06 conservées à titre indicatif : max pain $14.00, put/call 0.96 (quasi-neutre), call OI 51.0%. Avec expiration dans 3 jours et cours $13.01, le cours est **−7.1% sous le max pain opérationnel** de $14.00 — pression baissière significative si les données options étaient intactes.
+**Structure options :** Données **restaurées** dans `latest.json` (max pain $14.00, put/call 0.55, call OI 64.6%). La structure est call-dominated malgré la baisse du cours, ce qui peut indiquer de l'accumulation contrarienne ou des achats de calls spéculatifs sur un rebond technique. Cours $13.01 vs max pain $14.00 = **−7.1% sous le pin** — pression baissière à court terme vers le max pain à l'expiration (03/07). Cependant, le fort call OI (64.6%) suggère que le marché option anticipe un rebond.
 
 **News / Événements :**
 - `events_2026-06-29.json` : **0 événement** corporate pour NOK
-- `news_2026-06-29.json` : non lu (pas dans le scope JSON requis)
+- `news_2026-06-29.json` : **0 news** pour NOK
 - Aucun upgrade/downgrade, insider trade ou contrat gouvernemental signalé
 - Earnings Q2 FY2026 confirmé le **2026-07-23** (dans 24 jours) — Est EPS $0.06–$0.08, Rev $4.8B
 
@@ -146,7 +146,7 @@ Inchangé en structure. Filtre Qualité hors périmètre (2.5/6).
 
 **Évolution du scoring :**
 - Snapshot 17h UTC 23/06 : Score Global **45.5** — **SURVEILLER** (C:4.0 V:3.5 M:5.0)
-- Snapshot 10h UTC 29/06 : Score Global **26.2** — **ÉVITER** (C:4.0 V:3.5 M:2.5)
+- Snapshot 13h UTC 29/06 : Score Global **26.2** — **ÉVITER** (C:4.0 V:3.5 M:2.5)
 
 **Explication de la dégradation :**
 - Score Momentum : 5.0 → 2.5 (−2.5 pts) : gap −6.94%, cassure MM50 ($13.55), high=open sans rebond, volume élevé = distribution
@@ -173,8 +173,8 @@ Inchangé en structure. Filtre Qualité hors périmètre (2.5/6).
 
 | Scénario | Probabilité | Impact cours | Description |
 |----------|-------------|--------------|-------------|
-| **Optimiste** | 15% | Rebound vers $13.55–$13.80 | La divergence RSI/prix se matérialise en rebond technique. Test de la MM50 ($13.55) comme résistance. Nécessite volume > 1.0× et absence de vente programmée. |
-| **Central** | 50% | Range $12.78–$13.44 | Consolidation autour du low de la session. Volume élevé (1.15×) = marché en digestion. Attente du catalyst earnings (23/07). Pin risk vers $14.00 si données options restaurées. |
+| **Optimiste** | 15% | Rebound vers $13.55–$13.80 | La divergence RSI/prix se matérialise en rebond technique. Test de la MM50 ($13.55) comme résistance. Nécessite volume > 1.0× et absence de vente programmée. La structure call-dominated (64.6%) soutient ce scénario. |
+| **Central** | 50% | Range $12.78–$13.44 | Consolidation autour du low de la session. Volume élevé (1.15×) = marché en digestion. Attente du catalyst earnings (23/07). Pin risk vers $14.00 à l'expiration options (03/07). |
 | **Pessimiste** | 35% | Cassure sous $12.78 vers $11.63 | La cassure MM50 se confirme. Objectif $11.63 (SL 2×ATR) puis $11.21 (nouveau SL). Si le gap du 23/06 ($13.22) est comblé à la baisse, la structure devient baissière. Volume élevé sur baisse = distribution institutionnelle. |
 
 ---
@@ -190,9 +190,9 @@ Inchangé en structure. Filtre Qualité hors périmètre (2.5/6).
 - **Cours vs MM50 :** +3.0% au-dessus → **−4.0% sous la MM50** — signal baissier structurel
 - **Score Global :** 45.5 → **26.2** — franchissement du seuil ÉVITER (< 35)
 - **Score Momentum :** 5.0 → **2.5** — momentum clairement baissier
+- **Options :** Données **restaurées** (max pain $14.00, put/call 0.55, call OI 64.6%) — structure call-dominated malgré la baisse
 - **Action recommandée :** SURVEILLER → **ÉVITER**
 - **SL/TP :** $11.63/$16.93 → **$11.21/$15.71** — révision mécanique post-baisse + contraction ATR
-- **Options :** Données corrompues ($1.00 aberrant) — pin risk opérationnel estimé à −7.1% vs $14.00
 
 **Ce qui n'a pas changé :**
 - Consensus analystes **$10.8** (7 analysts)
@@ -212,16 +212,16 @@ Inchangé en structure. Filtre Qualité hors périmètre (2.5/6).
 **Risque immédiat :**
 1. **Cours sous MM50** — signal baissier structurel, potentiel retour vers $12.35–$11.63
 2. **Volume élevé sur baisse** (1.15×) — distribution potentielle, pas de capitulation
-3. **Données options corrompues** — impossible de valider le pin risk exact, mais le gap de −6.94% suggère une pression vendeuse forte
+3. **Pin risk options** — expiration 03/07 avec max pain $14.00, cours −7.1% sous le pin. Pression baissière à court terme
 4. **Earnings dans 24 jours** (2026-07-23) — Est EPS $0.06–$0.08, Rev $4.8B. Risque de guidance cut si le secteur 5G reste sous pression
 
 **Prochain point de contrôle :**
-- Snapshot 13:00 UTC du 29/06 pour vérifier la tenue du support $12.78 et le volume
+- Snapshot 17:00 UTC du 29/06 pour vérifier la tenue du support $12.78 et le volume
 - Évolution du RSI — confirmation de la divergence ou retour sous 35
-- Restauration des données options dans `latest.json`
+- Tenue du max pain $14.00 à l'approche de l'expiration options (03/07)
 
 Earnings Q2 FY2026 le **2026-07-23** (dans 24 jours) — Est EPS $0.06–$0.08, Rev $4.8B.
 
 ---
 
-*Généré automatiquement — données sourcées exclusivement depuis `data/latest.json` (snapshot 2026-06-29 10:00 UTC), `data/recommandations_2026-06-29.json`, `data/sector_rotation_2026-06-29.json`, `data/fx_exposure_2026-06-29.json`, `data/social_sentiment_2026-06-29.json`, `data/upcoming_events_2026-06-29.json`, `data/events_2026-06-29.json`, `data/geo_risk_latest.json`, `data/quant_report_latest.json`, et fichiers JSON agents.*
+*Généré automatiquement — données sourcées exclusivement depuis `data/latest.json` (snapshot 2026-06-29 13:00 UTC), `data/recommandations_2026-06-29.json`, `data/sector_rotation_2026-06-29.json`, `data/fx_exposure_2026-06-29.json`, `data/social_sentiment_2026-06-29.json`, `data/upcoming_events_2026-06-29.json`, `data/events_2026-06-29.json`, `data/geo_risk_latest.json`, `data/quant_report_latest.json`, et fichiers JSON agents.*

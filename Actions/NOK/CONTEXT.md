@@ -12,9 +12,9 @@
 **Stop-loss :** $11.21 (cours − 2×ATR $0.90)
 **Take-profit :** $15.71 (cours + 3×ATR $0.90)
 **Upside/Downside :** −17.0% / −13.8% (basés sur cours $13.01)
-**Dernière mise à jour :** 2026-06-29 10:00 UTC
+**Dernière mise à jour :** 2026-06-29 13:00 UTC
 
-Snapshot 10h UTC : **Gap −6.94%** ($13.98 → $13.01). Open $13.44, high $13.44, low $12.78. Volume **142.6M** (1.15× moyenne 20j — explosion de la participation, potentiellement distribution). **RSI 40.31** (+9.12 pts vs 23/06, divergence haussière technique). ATR **$0.90**, MM50 **$13.55** (cours **−4.0% sous la MM50** — signal baissier). **Données options corrompues** dans `latest.json` (max pain $1.00 aberrant) — valeurs opérationnelles du 23/06 conservées : max pain **$14.00**, put/call **0.96**, call OI **51.0%**, expiration 2026-07-02 (dans 3 jours). Cours estimé **−7.1% sous le max pain opérationnel**. Consensus FMP **$10.8** (7 analysts). Premium consensus **+20.5%**. Quality hors périmètre (2.5/6). Divergence Yahoo/FMP persistante (Market Cap $72.6B vs $29.8B, P/E 81.31 vs 50.06). XLC bottom 3 (momentum score 0.0). `recommandations_2026-06-29.json` : Score Global ajusté **26.2/100 — ÉVITER** (C:4.0 V:3.5 M:2.5). Score Momentum dégradé 5.0→2.5. Pas de position. Aucun événement corporate, aucune news structurante.
+Snapshot 13h UTC : **Gap −6.94%** ($13.98 → $13.01). Open $13.44, high $13.44, low $12.78. Volume **142.6M** (1.15× moyenne 20j — explosion de la participation, potentiellement distribution). **RSI 40.31** (+9.12 pts vs 23/06, divergence haussière technique). ATR **$0.90**, MM50 **$13.55** (cours **−4.0% sous la MM50** — signal baissier). **Données options restaurées** dans `latest.json` : max pain **$14.00**, put/call **0.55**, call OI **64.6%**, expiration 2026-07-02 (dans 3 jours). Cours **−7.1% sous le max pain** — pression baissière à court terme, mais structure call-dominated (64.6%) suggère accumulation contrarienne. Consensus FMP **$10.8** (7 analysts). Premium consensus **+20.5%**. Quality hors périmètre (2.5/6). Divergence Yahoo/FMP persistante (Market Cap $72.6B vs $29.8B, P/E 81.31 vs 50.06). XLC bottom 3 (momentum score 0.0). `recommandations_2026-06-29.json` : Score Global ajusté **26.2/100 — ÉVITER** (C:4.0 V:3.5 M:2.5). Score Momentum dégradé 5.0→2.5. Pas de position. Aucun événement corporate, aucune news structurante.
 
 ---
 

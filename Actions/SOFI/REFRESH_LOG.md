@@ -1,5 +1,19 @@
 # SOFI — Historique des Full Refreshes
 
+## 2026-06-29 — Full Refresh Triggered (snapshot 13:00 UTC — DRAFT archivé faux positif)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 5.43% (seuil 5.0%)
+
+**Conclusion :** ARCHIVÉ — DRAFT_refresh faux positif traité par l'update du 2026-06-29 (snapshot 13:00 UTC).
+- Le trigger ATR_SPIKE 5.43% est un **faux positif** : l'ATR est stable à **$0.97** (pas d'expansion), et le snapshot 13:00 UTC confirme l'**absence de nouveau close** depuis le snapshot 10:00 UTC (cours $17.88 inchangé).
+- **[RÉSOLU]** Données options JSON corrigées dans `data/latest.json` (snapshot 13:00 UTC) : Max Pain $18.50 (vs $5.00 aberrant à 10h), Put/Call 0.49 (vs `null`), Call OI 66.9% (vs `null`). Le Max Pain remonté de $18.00 à $18.50 reflète un repositionnement options haussier.
+- Aucun nouvel événement structurant ne modifie le moat, le TAM ou la qualité bénéfice. Le Filtre Qualité reste 4/6 (Quality Partielle).
+- Score Opportunité 6.3/10, Score Global ajusté 68.3/100 (ACHETER Réduit) — inchangés. Timing Favorable maintenu.
+- **Action :** DRAFT_refresh archivé (`SOFI_2026-06-29_DRAFT_refresh_ARCHIVED.md`). Pas de réécriture de `_init.md` requise — la structure fondamentale du 2026-05-17 reste valide, et la mise à jour `SOFI_2026-06-29_update_13h00.md` capture la stabilité et la correction options.
+
+---
+
 ## 2026-06-16 — Full Refresh Conclu (snapshot 17:00 UTC — close final confirmé, gap +5.07% réel, DRAFT traité)
 
 **Triggers :**

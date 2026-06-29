@@ -1,3 +1,15 @@
+## 2026-06-29 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap -6.94% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 6.92% (seuil 5.0%)
+
+**Conclusion :** INVALIDÉ — Gap baissier majeur, cassure MM50, rétrogradation ÉVITER
+
+Snapshot 2026-06-29 13:00 UTC. **Gap −6.94%** ($13.98 → $13.01). Open $13.44, high $13.44, low $12.78. Volume **142.6M** (1.15× moyenne 20j). RSI **40.31** (+9.12 pts vs 23/06, divergence haussière technique). ATR **$0.90**, MM50 **$13.55** (cours **−4.0% sous la MM50**). **Données options restaurées** : max pain **$14.00**, put/call **0.55**, call OI **64.6%** (call-dominated malgré la baisse). Cours **−7.1% sous le max pain**. Filtre Qualité recalculé : **2.5/6** (hors périmètre — inchangé). Premium vs consensus $10.8 révisé à **+20.5%**. Score Opportunité **3.4/10** (C:4.0 V:3.5 M:2.5). Score Global ajusté **26.2/100** — **ÉVITER** (rétrogradation depuis SURVEILLER 45.5). SL/TP révisés **$11.21/$15.71**. Timing technique **défavorable**. Thèse invalide : cassure MM50 avec volume élevé, absence de rebond intraday (high=open), aucun catalyseur fondamental. DRAFT_refresh traité → archivé.
+
+---
+
 ## 2026-06-23 — Full Refresh Triggered (17:00 UTC)
 
 **Triggers :**
