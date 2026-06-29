@@ -52,6 +52,7 @@
 | 2026-06-22 | `CTMX_2026-06-22_update.md` | Mise a jour snapshot **21:00 UTC** | **Cloture officielle** $3.04 (+3.05% vs previous close $2.95), RSI **31.53** (+4.96 pts), ATR **$0.17** (stable), volume **3.74M (0.90x)** — normalisation complete post-expiration. Options pivot baissier **stable**. **Recommandation degradee SURVEILLER** (depuis ATTENDRE), Score Global Ajuste **48.8/100** (-6.2 pts, malus sectoriel accru -8.0 pts), Score Opportunite **5.7/10** (C:6.5 V:6.0 M:4.0), timing **Defavorable**, SL/TP revises **$2.70/$3.55** |
 | 2026-06-23 | `CTMX_2026-06-23_update.md` | Mise a jour snapshot **10:00 UTC** | **Stabilite mecanique totale** vs cloture 22/06 (cours $3.04 inchange, RSI 31.53 inchange, ATR $0.17 stable, volume 3.78M 0.91x). **Anomalie options JSON recurrente detectee et traitee** (max_pain $1.00 aberrant → $4.00 conserve, put/call et call OI `null` → 8.91 et 10.1% conserves). Structure baissiere persistante. Recommandation **SURVEILLER** et Score Global Ajuste **48.8/100** inchanges. SL/TP **$2.70/$3.55** maintenus. Timing **Defavorable** |
 | 2026-06-23 | `CTMX_2026-06-23_update.md` | Mise a jour snapshot **13:00 UTC** | **Stabilite mecanique totale** vs snapshot 10h UTC (donnees identiques). **Anomalie options JSON RESOLUE** — valeurs propres confirmees (max_pain $4.00, put/call **2.87** vs 8.91, call OI **25.8%** vs 10.1%). Structure baissiere **attenuee** (pivot modere vs extreme). Recommandation **SURVEILLER** et Score Global Ajuste **48.8/100** inchanges. SL/TP **$2.70/$3.55** maintenus. Timing **Defavorable** |
+| 2026-06-29 | `CTMX_2026-06-29_update.md` | Mise a jour snapshot **10:00 UTC** | **Mutation technique majeure** : cours **$3.40** (+6.4% vs 23/06), RSI **70.0** (+18.21 pts, surachat), volume **28.89M (5.15x)** — explosion historique, MM50 **$3.70** (ecart -8.1%). **DRAFT_refresh 27/06 confirme et amplifie** (volume surge 4.1x → 5.15x). **8e anomalie options JSON** detectee (valeurs operationnelles conservees). XLV momentum **9.92/10** (2e rang) — vent sectoriel favorable. Recommandation **ATTENDRE** confirmee, Score Global Ajuste **57.5/100** (+5.0 pts), SL/TP revises **$3.06/$3.91**. Timing **Defavorable** |
 
 ---
 
@@ -65,21 +66,22 @@
 
 ## Alertes actives
 
-- :yellow_circle: Cours $3.04 — stable sous MM50 ($3.80, ecart -20.0%)
-- :green_circle: Volume **0.91x** — normalisation confirmee post-expiration
-- :red_circle: RSI 31.53 — survente persistante mais attenuée
-- :green_circle: Support $2.86 **NON TESTE** (low $2.95)
-- :green_circle: Short interest 14.97% — stable, potentiel short squeeze si catalyseur
-- :red_circle: Cours sous MM50 ($3.80) avec ecart -20.0%
-- :red_circle: Score Global Ajuste **48.8/100** — **sous le seuil institutionnel (50)**
-- :red_circle: Recommandation **SURVEILLER** — degradee depuis ATTENDRE au snapshot 21h UTC 2026-06-22
-- :red_circle: Options — **PIVOT STRUCTUREL BAISSIER** operationnel (put/call 8.91, call OI 10.1%, max pain $4.00)
-- :red_circle: Hypothese pin risk haussier **INVALIDEE**
-- :yellow_circle: Expiration options **2026-07-17** — J+24 avec structure baissiere
+- :green_circle: Cours $3.40 — rebond +6.4% vs 23/06, sous MM50 ($3.70, ecart -8.1%)
+- :red_circle: Volume **5.15x** — **EXPLOSION HISTORIQUE** — signal d'interet massif
+- :red_circle: RSI 70.0 — **SURACHAT TECHNIQUE** — vigilance consolidation
+- :green_circle: Support $2.86 **NON TESTE** (low $3.23)
+- :yellow_circle: Short interest 15.95% — hausse des shorts, potentiel squeeze si catalyseur
+- :red_circle: Cours sous MM50 ($3.70) avec ecart -8.1%
+- :yellow_circle: Score Global Ajuste **57.5/100** — **au-dessus du seuil institutionnel (50)**
+- :yellow_circle: Recommandation **ATTENDRE** — confirmee depuis 23/06
+- :yellow_circle: Options — **PIVOT BAISSIER MODERE** (put/call 2.87 conserve, call OI 25.8%, max pain $4.00)
+- :red_circle: Options — **8e ANOMALIE JSON** (max_pain $1.00 aberrant dans latest.json)
+- :yellow_circle: Expiration options **2026-07-17** — J-18 avec structure baissiere attenuee
+- :red_circle: Volume/cours divergence — explosion sans news fondamentale = signal atypique
 - [WARNING] Donnees MM200 manquantes
 - [WARNING] Biotech pre-revenue — scoring standard peu fiable
-- [INFO] Earnings confirme le 2026-08-06 (J+44) — Est EPS $-0.13 a $-0.07
-- [INFO] Anomalie options JSON du 2026-06-23 traitee comme faux positif algorithmique (max_pain $1.00 aberrant)
+- [INFO] Earnings confirme le 2026-08-06 (J+38) — Est EPS $-0.13 a $-0.07
+- [INFO] DRAFT_refresh 2026-06-27 partiellement matérialise (volume surge confirme) mais archive comme faux positif (donnees incompletes)
 
 ---
 
@@ -89,4 +91,4 @@ L'ancien dossier `Actions/CYTOMX/` contient l'historique des analyses sous le sy
 
 ---
 
-*Derniere mise a jour : 2026-06-23*
+*Derniere mise a jour : 2026-06-29*
