@@ -598,17 +598,17 @@
 - price_gap (medium) : Gap +8.88% overnight (seuil ±5.0%)
 - atr_spike (medium) : ATR relatif 11.90% (seuil 5.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** modify — Le rebond +8,88% à $71,45 est bienvenu mais ne répare pas la cassure du pivot absolu $72,59 au close. Entre le 23/06 et le 29/06, le cours a dérivé de −13,8% ($76,15 → $65,62) avant le rebond. Le short interest s'aggrave à 20,98% (+2,59 pts). Le volume 0,85× est meilleur que le collapse 0,438× du 23/06 mais reste sous la moyenne. La thèse est modifiée de ATTENDRE (50,5) à SURVEILLER (46,8). Pivot absolu $72,59 cassé. Surveillance impérative du niveau $64,50 (low du 29/06) et du comportement des shorts.
 
 ---
 
 ## 2026-06-29 — Full Refresh Triggered
 
 **Triggers :**
-- price_gap (medium) : Gap +8.88% overnight (seuil ±5.0%)
-- atr_spike (medium) : ATR relatif 11.90% (seuil 5.0%)
+- price_gap (medium) : Gap +8,88% overnight (seuil ±5,0%)
+- atr_spike (medium) : ATR relatif 11,90% (seuil 5,0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** modify — Le rebond +8,88% à $71,45 est bienvenu mais ne répare pas la cassure du pivot absolu $72,59 au close. Entre le 23/06 et le 29/06, le cours a dérivé de −13,8% ($76,15 → $65,62) avant le rebond. Le short interest s'aggrave à 20,98% (+2,59 pts). Le volume 0,85× est meilleur que le collapse 0,438× du 23/06 mais reste sous la moyenne. La thèse est modifiée de ATTENDRE (50,5) à SURVEILLER (46,8). Pivot absolu $72,59 cassé. Surveillance impérative du niveau $64,50 (low du 29/06) et du comportement des shorts.
 
 ---
 
