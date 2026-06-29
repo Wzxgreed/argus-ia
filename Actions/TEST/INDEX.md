@@ -3,17 +3,17 @@
 ## Thèse courante
 
 **Verdict :** SURVEILLER
-**Date dernière analyse :** 2026-06-23 (snapshot 17:00 UTC)
-**Cours actuel :** $42.62 (previous close $44.704, −4.66% session)
+**Date dernière analyse :** 2026-06-29 (snapshot 10:00 UTC)
+**Cours actuel :** $42.34 (previous close $41.753, +1.41% session)
 **Score Qualité :** 0/6 (Hors périmètre)
-**Score Opportunité :** 5.0/10
-**Score Momentum :** 3.0/10
-**Score Global :** 50.2/100 (42.2 ajusté)
-**Stop-loss :** $39.88
-**Take-profit :** $46.73
+**Score Opportunité :** 5.6/10
+**Score Momentum :** 5.3/10
+**Score Global :** 56.0/100 (48.0 ajusté)
+**Stop-loss :** $39.74
+**Take-profit :** $46.24
 **Ratio R/R :** 1.5
 
-TEST est un ticker de test / micro-cap sans données fondamentales exploitables dans notre snapshot. Aucune thèse institutionnelle ne peut être établie sur des fondamentaux. **Verdict dégradé : SURVEILLER, timing Défavorable** — snapshot 17h UTC du 2026-06-23. Mutation technique majeure vs snapshot 13h UTC : cours $42.62 (−4.66%), RSI 40.11 (−9.96 pts), volume effondré à 677 (0.37× avg), cours repassé sous MM50 $44.00 (−3.14%), ATR $1.37 (+$0.09). Le pipeline 17h recalcule Score Global 50.2/100 (42.2 ajusté), en chute de −11.3 pts (−29.3 pts ajusté) vs 13h UTC. Score Momentum effondré 7.5 → 3.0 (−4.5 pts), Score Catalyseur 6.5 stable, Score Valorisation 5.0 stable. SL/TP révisés à $39.88/$46.73 (ratio 1.5). **Points de vigilance :** chute de −4.66% sur volume extrêmement faible (677 unités) — risque de faux signal majeur ; cours proche du 52w low ($40.27, marge +5.8%) ; RSI proche de la zone survente (40.11) ; invalidation du support MM50 ; absence totale de données fondamentales et options ; earnings JOUR J (2026-06-23) persistant depuis 20+ jours — artefact calendrier FMP ; MM200 toujours indisponible ; pas de secteur assigné. Si cours rebondit > $44.00 avec volume > 1.5× avg et RSI > 45 → possible regradation ATTENDRE. Si close franchit le 52w low ($40.27) → dégradation ÉVITER immédiate.
+TEST est un ticker de test / micro-cap sans données fondamentales exploitables. **Verdict maintenu : SURVEILLER, timing Défavorable** — snapshot 10h UTC du 2026-06-29. Mutation technique positive vs snapshot 17h 23/06 : cours $42.34 (+1.41% session, −0.66% vs close 23/06), RSI 47.85 (+7.74 pts, sortie de la zone survente), volume normalisé à 1 600 (0.83× avg, ×2.4 vs 677 précédent), MM50 $43.86 (cours sous MM50, écart −3.47%), ATR $1.30 (−$0.07). Score Global remonté à 56.0/100 (48.0 ajusté), +5.8 pts vs 23/06. Score Momentum rebondi 3.0 → 5.3 (+2.3 pts), Score Catalyseur 6.5 stable, Score Valorisation 5.0 stable. SL/TP révisés à $39.74/$46.24 (ratio 1.5). **Points de vigilance :** rebond technique fragile sur volume toujours sous-moyenne ; cours sous MM50 sans reclaim ; proximité du 52w low ($40.27, marge +5.1%) ; absence totale de données fondamentales, options et secteur ; earnings JOUR J (2026-06-29) persistant depuis >20 jours — artefact calendrier FMP. Si reclaim MM50 ($43.86) avec volume >1.5× avg et RSI >50 → regradation ATTENDRE. Si franchissement 52w low ($40.27) → dégradation ÉVITER immédiate.
 
 ---
 
@@ -76,6 +76,7 @@ TEST est un ticker de test / micro-cap sans données fondamentales exploitables 
 | **TEST_2026-06-23_update.md** | **2026-06-23** | **Mise à jour 10:00 UTC — stabilité technique totale vs snapshot 21h 22/06 : cours $44.704 (+0.001%), RSI 50.07 (+0.01 pt), volume 3,700 (2.04× avg, stable), MM50 $43.93 (marge +1.76%), ATR $1.28 stable, scores strictement identiques au snapshot 21h (Score Global 61.5/100, 71.5 ajusté ; Score Momentum 7.5), verdict ACHETER (Réduit) inchangé, SL/TP $42.14/$48.54 maintenus, ratio R/R 1.5 — thèse confirmée, vigilance sur l'illiquidité extrême (aucune transaction détectée sur 13h)** | **ACHETER (Réduit)** |
 | **TEST_2026-06-23_update_13h00.md** | **2026-06-23** | **Mise à jour 13:00 UTC — stabilité mécanique totale vs snapshot 10h (cours $44.704 inchangé, RSI 50.07, volume 3,700 2.04× avg, MM50 $43.93, ATR $1.28), scores strictement identiques (Score Global 61.5/100, 71.5 ajusté), verdict ACHETER (Réduit) inchangé, SL/TP $42.14/$48.54 maintenus — thèse confirmée, earnings JOUR J persistant (J+1 imminent)** | **ACHETER (Réduit)** |
 | **TEST_2026-06-23_update_17h00.md** | **2026-06-23** | **Mise à jour 17:00 UTC — mutation technique majeure : cours −4.66% à $42.62, RSI 40.11 (−9.96 pts, franchissement sous 50 et approche zone 40), volume effondré 677 (0.37× avg, −81.7%), MM50 $44.00 (cours sous MM50, marge −3.14%), ATR $1.37 (+$0.09), Score Global 61.5→50.2 (−11.3 pts, 71.5→42.2 ajusté), Score Momentum 7.5→3.0 (−4.5 pts), verdict dégradé ACHETER (Réduit) → SURVEILLER, timing Favorable → Défavorable, SL/TP révisés $39.88/$46.73 — thèse invalidée** | **SURVEILLER** |
+| **TEST_2026-06-29_update.md** | **2026-06-29** | **Mise à jour 10:00 UTC — rebond technique : cours $42.34 (+1.41% session, −0.66% vs close 23/06), RSI 47.85 (+7.74 pts, sortie zone survente), volume 1 600 (0.83× avg, ×2.4 vs 23/06), MM50 $43.86 (cours sous MM50, écart −3.47%), ATR $1.30 (−$0.07), Score Global 50.2→56.0 (+5.8 pts, 42.2→48.0 ajusté), Score Momentum 3.0→5.3 (+2.3 pts), verdict SURVEILLER confirmé, SL/TP révisés $39.74/$46.24 — thèse confirmée, vigilance sur liquidité** | **SURVEILLER** |
 
 ---
 

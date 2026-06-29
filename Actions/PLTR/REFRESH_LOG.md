@@ -1975,19 +1975,19 @@
 ## 2026-06-29 — Full Refresh Triggered
 
 **Triggers :**
-- price_gap (medium) : Gap +5.28% overnight (seuil ±5.0%)
-- atr_spike (medium) : ATR relatif 5.32% (seuil 5.0%)
+- price_gap (medium) : Gap +5.28% overnight (seuil ±5.0%) — NOTE : le gap réel overnight était +1.65% ($107.27 → $109.04), le +5.28% est le daily change
+- atr_spike (medium) : ATR relatif 5.32% (seuil 5.0%) — FAUX POSITIF : ATR réel $6.01 (stable vs $6.26 le 23/06, −4.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** CONFIRMÉE — Traité via update (PLTR_2026-06-29_update.md). Rebond technique +5.28% à $112.93 sur volume élevé 61.18M (1.35×) après capitulation à nouveau 52W low $106.37. RSI remonte à 27.83 (+10.86 pts) — sortie de survente extrême mais reste profondément survente. Ecart MM50 creusé à −17.25% (MM50 $136.46 en déclin). Scores marginalement révisés à la hausse (Score Opp. 5.4/10, Global ajusté 51.3/100). Consensus FMP $187.47 inchangé. Timing Défavorable. Thèse INVALIDÉE avec inflexion renforcée — ATTENDRE maintenu. Options anomalie JSON persistante (Max Pain $50.00 aberrant). Pas de full refresh nécessaire — la thèse précédente reste invalidee mais l'inflexion technique est renforcée.
 
 ---
 
 ## 2026-06-29 — Full Refresh Triggered
 
 **Triggers :**
-- price_gap (medium) : Gap +5.28% overnight (seuil ±5.0%)
-- atr_spike (medium) : ATR relatif 5.32% (seuil 5.0%)
+- price_gap (medium) : Gap +5.28% overnight (seuil ±5.0%) — NOTE : le gap réel overnight était +1.65% ($107.27 → $109.04), le +5.28% est le daily change
+- atr_spike (medium) : ATR relatif 5.32% (seuil 5.0%) — FAUX POSITIF : ATR réel $6.01 (stable vs $6.26 le 23/06, −4.0%)
 
-**Conclusion :** [À compléter après analyse LLM]
+**Conclusion :** CONFIRMÉE — Même conclusion que l'entrée précédente. Trigger dupliqué par le détecteur d'événements. Traité par l'update du 2026-06-29. Pas de full refresh nécessaire — la thèse précédente reste invalidee mais l'inflexion technique est renforcée.
 
 ---
