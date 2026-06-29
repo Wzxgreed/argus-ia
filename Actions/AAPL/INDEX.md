@@ -49,15 +49,16 @@ Apple reste une entreprise de qualité institutionnelle exceptionnelle (Filtre Q
 | 2026-06-29 | [AAPL_2026-06-29_update.md](AAPL_2026-06-29_update.md) | Mise à jour snapshot 10:00 UTC — **correction −5.07%** ($298.93 → $283.78) sur **volume explosion 3.9×** (261.69M), RSI **33.48** (survente proche), ATR **$9.22** (+17.1%), **cassure MM50** ($291.41, gap −2.6%), consensus FMP révisé à la hausse **$299.43** (60a), upside **+5.5%**, Score Opportunité **5.4/10** (+0.2), Score Global ajusté **50.6/100** (−6.7), **timing downgradé Favorable → Défavorable**, SL/TP révisés **$265.34 / $311.44**, options anomalie JSON. Thèse **modifiée** — distribution/capitulation sur cassure MM50 |
 
 ## Agenda
-- **Prochain earnings :** 2026-07-30 (37 jours) — Est EPS $1.83–$1.99, Rev $109.0B
+- **Prochain earnings :** 2026-07-30 (31 jours) — Est EPS $1.83–$1.99, Rev $109.0B
 
 ## Alertes actives
-- 🔴 **Alerte technique :** RSI 34.52 proche survente (<35) — chute de −7.67 pts vs 13h, surveillance du franchissement <35 ou remontée >40
-- 🔴 **Alerte volume :** Volume 19.31M (0.37×) — effondrement extrême, invalidation de la progression +0.65%
-- 🔴 **Alerte options gamma :** Max pain $290.00 (vs spot $298.93 = −3.0%), J-1 expiration 2026-06-24 — pinning gamma **baissier modéré** (spot au-dessus du max pain). P/C 1.18, Call OI 45.9% — structure modérément baissière, à réévaluer post-expiration
-- 🟡 **Alerte valorisation :** Cours $298.93 légèrement au-dessus Consensus FMP $296.27 (+0.9% upside) — micro-convergence positive
-- 🟡 **Alerte technique :** Support MM50 $290.14 — cassure sur volume > 55M = invalidation tendance haussière
-- 🟢 **Alerte sector rotation :** XLK top performer (momentum 10.0/10) — contexte sectoriel favorable
-- 🟡 **Alerte scoring :** Score Opportunité 5.2/10, Score Global ajusté 57.3/100, recommandation ATTENDRE, timing Favorable
-- 🔴 **Alerte break :** Rejet du break $300.00 intraday 23/06 (high $301.64, close $298.93) — résistance psychologique active
-- 🔴 **Alerte divergence :** Cours +0.65% vs RSI −7.67 pts = fragilité technique sous-jacente
+- 🔴 **Alerte technique :** Cassure du MM50 ($291.41) — cours à −$7.63 (−2.6%) sous le support dynamique. Invalidation tendance haussière de moyen terme. Retour au-dessus requis pour réactivation.
+- 🔴 **Alerte volume :** Volume explosion 3.9× (261.69M vs 66.98M avg) — distribution institutionnelle ou climax sell. Participation massive, contraire au volume collapse du 23/06.
+- 🔴 **Alerte ATR :** Expansion +17.1% ($9.22 vs $7.87) — volatilité directionnelle accrue, risque de poursuite baissière.
+- 🔴 **Alerte options JSON :** Anomalie persistante (max pain $205.00 aberrant, P/C null, Call OI null). Échéance 2026-06-29 JOUR J. Impossible d'évaluer la structure post-expiration.
+- 🟡 **Alerte valorisation :** Cours $283.78 sous Consensus FMP $299.43 (+5.5% upside) — décalage favorable, mais multiples restent élevés (P/E 34.4x).
+- 🟡 **Alerte RSI :** RSI 33.48 proche survente (<30 = extrême). Surveillance du franchissement <30 (climax sell) ou remontée >40 (sortie de zone faible).
+- 🟢 **Alerte sector rotation :** XLK top performer (momentum 10.0/10) — contexte sectoriel favorable. AAPL sous-performe son secteur.
+- 🟡 **Alerte scoring :** Score Opportunité 5.4/10, Score Global ajusté 50.6/100, recommandation ATTENDRE, timing Défavorable
+- 🔴 **Alerte break :** Cours sous $290.00 — support psychologique cédé. Résistance immédiate MM50 $291.41.
+- 🟡 **Alerte divergence :** Consensus FMP révisé à la hausse malgré baisse cours — divergence fondamental/technique
