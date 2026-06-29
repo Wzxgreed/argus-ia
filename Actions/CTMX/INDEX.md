@@ -9,15 +9,15 @@
 
 ## These courante
 
-**Recommandation :** SURVEILLER *(degradee depuis ATTENDRE au snapshot 21h UTC 2026-06-22)*
-**Score global ajuste :** 48.8/100 *(inchangé)*
+**Recommandation :** ATTENDRE *(confirmee depuis le snapshot 17h UTC 2026-06-23)*
+**Score global ajuste :** 57.5/100 *(+5.0 pts vs 52.5/100 au 23/06)*
 **Prix cible consensus :** $9.05 (11 analysts)
-**Prix cible technique :** $3.55 (3xATR)
-**Stop-loss :** $2.70 (2xATR)
+**Prix cible technique :** $3.91 (3xATR)
+**Stop-loss :** $3.06 (2xATR)
 **Statut :** These non etablie — profil speculatif biotech pre-profit, Filtre Qualite 2/6
 **Horizon :** 6–12 mois (dependant des catalyseurs cliniques)
 
-**Resume :** CTMX est une biotech en phase clinique avancee (plateforme Probody) avec des partenariats de qualite (AbbVie, BMS, Amgen). Le snapshot **13h UTC** du **2026-06-23** confirme la **stabilite mecanique totale** vs snapshot 10h UTC : cours **$3.04** (inchangé), RSI **31.53** (survente persistante attenuee), ATR **$0.17** (stable), volume **3.78M (0.91x)** — normalisation confirmee post-expiration. **Anomalie options JSON RESOLUE** — les valeurs propres du snapshot 13h UTC confirment put/call **2.87** (vs 8.91 valeur operationnelle conservee au snapshot 10h) et call OI **25.8%** (vs 10.1%). La structure est desormais **baissiere moderee** (vs ultra-baissiere). L'expiration du **2026-07-17** (J+24) reste le prochain catalyseur technique. Aucune mutation fondamentale n'est detectee. L'agent Recommandation maintient **SURVEILLER** avec **Score Global Ajuste 48.8/100** (sous seuil 50). Le timing reste **Defavorable**.
+**Resume :** CTMX est une biotech en phase clinique avancee (plateforme Probody) avec des partenariats de qualite (AbbVie, BMS, Amgen). Le snapshot du **2026-06-29** confirme une **mutation technique majeure** vs le 2026-06-23 : cours **$3.40** (+6.4%), RSI **70.0** (entree en surachat), volume **28.89M (5.15x)** — explosion historique sans precedent dans le dossier. Le **DRAFT_refresh du 2026-06-27** (volume surge 4.1x, RSI 65.52) s'est confirme et amplifie. La **MM50 a $3.70** est desormais a -8.1% (vs -15.5%). Le secteur Healthcare (XLV) est tres favorable (momentum 9.92/10, 2e rang). **8e anomalie options JSON** detectee (max_pain $1.00 aberrant) — valeurs operationnelles conservees (put/call 2.87, call OI 25.8%). L'agent Recommandation maintient **ATTENDRE** avec **Score Global Ajuste 57.5/100** (au-dessus du seuil 50). Le timing reste **Defavorable** (sous MM50 + surachat). Aucune news fondamentale n'est detectee a l'origine du volume surge.
 
 ---
 
