@@ -61,8 +61,8 @@ Snapshot 13h UTC : **Gap −6.94%** ($13.98 → $13.01). Open $13.44, high $13.4
 
 - **Date :** 2026-06-29
 - **Type :** full refresh
-- **Fichier :** `NOK_2026-06-29_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-29
+- **Fichier :** `NOK_2026-06-29_init.md`
+- **Conclusion :** Thèse SURVEILLER invalidée → ÉVITER. Gap −6.94%, cassure MM50, Score Global 26.2/100.
 
 ---
 
