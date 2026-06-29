@@ -7,7 +7,7 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ATTENDRE — pas d’entrée en l’état. La configuration technique s’est **détériorée** vs le snapshot 13h UTC : cours plus bas ($8.63), volume collapse (0.42×), scoring agent downgrade (51.5/100). La survente technique (RSI 30.81) est un élément d’intérêt mais le **cours à $0.32 du 52W low ($8.31)** et l’**absence de volume** éliminent toute crédibilité à un rebond durable. Le titre reste un spéculatif fondamental dégradé (Qualité 1/6) sans catalyseur observable, sous exposition gamma vendeuse à J+3 avec écart max pain creusé. Aucune position longue recommandée. **Surveillance renforcée** si rupture du 52W low.
+- **Recommandation :** ACHETER Réduit — sizing minimal. Le snapshot 2026-06-29 10h UTC enregistre une **mutation technique majeure** : gap **+22.50%** à **$9.91** sur volume **2.40×** (3.82M), RSI **53.07** (sortie massive de survente), écart sous MM50 réduit à **−5.8%** ($10.52). Le scoring agent a upgradé le titre : Score Global Ajusté **64.8/100** (vs 51.5), Momentum **6.0/10** (vs 3.5), recommandation **ATTENDRE → ACHETER Réduit**. Short interest **23.86%** — le mouvement est probablement alimenté par du **short covering** sans catalyseur fondamental. Le profil fondamental reste dégradé (Score Qualité 1/6, patrimoine net négatif). Timing Défavorable (sous MM50). Secteur XLC Bottom 3. SL $8.27 / TP $12.37 (R/R 1.5×). **Ne pas augmenter le sizing** tant que le cours n’est pas confirmé au-dessus de MM50 ($10.52) avec volume soutenu. **Surveillance renforcée** si repli sous $9.00. **Impératif** : ne pas casser sous $8.50 — invalidation du rebond.
 
 ## Historique
 - **Score global :** —/10
@@ -49,9 +49,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-29
-- **Type :** full refresh
-- **Fichier :** `FUBO_2026-06-29_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-29
+- **Type :** update + full refresh
+- **Fichier :** `FUBO_2026-06-29_update.md` + `FUBO_2026-06-29_init.md`
+- **Conclusion :** Thèse MODIFIÉE — ATTENDRE → ACHETER Réduit (Score Global Ajusté 64.8/100). Gap +22.5% sur volume 2.4x, probable short covering. RSI 53.07, écart MM50 réduit à −5.8%. Fondamental dégradé inchangé (Qualité 1/6). Timing Défavorable, secteur XLC Bottom 3.
 
 ---
 

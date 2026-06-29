@@ -1,5 +1,15 @@
 # FUBO — Historique des Full Refreshes
 
+## 2026-06-29 — Full Refresh Résolu (Snapshot 10h UTC)
+
+**Triggers :**
+- price_gap (high) : Gap +22.50% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 8.27% (seuil 5.0%)
+
+**Conclusion :** Thèse MODIFIÉE (ATTENDRE → ACHETER Réduit). Le snapshot 2026-06-29 10h UTC enregistre une mutation technique majeure : gap +22.50% à $9.91 vs previous close $8.09, sur volume explosion 2.40× (3,818,500 vs moy. 20j 1,587,145). RSI 53.07 (+22.26 pts, sortie massive de survente), écart sous MM50 ($10.52) réduit à −5.8% (vs −19.5%). Scoring agent upgrade : Score Global Ajusté 64.8/100 (vs 51.5), Momentum 6.0/10 (vs 3.5), recommandation ATTENDRE → ACHETER Réduit. Short interest 23.86% — le gap est probablement alimenté par du short covering sans catalyseur fondamental identifiable. Structure options JSON anomalie persistante (max pain $3.00 aberrant vs historique $9.00–$13.00). Score Qualité 1/6 inchangé (patrimoine net négatif, FCF négatif). Malus sectoriel XLC Bottom 3 confirmé. Prochain earnings 2026-08-06 (38 jours). DRAFT_refresh.md archivé (`FUBO_2026-06-29_DRAFT_refresh.md` → `FUBO_2026-06-29_DRAFT_refresh_ARCHIVED.md`). Analyse update rédigée sous `FUBO_2026-06-29_update.md`. Analyse initiale full refresh rédigée sous `FUBO_2026-06-29_init.md`. INDEX.md et CONTEXT.md mis à jour. SL $8.27 / TP $12.37 (R/R 1.5×). Sizing Réduit impératif.
+
+---
+
 ## 2026-06-23 — Full Refresh Archivé (Snapshot 17h UTC)
 
 **Triggers :**
