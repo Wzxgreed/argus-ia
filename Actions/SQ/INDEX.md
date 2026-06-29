@@ -2,9 +2,9 @@
 
 ## Thèse courante
 
-**ATTENDRE** (2026-06-23 · snapshot 17h00 UTC) — Qualité opérationnelle classée **hors périmètre (3/6)** après injection FMP FY 2025-12-31 : bilan structurellement négatif (tangible asset value −$32.5B, current ratio −0.18), rentabilité GAAP inexistante (ROIC −12.8%, net margin ~0%), et dilution SBC à 5% des revenus. La valorisation reflète cette dégradation (EV/EBITDA 29.6x, P/S 2.24x) sans marge de sécurité. Le timing est bloqué par l'**anomalie de données critique** : **cours figé $83.46 sur ≥71 snapshots consécutifs couvrant ≥34 jours calendaires** (20/05 → 23/06), **source persistante `fmp_fallback`**, et **earnings placeholder glissant depuis ≥71 snapshots** (date initialement prévue 20/05, glissée au 23/06). Le consensus sell-side est **figé à $85.67** (3 analystes, upside +2.6%) — silence institutionnel complet depuis le 27/05 (27 jours). Le validation report du 23/06 affiche **5 [ERROR]** (>2 — protocole violation) mais les erreurs concernent VRT/AST/AXA/ASTSPACE/QTBS, pas SQ.
+**ATTENDRE** (2026-06-29 · snapshot 10h00 UTC) — Qualité opérationnelle classée **hors périmètre (3/6)** après injection FMP FY 2025-12-31 : bilan structurellement négatif (tangible asset value −$32.5B, current ratio −0.18), rentabilité GAAP inexistante (ROIC −12.8%, net margin ~0%), et dilution SBC à 5% des revenus. La valorisation reflète cette dégradation (EV/EBITDA 29.6x, P/S 2.24x) sans marge de sécurité. Le timing est bloqué par l'**anomalie de données critique** : **cours figé $83.46 sur ≥83 snapshots consécutifs couvrant ≥40 jours calendaires** (20/05 → 29/06), **source persistante `fmp_fallback`**, et **earnings placeholder glissant depuis ≥83 snapshots** (date initialement prévue 20/05, glissée au 29/06). Le consensus sell-side est **figé à $85.67** (3 analystes, upside +2.6%) — silence institutionnel complet depuis le 27/05 (33 jours). Le validation report du 29/06 affiche **5 [ERROR]** (>2 — protocole violation) mais les erreurs concernent VRT/AST/AXA/ASTSPACE/QTBS, pas SQ.
 
-**🟢 Pipeline stable ce 23/06 :** Les agents recommandation, social, fx, events et sector rotation ont produit des sorties stables. SQ est présent dans `recommandations_2026-06-23.json` à **54.0/100** (ATTENDRE) avec Score Opportunité **5.4/10** (C:6.5 V:5.0 M:4.5). Les données brutes SQ restent **totalement inchangées** vs le snapshot 13h00 UTC 23/06 (cours, volumes, fondamentaux, news — zero mutation intra-journalière, y compris entre 13h00 et 17h00). Le signal sectoriel reste **`NEUTRAL`** (`data:sector_rotation_2026-06-23.json`, XLK top3 mais crossovers vides). **Aucune mutation détectée sur la période.**
+**🟢 Pipeline stable ce 29/06 :** Les agents recommandation, social, fx, events et sector rotation ont produit des sorties stables. SQ est présent dans `recommandations_2026-06-29.json` à **54.0/100** (ATTENDRE) avec Score Opportunité **5.4/10** (C:6.5 V:5.0 M:4.5). Les données brutes SQ restent **totalement inchangées** vs le snapshot 17h00 UTC 23/06 (cours, volumes, fondamentaux, news — zero mutation sur 6 jours). Le signal sectoriel reste **`NEUTRAL`** (`data:sector_rotation_2026-06-29.json`, XLK top3 mais crossovers vides). **Aucune mutation détectée sur la période.**
 
 ---
 
@@ -12,6 +12,7 @@
 
 | Date | Fichier | Type | Conclusion |
 |------|---------|------|------------|
+| 2026-06-29 | [SQ_2026-06-29_update.md](SQ_2026-06-29_update.md) | Mise à jour snapshot **10:00 UTC** pipeline matinal | **ATTENDRE** — Qualité 3/6, **stale price ≥83 snapshots / ≥40 jours**, earnings placeholder **glissant ≥83 snapshots** (date glissée au **29/06** — J=0 atteint sans résolution), consensus PT **figé** $85.67 (3 analystes, silence 33 jours), signal sectoriel **`NEUTRAL`** stable, **source `fmp_fallback` persistante**, **divergence market cap FMP ~4.8%** stable, **zero mutation données brutes SQ vs snapshot 17h00 UTC 23/06** (6 jours), **pipeline stable** : reco 54.0/100 inchangée, agents social/fx/events/sector **exécutés**, validation **5 [ERROR]** (identique 23/06, non liés à SQ) |
 | 2026-06-23 | [SQ_2026-06-23_update_17h00.md](SQ_2026-06-23_update_17h00.md) | Mise à jour snapshot **17:00 UTC** post-session US | **ATTENDRE** — Qualité 3/6, **stale price ≥71 snapshots / ≥34 jours**, earnings placeholder **glissant ≥71 snapshots** (date glissée au 23/06), consensus PT **figé** $85.67 (3 analystes), signal sectoriel **`NEUTRAL`** stable, **source `fmp_fallback` persistante**, **divergence market cap FMP ~4.8%** stable, **zero mutation données brutes SQ vs snapshot 13h00 UTC 23/06** (y compris entre 13h00 et 17h00), **pipeline stable** : reco 54.0/100 inchangée, agents social/fx/events/sector **exécutés**, validation **5 [ERROR]** (identique 13h00, non liés à SQ) |
 | 2026-06-23 | [SQ_2026-06-23_update_13h00.md](SQ_2026-06-23_update_13h00.md) | Mise à jour snapshot **13:00 UTC** mid-session US | **ATTENDRE** — Qualité 3/6, **stale price ≥70 snapshots / ≥30 jours**, earnings placeholder **glissant ≥70 snapshots** (date glissée au 23/06), consensus PT **figé** $85.67 (3 analystes), signal sectoriel **`NEUTRAL`** stable, **source `fmp_fallback` persistante**, **divergence market cap FMP ~4.8%** stable, **zero mutation données brutes SQ vs snapshot 10h00 UTC 23/06**, **pipeline stable** : reco 54.0/100 inchangée, agents social/fx/events/sector **exécutés**, validation **5 [ERROR]** (identique 10h00, non liés à SQ) |
 | 2026-06-23 | [SQ_2026-06-23_update.md](SQ_2026-06-23_update.md) | Mise à jour snapshot **10:00 UTC** pré-session US | **ATTENDRE** — Qualité 3/6, **stale price ≥69 snapshots / ≥30 jours**, earnings placeholder **glissant ≥69 snapshots** (date glissée au 23/06), consensus PT **figé** $85.67 (3 analystes), signal sectoriel **`NEUTRAL`** stable, **source `fmp_fallback` persistante**, **divergence market cap FMP ~4.8%** stable, **zero mutation données brutes SQ vs snapshot 21h00 UTC 22/06**, **pipeline stable** : reco 54.0/100 inchangée, agents social/fx/events/sector **exécutés**, validation **5 [ERROR]** (identique 22/06, non liés à SQ) |
@@ -70,7 +71,7 @@
 
 ## Agenda
 
-- **2026-06-22 (glissement)** · 🔴 **Earnings Q1 2026** — résultats **toujours non intégrés** dans le snapshot 22/06 (**29 jours après date prévue**). `upcoming_events_2026-06-22.json` affiche `"date": "2026-06-22"` avec `"days_until": 0`, mais le champ `"details": "Earnings "` est vide, et ce pattern est identique pour TEST, AST, AXA, SPCX, QTBS, ASTSPACE (6 autres tickers), suggérant un placeholder FMP générique.
+- **2026-06-29 (glissement atteint)** · 🔴 **Earnings Q1 2026** — résultats **toujours non intégrés** dans le snapshot 29/06 (**40 jours après date initiale 20/05**). `upcoming_events_2026-06-29.json` affiche `"date": "2026-06-29"` avec `"days_until": 0`, mais le champ `"details": "Earnings "` est vide, et ce pattern est identique pour TEST, AST, AXA, SPCX, QTBS, ASTSPACE (6 autres tickers), suggérant un placeholder FMP générique.
 - **Action opérationnelle urgente :** Diagnostiquer la **panne systémique du worker daemon** — vérifier logs `yahoo_worker_daemon.py`. Vérifier date réelle de publication Q1 2026 via site IR Block / SEC EDGAR. Forcer re-fetch isolé de SQ (`scripts/fetch_prices.py --tickers SQ`) après résolution du daemon.
 - Post-earnings : réviser le Filtre Qualité, le scoring, et le timing technique dès disponibilité des données RSI/ATR/MM **non stale**
 - Vérifier résolution du stale price dans le prochain snapshot (risque de gap violent ±10–15% à réouverture)
@@ -79,15 +80,15 @@
 
 ## Alertes actives
 
-- 🔴 **Stale Price aggravé** — cours figé ≥70 snapshots / ≥30 jours calendaires (2026-05-20 → 2026-06-23). SQ est le cas le plus ancien et le plus sévère de stale price dans le snapshot.
-- 🔴 **Data Pipeline Alert** — Earnings Q1 2026 non résolu après **30 jours calendaires** (date initiale 20/05). `upcoming_events_2026-06-23.json` affiche `days_until: 0` avec date 23/06 (glissement depuis 20/05), mais champ details vide (placeholder FMP générique).
-- 🔴 **Source FMP Fallback** — SQ est le **dernier ticker** du snapshot 23/06 avec `"fmp_fallback"` et `change_pct: null`.
-- 🟡 **Consensus PT Figé** — Price target consensus **$85.67** (3 analystes) inchangé depuis le 27/05 (27 jours). Silence sell-side prolongé ; upside +2.6% quasi-insuffisant.
-- 🔴 **Pipeline Degradation** — `validation_report.txt` (23/06) affiche **5 [ERROR]** (VRT schema + AST/AXA/ASTSPACE/QTBS fetch) — seuil >2 franchi, stable vs 22/06. Les erreurs ne concernent pas directement SQ.
+- 🔴 **Stale Price aggravé** — cours figé ≥83 snapshots / ≥40 jours calendaires (2026-05-20 → 2026-06-29). SQ est le cas le plus ancien et le plus sévère de stale price dans le snapshot.
+- 🔴 **Data Pipeline Alert** — Earnings Q1 2026 non résolu après **40 jours calendaires** (date initiale 20/05). `upcoming_events_2026-06-29.json` affiche `days_until: 0` avec date 29/06 (glissement depuis 20/05), mais champ details vide (placeholder FMP générique).
+- 🔴 **Source FMP Fallback** — SQ est le **dernier ticker** du snapshot 29/06 avec `"fmp_fallback"` et `change_pct: null`.
+- 🟡 **Consensus PT Figé** — Price target consensus **$85.67** (3 analystes) inchangé depuis le 27/05 (33 jours). Silence sell-side prolongé ; upside +2.6% quasi-insuffisant.
+- 🔴 **Pipeline Degradation** — `validation_report.txt` (29/06) affiche **5 [ERROR]** (VRT schema + AST/AXA/ASTSPACE/QTBS fetch) — seuil >2 franchi, stable vs 23/06. Les erreurs ne concernent pas directement SQ.
 - 🟡 **Divergence Validation / Quality Gate** — `validation_report.txt` indique "0 excluded" alors que le quality gate historique excluait SQ. Divergence persistante.
 - 🟡 **Rotation Sectorielle Neutralisée** — XLK (Technology) reste top3 sectoriel avec momentum score 10.0, mais le signal global reste **`NEUTRAL`** (crossovers vides, returns `NaN`). Vent favorable growth/tech atténué.
 - 🟡 **Divergence Market Cap FMP Réduite** — `fundamentals.market_cap` ($51.73B) vs `fmp_key_metrics.market_cap` ($54.29B) : écart **~4.8%**. Anomalie source persistante.
-- 🟢 **Pipeline Stable** — Agents recommandation, social, fx, events et sector rotation ont produit des sorties stables ce 23/06. SQ est présent à 54.0/100 dans les recommandations.
+- 🟢 **Pipeline Stable** — Agents recommandation, social, fx, events et sector rotation ont produit des sorties stables ce 29/06. SQ est présent à 54.0/100 dans les recommandations.
 - Aucune alerte de seuil de cours déclenchée
 
 ---
@@ -95,11 +96,11 @@
 ## Contexte macro & secteur
 
 - **Rotation sectorielle :** XLK (Technology) top3 sectoriel avec momentum score 10.0 — vent favorable pour SQ, **mais signal global `NEUTRAL`** (crossovers vides). Le signal `ROTATION_TO_CYCLICAL` détecté au snapshot 13h du 02/06 est **neutralisé** depuis le 17h du 02/06.
-- **Régime macro :** Normal (pondération 35/40/25) — `regime_macro` affiché `"Unknown"` dans `recommandations_2026-06-22.json`
+- **Régime macro :** Normal (pondération 35/40/25) — `regime_macro` affiché `"Unknown"` dans `recommandations_2026-06-29.json`
 - **Exposition :** Haute sensibilité taux, modérée DXY (25% export), corrélation crypto historique élevée
 - **FX Exposure :** Score 0.0, direction neutral (🟢)
 - **Geo Risk :** [FICHIER OBSOLÈTE 17/05] — pas de données SQ fraîches
 
 ---
 
-*Dernière mise à jour : 2026-06-23 · Snapshot 10h00 UTC*
+*Dernière mise à jour : 2026-06-29 · Snapshot 10h00 UTC*
