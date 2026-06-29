@@ -59,16 +59,15 @@ Les scores de l'agent recommandation sont **dégradés** : Score Opportunité **
 
 ## 🚨 Alertes actives
 
-- Baisse — $16.35 (SL 2×ATR) — 🟢 Active
-- Hausse — $18.04 (nouveau 52W high) — 🔴 Déclenchée (29/06)
-- Volume — >2× moy. 20j (>263M) — 🟢 Active
+- Baisse — $11.41 (SL 2×ATR) — 🟢 Active
+- Hausse — $14.00 (prix cible) — 🔴 Déclenchée (27/05)
+- Volume — >2× moy. 20j (>XXM) — 🟢 Active
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-07-02** · Expiration options (prochaine) — Max Pain indisponible (données corrompues)
-- **2026-07-23** · earnings · Earnings date — Est EPS $-0.34-$0.19, Rev $16.7B
+- **2026-07-23** · earnings · Earnings date — Est EPS $-0.34-$0.19, Rev $16.7B...
 
 ---
 
@@ -87,7 +86,7 @@ Les scores de l'agent recommandation sont **dégradés** : Score Opportunité **
 - **Date :** 2026-06-29
 - **Type :** update
 - **Fichier :** `AAL_2026-06-29_update.md`
-- **Conclusion :** Downgrade SURVEILLER → ÉVITER. Rally +9.87% à $17.87, nouveau 52W high $18.04, RSI 84.74 extrême surachat, volume 162.98M (1.24×). Consensus sous le cours ($16.64 vs $17.87, −6.9%). Score Global ajusté 32.3/100. XLI momentum 9.57 (+2.44 pts). Options corrompues. SL $16.35, TP $20.15.
+- **Conclusion :** **Date :** 2026-06-29 (snapshot 10h UTC, session US du 29/06)
 
 ---
 

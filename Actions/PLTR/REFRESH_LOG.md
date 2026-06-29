@@ -1991,3 +1991,23 @@
 **Conclusion :** CONFIRMÉE — Même conclusion que l'entrée précédente. Trigger dupliqué par le détecteur d'événements. Traité par l'update du 2026-06-29. Pas de full refresh nécessaire — la thèse précédente reste invalidee mais l'inflexion technique est renforcée.
 
 ---
+
+## 2026-06-29 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +5.28% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 5.32% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-29 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +5.28% overnight (seuil ±5.0%)
+- atr_spike (medium) : ATR relatif 5.32% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

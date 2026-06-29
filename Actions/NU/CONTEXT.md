@@ -16,10 +16,10 @@
 - **Horizon :** 1–3 mois
 
 ## 📁 Historique des Analyses
-- **Score global :** 67.2/100
-- **Prix cible :** $17.45
-- **Stop-loss :** $12.23
-- **Statut thèse :** validée — mutation technique positive majeure
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** validée
 - **Horizon :** 1–3 mois
 
 ---
@@ -38,8 +38,7 @@
 
 ## 📅 Prochains événements
 
-- Earnings Q2 2026 : 13 août 2026 (Est EPS $0.18–$0.27, Rev $5.4B)
-- Expiration options : 2026-07-02 (3 jours, max pain opérationnel ~$14.00)
+- Aucun événement à venir.
 
 ---
 
@@ -56,9 +55,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-29
-- **Type :** update
-- **Fichier :** `NU_2026-06-29_update.md`
-- **Conclusion :** ATTENDRE confirmé — mutation technique positive majeure (rebond +5.70%, RSI 67.24, volume normalisé 0.85×, gap MM50 −0.5%), mais RSI proche surachat et cours sous MM50 imposent la patience. Fondamentaux intacts.
+- **Type :** full refresh
+- **Fichier :** `NU_2026-06-29_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-29
 
 ---
 

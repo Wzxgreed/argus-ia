@@ -19,10 +19,10 @@ Snapshot 10h UTC : **Gap −6.94%** ($13.98 → $13.01). Open $13.44, high $13.4
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 26.2/100
+- **Score global :** —/10
 - **Prix cible :** $10.8
 - **Stop-loss :** $11.21
-- **Statut thèse :** invalidée (SURVEILLER → ÉVITER)
+- **Statut thèse :** validée
 - **Horizon :** —
 
 ---
@@ -35,9 +35,9 @@ Snapshot 10h UTC : **Gap −6.94%** ($13.98 → $13.01). Open $13.44, high $13.4
 
 ## 🚨 Alertes actives
 
-- Baisse — $11.21 (SL 2×ATR) — 🟢 Active
-- Hausse — $10.8 (consensus) — 🔴 Déjà au-dessus
-- Volume — >2× moy. 20j (>248M) — 🟢 Active
+- Baisse — $12.03 (SL 2×ATR) — 🟢 Active
+- Hausse — $9.26 (consensus) — 🔴 Déjà au-dessus
+- Volume — >2× moy. 20j (>249M) — 🟢 Active
 
 ---
 
@@ -52,23 +52,17 @@ Snapshot 10h UTC : **Gap −6.94%** ($13.98 → $13.01). Open $13.44, high $13.4
 - **RSI 14j :** 40.31
 - **MM 50j :** 13.55
 - **MM 200j :** —
-- **ATR 14j :** 0.90
+- **ATR 14j :** 0.9
 - **Volume moy. 20j :** 124131030
-- **Volume session :** 142605400 (1.15×)
-- **Cours :** 13.01
-- **Previous close :** 13.98
-- **Change % :** −6.94%
-- **Low :** 12.78
-- **High :** 13.44
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-29
-- **Type :** update
-- **Fichier :** `NOK_2026-06-29_update.md`
-- **Conclusion :** Thèse SURVEILLER invalidée et rétrogradée en ÉVITER. Gap −6.94% avec cassure MM50 ($13.55) et volume élevé (1.15×). Divergence RSI haussière (+9.12 pts à 40.31) mais momentum baissier dominant (2.5/10). Score Global ajusté 26.2/100. Pas de position. Données options corrompues.
+- **Type :** full refresh
+- **Fichier :** `NOK_2026-06-29_DRAFT_refresh.md`
+- **Conclusion :** > **Date :** 2026-06-29
 
 ---
 

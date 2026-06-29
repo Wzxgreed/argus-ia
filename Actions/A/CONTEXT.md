@@ -21,7 +21,7 @@
 ## 📜 Historique des analyses
 - **Score global :** —/10
 - **Prix cible :** $—
-- **Stop-loss :** $120.01
+- **Stop-loss :** $128.25
 - **Statut thèse :** validée
 - **Horizon :** 1–3 mois
 
@@ -72,7 +72,6 @@
 - **MM 200j :** —
 - **ATR 14j :** 3.88
 - **Volume moy. 20j :** 2549255
-- **Volume session :** 3133300 (1.23×)
 
 ---
 
@@ -81,7 +80,7 @@
 - **Date :** 2026-06-29
 - **Type :** update
 - **Fichier :** `A_2026-06-29_update.md`
-- **Conclusion :** > **Date :** 2026-06-29 · Snapshot 10:00 UTC — Thèse confirmée et renforcée. Cours $136.01 (+6.73% vs 23/06), volume normalisé 3.13M (1.23×), RSI 50.9 (+13.92 pts), XLV #2 momentum sectoriel 9.92. Score Global ajusté 72.5/100 — ACHETER Réduit maintenu. SL/TP $128.25/$147.65.
+- **Conclusion :** > **Date :** 2026-06-29 · Snapshot 10:00 UTC
 
 ---
 

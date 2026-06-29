@@ -7,7 +7,7 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** ACHETER Réduit — sizing minimal. Le snapshot 2026-06-29 10h UTC enregistre une **mutation technique majeure** : gap **+22.50%** à **$9.91** sur volume **2.40×** (3.82M), RSI **53.07** (sortie massive de survente), écart sous MM50 réduit à **−5.8%** ($10.52). Le scoring agent a upgradé le titre : Score Global Ajusté **64.8/100** (vs 51.5), Momentum **6.0/10** (vs 3.5), recommandation **ATTENDRE → ACHETER Réduit**. Short interest **23.86%** — le mouvement est probablement alimenté par du **short covering** sans catalyseur fondamental. Le profil fondamental reste dégradé (Score Qualité 1/6, patrimoine net négatif). Timing Défavorable (sous MM50). Secteur XLC Bottom 3. SL $8.27 / TP $12.37 (R/R 1.5×). **Ne pas augmenter le sizing** tant que le cours n’est pas confirmé au-dessus de MM50 ($10.52) avec volume soutenu. **Surveillance renforcée** si repli sous $9.00. **Impératif** : ne pas casser sous $8.50 — invalidation du rebond.
+- **Recommandation :** **ACHETER Réduit** — sizing minimal compte tenu du profil fondamental dégradé (Qualité 1/6) et de la volatilité extrême (beta 2.392, ATR_SPIKE 8.27%). Le rebond technique est crédible (volume 2.4x, probable short covering) mais le timing reste Défavorable (sous MM50) et le secteur XLC est en bottom 3. **Ne pas augmenter le sizing** tant que le cours n’est pas confirmé au-dessus de MM50 ($10.52) avec volume soutenu. **Surveillance renforcée** si repli sous $9.00. SL $8.27 / TP $12.37 (R/R 1.5×).
 
 ## Historique
 - **Score global :** —/10
@@ -49,9 +49,9 @@
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-29
-- **Type :** update + full refresh
-- **Fichier :** `FUBO_2026-06-29_update.md` + `FUBO_2026-06-29_init.md`
-- **Conclusion :** Thèse MODIFIÉE — ATTENDRE → ACHETER Réduit (Score Global Ajusté 64.8/100). Gap +22.5% sur volume 2.4x, probable short covering. RSI 53.07, écart MM50 réduit à −5.8%. Fondamental dégradé inchangé (Qualité 1/6). Timing Défavorable, secteur XLC Bottom 3.
+- **Type :** full refresh
+- **Fichier :** `FUBO_2026-06-29_init.md`
+- **Conclusion :** > **Ticker :** FUBO | **Secteur :** Communication Services / Broadcasting
 
 ---
 

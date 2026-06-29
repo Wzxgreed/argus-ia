@@ -3047,3 +3047,23 @@
 **Conclusion :** [À compléter après analyse LLM]
 
 ---
+
+## 2026-06-29 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +9.29% overnight (seuil ±5.0%)
+- volume_surge (medium) : Volume 3.7× moyenne 20j (4,318,100 vs 1,175,350)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-29 — Full Refresh Triggered
+
+**Triggers :**
+- price_gap (medium) : Gap +9.29% overnight (seuil ±5.0%)
+- volume_surge (medium) : Volume 3.7× moyenne 20j (4,318,100 vs 1,175,350)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---

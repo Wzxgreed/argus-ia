@@ -59,7 +59,7 @@
 - **Date :** 2026-06-29
 - **Type :** update
 - **Fichier :** `SPCX_2026-06-29_update.md`
-- **Conclusion :** Thèse confirmée en ATTENDRE avec nuance mixte — Score Global reculé mécaniquement à 58.5/100 (−1.3 pt, s'éloignant du seuil ACHETER Réduit 60), conflit de symbole chronique persistant, données totalement non fiables, forward P/E 779.12 muté −6.13%, faux volume stable 126.8M, setup non-actionnable en pratique. Stabilisation approfondie float/consensus (7+/3+ snapshots) mais régression options majeure (max_pain 5.0, retour null). Amélioration sectorielle XLF non exploitable.
+- **Conclusion :** **Date :** 2026-06-29
 
 ---
 

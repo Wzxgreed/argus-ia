@@ -41,7 +41,7 @@
 
 ## 📅 Prochains événements
 
-- **2026-06-29** · earnings · Earnings (placeholder J0 glissant)
+- **2026-06-29** · earnings · Earnings ...
 
 ---
 
@@ -60,7 +60,7 @@
 - **Date :** 2026-06-29
 - **Type :** update
 - **Fichier :** `QTBS_2026-06-29_update.md`
-- **Conclusion :** Data blackout confirmé — ATTENDRE maintenu. Placeholder earnings J0 glissant au 29/06. Contexte sectoriel XLF en amélioration nette (momentum 8.40/10). Aucune donnée technique, fondamentale ni sentiment disponible.
+- **Conclusion :** > **Date :** 2026-06-29
 
 ---
 

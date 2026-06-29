@@ -29,11 +29,11 @@ Le short interest monte à **15.48%** (+0.77 pt) — setup asymétrique squeeze/
 ---
 
 ## Actualités ayant impacté ce dossier
-- **Score global :** 68.3/10
+- **Score global :** —/10
 - **Prix cible :** $20.79
 - **Stop-loss :** $15.94
 - **Statut thèse :** validée
-- **Horizon :** 1–3 mois
+- **Horizon :** —
 
 ---
 
@@ -45,9 +45,9 @@ Le short interest monte à **15.48%** (+0.77 pt) — setup asymétrique squeeze/
 
 ## 🚨 Alertes actives
 
-- Baisse — $15.94 (SL 2×ATR) — 🟢 Active
-- Hausse — $20.79 (prix cible) — 🟢 Active
-- Volume — >2× moy. 20j (>175.6M) — 🟢 Active
+- Baisse — $13.78 (SL 2×ATR) — 🟢 Active
+- Hausse — $18.88 (prix cible) — 🟢 Active
+- Volume — >2× moy. 20j (>140.7M) — 🟢 Active
 
 ---
 
@@ -72,7 +72,7 @@ Le short interest monte à **15.48%** (+0.77 pt) — setup asymétrique squeeze/
 - **Date :** 2026-06-29
 - **Type :** update
 - **Fichier :** `SOFI_2026-06-29_update.md`
-- **Conclusion :** Close $17.88 (+3.35%) sur volume 1.03× — alerte volume levée. RSI 66.79 (+18.47 pts), MM50 reclaim +5.49%. Short interest 15.48% (+0.77 pt). XLF momentum 8.4/10 (+2.17 pts). Score Global 68.3/100 (ACHETER Réduit). SL $15.94, TP $20.79. Thèse confirmée et renforcée.
+- **Conclusion :** > **Date :** 2026-06-29 (snapshot 10:00 UTC — close final confirmé)
 
 ---
 

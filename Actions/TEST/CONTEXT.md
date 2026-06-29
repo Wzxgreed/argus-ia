@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER
-- **Score global :** 56.0/100 (48.0 ajusté)
-- **Prix cible :** $46.24
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
 - **Stop-loss :** $39.74
-- **Statut thèse :** confirmée
+- **Statut thèse :** validée
 - **Horizon :** —
 
 ---
@@ -39,10 +39,8 @@
 - **RSI 14j :** 47.85
 - **MM 50j :** 43.86
 - **MM 200j :** —
-- **ATR 14j :** 1.30
-- **Volume moy. 20j :** 1 925
-- **Cours :** $42.34 (+1.41% vs previous close $41.753)
-- **52w low / high :** $40.27 / $57.74
+- **ATR 14j :** 1.3
+- **Volume moy. 20j :** 1925
 
 ---
 
@@ -51,7 +49,7 @@
 - **Date :** 2026-06-29
 - **Type :** update
 - **Fichier :** `TEST_2026-06-29_update.md`
-- **Conclusion :** Thèse SURVEILLER confirmée. Rebond technique net (RSI +7.74 pts à 47.85, volume ×2.4 à 1 600) mais cours reste sous MM50 ($43.86, écart −3.47%) et sans données fondamentales. Earnings JOUR J persistant (artefact FMP). Attendre reclaim MM50 + volume confirmatoire pour regradation ATTENDRE. SL/TP révisés $39.74/$46.24.
+- **Conclusion :** > **Date :** 2026-06-29
 
 ---
 

@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER (proxy ASTS)
-- **Score global :** 46.8/100
-- **Prix cible :** $96.95 (TP 3xATR)
-- **Stop-loss :** $54.45 (2xATR)
-- **Statut thèse :** Modifiée — rebond post-gap plus credible mais biais surveiller maintenu
+- **Recommandation :** —
+- **Score global :** —/10
+- **Prix cible :** $—
+- **Stop-loss :** $—
+- **Statut thèse :** —
 - **Horizon :** —
 
 ---
@@ -24,32 +24,23 @@
 
 ## 🚨 Alertes actives
 
-- 🔴 Anomalie structurelle AST : >58 snapshots sans données de cours
-- 🟡 Nouvelle anomalie options JSON ASTS : max pain $45.0 aberrant (faux positif)
-- 🟡 Short interest ASTS en hausse : 20.98% (+2.59 pts)
-- 🟡 Earnings placeholder glissant J=0 non resolu depuis 35+ jours
+- Aucune alerte active.
 
 ---
 
 ## 📅 Prochains événements
 
-- **2026-07-02** · expiration options ASTS (3 jours) — theta decay, anomalie JSON
-- **2026-08-10** · earnings ASTS Q2 2026 (42 jours) — Est EPS -$0.29 à -$0.17
+- **2026-06-29** · earnings · Earnings ...
 
 ---
 
 ## 📊 Contexte technique (dernier snapshot)
 
-- **RSI 14j :** 34.39 (sortie survente extreme)
-- **MM 50j :** $86.23 (cours sous MM50 -17.1%)
+- **RSI 14j :** —
+- **MM 50j :** —
 - **MM 200j :** —
-- **ATR 14j :** $8.50
-- **Volume moy. 20j :** 26.04M
-- **Volume séance :** 22.16M (0.85x)
-- **Short interest :** 20.98%
-- **Cours close :** $71.45 (+8.88% vs previous close $65.62)
-- **Low intraday :** $64.51
-- **High intraday :** $73.20
+- **ATR 14j :** —
+- **Volume moy. 20j :** —
 
 ---
 
@@ -58,7 +49,7 @@
 - **Date :** 2026-06-29
 - **Type :** update
 - **Fichier :** `AST_2026-06-29_update.md`
-- **Conclusion :** AST reste sans données (>58 snapshots). ASTS proxy : gap down inter-sessions ($76.15 → $65.62) suivi d'un rebond +8.88% à $71.45 sur volume recovery 0.85x (plus crédible que le rebond précédent). RSI sort de la survente extrême (34.39). Short interest grimpe à 20.98% (+2.59 pts). Score agent remonte à 46.8/100 (SURVEILLER). Nouvelle anomalie JSON options (max pain $45.0 aberrant). Thèse SURVEILLER maintenue.
+- **Conclusion :** > **Source :** `data/2026-06-29.json` (snapshot 2026-06-29T10:00:14Z) | `data/recommandations_latest.json` | `data/validation_report.txt`
 
 ---
 
