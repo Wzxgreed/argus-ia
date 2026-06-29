@@ -2,7 +2,7 @@
 
 > **Secteur :** Healthcare — Diagnostics & Research
 > **Capitalisation :** $35.72B
-> **Cours actuel :** $127.43 (2026-06-23 · snapshot 17h UTC)
+> **Cours actuel :** $136.01 (2026-06-29 · snapshot 10h UTC)
 > **Consensus PT :** $163.29 (24 analystes, +7 le mois dernier, +8 le trimestre)
 
 ---
@@ -11,12 +11,12 @@
 
 **Recommandation :** ACHETER · Direction Long · **Réduit**
 **Score Global :** 67.5/100 (ajusté **72.5**)
-**Prix cible desk :** $138.56 (TP ATR-based) / $163.29 (consensus analystes)
-**Stop-loss :** $120.01 (2×ATR)
+**Prix cible desk :** $147.65 (TP ATR-based) / $163.29 (consensus analystes)
+**Stop-loss :** $128.25 (2×ATR)
 **Horizon :** 1–3 mois
-**Statut thèse :** 🟡 **Confirmée avec prudence atténuée — rebond technique sur illiquidité extrême** — snapshot 17h UTC du 23/06 : **[REBOND]** Cours $127.43 (+0.74% vs close 22/06). **[ALERTE]** Volume **425K (0.16×)** — collapse de 81% vs close 22/06, illiquidité extrême. **[AMÉLIORATION]** RSI **36.98** (+3.2 pts vs 33.78), sortie partielle de la zone oversold. **[STABLE]** Options : max_pain $135.0, put/call 0.44, call OI 69.6%. **[STABLE]** Score Global ajusté **72.5/100** — **ACHETER Réduit maintenu**.
+**Statut thèse :** 🟢 **Confirmée et renforcée — reprise haussière sur volume normalisé** — snapshot 10h UTC du 29/06 : **[REPRISE HAUSSIÈRE]** Cours $136.01 (+6.73% vs close 23/06). **[NORMALISATION]** Volume **3.13M (1.23×)** — participation institutionnelle retrouvée, +636% vs 23/06. **[AMÉLIORATION MAJEURE]** RSI **50.9** (+13.92 pts vs 36.98), sortie complète de la zone oversold. **[TAILWIND SECTORIEL]** XLV **#2** du ranking sectoriel (momentum_score 9.92). **[ANOMALIE]** Options JSON : max_pain $60.0 aberrant — valeurs 23/06 conservées ($135.0 / 0.44 / 69.6%). **[STABLE]** Score Global ajusté **72.5/100** — **ACHETER Réduit maintenu**.
 
-**Synthèse :** Agilent affiche un **rebond technique de +0.74% à $127.43** au snapshot 17h UTC du 23/06, mais sur un **volume effondré à 425K (0.16×)** — le niveau le plus bas observé depuis plusieurs séances. Ce rebond s'explique davantage par un manque de vendeurs que par un regain d'acheteurs. Le RSI remonte à **36.98** (+3.2 pts), sortant partiellement de la zone oversold approfondie. L'ATR compresse à **$3.71** (−$0.15) et la MM50 monte à **$121.61** (+$0.25). Les options restent cohérentes (max pain $135.0, put/call 0.44, call OI 69.6%). Les fondamentaux sont inchangés et solides : Filtre Qualité 5/6 maintenu, consensus $163.29 laissant un upside **+28.1%**, forward P/E 19.29× attractif. Le scoring agent est **inchangé à 72.5/100 (ACHETER Réduit)**. L'entrée au spot $127.43 reste possible avec **sizing Réduit**, mais l'entrée optimale reste un retracement vers la MM50 ($121.61). Risques principaux : (1) volume collapse 0.16× — illiquidité extrême pouvant amplifier les mouvements, (2) RSI 36.98 proche de 30 — rebond technique fragile sans confirmation volume, (3) earnings Q3 le 2026-08-26 (J+64).
+**Synthèse :** Agilent affiche une **reprise haussière de +6.73% à $136.01** depuis le close du 23/06, portée par un **volume normalisé à 3.13M (1.23×)** contre un collapse extrême à 425K (0.16×) six jours plus tôt. Le RSI remonte à **50.9** (+13.92 pts), sortant complètement de la zone oversold pour revenir dans la zone neutre favorable. L'ATR repique à **$3.88** (+$0.17) et la MM50 monte à **$122.51** (+$0.90). Le scoring agent est **inchangé à 72.5/100 (ACHETER Réduit)** mais la composition interne évolue favorablement : le Momentum gagne +1.5 pt (7.0/10) tandis que le Catalyseur et la Valorisation cèdent −0.5 pt chacun par effet mécanique du rebond. Le secteur Healthcare (XLV) est désormais **#2 du ranking sectoriel** avec un momentum_score de **9.92** (RS 20j +9.88% vs SPY), un tailwind notable. Les fondamentaux restent solides : Filtre Qualité 5/6 maintenu, consensus $163.29 laissant un upside **+20.1%**, forward P/E 20.57× raisonnable. L'entrée au spot $136.01 reste possible avec **sizing Réduit**, mais un retracement vers **$132–$134** constituerait la zone d'accumulation privilégiée. Risques principaux : (1) réévaluation mécanique — le cours a grignoté 8.0 pts d'upside consensus en 6 jours, (2) écart MM50 à +11.0% — exposition à un rappel technique si le marché global corrige, (3) anomalie options JSON persistante, (4) earnings Q3 le 2026-08-26 (J+58).
 
 ---
 
@@ -59,6 +59,7 @@
 | 2026-06-22 | `A_2026-06-22_update_17h.md` | Mise à jour 17h UTC (snapshot partiel) | 🟡 **Thèse confirmée avec prudence atténuée — volume collapse de 88%** : Cours $126.82 stable (−0.19%), volume effondré à 495K (0.18×) vs 4.33M (1.56×) au snapshot 13h. RSI 34.16 (−1.3 pt), ATR $3.85, MM50 $121.37. Options stables (max pain $135.0). XLV remonte au #6 (momentum 1.34). Score Global ajusté **72.5/100** (−0.8 pt) — **ACHETER Réduit maintenu**. |
 | 2026-06-22 | `A_2026-06-22_update.md` | Mise à jour 21h UTC (close officiel) | 🟡 **Thèse confirmée avec prudence atténuée — hypothèse volume collapse invalidée** : Cours $126.49 (−0.45% vs previous close, −0.26% vs 17h). **[CORRECTION]** Volume officiel **2.19M (0.79×)** vs 495K (0.18×) au snapshot 17h — snapshot partiel corrigé. RSI 33.78 (−0.38 pt), ATR $3.85, MM50 $121.36. Options stables. XLV #6 (momentum 1.08). Score Global ajusté **72.5/100** inchangé — **ACHETER Réduit maintenu**. |
 | 2026-06-23 | `A_2026-06-23_update.md` | Mise à jour 17h UTC | 🟡 **Thèse confirmée avec prudence atténuée — rebond technique sur illiquidité extrême** : Cours $127.43 (+0.74% vs close 22/06). Volume **425K (0.16×)** — collapse de 81%, illiquidité majeure. RSI **36.98** (+3.2 pts), sortie partielle de la zone oversold. ATR $3.71 (compression), MM50 $121.61 (support montant). Options stables (max_pain $135.0, put/call 0.44, call OI 69.6%). Score Global ajusté **72.5/100** — **ACHETER Réduit maintenu**. SL/TP recalculés **$120.01/$138.56**. |
+| 2026-06-29 | `A_2026-06-29_update.md` | Mise à jour 10h UTC | 🟢 **Thèse confirmée et renforcée — reprise haussière sur volume normalisé** : Cours $136.01 (+6.73% vs close 23/06). Volume **3.13M (1.23×)** — normalisation majeure, +636% vs 23/06. RSI **50.9** (+13.92 pts), sortie complète de la zone oversold. ATR $3.88 (+$0.17), MM50 $122.51 (+$0.90). XLV **#2** du ranking sectoriel (momentum_score 9.92). Anomalie options JSON persistante. Score Global ajusté **72.5/100** — **ACHETER Réduit maintenu**. SL/TP révisés **$128.25/$147.65**. |
 
 ---
 
@@ -72,8 +73,8 @@
 
 ## 🔗 Liens rapides
 
-- [Dernière mise à jour](A_2026-06-23_update.md)
-- [Mise à jour précédente](A_2026-06-22_update.md)
+- [Dernière mise à jour](A_2026-06-29_update.md)
+- [Mise à jour précédente](A_2026-06-23_update.md)
 - [Dernier preview earnings](A_2026-05-28_preview.md)
 - [CONTEXT.md](CONTEXT.md) — Mémoire court terme
 

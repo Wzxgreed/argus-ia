@@ -7,11 +7,11 @@
 
 ## 🎯 Thèse active
 
-- **Recommandation :** —
-- **Score global :** —/10
-- **Prix cible :** $—
-- **Stop-loss :** $—
-- **Statut thèse :** validée
+- **Recommandation :** SURVEILLER
+- **Score global :** 40.0/100
+- **Prix cible :** —
+- **Stop-loss :** $17.39
+- **Statut thèse :** MODIFIÉE (ATTENDRE → SURVEILLER)
 - **Horizon :** —
 
 ---
@@ -24,13 +24,19 @@
 
 ## 🚨 Alertes actives
 
-- Aucune alerte active.
+- 🔴 **[SURACHAT EXTRÊME]** RSI 95.83 — zone critique de retournement
+- 🔴 **[GAP HAUSSIER NON CRÉDITÉ]** +9.29% overnight sans catalyseur identifiable
+- 🔴 **[CONSENSUS PT SOUS LE SPOT]** $16.00 < $19.29 (+20.6%)
+- 🟡 **[VOLUME SURGE]** 3.67× moyenne 20j — explosion sur gap
+- 🟡 **[52W HIGH ATTEINT]** $19.67
+- 🟡 **[SCORE GLOBAL DÉGRADÉ]** 40.0/100 (−16.5 pts)
 
 ---
 
 ## 📅 Prochains événements
 
-- Aucun événement à venir.
+- Earnings Q3 FY2026 : **2026-08-06** (38j) — Est EPS $0.24–$0.34, Rev ~$0.1B
+- Expiration options : **2026-07-17** (18j)
 
 ---
 
@@ -41,15 +47,17 @@
 - **MM 200j :** —
 - **ATR 14j :** 0.95
 - **Volume moy. 20j :** 1175350
+- **Cours :** $19.29
+- **52W high :** $19.67
 
 ---
 
 ## 📝 Résumé dernière analyse
 
 - **Date :** 2026-06-29
-- **Type :** full refresh
-- **Fichier :** `MITK_2026-06-29_DRAFT_refresh.md`
-- **Conclusion :** > **Date :** 2026-06-29
+- **Type :** update post-full refresh
+- **Fichier :** `MITK_2026-06-29_update.md`
+- **Conclusion :** Thèse MODIFIÉE — ATTENDRE → SURVEILLER. Gap +9.29% sur volume ×3.7, RSI 95.83 surachat extrême, nouveau 52W high. Aucun catalyseur identifiable. Score Global 40.0/100. Prudence maximale.
 
 ---
 

@@ -1,5 +1,22 @@
 # MITK — Historique des Full Refreshes
 
+## 2026-06-29 — Full Refresh TRAITÉ (Snapshot 10:00 UTC)
+
+**Triggers :**
+- price_gap (medium) : Gap +9.29% overnight (seuil ±5.0%)
+- volume_surge (medium) : Volume 3.7× moyenne 20j (4,318,100 vs 1,175,350)
+
+**Conclusion :** MODIFIÉ — la thèse précédente (ATTENDRE, Score Global 56.5/100) est dégradée en **SURVEILLER (Score Global 40.0/100)**. Contrairement aux 9 faux positifs algorithmiques précédents (ATR_SPIKE sans mutation), cette session présente une **mutation technique réelle** : close $19.29 (+11.4% vs 23/06), RSI 95.83 (+50.66 pts, surachat extrême), nouveau 52W high $19.67 (+$1.70 vs ancien high $17.97), volume explosion 3.7× (4,318,100 vs moy. 1,175,350). Le gap haussier n'est soutenu par aucun catalyseur identifiable (Score Catalyseur inchangé à 4.0/10, data/events_latest.json vide). Le short interest en repli (−0.47 pt, 8.09%) suggère des couvertures de shorts ayant alimenté le mouvement. Le Forward P/E a perdu son discount attractif (15.89x vs 14.26x). Le Score Valorisation est downgradé de 5.0 à 4.0/10 (cours trop cher post-gap) et le Score Momentum de 7.0 à 6.0/10 (RSI extrême = risque de retournement). Timing passé de Neutre à Défavorable. SL révisé $17.39, TP $22.14, R/R 1.5.
+
+**Fichiers produits :**
+- `Actions/MITK/MITK_2026-06-29_update.md` — Mise à jour snapshot 10h UTC post-full refresh
+- `Actions/MITK/INDEX.md` — Thèse courante révisée (SURVEILLER)
+- `Actions/MITK/CONTEXT.md` — Mémoire court terme mise à jour
+
+**DRAFT archivé :** `MITK_2026-06-29_DRAFT_refresh.md` → `_MITK_2026-06-29_DRAFT_refresh.md` (archive)
+
+---
+
 ## 2026-06-22 — Full Refresh FAUX POSITIF (Snapshot 10:00 UTC)
 
 **Triggers :**
