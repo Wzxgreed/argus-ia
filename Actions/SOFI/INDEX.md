@@ -49,29 +49,30 @@
 | 2026-06-23 | Mise à jour snapshot matinal (10:00 UTC — pré-ouverture US, stabilité totale) | [SOFI_2026-06-23_update.md](./SOFI_2026-06-23_update.md) | Snapshot matinal — aucun nouveau close depuis 22/06. Cours $17.10, RSI 40.98, ATR $1.00, MM50 $16.96 reclaim (+0.83%) — tous inchangés. XLF momentum remonté à 5.45/10 (+0.37 pt). [ALERTE DATA QUALITY] Options corrompues dans `latest.json` (Max Pain $5.00 aberrant). Score Global 63.3/100 — ACHETER Réduit maintenu. SL $15.10, TP $20.10. Thèse confirmée. |
 | 2026-06-23 | Mise à jour snapshot 13:00 UTC — stabilité mécanique totale, correction options | [SOFI_2026-06-23_update_13h00.md](./SOFI_2026-06-23_update_13h00.md) | Snapshot 13h — aucun nouveau close depuis 22/06 ($17.10). Toutes métriques inchangées. [RÉSOLU] Données options corrigées : Max Pain $18.00 (vs $5.00 aberrant), Put/Call 0.50 (−0.01), Call OI 66.8% (+0.4 pt). Léger repositionnement haussier options. [ANOMALIE DATA] `previous_close` $17.91 et `change_pct` −4.52% incohérents dans `latest.json` — bug Yahoo, sans impact. Score Global 63.3/100 — ACHETER Réduit maintenu. SL $15.10, TP $20.10. Thèse confirmée. |
 | 2026-06-23 | Mise à jour snapshot 17:00 UTC — nouveau close +2.22%, reclaim MM50 renforcé, volume effondré | [SOFI_2026-06-23_update_17h00.md](./SOFI_2026-06-23_update_17h00.md) | Close $17.48 (+2.22% vs $17.10). RSI 48.32 (+7.34 pts), MM50 $16.98 reclaim +2.94% (vs +0.83%). **[ALERTE]** Volume 0.59× (47.84M), sous seuil critique 0.7× — hausse sans conviction institutionnelle. XLF momentum 6.23/10 (+0.78 pt). Score Global ajusté 69.0/100 (+5.7 pts) — bord supérieur ACHETER Réduit. SL $15.50, TP $20.45. [RÉSOLU] `previous_close`/`change_pct` corrigés. Thèse confirmée avec vigilance volume. |
+| 2026-06-29 | Mise à jour quotidienne (snapshot 10:00 UTC — close final confirmé) | [SOFI_2026-06-29_update.md](./SOFI_2026-06-29_update.md) | Close $17.88 (+2.29% vs $17.48) sur volume normalisé 1.03× — alerte volume levée. RSI 66.79 (+18.47 pts), MM50 $16.95 reclaim +5.49%. Short interest 15.48% (+0.77 pt). XLF momentum 8.4/10 (+2.17 pts). Score Global 68.3/100 (ACHETER Réduit). SL $15.94, TP $20.79. Thèse confirmée et renforcée. |
 
 ---
 
 ## Thèse d'investissement courante
 
 **Recommandation :** ACHETER (Réduit)
-**Prix cible :** $20.45 (cours + 3×ATR)
-**Stop-loss :** $15.50 (cours − 2×ATR)
-**Upside/Downside :** +17.0% / −11.3%
-**Dernière mise à jour :** 2026-06-23 (snapshot 17:00 UTC — nouveau close +2.22%, reclaim MM50 renforcé, volume effondré)
+**Prix cible :** $20.79 (cours + 3×ATR)
+**Stop-loss :** $15.94 (cours − 2×ATR)
+**Upside/Downside :** +16.3% / −10.9%
+**Dernière mise à jour :** 2026-06-29 (snapshot 10:00 UTC — close final confirmé, alerte volume levée, RSI franchi)
 
-SoFi est une fintech-banque hybride avec un écosystème complet (lending + banking + investing) et une marque forte chez les millennials. Le charter bancaire 2022 crée une barrière réglementaire modérée vs les fintechs non-banques. Le snapshot du **2026-06-23 à 17h00 UTC** (post-session US) enregistre un **nouveau close à $17.48** (+2.22% vs $17.10), RSI **48.32** (+7.34 pts, sortie zone neutre-basse), ATR **$0.99** (stable), MM50 **$16.98** (+2.94% écart), volume **47.84M (0.59×)**. Le **Score Global ajusté est à 69.0/100**, dans la fourchette **ACHETER (60–74)** avec sizing **Réduit** — au **bord supérieur**. Le **Score Momentum est à 7.3/10** (+2.3 pts), le **Score Valorisation reste à 5.5/10**.
+SoFi est une fintech-banque hybride avec un écosystème complet (lending + banking + investing) et une marque forte chez les millennials. Le charter bancaire 2022 crée une barrière réglementaire modérée vs les fintechs non-banques. Le snapshot du **2026-06-29 à 10h00 UTC** (post-session US) enregistre un **nouveau close à $17.88** (+3.35% vs previous close, +2.29% vs $17.48), RSI **66.79** (+18.47 pts, approche surachat), ATR **$0.97** (stable), MM50 **$16.95** (+5.49% écart), volume **90.52M (1.03×)**. Le **Score Global ajusté est à 68.3/100**, dans la fourchette **ACHETER (60–74)** avec sizing **Réduit** — au **bord inférieur**. Le **Score Momentum est à 7.0/10** (−0.3 pt), le **Score Valorisation reste à 5.5/10**.
 
-**Point de confirmation :** Le reclaim MM50 est désormais solide ($17.48 vs $16.98, écart +2.94%). Le RSI 48.32 se rapproche de la zone 50 — signal technique nettement amélioré. L'ATR stable à $0.99 confirme une volatilité contenue.
+**Point de confirmation :** Le reclaim MM50 est solidifié ($17.88 vs $16.95, écart +5.49%). Le RSI 66.79 franchit la zone neutre-haute — signal technique fort. L'ATR stable à $0.97 confirme une volatilité contenue. **[LEVÉ]** L'alerte volume effondré du 23/06 (0.59×) est entièrement levée — la hausse s'opère sur volume normalisé 1.03×.
 
-**[NOUVEL ALERTE] Point de vigilance majeur :** Le volume à **0.59×** (47.84M vs moy. 81.60M) est bien sous le seuil critique interne de 0.7×. La hausse de +2.22% s'opère sur faible participation — manque de conviction institutionnelle apparent. **La règle absolue interne (volume <0.7× = réviser timing) s'applique partiellement :** le timing reste Favorable sur le prix/RSI, mais le volume faible impose une vigilance accrue. Un retour de volume >0.8× sur la prochaine session confirmerait la solidité du mouvement.
+**Point de vigilance :** Le RSI 66.79 est à 3.2 pts de la zone de surachat (70). Un mouvement > $18.30 sur la prochaine session pourrait pousser le RSI au-dessus de 70 et déclencher un repli technique. Le pinning options vers Max Pain $18.00 (expiration 02/07) reste un facteur de résistance court terme.
 
-**Amélioration sectorielle :** Le momentum sectoriel XLF est remonté de 5.45 à **6.23/10** (+0.78 pt), transformant le vent de poupe modéré en soutien sectoriel réel. XLF reste #3/11 sectors.
+**Amélioration sectorielle majeure :** Le momentum sectoriel XLF est passé de 6.23 à **8.4/10** (+2.17 pts) — le soutien sectoriel est désormais un vent de poupe puissant, le meilleur depuis le début du suivi. XLF reste #4/11 sectors.
 
-**Données options :** Max Pain **$18.00**, Put/Call **0.50**, Call OI **66.8%** — inchangées. Pinning possible vers expiration 26/06 (3j).
+**Données options :** Max Pain **$18.00**, Put/Call **0.50**, Call OI **66.8%** — inchangées. Pinning possible vers expiration 02/07 (3j). [ALERTE DATA QUALITY] Données options corrompues dans `latest.json` (Max Pain $5.00 aberrant).
 
-Le short interest reste élevé à **14.71%** — setup asymétrique squeeze/pression vendeuse intact. La dépendance aux taux d'intérêt et l'exposition aux prêts étudiants créent des risques macro structurels. Le Forward P/E **21.41** reste mécaniquement attractif. Le consensus PT **$25.41** (+45.4% upside vs $17.48) est inchangé. Le Filtre Qualité **4/6** (Quality Partielle) n'est pas remis en cause. Earnings Q2 dans **35j** (28 juillet, estimates EPS $0.10–$0.11, Rev $1.1B). [RÉSOLU] `previous_close` et `change_pct` corrigés dans `latest.json` ($17.10, +2.22%). Entrée suggérée $17.48, SL $15.50, TP $20.45, Ratio R/R 1.5×.
-**Score Opportunité 6.4/10. Score Global 69.0/100. ACHETER (Réduit) — Thèse confirmée avec vigilance volume.**
+Le short interest monte à **15.48%** (+0.77 pt) — setup asymétrique squeeze/pression vendeuse renforcé. Toute surprise positive (earnings, guidance) pourrait déclencher un short-covering amplifié par le beta 2.152. La dépendance aux taux d'intérêt et l'exposition aux prêts étudiants créent des risques macro structurels. Le Forward P/E **21.99** reste mécaniquement attractif. Le consensus PT **$25.41** (+42.1% upside vs $17.88) est inchangé. Le Filtre Qualité **4/6** (Quality Partielle) n'est pas remis en cause. Earnings Q2 dans **29j** (28 juillet, estimates EPS $0.10–$0.11, Rev $1.1B). Entrée suggérée $17.88, SL $15.94, TP $20.79, Ratio R/R 1.5×.
+**Score Opportunité 6.3/10. Score Global 68.3/100. ACHETER (Réduit) — Thèse confirmée et renforcée.**
 
 ---
 
@@ -87,7 +88,7 @@ Le short interest reste élevé à **14.71%** — setup asymétrique squeeze/pre
 
 | Date | Événement |
 |------|-----------|
-| 2026-07-28 | Earnings Q2 FY2026 (48j) |
+| 2026-07-28 | Earnings Q2 FY2026 (29j) |
 | 2026-06-XX | Décision Fed — impact taux direct sur business model |
 
 ---

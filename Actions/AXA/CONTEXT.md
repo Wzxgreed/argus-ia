@@ -1,4 +1,4 @@
-# CONTEXT — AXA — Dernière mise à jour : 2026-06-28
+# CONTEXT — AXA — Dernière mise à jour : 2026-06-29
 
 > Ce fichier est la **mémoire court terme** du ticker. Les agents LLM le lisent avant chaque analyse pour conserver le contexte sans relire tout l'historique.
 > Mise à jour automatique par `agents/update_context/agent.py` à chaque passage du pipeline.
@@ -56,10 +56,10 @@ AXA est un assureur-français mondial coté à Euronext Paris. À ce stade, **au
 
 ## 📝 Résumé dernière analyse
 
-- **Date :** 2026-06-28
+- **Date :** 2026-06-29
 - **Type :** preview
-- **Fichier :** `AXA_2026-06-28_preview.md`
-- **Conclusion :** > **Date :** 2026-06-28
+- **Fichier :** `AXA_2026-06-29_preview.md`
+- **Conclusion :** > **Date :** 2026-06-29
 
 ---
 

@@ -47,40 +47,44 @@
 | 2026-06-22 17:00 UTC | Mise a jour | [AAL_2026-06-22_update_17h00.md](./AAL_2026-06-22_update_17h00.md) | Snapshot 17h UTC — NOUVEAU 52W HIGH $16.5899, close $16.545 (+3.47% session, +7.2% vs 17/06), RSI 67.77 (+6.43), volume normalisé 99.32M (0.916× moyenne). Cassure 52W high non validée par volume (< 120M seuil Argus-IA). Consensus négatif −0.2%. These **ATTENDRE — BIAIS HAUSSIER TECHNIQUE RENFORCÉ MAIS NON CONFIRMÉ**. SL $15.19, TP $18.59, R/R 1.5. |
 | 2026-06-22 21:00 UTC | Mise a jour | [AAL_2026-06-22_update_21h00.md](./AAL_2026-06-22_update_21h00.md) | Snapshot 21h UTC (close officiel) — rejet massif du 52W high, close $16.08 (−2.81% vs 17h, +0.56% vs prior), RSI 65.16 (−2.61), volume record révisé 177.37M (1.58× moyenne) = distribution institutionnelle post-sommet. Score Global 53.8/100 (−1.2). Upside consensus +2.7% (mécanique). These **ATTENDRE — DISTRIBUTION INSTITUTIONNELLE POST-52W HIGH**. SL $14.72, TP $18.12, R/R 1.5. |
 | 2026-06-23 17:00 UTC | Mise a jour | [AAL_2026-06-23_update.md](./AAL_2026-06-23_update.md) | Snapshot 17h UTC — session US du 23/06 : cours $16.265 (+1.15%), RSI 71.17 (surachat franchi), volume 85.52M (0.77×) = normalisation massive post-distribution. Score Global 45.8/100 (ajusté 35.8/100) = downgrade ATTENDRE → SURVEILLER. Timing Défavorable. XLI momentum 7.13 (−0.41 pt). Options inchangées (Max Pain $13.50, Put/Call 1.56, Call OI 39.0%). SL $14.91, TP $18.30. |
+| 2026-06-29 10:00 UTC | Mise a jour | [AAL_2026-06-29_update.md](./AAL_2026-06-29_update.md) | Snapshot 29/06 — rally +9.87% à $17.87, nouveau 52W high $18.04, RSI 84.74 (extrême surachat), volume 162.98M (1.24×) = expansion massive. Consensus sous le cours ($16.64 vs $17.87, −6.9%). Score Global 42.3/100 (ajusté 32.3/100) = downgrade SURVEILLER → ÉVITER. XLI momentum 9.57 (+2.44 pts). Options corrompues (Max Pain $5.00 aberrant). SL $16.35, TP $20.15. |
 
 ---
 
 ## 🎯 Thèse active
 
-- **Recommandation :** SURVEILLER — SURACHAT + ÉPUISEMENT TECHNIQUE SUR FAIBLE VOLUME (snapshot 17h UTC 23/06 : close $16.265 sur volume normalisé 85.52M = 0.77× moyenne, RSI 71.17 surachat, Score Global ajusté 35.8/100)
-- **Prix cible :** Suspendu — attente cassure confirmée au-dessus de $16.60 sur volume > 120M en close ET close > $16.60, ou réévaluation post-earnings
-- **Stop-loss :** $14.91 (2×ATR $0.68)
-- **Take-profit :** $18.30 (3×ATR $0.68)
+- **Recommandation :** ÉVITER — SURACHAT EXTRÊME + CONSENSUS SOUS LE COURS + BILAN FRAGILE (snapshot 10h UTC 29/06 : close $17.87 sur volume 162.98M = 1.24× moyenne, RSI 84.74 extrême surachat, Score Global ajusté 32.3/100)
+- **Prix cible :** Suspendu — attente correction technique vers $16.35 (SL) ou réévaluation post-earnings
+- **Stop-loss :** $16.35 (2×ATR $0.76)
+- **Take-profit :** $20.15 (3×ATR $0.76)
 - **Ratio R/R :** 1.5
-- **Upside/Downside :** +1.5% (consensus $16.51) / −8.3% (SL)
-- **Derniere mise a jour :** 2026-06-23 (snapshot 17h UTC, session US du 23/06)
+- **Upside/Downside :** −6.9% (consensus $16.64) / −8.5% (SL)
+- **Derniere mise a jour :** 2026-06-29 (snapshot 10h UTC, session US du 29/06)
 
-American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). Le snapshot 17h UTC du 23/06 capture la session US à **$16.265 (+1.15% vs prior close $16.08)** après un open à $15.76 et un test intraday du niveau **$16.355** (à 2.0% du 52W high $16.59). Le volume total atteint **85.52M (0.77× moyenne 20j)** — une **normalisation volumétrique massive** (−51.8% vs le record du 22/06) qui contraste avec la distribution institutionnelle observée la veille. Cependant, cette hausse s'accompagne d'une **entrée en zone de surachat** (RSI 71.17) et d'un **volume faible** = signal d'épuisement technique plutôt que d'accumulation.
+American Airlines est une compagnie aerienne legacy fortement endettee (~$40B) avec aucun moat. Hors perimetre qualite (0-1/6). Le snapshot 10h UTC du 29/06 capture la session US à **$17.87 (+1.71% vs prior close $17.57)** après un open à $17.49 et un test intraday du niveau **$17.94** (à 0.6% du nouveau 52W high $18.04). Le volume total atteint **162.98M (1.24× moyenne 20j)** — une **expansion volumétrique massive** (+90.6% vs le 23/06) qui contraste avec la normalisation observée précédemment. Cependant, cette hausse s'accompagne d'un **extrême surachat** (RSI 84.74) et d'un **consensus analystes sous le cours** ($16.64 vs $17.87, −6.9%) = signal de distribution avancée.
 
-Les scores de l'agent recommandation sont **dégradés** : Score Opportunité **4.6/10** (vs 4.9), Score Global ajusté **35.8/100** (vs 53.8) — écart de 24.2 pts par rapport au seuil d'achat (60). Le Timing passe de **Favorable à Défavorable**. Le Forward P/E remonte mécaniquement à **7.24**. Le short interest reste stable à **11.39%**. Le Filtre Qualité reste 0–1/6. Aucun analyste n'a relevé son PT malgré la proximité du 52W high = le consensus institutionnel ne valide pas le niveau.
+Les scores de l'agent recommandation sont **dégradés** : Score Opportunité **4.2/10** (vs 4.6), Score Global ajusté **32.3/100** (vs 35.8) — écart de 27.7 pts par rapport au seuil d'achat (60). Le Timing reste **Défavorable**. Le Forward P/E remonte mécaniquement à **7.90**. Le short interest recule à **9.78%** (−1.61 pt). Le Filtre Qualité reste 0–1/6. Aucun analyste n'a relevé son PT malgré le nouveau 52W high = le consensus institutionnel anticipe un repli.
 
-**Verdict institutionnel :** La thèse est **SURVEILLER — SURACHAT + ÉPUISEMENT TECHNIQUE SUR FAIBLE VOLUME.** Le rallye de +1.15% à $16.265 sur un volume effondré (85.52M = 0.77× moyenne) après la distribution massive du 22/06 est un signal classique d'épuisement haussier. Le RSI 71.17 franchit la zone de surachat pour la première fois depuis le 25/05. Le Score Global ajusté 35.8/100 est sous le seuil de SURVEILLER (40) et éloigne toute perspective d'achat à court terme. Le bilan reste extrêmement fragile (current ratio 0.50, tangible asset value négatif, net debt/EBITDA 8.83x). Le secteur Industriels (XLI) reste #2 sector rotation (momentum 7.13) mais perd 0.41 pt = soutien macro en détente. La résistance à $16.50–$16.59 s'impose comme un plafond technique majeur.
+**Verdict institutionnel :** La thèse est **ÉVITER — SURACHAT EXTRÊME + CONSENSUS SOUS LE COURS + BILAN FRAGILE.** Le rally de +9.87% à $17.87 sur volume élevé (162.98M = 1.24× moyenne) a établi un nouveau 52W high à $18.04, mais le RSI 84.74 signale un extrême surachat jamais observé sur la période de suivi. Le Score Global ajusté 32.3/100 est sous le seuil d'ÉVITER (35) et éloigne toute perspective d'achat à court terme. Le bilan reste extrêmement fragile (current ratio 0.50, tangible asset value négatif, net debt/EBITDA 8.83x). Le secteur Industriels (XLI) est #3 sector rotation (momentum 9.57) et gagne +2.44 pts = soutien macro en accélération, mais ce facteur ne compense pas les malus structurels.
+
+**Conditions de réactivation vers SURVEILLER :**
+- RSI < 70 et volume normalisé < 1.0×
+- Score Global ajusté ≥ 35
 
 **Conditions de réactivation vers ATTENDRE :**
-- Cours > $16.60 sur volume > 120M confirmé en close ET close > $16.60
+- Cours < $16.64 (consensus) avec confirmation technique
 - Score Global ajusté ≥ 40
 
 **Conditions de réactivation vers ACHETER (Sizing Réduit) :**
-- Cours > $16.60 sur volume > 120M confirmé en close ET close > $16.60
 - Score Global ajusté ≥ 60
+- Consensus PT ≥ cours avec validation fondamentale
 
-**Conditions de dégradation vers ÉVITER :**
-- Repli sous $15.76 (low du jour)
-- Repli sous $15.46 (close du 16/06)
-- Repli sous $14.91 (SL cassé)
-- Repli sous $15.00 avant expiration 26/06 (risque gamma vers Max Pain $13.50)
+**Conditions de dégradation renforcée :**
+- Repli sous $17.43 (low du jour)
+- Repli sous $16.59 (ancien 52W high)
+- Repli sous $16.35 (SL cassé)
 
-**⚠️ Données partielles** — MM200 indisponible. Accounting risk indisponible. Quant report insuffisant. Social sentiment sans données Reddit. Transcripts NLP, insider trades détaillés, 13F complets, ETF flows, dark pool non disponibles.
+**⚠️ Données partielles** — MM200 indisponible. Accounting risk indisponible. Quant report insuffisant. Social sentiment sans données Reddit. Transcripts NLP, insider trades détaillés, 13F complets, ETF flows, dark pool non disponibles. Options corrompues (Max Pain $5.00 aberrant, Put/Call et Call OI nulls).
 
 ---
 

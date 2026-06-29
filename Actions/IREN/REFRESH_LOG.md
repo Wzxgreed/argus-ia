@@ -2,6 +2,17 @@
 
 ---
 
+## 2026-06-29 — Full Refresh Complété (snapshot 10:00 UTC)
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10.63% (seuil 5.0%)
+
+**Conclusion :** invalidate — downgrade majeur, thèse invalidée
+
+Le DRAFT_refresh a été déclenché automatiquement à 10:00 UTC par ATR_SPIKE sur le snapshot `data/latest.json` (fetched_at 2026-06-29T10:00:06 UTC). Les données brutes montrent une **chute de −14.9%** depuis le close du 2026-06-23 (cours $55.485 → $47.21) avec un **volume de retour massif** (50.84 M = 113.4% moyenne 20j). La MM50 à $54.80 est cassée en clôture avec une marge de −13.8% — confirmation de distribution institutionnelle. Le Short Interest atteint un **record historique de 18.63%** (+2.58 pts). L'Agent Recommandation a downgradé l'action de **ACHETER (Sizing Réduit, 60.5/100)** à **SURVEILLER (42.5/100)** — une dégradation de −18.0 pts portée par l'effondrement du Momentum (5.5 → 3.5/10). Les données options sont corrompues (Max Pain $20.00, put/call null) — la structure fiable du 23/06 ($40.00 / 3.67 / 21.4%) est conservée comme référence. La corrélation BTC reste le driver dominant (r=0.82, beta 2.1). Thèse **invalidée** : cassure MM50 confirmée sur volume élevé. DRAFT_refresh complété et archivé (`IREN_2026-06-29_DRAFT_refresh.md` → `_ARCHIVED_DRAFT_refresh_IREN_2026-06-29.md`). Fichier de référence : [IREN_2026-06-29_update.md](IREN_2026-06-29_update.md).
+
+---
+
 ## 2026-06-23 — Full Refresh Complété (snapshot 10:00 UTC)
 
 **Triggers :**
@@ -3160,6 +3171,24 @@ Le DRAFT_refresh a été déclenché automatiquement à 10:00 UTC par ATR_SPIKE 
 ---
 
 ## 2026-06-28 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10.63% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-29 — Full Refresh Triggered
+
+**Triggers :**
+- atr_spike (medium) : ATR relatif 10.63% (seuil 5.0%)
+
+**Conclusion :** [À compléter après analyse LLM]
+
+---
+
+## 2026-06-29 — Full Refresh Triggered
 
 **Triggers :**
 - atr_spike (medium) : ATR relatif 10.63% (seuil 5.0%)
