@@ -1,3 +1,9 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+---
+
 # Système d'Analyse d'Actions IA
 
 Chaque matin, le système produit trois livrables en un seul workflow :
@@ -13,23 +19,33 @@ Chaque matin, le système produit trois livrables en un seul workflow :
 Argus-IA/
 ├── CLAUDE.md                              ← Ce fichier
 ├── Makefile                               ← Commandes rapides (install, test, lint, pipeline, agents)
-├── INSTALL.md                             ← Guide d'installation rapide
-├── README.md                              ← Présentation du projet
-├── requirements.txt                       ← Dépendances Python
-├── pyproject.toml                         ← Configuration Python (packaging, outils)
-├── .env                                   ← Template de configuration API
+├── INSTALL.md                             ← Guide d'installation rapide (point d'entrée README)
+├── DEPLOY_VPS.md                          ← Guide de déploiement VPS (cron, nginx, api_server)
+├── requirements.txt                       ← Dépendances Python (pipeline)
+├── pyproject.toml                         ← Configuration Python (packaging, Black, Ruff, Mypy, Pytest)
+├── package.json                           ← Dépendances Node racine (framer-motion, non lié au frontend Next.js)
+├── .env                                   ← Template de configuration API (clés réelles → `.env.local`, gitignored)
 │
 ├── .github/
 │   └── workflows/
-│       └── ci.yml                         ← CI GitHub Actions (lint + test + validation)
+│       └── ci.yml                         ← CI GitHub Actions (lint + test + validation schema)
 │
 ├── config/
 │   └── watchlist.json                     ← Tickers, secteurs, symboles macro, settings
 │
-├── scripts/                               ← Pipeline de données Python
+├── frontend/                              ← Dashboard Next.js (export statique, lecture seule sur data/)
+│   ├── app/                              ← App Router (page.tsx, dashboard/)
+│   ├── components/                       ← Composants React (dashboard/, nav-bar, footer, sections)
+│   ├── scripts/copy-data.js              ← postbuild : copie data/*.json vers frontend/dist/data/
+│   └── next.config.js                    ← `output: 'export'`, `distDir: 'dist'` (site 100% statique)
+│
+├── scripts/                               ← Pipeline de données Python + outils opérationnels
 │   ├── run_morning.sh                     ← Wrapper pipeline matin (orchestrator + lockfile + auto-push)
 │   ├── pipeline_status.sh                  ← Surveillance du pipeline depuis un autre terminal
 │   ├── auto_push.sh                       ← Helper commit + push automatique post-agent/pipeline
+│   ├── analyse_ticker.sh                  ← Ajoute un ticker à la watchlist + fetch initial (make analyse)
+│   ├── deploy_pipeline.sh                 ← Déploiement/synchronisation vers le VPS
+│   ├── run_update_all.py / _cron.sh       ← Rafraîchit toutes les analyses existantes (cron alternatif)
 │   ├── yahoo_worker.py                   ← Worker isolé yfinance (one-shot subprocess + timeout OS)
 │   ├── yahoo_worker_daemon.py            ← Worker yfinance pré-chauffé (daemon stdin/stdout)
 │   ├── yahoo_client.py                   ← Client HTTP REST Yahoo (requests, sans yfinance)
@@ -38,19 +54,27 @@ Argus-IA/
 │   ├── fetch_prices.py                   ← Cours, volumes, technique, fondamentaux, options (Yahoo + FMP)
 │   ├── fetch_macro.py                    ← Indices, VIX, taux, FX, commodités, régime macro (Yahoo)
 │   ├── fetch_calendar.py                 ← Earnings dates, calendrier économique (Yahoo + FMP)
+│   ├── fetch_transcripts.py              ← NLP transcripts earnings (FMP Enterprise+ uniquement)
 │   ├── fmp_client.py                     ← Client HTTP FMP Stable API (base /stable/, session keep-alive)
-│   └── validate.py                       ← Sanity checks + rapport d'erreurs
+│   ├── validate.py                       ← Sanity checks + rapport d'erreurs
+│   ├── add_ticker.py                     ← Ajoute un ticker dans config/watchlist.json
+│   ├── generate_analysis.py / full_analysis.py / compile_report.py  ← Génération/compilation des rapports LLM
+│   ├── api_server.py                     ← Petit serveur HTTP (VPS) : déclenche une analyse depuis le dashboard
+│   ├── llm_proxy.py                      ← Proxy OpenAI-compatible local (Ollama/Anthropic) + tracking d'usage
+│   ├── ask_llm.py                        ← Client CLI pour interroger le proxy LLM local
+│   └── track_ollama.py                   ← Suivi de consommation Ollama
 │
 ├── agents/                                ← Agents Python (BaseAgent + Pydantic schemas)
 │   ├── base.py                           ← BaseAgent abstrait (load_config, write_output, log, timer)
 │   ├── schemas.py                        ← Schémas Pydantic de sortie pour tous les agents
 │   ├── observability.py                  ← Logging JSONL structuré + collecteur de métriques
 │   ├── event_bus.py                      ← Bus d'événements pub/sub en mémoire (singleton)
-│   ├── pipeline.yaml                     ← Déclaration DAG des dépendances inter-agents
+│   ├── pipeline.yaml                     ← Déclaration DAG des dépendances inter-agents (source de vérité pipeline)
 │   ├── orchestrator.py                   ← Runner Python : résolution topologique + exécution parallèle
 │   ├── dashboard.py                      ← Générateur HTML de dashboard post-pipeline
 │   ├── protocol_validator.py             ← Validation des protocoles .md et cohérence pipeline
-│   ├── [name]/agent.py                   ← Un dossier par agent (quant, geo, crypto, watchman, ...)
+│   ├── [name]/agent.py                   ← Un dossier par agent (quant, geo, crypto, watchman, news_fetcher,
+│   │                                        data_quality_gate, detect_major_events, update_context, ...)
 │   └── [name]/protocol.md                ← Protocole exécutable avec frontmatter YAML
 │
 ├── data/                                  ← Snapshots quotidiens (lu par l'agent)
@@ -145,11 +169,14 @@ Argus-IA/
 │   ├── MODULE_SIZING.md                   ← Règles de dimensionnement des positions
 │   └── MODULE_RISQUE_PORTEFEUILLE.md      ← Corrélations, stress tests, VaR
 │
-└── Opportunités/
-    ├── _TEMPLATE_OPPORTUNITES.md
-    ├── HISTORIQUE_SCORES.md
-    ├── BACKTESTING.md                     ← Suivi performance signaux J+5/J+20/J+60
-    └── YYYY-MM-DD.md
+├── Opportunités/
+│   ├── _TEMPLATE_OPPORTUNITES.md
+│   ├── HISTORIQUE_SCORES.md
+│   ├── BACKTESTING.md                     ← Suivi performance signaux J+5/J+20/J+60
+│   └── YYYY-MM-DD.md
+│
+└── Recommandations/
+    └── YYYY-MM-DD.md                      ← ACHETER/CONSERVER/ATTENDRE/RÉDUIRE/VENDRE générés par agents/recommandation/
 ```
 
 ---
@@ -261,12 +288,39 @@ Signaux clés : **corrélation 30j/90j** avec BTC, **beta BTC** (>1.5 = sur-expo
 
 ---
 
+### Agent News Fetcher — `agents/news_fetcher/agent.py` + `data/news_YYYY-MM-DD.json` ← NOUVEAU (agent racine du pipeline)
+**Périmètre :** collecte unifiée des news par ticker (Yahoo Finance v1/search), source unique consommée par les autres agents
+**Sources :** `yfinance` (news)
+**Produit :** `data/news_YYYY-MM-DD.json` + `data/news_latest.json` — lu ensuite par `geo`, `social`, `event_driven`, `watchman`, `detect_major_events`
+
+Sans dépendances dans le DAG (`agents/pipeline.yaml`), il s'exécute en Phase 1 avec `prices`/`macro`/`calendar`. **Ne jamais scanner les news directement via yfinance dans un autre agent** — toujours lire `data/news_latest.json` pour éviter les appels redondants.
+
+---
+
+### Agent Data Quality Gate — `agents/data_quality_gate/agent.py` + `data/quality_report_YYYY-MM-DD.json` ← NOUVEAU
+**Périmètre :** détection d'anomalies dans `data/latest.json` juste après le fetch, avant que les autres agents ne consomment les données
+**Sources :** `data/latest.json` (sortie de `fetch_prices.py`)
+**Produit :** `data/quality_report_YYYY-MM-DD.json` + `data/quality_report_latest.json`
+
+Détecte : cours stale (close identique 2+ jours), volume à 0 marché ouvert, spread High/Low aberrant, RSI/ATR placeholders (50.0 / 0.01 exacts), écart inter-jours > 25%, consensus FMP placeholder (`num_analysts == 0`). Un ticker `excluded` ne doit **jamais** être utilisé pour un score ou une recommandation (voir Étape 0a, point 1b). Bloque `validate` dans le DAG (`deps: [prices]`, `allow_fail: false`).
+
+---
+
 ### Agent Watchman — `agents/watchman/agent.py` + `Alertes/UPCOMING_EVENTS.md` ← NOUVEAU
 **Périmètre :** surveillance proactive des événements futurs par ticker : earnings dates, news CEO/M&A/guidance, insider trades significatifs, upgrades/downgrades, contrats gouvernementaux
 **Sources :** `yfinance` (calendar, news), `FMP Stable API` (earnings-calendar, insider-trading, upgrades-downgrades)
 **Produit :** `data/upcoming_events_YYYY-MM-DD.json` + `Alertes/UPCOMING_EVENTS.md` + `_preview.md` auto-généré si earnings ≤ 3j + `_update.md` flash si CEO/insider/analyste majeur
 
 Signaux clés : **calendrier earnings 30j** avec estimates EPS/Revenue, **news keywords futurs** (investor day, guidance, M&A, FDA), **insider trades >$1M**, **upgrades/downgrades massifs**, **alertes timeline** (🔴 ≤3j / 🟡 ≤7j / 🟢 ≤30j).
+
+---
+
+### Agent Detect Major Events — `agents/detect_major_events/agent.py` ← NOUVEAU
+**Périmètre :** détection automatique d'un événement structurant nécessitant un FULL REFRESH de l'analyse (vs simple `_update.md`)
+**Sources :** `data/latest.json` (prices), `data/news_latest.json`
+**Produit :** `Actions/[TICKER]/[TICKER]_YYYY-MM-DD_DRAFT_refresh.md` (voir Étape 0a, points 14 et Phase 0c)
+
+Déclencheurs : gap prix > ±5% overnight, volume > 3× moyenne 20j, ATR relatif > 5%, news keywords (acquisition, merger, CEO, guidance, bankruptcy, FDA, sanction, tariff), earnings surprise > 20%, golden/death cross. Le DRAFT généré doit toujours être complété automatiquement par le LLM (règle absolue, jamais laissé en l'état).
 
 ---
 
@@ -377,6 +431,15 @@ Score Global = Score Opportunité × 10
 Règles d'entrée : Score Opportunité ≥ 7/10, Filtre Qualité ≥ 4/6, Accounting ≠ 🔴, prix et ATR disponibles.
 Sizing : risk 1% capital / (2×ATR), max 10% par position, Kelly fraction 0.25.
 Sorties : SL = entrée − 2×ATR, TP = entrée + 3×ATR, time stop J+60, exit anticipé si score < 4/10.
+
+---
+
+### Agent Update Context — `agents/update_context/agent.py` + `Actions/[TICKER]/CONTEXT.md` ← NOUVEAU
+**Périmètre :** génération/rafraîchissement automatique de la mémoire court terme par ticker, dernière étape du pipeline
+**Sources :** `Actions/[TICKER]/INDEX.md`, `Actions/SUIVI_PRIX_CIBLES.md`, `Actions/SUIVI_EARNINGS_PREDICTIONS.md`, `Alertes/ALERTES.md`, `Alertes/UPCOMING_EVENTS.md`, `data/latest.json`
+**Produit :** `Actions/[TICKER]/CONTEXT.md` pour chaque ticker de la watchlist
+
+Écrit automatiquement thèse active, erreurs de prédiction passées, alertes actives, prochains événements, contexte technique (RSI/MM/ATR) et résumé de la dernière analyse. `deps: [recommandation, paper_trading, watchman]` dans le DAG — s'exécute donc en tout dernier, une fois tous les scores et niveaux du jour connus. Remplace la création manuelle de `CONTEXT.md` mentionnée à l'Étape 0b : le fichier est désormais maintenu automatiquement à chaque pipeline, il n'y a plus besoin de le créer à la main après la première analyse.
 
 ---
 
@@ -1059,11 +1122,11 @@ Tous les appels réseau passent par `http_get()` avec :
 - Empêche les cascades de requêtes vers un service en panne (ex: rate-limit Yahoo)
 
 ### Helper `scripts/auto_push.sh`
-Commit + push automatique des artefacts générés (data, analyses, alertes, logs). Usage :
+Commit + push automatique de **tout** l'arbre de travail (`git add -A`, `.gitignore` protège les fichiers sensibles). Usage :
 ```bash
 ./scripts/auto_push.sh "Message de commit optionnel"
 ```
-Stage automatiquement : `data/`, `Actions/`, `Actualités/`, `Opportunités/`, `Alertes/`, `Portefeuille/`, `Agents/`, `logs/`, `scripts/`, `Makefile`, `README.md`, `requirements.txt`, `pyproject.toml`, `.github/`.
+No-op silencieux si rien à committer. Crée en plus un tag quotidien `snapshot-YYYY-MM-DD` et pousse sur `origin main`. Configure `git config user.email/user.name` automatiquement si absent (utile en environnement VPS/CI sans identité git préconfigurée).
 
 ### `Makefile` — Commandes disponibles
 ```bash
@@ -1096,13 +1159,52 @@ make agent-social      # Social sentiment → commit + push
 make agent-fx          # FX exposure → commit + push
 make agent-event       # Event-Driven (M&A, buybacks, activism) → commit + push
 make agent-reco        # Recommandations (acheter/conserver/vendre) → commit + push
+
+# Nouveau ticker + proxy LLM local (Ollama/Anthropic) :
+make analyse TICKER=XXX  # Ajoute XXX à watchlist.json + fetch initial (scripts/analyse_ticker.sh)
+make proxy-start          # Démarre le proxy LLM local (localhost:11435) en daemon
+make proxy-stop            # Arrête le proxy
+make proxy-status          # État du proxy
+make proxy-ask PROMPT='...' [MODEL=kimi-k2.6]  # Interroge le proxy en CLI
+```
+
+### Commandes de développement (hors Makefile)
+```bash
+# Environnement : activer le venv avant toute commande manuelle
+source .venv/bin/activate
+
+# Lancer un seul fichier de test, ou un seul test
+pytest tests/test_fetch_prices.py -v
+pytest tests/test_fetch_prices.py::test_calc_rsi -v
+
+# Inclure les tests marqués integration/slow (skippés par défaut, voir pyproject.toml)
+pytest tests/ -m integration -v          # tests qui tapent les vraies API (besoin de .env.local)
+pytest tests/integration/ -v             # tests d'intégration orchestrator/event_bus/base_agent
+
+# Lancer un agent ou un script isolé (le PYTHONPATH doit inclure la racine du repo)
+PYTHONPATH=. python3 agents/quant/agent.py
+python3 scripts/fetch_prices.py --tickers AAPL,MSFT
+
+# Vérifier le DAG du pipeline sans rien exécuter
+python3 agents/orchestrator.py --dry-run
+```
+
+**Frontend** (`frontend/`, Next.js 16 / React 19, indépendant du reste — dashboard statique qui lit les JSON de `data/`) :
+```bash
+cd frontend
+npm install
+npm run dev      # Serveur de dev localhost:3000
+npm run build     # Export statique dans frontend/dist/ (output: 'export'), puis copie data/*.json (postbuild)
+npm run lint      # next lint
 ```
 
 ### CI GitHub Actions
-Fichier `.github/workflows/ci.yml` — exécuté à chaque push :
-1. Lint (Ruff)
-2. Tests (pytest, filtre `-m "not integration and not slow"`)
-3. Validation JSON Schema (`scripts/validate.py`)
+Fichier `.github/workflows/ci.yml` — 3 jobs parallèles sur push/PR vers `main`/`master` :
+1. **Lint** — `black --check` + `ruff check` sur `scripts/` et `tests/` uniquement (`agents/` n'est pas linté en CI)
+2. **Test** — matrice Python 3.10/3.11/3.12, `pytest -m "not integration and not slow" --cov=scripts`
+3. **Validate schema** — valide `data/latest.schema.json` puis un snapshot minimal via `scripts/validate.py`
+
+Aucune clé API en CI (pas de `FMP_API_KEY`) : les tests marqués `integration` sont toujours skippés côté GitHub Actions et ne s'exécutent qu'en local avec `.env.local`.
 
 ### Dépôt GitHub
 URL distante : `https://github.com/Wzxgreed/argus-ia.git`
